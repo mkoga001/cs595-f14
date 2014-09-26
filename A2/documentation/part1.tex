@@ -1,0 +1,60 @@
+ 
+
+
+\section{Problem 1}
+\label{part1}
+\begin{enumerate}
+\item Write a Python program that extracts 1000 unique links from
+Twitter.  You might want to take a look at:
+
+http://thomassileo.com/blog/2013/01/25/using-twitter-rest-api-v1-dot-1-with-python/
+
+\item But there are many other similar resources available on the web.  Note
+that only Twitter API 1.1 is currently available; version 1 code will
+no longer work.
+
+\item Also note that you need to verify that the final target URI (i.e., the
+one that responds with a 200) is unique.  You could have different
+shortened URIs for www.cnn.com.  For example, 
+
+http://cnn.it/1cTNZ3V\\
+http://t.co/BiYdsGotTd
+
+\item Both ultimately redirect to cnn.com, so they count as only 1 unique URI.
+Also note the second URI redirects twice -- don't stop at the first
+redirect.
+
+You might want to use the search feature to find URIs, or you can
+pull them from the feed of someone famous (e.g., Tim O'Reilly).
+
+Hold on to this collection -- we'll use it later throughout the semester.
+\end{enumerate}
+
+\subsection{Solution}
+
+Extracting 1000 unique links from Twitter was more complex endeavor than expected. 
+
+The following steps were taken in order to get the links 
+\begin{enumerate}
+\item First the key and secret keys for OATH and API are collected by registering an Application in Twitter with an account.
+\item TwitterSearch package is used to get the URI's from tweets for a specific keyword.
+\item All the URI's that are present in the tweets got from the search for a particular key word are put in an array set. By keeping it in a set eliminates the redundant entries. 
+\item Then checked whether the Url's are redirected to same website or not and also checked whether the extracted url is working or not. 
+\item To get the URLs form tweets it take so long and apart from that i faced the 429 error which says "too many requests", so i will have to waiti for 15 minutes to run the next time. 
+\item When I searched for 5000 urls form the tweets I got only 480 unique links out of them. so I kept incrasing the count to get 1000 unique links
+\item When I increased the count to 17000 I got 1500 unique links and this script took almost 40 minutes to run. 
+\item I could not even split the program into two different script as there might be repetition in the output got from both the scripts so I will have to run it in a single script.    
+\item This way collected 1000 URI's for keyword "twitter". 
+\end{enumerate}
+\newpage
+\subsection{Code Listing}
+Here is the python code that is used to collect Thousand URL's from twitter. 
+
+
+\lstinputlisting[language=Python,breaklines = true,frame=single,caption={Python program for acquiring 1000 unique links for a given keyword}, label=lst:q1-1,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{list_unique_links.py}
+\newpage
+\subsection{Results}
+
+
+\verbatiminput{samplelinks.txt}
+
