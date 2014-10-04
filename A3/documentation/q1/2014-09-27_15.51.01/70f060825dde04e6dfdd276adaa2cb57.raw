@@ -1,0 +1,1440 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-au" class=" ">
+	<head>
+		<title>Sport - Yahoo!7 Sport</title>
+        	
+<meta name="description" content="The one place for all Australian sports - including NRL, AFL, football, tennis, golf, motorsport and more. Live scores, news, video and photo galleries." />
+
+
+        	
+	<link rel="stylesheet" href="https://s.yimg.com/ao/i/mp/properties/sport/02/css/sports.g1394592866.css" type="text/css" media="all">
+	<link rel="stylesheet" href="https://s.yimg.com/ao/i/mp/studio-campaigns/beyondblue/style.g20140423165341.css" type="text/css" media="all">
+
+  <link rel="stylesheet" href="https://s.yimg.com/zz/combo?ao/i/mp/css/utility/y7-ad.s5920.css&ao/i/mp/media-properties/css/genie-widget/genie-widget.g20140925114142.css&ao/i/mp/properties/tv/fango/01/css/fango-checkin.s3861.css&ao/i/mp/css/video/style.s6985.css&ao/i/mp/css/gallery/style.s6389.css&ao/i/mp/properties/sport/02/css/sports-bannersflags.s6547.css&ao/i/mp/properties/sport/02/css/myteams.s6791.css&ao/i/mp/css/widgets/spreetsDeal.s6717.css&ao/i/mp/properties/sport/02/css/odin.s6792.css&ao/i/mp/css/widgets/top-left-fango.s6806.css&ao/i/mp/css/widgets/beforeafter.s6805.css&ao/i/mp/css/widgets/switcher-list.s6806.css&ao/i/mp/css/widgets/social-tabbifier.s6806.css&" type="text/css" media="all">
+
+
+	<link rel="stylesheet" href="https://s.yimg.com/ao/i/mp/properties/sport/02/css/mobile.s792.css" type="text/css" media="all">
+
+
+
+<!--[if IE 6]><link rel="stylesheet" href="https://s.yimg.com/ao/i/mp/properties/tv/02/css/ie.g1394592866.css"><script src="https://s.yimg.com/ao/i/mp/js/killie/killie.s614.js"></script>
+        <![endif]-->
+
+<meta name="apple-itunes-app" content="app-id=615813228" />
+
+
+        		<link rel="stylesheet" href="https://s.yimg.com/ao//i/mp/properties/sport/02/css/home.r1.1.css" type="text/css" media="all">
+	<link rel="stylesheet" href="https://s.yimg.com/dh/ap/sp/origin-countdown.css" type="text/css" media="all">
+	<link rel="stylesheet" href="https://s.yimg.com/dh/ap/au-sp/league-home-refresh.css" type="text/css" media="all">
+
+
+
+
+
+
+		
+
+<!-- modcss --><style type="text/css">BoSel {background-image:url(MyIm);background-color:MyBG;background-repeat:MyRep;} </style>
+
+
+
+    		
+        	
+<script type="text/javascript" src="https://s.yimg.com/zz/combo?yui-s:3.17.2/build/yui/yui-min.js&ao/i/mp/yui/yui3-aunz/loader/loader.s6996.js&ao/i/mp/yui/yui3-aunz/browsifizer/browsifizer.s2113.js"></script>
+<script type="text/javascript" src="https://sadmin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script type="text/javascript" src="https://s.yimg.com/ao/i/mp/yui/yui3-aunz/bc-video/bc-video-player.g1407815373.js"></script>
+
+
+
+
+
+
+
+
+        	
+        	
+		
+        	
+        	
+<meta name="twitter:url" content="https://au.sports.yahoo.com/" />
+<meta name="twitter:title" content="Sport - Yahoo!7 Sport" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:img:src" content="" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="article:publisher" content="https://www.facebook.com/Yahoo7Sport" />
+<meta property="og:title" content="Sport - Yahoo!7 Sport" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://au.sports.yahoo.com/" />
+<script>
+    YAHOO = window.YAHOO || {};
+    YAHOO.aunz = YAHOO.aunz || {};
+    YAHOO.aunz.meta = { url : 'https://au.sports.yahoo.com/' , spaceId : 16886733, contentType : 'e' };
+  </script>
+<link rel="stylesheet" href="https://s.yimg.com/ao/i/mp/css/uhd/uhd.s6967.css" />
+
+          
+<script language="JavaScript">
+var google_num_ads = 0;
+var google_last_ad_type = '';
+function google_ad_request_done(google_ads)
+{
+var s;
+
+if (google_ads.length == 0)
+return;
+
+google_num_ads += google_ads.length;
+google_last_ad_type = google_ads[0].type;
+s = '<h4><a class="heading ad_attribution" href="'+ google_info.feedback_url+'" target="_blank">Sponsored Links</a></h4>';
+if (google_ads[0].type == "html") {
+s += google_ads[0].snippet;
+}
+else if (google_ads[0].type == "text") {
+
+if (google_ads.length == 1) {
+ad_title_class = 'ad_title_large';
+ad_text_class = 'ad_text_large';
+ad_url_class = 'ad_url_large';
+} else {
+ad_title_class = 'ad_title';
+ad_text_class = 'ad_text';
+ad_url_class = 'ad_url';
+}
+for(var i=0; i < google_ads.length; i++) {
+s += '<div><h4><a class="' + ad_title_class + '" href="' + google_ads[i].url + '" target="_blank">' + google_ads[i].line1 + '</a></h4>' + 
+'<p class="url">' + '<a class="' + ad_url_class + '" href="' + google_ads[i].url + '" target="_blank">' + google_ads[i].visible_url + '</a></p>' +
+'<p class="' + ad_text_class + '">' + google_ads[i].line2 + ' ' + google_ads[i].line3 + '</p></div>'; 
+}
+}
+document.write(s);
+return;
+}
+</script>
+
+
+        
+	</head>
+    
+    <body>
+        <div id="y7-cont">
+                <div class="cont-inner">
+          <!-- encore top -->
+          <div class="clearfix">
+            <div id="encore">
+               <div id="encore-ad"></div>
+            </div>
+          </div>
+          <!-- // encore top -->
+
+	<!-- lightsout -->
+	<div class="yui-skin-sam">
+	        <div id="lightbox_press">
+	                <div id="lbbd"  align="center">
+        	                <div id="lightbox_flash"></div>
+	                </div>
+	        </div>
+	</div>
+	<!-- end lightsout -->
+
+			<!-- Header and Nav -->
+			<div id="hd">
+        		  <div class="y7-uni-hd">
+                		<script>
+		    YAHOO = window.YAHOO || {};
+		    YAHOO.aunz = YAHOO.aunz || {};
+		    YAHOO.aunz.meta = YAHOO.aunz.meta || {};
+		    YAHOO.aunz.meta.crumb = "";
+		    YAHOO.aunz.meta.yid = "";
+		    YAHOO.aunz.meta.name = "";
+		    YAHOO.aunz.meta.loginUrl = "https://login.yahoo.com/config/login?.done=https%3A%2F%2Fau.sports.yahoo.com%2F&.intl=au&.src=";
+		    YAHOO.aunz.meta.signinUrl = "https://login.yahoo.com/config/login?logout=1&.done=https://au.sports.yahoo.com/&.src=&.intl=au&.direct=1";
+		</script><div class="uhd" id="uhd">
+<div class="uhd-toolbar"><ul class="clearfix">
+<li class="uhd-user uhd-user-out" id="uhd-user-out">
+<a href="https://login.yahoo.com/config/login?.done=https%3A%2F%2Fau.sports.yahoo.com%2F&amp;.intl=au&amp;.src=" target="_top" rel="no-follow"><span>Sign In</span></a> or
+            <a href="https://edit.yahoo.com/config/eval_register?.done=https%3A%2F%2Fau.sports.yahoo.com%2F&amp;.intl=au&amp;.src=" target="_top" rel="no-follow"><span>Sign Up</span></a>
+</li>
+<li class="uhd-primary" id="uhd-primary">
+<a class="uhd-icon uhd-home" href="//au.yahoo.com/" target="_top"><span>Yahoo!7</span></a><a class="uhd-icon uhd-mail" href="//au.mail.yahoo.com/" target="_top"><span>Mail</span></a>
+</li>
+<li class="uhd-products" id="uhd-products"><ul>
+<li class="uhd-hoverable">
+<a href="//au.tv.yahoo.com/" target="_top"><span>TV</span></a><em><a href="//au.tv.yahoo.com/tv-guide/" target="_top"><span>TV Guide</span></a><a href="//au.tv.yahoo.com/plus7/" target="_top"><span>Watch TV online - PLUS7</span></a><a href="//au.fango.yahoo.com" target="_top"><span>Download FANGO</span></a><a class="uhd-feature" href="//au.tv.yahoo.com/tv-shows/" target="_top"><span>TV Shows</span></a><a href="//au.tv.yahoo.com/a-place-to-call-home/" target="_top"><span>A Place to Call Home</span></a><a href="//au.tv.yahoo.com/home-and-away/" target="_top"><span>Home and Away</span></a><a href="//au.tv.yahoo.com/house-rules/" target="_top"><span>House Rules</span></a><a href="//au.tv.yahoo.com/revenge/" target="_top"><span>Revenge</span></a><a href="//au.tv.yahoo.com/winners-and-losers/" target="_top"><span>Winners &amp; Losers</span></a></em>
+</li>
+<li class="uhd-hoverable">
+<a href="//au.news.yahoo.com/" target="_top"><span>News</span></a><em><a href="//au.news.yahoo.com/video/national/" target="_top"><span>News Video</span></a><a href="//au.news.yahoo.com/choose-your-city/" target="_top"><span>Local News</span></a><a href="//au.news.yahoo.com/national-news/" target="_top"><span>National News</span></a><a href="//au.news.yahoo.com/world/" target="_top"><span>World News</span></a><a href="//au.news.yahoo.com/technology/" target="_top"><span>Tech News</span></a><a href="http://weather.yahoo.com.au/" target="_top"><span>Weather Forecast</span></a><a class="uhd-feature" href="//au.news.yahoo.com/" target="_top"><span>Breaking News</span></a></em>
+</li>
+<li class="uhd-hoverable">
+<a href="//au.finance.yahoo.com/" target="_top"><span>Finance</span></a><em><a href="//au.finance.yahoo.com/news/" target="_top"><span>Finance News</span></a><a href="//au.pfinance.yahoo.com/" target="_top"><span>Personal Finance</span></a><a href="//au.smallbusiness.yahoo.com/" target="_top"><span>Small Business</span></a><a href="//au.finance.yahoo.com/q" target="_top"><span>Stock Quotes</span></a><a href="//au.finance.yahoo.com/currencies/converter/" target="_top"><span>Currency converter</span></a><a href="//au.pfinance.yahoo.com/calculators/income-tax.html"><span>Tax calculator</span></a><a href="//au.pfinance.yahoo.com/compare/"><span>Compare Rates</span></a></em>
+</li>
+<li class="uhd-hoverable">
+<a href="//au.sports.yahoo.com/" target="_top"><span>Sport</span></a><em><a href="//au.sports.yahoo.com/league/" target="_top"><span>NRL</span></a><a href="//au.sports.yahoo.com/afl/" target="_top"><span>AFL</span></a><a href="//au.sports.yahoo.com/rugby/" target="_top"><span>Rugby</span></a><a href="//au.sports.yahoo.com/live-scores/" target="_top"><span>Live Scores</span></a><a href="//au.sports.yahoo.com/videos/" target="_top"><span>Sports Video</span></a><a href="//au.oztips.yahoo.com/" target="_top"><span>OzTips</span></a><a class="uhd-feature" href="//au.sports.yahoo.com/" target="_top"><span>Other sports</span></a></em>
+</li>
+<li class="uhd-hoverable">
+<a href="//au.lifestyle.yahoo.com/" target="_top"><span>Lifestyle</span></a><em><a href="//au.lifestyle.yahoo.com/horoscopes/" target="_top"><span>Horoscopes</span></a><a href="//au.lifestyle.yahoo.com/food/" target="_top"><span>Recipes</span></a><a href="//au.lifestyle.yahoo.com/health/" target="_top"><span>Health</span></a><a href="//au.lifestyle.yahoo.com/fashion/" target="_top"><span>Fashion</span></a><a href="//au.lifestyle.yahoo.com/practical-parenting/" target="_top"><span>Parenting</span></a><a href="//au.lifestyle.yahoo.com/beauty/" target="_top"><span>Beauty</span></a><a href="//au.lifestyle.yahoo.com/banzai/" target="_top"><span>Active</span></a></em>
+</li>
+<li class="uhd-hoverable">
+<a href="//au.thehype.yahoo.com/" target="_top"><span>Entertainment</span></a><em><a href="//au.movies.yahoo.com/" target="_top"><span>Movies</span></a><a href="//au.launch.yahoo.com/" target="_top"><span>Music</span></a><a href="//www.eventfinder.com.au/" target="_top"><span>Events</span></a><a href="//au.games.yahoo.com/" target="_top"><span>Games</span></a><a class="uhd-feature" href="//au.thehype.yahoo.com/" target="_top"><span>The Hype</span></a></em>
+</li>
+<li class="uhd-hoverable">
+<a href="//au.totaltravel.yahoo.com/" target="_top"><span>Travel</span></a><em><a href="//au.totaltravel.yahoo.com/destinations/" target="_top"><span>Destinations</span></a><a href="//au.totaltravel.yahoo.com/accommodation/australia/" target="_top"><span>Accommodation</span></a><a href="//au.totaltravel.yahoo.com/travel-ideas/" target="_top"><span>Travel ideas</span></a><a href="//au.totaltravel.yahoo.com/travel-ideas/news-opinions/news/" target="_top"><span>Travel news</span></a><a href="//au.totaltravel.yahoo.com/travel-ideas/galleries/" target="_top"><span>Galleries</span></a><a href="//au.totaltravel.yahoo.com/travel-ideas/blogs/" target="_top"><span>Blogs</span></a></em>
+</li>
+<li class="uhd-hoverable">
+<a href="//yahoo.carsales.com.au/?rs_ref=yub" target="_top"><span>Cars</span></a><em><a href="//yahoo.carsales.com.au/new-cars/advanced-search.aspx/?rs_ref=yub" target="_top"><span>New Cars</span></a><a href="//yahoo.carsales.com.au/all-cars/search.aspx?cat=dealer+private+demo/?rs_ref=yub" target="_top"><span>Used Cars</span></a><a href="//yahoo.bikesales.com.au/?rs_ref=yub" target="_top"><span>Bikes</span></a><a href="//yahoo.boatsales.com.au/?rs_ref=yub" target="_top"><span>Boats</span></a><a href="//yahoo.carsales.com.au/sell-your-car/?rs_ref=yub" target="_top"><span>Sell Your Car</span></a></em>
+</li>
+<li class="uhd-hoverable">
+<a href="http://yahoo.seek.com.au/?tracking=CBP-YHO-HPG-Integration-001781" target="_top"><span>Jobs</span></a><em><a href="http://yahoo.seek.com.au//?tracking=CBP-YHO-LFS-RON-001794" target="_top"><span>Find a Job</span></a><a href="http://yahoo.seeklearning.com.au/?CampaignCode=lrn:oth:yaho:hp:unihead:courses" target="_top"><span>Education &amp; Training</span></a><a href="http://yahoo.seek.com.au/jobs-resources/?tracking=CBP-YHO-LFS-RON-001795" target="_top"><span>Jobseeking Advice</span></a><a href="http://yahoo.seek.com.au/MyAccount/Profile/?tracking=CBP-YHO-LFS-RON-001796" target="_top"><span>Post your resume</span></a></em>
+</li>
+<li class="uhd-hoverable">
+<a href="//www.yahoo.realestate.com.au/" target="_top"><span>Real Estate</span></a><em><a href="//www.yahoo.realestate.com.au/buy" target="_top"><span>Buy a home</span></a><a href="//www.yahoo.realestate.com.au/rent" target="_top"><span>Rent a home</span></a><a href="//www.yahoo.realestate.com.au/new-homes/new-apartments" target="_top"><span>Buy off the plan</span></a><a href="//www.yahoo.realestate.com.au/new-homes/new-home+designs" target="_top"><span>New home designs</span></a><a href="//www.yahoo.realestate.com.au/sold" target="_top"><span>Research house prices</span></a></em>
+</li>
+<li class="uhd-hoverable uhd-more">
+<a href="http://au.yahoo.com/more/" target="_top"><span>More</span></a><em><a href="//help.yahoo.com/l/au/yahoo7/helpcentral/" target="_top"><span>Help</span></a><a href="http://au.my.yahoo.com/" target="_top"><span>My Yahoo!7</span></a><a href="//spreets.com.au/" target="_top"><span>Daily Deals - Spreets</span></a><a href="http://dating.yahoo.com.au/channel/index.aspx?trackingid=2154389" target="_top"><span>Dating</span></a><a href="http://shopping.yahoo.com.au/" target="_top"><span>Shopping</span></a><a class="uhd-feature" href="http://au.yahoo.com/more/" target="_top"><span>Complete list of all Yahoo!7 sites</span></a></em>
+</li>
+</ul></li>
+</ul></div>
+<div class="uhd-titlebar clearfix">
+<a href="https://au.sports.yahoo.com/" title="Yahoo!7" class="uhd-logo"><img src="https://s.yimg.com/ao/evergreen/Yahoo7-Sport-X2.svg" alt="Yahoo!7" class="uhd-logo-svg"><img src="https://s.yimg.com/ao/evergreen/Yahoo7-Sport.png" alt="Yahoo!7" class="uhd-logo-png"></a><div class="uhd-search" id="uhd-search"><form action="//au.search.yahoo.com/search">
+<input type="hidden" name="fr" value="sport"><ul>
+<li class="uhd-field">
+<label for="uhd-search">
+                            Search
+                        </label><input placeholder="Search" id="uhd-search" type="text" name="p">
+</li>
+<li class="uhd-button"><button><span>Search Web</span></button></li>
+</ul>
+</form></div>
+</div>
+</div>
+
+        		  </div>
+        			<div class="masthead clearfix" id="hd-prop-logo-hero">
+	<h1><a href="http://au.sports.yahoo.com" class="home-logo"><span> </span></a>
+
+</h1>
+	<div id="north-ad">
+	
+	</div>
+</div><!-- end y7-advertisement -->
+
+
+
+        			
+	<div class="navigation" id="">
+    <h5 class="screen-reader">
+        <a href="#skip-">Skip navigation</a>
+    </h5>
+    <ul class="nav0 clearfix">        <li class=" first on " id="">
+            <a href="/" class="main-nav" id=""  >Home</a>
+            
+        </li>        <li class=" " id="">
+            <a href="/afl/" class="main-nav" id=""  >AFL</a>
+            
+        </li>        <li class=" " id="">
+            <a href="/league/" class="main-nav" id=""  >League</a>
+            
+        </li>        <li class=" " id="">
+            <a href="/rugby/" class="main-nav" id=""  >Rugby</a>
+            
+        </li>        <li class=" dropdown " id="">
+            <a href="/football/" class="main-nav" id=""  >Football</a>
+            <ul>            <li class=" ">
+                <a href="/football/a-league/">A-League</a>
+            </li>            <li class=" ">
+                <a href="/football/w-league/">W-League</a>
+            </li>            <li class=" ">
+                <a href="/football/epl/">EPL</a>
+            </li>            <li class=" ">
+                <a href="/football/serie-a/">Serie A</a>
+            </li>            <li class=" ">
+                <a href="/football/la-liga/">La Liga</a>
+            </li>            <li class=" ">
+                <a href="/football/champions-league/">Champions League</a>
+            </li>            <li class=" ">
+                <a href="/football/europa-cup/">Europa Cup</a>
+            </li>            <li class=" ">
+                <a href="/football/afc/">AFC</a>
+            </li>            <li class=" ">
+                <a href="/football/bundesliga/">Bundesliga</a>
+            </li>            <li class=" ">
+                <a href="/football/scottish-premier-league/">Scottish premier League</a>
+            </li></ul>
+        </li>        <li class=" " id="">
+            <a href="/cricket/" class="main-nav" id=""  >Cricket</a>
+            
+        </li>        <li class=" " id="">
+            <a href="/tennis/" class="main-nav" id=""  >Tennis</a>
+            
+        </li>        <li class=" " id="">
+            <a href="/golf/" class="main-nav" id=""  >Golf</a>
+            
+        </li>        <li class=" " id="">
+            <a href="/motorsport/" class="main-nav" id=""  >Motorsport</a>
+            
+        </li>        <li class=" " id="">
+            <a href="/racing/" class="main-nav" id=""  >Racing</a>
+            
+        </li>        <li class=" " id="">
+            <a href="/basketball/" class="main-nav" id=""  >Basketball</a>
+            
+        </li>        <li class=" " id="">
+            <a href="/nfl/" class="main-nav" id=""  >NFL</a>
+            
+        </li>        <li class=" " id="">
+            <a href="/videos/" class="main-nav" id=""  >Videos</a>
+            
+        </li>        <li class=" last " id="">
+            <a href="http://au.oztips.yahoo.com/" class="main-nav" id=""  >OzTips</a>
+            
+        </li>    </ul>
+    <ul class="nav1 clearfix">            <li class=" ">
+                <a href="/live-scores/">Live Scores</a>
+            </li>            <li class=" ">
+                <a href="/news/">Latest News</a>
+            </li>            <li class=" ">
+                <a href="/videos/">Videos</a>
+            </li>            <li class=" ">
+                <a href="/newsletter/">Newsletter</a>
+            </li>            <li class=" ">
+                <a href="/apps/">Apps</a>
+            </li></ul>
+    <a id="skip-" name="skip-"><!-- --></a>
+</div>
+	
+	<!-- 2col wrap -->
+<div class="col-wrap two-col clearfix">
+  <div class="col first">
+    <div class="search" id="y7-prop-search">
+  <form action="https://au.sports.search.yahoo.com/search" method="get">
+    <ul class="clearfix">
+      <li>
+        <label></label>
+      </li>
+      <li class="uhd-field">
+        <input name="p" class="field" type="text" placeholder="" />
+      </li>
+      <li><input name="fr" type="hidden" value="sports-au-ss" /></li>      <li>
+        <button type="submit" class="submit"><span>Sports Search</span></button>
+      </li>
+    </ul>
+  </form>
+</div>
+
+  </div>
+  <div class="col last">
+	
+  </div>
+</div>
+<!-- // 2col wrap -->
+
+	
+	
+
+
+        			<div class="nt1"><div class="y7-advertisement" id="y7-ad-nt1"><!-- SpaceID=0 robot -->
+</div><!-- end y7-advertisement -->
+</div>
+        			
+			</div>
+			<!-- //Header and Nav -->
+			<!-- Body Content  -->
+			<div id="bd" class="clearfix ">
+        			
+        			
+        			<!-- Content LHS -->
+<div class="bd-lhs">
+	<div class="bd-lhs-inner">
+		
+		
+		<div class="mod-wrap uberwrap clearfix">
+	<div class="modwrap-header">
+		
+
+	</div>
+	<div class="modwrap-lhs">
+		<!--aunz-uber-hero--><div class="mod herolead ">
+<div class="hd"><h1><a href="https://au.sports.yahoo.com/afl/news/article/-/25123379/hawks-win-12th-afl-flag/">Hawthorn&#039;s AFL greatness confirmed</a></h1></div>
+<div class="bd">
+<a href="https://au.sports.yahoo.com/afl/news/article/-/25123379/hawks-win-12th-afl-flag/" class="img-cont"><img src="https://s.yimg.com/dh/ap/default/140927/hawks_great_388.jpg" alt="Hawthorn&amp;#039;s AFL greatness confirmed"></a><div class="lead-story">
+<span class="source">Getty Images</span><div class="inner">
+<h4><a href="https://au.sports.yahoo.com/afl/news/article/-/25123379/hawks-win-12th-afl-flag/"></a></h4>
+<p>Hawthorn win their 12th AFL premiership and in doing so confirm they are one of the game&#039;s all-time great teams<span class="more">... <a href="https://au.sports.yahoo.com/afl/news/article/-/25123379/hawks-win-12th-afl-flag/">Read more</a></span></p>
+</div>
+</div>
+</div>
+</div>
+
+	</div>
+	<div class="modwrap-rhs">
+		<!--aunz-uber-hero-story--><div class="mod ubersection ">
+<a href="https://au.sports.yahoo.com/league/news/article/-/25126188/bulldogs-win-through-to-nrl-grand-final/"><img class="img" src="https://s.yimg.com/dh/ap/default/140927/bulldogs_win_60.jpg" alt=""></a><div class="text">
+<h4><a href="https://au.sports.yahoo.com/league/news/article/-/25126188/bulldogs-win-through-to-nrl-grand-final/">Dogs into grand final</a></h4>
+<p>Canterbury stand up to be counted, overcoming Penrith to book a place in the NRL grand final against Souths.</p>
+<ul></ul>
+</div>
+</div>
+
+	<!--aunz-uber-hero-story--><div class="mod ubersection ">
+<a href="https://au.sports.yahoo.com/afl/news/article/-/25126078/second-norm-smith-medal-for-hodge-in-afl/"><img class="img" src="https://s.yimg.com/dh/ap/default/140927/luke_hodge_norm_smith_60.jpg" alt=""></a><div class="text">
+<h4><a href="https://au.sports.yahoo.com/afl/news/article/-/25126078/second-norm-smith-medal-for-hodge-in-afl/">Hodge wins Norm Smith</a></h4>
+<p>Hawthorn captain Luke Hodge becomes only the third man to win two Norm Smith Medals as best in a grand final.</p>
+<ul></ul>
+</div>
+</div>
+
+	<!--aunz-uber-hero-story--><div class="mod ubersection ">
+<a href="https://au.sports.yahoo.com/afl/news/article/-/25125867/goodes-yet-to-make-a-call-on-afl-in-2015/"><img class="img" src="https://s.yimg.com/dh/ap/default/140927/adam_goodes_future_60.jpg" alt=""></a><div class="text">
+<h4><a href="https://au.sports.yahoo.com/afl/news/article/-/25125867/goodes-yet-to-make-a-call-on-afl-in-2015/">Goodes yet to make call</a></h4>
+<p>Adam Goodes is yet to make a decision on his future as he soaks up one the most hurtful losses of his career.</p>
+<ul></ul>
+</div>
+</div>
+
+	<!--aunz-uber-hero-story--><div class="mod ubersection ">
+<a href="https://au.sports.yahoo.com/afl/news/article/-/25125886/hawks-rioli-savours-afl-premiership/"><img class="img" src="https://s.yimg.com/dh/ap/default/140927/cyril_rioli_win_60.jpg" alt=""></a><div class="text">
+<h4><a href="https://au.sports.yahoo.com/afl/news/article/-/25125886/hawks-rioli-savours-afl-premiership/">Rioli savours victory</a></h4>
+<p>For three-time winner Cyril Rioli, the 2014 grand final victory over Sydney is by far the best of his career.</p>
+<ul></ul>
+</div>
+</div>
+
+	
+	
+	
+	
+	
+	
+	          	         
+	</div>
+	<div class="modwrap-footer clearfix">
+		<!-- Content 3col -->
+<div id="bd" class="clearfix">
+	
+<div class="mod simpleimage ">
+  <div class="hd"><h2></h2></div>
+  <div class="bd">
+    <a href="http://bit.ly/oztipshome" target="_blank"><img src="https://s.yimg.com/dh/ap/oztips/EPLALEGAUEFPSPORT.jpg" alt="Football Tipping"></a>  </div>
+    <div class="ft">
+  </div>
+  </div>
+
+
+	<!--aunz-uber-hero-story--><div class="mod ubersection ">
+<a href=""><img class="img" src="https://s.yimg.com/dh/ap/default/140926/sam_burgess_bunnies_60.jpg" alt=""></a><div class="text">
+<h4><a href="">Daily news briefs</a></h4>
+<p></p>
+<ul>
+<li><a href="https://au.sports.yahoo.com/league/news/article/-/25124754/souths-not-looking-to-life-after-burgess/">Life after Burgess?</a></li>
+<li><a href="https://au.sports.yahoo.com/football/news/article/-/25125119/rampant-ronaldo-insists-he-is-not-in-need-of-rest/">Ronaldo needs rest?</a></li>
+<li><a href="https://au.sports.yahoo.com/motorsport/news/article/-/25125117/rossi-targets-san-marino-repeat-at-aragon-grand-prix/">Rossi eyes San Marino</a></li>
+<li><a href="https://au.sports.yahoo.com/rugby/news/article/-/25123959/former-rugby-player-guilty-of-axe-killings/">Rugby player murders</a></li>
+</ul>
+</div>
+</div>
+
+	
+<div class="mod simpleimage ">
+  <div class="hd"><h2></h2></div>
+  <div class="bd">
+    <a href="http://au.sports.yahoo.com/apps/" target="_blank"><img src="https://s.yimg.com/dh/ap/au-sp/7sportapppromo.jpg" alt=""></a>  </div>
+    <div class="ft">
+  </div>
+  </div>
+
+
+</div>
+<!-- //Content 3col -->
+
+	</div>
+</div>
+		
+<div class="mod simpleimage noborder nostyle">
+  <div class="hd"><h2></h2></div>
+  <div class="bd">
+    <a href="https://7viewervote.com/?app=sevensport" target="_blank"><img src="https://s.yimg.com/ao/sp/viewer-vote-lhs-strap.jpg" alt="Viewer Vote"></a>  </div>
+    <div class="ft">
+  </div>
+  </div>
+
+
+		
+		<!--collection-carousel--><div class="mod aunz-collection-carousel-mp video-playlist wide-aspect featurecarousel rapid-track" data-value="aunz-collection-carousel" id="y7module542713f91acf3">
+<div class="hd"><h2>Latest Sport Videos</h2></div>
+<div class="bd carouselmod"><ol class="clearfix">
+<li class="asset-video">
+<a data-ylk="ct:3" class="img-cont vidimg" href="//au.sports.yahoo.com/afl/videos/watch/25126053/hawks-celebrate-grand-final-victory/"><img width="142" height="81" style="width:142px;height:81px;" src="https://s.yimg.com/iu/api/res/1.2/xk2ZD.rYcWyEBJbqmeV1iA--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTE0MjtoPTgxO2R4PTY7ZHk9MTtjdz02MjE7Y2g9MzUzO3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140927/nonpremium_captions_0927_1800_vic_afl_lrg-1a2cu6k.jpg"><span class="vidimg-play"><span class="txt">Play Video</span><span class="matte"></span></span></a><p><a data-ylk="ct:3" href="//au.sports.yahoo.com/afl/videos/watch/25126053/hawks-celebrate-grand-final-victory/">Hawks celebrate grand final victory</a></p>
+</li>
+<li class="asset-video">
+<a data-ylk="g:cfd3941d-40f2-395d-ad96-cd1aa1dfdbed;ct:3" class="img-cont vidimg" href="//au.sports.yahoo.com/league/videos/watch/25125822/bulldogs-face-off-against-panthers/"><img width="142" height="81" style="width:142px;height:81px;" src="https://s.yimg.com/iu/api/res/1.2/Td0wvDByz3SLd_J3TWIq8g--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTE0MjtoPTgxO2R4PTY7ZHk9MTtjdz02MjE7Y2g9MzUzO3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140927/nonpremium_captions_0927_1800_nsw_nrl_lrg-1a2ctjs.jpg"><span class="vidimg-play"><span class="txt">Play Video</span><span class="matte"></span></span></a><p><a data-ylk="g:cfd3941d-40f2-395d-ad96-cd1aa1dfdbed;ct:3" href="//au.sports.yahoo.com/league/videos/watch/25125822/bulldogs-face-off-against-panthers/">Bulldogs face off against Panthers</a></p>
+</li>
+<li class="asset-video">
+<a data-ylk="ct:3" class="img-cont vidimg" href="//au.sports.yahoo.com/afl/videos/watch/25125819/hawks-hammer-swans-in-grand-final/"><img width="142" height="81" style="width:142px;height:81px;" src="https://s.yimg.com/iu/api/res/1.2/lXeJrfXCOVXzSyBmCwJvGw--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTE0MjtoPTgxO2R4PTY7ZHk9MTtjdz02MjE7Y2g9MzUzO3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140927/nonpremium_captions_0927_1800_nsw_afl_lrg-1a2cte9.jpg"><span class="vidimg-play"><span class="txt">Play Video</span><span class="matte"></span></span></a><p><a data-ylk="ct:3" href="//au.sports.yahoo.com/afl/videos/watch/25125819/hawks-hammer-swans-in-grand-final/">Hawks hammer Swans in grand final</a></p>
+</li>
+<li class="asset-video">
+<a data-ylk="g:5248280d-814a-3345-9f54-83a814e3d3a0;ct:3" class="img-cont vidimg" href="//au.sports.yahoo.com/afl/videos/watch/25125529/hawks-claim-afl-premiership-trophy/"><img width="142" height="81" style="width:142px;height:81px;" src="https://s.yimg.com/iu/api/res/1.2/HktQz7L.jcDUt7U5W9Hb9g--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTE0MjtoPTgxO2R4PTY7ZHk9MTtjdz02MjE7Y2g9MzUzO3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140927/nonpremium_nocaptions_0927_afl_trophy_lrg-1a2cqti.jpg"><span class="vidimg-play"><span class="txt">Play Video</span><span class="matte"></span></span></a><p><a data-ylk="g:5248280d-814a-3345-9f54-83a814e3d3a0;ct:3" href="//au.sports.yahoo.com/afl/videos/watch/25125529/hawks-claim-afl-premiership-trophy/">Hawks claim AFL premiership trophy</a></p>
+</li>
+<li class="asset-video">
+<a data-ylk="ct:3" class="img-cont vidimg" href="//au.sports.yahoo.com/videos/watch/25124637/pre-game-discovered/"><img width="142" height="81" style="width:142px;height:81px;" src="https://s.yimg.com/iu/api/res/1.2/0MyIQ3qp2eGkwmQE0HW67g--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTE0MjtoPTgxO2R4PTY7ZHk9MTtjdz02MjE7Y2g9MzUzO3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140927/nonpremium_nocaptions_0927_pregame_suits_lrg-1a2c8be.jpg"><span class="vidimg-play"><span class="txt">Play Video</span><span class="matte"></span></span></a><p><a data-ylk="ct:3" href="//au.sports.yahoo.com/videos/watch/25124637/pre-game-discovered/">Pre-game: Discovered</a></p>
+</li>
+<li class="asset-video">
+<a data-ylk="g:59f18efa-f77b-3b11-a445-fd95cd50d6e5;ct:3" class="img-cont vidimg" href="//au.sports.yahoo.com/videos/watch/25124633/ed-sheeran-joins-the-panel/"><img width="142" height="81" style="width:142px;height:81px;" src="https://s.yimg.com/iu/api/res/1.2/VyFvoZ9i56NBhkF8Gz7lJQ--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTE0MjtoPTgxO2R4PTY7ZHk9MTtjdz02MjE7Y2g9MzUzO3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140927/nonpremium_nocaptions_0927_pregame_ed_lrg-1a2c8bc.jpg"><span class="vidimg-play"><span class="txt">Play Video</span><span class="matte"></span></span></a><p><a data-ylk="g:59f18efa-f77b-3b11-a445-fd95cd50d6e5;ct:3" href="//au.sports.yahoo.com/videos/watch/25124633/ed-sheeran-joins-the-panel/">Ed Sheeran joins the panel</a></p>
+</li>
+<li class="asset-video">
+<a data-ylk="g:ac41c145-7fc1-3b2b-b8f8-9dc5f9376d3b;ct:3" class="img-cont vidimg" href="//au.sports.yahoo.com/videos/watch/25124600/panel-of-power-for-second-hour/"><img width="142" height="81" style="width:142px;height:81px;" src="https://s.yimg.com/iu/api/res/1.2/LjykYgxFhSEpsPaQhd7a8w--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTE0MjtoPTgxO2R4PTY7ZHk9MTtjdz02MjE7Y2g9MzUzO3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140927/nonpremium_captions_0927_gameday_spare_lrg-1a2c81t.jpg"><span class="vidimg-play"><span class="txt">Play Video</span><span class="matte"></span></span></a><p><a data-ylk="g:ac41c145-7fc1-3b2b-b8f8-9dc5f9376d3b;ct:3" href="//au.sports.yahoo.com/videos/watch/25124600/panel-of-power-for-second-hour/">Panel of power for second hour</a></p>
+</li>
+<li class="asset-video">
+<a data-ylk="g:cb906e65-a98d-3c60-b6ce-abfe0c0f14d9;ct:3" class="img-cont vidimg" href="//au.sports.yahoo.com/afl/videos/watch/25124552/this-year-in-afl/"><img width="142" height="81" style="width:142px;height:81px;" src="https://s.yimg.com/iu/api/res/1.2/O9LgU7WcVLb9K27VIKRM2w--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTE0MjtoPTgxO2R4PTY7ZHk9MTtjdz02MjE7Y2g9MzUzO3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140927/nonpremium_nocaptions_0927_pregame_mick_lrg-1a2c6mv.jpg"><span class="vidimg-play"><span class="txt">Play Video</span><span class="matte"></span></span></a><p><a data-ylk="g:cb906e65-a98d-3c60-b6ce-abfe0c0f14d9;ct:3" href="//au.sports.yahoo.com/afl/videos/watch/25124552/this-year-in-afl/">This year in AFL</a></p>
+</li>
+<li class="asset-video">
+<a data-ylk="g:07c67a61-5234-33db-a52f-0446f9d360e2;ct:3" class="img-cont vidimg" href="//au.sports.yahoo.com/videos/watch/25124550/2014-afl-goal-highlights/"><img width="142" height="81" style="width:142px;height:81px;" src="https://s.yimg.com/iu/api/res/1.2/SjFfQGBDiUi_V8rpFeqX1Q--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTE0MjtoPTgxO2R4PTY7ZHk9MTtjdz02MjE7Y2g9MzUzO3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140927/nonpremium_nocaptions_0927_gameday_part81_lrg-1a2c6l4.jpg"><span class="vidimg-play"><span class="txt">Play Video</span><span class="matte"></span></span></a><p><a data-ylk="g:07c67a61-5234-33db-a52f-0446f9d360e2;ct:3" href="//au.sports.yahoo.com/videos/watch/25124550/2014-afl-goal-highlights/">2014 AFL goal highlights</a></p>
+</li>
+<li class="asset-video">
+<a data-ylk="g:dcbbd594-74ec-363c-99e7-bd2d18413ab8;ct:3" class="img-cont vidimg" href="//au.sports.yahoo.com/afl/videos/watch/25124547/chris-hemsworth-joins-the-panel/"><img width="142" height="81" style="width:142px;height:81px;" src="https://s.yimg.com/iu/api/res/1.2/aChY1WgRl_eRSCfgM0l.FA--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTE0MjtoPTgxO2R4PTY7ZHk9MTtjdz02MjE7Y2g9MzUzO3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140927/nonpremium_nocaptions_0927_pregame_chris_lrg-1a2c6kv.jpg"><span class="vidimg-play"><span class="txt">Play Video</span><span class="matte"></span></span></a><p><a data-ylk="g:dcbbd594-74ec-363c-99e7-bd2d18413ab8;ct:3" href="//au.sports.yahoo.com/afl/videos/watch/25124547/chris-hemsworth-joins-the-panel/">Chris Hemsworth joins the panel</a></p>
+</li>
+<li class="asset-video">
+<a data-ylk="g:a13f776f-f590-3b0c-bb49-34732d8d9ff3;ct:3" class="img-cont vidimg" href="//au.sports.yahoo.com/videos/watch/25124538/lenny-the-st-kilda-legend/"><img width="142" height="81" style="width:142px;height:81px;" src="https://s.yimg.com/iu/api/res/1.2/LHHcUcPtM26AZt4b2YjjMQ--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTE0MjtoPTgxO2R4PTY7ZHk9MTtjdz02MjE7Y2g9MzUzO3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140927/nonpremium_nocaptions_0927_gameday_part7_lrg-1a2c6j5.jpg"><span class="vidimg-play"><span class="txt">Play Video</span><span class="matte"></span></span></a><p><a data-ylk="g:a13f776f-f590-3b0c-bb49-34732d8d9ff3;ct:3" href="//au.sports.yahoo.com/videos/watch/25124538/lenny-the-st-kilda-legend/">Lenny the St. Kilda legend</a></p>
+</li>
+<li class="asset-video">
+<a data-ylk="g:7fc9882c-1d5d-3f0e-b0be-b5eaa05d6084;ct:3" class="img-cont vidimg" href="//au.sports.yahoo.com/videos/watch/25124536/best-falcons-in-afl/"><img width="142" height="81" style="width:142px;height:81px;" src="https://s.yimg.com/iu/api/res/1.2/WzHjvJz90w76MvgD8snLeA--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTE0MjtoPTgxO2R4PTY7ZHk9MTtjdz02MjE7Y2g9MzUzO3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140927/nonpremium_nocaptions_0927_gameday_part9_lrg-1a2c6j0.jpg"><span class="vidimg-play"><span class="txt">Play Video</span><span class="matte"></span></span></a><p><a data-ylk="g:7fc9882c-1d5d-3f0e-b0be-b5eaa05d6084;ct:3" href="//au.sports.yahoo.com/videos/watch/25124536/best-falcons-in-afl/">Best falcons in AFL</a></p>
+</li>
+</ol></div>
+<div class="ft"></div>
+</div>
+
+
+		
+		<!-- 2col wrap -->
+<div class="mod-wrap clearfix">
+  <div class="modwrap-lhs">
+    <!--collection-feature--><div class="mod feature-collection feature rapid-track" data-vlaue="aunz-collection-feature" id="y7module542713c644d8f">
+<div class="hd"><h2>AFL</h2></div>
+<div class="bd"><ul class="clearfix">
+<li class="first clearfix">
+<a class="img-cont" href="//au.sports.yahoo.com/afl/news/article/-/25123379/hawks-outmuscle-swans-for-afl-flag/" data-ylk="g:8f2d65f3-3170-3941-835f-9191ac59ee26;ct:1"><img width="118" height="88" alt="Hawks outmuscle Swans for AFL flag" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/YBUlL2R62.Hgd5EWbTec_A--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTQzO2R5PTE7Y3c9NTM2O2NoPTM5OTtxPTcwO3JvdGF0ZT1hdXRv/https://s.yimg.com/ea/img/-/140927/hawks_players_620_1a2cu2r-1a2cu32.jpg"></a><h3><a href="//au.sports.yahoo.com/afl/news/article/-/25123379/hawks-outmuscle-swans-for-afl-flag/" data-ylk="g:8f2d65f3-3170-3941-835f-9191ac59ee26;ct:1">Hawks outmuscle Swans for AFL flag</a></h3>
+<p>Hawthorn surprised even themselves with how easily they beat Sydney for their 12th AFL...</p>
+</li>
+<li class="clearfix">
+<a class="img-cont" href="//au.sports.yahoo.com/afl/news/article/-/25126078/second-norm-smith-medal-for-hodge-in-afl/" data-ylk="ct:1"><img width="118" height="88" alt="Second Norm Smith Medal for Hodge in AFL" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/nBu8hJFHh_Xp8No49RE6pw--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTMwO2R5PTE7Y3c9NTM1O2NoPTM5ODtxPTcwO3JvdGF0ZT1hdXRv/https://s.yimg.com/ea/img/-/140927/456177382_1a2d6d4-1a2d6f1.jpg"></a><h3><a href="//au.sports.yahoo.com/afl/news/article/-/25126078/second-norm-smith-medal-for-hodge-in-afl/" data-ylk="ct:1">Second Norm Smith Medal for Hodge in AFL</a></h3>
+<p>Hawthorn captain Luke Hodge has become only the third man to win two Norm Smith Medals as...</p>
+</li>
+<li class="clearfix">
+<a class="img-cont" href="//au.sports.yahoo.com/afl/news/article/-/25125867/goodes-yet-to-make-a-call-on-afl-in-2015/" data-ylk="ct:1"><img width="118" height="88" alt="Goodes yet to make a call on AFL in 2015" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/Lb6BCAmuLsse_EvJqjjIgw--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTE7ZHk9MTtjdz01OTM7Y2g9NDQzO3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140927/456176706_1a2d0qt-1a2d0sj.jpg"></a><h3><a href="//au.sports.yahoo.com/afl/news/article/-/25125867/goodes-yet-to-make-a-call-on-afl-in-2015/" data-ylk="ct:1">Goodes undecided on future</a></h3>
+<p>Sydney veteran yet to determine whether grand final loss is swan song.</p>
+</li>
+</ul></div>
+</div>
+
+  </div>
+  <div class="modwrap-rhs">
+	<!--collection-feature--><div class="mod feature-collection latest rapid-track" data-vlaue="aunz-collection-feature" id="y7module542713f8bc8ea">
+<div class="hd"><h2>League</h2></div>
+<div class="bd"><ul class="clearfix">
+<li class="first clearfix">
+<a class="img-cont" href="//au.sports.yahoo.com/league/news/article/-/25126188/bulldogs-show-courage-to-make-nrl-gf/" data-ylk="ct:1"><img width="118" height="88" alt="Bulldogs show courage to make NRL GF" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/pvEUNpjnA7OanF71SgLU_A--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTE7ZHk9MTtjdz0zODc7Y2g9Mjg5O3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140927/bulldogs_win_388_1a2da2h-1a2da3n.jpg"></a><h3><a href="//au.sports.yahoo.com/league/news/article/-/25126188/bulldogs-show-courage-to-make-nrl-gf/" data-ylk="ct:1">Bulldogs show courage to make NRL GF</a></h3>
+<p>Canterbury are through to the NRL grand final after a courageous six-point win over Penrith on Saturday night.</p>
+</li>
+<li class="clearfix">
+<a class="img-cont" href="//au.sports.yahoo.com/league/news/article/-/25125003/williams-ends-nrl-stint-to-rejoin-all-blacks/" data-ylk="g:da66a5ee-7415-307d-a02b-c322484db370;ct:1"><img width="118" height="88" alt="Williams ends NRL stint to rejoin All Blacks" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/6AFl9LuSEoGkbF5bEUPkMw--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTQ2O2R5PTE7Y3c9NDIxO2NoPTMxMztxPTcwO3JvdGF0ZT1hdXRv/https://s.yimg.com/ea/img/-/140927/94e78607b621cbf6b01fe9a4d2296c4244ce4878-1a2cev1.jpg"></a><h3><a href="//au.sports.yahoo.com/league/news/article/-/25125003/williams-ends-nrl-stint-to-rejoin-all-blacks/" data-ylk="g:da66a5ee-7415-307d-a02b-c322484db370;ct:1">Williams ends NRL stint to rejoin All Blacks</a></h3>
+<p>Sydney (AFP) - Code swapper Sonny Bill Williams says he leaves Australia's National Rugby League with no regrets but won't rule out a possible return to the Sydney Roosters before his playing career...</p>
+</li>
+<li class="clearfix">
+<a class="img-cont" href="//au.sports.yahoo.com/league/news/article/-/25124787/roosters-coach-grapples-with-nrl-exit/" data-ylk="ct:1"><img width="118" height="88" alt="Roosters coach grapples with NRL exit" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/XNLoNfUIv4mDj2UqCNqG5g--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTE1ODtkeT0xO2N3PTk2NTtjaD03MTk7cT03MDtyb3RhdGU9YXV0bw--/https://s.yimg.com/ea/img/-/140927/20140927_roosters_1280x720-1a2cagi.jpg"></a><h3><a href="//au.sports.yahoo.com/league/news/article/-/25124787/roosters-coach-grapples-with-nrl-exit/" data-ylk="ct:1">Roosters coach grapples with NRL exit</a></h3>
+<p>Sydney Roosters coach Trent Robinson is struggling to explain just why the NRL premiers' title defence ended a week shy of the grand final.</p>
+</li>
+</ul></div>
+</div>
+
+  </div>
+</div>
+<!-- // 2col wrap -->
+
+		<!-- 2col wrap -->
+<div class="mod-wrap clearfix">
+  <div class="modwrap-lhs">
+    <!--collection-feature--><div class="mod feature-collection latest rapid-track" data-vlaue="aunz-collection-feature" id="y7module542713f8a99b1">
+<div class="hd"><h2>Rugby</h2></div>
+<div class="bd"><ul class="clearfix">
+<li class="first clearfix">
+<a class="img-cont" href="//au.sports.yahoo.com/rugby/news/article/-/25126445/late-tries-give-springboks-bonus-point-win/" data-ylk="g:8f74a7f5-879e-3f19-b6ed-ae398e0dc1f1;ct:1"><img width="118" height="88" alt="Late tries give Springboks bonus-point win" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/nKmkzuV1ZGUGfOwaW6oCfg--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTI4O2R5PTE7Y3c9NDU3O2NoPTM0MDtxPTcwO3JvdGF0ZT1hdXRv/https://s.yimg.com/ea/img/-/140928/9923f5206e939d80b7190933be3963766fe05ae4-1a2dvbr.jpg"></a><h3><a href="//au.sports.yahoo.com/rugby/news/article/-/25126445/late-tries-give-springboks-bonus-point-win/" data-ylk="g:8f74a7f5-879e-3f19-b6ed-ae398e0dc1f1;ct:1">Late tries give Springboks bonus-point win</a></h3>
+<p>Cape Town (AFP) - South Africa scored three late tries to defeat Australia 28-10 Saturday in a Rugby Championship Test at Newlands stadium in Cape Town.</p>
+</li>
+<li class="clearfix">
+<a class="img-cont" href="//au.sports.yahoo.com/rugby/news/article/-/25126393/toulon-hold-off-montpellier-to-lead-french-top-14/" data-ylk="g:21507d1f-fd50-39ab-8f47-6d9725a33073;ct:1"><img width="118" height="88" alt="Toulon hold off Montpellier to lead French Top 14" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/u28848o1kdd6oY3myWYW_w--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTI4O2R5PTE7Y3c9NDU3O2NoPTM0MDtxPTcwO3JvdGF0ZT1hdXRv/https://s.yimg.com/ea/img/-/140928/81693d434581e4363920632469c6137b1159fb9e-1a2dst1.jpg"></a><h3><a href="//au.sports.yahoo.com/rugby/news/article/-/25126393/toulon-hold-off-montpellier-to-lead-french-top-14/" data-ylk="g:21507d1f-fd50-39ab-8f47-6d9725a33073;ct:1">Toulon hold off Montpellier to lead French Top 14</a></h3>
+<p>Paris (AFP) - Toulon surged to provisional pole position in the French Top 14 with a hard fought bonus-point 40-17 victory at home against Montpellier on Saturday.</p>
+</li>
+<li class="clearfix">
+<a class="img-cont" href="//au.sports.yahoo.com/rugby/news/article/-/25125111/mccaw-eyes-matching-meads-all-blacks-eye-title/" data-ylk="g:1c95b08d-e95c-36f6-8d8a-1a41acd1e5b5;ct:1"><img width="118" height="88" alt="McCaw eyes matching Meads, All Blacks eye title" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/cWYbh9Zr_0dU3aR3ZgQ60Q--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTMzO2R5PTE7Y3c9NTMxO2NoPTM5NTtxPTcwO3JvdGF0ZT1hdXRv/https://s.yimg.com/ea/img/-/140927/456142296_1a2ckou-1a2ckpm.jpg"></a><h3><a href="//au.sports.yahoo.com/rugby/news/article/-/25125111/mccaw-eyes-matching-meads-all-blacks-eye-title/" data-ylk="g:1c95b08d-e95c-36f6-8d8a-1a41acd1e5b5;ct:1">McCaw eyes matching Meads, All Blacks eye title</a></h3>
+<p>Skipper Richie McCaw will equal a 43-year record Saturday when New Zealand seek a bonus-point win over Argentina in La Plata to retain the Rugby Championship title.</p>
+</li>
+</ul></div>
+</div>
+
+  </div>
+  <div class="modwrap-rhs">
+	<!--collection-feature--><div class="mod feature-collection feature rapid-track" data-vlaue="aunz-collection-feature" id="y7module542713f89c669">
+<div class="hd"><h2>Football</h2></div>
+<div class="bd"><ul class="clearfix">
+<li class="first clearfix">
+<a class="img-cont" href="//au.sports.yahoo.com/football/news/article/-/25126327/chelsea-preserve-lead-rooney-off-in-united-win/" data-ylk="g:be6d6ccf-d3b1-3365-be18-53c12c9946b6;ct:1"><img width="118" height="88" alt="Chelsea preserve lead, Rooney off in United win" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/Z2Jl55OZonkUd7Rmay.cDA--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTI4O2R5PTE7Y3c9NDU3O2NoPTM0MDtxPTcwO3JvdGF0ZT1hdXRv/https://s.yimg.com/ea/img/-/140928/4a089ef18f3f9df7f680537b25fb4dc3b7593cbf-1a2e3ir.jpg"></a><h3><a href="//au.sports.yahoo.com/football/news/article/-/25126327/chelsea-preserve-lead-rooney-off-in-united-win/" data-ylk="g:be6d6ccf-d3b1-3365-be18-53c12c9946b6;ct:1">Chelsea preserve lead, Rooney off in United win</a></h3>
+<p>London (AFP) - Premier League leaders Chelsea conserved their three-point advantage by beating Aston Villa 3-0 on Saturday, while Wayne Rooney was sent off as Manchester United edged West Ham United.</p>
+</li>
+<li class="clearfix">
+<a class="img-cont" href="//au.sports.yahoo.com/football/news/article/-/25126528/stumbling-psg-drop-points-again/" data-ylk="ct:1"><img width="118" height="88" alt="Stumbling PSG drop points again" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/cp0t3Rz5dkDEWgZ_ELhwfQ--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTI7ZHk9MTtjdz01MTA7Y2g9MzgwO3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140928/00d5790f3ef2f4eacf447a299096a3e86df2368b-1a2e109.jpg"></a><h3><a href="//au.sports.yahoo.com/football/news/article/-/25126528/stumbling-psg-drop-points-again/" data-ylk="ct:1">Stumbling PSG drop points again</a></h3>
+<p>Paris (AFP) - Paris Saint-Germain were held to a 1-1 draw at Toulouse in Ligue 1 on Saturday, once again failing to convince as a Champions League clash with Barcelona looms on the horizon.</p>
+</li>
+<li class="clearfix">
+<a class="img-cont" href="//au.sports.yahoo.com/football/news/article/-/25126409/in-form-ronaldo-strikes-again-in-villarreal-win/" data-ylk="ct:1"><img width="118" height="88" alt="In-form Ronaldo strikes again in Villarreal win" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/IYTHHMJDZyItcqHDHo4Ehw--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTE3O2R5PTE7Y3c9NDE4O2NoPTMxMTtxPTcwO3JvdGF0ZT1hdXRv/https://s.yimg.com/ea/img/-/140928/2014_09_27t161611z_1_lynxnpea8q0at_rtroptp_2_soccer_spain-1a2dr11.jpg"></a><h3><a href="//au.sports.yahoo.com/football/news/article/-/25126409/in-form-ronaldo-strikes-again-in-villarreal-win/" data-ylk="ct:1">In-form Ronaldo strikes again in Villarreal win</a></h3>
+<p>By Tim Hanlon <br/>              BARCELONA (Reuters) - Cristiano Ronaldo kept up his rich La Liga scoring form as Real Madrid beat Villarreal 2-0 on Saturday to move up to fourth. <br/>             ...</p>
+</li>
+</ul></div>
+</div>
+
+  </div>
+</div>
+<!-- // 2col wrap -->
+
+		<!-- 2col wrap -->
+<div class="mod-wrap clearfix">
+  <div class="modwrap-lhs">
+    <!--collection-feature--><div class="mod feature-collection latest rapid-track" data-vlaue="aunz-collection-feature" id="y7module542713f935450">
+<div class="hd"><h2>Cricket</h2></div>
+<div class="bd"><ul class="clearfix">
+<li class="first clearfix">
+<a class="img-cont" href="//au.sports.yahoo.com/cricket/news/article/-/25121935/atapattu-eyes-sri-lanka-world-cup-glory/" data-ylk="g:573f071f-3114-3ce9-bbed-07147f81be16;ct:1"><img width="118" height="88" alt="Atapattu eyes Sri Lanka World Cup glory" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/a3Kc2rJX.KzNLI19cy75gw--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTY7ZHk9MTtjdz01MDM7Y2g9Mzc0O3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140926/ed409e4757410a2c3b0a7f8ce80115fd23b5f796-1a2anl3.jpg"></a><h3><a href="//au.sports.yahoo.com/cricket/news/article/-/25121935/atapattu-eyes-sri-lanka-world-cup-glory/" data-ylk="g:573f071f-3114-3ce9-bbed-07147f81be16;ct:1">Atapattu eyes Sri Lanka World Cup glory</a></h3>
+<p>Colombo (AFP) - New Sri Lanka coach Marvan Atapattu targeted more success Friday for cricket's reigning T20 champions in next year's 50 over World Cup, saying morale was on a high.</p>
+</li>
+<li class="clearfix">
+<a class="img-cont" href="//au.sports.yahoo.com/cricket/news/article/-/25122254/pakistan-batsman-younis-offers-to-step-aside-after-odi-snub/" data-ylk="ct:1"><img width="118" height="88" alt="Pakistan batsman Younis offers to step aside after ODI snub" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/cAnzzvPuofETvP_sobIjkQ--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTI1O2R5PTE7Y3c9NDY0O2NoPTM0NTtxPTcwO3JvdGF0ZT1hdXRv/https://s.yimg.com/ea/img/-/140926/300ac7160c84340871d6bf7a4cddff6925234351-1a2akr3.jpg"></a><h3><a href="//au.sports.yahoo.com/cricket/news/article/-/25122254/pakistan-batsman-younis-offers-to-step-aside-after-odi-snub/" data-ylk="ct:1">Pakistan batsman Younis offers to step aside after ODI snub</a></h3>
+<p>Karachi (AFP) - Disgruntled Pakistan batsman Younis Khan said Friday he was disappointed at being dropped from the one-day side and said he would step aside from all cricket for for five months to...</p>
+</li>
+<li class="clearfix">
+<a class="img-cont" href="//au.sports.yahoo.com/cricket/news/article/-/25121851/miffed-younus-offers-to-step-aside-from-tests/" data-ylk="ct:1"><img width="118" height="88" alt="Miffed Younus offers to step aside from tests" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/N9l7Vmcb6kQru81EthIQ_g--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTIwO2R5PTE7Y3c9NDEyO2NoPTMwNjtxPTcwO3JvdGF0ZT1hdXRv/https://s.yimg.com/ea/img/-/140926/2014_09_26t100852z_1_lynxnpea8p0ds_rtroptp_2_cricket_world_pakistan-1a2aevh.jpg"></a><h3><a href="//au.sports.yahoo.com/cricket/news/article/-/25121851/miffed-younus-offers-to-step-aside-from-tests/" data-ylk="ct:1">Miffed Younus offers to step aside from tests</a></h3>
+<p>KARACHI (Reuters) - Former Pakistan captain and senior batsman Younus Khan has offered to step aside from the test squad after being axed for next month's one-day series against Australia in the...</p>
+</li>
+</ul></div>
+</div>
+
+  </div>
+  <div class="modwrap-rhs">
+	<!--collection-feature--><div class="mod feature-collection latest rapid-track" data-vlaue="aunz-collection-feature" id="y7module542713f92899b">
+<div class="hd"><h2>Golf</h2></div>
+<div class="bd"><ul class="clearfix">
+<li class="first clearfix">
+<a class="img-cont" href="//au.sports.yahoo.com/golf/news/article/-/25126491/watson-left-groping-for-answers-as-plans-backfire/" data-ylk="ct:1"><img width="118" height="88" alt="Watson left groping for answers as plans backfire" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/rZQ4oqoT38fK00klz0Wpeg--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTI4O2R5PTE7Y3c9Mzk3O2NoPTI5NTtxPTcwO3JvdGF0ZT1hdXRv/https://s.yimg.com/ea/img/-/140928/2014_09_27t180233z_1_lynxnpea8q0ch_rtroptp_2_golf_ryder-1a2dv49.jpg"></a><h3><a href="//au.sports.yahoo.com/golf/news/article/-/25126491/watson-left-groping-for-answers-as-plans-backfire/" data-ylk="ct:1">Watson left groping for answers as plans backfire</a></h3>
+<p>By Mitch Phillips <br/>              GLENEAGLES Scotland (Reuters) - If Tom Watson needed an early night after Friday's Ryder Cup setback he is going to need medicinal fortification on Saturday after...</p>
+</li>
+<li class="clearfix">
+<a class="img-cont" href="//au.sports.yahoo.com/golf/news/article/-/25126430/westwood-equals-palmer-tally-as-europe-surge-ahead/" data-ylk="ct:1"><img width="118" height="88" alt="Westwood equals Palmer tally as Europe surge ahead" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/AQPpYri7NS6uZ.0g.HcNOw--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTI4O2R5PTE7Y3c9Mzk2O2NoPTI5NDtxPTcwO3JvdGF0ZT1hdXRv/https://s.yimg.com/ea/img/-/140928/2014_09_27t170507z_1_lynxnpea8q0bk_rtroptp_2_golf_ryder-1a2ds6j.jpg"></a><h3><a href="//au.sports.yahoo.com/golf/news/article/-/25126430/westwood-equals-palmer-tally-as-europe-surge-ahead/" data-ylk="ct:1">Westwood equals Palmer tally as Europe surge ahead</a></h3>
+<p>By Tony Jimenez <br/>              GLENEAGLES Scotland (Reuters) - Lee Westwood became the joint fifth highest Ryder Cup points scorer of all time as Europe left the U.S. reeling on the ropes after...</p>
+</li>
+<li class="clearfix">
+<a class="img-cont" href="//au.sports.yahoo.com/golf/news/article/-/25126356/rivalry-friendship-on-and-off-course-make-ryder-cup-so-special/" data-ylk="ct:1"><img width="118" height="88" alt="Rivalry, friendship on and off course make Ryder Cup so special" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/dLIAc5LdmmeAUnVyUm3Anw--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTIzO2R5PTE7Y3c9NDA2O2NoPTMwMjtxPTcwO3JvdGF0ZT1hdXRv/https://s.yimg.com/ea/img/-/140928/2014_09_27t150838z_1_lynxnpea8q09n_rtroptp_2_golf_ryder-1a2dku1.jpg"></a><h3><a href="//au.sports.yahoo.com/golf/news/article/-/25126356/rivalry-friendship-on-and-off-course-make-ryder-cup-so-special/" data-ylk="ct:1">Rivalry, friendship on and off course make Ryder Cup so special</a></h3>
+<p>By Paul Ingrassia <br/>              GLENEAGLES Scotland (Reuters) - "So who are you rooting for?". It is a question Rich Hendrickon, of Seattle, Wash., gets frequently as he roams the grounds of...</p>
+</li>
+</ul></div>
+</div>
+
+  </div>
+</div>
+<!-- // 2col wrap -->
+
+		<!--collection-carousel--><div class="mod aunz-collection-carousel-mp featurecarousel rapid-track" data-value="aunz-collection-carousel" id="y7module542713f8d9885">
+<div class="hd"><h2>Latest Sports Photos</h2></div>
+<div class="bd carouselmod"><ol class="clearfix">
+<li>
+<a data-ylk="g:939238ca-4920-316e-ac28-f6d8a606d057;ct:4" class="img-cont" href="//au.sports.yahoo.com/afl/galleries/g/25124771/2014-afl-grand-final/"><img width="118" height="88" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/5ketq.mpQwPYsuTqq0UCQQ--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTE7ZHk9MTtjdz0zOTk7Y2g9Mjk4O3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140927/luke_hodge_wide_1a2ctui-1a2ctuo.jpg"></a><p><a data-ylk="g:939238ca-4920-316e-ac28-f6d8a606d057;ct:4" href="//au.sports.yahoo.com/afl/galleries/g/25124771/2014-afl-grand-final/">2014 AFL grand final</a></p>
+</li>
+<li>
+<a data-ylk="g:a58e4458-5f84-325b-84ee-fada45d7521e;ct:4" class="img-cont" href="//au.sports.yahoo.com/afl/galleries/g/25118048/2014-afl-grand-final-parade/"><img width="118" height="88" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/9LSebA9U5bypht.Iwz_Y5A--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTE7ZHk9MTtjdz0zOTk7Y2g9Mjk4O3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140926/456110986_1a29s0a-1a29s0o.jpg"></a><p><a data-ylk="g:a58e4458-5f84-325b-84ee-fada45d7521e;ct:4" href="//au.sports.yahoo.com/afl/galleries/g/25118048/2014-afl-grand-final-parade/">2014 AFL grand final parade</a></p>
+</li>
+<li>
+<a data-ylk="g:4f6f2479-6a42-3fe9-abaf-9fbbfbc0d8c5;ct:4" class="img-cont" href="//au.sports.yahoo.com/league/galleries/g/25106975/the-2014-dally-m-contenders/"><img width="118" height="88" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/N2hd8SaQ5pKfzuZKgAN3gA--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTE7ZHk9MTtjdz0zOTk7Y2g9Mjk4O3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140925/ben_hunt_dallym_400x600_1a2744c-1a2745j.jpg"></a><p><a data-ylk="g:4f6f2479-6a42-3fe9-abaf-9fbbfbc0d8c5;ct:4" href="//au.sports.yahoo.com/league/galleries/g/25106975/the-2014-dally-m-contenders/">The 2014 Dally M contenders</a></p>
+</li>
+<li>
+<a data-ylk="g:19247ffc-f574-344d-8375-976c13911842;ct:4" class="img-cont" href="//au.sports.yahoo.com/afl/galleries/g/25079669/2014-brownlow-medal-red-carpet-and-awards/"><img width="118" height="88" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/DEZY59jk6keOjIPqt2q39g--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTE7ZHk9MTtjdz0zOTk7Y2g9Mjk4O3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140922/matt_priddis_brownlow_1a20akq-1a20am4.jpg"></a><p><a data-ylk="g:19247ffc-f574-344d-8375-976c13911842;ct:4" href="//au.sports.yahoo.com/afl/galleries/g/25079669/2014-brownlow-medal-red-carpet-and-awards/">2014 Brownlow Medal Red Carpet and Awards</a></p>
+</li>
+<li>
+<a data-ylk="g:a64657a1-8e85-3b00-b0cf-0bf0f6a460e8;ct:4" class="img-cont" href="//au.sports.yahoo.com/basketball/galleries/g/25054988/aussies-who-have-played-in-the-nba/"><img width="118" height="88" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/xEl94eq0DrS7VP4pxiHhVA--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTE7ZHk9MTtjdz0zOTk7Y2g9Mjk4O3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140919/andrew_bogut_nba_1a1ms7b-1a1ms9o.jpg"></a><p><a data-ylk="g:a64657a1-8e85-3b00-b0cf-0bf0f6a460e8;ct:4" href="//au.sports.yahoo.com/basketball/galleries/g/25054988/aussies-who-have-played-in-the-nba/">Aussies who have played in the NBA</a></p>
+</li>
+<li>
+<a data-ylk="g:ab640776-b1b4-3293-bb45-974a21c2044e;ct:4" class="img-cont" href="//au.sports.yahoo.com/afl/galleries/g/25016479/brownlow-winners-of-the-last-decade/"><img width="118" height="88" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/UNcx5AKROn8DZwDe3jvI9g--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTE7ZHk9MTtjdz0zOTk7Y2g9Mjk4O3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140917/adam_cooney_2008brownlow_1a1hvgi-1a1hvi7.jpg"></a><p><a data-ylk="g:ab640776-b1b4-3293-bb45-974a21c2044e;ct:4" href="//au.sports.yahoo.com/afl/galleries/g/25016479/brownlow-winners-of-the-last-decade/">Brownlow winners of the last decade</a></p>
+</li>
+<li>
+<a data-ylk="g:ef24cd02-0e32-3c0c-b46c-d96909801328;ct:4" class="img-cont" href="//au.sports.yahoo.com/tennis/galleries/g/24915841/celebrity-sightings-at-the-us-open/"><img width="118" height="88" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/QOOa6QNLxAvR.zfNOSi1aQ--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTE7ZHk9MTtjdz0zOTk7Y2g9Mjk4O3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140906/454669164_1a0l2uk-1a0l311.jpg"></a><p><a data-ylk="g:ef24cd02-0e32-3c0c-b46c-d96909801328;ct:4" href="//au.sports.yahoo.com/tennis/galleries/g/24915841/celebrity-sightings-at-the-us-open/">Celebrity sightings at the US Open</a></p>
+</li>
+<li>
+<a data-ylk="g:eb9341d0-7551-38f2-b21c-ac2c317d76f0;ct:4" class="img-cont" href="//au.sports.yahoo.com/afl/galleries/g/24818477/2014-brownlow-medal-contenders/"><img width="118" height="88" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/s2LxQK.n3msGXW82JChCRQ--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTE7ZHk9MTtjdz0zOTk7Y2g9Mjk4O3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140826/450596728_19vo6eo-19vo6f7.jpg"></a><p><a data-ylk="g:eb9341d0-7551-38f2-b21c-ac2c317d76f0;ct:4" href="//au.sports.yahoo.com/afl/galleries/g/24818477/2014-brownlow-medal-contenders/">2014 Brownlow Medal contenders</a></p>
+</li>
+<li>
+<a data-ylk="g:c7b8e300-446a-35a0-ad32-9bc823026ec5;ct:4" class="img-cont" href="//au.sports.yahoo.com/league/galleries/g/24775825/laurie-daleys-nrl-game-changers/"><img width="118" height="88" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/Z4zPD9EiubtpYUptMxYddw--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTE7ZHk9MTtjdz0zOTk7Y2g9Mjk4O3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140821/10_nrl_shaun_johnson_19vb69b-19vb6a6.jpg"></a><p><a data-ylk="g:c7b8e300-446a-35a0-ad32-9bc823026ec5;ct:4" href="//au.sports.yahoo.com/league/galleries/g/24775825/laurie-daleys-nrl-game-changers/">Laurie Daley's NRL game changers</a></p>
+</li>
+<li>
+<a data-ylk="g:a38f2ee4-40d1-35cd-af17-edcd4e46629a;ct:4" class="img-cont" href="//au.sports.yahoo.com/afl/galleries/g/24329188/rising-stars-of-the-afl/"><img width="118" height="88" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/C34FyxbvBZaddePxC1DJSA--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTE7ZHk9MTtjdz0zOTk7Y2g9Mjk4O3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140626/dunstan_19qnip5-19qnipu.jpg"></a><p><a data-ylk="g:a38f2ee4-40d1-35cd-af17-edcd4e46629a;ct:4" href="//au.sports.yahoo.com/afl/galleries/g/24329188/rising-stars-of-the-afl/">Rising Stars of the AFL</a></p>
+</li>
+<li>
+<a data-ylk="g:f4eef3eb-0e4b-3d74-a9d5-02abac290ab3;ct:4" class="img-cont" href="//au.sports.yahoo.com/football/galleries/g/24715171/english-premier-league-transfers-2014-15/"><img width="118" height="88" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/7sfdNnmdRFdvDuA.mq2Yqw--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTE7ZHk9MTtjdz00NDk7Y2g9MzM2O3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140814/arsenal_19uo8h0-19uo8sf.jpg"></a><p><a data-ylk="g:f4eef3eb-0e4b-3d74-a9d5-02abac290ab3;ct:4" href="//au.sports.yahoo.com/football/galleries/g/24715171/english-premier-league-transfers-2014-15/">English Premier League Transfers 2014/15</a></p>
+</li>
+<li>
+<a data-ylk="ct:4" class="img-cont" href="//au.sports.yahoo.com/rugby/galleries/g/24695702/top-five-bledisloe-cup-moments/"><img width="118" height="88" style="width:118px;height:88px;" src="https://s.yimg.com/iu/api/res/1.2/Ly9lmXtHzyRmXOGl.89BIQ--/YXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTExODtoPTg4O2R4PTE7ZHk9MTtjdz0zODc7Y2g9Mjg5O3E9NzA7cm90YXRlPWF1dG8-/https://s.yimg.com/ea/img/-/140812/radike_samo_trinations388_19uj6d5-19uj6jv.jpg"></a><p><a data-ylk="ct:4" href="//au.sports.yahoo.com/rugby/galleries/g/24695702/top-five-bledisloe-cup-moments/">Top five Bledisloe Cup moments</a></p>
+</li>
+</ol></div>
+<div class="ft"></div>
+</div>
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+</div>
+<!-- //Content LHS -->
+
+        			<!-- Content RHS -->
+<div class="bd-rhs">
+	<div class="bd-rhs-inner">
+		
+		
+		<h3  class="merged-heading">Scoreboard</h3>
+
+
+	<div class="tabbifier tabscore">
+	<!--sp-mp-scores-hub-complete--><div class="mod miniscore afl">
+<div class="hd"><h3>AFL</h3></div>
+<div class="bd"><div class="tabbifier"><div class="tab-content"><div class="minisc results">
+<h3>Results</h3>
+<h4>2014 Premiership Season</h4>
+<div class="scoresection tickerformat afl"> <a href="/afl/scoreboard/20140142701/2014014/27/" target="_blank"><span class="ls-team-score"><span class="ls-team">Sydney Swans</span> <span class="ls-score">11.8 (74)
+        </span></span><span class="ls-team-divider"> - </span><span class="ls-team-score"><span class="ls-score">21.11 (137)
+        </span> <span class="ls-team">Hawthorn</span></span></a> </div>
+<div class="scoresection tickerformat afl"> <a href="/afl/scoreboard/20140142602/2014014/26/" target="_blank"><span class="ls-team-score"><span class="ls-team">Hawthorn</span> <span class="ls-score">15.7 (97)
+        </span></span><span class="ls-team-divider"> - </span><span class="ls-team-score"><span class="ls-score">13.16 (94)
+        </span> <span class="ls-team">Port Adelaide</span></span></a> </div>
+<div class="scoresection tickerformat afl"> <a href="/afl/scoreboard/20140142601/2014014/26/" target="_blank"><span class="ls-team-score"><span class="ls-team">Sydney Swans</span> <span class="ls-score">19.22 (136)
+        </span></span><span class="ls-team-divider"> - </span><span class="ls-team-score"><span class="ls-score">9.11 (65)
+        </span> <span class="ls-team">North Melbourne</span></span></a> </div>
+<div class="scoresection tickerformat afl"> <a href="/afl/scoreboard/20140142502/2014014/25/" target="_blank"><span class="ls-team-score"><span class="ls-team">Fremantle</span> <span class="ls-score">11.17 (83)
+        </span></span><span class="ls-team-divider"> - </span><span class="ls-team-score"><span class="ls-score">15.15 (105)
+        </span> <span class="ls-team">Port Adelaide</span></span></a> </div>
+</div></div></div></div>
+</div>
+
+	<!--sp-mp-scores-hub-complete--><div class="mod miniscore league">
+<div class="hd"><h3>NRL</h3></div>
+<div class="bd"><div class="tabbifier">
+<div class="tab-content"><div class="minisc results">
+<h3>Results</h3>
+<h4>2014 NRL Premiership Season</h4>
+<div class="scoresection tickerformat league"> <a href="/league/scoreboard/200/142/29/">Panthers 12 - 18 Bulldogs</a> </div>
+<div class="scoresection tickerformat league"> <a href="/league/scoreboard/199/142/29/">Rabbitohs 32 - 22 Roosters</a> </div>
+<div class="scoresection tickerformat league"> <a href="/league/scoreboard/198/142/28/">Sea Eagles 17 - 18 Bulldogs</a> </div>
+<div class="scoresection tickerformat league"> <a href="/league/scoreboard/197/142/28/">Roosters 31 - 30 Cowboys</a> </div>
+</div></div>
+<div class="tab-content"><div class="minisc schedule">
+<h3>Schedule</h3>
+<h4>2014 NRL Premiership Season</h4>
+<div class="scoresection league upcoming clearfix">
+<div class="hd clearfix"></div>
+<div class="bd clearfix"><p><a href="/league/results/20141005/">Rabbitohs vs Bulldogs</a></p></div>
+<div class="ft">8:00pm AEST Sun, 5th October</div>
+</div>
+</div></div>
+</div></div>
+</div>
+
+	<!--sp-mp-scores-hub-complete--><div class="mod miniscore football">
+<div class="hd"><h3>Football</h3></div>
+<div class="bd"><div class="tabbifier">
+<div class="tab-content"><div class="minisc live">
+<h3>Live</h3>
+<h4>2014/15 French Ligue 1</h4>
+<div class="scoresection football in-progress clearfix">
+<div class="hd clearfix">
+<div class="lhs"><span class="time-date">H2 89 mins.
+            </span></div>
+<div class="rhs"><span class="status">Live</span></div>
+</div>
+<div class="bd clearfix"><table><tbody>
+<tr>
+<td class="team"><a href="/football/team/champions-league/339/lille/"><span class="flagsm flagsm_football_339 flagsm_football_lille"></span>Lille</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td class="team">
+<span class="flagsm flagsm_football_343 flagsm_football_bastia"></span>Bastia</td>
+<td>0</td>
+</tr>
+</tbody></table></div>
+<div class="ft"><span class="venue">Stade Pierre-Mauroy</span></div>
+</div>
+<div class="scoresection football in-progress clearfix">
+<div class="hd clearfix">
+<div class="lhs"><span class="time-date">H2 90 mins.
+            </span></div>
+<div class="rhs"><span class="status">Live</span></div>
+</div>
+<div class="bd clearfix"><table><tbody>
+<tr>
+<td class="team">
+<span class="flagsm flagsm_football_1185 flagsm_football_lorient"></span>Lorient</td>
+<td>1</td>
+</tr>
+<tr>
+<td class="team">
+<span class="flagsm flagsm_football_1739 flagsm_football_evian"></span>Evian</td>
+<td>2</td>
+</tr>
+</tbody></table></div>
+<div class="ft"><span class="venue">Stade du Moustoir</span></div>
+</div>
+<div class="scoresection football in-progress clearfix">
+<div class="hd clearfix">
+<div class="lhs"><span class="time-date">H2 87 mins.
+            </span></div>
+<div class="rhs"><span class="status">Live</span></div>
+</div>
+<div class="bd clearfix"><table><tbody>
+<tr>
+<td class="team">
+<span class="flagsm flagsm_football_338 flagsm_football_metz"></span>Metz</td>
+<td>2</td>
+</tr>
+<tr>
+<td class="team">
+<span class="flagsm flagsm_football_1740 flagsm_football_reims"></span>Reims</td>
+<td>0</td>
+</tr>
+</tbody></table></div>
+<div class="ft"><span class="venue">Stade Saint-Symphorien</span></div>
+</div>
+<div class="scoresection football in-progress clearfix">
+<div class="hd clearfix">
+<div class="lhs"><span class="time-date">H2 90 mins.
+            </span></div>
+<div class="rhs"><span class="status">Live</span></div>
+</div>
+<div class="bd clearfix"><table><tbody>
+<tr>
+<td class="team">
+<span class="flagsm flagsm_football_1186 flagsm_football_montpellier"></span>Montpellier</td>
+<td>2</td>
+</tr>
+<tr>
+<td class="team">
+<span class="flagsm flagsm_football_337 flagsm_football_guingamp"></span>Guingamp</td>
+<td>1</td>
+</tr>
+</tbody></table></div>
+<div class="ft"><span class="venue">Stade de la Mosson</span></div>
+</div>
+</div></div>
+<div class="tab-content"><div class="minisc results">
+<h3>Results</h3>
+<h4>2014/15 Spanish La Liga</h4>
+<div class="scoresection tickerformat football"> <a href="/football/la-liga/scoreboard/54/379/6/">Atl. Madrid 4 - 0 Sevilla</a> </div>
+<h4>2014/15 English Premier League</h4>
+<div class="scoresection tickerformat football"> <a href="/football/epl/scoreboard/51/368/6/">Arsenal 1 - 1 Tottenham</a> </div>
+<h4>2014/15 German Bundesliga</h4>
+<div class="scoresection tickerformat football"> <a href="/football/bundesliga/scoreboard/47/373/6/">Wolfsburg 2 - 1 Werder Bremen</a> </div>
+<h4>2014/15 Belgian Pro League</h4>
+<div class="scoresection tickerformat football"> Zulte Waregem 0 - 2 Anderlecht </div>
+</div></div>
+<div class="tab-content"><div class="minisc schedule">
+<h3>Schedule</h3>
+<h4>2012/13 UEFA Europa League</h4>
+<div class="scoresection football upcoming clearfix">
+<div class="hd clearfix" style="display: none;"></div>
+<div class="bd clearfix"><p><a href="/football/results/20120810/">Anorthosis vs Dila Gori</a></p></div>
+<div class="ft"><span class="date">3:00am AEST Fri, 10th August</span></div>
+</div>
+<div class="scoresection football upcoming clearfix">
+<div class="hd clearfix" style="display: none;"></div>
+<div class="bd clearfix"><p><a href="/football/results/20121123/">Hapoel Ironi KS vs Athl. Bilbao</a></p></div>
+<div class="ft"><span class="date">5:00am AEST Fri, 23rd November</span></div>
+</div>
+<div class="scoresection football upcoming clearfix">
+<div class="hd clearfix" style="display: none;"></div>
+<div class="bd clearfix"><p><a href="/football/results/20121207/">Sporting vs Videoton</a></p></div>
+<div class="ft"><span class="date">7:05am AEST Fri, 7th December</span></div>
+</div>
+<h4>2012 International Friendlies</h4>
+<div class="scoresection football upcoming clearfix">
+<div class="hd clearfix" style="display: none;"></div>
+<div class="bd clearfix"><p>Indonesia vs Cameroon</p></div>
+<div class="ft"><span class="date">10:00pm AEST Fri, 16th November</span></div>
+</div>
+</div></div>
+</div></div>
+</div>
+
+	<!--sp-mp-scores-hub-complete--><div class="mod miniscore cricket">
+<div class="hd"><h3>Cricket</h3></div>
+<div class="bd"><div class="tabbifier">
+<div class="tab-content"><div class="minisc results">
+<h3>Results</h3>
+<h4>2014 Champions League Twenty20</h4>
+<div class="scoresection tickerformat cricket"> <a href="/cricket/scoreboard/15/5028/">Perth Scorchers vs Chennai</a><p>Chennai Super Kings won by 13 runs</p>
+</div>
+<div class="scoresection tickerformat cricket"> <a href="/cricket/scoreboard/14/5028/">Nashua Dolphins vs Lahore Lions</a><p>Lahore Lions won by 16 runs</p>
+</div>
+</div></div>
+<div class="tab-content"><div class="minisc schedule">
+<h3>Schedule</h3>
+<h4></h4>
+<div class="scoresection cricket upcoming clearfix">
+<div class="hd clearfix" style="display: none;"></div>
+<div class="bd clearfix"><p><a href="/cricket/results/20140625/" target="_blank">Lancashire vs Durham</a></p></div>
+<div class="ft"><span class="date">3:00pm AEST Wed, 25th June</span></div>
+</div>
+<div class="scoresection cricket upcoming clearfix">
+<div class="hd clearfix" style="display: none;"></div>
+<div class="bd clearfix"><p><a href="/cricket/results/20140617/" target="_blank">Durham vs Nottinghamshire</a></p></div>
+<div class="ft"><span class="date">3:00pm AEST Tue, 17th June</span></div>
+</div>
+</div></div>
+</div></div>
+</div>
+
+	<!--sp-mp-scores-hub-complete--><div class="mod miniscore rugby">
+<div class="hd"><h3>Rugby</h3></div>
+<div class="bd"><div class="tabbifier"><div class="tab-content"><div class="minisc results">
+<h3>Results</h3>
+<h4>2014 Super Rugby Tournament</h4>
+<div class="scoresection tickerformat rugby"> <a href="/rugby/scoreboard/125/153/22/" target="_blank"><span class="ls-team-score"><span class="ls-team">Waratahs</span> <span class="ls-score">33</span></span><span class="ls-team-divider"> - </span><span class="ls-team-score"><span class="ls-score">32</span> <span class="ls-team">Crusaders</span></span></a> </div>
+<div class="scoresection tickerformat rugby"> <a href="/rugby/scoreboard/124/153/21/" target="_blank"><span class="ls-team-score"><span class="ls-team">Waratahs</span> <span class="ls-score">26</span></span><span class="ls-team-divider"> - </span><span class="ls-team-score"><span class="ls-score">8</span> <span class="ls-team">Brumbies</span></span></a> </div>
+<div class="scoresection tickerformat rugby"> <a href="/rugby/scoreboard/123/153/21/" target="_blank"><span class="ls-team-score"><span class="ls-team">Crusaders</span> <span class="ls-score">38</span></span><span class="ls-team-divider"> - </span><span class="ls-team-score"><span class="ls-score">6</span> <span class="ls-team">Sharks</span></span></a> </div>
+<div class="scoresection tickerformat rugby"> <a href="/rugby/scoreboard/122/153/20/" target="_blank"><span class="ls-team-score"><span class="ls-team">Sharks</span> <span class="ls-score">31</span></span><span class="ls-team-divider"> - </span><span class="ls-team-score"><span class="ls-score">27</span> <span class="ls-team">Highlanders</span></span></a> </div>
+</div></div></div></div>
+</div>
+
+	<!--sp-mp-scores-hub-complete--><div class="mod miniscore tennis">
+<div class="hd"><h3>Tennis</h3></div>
+<div class="bd"><div class="tabbifier">
+<div class="tab-content"><div class="minisc results">
+<h3>Results</h3>
+<h4>2014 Shenzhen Open</h4>
+<div class="scoresection tickerformat tennis"> <a href="/tennis/scoreboard/2/2255/3373/4/1/">Tommy Robredo def. Santiago Giraldo</a><p>6-1 6-4</p>
+</div>
+<h4>2014 China Open</h4>
+<div class="scoresection tickerformat tennis"> <a href="/tennis/scoreboard/3/2239/3374/1/1/">Madison Keys def. Alison Riske</a><p>6-3 6-7<sub>(7)</sub> 7-5</p>
+</div>
+<h4>2014 Malaysian Open</h4>
+<div class="scoresection tickerformat tennis"> <a href="/tennis/scoreboard/2/2238/3372/4/1/">Julien Benneteau def. Ernests Gulbis</a><p>6-4 6-4</p>
+</div>
+<h4>2014 Wuhan Open</h4>
+<div class="scoresection tickerformat tennis"> <a href="/tennis/scoreboard/3/2237/3371/6/1/">Petra Kvitova def. Eugenie Bouchard</a><p>6-3 6-4</p>
+</div>
+</div></div>
+<div class="tab-content"><div class="minisc schedule">
+<h3>Schedule</h3>
+<h4>2013 Davis Cup 1st Rnd - KAZ v AUT</h4>
+<div class="scoresection tennis upcoming clearfix">
+<div class="hd clearfix" style="display: none;"></div>
+<div class="bd clearfix"><p><a href="/tennis/results/20130203/">E. Korolev vs. A. Haider-Maure</a></p></div>
+<div class="ft"><span class="date">12:00am AEST Sun, 3rd February</span></div>
+</div>
+<h4>2013 Davis Cup World Group I 1st Rnd - TPE v AUS</h4>
+<div class="scoresection tennis upcoming clearfix">
+<div class="hd clearfix" style="display: none;"></div>
+<div class="bd clearfix"><p><a href="/tennis/results/20130203/">T. Chen vs. L. Hewitt</a></p></div>
+<div class="ft"><span class="date">12:00am AEST Sun, 3rd February</span></div>
+</div>
+<h4>2013 Fed Cup 1st Rnd - CZE v AUS</h4>
+<div class="scoresection tennis upcoming clearfix">
+<div class="hd clearfix" style="display: none;"></div>
+<div class="bd clearfix"><p><a href="/tennis/results/20130209/">L. Safarova vs. S. Stosur</a></p></div>
+<div class="ft"><span class="date">12:00am AEST Sat, 9th February</span></div>
+</div>
+<h4>2013 Fed Cup 1st Rnd - ITA v USA</h4>
+<div class="scoresection tennis upcoming clearfix">
+<div class="hd clearfix" style="display: none;"></div>
+<div class="bd clearfix"><p><a href="/tennis/results/20130209/">R. Vinci vs. V. Lepchenko</a></p></div>
+<div class="ft"><span class="date">12:00am AEST Sat, 9th February</span></div>
+</div>
+</div></div>
+</div></div>
+</div>
+
+	
+	
+</div>
+	
+	
+	
+	
+	
+	
+	
+	
+
+		<div class="y7-advertisement"><!-- SpaceID=0 robot -->
+</div><!-- end y7-advertisement -->
+<div class="y7-advertisement"><!-- SpaceID=0 robot -->
+</div><!-- end y7-advertisement -->
+
+		
+		<div class="tabbifier ">
+	<div class="mod listmod " id="tab">
+    <div class="hd" id="tab-hd">
+        <h2 >Latest</h2>
+
+
+    </div>
+    <div class="bd" id="tab-bd">
+        <!--collection-headlines--><ul class="indexlist ajax-list" id="headlines" data="/data/news/headlines/home/">
+<li>
+<a href="/football/news/article/-/25126327/chelsea-preserve-lead-rooney-off-in-united-win/">Chelsea preserve lead, Rooney off in United win</a> <span class="stamp">September 28, 5:14 am</span>
+</li>
+<li>
+<a href="/football/news/article/-/25126567/losing-start-for-leeds-boss-milanic/">Losing start for Leeds boss Milanic</a> <span class="stamp">September 28, 5:10 am</span>
+</li>
+<li>
+<a href="/motorsport/news/article/-/25126557/mercedes-deny-foul-play-as-contamination-blamed-for-retirement/">Mercedes deny foul play as contamination blamed for retirement</a> <span class="stamp">September 28, 5:04 am</span>
+</li>
+<li>
+<a href="/news/article/-/25126428/cromwell-claims-top-5-at-cycling-worlds/">Cromwell claims top-5 at cycling worlds</a> <span class="stamp">September 28, 4:51 am</span>
+</li>
+<li>
+<a href="/football/news/article/-/25126528/stumbling-psg-drop-points-again/">Stumbling PSG drop points again</a> <span class="stamp">September 28, 4:32 am</span>
+</li>
+</ul>
+
+    </div>
+    <div class="ft" id="tab-ft">
+        <ul>      <li class="first"><a href="/news/">More Sport News</a></li>
+            <li><a href="/videos/">Videos</a></li>
+            <li class="last"><a href="/live-scores/">Live Scores</a></li>
+                              </ul>
+
+    </div>
+</div>
+
+	<div class="mod listmod">
+        
+        <!--most-viewed--><div class="mod feature-collection news rapid_track_href rapid-track" id="most-viewed" data-value="aunz-most-viewed">
+<div class="hd"><h2>Most Viewed</h2></div>
+<div class="bd"><ul class="clearfix">
+<li class="first listitem clearfix"><a href="/tennis/news/article/-/25125275/sharapova-posts-cheeky-photo-she-took-on-plane/" target="" data-ylk="g:43f389ad-c2ef-3a15-903b-f50b7fdfbd99;ct:1">Sharapova posts cheeky photo she took on plane</a></li>
+<li class="listitem clearfix"><a href="/afl/news/article/-/25123379/hawks-win-12th-afl-flag/" target="" data-ylk="g:8f2d65f3-3170-3941-835f-9191ac59ee26;ct:1">Hawks outmuscle Swans for AFL flag</a></li>
+<li class="listitem clearfix"><a href="/motorsport/news/article/-/25123685/rosberg-retirement-due-to-freak-contamination-mercedes/" target="" data-ylk="ct:1">Rosberg retirement due to freak contamination - Mercedes</a></li>
+<li class="listitem clearfix"><a href="/news/article/-/25122806/japan-calm-over-dig-at-anthem-from-chinas-sun-yang/" target="" data-ylk="g:63a30d1c-be71-3609-946c-b7ceef4f32f8;ct:1">Japan 'calm' over dig at anthem from China's Sun Yang</a></li>
+<li class="last listitem clearfix"><a href="/league/news/article/-/25126188/bulldogs-win-through-to-nrl-grand-final/" target="" data-ylk="ct:1">Bulldogs show courage to make NRL GF</a></li>
+</ul></div>
+<div class="ft"></div>
+</div>
+
+    <div class="ft">
+        <ul>      <li class="first"><a href="/news/">More Sport News</a></li>
+            <li><a href="/videos/">Videos</a></li>
+            <li class="last"><a href="/live-scores/">Live Scores</a></li>
+                              </ul>
+
+    </div>
+</div>
+
+	
+	
+	
+	
+	
+	
+</div>
+		
+		
+<div class="mod simpleimage ">
+  <div class="hd"><h2></h2></div>
+  <div class="bd">
+    <a href="https://au.sports.yahoo.com/motorsport/v8-supercars/gillettemach3/?cmp=sport25"><img src="https://s.yimg.com/dh/ap/oztips/gillette_tile.jpg" alt=""></a>  </div>
+    <div class="ft">
+  </div>
+  </div>
+
+
+		<div class="tabbifier social">
+	<div class="mod twitter-feed">
+<div class="hd">
+<h2>Twitter</h2>
+<h3></h3>
+</div>
+<div class="bd"><ul class="tweet-list">
+<li class="clearfix">
+<div class="img-cont"><iframe width="64" height="64" scrolling="no" frameborder="0" src="https://pbs.twimg.com/profile_images/3629335579/fa07f91df2d805b1f7fb5f8556f9f538_normal.jpeg"><p>Your browser does not support iframes.</p></iframe></div>
+<a href="http://twitter.com/7Sport" target="_blank" rel="nofollow">7Sport</a><p>.@NRL_Bulldogs stood up to be counted, overcoming Penrith to reach the #NRL grand final. <a href="http://t.co/Ud8MGW0G7y" target="_blank" rel="nofollow">http://t.co/Ud8MGW0G7y</a> | <a href="http://t.co/06YtJImRVg" target="_blank" rel="nofollow">http://t.co/06YtJImRVg</a></p>
+</li>
+<li class="clearfix">
+<div class="img-cont"><iframe width="64" height="64" scrolling="no" frameborder="0" src="https://pbs.twimg.com/profile_images/3629335579/fa07f91df2d805b1f7fb5f8556f9f538_normal.jpeg"><p>Your browser does not support iframes.</p></iframe></div>
+<a href="http://twitter.com/7Sport" target="_blank" rel="nofollow">7Sport</a><p>Three-time premiership winner Cyril Rioli says the 2014 #AFLGrandFinal victory is his best. <a href="http://t.co/C2Er1GOlih" target="_blank" rel="nofollow">http://t.co/C2Er1GOlih</a> | <a href="http://t.co/2VS2uEsJdd" target="_blank" rel="nofollow">http://t.co/2VS2uEsJdd</a></p>
+</li>
+<li class="clearfix">
+<div class="img-cont"><iframe width="64" height="64" scrolling="no" frameborder="0" src="https://pbs.twimg.com/profile_images/3629335579/fa07f91df2d805b1f7fb5f8556f9f538_normal.jpeg"><p>Your browser does not support iframes.</p></iframe></div>
+<a href="http://twitter.com/7Sport" target="_blank" rel="nofollow">7Sport</a><p>Young Swans fan scores #AFLGF tickets just before first bounce after flying from Perth. <a href="http://t.co/HfzEPCEWJr" target="_blank" rel="nofollow">http://t.co/HfzEPCEWJr</a> | <a href="http://t.co/ryNhuh2DTm" target="_blank" rel="nofollow">http://t.co/ryNhuh2DTm</a></p>
+</li>
+<li class="last clearfix">
+<div class="img-cont"><iframe width="64" height="64" scrolling="no" frameborder="0" src="https://pbs.twimg.com/profile_images/3629335579/fa07f91df2d805b1f7fb5f8556f9f538_normal.jpeg"><p>Your browser does not support iframes.</p></iframe></div>
+<a href="http://twitter.com/7Sport" target="_blank" rel="nofollow">7Sport</a><p>Adam Goodes is yet to make a decision on his future in #AFL. <a href="http://t.co/mCzdmvVJe4" target="_blank" rel="nofollow">http://t.co/mCzdmvVJe4</a> | <a href="http://t.co/WOmEYR39Cz" target="_blank" rel="nofollow">http://t.co/WOmEYR39Cz</a></p>
+</li>
+</ul></div>
+<div class="ft">
+<strong>Twitter: </strong><span>@7sport</span><a href="http://twitter.com/7sport" class="follow" rel="nofollow">
+			  Follow Us!</a>
+</div>
+</div>
+
+	<div class="mod facebook"><div class="hd"><h2>Facebook</h2></div><div class="bd"><iframe scrolling="no" frameborder="0" src="https://www.facebook.com/connect/connect.php?id=119709511391140&stream=0&connections=10&css=" allowtransparency="true" style="border: none; width: 308px; height: 280px;"></iframe></div></div>
+	
+	
+	
+	
+	
+	
+</div>
+		
+		<div class="mod tvguide-mini-results">
+<div class="hd"><h2>Sport on TV</h2></div>
+<div class="bd">
+<div class="y7-advertisement"></div>
+<h3 class="date">Sunday 28th in Sport</h3>
+<ul class="items clearfix">
+<li class="item ch-7mate">
+<h4><a href="http://au.tv.yahoo.com/tv-guide/channel/387291/">7mate</a></h4>
+<ul class="info">
+<li><h5><a href="http://au.tv.yahoo.com/tv-guide/search/AFL+Game+Day/">AFL Game Day</a></h5></li>
+<li><span class="stamp">10:00am - 11:00am</span></li>
+</ul>
+</li>
+<li class="item ch-7mate">
+<h4><a href="http://au.tv.yahoo.com/tv-guide/channel/387291/">7mate</a></h4>
+<ul class="info">
+<li><h5><a href="http://au.tv.yahoo.com/tv-guide/search/Australian+Muscle+Car+Masters/">Australian Muscle Car Masters</a></h5></li>
+<li><span class="stamp">2:00pm - 3:00pm</span></li>
+</ul>
+</li>
+<li class="item ch-7two">
+<h4><a href="http://au.tv.yahoo.com/tv-guide/channel/410798/">7TWO</a></h4>
+<ul class="info">
+<li><h5><a href="http://au.tv.yahoo.com/tv-guide/search/Seven%27s+Horse+Racing/">Seven's Horse Racing</a></h5></li>
+<li><span class="stamp">2:00pm - 5:30pm</span></li>
+</ul>
+</li>
+<li class="item ch-7mate">
+<h4><a href="http://au.tv.yahoo.com/tv-guide/channel/387291/">7mate</a></h4>
+<ul class="info">
+<li><h5><a href="http://au.tv.yahoo.com/tv-guide/search/NFL+GameDay/">NFL GameDay</a></h5></li>
+<li><span class="stamp">3:00pm - 3:30pm</span></li>
+</ul>
+</li>
+<li class="item ch-7mate">
+<h4><a href="http://au.tv.yahoo.com/tv-guide/channel/387291/">7mate</a></h4>
+<ul class="info">
+<li><h5><a href="http://au.tv.yahoo.com/tv-guide/search/Sound+FX%3A+Best+of/">Sound FX: Best of</a></h5></li>
+<li><span class="stamp">3:30pm - 4:00pm</span></li>
+</ul>
+</li>
+<li class="item ch-7mate">
+<h4><a href="http://au.tv.yahoo.com/tv-guide/channel/387291/">7mate</a></h4>
+<ul class="info">
+<li><h5><a href="http://au.tv.yahoo.com/tv-guide/search/NFL/">NFL</a></h5></li>
+<li><span class="stamp">3:00am - 6:30am</span></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="ft"><a href="http://au.tv.yahoo.com/tv-guide/">Full TV guide <span>&raquo;</span></a></div>
+</div>
+
+		
+		
+		<!-- sponsored links -->
+
+<div class="adsense" id="adsense">
+
+<script language="JavaScript">
+google_ad_client = "ca-yahoo7-au";
+google_ad_channel = "ausport-mp";
+google_ad_output = "js";
+google_max_num_ads = "4";
+google_ad_type = "text";
+google_safe = "high";
+google_image_size = "";
+google_encoding = "utf8";
+google_language = "en";
+google_adtest = "off";
+google_hints = "";
+google_skip = "";
+google_ad_section = "";
+</script>
+
+<script language="JavaScript" src="//pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+
+</div>
+<!-- // sponsored links -->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+</div>
+<!-- //Content RHS -->
+
+        			
+        			
+        			
+			</div>
+			<!-- //Body Content -->
+			<!-- FOOTER -->
+<div id="ft">
+	<!-- FOOTER LINKS-->
+<div class="ftnav clearfix">	
+	<div class="ft-site clearfix" id="ft-site">
+		<h3><a href="http://au.sports.yahoo.com/"  target="_top">YAHOO!7 SPORTS:</a></h3>
+
+        <ul>      <li class="first"><a href="/">Sport Home</a></li>
+            <li class="last"><a href="/afl/">AFL</a></li>
+              <li><a href="/basketball/">Basketball</a></li>
+            <li><a href="/cricket/">Cricket</a></li>
+            <li><a href="/football/">Football</a></li>
+            <li class="last"><a href="/golf/">Golf</a></li>
+                      </ul>
+
+        <ul>        <li><a href="/motorsport/">Motorsport</a></li>
+            <li><a href="/nfl/">NFL</a></li>
+            <li><a href="/league/">League</a></li>
+            <li><a href="/racing/">Racing</a></li>
+            <li class="last"><a href="/tennis/">Tennis</a></li>
+                        </ul>
+
+
+
+	</div>
+	<div class="ft-network clearfix" id="ft-network">
+		<h3><a href="http://au.yahoo.com/more/">ALSO ON YAHOO!7</a></h3>
+
+        <dl><dt>Connect</dt><dd>
+            <ul>      <li><a href="http://au.mail.yahoo.com/">Check your mail</a></li>
+            <li><a href="http://dating.yahoo.com.au/?trackingid=527441&bannerid=1371030">Find singles in your area</a></li>
+            <li><a href="http://yahoo.seek.com.au/?tracking=CBC-YA0000862">Find a new job</a></li>
+            <li><a href="http://www.flickr.com/">Share photos online</a></li>
+                            </ul>
+
+        </dd></dl>
+        <dl><dt>Fun Stuff</dt><dd>
+            <ul>      <li><a href="http://au.tv.yahoo.com/tv-guide/">TV guide</a></li>
+            <li><a href="http://au.sports.yahoo.com/live-scores/">Live sports scores</a></li>
+            <li><a href="http://au.movies.yahoo.com/session-times/">Movie session times</a></li>
+            <li><a href="http://au.sports.yahoo.com/banzai">Outdoor rec sports</a></li>
+                            </ul>
+
+        </dd></dl>
+        <dl><dt>Serious Stuff</dt><dd>
+            <ul>      <li><a href="http://yahoo.carsales.com.au/news-reviews-advice/">New car reviews</a></li>
+            <li><a href="http://au.finance.yahoo.com/currency">Currency converter</a></li>
+            <li><a href="http://au.promotions.yahoo.com/">Enter free competitions</a></li>
+            <li><a href="http://au.lifestyle.yahoo.com/horoscopes/">Horoscopes</a></li>
+                            </ul>
+
+        </dd></dl>
+
+
+	</div>
+	
+</div>
+<!-- //FOOTER LINKS-->
+
+
+
+	<div class="y7-advertisement" id="y7-ad-s"><!-- SpaceID=0 robot -->
+</div><!-- end y7-advertisement -->
+
+	
+<div class="copyright" id="copyright">
+<ul>
+		      <li><a href='http://au.solutions.yahoo.com/'>Advertise with Us</a></li>
+      <li><a href='http://info.yahoo.com/privacy/au/yahoo/' rel="nofollow">Privacy</a></li>
+      <li><a href='http://info.yahoo.com/legal/au/yahoo/utos/en-au/' rel="nofollow">Terms</a></li>
+      <li><a href='http://help.yahoo.com/l/au/yahoo7/sports/' rel="nofollow">Help</a></li>
+</ul>
+
+</div>
+
+	
+	
+	<div class="y7-advertisement" id="y7-ad-fsrvy"><!-- SpaceID=0 robot -->
+</div><!-- end y7-advertisement -->
+
+	 
+</div>
+<!-- //FOOTER -->
+
+
+
+                </div>
+        </div>
+<!-- END OF BODY -->
+      
+      <div class="y7-advertisement">
+	<!-- SpaceID=0 robot -->
+
+	<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2012 Nielsen Online -->
+<script type="text/javascript" src="//secure-au.imrworldwide.com/v60.js">
+</script>
+<script type="text/javascript">
+var pvar = { cid: "yahoo-au", content: "0", server: 
+"secure-au" };
+var trac = nol_t(pvar);
+trac.record().post();
+</script>
+<noscript>
+<div>
+<img src="//secure-au.imrworldwide.com/cgibin/m?ci=yahoo-au&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="" />
+</div>
+</noscript>
+<!-- END Nielsen Online SiteCensus V6.0 -->
+
+	
+<!-- Yahoo! Web Analytics Code -->
+<script type="text/javascript" src="https://s.yimg.com/mi/ywa.js"></script>
+<script type="text/javascript">
+/*globals YWA*/
+try {
+	var YWATracker = YWA.getTracker("1000579267015");
+	YWATracker.setCF(7, 16886733);
+	YWATracker.setCF(46, 'Logged Out');
+		YWATracker.setCF(40, 'no');
+	YWATracker.submit();
+} catch (eYWATCUnavailable) {
+	if (window.console && window.console.warn) {
+		window.console.warn(eYWATCUnavailable.message || "Unknown error");
+	}
+}
+function captureOnclick(actionnumber)
+{
+  var YWATracker = YWA.getTracker(1000579267015);
+  YWATracker.setAction(actionnumber);
+  YWATracker.submit_action();
+}
+
+function captureScroll(cfinfo)
+{
+	var YWATracker = YWA.getTracker(1000579267015);
+	YWATracker.setCF(25,cfinfo);
+	YWATracker.setAction('50');
+	YWATracker.submit_action();
+}
+function ywafunc(action, params)
+{
+  var YWATracker = YWA.getTracker(1000579267015);
+  if (action == 'setUrl') {
+    //param will be url if action is setUrl
+    YWATracker.setUrl(params);
+    YWATracker.submit();
+   }
+}
+</script>
+<noscript><div><img src="//a.analytics.yahoo.com/p.pl?a=1000579267015&js=no" width="1" height="1" alt=""></div></noscript>
+<!-- End of Yahoo! Web Analytics Code -->
+
+	<div class="y7-advertisement" id="y7-ad-rich"><!-- SpaceID=0 robot -->
+</div><!-- end y7-advertisement -->
+
+	<div class="y7-advertisement" id="y7-ad-anchr"><!-- SpaceID=0 robot -->
+</div><!-- end y7-advertisement -->
+
+	<div class="y7-advertisement" id="y7-ad-fsrvy"><!-- SpaceID=0 robot -->
+</div><!-- end y7-advertisement -->
+
+	<div class="y7-advertisement" id="y7-ad-fad"><!-- SpaceID=0 robot -->
+</div><!-- end y7-advertisement -->
+
+	                <!-- Begin comScore Tag -->
+                <script>
+                    var _comscore = _comscore || [];
+                    _comscore.push({
+                        c1: "2",
+                        c2: "7241469",
+                        c5: "16886733",
+                        c7: "https://au.sports.yahoo.com/"
+                    });
+                    (function() {
+                        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+                        s.src = (document.location.protocol == "https:" ? "https://s.yimg.com/lq" : "https://s.yimg.com/d") + "/lib/3pm/cs_0.2.js";
+                        el.parentNode.insertBefore(s, el);
+                    })();
+                </script>
+                <noscript>
+                    <img src="//sb.scorecardresearch.com/p?c1=2&c2=7241469&c7=https%3A%2F%2Fau.sports.yahoo.com%2F&c5=16886733&cv=2.0&cj=1" />
+                </noscript>
+                <!-- End comScore Tag -->
+	
+	
+</div><!-- end y7-advertisement -->
+
+      <script type="text/javascript" src="https://s.yimg.com/ao/i/mp/js/loader/yuiloader.s6995.js"></script>
+
+
+
+
+
+<!--aunz-kampyle--><div id="kkk" data-formid="67876"></div>
+
+
+      
+    
+      <!-- RMPIX -->
+      <div id="rmpix">
+        
+      </div>
+      <!-- // RMPIX -->
+
+      <!-- ENCR -->
+      <div id="encr">
+        
+      </div>
+      <!-- // ENCR -->
+      
+      
+<script type="text/javascript">jsloader.require("y7.common");</script>
+<script type="text/javascript">jsloader.require("y7.carousel");</script>
+
+          
+          <script type="text/javascript">
+            jsloader.require("y7.tabbifier");
+          </script>
+        
+<script type="text/javascript">jsloader.require("y7.headlines-ajax");</script>
+<script type="text/javascript">jsloader.require('y7.tvguide.mini');</script>
+
+          
+	  <script src="https://s.yimg.com/ss/rapid-3.21.js"></script>
+	  <script id="rapid-lib" src="https://s.yimg.com/zz/combo?ao/i/mp/js/tracking-widget/tracking-widget.g20140911121250.js" async="async"></script>
+          
+        
+		<!-- PageParams: {"pt":2,"pct":1,"mrkt":"au","intl":"au","lang":"en-AU","juris":"AU"}-->
+		<script type="text/javascript">
+		var y7ChartbeatConf = {
+startPoint : (new Date()).getTime(),
+	   config: {"uid":56835,"domain":"yahoo.com.au","path":"\/","useCanonical":true,"title":"Sport - Yahoo!7 Sport","sections":"ausport-mp,homepage,au.sports.yahoo.com","authors":null}}
+		var y7RapidConf = {"pageType":"homepage","pageTitle":"Sport - Yahoo!7 Sport","pageId":"au-id-fp","spaceId":"16886733","timeStamp":"05:52","rapidWorkerFile":"\/rapidworker.js","pt":2,"apv":false,"clientOnly":false,"noFollowClasses":["rapidnofollow","paginate","video-menu"],"noTrackClasses":["timt-notrack","rapidnotrack"],"pct":1,"mrkt":"au","lang":"en-AU","juris":"AU"};
+		</script>
+
+		<script src="https://s.yimg.com/ao/i/mp/js/kampyle/02/js/k_config_s_1126267.js" async="true" defer="defer"></script>
+		
+    </body>
+  </html>
+
+<!-- ausport-mp:ausport-mp-au:0:Success -->
+<!-- pres47.media.aue.yahoo.com uncompressed/chunked Sun Sep 28 05:52:43 EST 2014 -->

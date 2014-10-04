@@ -1,0 +1,3317 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-US"> <![endif]-->
+<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-US"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-US"> <!--<![endif]-->
+<!-- start wired/views/global/partial-header-meta.php -->
+<head profile="http://gmpg.org/xfn/11" >
+	<!-- MOBIFY - DO NOT ALTER - PASTE IMMEDIATELY AFTER OPENING HEAD TAG -->
+<script type="text/javascript">/*<![CDATA[*/(function(a){function b(a,b){if(+a)return~a||(d.cookie=h+"=; path=/");j=d.createElement(e),k=d.getElementsByTagName(e)[0],j.src=a,b&&(j.onload=j.onerror=b),k.parentNode.insertBefore(j,k)}function c(){n.api||b(l.shift()||-1,c)}if(this.Mobify)return;var d=document,e="script",f="mobify",g="."+f+".com/",h=f+"-path",i=g+"un"+f+".js",j,k,l=[!1,1],m,n=this.Mobify={points:[+(new Date)],tagVersion:[6,1],ajs:"//a.mobify.com/wired/a.js"},o=/((; )|#|&|^)mobify-path=([^&;]*)/g.exec(location.hash+"; "+d.cookie);o?(m=o[3])&&!+(m=o[2]&&sessionStorage[h]||m)&&(l=[!0,"//preview"+g+escape(m)]):(l=a()||l,l[0]&&l.push("//cdn"+i,"//files01"+i)),l.shift()?(d.write('<plaintext style="display:none;">'),setTimeout(c)):b(l[0])})(function(){if(/ip(hone|od)|android.*(mobile)|(mobile).*firefox|blackberry.*applewebkit|bb1\d.+mobile/i.test(navigator.userAgent)){return[1,"//cdn.mobify.com/sites/wired/production/mobify.js"]}return[0,Mobify.ajs]})/*]]>*/</script>
+<!-- END MOBIFY -->
+	<title>WIRED</title>
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="http://www.wired.com/wp-content/themes/wired/assets/js/html5.js"></script>
+	<![endif]-->
+	<!-- WP_HEAD -->
+
+	<meta name="description" content="Get in-depth coverage of current and future trends in technology, and how they are shaping business, entertainment, communications, science, politics, and culture at Wired.com." />	<meta name="keywords" content="Wired.com, Wired News, Wired Blogs, tech news, technology, gadgets, gizmos, reviews, tech, science, politics, culture, electronics">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o?o:n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({D5DuLP:[function(t,n){function e(t,n){var e=r[t];return e?e.apply(this,n):(o[t]||(o[t]=[]),void o[t].push(n))}var r={},o={};n.exports=e,e.queues=o,e.handlers=r},{}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],G9z0Bl:[function(t,n){function e(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&p&&p.body){l.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",i("mark",["onload",a()]);var n=p.createElement("script");n.src=l.proto+t.agent,p.body.appendChild(n)}}function r(){"complete"===p.readyState&&o()}function o(){i("mark",["domContent",a()])}function a(){return(new Date).getTime()}var i=t("handle"),u=window,p=u.document,s="addEventListener",c="attachEvent",f=(""+location).split("?")[0],l=n.exports={offset:a(),origin:f,features:[]};p[s]?(p[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(p[c]("onreadystatechange",r),u[c]("onload",e)),i("mark",["firstbyte",a()])},{handle:"D5DuLP"}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}]},{},["G9z0Bl"]);</script>
+	<meta name="viewport" content="width=device-width" />
+	
+	<link rel="shortcut icon" type="image/x-icon" href="http://www.wired.com/wp-content/themes/wired/assets/images/favicon.ico" />
+	<link rel="alternate" type="application/rss+xml" title="WIRED RSS Feed" href="http://www.wired.com/feed/" />
+	<link rel="pingback" href="http://www.wired.com/xmlrpc.php" />
+	<!-- Facebook -->
+		<meta property="og:locale" content="en_US"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="WIRED" />
+	<meta property="og:description" content="Get in-depth coverage of current and future trends in technology, and how they are shaping business, entertainment, communications, science, politics, and culture at Wired.com."/>
+	<meta property="og:url" content="http://www.wired.com/"/>
+	<meta property="og:site_name" content="WIRED" />
+	<meta property="fb:admins" content="648235154,789168297,688620285,650984415" />
+	<meta property="fb:page_id" content="19440638720" />
+	<!-- Twitter -->
+		<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@wired" />
+	<meta name="twitter:domain" content="WIRED" />
+	<meta name="twitter:creator" content="@wired" />
+	<meta name="twitter:title" content="WIRED" />
+	<meta name="twitter:description" content="WIRED is where tomorrow is realized" />
+
+	<!--  MS/Windows 8 -->
+	<meta name="application-name" content="WIRED: WIRED"/>
+	<meta name="msapplication-tooltip" content="Read in-depth coverage of current and future trends in technology, and how they are shaping business, entertainment, communications, science, politics, and culture at Wired.com."/>
+	<meta name="msapplication-TileColor" content="#cb0004"/>
+	<meta name="msapplication-TileImage" content="http://www.wired.com/wp-content/themes/wired/assets/images/favicon_ie.png" />
+	<meta name="msvalidate.01" content="" />
+
+	<!-- Apple -->
+	<meta name="apple-itunes-app" content="app-id=373903654">
+	<link rel="apple-touch-icon" href="http://www.wired.com/wp-content/themes/wired/assets/images/apple-touch-icon.png" />
+
+	<!-- Google -->
+		<link href="https://plus.google.com/+WIRED" rel="publisher" />
+	<meta name="google-site-verification" content="" />
+	<meta name="gmapkey" content="ABQIAAAAF5yd_X_vTzike6sB6lp3wBQ4h890iMeKvsDZGQOc75SG0lWKAhQW755bw9E_-3ijKe6eqE5sg_NLEw" />
+
+	<!-- Schema.org markup for Google+ on singles for image -->
+
+
+	<link rel="dns-prefetch" href="http://result.wired.com" /><link rel="dns-prefetch" href="http://event.wired.com" /><link rel="dns-prefetch" href="//stats.wired.com" /><link rel="dns-prefetch" href="//sstats.wired.com" />            <!-- Chartbeat -->
+            <script type="text/javascript" class="chartbeat">var _sf_startpt=(new Date()).getTime()</script>
+            
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.5.6 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Get in-depth coverage of current and future trends in technology, and how they are shaping business, entertainment, communications, science, politics, and culture at WIRED."/>
+<link rel="canonical" href="http://www.wired.com" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel='stylesheet' id='ning-publisher-style-css'  href='http://www.wired.com/wp-content/plugins/ning-publisher/ning-publisher.css?ver=3.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wired-global-css'  href='http://www.wired.com/wp-content/themes/wired/assets/css/wired-home.css?ver=1411765660' type='text/css' media='screen' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js?ver=1.10.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WP_VARS = {"THEME_URI":"http:\/\/www.wired.com\/wp-content\/themes\/wired","ajaxurl":"https:\/\/www.wired.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.wired.com/js/cn-fe-common/cn.js?ver=1411765660'></script>
+<script type='text/javascript' src='http://www.wired.com/js/cn-fe-common/cn.mobile.js?ver=1411765660'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var deviceviews = {"mobileMax":"600","tabletMax":"850"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.wired.com/wp-content/mu-plugins/cn-wordpress/lib/js/jquery.devices.js?ver=1411765660'></script>
+<script type='text/javascript' src='http://result.wired.com/js/eventTracker.js' async='async'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var s_account = "conde-wired";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.wired.com/wp-content/config/cn-fe-stats/s_code.js?ver=1411765660'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var platformEnvironment = "production";
+var sitehost = "http:\/\/www.wired.com";
+var omniture_init = [];
+CN.omniture = CN.omniture || {};CN.omniture.conf = {"s_account":"conde-wired","server":"stats.wired.com","secureServer":"sstats.wired.com","internalFilters":"javascript:,wired.com,advancemags.com"};;
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.wired.com/wp-content/config/cn-fe-stats/omniture.js?ver=1411765660'></script>
+<script type='text/javascript' src='http://www.wired.com/wp-content/config/cn-fe-ads/cn.dart.js?ver=1411765660'></script>
+<script type='text/javascript' src='http://www.wired.com/wp-content/config/cn-fe-ads/cn.ad.aam.js?ver=1411765660'></script>
+<script type='text/javascript' src='http://www.wired.com/wp-content/config/cn-fe-ads/cn.ad.proximic.js?ver=1411765660'></script>
+<script type='text/javascript' src='http://www.wired.com/js/cn-fe-ecom/cn.ecom.js?ver=1411765660'></script>
+<script type='text/javascript' src='http://www.wired.com/js/cn-fe-ecom/ecomfw.js?ver=1411765660'></script>
+<script type='text/javascript' src='http://www.wired.com/js/cn-fe-ecom/promotheus/promotheus.js?ver=1411765660'></script>
+<script type='text/javascript' src='http://www.wired.com/wp-content/themes/wired/assets/js/plugins.min.js?ver=1411765660' async='async'></script>
+<link rel='https://github.com/WP-API/WP-API' href='http://www.wired.com/wp-json' />
+            <!-- COMSCORE -->
+	        <script type="text/javascript">
+	        //<!--
+	        	var _comscore = _comscore || [];
+	  			_comscore.push({ c1: "2", c2: "6035094", c4: "http://www.wired.com/"});
+	  			(function() {var s = document.createElement("script"), el =document.getElementsByTagName("script")[0]; s.async = true;
+	    		s.src = (document.location.protocol == "https:" ?"https://sb" : "http://b") +".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);})();
+	  			function slideChangeTrackingFn() {
+	  		         jQuery.ajax({
+	  		         type : 'GET',
+	  		         url : '/pv.xml',
+	  		         success : function(data) {
+	  		                 try {
+	  		                         COMSCORE.beacon({c1:"2", c2: "6035094"});
+	  		                         CN.debug.info("Comscore Non-Conventional(slideshow) Page view triggered.");
+	  		                     } catch(e) {
+	  		                         CN.debug.error('COMSCORE beacon call for slideshow page view failed' + e.message);
+	  		                     }
+	  		                 },
+	  		                 error : function(xhr, textStatus) {
+	  		                         CN.debug.error('page view xml load failed for slideshow, probably 404: ' + textStatus);
+	  		                     }
+	  		                 });
+	  		   }
+	  		//-->
+			</script>
+	            <script type="text/javascript" class="site_init">
+            //<!--
+                CN.site.init({
+                    code:             'WIR',
+                    title:            'WIRED',
+                    name:             'wired',
+                    alias:            'Wired.com',
+                    domain:           'Wired.com',
+                    tld:              'wired.com',
+                    baseUrl:          'http://www.wired.com',
+                    mobilecompatible: 'true',
+                    httpStatusCode:    200,
+            eventServer: 'http://event.wired.com',
+eventTrackingUrl: 'http://result.wired.com',
+eventTrackingEnv: 'PROD',
+userServiceUrl: 'https://user-service.condenastdigital.com',
+userServiceKey: 'd3Vbh/gcAN+GSvYTrIit/uDmPcY=',
+ecomUrl: 'https://subscribe.wired.com/api/circ/xml/Transaction',
+socialRes: 'http://www.wired.com/services/livefyre/userToken',
+                    env: 'PROD'  // Put something consistent last so we don't have a trailing comma (appease IE)
+                });
+
+                CN.isMobile = jQuery.devices.mobile();
+                CN.isTablet = jQuery.devices.tablet();
+                CN.checkDeviceView = jQuery.devices.checkDeviceView;
+            //-->
+            </script>
+                            <!-- AD INIT: CN.dart.init -->
+                <script type="text/javascript">
+                //<!--
+
+                    CN.dartKwsArray = [ "home","primary_4_article_4_image+secondary_21_article_21_image+sidebar_default" ];
+
+                
+                    CN.dart.init({
+                        site: CN.isMobile ? 'wiredcom.mobile.dart' : 'wiredcom.dart',
+                        zone: 'homepage',
+                        kws: CN.dartKwsArray,
+                        charmap : {' ' : '+', '-' : '_'}
+                    });
+                            //-->
+                </script>
+                            <!-- CM: page-ads.js -->
+            <script type="text/javascript">
+            //<!--
+                var _ghearst_vars = (function() {
+                    var commonParams = 'ad_category_prefix='
+                                        + '&amp;browser_path=%2F'
+                                        + '&amp;cat_prefixes=%2C'
+                                        + '&amp;site_prefix=wired'
+                                        + '&amp;subdomain=www'
+                                        + '&amp;url_name=';
+
+                                var metaKeyWords = (function() {
+                        var
+                            i                  = 0,
+                            metaKeywordContent = '',
+                            nameAttribute      = null,
+                            metaCollection     = document.getElementsByTagName('meta');
+
+                        for (i=0;i<metaCollection.length;i++) {
+                            nameAttribute = metaCollection[i].name.search(/keywords/);
+                            if (nameAttribute!= -1) {
+                                metaKeywordContent = metaCollection[i].content;
+                                metaKeywordContent = metaKeywordContent.replace(/,/g,'%2C'); // to replace ,
+                                metaKeywordContent = metaKeywordContent.replace(/ /g,''); // to replace space
+                            }
+                        }
+                        return encodeURIComponent(metaKeywordContent);
+                    })();
+            
+                    var deviceParams = (function() {
+                                                if ( ( navigator.userAgent.match(/iPad/i) !== null ) && ( CN.cookie.get('ipadTakeover') !== 'true' ) ) {
+                                return 'AMS_WIR_CONTENTPAGE_HEADERCALLOUT%2CAMS_WIR_CONTENTPAGE_RIGHTRAIL_B%2CAMS_WIR_GLOBAL_NAVBAR%2CAMS_WIR_GLOBAL_NAVBAR_ROLLOVER%2CAMS_WIR_GLOBAL_MAGAZINE_SUBNAV%2CAMS_WIR_GLOBAL_RIGHTRAIL_SUBSERVICES%2CAMS_WIR_HOMEPAGE_RIGHTNAV%2CAMS_WIR_FOOTER_NAVBAR_POPUP%2CAMS_WIR_FOOTER_NAVBAR%2CAMS_WIR_HOMEPAGE_RIGHTRAIL_A%2CAMS_WIR_HOMEPAGE_RIGHTRAIL_B%2CAMS_WIR_MOBILE_NAVBAR%2CAMS_WIR_MOBILE_NAV_LINK%2CAMS_WIR_MOBILE_FOOTER_LINK%2CAMS_WIR_POPUP_FLOATINGAD%2CAMS_WIR_GLOBAL_IPAD_TAKEOVER';
+                            } else {
+                                return 'AMS_WIR_CONTENTPAGE_HEADERCALLOUT%2CAMS_WIR_CONTENTPAGE_RIGHTRAIL_B%2CAMS_WIR_GLOBAL_NAVBAR%2CAMS_WIR_GLOBAL_NAVBAR_ROLLOVER%2CAMS_WIR_GLOBAL_MAGAZINE_SUBNAV%2CAMS_WIR_GLOBAL_RIGHTRAIL_SUBSERVICES%2CAMS_WIR_HOMEPAGE_RIGHTNAV%2CAMS_WIR_FOOTER_NAVBAR_POPUP%2CAMS_WIR_FOOTER_NAVBAR%2CAMS_WIR_HOMEPAGE_RIGHTRAIL_A%2CAMS_WIR_HOMEPAGE_RIGHTRAIL_B%2CAMS_WIR_MOBILE_NAVBAR%2CAMS_WIR_MOBILE_NAV_LINK%2CAMS_WIR_MOBILE_FOOTER_LINK%2CAMS_WIR_POPUP_FLOATINGAD';
+                            }
+                                                })();
+
+            
+                    return {
+                        'ams_ads_script_src' : 'https://subscribe.wired.com/ams/page-ads.js?'
+                                                + commonParams + ''
+                                                + '&amp;keywords=' + metaKeyWords + ''
+                                                + '&amp;position_list=' + deviceParams + ''
+                    };
+                })();
+
+                if (!window.$h) {window.$h = {}}
+                (function(){
+                    if (!$h.util) {
+                        $h.util = {
+                            buildScriptTag: function(src){
+                                if (!!src){ document.write('<scr' + 'ipt src="'+src+'" type="text/javascript"></scr' + 'ipt>');}
+                            }
+                        }
+                    }
+                    $h.util.buildScriptTag(_ghearst_vars.ams_ads_script_src)
+                })();
+            //-->
+            </script>
+            
+	<script type="text/javascript" src="//fonts.condenast.com/ztc8lol.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){console.log("Typekit failed to load! " + e);}</script>
+
+	
+	<!--[if (gte IE 6)&(lte IE 8)]>
+		<script type="text/javascript" src="http://www.wired.com/wp-content/themes/wired/assets/js/selectivizr-min.js"></script>
+	<![endif]-->
+
+</head>
+<body class="home blog  primary-4-article-4-image secondary-21-article-21-image sidebar-default">
+
+<div id="shell">
+<!-- end wired/header.php --><!-- begin stereo header -->
+<div id="header">
+	<div id="header-ad-1">
+		<div class="advertisement"><div id="topleftheader200x82_frame" class="displayAd displayAd200x82Js" data-cb-ad-id="topleftheader200x82_frame"></div><script type="text/javascript">if ( typeof CN !== "undefined" ) {
+if ( ! CN.isMobile && CN.dart ) {
+ CN.dart.call( "topleftheader", { sz: "200x82", kws: [ "home" ], collapse: true } );
+} 
+}</script></div>	</div>
+
+	<div itemscope itemtype="http://schema.org/Organization">
+		<a id="home_logo" href="http://www.wired.com" itemprop="url"><img nopin="nopin" src="http://www.wired.com/wp-content/themes/wired/assets/images/wired_logo.gif" alt="WIRED" id="logo_home" itemprop="logo" />WIRED</a>
+	</div>
+
+	<div id="header-ad-2">
+	<div class="advertisement"><div id="toprightheader400x82_frame" class="displayAd displayAd400x82Js" data-cb-ad-id="toprightheader400x82_frame"></div><script type="text/javascript">if ( typeof CN !== "undefined" ) {
+if ( ! CN.isMobile && CN.dart ) {
+ CN.dart.call( "toprightheader", { sz: "400x82", kws: [ "home" ], collapse: true } );
+} 
+}</script></div>	</div>
+</div><div id="primary_package">
+	<div id="weekend"><h5>WEEKEND EDITION</h5>
+		<div id="weekend-edition"></div></div>
+		<!-- Start row1 -->
+<div id="row1"><!-- Start story-1 -->
+<div id="story-1" class="story-item"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/iphone-6-plus-review/"><img src="http://www.wired.com/wp-content/uploads/2014/09/siz-plus-wk.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline1">
+		<h5>sizing it up</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/iphone-6-plus-review/">The WIRED iPhone 6 Plus Review: Too Big to Fail, But Not to Bend</a>
+	</h2>
+	</div></div> <!-- End story-1 --><!-- Start story-2 -->
+<div id="story-2" class="story-item"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/iphone-6-review/"><img src="http://www.wired.com/wp-content/uploads/2014/09/iphone6-gallery-bg.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline2">
+		<h5>to buy or not to buy</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/iphone-6-review/">The WIRED iPhone 6 Review: Bigger, Better...and a Little Buggy</a>
+	</h2>
+	</div></div> <!-- End story-2 --><!-- Start story-3 -->
+<div id="story-3" class="story-item"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/customized-bmw-r-ninet/"><img src="http://www.wired.com/wp-content/uploads/2014/09/4-bikes-bmw-bg.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline3">
+		<h5>the R nineT</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/customized-bmw-r-ninet/">BMW Has Finally Made a Gorgeous Bike That'll Appeal to Young Riders</a>
+	</h2>
+	</div></div> <!-- End story-3 --><!-- Start story-4 -->
+<div id="story-4" class="story-item"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/eerie-architecture-east-germanys-secret-police/"><img src="http://www.wired.com/wp-content/uploads/2014/09/stasi-bg.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline4">
+		<h5>Image Gallery</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/eerie-architecture-east-germanys-secret-police/">The Eerie Architecture of East Germany's Secret Police</a>
+	</h2>
+	</div></div> <!-- End story-4 --></div> <!-- End row1 -->	</div>
+<nav id="global-nav">
+	<div id="nav-wrap">
+		<div id='inner-nav'>
+			<div id="logo" itemscope itemtype="http://schema.org/Organization">
+				<a itemprop="url" href="http://www.wired.com"><img nopin="nopin" src="http://www.wired.com/wp-content/themes/wired/assets/images/post_wired_logo_150x60.gif" alt="WIRED" id="logo_home" itemprop="logo" />WIRED</a>
+			</div>
+			<ul id="primary-nav">
+							<!-- nav for GEAR -->
+				<li class="gear">
+				<h2><a class="non-js-menu" href="http://www.wired.com/gear/">
+					GEAR</a></h2>
+				<ul class="subnav">
+										<!-- nav for autopia -->
+					<li class="nav-beat autopia">
+					<h3 class="feed-title">
+						<a href="http://www.wired.com/category/autopia/">Autopia</a>
+					</h3>
+					<ul><!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/ferrari-458-speciale/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/ferrari-w.jpg" alt="Ferrari Cuts the Top Off of One of the Best Cars It&#039;s Ever Made" />
+		</span>
+		<h4 data-post_time="">Ferrari Cuts the Top Off of One of the Best Cars It&#039;s Ever Made</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/underground-beer-pipeline/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/visit-flanders-w.jpg" alt="Bruges Will Cut Traffic With...an Underground Beer Pipeline" />
+		</span>
+		<h4 data-post_time="">Bruges Will Cut Traffic With...an Underground Beer Pipeline</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/forza-horizon-2-drivatars/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/forza-w.jpg" alt="In Forza Horizon 2, Computers Finally Drive as Crazy as Humans" />
+		</span>
+		<h4 data-post_time="">In Forza Horizon 2, Computers Finally Drive as Crazy as Humans</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+</ul>					</li> <!-- /nav for autopia -->
+										<!-- nav for gadget lab -->
+					<li class="nav-beat gadget lab">
+					<h3 class="feed-title">
+						<a href="http://www.wired.com/category/gadgetlab/">Gadget Lab</a>
+					</h3>
+					<ul><!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/gadget-lab-podcast-224/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/bendgate-w.jpg" alt="Gadget Lab Podcast: We Dig Deep Into the Bendy iPhone Controversy" />
+		</span>
+		<h4 data-post_time="">Gadget Lab Podcast: We Dig Deep Into the Bendy iPhone Controversy</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/apple-rumors-and-reports/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/04/ipadair-w.jpg" alt="This Week&#039;s Apple Rumors, Ranked From Dumbest to Most Plausible" />
+		</span>
+		<h4 data-post_time="">This Week&#039;s Apple Rumors, Ranked From Dumbest to Most Plausible</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/polar-m400-smartwatch/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/polar-w.jpg" alt="Track Your Workout Like a Pro Athlete With This Fancy Smartwatch" />
+		</span>
+		<h4 data-post_time="">Track Your Workout Like a Pro Athlete With This Fancy Smartwatch</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+</ul>					</li> <!-- /nav for gadget lab -->
+										<!-- nav for reviews -->
+					<li class="nav-beat reviews">
+					<h3 class="feed-title">
+						<a href="http://www.wired.com/category/reviews/">Reviews</a>
+					</h3>
+					<ul><!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/iphone-6-review/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/iphone6-gallery-w.jpg" alt="The WIRED iPhone 6 Review: Bigger, Better...and a Little Buggy" />
+		</span>
+		<h4 data-post_time="">The WIRED iPhone 6 Review: Bigger, Better...and a Little Buggy</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/iphone-6-plus-review/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/six-plus-w.jpg" alt="The WIRED iPhone 6 Plus Review: Too Big to Fail, But Not to Bend" />
+		</span>
+		<h4 data-post_time="">The WIRED iPhone 6 Plus Review: Too Big to Fail, But Not to Bend</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/fountain-pen-hi-low/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/inkpens-highlow-w.jpg" alt="When Buying Fountain Pens, Splurging (a Little) Is Totally Worth It" />
+		</span>
+		<h4 data-post_time="86710227115">When Buying Fountain Pens, Splurging (a Little) Is Totally Worth It</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+</ul>					</li> <!-- /nav for reviews -->
+									</ul>
+				</li> <!-- /nav for GEAR -->
+							<!-- nav for SCIENCE -->
+				<li class="science">
+				<h2><a class="non-js-menu" href="http://www.wired.com/science/">
+					SCIENCE</a></h2>
+				<ul class="subnav">
+										<!-- nav for science -->
+					<li class="nav-beat science">
+					<h3 class="feed-title">
+						<a href="http://www.wired.com/category/wiredscience/">Science</a>
+					</h3>
+					<ul><!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/absurd-creature-week-incredible-spider-lives-entire-life-underwater/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/water-spider-w.jpg" alt="Absurd Creature of the Week: The Incredible Spider That Lives Its Entire Life Underwater" />
+		</span>
+		<h4 data-post_time="">Absurd Creature of the Week: The Incredible Spider That Lives Its Entire Life Underwater</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/science-graphic-ice-caps/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/icecaps-graphic-w.jpg" alt="Science Graphic of the Week: Three Ways to Visualize Our Melting Northern Ice Cap" />
+		</span>
+		<h4 data-post_time="">Science Graphic of the Week: Three Ways to Visualize Our Melting Northern Ice Cap</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/new-gm-crops/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/gm-crops-w.jpg" alt="New Generation of GM Crops Puts Agriculture in a &#039;Crisis Situation&#039;" />
+		</span>
+		<h4 data-post_time="">New Generation of GM Crops Puts Agriculture in a &#039;Crisis Situation&#039;</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+</ul>					</li> <!-- /nav for science -->
+										<!-- nav for science blogs -->
+					<li class="nav-beat science blogs">
+					<h3 class="feed-title">
+						<a href="http://www.wired.com/category/science-blogs/">Science Blogs</a>
+					</h3>
+					<ul><!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/double-slit-empzeal/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/plasma-ball-200x100.jpg" alt="Hey There Little Electron, Why Won&#039;t You Tell Me Where You Came From?" />
+		</span>
+		<h4 data-post_time="">Hey There Little Electron, Why Won&#039;t You Tell Me Where You Came From?</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/japans-ontake-erupts-hikers-trapped-injured/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/01-200x100.jpg" alt="Japan&#039;s Ontake Erupts, Hikers Trapped and Injured" />
+		</span>
+		<h4 data-post_time="">Japan&#039;s Ontake Erupts, Hikers Trapped and Injured</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/when-a-giant-asteroid-impact-created-its-own-volcanoes-magma/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/impact-magma-w.jpg" alt="When a Giant Asteroid Impact Created Its Own Magma" />
+		</span>
+		<h4 data-post_time="">When a Giant Asteroid Impact Created Its Own Magma</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+</ul>					</li> <!-- /nav for science blogs -->
+									</ul>
+				</li> <!-- /nav for SCIENCE -->
+							<!-- nav for ENTERTAINMENT -->
+				<li class="entertainment">
+				<h2><a class="non-js-menu" href="http://www.wired.com/entertainment/">
+					ENTERTAINMENT</a></h2>
+				<ul class="subnav">
+										<!-- nav for game|life -->
+					<li class="nav-beat game|life">
+					<h3 class="feed-title">
+						<a href="http://www.wired.com/category/gamelife/">Game|Life</a>
+					</h3>
+					<ul><!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/gamelife-podcast-episode-128/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/hatoful-200x100.jpg" alt="Game|Life Podcast: You and Me Could Write a Bird Romance" />
+		</span>
+		<h4 data-post_time="">Game|Life Podcast: You and Me Could Write a Bird Romance</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/shadow-of-mordor/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/shadow-mordor-w.jpg" alt="Shadow of Mordor Is the Best Lord of the Rings Game Ever" />
+		</span>
+		<h4 data-post_time="">Shadow of Mordor Is the Best Lord of the Rings Game Ever</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/smash-bros-3ds-review/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/3d-smashbros-w.jpg" alt="3DS Smash Bros. Is an Exhilarating Return to Excellence" />
+		</span>
+		<h4 data-post_time="">3DS Smash Bros. Is an Exhilarating Return to Excellence</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+</ul>					</li> <!-- /nav for game|life -->
+										<!-- nav for playbook -->
+					<li class="nav-beat playbook">
+					<h3 class="feed-title">
+						<a href="http://www.wired.com/category/playbook/">Playbook</a>
+					</h3>
+					<ul><!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/man-wired-facebook-helped-build-nfl-stadium-future/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/levis-stadium-w.jpg" alt="How the Man Who Wired Facebook Helped Build the NFL Stadium of the Future" />
+		</span>
+		<h4 data-post_time="184221180651">How the Man Who Wired Facebook Helped Build the NFL Stadium of the Future</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/07/expedition-canoe-gear/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/07/expedition-canoe-w.jpg" alt="Canoeing Through a No-Escape Gauntlet of Whitecaps and Boulders" />
+		</span>
+		<h4 data-post_time="">Canoeing Through a No-Escape Gauntlet of Whitecaps and Boulders</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/07/expedition-mountain-bike-gear/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/07/expeditionbike-w.jpg" alt="How I Survived Biking Through the Mojave Desert for Three Days" />
+		</span>
+		<h4 data-post_time="">How I Survived Biking Through the Mojave Desert for Three Days</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+</ul>					</li> <!-- /nav for playbook -->
+										<!-- nav for underwire -->
+					<li class="nav-beat underwire">
+					<h3 class="feed-title">
+						<a href="http://www.wired.com/category/underwire/">Underwire</a>
+					</h3>
+					<ul><!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/radiohead-thom-yorke-bittorrent-album/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/thom-yorke-w.jpg" alt="Thom Yorke Just Released a $6 Album on BitTorrent" />
+		</span>
+		<h4 data-post_time="">Thom Yorke Just Released a $6 Album on BitTorrent</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/brooklyn-nine-nine-primer/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/Brooklyn-Nine-Nine-w.jpg" alt="Everything You Need to Know to Catch Up on Brooklyn Nine-Nine" />
+		</span>
+		<h4 data-post_time="">Everything You Need to Know to Catch Up on Brooklyn Nine-Nine</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/boxtrolls-gallery/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/boxtrolls-bts-w.jpg" alt="Go Behind the (Crazy-Complex) Scenes of The Boxtrolls" />
+		</span>
+		<h4 data-post_time="">Go Behind the (Crazy-Complex) Scenes of The Boxtrolls</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+</ul>					</li> <!-- /nav for underwire -->
+									</ul>
+				</li> <!-- /nav for ENTERTAINMENT -->
+							<!-- nav for BUSINESS -->
+				<li class="business">
+				<h2><a class="non-js-menu" href="http://www.wired.com/business/">
+					BUSINESS</a></h2>
+				<ul class="subnav">
+										<!-- nav for business -->
+					<li class="nav-beat business">
+					<h3 class="feed-title">
+						<a href="http://www.wired.com/category/business/">Business</a>
+					</h3>
+					<ul><!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/free-online-classes-still-future-education/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/mooc-w.jpg" alt="Why Free Online Classes Are Still the Future of Education" />
+		</span>
+		<h4 data-post_time="">Why Free Online Classes Are Still the Future of Education</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/facebook-killer-ello-doesnt-care-moneyso-wont-work/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/facebook-killer-w.jpg" alt="&#039;Facebook Killer&#039; Ello Doesn&#039;t Care About Money&mdash;So It Won&#039;t Work" />
+		</span>
+		<h4 data-post_time="">&#039;Facebook Killer&#039; Ello Doesn&#039;t Care About Money&mdash;So It Won&#039;t Work</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/drones-get-ok-feds-shoot-movies-us-airspace/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/film-drones-w.jpg" alt="You Can Now Use Drones to Shoot Movies in the US, Feds Say" />
+		</span>
+		<h4 data-post_time="">You Can Now Use Drones to Shoot Movies in the US, Feds Say</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+</ul>					</li> <!-- /nav for business -->
+					<li class="business-conference sponsored nav-beat">
+	<h3 class="feed-title"><a href="http://wiredbusinessconference.com/">Business Conference</a></h3>
+	<ul>
+		<li class="sponsored-hed">
+			<a href="http://wiredbusinessconference.com/"><h4>Promotion</h4></a>
+		</li>
+		<li class="sponsored-content">
+			<a href="http://wiredbusinessconference.com/">
+				<span class="feed-thumbnail"><img nopin="nopin" src="http://www.wired.com/wp-content/themes/wired/assets/images/disruptive_by_design_2012.gif" width="217" height="109" alt="Wired's Disruptive by Design" /></span>
+				<p>
+					In today's business world, disruption is a constant force that never lets up. At the annual WIRED Business Conference: Disruptive by Design, we celebrate the creative power of bold new ideas and the people that make them happen.
+					<br />
+					<br />
+					See the event &gt;
+				</p>
+			</a>
+		</li>
+	</ul>
+</li>					<!-- nav for enterprise -->
+					<li class="nav-beat enterprise">
+					<h3 class="feed-title">
+						<a href="http://www.wired.com/category/wiredenterprise/">Enterprise</a>
+					</h3>
+					<ul><!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/tech-time-warp-week-tech-giant-saw-future-google-put-business/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/tech-warp-w.jpg" alt="Tech Time Warp of the Week: This Tech Giant Saw the Future. Then Google Put It Out of Business" />
+		</span>
+		<h4 data-post_time="">Tech Time Warp of the Week: This Tech Giant Saw the Future. Then Google Put It Out of Business</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/google-artificial-brain/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/07/brain-w.jpg" alt="You Don&#039;t Have to Be Google to Build an Artificial Brain" />
+		</span>
+		<h4 data-post_time="">You Don&#039;t Have to Be Google to Build an Artificial Brain</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/man-quest-open-source-cancer-research/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/opensource-cancer-w.jpg" alt="The Man on a Quest to Open-Source Cancer Research" />
+		</span>
+		<h4 data-post_time="">The Man on a Quest to Open-Source Cancer Research</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+</ul>					</li> <!-- /nav for enterprise -->
+										<!-- nav for innovation insights -->
+					<li class="nav-beat innovation insights">
+					<h3 class="feed-title">
+						<a href="http://www.wired.com/category/insights/">Innovation Insights</a>
+					</h3>
+					<ul><!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/foxbots/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/iphone_production_660-200x100.jpg" alt="How the iPhone Is Made: &#039;Foxbots&#039; and the World as Stage" />
+		</span>
+		<h4 data-post_time="">How the iPhone Is Made: &#039;Foxbots&#039; and the World as Stage</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/technologies-dominate-2022/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/08/crystalball_660-200x100.jpg" alt="Which Technologies Will Dominate in 2022?" />
+		</span>
+		<h4 data-post_time="">Which Technologies Will Dominate in 2022?</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/venture-capital-for-innovation/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/innovation_wall_660-200x100.jpg" alt="Playing the Field: The Sport of Today’s Venture Capital for Innovation" />
+		</span>
+		<h4 data-post_time="">Playing the Field: The Sport of Today’s Venture Capital for Innovation</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+</ul>					</li> <!-- /nav for innovation insights -->
+									</ul>
+				</li> <!-- /nav for BUSINESS -->
+							<!-- nav for SECURITY -->
+				<li class="security">
+				<h2><a class="non-js-menu" href="http://www.wired.com/security/">
+					SECURITY</a></h2>
+				<ul class="subnav">
+										<!-- nav for danger room -->
+					<li class="nav-beat danger room">
+					<h3 class="feed-title">
+						<a href="http://www.wired.com/category/dangerroom/">Danger Room</a>
+					</h3>
+					<ul><!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/wwis-u-boats-launched-age-unrestricted-warfare/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/uboat-w2.jpg" alt="How WWI&#039;s U-Boats Launched the Age of Unrestricted Warfare" />
+		</span>
+		<h4 data-post_time="-3574144102">How WWI&#039;s U-Boats Launched the Age of Unrestricted Warfare</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/military-grade-drone-can-printed-anywhere/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/3d-printed-drone-w.jpg" alt="A Military-Grade Drone That Can Be Printed Anywhere" />
+		</span>
+		<h4 data-post_time="">A Military-Grade Drone That Can Be Printed Anywhere</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/ww1-fokker-triplane/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/fokker-triplane-w.jpg" alt="How the Red Baron&#039;s Knockoff Aircraft Became the First Great Warplane" />
+		</span>
+		<h4 data-post_time="">How the Red Baron&#039;s Knockoff Aircraft Became the First Great Warplane</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+</ul>					</li> <!-- /nav for danger room -->
+										<!-- nav for threat level -->
+					<li class="nav-beat threat level">
+					<h3 class="feed-title">
+						<a href="http://www.wired.com/category/threatlevel/">Threat Level</a>
+					</h3>
+					<ul><!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/hackers-already-using-shellshock-bug-create-botnets-ddos-attacks/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/images_blogs/threatlevel/2014/01/dark-servers-w.jpg" alt="Hackers Are Already Using the Shellshock Bug to Launch Botnet Attacks" />
+		</span>
+		<h4 data-post_time="">Hackers Are Already Using the Shellshock Bug to Launch Botnet Attacks</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/emv/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/images_blogs/threatlevel/2013/12/visas-w.jpg" alt="Why the Heyday of Credit Card Fraud Is Almost Over" />
+		</span>
+		<h4 data-post_time="">Why the Heyday of Credit Card Fraud Is Almost Over</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/internet-braces-crazy-shellshock-worm/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/04/openssl-w.jpg" alt="The Internet Braces for the Crazy Shellshock Worm" />
+		</span>
+		<h4 data-post_time="">The Internet Braces for the Crazy Shellshock Worm</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+</ul>					</li> <!-- /nav for threat level -->
+									</ul>
+				</li> <!-- /nav for SECURITY -->
+							<!-- nav for DESIGN -->
+				<li class="design">
+				<h2><a class="non-js-menu" href="http://www.wired.com/design/">
+					DESIGN</a></h2>
+				<ul class="subnav">
+										<!-- nav for design -->
+					<li class="nav-beat design">
+					<h3 class="feed-title">
+						<a href="http://www.wired.com/category/design/">Design</a>
+					</h3>
+					<ul><!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/1-5-million-watch-microscopic-sculpture-inside/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/sculpture-watch-w.jpg" alt="This $1.5 Million Watch Has a Microscopic Sculpture Inside" />
+		</span>
+		<h4 data-post_time="">This $1.5 Million Watch Has a Microscopic Sculpture Inside</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/7-strange-art-projects-imagine-life-earth-climate-changes/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/climate-gallery-w.jpg" alt="7 Strange Art Projects Imagine Life After Our Climate Collapses" />
+		</span>
+		<h4 data-post_time="">7 Strange Art Projects Imagine Life After Our Climate Collapses</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/app-fights-acne-nearly-silly-sounds/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/spruce-w.jpg" alt="This App Fights Acne (It&#039;s Not Nearly as Silly as It Sounds)" />
+		</span>
+		<h4 data-post_time="">This App Fights Acne (It&#039;s Not Nearly as Silly as It Sounds)</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+</ul>					</li> <!-- /nav for design -->
+										<!-- nav for raw file -->
+					<li class="nav-beat raw file">
+					<h3 class="feed-title">
+						<a href="http://www.wired.com/category/rawfile/">Raw File</a>
+					</h3>
+					<ul><!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/encountering-the-astronomical-sublime/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/nasa-nostalgia-w.jpg" alt="Old-School NASA Photos Transport You to Space Exploration&#039;s Glory Days" />
+		</span>
+		<h4 data-post_time="">Old-School NASA Photos Transport You to Space Exploration&#039;s Glory Days</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/wet-dogs/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/wet-dogs-w.jpg" alt="Hilarious Photos Capture the Complex Emotions of the Wet Dog" />
+		</span>
+		<h4 data-post_time="">Hilarious Photos Capture the Complex Emotions of the Wet Dog</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/christian-weber-explosions/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/explosions-w.jpg" alt="Beautiful Photos of Explosions Captured at the Perfect Moment" />
+		</span>
+		<h4 data-post_time="197096422306">Beautiful Photos of Explosions Captured at the Perfect Moment</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+</ul>					</li> <!-- /nav for raw file -->
+									</ul>
+				</li> <!-- /nav for DESIGN -->
+							<!-- nav for OPINION -->
+				<li class="opinion">
+				<h2><a class="non-js-menu" href="http://www.wired.com/opinion/">
+					OPINION</a></h2>
+				<ul class="subnav">
+										<!-- nav for opinion -->
+					<li class="nav-beat opinion">
+					<h3 class="feed-title">
+						<a href="http://www.wired.com/category/opinion/">Opinion</a>
+					</h3>
+					<ul><!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/im-optimistic-climate-change/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/landscape-w.jpg" alt="I&#039;m Optimistic About Climate Change, and You Should Be Too" />
+		</span>
+		<h4 data-post_time="">I&#039;m Optimistic About Climate Change, and You Should Be Too</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/cargo-drones-in-africa/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/donkey-drones-w.jpg" alt="A Radical But Possible Plan to Connect African Nations With Cargo Drones" />
+		</span>
+		<h4 data-post_time="-3227075302">A Radical But Possible Plan to Connect African Nations With Cargo Drones</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/ebola-can-teach-us-prepare-next-great-pandemic/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/ebola-virus-w.jpg" alt="How Ebola Can Teach Us to Prepare for the Next Great Pandemic" />
+		</span>
+		<h4 data-post_time="">How Ebola Can Teach Us to Prepare for the Next Great Pandemic</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+</ul>					</li> <!-- /nav for opinion -->
+									</ul>
+				</li> <!-- /nav for OPINION -->
+							<!-- nav for MAGAZINE -->
+				<li class="magazine">
+				<h2><a class="non-js-menu" href="http://www.wired.com/subwired/magazine/">
+					MAGAZINE</a></h2>
+				<ul class="subnav">
+					<li class="magazine nav-beat">
+	<h3 class="feed-title"><a href="http://www.wired.com/subwired/magazine">Current Issue</a></h3>
+		<div id="AMS_WIR_GLOBAL_MAGAZINE_SUBNAV" class="ecom-placement">
+		<a target="_blank" href="https://w1.buysub.com/loc/WIR/ATGFailsafe">
+			<img src="http://www.wired.com/images/covers/120x164.jpg" width="110" height="150" alt="Wired Magazine" />
+		</a>
+		<a target="_blank" href="https://w1.buysub.com/loc/WIR/ATGFailsafe">
+			<span>Subscribe</span>
+		</a>
+		            <script type="text/javascript">
+            //<!--
+                if ( ( typeof pageAds != 'undefined') && ( CN.url.params( 'nojoy' ) != 1 ) ) {
+                                    (function(){
+                    if ( typeof pageAds.AMS_WIR_GLOBAL_MAGAZINE_SUBNAV != 'undefined' ) {
+  jQuery( "#AMS_WIR_GLOBAL_MAGAZINE_SUBNAV" ).html( pageAds.AMS_WIR_GLOBAL_MAGAZINE_SUBNAV.replace( /document.write\(.*\)/gi, "/* filtered by amg-magnet:document.write(...) */" ) );
+} else { CN.debug.info( "AMS_WIR_GLOBAL_MAGAZINE_SUBNAV not in pageAds."); }
+                    })();
+                                }
+            //-->
+            </script>
+            	</div>
+		<ul>
+		<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/wrong-theory/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/wrongtheory-w.jpg" alt="Why Getting It Wrong Is the Future of Design" />
+		</span>
+		<h4 data-post_time="198390348706">Why Getting It Wrong Is the Future of Design</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/design-package-2014/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/design-package-w.jpg" alt="13 Lessons for Design&#039;s New Golden Age" />
+		</span>
+		<h4 data-post_time="197475113506">13 Lessons for Design&#039;s New Golden Age</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+<!-- nav for post -->
+<li class="feed-content">
+	<a href="http://www.wired.com/2014/09/zero-theorem/" class="module-globalnav">
+		<span class="feed-thumbnail">
+				<img nopin="nopin" src="http://www.wired.com/wp-content/uploads/2014/09/ut_gilliamqa-w.jpg" alt="Terry Gilliam on His Epic New Dystopian Film The Zero Theorem" />
+		</span>
+		<h4 data-post_time="">Terry Gilliam on His Epic New Dystopian Film The Zero Theorem</h4>
+	</a>
+</li>
+<!-- /nav for post -->
+	</ul>
+</li>				</ul>
+				</li> <!-- /nav for MAGAZINE -->
+						<li class="video secondary">
+	<h2><a href="http://video.wired.com/">Video</a></h2>
+	<ul>
+		<li>
+			<a href="http://video.wired.com/">
+				<img alt="WIRED Video" title="WIRED Video" src="http://www.wired.com/wp-content/themes/wired/assets/images/wired_video_1000x190.jpg">
+			</a>
+		</li>
+	</ul>
+</li><!-- /.video -->
+
+<li class="insider secondary">
+	<h2><a href="http://wiredinsider.com">Insider</a></h2>
+	<ul>
+		<li>
+			<a href="http://wiredinsider.tumblr.com/" alt="insiders"><img alt="WIRED Insider" title="WIRED Insider" src="http://www.wired.com/wp-content/themes/wired/assets/images/wired_insider_1118_1000x190.jpg" /></a>
+		</li>
+	</ul>
+ </li><!-- /.insider.secondary -->
+
+<li class="subscribe secondary">
+		<h2 id="AMS_WIR_GLOBAL_NAVBAR" class="ecom-placement">
+		<a target="_new" class="primaryLink" href="https://w1.buysub.com/loc/WIR/ATGFailsafe">
+			Subscribe
+		</a>
+		            <script type="text/javascript">
+            //<!--
+                if ( ( typeof pageAds != 'undefined') && ( CN.url.params( 'nojoy' ) != 1 ) ) {
+                                    (function(){
+                    if ( typeof pageAds.AMS_WIR_GLOBAL_NAVBAR != 'undefined' ) {
+  jQuery( "#AMS_WIR_GLOBAL_NAVBAR" ).html( pageAds.AMS_WIR_GLOBAL_NAVBAR.replace( /document.write\(.*\)/gi, "/* filtered by amg-magnet:document.write(...) */" ) );
+  jQuery( "#AMS_WIR_GLOBAL_NAVBAR" ).css( { visibility: 'visible' } );
+} else { CN.debug.info( "AMS_WIR_GLOBAL_NAVBAR not in pageAds."); }
+                    })();
+                                }
+            //-->
+            </script>
+            	</h2>
+		<ul>
+		<li>	<div id="AMS_WIR_GLOBAL_NAVBAR_ROLLOVER" class="ecom-placement">
+		<a id="global_navBar_failsafe" target="_new" href="https://w1.buysub.com/loc/WIR/ATGFailsafe">
+			<img alt="Subscribe to WIRED magazine" src="http://www.wired.com/wp-content/themes/wired/assets/images/subscribe_1000x190.gif" />
+		</a>
+		            <script type="text/javascript">
+            //<!--
+                if ( ( typeof pageAds != 'undefined') && ( CN.url.params( 'nojoy' ) != 1 ) ) {
+                                    (function(){
+                    if ( typeof pageAds.AMS_WIR_GLOBAL_NAVBAR_ROLLOVER != 'undefined' ) {
+  jQuery( "#AMS_WIR_GLOBAL_NAVBAR_ROLLOVER" ).html( pageAds.AMS_WIR_GLOBAL_NAVBAR_ROLLOVER.replace( /document.write\(.*\)/gi, "/* filtered by amg-magnet:document.write(...) */" ) );
+} else { CN.debug.info( "AMS_WIR_GLOBAL_NAVBAR_ROLLOVER not in pageAds."); }
+                    })();
+                                }
+            //-->
+            </script>
+            	</div>
+	</li>
+	</ul>
+</li><!-- /.subscribe.secondary -->			</ul> <!-- end primary nav -->
+			<ul id="nav-extras">
+	<li class="rss"><h2 class="rss-icon"><a href="http://www.wired.com/about/rss_feeds/">RSS</a></h2></li>
+	<li class="search" class='active'>
+
+		<h2 class="search-icon">
+			<a href="http://www.wired.com/search/">Search</a>
+		</h2>
+     </li><!-- /.search.secondary -->
+</ul><!-- /#nav-extras -->		</div>
+	</div> <!-- /#nav-wrap -->
+</nav> <!-- /#global_header -->	<div id="pushdownAd">
+		<div class="advertisement"><div id="header970x418_frame" class="displayAd displayAd970x418Js" data-cb-ad-id="header970x418_frame"></div><script type="text/javascript">if ( typeof CN !== "undefined" ) {
+if ( ! CN.isMobile && CN.dart ) {
+ CN.dart.call( "header", { sz: "970x418", kws: [ "top" ], collapse: false } );
+} 
+}</script></div>	</div>
+<div id="content-wrapper">
+	<div id="secondary_package">
+		<!-- Start row1 -->
+<div class="row1"><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/wired-space-photo-of-the-day-for-september-2014/"><img src="http://www.wired.com/wp-content/uploads/2014/09/deceptiongalaxy-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline2">
+		<h5>image gallery</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/wired-space-photo-of-the-day-for-september-2014/">WIRED Space Photo of the Day: Hubble Spies a Galaxy of Deception</a>
+	</h2>
+	</div></div><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/geeks-guide-david-x-cohen/"><img src="http://www.wired.com/wp-content/uploads/2014/09/davidcohen-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline3">
+		<h5>Geek's Guide to the Galaxy</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/geeks-guide-david-x-cohen/"><em>Futurama'</em>s Resident Physics Nerd on Math Jokes and Richard Nixon</a>
+	</h2>
+	</div></div><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/shadow-of-mordor/"><img src="http://www.wired.com/wp-content/uploads/2014/09/shadow-mordor-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline1">
+		<h5>world-building games</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/shadow-of-mordor/"><em>Shadow of Mordor</em> Is the Best <em>Lord of the Rings</em> Game Ever</a>
+	</h2>
+	</div></div></div><!-- Start row1 -->
+<div class="row1"><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/1-5-million-watch-microscopic-sculpture-inside/"><img src="http://www.wired.com/wp-content/uploads/2014/09/sculpture-watch-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline2">
+		<h5>museum on a wrist</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/1-5-million-watch-microscopic-sculpture-inside/">This $1.5 Million Watch Has a Microscopic Sculpture Inside</a>
+	</h2>
+	</div></div><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/im-optimistic-climate-change/"><img src="http://www.wired.com/wp-content/uploads/2014/09/landscape-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline3">
+		<h5>wired opinion</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/im-optimistic-climate-change/">I'm Optimistic About Climate Change, and You Should Be Too</a>
+	</h2>
+	</div></div><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/gadget-lab-podcast-224/"><img src="http://www.wired.com/wp-content/uploads/2014/09/bendgate-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline1">
+		<h5>Gadget Lab Podcast</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/gadget-lab-podcast-224/">We Dig Deep Into the Bendy iPhone Controversy</a>
+	</h2>
+	</div></div></div><!-- Start row2 -->
+<div class="row2"><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/facebook-killer-ello-doesnt-care-moneyso-wont-work/"><img src="http://www.wired.com/wp-content/uploads/2014/09/facebook-killer-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline2">
+		<h5>nice try</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/facebook-killer-ello-doesnt-care-moneyso-wont-work/">'Facebook Killer' Ello Doesn't Care About Money&mdash;So It Won't Work</a>
+	</h2>
+	</div></div><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/apple-rumors-and-reports/"><img src="http://www.wired.com/wp-content/uploads/2014/04/ipadair-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline3">
+		<h5>gadget lab</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/apple-rumors-and-reports/">Apple Rumors: A Giant 'iPad Pro' and Shiny Gold MacBooks</a>
+	</h2>
+	</div></div><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/underground-beer-pipeline/"><img src="http://www.wired.com/wp-content/uploads/2014/09/visit-flanders-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline1">
+		<h5>brb moving to Bruges</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/underground-beer-pipeline/">Bruges Will Cut Traffic With...an Underground Beer Pipeline</a>
+	</h2>
+	</div></div></div><!-- Start row3 -->
+<div class="row3"><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/tech-time-warp-week-tech-giant-saw-future-google-put-business/"><img src="http://www.wired.com/wp-content/uploads/2014/09/tech-warp-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline2">
+		<h5>Tech Time Warp </h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/tech-time-warp-week-tech-giant-saw-future-google-put-business/">This Tech Giant Saw the Future. Then Google Put It Out of Business</a>
+	</h2>
+	</div></div><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/angry-nerd-the-equalizer/"><img src="http://www.wired.com/wp-content/uploads/2014/09/wired_angry-nerd-equalizer-temp-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline3">
+		<h5>Angry Nerd</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/angry-nerd-the-equalizer/">Why 1980s TV Intros Are Still the Best Ever</a>
+	</h2>
+	</div></div><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/absurd-creature-week-incredible-spider-lives-entire-life-underwater/"><img src="http://www.wired.com/wp-content/uploads/2014/09/water-spider-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline1">
+		<h5>Absurd Creature of the Week</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/absurd-creature-week-incredible-spider-lives-entire-life-underwater/">The Incredible Spider That Lives Its Entire Life Underwater</a>
+	</h2>
+	</div></div></div><!-- Start row4 -->
+<div class="row4"><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/fantasy-nobel-laureates-2014-edition/"><img src="http://www.wired.com/wp-content/uploads/2014/09/oled-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline2">
+		<h5>Fantasy Roster</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/fantasy-nobel-laureates-2014-edition/">The Scientists With the Best Shot at 2014's Nobel Prizes</a>
+	</h2>
+	</div></div><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/radiohead-thom-yorke-bittorrent-album/"><img src="http://www.wired.com/wp-content/uploads/2014/09/thom-yorke-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline3">
+		<h5>'Tomorrow's Modern Boxes'</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/radiohead-thom-yorke-bittorrent-album/">Thom Yorke Just Released a $6 Album on BitTorrent</a>
+	</h2>
+	</div></div><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/when-a-giant-asteroid-impact-created-its-own-volcanoes-magma/"><img src="http://www.wired.com/wp-content/uploads/2014/09/impact-magma-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline1">
+		<h5>so hot right now</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/when-a-giant-asteroid-impact-created-its-own-volcanoes-magma/">How a Giant Asteroid Can Create Its Very Own Magma</a>
+	</h2>
+	</div></div></div><!-- Start row5 -->
+<div class="row5"><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/brooklyn-nine-nine-primer/"><img src="http://www.wired.com/wp-content/uploads/2014/09/Brooklyn-Nine-Nine-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline2">
+		<h5>a quick primer</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/brooklyn-nine-nine-primer/">Everything You Need to Know to Catch Up on <em>Brooklyn Nine-Nine</em></a>
+	</h2>
+	</div></div><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/smash-bros-3ds-review/"><img src="http://www.wired.com/wp-content/uploads/2014/09/3d-smashbros-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline3">
+		<h5>mobile gaming</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/smash-bros-3ds-review/">3DS <em>Smash Bros.</em> Is an Exhilarating Return to Excellence</a>
+	</h2>
+	</div></div><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/encountering-the-astronomical-sublime/"><img src="http://www.wired.com/wp-content/uploads/2014/09/nasa-nostalgia-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline1">
+		<h5>what a view</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/encountering-the-astronomical-sublime/">Old-School NASA Photos Transport You to Space Exploration's Glory Days</a>
+	</h2>
+	</div></div></div><!-- Start row6 -->
+<div class="row6"><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/7-strange-art-projects-imagine-life-earth-climate-changes/"><img src="http://www.wired.com/wp-content/uploads/2014/09/climate-gallery-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline2">
+		<h5>Weather forecast</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/7-strange-art-projects-imagine-life-earth-climate-changes/">7 Strange Art Projects Imagine Life After Our Climate Collapses</a>
+	</h2>
+	</div></div><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/best-week-tv-29/"><img src="http://www.wired.com/wp-content/uploads/2014/09/jimmyfallon-lip-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline3">
+		<h5>must-see moments</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/best-week-tv-29/">Jimmy Fallon and Sophia Vergara Switch Lips in the Best TV of the Week</a>
+	</h2>
+	</div></div><div class="s"><div class="pic"><!-- Homepage image -->
+<a href="http://www.wired.com/2014/09/free-online-classes-still-future-education/"><img src="http://www.wired.com/wp-content/uploads/2014/09/mooc-w.jpg" /></a></div><!-- Homepage body -->
+<div class="headline headline1">
+		<h5>class is in session</h5>
+		<h2>
+		<a href="http://www.wired.com/2014/09/free-online-classes-still-future-education/">Why Free Online Classes Are Still the Future of Education</a>
+	</h2>
+	</div></div></div>	</div><div id="tertiary_package">
+	<div class="tab-container">
+		<ul class="tabs">
+			<li>
+				<a class="active" href="#tab1">Recent Stories</a>
+			</li>
+			<li>
+				<a href="#tab2">All Headlines</a>
+			</li>
+		</ul>
+	</div>
+
+	<div id="tab1" class="tab feed-modules">
+				<div class="feed-module-row">
+				
+			<div class="feed-module autopia">
+				<h5 class="feed-title">
+					<a href="http://www.wired.com/category/autopia/">Autopia</a>
+				</h5>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/ferrari-458-speciale/">
+												<span class="feed-thumbnail">
+							<img width="200" height="100" src="http://www.wired.com/wp-content/uploads/2014/09/ferrari-ft-200x100.jpg" class="attachment-200-100-thumbnail wp-post-image" alt="ferrari-ft" />						</span>
+						Ferrari Cuts the Top Off of One of the Best Cars It's Ever Made					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/underground-beer-pipeline/">
+						Bruges Will Cut Traffic With...an Underground Beer Pipeline					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/forza-horizon-2-drivatars/">
+						In <em>Forza Horizon 2</em>, Computers Finally Drive as Crazy as Humans					</a>
+				</div>
+							</div>
+
+			
+			<div class="feed-module business">
+				<h5 class="feed-title">
+					<a href="http://www.wired.com/category/business/">Business</a>
+				</h5>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/free-online-classes-still-future-education/">
+												<span class="feed-thumbnail">
+							<img width="200" height="100" src="http://www.wired.com/wp-content/uploads/2014/09/mooc-ft-200x100.jpg" class="attachment-200-100-thumbnail wp-post-image" alt="mooc-ft" />						</span>
+						Why Free Online Classes Are Still the Future of Education					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/facebook-killer-ello-doesnt-care-moneyso-wont-work/">
+						'Facebook Killer' Ello Doesn't Care About Money&mdash;So It Won't Work					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/drones-get-ok-feds-shoot-movies-us-airspace/">
+						You Can Now Use Drones to Shoot Movies in the US, Feds Say					</a>
+				</div>
+							</div>
+
+			
+			<div class="feed-module dangerroom">
+				<h5 class="feed-title">
+					<a href="http://www.wired.com/category/dangerroom/">Danger Room</a>
+				</h5>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/wwis-u-boats-launched-age-unrestricted-warfare/">
+												<span class="feed-thumbnail">
+							<img width="200" height="100" src="http://www.wired.com/wp-content/uploads/2014/09/uboat-ft2-200x100.jpg" class="attachment-200-100-thumbnail wp-post-image" alt="uboat-ft2" />						</span>
+						How WWI's U-Boats Launched the Age of Unrestricted Warfare					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/military-grade-drone-can-printed-anywhere/">
+						A Military-Grade Drone That Can Be Printed Anywhere					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/ww1-fokker-triplane/">
+						How the Red Baron's Knockoff Aircraft Became the First Great Warplane					</a>
+				</div>
+							</div>
+
+			
+			<div class="feed-module design">
+				<h5 class="feed-title">
+					<a href="http://www.wired.com/category/design/">Design</a>
+				</h5>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/1-5-million-watch-microscopic-sculpture-inside/">
+												<span class="feed-thumbnail">
+							<img width="200" height="100" src="http://www.wired.com/wp-content/uploads/2014/09/sculpture-watch-ft-200x100.jpg" class="attachment-200-100-thumbnail wp-post-image" alt="sculpture-watch-ft" />						</span>
+						This $1.5 Million Watch Has a Microscopic Sculpture Inside					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/7-strange-art-projects-imagine-life-earth-climate-changes/">
+						7 Strange Art Projects Imagine Life After Our Climate Collapses					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/app-fights-acne-nearly-silly-sounds/">
+						This App Fights Acne (It's Not Nearly as Silly as It Sounds)					</a>
+				</div>
+							</div>
+
+					</div>
+							<div class="feed-module-row">
+				
+			<div class="feed-module wiredenterprise">
+				<h5 class="feed-title">
+					<a href="http://www.wired.com/category/wiredenterprise/">Enterprise</a>
+				</h5>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/tech-time-warp-week-tech-giant-saw-future-google-put-business/">
+												<span class="feed-thumbnail">
+							<img width="200" height="100" src="http://www.wired.com/wp-content/uploads/2014/09/tech-warp-ft-200x100.jpg" class="attachment-200-100-thumbnail wp-post-image" alt="tech-warp-ft" />						</span>
+						Tech Time Warp of the Week: This Tech Giant Saw the Future. Then Google Put It Out of Business					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/google-artificial-brain/">
+						You Don't Have to Be Google to Build an Artificial Brain					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/man-quest-open-source-cancer-research/">
+						The Man on a Quest to Open-Source Cancer Research					</a>
+				</div>
+							</div>
+
+			
+			<div class="feed-module gadgetlab">
+				<h5 class="feed-title">
+					<a href="http://www.wired.com/category/gadgetlab/">Gadget Lab</a>
+				</h5>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/gadget-lab-podcast-224/">
+												<span class="feed-thumbnail">
+							<img width="200" height="100" src="http://www.wired.com/wp-content/uploads/2014/09/bendgate-ft-200x100.jpg" class="attachment-200-100-thumbnail wp-post-image" alt="bendgate-ft" />						</span>
+						Gadget Lab Podcast: We Dig Deep Into the Bendy iPhone Controversy					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/apple-rumors-and-reports/">
+						This Week's Apple Rumors, Ranked From Dumbest to Most Plausible					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/polar-m400-smartwatch/">
+						Track Your Workout Like a Pro Athlete With This Fancy Smartwatch					</a>
+				</div>
+							</div>
+
+			
+			<div class="feed-module gamelife">
+				<h5 class="feed-title">
+					<a href="http://www.wired.com/category/gamelife/">Game|Life</a>
+				</h5>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/gamelife-podcast-episode-128/">
+												<span class="feed-thumbnail">
+							<img width="200" height="100" src="http://www.wired.com/wp-content/uploads/2014/09/hatoful-200x100.jpg" class="attachment-200-100-thumbnail wp-post-image" alt="hatoful" />						</span>
+						Game|Life Podcast: You and Me Could Write a Bird Romance					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/shadow-of-mordor/">
+						<em>Shadow of Mordor</em> Is the Best <em>Lord of the Rings</em> Game Ever					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/smash-bros-3ds-review/">
+						3DS <em>Smash Bros.</em> Is an Exhilarating Return to Excellence					</a>
+				</div>
+							</div>
+
+			
+			<div class="feed-module opinion">
+				<h5 class="feed-title">
+					<a href="http://www.wired.com/category/opinion/">Opinion</a>
+				</h5>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/im-optimistic-climate-change/">
+												<span class="feed-thumbnail">
+							<img width="200" height="100" src="http://www.wired.com/wp-content/uploads/2014/09/landscape-ft-200x100.jpg" class="attachment-200-100-thumbnail wp-post-image" alt="landscape-ft" />						</span>
+						I'm Optimistic About Climate Change, and You Should Be Too					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/cargo-drones-in-africa/">
+						A Radical But Possible Plan to Connect African Nations With Cargo Drones					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/ebola-can-teach-us-prepare-next-great-pandemic/">
+						How Ebola Can Teach Us to Prepare for the Next Great Pandemic					</a>
+				</div>
+							</div>
+
+					</div>
+							<div class="feed-module-row">
+				
+			<div class="feed-module playbook">
+				<h5 class="feed-title">
+					<a href="http://www.wired.com/category/playbook/">Playbook</a>
+				</h5>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/man-wired-facebook-helped-build-nfl-stadium-future/">
+												<span class="feed-thumbnail">
+							<img width="200" height="100" src="http://www.wired.com/wp-content/uploads/2014/09/levis-stadium-ft-200x100.jpg" class="attachment-200-100-thumbnail wp-post-image" alt="levis-stadium-ft" />						</span>
+						How the Man Who Wired Facebook Helped Build the NFL Stadium of the Future					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/07/expedition-canoe-gear/">
+						Canoeing Through a No-Escape Gauntlet of Whitecaps and Boulders					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/07/expedition-mountain-bike-gear/">
+						How I Survived Biking Through the Mojave Desert for Three Days					</a>
+				</div>
+							</div>
+
+			
+			<div class="feed-module rawfile">
+				<h5 class="feed-title">
+					<a href="http://www.wired.com/category/rawfile/">Raw File</a>
+				</h5>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/encountering-the-astronomical-sublime/">
+												<span class="feed-thumbnail">
+							<img width="200" height="100" src="http://www.wired.com/wp-content/uploads/2014/09/nasa-nostalgia-ft-200x100.jpg" class="attachment-200-100-thumbnail wp-post-image" alt="nasa-nostalgia-ft" />						</span>
+						Old-School NASA Photos Transport You to Space Exploration's Glory Days					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/wet-dogs/">
+						Hilarious Photos Capture the Complex Emotions of the Wet Dog					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/christian-weber-explosions/">
+						Beautiful Photos of Explosions Captured at the Perfect Moment					</a>
+				</div>
+							</div>
+
+			
+			<div class="feed-module reviews">
+				<h5 class="feed-title">
+					<a href="http://www.wired.com/category/reviews/">Reviews</a>
+				</h5>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/iphone-6-review/">
+												<span class="feed-thumbnail">
+							<img width="200" height="100" src="http://www.wired.com/wp-content/uploads/2014/09/iphone6-gallery-ft-200x100.jpg" class="attachment-200-100-thumbnail wp-post-image" alt="iphone6-gallery-ft" />						</span>
+						The WIRED iPhone 6 Review: Bigger, Better...and a Little Buggy					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/iphone-6-plus-review/">
+						The WIRED iPhone 6 Plus Review: Too Big to Fail, But Not to Bend					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/fountain-pen-hi-low/">
+						When Buying Fountain Pens, Splurging (a Little) Is Totally Worth It					</a>
+				</div>
+							</div>
+
+			
+			<div class="feed-module wiredscience">
+				<h5 class="feed-title">
+					<a href="http://www.wired.com/category/wiredscience/">Science</a>
+				</h5>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/absurd-creature-week-incredible-spider-lives-entire-life-underwater/">
+												<span class="feed-thumbnail">
+							<img width="200" height="100" src="http://www.wired.com/wp-content/uploads/2014/09/water-spider-ft-200x100.jpg" class="attachment-200-100-thumbnail wp-post-image" alt="water-spider-ft" />						</span>
+						Absurd Creature of the Week: The Incredible Spider That Lives Its Entire Life Underwater					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/science-graphic-ice-caps/">
+						Science Graphic of the Week: Three Ways to Visualize Our Melting Northern Ice Cap					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/new-gm-crops/">
+						New Generation of GM Crops Puts Agriculture in a 'Crisis Situation'					</a>
+				</div>
+							</div>
+
+					</div>
+							<div class="feed-module-row">
+				
+			<div class="feed-module threatlevel">
+				<h5 class="feed-title">
+					<a href="http://www.wired.com/category/threatlevel/">Threat Level</a>
+				</h5>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/hackers-already-using-shellshock-bug-create-botnets-ddos-attacks/">
+												<span class="feed-thumbnail">
+							<img width="200" height="100" src="http://www.wired.com/wp-content/uploads/images_blogs/threatlevel/2014/01/dark-servers-feat-200x100.jpg" class="attachment-200-100-thumbnail wp-post-image" alt="dark-servers-feat" />						</span>
+						Hackers Are Already Using the Shellshock Bug to Launch Botnet Attacks					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/emv/">
+						Why the Heyday of Credit Card Fraud Is Almost Over					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/internet-braces-crazy-shellshock-worm/">
+						The Internet Braces for the Crazy Shellshock Worm					</a>
+				</div>
+							</div>
+
+			
+			<div class="feed-module underwire">
+				<h5 class="feed-title">
+					<a href="http://www.wired.com/category/underwire/">Underwire</a>
+				</h5>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/geeks-guide-david-x-cohen/">
+												<span class="feed-thumbnail">
+							<img width="200" height="100" src="http://www.wired.com/wp-content/uploads/2014/09/davidcohen-ft-200x100.jpg" class="attachment-200-100-thumbnail wp-post-image" alt="davidcohen-ft" />						</span>
+						<em>Futurama'</em>s Resident Physics Nerd on Math Jokes and Richard Nixon					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/radiohead-thom-yorke-bittorrent-album/">
+						Thom Yorke Just Released a $6 Album on BitTorrent					</a>
+				</div>
+								<div class="feed-content">
+					<a href="http://www.wired.com/2014/09/brooklyn-nine-nine-primer/">
+						Everything You Need to Know to Catch Up on <em>Brooklyn Nine-Nine</em>					</a>
+				</div>
+							</div>
+
+					</div>
+						</div> <!-- end tab1 -->
+
+	<div id="tab2" class='tab visually-hidden-only'>
+		<div id="latest-blog-posts" class="feed_table_container">
+			<a href="/about/rss_feeds" class="powered">
+				Subscribe to our RSS Feeds
+				<img src="http://www.wired.com/wp-content/themes/wired/assets/images/rss_icon.png" alt="RSS Feeds">
+			</a>
+			<table>
+				<tbody>
+										<tr>
+							<td class="number" valign="top" rowspan="2">1</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/double-slit-empzeal/" rel="nofollow">Hey There Little Electron, Why Won't You Tell Me Where You Came From?</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.27.14																<a href="http://www.wired.com/category/science-blogs/">Science Blogs</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">2</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/japans-ontake-erupts-hikers-trapped-injured/" rel="nofollow">Japan's Ontake Erupts, Hikers Trapped and Injured</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.27.14																<a href="http://www.wired.com/category/science-blogs/">Science Blogs</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">3</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/geeks-guide-david-x-cohen/" rel="nofollow"><em>Futurama'</em>s Resident Physics Nerd on Math Jokes and Richard Nixon</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.27.14																<a href="http://www.wired.com/category/underwire/">Underwire</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">4</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/tech-time-warp-week-tech-giant-saw-future-google-put-business/" rel="nofollow">Tech Time Warp of the Week: This Tech Giant Saw the Future. Then Google Put It Out of Business</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/wiredenterprise/">Enterprise</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">5</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/gadget-lab-podcast-224/" rel="nofollow">Gadget Lab Podcast: We Dig Deep Into the Bendy iPhone Controversy</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/gadgetlab/">Gadget Lab</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">6</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/gamelife-podcast-episode-128/" rel="nofollow">Game|Life Podcast: You and Me Could Write a Bird Romance</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/gamelife/">Game|Life</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">7</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/radiohead-thom-yorke-bittorrent-album/" rel="nofollow">Thom Yorke Just Released a $6 Album on BitTorrent</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/underwire/">Underwire</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">8</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/foxbots/" rel="nofollow">How the iPhone Is Made: 'Foxbots' and the World as Stage</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/insights/">Innovation Insights</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">9</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/shadow-of-mordor/" rel="nofollow"><em>Shadow of Mordor</em> Is the Best <em>Lord of the Rings</em> Game Ever</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/gamelife/">Game|Life</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">10</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/technologies-dominate-2022/" rel="nofollow">Which Technologies Will Dominate in 2022?</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/insights/">Innovation Insights</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">11</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/when-a-giant-asteroid-impact-created-its-own-volcanoes-magma/" rel="nofollow">When a Giant Asteroid Impact Created Its Own Magma</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/science-blogs/">Science Blogs</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">12</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/brooklyn-nine-nine-primer/" rel="nofollow">Everything You Need to Know to Catch Up on <em>Brooklyn Nine-Nine</em></a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/underwire/">Underwire</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">13</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/absurd-creature-week-incredible-spider-lives-entire-life-underwater/" rel="nofollow">Absurd Creature of the Week: The Incredible Spider That Lives Its Entire Life Underwater</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/wiredscience/">Science</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">14</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/apple-rumors-and-reports/" rel="nofollow">This Week's Apple Rumors, Ranked From Dumbest to Most Plausible</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/gadgetlab/">Gadget Lab</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">15</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/boxtrolls-gallery/" rel="nofollow">Go Behind the (Crazy-Complex) Scenes of <em>The Boxtrolls</em></a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/underwire/">Underwire</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">16</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/angry-nerd-the-equalizer/" rel="nofollow"><em>Angry Nerd:</em> Why 1980s TV Intros Are Still the Best Ever</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/underwire/">Underwire</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">17</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/google-artificial-brain/" rel="nofollow">You Don't Have to Be Google to Build an Artificial Brain</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/wiredenterprise/">Enterprise</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">18</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/1-5-million-watch-microscopic-sculpture-inside/" rel="nofollow">This $1.5 Million Watch Has a Microscopic Sculpture Inside</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/design/">Design</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">19</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/free-online-classes-still-future-education/" rel="nofollow">Why Free Online Classes Are Still the Future of Education</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/business/">Business</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">20</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/facebook-killer-ello-doesnt-care-moneyso-wont-work/" rel="nofollow">'Facebook Killer' Ello Doesn't Care About Money&mdash;So It Won't Work</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/business/">Business</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">21</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/best-week-tv-29/" rel="nofollow">Jimmy Fallon and Sophia Vergara Switch Lips in the Best TV of the Week</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/underwire/">Underwire</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">22</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/7-strange-art-projects-imagine-life-earth-climate-changes/" rel="nofollow">7 Strange Art Projects Imagine Life After Our Climate Collapses</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/design/">Design</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">23</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/im-optimistic-climate-change/" rel="nofollow">I'm Optimistic About Climate Change, and You Should Be Too</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/opinion/">Opinion</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">24</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/ferrari-458-speciale/" rel="nofollow">Ferrari Cuts the Top Off of One of the Best Cars It's Ever Made</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/autopia/">Autopia</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">25</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/underground-beer-pipeline/" rel="nofollow">Bruges Will Cut Traffic With...an Underground Beer Pipeline</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/autopia/">Autopia</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">26</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/encountering-the-astronomical-sublime/" rel="nofollow">Old-School NASA Photos Transport You to Space Exploration's Glory Days</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/rawfile/">Raw File</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">27</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/polar-m400-smartwatch/" rel="nofollow">Track Your Workout Like a Pro Athlete With This Fancy Smartwatch</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/gadgetlab/">Gadget Lab</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">28</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/smash-bros-3ds-review/" rel="nofollow">3DS <em>Smash Bros.</em> Is an Exhilarating Return to Excellence</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/gamelife/">Game|Life</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">29</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/fantasy-nobel-laureates-2014-edition/" rel="nofollow">Fantasy Nobel Laureates, 2014 Edition</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.26.14																<a href="http://www.wired.com/category/science-blogs/">Science Blogs</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">30</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/drones-get-ok-feds-shoot-movies-us-airspace/" rel="nofollow">You Can Now Use Drones to Shoot Movies in the US, Feds Say</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/business/">Business</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">31</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/hackers-already-using-shellshock-bug-create-botnets-ddos-attacks/" rel="nofollow">Hackers Are Already Using the Shellshock Bug to Launch Botnet Attacks</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/threatlevel/">Threat Level</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">32</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/venture-capital-for-innovation/" rel="nofollow">Playing the Field: The Sport of Today’s Venture Capital for Innovation</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/insights/">Innovation Insights</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">33</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/amazon-takes-big-step-toward-competing-directly-ups/" rel="nofollow">Amazon Takes a Big Step Toward Finally Making Its Own Deliveries</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/business/">Business</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">34</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/forza-horizon-2-drivatars/" rel="nofollow">In <em>Forza Horizon 2</em>, Computers Finally Drive as Crazy as Humans</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/autopia/">Autopia</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">35</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/three-ways-cloud-as-service/" rel="nofollow">Three Ways to Use Cloud as a Service</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/insights/">Innovation Insights</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">36</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/groundislava-videogame-music-video/" rel="nofollow">This <em>Neuromancer</em>-Inspired Music Video Is Actually a Videogame</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/underwire/">Underwire</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">37</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/app-fights-acne-nearly-silly-sounds/" rel="nofollow">This App Fights Acne (It's Not Nearly as Silly as It Sounds)</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/design/">Design</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">38</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/numerical-calculation-electric-field-due-charge-distribution/" rel="nofollow">A Numerical Calculation of the Electric Field Due to a Charge Distribution</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/science-blogs/">Science Blogs</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">39</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/iphone-6-review/" rel="nofollow">The WIRED iPhone 6 Review: Bigger, Better...and a Little Buggy</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/gadgetlab/">Gadget Lab</a>
+																<a href="http://www.wired.com/category/reviews/">Reviews</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">40</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/velodyne-lidar-self-driving-cars/" rel="nofollow">This Palm-Sized Laser Could Make Self-Driving Cars Way Cheaper</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/autopia/">Autopia</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">41</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/man-quest-open-source-cancer-research/" rel="nofollow">The Man on a Quest to Open-Source Cancer Research</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/wiredenterprise/">Enterprise</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">42</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/toytalk/" rel="nofollow">Pixar Vets Reinvent Speech Recognition So It Works for Kids</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/business/">Business</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">43</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/wink-next-big-platform-smart-home/" rel="nofollow">Wink Could Be the Next Big Platform for the Smart Home</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/design/">Design</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">44</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/science-graphic-ice-caps/" rel="nofollow">Science Graphic of the Week: Three Ways to Visualize Our Melting Northern Ice Cap</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/wiredscience/">Science</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">45</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/apple-watch-mashups-hint-company-go-high-fashion/" rel="nofollow">Apple Watch Mashups Hint at How the Company Could Go High-Fashion</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/design/">Design</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">46</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/iphone-6-plus-review/" rel="nofollow">The WIRED iPhone 6 Plus Review: Too Big to Fail, But Not to Bend</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/gadgetlab/">Gadget Lab</a>
+																<a href="http://www.wired.com/category/reviews/">Reviews</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">47</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/stunning-rainbow-made-junk-inspired-philip-k-dick/" rel="nofollow">A Stunning Rainbow Made of Junk and Inspired by Philip K. Dick</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/design/">Design</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">48</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/cape-watch-4/" rel="nofollow">Cape Watch: A Deadpool Movie (Finally) and a Batmobile <em>Star Wars</em> Cameo</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/underwire/">Underwire</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">49</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/emv/" rel="nofollow">Why the Heyday of Credit Card Fraud Is Almost Over</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/threatlevel/">Threat Level</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">50</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/new-gm-crops/" rel="nofollow">New Generation of GM Crops Puts Agriculture in a 'Crisis Situation'</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/wiredscience/">Science</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">51</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/make-building-shimmer-like-ocean-using-plastic/" rel="nofollow">How to Make a Building Shimmer Like the Ocean, Using Plastic</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/design/">Design</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">52</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/wet-dogs/" rel="nofollow">Hilarious Photos Capture the Complex Emotions of the Wet Dog</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/rawfile/">Raw File</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">53</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/internet-braces-crazy-shellshock-worm/" rel="nofollow">The Internet Braces for the Crazy Shellshock Worm</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.25.14																<a href="http://www.wired.com/category/wiredenterprise/">Enterprise</a>
+																<a href="http://www.wired.com/category/threatlevel/">Threat Level</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">54</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/dont-update-ios-8/" rel="nofollow">Don't Update Your iPhone's iOS 8. It's Breaking Cell Service and Touch ID</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/gadgetlab/">Gadget Lab</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">55</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/why-your-drone-needs-apps/" rel="nofollow">Why Your Drone Needs Apps -- Seriously</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/insights/">Innovation Insights</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">56</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/hillary-clinton-gender-gap/" rel="nofollow">Hillary Clinton on How to Close the Business Gender Gap</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/business/">Business</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">57</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/homekit-thread-smart-home/" rel="nofollow">HomeKit, Thread Bring App Dev to the Center of Smart Home Success</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/insights/">Innovation Insights</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">58</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/stadiums-cool-tech-fan-engagement/" rel="nofollow">New Stadiums Bring Cool Tech, but Will Teams Regret the Impact on Fan Engagement?</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/insights/">Innovation Insights</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">59</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/app-opens-new-frontier-app-design-indoor-locations/" rel="nofollow">Estimote Opens a New Frontier for App Design: Indoor Locations</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/design/">Design</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">60</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/global-shipping-change-understanding-biodiversity/" rel="nofollow">How Global Shipping Could Change Our Understanding of Biodiversity</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/wiredscience/">Science</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">61</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/toyotas-new-hydrogen-powered-car-asks-high-price-mediocrity/" rel="nofollow">Toyota's New Hydrogen-Powered Car Asks a High Price for Mediocrity</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/autopia/">Autopia</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">62</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/amazon-lab126/" rel="nofollow">Amazon Doubles Down on Gadgets in Battle With Google and Apple</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/business/">Business</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">63</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/kevin-mitnick-selling-zero-day-exploits/" rel="nofollow">Kevin Mitnick, Once the World's Most Wanted Hacker, Is Now Selling Zero-Day Exploits</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/threatlevel/">Threat Level</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">64</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/nobel-prizes-asia-spotlight-indigenous-tribal-education/" rel="nofollow">"Nobel Prizes of Asia" Spotlight Indigenous Tribal Education</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/science-blogs/">Science Blogs</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">65</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/fountain-pen-hi-low/" rel="nofollow">When Buying Fountain Pens, Splurging (a Little) Is Totally Worth It</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/gadgetlab/">Gadget Lab</a>
+																<a href="http://www.wired.com/category/reviews/">Reviews</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">66</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/vizio-p-series-4k-tvs/" rel="nofollow">Vizio's Affordable 4K TVs Are Your Perfect Stepping Stone to Ultra HD</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/gadgetlab/">Gadget Lab</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">67</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/love-sex-tokyo-game-show/" rel="nofollow">The Japanese Firm Selling Videogames to Women, Using Sex</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/gamelife/">Game|Life</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">68</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/iphone-6-plus-bendgate/" rel="nofollow">Duh: Of Course the iPhone 6 Plus Can Bend in Your Pocket</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/gadgetlab/">Gadget Lab</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">69</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/coupland-bell-labs/" rel="nofollow">The Ghost of Invention: A Visit to Bell Labs</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/business/">Business</a>
+																<a href="http://www.wired.com/category/design/">Design</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">70</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/david-bowie-exhibit/" rel="nofollow">The Sprawling David Bowie Exhibition Hitting America This Week</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/underwire/">Underwire</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">71</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/jack-ma-cgi/" rel="nofollow">Alibaba's Founder on Why His Company Is Killing It in China</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/business/">Business</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">72</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/instagram-goes-analog-first-photo-exhibit/" rel="nofollow">Instagram Goes Analog With Its First Photo Exhibit</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/design/">Design</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">73</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/mits-slick-new-ui-lets-phone-desktop-screens-behave-one/" rel="nofollow">MIT's Slick New UI Lets Your Phone and Desktop Screens Behave as One</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/design/">Design</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">74</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/app-tells-fascinating-stories-behind-5-fonts/" rel="nofollow">An App That Tells the Fascinating Stories Behind 5 Fonts</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/design/">Design</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">75</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/sad-apple-hackers/" rel="nofollow">Nude-Photo Hackers Are Sad Apple Ruined Their Fun</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/threatlevel/">Threat Level</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">76</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/fantastically-wrong-europes-insane-history-putting-animals-trial-executing/" rel="nofollow">Fantastically Wrong: Europe's Insane History of Putting Animals on Trial and Executing Them</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/wiredscience/">Science</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">77</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/boxtrolls-video-premiere/" rel="nofollow">Premiere: The Making of <em>The Boxtrolls'</em> Awesome Steampunk Contraption</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/underwire/">Underwire</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">78</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/binge-guide-justified/" rel="nofollow">WIRED Binge-Watching Guide: <em>Justified</em></a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/underwire/">Underwire</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">79</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/coupland-comments/" rel="nofollow">Comments: The Ghost of Invention</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/business/">Business</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">80</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/nvidia-moon/" rel="nofollow">Nvidia Proves We Walked on the Moon&mdash;Not That It Needed To</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/wiredenterprise/">Enterprise</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">81</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/nissan-builds-funky-electric-pickup-cant/" rel="nofollow">Nissan Builds a Funky Electric Pickup That You Can't Have</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.24.14																<a href="http://www.wired.com/category/autopia/">Autopia</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">82</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/even-tiniest-broken-part-can-end-f1-race-begins/" rel="nofollow">Even the Tiniest Broken Part Can End an F1 Race Before It Begins</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.23.14																<a href="http://www.wired.com/category/autopia/">Autopia</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">83</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/man-vs-machine/" rel="nofollow">Man vs. Machine: M2M Needs H2H to Become Smarter -- Collaboration Makes It Possible</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.23.14																<a href="http://www.wired.com/category/insights/">Innovation Insights</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">84</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/facebook-drones-2/" rel="nofollow">Facebook Lays Out Its Roadmap for Creating Internet-Connected Drones</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.23.14																<a href="http://www.wired.com/category/wiredenterprise/">Enterprise</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">85</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/digital-education-teachers/" rel="nofollow">Digital Education: One Giant Leap for Students -- and Teachers Too?</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.23.14																<a href="http://www.wired.com/category/insights/">Innovation Insights</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">86</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/new-app-aims-make-trading-stocks-easy-posting-selfies/" rel="nofollow">New App Wants to Make Trading Stocks as Easy as Posting Selfies</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.23.14																<a href="http://www.wired.com/category/business/">Business</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">87</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/arizona-send-prison-sharing-nude-celebrity-pictures/" rel="nofollow">Arizona Could Send You to Prison for Sharing Nude Celebrity Pictures</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.23.14																<a href="http://www.wired.com/category/threatlevel/">Threat Level</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">88</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/flapping-flags-wind-energy/" rel="nofollow">How We Can Harvest Wind Power From Tiny Flapping Flags</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.23.14																<a href="http://www.wired.com/category/wiredscience/">Science</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">89</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/chimpanzees-raised-humans-social-difficulties-chimps/" rel="nofollow">Chimpanzees Raised by Humans Have Social Difficulties With Other Chimps</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.23.14																<a href="http://www.wired.com/category/science-blogs/">Science Blogs</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">90</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/magic-vernal-equinox/" rel="nofollow">The Magic of the Vernal Equinox</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.23.14																<a href="http://www.wired.com/category/science-blogs/">Science Blogs</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">91</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/bicep2-big-bang-planck-dust/" rel="nofollow">‘Big Bang Signal’ Could All Be Dust</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.23.14																<a href="http://www.wired.com/category/wiredscience/">Science</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">92</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/commuting-bike-gear/" rel="nofollow">From Shoes to Bags, This Is the Season's Coolest Commuter Bike Gear</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.23.14																<a href="http://www.wired.com/category/gadgetlab/">Gadget Lab</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">93</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/samsung-nx1/" rel="nofollow">Samsung Woos Action Photogs With a Blazing-Fast Mirrorless Camera</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.23.14																<a href="http://www.wired.com/category/gadgetlab/">Gadget Lab</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">94</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/ex-tesla-nasa-engineers-make-light-bulb-thats-smarter/" rel="nofollow">Ex-Tesla and NASA Engineers Make a Light Bulb That's Smarter Than You</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.23.14																<a href="http://www.wired.com/category/design/">Design</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">95</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/wrong-theory/" rel="nofollow">Why Getting It Wrong Is the Future of Design</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.23.14																<a href="http://www.wired.com/category/design/">Design</a>
+																<a href="http://www.wired.com/category/magazine/">Magazine</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">96</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/drones-will-transform-sports-photographyonce-faa-gets-way/" rel="nofollow">Drones Will Transform Sports Photography&mdash;Once the FAA Gets Out of the Way</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.23.14																<a href="http://www.wired.com/category/autopia/">Autopia</a>
+																<a href="http://www.wired.com/category/gadgetlab/">Gadget Lab</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">97</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/design-package-comments/" rel="nofollow">13 Lessons for Design's New Golden Age: Comments</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.23.14															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">98</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/makes-brilliant-book-cover-master-explains/" rel="nofollow">What Makes for a Brilliant Book Cover? A Master Explains</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.23.14																<a href="http://www.wired.com/category/design/">Design</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">99</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/gotham-review/" rel="nofollow">There's No Batman in <em>Gotham</em>, But There's a Whole Lot of Clichés</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.23.14																<a href="http://www.wired.com/category/underwire/">Underwire</a>
+															</td>
+						</tr>
+												<tr>
+							<td class="number" valign="top" rowspan="2">100</td>
+							<td>
+								<a class="title" href="http://www.wired.com/2014/09/waypoint-2-space/" rel="nofollow">The Next Big Thing You Missed: This Startup Will Train You for That Trip Into Space</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="small byline">
+								09.23.14																<a href="http://www.wired.com/category/business/">Business</a>
+															</td>
+						</tr>
+										</tbody>
+			</table>
+		</div>
+	</div>
+</div><!-- end tertiary_package -->
+</div><!-- end content-wrapper -->
+<div id="sidebar" class="">
+				<div class="textwidget"><div class="advertisement"><div id="xrailTop300x250_frame" class="displayAd displayAd300x250Js" data-cb-ad-id="xrailTop300x250_frame"></div><script type="text/javascript">if ( typeof CN !== "undefined" ) {
+if ( ! CN.isMobile && CN.dart ) {
+ CN.dart.call( "xrailTop", { sz: "300x250", kws: [ "top" ], collapse: false } );
+} 
+}</script></div></div>
+					<div class="textwidget">	<div id="AMS_WIR_HOMEPAGE_RIGHTRAIL_A" class="ecom-placement">
+		<a href="https://w1.buysub.com/loc/WIR/ATGFailsafe" target="_blank">
+			<img alt="Subscribe to WIRED Magazine" src="http://www.wired.com/wp-content/themes/wired/assets/images/subscribe_290x110.gif" />
+		</a>
+		            <script type="text/javascript">
+            //<!--
+                if ( ( typeof pageAds != 'undefined') && ( CN.url.params( 'nojoy' ) != 1 ) ) {
+                                    (function(){
+                    if ( typeof pageAds.AMS_WIR_HOMEPAGE_RIGHTRAIL_A != 'undefined' ) {
+  jQuery( "#AMS_WIR_HOMEPAGE_RIGHTRAIL_A" ).html( pageAds.AMS_WIR_HOMEPAGE_RIGHTRAIL_A.replace( /document.write\(.*\)/gi, "/* filtered by amg-magnet:document.write(...) */" ) );
+  jQuery( "#AMS_WIR_HOMEPAGE_RIGHTRAIL_A" ).css( { visibility: 'visible' } );
+} else { CN.debug.info( "AMS_WIR_HOMEPAGE_RIGHTRAIL_A not in pageAds."); }
+                    })();
+                                }
+            //-->
+            </script>
+            	</div>
+	</div>
+					<div class="textwidget"><div class="scrape magazine" id="">
+    <h3></h3>
+            <div class="pic">   
+                    <a href="http://www.wired.com/2014/08/edward-snowden/"><img src="http://www.wired.com/wp-content/uploads/2014/08/promo_xrail_mango.jpg" alt=""></a>                
+            </div>
+
+            <h2><a href="http://www.wired.com/2014/08/edward-snowden/">&nbsp;</a></h2>
+</div></div>
+					<div class="textwidget"><div class="scrape magazine" id="product-reviews">
+    <h3>Product Reviews</h3>
+            <div class="pic">
+                    <a href="http://www.wired.com/2014/08/toshiba-satellite-radius-p55w/"><img src="http://www.wired.com/wp-content/uploads/2014/08/full-screen-flipout.jpg" alt=""></a>        
+            </div>
+            <h2><a href="http://www.wired.com/2014/08/toshiba-satellite-radius-p55w/">Toshiba's New Convertible Laptop Sacrifices Power for Crazy Battery Life</a></h2>
+</div></div>
+					<div class="textwidget"><div class="scrape commentary" id="wired-video">
+    <div class="mod5">
+        <h3>Wired Video</h3>
+        <div class="inner">
+                <h2><a href="">&nbsp;</a></h2>
+                <blockquote><iframe width='300' height='169' src='http://player.cnevids.com/embed/5423086369702d3a87100000/51799c3f68f9da5d48000002' frameBorder='0' allowfullscreen webkitallowfullscreen mozallowfullscreen allowtransparency='true' scrolling='no'></iframe>
+<h2><a  style="color: #000;" href="http://thescene.com/watch/wired/battle-damage-want-an-iphone-6-smash-your-iphone-5s-with-a-safe
+">Want an iPhone 6? Smash Your iPhone 5s With a Safe
+
+
+</em></a></h2>
+<div align="right"><a href="http://thescene.com/wired">More Wired Video at The Scene></a></div>
+</blockquote>
+        </div>
+        <div class="clearer">&nbsp;</div>
+    </div>
+</div></div>
+					<div class="textwidget"><div class="scrape commentary" id="photo-galleries">
+    <div class="mod5">
+        <h3>Photo Galleries</h3>
+        <div class="inner">
+                <h2><a href="">&nbsp;</a></h2>
+                <blockquote>		<script type="text/javascript">
+//<!--
+			// initializing Global Array
+			var glide_galleries = new Array();			
+			jQuery(document).ready(function(){
+				init_glider(); // Initializing Glider					
+				// Left Button, 
+				// Image Hover Controllers
+				jQuery('#xrail-photo-glide-btn-left').mouseenter(function(){ 
+				LeftHover();
+				});
+				jQuery('#xrail-photo-glide-btn-left').mouseout(function(){
+				LeftHoverOut();
+				});				
+				// Right Button, 
+				// Image Hover Controllers
+				jQuery('#xrail-photo-glide-btn-right').mouseenter(function(){
+				RightHover();
+				});
+				jQuery('#xrail-photo-glide-btn-right').mouseout(function(){
+				RightHoverOut();
+				});				
+				//Left and Right Button
+				// Click Controllers
+				jQuery('#xrail-photo-glide-btn-left').click(function(){
+				glide_fromLeft();
+				});				
+				jQuery('#xrail-photo-glide-btn-right').click(function(){
+				glide_fromRight();
+				});
+			});
+			function init_glider() {
+				var glider_elems = jQuery('#xrail-photo-glide-disp').children();
+					glide_galleries = new Array();
+					
+					for(i=0;i<glider_elems.length;i++){
+					var g_elem = glider_elems[i];
+					glide_galleries.push(g_elem);
+				}				
+			}					
+			function LeftHover() {
+				jQuery('#xrail-photo-glide-btn-left').attr('src','http://www.wired.com/images_blogs/about/2011/11/left-hover.png'); //darker image overlay
+			}			
+			function RightHover() {			  
+				jQuery('#xrail-photo-glide-btn-right').attr('src','http://www.wired.com/images_blogs/about/2011/11/right-hover.png'); //darker image overlay
+			}			
+			function LeftHoverOut(){
+				jQuery('#xrail-photo-glide-btn-left').attr('src','http://www.wired.com/images_blogs/about/2011/11/left-up.png'); // returns hover states
+			}			
+			function RightHoverOut(){
+				jQuery('#xrail-photo-glide-btn-right').attr('src','http://www.wired.com/images_blogs/about/2011/11/right-up.png'); // returns hover states
+			}
+			function glide_fromLeft() {				
+				var disp_elem_old = glide_galleries[0];
+				var disp_elem_new = glide_galleries.pop(); // create var disp_elem_new, insert the last array item into it.
+
+					glide_galleries.unshift(disp_elem_new); // push the new array item to the 0 slot, for viewing.
+				
+					jQuery(disp_elem_new).css({'left':'301px', 'z-index':'10'});
+					jQuery(disp_elem_old).css({'z-index':'1'}); // sets element to the right, positioned and prepared to animate
+				
+					jQuery(disp_elem_new).animate({left:'0px'}, 370, function() {
+						jQuery(disp_elem_old).css({'left':'301px'});
+					}
+				);
+			}								
+			function glide_fromRight() {
+				//alert('Moving Right');
+							
+				var disp_elem_old = glide_galleries.shift(); // gets the active element, puts inside variable.
+				var disp_elem_new = glide_galleries[0];	
+				
+					glide_galleries.push(disp_elem_old);
+				
+					jQuery(disp_elem_new).css({'left':'-301px', 'z-index':'10'});
+					jQuery(disp_elem_old).css({'z-index':'1'}); 
+				
+					jQuery(disp_elem_new).animate({'left':'0px'}, 370, function() {
+						jQuery(disp_elem_old).css({'left':'-301px'});
+					}
+				);
+			}
+//-->		
+</script>			
+		<div id="xrail-photo-glide-cont">		
+			<img id="xrail-photo-glide-btn-left" src="http://www.wired.com/images_blogs/about/2011/11/left-up.png">			
+			<div id="xrail-photo-glide-disp">
+				<div class="xrail-photo-glide-disp-elem first">
+					<a href="http://www.wired.com/2014/06/vintage-chemistry-sets/"><img class="xrail-photo-glide-disp-img" src="http://www.wired.com/wp-content/uploads/2014/06/chemistrysets.jpg">
+					<div class="xrail-photo-glide-disp-label"><h2>Old Chemistry Sets Show How Chill We Used to Be About Chemicals</h2></div></a>
+			</div>
+				<div class="xrail-photo-glide-disp-elem">			
+					<a href="http://www.wired.com/2014/04/lost-lunar-photos-recovered-by-great-feats-of-hackerdom-developed-at-a-mcdonalds"><img class="xrail-photo-glide-disp-img"><img class="xrail-photo-glide-disp-img" src="http://www.wired.com/wp-content/uploads/2013/02/nasaphotosrecovered.jpg">
+					<div class="xrail-photo-glide-disp-label"><h2>The Hackers Who Recovered NASA's Lost Lunar Photos</h2></div></a>
+			</div>
+				<div class="xrail-photo-glide-disp-elem">			
+					<a href="/2014/03/prokudin-gorskii-photos-russia/"><img class="xrail-photo-glide-disp-img" src="http://www.wired.com/wp-content/uploads/2013/02/presovietrussia.jpg">
+					<div class="xrail-photo-glide-disp-label"><h2>The Final Years of Pre-Soviet Russia, Captured in Glorious Color</h2></div></a>
+	</div>				
+		</div>			
+			<img id="xrail-photo-glide-btn-right" src="http://www.wired.com/images_blogs/about/2011/11/right-up.png">
+		</div></blockquote>
+        </div>
+        <div class="clearer">&nbsp;</div>
+    </div>
+</div></div>
+					<div class="textwidget"><div class="scrape magazine" id="">
+    <h3></h3>
+            <div class="pic">   
+                    <a href="http://live.wired.com/"><img src="http://www.wired.com/wp-content/uploads/2013/02/WXD.gif" alt=""></a>                
+            </div>
+
+            <h2><a href="http://live.wired.com/">&nbsp;</a></h2>
+</div></div>
+					<div class="textwidget">	<div id="AMS_WIR_HOMEPAGE_RIGHTRAIL_B" class="ecom-placement">
+		<a href="https://w1.buysub.com/loc/WIR/ATGFailsafe" target="_blank">
+			<img alt="Subscribe to WIRED Magazine" src="http://www.wired.com/wp-content/themes/wired/assets/images/subscribe_290x110.gif" />
+		</a>
+		            <script type="text/javascript">
+            //<!--
+                if ( ( typeof pageAds != 'undefined') && ( CN.url.params( 'nojoy' ) != 1 ) ) {
+                                    (function(){
+                    if ( typeof pageAds.AMS_WIR_HOMEPAGE_RIGHTRAIL_B != 'undefined' ) {
+  jQuery( "#AMS_WIR_HOMEPAGE_RIGHTRAIL_B" ).html( pageAds.AMS_WIR_HOMEPAGE_RIGHTRAIL_B.replace( /document.write\(.*\)/gi, "/* filtered by amg-magnet:document.write(...) */" ) );
+  jQuery( "#AMS_WIR_HOMEPAGE_RIGHTRAIL_B" ).css( { visibility: 'visible' } );
+} else { CN.debug.info( "AMS_WIR_HOMEPAGE_RIGHTRAIL_B not in pageAds."); }
+                    })();
+                                }
+            //-->
+            </script>
+            	</div>
+	</div>
+					<div class="textwidget"><h3>Services</h3>
+	<div id="AMS_WIR_GLOBAL_RIGHTRAIL_SUBSERVICES" class="ecom-placement">
+		<a href="https://w1.buysub.com/loc/WIR/ATGFailsafe" target="_blank">
+			<img alt="Subscribe to WIRED Magazine" src="http://www.wired.com/wp-content/themes/wired/assets/images/subscribe_290x110.gif" />
+		</a>
+		            <script type="text/javascript">
+            //<!--
+                if ( ( typeof pageAds != 'undefined') && ( CN.url.params( 'nojoy' ) != 1 ) ) {
+                                    (function(){
+                    if ( typeof pageAds.AMS_WIR_GLOBAL_RIGHTRAIL_SUBSERVICES != 'undefined' ) {
+  jQuery( "#AMS_WIR_GLOBAL_RIGHTRAIL_SUBSERVICES" ).html( pageAds.AMS_WIR_GLOBAL_RIGHTRAIL_SUBSERVICES.replace( /document.write\(.*\)/gi, "/* filtered by amg-magnet:document.write(...) */" ) );
+  jQuery( "#AMS_WIR_GLOBAL_RIGHTRAIL_SUBSERVICES" ).css( { visibility: 'visible' } );
+} else { CN.debug.info( "AMS_WIR_GLOBAL_RIGHTRAIL_SUBSERVICES not in pageAds."); }
+                    })();
+                                }
+            //-->
+            </script>
+            	</div>
+	
+<div class="group">
+<strong>Quick Links:</strong>
+<a href="/about/feedback/">Contact Us</a>
+|
+<a id="login_link" href="/user/login" style="display: inline;">Login/Register</a>
+<a id="logout_link" href="/user/logout" style="display: none;">Logout</a>
+|
+<a href="/services/newsletters">Newsletter</a>
+|
+<a href="/about/rss_feeds/">RSS Feeds</a>
+|
+<a href="http://jobs.wired.com">WIRED Jobs</a>
+|
+<a href="/about/mobile/">WIRED Mobile</a>
+|
+<a href="/about/faq">FAQ</a>
+|
+<a href="/about/sitemap/">Sitemap</a>
+</div></div>
+		</div></div> <!-- close shell ? -->
+
+<!-- start wired/footer.php -->
+
+</div> <!-- close please? -->
+</div> <!-- close shell -->
+
+
+
+<footer>
+	<ul class='row' id='footer-wired-links'>
+		<li><a href="http://www.wired.com/about/faq/">FAQ</a> | </li>
+		<li><a href="http://www.wired.com/about/feedback/">Contact Us</a> | </li>
+		<li><a href="http://www.wired.com/about/wired-staff/">WIRED Staff</a> | </li>
+		<li><a href="http://www.wired.com/about/staff_publishing/" target="_blank">Advertising</a> | </li>
+		<li><a href="http://www.wired.com/about/press/">Press Center</a> | </li>
+		<li><a href="http://www.wired.com/customerservice" target="_blank">Subscription Services</a> | </li>
+		<li><a href="/services/newsletters/demographics/">Newsletter</a> | </li>
+		<li><a id="footer_rss_icon" href="/about/rss_feeds/">RSS Feeds</a></li>
+	</ul>
+
+	<ul class='row' id='footer-conde-links'>
+		<li><strong>Cond&eacute; Nast Web Sites:</strong></li>
+		<li><a href="http://www.webmonkey.com">Webmonkey</a> |</li>
+		<li><a href="http://www.reddit.com">Reddit</a> | </li>
+		<li><a href="http://www.arstechnica.com">ArsTechnica</a> |</li>
+		<li><a href="http://www.details.com/">Details</a> |</li>
+		<li><a href="http://www.golfdigest.com/">Golf Digest</a> |</li>
+		<li><a href="http://www.gq.com/">GQ</a> |</li>
+		<li><a href="http://www.newyorker.com/">New Yorker</a></li>
+	</ul>
+
+	<div class='row' id='footer-dropdown'>
+		<form>
+			<fieldset>
+				<select id="footer_dropdowns_subscribe" name="footer_dropdowns_subscribe">
+					<option>Subscribe to a magazine:</option>
+					<option value="http://www.magazinestoresubscriptions.com/?source=SITEFOOTER">View All Titles</option>
+					<option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Allure?source=SITEFOOTER">Allure</option>
+					<option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_ArchitecturalDigest?source=SITEFOOTER">Architectural Digest</option>
+					<option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_BonAppetite?source=SITEFOOTER">Bon App&#233;tit</option>
+					<option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Brides?source=SITEFOOTER">Brides</option>
+					<option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_CondeNastTraveler?source=SITEFOOTER">Cond&#233; Nast Traveler</option>
+					<option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Details?source=SITEFOOTER">Details</option>
+					<option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Glamour?source=SITEFOOTER">Glamour</option>
+					<option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_GolfDigest?source=SITEFOOTER">Golf Digest</option>
+					<option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_GolfWorld?source=SITEFOOTER">Golf World</option>
+					<option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_GQ?source=SITEFOOTER">GQ</option>
+					<option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Lucky?source=SITEFOOTER">Lucky</option>
+					<option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Self?source=SITEFOOTER">Self</option>
+					<option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_TeenVogue?source=SITEFOOTER">Teen Vogue</option>
+					<option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_NewYorker?source=SITEFOOTER">The New Yorker</option>
+					<option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_VanityFair?source=SITEFOOTER">Vanity Fair</option>
+					<option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Vogue?source=SITEFOOTER">Vogue</option>
+					<option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_W?source=SITEFOOTER">W</option>
+					<option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Wired?source=SITEFOOTER">WIRED</option>
+				</select>
+				<select id="footer_dropdowns_sites" name="footer_dropdowns_sites">
+					<option>Cond&#233; Nast web sites:</option>
+					<option value="http://www.allure.com/">Allure</option>
+					<option value="http://www.architecturaldigest.com/">Architectural Digest</option>
+					<option value="http://www.arstechnica.com/">ArsTechnica</option>
+					<option value="http://www.bonappetit.com/">Bon App&eacute;tit</option>
+					<option value="http://www.brides.com/">Brides.com</option>
+					<option value="http://www.cntraveler.com/">Cond&eacute; Nast Traveler</option>
+					<option value="http://www.portfolio.com/">Cond&eacute; Nast Portfolio</option>
+					<option value="http://www.concierge.com/">Concierge</option>
+					<option value="http://www.details.com/">Details</option>
+					<option value="http://www.epicurious.com/">Epicurious</option>
+					<option value="http://www.glamour.com/">Glamour</option>
+					<option value="http://www.golfdigest.com">Golf Digest</option>
+					<option value="http://www.golfworld.com">Golf World</option>
+					<option value="http://www.gq.com/">GQ</option>
+					<option value="http://www.hotelchatter.com/">Hotel Chatter</option>
+					<option value="http://www.jaunted.com/">Jaunted</option>
+					<option value="http://www.luckymag.com/">Lucky</option>
+					<option value="http://www.nutritiondata.com/">Nutrition Data</option>
+					<option value="http://www.reddit.com/">Reddit</option>
+					<option value="http://www.self.com/">Self</option>
+					<option value="http://www.style.com">Style.com</option>
+					<option value="http://www.teenvogue.com/">Teen Vogue</option>
+					<option value="http://www.newyorker.com/">The New Yorker</option>
+					<option value="http://www.thescene.com/">The Scene</option>
+					<option value="http://www.vanityfair.com/">Vanity Fair</option>
+					<option value="http://www.vogue.com">Vogue</option>
+					<option value="http://www.webmonkey.com">Webmonkey</option>
+					<option value="http://www.wmagazine.com/">W</option>
+				</select>
+				<select id="footer_dropdowns_international" name="footer_dropdowns_international">
+					<option>International Sites:</option>
+					<option value="http://www.wired.co.uk">Wired UK</option>
+					<option value="http://www.wired.it">Wired Italy</option>
+					<option value="http://wired.jp">Wired Japan</option>
+				</select>
+			</fieldset>
+		</form>
+	</div>
+
+	<div class="row" id="copyright">
+		<p>WIRED.com &copy; 2014 Cond&eacute; Nast. All rights reserved. Use of this Site constitutes acceptance of our <a href="http://www.condenast.com/privacy-policy" title="User Agreement" target="_blank">User Agreement</a> <span class="revision-date">(effective 01/02/2014)</span> and <a href="http://www.condenast.com/privacy-policy#privacypolicy" title="Privacy Policy" target="_blank">Privacy Policy</a> <span class="revision-date">(effective 01/02/2014)</span>. <a href="http://www.condenast.com/privacy-policy#privacypolicy-california" title="Privacy Policy" target="_blank">Your California Privacy Rights</a>.</p>
+		<p>The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written <a target="_blank" href="http://www.condenast.com/reprints-permissions">permission of Cond&eacute; Nast</a>.</p>
+		<div class="add-choice"><a class="ac" href="http://www.condenast.com/privacy-policy#privacypolicy-optout" title="Privacy Policy" target="_blank">Ad Choices</a></div>
+	</div>
+
+</footer> <!-- /#footer -->
+
+
+            <script type="text/javascript">
+            //<!--
+                CN.config.set({
+                    title        : document.title,
+                                    isiFrame     : true
+                });
+            //-->
+            </script>
+                        <script type="text/javascript" class="chartbeat">
+            //<!--
+                var _sf_async_config = {
+                    uid:      15455,
+                    sections: "homepage",
+                    domain:   "www.wired.com",
+            useCanonical: true,
+                };
+
+                (function(){
+                    function loadChartbeat() {
+                        window._sf_endpt=(new Date()).getTime();
+                        var e = document.createElement('script');
+                        e.setAttribute('language', 'javascript');
+                        e.setAttribute('type', 'text/javascript');
+                        e.setAttribute('src', (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") + "static.chartbeat.com/js/chartbeat_pub.js");
+                        document.body.appendChild(e);
+                    }
+                    var oldonload = window.onload;
+                    window.onload = (typeof window.onload != 'function') ?
+                    loadChartbeat : function() { oldonload(); loadChartbeat(); };
+                })();
+            //-->
+            </script>
+            	        <!-- COMSCORE noscript -->
+	        <noscript>
+				<img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035094&amp;c4=http%3A%2F%2Fwww.wired.com%2F" />
+			</noscript>
+	    <script type="text/javascript">
+    // <![CDATA[
+        var disqus_shortname = 'wired';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) url = url[0];
+                    else url = url[1]
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    //]]>
+    </script>
+	<div id="AMS_WIR_HOMEPAGE_RIGHTNAV" class="ecom-placement">
+		<div onclick="window.open('https://w1.buysub.com/loc/WIR/ATGFailsafe');" id="subscription-rightNav"></div>
+		            <script type="text/javascript">
+            //<!--
+                if ( ( typeof pageAds != 'undefined') && ( CN.url.params( 'nojoy' ) != 1 ) ) {
+                                    (function(){
+                    if ( typeof pageAds.AMS_WIR_HOMEPAGE_RIGHTNAV != 'undefined' ) {
+  jQuery( "#AMS_WIR_HOMEPAGE_RIGHTNAV" ).html( pageAds.AMS_WIR_HOMEPAGE_RIGHTNAV.replace( /document.write\(.*\)/gi, "/* filtered by amg-magnet:document.write(...) */" ) );
+  jQuery( "#AMS_WIR_HOMEPAGE_RIGHTNAV" ).css( { visibility: 'visible' } );
+} else { CN.debug.info( "AMS_WIR_HOMEPAGE_RIGHTNAV not in pageAds."); }
+                    })();
+                                }
+            //-->
+            </script>
+            	</div>
+			<div id="AMS_WIR_FOOTER_NAVBAR_POPUP" class="ecom-placement">
+		            <script type="text/javascript">
+            //<!--
+                if ( ( typeof pageAds != 'undefined') && ( CN.url.params( 'nojoy' ) != 1 ) ) {
+                                    (function(){
+                    if ( typeof pageAds.AMS_WIR_FOOTER_NAVBAR_POPUP != 'undefined' ) {
+  jQuery( "#AMS_WIR_FOOTER_NAVBAR_POPUP" ).html( pageAds.AMS_WIR_FOOTER_NAVBAR_POPUP.replace( /document.write\(.*\)/gi, "/* filtered by amg-magnet:document.write(...) */" ) );
+} else { CN.debug.info( "AMS_WIR_FOOTER_NAVBAR_POPUP not in pageAds."); }
+                    })();
+                                }
+            //-->
+            </script>
+            		</div>
+				<div id="AMS_WIR_FOOTER_NAVBAR" class="ecom-placement">
+		            <script type="text/javascript">
+            //<!--
+                if ( ( typeof pageAds != 'undefined') && ( CN.url.params( 'nojoy' ) != 1 ) ) {
+                                    (function(){
+                    if ( typeof pageAds.AMS_WIR_FOOTER_NAVBAR != 'undefined' ) {
+  jQuery( "#AMS_WIR_FOOTER_NAVBAR" ).html( pageAds.AMS_WIR_FOOTER_NAVBAR.replace( /document.write\(.*\)/gi, "/* filtered by amg-magnet:document.write(...) */" ) );
+  jQuery( "#AMS_WIR_FOOTER_NAVBAR" ).css( { visibility: 'visible' } );
+} else { CN.debug.info( "AMS_WIR_FOOTER_NAVBAR not in pageAds."); }
+                    })();
+                                }
+            //-->
+            </script>
+            		</div>
+		    <script type="text/javascript">
+        var time = new Date().getTime();
+        jQuery(document).bind("mousemove keypress", function(e) {
+            time = new Date().getTime();
+        });
+
+        function refresh() {
+            var currentTime = new Date().getTime();
+            if( (currentTime - time) >= 420000 ) {
+                window.location.reload(true);
+                CN.debug.info("Reloading page..");
+            }
+            else {
+                setTimeout(refresh, 10000);
+            }
+        }
+        setTimeout(refresh, 10000);
+    </script>
+<script type='text/javascript' src='http://www.wired.com/wp-content/themes/wired/assets/js/wp.min.js?ver=1411765660' async='async'></script>
+<script type='text/javascript' src='http://www.wired.com/wp-content/themes/wired/assets/js/scrolldock.js?ver=1411765660' async='async'></script>
+            <script type="text/javascript" class="omniture_block">
+            //<!--
+                CN.stats.omniture.init();
+                CN.stats.omniture.setStatus( CN.site.httpStatusCode );
+
+            CN.stats.omniture.setMobileView( ( CN.isMobile ) ? "Mobile" : "Non-Mobile" );
+
+                if ( CN.cookie.get('amg_user_partner') != '' ) {
+                    CN.stats.omniture.setCustomProp( "52", CN.cookie.get('amg_user_partner') );
+                }
+
+                CN.stats.omniture.setContentType( "Homepage" );
+
+                if ( CN.stats.omniture.setReferrer !== undefined && document.referrer.match( CN.site.tld ) ) {
+                    var referrer = document.referrer;
+                    referrer=referrer.split("?")[0];
+                    CN.stats.omniture.setReferrer( referrer );
+                }
+
+                if ( CN.stats.omniture.setKeywords !== undefined ) {
+                    CN.stats.omniture.setKeywords( "home|primary-4-article-4-image secondary-21-article-21-image sidebar-default" );
+                }
+
+            if ( CN.url.params('event') == 'loginsuccess' ) {
+ CN.stats.omniture.trackAction( 'login', document, { events: 'event21' } );
+}
+                // Run page tracking (also calls .init() again )
+                if ( CN.preventAutoTrack != true ) {
+                    CN.stats.omniture.doPageTracking();
+                }
+            //-->
+            </script>
+            <noscript>
+                <a href="http://www.omniture.com" title="Web Analytics">
+                    <img src="http://condenast.112.2o7.net/b/ss/conde-wired/1/H.15.1--NS/0" height="1" width="1" border="0" alt="" />
+                </a>
+            </noscript>
+            
+<!-- POLAR - DO NOT ALTER - PASTE IMMEDIATELY before </body> tag -->
+<script type="text/javascript" id="polar-partial">
+
+(function(){
+
+  var compiledTemplate0 = '';
+
+
+window.NATIVEADS = window.NATIVEADS || {};
+window.NATIVEADS.injectedAt = new Date().getTime();
+window.NATIVEADS.onReady = function(ads) {
+
+  ads.setPropertyID("NA-WIRE-11236120");
+  ads.setSecondaryPageURL("/sponsored");
+
+  // get the section name from the dart zone for targeting, i.e. design, gadgetlab
+  // remove the trailing semicolon
+  var dartzone = CN.dart.get('zone').replace(";", "");
+
+  ads.insertPreview({
+    label: "Right rail",
+    unit: {
+      "server":"dfp",
+      "id": "/3379/wiredcom.dart/" + dartzone,
+      "size":"290x95",
+      "targets": {
+        "category":"news",
+        "placement":"top"
+      }
+    },
+    location: "#promo-item-count3",
+    infoText: "",
+    infoButtonText: "",
+    template: compiledTemplate0,
+    onRender: function($element) { console.log('Right rail Polar rendered.')},
+    onFill: function(data) { console.log(data) },
+    onError: function(error) { console.log('There was a problem with ' + error)}
+  });
+
+  ads.injectCSS(" ", "head");
+
+
+  ads.configureSecondaryPage({
+    binding: {
+      sponsor: {
+        link: "#sponsor-link",
+        logo: "#sponsor-logo",
+        name: "#sponsor-name"
+      },
+      title: "#title",
+      summary: "#summary",
+      content: "#content",
+      author: "#author",
+      pubDate: "#pub-date",
+      image: {
+        href: "",
+        caption: "#media-caption",
+        credits: "#media-credits"
+      }
+    },
+    onFill: function(data) { console.log(data);},
+    onRender: function() { console.log('Sponsored article rendered.'); },
+    onError: function(error) { console.log('Something went wrong with ' + error); },
+    track: function() { }
+  });
+
+};
+
+  /*
+
+   This function represents a pre-compiled Handlebars template. Pre-compiled
+   templates are not pretty, but they provide a very significant performance
+   boost, especially on mobile devices. For more information, see
+   http://handlebarsjs.com/precompilation.html.
+
+   Note that this code has been generated from the following markup:
+
+<li class="promo-item" id="promo-item-count3" style="background:#f7f7f7;">
+    <div class="promo-thumbnail">
+        <a href="{{link}}" onclick="s_objectID=&quot;{{title}}_1&quot;;return this.s_oc?this.s_oc(e):true" rel="nofollow">
+            <img nopin="nopin" src="{{image.href}}" class="post-thumb" alt="undefined" width="140" height="70">
+        </a>
+    </div>
+    <div class="promo-wrapper">
+      <div class="promo-headline"><span style="color:gray;font-size: 13px;font-family: helvetica;line-height: 20px;">Sponsored:</span><br><a class="module-rsswidget" href="{{link}}" onclick="s_objectID=&quot;{{link}}_2&quot;;return this.s_oc?this.s_oc(e):true" rel="nofollow">{{title}}</a>
+        </div>
+    </div>
+</li>
+
+  */
+
+  compiledTemplate0 = function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+  var buffer = "", stack1, stack2, functionType="function", escapeExpression=this.escapeExpression;
+
+
+  buffer += "<li class=\"promo-item\" id=\"promo-item-count3\" style=\"background:#f7f7f7;\">\n    <div class=\"promo-thumbnail\">\n        <a href=\"";
+  if (stack1 = helpers.link) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
+  else { stack1 = depth0.link; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
+  buffer += escapeExpression(stack1)
+    + "\" onclick=\"s_objectID=&quot;";
+  if (stack1 = helpers.title) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
+  else { stack1 = depth0.title; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
+  buffer += escapeExpression(stack1)
+    + "_1&quot;;return this.s_oc?this.s_oc(e):true\" rel=\"nofollow\">\n            <img nopin=\"nopin\" src=\""
+    + escapeExpression(((stack1 = ((stack1 = depth0.image),stack1 == null || stack1 === false ? stack1 : stack1.href)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "\" class=\"post-thumb\" alt=\"undefined\" width=\"140\" height=\"70\">\n        </a>\n    </div>\n    <div class=\"promo-wrapper\">\n      <div class=\"promo-headline\"><span style=\"color:gray;font-size: 13px;font-family: helvetica;line-height: 20px;\">Sponsored:</span><br><a class=\"module-rsswidget\" href=\"";
+  if (stack2 = helpers.link) { stack2 = stack2.call(depth0, {hash:{},data:data}); }
+  else { stack2 = depth0.link; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; }
+  buffer += escapeExpression(stack2)
+    + "\" onclick=\"s_objectID=&quot;";
+  if (stack2 = helpers.link) { stack2 = stack2.call(depth0, {hash:{},data:data}); }
+  else { stack2 = depth0.link; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; }
+  buffer += escapeExpression(stack2)
+    + "_2&quot;;return this.s_oc?this.s_oc(e):true\" rel=\"nofollow\">";
+  if (stack2 = helpers.title) { stack2 = stack2.call(depth0, {hash:{},data:data}); }
+  else { stack2 = depth0.title; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; }
+  buffer += escapeExpression(stack2)
+    + "</a>\n        </div>\n    </div>\n</li>\n\n\n";
+  return buffer;
+  };
+
+})();
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s);
+  js.id = id; js.type = "text/javascript"; js.async = true;
+  js.src = "http://plugin.mediavoice.com/plugin.js";
+  fjs.parentNode.insertBefore(js, fjs);
+})(document, "script", "nativeads-plugin");
+
+</script>
+<!-- END POLAR -->		<script type="text/javascript" id="site-preference-popup-script" src="http://geoservices.condenast.com/overlay/pref.js?siteName=wired"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-1.newrelic.com","licenseKey":"2907deeb56","applicationID":"3708287","transactionName":"YlIEZhNSXxEAABYNW1sYM0AIHFgMBQYaSkRdRw==","queueTime":0,"applicationTime":6,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-411.min.js"}</script></body>
+</html>
+<!-- end wired/footer.php -->

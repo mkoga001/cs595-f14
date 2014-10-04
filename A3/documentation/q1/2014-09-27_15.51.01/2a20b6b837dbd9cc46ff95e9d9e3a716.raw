@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Complex | Making Culture Pop</title>
+<meta name="description" content="The latest in music, style, entertainment, sports and sneakers." />
+<meta name="keywords" content="Complex, Complex Magazine, Style Guide, Fashion News, Celebrity Profiles, Sneakers, Sneakers Guide, Sneakers Blog" />
+<link rel="canonical" href="http://www.complex.com/" />
+<link rel="publisher" href="http://plus.google.com/+complex" />
+
+    <meta name="fragment" content="!">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE; chrome=1" />
+    <meta name="msvalidate.01" content="F97A06145E9767C313B356E7E5B833F3" />
+    <link rel="shortcut icon" type="image/x-icon" href="http://images.complex.com/complex/image/upload/v1403733167/favicon.ico" />
+    <link rel="apple-touch-icon" href="http://images.complex.com/complex/image/upload/v1405731639/Complex_iphoneIcon_ndncsb.jpg" />
+    <link rel="alternate" type="application/rss+xml" title="Subscribe to Complex.com" href="http://assets.complex.com/feeds/channels/all.xml" />
+
+    
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <meta name="robots" content="noodp">
+
+    <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Droid+Serif:400,700,700italic,400italic' rel='stylesheet' type='text/css'> -->
+
+        <link rel="stylesheet" type="text/css" href="http://assets.complex.com/css/desktop/home.css?1411763968">
+
+
+    <!-- <link href="http://assets.complex.com/ng/app/desktop/css/angular/angular-carousel.min.css?1411763716" rel="stylesheet" type="text/css" /> -->
+    <script type="text/javascript">
+    cmnunt_site = 'cmn_complex';
+    cmnunt_silo = 's_sty';
+    cmnunt_subsilo = ''; //'mus,sne,sty,gam,pop,spo,alpha';
+    cmnunt_tier  = 'to,home';
+    cmnunt_zone = 'home';
+    cmnunt_kw = 'complex,';
+    cmnunt_exclude = '';
+    cmn_tb_theme = '';
+    var complexAlpha = true;
+</script>
+
+    <script>
+        var international = false;
+    </script>
+    <script type="text/javascript" src="http://cdn.complexmedianetwork.com/js/cmnUNT.js?v=17"></script>
+    <script type="text/javascript" src="http://cdnl.complex.com/tv/js/widget_v2.min.js"></script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <script>
+        window.prerenderReady = false;
+    </script>
+</head>
+<body ng-app="desktopApp" ng-id="ng-app" id="home" site-location="home" complex-device-type="desktop">
+<script>
+    /**
+     * Returns cookie value (Requires for toolBar)
+     * @param  cname
+     * @returns  {string}
+     */
+
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0; i<ca.length; i++) {
+            var c = ca[i].trim();
+            if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+        }
+        return "";
+    }
+</script>
+<div class="header-container z-top-layout" id="complex_navigation">
+    <div class="header-perspective">
+        <header id="global-navigation" class="" shadow-bottom>
+            <div class="skin-outer clearfix">
+        		<nav class="logo-menu-holder">
+            		<ul>
+                		<li><a href="/" ga-logo class="complex-logo retina-graphic" target="_self" title="Home" alt="Complex"></a></li>
+                		<li><a class="complex-menu-button retina-graphic" ng-click="toggleLeftMenuSlide()" click-off>menu</a></li>
+            		</ul>
+        		</nav>
+        		<div id="logo" itemscope itemtype="http://schema.org/Organization" style="display: none;">
+            		<a itemprop="url" href="http://www.complex.com">Home</a>
+            		<img itemprop="logo" src="http://images.complex.com/complex/image/upload/v1404147683/complex-logo.jpg" />
+        		</div>
+		    	<nav id="social-search-holder">
+                    <span class="searchbar">
+                        <form action="/search" method="get" class="searchform">
+    <input type="text" class="searchtext" name="search" search-extend input-postion-switch autocomplete="off"/>
+    <input type="submit" class="searchbutton" value=""/>
+</form>
+                    </span>
+		        	<ul class="social-bar">
+				        <li><a ga-link ga-category="Header" ga-action="Click on social links" ga-label="FB" href="http://www.facebook.com/complex" target="_blank" class="social_button facebook"></a></li>
+				        <li><a ga-link ga-category="Header" ga-action="Click on social links" ga-label="Twitter" href="https://twitter.com/#!/ComplexMag" target="_blank" class="social_button twitter"></a></li>
+				        <li><a ga-link ga-category="Header" ga-action="Click on social links" ga-label="G+" href="http://plus.google.com/+complex" rel="publisher" target="_blank" class="social_button google"></a></li>
+				        <li><a ga-link ga-category="Header" ga-action="Click on social links" ga-label="Instagram" href="http://instagram.com/complex" target="_blank" class="social_button instagram"></a></li>
+				        <li><a ga-link ga-category="Header" ga-action="Click on social links" ga-label="YT" href="http://www.youtube.com/user/complexmagazine" target="_blank" class="social_button youtube"></a></li>
+				    </ul>
+				</nav>
+            </div>
+    	</header><!-- Global header navigation ends -->
+
+            </div>
+</div>
+
+<section id="share-content" share-overlay class="hide">
+    Share
+</section>
+<div class="main-container">
+
+    <div class="aside-navigation z-top-layout" ng-controller="ChannelLatestArticles" ng-mouseleave="channelArticlesMenuSlideOut()" channel-menu-slide click-off>
+    <nav id="channel-navigation" class="scrollable-overlay" scrollable-overlay>
+        <div class="scroller">
+          <h3>Channels</h3>
+          <ul class="channels-list-nav">
+              <li touch-or-click-device="desktop" ga-action="Click on channel name" ga-sub="Article" slug-channel="music" channel-id="7"><a href="/music/" class="channel-nav-button channel-music" target="_self" complex-nav-label="More Stories">Music</a></li>
+    <li touch-or-click-device="desktop" ga-action="Click on channel name" ga-sub="Article" slug-channel="style" channel-id="3"><a href="/style/" class="channel-nav-button channel-style" target="_self" complex-nav-label="More Stories">Style</a></li>
+    <li touch-or-click-device="desktop" ga-action="Click on channel name" ga-sub="Article" slug-channel="pop-culture" channel-id="1"><a href="/pop-culture/" class="channel-nav-button channel-pop-culture" target="_self" complex-nav-label="More Stories">Pop Culture</a></li>
+    <li touch-or-click-device="desktop" ga-action="Click on channel name" ga-sub="Article" slug-channel="sports" channel-id="8"><a href="/sports/" class="channel-nav-button channel-sports" target="_self" complex-nav-label="More Stories">Sports</a></li>
+    <li touch-or-click-device="desktop" ga-action="Click on channel name" ga-sub="Article" slug-channel="sneakers" channel-id="6"><a href="/sneakers/" class="channel-nav-button channel-sneakers" target="_self" complex-nav-label="More Stories">Sneakers</a></li>
+          </ul>
+          <h3>TV</h3>
+          <ul class="channels-list-nav">
+            <li touch-or-click-device="desktop" ga-action="Click on ComplexTV link" ga-sub="video" slug-channel="complextv-latest" channel-id="complextv-latest"><a href="http://www.complex.com/tv/" class="channel-nav-button channel-complextv" target="_self" complex-nav-label="More Videos">Latest</a></li>
+            <li touch-or-click-device="desktop" ga-action="Click on ComplexTV link" ga-sub="video" slug-channel="complextv-news" channel-id="complextv-news"><a href="http://www.complex.com/tv/shows/complex-news" class="channel-nav-button channel-complextv" target="_self" complex-nav-label="More News">News</a></li>
+            <li touch-or-click-device="desktop" ga-action="Click on ComplexTV link" ga-sub="show" slug-channel="tv-shows" channel-id="tv-shows"><a href="http://www.complex.com/tv#shows" class="channel-nav-button channel-complextv" target="_self" complex-nav-label="More Shows">Shows</a></li>
+          </ul>
+          <h3>Our Sites</h3>
+          <ul class="channels-list-nav">
+              <li touch-or-click-device="desktop" ga-action="Click on O&O link" ga-sub="O&O Article" slug-channel="pigeonsandplanes" channel-id="pigeonsandplanes">
+    <a href="http://pigeonsandplanes.com?utm_source=complex&utm_medium=referral&utm_campaign=pigeonsandplanes.com+main+navigation" class="channel-nav-button oando pigeonsandplanes " target="_blank" complex-nav-label="More Stories">Pigeons And Planes</a>
+</li>
+<li touch-or-click-device="desktop" ga-action="Click on O&O link" ga-sub="O&O Article" slug-channel="fourpins" channel-id="fourpins">
+    <a href="http://four-pins.com?utm_source=complex&utm_medium=referral&utm_campaign=four-pins.com+main+navigation" class="channel-nav-button oando fourpins " target="_blank" complex-nav-label="More Stories">Four Pins</a>
+</li>
+<li touch-or-click-device="desktop" ga-action="Click on O&O link" ga-sub="O&O Article" slug-channel="firstwefeast" channel-id="firstwefeast">
+    <a href="http://firstwefeast.com?utm_source=complex&utm_medium=referral&utm_campaign=firstwefeast.com+main+navigation" class="channel-nav-button oando firstwefeast " target="_blank" complex-nav-label="More Stories">First We Feast</a>
+</li>
+<li touch-or-click-device="desktop" ga-action="Click on O&O link" ga-sub="O&O Article" slug-channel="solecollector" channel-id="solecollector">
+    <a href="http://solecollector.com?utm_source=complex&utm_medium=referral&utm_campaign=solecollector.com+main+navigation" class="channel-nav-button oando solecollector " target="_blank" complex-nav-label="More Stories">Sole Collector</a>
+</li>
+<li touch-or-click-device="desktop" ga-action="Click on O&O link" ga-sub="O&O Article" slug-channel="doandroidsdance" channel-id="doandroidsdance">
+    <a href="http://doandroidsdance.com?utm_source=complex&utm_medium=referral&utm_campaign=doandroidsdance.com+main+navigation" class="channel-nav-button oando doandroidsdance " target="_blank" complex-nav-label="More Stories">Do Androids Dance</a>
+</li>
+<li touch-or-click-device="desktop" ga-action="Click on O&O link" ga-sub="O&O Article" slug-channel="triangleoffense" channel-id="triangleoffense">
+    <a href="http://triangleoffense.com?utm_source=complex&utm_medium=referral&utm_campaign=triangleoffense.com+main+navigation" class="channel-nav-button oando triangleoffense " target="_blank" complex-nav-label="More Stories">Triangle Offense</a>
+</li>
+<li touch-or-click-device="desktop" ga-action="Click on O&O link" ga-sub="O&O Article" slug-channel="greenlabel" channel-id="greenlabel">
+    <a href="http://green-label.com?utm_source=complex&utm_medium=referral&utm_campaign=green-label.com+main+navigation" class="channel-nav-button oando greenlabel " target="_blank" complex-nav-label="More Stories">Green Label</a>
+</li>
+<li touch-or-click-device="desktop" ga-action="Click on O&O link" ga-sub="O&O Article" slug-channel="sneakerreport" channel-id="sneakerreport">
+    <a href="http://sneakerreport.com?utm_source=complex&utm_medium=referral&utm_campaign=sneakerreport.com+main+navigation" class="channel-nav-button oando sneakerreport " target="_blank" complex-nav-label="More Stories">Sneaker Report</a>
+</li>
+          </ul>
+
+        </div>
+    </nav>
+    <nav id="channel-articles-navigation" class="scrollable-overlay" article-channel-menu-slide scrollable-overlay>
+        <div class="scroller">
+       <section class="nav-article-info" ng-repeat="article_data in channel_latest_articles">
+            <div ng-if="getBrandedAdTag(article_data).length > 0" class="asidenavigation-brandedlogo">
+                <branded-ad tags-list="<% getBrandedAdTag(article_data) %>" selector-id="navigation_menu_branded_ad_<% article_data.id %>" type-ad="4x4" ></branded-ad>
+            </div>
+            <a ng-href="<% getArticleUrl(article_data) %>" target-blank="<% article_data.external %>" class="nav-article-link" evt-sub-menu>
+                <div ng-show="hasVideo(article_data)" ng-class="{tvicon: hasComplexTVIcon(article_data), video: !hasComplexTVIcon(article_data)}"></div>
+                <img ng-src="<% getImage(article_data,'left_menu') %>" alt="<% getArticleHeadline(article_data) %>" width="175" />
+                <span class="article-added-date" ng-bind="getDatePublishedLabel(article_data)" ng-if="article_data.type!='show'"></span>
+                <h3 class="article-title" ng-bind-html="renderHtml(getArticleHeadline(article_data))"></h3>
+            </a>
+       </section>
+        <div complex-view-more class="view-more"></div>
+        </div>
+    </nav>
+</div>
+    <div class="top-ad-wrapper skin-outer" id="cmn_head_styles">
+        <div id="cmn_ad_tag_head" class="fw_complex_alpha" cmn-head-ad>
+            <script>getCookie('manager_mode') ? null : cmnUNT('3x3', window.tile_num++);</script>
+        </div>
+    </div>
+
+    <div id="cmn_wrap" class="skin-outer" style="z-index: 30 !important;" skin-resize="" skin-inject="">
+        <div id="complex-main-container" class="main wrapper clearfix">
+                        <article scroll alternative-navigation>
+                
+<div class="complex-container viewport-slider-wrap">
+    <div id="viewport-slider" ng-controller="CLGCtrl" class="stretchy-wrapper"  ng-init="init('Viewport - Editorial')" clg-width="680" clg-height="440" clg-name="Viewport - Editorial" clg-marketing-hub-id="0" clg-location="Homepage" clg-element-location="home" clg-autoplay="true" clg-autoplay-delay="5000">
+        <ul rn-carousel rn-carousel-indicator rn-carousel-loop rn-carousel-index="slideIndex" rn-carousel-ie9support class="image">
+            <li ng-repeat="item in items" ng-cloak>
+                <div class="viewport-slide" ng-click="item.isArticle ? go(item, $event) : goHref(getArticleUrl(item),$event)" ng-class="{article: item.isArticle, destination: !item.isArticle}">
+
+                    <div class="slider-shadow-gradient"></div>
+                    <img ng-src="<% getCloudinaryImage(item.thumbnail, { width:680, height:440, crop:'fill'}) %>" ng-alt="<% item.thumbnail.altText %>" />
+
+                    <div class="viewport-slide-caption" ng-class="item.captionClass">
+                        <a ng-if="item.renderChannel != undefined" href="/<% item.renderChannel.slug %>/" target="_self" evt-sitewide-channel="Viewport">
+                            <div class="tag" ng-class="item.renderChannel.slug" ng-if="item!=null" ng-bind="item.renderChannel.name"></div>
+                        </a>
+
+                        <div class="viewport-article-headline">
+                            <a ng-href="<% getArticleUrl(item) %>"><h2 ng-bind="item.headline"></h2></a>
+                        </div>
+                    </div>
+
+                </div>
+            </li>
+                        <li>
+                <div class="viewport-slide article">
+                    <img src="http://images.complex.com/complex/image/upload/c_fill,h_440,w_680/gsjd1yl9lm0imqjoehn0.jpg" alt="" />
+
+                    <div class="slider-shadow-gradient"></div>
+                    <a href="what-the-hell-just-happened-in-music-this-week-september-27">
+                    </a>
+
+                    <div class="viewport-slide-caption" ng-class="getCaptionClass('What The Hell Just Happened In Music This Week?')">
+                                                <a href="/music/" target="_self" evt-sitewide-channel="Viewport">
+                            <div class="tag music">
+                                Music
+                            </div>
+                        </a>
+                                                <div class="viewport-article-headline">
+                            <a href="what-the-hell-just-happened-in-music-this-week-september-27" >
+                                <h2>What The Hell Just Happened In Music This Week?</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </li>
+                    </ul>
+        <div class="rn-carousel-controls">
+            <span class="rn-carousel-control rn-carousel-control-prev" ng-class="{disabled: prevDisabled()}" ng-click="prev()"></span>
+            <span class="rn-carousel-control rn-carousel-control-next" ng-click="next()"></span>
+        </div>
+
+    </div>
+</div>
+
+<!--<div viewport clg-name="Viewport - Editorial"></div>-->
+
+<div id="news-container" ng-controller="ArticlesFeedCtrl" ng-cloak>
+        <div class="news-header complex-container clearfix">
+        <h3 class="latest-articles-header" ng-cloak>
+                            <span class="capital" ng-hide="isTrending">Latest</span>
+                <span class="capital" ng-show="isTrending">Trending</span>
+                &nbsp;&nbsp;&nbsp;<span>Stories</span>
+                    </h3>
+                    <div class="trending-button" ng-class="{active:isTrending}" ng-click="showTrending()"><a>Trending</a></div>
+            <div class="latest-button" ng-class="{active:!isTrending}"  ng-click="showLatest()"><a>Latest</a></div>
+            </div>
+    
+
+        <div class="clearfix complex-latest load-more-content" ng-hide="isTrending" data-complex-init-load="true">
+        <!-- the following is loaded by angular when scroll is activated -->
+        <!-- homepage doesn't have auto scroll -->
+        <div id="articles-lazy-load" complex-articles-load ng-show="displayChannels" ng-hide="isTrending" complex-is-homepage="2" complex-get="10"></div>
+    </div>
+    
+            <div ng-show="isTrending" complex-trending class="complex-trending" complex-channel-slug="all"></div>
+    
+            <div class="load-more-container" ng-hide="isTrending">
+        <script>var suit_ads_counter = 10, count_items_pre_page = 10;</script>
+        <button ng-click='loadMoreClick()' class="load-more" load-more-button><span>Load More Stories</span></button>
+    
+        <!-- svg circle for progress indication -->
+        <svg class="progress-circle" width="42" height="42">
+            <path d="m3,21c0,-9.94475 8.05525,-18 18,-18c9.94475,0 18,8.05525 18,18c0,9.94475 -8.05525,18 -18,18c-9.94475,0 -18,-8.05525 -18,-18z"/>
+        </svg>
+    </div>
+    <noscript>
+                <div class="next-link">
+            <a href="/?page=2"
+               rel="next"
+                >Page 2</a>
+        </div>
+    </noscript>
+</div>
+
+
+            </article>
+            <aside>
+    <div class="aside-content-wrapper">
+                    <div class="tv-widget-holder">
+        <h3 class="latest-articles-header"><span class="capital">Latest</span>&nbsp;&nbsp;&nbsp;<span>News</span></h3>
+                    <div data-widget-id="v2-viewport" data-player-id="3985af8dd6a94b798755d3b5dbc8ba0a" data-layout="1" data-video-count="10" data-label-ids="shows-complex-news,complex-originals" data-curation-include-all-labels="shows-complex-news,complex-originals" data-theme="complex-news" class="tv-widget" draggable-latest-news 
+                    ></div>
+                <script>
+            $(document).ready(function(){
+                initializeComplexWidget('v2-viewport');
+            });
+        </script>
+    </div><!-- ./tv-widget-holder -->
+            <div class="top-group">
+                <div class="ad-clip">
+                    <div class="aside-ad-wrapper clearfix" fixed-aside-bar complex-page-type="home" is-list="0" init-pos-top="52">
+                        <div class="aside-ad-container-wrapper">
+                            <div class="aside-ad-container" left-aside-ad id="sidebar-scroll-300x250-container">
+                                <script>getCookie('manager_mode') ? null : cmnUNT('300x250,300x600', window.tile_num++, 1);</script>
+                            </div>
+                        </div>
+                        <div class="trending-sidebar">
+                                                                                    <div trending-sidebar complex-data="Trending" complex-channel-slug="all" ng-show="!isTrending" complex-header="Trending"></div>
+                                                                            </div>
+                    </div>
+                </div><!-- ./ad-clip -->
+            </div><!-- ./top-group -->
+            
+            <div class="cover-widget">
+                <iframe src="http://c.complexmedianetwork.com/widgets/digital-cover-widget.html" id="cover-widget" height="100%" width="100%"></iframe>
+            </div>
+
+            <div clg-editor-picks clg-name="Editor's Picks - Home Page" clg-location="Right Rail" clg-width="109" clg-height="109" clg-element-location="right_rail"></div>
+
+            </div>
+</aside>
+                    </div> <!-- #main -->
+    </div>
+</div> <!-- #main-container -->
+
+<div class="scroll-hide-outer" id="footer-brands-container">
+    <div class="brands-container" dragable-brands>
+        <div class="brands wrapper clearfix">
+            <a ga-link ga-category="Footer" ga-action="Click on O&O Bar" href="http://four-pins.com?utm_source=complex&utm_medium=referral&utm_campaign=four-pins.com+global+footer" target="_blank" rel="nofollow"><div class="oo-brand four-pins">Four Pins</div></a>
+            <a ga-link ga-category="Footer" ga-action="Click on O&O Bar" href="http://pigeonsandplanes.com?utm_source=complex&utm_medium=referral&utm_campaign=pigeonsandplanes.com+global+footer" target="_blank" rel="nofollow"><div class="oo-brand pigeons">Pigeons &amp; Planes</div></a>
+            <a ga-link ga-category="Footer" ga-action="Click on O&O Bar" href="http://solecollector.com?utm_source=complex&utm_medium=referral&utm_campaign=solecollector.com+global+footer" target="_blank" rel="nofollow"><div class="oo-brand sole">Sole Collector</div></a>
+            <a ga-link ga-category="Footer" ga-action="Click on O&O Bar" href="http://firstwefeast.com?utm_source=complex&utm_medium=referral&utm_campaign=firstwefeast.com+global+footer" target="_blank" rel="nofollow"><div class="oo-brand first">First We Feast</div></a>
+            <a ga-link ga-category="Footer" ga-action="Click on O&O Bar" href="http://doandroidsdance.com?utm_source=complex&utm_medium=referral&utm_campaign=doandroidsdance.com+global+footer" target="_blank" rel="nofollow"><div class="oo-brand androids">Do Androids Dance?</div></a>
+            <a ga-link ga-category="Footer" ga-action="Click on O&O Bar" href="http://green-label.com?utm_source=complex&utm_medium=referral&utm_campaign=green-label.com+global+footer" target="_blank" rel="nofollow"><div class="oo-brand greenlabel">Greenlabel</div></a>
+            <a ga-link ga-category="Footer" ga-action="Click on O&O Bar" href="http://sneakerreport.com?utm_source=complex&utm_medium=referral&utm_campaign=sneakerreport.com+global+footer" target="_blank" rel="nofollow"><div class="oo-brand sneaker">Sneaker Report</div></a>
+            <a ga-link ga-category="Footer" ga-action="Click on O&O Bar" href="http://triangleoffense.com?utm_source=complex&utm_medium=referral&utm_campaign=triangleoffense.com+global+footer" target="_blank" rel="nofollow"><div class="oo-brand triangle">Triangle Offense</div></a>
+        </div>
+    </div>
+</div>
+
+<div class="footer-container">
+    <footer class="footer wrapper clearfix">
+
+        <div class="col1">
+            <div class="covers clearfix">
+                <iframe src="http://c.complexmedianetwork.com/About-Us/The-Magazine/cover-widget?display=2" frameborder="0" scrolling="no" style="width: 100%; /* 378 / 442 */ min-height: 240px" ></iframe>
+            </div>
+            <div class="copyright">&copy; Complex Media Inc., All Rights Reserved</div>
+        </div>
+
+        <div class="col2">
+            <div class="channels-col">
+                <div class="channels-row">
+                    <div class="col-head">Channels</div>
+                    <div class="col-copy">
+                                                <a href="/music/" target="_self" rel="nofollow">Music</a>
+                                                <a href="/style/" target="_self" rel="nofollow">Style</a>
+                                                <a href="/pop-culture/" target="_self" rel="nofollow">Pop Culture</a>
+                                                <a href="/sports/" target="_self" rel="nofollow">Sports</a>
+                                                <a href="/sneakers/" target="_self" rel="nofollow">Sneakers</a>
+                                            </div>
+                </div>
+
+                <div class="channels-row">
+                    <div class="col-head">Complex TV</div>
+                    <div class="col-copy">
+                        <a href="http://www.complex.com/tv" target="_self" rel="nofollow">Latest</a>
+                        <a href="http://www.complex.com/tv/shows/complex-news" target="_self" rel="nofollow">News</a>
+                        <a href="http://www.complex.com/tv#shows" target="_self" rel="nofollow">Shows</a>
+                    </div>
+                </div>
+            </div>
+            <div class="social-col">
+                <div class="col-head">Connect with us</div>
+<div class="social-container clearfix">
+    <a ga-link ga-category="Footer" ga-action="Click on social links" ga-label="FB" class="facebook" href="http://www.facebook.com/complex" target="_blank" rel="nofollow">Facebook</a>
+    <a ga-link ga-category="Footer" ga-action="Click on social links" ga-label="Twitter" class="twitter" href="https://twitter.com/#!/ComplexMag" target="_blank" rel="nofollow">Twitter</a>
+    <a ga-link ga-category="Footer" ga-action="Click on social links" ga-label="G+" class="google-plus" href="http://plus.google.com/+complex" rel="publisher" target="_blank" rel="nofollow">Google Plus</a>
+    <a ga-link ga-category="Footer" ga-action="Click on social links" ga-label="Instagram" class="instagram" href="http://instagram.com/complex" target="_blank" rel="nofollow">Instagram</a>
+    <a ga-link ga-category="Footer" ga-action="Click on social links" ga-label="YT" class="youtube" href="http://www.youtube.com/user/complexmagazine" target="_blank" rel="nofollow">Youtube</a>
+</div>
+            </div>
+        </div>
+
+        <div class="col3">
+                            <div class="col-head">Newsletter</div>
+<div class="newsletter" ng-controller="NewsletterController">
+    <form name="newsletterForm" novalidate data-ng-submit="subscribe()">
+                        <input type="hidden" value="" id="newsletter-channel" />
+                    <input type="email" name="email" data-ng-model="email" ng-focus='focus()' ng-blur='blur()' class="email" required ng-disabled="newsletterDisabled" autocomplete="off" placeholder="<% newsletterStatus %>" />
+        <input type="button" class="subscribe-button" data-ng-click="submitSubscribe()" ng-disabled="newsletterDisabled"/>
+    </form>
+</div>
+                        <div class="col-head about-links "><a href="http://www.complexmediainc.com/" rel="nofollow" target="_blank">Complex Media Inc.</a></div>
+            <div class="col-copy">
+                <a href="/contact" target="_self" rel="nofollow">Contact us</a>
+<a href="http://www.complexmediainc.com/About-Us/careers" target="_blank" rel="nofollow">Careers</a>
+<a href="http://www.complexmediainc.com/" target="_blank" rel="nofollow">Advertise</a>
+<a href="/privacy" target="_self" rel="nofollow">Privacy policy</a>
+<a href="/terms" target="_self" rel="nofollow">Terms of use</a>
+<a href="/share" target="_self" rel="nofollow">Feeds</a>
+<a href="/sitemap" target="_self" rel="nofollow">Site map</a>
+            </div>
+        </div>
+
+    </footer>
+</div>
+
+<!-- JSs After DOM Ready -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("img.lazy").lazyload({
+            effect : "fadeIn"
+        });
+    });
+</script>
+
+<div id="skins-cmnunt-placeholder">
+    <script>
+        if(!getCookie('manager_mode') && $(window).width() >= 1129){
+            cmnUNT('tover', window.tile_num++);
+            $('#cmn_wrap').attr('skin-inject', '1');
+        }
+        //getCookie('manager_mode') ? null : ($(window).width() >= 1129 ? cmnUNT('tover', window.tile_num++) : null); </script>
+</div>
+
+<script>
+    if(getCookie('manager_mode')){
+        cmnTBoff();
+    } else {
+        var toolbar = setInterval(function(){
+            if(window.prerenderReady){
+                cmnTB();
+                clearInterval(toolbar);
+            }
+        }, 500);
+    }
+</script>
+
+<script src="//cdn.optimizely.com/js/631700291.js"></script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+     
+        _gaq.push(['main._setAccount', 'UA-30251-5']); 
+        _gaq.push(['main._setDomainName', 'complex.com']);
+        _gaq.push(['main._setAllowLinker', true]);
+            (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-51767934-1', 'auto' ,  {'name' : 'universal'});  // Creates a tracker.
+    // Optimizely Universal Analytics Integration code
+    window.optimizely = window.optimizely || [];
+    window.optimizely.push(['activateUniversalAnalytics']);
+    ga('universal.require', 'displayfeatures');
+
+    var sendPageView = function() {
+         
+            _gaq.push(['main._trackPageview']); 
+                         
+            ga('universal.send', 'pageview'); 
+            }
+    sendPageView();
+    var sendPageEvent = function(c,a,l,o) {
+         
+            if(o === true) { _gaq.push(['main._trackEvent', c,a,l ]); }
+        
+         
+            ga('universal.send', 'event', c, a, l );
+            }
+
+    </script>
+
+        <script src="http://assets.complex.com/js/compiled/desktop.min.js?1411763895"></script>
+
+<!-- START VigLink -->
+<script type="text/javascript">
+    var vglnk = { api_url: '//api.viglink.com/api',
+        key: 'c1bfa75158ba0f760f9cf90dfe79a69d' };
+
+    (function(d, t) {
+        var s = d.createElement(t); s.type = 'text/javascript'; s.async = true;
+        s.src = ('https:' == document.location.protocol ? vglnk.api_url :
+            '//cdn.viglink.com/api') + '/vglnk.js';
+        var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r);
+    }(document, 'script'));
+</script>
+<!-- END VigLink -->
+
+
+<!-- Begin comScore Tag --> 
+<script> 
+ var _comscore = _comscore || []; 
+ _comscore.push({ c1: "2", c2: "6685975" }); 
+ (function() { 
+ var s = document.createElement("script"), el = 
+document.getElementsByTagName("script")[0]; s.async = true; 
+ s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + 
+".scorecardresearch.com/beacon.js"; 
+ el.parentNode.insertBefore(s, el); 
+ })(); 
+</script> 
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6685975&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" /></noscript>
+<!-- End comScore Tag --> 
+
+<!-- Chartbeat Footer -->
+<script type='text/javascript'>
+    var _sf_async_config={};
+    /** CONFIGURATION START **/
+    _sf_async_config.uid = 5098;
+    _sf_async_config.domain = 'complex.com';
+    /** CONFIGURATION END **/
+    (function(){
+        function loadChartbeat() {
+            window._sf_endpt=(new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src',
+                (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
+                    'js/chartbeat.js');
+            document.body.appendChild(e);
+        }
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+            loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    })();
+</script>
+
+
+
+
+<!--
+   <script type="text/javascript" src="min/?g=listPjaxJS&amp;cn=1"></script>
+-->
+
+<!-- Google Code for Complex -->
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 1067611314;
+    var google_conversion_label = "pqs5CPb50wQQsumJ_QM";
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+<noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1067611314/?value=0&amp;label=pqs5CPb50wQQsumJ_QM&amp;guid=ON&amp;script=0"/>
+    </div>
+</noscript>
+
+<!-- LinkSmart -->
+<script type="text/javascript">
+    // <![CDATA[
+    var _ls_pub_id = "184";
+    (function(d, t){
+        var mb = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        mb.async = mb.src = '//cdn.linksmart.com/linksmart_2.3.0.min.js';
+        s.parentNode.insertBefore(mb, s);
+    }(document, 'script'));
+    // ]]>
+</script>
+
+<!-- Sailthru Horizon -->
+<script type="text/javascript">
+    function reloadHorizon() {
+        function loadHorizon() {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = location.protocol + '//ak.sail-horizon.com/horizon/v1.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+
+            s.onload = function() {
+                Sailthru.setup({
+                    domain: 'horizon.complex.com'
+                });
+            };
+        }
+        loadHorizon();
+    };
+    reloadHorizon();
+</script>
+<script>
+    $(document).ready(function(){
+        eucn(); // Run EU Cookie Notice
+    });
+</script>
+</body>
+</html>

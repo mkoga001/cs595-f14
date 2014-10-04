@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 ie6"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8 ie7"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9 ie8"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10 ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  
+  <script type="text/javascript">
+(function e(){var e=document.createElement("script");e.type="text/javascript",e.async=true,e.src="//staticw2.yotpo.com/ZBUl0tE2X1c9Kc1IV7a0AXNjdX1KAxsZZLUhPjpW/widget.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
+</script>
+            
+  
+  <!--
+  ==========================================================================
+     Atlantic v7.18.1
+     Updated: 28 August, 2014
+     Website: http://pixelunion.net
+     Themes: http://pixelunion.net/themes
+  ==========================================================================
+  -->
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title> Coral Bay </title>
+
+  
+    <meta name="description" content="We are a marketplace where people around the world connect to buy unique jewelry. Our mission is to re-imagine jewelry in ways that build a more beautiful you.">
+  
+
+  <meta name="viewport" content="width=device-width" />
+<link rel="shortcut icon" href="https://cdn.shopify.com/s/files/1/0624/8885/files/fav.png" type="image/png" />
+  
+  <!-- Fonts
+  ///////////////////////////////////////// -->
+
+  <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+ <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+   <script>
+
+    var googleFonts = [];
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+      googleFonts.push('Source+Sans+Pro:400,600,700,400italic,600italic,700italic');
+    
+
+    
+    
+      googleFonts.push('Arvo:400,700,400italic,700italic');
+    
+
+    WebFont.load({
+      google: {
+        families: googleFonts
+      },
+      active: function() {
+        $(function(){
+          $('.main-header').trigger('format-full-navigation');
+        });
+      }
+    });
+
+  </script>
+
+            <script src="http://cdn.shopify.com/s/files/1/0624/8885/files/jquery.1.10.2.min.js"></script>
+        <script src="http://cdn.shopify.com/s/files/1/0624/8885/files/rrssb.js"></script>
+  
+  <!-- Theme CSS
+  ///////////////////////////////////////// -->
+  <link href="//cdn.shopify.com/s/files/1/0624/8885/t/10/assets/style.scss.css?1346" rel="stylesheet" type="text/css"  media="all"  />
+
+  <!-- Third party JS Assets
+  ///////////////////////////////////////// -->
+  <script src="//cdn.shopify.com/s/files/1/0624/8885/t/10/assets/modernizr-2.6.2.min.js?1346" type="text/javascript"></script>
+  <script src="//cdn.shopify.com/s/files/1/0624/8885/t/10/assets/jquery-1.9.min.js?1346" type="text/javascript"></script>
+
+  <script src="//cdn.shopify.com/s/shopify/option_selection.js?295cac1b3674bb37dc0171128b267e0a3774c338" type="text/javascript"></script>
+
+  
+
+  <!-- Facebook Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Coral Bay" />
+<meta property="og:url" content="http://coralbay.co/" />
+<meta property="og:title" content="Coral Bay | Quality Crafted Jewelry" />
+
+  <meta property="og:description" content="We are a marketplace where people around the world connect to buy unique jewelry. Our mission is to re-imagine jewelry in ways that build a more beautiful you." />
+  
+    <meta property="og:image" content="http://cdn.shopify.com/s/files/1/0624/8885/t/10/assets/logo.png?1346" />
+    <meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/0624/8885/t/10/assets/logo.png?1346" />
+  
+
+
+<!-- Twitter Card -->
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Coral Bay" />
+  <meta name="twitter:url" content="http://coralbay.co/">
+  <meta name="twitter:description" content="We are a marketplace where people around the world connect to buy unique jewelry. Our mission is to re-imagine jewelry in ways that build a more beautiful you." />
+  
+    <meta name="twitter:image" content="//cdn.shopify.com/s/files/1/0624/8885/t/10/assets/logo.png?1346" />
+  
+
+
+  <!-- Store object
+  ///////////////////////////////////////// -->
+  <script type="text/javascript">
+    settings = {}
+    settings.logo                   = true;
+    settings.products               = new Array();
+    settings.currency               = 'USD';
+    settings.currencyFormat         = "$ {{amount}} USD";
+    settings.shippingCalculator     = 'false';
+    settings.productImageBorders    = true;
+    settings.slideshowPagination    = true;
+    settings.autoplaySlideshow      = false;
+    settings.autoplayDelay          = '';
+    settings.fullsizeProductViewer  = true;
+    settings.moneyFormat            = "$ {{amount}}";
+    settings.moneyFormatCurrency    = "$ {{amount}} USD";
+    settings.shippingCalculator     = false;
+    settings.userLoggedIn           = false;
+    settings.userAddress            = '';
+
+    
+
+    shopCurrency = settings.currency;
+  </script>
+
+  <script>
+//<![CDATA[
+      var Shopify = Shopify || {};
+      Shopify.shop = "shop-flawlessly.myshopify.com";
+      Shopify.theme = {"name":"Atlantic","id":10439951,"theme_store_id":566,"role":"main"};
+
+//]]>
+</script>
+
+
+<script id="__st">
+//<![CDATA[
+var __st={"a":6248885,"offset":-14400,"reqid":"8db9b970-d4e3-4667-ad62-02fc9908adad","u":"ffa6dd6799bb","p":"home"};
+//]]>
+</script>
+<script>
+//<![CDATA[
+    (function() {
+      function asyncLoad() {
+        var urls = ["//cdn.shopify.com/s/javascripts/shopify_stats.js?v=6"];
+        for (var i = 0; i < urls.length; i++) {
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = urls[i];
+          var x = document.getElementsByTagName('script')[0];
+          x.parentNode.insertBefore(s, x);
+        }
+      }
+      window.attachEvent ? window.attachEvent('onload', asyncLoad) : window.addEventListener('load', asyncLoad, false);
+    })();
+
+//]]>
+</script>
+
+<link rel="canonical" href="http://coralbay.co/" />
+</head>
+
+
+
+
+<body class="template-index disable-headers  ">
+
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=187795038002910";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <header class="main-header-wrap">
+ 
+      <div class="topbar"></div>
+
+  
+  <section class="main-header content-area">
+    
+    <!-- Action links
+    ============================================= -->
+    <div class="action-links clearfix">
+
+      
+      
+
+      <h1 class="store-title">
+        
+          <a href="/">
+            <img alt="Coral Bay logo" class='regular-logo' src="//cdn.shopify.com/s/files/1/0624/8885/t/10/assets/logo.png?1346" alt="We are a marketplace where people around the world connect to buy unique jewelry. Our mission is to re-imagine jewelry in ways that build a more beautiful you. ">
+            <img alt="Coral Bay logo" class='retina-logo' src="//cdn.shopify.com/s/files/1/0624/8885/t/10/assets/logo-retina.png?1346" alt="We are a marketplace where people around the world connect to buy unique jewelry. Our mission is to re-imagine jewelry in ways that build a more beautiful you. ">
+          </a>
+        
+      </h1>
+
+      <div class="tools">
+        
+
+        <a class="search" href="#"><span class="icon">s</span><label>Search</label></a>
+
+        <div class="mini-cart-wrap" href="#">
+          <span class="icon">c</span><label><span class="item-count">0</span> items</label>
+          <div class="mini-cart  empty-cart">
+            <div class="arrow"></div>
+            <div class="mini-cart-items-wrap">
+
+                <p class="no-items">Your cart is currently empty!</p>
+
+                
+            </div>
+            <div class="options clearfix">
+              <a class="action-button view-cart" href="/cart">View cart</a>
+              <a class="action-button checkout" href="/checkout">Checkout</a>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+
+    </div>
+
+    <div class="search-wrap full">
+      <form action="/search" method="get">
+        <input class="search-input" name="q" type="text" placeholder="Search" value="">
+        <span class="icon">s</span>
+      </form>
+    </div>
+
+
+    <!-- Compact navigation
+    ============================================= -->
+    <nav class="compact bordered dark ">
+      <ul>
+        <li class="nav-item dropdown first">
+          <span class="border"></span>
+          <div><span class="icon">n</span></div>
+        </li><li class="nav-item cart">
+          <a href="/cart">
+            <span class="icon">c</span>
+          </a>
+        </li><li class="nav-item last search">
+          <div><span class="icon">s</span></div>
+        </li><li class="search-outer-wrap">
+          <div class="search-wrap">
+            <form action="/search" method="get">
+              <input class="search-input" name="q" type="text" placeholder="Search" value="">
+              <span class="icon">s</span>
+            </form>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+
+    <!-- Full navigation
+    ============================================= -->
+    <nav class="full bordered dark">
+
+      <!-- Main nav
+      ++++++++++++++++++++++++++++ -->
+      <ul>
+
+        <li class="nav-item first     ">
+
+          
+
+          
+          
+
+          
+          
+
+            
+            <a class="label" href="/">
+            
+              Home
+            
+          </a>
+
+            
+        </li><li class="nav-item      ">
+
+          
+
+          
+          
+
+          
+          
+
+            
+            <a class="label" href="/collections/bracelets">
+            
+              Bracelets
+            
+          </a>
+
+            
+        </li><li class="nav-item      ">
+
+          
+
+          
+          
+
+          
+          
+
+            
+            <a class="label" href="/collections/rings">
+            
+              Rings
+            
+          </a>
+
+            
+        </li><li class="nav-item  last    ">
+
+          
+
+          
+          
+
+          
+          
+
+            
+            <a class="label" href="/collections/necklaces">
+            
+              Necklaces
+            
+          </a>
+
+            
+        </li>
+      </ul>
+      <!-- ++++++++++++++++++++++++++++ -->
+
+    </nav>
+  </section>
+
+  <!-- Mobile navigation
+  ============================================= -->
+  <section class="mobile-dropdown dark">
+    <ul class="list primary">
+      
+
+        
+
+        
+
+        
+        
+
+        
+        
+
+        <li class="list-item first  ">
+          <a href="/">
+          
+            Home
+          
+        </a>
+
+          
+
+          
+
+        </li>
+
+      
+
+        
+
+        
+
+        
+        
+
+        
+        
+
+        <li class="list-item   ">
+          <a href="/collections/bracelets">
+          
+            Bracelets
+          
+        </a>
+
+          
+
+          
+
+        </li>
+
+      
+
+        
+
+        
+
+        
+        
+
+        
+        
+
+        <li class="list-item   ">
+          <a href="/collections/rings">
+          
+            Rings
+          
+        </a>
+
+          
+
+          
+
+        </li>
+
+      
+
+        
+
+        
+
+        
+        
+
+        
+        
+
+        <li class="list-item  last ">
+          <a href="/collections/necklaces">
+          
+            Necklaces
+          
+        </a>
+
+          
+
+          
+
+        </li>
+
+      
+    </ul>
+  </section>
+
+  
+</header>
+
+
+  
+
+  
+    
+<section class="slideshow content-area clearfix">
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+      <div class="slide ">
+        <div class="image-wrap">
+          <span class="prev"><span class="icon">[</span></span>
+          <span class="next"><span class="icon">]</span></span>
+          <ul class="jump-to-slide"></ul>
+
+          
+            <img alt="" src="//cdn.shopify.com/s/files/1/0624/8885/t/10/assets/slide-image-1.jpg?1346">
+          
+        </div>
+
+        
+
+      </div>
+    
+
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+  
+</section>
+
+
+<div class="content-area">
+
+
+
+
+
+
+  
+  
+
+<!-- Featured collections
+============================================= -->
+<section class="featured-collections first">
+  <h1 class="section-title section-border">Featured collections</h1>
+  <div class="wrap">
+
+    
+
+      
+
+      
+
+      
+
+      <div class="collection-wrap first"><div class="collection" style="background-image:url(//cdn.shopify.com/s/files/1/0624/8885/collections/bracelets_large.jpg?v=1409437545);">
+        <a href="/collections/bracelets">
+
+        </a>
+      </div></div><div class="collection-wrap"><div class="collection" style="background-image:url(//cdn.shopify.com/s/files/1/0624/8885/collections/necklaces_large.jpg?v=1409437587);">
+        <a href="/collections/necklaces">
+
+        </a>
+      </div></div><div class="collection-wrap"><div class="collection" style="background-image:url(//cdn.shopify.com/s/files/1/0624/8885/collections/rings_large.jpg?v=1409437568);">
+        <a href="/collections/rings">
+
+        </a>
+      </div></div>
+
+    
+  </div>
+</section>
+
+
+
+
+  
+  
+
+  
+
+<!-- Featured products
+============================================= -->
+<section class="featured-products clearfix  multi-row">
+
+  <h1 class="section-title section-border">
+    
+      Featured products
+    
+  </h1>
+
+  
+
+    <ul class="product-list">
+    <li  class="product product-342800463 first  flush">
+
+  
+
+  <div class="product-inner">
+    <figure>
+      
+      
+      <div style="position:absolute;top: 8%;left: 2%;"><span class="saletag" style="margin-top: -9px;">Sale!</span></div>
+      
+      
+      <img alt="Anchor & Infinity Bracelet" src="//cdn.shopify.com/s/files/1/0624/8885/products/79235b1cd54eb90b679074d208f4913e_grande.jpeg?v=1409077869">
+
+      <a href="/products/anchor-infinity-fashion-bracelet" class="with-border"></a>
+
+      
+    </figure>
+    <h2 class="title"><a href="/products/anchor-infinity-fashion-bracelet">Anchor & Infinity Bracelet</a></h2>
+    
+      
+        <p class="price sale"><span class="money" style="font-size:26px;font-weight: bold;">$ 9.95</span><br><span class="original money">Was $ 13.95</span></p>
+      
+    
+
+    
+  </div>
+</li><li  class="product product-348520411   ">
+
+  
+
+  <div class="product-inner">
+    <figure>
+      
+      
+      
+      <img alt="Anchor Necklace" src="//cdn.shopify.com/s/files/1/0624/8885/products/f1f2d3fca1b48fb279bcefccdfcd9505_grande.jpeg?v=1409422832">
+
+      <a href="/products/marine-anchor-necklace" class="with-border"></a>
+
+      
+    </figure>
+    <h2 class="title"><a href="/products/marine-anchor-necklace">Anchor Necklace</a></h2>
+    
+      
+        <p class="price"><span class="money" style="font-size:26px;font-weight: bold;">$ 9.95</span></p>
+      
+    
+
+    
+  </div>
+</li><li  class="product product-346807603   ">
+
+  
+
+  <div class="product-inner">
+    <figure>
+      
+      
+      
+      <img alt="Anchor Ring" src="//cdn.shopify.com/s/files/1/0624/8885/products/bb676e9dccdeb9e6bf2c344d6c36187b_grande.jpeg?v=1409163504">
+
+      <a href="/products/anchor-ring" class="with-border"></a>
+
+      
+    </figure>
+    <h2 class="title"><a href="/products/anchor-ring">Anchor Ring</a></h2>
+    
+      
+        <p class="price"><span class="money" style="font-size:26px;font-weight: bold;">$ 9.95</span></p>
+      
+    
+
+    
+  </div>
+</li><li  class="product product-348521083   ">
+
+  
+
+  <div class="product-inner">
+    <figure>
+      
+      
+      <div style="position:absolute;top: 8%;left: 2%;"><span class="saletag" style="margin-top: -9px;">Sale!</span></div>
+      
+      
+      <img alt="Blue Stone Pendant Necklace" src="//cdn.shopify.com/s/files/1/0624/8885/products/whatever_grande.jpg?v=1409439759">
+
+      <a href="/products/blue-stone-pendant-necklace" class="with-border"></a>
+
+      
+    </figure>
+    <h2 class="title"><a href="/products/blue-stone-pendant-necklace">Blue Stone Pendant Necklace</a></h2>
+    
+      
+        <p class="price sale"><span class="money" style="font-size:26px;font-weight: bold;">$ 9.95</span><br><span class="original money">Was $ 14.00</span></p>
+      
+    
+
+    
+  </div>
+</li><li  class="product product-367009515   flush">
+
+  
+
+  <div class="product-inner">
+    <figure>
+      
+      
+      
+      <img alt="Breast Cancer Awareness Bracelet" src="//cdn.shopify.com/s/files/1/0624/8885/products/1-8_grande.JPG?v=1411625814">
+
+      <a href="/products/breast-cancer-awareness-bracelet-1" class="with-border"></a>
+
+      
+    </figure>
+    <h2 class="title"><a href="/products/breast-cancer-awareness-bracelet-1">Breast Cancer Awareness Bracelet</a></h2>
+    
+      
+        <p class="price"><span class="money" style="font-size:26px;font-weight: bold;">$ 9.99</span></p>
+      
+    
+
+    
+  </div>
+</li><li  class="product product-365420099   ">
+
+  
+
+  <div class="product-inner">
+    <figure>
+      
+      
+      <div style="position:absolute;top: 8%;left: 2%;"><span class="saletag" style="margin-top: -9px;">Sale!</span></div>
+      
+      
+      <img alt="Gold Anchor Slave Bracelet" src="//cdn.shopify.com/s/files/1/0624/8885/products/cc0d21a1daa0b0b459579e601e279508_grande.jpeg?v=1411464668">
+
+      <a href="/products/gold-anchor-slave-bracelet" class="with-border"></a>
+
+      
+    </figure>
+    <h2 class="title"><a href="/products/gold-anchor-slave-bracelet">Gold Anchor Slave Bracelet</a></h2>
+    
+      
+        <p class="price sale"><span class="money" style="font-size:26px;font-weight: bold;">$ 9.95</span><br><span class="original money">Was $ 13.95</span></p>
+      
+    
+
+    
+  </div>
+</li><li  class="product product-342800615   ">
+
+  
+
+  <div class="product-inner">
+    <figure>
+      
+      
+      <div style="position:absolute;top: 8%;left: 2%;"><span class="saletag" style="margin-top: -9px;">Sale!</span></div>
+      
+      
+      <img alt="Hamsa Hand Bracelet" src="//cdn.shopify.com/s/files/1/0624/8885/products/bda1c31802f3b5257bbb3b625c26b63a_grande.jpeg?v=1409077932">
+
+      <a href="/products/hamsa-hand-bracelet" class="with-border"></a>
+
+      
+    </figure>
+    <h2 class="title"><a href="/products/hamsa-hand-bracelet">Hamsa Hand Bracelet</a></h2>
+    
+      
+        <p class="price sale"><span class="money" style="font-size:26px;font-weight: bold;">$ 9.95</span><br><span class="original money">Was $ 13.00</span></p>
+      
+    
+
+    
+  </div>
+</li><li  class="product product-367938611  last ">
+
+  
+
+  <div class="product-inner">
+    <figure>
+      
+      
+      <div style="position:absolute;top: 8%;left: 2%;"><span class="saletag" style="margin-top: -9px;">Sale!</span></div>
+      
+      
+      <img alt="Hand-Knit Hat" src="//cdn.shopify.com/s/files/1/0624/8885/products/c28ae64e1b49b96b13b26067ebc973d8_grande.png?v=1411712474">
+
+      <a href="/products/hand-knit-hat" class="with-border"></a>
+
+      
+    </figure>
+    <h2 class="title"><a href="/products/hand-knit-hat">Hand-Knit Hat</a></h2>
+    
+      
+        <p class="price sale"><span class="money" style="font-size:26px;font-weight: bold;">$ 35.99</span><br><span class="original money">Was $ 42.00</span></p>
+      
+    
+
+    
+  </div>
+</li>
+    </ul>
+
+  
+
+</section>
+
+
+
+
+
+</div>
+
+  
+
+  <!-- Footer
+============================================= -->
+
+
+
+
+
+
+<footer class="main-footer content-area" id="main-footer">
+
+  <!-- Connect with us
+  ++++++++++++++++++++++++++++ -->
+  <ul class="connect clearfix module-count-3">
+    <li class="contact first">
+      <h2 class="title">Get in touch</h2>
+      <p class="phone"></p>
+      <p class="email"><a href="mailto:dressingcute@gmail.com">dressingcute@gmail.com</a></p>
+    </li><li class="social">
+      <h2 class="title">Follow us out there</h2>
+      <ul>
+        <li class="social-link twitter"><a href="https://twitter.com/coralbayco" target="_blank">t</a></li>
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </li><li class="newsletter">
+      <h2 class="title">Payment</h2>
+      <ul class="payment-options light">
+      <li class="visa"></li>
+      <li class="mastercard"></li>
+      <li class="discover"></li>
+      <li class="american-express"></li>
+      <li class="paypal"></li>
+    </ul>
+    </li>
+  </ul>
+
+  <!-- Sub-footer
+  ++++++++++++++++++++++++++++ -->
+  <div class="sub-footer">
+    
+    <nav class="footer-nav">
+      <ul>
+        
+          <li><a href="/pages/about-us">About Us</a></li>
+        
+          <li><a href="https://checkout.shopify.com/6248885/policies/1785335">Returns</a></li>
+        
+          <li><a href="https://checkout.shopify.com/6248885/policies/1785339">Privacy Policy</a></li>
+        
+          <li><a href="https://checkout.shopify.com/6248885/policies/1785343">TOS</a></li>
+        
+      </ul>
+    </nav>
+    
+  </div>
+
+</footer>
+
+
+  
+  <section class="quick-shop">
+
+    <div class="quick-shop-modal">
+      <!-- Content dynamically added -->
+    </div>
+
+  </section>
+  
+
+  
+
+  
+
+  <script src="//cdn.shopify.com/s/files/1/0624/8885/t/10/assets/plugins.js?1346" type="text/javascript"></script>
+  <script src="//cdn.shopify.com/s/files/1/0624/8885/t/10/assets/site.js?1346" type="text/javascript"></script>
+
+  <script>
+  var selectCallbackQuickShop = function(variant, selector) {
+
+    
+      var submitText = 'Add to cart';
+    
+
+    var id = selector.domIdPrefix.split('-')[2];
+
+    if (id) {
+      context = $('#quick-shop-' + id)
+    } else {
+      context = $('#product-area, .mobile-product-title')
+    }
+
+    if (variant && variant.available == true) {
+
+      if (id) {
+        context.find('.submit').text(submitText)
+      } else {
+        context.find('.submit').attr('value', submitText)
+      }
+
+      if ( variant.compare_at_price > 0 && variant.compare_at_price > variant.price ) {
+        context.find('.price').html('<span class="original money" data-currency-' + settings.currency + '="' + Shopify.formatMoney(variant.compare_at_price, settings.moneyFormat) + '">' + Shopify.formatMoney(variant.compare_at_price, settings.moneyFormat) + '</span><span class="money" data-currency-' + settings.currency + '="' + Shopify.formatMoney(variant.price, settings.moneyFormat) + '">' + Shopify.formatMoney(variant.price, settings.moneyFormat) + '</span>');  // update price field
+      } else {
+        context.find('.price').html('<span class="money" data-currency-' + settings.currency + '="' + Shopify.formatMoney(variant.price, settings.moneyFormat) + '">' + Shopify.formatMoney(variant.price, settings.moneyFormat) + '</span>');  // update price field
+      }
+
+      if (id) {
+        context.find('.submit').removeClass('disabled').text(submitText); // remove unavailable class from add-to-cart button, and re-enable button
+      } else {
+        context.find('.submit').removeClass('disabled').attr('value', submitText); // remove unavailable class from add-to-cart button, and re-enable button
+      }
+
+    } else {
+      var message = variant ? "Sold Out" : "Unavailable";
+      if (id) {
+        context.find('.submit').addClass('disabled').text(message)
+      } else {
+        context.find('.submit').addClass('disabled').attr('value', message)
+      }
+
+      context.find('.price').text(message);
+    }
+
+    if (variant && variant.featured_image) {
+      var newImage = variant.featured_image;
+      var smallImage = Shopify.Image.getSizedImageUrl(newImage.src, 'small');
+
+      
+        $('.quick-shop-content .thumb img[src*="'+smallImage+'"]').click();
+      
+    }
+
+    if (settings.currencySwitcher) {
+      $(document.body).trigger('switch-currency');
+    }
+  };
+  </script>
+  
+</body>
+</html>

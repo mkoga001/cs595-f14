@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>EyeCon Vampire Diaries - Home</title>
+<link rel="shortcut icon" href="http://www.eyeconfla.com/eyecon/images/EyeSmall.ico">
+<link href="http://www.eyeconfla.com/vampirediaries/layout.css" rel="stylesheet" type="text/css" />
+<link href="http://www.eyeconfla.com/vampirediaries/style.css" rel="stylesheet" type="text/css" />
+
+<script>
+  var slide_pause_in_seconds = 6;
+  var slide_speed_in_seconds = .75;
+  var slideshow = [
+  [
+      "Michael T Returns!!!", 
+	  "Michael Trevino, who plays Tyler Lockwood is returning to EyeCon! He was one of our very first guests at EyeCon TVD 1 back in 2011! He will participate in a Q&A Session, autograph and photo op sessions, a Meet and Greet Party, the Banquet, the Saturday Party and the Private Autograph Session!", 
+      "http://www.eyeconfla.com/vampirediaries/images/48.png",
+      "http://www.eyeconfla.com/vampirediaries/guests.html"
+    ],
+  [
+      "Zach is Back!", 
+	  "Zach Roerig who plays the awesome Matt Donovan has confirmed his appearance at EyeCon! We love Zach and couldn't be happier that he will be returning! He will participate in a Q&A Session, autograph and photo op sessions, a Meet and Greet Party, the Banquet and the Private Autograph Session!", 
+      "http://www.eyeconfla.com/vampirediaries/images/23.png",
+      "http://www.eyeconfla.com/vampirediaries/guests.html"
+    ],
+  [
+      "Matthew Davis Confirmed!", 
+	  "Matthew Davis who plays Alaric, has been confirmed to appear for the EyeCon TVD weekend! He will participate in a Q&A Session,autograph and photo op sessions, the Banquet, the Saturday Night Party and the Private Meet and Greet! This will be his first ever EyeCon appearance!", 
+      "http://www.eyeconfla.com/vampirediaries/images/47.png",
+      "http://www.eyeconfla.com/vampirediaries/guests.html"
+    ],
+  [
+      "Kendrick Sampson Confirmed!", 
+	  "Kendrick Sampson who plays the Vampire/Ghost Jesse, has confirmed to appear for his first ever EyeCon! He will participate in a Q&A Session,autograph and photo op sessions, the Friday Party, the Banquet, the Saturday Night Party and the Private Meet and Greet! Help us welcome him", 
+      "http://www.eyeconfla.com/vampirediaries/images/46.png",
+      "http://www.eyeconfla.com/vampirediaries/guests.html"
+    ],
+	[
+      "Claire Holt Confirmed!", 
+	  "For those of you who have held your breath to meet Claire Holt, the Original Vampire Rebekah, your dreams have come true! We are happy to announce that Claire will be attending her first ever EyeCon and we couldn't be happier!", 
+      "http://www.eyeconfla.com/vampirediaries/images/claire.png",
+      "http://www.eyeconfla.com/vampirediaries/guests.html"
+    ],
+
+  [
+      "Chase Coleman Confirmed!", 
+	  "We are happy to announce that Chase Coleman, who plays the Crescent Werewolf Oliver, has confirmed to appear for his first ever EyeCon! He will participate in a Q&A Session,autograph and photo op sessions, the Friday Party, the Banquet, the Saturday Night Party and the Private Meet and Greet!", 
+      "http://www.eyeconfla.com/vampirediaries/images/45.png",
+      "http://www.eyeconfla.com/vampirediaries/guests.html"
+    ],
+  [
+      "Michael Malarkey Confirmed!", 
+	  "We are happy to announce that Michael Malarkey has confirmed to appear for his first ever EyeCon! He will participate in a Q&A Session,autograph and photo op sessions, the Banquet, the Saturday Night Party and the Private Meet and Greet!", 
+      "http://www.eyeconfla.com/vampirediaries/images/44.png",
+      "http://www.eyeconfla.com/vampirediaries/guests.html"
+    ],
+				 
+				 [
+      "Joshua Butler Live Commentary!", 
+	  "We are proud to welcome Josh back to do a LIVE Director's commentary on TVD episode 5X20, What Lies Beneath, which he directed! We will project the episode onto a big screen and Josh will give his insights into the creation of the episode! He will also take questions after the commentary!", 
+      "http://www.eyeconfla.com/vampirediaries/images/37.png",
+      "http://www.eyeconfla.com/vampirediaries/guests.html"
+    ],
+				 
+				 [
+      "Paul Telfer Confirmed!", 
+	  "Paul Telfer, who played Alexander, one of The Five, a Vampire Hunter, has been confirmed to appear! He will be participating in all weekend activities. Help us welcome Paul to his second EyeCon!", 
+      "http://www.eyeconfla.com/vampirediaries/images/42.png",
+      "http://www.eyeconfla.com/vampirediaries/guests.html"
+    ],
+				   [
+      "October Convention Dates Set!", 
+	  "We are excited to announce our Seventh convention committed to the fans of the amazing and popular CW shows, The Vampire Diaries and The Originals! As all past attendees know, the conventions only get better and we intend to uphold that tradition again with new exciting parties, games and all the celebrity interaction you have come to know and love from EyeCon TVD! Expect guest announcements soon!", 
+      "http://www.eyeconfla.com/vampirediaries/images/13.png",
+      "http://www.eyeconfla.com/vampirediaries/guests.html"
+    ],
+				   
+				   
+			
+  ];
+</script>
+<style>
+  
+  div{
+    font-family: Arial;
+    font-size: 13px;
+  }
+  
+  #changable_area{
+    position: relative;
+    border: 1px solid red;
+    overflow: hidden;
+    background-color: #000;
+  }
+  
+  .slide{
+    height: 241px;
+    width: 241px;
+  }
+  
+  .dan_container{
+    float: left;
+  }
+  
+  #slide_container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 502px;
+  }
+  
+  .title{
+    font-weight: bold;
+    width: 231px;
+    height: 14px;
+    overflow: hidden;
+    padding: 5px;
+    font-size: 110%;
+  }
+  
+  .title a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .title a:hover{
+    color: red;
+  }
+  
+  .dan_content{
+    width: 221px;
+    height: 192px;
+    overflow: auto;
+    padding: 10px;
+    padding-bottom: 25px;
+    color: #fff;
+  }
+  
+  .dan_content a img{
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 12px 8px 0;
+  }
+  
+  .clear{
+    clear:both;
+  }
+  
+  #paused{
+    position: absolute;
+    display: none;
+    bottom: 0px;
+    left: 0px;
+    background-color: red;
+    opacity: .8;
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 14px;
+    padding: 5px;
+  }
+  
+</style>
+
+<style type="text/css">
+<!--
+.ClassPurple {
+	color: #F00;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.white {
+	color: #FFF;
+	font-size: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.countdown {
+	color: #F00;
+	font-size: medium;
+	text-align: center;
+}
+.redsmall {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.redsmall2 {
+	font-weight: bold;
+}
+-->
+</style>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-3085531-6");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</head>
+<body id="page_5">
+<div class="main">
+<!--==========header=========== -->
+<div id="header">
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+           codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,24"
+           width="780" height="348">
+    <param name="movie" value="http://www.eyeconfla.com/vampirediaries/flash/vampirediariesV5.swf" />
+    <param name="quality" value="high" />
+    <param name="menu" value="false" />
+    <!--[if !IE]> <-->
+    <object data="http://www.eyeconfla.com/vampirediaries/flash/vampirediariesV5.swf"
+            width="780" height="348" type="application/x-shockwave-flash">
+      <param name="quality" value="high" />
+      <param name="menu" value="false" />
+      <param name="pluginurl" value="http://www.macromedia.com/go/getflashplayer" />
+      EyeCon: The Vampire Diaries / The Originals
+    </object>
+    <!--> <![endif]-->
+  </object>
+</div>
+<!--========//header=========== -->
+<!-- -->
+<!--==========content=========== -->
+<div id="content">
+	<div class="min_height"></div>
+    <div class="content">
+        <div class="main_indent">
+            <div class="col_1">
+              <span style="text-align: left"><br style="line-height:0px; color: #609; font-weight: bold; font-size: medium;">
+              <strong class="ClassPurple"><span class="countdown">COUNTDOWN TO EYECON: TVD 7<br />
+              <script src="http://www.eyeconfla.com/vampirediaries/countdown/countdown.js"></script>
+<script>
+deadline("2014-10-31-12-0-0");
+</script></span></strong></span><br />	
+              
+</textarea><br />
+
+							
+<strong class="ClassPurple">EYECON:  THE VAMPIRE DIARIES 7 / ORIGINALS CELEBRITY CONVENTION</strong></span><br />
+              <span class="white">In 2011, EyeCon organized and hosted the first ever North American convention based on The Vampire Diaries. We are beyond excited to announce our seventh fan convention based on the amazing, ultra popular series! As our popularity has grown, so has our convention attendance which has allowed us to bring you the biggest and best TVD experience imaginable. We will be celebrating both The Vampire Diaries and it's extremely popular spin-off, The Originals. To all of our friends and family who we love to see, get ready for the best one yet...<br />
+              <br /> 
+              <strong class="ClassPurple">EyeCon Celebrity Interaction</strong><br />
+              EyeCon isn't your average, impersonal convention. EyeCon is well known for bringing our attendees the absolute most "personal" time with the stars. While other conventions actually dictate to their celebrity guests that they are not "allowed" to walk around and mingle, we are just the opposite. We know that the fans are here to meet them and get to know them, the celebrities want to meet the fans as well, so we actually encourage them to mingle and get to know their fans on a more personal level, which is simply better for everyone.  </span><span class="white">At other conventions, you basically just get to see the stars on stage... not at EyeCon. Many of our celebrity guests not only attend our parties, but participate by wearing costumes, talking and getting to know the attendees in informal settings! </span></p>
+              <p><span class="white"><br /> 
+              <strong class="ClassPurple">Full 3-Day Weekend of Activities</strong><br />
+              We not only introduce you to your favorite celebrity guests, we completely immerse you into the Vampire Diaries world. While other conventions are a short two days, we are a FULL three day convention with games and activities starting early on Friday and lasting til late on Sunday. The weekend will feature games, panels, Celebrity Q&As and Photo Op Sessions, Celebrity Autograph Sessions, two TVD/Originals themed Celebrity Parties, and a Private Meet and Greet Autograph Signing for even more &quot;personal&quot; time with the Stars! In the past, the celebrity guests in attendance at our parties stayed late and partied with the fans, judged our costume contests, and had a blast - they just didn't want to leave! <br />
+              <br />
+              If you are a fan of The Vampire Diaries and/or The Originals, we welcome you enthusiastically and promise a weekend you will never forget.</span><span class="white"> We are a group of family and friends and we have worked diligently to make your weekend the most fun, the most personal, and bring you the most celebrity interaction of any convention. To all of our friends and family who we love to see, and all of our new attendees, thank you for choosing EyeCon for your fan experience!<br />
+              </span><br />
+              
+              <span class="redsmall2"><br />
+<strong class="ClassPurple">WHY IS ATLANTA THE BEST CHOICE FOR THE EVENT LOCATION?</strong></span><br />
+              <span class="white">Atlanta is without a doubt the best location to hold an event based on The Vampire Diaries. The main reason is that the show itself is filmed in Covington which is only 30 minutes from Atlanta. Covington IS "Mystic Falls" as almost all location shooting is done right outdoors! It's not uncommon for fans to be able to watch filming take place and catch a glimpse or even a photo with the stars once they've wrapped filming for the day! Fans can visit all of the locations used on the show like the Lockwood Mansion, Mystic Grill, the Gilbert House and many, many more! A second reason is that, since all of the stars live in Atlanta during filming season, it is not uncommon for them to make unexpected visits to the convention! At our first March show, both Candice Accola and Matthew Davis unexpectedly showed up for our Saturday Night concert, surprising fans! To be fully immersed in the world of The Vampire Diaries, Atlanta is virtually the only city that can bring the magic of Mystic Falls alive.</span><br />
+              <br />
+<strong class="ClassPurple">LIFESOUTH BLOOD DRIVE'S EPIC VIDEO SHOT AT EYECON MARCH</strong><br />
+<center><object width="409" height="245"><param name="movie" value="http://www.youtube.com/v/d9w5TL7f1FY&rel=0&color1=0x5d1719&color2=0xcd311b&hl=en&feature=player_embedded&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/d9w5TL7f1FY&rel=0&color1=0x5d1719&color2=0xcd311b&hl=en&feature=player_embedded&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="409" height="245"></embed></object></center>
+              
+              
+
+              <br />
+<strong class="ClassPurple">THE REASON WE LOVE IAN SO MUCH (AMONG MANY OTHERS) EYECON MARCH</strong><br />
+<center><object width="409" height="245"><param name="movie" value="http://www.youtube.com/v/kE1GOr9Dd0s&rel=0&color1=0x5d1719&color2=0xcd311b&hl=en&feature=player_embedded&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/kE1GOr9Dd0s&rel=0&color1=0x5d1719&color2=0xcd311b&hl=en&feature=player_embedded&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="409" height="245"></embed></object></center>
+              
+              
+<br />
+<strong class="ClassPurple">NATHANIEL BUZOLIC DOES THE HARLEM SHAKE AT EYECON MARCH</strong><br />
+<iframe src="http://player.vimeo.com/video/62260048" width="409" height="245" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <br />
+              <br />
+
+<div class="m_line"><div class="clear"></div></div>
+<div style="margin-top:1px; margin-left:1px;"> 
+                    <br style="line-height:6px;">
+                    <div style="margin-left:12px;">
+                      <script language="Javascript" type="text/javascript"> 
+var fieldstocheck = new Array(); 
+fieldnames = new Array(); 
+function checkform() { 
+for (i=0;i<fieldstocheck.length;i++) { 
+if (eval("document.subscribeform.elements['"+fieldstocheck[i]+"'].value") == "") { 
+alert("Please enter your "+fieldnames[i]); 
+eval("document.subscribeform.elements['"+fieldstocheck[i]+"'].focus()"); 
+return false; 
+} 
+} 
+return true; 
+} 
+function addFieldToCheck(value,name) { 
+fieldstocheck[fieldstocheck.length] = value; 
+fieldnames[fieldnames.length] = name; 
+} 
+</script> 
+                      
+                        
+                        
+                    </div>
+              </div>
+                  
+                   <span class="ClassPurple" style="font-size:10px;"><strong><img src="http://www.eyeconfla.com/vampirediaries/images/mailing.png"><br>Enter your email address to receive the latest news.</strong></span><br>
+                        <br style="line-height:5px;">
+                        <!-- BEGIN: Constant Contact Stylish Email Newsletter Form -->
+<div align="left">
+<div style="width:175px; background-color: #ffffff;">
+<form name="ccoptin" action="http://visitor.constantcontact.com/d.jsp" target="_blank" method="post" style="margin-bottom:3;">
+<font style="font-weight: bold; font-family:Arial; font-size:16px; color:#006699;"></font>
+<input type="text" name="ea" size="20" value="" style="font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:10px; border:1px solid #999999;">
+<input type="submit" name="go" value="SUBMIT" class="submit"  style="font-family:Verdana,Arial,Helvetica,sans-serif; font-size:10px;">
+<input type="hidden" name="m" value="1102776244614">
+<input type="hidden" name="p" value="oi">
+</form>
+</div>
+</div>
+<!-- END: Constant Contact Stylish Email Newsletter Form -->                        
+                        
+                      </form>
+                  <div class="m_line"><div class="clear"></div></div><br><br>
+                   <a href="http://www.facebook.com/profile.php?id=100000365255040&ref=ts" target="_blank"><img src="http://www.eyeconfla.com/vampirediaries/images/fbimages.jpg"></a> <a href="http://twitter.com/EyeCon3000" target="_blank"><img src="http://www.eyeconfla.com/vampirediaries/images/twitterblack.jpg"></a><br><br>
+                   
+  
+<div class="m_line"><div class="clear"></div></div><br>
+
+                <div class="in15"></div>
+                <a href="http://www.eyeconfla.com" target="_blank"><img src="http://www.eyeconfla.com/vampirediaries/images/small-foto-eyecon.jpg" alt="" border="0" class="pic" /></a>
+<span class="ClassPurple"><strong>EYECON CELEBRITY CONVENTIONS</strong></span><br />
+                    <span class="white">Founded in 2006, EyeCon is known worldwide as the convention with the most celebrity interaction in the most intimate settings. Since it's beginnings, it has grown in size and popularity, providing fans with unparallelled entertainment. EyeCon has hosted events featuring Supernatural, Twilight, True Blood, The Bionic Woman  and most recently The Vampire Diaries!</span><br /><br />
+    <div class="m_line"><div class="clear"></div></div><br>
+                
+                
+                <strong class="ClassPurple">TESTIMONIALS FROM A FEW OF OUR AMAZING ATTENDEES</strong></span><br /><br />
+                    <a href="http://www.eyeconfla.com" target="_blank"><img src="http://www.eyeconfla.com/vampirediaries/images/small-foto-ella.jpg" alt="" border="0" class="pic" /></a><span class="white">"I've been to every EyeCon Tvd convention. I always have had a great time. Going to the conventions is like a family reunion. I love how personal Kenny and Autumn are along with their staff. They take time to get  to know their attendees by name and develop friendships with them. I've been to other cons even other TVD con's and Eyecon Tvd is by far my favorite." <br />- Ella Worley<br />
+                    <br />
+                    
+                    <a href="http://www.eyeconfla.com" target="_blank"><img src="http://www.eyeconfla.com/vampirediaries/images/small-foto-kristi.jpg" alt="" border="0" class="pic" /></a>"Thank you Kenny, Joshua, Jamie, and all the amazing staff once again for another fabulous convention! I've attended all of them and they keep getting better and better! It's not only a chance to see the incredible cast from my fave show, but also have a girls weekend w/ all my friends. I can't wait for the next one! Thanks again for all the hard work that was put into this to make it so awesome! You guys rock!" <br />- Kristi Brown<br />
+<br />
+                    
+                    <a href="http://www.eyeconfla.com" target="_blank"><img src="http://www.eyeconfla.com/vampirediaries/images/small-foto-kateland.jpg" alt="" border="0" class="pic" /></a>"My experience at Eyecon last year... It turned out to be one of the best weekends I've had in...well, my entire life.
+What people don't get is that, going to Eyecon isn't just about getting to see the actors and actresses that we love and respect so much (although that is definitely a major factor). Going to Eyecon isn't even about meeting all the with the friends we've bonded with over the internet in person (though that, too, is a huge deal). But Eyecon isn't about any of that. Eyecon is about coming together, ALL of us, as fans, actors, convention volunteers and workers, vendors who already live in the area, all of us just coming together for a couple of days to really CELEBRATE this wonderful show that has worked its way into our lives and hearts. What I think sets Eyecon apart form other conventions is its intimacy; since it's usually in Atlanta, you get to be close to where all of the action really happens, so many are able to tour the TVD set and do those types of things as well while in the area. Overall it was a very humbling experience and, while my time there did seem to fly by, it was truly worth it. Let's not forget our wonderful HOSTS such as Kenny yourself and all those involved to make the convention what it is. None of it would be possible without your hospitality." <br />- Kateland May<br /><br /></span>
+
+              
+<div class="m_line"><div class="clear"></div></div>
+                <br><img src="http://www.eyeconfla.com/vampirediaries/images/sponsors.png" alt="" border="0" class="pic" />
+                <a href="http://www.eyeconfla.com/vampirediaries/eyeconvampirediariessponsorship.rtf" target="_blank" class="ClassPurple"><strong>Click here to see EyeCon Sponsorship and Advertising Opportunities</strong></a><br /><br /><br>
+                
+                <a href="http://www.positivewomen.org/" target="_blank"><img src="http://www.eyeconfla.com/vampirediaries/images/positivewomensmall.jpg" alt="" border="0" class="pic" /></a>
+<span class="ClassPurple"><strong>Positive Women Foundation</strong></span><br />
+                    <span class="white">Positive Women is an innovative, forward thinking charity set up to empower women and children across Africa, starting with Swaziland. Our work focuses on supporting communities to change their own lives and circumstances, to alleviate poverty and make significant social change. We work through local implementing partners and with grassroots community support groups within these communities, so we can ensure that the changes we make are needed and effective. Click for more info!</span><br>
+                    <div class="clear"></div><br><br>
+                    <a href="http://www.isfoundation.com/" target="_blank"><img src="http://www.eyeconfla.com/vampirediaries/images/isf.jpg" alt="" border="0" class="pic" /></a>
+<span class="ClassPurple"><strong>The Ian Somerhalder Foundation</strong></span><br />
+                    <span class="white">The IS FOUNDATION aims to empower, educate and collaborate with people and projects to positively impact the planet and its creatures. They are a team, a group of people who view the environment as an interconnected organism, of which we are not separate, but a part of. There is no differentiation between all living things: trees, rivers, animals and humans. We are all one interdependent organism. To see how you can help, visit their site by clicking the pic to the left.</span><br>
+                    <div class="clear"></div><br><br>
+                
+                   
+                    <a href="http://www.builtofbarnwood.com/" target="_blank"><img src="http://www.eyeconfla.com/vampirediaries/images/boblogo.jpg" alt="" border="0" class="pic" /></a>
+<span class="ClassPurple"><strong>Built of Barnwood</strong></span><br />
+                    <span class="white">BOB is a collaborative effort between two multi talented brothers who are focusing on reclaiming, recycling and re-purposing vintage wood and building materials. Once reclaimed they are turned into usable artwork, home furnishing and design accent pieces. Together Bob and Ian Somerhalder strive for a greener more sustainable economy. Visit the site for more info!
+</span><br>
+<div class="clear"></div><br><br>
+
+                
+              <a href="http://www.thevro.com/" target="_blank"><img src="http://www.eyeconfla.com/vampirediaries/images/vrologo.jpg" alt="" border="0" class="pic" /></a>
+<span class="ClassPurple"><strong>Variety Radio Online</strong></span><br />
+<span class="white">Variety Radio Online. (The V.R.O.) is dedicated to delivering the latest entertainment news & interviews from the world of television, music, film and books.
+Stop by and listen to any of our interviews with the cast of The Vampire Diaries, True Blood or Twilight just to name a few. We can be heard nationally on Blog Talk Radio any day of the week or found at http://www.thevro.com/ </span><br>
+                   
+                    <div class="clear"></div><br><br>
+                    <a href="http://www.lifesouth.org" target="_blank"><img src="http://www.eyeconfla.com/vampirediaries/images/blooddrive.jpg" alt="" border="0" class="pic" /></a>
+<span class="ClassPurple"><strong>LifeSouth Blood Drive</strong></span><br />
+                    <span class="white">LifeSouth Community Blood Centers will be at EyeCon hosting a blood drive! New blood is desperately needed so please donate if possible! We promise the blood won't be fed to Vampires!</span><br>
+              
+                    <div class="clear"></div><br><br>
+              
+<br>
+                    <div class="clear"></div>
+            </div>
+            <div class="mid"><img src="images/spacer.gif" width="1" height="1" alt="" /></div>
+
+						
+
+
+            <div class="col_2"><div id="changable_area" class="slide">
+
+				      <div id="slide_container" class="slide">
+
+				        <div id="slide_container1" class="dan_container">
+				          <div class="title"></div>
+				          <div class="dan_content"></div>
+				        </div>
+
+				        <div id="slide_container2" class="dan_container">
+				          <div class="title"></div>
+				          <div class="dan_content"></div>
+				        </div>
+
+				      </div>
+
+				      <div id="paused">Paused</div>
+
+				    </div>
+				    <br class="clear"/>
+
+				    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
+				    <script>
+				      var app = {
+
+				        vars: {
+				          container:            false,
+				          current_container:    2,
+				          previous_container:   1,
+				          current_slide:        0,
+				          slideshow_timer:      false
+				        },
+
+				        slide: function(){
+				          $("#slide_container").animate({
+				            "left": "-=" + $("#changable_area").css("width")
+				          }, 
+				          (slide_speed_in_seconds * 1000), 
+				          "swing",
+				          function(){
+				            app.prepare_next_slide();
+				          });
+				        },
+
+				        prepare_next_slide: function(){
+				          app.move_container();
+				          app.update_current_slide();
+				          app.update_current_container();
+				          app.populate_container();
+				        },
+
+				        move_container: function(){
+				          app.vars.container = $("#slide_container" + app.vars.previous_container).detach();
+				          $("#slide_container").css("left", "0px");
+				          app.vars.container.appendTo("#slide_container");
+				        },
+
+				        update_current_slide: function(){
+				          app.vars.current_slide++;
+				          if(app.vars.current_slide == slideshow.length){
+				            app.vars.current_slide = 0;
+				          }
+				        },
+
+				        update_current_container: function(){
+				          if(app.vars.current_container == 2){
+				            app.vars.current_container = 1;
+				            app.vars.previous_container = 2;
+				          }else{
+				            app.vars.current_container = 2;
+				            app.vars.previous_container = 1;
+				          }
+				        },
+
+				        populate_container: function(){
+				          var slide = slideshow[app.vars.current_slide];
+				          app.set_content(slide[0], slide[1], slide[2], slide[3]);
+				        },
+
+				        set_content: function(title, description, image, link){
+				          var container = "#slide_container" + app.vars.current_container;
+				          $(container + " > .title").html("<a href='" + link + "'>" + title + "</a>");
+				          $(container + " > .dan_content").html("<a href='" + link + "'><img align='left' src='" + image + "' border='0'></a>" + description);
+				        },
+
+				        init: function(){
+				          app.populate_container();
+				          app.slide();
+				          app.vars.slideshow_timer = setInterval("app.slide()", slide_pause_in_seconds * 1000);
+				        }
+
+				      } 
+
+				      $(document).ready(function(){
+
+				        $("#changable_area").mouseover(function(){
+				          $("#paused").show()
+				          clearInterval(app.vars.slideshow_timer);
+				        });
+
+				        $("#changable_area").mouseout(function(){
+				          $("#paused").hide()
+				          app.vars.slideshow_timer = setInterval("app.slide()", slide_pause_in_seconds * 1000);
+				        });
+
+				        app.init();
+
+				      });
+
+				    </script>
+				    <br /><a href="http://www.eyeconfla.com/vampirediaries/tickets.html"><img src="http://www.eyeconfla.com/vampirediaries/images/purchase.jpg" alt="" border="0" align="center" style="margin-top:3px;"></a><br /><br /><br />
+    <img src="http://www.eyeconfla.com/vampirediaries/images/confirmed.png" alt="" border="0" align="center"><br /><br /><img src="http://www.eyeconfla.com/vampirediaries/images/logotvd.png" alt="" border="0" align="center"><br>
+    <img src="http://www.eyeconfla.com/vampirediaries/images/logooriginals.png" alt="" border="0" align="center"><br /><br /><img src="http://www.eyeconfla.com/vampirediaries/images/guestsmatt.jpg" border="0" align="center" /> <br /><br /><img src="http://www.eyeconfla.com/vampirediaries/images/guests21.jpg" border="0" align="center" /> <br /><br /><img src="http://www.eyeconfla.com/vampirediaries/images/guestsmichaelt.jpg" border="0" align="center" /><br /><br /><img src="http://www.eyeconfla.com/vampirediaries/images/guestszach.jpg" border="0" align="center" /><br /><br /><img src="http://www.eyeconfla.com/vampirediaries/images/guestsmichaelm.jpg" border="0" align="center" /><br /><br /><img src="http://www.eyeconfla.com/vampirediaries/images/guestschase.jpg" border="0" align="center" /><br /><br /><img src="http://www.eyeconfla.com/vampirediaries/images/guestskendrick.jpg" border="0" align="center" /> <br /><br /><img src="http://www.eyeconfla.com/vampirediaries/images/guests08.jpg" border="0" align="center" /><br /><br /><br /><img src="http://www.eyeconfla.com/vampirediaries/images/artists2.png" alt="" border="0" align="center"><br><br />
+				      <img src="http://www.eyeconfla.com/vampirediaries/images/guestsjosh.jpg" border="0" align="center" /><br /><br />
+                      <img src="http://www.eyeconfla.com/vampirediaries/images/artists01.jpg" alt="" border="0" align="center" style="margin-top:3px;" /><br /><br /><br /><a href="#" class="ClassPurple" onClick="MyWindow1=window.open('http://www.eyeconfla.com/vampirediaries/absentee.html','MyWindow1','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,width=700,height=400'); return false;"><img src="http://www.eyeconfla.com/vampirediaries/images/absentee.jpg" alt="" border="0" align="center" style="margin-top:3px;"></a><br />
+    <br /><br /><br />
+    <br><br />
+    <br /><br />
+    <br /><br />     
+          </div></div>
+            
+<br style="line-height:20px;">
+<br>
+                               
+              <br style="line-height:20px;">
+<br>
+             
+              <br style="line-height:20px;"><br><br><br>
+              <br>
+                
+              
+                
+                
+          </div>
+            
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--========//content=========== -->
+<!-- -->
+<!-- begin of footer -->
+    <td bgcolor="#000000" style="width:100%; height:100%; background:url(http://www.fantasytwilighttour.com/images/f_back.gif) no-repeat top;">
+      <div style="margin-left:0px; margin-top:32px;" class="footertxt"> 
+        <div align="center"><span class="ClassPurple"><a href="http://www.eyeconfla.com/vampirediaries/index.html" class="ClassPurple"><strong>HOME</strong></a> | <a href="http://www.eyeconfla.com/vampirediaries/guests.html" class="ClassPurple"><strong>GUESTS & EVENTS</strong></a> | <a href="http://www.eyeconfla.com/vampirediaries/schedule.html" class="ClassPurple"><strong>SCHEDULE</strong></a> | <a href="#" class="ClassPurple" onClick="MyWindow1=window.open('http://www.eyeconfla.com/vampirediaries/policies.html','MyWindow1','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,width=475,height=400'); return false;"><strong>POLICIES</strong></a> | <a href="#" class="ClassPurple" onClick="MyWindow1=window.open('http://www.eyeconfla.com/vampirediaries/faq.html','MyWindow1','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,width=475,height=400'); return false;"><strong>FAQ</strong></a> | <a href="#" class="ClassPurple" onClick="MyWindow1=window.open('http://www.eyeconfla.com/vampirediaries/vendors.html','MyWindow1','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,width=475,height=400'); return false;"><strong>VENDORS</strong></a> | <a href="http://www.eyeconfla.com/vampirediaries/location.html" class="ClassPurple"><strong>LOCATION</strong></a> | <a href="http://www.eyeconfla.com/vampirediaries/contact.html" class="ClassPurple"><strong>CONTACT</strong></a> | <a href="#" class="ClassPurple" onClick="MyWindow1=window.open('http://www.eyeconfla.com/vampirediaries/levels.html','MyWindow1','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,width=675,height=400'); return false;"><strong>TICKET PRICES</strong></a> | <a href="http://www.eyeconfla.com/vampirediaries/tickets.html" class="ClassPurple"><strong>BUY TICKETS</strong></a><br>
+        <a href="http://search.ebay.com/_W0QQsassZeyecon_auctions" target="_blank" class="ClassPurple"><strong>AUCTIONS</strong></a> | <a href="https://twitter.com/EyeCon3000" target="_blank" class="ClassPurple"><strong>TWITTER</strong></a> | <a href="http://www.facebook.com/home.php?ref=home#/profile.php?id=100000365255040&ref=ts" target="_blank" class="ClassPurple"><strong>FACEBOOK</strong></a> |<strong> </strong><a href="#" class="ClassPurple" onClick="MyWindow1=window.open('http://www.eyeconfla.com/vampirediaries/roommate.html','MyWindow1','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,width=475,height=400'); return false;"><strong>ROOMMATE FINDER</strong></a> | <a href="#" class="ClassPurple" onClick="MyWindow1=window.open('http://www.eyeconfla.com/vampirediaries/volunteer.html','MyWindow1','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,width=475,height=400'); return false;"><strong>VOLUNTEERS</strong></a> | <a href="#" class="ClassPurple" onClick="MyWindow1=window.open('http://www.eyeconfla.com/vampirediaries/press.html','MyWindow1','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,width=475,height=400'); return false;"><strong>PRESS REQUESTS</strong></a><br>
+        
+        <br style="line-height:5px;">
+        Copyright &copy; Interstellar Productions, Inc All rights reserved.<br>
+        EyeCon is not affiliated with Warner Brothers or CW Television</span><br>
+          <br style="line-height:10px;">
+        </div>
+      </div>    </td>
+  </tr>
+  <!-- end of footer -->
+</div>
+</body>
+</html>

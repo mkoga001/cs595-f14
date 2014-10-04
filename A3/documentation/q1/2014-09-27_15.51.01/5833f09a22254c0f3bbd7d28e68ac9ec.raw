@@ -1,0 +1,39 @@
+
+			
+			<html>
+			<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+			<title>사이좋은 사람들 싸이월드</title>
+			<script language="javascript">
+				function go_html()
+				{
+					var isPopup = false;
+					try
+					{
+						isPopup = (document.frames["domain"].objMiniHp != null) ? true : false;
+					}
+					catch(e)
+					{
+						isPopup = true;
+					}
+
+					if(isPopup == true)
+					{
+						if(navigator.appName.indexOf("Microsoft Internet Explorer") == 0)
+							window.location="http://www.nate.com/cymain/?f=back_mh";
+					}
+				}
+
+				setTimeout(function(){window.location = "http://www.nate.com/cymain/?f=back_mh";}, 5000);
+			</script>
+			</head>
+				<frameset rows="0,*" border="0" framespacing="0" frameborder="NO" onfocus="go_html()">
+				<frame name="temp" FRAMEBORDER=NO BORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 NORESIZE SCROLLING=NO src="">
+				<frame name="domain" src="/pims/main/domain2.asp?tid=62000821&urlstr=&urlstrsub=" FRAMEBORDER=NO BORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 NORESIZE SCROLLING=YES>
+				<noframes>
+					<body>
+						<p>이 페이지에서 프레임을 사용하지만 브라우저에서 지원하지 않습니다.</p>
+					</body>
+				</noframes>
+			</frameset>
+			</html>

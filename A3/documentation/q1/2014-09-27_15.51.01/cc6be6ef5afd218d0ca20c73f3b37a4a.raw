@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="es"> <!--<![endif]--><head>
+<meta charset="utf-8" />
+<title>La página más completa sobre el Libro antiguo (y los libros antiguos)</title>
+<meta name="description" content="Todo sobre el mundo del libro antiguo en la web: Foro, libreria de viejo, anecdotario, libros antiguos, diccionario de terminos, partes del libro, noticias y recursos " />
+<meta name="keywords" content="libro antiguo, el libro antiguo, librerias de viejo, libros antiguos, subastas de libros antiguos, historia del libro, historia de la encuadernacion, historia de la tipografia" />
+<meta name="google-site-verification" content="c7ejNI1Ju2nJMaoFSPzwwXSlXr7K6moiVnQJqDmbUOw" />
+<link rel="icon" 
+ type="image/png" 
+ href="./favicon.ico">
+
+<link rel="stylesheet" type="text/css" href="css/boilerplate.css?v=1" />
+<link rel="stylesheet" type="text/css" href="css/style.css?v=1" />
+<!--[if lte IE 7 ]><link rel="stylesheet" type="text/css" href="css/ie7.css?v=1" /><![endif]-->
+<!--[if lte IE 9 ]><link rel="stylesheet" type="text/css" href="css/ie9.css?v=1" /><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="css/bg-slideshow.css?v=1" />
+<script src="js/libs/cufon-yui.js" type="text/javascript"></script>
+<script src="js/fonts/James_Fajardo_400.font.js" type="text/javascript"></script>
+<script src="js/fonts/Yanone_Kaffeesatz_Regular_400.font.js" type="text/javascript"></script>
+<script src="js/royale-cufon.js?v=1" type="text/javascript"></script>
+<script src="js/libs/modernizr-1.7.min.js" type="text/javascript"></script>
+<script src="js/libs/mdetect.min.js" type="text/javascript"></script>
+<script src="js/libs/jquery-1.6.2.min.js" type="text/javascript"></script>
+<script type="text/javascript">jQuery.noConflict();</script>
+<!-- ya no funciona
+<script src="js/jquery.tweet.js" type="text/javascript"></script>-->
+
+<script src="js/royale.js?v=1" type="text/javascript"></script>
+<!-- Added for Bg Slideshow -->
+<script src="js/libs/jquery.address-1.4.min.js" type="text/javascript"></script>
+ <script src="js/royale-bg-slideshow.js?v=1" type="text/javascript"></script>
+<!-- Setup Script -->
+<script type="text/javascript">
+
+var indexDeepLinks = false,
+
+bgSlideshowSettings = {
+/* Choose to auto-play the slideshow, true/false */
+autoPlay: true, 
+/* Choose the image scaling, options are "stretch", "stretch-center" and "fit" (never crop the image) */
+scaleType: "stretch", 
+/* Choose to randomize the image list, true/false */
+randomizeImages: true,
+/* Set the transition delay in milliseconds */
+transitionDelay: 5000, 
+/* Choose to disable right-click to help protect your images, true/false */
+disableRightClick: true 
+};
+/* Document Ready Function */
+jQuery(document).ready(function() {
+/* Activate the Bg Slideshow */
+jQuery.address.crawlable(indexDeepLinks);
+jQuery.bgSlideshow(bgSlideshowSettings);
+/* Activate the Core Royale' Functions */
+jQuery.royale();
+bgSlideshowSettings = indexDeepLinks = null;
+});</script> </head>
+<body>
+ <!-- NoScript for the Background Image -->
+<noscript>
+<div id="background-image">
+<img src="img/backgrounds/index1.jpg" width="1300" height="1000" alt="libros antiguos" />
+</div>
+</noscript>
+<!-- BEGIN BACKGROUND SLIDESHOW CODE -->
+<div id="bg-slideshow">
+<!-- The Gallery Buttons, remove entirely for no gallery buttons -->
+<div id="gallery-buttons">
+<!-- Back Button -->
+<div class="prev-next">
+<img src="img/icons/left_arrow.png" width="20" height="20" class="prev-button" alt="left arrow" />
+</div>
+<!-- Play/Pause Button -->
+<div id="play-pause">
+<img class="play-button" src="img/icons/play_button.png" width="20" height="20" alt="play button" />
+<img class="pause-button" src="img/icons/pause_button.png" width="20" height="20" alt="pause button" /> 
+</div>
+<!-- Next Button -->
+<div class="prev-next">
+<img src="img/icons/right_arrow.png" width="20" height="20" class="next-button" alt="right arrow" />
+</div>
+</div>
+<!-- The Info Section, remove entirely for no info -->
+<!--
+<div id="tuiter">
+
+  <script type="text/javascript">
+jQuery(function($){$(".tweet_scroll_text").tweet({username: "libroantiguo", page: 1, avatar_size: 0, count: 35,
+ loading_text: "leyendo ..."}).bind("loaded", function() {
+ var ul = $(this).find(".tweet_list");var ticker = function() {
+setTimeout(function() {ul.find('li:first').animate( {marginTop: '-45px'}, 500, function() {$(this).detach().appendTo(ul).removeAttr('style');});
+		 ticker();}, 5000);};ticker();});});
+  </script>
+
+<div id="tweet_scroll_place">
+		            <div class="twitter_bird">
+			           
+			                	<div class="tweet_scroll_text"></div>
+			
+			            </div>
+		            </div>
+
+</div>
+-->
+<div id="info">
+<!-- The Info Button -->
+<img src="img/icons/info_circle.png" width="50" height="50" class="info-button" alt="libros antiguos" />
+<!-- The Info Text, Leave empty here -->
+<p id="info-text"></p>
+</div>
+
+<div id="bg-images">
+<ul>
+<!-- AQUI VA LA INFOOOOOOOO-->
+<li title="img/backgrounds/index1.jpg"><span class="info-title">Foro de compra-venta</span><br />
+<a href="./compra-venta-libros-antiguos/index.php">Publicar un anuncio</a></li>
+<li title="img/backgrounds/index2.jpg"><span class="info-title">Tasador on line</span><br />
+<a href="http://rarebookvalue.net">Tasar mi libro</a></li>
+<li title="img/backgrounds/index3.jpg">
+<span class="info-title">Últimas novedades</span>
+<br /><a href="./news.html">Clica aquí para leerlas</a></li>
+<li title="img/backgrounds/index4.jpg"><span class="info-title">Mas de 200 anécdotas</span><br />
+<a href="anecdotario-libro-antiguo.html">Leer las curiosidades</a></li>
+<li title="img/backgrounds/index5.jpg"><span class="info-title">Cientos de enlaces interesantes</span><br />
+<a href="./enlaces-libro-antiguo.html">Ver el listado</a></li>
+<li title="img/backgrounds/mapa1600x600.jpg"><span class="info-title">Últimas novedades</span>
+<br /><a href="./news.html">Clica aquí para leerlas</a></li>
+<li title="img/backgrounds/index7.jpg">
+<span class="info-title">Noticias de actualidad</span><br />
+<a href="./noticias-libro-antiguo/">Leer las noticias</a></li>
+<li title="img/backgrounds/index8.jpg"><span class="info-title">Más de 100 biografías</span><br />
+<a href="./personajes-historicos/menu.html">Ver el listado</a></li>
+<li title="img/backgrounds/index11.jpg"><span class="info-title">Encuentro Internacional de Bibliología</span><br />
+<a href="http://www.iib.unam.mx/index.php/actividadesacademicas">Ver más información</a></li>
+
+</ul>
+</div>
+</div>
+<!-- BEGIN LEFT AREA -->
+<div id="left">
+<!-- Enter Logo Here -->
+<div id="logo">
+ <a href="index.html">
+<img src="img/logo2.png" width="161" height="60" alt="Todo libro antiguo" /></a>
+</div>
+<!-- BEGIN MAIN NAV -->
+<nav>
+<ul>
+<li><a href="index.html">INICIO</a></li>
+<li><a href="#">ACTUALIDAD</a><ul>
+<li><a href="./news.html">ÚLTIMAS NOVEDADES</a></li> 
+<li><a href="./noticias-libro-antiguo/">NOTICIAS</a></li>
+<li><a href="./calendario-2013/calendario-libro-antiguo-marzo-2013.html">CALENDARIO</a></li>
+</ul></li>
+<li><a href="#">BIBLIOFILIA</a><ul>
+<li><a href="./libros-raros/menu-libros-raros.html">LIBROS RAROS</a></li>
+<li><a href="./partes-del-libro-antiguo.html">PARTES DEL LIBRO</a></li>
+<li><a href="./diccionario-libro-antiguo.html">GLOSARIO DE TÉRMINOS</a></li>
+<li><a href="#">LIBRERÍAS DE VIEJO</a><ul>
+<li><a href="./librerias-de-viejo.html">ESPAÑA</a></li>
+<li><a href="../librerias-de-viejo-sudamerica/libreria-argentina.html">ARGENTINA</a></li>
+<li><a href="../librerias-de-viejo-sudamerica/librerias-chile.html">CHILE</a></li>
+<li><a href="../librerias-de-viejo-sudamerica/libreria-colombia.html">COLOMBIA</a></li>
+<li><a href="../librerias-de-viejo-sudamerica/librerias-mexico.html">MEXICO</a></li>
+<li><a href="../librerias-de-viejo-sudamerica/libreria-peru.html">PERU</a></li>
+<li><a href="../librerias-de-viejo-sudamerica/libreria-uruguay.html">URUGUAY</a></li>
+</ul></li>
+<li><a href="./anecdotario-libro-antiguo.html">ANÉCDOTAS</a></li>
+<li><a href="./valoracion-libro-antiguo.html">VALOR DEL LIBRO</a></li>
+<li><a href="./cuidados-libro-antiguo-introduccion.html">ENFERMEDADES DEL LIBRO</a></li>
+<li><a href="./consejos-cuidado-libro-antiguo.html">CONSEJOS</a></li>
+<li><a href="./bibliografia-libro-antiguo.html">BIBLIOGRAFÍA IMPRESCINDIBLE</a></li>
+</ul>
+</li>
+<li><a href="#">RECURSOS</a><ul>
+<li><a href="http://www.rarebookvalue.net/login/login.php">TASADOR DE LIBROS</a></li>
+<li><a href="./compra-venta-libros-antiguos/index.php">FORO COMPRA-VENTA</a></li>
+<li><a href="./enlaces-libro-antiguo.html">ENLACES</a></li>
+<li><a href="./recursosenlinea-libro-antiguo.html">DOCUMENTOS</a></li>
+<li><a href="./descargas-libro-antiguo.html">UTILIDADES</a></li>
+</ul>
+</li>
+<li><a href="#">BIOGRAFÍAS</a><ul>
+<li><a href="http://www.todolibroantiguo.es/personajes-historicos/menu.html">HASTA EL SIGLO XV</a></li> 
+<li><a href="http://www.todolibroantiguo.es/personajes-historicos/menu2.html">SIGLO XVI</a></li>
+<li><a href="http://www.todolibroantiguo.es/personajes-historicos/menu3.html">SIGLOS XVII Y XVIII</a></li>
+<li><a href="http://www.todolibroantiguo.es/personajes-historicos/menu4.html">SIGLOS XIX Y XX</a></li> 
+</ul></li> <!--FIN BIOGRAFÍAS-->
+
+<!--FIN LIBROS EXTR-->
+<li><a href="#">HISTORIA</a><ul>
+<li><a href="#">LIBRO</a><ul>
+<li><a href="#">ESPAÑA</a><ul>
+<li><a href="./historia-libro-antiguo-parte1.html">EDAD MEDIA</a><ul>
+<li><a href="./historia-libro-antiguo-visigoda.html">ALTA EDAD MEDIA</a></li>
+<li><a href="./historia-libro-antiguo-al-andalus.html">AL ANDALUS</a></li>
+<li><a href="./historia-libro-antiguo-beatos.html">LOS BEATOS</a></li>
+<li><a href="./historia-libro-antiguo-baja-edad-media.html">BAJA EDAD MEDIA</a></li>
+</ul></li><!--fin hasta edad media-->
+<li><a href="./historia-libro-antiguo-parte2.html">SIGLOS XV Y XVI</a><ul>
+<li><a href="./historia-libro-antiguo-manuscrito-siglo-xvi.html">MANUSCRITOS</a></li>
+<li><a href="./historia-libro-antiguo-primeros-pasos-imprenta.html">LA IMPRENTA</a></li>
+<li><a href="./historia-libro-antiguo-incunables.html">LOS INCUNABLES</a></li>
+<li><a href="./historia-libro-antiguo-siglo-xvi.html">SIGLO XVI</a></li>
+</ul></li><!--fin SIGLO XV Y XVL-->
+<li><a href="./historia-libro-antiguo-parte3.html">SIGLOS XVII Y XVIII</a><ul>
+<li><a href="./historia-libro-antiguo-siglo-xvii.html">EL SIGLO XVII</a></li>
+<li><a href="./historia-libro-antiguo-siglo-xviii.html">EL SIGLO XVIII</a></li>
+<li><a href="./historia-libro-antiguo-ibarra.html">LA IMPRENTA DE IBARRA</a></li>
+<li><a href="./historia-libro-antiguo-sancha.html">LA IMPRENTA DE SANCHA</a></li>
+</ul></li><!--fin SIGLO XV Y XVL-->
+</ul> </li><!--FIN ESPAÑA-->
+<li><a href="./historia-libro-antiguo-parte4.html">IBEROAMÉRICA</a><ul>
+<li><a href="./historia-libro-antiguo-codices-mexicanos.html">CÓDICES MEXICANOS</a></li>
+<li><a href="./historia-libro-antiguo-antonio-de-espinosa.html">ANTONIO DE ESPINOSA</a></li>
+<li><a href="./historia-libro-antiguo-misiones-jesuiticas.html">LAS MISIONES JESUÍTICAS</a></li>
+</ul>
+</li>
+<li><a href="./historia-libro-antiguo-parte5.html">EUROPA</a><ul>
+<li><a href="./historia-libro-antiguo-europa-edad-media.html">EDAD MEDIA</a></li>
+<li><a href="./historia-libro-antiguo-primeros-europa-siglo-xv.html">LOS INCUNABLES</a></li>
+<li><a href="./historia-libro-antiguo-europa-siglo-xvi.html">SIGLO XVI</a></li>
+<li><a href="./historia-libro-antiguo-europa-siglo-xvii.html">SIGLO XVII</a></li>
+</ul>
+</li>
+</ul></li><!--FIN LIBRO-->
+<li><a href="./historia-bibliotecas/edad-antigua.html">LAS BIBLIOTECAS</a><ul>
+<li><a href="./historia-bibliotecas/edad-antigua.html">LA EDAD ANTIGUA</a></li>
+<li><a href="./historia-bibliotecas/edad-media.html">EDAD MEDIA</a></li>
+<li><a href="./historia-bibliotecas/siglos-xv-xvi.html">SIGLOS XV Y XVI</a></li>
+<li><a href="./historia-bibliotecas/siglo-xvii.html">EL SIGLO XVII</a></li>
+<li><a href="./historia-bibliotecas/siglo-xviii.html">EL SIGLO XVIII</a></li>
+<li><a href="./historia-bibliotecas/siglo-xix.html">EL SIGLO XIX</a></li>
+</ul></li>
+<li><a href="./encuadernacion/historia-encuadernacion-libro-antiguo.html">LA ENCUADERNACIÓN</a><ul>
+<li><a href="./encuadernacion/historia-encuadernacion-libro-antiguo.html">INTRODUCCIÓN</a></li>
+<li><a href="./encuadernacion/encuadernacion-bizancio.html">BIZANCIO</a></li>
+<li><a href="./encuadernacion/encuadernacion-edad-media.html">EDAD MEDIA</a></li>
+<li><a href="./encuadernacion/encuadernacion-mudejar.html">ENCUADERNACIÓN MUDÉJAR</a></li>
+<li><a href="./encuadernacion/encuadernacion-renacentista.html">EL RENACIMIENTO</a></li>
+<li><a href="./encuadernacion/encuadernacion-barroco-rococo.html">BARROCO Y ROCOCÓ</a></li>
+<li><a href="./encuadernacion/encuadernacion-neoclasica.html">NEOCLÁSICA</a></li>
+<li><a href="./encuadernacion/encuadernacion-romantica-modernista.html">ROMÁNTICA Y MODERNISTA</a></li>
+</ul> </li>
+<li><a href="./tipografia/historia-escritura-grecia-roma-libro-antiguo.html">TIPOGRAFÍA</a><ul>
+<li><a href="./tipografia/historia-escritura-grecia-roma-libro-antiguo.html">GRECIA Y ROMA</a></li>
+<li><a href="./tipografia/historia-escritura-edad-media-libro-antiguo.html">LA EDAD MEDIA</a></li>
+<li><a href="./tipografia/historia-escritura-renacimiento-libro-antiguo.html">EL RENACIMIENTO</a></li>
+<li><a href="./tipografia/historia-escritura-barroco-clascismo-libro-antiguo.html">EL BARROCO Y CLASICISMO</a></li>
+<li><a href="./tipografia/historia-escritura-siglo-xix-libro-antiguo.html">EL SIGLO XIX</a></li>
+</ul></li></ul></li>
+<!--FIN HISTORIA-->
+<li><a href="./contact.html">CONTACTO</a></li>
+<li><a href="./portfolio_single.html">COLABORA</a></li>
+<li><a href="./about_us.html">QUIENES SOMOS</a></li>
+<li><a href="./news2.html">WEBS RECOMENDADAS</a></li>
+<li> </li>
+<br />
+</ul>
+<a href="https://twitter.com/libroantiguo" class="twitter-follow-button" data-width="210px" data-show-screen-name="false" data-align="right" data-lang="es">Follow @libroantiguo</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+ <!-- Initialize Cufon -->
+ <script type="text/javascript">Cufon.now()</script>
+ <script type="text/javascript">  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-20508912-1']);_gaq.push(['_trackPageview']);(function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();
+</script>
+
+</body>
+</html>

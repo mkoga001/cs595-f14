@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<html>
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        
+        <title>PizzaSlime</title>
+        <meta name="description" value="PizzaSlime.com" />
+        <link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_ecd9a2e67c57_128.png" />
+        <link rel="alternate" type="application/rss+xml" href="http://www.pizzaslime.com/rss" />
+        <meta charset="utf-8" />
+
+        <meta name="image:Background" content="" />
+
+        <meta name="color:Background" content="#008080" />
+        <meta name="color:Link Color" content="#000000" />
+        
+        <meta name="if:Enable Infinite Scrolling" content="1" />
+        <meta name="if:Background Image Cover" content="0" />
+        <meta name="if:Display Photo Captions" content="1" />
+        <meta name="if:Display Description" content="0" />
+        <meta name="if:Display Home Icon" content="1" />
+        <meta name="if:Display Ask Icon" content="1" />
+        <meta name="if:Display Submit Icon" content="1" />
+        <meta name="if:Display Pages Icon" content="1" />
+        <meta name="if:Display Archive Icon" content="1" />
+
+        <style type="text/css">
+            body, html {
+                margin: 0;
+                padding: 0;
+            }
+        
+            body {
+                background: #FE3B80 url('http://static.tumblr.com/4c00c8cfcd6705b801a6fa4b3fd16a8b/fsnqwbu/Eo4ncecpu/tumblr_static_ae22adezi1sgsssk80o4gckww.png') repeat fixed;
+                
+                font-family: 'Arial', sans-serif;
+                font-size: 12px;
+            }
+        
+            a {
+                color: #1700ff;
+                text-decoration: none;
+            }
+        
+            a:hover {
+                text-decoration: underline;
+            }
+        
+            .icons {
+                margin: 0 0 0 10px;
+                list-style-type: none;
+                padding: 0;
+                width: 100px;
+                float: left;
+                position: fixed;
+                z-index: 2;
+            }
+        
+            .my_computer, .my_documents, .network_neighborhood, .folder, .recycle_bin, .start_menu, .application_icons, .start_bar .start_button .logo, .start_bar .tray .calendar, .start_menu, .window .top, .window .middle, .window .bottom, .description .top, .description .ok_button, .description .bottom {
+                background-image: url('http://static.tumblr.com/fpdiq1j/O6Um4f3al/master_sprite.png');
+                margin: auto;
+            }
+        
+            .my_computer {
+                height: 32px;
+                width: 32px;
+                background-position: -616px -157px;
+            }
+        
+            .my_documents {
+                height: 30px;
+                width: 32px;
+                background-position: -616px -189px;
+            }
+        
+            .network_neighborhood {
+                height: 32px;
+                width: 32px;
+                background-position: -616px -219px;
+            }
+        
+            .recycle_bin {
+                height: 32px;
+                width: 30px;
+                background-position: -616px -251px;
+            }
+        
+            .folder{
+                height: 27px;
+                width: 32px;
+                background-position: -616px -283px;
+            }
+        
+            .start_bar .start_button .logo {
+                width: 16px;
+                height: 14px;
+                background-position: -633px -103px;
+            }
+        
+            .application_icons {
+                height: 16px;
+                width: 84px;
+                background-position: -565px -69px;
+            }
+        
+            .start_bar .tray .calendar {
+                height: 16px;
+                width: 16px;
+                background-position: -632px -87px;
+            }
+        
+            .start_menu {
+                height: 383px;
+                width: 168px;
+                background-position: 0px 0px;
+            }
+        
+            .window .top {
+                height: 44px;
+                background-position: -168px 0px;
+            }
+            
+            .description .top {
+                height: 21px;
+                background-position: -168px -134px;
+            }
+            
+            .description .ok_button  {
+                height: 23px;
+                width: 75px;
+                margin-top: 7px;
+                background-position: -231px -158px;
+            }
+            
+            .description .bottom {
+                height: 2px;
+                background-position: -168px -155px;
+            }
+        
+            .window .middle, div.notes, div.attribution, div.tags {
+                background: url('http://static.tumblr.com/fpdiq1j/utSm3gwcy/large_middle.png');
+                background-repeat: repeat-y;
+            }
+        
+            .window .bottom {
+                background-position: -168px -46px;
+                height: 22px;
+            } 
+        
+            .icon_label {
+                padding-top: 6px;
+                padding-bottom: 15px;
+                color: white;
+                text-align: center;
+            }
+        
+            .icons a{
+                color: white;
+                text-decoration: none;
+            }
+        
+            .title {
+                font-size: 1.4em;
+                margin-bottom: 3px;
+            }
+        
+            .attempt_resize {
+                max-width: 100%;
+            }
+        
+            .label {
+                font-weight: bold;
+            }
+            
+            .body img, .caption img {
+                max-width: 100%;
+                overflow: hidden;
+            }
+        
+            #desktop {
+                margin: 20px auto 0 auto;
+                width: 480px;
+                z-index: 3;
+                position: relative;
+            }   
+            
+            
+            
+            .navigation {
+                padding-bottom: 55px;
+                height: 20px;
+                font-weight: bold;
+            }
+            
+            .navigation .next, .navigation .previous {
+                background-color: #FFFFFF;
+                padding: 3px 4px;
+            }
+            
+            .navigation .next {
+                float: left;
+            }
+            
+            .navigation .previous {
+                float: right;
+            }
+        
+            .window {
+                width: 480px;
+                max-width: 480px;
+                margin: 0 0 30px;
+            }
+        
+            .window .top {
+                height: 44px;
+            }
+        
+            .window .top .info {
+                top: 26px;
+                left: 10px;
+                position: relative;
+                width: 300px;
+                z-index: 4;
+                font-size: 11px;
+                line-height: 13px;
+            }
+        
+            .window .middle, div.notes, div.attribution, div.tags {
+                background-repeat: repeat-y;
+                padding: 4px 26px 4px 10px;
+            }
+            
+            .middle .caption {
+                margin-top: 5px;
+            }
+            
+            .middle .video_player embed { 
+                display: block;
+                width: 444px !important;
+                max-width: 444px !important;
+            }
+            
+            .middle .video_player iframe { 
+                display: block;
+                width: 444px !important;
+                max-width: 444px !important;
+                height: 249px !important;
+                max-height: 249px !important;
+            }
+            
+            .window .bottom {
+                height: 22px;
+            }
+            
+            .description {
+                position: fixed;
+                top: 20%;
+                right: 10%;
+                z-index: 4;
+                width: 200px;
+            }
+            
+            .description .middle {
+                background: url('http://static.tumblr.com/fpdiq1j/leqm4f39j/description_middle.png') repeat-y;
+                display: block;
+                padding: 5px;
+                max-width: 190px;
+                font-size: 11px;
+            }
+        
+            .start_bar {
+                position: fixed;
+                background-color: rgb(192,192,192);
+                bottom: 0;
+                height: 28px;
+                width: 100%;
+                z-index: 4;
+            }
+        
+            .start_menu {
+                position: fixed;
+                z-index: 3;
+                bottom: 28px;
+                display: none;
+            }
+        
+            .start_bar .top_border {
+                border-bottom: 1px solid rgb(255,255,255);
+                border-top: 1px solid rgb(223,223,223);
+            }
+        
+            .start_bar .start_button {
+                float: left;
+                border-top: 2px solid white;
+                border-left: 2px solid white;
+                border-bottom: 2px solid gray;
+                border-right: 2px solid gray;
+                height: 18px;
+                width: 54px;
+                margin-left: 2px;
+                margin-top: 2px;
+            }
+        
+            .sb_click {
+                border-bottom: 2px solid white !important;
+                border-right: 2px solid white !important;
+                border-top: 2px solid gray !important;
+                border-left: 2px solid gray !important;
+            }
+        
+            .start_bar .start_button .text{
+                float: right;
+                display: inline;
+                margin-right: 4px;
+                line-height: 18px;
+                font-weight: bold;
+            }
+        
+            .start_bar .start_button .logo{
+                float: left;
+                margin-top: 2px;
+                margin-left: 2px;
+            }
+        
+            .start_bar .big_seperator {
+                float: left;
+                border-left: 1px solid rgb(128,128,128);
+                border-right: 1px solid rgb(255,255,255);
+                height: 22px;
+                margin-top: 2px;
+                margin-left: 2px;
+            }
+        
+            .start_bar .small_seperator {
+                float: left;
+                border-left: 1px solid rgb(255,255,255);
+                border-top: 1px solid rgb(255,255,255);
+                border-right: 1px solid rgb(128,128,128);
+                border-bottom: 1px solid rgb(128,128,128);
+                background-color: rgb(192,192,192);
+                width: 1px;
+                height: 16px;
+                margin-top: 4px;
+                margin-left: 2px;
+            }
+        
+            .start_bar .application_icons {
+                float: left;
+                margin-top: 5px;
+                margin-left: 7px;
+                margin-right: 7px;
+            }
+        
+            .start_bar .tray {
+                float: right;
+                border-top: 1px solid rgb(128,128,128);
+                border-left: 1px solid rgb(128,128,128);
+                border-bottom: 1px solid rgb(255,255,255);
+                border-right: 1px solid rgb(255,255,255);
+                height: 18px;
+                width: 79px;
+                margin-right: 5px;
+                margin-top: 2px;
+            }
+        
+            .start_bar .tray .time {
+                line-height: 18px;
+                float: right;
+                font-size: 10px;
+                margin-right: 10px;
+            }
+        
+            .start_bar .tray .calendar {
+                float: left;
+                margin-top: 1px;
+                margin-left: 3px;
+            }
+            
+            /* COMMON */
+            
+            blockquote {
+                margin-left: 10px;
+                padding-left: 10px;
+                border-left: 1px solid #000;
+            }
+            
+            #infscr-loading {
+                display: none !important;
+                opacity: 0 !important;
+                visibility: hidden !important;
+            }
+            
+            .middle img {
+                display: block;
+            }
+            
+            .middle a img {
+                border: 0;    
+            }
+            
+            .middle p:first-child, ul:first-child, ol:first-child, blockquote:first-child {
+                margin-top: 0;
+            }
+            
+            /*.middle p:only-child, ul:only-child, ol:only-child, blockquote:only-child {
+                margin-top: 0;
+                margin-bottom: 0;   
+            }*/
+            
+            .middle p:last-child, ul:last-child, ol:last-child, blockquote:last-child {
+                margin-bottom: 0;
+            }
+            
+            /* END COMMON */
+            
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+        
+            /* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/others/oth-1/oth3.ani), url(http://cur.cursors-4u.net/others/oth-1/oth3.png), progress !important;} /* End http://www.cursors-4u.com */
+        </style>
+        
+        
+
+    
+        
+        <script type="text/javascript" src="http://static.tumblr.com/fpdiq1j/S5Jmd2p8d/win98.js"></script>
+        <script type="text/javascript">
+            var has_infinite_scrolling = false;
+        </script>
+    
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38718304-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34065025-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=pizzaslimepizzaslimepizzaslime" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="PizzaSlime" /><meta property="og:url" content="http://www.pizzaslime.com/?og=1" /><meta property="og:description" content="PizzaSlime.com" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_ecd9a2e67c57_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=pizzaslimepizzaslimepizzaslime" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=pizzaslimepizzaslimepizzaslime" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="pizzaslimepizzaslimepizzaslime" /><meta name="twitter:description" content="PizzaSlime.com" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=pizzaslimepizzaslimepizzaslime&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=pizzaslimepizzaslimepizzaslime&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=pizzaslimepizzaslimepizzaslime&amp;referrer=twitter-cards" />
+
+</head>
+
+    <body>
+        <div class="wrapper">
+            <div class="icons">
+                <a href="/" class="home">
+                    <div class="my_computer"></div>
+                    <div class="icon_label">PizzaSlime</div>
+                </a>
+            
+                
+                    <a href="/ask" class="ask">
+                        <div class="my_documents"></div>
+                        <div class="icon_label">questions?</div>
+                    </a>
+                
+                
+                
+
+                
+                    
+                        <a href="/store" class="pages">
+                            <div class="folder"></div>
+                            <div class="icon_label">STORE</div>
+                        </a>    
+                    
+                        <a href="/twitter" class="pages">
+                            <div class="folder"></div>
+                            <div class="icon_label">twitter</div>
+                        </a>    
+                    
+                        <a href="/facebook" class="pages">
+                            <div class="folder"></div>
+                            <div class="icon_label">facebook</div>
+                        </a>    
+                    
+                        <a href="/soundcloud" class="pages">
+                            <div class="folder"></div>
+                            <div class="icon_label">soundcloud</div>
+                        </a>    
+                    
+                        <a href="/instagram" class="pages">
+                            <div class="folder"></div>
+                            <div class="icon_label">instagram</div>
+                        </a>    
+                    
+                        <a href="/contact" class="pages">
+                            <div class="folder"></div>
+                            <div class="icon_label">CONTACT</div>
+                        </a>    
+                    
+                        <a href="/gaygaydinosaur" class="pages">
+                            <div class="folder"></div>
+                            <div class="icon_label">GAY GAY DINOSAUR</div>
+                        </a>    
+                    
+                        <a href="/irl" class="pages">
+                            <div class="folder"></div>
+                            <div class="icon_label">PIZZASLIMEirl (photo)</div>
+                        </a>    
+                    
+                
+
+                <a href="/archive" class="archive">
+                    <div class="recycle_bin"></div>
+                    <div class="icon_label">Archive</div>
+                </a>
+            </div>
+            
+                
+                    <div class="description">
+                        <div class="top"></div>
+                        <div class="middle">
+                            PizzaSlime.com
+                            <div class="ok_button"></div>
+                        </div>
+                        <div class="bottom"></div>
+                    </div>        
+                
+            
+            <div id="desktop">
+                
+                    <div class="window">
+                        <a href="http://www.pizzaslime.com/post/97941763520/yung-lean-ghosttown-ft-travi-scott">
+                            <div class="top">
+                                
+                                    <div class="info">
+                                        Posted on 20th Sep at 12:17 AM, with 9 notes
+                                    </div>
+                                
+                            </div>
+                        </a>
+                        <div class="middle">
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                                <div class="video_player">
+                                    <iframe width="500" height="281" src="https://www.youtube.com/embed/qh7NzCJOfAo?feature=oembed" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                
+                                    <div class="caption">
+                                        <h1 class="yt" id="watch-headline-title"><strong><span class="watch-title  " id="eow-title" title="Yung Lean- Ghosttown ft Travi$ Scott">Yung Lean- Ghosttown ft Travi$ Scott</span></strong></h1>
+                                    </div>
+                                
+                            
+
+                            
+                        </div>
+                        
+                        <div class="bottom"></div>
+                    </div>
+                
+                    <div class="window">
+                        <a href="http://www.pizzaslime.com/post/97242116605/bass-drum-of-death-for-blood">
+                            <div class="top">
+                                
+                                    <div class="info">
+                                        Posted on 11th Sep at 4:24 PM, with 3 notes
+                                    </div>
+                                
+                            </div>
+                        </a>
+                        <div class="middle">
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                                <div class="video_player">
+                                    <iframe src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F167175073&amp;visual=true&amp;liking=false&amp;sharing=false&amp;auto_play=false&amp;show_comments=false&amp;continuous_play=false&amp;origin=tumblr" frameborder="0" allowtransparency="true" class="soundcloud_audio_player" width="500" height="500"></iframe>
+                                </div>
+                                
+                                    <div class="caption">
+                                        <h2 class="g-modal-title-h2 sc-truncate"><strong>Bass Drum of Death - &#8220;For Blood&#8221;</strong></h2>
+<p><strong><img alt="" src="https://i1.sndcdn.com/artworks-000090664868-x8smu9-t500x500.jpg?e76cf77"/></strong></p>
+                                    </div>
+                                
+                            
+
+                            
+                        </div>
+                        
+                        <div class="bottom"></div>
+                    </div>
+                
+                    <div class="window">
+                        <a href="http://www.pizzaslime.com/post/97197815090/les-sins-bother">
+                            <div class="top">
+                                
+                                    <div class="info">
+                                        Posted on 11th Sep at 12:45 AM, with 3 notes
+                                    </div>
+                                
+                            </div>
+                        </a>
+                        <div class="middle">
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                                <div class="video_player">
+                                    <iframe width="500" height="281" src="https://www.youtube.com/embed/8bfELN6NskE?feature=oembed" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                
+                                    <div class="caption">
+                                        <h1 class="yt" id="watch-headline-title"><strong><span class="watch-title  " id="eow-title" title='Les Sins "Bother"'>Les Sins &#8220;Bother&#8221;</span></strong></h1>
+                                    </div>
+                                
+                            
+
+                            
+                        </div>
+                        
+                        <div class="bottom"></div>
+                    </div>
+                
+                    <div class="window">
+                        <a href="http://www.pizzaslime.com/post/96843448290/toux-help-me-bad-dirty-boredom">
+                            <div class="top">
+                                
+                                    <div class="info">
+                                        Posted on 6th Sep at 11:04 PM, with 1 note
+                                    </div>
+                                
+                            </div>
+                        </a>
+                        <div class="middle">
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                                <div class="video_player">
+                                    <iframe src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F155298399&amp;visual=true&amp;liking=false&amp;sharing=false&amp;auto_play=false&amp;show_comments=false&amp;continuous_play=false&amp;origin=tumblr" frameborder="0" allowtransparency="true" class="soundcloud_audio_player" width="500" height="500"></iframe>
+                                </div>
+                                
+                                    <div class="caption">
+                                        <h2 class="g-modal-title-h2 sc-truncate"><strong>TOUX - Help Me (Bad Dirty Boredom)</strong></h2>
+<p><strong><img alt="" src="https://i1.sndcdn.com/artworks-000087893446-lrej48-t500x500.jpg?e76cf77"/></strong></p>
+                                    </div>
+                                
+                            
+
+                            
+                        </div>
+                        
+                        <div class="bottom"></div>
+                    </div>
+                
+                    <div class="window">
+                        <a href="http://www.pizzaslime.com/post/96840679120/i-understand-feat-ilovemakonnen-prod-fki">
+                            <div class="top">
+                                
+                                    <div class="info">
+                                        Posted on 6th Sep at 10:28 PM, with 2 notes
+                                    </div>
+                                
+                            </div>
+                        </a>
+                        <div class="middle">
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                                <div class="video_player">
+                                    <iframe src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F165350402&amp;visual=true&amp;liking=false&amp;sharing=false&amp;auto_play=false&amp;show_comments=false&amp;continuous_play=false&amp;origin=tumblr" frameborder="0" allowtransparency="true" class="soundcloud_audio_player" width="500" height="500"></iframe>
+                                </div>
+                                
+                                    <div class="caption">
+                                        <h2 class="g-modal-title-h2 sc-truncate"><strong>I Understand feat ILOVEMAKONNEN (prod FKi)</strong></h2>
+<p><strong><img alt="" src="https://i1.sndcdn.com/artworks-000089516370-i6l7ia-t500x500.jpg?e76cf77"/></strong></p>
+                                    </div>
+                                
+                            
+
+                            
+                        </div>
+                        
+                        <div class="bottom"></div>
+                    </div>
+                
+                
+                    <div class="navigation">
+                        
+                            <a class="next" href="/page/2">Next</a>
+                        
+                        
+                    </div>
+                
+            </div>
+            <div class="start_menu">
+            </div>
+            <div class="start_bar">
+                <div class="top_border"></div>
+                <div class="start_button">
+                    <span class="logo">
+                    </span>
+                    <span class="text">
+                        Start
+                    </span>
+                </div>
+                <span class="big_seperator">
+                </span>
+                <span class="small_seperator">
+                </span>
+                <span class="application_icons">
+                </span>
+                <span class="big_seperator">
+                </span>
+                <span class="small_seperator">
+                </span>
+                <div class="tray">
+                    <span class="calendar">
+                    </span>
+                    <span class="time" id="showClock">
+                        00:00 AM
+                    </span>
+                </div>
+            </div>
+        </div>
+    <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://www.pizzaslime.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847583&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvd3d3LnBpenphc2xpbWUuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=LGIDCKLBFD&K=f299df0379940bbebcb12204644fc9f4ba4b3b9adb6d30846c4ec3720c951ffb&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847583&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvd3d3LnBpenphc2xpbWUuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=LGIDCKLBFD&K=7659e46f375d25fc95847f23aef9a4f31a9ac2a81cd35547e74a75ba65d735f0&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847583&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3d3dy5waXp6YXNsaW1lLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJwb3N0aWQiOiI5Nzk0MTc2MzUyMCIsImJsb2dpZCI6IjU1NDkwOTA2Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NzI0MjExNjYwNSIsImJsb2dpZCI6IjU1NDkwOTA2Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NzE5NzgxNTA5MCIsImJsb2dpZCI6IjU1NDkwOTA2Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5Njg0MzQ0ODI5MCIsImJsb2dpZCI6IjU1NDkwOTA2Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5Njg0MDY3OTEyMCIsImJsb2dpZCI6IjU1NDkwOTA2Iiwic291cmNlIjozM31dfQ==&U=PAKBPOCHMC&K=8a7ff622d3a19ace69c74c55e45993b802aafdbb979edc93ae0f5b9620e6ffe6&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847583&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3d3dy5waXp6YXNsaW1lLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJwb3N0aWQiOiI5Nzk0MTc2MzUyMCIsImJsb2dpZCI6IjU1NDkwOTA2Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NzI0MjExNjYwNSIsImJsb2dpZCI6IjU1NDkwOTA2Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NzE5NzgxNTA5MCIsImJsb2dpZCI6IjU1NDkwOTA2Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5Njg0MzQ0ODI5MCIsImJsb2dpZCI6IjU1NDkwOTA2Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5Njg0MDY3OTEyMCIsImJsb2dpZCI6IjU1NDkwOTA2Iiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=PAKBPOCHMC&K=74b6c81a5397a69381259d190986c6e08a68f34bf2fcf337039708c8e1a2fb2d&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:55490906,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2Fwww.pizzaslime.com%2F&amp;lang=en_US&amp;name=pizzaslimepizzaslimepizzaslime&amp;brag=false&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_ecd9a2e67c57_64.png&amp;title=PizzaSlime&amp;url=http%3A%2F%2Fwww.pizzaslime.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2Fwww.pizzaslime.com%2F&amp;lang=en_US&amp;name=pizzaslimepizzaslimepizzaslime&amp;brag=false&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_ecd9a2e67c57_64.png&amp;title=PizzaSlime&amp;url=http%3A%2F%2Fwww.pizzaslime.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

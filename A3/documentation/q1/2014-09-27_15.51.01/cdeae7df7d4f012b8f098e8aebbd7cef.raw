@@ -1,0 +1,1627 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<html>
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        <title>▼Trap Visions▼</title>
+        <link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_7544451b18bb_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://trapvisions.tumblr.com/rss">
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        
+        <script src="http://static.tumblr.com/wgijwsy/Ebfm2v4gy/jquery.masonry.min.js"></script>
+        <script src="http://static.tumblr.com/wgijwsy/u2vm2hxv6/jquery.infinitescroll.min.js"></script>
+        <script src="http://static.tumblr.com/iwtk77u/Yhym2yygt/jquery.imagesloaded.min.js"></script>
+        
+        
+        <meta name="image:Background" content=""/>
+        
+        <meta name="color:Background" content="#ffffff"/>
+        <meta name="color:Text" content="#000000"/>
+        <meta name="color:Link" content="#515151"/>
+        
+        <meta name="font:Text" content="Futura"/>
+        
+        <meta name="select:Text Size" content="12" title="Normal"/>
+        <meta name="select:Text Size" content="10" title="Small"/>
+        <meta name="select:Text Size" content="16" title="Big"/>
+        
+        <meta name="if:Show Photo Caption" content="0"/>
+        <meta name="if:Show Photo Border" content="1"/> 
+        <meta name="if:Infinite Scroll" content="1"/>
+        <meta name="if:Show Full Notes" content="0"/>
+        <meta name="if:Show RSS" content="0"/>
+        <meta name="if:Show Archive" content="0"/>
+        <meta name="if:Show Theme Link" content="0"/>
+        
+        <meta name="text:Twitter Username" content="" />
+        <meta name="text:Instagarm Username" content="" />
+        <meta name="text:Facebook URL" content="" />
+        
+        <meta name="text:Custom Link One URL" content="" />
+        <meta name="text:Custom Link One Title" content="" />
+        <meta name="text:Custom Link Two URL" content="" />
+        <meta name="text:Custom Link Two Title" content="" />
+        <meta name="text:Custom Link Three URL" content="" />
+        <meta name="text:Custom Link Three Title" content="" />
+
+         <!-- HEDER VARIABLES //  -->
+        <!-- HEDER VARIABLES // THE X THEME --> 
+        
+        <meta name="color:Title" content="#000000"/>
+        <meta name="color:Description" content="#000000"/>
+        
+        <meta name="font:Title" content="Futura"/>
+        <meta name="font:Description" content="Futura"/>
+        
+        <meta name="select:Content Size" content="1000px" title="Middle Content"/>
+        <meta name="select:Content Size" content="1200px" title="Big Content"/>
+        <meta name="select:Content Size" content="800px" title="Small Content"/>
+
+        <meta name="select:Rows" content="21" title="4 Rows"/>
+        <meta name="select:Rows" content="16" title="5 Rows"/>
+        <meta name="select:Rows" content="29" title="3 Rows"/>
+        <meta name="select:Rows" content="46" title="2 Rows"/>
+        
+        <meta name="select:Title Size" content="21" title="Normal"/>
+        <meta name="select:Title Size" content="16" title="Small"/>
+        <meta name="select:Title Size" content="24" title="Big"/>
+        <meta name="select:Title Size" content="28" title="Very Big"/>
+        
+        <meta name="select:Avatar" content="https://31.media.tumblr.com/430a292368811d944410d62244be936c/tumblr_mjnvh6hoFN1s3zdk4o1_500.png" title="X"/>
+        <meta name="select:Avatar" content="50%" title="Circle"/>
+        <meta name="select:Avatar" content="https://24.media.tumblr.com/778d47cb80f3b0dfa6139e149c1941cd/tumblr_n0n4qlAzt71s3zdk4o1_500.png" title="Crone"/>
+        <meta name="select:Avatar" content="https://24.media.tumblr.com/71841b2443c213e9fe227bfccedb14b7/tumblr_mjlwsqPwLE1s3zdk4o1_250.png" title="Triangle"/>
+        <meta name="select:Avatar" content="0%" title="Square"/>
+        <meta name="select:Avatar" content="none" title="Hide"/> 
+
+        <style>
+        
+            body {
+                margin: 0;
+                padding: 0;
+                background: #FFFFFF;
+                background-image: url('http://assets.tumblr.com/images/x.gif');
+                background-attachment: fixed; 
+                font-size: 12px /* select:Font Size */;
+                font-family: Futura, 'Century Gothic', AppleGothic, sans-serif; 
+            }
+
+            a {
+                color: #000000; /* color:Link */
+                text-decoration: none;
+            }
+            
+            /* GENERAL  */ 
+            
+            #infscr-loading {
+                display: none;
+                opacity: 0; 
+            } 
+        
+            #content {
+                width: 100%;  
+                height: 100%; 
+                margin: 0 auto;
+                font-family: Futura, 'Century Gothic', AppleGothic, sans-serif; 
+            }
+            
+            #content a{
+                color: #000; /* color:Link */
+                text-decoration: none;
+                border-bottom: 1px solid rgba(100, 100, 100, 0.2);
+            }
+
+            #description a {
+                color: #000000; /* color:Link */
+                text-decoration: underline;
+            }
+            
+            #overlayer {
+                position: fixed;
+                z-index: -1;
+                top: 0px;
+                height: 100%; 
+                background-color: #FFF; 
+                padding-left: 20px; 
+                padding-right: 20px; 
+                left: calc(50% - 100%/2 - 20px); 
+                width: 100%;
+            }
+            
+            /* GENERAL POST */ 
+            
+            #content .post {
+                background: #FFF; /* color:Post Background */
+                color: #000000; /* color:Text */ 
+                width: calc(21% - 1px);
+                word-wrap: break-word;
+                margin-left: 1%;
+                margin-right: 1%;
+                overflow: hidden;
+                margin-top: 2%;
+                padding: 1%; 
+                font-size: 12 /* select:Font Size */;
+                padding-bottom: calc(1% + 40px);
+                
+            }
+            
+            #content .post blockquote {
+                display: block; 
+                -webkit-margin-before: 5px !important;
+                -webkit-margin-after: 5px !important;
+                -webkit-margin-start: 8px !important;
+                -webkit-margin-end: 8px !important;
+                border-left: 3px solid rgb(230, 230, 230);
+                padding-left: 10px; 
+                top: 3px; 
+                position: relative;
+            }
+            
+            #content .post a{
+                color: #000000; /* color:Link */
+                text-decoration: none;
+                border-bottom: 1px solid rgba(100, 100, 100, 0.2);
+            }
+            
+            #content .post img {
+                height: auto;
+                width: auto;
+                position: relative;
+                display: block;
+            }
+            
+            #content .post iframe, img, embed, object, video {
+                max-width: 100%;
+            }
+
+            #content .post .answer_form_container {
+                min-height: 140px; 
+                position: relative;
+            }
+            
+            #content .post #headline {
+                font-weight: 300;
+                text-align: center;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                padding-bottom: 10px; 
+                font-size: 150%;
+                font-weight: 400;
+            }
+            
+            #content .post #headline a{
+                color: #000000; /* color:Text */ 
+                border: none;
+                text-decoration: none;
+            }
+            
+            /* POST CONTROLS */ 
+            
+            #content .post .control {
+                width: 94%; 
+                padding-left: calc(6% + 1px);
+                height: 36px; 
+                right: 0px;
+                bottom: 0px;
+                border-top: 1px solid rgba(200, 200, 200, 0.2);
+                background-color: #FFF; 
+                position: absolute;
+                font-size: 10px; 
+                color: rgba(100, 100, 100, 0.6); 
+            }
+            
+            #content .post .control .notes{
+                text-decoration: none;
+                color: rgba(100, 100, 100, 0.6); 
+                border: none;
+                float: left;
+                line-height: 36px;
+                position: absolute;
+            }
+            
+            #content .post .control #buttons {
+                position: absolute; 
+                width: 46px; 
+                height: 20px; 
+                top: 10px; 
+                right: 5%;
+                opacity: 0.4; 
+            }
+            
+            #content .post .control #buttons #like{
+                position: absolute; 
+                width: 20px; 
+                float: left;
+                opacity: 0.5; 
+            }
+            
+            #content .post .control #buttons #like:hover{
+                opacity: 1; 
+            }
+            
+            #content .post .control #buttons #reblog{
+                position: absolute; 
+                width: 20px; 
+                float: left;
+                right: 0;
+                opacity: 0.5; 
+                margin-left: 5px; 
+            }
+            
+            #content .post .control #buttons #reblog:hover{
+                opacity: 1; 
+            }
+            
+            #content .post .control #buttons #reblog a{
+                border: none;
+            }
+            
+            /* POST TEXT */ 
+        
+            #content .text #body {
+                line-height: 16px;
+                text-align: justify;
+            }
+        
+            /* POST PHOTO */ 
+        
+            #content .photo {
+                background: #FFF;
+                
+                
+                padding: 1%;
+                  
+                
+            }
+            
+            #content .photo img{
+                margin: 0 auto; 
+            }
+            
+            /* POST PHOTO -> :hover*/ 
+            
+            #content .photo .hover{
+                position: absolute; 
+                top: 0; 
+                left: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                display: block;
+                text-align: center; 
+                -webkit-transition: all 0.2s ease-out; 
+                -webkit-transition: all 0.2s ease-out;
+                -moz-transition: all 0.2s ease-out;
+                transition: all 0.2s ease-out; 
+            }
+            
+            #content .photo:hover .hover{
+                opacity: 1; 
+                display: block;
+                background-color: rgba(255, 255, 255, 0.2);
+            }
+            
+            #content .photo .hover .buttons{
+                width: 128px; 
+                height: 40px; 
+                left: 50%;
+                display: block;
+                margin-left: -64px; 
+                position: relative; 
+                top: 50%;
+                margin-top: -20px; 
+            }
+            
+            #content .photo .hover .buttons #like{
+                width: 32px; 
+                padding-left: 0px; 
+                height: 24px; 
+                padding-top: 6px; 
+                float: left;
+                line-height: 30px; 
+                border-radius: 2px;
+                position: relative;
+                background-color: black;
+            }
+            
+            #content .photo .hover .buttons #reblog{
+                width: 25px; 
+                padding-left: 7px; 
+                height: 24px; 
+                margin-left: 8px; 
+                padding-top: 6px; 
+                float: left;
+                border-radius: 2px;
+                line-height: 30px; 
+                position: relative;
+                background-color: black;
+            }
+            
+            #content .photo .hover .buttons a{
+                border: none !important;
+            }
+            
+            #content .photo .hover .buttons #notes{
+                width: 46px; 
+                height: 30px;
+                margin-left: 8px; 
+                text-align: center;
+                font-size: 10px;
+                border-radius: 2px;
+                float: left;
+                line-height: 30px; 
+                position: relative;
+                color: #FFF; 
+                background-color: black;
+            }
+            
+            #content .photo .hover .buttons #notes a{
+                color: #FFF; 
+                text-decoration: none;
+                border: none;
+            }
+            
+            /* POST PANORAMA */ 
+            /* POST PHOTOSET */
+            
+            #content .photoset .image {
+                margin-top: 10px; 
+            }
+            
+            #content .photoset .image:first-child {
+                margin-top: 0px; 
+            }
+        
+            /* POST QUOTE */ 
+            
+            #content .quote #quote {
+                font-size: 150%;
+                position: relative;
+            }
+            
+            #content .quote #source {
+                text-align: right;
+                position: relative;
+                margin-top: 10px; 
+                width: 80%;
+                left: 20%;
+                font-size: 80%;
+            }
+            
+            /* POST LINK */ 
+        
+             #content .link #box {
+                position: absolute;
+                top: -0px;
+                left: 0;
+                width: calc(90% + 3px); 
+                padding-left: 5%; 
+                padding-right: 5%; 
+                padding-top: 20px; 
+                padding-bottom: 20px; 
+                background-color: #000000; /* Color:Link Post  */ 
+                color: #FFF; 
+                text-align: center;
+                font-size: 110%;
+            }
+            
+            #content .link #visiblebox {
+                position: relative;
+                top: 0px;
+                left: 0;
+                width: 100%; 
+                padding-top: 25px; 
+                padding-bottom: 20px; 
+                opacity: 0; 
+            }
+            
+            #content .link #box #link{
+                position: relative;
+                color: #FFF; 
+                z-index: 2;
+                font-weight: 100;
+            }
+            
+            /* POST CHAT */ 
+            
+            #content .chat {
+                font-size: 110%;
+            }
+            
+            #content .chat li{
+                list-style: none; 
+                margin-top: 10px; 
+                border-top: 1px solid rgba(150, 150, 150, 0.1); 
+                padding-top: 10px; 
+            }
+            
+            #content .chat li:first-child{
+                border: none;
+                margin-top: 0px;
+            }
+            
+            #content .chat .label {
+                font-weight: bold !important;
+            }
+            
+            /* POST VIDEO */ 
+            
+            .video .tumblr_video_container {
+                width: 100% !important;
+            }
+            
+            /* POST AUDIO */
+            
+            .audio #cover {
+                position: absolute;
+                top: 0px; 
+                right: 0px; 
+                width: 100%; 
+            }
+            
+            .audio #infos {
+                padding-top: 15px; 
+                padding-bottom: 15px; 
+                background-color: rgba(0, 0, 0, 1); 
+                color: #FFF; 
+                width: 96%;
+                padding-left: 2%;
+                padding-right: 2%; 
+                height: 28px; 
+                word-wrap: break-word;
+                line-height: 16px; 
+                text-align: center; 
+                position: relative;
+            }
+            
+            .audio #cover:hover #infos{
+                background-color: rgba(0, 0, 0, 1); 
+            }
+            
+            .audio #caption {
+                margin-top: 46px; 
+            }
+        
+            .audio #player iframe{
+                height: 40px;
+                width: 100%; 
+            }
+            
+            .spotify_audio_player {
+                height: 90px; 
+                max-height: 90px; 
+            }
+            
+            /* POST ANSWER */ 
+            
+            #content .answer {}
+            
+            #content .answer #avatar {
+                position: relative;
+                float: left;
+                margin-right: 8px; 
+                margin-bottom: 10px; 
+            }
+            
+            #content .answer #asker {
+                font-size: 100%;
+                font-weight: bold;
+                word-wrap: break-word;
+                border-bottom: 1px solid rgba(150, 150, 150, 0.1); 
+            }
+            
+            #content .answer #text {
+                margin-top: 10px; 
+            }
+            
+            #content .answer #answer {
+                margin-top: 14px; 
+                border-top: 1px solid rgba(150, 150, 150, 0.1); 
+            }
+            
+            /* PERMALINK  PAGE */ 
+            
+            .permalinkpage {
+                width: 500px; 
+                position: relative;
+                left: 50%;
+                margin-left: -250px; 
+            }
+            
+            .permalinkpage .reblogs {
+                width: 100%;
+                margin-top: 30px; 
+                position: relative;
+                height: 40px; 
+                color: #000000; /* Text color */ 
+            }
+            
+            .permalinkpage .reblogs a{
+                color: #000000 !important; /* Text color */ 
+                text-decoration: none;
+                border-bottom: 1px solid rgb(240, 240, 240);
+            }
+            
+            .permalinkpage .reblogs #reblog{
+                width: 100%;
+                height: 40px; 
+                position: relative;
+                background-color: #FFF;
+                float: left;
+                text-align: center;
+                line-height: 40px; 
+            }
+            
+            .permalinkpage .reblogs #source{
+                width: 49%;
+                margin-left: 2%;
+                height: 40px; 
+                position: relative;
+                background-color: #FFF;
+                float: left;
+                text-align: center;
+                line-height: 40px; 
+            }
+            
+            .permalinkpage .notescontainer{
+                width: 470px; 
+                margin-top: 12px; 
+                background-color: #FFF;
+                padding: 15px; 
+                color: #000000; /* Text color */ 
+            }
+            
+            .permalinkpage .notescontainer #info {
+                position: relative;
+                height: 22px; 
+                width: 100%;
+            }
+            
+            .permalinkpage .notescontainer #info #left{
+                text-align: left;
+                width: 470px; 
+                left: 0px; 
+                top: 0px; 
+                font-size: 18px;
+                position: absolute;
+            }
+            
+            .permalinkpage .notescontainer #info #center{
+                text-align: center;
+                width: 470px; 
+                left: 0px; 
+                top: 5px; 
+                font-size: 12px; 
+                position: absolute;
+            }
+            
+            .permalinkpage .notescontainer #info #right{
+                text-align: right;
+                width: 470px; 
+                right: 0px; 
+                top: 0px; 
+                font-size: 18px; 
+                position: absolute;
+            }
+            
+            .permalinkpage .notescontainer #caption{
+                width: 100%;
+                position: relative;
+                border-top: 1px solid rgba(230, 230, 230, 1);
+                border-bottom: 1px solid rgba(230, 230, 230, 1);
+                font-size: 12px; 
+                text-align: justify;
+                margin-top: 20px; 
+                padding-top: 8px; 
+                padding-bottom: 8px; 
+            }
+            
+            .permalinkpage .notescontainer #caption a{
+                color: #000000; /* Text/Link color */ 
+                text-decoration: none;
+                border-bottom: 1px solid rgb(240, 240, 240);
+            }
+            
+            .permalinkpage .notescontainer #source {
+                width: 100%;
+                height: 40px;
+                background-color: #000000; /* Text/Link color */ 
+                line-height: 40px; 
+                font-size: 18px; 
+                color: #FFF; 
+                text-align: center;
+                margin-top: 12px; 
+            }
+            
+            .permalinkpage .notescontainer #tags {
+                width: 430px; 
+                position: relative;
+                display: block;
+                padding-top: 8px; 
+                padding-bottom: 8px; 
+                margin-left: -0px; 
+                margin-top: -1px;
+                list-style: none; 
+                border-top: 1px solid rgba(230, 230, 230, 1);
+                border-bottom: 1px solid rgba(230, 230, 230, 1);
+            }
+            
+            .permalinkpage .notescontainer #tags li{
+                clear: none !important;
+                display: inline-block;
+                height: 15px;
+                margin: 0 4px 0 0;
+                overflow: hidden;
+                width: auto;
+            }
+        
+            .permalinkpage .notescontainer #tags li:first-child{
+                margin-left: -3em;
+            }
+            
+            .permalinkpage .notescontainer #tags li a{
+                color: #000000; /* Text/Link color */ 
+                text-decoration: none;
+                border: none;
+            }
+        
+            .permalinkpage .notescontainer ol.notes {
+                width: 100%;
+                margin-bottom: 60px;  /* PERMALINK PAGE BOTTOM */ 
+                position: relative;
+                display: block;
+                margin-left: -36px; 
+                list-style: none;
+                font-size: 12px;
+            }
+
+            .permalinkpage .notescontainer ol.notes li.note {
+                clear: none !important;
+                display: inline-block;
+                height: 15px;
+                margin: 0 4px 0 0;
+                overflow: hidden;
+                width: 15px;
+                
+            }
+            
+            .permalinkpage .notescontainer ol.notes a{
+                border: none !important;
+                color: #000000;
+            }
+
+            .permalinkpage .notescontainer ol.notes li.note img.avatar {
+                width:  15px;
+                height: 15px;
+                border: none !important;
+                
+            }
+
+            .permalinkpage .notescontainer ol.notes li.note span.action {
+                display: none;
+                
+            }
+            
+            .permalinkpage .notescontainer .more_notes_link_container {
+                clear: both !important;
+                display: block !important;
+                font-size: 10px;
+                height: auto;
+                overflow: visible;
+                position: relative !important;;
+                text-align: left !important;
+                width: 100% !important;
+                text-align: center !important;
+                margin-top: 20px !important;
+                
+            }
+            
+            ol.notes li.note .answer_content {
+                display: none;
+            }
+
+            ol.notes li.note blockquote {
+                display: none;
+            }
+
+            ol.notes li.note blockquote a {
+                display: none;
+            }
+            
+            /* FOOTER  */ 
+        
+            #nextpage {
+                width: 95%;
+                margin-left: 2.5%; 
+                margin-top: 50px; 
+                left: 5%;
+                height: 60px; 
+                background-color: rgba(255, 255, 255, 0.6);
+                bottom: 0;
+                font-size: 18px; 
+                line-height: 60px; 
+                text-align: center;
+                position: relative;
+            }
+            
+            #nextpage a{
+                color: rgba(40, 40, 40, 1); 
+                border: none;
+            }
+            
+            #prepage {
+                width: 95%;
+                margin-left: 2.5%; 
+                margin-top: 20px; 
+                left: 5%;
+                height: 60px; 
+                background-color: rgba(255, 255, 255, 0.6);
+                bottom: 0;
+                font-size: 18px; 
+                line-height: 60px; 
+                text-align: center;
+                position: relative;
+            }
+            
+            #prepage a{
+                color: rgba(40, 40, 40, 1); 
+                border: none;
+            }
+            
+            /* CSS //  */ 
+            
+            /* THE X THEME CSS */ 
+            
+            #overlayer {
+                position: fixed;
+                z-index: -1;
+                top: 0px;
+                height: 100%; 
+                background-color: #FFF; 
+                padding-left: 20px; 
+                padding-right: 20px; 
+                left: calc(50% - 100%/2 - 20px); 
+                width: 100%;
+            }
+            
+            #header {
+                margin-bottom: 60px; 
+                margin-top: 40px;
+            }
+            
+            #header #avatar {
+                position: relative;
+                left: 50%;
+                margin-left: -64px; 
+                border-radius:0%; 
+                display: 0%; 
+                display: block;
+            }
+            
+            #header #layer {
+                width: 128px; 
+                height: 128px;
+                background-size: 128px; 
+                position: relative; 
+                display: block;
+                left: 50%;
+                margin-top: -128px;
+                margin-left: -64px; 
+                background-image: url(0%);
+            }
+            
+            #header #title {
+                font-size: 21px; /* Title Size */ 
+                text-align: center;
+                font-family: 'Grumpy Black 48', serif; /* Title Font Family */ 
+                text-transform: uppercase;
+                font-weight: 100; 
+            }
+            
+            #header #title a{
+                color: #000000; /* Title Color */
+                text-decoration: none;
+            }
+            
+            #header #description {
+                width: 500px;
+                position: relative;
+                left: 50%; 
+                margin-left: -250px; 
+                font-size: 10px; 
+                text-align: center; 
+                font-family: 'Clarendon Text Pro', serif;
+                color: #000000; /* Descripton Color */
+            }
+            
+            #header #links {
+                width: 500px; 
+                font-size: 10px; 
+                position: relative;
+                left: 50%;
+                margin-left: -250px; 
+                text-align: center;
+                margin-top: 20px; 
+                font-family: 'Clarendon Text Pro', serif;
+            }
+            
+            #header #links .link{
+                text-decoration: none;
+                margin-left: 5px; 
+                margin-right: 5px; 
+                color: #000000; /* description Color */
+            } 
+            
+            
+
+        </style>
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=trapvisions" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/clarendontextpro/stylesheet.css?v=3"><link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/grumpyblack48/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="▼Trap Visions▼" /><meta property="og:url" content="http://trapvisions.tumblr.com/?og=1" /><meta property="og:description" content="" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_7544451b18bb_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=trapvisions" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=trapvisions" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="trapvisions" /><meta name="twitter:description" content=" " /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=trapvisions&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=trapvisions&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=trapvisions&amp;referrer=twitter-cards" />
+
+</head>
+    <body>
+        <a title="free tumblr themes" href="http://themesthatyoulike.tumblr.com"><iframe id="button" scrolling="no" style="position: fixed; bottom: 10px; right: 10px; border: none; width: 184px; height: 50px; z-index: 1337;" src="http://themesthatyoulike.com/button"></iframe></a> 
+        <script type="text/javascript">
+         if ( self !== top ) {document.getElementById('button').style.bottom='34px'; }
+        </script>
+
+         <div id="overlayer"></div>
+        <div id="header">
+            <img id="avatar" src="http://38.media.tumblr.com/avatar_7544451b18bb_128.png" /> 
+            <div id="layer"></div>
+            
+            <h1 id="title"><a href="/">▼Trap Visions▼</a></h1>
+            
+            
+            
+            <div id="links">
+              <a class="link" href="/ask">Ask Me Shit ? </a>  
+              
+              <a class="link" href="/FAQ">F.A.Q</a><a class="link" href="/tagged/trapvisions">My Face </a>
+              
+              
+              
+              
+              
+              <a class="link" href="http://twitter.com/trapvisions">Twitter</a>
+              <a class="link" href="http://instagram.com/trapvisual">Instagram</a>
+              
+              
+            </div>
+        </div> 
+        <div id="content">
+          
+            
+                    <article class="post photo">
+                        <img src="http://36.media.tumblr.com/cdd87b4a170ba979d541fd9a09817f56/tumblr_n8eyysl1re1sfmeyho1_500.jpg" alt="▲&nbsp;Follow&nbsp;TRAPVISIONS&nbsp;For more Girls ,&nbsp;Luxury &amp;amp; fashion posts&amp;#160;!&nbsp;▲"/>
+                        
+                        
+                         <div style="" class="hover">
+                            <div class="buttons">
+                                <div id="like"><div class="like_button" data-post-id="97594857565" id="like_button_97594857565"><iframe id="like_iframe_97594857565" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97594857565&amp;color=white&amp;rk=7PAscU4S" scrolling="no" width="18" height="18" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                                <div id="reblog"><a href="https://www.tumblr.com/reblog/97594857565/7PAscU4S" class="reblog_button"style="display: block;width:18px;height:18px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                <div id="notes">
+                                 <a target="_blank" href="http://trapvisions.tumblr.com/post/97594857565/follow-trapvisions-for-more-girls-luxury">12282</a>
+                                </div>
+                            </div>
+                         </div>
+                         
+                         
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style=" display: none;  "  class="control">
+                    <a href="http://trapvisions.tumblr.com/post/97594857565/follow-trapvisions-for-more-girls-luxury" title="Permalink Page" class="notes">12,282 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="97594857565" id="like_button_97594857565"><iframe id="like_iframe_97594857565" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97594857565&amp;color=black&amp;rk=7PAscU4S" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/97594857565/7PAscU4S" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        <img src="http://33.media.tumblr.com/841cba85551549d2f7aab1cb5b143855/tumblr_nbnndz6DBK1sgz00fo1_500.jpg" alt="▲&nbsp;Follow&nbsp;TRAPVISIONS&nbsp;For more Girls ,&nbsp;Luxury &amp;amp; fashion posts&amp;#160;!&nbsp;▲"/>
+                        
+                        
+                         <div style="" class="hover">
+                            <div class="buttons">
+                                <div id="like"><div class="like_button" data-post-id="97594776155" id="like_button_97594776155"><iframe id="like_iframe_97594776155" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97594776155&amp;color=white&amp;rk=DzZAP9f1" scrolling="no" width="18" height="18" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                                <div id="reblog"><a href="https://www.tumblr.com/reblog/97594776155/DzZAP9f1" class="reblog_button"style="display: block;width:18px;height:18px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                <div id="notes">
+                                 <a target="_blank" href="http://trapvisions.tumblr.com/post/97594776155/follow-trapvisions-for-more-girls-luxury">6172</a>
+                                </div>
+                            </div>
+                         </div>
+                         
+                         
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style=" display: none;  "  class="control">
+                    <a href="http://trapvisions.tumblr.com/post/97594776155/follow-trapvisions-for-more-girls-luxury" title="Permalink Page" class="notes">6,172 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="97594776155" id="like_button_97594776155"><iframe id="like_iframe_97594776155" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97594776155&amp;color=black&amp;rk=DzZAP9f1" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/97594776155/DzZAP9f1" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        <img src="http://31.media.tumblr.com/85a46992bfaf7d59d40bc18e05172cba/tumblr_nbih1iw4Fl1thgzq5o1_500.jpg" alt="▲&nbsp;Follow&nbsp;TRAPVISIONS&nbsp;For more Girls ,&nbsp;Luxury &amp;amp; fashion posts&amp;#160;!&nbsp;▲"/>
+                        
+                        
+                         <div style="" class="hover">
+                            <div class="buttons">
+                                <div id="like"><div class="like_button" data-post-id="97594750440" id="like_button_97594750440"><iframe id="like_iframe_97594750440" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97594750440&amp;color=white&amp;rk=E8usSoTM" scrolling="no" width="18" height="18" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                                <div id="reblog"><a href="https://www.tumblr.com/reblog/97594750440/E8usSoTM" class="reblog_button"style="display: block;width:18px;height:18px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                <div id="notes">
+                                 <a target="_blank" href="http://trapvisions.tumblr.com/post/97594750440/follow-trapvisions-for-more-girls-luxury">563</a>
+                                </div>
+                            </div>
+                         </div>
+                         
+                         
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style=" display: none;  "  class="control">
+                    <a href="http://trapvisions.tumblr.com/post/97594750440/follow-trapvisions-for-more-girls-luxury" title="Permalink Page" class="notes">563 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="97594750440" id="like_button_97594750440"><iframe id="like_iframe_97594750440" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97594750440&amp;color=black&amp;rk=E8usSoTM" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/97594750440/E8usSoTM" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        <img src="http://36.media.tumblr.com/ecf3d4d41903463b87438081d40a6fd5/tumblr_n8jdqseChi1s0tx6eo1_500.jpg" alt="▲&nbsp;Follow&nbsp;TRAPVISIONS&nbsp;For more Girls ,&nbsp;Luxury &amp;amp; fashion posts&amp;#160;!&nbsp;▲"/>
+                        
+                        
+                         <div style="" class="hover">
+                            <div class="buttons">
+                                <div id="like"><div class="like_button" data-post-id="97594730565" id="like_button_97594730565"><iframe id="like_iframe_97594730565" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97594730565&amp;color=white&amp;rk=tGSUZZ4t" scrolling="no" width="18" height="18" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                                <div id="reblog"><a href="https://www.tumblr.com/reblog/97594730565/tGSUZZ4t" class="reblog_button"style="display: block;width:18px;height:18px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                <div id="notes">
+                                 <a target="_blank" href="http://trapvisions.tumblr.com/post/97594730565/follow-trapvisions-for-more-girls-luxury">3946</a>
+                                </div>
+                            </div>
+                         </div>
+                         
+                         
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style=" display: none;  "  class="control">
+                    <a href="http://trapvisions.tumblr.com/post/97594730565/follow-trapvisions-for-more-girls-luxury" title="Permalink Page" class="notes">3,946 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="97594730565" id="like_button_97594730565"><iframe id="like_iframe_97594730565" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97594730565&amp;color=black&amp;rk=tGSUZZ4t" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/97594730565/tGSUZZ4t" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        <img src="http://38.media.tumblr.com/f190b0cb4fee2fec10b9bb246aafdafc/tumblr_nbtwl6ASZs1t44sufo1_500.jpg" alt="▲&nbsp;Follow&nbsp;TRAPVISIONS&nbsp;For more Girls ,&nbsp;Luxury &amp;amp; fashion posts&amp;#160;!&nbsp;▲"/>
+                        
+                        
+                         <div style="" class="hover">
+                            <div class="buttons">
+                                <div id="like"><div class="like_button" data-post-id="97594668605" id="like_button_97594668605"><iframe id="like_iframe_97594668605" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97594668605&amp;color=white&amp;rk=LtSi4zrU" scrolling="no" width="18" height="18" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                                <div id="reblog"><a href="https://www.tumblr.com/reblog/97594668605/LtSi4zrU" class="reblog_button"style="display: block;width:18px;height:18px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                <div id="notes">
+                                 <a target="_blank" href="http://trapvisions.tumblr.com/post/97594668605/follow-trapvisions-for-more-girls-luxury">20565</a>
+                                </div>
+                            </div>
+                         </div>
+                         
+                         
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style=" display: none;  "  class="control">
+                    <a href="http://trapvisions.tumblr.com/post/97594668605/follow-trapvisions-for-more-girls-luxury" title="Permalink Page" class="notes">20,565 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="97594668605" id="like_button_97594668605"><iframe id="like_iframe_97594668605" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97594668605&amp;color=black&amp;rk=LtSi4zrU" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/97594668605/LtSi4zrU" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photoset">
+                       
+                       <div class="photoset-grid" data-layout="11">
+                        
+                          <img class="image" src="http://33.media.tumblr.com/a6bb366313c36cecd5c3e596308bb8bd/tumblr_nbwwsdkjWI1qjqxmoo1_500.gif"  />
+                        
+                          <img class="image" src="http://33.media.tumblr.com/e49f99dda2dec4683e5076b239db5c10/tumblr_nbwwsdkjWI1qjqxmoo2_500.gif"  />
+                        
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style=" "  class="control">
+                    <a href="http://trapvisions.tumblr.com/post/97517331845/follow-trapvisions-for-more-girls-luxury" title="Permalink Page" class="notes">291 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="97517331845" id="like_button_97517331845"><iframe id="like_iframe_97517331845" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97517331845&amp;color=black&amp;rk=bllHYMH5" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/97517331845/bllHYMH5" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        <img src="http://38.media.tumblr.com/7b369dfc680d04db87615409a8271124/tumblr_nbvjglqoRd1r8efu6o1_500.jpg" alt="▲&nbsp;Follow&nbsp;TRAPVISIONS&nbsp;For more Girls ,&nbsp;Luxury &amp;amp; fashion posts&amp;#160;!&nbsp;▲"/>
+                        
+                        
+                         <div style="" class="hover">
+                            <div class="buttons">
+                                <div id="like"><div class="like_button" data-post-id="97517318295" id="like_button_97517318295"><iframe id="like_iframe_97517318295" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97517318295&amp;color=white&amp;rk=AQhPSFXI" scrolling="no" width="18" height="18" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                                <div id="reblog"><a href="https://www.tumblr.com/reblog/97517318295/AQhPSFXI" class="reblog_button"style="display: block;width:18px;height:18px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                <div id="notes">
+                                 <a target="_blank" href="http://trapvisions.tumblr.com/post/97517318295/follow-trapvisions-for-more-girls-luxury">1279</a>
+                                </div>
+                            </div>
+                         </div>
+                         
+                         
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style=" display: none;  "  class="control">
+                    <a href="http://trapvisions.tumblr.com/post/97517318295/follow-trapvisions-for-more-girls-luxury" title="Permalink Page" class="notes">1,279 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="97517318295" id="like_button_97517318295"><iframe id="like_iframe_97517318295" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97517318295&amp;color=black&amp;rk=AQhPSFXI" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/97517318295/AQhPSFXI" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        <img src="http://38.media.tumblr.com/031fd593923b676dd696165e5a6fb3ba/tumblr_nbvopqMKpD1qf4ywho1_500.jpg" alt="▲&nbsp;Follow&nbsp;TRAPVISIONS&nbsp;For more Girls ,&nbsp;Luxury &amp;amp; fashion posts&amp;#160;!&nbsp;▲"/>
+                        
+                        
+                         <div style="" class="hover">
+                            <div class="buttons">
+                                <div id="like"><div class="like_button" data-post-id="97517308865" id="like_button_97517308865"><iframe id="like_iframe_97517308865" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97517308865&amp;color=white&amp;rk=PxHr7wTK" scrolling="no" width="18" height="18" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                                <div id="reblog"><a href="https://www.tumblr.com/reblog/97517308865/PxHr7wTK" class="reblog_button"style="display: block;width:18px;height:18px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                <div id="notes">
+                                 <a target="_blank" href="http://trapvisions.tumblr.com/post/97517308865/follow-trapvisions-for-more-girls-luxury">1103</a>
+                                </div>
+                            </div>
+                         </div>
+                         
+                         
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style=" display: none;  "  class="control">
+                    <a href="http://trapvisions.tumblr.com/post/97517308865/follow-trapvisions-for-more-girls-luxury" title="Permalink Page" class="notes">1,103 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="97517308865" id="like_button_97517308865"><iframe id="like_iframe_97517308865" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97517308865&amp;color=black&amp;rk=PxHr7wTK" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/97517308865/PxHr7wTK" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        <img src="http://41.media.tumblr.com/7dda3b9f29d50e2b5cd1d4b2edcdc910/tumblr_mwhrb7Wz931qfhbsvo1_500.jpg" alt="▲&nbsp;Follow&nbsp;TRAPVISIONS&nbsp;For more Girls ,&nbsp;Luxury &amp;amp; fashion posts&amp;#160;!&nbsp;▲"/>
+                        
+                        
+                         <div style="" class="hover">
+                            <div class="buttons">
+                                <div id="like"><div class="like_button" data-post-id="97517237860" id="like_button_97517237860"><iframe id="like_iframe_97517237860" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97517237860&amp;color=white&amp;rk=QmmHuIUx" scrolling="no" width="18" height="18" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                                <div id="reblog"><a href="https://www.tumblr.com/reblog/97517237860/QmmHuIUx" class="reblog_button"style="display: block;width:18px;height:18px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                <div id="notes">
+                                 <a target="_blank" href="http://trapvisions.tumblr.com/post/97517237860/follow-trapvisions-for-more-girls-luxury">1034</a>
+                                </div>
+                            </div>
+                         </div>
+                         
+                         
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style=" display: none;  "  class="control">
+                    <a href="http://trapvisions.tumblr.com/post/97517237860/follow-trapvisions-for-more-girls-luxury" title="Permalink Page" class="notes">1,034 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="97517237860" id="like_button_97517237860"><iframe id="like_iframe_97517237860" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97517237860&amp;color=black&amp;rk=QmmHuIUx" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/97517237860/QmmHuIUx" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        <img src="http://31.media.tumblr.com/172e46a40b4f08a31d4256899e188359/tumblr_nb5gpilJnP1r6pekco1_250.gif" alt="▲&nbsp;Follow&nbsp;TRAPVISIONS&nbsp;For more Girls ,&nbsp;Luxury &amp;amp; fashion posts&amp;#160;!&nbsp;▲"/>
+                        
+                        
+                         <div style="" class="hover">
+                            <div class="buttons">
+                                <div id="like"><div class="like_button" data-post-id="97517213275" id="like_button_97517213275"><iframe id="like_iframe_97517213275" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97517213275&amp;color=white&amp;rk=VY7Ux1Zq" scrolling="no" width="18" height="18" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                                <div id="reblog"><a href="https://www.tumblr.com/reblog/97517213275/VY7Ux1Zq" class="reblog_button"style="display: block;width:18px;height:18px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                <div id="notes">
+                                 <a target="_blank" href="http://trapvisions.tumblr.com/post/97517213275/follow-trapvisions-for-more-girls-luxury">5095</a>
+                                </div>
+                            </div>
+                         </div>
+                         
+                         
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style=" display: none;  "  class="control">
+                    <a href="http://trapvisions.tumblr.com/post/97517213275/follow-trapvisions-for-more-girls-luxury" title="Permalink Page" class="notes">5,095 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="97517213275" id="like_button_97517213275"><iframe id="like_iframe_97517213275" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97517213275&amp;color=black&amp;rk=VY7Ux1Zq" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/97517213275/VY7Ux1Zq" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        <img src="http://36.media.tumblr.com/6fad37517fd41a3065872529bc57b54b/tumblr_n9qh1vh2Hv1tbuitpo1_500.png" alt="▲&nbsp;Follow&nbsp;TRAPVISIONS&nbsp;For more Girls ,&nbsp;Luxury &amp;amp; fashion posts&amp;#160;!&nbsp;▲"/>
+                        
+                        
+                         <div style="" class="hover">
+                            <div class="buttons">
+                                <div id="like"><div class="like_button" data-post-id="97517202730" id="like_button_97517202730"><iframe id="like_iframe_97517202730" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97517202730&amp;color=white&amp;rk=12PqTQVX" scrolling="no" width="18" height="18" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                                <div id="reblog"><a href="https://www.tumblr.com/reblog/97517202730/12PqTQVX" class="reblog_button"style="display: block;width:18px;height:18px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                <div id="notes">
+                                 <a target="_blank" href="http://trapvisions.tumblr.com/post/97517202730/follow-trapvisions-for-more-girls-luxury">31909</a>
+                                </div>
+                            </div>
+                         </div>
+                         
+                         
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style=" display: none;  "  class="control">
+                    <a href="http://trapvisions.tumblr.com/post/97517202730/follow-trapvisions-for-more-girls-luxury" title="Permalink Page" class="notes">31,909 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="97517202730" id="like_button_97517202730"><iframe id="like_iframe_97517202730" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97517202730&amp;color=black&amp;rk=12PqTQVX" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/97517202730/12PqTQVX" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photoset">
+                       
+                       <div class="photoset-grid" data-layout="2">
+                        
+                          <img class="image" src="http://33.media.tumblr.com/68fa529fc21e16f064e18ff35fda34fb/tumblr_namwojNsHT1tbuitpo1_250.gif"  />
+                        
+                          <img class="image" src="http://33.media.tumblr.com/ea331686d9a5fbaac68323c2d433f369/tumblr_namwojNsHT1tbuitpo2_250.gif"  />
+                        
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style=" "  class="control">
+                    <a href="http://trapvisions.tumblr.com/post/97517190835/follow-trapvisions-for-more-girls-luxury" title="Permalink Page" class="notes">4,176 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="97517190835" id="like_button_97517190835"><iframe id="like_iframe_97517190835" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97517190835&amp;color=black&amp;rk=oAC5O4Nn" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/97517190835/oAC5O4Nn" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        <img src="http://33.media.tumblr.com/b602ae8a2e0bd66174c117b3987bf765/tumblr_nbqx4cJsjk1tbuitpo1_500.jpg" alt="▲&nbsp;Follow&nbsp;TRAPVISIONS&nbsp;For more Girls ,&nbsp;Luxury &amp;amp; fashion posts&amp;#160;!&nbsp;▲"/>
+                        
+                        
+                         <div style="" class="hover">
+                            <div class="buttons">
+                                <div id="like"><div class="like_button" data-post-id="97517176460" id="like_button_97517176460"><iframe id="like_iframe_97517176460" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97517176460&amp;color=white&amp;rk=cZzc2jns" scrolling="no" width="18" height="18" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                                <div id="reblog"><a href="https://www.tumblr.com/reblog/97517176460/cZzc2jns" class="reblog_button"style="display: block;width:18px;height:18px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                <div id="notes">
+                                 <a target="_blank" href="http://trapvisions.tumblr.com/post/97517176460/follow-trapvisions-for-more-girls-luxury">1157</a>
+                                </div>
+                            </div>
+                         </div>
+                         
+                         
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style=" display: none;  "  class="control">
+                    <a href="http://trapvisions.tumblr.com/post/97517176460/follow-trapvisions-for-more-girls-luxury" title="Permalink Page" class="notes">1,157 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="97517176460" id="like_button_97517176460"><iframe id="like_iframe_97517176460" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97517176460&amp;color=black&amp;rk=cZzc2jns" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/97517176460/cZzc2jns" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        <img src="http://38.media.tumblr.com/2dc500bef68617c0b3a5061ff1596428/tumblr_n9hv46Jv2N1rwaupfo1_r1_500.gif" alt="▲&nbsp;Follow&nbsp;TRAPVISIONS&nbsp;For more Girls ,&nbsp;Luxury &amp;amp; fashion posts&amp;#160;!&nbsp;▲"/>
+                        
+                        
+                         <div style="" class="hover">
+                            <div class="buttons">
+                                <div id="like"><div class="like_button" data-post-id="97517167440" id="like_button_97517167440"><iframe id="like_iframe_97517167440" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97517167440&amp;color=white&amp;rk=pU4FxEfE" scrolling="no" width="18" height="18" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                                <div id="reblog"><a href="https://www.tumblr.com/reblog/97517167440/pU4FxEfE" class="reblog_button"style="display: block;width:18px;height:18px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                <div id="notes">
+                                 <a target="_blank" href="http://trapvisions.tumblr.com/post/97517167440/follow-trapvisions-for-more-girls-luxury">9574</a>
+                                </div>
+                            </div>
+                         </div>
+                         
+                         
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style=" display: none;  "  class="control">
+                    <a href="http://trapvisions.tumblr.com/post/97517167440/follow-trapvisions-for-more-girls-luxury" title="Permalink Page" class="notes">9,574 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="97517167440" id="like_button_97517167440"><iframe id="like_iframe_97517167440" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97517167440&amp;color=black&amp;rk=pU4FxEfE" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/97517167440/pU4FxEfE" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        <img src="http://36.media.tumblr.com/6f2e1f32bc31521881f1b5d04664f4cb/tumblr_mrjhocAAGe1qdpurno1_500.png" alt="▲&nbsp;Follow&nbsp;TRAPVISIONS&nbsp;For more Girls ,&nbsp;Luxury &amp;amp; fashion posts&amp;#160;!&nbsp;▲"/>
+                        
+                        
+                         <div style="" class="hover">
+                            <div class="buttons">
+                                <div id="like"><div class="like_button" data-post-id="97517157670" id="like_button_97517157670"><iframe id="like_iframe_97517157670" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97517157670&amp;color=white&amp;rk=0maEMKgR" scrolling="no" width="18" height="18" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                                <div id="reblog"><a href="https://www.tumblr.com/reblog/97517157670/0maEMKgR" class="reblog_button"style="display: block;width:18px;height:18px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                <div id="notes">
+                                 <a target="_blank" href="http://trapvisions.tumblr.com/post/97517157670/follow-trapvisions-for-more-girls-luxury">2998</a>
+                                </div>
+                            </div>
+                         </div>
+                         
+                         
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style=" display: none;  "  class="control">
+                    <a href="http://trapvisions.tumblr.com/post/97517157670/follow-trapvisions-for-more-girls-luxury" title="Permalink Page" class="notes">2,998 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="97517157670" id="like_button_97517157670"><iframe id="like_iframe_97517157670" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=trapvisions&amp;post_id=97517157670&amp;color=black&amp;rk=0maEMKgR" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/97517157670/0maEMKgR" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+            
+            
+        </div>
+
+        <p id="footer">
+            
+            
+                <next class="pagination"><a class="nextSelector"  href="/page/2"></a></next>
+            
+        </p>
+        
+        
+        <script>
+        
+        (function () {
+            var $tumblelog = $('#content');
+            $tumblelog.infinitescroll({
+                navSelector: ".pagination",
+                nextSelector: ".pagination a:last-child",
+                itemSelector: "article",
+        },
+        
+        function (newElements) {
+            var $newElems = $(newElements).css({
+            opacity: 0
+            });
+            
+        $newElems.imagesLoaded(function () {
+            $newElems.animate({
+                opacity: 1
+                });
+                $tumblelog.masonry('appended', $newElems);
+                });
+        });
+        
+        $tumblelog.imagesLoaded(function () {
+            $tumblelog.masonry({
+                columnWidth: function (containerWidth) {
+                return containerWidth / 100;
+                }
+                
+                });
+            });
+        })();
+        
+        (function () {var $tumblelog = $('#content');
+        })();
+        
+        var $tumblelog = $('#content');
+        $tumblelog.infinitescroll({
+            navSelector: ".pagination",
+            nextSelector: ".pagination a:last-child",
+            itemSelector: "article",
+            },
+            
+            function (newElements) {
+                var $newElems = $(newElements).css({
+                    opacity: 0
+                    });
+                    
+        $newElems.imagesLoaded(function () {
+        $newElems.animate({
+            opacity: 1
+            });
+        $tumblelog.masonry('appended', $newElems);
+        });
+        });
+        
+        $tumblelog.imagesLoaded(function () {
+            $tumblelog.masonry({
+                columnWidth: function (containerWidth) {
+                    return containerWidth / 100;
+                    }
+                
+                });
+        });
+        </script>
+        
+    <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://trapvisions.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411848275&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdHJhcHZpc2lvbnMudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=DMLENNKCEN&K=9ee759a2cd1d3c1652c21885c9c4e3bee49d8ca66fbed210a700fedafc56cb27&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411848275&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdHJhcHZpc2lvbnMudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=DMLENNKCEN&K=f7d39aa2bd44e4deef2c2b90d3e66e1a4b67f00baf23ad72bce473ced8f4c888&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411848275&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3RyYXB2aXNpb25zLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIxMzI0NzI5NjIiLCJyb290X3Bvc3RpZCI6IjkxMTg4NDcxNjIxIiwicG9zdGlkIjoiOTc1OTQ4NTc1NjUiLCJibG9naWQiOiI5NDkzMDQwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMzM1MTAzMDAiLCJyb290X3Bvc3RpZCI6Ijk3MDg3NzIwOTQwIiwicG9zdGlkIjoiOTc1OTQ3NzYxNTUiLCJibG9naWQiOiI5NDkzMDQwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxOTYwMTE2NDEiLCJyb290X3Bvc3RpZCI6OTY4NDQyNDA2MjksInBvc3RpZCI6Ijk3NTk0NzUwNDQwIiwiYmxvZ2lkIjoiOTQ5MzA0MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODQ1NDc2MzUiLCJyb290X3Bvc3RpZCI6IjkxNDM1NTkxNTQzIiwicG9zdGlkIjoiOTc1OTQ3MzA1NjUiLCJibG9naWQiOiI5NDkzMDQwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNTExNjYzMjAiLCJyb290X3Bvc3RpZCI6Ijk3MzY2MjYyNjI3IiwicG9zdGlkIjoiOTc1OTQ2Njg2MDUiLCJibG9naWQiOiI5NDkzMDQwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNzIyNDA1NSIsInJvb3RfcG9zdGlkIjoiOTc1MTIzMjYwODAiLCJwb3N0aWQiOiI5NzUxNzMzMTg0NSIsImJsb2dpZCI6Ijk0OTMwNDA4Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjM4MDQyMzQ2Iiwicm9vdF9wb3N0aWQiOiI5NzQ0NTc4MjIzNCIsInBvc3RpZCI6Ijk3NTE3MzE4Mjk1IiwiYmxvZ2lkIjoiOTQ5MzA0MDgiLCJzb3VyY2UiOjMzfV19&U=GOOGGMNINF&K=d019e1d071f87c9c020168cc3ac4af984585cc8c3dfdb70bc9874e54c35cb87b&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411848275&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3RyYXB2aXNpb25zLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIxMzI0NzI5NjIiLCJyb290X3Bvc3RpZCI6IjkxMTg4NDcxNjIxIiwicG9zdGlkIjoiOTc1OTQ4NTc1NjUiLCJibG9naWQiOiI5NDkzMDQwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMzM1MTAzMDAiLCJyb290X3Bvc3RpZCI6Ijk3MDg3NzIwOTQwIiwicG9zdGlkIjoiOTc1OTQ3NzYxNTUiLCJibG9naWQiOiI5NDkzMDQwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxOTYwMTE2NDEiLCJyb290X3Bvc3RpZCI6OTY4NDQyNDA2MjksInBvc3RpZCI6Ijk3NTk0NzUwNDQwIiwiYmxvZ2lkIjoiOTQ5MzA0MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODQ1NDc2MzUiLCJyb290X3Bvc3RpZCI6IjkxNDM1NTkxNTQzIiwicG9zdGlkIjoiOTc1OTQ3MzA1NjUiLCJibG9naWQiOiI5NDkzMDQwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNTExNjYzMjAiLCJyb290X3Bvc3RpZCI6Ijk3MzY2MjYyNjI3IiwicG9zdGlkIjoiOTc1OTQ2Njg2MDUiLCJibG9naWQiOiI5NDkzMDQwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNzIyNDA1NSIsInJvb3RfcG9zdGlkIjoiOTc1MTIzMjYwODAiLCJwb3N0aWQiOiI5NzUxNzMzMTg0NSIsImJsb2dpZCI6Ijk0OTMwNDA4Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjM4MDQyMzQ2Iiwicm9vdF9wb3N0aWQiOiI5NzQ0NTc4MjIzNCIsInBvc3RpZCI6Ijk3NTE3MzE4Mjk1IiwiYmxvZ2lkIjoiOTQ5MzA0MDgiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=GOOGGMNINF&K=002533ce839ff48ef97853f2c73f03e863b462f389c10f18856446e56ff7f6b2&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411848275&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3RyYXB2aXNpb25zLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIxMDA4NjQyNiIsInJvb3RfcG9zdGlkIjo5NzUxMDE3MDgxOCwicG9zdGlkIjoiOTc1MTczMDg4NjUiLCJibG9naWQiOiI5NDkzMDQwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMTMwMzIxNCIsInJvb3RfcG9zdGlkIjoiNjc0MzM0MzU3NDgiLCJwb3N0aWQiOiI5NzUxNzIzNzg2MCIsImJsb2dpZCI6Ijk0OTMwNDA4Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjMzOTgyNTczIiwicm9vdF9wb3N0aWQiOiI5NjIyNTMyMzQ5NyIsInBvc3RpZCI6Ijk3NTE3MjEzMjc1IiwiYmxvZ2lkIjoiOTQ5MzA0MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTg1Mzg1ODUyIiwicm9vdF9wb3N0aWQiOiI5MzY3OTg5Njc3MCIsInBvc3RpZCI6Ijk3NTE3MjAyNzMwIiwiYmxvZ2lkIjoiOTQ5MzA0MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTg1Mzg1ODUyIiwicm9vdF9wb3N0aWQiOiI5NTMzMzI0MjEzNSIsInBvc3RpZCI6Ijk3NTE3MTkwODM1IiwiYmxvZ2lkIjoiOTQ5MzA0MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTg1Mzg1ODUyIiwicm9vdF9wb3N0aWQiOiI5NzIyNzgwODc2MCIsInBvc3RpZCI6Ijk3NTE3MTc2NDYwIiwiYmxvZ2lkIjoiOTQ5MzA0MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTYzMTcwODQiLCJyb290X3Bvc3RpZCI6OTMyNDc0NjU3NDMsInBvc3RpZCI6Ijk3NTE3MTY3NDQwIiwiYmxvZ2lkIjoiOTQ5MzA0MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzA5NTA1OCIsInJvb3RfcG9zdGlkIjoiNTgyNzA3OTcxMDAiLCJwb3N0aWQiOiI5NzUxNzE1NzY3MCIsImJsb2dpZCI6Ijk0OTMwNDA4Iiwic291cmNlIjozM31dfQ==&U=ALMMNDDDAJ&K=c8458b21e1352f97febdd736065bf49fe8719ce66c4fcd2130d9cc64913664c9&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411848275&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3RyYXB2aXNpb25zLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIxMDA4NjQyNiIsInJvb3RfcG9zdGlkIjo5NzUxMDE3MDgxOCwicG9zdGlkIjoiOTc1MTczMDg4NjUiLCJibG9naWQiOiI5NDkzMDQwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMTMwMzIxNCIsInJvb3RfcG9zdGlkIjoiNjc0MzM0MzU3NDgiLCJwb3N0aWQiOiI5NzUxNzIzNzg2MCIsImJsb2dpZCI6Ijk0OTMwNDA4Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjMzOTgyNTczIiwicm9vdF9wb3N0aWQiOiI5NjIyNTMyMzQ5NyIsInBvc3RpZCI6Ijk3NTE3MjEzMjc1IiwiYmxvZ2lkIjoiOTQ5MzA0MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTg1Mzg1ODUyIiwicm9vdF9wb3N0aWQiOiI5MzY3OTg5Njc3MCIsInBvc3RpZCI6Ijk3NTE3MjAyNzMwIiwiYmxvZ2lkIjoiOTQ5MzA0MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTg1Mzg1ODUyIiwicm9vdF9wb3N0aWQiOiI5NTMzMzI0MjEzNSIsInBvc3RpZCI6Ijk3NTE3MTkwODM1IiwiYmxvZ2lkIjoiOTQ5MzA0MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTg1Mzg1ODUyIiwicm9vdF9wb3N0aWQiOiI5NzIyNzgwODc2MCIsInBvc3RpZCI6Ijk3NTE3MTc2NDYwIiwiYmxvZ2lkIjoiOTQ5MzA0MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTYzMTcwODQiLCJyb290X3Bvc3RpZCI6OTMyNDc0NjU3NDMsInBvc3RpZCI6Ijk3NTE3MTY3NDQwIiwiYmxvZ2lkIjoiOTQ5MzA0MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzA5NTA1OCIsInJvb3RfcG9zdGlkIjoiNTgyNzA3OTcxMDAiLCJwb3N0aWQiOiI5NzUxNzE1NzY3MCIsImJsb2dpZCI6Ijk0OTMwNDA4Iiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=ALMMNDDDAJ&K=679e3fd796d90436cdbb05313fee44801f3030c3cdc0166ba043d70f4f411b05&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:94930408,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2Ftrapvisions.tumblr.com%2F&amp;lang=en_US&amp;name=trapvisions&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_7544451b18bb_64.png&amp;title=%E2%96%BCTrap+Visions%E2%96%BC&amp;url=http%3A%2F%2Ftrapvisions.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2Ftrapvisions.tumblr.com%2F&amp;lang=en_US&amp;name=trapvisions&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_7544451b18bb_64.png&amp;title=%E2%96%BCTrap+Visions%E2%96%BC&amp;url=http%3A%2F%2Ftrapvisions.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+<!-- SCM Music Player http://scmplayer.net -->
+<script type="text/javascript" src="http://scmplayer.net/script.js" 
+data-config="{'skin':'skins/black/skin.css','volume':100,'autoplay':true,'shuffle':true,'repeat':1,'placement':'bottom','showplaylist':false,'playlist':[{'title':'ILOVEMAKONNEN - Tuesday','url':'http://www.youtube.com/watch?v=VfgsgnsjnPs'},{'title':'Jaxon - Bout You','url':'https://soundcloud.com/oysjaxon/boutyou'},{'title':'Jimmy Johnson - Dont Stop','url':'https://soundcloud.com/jimmyprime/dont-stop?in=jimmyprime/sets/in-god-we-trust'},{'title':'Jimmy Johnson - Northside','url':'https://soundcloud.com/jimmyprime/northside-produced-by-eric-dingus'},{'title':'Jimmy Johnson - Perfect ','url':'https://soundcloud.com/jimmyprime/perfect-produced-by-eric-dingus'},{'title':'Lil Bibby - Can I Get','url':'http://www.youtube.com/watch?v=6GJaz2TxkHw'},{'title':'Lil Durk - I Go','url':'http://www.youtube.com/watch?v=MRQEwfDF0pg'},{'title':'Lil Durk - Lil Niggas','url':'http://www.youtube.com/watch?v=I2zfNcimDLg'},{'title':'Lil Durk - Picture Perfect','url':'http://www.youtube.com/watch?v=C9J2pLhgR_0'},{'title':'OB Obrien - 2 on / thotful','url':'https://soundcloud.com/ob-obrien/ob-obrien-2-onthotful-feat-drake'},{'title':'PARTYNEXTDOOR - Break From Toronto','url':'http://www.youtube.com/watch?v=lXYq9ImJIN8'},{'title':'PARTYNEXTDOOR - Right Now','url':'http://www.youtube.com/watch?v=jFElKMbpaTY'},{'title':'PARTYNEXTDOOR - Wus Good / Curious','url':'http://www.youtube.com/watch?v=nMRZ6fCXeRs'},{'title':'Speaker Knockerz - Lonely','url':'https://soundcloud.com/speakerknockerz/speaker-knockerz-lonely-prod'},{'title':'The Weeknd - Often','url':'http://www.youtube.com/watch?v=JPIhUaONiLU'},{'title':'Travis Scott - Mamacita','url':'http://www.youtube.com/watch?v=AMHCy4RfIG8'},{'title':'Travis Scott - Quintana 2','url':'http://www.youtube.com/watch?v=xridt-dQkrw'},{'title':'Travis Scott - Skyfall','url':'http://www.youtube.com/watch?v=chifuZQVwJs'},{'title':'Travis Scott - Sloppy Toppy','url':'http://www.youtube.com/watch?v=m26XUDUVPcA'},{'title':'Young Thug - Old English','url':'http://www.youtube.com/watch?v=34LyiriE6eo'}]}" ></script>
+<!-- SCM Music Player script end -->
+
+
+
+
+</html>

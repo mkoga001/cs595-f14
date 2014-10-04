@@ -1,0 +1,1964 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!doctype html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#"><meta name='text:Disqus Shortname' content='' />
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<!-- FONT -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,300,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Vidaloka' rel='stylesheet' type='text/css'>
+
+
+<!-- CSS -->
+<link href="http://static.tumblr.com/lm3nqhz/4hQnal538/base.css" rel='stylesheet' type='text/css'>
+<link href="http://static.tumblr.com/lm3nqhz/4RZnal52g/bootstrap.css" rel='stylesheet' type='text/css'>
+<link href="http://static.tumblr.com/lm3nqhz/1V9nal59t/carousel.css" rel='stylesheet' type='text/css'>
+
+
+
+<!-- SCRIPTS -->
+<script src="http://static.tumblr.com/lm3nqhz/wkKna68qz/jquery-1.10.2.js" type="text/javascript"></script>
+<script src="http://static.tumblr.com/lm3nqhz/aypna6bs4/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+
+<script src="http://static.tumblr.com/lm3nqhz/nvvna66mn/bootstrap.js" type="text/javascript"></script>
+<script src="http://static.tumblr.com/lm3nqhz/CcKna68pz/custom.js"  type="text/javascript"></script>
+
+<script type="text/javascript" src="http://static.tumblr.com/94cjlxp/Fokn8dscf/fitvids.js"></script> 
+<script type="text/javascript">
+ $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $(".video-player").fitVids();
+  });
+    </script>
+    
+
+
+<script type="text/javascript">
+
+    
+    searchVisible = 0;
+transparent = true;
+
+$(document).ready(function(){
+    /*      Activate the switches with icons      */
+    $('.switch')['bootstrapSwitch']();
+      
+    /*      Activate regular switches        */
+    $("[data-toggle='switch']").wrap('<div class="switch" />').parent().bootstrapSwitch();
+    
+    $('[data-toggle="search"]').click(function(){
+        if(searchVisible == 0){
+            searchVisible = 1;
+            $(this).parent().addClass('active');
+            $('.navbar-search-form').fadeIn(function(){
+                $('.navbar-search-form input').focus();
+            });
+        } else {
+            searchVisible = 0;
+            $(this).parent().removeClass('active');
+            $(this).blur();
+            $('.navbar-search-form').fadeOut(function(){
+                $('.navbar-search-form input').blur();
+            });
+        } 
+    });
+    
+    $('[data-toggle="gsdk-collapse"]').hover(
+    function(){
+            console.log('on hover');
+            var thisdiv = $(this).attr("data-target");
+
+            if(!$(this).hasClass('state-open')){
+                $(this).addClass('state-hover');                
+                $(thisdiv).css({
+                    'height':'30px'
+                });    
+            }
+            
+        },
+        function(){
+            var thisdiv = $(this).attr("data-target");
+            $(this).removeClass('state-hover');
+            
+            if(!$(this).hasClass('state-open')){
+                $(thisdiv).css({
+                    'height':'0px'
+                });     
+            }          
+        }
+    );
+    
+    $('[data-toggle="gsdk-collapse"]').click(
+    function(event){
+            event.preventDefault();
+                        
+            var thisdiv = $(this).attr("data-target");
+            var height = $(thisdiv).children('.panel-body').height();
+            
+            if($(this).hasClass('state-open')){
+                $(thisdiv).css({
+                    'height':'0px',
+                }); 
+                $(this).removeClass('state-open');    
+            } else {
+                $(thisdiv).css({
+                    'height':height,
+                }); 
+                $(this).addClass('state-open');
+            }
+        }
+    );
+});
+
+$(function () {
+    $('[data-toggle="gsdk-collapse"]').each(function () {
+        var thisdiv = $(this).attr("data-target");
+        $(thisdiv).addClass("gsdk-collapse");
+    });
+    
+});
+
+$(document).scroll(function() {
+    if( $(this).scrollTop() > 120 ) {
+        if(transparent) {
+            transparent = false;
+            $('nav[role="navigation"]').removeClass('navbar-transparent');
+        }
+    } else {
+        if( !transparent ) {
+            transparent = true;
+            $('nav[role="navigation"]').addClass('navbar-transparent');
+        }
+    }
+});
+</script>
+
+<!-- DEFAULT VARIABLES -->
+
+<meta name="text:Notice Box" content="Notice Content" />
+
+<meta name="text:Side Box Two Title" content="Side Box Two Title" />
+<meta name="text:Side Box Two" content="Side Box Two" />
+
+<meta name="text:Side Box Three Title" content="Side Box Three Title" />
+<meta name="text:Side Box Three" content="Side Box Three" />
+
+<meta name="text:Schedule" content="Schedule Content" />
+
+<link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_04eeb074ed38_128.png" />
+<title>fy!winner - #1 Source for all things WINNER</title>
+
+
+<!-- STYLESHEET -->
+<style type="text/css">
+
+/* Reset or fix elements */
+* { margin: 0; padding: 0;}
+
+/* STICKY
+-------------------------------------------------------------*/
+
+html, body {
+    height:100%;
+} 
+
+#wrapper {
+    min-height: 100%;
+    background: #fff;
+}
+
+#container {
+    background: #FFFFFF;
+    overflow: auto;
+    padding:30px;
+    margin-bottom:380px;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    margin-top:-310px;
+    background: #000;
+    clear: both;
+    position: relative;
+}
+
+.wrap {
+    max-width:960px;
+    width:90%;
+    margin: 0 auto;
+
+}
+
+.main {
+background-color: #FFFFFF;
+position: relative;
+height:250px;
+padding:20px 0px;
+}
+
+.content {
+background-color: #F4F4F4;
+position: relative;
+padding-top:60px;
+}
+
+/* General
+-------------------------------------------------------------*/
+
+body { 
+background: #F4F4F4; 
+font-family: 'Open Sans', sans-serif;
+font-size: 13px;
+color: #888;
+}
+
+a:link, a:active, a:visited {
+text-decoration: none;
+}
+
+a {
+    color:#7E7E7E;
+}
+a:hover {
+color: #ffffff; 
+text-decoration: none;
+}
+
+b, strong {
+color: #222;
+}
+
+p, blockquote p  {
+margin: 8px 0px;
+font-size:13px;
+line-height:18px;
+font-family: 'open sans';
+color:#888;
+}
+
+.answer_form_container {
+margin: 10px 0px;
+}
+
+h1 {
+    font-family: 'Vidaloka', serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 100%;
+text-align: left; 
+margin: 0px 0px 10px 0px;
+padding-bottom: 6px;
+border-bottom: 1px solid #ddd;
+text-transform:none;
+color: #333;
+}
+
+h2 {
+    font-family: 'Raleway';
+   font-size:14pt; 
+   text-align:left;
+color:#333;
+}
+
+h3 {
+font-family: 'Raleway', sans-serif;color: ; 
+font-size: 16px; 
+line-height: 100%;  
+text-align: left;
+border-bottom: 1px solid #888;
+padding-bottom:10px;
+font-weight:700;
+}
+
+
+h4 {
+font-family: 'Raleway', sans-serif;
+color: #000000;
+font-weight:700;
+font-size: 16px; 
+line-height: 100%;  
+}
+
+blockquote {
+border-left: 3px solid #999999;
+padding: 3px 10px; 
+text-align: justify;
+}
+
+blockquote i {
+color: #0f0f0e;
+}
+
+blockquote img {
+max-width: 100%;
+display: block;
+margin-bottom: 5px;
+}
+
+img { max-width:100%;}
+
+.entries li { margin-left: 20px; }
+
+
+/* Sidebar
+-------------------------------------------------------------*/
+
+
+#sidebar {
+width:30%;
+max-width: 300px;
+position: relative;
+float:right;
+font-size:12px;
+}
+
+.button {
+font-weight: 400;
+padding: 8px 16px;
+color: #888;
+border: 2px solid #999;
+border-radius:5px;
+text-align:center;
+}
+
+.button:hover {
+background-color: #999;
+color: #FFF;
+}
+
+
+#sidebar li {
+    list-style: none;
+}
+
+
+#sideimg img {
+width: 200px;
+margin-bottom: 20px;
+position:center;
+}
+
+
+#sidebar article {
+    margin-bottom:60px;
+}
+
+#welcome, #notice {
+font-family: 'Open Sans', sans-serif;
+margin: 0px 0px 20px 0px;
+padding: 10px;
+color: #888;
+font-size:12px;
+min-height:200px;
+}
+
+#welcome {
+    width:50%;
+    position: relative;
+float: left;
+text-align:left;
+}
+
+#notice {
+    width:50%;
+    position: relative;
+float: right;
+}
+
+#notice ol {
+    
+margin-left:20px;
+}
+
+
+/* Entries
+-------------------------------------------------------------*/
+
+#entries {
+    width:65%;
+max-width: 610px;
+position: relative;
+float:left;
+}
+
+#entries p {
+    text-align:justify;
+}
+.entries {
+position: relative;
+}
+
+.posts {
+position: relative;
+text-align: justify;
+background: #F4F4F4; 
+padding: 20px 15px;
+font-size:11px;
+word-wrap:break-word;
+}
+
+
+/* Post Info
+-------------------------------------------------------------*/
+
+#permanent {
+width: 100%;
+padding:10px 0px;
+border-top: 1px solid #EBEBEB;
+font-weight: 300;
+color: #b4b4b4;
+margin-bottom: 20px;
+font-size:10px;
+}
+
+#permanent a {
+color: #b6b6b6;
+}
+
+#permanent a:hover {
+color:#999999;
+}
+ 
+ 
+.info {
+position: absolute; 
+width: 100px; 
+margin-left: -125px;
+margin-top:35px;
+text-align: right; 
+text-transform: uppercase; 
+font-size:12px;
+}
+
+.month {
+letter-spacing: 1px;
+}
+
+.noted {
+letter-spacing: 1px;
+}
+
+.noted a {
+color: #0f0f0e;
+}
+
+.noted a:hover {
+color: #000000;
+}
+
+
+.tagged {
+clear: both;
+margin: 20px 0px 0px 0px;
+padding-top: 6px;
+border-top: 1px solid #ddd;
+font-size:12px;
+word-wrap:break-word;
+}
+
+.type {
+position: absolute; 
+width: 105px; 
+margin-left: -145px;
+font-family: 'Open Sans', sans-serif;
+font-size:14px;
+letter-spacing:1px;
+color:#fff;
+text-align: right; 
+text-transform: uppercase;
+background:#999999;
+padding:7px;
+}
+
+
+/* Ask Posts
+-------------------------------------------------------------*/
+ 
+.question {
+position: relative;
+background: #ffffff;
+padding: 10px;
+margin-bottom: 20px;
+}
+
+.question:after, .arrow_box:before {
+top: 100%;
+border: solid transparent;
+content: " ";
+height: 0;
+width: 0;
+position: absolute;
+pointer-events: none;
+}
+
+.question:after {
+border-color: rgba(136, 183, 213, 0);
+border-top-color: #ffffff;
+border-width: 10px;
+left: 50px;
+margin-left: -10px;
+}
+
+.askme {
+width: 100px; 
+text-align: center; 
+float: left;
+margin: 0px 10px 30px 0px;
+text-transform: lowercase; 
+font-style: italic;
+}
+
+.askme img {
+width: 50px;
+border: 10px solid #ffffff;
+margin: 5px 15px;
+}
+ 
+ 
+/* Quote Posts
+-------------------------------------------------------------*/
+
+.quotewrap {
+width: 350px;
+margin: 20px auto;
+padding: 20px 25px;
+position: relative;    
+}
+
+.quote {
+margin-top: 15px;
+padding-top: 20px; 
+}
+
+.soucite {
+font-size: 9px; 
+letter-spacing: 1px; 
+margin: 10px; 
+padding-left: 10px; 
+text-transform: uppercase; 
+}
+
+
+/* Audio Posts
+-------------------------------------------------------------*/
+ 
+.audioplayer {
+position: absolute;
+z-index: 3;
+opacity: 0.7;
+margin: 33px;
+}
+ 
+.audio {
+width: 10px;
+padding: 5px 20px 5px 5px;
+background-color: #fefefe;
+overflow: hidden;
+}
+ 
+#audiocap {
+min-height: 100px;
+}
+ 
+#audioinfo {
+height: auto;
+padding: 4px 5px;
+display: block;
+overflow: hidden;
+font-size: 10px;
+text-align: left;
+margin-bottom: 3px;
+text-transform: uppercase;
+}
+ 
+#audioinfo b {
+color: #000000;
+}
+ 
+#audioimg img {
+width: 100px; 
+margin-right: 2px;
+}
+ 
+/* Chat Posts
+-------------------------------------------------------------*/
+ 
+.user_1 .label {color:#000000; font-weight:bold}
+.user_2 .label {color:#000000; font-weight:bold}
+.user_3 .label {color:#000000; font-weight:bold}
+.user_4 .label {color:#000000; font-weight:bold}
+.user_5 .label {color:#000000; font-weight:bold}
+.user_6 .label {color:#000000; font-weight:bold}
+.user_7 .label {color:#000000; font-weight:bold}
+.user_8 .label {color:#000000; font-weight:bold}
+ul.chat, .chat ol, .chat li {list-style:none; margin:0px; padding:0px;}
+ .label {border:none;}
+iframe input, iframe submit, iframe textarea, iframe div, iframe table {background-color:transparent!important;}
+       
+       
+/* Post Notes (Permalink Page)
+-------------------------------------------------------------*/
+ 
+ol.notes, .notes li {
+list-style:none;
+margin: 0px;
+padding: 0px;
+}
+ 
+.ending {
+text-align: left;
+margin-left: 10px;
+padding: 30px 50px;
+text-decoration: none;
+line-height: 180%;
+position: relative;
+}
+ 
+.ending a {
+text-transform: uppercase;
+font-size: 10px;
+}
+ 
+.ending img {
+width: 10px;
+height: 10px;
+border: 2px solid #999999;
+margin-right: 2px;
+}
+
+
+/* PAGINATION
+-------------------------------------------------------------*/
+#pagination {
+    margin-top:30px;
+    margin-bottom:50px;
+}
+#pagination a {
+    font-size: 12px;
+    padding: 5px 15px;
+    color: #333333;
+    background: #F1F1F1;
+    text-decoration: none;
+}
+#pagination a:hover {
+    background: #000;
+    color:#fff;
+}
+.current_page {
+    background: #000;
+    color:#fff;
+    font-size: 12px;
+    padding: 5px 15px;
+    
+}
+
+/* FOOTER
+-------------------------------------------------------------*/
+
+
+#footer_container {
+    max-width: 930px;
+    width:90%;
+    margin: auto;
+    background: transparent;
+    overflow:hidden;
+}
+.one_third {
+    background: transparent;
+    width: 33%;
+    padding: 25px 25px 25px 20px;
+    float: left;
+    display: inline-block;
+    font-size: 10px;
+    color: #999c9f;
+    text-align: justify;
+}
+.one_third h1 {
+    font-size: 20px;
+    color: #c2c4c5;
+    text-align: center;
+    font-weight: 200;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+#official_links {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#official_links a {
+color: #F1F1F1;
+display: block;
+border-bottom: 1px solid #292F33;
+margin-bottom: 1px;
+padding:10px;
+font-size: 8px;
+font-family: 'Open Sans', sans-serif;
+letter-spacing: 2px;
+text-transform: uppercase;
+padding-left:20px;
+}
+
+#official_links a:hover {
+color: #000;
+background: #F1F1F1;
+}
+
+a.label {
+    position: relative;
+    display: inline;
+}
+a.label span {
+    position: absolute;
+    margin-top: 16px;
+    width: 80px;
+    color: #ffffff;
+    font-size: 8px;
+    text-transform: uppercase;
+    background: #262626;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    visibility: hidden;
+    letter-spacing: 1px;
+}
+a.label span:after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0; height: 0;
+    border-bottom: 8px solid #262626;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+a:hover.label span {
+    visibility: visible;
+    opacity: 0.8;
+    top: 30px;
+    left: 50%;
+    margin-left: -40px;
+    z-index: 999;
+}
+#credit {
+    position: absolute;
+    color: #999c9f;
+    font-size: 8px;
+    width: 100%;
+    text-align: center;
+    z-index: 9;
+    margin-top: -20px;
+    background: #000000;
+}
+
+
+
+
+
+/* carousel */
+.blurred-container {
+position: relative;
+    max-width:960px;
+    width:90%;
+    margin: 0 auto;
+top: 0;
+left: 0;
+
+height: auto;
+
+
+}
+
+
+header {background:#fff;}
+
+
+
+@media (min-width: 1200px) {
+.container {
+        width:960px;
+}}
+
+/* nav*/
+
+
+.navbar-nav {
+font-family: 'Raleway', 'Open Sans', Helvetica, Arial, sans-serif;
+font-size: 14px;
+text-transform:uppercase;
+}
+
+ul.dropdown-menu {
+   font-family: 'Raleway', 'Open Sans', Helvetica, Arial, sans-serif;
+font-size: 11px;
+text-transform:uppercase; 
+}
+
+.navbar:not(.navbar-transparent).navbar-ct-blue {
+    background-color: #000;
+}
+
+
+
+.actions a {
+	line-height: 20px;
+	text-align: center;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+	font-size: 1.2em;
+    padding: 2px 3px;
+}
+
+.reblog_button {
+    margin-top:-4px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease	font-size: 1em;
+	font-size: 15px!important;
+	float:right;
+	margin-left:7px;
+}
+
+.like-wrap {
+float:right;
+}
+.actions a:hover, .reblog_button:hover {
+	opacity: 1;
+color: #888;
+}
+
+.reblog_button {
+-moz-transition: border-color .3s ease-in-out;
+-webkit-transition: border-color .3s ease-in-out;
+transition: border-color .3s ease-in-out;
+text-transform:uppercase;
+}
+
+
+.navbar-nav > li.open > .dropdown-menu, .open .dropdown-menu {
+-webkit-transform-origin: 29px 60px;
+-moz-transform-origin: 29px 60px;
+-o-transform-origin: 29px 60px;
+-ms-transform-origin: 29px 60px;
+transform-origin: 29px -80px;
+-webkit-transform: scale(1);
+-moz-transform: scale(1);
+-o-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1);
+opacity: 1;
+-ms-filter: none;
+-webkit-filter: none;
+-moz-filter: none;
+-ms-filter: none;
+-o-filter: none;
+filter: none;
+padding:10px 0px;
+}
+
+
+
+    .dropdown-menu:before{
+        border-bottom: 11px solid rgba(0, 0, 0, 0.2);
+        border-left: 11px solid rgba(0, 0, 0, 0);
+        border-right: 11px solid rgba(0, 0, 0, 0);
+        content: "";
+        display: inline-block;
+        position: absolute;
+        left: 100%;
+        margin-left: -40%;
+        top: -11px;
+    }
+
+    .dropdown-menu:after {
+        border-bottom: 11px solid #FFFFFF;
+        border-left: 11px solid rgba(0, 0, 0, 0);
+        border-right: 11px solid rgba(0, 0, 0, 0);
+        content: "";
+        display: inline-block;
+        position: absolute;
+        left: 100%;
+        margin-left: -40%;
+        top: -10px;
+    }
+    
+    .navbar .navbar-brand {
+font-weight: 600;
+margin-top: 15px;
+font-size: 20px;
+font-family:raleway;
+}
+
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width:100%;
+}
+
+</style>
+
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=fy-winner" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="140927,yg winner,p:fantaken,winner,seungyoon" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="YG WINNER 위너" /><meta property="og:url" content="http://fy-winner.com/?og=1" /><meta property="og:description" content="This blog is dedicated to YG&#039;s boy group WINNER which consists of Seungyoon, Mino, Taehyun,..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_04eeb074ed38_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=fy-winner" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=fy-winner" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="fy-winner" /><meta name="twitter:description" content="&lt;p&gt;This blog is dedicated to YG&#039;s boy group WINNER which consists of Seungyoon, Mino, Taehyun, Seunghoon and Jinwoo. #1 source for latest updates, news and translations! 
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center; &quot;&gt;Est. 2013.06.22 /
+Online: &lt;script language=&quot;JavaScript&quot;&gt; 
+var ref = (&#039;&#039;+document.referrer+&#039;&#039;);
+document.write(&#039;&lt;script src=&quot;http://s1.freehostedscripts.net/ocounter.php?site=ID3364783&amp;e1=&amp;e2= &amp;r=&#039; + ref + &#039;&quot;&gt;&lt;\/script&gt;&#039;); 
+&lt;/script&gt;⎜Total: &lt;script language=&quot;JavaScript&quot; src=&quot;http://s1.freehostedscripts.net/ocount.php?site=ID2180582&amp;name=&quot;&gt;&lt;/script&gt;M
+&lt;br&gt;
+" /><meta name="twitter:creator" content="YG_WINNER" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=fy-winner&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=fy-winner&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=fy-winner&amp;referrer=twitter-cards" />
+
+</head>
+ 
+<body>
+
+<header>
+
+<div id="navbar-full">
+    <div id="navbar">
+
+        <nav class="navbar navbar-ct-blue navbar-transparent navbar-fixed-top" role="navigation">
+          
+          <div class="container">
+
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/">FY!WINNER</a>
+            </div>
+        
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="http://ask-fywinner.tumblr.com">Ask</a></li>
+               <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="/about">history</a></li>
+                        <li><a href="/discography">Discography</a></li>
+                        <li><a href="/mvs">Music Videos</a></li>
+                      </ul>
+                </li>
+              <li class="active"><a href="/tagged/t:news">News</a></li>
+              <li class="active"><a href="/tags">Tags</a></li>
+              <li class="active"><a href="/schedule">Schedule</a></li>
+              
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        
+                        <li><a href="http://cafe.daum.net/YGWINNER">Fancafe</a></li>
+                        <li><a href="https://www.facebook.com/OfficialYGWINNER">Facebook</a></li>
+                        <li><a href="http://www.youtube.com/OfficialYGWINNER">Youtube</a></li>
+                        <li><a href="https://twitter.com/WIN_JAPAN">Twitter JP</a></li>
+                        <li><a href="http://ygex.jp/winner/">Official Site JP</a></li>
+                        
+                        <li class="divider"></li>
+                        <li><a href="http://cafe.daum.net/YGWIN-TEAMA">WIN Fancafe</a></li>
+                        <li><a href="https://www.facebook.com/WIN.who.is.next" target="_blank">WIN Facebook</a></li>
+                        <li class="divider"></li>
+                        <li><a href="https://www.facebook.com/OfficialSEUNGYOON" target="_blank">Seungyoon: Facebook</a></li>
+                        <li><a href="http://www.youtube.com/user/OfficialSEUNGYOON" target="_blank">Seungyoon: Youtube</a></li>
+                        <li><a href="https://soundcloud.com/skaxogus12%20" target="_blank">Taehyun: Soundcloud</a></li>
+                        
+                        <li class="divider"></li>
+                        <li><a href="https://twitter.com/YG_WINNER" target="_blank">Our Twitter</a></li>
+               <li><a href="http://www.youtube.com/user/YGWINNER1" target="_blank">Our Youtube</a></li>
+               <li><a href="http://instagram.com/ygwinner1" target="_blank">Our Instagram</a></li>
+
+                      </ul>
+                </li>
+                
+               
+
+
+
+
+              <li class="active"><a href="/events">Events</a></li>
+               </ul>
+              
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        
+        
+     <div class="blurred-container">
+            
+          
+          <div id="carousel">
+
+    <div id="carousel-example-generic" class="carousel slide gsdk-transition" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3" class=""></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4" class=""></li>
+        <li data-target="#carousel-example-generic" data-slide-to="5" class=""></li>
+      </ol>
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="http://static.tumblr.com/lm3nqhz/ntMna6etn/empty_03.jpg" alt="Winner YG">
+        </div>
+        <div class="item">
+          <img src="http://static.tumblr.com/lm3nqhz/gIxna6eks/empty_01.jpg" alt="Winner YG">
+        </div>
+        <div class="item">
+          <img src="http://static.tumblr.com/lm3nqhz/NoQna6elm/empty_02.jpg" alt="Winner YG">
+        </div>
+        <div class="item">
+          <img src="http://static.tumblr.com/lm3nqhz/5PRna70kc/empty_04.jpg" alt="Winner YG">
+        </div>
+        <div class="item">
+          <img src="http://static.tumblr.com/lm3nqhz/gKona716p/empty_05.jpg" alt="Winner YG">
+        </div>
+        
+        
+      </div>
+    
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="fa fa-angle-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="fa fa-angle-right"></span>
+      </a>
+    </div>
+</div>
+</div>
+        </div>
+    </div><!--  end navbar -->
+
+</div>
+
+</header>
+
+
+
+
+
+
+
+
+
+<div id="wrapper">
+
+
+
+
+<div class="main wrap">
+
+ <section id="welcome">
+ 
+ <h2>Welcome to FY-WINNER</h2>
+
+<p>This blog is dedicated to YG's boy group WINNER which consists of Seungyoon, Mino, Taehyun, Seunghoon and Jinwoo. #1 source for latest updates, news and translations! 
+</p>
+
+<p style="text-align: center; ">Est. 2013.06.22 /
+Online: <script language="JavaScript"> 
+var ref = (''+document.referrer+'');
+document.write('<script src="http://s1.freehostedscripts.net/ocounter.php?site=ID3364783&e1=&e2= &r=' + ref + '"><\/script>'); 
+</script>⎜Total: <script language="JavaScript" src="http://s1.freehostedscripts.net/ocount.php?site=ID2180582&name="></script>M
+<br>
+     
+ </section>
+
+  <section id="notice"><h2>Notice</h2>
+<h4>How to help WINNER rank high on charts</h4>
+
+<ol>
+<li><span>Buy the physical album, make sure it counts to Hanteo and Gaon</span></li>
+<li><span>Buy the song digitally on itunes or Soribada. Make sure you buy the title track first and then the whole album to make it count twice.</span></li>
+<li><span></span><span>Help with SNS points on twitter, youtube views and voting polls</span></li>
+<li><span></span><span>Add&nbsp;</span><span>#</span><span>공허해</span><span> </span><span>#</span><span>empty</span><span> </span><span>#</span><span>위너</span><span> </span><span>#</span><span>Winner</span><span>&nbsp;to your tweets</span></li>
+</ol>
+
+
+
+ </section>
+ 
+ 
+</div>
+
+<div class="content">
+
+
+
+<div id="container" class="wrap">
+
+<div id="sidebar">
+
+<article><h3>WINNER 2014 S/S</h3>
+<p><img alt="" src="http://www.ygfamily.com/upload/artists/album/260260/cover_winner_2014ss.jpg" style="width: 260px; height: 260px; " /></p>
+
+<p><a href="http://www.ygeshop.com/shop/goods/goods_list.php?category=001022"><img alt="" src="http://www.ygfamily.com/images/contents/btn_buy_album_on.gif" style="width: 94px; height: 24px; " /></a>&nbsp;<img alt="" src="http://www.ygfamily.com/images/contents/btn_cardnumber_off.gif" style="width: 150px; height: 24px; " /></p>
+
+<a href="http://www.melon.com/album/detail.htm?albumId=2273749"><img src="http://www.ygfamily.com/images/contents/ico_melon.gif" style="width: 25px; height: 25px; margin-right:2px" /></a>
+
+<a href="http://www.ollehmusic.com/#/AlbumDetail/f_Album_info.asp?album_id=80452266"><img alt="" src="http://www.ygfamily.com/images/contents/ico_ollehmusic.gif" style="width: 25px; height: 25px; margin-right:2px" /></a>
+
+<a href="http://www.genie.co.kr/Detail/f_Album_Info.asp?axnm=80452266"><img alt="" src="http://www.ygfamily.com/images/contents/ico_genie.gif" style="width: 25px; height: 25px; margin-right:2px" /></a>
+
+<a href="http://mnet.interest.me/album/359066"><img alt="" src="http://www.ygfamily.com/images/contents/ico_bugs.gif" style="width: 25px; height: 25px;  margin-right:2px" /></a>
+
+<a href="http://www.soribada.com/music/album/KA0055446"><img alt="" src="http://www.ygfamily.com/images/contents/ico_navermusic.gif" style="width: 25px; height: 25px;  margin-right:2px" /><img alt="" src="http://www.ygfamily.com/images/contents/ico_soribada.gif" style="width: 25px; height: 25px;  margin-right:2px" /></a>
+
+<a href="http://music.cyworld.com/album.asp?aid=15388673"><img alt="" src="http://www.ygfamily.com/images/contents/ico_cyworldmusic.gif" style="width: 25px; height: 25px; margin-right:2px " /></a>
+
+<a href="http://smarturl.it/WINNER_2014SS"><img alt="" src="http://www.ygfamily.com/images/contents/ico_itunes.gif" style="width: 25px; height: 25px; " /></a>
+    
+    
+<br><br></article>
+
+
+<article><h3>INSTAGRAM</h3>
+<!-- www.intagme.com -->
+<iframe src="http://www.intagme.com/in/?u=eWd3aW5uZXIxfGlufDEwMHwzfDR8fHllc3w1fHVuZGVmaW5lZHx5ZXM=" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:300px; height: 460px" ></iframe></article>
+    
+
+<article><h3>EMPTY,COLOR RING & I'M HIM</h3>
+<iframe width="250" height="141" src="//www.youtube.com/embed/gEqlF5N8UMs" frameborder="0" allowfullscreen></iframe>
+<iframe width="250" height="141" src="//www.youtube.com/embed/vQIfXg7UukI" frameborder="0" allowfullscreen></iframe>
+<iframe width="250" height="141" src="//www.youtube.com/embed/iQnAL-f2grI" frameborder="0" allowfullscreen></iframe></article>
+
+
+<article><h3>Schedule</h3>
+<li><b>140923 </b> - WINNER 1st JAPAN TOUR at ZEPP SAPPORO, Hokkaido (5PM JST)
+<li><b>140926</b>  - JINWOO'S BIRTHDAY 🎉
+<li><b>140928</b>  - WINNER 1st JAPAN TOUR at ZEPP FUKUOKA,Fukuoka (5PM JST)
+<li><b>140930</b>  - WINNER 1st JAPAN TOUR at ZEPP NAGOYA, Aichi (7PM JST)
+    
+<center><br><br><a href="/schedule" class="button">
+More Schedules Here</a></center></article>
+
+</div>
+ 
+ 
+<div id="entries">
+
+ 
+
+<article class="entries">
+
+ 
+
+ 
+
+ 
+
+ 
+
+<a href="http://fy-winner.com/image/98572392153"><img src="http://38.media.tumblr.com/35c0161115fb09ed679d1136d066b2fa/tumblr_ncksxbPaAA1s1wstto1_500.jpg" alt="&copy; Adorable Taehyun | do not edit" width="100%"/></a>
+<pre>© <a href="https://twitter.com/AdorableTaehyun" target="_blank"><span>A</span>dorable Taehyun</a> | do not edit</pre>
+
+
+ 
+
+
+
+            
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+</article>
+
+<div id="permanent">
+
+
+ <div class="actions">
+                                
+                                <a href="http://fy-winner.com/post/98572392153/c-adorable-taehyun-do-not-edit">Sep 27, 2014</a>
+                                 | <a href="http://fy-winner.com/post/98572392153/c-adorable-taehyun-do-not-edit">
+
+0 notes</a> | <a href="http://fy-winner.com/post/98572392153/c-adorable-taehyun-do-not-edit">Comment</a>
+                         
+                            
+<a href="https://www.tumblr.com/reblog/98572392153/BAy5PjIP" target="_blank" class="reblog_button" aria-hidden="true" data-icon="&#x292e;"><i class="fa fa-retweet"></i></a>
+                
+                             <div class="like-wrap">
+                                <i class="icon-love" aria-hidden="true" data-icon="&#x2665;"></i>
+                                <div class="like_button" data-post-id="98572392153" id="like_button_98572392153"><iframe id="like_iframe_98572392153" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fy-winner&amp;post_id=98572392153&amp;color=gray&amp;rk=BAy5PjIP" scrolling="no" width="14" height="14" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div>
+                            </div>
+                            
+
+
+
+
+
+</div>
+</div>
+</script>
+
+
+<article class="entries">
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+<center><div id="photoset_98572356318" class="html_photoset">    <iframe id="photoset_iframe_98572356318" class="photoset" scrolling="no" frameborder="0" height="676" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://fy-winner.com/post/98572356318/photoset_iframe/fy-winner/tumblr_nckswgy5Im1s1wstt/500/false"></iframe></div></center><pre>© <a href="https://twitter.com/AdorableTaehyun" target="_blank"><span>A</span>dorable Taehyun</a> | do not edit</pre>
+
+
+            
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+</article>
+
+<div id="permanent">
+
+
+ <div class="actions">
+                                
+                                <a href="http://fy-winner.com/post/98572356318/c-adorable-taehyun-do-not-edit">Sep 27, 2014</a>
+                                 | <a href="http://fy-winner.com/post/98572356318/c-adorable-taehyun-do-not-edit">
+
+0 notes</a> | <a href="http://fy-winner.com/post/98572356318/c-adorable-taehyun-do-not-edit">Comment</a>
+                         
+                            
+<a href="https://www.tumblr.com/reblog/98572356318/zn18XuWf" target="_blank" class="reblog_button" aria-hidden="true" data-icon="&#x292e;"><i class="fa fa-retweet"></i></a>
+                
+                             <div class="like-wrap">
+                                <i class="icon-love" aria-hidden="true" data-icon="&#x2665;"></i>
+                                <div class="like_button" data-post-id="98572356318" id="like_button_98572356318"><iframe id="like_iframe_98572356318" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fy-winner&amp;post_id=98572356318&amp;color=gray&amp;rk=zn18XuWf" scrolling="no" width="14" height="14" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div>
+                            </div>
+                            
+
+
+
+
+
+</div>
+</div>
+</script>
+
+
+<article class="entries">
+
+ 
+
+ 
+
+ 
+
+ 
+
+<a href="http://fy-winner.com/image/98572271353"><img src="http://38.media.tumblr.com/7399e21a08558775cad25acb716717a1/tumblr_ncksugx8801s1wstto1_500.jpg" alt="&copy; Adorable Taehyun | do not edit" width="100%"/></a>
+<pre>© <a href="https://twitter.com/AdorableTaehyun" target="_blank"><span>A</span>dorable Taehyun</a> | do not edit</pre>
+
+
+ 
+
+
+
+            
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+</article>
+
+<div id="permanent">
+
+
+ <div class="actions">
+                                
+                                <a href="http://fy-winner.com/post/98572271353/c-adorable-taehyun-do-not-edit">Sep 27, 2014</a>
+                                 | <a href="http://fy-winner.com/post/98572271353/c-adorable-taehyun-do-not-edit">
+
+1 note</a> | <a href="http://fy-winner.com/post/98572271353/c-adorable-taehyun-do-not-edit">Comment</a>
+                         
+                            
+<a href="https://www.tumblr.com/reblog/98572271353/PviixfX6" target="_blank" class="reblog_button" aria-hidden="true" data-icon="&#x292e;"><i class="fa fa-retweet"></i></a>
+                
+                             <div class="like-wrap">
+                                <i class="icon-love" aria-hidden="true" data-icon="&#x2665;"></i>
+                                <div class="like_button" data-post-id="98572271353" id="like_button_98572271353"><iframe id="like_iframe_98572271353" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fy-winner&amp;post_id=98572271353&amp;color=gray&amp;rk=PviixfX6" scrolling="no" width="14" height="14" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div>
+                            </div>
+                            
+
+
+
+
+
+</div>
+</div>
+</script>
+
+
+<article class="entries">
+
+ 
+
+ 
+
+ 
+
+ 
+
+<a href="http://fy-winner.com/image/98572178208"><img src="http://38.media.tumblr.com/6519a51cd92cceda7fa7bd16c7d6f4fd/tumblr_nckss9bqPO1s1wstto1_500.jpg" alt="&copy; Adorable Taehyun | do not edit" width="100%"/></a>
+<pre>© <a href="https://twitter.com/AdorableTaehyun" target="_blank"><span>A</span>dorable Taehyun</a> | do not edit</pre>
+
+
+ 
+
+
+
+            
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+</article>
+
+<div id="permanent">
+
+
+ <div class="actions">
+                                
+                                <a href="http://fy-winner.com/post/98572178208/c-adorable-taehyun-do-not-edit">Sep 27, 2014</a>
+                                 | <a href="http://fy-winner.com/post/98572178208/c-adorable-taehyun-do-not-edit">
+
+1 note</a> | <a href="http://fy-winner.com/post/98572178208/c-adorable-taehyun-do-not-edit">Comment</a>
+                         
+                            
+<a href="https://www.tumblr.com/reblog/98572178208/s6iClq04" target="_blank" class="reblog_button" aria-hidden="true" data-icon="&#x292e;"><i class="fa fa-retweet"></i></a>
+                
+                             <div class="like-wrap">
+                                <i class="icon-love" aria-hidden="true" data-icon="&#x2665;"></i>
+                                <div class="like_button" data-post-id="98572178208" id="like_button_98572178208"><iframe id="like_iframe_98572178208" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fy-winner&amp;post_id=98572178208&amp;color=gray&amp;rk=s6iClq04" scrolling="no" width="14" height="14" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div>
+                            </div>
+                            
+
+
+
+
+
+</div>
+</div>
+</script>
+
+
+<article class="entries">
+
+ 
+
+ 
+
+ 
+
+ 
+
+<a href="http://fy-winner.com/image/98569300003"><img src="http://38.media.tumblr.com/85df0272415b9a48bb133484eb5fa230/tumblr_nckqyc03ek1s1wstto1_500.jpg" alt="&copy; KUKIZZZI | do not edit or crop logo." width="100%"/></a>
+<pre>© <a href="https://twitter.com/kukizzzi" target="_blank">KUKIZZZI</a> | do not edit or crop logo.</pre>
+
+
+ 
+
+
+
+            
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+</article>
+
+<div id="permanent">
+
+
+ <div class="actions">
+                                
+                                <a href="http://fy-winner.com/post/98569300003/c-kukizzzi-do-not-edit-or-crop-logo">Sep 27, 2014</a>
+                                 | <a href="http://fy-winner.com/post/98569300003/c-kukizzzi-do-not-edit-or-crop-logo">
+
+13 notes</a> | <a href="http://fy-winner.com/post/98569300003/c-kukizzzi-do-not-edit-or-crop-logo">Comment</a>
+                         
+                            
+<a href="https://www.tumblr.com/reblog/98569300003/mFZqqrf9" target="_blank" class="reblog_button" aria-hidden="true" data-icon="&#x292e;"><i class="fa fa-retweet"></i></a>
+                
+                             <div class="like-wrap">
+                                <i class="icon-love" aria-hidden="true" data-icon="&#x2665;"></i>
+                                <div class="like_button" data-post-id="98569300003" id="like_button_98569300003"><iframe id="like_iframe_98569300003" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fy-winner&amp;post_id=98569300003&amp;color=gray&amp;rk=mFZqqrf9" scrolling="no" width="14" height="14" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div>
+                            </div>
+                            
+
+
+
+
+
+</div>
+</div>
+</script>
+
+
+<article class="entries">
+
+ 
+
+ 
+
+ 
+
+ 
+
+<a href="http://fy-winner.com/image/98569210208"><img src="http://33.media.tumblr.com/9e08e4e4f5483bef07a0ee074a914664/tumblr_nckqw9K2kc1s1wstto1_500.jpg" alt="&copy; KUKIZZZI | do not edit or crop logo." width="100%"/></a>
+<pre>© <a href="https://twitter.com/kukizzzi" target="_blank">KUKIZZZI</a> | do not edit or crop logo.</pre>
+
+
+ 
+
+
+
+            
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+</article>
+
+<div id="permanent">
+
+
+ <div class="actions">
+                                
+                                <a href="http://fy-winner.com/post/98569210208/c-kukizzzi-do-not-edit-or-crop-logo">Sep 27, 2014</a>
+                                 | <a href="http://fy-winner.com/post/98569210208/c-kukizzzi-do-not-edit-or-crop-logo">
+
+5 notes</a> | <a href="http://fy-winner.com/post/98569210208/c-kukizzzi-do-not-edit-or-crop-logo">Comment</a>
+                         
+                            
+<a href="https://www.tumblr.com/reblog/98569210208/lVnOs8Sk" target="_blank" class="reblog_button" aria-hidden="true" data-icon="&#x292e;"><i class="fa fa-retweet"></i></a>
+                
+                             <div class="like-wrap">
+                                <i class="icon-love" aria-hidden="true" data-icon="&#x2665;"></i>
+                                <div class="like_button" data-post-id="98569210208" id="like_button_98569210208"><iframe id="like_iframe_98569210208" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fy-winner&amp;post_id=98569210208&amp;color=gray&amp;rk=lVnOs8Sk" scrolling="no" width="14" height="14" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div>
+                            </div>
+                            
+
+
+
+
+
+</div>
+</div>
+</script>
+
+
+<article class="entries">
+
+ 
+
+ 
+
+ 
+
+ 
+
+<a href="http://fy-winner.com/image/98569090003"><img src="http://38.media.tumblr.com/e00061a51e8e43ce02c2804a95352eaf/tumblr_nckqtpwhnv1s1wstto1_500.jpg" alt="&copy; Rain Forest | Do not edit &amp;amp; crop the logo" width="100%"/></a>
+<pre>© <a href="https://twitter.com/rain_forest94" target="_blank">Rain Forest </a>| Do not edit &amp; crop the logo</pre>
+
+
+ 
+
+
+
+            
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+</article>
+
+<div id="permanent">
+
+
+ <div class="actions">
+                                
+                                <a href="http://fy-winner.com/post/98569090003/c-rain-forest-do-not-edit-crop-the-logo">Sep 27, 2014</a>
+                                 | <a href="http://fy-winner.com/post/98569090003/c-rain-forest-do-not-edit-crop-the-logo">
+
+2 notes</a> | <a href="http://fy-winner.com/post/98569090003/c-rain-forest-do-not-edit-crop-the-logo">Comment</a>
+                         
+                            
+<a href="https://www.tumblr.com/reblog/98569090003/LZcbaxYY" target="_blank" class="reblog_button" aria-hidden="true" data-icon="&#x292e;"><i class="fa fa-retweet"></i></a>
+                
+                             <div class="like-wrap">
+                                <i class="icon-love" aria-hidden="true" data-icon="&#x2665;"></i>
+                                <div class="like_button" data-post-id="98569090003" id="like_button_98569090003"><iframe id="like_iframe_98569090003" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fy-winner&amp;post_id=98569090003&amp;color=gray&amp;rk=LZcbaxYY" scrolling="no" width="14" height="14" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div>
+                            </div>
+                            
+
+
+
+
+
+</div>
+</div>
+</script>
+
+
+<article class="entries">
+
+ 
+
+ 
+
+ 
+
+ 
+
+<a href="http://fy-winner.com/image/98569070893"><img src="http://38.media.tumblr.com/050802bba2493c126e9b97c07bf47ced/tumblr_nckqt9ZYMx1s1wstto1_500.jpg" alt="&copy; Rain Forest | Do not edit &amp;amp; crop the logo" width="100%"/></a>
+<pre>© <a href="https://twitter.com/rain_forest94" target="_blank">Rain Forest </a>| Do not edit &amp; crop the logo</pre>
+
+
+ 
+
+
+
+            
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+</article>
+
+<div id="permanent">
+
+
+ <div class="actions">
+                                
+                                <a href="http://fy-winner.com/post/98569070893/c-rain-forest-do-not-edit-crop-the-logo">Sep 27, 2014</a>
+                                 | <a href="http://fy-winner.com/post/98569070893/c-rain-forest-do-not-edit-crop-the-logo">
+
+12 notes</a> | <a href="http://fy-winner.com/post/98569070893/c-rain-forest-do-not-edit-crop-the-logo">Comment</a>
+                         
+                            
+<a href="https://www.tumblr.com/reblog/98569070893/UquTUSPk" target="_blank" class="reblog_button" aria-hidden="true" data-icon="&#x292e;"><i class="fa fa-retweet"></i></a>
+                
+                             <div class="like-wrap">
+                                <i class="icon-love" aria-hidden="true" data-icon="&#x2665;"></i>
+                                <div class="like_button" data-post-id="98569070893" id="like_button_98569070893"><iframe id="like_iframe_98569070893" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fy-winner&amp;post_id=98569070893&amp;color=gray&amp;rk=UquTUSPk" scrolling="no" width="14" height="14" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div>
+                            </div>
+                            
+
+
+
+
+
+</div>
+</div>
+</script>
+
+
+<article class="entries">
+
+ 
+
+ 
+
+ 
+
+ 
+
+<a href="http://fy-winner.com/image/98568915933"><img src="http://38.media.tumblr.com/4fbfe29d013a7f5a3acfe7b0fb5e00f6/tumblr_nckqpnaGSp1s1wstto1_500.jpg" alt="&copy; Rain Forest | Do not edit &amp;amp; crop the logo" width="100%"/></a>
+<pre>© <a href="https://twitter.com/rain_forest94" target="_blank">Rain Forest </a>| Do not edit &amp; crop the logo</pre>
+
+
+ 
+
+
+
+            
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+</article>
+
+<div id="permanent">
+
+
+ <div class="actions">
+                                
+                                <a href="http://fy-winner.com/post/98568915933/c-rain-forest-do-not-edit-crop-the-logo">Sep 27, 2014</a>
+                                 | <a href="http://fy-winner.com/post/98568915933/c-rain-forest-do-not-edit-crop-the-logo">
+
+8 notes</a> | <a href="http://fy-winner.com/post/98568915933/c-rain-forest-do-not-edit-crop-the-logo">Comment</a>
+                         
+                            
+<a href="https://www.tumblr.com/reblog/98568915933/BNFoc4ay" target="_blank" class="reblog_button" aria-hidden="true" data-icon="&#x292e;"><i class="fa fa-retweet"></i></a>
+                
+                             <div class="like-wrap">
+                                <i class="icon-love" aria-hidden="true" data-icon="&#x2665;"></i>
+                                <div class="like_button" data-post-id="98568915933" id="like_button_98568915933"><iframe id="like_iframe_98568915933" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fy-winner&amp;post_id=98568915933&amp;color=gray&amp;rk=BNFoc4ay" scrolling="no" width="14" height="14" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div>
+                            </div>
+                            
+
+
+
+
+
+</div>
+</div>
+</script>
+
+
+<article class="entries">
+
+ 
+
+ 
+
+ 
+
+ 
+
+<a href="http://fy-winner.com/image/98568368123"><img src="http://38.media.tumblr.com/8f3d0999d8d083fda5145927c1abb61c/tumblr_nckqd5ZWij1s1wstto1_500.jpg" alt="&copy; Rain Forest | Do not edit &amp;amp; crop the logo" width="100%"/></a>
+<pre>© <a href="https://twitter.com/rain_forest94" target="_blank">Rain Forest </a>| Do not edit &amp; crop the logo</pre>
+
+
+ 
+
+
+
+            
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+</article>
+
+<div id="permanent">
+
+
+ <div class="actions">
+                                
+                                <a href="http://fy-winner.com/post/98568368123/c-rain-forest-do-not-edit-crop-the-logo">Sep 27, 2014</a>
+                                 | <a href="http://fy-winner.com/post/98568368123/c-rain-forest-do-not-edit-crop-the-logo">
+
+18 notes</a> | <a href="http://fy-winner.com/post/98568368123/c-rain-forest-do-not-edit-crop-the-logo">Comment</a>
+                         
+                            
+<a href="https://www.tumblr.com/reblog/98568368123/R4s5ID1W" target="_blank" class="reblog_button" aria-hidden="true" data-icon="&#x292e;"><i class="fa fa-retweet"></i></a>
+                
+                             <div class="like-wrap">
+                                <i class="icon-love" aria-hidden="true" data-icon="&#x2665;"></i>
+                                <div class="like_button" data-post-id="98568368123" id="like_button_98568368123"><iframe id="like_iframe_98568368123" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fy-winner&amp;post_id=98568368123&amp;color=gray&amp;rk=R4s5ID1W" scrolling="no" width="14" height="14" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div>
+                            </div>
+                            
+
+
+
+
+
+</div>
+</div>
+</script>
+
+
+
+ 
+ 
+<div id="pagination">
+     
+     
+        
+        
+        
+            
+                    <span class="current_page">1</span>
+                
+            
+                    <a class="jump_page" href="/page/2">2</a>
+                
+            
+                    <a class="jump_page" href="/page/3">3</a>
+                
+            
+                    <a class="jump_page" href="/page/4">4</a>
+                
+            
+                    <a class="jump_page" href="/page/5">5</a>
+                
+                
+        
+                <a href="/page/2"><i class="fa fa-arrow-right" style="font-size:14px"></i></a>
+        
+    
+            
+            </div>
+            
+            
+            
+</div>
+
+            
+            
+</div>
+
+
+
+            
+            
+</div>
+    </div>
+
+<footer>
+    <div id="footer_container">
+
+<div class="one_third">
+<h1>Twitter</h1>
+
+<a class="twitter-timeline"   width="100%" height="10" data-chrome="nofooter noheader noscrollbar transparent" href="https://twitter.com/YG_WINNER" data-widget-id="391327400081883136">Tweets by @YG_WINNER</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
+</div>
+
+<div class="one_third">
+<h1>WINNER Links</h1>
+<div id="official_links">
+<a href="http://cafe.daum.net/YGWIN-TEAMA">Fancafe</a>
+<a href="https://www.facebook.com/OfficialYGWINNER">Facebook</a>
+<a href="https://twitter.com/WIN_JAPAN">Twitter Japan</a>
+<a href="http://www.youtube.com/OfficialYGWINNER">Youtube</a>
+<a href="https://www.facebook.com/WIN.who.is.next">Facebook WIN:WHO IS NEXT</a>
+<a href="#">Kakaotalk: @win</a>
+</div>
+
+
+</div>
+
+<div class="one_third">
+
+
+<h1>Disclaimer</h1>
+FY-WINNER is is no way affiliated with WINNER or YG Entertainment. We do not own any media that is posted on this blog unless stated otherwise. All posts are credited to their respective owners.<br><br>
+
+<h1>Events</h1>
+<div id="official_links">
+<table width="265"><td style="float:left; width:50%;">
+<a href="/events2011">+ 2011</a>
+<a href="/events2012">+ 2012</a>
+</td>
+<td style="float:left; width:50%;">
+<a href="/events2013">+ 2013</a>
+<a href="/events2014">+ 2014</a>
+</td></table>
+</div>
+
+    </div>
+        
+</footer>
+
+
+
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://fy-winner.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411848062&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZnktd2lubmVyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=GOBENPHKEP&K=8c8fd587cc32ebbe3913e810854a571af0df3f6bdd207933e83dd9b7a034a1d6&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411848062&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZnktd2lubmVyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=GOBENPHKEP&K=29d72c99395b9cccd4b008823b3289230f97834a370deacb9aa953055261633f&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411848062&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2Z5LXdpbm5lci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicG9zdGlkIjo5ODU3MjM5MjE1MywiYmxvZ2lkIjoiODYzNjEwODgiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6OTg1NzIzNTYzMTgsImJsb2dpZCI6Ijg2MzYxMDg4Iiwic291cmNlIjozM30seyJwb3N0aWQiOjk4NTcyMjcxMzUzLCJibG9naWQiOiI4NjM2MTA4OCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg1NzIxNzgyMDgiLCJibG9naWQiOiI4NjM2MTA4OCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg1NjkzMDAwMDMiLCJibG9naWQiOiI4NjM2MTA4OCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg1NjkyMTAyMDgiLCJibG9naWQiOiI4NjM2MTA4OCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg1NjkwOTAwMDMiLCJibG9naWQiOiI4NjM2MTA4OCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg1NjkwNzA4OTMiLCJibG9naWQiOiI4NjM2MTA4OCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg1Njg5MTU5MzMiLCJibG9naWQiOiI4NjM2MTA4OCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg1NjgzNjgxMjMiLCJibG9naWQiOiI4NjM2MTA4OCIsInNvdXJjZSI6MzN9XX0=&U=JIAIEJCKBN&K=fd9d4f52068538f3da735f7b6cbc7717d867a736fceeff2a5c3b08be694ea477&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411848062&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2Z5LXdpbm5lci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicG9zdGlkIjo5ODU3MjM5MjE1MywiYmxvZ2lkIjoiODYzNjEwODgiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6OTg1NzIzNTYzMTgsImJsb2dpZCI6Ijg2MzYxMDg4Iiwic291cmNlIjozM30seyJwb3N0aWQiOjk4NTcyMjcxMzUzLCJibG9naWQiOiI4NjM2MTA4OCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg1NzIxNzgyMDgiLCJibG9naWQiOiI4NjM2MTA4OCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg1NjkzMDAwMDMiLCJibG9naWQiOiI4NjM2MTA4OCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg1NjkyMTAyMDgiLCJibG9naWQiOiI4NjM2MTA4OCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg1NjkwOTAwMDMiLCJibG9naWQiOiI4NjM2MTA4OCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg1NjkwNzA4OTMiLCJibG9naWQiOiI4NjM2MTA4OCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg1Njg5MTU5MzMiLCJibG9naWQiOiI4NjM2MTA4OCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg1NjgzNjgxMjMiLCJibG9naWQiOiI4NjM2MTA4OCIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=JIAIEJCKBN&K=057118838b9e3bd2b653084d140da35f5ec749a4e25247d855aa112a6d215e02&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:86361088,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2Ffy-winner.com%2F&amp;lang=en_US&amp;name=fy-winner&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_04eeb074ed38_64.png&amp;title=YG+WINNER+%EC%9C%84%EB%84%88&amp;url=http%3A%2F%2Ffy-winner.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2Ffy-winner.com%2F&amp;lang=en_US&amp;name=fy-winner&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_04eeb074ed38_64.png&amp;title=YG+WINNER+%EC%9C%84%EB%84%88&amp;url=http%3A%2F%2Ffy-winner.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+
+</html>

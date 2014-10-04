@@ -1,0 +1,142 @@
+\section{Problem 4}
+\label{part4}
+\subsection*{Question}
+\begingroup
+
+\begin{verbatim}
+====================================================
+======Question 4 is for 3 points extra credit=======
+====================================================
+
+4.Compute the Kendall Tau_b score for both lists (use "b" because
+there will likely be tie values in the rankings).  Report both the
+Tau value and the "p" value.
+
+See: 
+http://stackoverflow.com/questions/2557863/measures-of-association-in-r-kendalls-tau-b-and-tau-c
+http://en.wikipedia.org/wiki/Kendall_tau_rank_correlation_coefficient#Tau-b
+http://en.wikipedia.org/wiki/Correlation_and_dependence
+
+\end{verbatim}
+\endgroup
+\newpage
+
+\subsection*{Answer}
+
+To calculate Kendall's $\tau_B$, one uses the following equation\cite{ktaubwikipedia}:
+\begin{align*}
+\tau_B = \frac{n_c - n_d}{\sqrt{(n_0 - n_1)(n_0 - n_2)}}
+\end{align*}
+where:
+\begin{align*}
+n_0 & = n(n-1)/2 \\
+n_1 & = \sum_i t_i (t_i - 1)/2 \\
+n_2 & = \sum_j u_j (u_j - 1)/2 \\
+n_c & = \textrm{Number of concordant pairs} \\
+n_d & = \textrm{Number of discordant pairs} \\
+t_i & = \textrm{Number of tied values in the $i^{th}$ group of ties for the first quantity} \\
+u_j & = \textrm{Number of tied values in the $j^{th}$ group of ties for the second quantity} \\
+\end{align*}
+
+The first step in calculating Kendall's Tau is to get the number of Concordant and Discordant pairs.  I had a difficult time understanding how to go about this.
+
+Finally after doing some research I understood that if we have n observations of data, which are tuples$ x_i$,$ y_i $of the two variables. Take any two of the possible tuples (pairs), and if "both values go in the same direction", then they are concordant. Formally, for two observations i,j, the pairs are concordant if either $xi$$>$$xj$ and $yi$$>$$yj$, or if $xi$$>$$xj$ and $yi$$>$$yj$ other wise its discordant.
+
+Table \ref{table:q4-1} shows the rankings listed with concordant and discordant pairs counted in columns \textbf{C} and \textbf{D} respectively, giving us $n_c = 44$ and $n_d = 46$.
+
+This gets us the top part of the equation, but not the bottom.  For that we need the number of ties for each value.
+
+For PageRank, from Table \ref{table:q3-2} there were only ties on values $0.6$ and $0.5$ and $0.0$, so the ties are $n_1 = \sum_i t_i (t_i - 1)/2 = t_{0.6}(t_{0.6} - 1)/2 + t_{0.5}(t_{0.5} - 1)/2 + t_{0.0}(t_{0.0} - 1)/2 = 2(2 - 1)/2 +2(2 - 1)/2+ 4(4 - 1)/2 = 2(1)/2 + 2(1)/2+4(3)/2 = 1 + 1 + 6 = 8$.  This sets $n_1 = 8$.
+
+For TFIDF, from Table \ref{table:q3-3} there were only ties on values $0.02$ and $0.07$ and $0.0$, so the ties are $n_1 = \sum_i u_j (u_j - 1)/2 = u_{0.6}(t_{0.6} - 1)/2 + u_{0.5}(t_{0.5} - 1)/2 + u_{0.0}(t_{0.0} - 1)/2 = 2(2 - 1)/2 +2(2 - 1)/2 = 2(1)/2 + 2(1)/2 = 1 + 1 = 2$.  This sets $n_2 = 2$.
+
+The total number of ranked items is $10$, making $n = 10$, and $n_0 = 10(10 - 1)/2 = 90/2 = 45$.
+
+Therefore:
+\begin{align*}
+\tau_B = \frac{44 - 46}{\sqrt{(45 - 8)(45 - 2)}} = \frac{-2}{\sqrt{37 \times 43}} = -\approx \frac{-2}{40} = -0.05
+\end{align*}
+
+\newpage
+To get the $p-value$ we need to calculate the $Z$-score, which, for Kendall Tau $B$, is:
+\begin{align*}
+z_B = \frac{n_c - n_d}{\sqrt{v}}
+\end{align*}
+where
+\begin{align*}
+v &= \frac{(v_0 - v_t - v_u)}{18 + v_1 + v_2} \\
+v_0 &= n(n - 1)(2n + 5) \\
+v_t &= \sum_i t_i(t_i - 1)(2t_i + 5) \\
+v_u &= \sum_j u_j(u_j - 1)(2u_j + 5) \\
+v_1 &= \frac{\sum_i t_i(t_i - 1)\sum_j u_j(u_j - 1)}{(2n(n - 1))} \\
+v_2 &= \frac{\sum_i t_i(t_i - 1)(t_i - 2)\sum_j u_j(u_j - 1)(u_j - 2)}{9n(n - 1)(n - 2)} \\
+\end{align*}
+Well, we shall start from the bottom.
+
+As noted before, for PageRank, there $2$ ties on $0.6$, $2$ on $0.5$ and $4$ on $0.0$, and $4$ ties TF*IDF values $2$ ties on $0.07$, $2$ on $0.02$.
+
+This makes $v_2 = 0$ due to the fact that $\sum_j u_j(u_j - 1)(u_j - 2) = 0$ because $(u_j-2)$ becomes 0
+
+$v_1= \frac{((4(4-1))+(2(2-1)+(2(2-1)))+(2(2-1)+(2(2-1))}{2(10)(9)}=\frac{64}{180}=0.355$ 
+
+Seeing as we had ties in TFIDF, $v_u = 2(2 - 1)(2(2) + 5) + 2(2 - 1)(2(2) + 5) = 2(1)(4+5) + 2(1)(4 + 5) = 18 + 18 =  36$, thus $v_u = 36$.
+
+Seeing as we had ties in PageRank, $v_t = 2(2 - 1)(2(2) + 5)+ 2(2 - 1)(2(2) + 5) + 4(4 - 1)(2(4) + 5) = 2(1)(4+5)+ 2(1)(4+5) + 6(5)(12 + 5) = 2(9) +  2(9)+ 12(13) = 18+ 18 + 156 = 192$, thus $v_t = 192$.
+
+There were $10$ items to compare, so $v_0 = 10(10 - 1)(2(10) + 5) = 10(9)(20 + 5) = (90)(25) = 2250$, thus $v_0 = 2250$.
+
+Now we have arrived at $v = \frac{(2250 - 192 - 36)}{18 + 0.355 + 0} = \frac{2022}{18.355} \approx 110$.
+
+From before $n_c = 44$ and $n_d = 46$, so the $Z$-score is
+\begin{align*}
+z_B = \frac{44 - 46}{\sqrt{110}} \approx \frac{-2}{10.49} = -0.19
+\end{align*}
+
+At this point, I realized that the Web contained a conflicting array of calculators and information on acquiring a $p$-value from a $Z$-score.I thought Using R is the best. so I execute the following command in R to get the $p$ value.
+
+\begin{lstlisting}[frame=single]
+> 2*pnorm(-abs(-0.19))
+[1] 0.8493091
+\end{lstlisting}
+
+Which gives me
+\begin{align*}
+p = 0.849
+\end{align*}
+
+Seems like there is not coorelation between PageRank and TFIDF
+
+\newpage
+\begin{table}
+\small
+\begin{tabular}{ | p{1.0cm} | p{1.0cm} | p{0.85cm} | p{0.85cm} | p{8.0cm} | }
+\hline
+\textbf{Page Rank Ranking} & \textbf{TF*IDF Ranking} & \textbf{C} & \textbf{D} & \textbf{URI} \\
+\hline
+1 & 2 & 0 & 9 & \url{http://www.ew.com/ew/} \\
+\hline
+2 & 9 & 6 & 3 & \url{ http://www.xxlmag.com} \\
+\hline
+3 & 6 & 6 & 3 & \url{ http://www.bet.com} \\
+\hline
+4 & 5 & 4 & 5 & \url{ http://www.kaskademusic.com} \\
+\hline 
+5 & 10 & 5 & 4 & \url{ http://music.iamlights.com/} \\
+\hline
+6 & 1 & 5& 4 & \url{http://runthetrap.com} \\
+\hline
+7 & 8 & 5 & 4 & \url{ http://www.soundclick.com/bands/default.cfm?bandID=1350875} \\
+\hline
+8 & 3 & 9 & 0 & \url{ https://soundcloud.com/scorpios4music} \\
+\hline
+9 & 7 & 1 & 8 & \url{ http://TrueMusicInHipHop.blogspot.com/} \\
+\hline
+10 & 4 & 3 & 6 &\url{ http://www.famoushollywoodbay.com} \\
+\hline
+\hline
+\textbf{Totals} & \cellcolor[gray]{0} & 21 & 24 & \cellcolor[gray]{0} \\
+\hline
+\end{tabular}
+\caption{Ranking of URIs by PageRank and TF*IDF, with Concordant Pairs (\textbf{C}) and Discordant Pairs (\textbf{D}), for Kendall Tau calculations}
+\label{table:q4-1}
+\end{table}

@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<html><head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+
+<!--
+    Theme 021 - Echo by thewicked-eternity.tumblr.com
+    PLEASE DO NOT REMOVE THE CREDIT OR REDISTRIBUTE
+    For any help, visit wickedeternitythemehelp.tumblr.com
+-->
+
+<title>TWDIRTYGIRLS</title>
+<link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_bfb845a0db26_128.png" />
+<link rel="alternate" type="application/rss+xml" href="http://twdg.tumblr.com/rss" />
+<meta name="description" content="Follow @twdirtygirls" />
+
+<!-- DEFAULT VARIABLES -->
+        <meta name="color:Background" content="#FFFFFF"/>
+        <meta name="color:Post Background" content="#FEFEFE"/>
+        <meta name="color:Post Border" content="#F3F2F2"/>
+        <meta name="color:Post Text" content="#C4C4C4"/>
+        <meta name="color:Post Links" content="#6B6B6B"/>
+        <meta name="color:Post Links Hover" content="#C4C4C4"/>
+        <meta name="color:Info Border" content="#F3F2F2"/>
+        <meta name="color:Info Links" content="#6B6B6B"/>
+        <meta name="color:Info Links Background" content="#3B3B3B"/>
+        <meta name="color:Sidebar" content="#181818"/>
+        <meta name="color:Sidebar Image Border" content="#222222"/>
+        <meta name="color:Sidebar Description" content="#969696"/>
+        <meta name="color:Sidebar Title" content="#969696"/>
+        <meta name="color:Sidebar Background" content="#111111"/>
+        <meta name="color:Sidebar Background Border" content="#4D4D4D"/>
+        <meta name="color:Navigation" content="#393939"/>
+        <meta name="color:Navigation Hover" content="#FFFFFF"/>
+        <meta name="color:Asker Background" content="#F7F7F7"/>
+        <meta name="color:Scrollbar" content="#181818"/>
+
+        <meta name="image:Sidebar" content=""/>
+        <meta name="image:Background" content=""/>
+        <meta name="image:Sidebar BG" content="http://static.tumblr.com/vyzeblq/L5Dmax7lq/black_001.png"/>
+
+        <meta name="font:Body" content="arial"/>
+
+        <meta name="if:400px Posts" content="0"/>
+        <meta name="if:Bigger Album Art" content="0"/>
+        <meta name="if:Black Player" content="0"/>
+        <meta name="if:Enable Infinite Scrolling" content="0"/>
+        <meta name="if:Hide Pagination" content"0"/>
+        <meta name="if:Hide Photo Captions" content="0"/>
+        <meta name="if:Hide Title" content="0"/>
+        <meta name="if:Show Submit" content="0"/>
+        <meta name="if:Switch Tag Position" content="0"/>
+
+        <meta name="text:Link 1" content="http://"/>
+        <meta name="text:Link 1 Title" content=""/>
+        <meta name="text:Link 2" content="http://">
+        <meta name="text:Link 2 Title" content=""/>
+        <meta name="text:Link 3" content="http://"/>
+        <meta name="text:Link 3 Title" content=""/>
+        <meta name="text:Link 4" content="http://"/>
+        <meta name="text:Link 4 Title" content=""/>
+        <meta name="text:Link 5" content="http://"/>
+        <meta name="text:Link 5 Title" content=""/>
+        <meta name="text:Link 6" content="http://"/>
+        <meta name="text:Link 6 Title" content=""/>
+        <meta name="text:Link 7" content="http://"/>
+        <meta name="text:Link 7 Title" content=""/>
+        <meta name="text:Link 8" content="http://"/>
+        <meta name="text:Link 8 Title" content=""/>
+        <meta name="text:Link 9" content="http://"/>
+        <meta name="text:Link 9 Title" content=""/>
+
+<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+
+<style type="text/css">
+
+/* --- SCROLLBAR --- */
+
+::-webkit-scrollbar-thumb:vertical {
+    background-color:#181818;
+    height:30px;
+    }
+ 
+::-webkit-scrollbar-thumb:horizontal {
+    background-color:#181818;
+    height:5px!important;
+    }
+ 
+::-webkit-scrollbar {
+    background-color:#020202;
+    height:5px;
+    width:5px;
+    }
+
+
+/* --- POSTS --- */
+
+body {
+    color:#140d0d;
+    background-attachment:fixed;
+    background-color:#020202;
+    background-image: url('http://assets.tumblr.com/images/x.gif');
+    background-position:top left;
+    background-repeat:repeat;
+    text-align:justify;
+    font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size:10px;
+    }
+
+a {
+    color:#6B6B6B;
+    text-decoration:none;
+    -webkit-transition:opacity 0.8s linear;
+    -webkit-transition:all 0.5s ease-out;
+    -moz-transition:all 0.5s ease-out;
+    transition:all 0.5s ease-out;
+    }
+
+a:hover {
+    text-decoration:none;
+    color:#070606;
+    }
+
+#container {
+    width:100%;
+    padding-bottom:30px;
+    min-height:100%;
+    }
+
+#entries {
+    position:absolute;
+    overflow:hidden;
+    width:650px;
+    margin-left:560px;
+    margin-top:0px;
+    
+    }
+ 
+#posts {
+    padding:20px;
+    width:500px;
+    
+    margin-bottom:40px;
+    position:relative;
+    background-color:#FEFEFE;
+    border:1px solid #F3F2F2;
+    }
+
+
+
+
+/* --- SIDEBAR --- */
+
+#sidebar {
+    position:fixed;
+    margin-top:-8px;
+    margin-left:251px;
+    width:240px;
+    padding:10px;
+    height:1000%;
+    background-color:#050202;
+    }
+
+#sidebarimage img {
+    margin-bottom:5px;
+    max-width:230px;
+    height:auto;
+    opacity:0.9;
+    border:4px solid #ff00a1;
+    
+    }
+
+#description {
+    font-size:8px;
+    font-family:calibri;
+    padding:5px;
+    letter-spacing:1px;
+    color:#ff008c;
+    text-align:justify;
+    text-transform:uppercase;
+    }
+
+#sidebarbg {
+    width:530px;
+    margin-top:-8px;
+    margin-left:-8px;
+    height:1000%;
+    position:fixed;
+    background-color:#ff00a1;
+    background-image: url('http://assets.tumblr.com/images/x.gif');
+    border-right:5px solid #ff00ab;
+    }
+
+.title {
+    font-size:18px;
+    font-family: 'Playball', cursive;
+    text-align:center;
+    text-transform:lowercase;
+    margin-bottom:10px;
+    position:relative;
+    margin-top:35px;
+    color:#ff008c;
+    }
+
+
+/* --- TITLES --- */
+
+#title1 {
+    font-size:15px;
+    font-family:calibri;
+    text-decoration:none;
+    text-align:center;
+    text-transform:uppercase;
+    background-color:white;
+    border-bottom:1px solid #020101;
+    }
+
+#title2 {
+    font-size:14px;
+    text-transform:uppercase;
+    font-family:calibri;
+    text-align:center;
+    }
+
+
+/* --- SIDELINKS & NAVIGATION --- */
+
+#sidelinks {
+    margin-bottom:3px;
+    border-top:2px dotted #ff00b5;
+    }
+
+#sidelinks a {
+    margin-top:3px;
+    display:inline-block;
+    font-family:georgia;
+    font-size:10px;
+    text-align:center;
+    text-transform:lowercase;
+    font-style:italic;
+    color:#ff008c;
+    }
+
+#sidelinks a:hover {
+    color:#FFFFFF;
+    text-align:center;
+    }
+
+#navigation {
+    margin-top:50px;
+    margin-left:145px;
+    }
+
+#navigation a {
+    display:block;
+    text-align:right;
+    text-transform:uppercase;
+    margin:2px;
+    width:90px;
+    margin-bottom:-10px;
+    font-family:calibri;
+    border-right:10px solid #050202;
+    font-size:8px;
+    letter-spacing:1px;
+    color:#ff00b5;
+    padding-left:3px;
+    padding-right:9px;
+    padding-top:6px;
+    padding-bottom:6px;
+    background-color:transparent;
+    }
+
+#navigation a:hover {
+    color:#FFFFFF;
+    margin-left:-15px;
+    border-right:28px solid #050202;
+    background-color:transparent;
+    }
+
+
+/* --- AUDIO --- */
+
+#audio {
+    margin-bottom:5px;
+    width:500px;
+    
+    height:62px;
+    
+    height:105px;
+    
+    }
+
+.albumart {
+    width:57px;
+    height:57px;
+    position:absolute;
+    
+    width:100px;
+    height:100px;
+    
+    }
+
+.albumart img {
+    width:57px;
+    height:57px;
+    float:left;
+    
+    width:100px;
+    height:100px;
+    
+    }
+
+.playercontainer {
+    opacity: .2;
+    display:block;
+    width:57px;
+    height:57px;
+    
+    width:100px;
+    height:100px;
+    
+    background-color:white;
+    
+    position:absolute;
+    z-index:3;
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+    }
+
+.playercontainer:hover {
+    opacity:.7;
+    }
+
+.player {
+    margin-left:16px;
+    margin-top:16px;
+    
+    margin-left:36px;
+    margin-top:36px;
+    
+    width:25px;
+    height:25px;
+    overflow:hidden;
+    background-color:white;
+    
+    }
+
+.audioinfo {
+    margin-left:60px;
+    float:left;
+    background-color:transparent;
+    padding:2px;
+    margin-bottom:3px;
+    margin-top:0px;
+    width:435px;
+    
+    
+    margin-left:105px;
+    width:388px;
+    
+    
+    }
+
+
+/* --- CHAT POST --- */
+
+.chat {
+    line-height:12px;
+    list-style:none;
+    }
+
+.chat ul {
+    line-height:15px;
+    list-style:none;
+    padding:0px;
+    line-height:20px;
+    }
+
+.person1 {
+    background-color:#020202;
+    color:#140d0d;
+    }
+
+.person1 .label {
+    font-weight:bold;
+    padding:0px;
+    margin-left:5px;
+    color:#140d0d;
+    }
+
+.person2 {
+    color:#140d0d;
+    }
+
+.person2 .label {
+    font-weight:bold;
+    padding:0px;
+    margin-left:5px;
+    color:#140d0d;
+    }
+
+.person3 {
+    background-color:#020202;
+    color:#140d0d;
+    }
+
+.person3 .label {
+    font-weight:bold;
+    padding:0px;
+    margin-left:5px;
+    color:#140d0d;
+    }
+
+.person4 {
+    color:#140d0d;
+    }
+
+.person4 .label {
+    font-weight:bold;
+    padding:0px;
+    margin-left:5px;
+    color:#140d0d;
+    }
+
+.person5 {
+    background-color:#020202;
+    color:#140d0d;
+    }
+
+.person5 .label {
+    font-weight:bold;
+    padding:0px;
+    margin-left:5px;
+    color:#140d0d;
+    }
+
+.person6 {
+    color:#140d0d;
+    }
+
+.person6 .label {
+    font-weight:bold;
+    padding:0px;
+    margin-left:5px;
+    color:#140d0d;
+    }
+
+
+/* --- INFO & OTHER --- */
+
+#info {
+    padding:4px;
+    margin-top:7px;
+    line-height:90%;
+    color:;
+    font-size:7px;
+    font-family:arial;
+    text-transform:uppercase;
+    width:493px;
+    
+    border-top:2px solid #020101;
+    letter-spacing:1px;
+    text-align:left;
+    }
+
+#info a {
+    color:#6B6B6B;
+    background-color:transparent;
+    padding:1px;
+    }
+
+#info a:hover {
+    color:#070606;
+    background-color:#030101;
+    }
+
+#questions {
+    color:;
+    padding:10px;
+    margin-bottom:0px;
+    font-size:10px;
+    font-family:arial;
+    text-align:justify;
+    background-color:#F7F7F7;
+    border-bottom:2px dotted #020101;
+    }
+
+#questions a {
+    color:#6B6B6B;
+    }
+
+#questions a:hover {
+    color:#070606;
+    }
+
+
+#tags {  
+    font-family:calibri;
+    text-align:left;
+    text-transform:uppercase;
+    font-size:8px;
+    letter-spacing:1px;
+    margin-top:-40px;
+    margin-left:0px;
+    margin-bottom:30px;
+    width:540px;
+    
+    }
+
+#tags a {
+    color:#6B6B6B;
+    background-color:trans;
+    padding:1px;
+    }
+
+#tags a:hover {
+    color:#070606;
+    background-color:#030101;
+    }
+
+
+#source {
+    margin-top:3px;
+    text-align:right;
+    margin-bottom:5px;
+    font-size:10px;
+    }
+    
+.pagination {
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align:center;
+    line-height:20px;
+    font-family:calibri;
+    font-size:10px;
+    }
+    
+.pagination a {
+    text-decoration:none;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left:4px;
+    padding-right:4px;
+    color:#ff008c;
+    background-color:#ff00a1;
+    }
+    
+.pagination a:hover {
+    background-color:#050202;
+    color:#ff008c;
+    }
+
+.postnotes {
+    margin-top:-5px;
+    }
+ 
+ol.notes, .notes li {
+    width:500px;
+    list-style:none;
+    }
+
+blockquote {
+    border-left:4px solid #140d0d;
+    padding:0px;
+    padding-left:5px;
+    margin:5px;
+    }
+
+
+
+</style>
+
+
+
+<script type="text/javascript" src="http://static.tumblr.com/bmdsqsc/8mXm7q8vn/jquery.js"></script>
+<script type="text/javascript" src="http://static.tumblr.com/bmdsqsc/ogWm7q8w1/lazyload.js"></script>
+<script type="text/javascript" charset="utf-8">
+var $j = jQuery.noConflict();
+$j(function() {
+if (navigator.platform == "iPad" || navigator.platform == "iPhone") return;
+$j("img").lazyload({
+placeholder : "http://static.tumblr.com/twte3d7/RSvlio0k5/grey.gif",
+effect: "fadeIn", }); });</script>
+
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=twdg" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="TWDIRTYGIRLS" /><meta property="og:url" content="http://twdg.tumblr.com/?og=1" /><meta property="og:description" content="Follow @twdirtygirls" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_bfb845a0db26_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=twdg" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=twdg" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="twdg" /><meta name="twitter:description" content=" &lt;a href=&quot;https://twitter.com/twdirtygirls&quot; class=&quot;twitter-follow-button&quot; data-show-count=&quot;false&quot;&gt;Follow @twdirtygirls&lt;/a&gt;
+&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=&quot;//platform.twitter.com/widgets.js&quot;;fjs.parentNode.insertBefore(js,fjs);}}(document,&quot;script&quot;,&quot;twitter-wjs&quot;);&lt;/script&gt; &lt;a href=&quot;http://s638.beta.photobucket.com/user/bsbgirl101/media/tumblr_mf5prcusLv1rkx28ho2_250_zpsb14a4816.gif.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://i638.photobucket.com/albums/uu109/bsbgirl101/tumblr_mf5prcusLv1rkx28ho2_250_zpsb14a4816.gif&quot; border=&quot;0&quot; alt=&quot;Photobucket&quot;/&gt;&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+" /><meta name="twitter:creator" content="twdirtygirls" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=twdg&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=twdg&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=twdg&amp;referrer=twitter-cards" />
+
+</head>
+    <body>
+
+
+
+
+<div id="container">
+
+
+
+<div id="sidebarbg">
+<div id="navigation">
+
+<a href="https://twitter.com/twdirtygirls/">Twitter</a><br>
+<a href="http://youtu.be/mG_FvLMh7Uc">OUR #TWAfterHours Scrapbook on TMZ</a>
+<br>
+<a href="http://youtu.be/Q2gbTRqk00M">#TWAfterHours Mention by Siva and Nathan</a><br>
+<a href="http://youtu.be/gYlbaoy2n0M">#TWAfterHours Mention By Siva </a><br>
+<a href="http://www.thewantedmusic.com/videos/channels/4/172">Wanted World TWDirtyGirls Shout Out from Max</a><br>
+<a href="http://youtu.be/KfcPeZaMbW4 ">Max Holding our #TWAfterHours Book in The Flip</a><br>
+<a href="http://youtu.be/uOMZ6DKEHno">Max & Tom Reaction to TWDG Sign</a><br>
+<a href="http://youtu.be/MvZL2MGyjdk ">JAY Shout Out</a><br>
+<a href="http://youtu.be/RDGWoifCqBQ">Jay/Max says Hi Crystal Twitcam</a><br>
+</div>
+</div>
+
+
+<div id="sidebar">
+
+
+<center><div class="title">TWDIRTYGIRLS</div></center>
+
+
+<center><div id="sidebarimage"><img src="http://assets.tumblr.com/images/x.gif"></div></center>
+
+<div id="description"><a href="https://twitter.com/twdirtygirls" class="twitter-follow-button" data-show-count="false">Follow @twdirtygirls</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> <a href="http://s638.beta.photobucket.com/user/bsbgirl101/media/tumblr_mf5prcusLv1rkx28ho2_250_zpsb14a4816.gif.html" target="_blank"><img src="http://i638.photobucket.com/albums/uu109/bsbgirl101/tumblr_mf5prcusLv1rkx28ho2_250_zpsb14a4816.gif" border="0" alt="Photobucket"/></a></div><p>
+
+<center><div id="sidelinks">
+<a href="/">home</a> · 
+<a href="/ask">message</a>
+
+· <a href="/submit">Submit</a> · 
+<a href="/archive">archive</a> · 
+<a href="http://thewicked-eternitythemes.tumblr.com">theme</a>
+</div></center>
+
+
+<div class="pagination">
+
+
+<span class="current_page" style="padding-right:3px;padding-left:3px;">1</span>
+
+
+
+<a class="jump_page" href="/page/2">2</a>
+
+<a class="jump_page" href="/page/3">3</a>
+
+<a class="jump_page" href="/page/4">4</a>
+
+<a class="jump_page" href="/page/5">5</a>
+
+<a class="jump_page" href="/page/6">6</a>
+
+<a href="/page/2">»</a> 
+</div>
+
+</div><br>
+
+
+
+
+
+
+<div id="entries"><div id="posts">
+
+
+
+
+
+
+
+
+
+<center><a href="http://instagram.com/p/tYFpBJRKQ2/"><img src="http://38.media.tumblr.com/98ffbb2404a7cfe017af7b71fd35e413/tumblr_ncgvq2NM0V1rb04lco1_500.jpg" alt=""/></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="info"><div style="margin-left:-4px;"><a href="https://www.tumblr.com/reblog/98398565431/6DFUHmJk" target="_blank">Reblog</a> - <a href="http://twdg.tumblr.com/post/98398565431">2 days ago</a> 
+
+ with <a href="http://twdg.tumblr.com/post/98398565431">2 notes</a></div></div></div>
+
+
+
+
+<div id="posts">
+
+
+
+
+
+
+
+
+
+<center><a href="http://instagram.com/p/tYFmkxRKQt/"><img src="http://33.media.tumblr.com/5b1cfa495c279b4798cf1739a1d09448/tumblr_ncgvpi6UnL1rb04lco1_500.jpg" alt=""/></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="info"><div style="margin-left:-4px;"><a href="https://www.tumblr.com/reblog/98398545266/G4NYXkar" target="_blank">Reblog</a> - <a href="http://twdg.tumblr.com/post/98398545266">2 days ago</a> 
+
+</div></div></div>
+
+
+
+
+<div id="posts">
+
+
+
+
+
+
+
+
+
+<center><a href="http://instagram.com/p/tYFcVIxKQf/"><img src="http://31.media.tumblr.com/f8541594f2da3d7131ae67ac73702d1b/tumblr_ncgvn6m0qu1rb04lco1_500.jpg" alt=""/></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="info"><div style="margin-left:-4px;"><a href="https://www.tumblr.com/reblog/98398455326/BLLYpfex" target="_blank">Reblog</a> - <a href="http://twdg.tumblr.com/post/98398455326">2 days ago</a> 
+
+</div></div></div>
+
+
+
+
+<div id="posts">
+
+
+
+
+
+
+
+
+
+<center><a href="http://instagram.com/p/tYFaFGxKQc/"><img src="http://33.media.tumblr.com/3d009386a9eed0d3a5be924ec7ccfc74/tumblr_ncgvmoM1NG1rb04lco1_500.jpg" alt=""/></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="info"><div style="margin-left:-4px;"><a href="https://www.tumblr.com/reblog/98398435446/666Ude8o" target="_blank">Reblog</a> - <a href="http://twdg.tumblr.com/post/98398435446">2 days ago</a> 
+
+</div></div></div>
+
+
+
+
+<div id="posts">
+
+
+
+
+
+
+
+
+
+<center><a href="http://instagram.com/p/tYFYWfxKQZ/"><img src="http://33.media.tumblr.com/3ad511641edc5cf94af5af470403a96a/tumblr_ncgvm9F93E1rb04lco1_500.jpg" alt=""/></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="info"><div style="margin-left:-4px;"><a href="https://www.tumblr.com/reblog/98398420541/K3qGRheL" target="_blank">Reblog</a> - <a href="http://twdg.tumblr.com/post/98398420541">2 days ago</a> 
+
+ with <a href="http://twdg.tumblr.com/post/98398420541">1 note</a></div></div></div>
+
+
+
+
+<div id="posts">
+
+
+
+
+
+
+
+
+
+<center><a href="http://instagram.com/p/tYFYO8RKQX/"><img src="http://38.media.tumblr.com/957df6c0f806d45ce023dbd610b917e1/tumblr_ncgvm81RGB1rb04lco1_500.jpg" alt=""/></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="info"><div style="margin-left:-4px;"><a href="https://www.tumblr.com/reblog/98398419856/aOcuZXMU" target="_blank">Reblog</a> - <a href="http://twdg.tumblr.com/post/98398419856">2 days ago</a> 
+
+ with <a href="http://twdg.tumblr.com/post/98398419856">1 note</a></div></div></div>
+
+
+
+
+<div id="posts">
+
+
+
+
+
+
+
+
+
+<center><a href="http://instagram.com/p/tYFUQUxKQN/"><img src="http://38.media.tumblr.com/7774c899490c487e5c90fafcb5aae702/tumblr_ncgvlc2vRI1rb04lco1_500.jpg" alt=""/></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="info"><div style="margin-left:-4px;"><a href="https://www.tumblr.com/reblog/98398387266/vQW2OFyq" target="_blank">Reblog</a> - <a href="http://twdg.tumblr.com/post/98398387266">2 days ago</a> 
+
+</div></div></div>
+
+
+
+
+<div id="posts">
+
+
+
+
+
+
+
+
+
+<center><a href="http://instagram.com/p/tYFS-hRKQK/"><img src="http://31.media.tumblr.com/84063de7e63f9193e25d6b20fc5f77ce/tumblr_ncgvl2Pe201rb04lco1_500.jpg" alt=""/></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="info"><div style="margin-left:-4px;"><a href="https://www.tumblr.com/reblog/98398376686/EL7MX9Z0" target="_blank">Reblog</a> - <a href="http://twdg.tumblr.com/post/98398376686">2 days ago</a> 
+
+</div></div></div>
+
+
+
+
+<div id="posts">
+
+
+
+
+
+
+
+
+
+<center><a href="http://instagram.com/p/tYFQ91xKQF/"><img src="http://38.media.tumblr.com/56c26c1da7ecc0e7f2a1bffe240b76fa/tumblr_ncgvklnDJn1rb04lco1_500.jpg" alt=""/></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="info"><div style="margin-left:-4px;"><a href="https://www.tumblr.com/reblog/98398360131/DH37M68t" target="_blank">Reblog</a> - <a href="http://twdg.tumblr.com/post/98398360131">2 days ago</a> 
+
+ with <a href="http://twdg.tumblr.com/post/98398360131">1 note</a></div></div></div>
+
+
+
+
+<div id="posts">
+
+
+
+
+
+
+
+
+
+<center><a href="http://instagram.com/p/tYFPzzxKf_/"><img src="http://38.media.tumblr.com/8f6b1223e871573817c1e638308c8bc9/tumblr_ncgvkbHQUa1rb04lco1_500.jpg" alt=""/></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="info"><div style="margin-left:-4px;"><a href="https://www.tumblr.com/reblog/98398349786/3rPIwdx7" target="_blank">Reblog</a> - <a href="http://twdg.tumblr.com/post/98398349786">2 days ago</a> 
+
+</div></div></div>
+
+
+
+
+
+
+
+
+</div></div>
+
+    <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://twdg.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847502&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdHdkZy50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=CICJEKBEFB&K=de1e9838bc5813f36a99e449241bbc6c92ea90b23ad2ce1223bfd647d4ea71fa&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847502&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdHdkZy50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=CICJEKBEFB&K=d110d95a85a1a5828a045cd2eacfcc9bed7f977ccc748396d5f53cfda19d72d5&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847502&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3R3ZGcudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJwb3N0aWQiOiI5ODM5ODU2NTQzMSIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM5ODU0NTI2NiIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM5ODQ1NTMyNiIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM5ODQzNTQ0NiIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM5ODQyMDU0MSIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM5ODQxOTg1NiIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM5ODM4NzI2NiIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM5ODM3NjY4NiIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM5ODM2MDEzMSIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM5ODM0OTc4NiIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM31dfQ==&U=ELANLJFPMM&K=2c80d18fe701bca5cf827829d9706aadf6eedb0121762fffc9b01a2d819feffb&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847502&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3R3ZGcudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJwb3N0aWQiOiI5ODM5ODU2NTQzMSIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM5ODU0NTI2NiIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM5ODQ1NTMyNiIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM5ODQzNTQ0NiIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM5ODQyMDU0MSIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM5ODQxOTg1NiIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM5ODM4NzI2NiIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM5ODM3NjY4NiIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM5ODM2MDEzMSIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM5ODM0OTc4NiIsImJsb2dpZCI6IjYzNjI2MDE3Iiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=ELANLJFPMM&K=a1b80ab76ccd77cf044ebe2a98fb8537f0b63e979382f6f326f1de0883fb0c50&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:63626017,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2Ftwdg.tumblr.com%2F&amp;lang=en_US&amp;name=twdg&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_bfb845a0db26_64.png&amp;title=TWDIRTYGIRLS&amp;url=http%3A%2F%2Ftwdg.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2Ftwdg.tumblr.com%2F&amp;lang=en_US&amp;name=twdg&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_bfb845a0db26_64.png&amp;title=TWDIRTYGIRLS&amp;url=http%3A%2F%2Ftwdg.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

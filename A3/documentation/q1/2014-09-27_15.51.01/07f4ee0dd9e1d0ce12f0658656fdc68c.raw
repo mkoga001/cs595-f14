@@ -1,0 +1,44 @@
+<!--
+	top.location="http://ww17.misslaylael.com/?fp=J6cBbT7X2C8wMxrtFHr6H1%2BVtd1kAW9pzjGCYN51FBSdjtsdzj8qbP3tuN0k0ZmQb4aKdaef0f8PYgaeHXYJFw%3D%3D&prvtof=BLgkfih087bY0%2BuuREtUNR4U5Jeq98kiKhPLWOMJ2yM%3D&poru=ZEddfiC0fbF1pNdFc6QrhBa1XVgavsedcLYt4GHuBe4RBq7p1V5OMIeQt%2BNPxVbP&cifr=1&";
+	/*
+-->
+<script type="text/javascript">
+	<!--
+	dimensionUpdated = 0;
+	function applyFrameKiller()
+	{
+		if(window.top != self)
+		{
+			cHeight = 0;
+			if( typeof( window.innerHeight ) != 'undefined' ) {
+			//Non-IE
+			cHeight = window.innerHeight;
+			dimensionUpdated = 1;
+			} else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight )  ) {
+			//IE 6+ in 'standards compliant mode'
+			cHeight = document.documentElement.clientHeight;
+			dimensionUpdated = 1;
+			} else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+			//IE 4 compatible
+			cHeight = document.body.clientHeight;
+			dimensionUpdated = 1;
+			}
+			if( cHeight <= 250 && dimensionUpdated == 1)
+			{
+				window.top.location = "http://ww17.misslaylael.com/?fp=J6cBbT7X2C8wMxrtFHr6H1%2BVtd1kAW9pzjGCYN51FBSdjtsdzj8qbP3tuN0k0ZmQb4aKdaef0f8PYgaeHXYJFw%3D%3D&prvtof=zfOxKJ0y1n0Yzbp9461frQJRdBn2Xn1%2BE7Pa%2FRVbRS0%3D&poru=F%2BZPxuKWoWNtLW62VJrKpGTu%2BsSRTN49QQ7pYjGay%2By5VmtnFB8oMB45MDP8zBcn&cifr=1&";
+			}
+		}
+	}
+
+	applyFrameKiller();
+	// -->
+</script><frameset rows="100%,*" frameborder="no" border="0" framespacing="0">
+	<frame src="http://ww17.misslaylael.com/?fp=J6cBbT7X2C8wMxrtFHr6H1%2BVtd1kAW9pzjGCYN51FBSdjtsdzj8qbP3tuN0k0ZmQb4aKdaef0f8PYgaeHXYJFw%3D%3D&prvtof=NlilqSHUfZYcOF0q1bna2NcJTzH2NXYeIfSCZDXcrb4%3D&poru=hbdJCOlVVcG3Iuk5CRx%2Bi0nBRjC4Z2wxvnF6kCMaJSZaOfztt5JClANWG7od%2BAzD&">
+</frameset>
+<noframes>
+	<body bgcolor="#ffffff" text="#000000">
+	<a href="http://ww17.misslaylael.com/?fp=J6cBbT7X2C8wMxrtFHr6H1%2BVtd1kAW9pzjGCYN51FBSdjtsdzj8qbP3tuN0k0ZmQb4aKdaef0f8PYgaeHXYJFw%3D%3D&prvtof=2q9hOiAadWlZaPygReU95dQRlS3vuINeoLeQ2YHCO4Q%3D&poru=h%2FxvY8YXvBz1555eymYBnxKSpedR9NsBc0QK%2F2AZX1fUsUuY133EAGVXnlsp9AP3&">Click here to proceed</a>.
+	</body>
+</noframes><!--
+*/
+-->

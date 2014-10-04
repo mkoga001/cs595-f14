@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        
+        <meta charset="utf-8">
+        <title>GOKU</title>
+        
+        <meta name="description" content="Follow a real saiyan nigga on twitter @ItsSonGoku">
+        
+        
+        
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_58735c83261c_128.png">
+        <link rel="apple-touch-icon-precomposed" href="http://33.media.tumblr.com/avatar_58735c83261c_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://itssongoku.tumblr.com/rss">
+        
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/PuGmmhqcs/normalize.css">
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/qE8n2yg06/optica-icons.css">
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/lu6nbykui/main.css">
+
+        <!-- HTML5 Shiv -->
+        <!--[if lt IE 9]>
+            <script src="http://static.tumblr.com/hriofhd/Qj0m8pn7q/html5shiv.js"></script>
+        <![endif]-->
+
+        <style>
+            /* Colors */
+            body {
+                background: #FAFAFA;
+            }
+
+            h1 {
+                font-family: 'Avalon', sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+                font-weight: bold;
+            }
+
+            h1 a,
+            .description,
+            .search-header {
+                color: #ff0000;
+            }
+
+            .h-line {
+                background: #ff0000;
+            }
+
+            a {
+                color: #ff0011;
+            }
+            
+            #pagination a,
+            .exposed-nav-wrapper li a {
+                color: #ff0011;
+            }
+
+            #pagination a.next:after {
+                border-left-color: #ff0011;
+            }
+
+            #pagination a.previous:after {
+                border-right-color: #ff0011;
+            }
+
+            .loader .loader-bar {
+                background-color: #ff0000;
+            }
+
+            .link-wrapper h2 a {
+                background-color: #ff0011;
+            }
+            
+            .header-image.cover {
+                background-image: url(http://static.tumblr.com/b1cc0ec4029961de6927c4a0c4e05fcb/yda9v2k/Obbn4awzw/tumblr_static_2tb4rx5m9lmo4kgcooskcows.jpg);
+            }
+
+            .user-avatar {
+                background-color: #FAFAFA;
+                border-color: #FAFAFA;
+            }
+
+            .avatar-style-square .user-avatar {
+                -wekbit-box-shadow: 0 0 0 4px #FAFAFA;
+                -moz-box-shadow: 0 0 0 4px #FAFAFA;
+                box-shadow: 0 0 0 4px #FAFAFA;
+            }
+            
+            .no-header-image .selector .bar-icon,
+            .contain-header-image .selector .bar-icon {
+                background: #ff0011;
+            }
+
+            .no-header-image .search-only .selector .icon,
+            .contain-header-image .search-only .selector .icon {
+                color: #ff0011;
+            }
+
+            /* Adjust menus for light accents on light backgrounds */
+            .light-on-light.no-header-image .selector .bar-icon,
+            .light-on-light.contain-header-image .selector .bar-icon {
+                background: #444;
+            }
+
+            .light-on-light.no-header-image .search-only .selector .icon,
+            .light-on-light.contain-header-image .search-only .selector .icon {
+                color: #444;
+            }
+
+            /* Adjust menus for dark accents on dark backgrounds */
+            .dark-on-dark.no-header-image .selector .bar-icon,
+            .dark-on-dark.contain-header-image .selector .bar-icon {
+                background: #fff;
+            }
+
+            .dark-on-dark.no-header-image .search-only .selector .icon,
+            .dark-on-dark.contain-header-image .search-only .selector .icon {
+                color: #fff;
+            }
+
+            @media screen and (max-device-width: 568px) {
+                .header-image.cover {
+                    background-image: url(http://static.tumblr.com/b1cc0ec4029961de6927c4a0c4e05fcb/yda9v2k/Obbn4awzw/tumblr_static_2tb4rx5m9lmo4kgcooskcows.jpg);
+                    -webkit-background-size: cover;
+                    background-size: cover;
+                }
+
+                .nav-menu-bg,
+                .nav-menu-wrapper .nav-menu.active:before,
+                .nav-menu .pop-menu ul {
+                    background: #FAFAFA;
+                }
+
+                .nav-menu.active .selector .bar-icon,
+                .below-header .selector .bar-icon {
+                    background: #ff0011;
+                }
+
+                .nav-menu .pop-menu ul li a,
+                .below-header .search-only .selector .icon {
+                    color: #ff0011;
+                }
+                
+                /* Adjust menus for light accents on light backgrounds */
+                .light-on-light.below-header .nav-menu .selector .bar-icon,
+                .light-on-light.below-header .selector .bar-icon {
+                    background: #444;
+                }
+
+                .light-on-light .nav-menu .pop-menu ul li a,
+                .light-on-light.below-header .search-only .selector .icon {
+                    color: #444;
+                }
+                
+                /* Adjust menus for dark accents on dark backgrounds */
+                .dark-on-dark .nav-menu .selector .bar-icon,
+                .dark-on-dark .below-header .selector .bar-icon {
+                    background: #fff;
+                }
+
+                .dark-on-dark .nav-menu .pop-menu ul li a,
+                .dark-on-dark.below-header .search-only .selector .icon {
+                    color: #fff;
+                }
+
+                .avatar-style-square .user-avatar {
+                    -wekbit-box-shadow: 0 0 0 3px #FAFAFA;
+                    -moz-box-shadow: 0 0 0 3px #FAFAFA;
+                    box-shadow: 0 0 0 3px #FAFAFA;
+                }
+
+            }
+
+            /* Custom CSS */
+            
+        </style>
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=itssongoku" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/avalon/stylesheet.css?v=1">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="GOKU" /><meta property="og:url" content="http://itssongoku.tumblr.com/?og=1" /><meta property="og:description" content="Follow a real saiyan nigga on twitter @ItsSonGoku" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_58735c83261c_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=itssongoku" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=itssongoku" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="itssongoku" /><meta name="twitter:description" content="Follow a real saiyan nigga on twitter @ItsSonGoku" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=itssongoku&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=itssongoku&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=itssongoku&amp;referrer=twitter-cards" />
+
+</head>
+    <body data-urlencoded-name="itssongoku" class="narrow index-page">
+        <section id="page">
+            <div class="nav-menu-wrapper ">
+                <nav class="nav-menu pop">
+                    <a class="selector">
+                        
+                            <div class="bar-icon-wrapper">
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                            </div>
+                        
+                        
+                    </a>
+                    <div class="pop-menu west">
+                        <ul>
+                            <li class="no-hover search">
+                                <form action="/search" method="get" id="search">
+                                    <input type="text" name="q" id="q" placeholder="Search" value="">
+                                    <button type="submit" class="icon-search_16"></button>
+                                </form>
+                            </li>
+                            
+                                <li>
+                                    <a href="/archive" class="archive">Archive <i class="icon-arrow_carrot_right"></i></a>
+                                </li>
+                                
+                                
+                                
+                            
+                        </ul>
+                    </div> 
+                </nav>
+                <div class="glass"></div>
+            </div>
+            
+            <div class="nav-menu-bg"></div>
+            
+            <div class="header-wrapper
+                
+                
+                
+                avatar-style-circle">
+
+                <header id="header">
+                    
+                    <div class="header-image-wrapper ">
+                        <a href="/" class="header-image parallax cover " data-bg-image="http://static.tumblr.com/b1cc0ec4029961de6927c4a0c4e05fcb/yda9v2k/Obbn4awzw/tumblr_static_2tb4rx5m9lmo4kgcooskcows.jpg">
+                            
+                        </a>
+                        <div class="loader-bg"></div>
+                    </div>
+                    
+
+                    <div class="blog-title content">
+                        <figure class="avatar-wrapper animate">
+                            <a href="/" style="background-image: url(http://33.media.tumblr.com/avatar_58735c83261c_128.png)" class="user-avatar"><img src="http://33.media.tumblr.com/avatar_58735c83261c_128.png" alt="" class="print-only invisible"></a>
+                        </figure>
+
+                        <div class="title-group animate">
+                            
+                            <h1><a href="/">GOKU</a></h1>
+                            
+                            
+                            <span class="description">
+                                Follow a real saiyan nigga on twitter @ItsSonGoku
+                            </span>
+                            
+                        </div>
+                    </div>
+
+                    
+                </header>
+            </div>
+            
+            <section id="posts" class="content clearfix  avatar-style-circle  ">
+    
+                <div data-page-id="1">
+                    
+                            <article class="photo reblogged not-page post-87038177331 " data-post-id="post_87038177331">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://sidechickfil-a.tumblr.com/post/86853239400/eastcoastbae-screamingggggggggggggggg"><i class="icon-reblog"></i>sidechickfil-a</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="high-res with-caption" data-photo-width="640">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://itssongoku.tumblr.com/image/87038177331"><img src="http://33.media.tumblr.com/1824a0b4176cde44eb013a712cebdd53/tumblr_n5uvsfJymd1rsfsigo1_1280.jpg" alt="eastcoastbae:
+
+SCREAMINGGGGGGGGGGGGGGGG
+" width="640" height="600"></a>
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a class="tumblr_blog" href="http://eastcoastbae.tumblr.com/post/86851848773/screamingggggggggggggggg">eastcoastbae</a>:</p>
+<blockquote>
+<p>SCREAMINGGGGGGGGGGGGGGGG</p>
+</blockquote>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://sidechickfil-a.tumblr.com/post/86853239400/eastcoastbae-screamingggggggggggggggg"><i class="icon-reblog"></i>sidechickfil-a</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://trickyfrank57.tumblr.com/post/86282984099/lmao">Source: trickyfrank57</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://itssongoku.tumblr.com/post/87038177331/eastcoastbae-screamingggggggggggggggg#notes">21,953 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://itssongoku.tumblr.com/post/87038177331/eastcoastbae-screamingggggggggggggggg" title="4 months ago">May 27th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_87038177331">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="87038177331">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fitssongoku.tumblr.com%2Fpost%2F87038177331%2Feastcoastbae-screamingggggggggggggggg&amp;t=GOKU" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20eastcoastbae%3A%20SCREAMINGGGGGGGGGGGGGGGG%20http%3A%2F%2Ftmblr.co%2FZnLAmn1H3uJ0p" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20GOKU&amp;body=Photo%3A%20eastcoastbae%3A%20SCREAMINGGGGGGGGGGGGGGGG%20http%3A%2F%2Fitssongoku.tumblr.com%2Fpost%2F87038177331%2Feastcoastbae-screamingggggggggggggggg" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://itssongoku.tumblr.com/post/87038177331/eastcoastbae-screamingggggggggggggggg" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/87038177331/zACdElSf" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="87038177331" id="like_button_87038177331"><iframe id="like_iframe_87038177331" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=itssongoku&amp;post_id=87038177331&amp;color=black&amp;rk=zACdElSf" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text not-page post-84271658351 " data-post-id="post_84271658351">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+                                            
+                                            
+                                            <div class="body-text">
+                                                <p>Drowned In The Pussy <img src="http://media.tumblr.com/9b9daa721d89d1446a0f6d55fe544c8b/tumblr_inline_n4thkjOCS01sepbqq.gif"/></p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://itssongoku.tumblr.com/post/84271658351/drowned-in-the-pussy#notes">16 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://itssongoku.tumblr.com/post/84271658351/drowned-in-the-pussy" title="5 months ago">Apr 29th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_84271658351">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="84271658351">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fitssongoku.tumblr.com%2Fpost%2F84271658351%2Fdrowned-in-the-pussy&amp;t=" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Drowned%20In%20The%20Pussy%20http%3A%2F%2Ftmblr.co%2FZnLAmn1EU_tLl" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20GOKU&amp;body=Drowned%20In%20The%20Pussy%20http%3A%2F%2Fitssongoku.tumblr.com%2Fpost%2F84271658351%2Fdrowned-in-the-pussy" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://itssongoku.tumblr.com/post/84271658351/drowned-in-the-pussy" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/84271658351/dr9V167u" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="84271658351" id="like_button_84271658351"><iframe id="like_iframe_84271658351" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=itssongoku&amp;post_id=84271658351&amp;color=black&amp;rk=dr9V167u" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo not-page post-83254401253 " data-post-id="post_83254401253">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class=" with-caption" data-photo-width="281">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <img src="http://31.media.tumblr.com/67111ef0ee23da6d95fd07de9a85474c/tumblr_n4b1ocmLLP1tzrv8oo1_400.gif" alt="I beat that pussy up&nbsp;" width="281" height="199">
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p>I beat that pussy up </p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://itssongoku.tumblr.com/post/83254401253/i-beat-that-pussy-up#notes">36 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://itssongoku.tumblr.com/post/83254401253/i-beat-that-pussy-up" title="5 months ago">Apr 19th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_83254401253">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="83254401253">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fitssongoku.tumblr.com%2Fpost%2F83254401253%2Fi-beat-that-pussy-up&amp;t=GOKU" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20I%20beat%20that%20pussy%20up%C2%A0%20http%3A%2F%2Ftmblr.co%2FZnLAmn1DYMLZb" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20GOKU&amp;body=Photo%3A%20I%20beat%20that%20pussy%20up%C2%A0%20http%3A%2F%2Fitssongoku.tumblr.com%2Fpost%2F83254401253%2Fi-beat-that-pussy-up" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://itssongoku.tumblr.com/post/83254401253/i-beat-that-pussy-up" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/83254401253/k9Tm5zVP" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="83254401253" id="like_button_83254401253"><iframe id="like_iframe_83254401253" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=itssongoku&amp;post_id=83254401253&amp;color=black&amp;rk=k9Tm5zVP" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo not-page post-83254345261 " data-post-id="post_83254345261">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class=" with-caption" data-photo-width="500">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <img src="http://33.media.tumblr.com/fa5db7be9d2dd85d5adb0b8446655e83/tumblr_n4b1n425xt1tzrv8oo1_500.gif" alt="Lmao. When fuckboys tryna be like me tho&nbsp;" width="500" height="276">
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p>Lmao. When fuckboys tryna be like me tho </p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://itssongoku.tumblr.com/post/83254345261/lmao-when-fuckboys-tryna-be-like-me-tho#notes">15 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://itssongoku.tumblr.com/post/83254345261/lmao-when-fuckboys-tryna-be-like-me-tho" title="5 months ago">Apr 19th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_83254345261">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="83254345261">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fitssongoku.tumblr.com%2Fpost%2F83254345261%2Flmao-when-fuckboys-tryna-be-like-me-tho&amp;t=GOKU" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20Lmao.%20When%20fuckboys%20tryna%20be%20like%20me%20tho%C2%A0%20http%3A%2F%2Ftmblr.co%2FZnLAmn1DYM7uj" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20GOKU&amp;body=Photo%3A%20Lmao.%20When%20fuckboys%20tryna%20be%20like%20me%20tho%C2%A0%20http%3A%2F%2Fitssongoku.tumblr.com%2Fpost%2F83254345261%2Flmao-when-fuckboys-tryna-be-like-me-tho" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://itssongoku.tumblr.com/post/83254345261/lmao-when-fuckboys-tryna-be-like-me-tho" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/83254345261/qBcmxGDb" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="83254345261" id="like_button_83254345261"><iframe id="like_iframe_83254345261" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=itssongoku&amp;post_id=83254345261&amp;color=black&amp;rk=qBcmxGDb" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo not-page post-83249041935 " data-post-id="post_83249041935">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class=" with-caption" data-photo-width="500">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <img src="http://38.media.tumblr.com/401ed0ebe9665fbad8a9731ce5c88539/tumblr_n4ayi3Mdf11tzrv8oo1_500.gif" alt="Me: I&rsquo;m gonna eat that pussy out real good bae
+Her: But I&rsquo;m on my period tho
+Me:" width="500" height="281">
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p>Me: I’m gonna eat that pussy out real good bae</p>
+<p>Her: But I’m on my period tho</p>
+<p>Me:</p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://itssongoku.tumblr.com/post/83249041935/me-im-gonna-eat-that-pussy-out-real-good-bae#notes">40 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://itssongoku.tumblr.com/post/83249041935/me-im-gonna-eat-that-pussy-out-real-good-bae" title="5 months ago">Apr 19th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_83249041935">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="83249041935">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fitssongoku.tumblr.com%2Fpost%2F83249041935%2Fme-im-gonna-eat-that-pussy-out-real-good-bae&amp;t=GOKU" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20Me%3A%20I%E2%80%99m%20gonna%20eat%20that%20pussy%20out%20real%20good%20bae%20Her%3A%20But%20I%E2%80%99m%20on%20my%20period%20tho%20Me%3A%20http%3A%2F%2Ftmblr.co%2FZnLAmn1DY1v8F" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20GOKU&amp;body=Photo%3A%20Me%3A%20I%E2%80%99m%20gonna%20eat%20that%20pussy%20out%20real%20good%20bae%20Her%3A%20But%20I%E2%80%99m%20on%20my%20period%20tho%20Me%3A%20http%3A%2F%2Fitssongoku.tumblr.com%2Fpost%2F83249041935%2Fme-im-gonna-eat-that-pussy-out-real-good-bae" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://itssongoku.tumblr.com/post/83249041935/me-im-gonna-eat-that-pussy-out-real-good-bae" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/83249041935/6jIdhWDF" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="83249041935" id="like_button_83249041935"><iframe id="like_iframe_83249041935" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=itssongoku&amp;post_id=83249041935&amp;color=black&amp;rk=6jIdhWDF" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo not-page post-83247492025 " data-post-id="post_83247492025">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class=" with-caption" data-photo-width="500">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <img src="http://38.media.tumblr.com/b5413c7aea6bb99003516a7f8f91e658/tumblr_n4axlcppLg1tzrv8oo1_500.gif" alt="I tried to tell this bitch the nimbus don&amp;#8217;t let ratchet hoes on board" width="500" height="375">
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><span>I tried to tell this bitch the nimbus don&#8217;t let ratchet hoes on board</span></p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://itssongoku.tumblr.com/post/83247492025/i-tried-to-tell-this-bitch-the-nimbus-dont-let#notes">38 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://itssongoku.tumblr.com/post/83247492025/i-tried-to-tell-this-bitch-the-nimbus-dont-let" title="5 months ago">Apr 19th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_83247492025">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="83247492025">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fitssongoku.tumblr.com%2Fpost%2F83247492025%2Fi-tried-to-tell-this-bitch-the-nimbus-dont-let&amp;t=GOKU" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20I%20tried%20to%20tell%20this%20bitch%20the%20nimbus%20don%E2%80%99t%20let%20ratchet%20hoes%20on%20board%20http%3A%2F%2Ftmblr.co%2FZnLAmn1DXx_kv" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20GOKU&amp;body=Photo%3A%20I%20tried%20to%20tell%20this%20bitch%20the%20nimbus%20don%E2%80%99t%20let%20ratchet%20hoes%20on%20board%20http%3A%2F%2Fitssongoku.tumblr.com%2Fpost%2F83247492025%2Fi-tried-to-tell-this-bitch-the-nimbus-dont-let" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://itssongoku.tumblr.com/post/83247492025/i-tried-to-tell-this-bitch-the-nimbus-dont-let" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/83247492025/a4tRaxnr" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="83247492025" id="like_button_83247492025"><iframe id="like_iframe_83247492025" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=itssongoku&amp;post_id=83247492025&amp;color=black&amp;rk=a4tRaxnr" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo not-page post-83243333628 " data-post-id="post_83243333628">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class=" with-caption" data-photo-width="500">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <img src="http://38.media.tumblr.com/8bd4a1905261e7734aee90fa3a7e100b/tumblr_n4av8c9dUW1tzrv8oo1_500.gif" alt="Niggas Can&amp;#8217;t Fuck Wit Me Bruh&nbsp;" width="500" height="271">
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p>Niggas Can&#8217;t Fuck Wit Me Bruh </p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://itssongoku.tumblr.com/post/83243333628/niggas-cant-fuck-wit-me-bruh#notes">49 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://itssongoku.tumblr.com/post/83243333628/niggas-cant-fuck-wit-me-bruh" title="5 months ago">Apr 19th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_83243333628">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="83243333628">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fitssongoku.tumblr.com%2Fpost%2F83243333628%2Fniggas-cant-fuck-wit-me-bruh&amp;t=GOKU" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20Niggas%20Can%E2%80%99t%20Fuck%20Wit%20Me%20Bruh%C2%A0%20http%3A%2F%2Ftmblr.co%2FZnLAmn1DXi7Vy" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20GOKU&amp;body=Photo%3A%20Niggas%20Can%E2%80%99t%20Fuck%20Wit%20Me%20Bruh%C2%A0%20http%3A%2F%2Fitssongoku.tumblr.com%2Fpost%2F83243333628%2Fniggas-cant-fuck-wit-me-bruh" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://itssongoku.tumblr.com/post/83243333628/niggas-cant-fuck-wit-me-bruh" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/83243333628/L04Hq1qq" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="83243333628" id="like_button_83243333628"><iframe id="like_iframe_83243333628" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=itssongoku&amp;post_id=83243333628&amp;color=black&amp;rk=L04Hq1qq" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                </div>
+            </section>
+            <footer id="footer" class="content clearfix">
+                
+                    
+                
+            </footer>
+        </section>
+        <script>
+            var Optica = {};
+            Optica.ENDLESS_SCROLLING = true;
+            Optica.LAYOUT = "narrow";
+            Optica.GRID_LAYOUT = (Optica.LAYOUT === 'grid');
+            Optica.TITLE_COLOR = "#ff0000";
+            Optica.ACCENT_COLOR = "#ff0011";
+            Optica.BACKGROUND_COLOR = "#FAFAFA";
+            Optica.ENDLESS_NOTES_SCROLLING = true;
+        </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>!window.jQuery && document.write(unescape('%3Cscript src="http://static.tumblr.com/vr9xgox/sBgmmjhyw/jquery-1.9.1.min.js"%3E%3C/script%3E'));</script>
+        <script src="http://static.tumblr.com/vr9xgox/Azhmnml1q/jquery.masonry.min.js"></script>
+        <script src="http://static.tumblr.com/wogenvz/kcyn7f6re/main-min.js"></script>
+
+        
+    <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://itssongoku.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847470&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvaXRzc29uZ29rdS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=MPEOEJIBEG&K=46dba4605fc3a232f9a120e02cbf5668dacf96f9bbf0cbacac8150c72030b084&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847470&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvaXRzc29uZ29rdS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=MPEOEJIBEG&K=a3c7fb936a4ec7f20dcbd6fd11f532582d003b2fcd481f0fb0da5808c8ef1d83&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847470&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2l0c3Nvbmdva3UudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjQ5ODI5OTkzIiwicm9vdF9wb3N0aWQiOiI4NjI4Mjk4NDA5OSIsInBvc3RpZCI6Ijg3MDM4MTc3MzMxIiwiYmxvZ2lkIjoiMTgxODY5NTE1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI4NDI3MTY1ODM1MSIsImJsb2dpZCI6IjE4MTg2OTUxNSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODMyNTQ0MDEyNTMiLCJibG9naWQiOiIxODE4Njk1MTUiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjgzMjU0MzQ1MjYxIiwiYmxvZ2lkIjoiMTgxODY5NTE1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI4MzI0OTA0MTkzNSIsImJsb2dpZCI6IjE4MTg2OTUxNSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODMyNDc0OTIwMjUiLCJibG9naWQiOiIxODE4Njk1MTUiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjgzMjQzMzMzNjI4IiwiYmxvZ2lkIjoiMTgxODY5NTE1Iiwic291cmNlIjozM31dfQ==&U=IBCCLFCKNO&K=83019092fb1a4da61739df1d7e921288fe30f94f296c000b0f0dcc67a3946c36&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847470&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2l0c3Nvbmdva3UudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjQ5ODI5OTkzIiwicm9vdF9wb3N0aWQiOiI4NjI4Mjk4NDA5OSIsInBvc3RpZCI6Ijg3MDM4MTc3MzMxIiwiYmxvZ2lkIjoiMTgxODY5NTE1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI4NDI3MTY1ODM1MSIsImJsb2dpZCI6IjE4MTg2OTUxNSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODMyNTQ0MDEyNTMiLCJibG9naWQiOiIxODE4Njk1MTUiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjgzMjU0MzQ1MjYxIiwiYmxvZ2lkIjoiMTgxODY5NTE1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI4MzI0OTA0MTkzNSIsImJsb2dpZCI6IjE4MTg2OTUxNSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODMyNDc0OTIwMjUiLCJibG9naWQiOiIxODE4Njk1MTUiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjgzMjQzMzMzNjI4IiwiYmxvZ2lkIjoiMTgxODY5NTE1Iiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=IBCCLFCKNO&K=f02e3e98dc8e1d9093e39417297c9df0e6e8116ddf5fef66e587331d5be03e99&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:181869515,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2Fitssongoku.tumblr.com%2F&amp;lang=en_US&amp;name=itssongoku&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_58735c83261c_64.png&amp;title=GOKU&amp;url=http%3A%2F%2Fitssongoku.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2Fitssongoku.tumblr.com%2F&amp;lang=en_US&amp;name=itssongoku&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_58735c83261c_64.png&amp;title=GOKU&amp;url=http%3A%2F%2Fitssongoku.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

@@ -1,0 +1,1346 @@
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6 lte9 lte8 lte7 lte6 no-js"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7 lte9 lte8 lte7 no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8 lte9 lte8 no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9 lte9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html id="html" lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=1024" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="application-name" content="Letterboxd" />
+	<meta name="description" content="anotherfilmnerd is using Letterboxd to share film reviews and lists with friends. Favorite films: Duck Soup (1933), Blow Out (1981), The Friends of Eddie Coyle (1973), Cheap Thrills (2013). anotherfilmnerd’s profile contains 120 films and 1 lists. Bio: There are several million film nerds on the Internet. I am one of them." />
+		<meta property="og:url" content="http://letterboxd.com/anotherfilmnerd/" /><meta property="og:title" content="anotherfilmnerd’s profile" />
+	<meta property="og:description" content="anotherfilmnerd is using Letterboxd to share film reviews and lists with friends. Favorite films: Duck Soup (1933), Blow Out (1981), The Friends of Eddie Coyle (1973), Cheap Thrills (2013). anotherfilmnerd’s profile contains 120 films and 1 lists. Bio: There are several million film nerds on the Internet. I am one of them." />
+	<meta property="og:image" content="http://bullitt.cf2.letterboxd.com/static/img/avatar.png?k=55f41b3480" />
+	<!--
+ 	 __    _____ _____ _____ _____ _____ _____ _____ __ __ ____
+	|  |  |   __|_   _|_   _|   __| __  | __  |     |  |  |    \
+	|  |__|   __| | |   | | |   __|    -| __ -|  |  |-   -|  |  |
+	|_____|_____| |_|   |_| |_____|__|__|_____|_____|__|__|____/
+
+	-->
+	<script>
+		var isMobile = false;
+		var isMobileOptimised = true;
+		var renderMobile = false;
+		var forceWebInk = false;
+	</script>
+	<title>&lrm;anotherfilmnerd’s profile &bull; Letterboxd</title>
+
+	<link type="text/plain" rel="author" href="/humans.txt" />
+	<link rel="shortcut icon" sizes="196x196" href="http://bullitt.cf2.letterboxd.com/static/img/icons/196.png?k=924d098713" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://up.cf2.letterboxd.com/static/img/icons/ios-icon.png?k=924d098713"/>
+	<link rel="shortcut icon" href="/favicon.ico" />
+	
+	<link rel="search" type="application/opensearchdescription+xml" title="Letterboxd" href="/static/opensearch.xml" />
+	
+	
+	<!--[if lte IE 8 ]>
+		<link href="http://bullitt.cf2.letterboxd.com/css/c.css?set=css-ie8-1&amp;v=1400707651000" rel="stylesheet" media="screen, projection"/>
+		<link href="http://bullitt.cf2.letterboxd.com/css/c.css?set=css-ie8-2&amp;v=1411634118000" rel="stylesheet" media="screen, projection"/>
+	<![endif]-->
+	<!--[if (gte IE 9)|!(IE)]><!-->
+		<link href="http://brick.cf2.letterboxd.com/css/c.css?set=css&amp;v=1411634118000" rel="stylesheet" media="screen, projection"/>
+	<!--<![endif]-->
+	<!--[if lte IE 6]><script>location.replace("/errors/ie6");</script><![endif]-->
+	<!--[if IE 7]><script>location.replace("/errors/ie7");</script><![endif]-->
+
+
+
+	<script>
+		var supermodelCSRF = "W7JvJXoDBsGF8hi1";
+		var baseURL = "";
+		var globals = {
+			timestamp : 1411848053356
+			, typekitId : 'kus2bin'
+			, autoAddFilm: false			
+		};
+		var person = {username: '' , loggedIn : false , staff: false , hasNetflixAccount: false , canLinkNetflix: false , blockedMembers: [] , hasBlocked: function(member) {return false;}};
+		
+		var successMessages = [];
+		var errorMessages = [];
+		var stickyMessages = [];
+		
+		
+		
+			if ( screen.width < 768 ) {
+		        if (document.cookie) {
+					var date = new Date();
+					var maxAge = 365 * 24 * 60 * 60;
+					date.setTime(date.getTime() + maxAge * 1000);
+					var expires = '; expires=' + date.toUTCString();
+					document.cookie = "useMobileSite=yes" + expires + "; path=/; maxAge=" + maxAge;
+					if ( document.cookie && document.cookie.indexOf("useMobileSite=yes") >= 0 ) {
+						window.location.reload(true);
+					} else {
+						// No cookies.  No Mobile version.
+					}
+		        }
+			}
+		
+		
+	</script>
+
+	<script src="http://bullitt.cf2.letterboxd.com/js/c.js?set=js&amp;v=1411725267000" ></script>
+
+	
+
+	
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-25658265-1', {
+	   'cookieDomain': 'letterboxd.com',
+	   'legacyCookieDomain': 'letterboxd.com'
+	});
+
+ga('set', 'dimension1', 'Visitor');
+
+ga('set', 'dimension3', '/object/person');
+ga('send', 'pageview');
+</script>
+
+</head>
+
+<body class="logged-out profile">
+	
+
+
+
+
+
+
+
+
+
+<header id="header">
+	<section>
+		
+		<h1><a id="home-link" href="/" class="replace">Letterboxd &mdash; Your life in film</a></h1>
+		
+				
+				<nav id="main-nav"><ul> <li class="sign-in-menu"> <a href="/sign-in/">Sign In</a> </li> <li class="create-account-menu"> <a href="/create-account/">Create Account</a> </li> <li class="films-page main-nav-films"> <a href="/films/">Films</a> </li> <li class="lists-page main-nav-lists"> <a href="/lists/">Lists</a> </li> <li class="main-nav-people"> <a href="/people/">People</a> </li> <li class="nav-search"> <a href="#" class="replace"></a> </li> </ul></nav>
+			
+
+		
+			
+
+
+
+
+
+<form method="post" action="#" id="signin" class="signin" data-url="http://letterboxd.com/user/login.do" novalidate='novalidate' autocorrect='off' autocapitalize='off'><input type="hidden" name="__csrf" value="W7JvJXoDBsGF8hi1" />
+	<fieldset>
+		<div class="col">
+			<label for="username">Username or Email</label>
+			<input type="email" name="username" id="username" class="signin-field" data-focus-control="signingIn" value="" />
+		</div>
+		<div class="col">
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password" class="signin-field" value="" />
+		</div>
+		<div class="signin-actions">
+			<label for="remember" class="small-checkbox">
+				<input type="checkbox" name="remember" id="remember" value="true" /> <span class="label-text">Remember<span class="mob-hide"> me</span></span>
+			</label>
+			<p><a class="reset-password-link" href="/user/request-password-reset" target="_top">Reset<span class="mob-hide"> password</span></a></p>
+		</div>
+		<div class="col buttons">
+			<div class="button-container"><input type="submit" value="Sign in" class="button-green" /><i></i></div>
+			<div class="close-signin" data-ng-click="signingIn = false">&times;</div>
+		</div>
+	</fieldset>
+</form>
+<div id="signin-message"></div>
+
+		
+		
+		
+		
+		<form id="search" action="/search/" method="get">
+			<fieldset>
+				<label for="search-q" class="hidden">Search:</label>
+				<input type="text" name="q" id="search-q" value="" />
+				<input type="submit" value="Search" class="search-button" />
+			</fieldset>
+		</form>
+		
+	</section>
+</header>
+
+
+	
+		
+				
+
+
+
+
+
+		
+		
+	
+
+
+	<section id="cta" style="display:none">
+		<div class="content-wrap">
+			
+					<h1>
+						<a href="/anotherfilmnerd/">anotherfilmnerd</a>
+						is using Letterboxd to share a film diary.
+					</h1>
+				
+		
+			
+				<ul class="cta-points">
+					<li><i class="ir s i-watch"></i>Watch</li>
+					<li><i class="ir s i-like"></i>Like</li>
+					<li><i class="ir s i-rate"></i>Rate</li>
+					<li><i class="ir s i-log"></i>Log</li>
+					<li><i class="ir s i-review"></i>Review</li>
+					<li><i class="ir s i-list"></i>List</li>
+					<li><i class="ir s i-follow"></i>Follow</li>
+				</ul>
+			
+
+			<p class="cta-secondary-text">Create your own account in less than a minute…</p>
+	
+			<a href="/create-account/" class="button button-cta create-account-link">Get Started</a>
+			<a href="#" class="cta-hide">Hide <i class="x">&times;</i></a>
+			<div class="clear"></div>
+		</div>
+	</section>
+
+			
+	
+
+
+<div id="content" >
+	
+	<div class="content-wrap">
+
+
+
+
+
+
+<section id="profile-header">
+	
+		<div class="profile-summary">
+			<span class="avatar avatar-60" > <img src="http://zardoz.cf.letterboxd.com/resized/avatar/twitter/8/2/0/6/7/shard/http___pbs.twimg.com_profile_images_2875620251_e07aa53ab157892c9e020c8ec69518b6-0-60-0-60-crop.jpg" alt="anotherfilmnerd" width="60" height="60" /> <a id="avatar-zoom" href="#avatar-large"></a> </span>
+			<div style="display: none;">
+				<div id="avatar-large">
+					<span class="avatar avatar-500" > <img src="http://skyfall.cf.letterboxd.com/avatar/twitter/8/2/0/6/7/shard/http___pbs.twimg.com_profile_images_2875620251_e07aa53ab157892c9e020c8ec69518b6.jpeg" alt="anotherfilmnerd" width="500" height="500" /> </span>
+				</div>
+			</div>
+			<div class="profile-person-info">
+				<div class="profile-name-wrap">
+					<h1 title="anotherfilmnerd">anotherfilmnerd</h1>
+					
+				</div>
+				
+					
+
+
+
+
+
+<div class="follow-button-wrapper" data-username="anotherfilmnerd" data-profile="true">
+	
+			<a href="#" data-action="/anotherfilmnerd/unfollow/" class="ajax-click-action button button-small button-small-icon button-following has-icon"><span class="button-text">Following</span></a>
+			<a href="#" data-action="/anotherfilmnerd/follow/" class="ajax-click-action button button-small button-small-icon button-follow has-icon"><span class="button-text">Follow</span></a>
+			<a href="#" data-action="/anotherfilmnerd/unblock/" class="ajax-click-action button button-small button-red button-small-icon button-blocked has-icon"><span class="button-text">Blocked</span></a>
+		
+	<span class="follows-message">Follows you</span>
+	
+	
+		<div class="block-flag-wrapper">
+			<a href="#" class="block-or-report-flag popmenu-link has-icon icon-16 icon-report" data-popmenu-id="block-or-report-menu">Block or Report user</a>
+			<div id="block-or-report-menu" class="popmenu popup-menu">
+				<ul>
+					<li class="popup-menu-text">
+						<a href="#" data-confirm="Are you sure you want to block this member?" data-action="/anotherfilmnerd/block/" class="ajax-click-action link-block"><span class="link-text">Block this member</span></a>
+						<a href="#" data-action="/anotherfilmnerd/unblock/" class="ajax-click-action link-blocked"><span class="link-text">This member is blocked</span></a>
+					</li>
+					<li class="popup-menu-text"><a id="report-person-flag" href="#" data-action="/anotherfilmnerd/report/" class="ajax-click-action" data-confirm="I believe this account violates the Community Policy and should be reviewed by Letterboxd moderators.">Report this account</a></li>
+				</ul>
+			</div>
+		</div>
+	
+</div>
+
+				
+				<ul>
+					
+					
+					<li><a href="http://twitter.com/Anotherfilmnerd" class="has-icon icon-16 icon-twitter">Anotherfilmnerd</a></li>
+					<li style="display:none;"></li>
+				</ul>
+			</div>
+			<ul class="stats">
+				
+				
+
+
+				<li><a href="/anotherfilmnerd/films/"><strong>120</strong><span>Films</span></a></li>
+ 				<li><a href="/anotherfilmnerd/films/diary/year/2014/"><strong>82</strong><span>This year</span></a></li>
+				<li><a href="/anotherfilmnerd/lists/"><strong>1</strong><span>List</span></a></li>
+ 				<li><a href="/anotherfilmnerd/following/"><strong>32</strong><span>Following</span></a></li>
+ 				<li><a href="/anotherfilmnerd/followers/"><strong>59</strong><span>Followers</span></a></li>
+			</ul>
+		</div>
+	
+	
+	
+	<section id="profile-nav">
+		<nav>
+			
+			
+			<ul>
+				<li class="selected"><a href="/anotherfilmnerd/">Profile</a></li>
+				<li><a href="/anotherfilmnerd/activity/">Activity</a></li>
+				<li><a href="/anotherfilmnerd/films/">Films</a></li>
+				<li><a href="/anotherfilmnerd/films/diary/">Diary</a></li>
+				
+					<li><a href="/anotherfilmnerd/watchlist/">Watchlist</a></li>
+				
+				<li><a href="/anotherfilmnerd/lists/">Lists</a></li>
+				<li><a href="/anotherfilmnerd/likes/">Likes</a></li>
+				<li><a href="/anotherfilmnerd/tags/">Tags</a></li>
+				<li><a href="/anotherfilmnerd/following/">Network</a></li>
+				
+				
+			</ul>
+			
+		</nav>
+		<a href="/anotherfilmnerd/rss/" class="has-icon icon-16 icon-rss">RSS feed for anotherfilmnerd</a>
+	</section>
+	
+</section>
+
+
+<div class="cols-2">
+	<div class="col-16">
+		
+		
+		
+				<section id="favourites" class="section">
+					<h2 class="section-heading">Favorite films</h2>
+					<ul class="posters film-list posters-150 clear equalize horizontal-list" data-eqcols="4">
+						
+							<li class="poster-container">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="film-poster-49908 poster" > <img src="http://skyfall.cf.letterboxd.com/resized/film-poster/4/9/9/0/8/49908-duck-soup-0-150-0-222-crop.jpg?k=0a51de1ef4" width="150" height="222" alt="Duck Soup" itemprop='photo' /> <a href="/film/duck-soup-1933/" class="frame" title="Duck Soup (1933)"> <span class="frame-title">Duck Soup</span> </a> </div>
+
+
+			
+							</li>
+						
+							<li class="poster-container">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="film-poster-45109 poster" > <img src="http://zardoz.cf.letterboxd.com/resized/sm/upload/dw/68/uq/nj/vt5d1gGPgkAKoKp127WPHjSJF3P-0-150-0-222-crop.jpg?k=6b8932d04a" width="150" height="222" alt="Blow Out" itemprop='photo' /> <a href="/film/blow-out/" class="frame" title="Blow Out (1981)"> <span class="frame-title">Blow Out</span> </a> </div>
+
+
+			
+							</li>
+						
+							<li class="poster-container">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="film-poster-35875 poster" > <img src="http://zardoz.cf.letterboxd.com/resized/film-poster/3/5/8/7/5/35875-the-friends-of-eddie-coyle-0-150-0-222-crop.jpg?k=a91ee8f82e" width="150" height="222" alt="The Friends of Eddie Coyle" itemprop='photo' /> <a href="/film/the-friends-of-eddie-coyle/" class="frame" title="The Friends of Eddie Coyle (1973)"> <span class="frame-title">The Friends of Eddie Coyle</span> </a> </div>
+
+
+			
+							</li>
+						
+							<li class="poster-container">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="film-poster-128326 poster" > <img src="http://skyfall.cf.letterboxd.com/resized/film-poster/1/2/8/3/2/6/128326-cheap-thrills-0-150-0-222-crop.jpg?k=0c173f94f1" width="150" height="222" alt="Cheap Thrills" itemprop='photo' /> <a href="/film/cheap-thrills/" class="frame" title="Cheap Thrills (2013)"> <span class="frame-title">Cheap Thrills</span> </a> </div>
+
+
+			
+							</li>
+						
+						
+					</ul>
+				</section>		
+			
+		
+		
+		
+		
+		
+		
+		
+
+		
+				<section id="recent-activity" class="section">
+					<h2 class="section-heading"><a href="/anotherfilmnerd/activity/">Recent activity</a></h2>
+					<a href="/anotherfilmnerd/films/" class="has-icon icon-16 icon-views all-link">All films</a>
+					<ul class="posters film-list posters-150 clear equalize horizontal-list" data-eqcols="4">
+						
+						
+							
+									
+									
+									
+								
+							<li class="poster-container">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="film-poster-51863 poster" > <img src="http://oblivion.cf.letterboxd.com/resized/film-poster/5/1/8/6/3/51863-sin-city-a-dame-to-kill-for-0-150-0-222-crop.jpg?k=38623c9b0a" width="150" height="222" alt="Sin City: A Dame to Kill For" itemprop='photo' /> <a href="/anotherfilmnerd/film/sin-city-a-dame-to-kill-for/" class="frame" title="Sin City: A Dame to Kill For (2014)"> <span class="frame-title">Sin City: A Dame to Kill For</span> </a> </div>
+
+
+			
+								<p class="basic-film-info">
+									
+									
+									
+		
+									
+		
+									<span class="rating rated-7"> ★★★½<meta itemprop="rating" content="7" /><meta itemprop="best" content="10" /><meta itemprop="worst" content="1" /> </span>
+									
+									
+										<a href="/anotherfilmnerd/film/sin-city-a-dame-to-kill-for/" class="has-icon icon-review icon-16"></a>
+									
+								</p>
+							</li>
+							
+						
+							
+									
+									
+									
+								
+							<li class="poster-container">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="film-poster-38883 poster" > <img src="http://skyfall.cf.letterboxd.com/resized/film-poster/3/8/8/8/3/38883-panic-0-150-0-222-crop.jpg?k=771f23b1af" width="150" height="222" alt="Panic" itemprop='photo' /> <a href="/anotherfilmnerd/film/panic-2000/" class="frame" title="Panic (2000)"> <span class="frame-title">Panic</span> </a> </div>
+
+
+			
+								<p class="basic-film-info">
+									
+									
+									
+		
+									
+		
+									<span class="rating rated-8"> ★★★★<meta itemprop="rating" content="8" /><meta itemprop="best" content="10" /><meta itemprop="worst" content="1" /> </span>
+									
+									
+										<a href="/anotherfilmnerd/film/panic-2000/" class="has-icon icon-review icon-16"></a>
+									
+								</p>
+							</li>
+							
+						
+							
+									
+									
+									
+								
+							<li class="poster-container">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="film-poster-51541 poster" > <img src="http://zardoz.cf.letterboxd.com/resized/film-poster/5/1/5/4/1/51541-jaws-2-0-150-0-222-crop.jpg?k=3558ee66ef" width="150" height="222" alt="Jaws 2" itemprop='photo' /> <a href="/anotherfilmnerd/film/jaws-2/" class="frame" title="Jaws 2 (1978)"> <span class="frame-title">Jaws 2</span> </a> </div>
+
+
+			
+								<p class="basic-film-info">
+									
+									
+									
+		
+									
+		
+									<span class="rating rated-6"> ★★★<meta itemprop="rating" content="6" /><meta itemprop="best" content="10" /><meta itemprop="worst" content="1" /> </span>
+									
+									
+										<a href="/anotherfilmnerd/film/jaws-2/" class="has-icon icon-review icon-16"></a>
+									
+								</p>
+							</li>
+							
+						
+							
+									
+									
+									
+								
+							<li class="poster-container">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="film-poster-213060 poster" > <img src="http://skyfall.cf.letterboxd.com/resized/film-poster/2/1/3/0/6/0/213060-dennis-miller-america-180-degrees-0-150-0-222-crop.jpg?k=8ba0620135" width="150" height="222" alt="Dennis Miller: America 180 Degrees" itemprop='photo' /> <a href="/anotherfilmnerd/film/dennis-miller-america-180-degrees/" class="frame" title="Dennis Miller: America 180 Degrees"> <span class="frame-title">Dennis Miller: America 180 Degrees</span> </a> </div>
+
+
+			
+								<p class="basic-film-info">
+									
+									
+									
+		
+									
+		
+									<span class="rating rated-4"> ★★<meta itemprop="rating" content="4" /><meta itemprop="best" content="10" /><meta itemprop="worst" content="1" /> </span>
+									
+									
+										<a href="/anotherfilmnerd/film/dennis-miller-america-180-degrees/" class="has-icon icon-review icon-16"></a>
+									
+								</p>
+							</li>
+							
+						
+						
+					</ul>
+				</section>
+			
+
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+			
+
+		
+			
+
+		
+			
+
+		
+			
+
+		
+
+		
+		
+		
+		
+		
+
+		
+			<section class="section">
+				<h2 class="section-heading">
+					<a href="/anotherfilmnerd/films/reviews/by/added/">Recent reviews</a>
+				</h2>
+				<a href="/anotherfilmnerd/films/reviews/by/added/" class="has-icon icon-16 icon-more all-link">More</a>
+				<ul class="posters film-list clear posters-70 film-details-list no-title">
+					
+						<li class="film-detail"> <div class="film-poster-51863 poster" > <img src="http://oblivion.cf.letterboxd.com/resized/film-poster/5/1/8/6/3/51863-sin-city-a-dame-to-kill-for-0-70-0-104-crop.jpg?k=10606e39fe" width="70" height="104" alt="Sin City: A Dame to Kill For" itemprop='photo' /> <a href="/anotherfilmnerd/film/sin-city-a-dame-to-kill-for/" class="frame"> <span class="frame-title">Sin City: A Dame to Kill For</span> </a> </div> <div class="film-detail-content"> <h2 class="film-title prettify"><a href="/anotherfilmnerd/film/sin-city-a-dame-to-kill-for/">Sin City: A Dame to Kill For</a> <small><a href="/films/year/2014/">2014</a></small></h2> <p class="film-detail-meta rating-green"> <span class="rating rated-7"> ★★★½<meta itemprop="rating" content="7" /><meta itemprop="best" content="10" /><meta itemprop="worst" content="1" /> </span> <span class="film-detail-date"> Watched <span class="nobr">27 Sep, 2014</span> </span> </p> <div class="text collapsible-text" data-full-text-url="/s/full-text/viewing:5830520/"> <div class="collapsed-text"> <p>Two things I gotta admit right up front:</p> <p>1) I'll always be of the opinion that Robert Rodriguez triumphs (Grindhouse, From Dusk Til Dawn The Movie, Machete, the Mariachi Trilogy) outweigh his sins (Spy Kids 4, etc)</p> <p>2) I've been a fan of the Sin City comics since A Dame To Kill for first came out.</p> <p>So I'm pretty biased going in - even with the weight of evidence, and the critical tide well against me.</p> <p>Pleased to say that…</p> </div> </div> <p class="like-link-target"><span class="like-link"> <a class="has-icon icon-16 icon-like logged-out" href="/anotherfilmnerd/film/sin-city-a-dame-to-kill-for/likes/">2&nbsp;likes</a> </span></p> </div> </li>
+
+						
+
+					
+						<li class="film-detail"> <div class="film-poster-38883 poster" > <img src="http://skyfall.cf.letterboxd.com/resized/film-poster/3/8/8/8/3/38883-panic-0-70-0-104-crop.jpg?k=5f4782f095" width="70" height="104" alt="Panic" itemprop='photo' /> <a href="/anotherfilmnerd/film/panic-2000/" class="frame"> <span class="frame-title">Panic</span> </a> </div> <div class="film-detail-content"> <h2 class="film-title prettify"><a href="/anotherfilmnerd/film/panic-2000/">Panic</a> <small><a href="/films/year/2000/">2000</a></small></h2> <p class="film-detail-meta rating-green"> <span class="rating rated-8"> ★★★★<meta itemprop="rating" content="8" /><meta itemprop="best" content="10" /><meta itemprop="worst" content="1" /> </span> <span class="film-detail-date"> Watched <span class="nobr">23 Sep, 2014</span> </span> </p> <div class="text collapsible-text" data-full-text-url="/s/full-text/viewing:5799564/"> <p>It's the style, philosophy, characters and quirk of Hal Hartley mixed with the dialogue of David Mamet.</p> <p>And if you know me at all, you'd know just how huge a compliment that is.</p> </div> </div> </li>
+
+						
+
+					
+				</ul>
+			</section>
+		
+		
+		
+			<section class="section">
+				<h2 class="section-heading">
+					<a href="/anotherfilmnerd/films/reviews/by/activity/">Popular reviews</a>
+				</h2>
+				<a href="/anotherfilmnerd/films/reviews/by/activity/" class="has-icon icon-16 icon-more all-link">More</a>
+				<ul class="posters film-list clear posters-70 film-details-list no-title">
+					
+						<li class="film-detail"> <div class="film-poster-51004 poster" > <img src="http://zardoz.cf.letterboxd.com/resized/sm/upload/yo/63/zv/99/2pE4pTT8IXF56fiWMOk7cv7Fkpi-0-70-0-104-crop.jpg?k=a43c863929" width="70" height="104" alt="Kingdom of Heaven" itemprop='photo' /> <a href="/anotherfilmnerd/film/kingdom-of-heaven/" class="frame"> <span class="frame-title">Kingdom of Heaven</span> </a> </div> <div class="film-detail-content"> <h2 class="film-title prettify"><a href="/anotherfilmnerd/film/kingdom-of-heaven/">Kingdom of Heaven</a> <small><a href="/films/year/2005/">2005</a></small></h2> <p class="film-detail-meta rating-green"> <span class="rating rated-9"> ★★★★½<meta itemprop="rating" content="9" /><meta itemprop="best" content="10" /><meta itemprop="worst" content="1" /> </span> <span class="film-detail-date"> Watched <span class="nobr">09 Dec, 2013</span> </span> </p> <div class="text collapsible-text" data-full-text-url="/s/full-text/viewing:3142687/"> <p>(This is for the Director's Cut)</p> <p>Absolute stunner. Epic scale, brilliant performances and an intelligent script that's full of heart. Orlando Bloom carries the movie brilliantly (something I wasn't sure he could actually do) and the visuals are truly magnifent.</p> </div> <p class="like-link-target"><span class="like-link"> <a class="has-icon icon-16 icon-like logged-out" href="/anotherfilmnerd/film/kingdom-of-heaven/likes/">4&nbsp;likes</a> </span></p> </div> </li>
+
+					
+						<li class="film-detail"> <div class="film-poster-155898 poster" > <img src="http://zardoz.cf.letterboxd.com/resized/sm/upload/on/zf/uo/wv/eCMlPoc2wsGgLLh6NSU8WxUD9UE-0-70-0-104-crop.jpg?k=659caec97d" width="70" height="104" alt="Grand Piano" itemprop='photo' /> <a href="/anotherfilmnerd/film/grand-piano/" class="frame"> <span class="frame-title">Grand Piano</span> </a> </div> <div class="film-detail-content"> <h2 class="film-title prettify"><a href="/anotherfilmnerd/film/grand-piano/">Grand Piano</a> <small><a href="/films/year/2013/">2013</a></small></h2> <p class="film-detail-meta rating-green"> <span class="rating rated-8"> ★★★★<meta itemprop="rating" content="8" /><meta itemprop="best" content="10" /><meta itemprop="worst" content="1" /> </span> <span class="film-detail-date"> Watched <span class="nobr">21 Jun, 2014</span> </span> <a href="/anotherfilmnerd/film/grand-piano/" class="has-icon icon-comment icon-16 comment-count">2</a> </p> <div class="text collapsible-text" data-full-text-url="/s/full-text/viewing:4929800/"> <p>Great example of how to do a lot with a little. Fun story, great suspense. We need more of this.</p> </div> <p class="like-link-target"><span class="like-link"> <a class="has-icon icon-16 icon-like logged-out" href="/anotherfilmnerd/film/grand-piano/likes/">3&nbsp;likes</a> </span></p> </div> </li>
+
+					
+				</ul>
+			</section>
+		
+		
+		
+				<div class="cols-2">
+					<div class="col-7">
+						<section class="section"> <h3 class="section-heading"><a href="/anotherfilmnerd/tags/">Tags used</a></h3> <a href="/anotherfilmnerd/tags/films/" class="has-icon icon-16 icon-tags all-link"> 24 </a> <ul class="tags clear"> <li><a href="/anotherfilmnerd/tag/horror/films/">horror</a></li> <li><a href="/anotherfilmnerd/tag/seagalathon/films/">seagalathon</a></li> <li><a href="/anotherfilmnerd/tag/underrated/films/">underrated</a></li> <li><a href="/anotherfilmnerd/tag/accents/films/">accents</a></li> <li><a href="/anotherfilmnerd/tag/adaptations/films/">adaptations</a></li> <li><a href="/anotherfilmnerd/tag/burt-reynolds/films/">burt reynolds</a></li> <li><a href="/anotherfilmnerd/tag/charles-durning/films/">charles durning</a></li> <li><a href="/anotherfilmnerd/tag/charlie-sheen/films/">charlie sheen</a></li> <li><a href="/anotherfilmnerd/tag/christmas/films/">christmas</a></li> <li><a href="/anotherfilmnerd/tag/christmas-movies/films/">christmas movies</a></li> <li><a href="/anotherfilmnerd/tag/clint-eastwood/films/">clint eastwood</a></li> <li><a href="/anotherfilmnerd/tag/elmore-leonard/films/">elmore leonard</a></li> <li><a href="/anotherfilmnerd/tag/fulci/films/">fulci</a></li> <li><a href="/anotherfilmnerd/tag/horrot/films/">horrot</a></li> <li><a href="/anotherfilmnerd/tag/movies-that-make-you-go-hmmm/films/">movies that make you go hmmm</a></li> <li><a href="/anotherfilmnerd/tag/noir/films/">noir</a></li> <li><a href="/anotherfilmnerd/tag/perfect/films/">perfect</a></li> <li><a href="/anotherfilmnerd/tag/scott-frank/films/">scott frank</a></li> <li><a href="/anotherfilmnerd/tag/sequel/films/">sequel</a></li> <li><a href="/anotherfilmnerd/tag/sherlock-holmes/films/">sherlock holmes</a></li> </ul> </section>
+					</div>
+					<div class="col-7 col-right">
+						
+
+
+
+
+
+	<section class="section">
+		<h3 class="section-heading"><a href="/anotherfilmnerd/following/">Following</a></h3>
+		<a href="/anotherfilmnerd/following/" class="has-icon icon-16 icon-people all-link">
+
+
+
+
+
+32
+</a>
+		<ul class="avatars-40 avatars-stacked clear">
+			
+				<li>
+					<a class="avatar avatar-40" href="/gropeninja/" title="GropeNinja" > <img src="http://www.gravatar.com/avatar/6c5529efced3e53a796f7194024094c2?rating=PG&amp;size=40&amp;default=http://letterboxd.com/static/img/avatar40.png&amp;border=" alt="GropeNinja" width="40" height="40" /> <span></span> </a>
+				</li>
+			
+				<li>
+					<a class="avatar avatar-40" href="/parkerandcooley/" title="Parker" > <img src="http://primer.cf.letterboxd.com/resized/avatar/twitter/1/2/8/9/0/5/shard/http___pbs.twimg.com_profile_images_495447334407659520_0s1J8jgW-0-40-0-40-crop.jpg" alt="Parker" width="40" height="40" /> <span></span> </a>
+				</li>
+			
+				<li>
+					<a class="avatar avatar-40" href="/andyroadmovie/" title="Andy Marshall" > <img src="http://zardoz.cf.letterboxd.com/resized/avatar/twitter/3/9/3/7/2/shard/http___pbs.twimg.com_profile_images_378800000359550282_149b01a23d5ea0f17395db5d1f0f9b44-0-40-0-40-crop.jpg" alt="Andy Marshall" width="40" height="40" /> <span></span> </a>
+				</li>
+			
+				<li>
+					<a class="avatar avatar-40" href="/mumbles/" title="Mumbles" > <img src="http://skyfall.cf.letterboxd.com/resized/avatar/twitter/2/0/4/5/7/shard/http___a0.twimg.com_profile_images_2163063792_14B40iYtclpymdv2wzgirapZo1_400-0-40-0-40-crop.jpg" alt="Mumbles" width="40" height="40" /> <span></span> </a>
+				</li>
+			
+				<li>
+					<a class="avatar avatar-40" href="/savona93/" title="Steven Savona" > <img src="http://zardoz.cf.letterboxd.com/resized/avatar/twitter/2/1/3/7/2/shard/http___a0.twimg.com_profile_images_2780126035_075de50150ad9aa18bd2afb56ec5e638-0-40-0-40-crop.jpg" alt="Steven Savona" width="40" height="40" /> <span></span> </a>
+				</li>
+			
+				<li>
+					<a class="avatar avatar-40" href="/jhoffman6/" title="Jordan Hoffman" > <img src="http://www.gravatar.com/avatar/b66d7844ca2314ff958702342bcad1e3?rating=PG&amp;size=40&amp;default=http://letterboxd.com/static/img/avatar40.png&amp;border=" alt="Jordan Hoffman" width="40" height="40" /> <span></span> </a>
+				</li>
+			
+				<li>
+					<a class="avatar avatar-40" href="/vforvashaw/" title="Austin Vashaw" > <img src="http://primer.cf.letterboxd.com/resized/avatar/twitter/5/6/1/5/7/shard/http___a0.twimg.com_profile_images_378800000504502593_c291ba9cae8fc5f985989ee4cc09a98a-0-40-0-40-crop.jpg" alt="Austin Vashaw" width="40" height="40" /> <span></span> </a>
+				</li>
+			
+				<li>
+					<a class="avatar avatar-40" href="/mattjamesrogers/" title="Matthew Rogers" > <img src="http://www.gravatar.com/avatar/c451d333d545ec07bc8ed450654b5923?rating=PG&amp;size=40&amp;default=http://letterboxd.com/static/img/avatar40.png&amp;border=" alt="Matthew Rogers" width="40" height="40" /> <span></span> </a>
+				</li>
+			
+				<li>
+					<a class="avatar avatar-40" href="/tobybramwell/" title="Toby Bramwell" > <img src="http://skyfall.cf.letterboxd.com/resized/avatar/twitter/3/9/1/6/5/shard/http___a0.twimg.com_profile_images_1519115608_balloon_head_static-0-40-0-40-crop.jpg" alt="Toby Bramwell" width="40" height="40" /> <span></span> </a>
+				</li>
+			
+				<li>
+					<a class="avatar avatar-40" href="/andy_buckle/" title="Andrew Buckle" > <img src="http://skyfall.cf.letterboxd.com/resized/avatar/twitter/1/0/5/0/9/shard/http___a0.twimg.com_profile_images_1695923292_390633_10150524625541412_766116411_10556224_464486859_n-0-40-0-40-crop.jpg" alt="Andrew Buckle" width="40" height="40" /> <span></span> </a>
+				</li>
+			
+				<li>
+					<a class="avatar avatar-40" href="/brianwcollins/" title="brianwcollins" > <img src="http://oblivion.cf.letterboxd.com/resized/avatar/twitter/7/8/6/3/shard/http___a1.twimg.com_profile_images_334411042_snake-0-40-0-40-crop.jpg" alt="brianwcollins" width="40" height="40" /> <span></span> </a>
+				</li>
+			
+				<li>
+					<a class="avatar avatar-40" href="/jonabrams/" title="Jonathan Abrams" > <img src="http://primer.cf.letterboxd.com/resized/avatar/twitter/7/6/1/5/shard/http___a3.twimg.com_profile_images_1158203691_Vegas_Saturday_8_11_07-0-40-0-40-crop.jpg" alt="Jonathan Abrams" width="40" height="40" /> <span></span> </a>
+				</li>
+			
+				<li>
+					<a class="avatar avatar-40" href="/weinberg/" title="Scott Weinberg" > <img src="http://primer.cf.letterboxd.com/resized/avatar/twitter/5/6/2/0/shard/http___a3.twimg.com_profile_images_1721199080_alienegg-0-40-0-40-crop.jpg" alt="Scott Weinberg" width="40" height="40" /> <span></span> </a>
+				</li>
+			
+				<li>
+					<a class="avatar avatar-40" href="/jumpedship/" title="Julian Wright" > <img src="http://www.gravatar.com/avatar/ae88f5df5f02cde4b4971ce869cab2cd?rating=PG&amp;size=40&amp;default=http://letterboxd.com/static/img/avatar40.png&amp;border=" alt="Julian Wright" width="40" height="40" /> <span></span> </a>
+				</li>
+			
+				<li>
+					<a class="avatar avatar-40" href="/blakeisbatman/" title="Blake Howard" > <img src="http://oblivion.cf.letterboxd.com/resized/avatar/twitter/2/7/8/2/3/shard/http___a0.twimg.com_profile_images_2738453047_803ae36a4150aceae0ab20495ed9d16e-0-40-0-40-crop.jpg" alt="Blake Howard" width="40" height="40" /> <span></span> </a>
+				</li>
+			
+				<li>
+					<a class="avatar avatar-40" href="/greggles83/" title="Gregory Sahadachny" > <img src="http://zardoz.cf.letterboxd.com/resized/avatar/twitter/7/3/5/1/shard/http___pbs.twimg.com_profile_images_472895943583731713_anRue0wm-0-40-0-40-crop.jpg" alt="Gregory Sahadachny" width="40" height="40" /> <span></span> </a>
+				</li>
+			
+				<li>
+					<a class="avatar avatar-40" href="/ericdsnider/" title="Eric D. Snider" > <img src="http://oblivion.cf.letterboxd.com/resized/avatar/twitter/1/0/6/6/4/shard/http___a0.twimg.com_profile_images_3107040980_d46aa0268eb45330598cadd021b03715-0-40-0-40-crop.jpg" alt="Eric D. Snider" width="40" height="40" /> <span></span> </a>
+				</li>
+			
+				<li>
+					<a class="avatar avatar-40" href="/rupertpupkin/" title="Brian Saur" > <img src="http://primer.cf.letterboxd.com/resized/avatar/5860/http___a0.twimg.com_profile_images_1003184283_wcfieldsavatarsmall-0-40-0-40-crop.jpg" alt="Brian Saur" width="40" height="40" /> <span></span> </a>
+				</li>
+			
+		</ul>
+	</section>
+
+
+					</div>
+				</div>
+			
+	</div>
+	
+	<aside class="wide-sidebar">
+		
+					
+			<section id="person-bio" class="section panel-text">
+				<h2 class="section-heading">Bio</h2>
+				<div class="collapsible-text" data-full-text-url="/s/full-text/person:82067/">
+					
+					
+					
+					
+						<p>There are several million film nerds on the Internet. I am one of them.</p>
+					
+				</div>
+			</section>
+		
+			
+		
+	
+		
+		
+		
+
+
+
+		
+		
+		
+			<section class="section list-set watchlist-aside">
+				<h2 class="section-heading"><a href="/anotherfilmnerd/watchlist/">Watchlist</a></h2>
+				<a href="/anotherfilmnerd/watchlist/" class="has-icon icon-16 icon-list-all all-link">90&nbsp;films</a>
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+		<section class="list list-stacked">
+			
+		
+			
+			
+			
+			
+			<a href="/anotherfilmnerd/watchlist/" class="list-link">
+				<div class="list-link-stacked clear">
+					<ul class="posters posters-70">
+						
+						
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="film-poster-149091 poster" > <img src="http://zardoz.cf.letterboxd.com/resized/film-poster/1/4/9/0/9/1/149091-felony-0-70-0-104-crop.jpg?k=9bd50b2362" width="70" height="104" alt="Felony" itemprop='photo' /> <span class="frame"> <span class="frame-title">Felony</span> </span> </li>
+
+
+			
+							
+						
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="film-poster-37105 poster" > <img src="http://zardoz.cf.letterboxd.com/resized/film-poster/3/7/1/0/5/37105-the-hills-run-red-0-70-0-104-crop.jpg?k=744abdf72f" width="70" height="104" alt="The Hills Run Red" itemprop='photo' /> <span class="frame"> <span class="frame-title">The Hills Run Red</span> </span> </li>
+
+
+			
+							
+						
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="film-poster-143752 poster" > <img src="http://skyfall.cf.letterboxd.com/resized/film-poster/1/4/3/7/5/2/143752-draft-day-0-70-0-104-crop.jpg?k=8072eebc34" width="70" height="104" alt="Draft Day" itemprop='photo' /> <span class="frame"> <span class="frame-title">Draft Day</span> </span> </li>
+
+
+			
+							
+						
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="film-poster-43974 poster" > <img src="http://primer.cf.letterboxd.com/resized/film-poster/4/3/9/7/4/43974-broken-english-0-70-0-104-crop.jpg?k=b398e9a18c" width="70" height="104" alt="Broken English" itemprop='photo' /> <span class="frame"> <span class="frame-title">Broken English</span> </span> </li>
+
+
+			
+							
+						
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="film-poster-43334 poster" > <img src="http://primer.cf.letterboxd.com/resized/film-poster/4/3/3/3/4/43334-dedication-0-70-0-104-crop.jpg?k=59e67fa7dc" width="70" height="104" alt="Dedication" itemprop='photo' /> <span class="frame"> <span class="frame-title">Dedication</span> </span> </li>
+
+
+			
+							
+						
+						
+					</ul>
+				</div>
+			</a>
+			
+			
+			
+			
+				
+	<h2 class="secondary-heading left prettify">
+		<a href="/anotherfilmnerd/watchlist/">Watchlist</a> 
+	<small>90&nbsp;films</small>
+
+	</h2>
+
+			
+			
+			
+				
+			
+		</section>
+	
+
+
+			</section>
+		
+		
+		
+
+
+		
+			<section class="section">
+				<h2 class="section-heading"><a href="/anotherfilmnerd/films/diary/">Diary</a></h2>
+				<a href="/anotherfilmnerd/films/diary/" class="has-icon icon-16 icon-diary all-link">
+
+
+
+
+
+118
+</a>
+				<ul class="logged-summary">
+					
+					
+					
+					
+						
+						
+						<li><h3>Sep</h3><dl>
+						
+						<dt>27</dt>
+						<dd><a href="/anotherfilmnerd/film/sin-city-a-dame-to-kill-for/">Sin City: A Dame to Kill For</a></dd>
+					
+						
+						
+						
+						
+						<dt>23</dt>
+						<dd><a href="/anotherfilmnerd/film/panic-2000/">Panic</a></dd>
+					
+						
+						
+						
+						
+						<dt>20</dt>
+						<dd><a href="/anotherfilmnerd/film/jaws-2/">Jaws 2</a></dd>
+					
+						
+						
+						
+						
+						<dt>13</dt>
+						<dd><a href="/anotherfilmnerd/film/dennis-miller-america-180-degrees/">Dennis Miller: America 180 Degrees</a></dd>
+					
+						
+						
+						
+						
+						<dt>6</dt>
+						<dd><a href="/anotherfilmnerd/film/alien-3/">Alien³</a></dd>
+					
+						
+						
+						
+						
+						<dt>5</dt>
+						<dd><a href="/anotherfilmnerd/film/airplane-ii-the-sequel/">Airplane II: The Sequel</a></dd>
+					
+						
+						</dl></li>
+						<li><h3>Aug</h3><dl>
+						
+						<dt>31</dt>
+						<dd><a href="/anotherfilmnerd/film/the-fury/">The Fury</a></dd>
+					
+						
+						
+						
+						
+						<dt>30</dt>
+						<dd><a href="/anotherfilmnerd/film/nurse-3-d/">Nurse 3-D</a></dd>
+					
+						
+						
+						
+						
+						<dt>24</dt>
+						<dd><a href="/anotherfilmnerd/film/stage-fright-2014/">Stage Fright</a></dd>
+					
+						
+						
+						
+						
+						<dt>24</dt>
+						<dd><a href="/anotherfilmnerd/film/american-hustle/">American Hustle</a></dd>
+					</dl></li>
+				</ul>
+			</section>
+		
+
+		
+			<section class="section ratings-histogram-chart"> <h3 class="section-heading"><a href="/anotherfilmnerd/films/ratings/by/rating/" class="tooltip" title="120&nbsp;ratings">Ratings</a></h3> <a href="/anotherfilmnerd/films/ratings/by/rating/" class="has-icon icon-16 icon-more all-link">More</a> <a href="/anotherfilmnerd/films/ratings/by/rating/" class="rating-histogram clear rating-histogram-exploded"> <span class="rating-green rating-green-tiny rating-1"><span class="rating rated-2">★</span></span> <ul> <li class="rating-histogram-bar" style="width: 17px; left: 0px"></li> <li class="rating-histogram-bar" style="width: 17px; left: 18px"></li> <li class="rating-histogram-bar" style="width: 17px; left: 36px"></li> <li class="rating-histogram-bar" style="width: 17px; height: 1.9666666666666668px; left: 54px"> 1 ratings (3%) </li> <li class="rating-histogram-bar" style="width: 17px; height: 5.833333333333333px; left: 72px"> 5 ratings (17%) </li> <li class="rating-histogram-bar" style="width: 17px; height: 19.366666666666667px; left: 90px"> 19 ratings (63%) </li> <li class="rating-histogram-bar" style="width: 17px; height: 30.0px; left: 108px"> 30 ratings (100%) </li> <li class="rating-histogram-bar" style="width: 17px; height: 29.033333333333335px; left: 126px"> 29 ratings (97%) </li> <li class="rating-histogram-bar" style="width: 17px; height: 18.4px; left: 144px"> 18 ratings (60%) </li> <li class="rating-histogram-bar" style="width: 17px; height: 18.4px; left: 162px"> 18 ratings (60%) </li> </ul> <span class="rating-green rating-green-tiny rating-5"><span class="rating rated-10">★★★★★</span></span> </a> </section>
+		
+		
+		
+			<section class="section">
+				<h2 class="section-heading"><a href="/anotherfilmnerd/lists/">Recent lists</a></h2>
+				<a href="/anotherfilmnerd/lists/" class="has-icon icon-16 icon-list-all all-link">1&nbsp;list</a>
+				
+				
+				
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+		<section class="list list-stacked">
+			
+		
+			
+			
+			
+			
+			<a href="/anotherfilmnerd/list/films-that-dont-deserve-the-bad-rap-they/" class="list-link">
+				<div class="list-link-stacked clear">
+					<ul class="posters posters-70">
+						
+						
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="film-poster-50478 poster" > <img src="http://zardoz.cf.letterboxd.com/resized/film-poster/5/0/4/7/8/50478-reindeer-games-0-70-0-104-crop.jpg?k=e901a4ea1a" width="70" height="104" alt="Reindeer Games" itemprop='photo' /> <span class="frame"> <span class="frame-title">Reindeer Games</span> </span> </li>
+
+
+			
+							
+						
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="film-poster-44352 poster" > <img src="http://skyfall.cf.letterboxd.com/resized/sm/upload/gc/pj/n9/0w/ishtar-0-70-0-104-crop.jpg?k=fa681c381d" width="70" height="104" alt="Ishtar" itemprop='photo' /> <span class="frame"> <span class="frame-title">Ishtar</span> </span> </li>
+
+
+			
+							
+						
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="film-poster-47300 poster" > <img src="http://primer.cf.letterboxd.com/resized/sm/upload/wz/45/pu/e3/nIXLXVnSM8t3mRE8zWS7b5UBrxX-0-70-0-104-crop.jpg?k=7f5c904bb2" width="70" height="104" alt="Hudson Hawk" itemprop='photo' /> <span class="frame"> <span class="frame-title">Hudson Hawk</span> </span> </li>
+
+
+			
+							
+						
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="film-poster-37258 poster" > <img src="http://oblivion.cf.letterboxd.com/resized/film-poster/3/7/2/5/8/37258-monkeybone-0-70-0-104-crop.jpg?k=b03a76e82b" width="70" height="104" alt="Monkeybone" itemprop='photo' /> <span class="frame"> <span class="frame-title">Monkeybone</span> </span> </li>
+
+
+			
+							
+						
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="film-poster-44804 poster" > <img src="http://skyfall.cf.letterboxd.com/resized/film-poster/4/4/8/0/4/44804-the-pink-panther-0-70-0-104-crop.jpg?k=09d80ad126" width="70" height="104" alt="The Pink Panther" itemprop='photo' /> <span class="frame"> <span class="frame-title">The Pink Panther</span> </span> </li>
+
+
+			
+							
+						
+						
+					</ul>
+				</div>
+			</a>
+			
+			
+			
+			
+				
+	<h2 class="secondary-heading left prettify">
+		<a href="/anotherfilmnerd/list/films-that-dont-deserve-the-bad-rap-they/">Films that don&#039;t deserve the bad rap they got</a> 
+	<small>6&nbsp;films</small>
+
+	</h2>
+
+			
+			
+			
+				
+			
+		</section>
+	
+
+
+				
+			</section>
+		
+	
+		
+		
+		
+
+
+
+
+
+
+ 
+
+
+<section class="section timeline">
+	<h2 class="section-heading"><a href="/anotherfilmnerd/activity/">Activity</a></h2>
+	
+			<a href="/anotherfilmnerd/activity/" class="has-icon icon-16 icon-activity all-link">View all</a>
+			<ul class="clear">
+				
+					<li><p>
+						<a href="/anotherfilmnerd/" class="person">anotherfilmnerd</a> <a href="/anotherfilmnerd/film/sin-city-a-dame-to-kill-for/" class="target"> <span class="context"> reviewed </span> Sin City: A Dame to Kill For </a> on Saturday Sep 27, 2014 <span class="rating rating-tiny rated-tiny-7"> ★★★½<meta itemprop="rating" content="7" /><meta itemprop="best" content="10" /><meta itemprop="worst" content="1" /> </span>
+						<time datetime="2014-09-28T00:42:36+1200" class="timeago timeago-pending">on 2014-09-28</time>
+					</p></li>
+				
+					<li><p>
+						<a href="/anotherfilmnerd/" class="person">anotherfilmnerd</a> <a href="/anotherfilmnerd/film/panic-2000/" class="target"> <span class="context"> reviewed </span> Panic </a> on Tuesday Sep 23, 2014 <span class="rating rating-tiny rated-tiny-8"> ★★★★<meta itemprop="rating" content="8" /><meta itemprop="best" content="10" /><meta itemprop="worst" content="1" /> </span>
+						<time datetime="2014-09-24T00:17:06+1200" class="timeago timeago-pending">on 2014-09-24</time>
+					</p></li>
+				
+					<li><p>
+						<a href="/anotherfilmnerd/" class="person">anotherfilmnerd</a> <a href="/anotherfilmnerd/film/jaws-2/" class="target"> <span class="context"> reviewed </span> Jaws 2 </a> on Saturday Sep 20, 2014 <span class="rating rating-tiny rated-tiny-6"> ★★★<meta itemprop="rating" content="6" /><meta itemprop="best" content="10" /><meta itemprop="worst" content="1" /> </span>
+						<time datetime="2014-09-20T21:07:09+1200" class="timeago timeago-pending">on 2014-09-20</time>
+					</p></li>
+				
+					<li><p>
+						<a href="/anotherfilmnerd/" class="person">anotherfilmnerd</a> liked Gregory Sahadachny’s <a href="/greggles83/film/denis-leary-no-cure-for-cancer/" class="target"><span class="context"><span class="rating rating-tiny rated-tiny-8"> ★★★★<meta itemprop="rating" content="8" /><meta itemprop="best" content="10" /><meta itemprop="worst" content="1" /> </span> review of</span> Denis Leary: No Cure for Cancer</a>
+						<time datetime="2014-09-19T21:39:32+1200" class="timeago timeago-pending">on 2014-09-19</time>
+					</p></li>
+				
+					<li><p>
+						<a href="/anotherfilmnerd/" class="person">anotherfilmnerd</a> <a href="/anotherfilmnerd/film/dennis-miller-america-180-degrees/" class="target"> <span class="context"> reviewed </span> Dennis Miller: America 180 Degrees </a> on Saturday Sep 13, 2014 <span class="rating rating-tiny rated-tiny-4"> ★★<meta itemprop="rating" content="4" /><meta itemprop="best" content="10" /><meta itemprop="worst" content="1" /> </span>
+						<time datetime="2014-09-14T12:18:57+1200" class="timeago timeago-pending">on 2014-09-14</time>
+					</p></li>
+				
+			</ul>
+		
+</section>
+
+	</aside>
+</div>
+
+
+
+
+
+
+	</div>
+</div>
+
+<footer id="footer">
+	<div class="content-wrap">
+		
+		<script>
+		 var uvOptions = {};
+		 (function() {
+		   var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
+		   uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/uRc1Zv3l5kORv0qXmidw.js';
+		   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
+		 })();
+		</script>
+		
+		<nav>
+			<ul>
+				<li><a href="/about/">About</a></li>
+				<li><a href="http://news.letterboxd.com">News</a></li>
+				<li><a href="/pro/">Pro</a></li>
+				<li class="mob-hide"><a href="/2013/">Year in Review</a></li>
+				<li><a href="/welcome/">Help</a></li>
+				<li class="mob-hide"><a href="javascript:UserVoice.showPopupWidget();" title="Provide feedback to Letterboxd">Feedback</a></li>
+				<li class="mob-hide"><a href="/legal/terms-of-use/">Terms</a></li>
+				<li class="mob-hide"><a href="/api/">API</a></li>
+				<li><a href="/contact/">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<form id="footer-search" action="/search/" method="get">
+			<fieldset>
+				<label for="footer-search-q" class="hidden">Search:</label>
+				<input type="text" name="q" id="footer-search-q" placeholder="Search" />
+				<input type="submit" value="Search" class="search-button" />
+			</fieldset>
+		</form>
+		<p class="copyright">
+			<span class="mob-hide">&copy; Letterboxd Limited. Made by <a href="/about/crew/" class="mute">fans</a> in Auckland, New Zealand.<br /></span>
+			<span class="nobr"><a href="/about/film-data/" class="mute">Film data</a> supplied by <a href="http://themoviedb.org" class="mute">TMDb</a>.</span>
+			<span class="nobr">
+				
+						Try our <a href="#" class="mute mobile-site-switch" data-use-mobile-site="yes">mobile site</a>.
+					
+			</span>
+		</p>
+		<section class="social">
+			<a href="http://facebook.com/letterboxd" class="facebook has-icon icon-16">Facebook</a>
+			<span class="slash">/</span>
+			<a href="http://twitter.com/letterboxd" class="twitter has-icon icon-16">Twitter</a>
+		</section>			
+	</div>
+	
+</footer>
+
+
+</body>
+</html>

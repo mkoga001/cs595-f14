@@ -1,0 +1,1235 @@
+<!doctype html>
+<html lang="en-US">
+<head id="Head"><meta http-equiv="X-UA-Compatible" content="IE=9,IE=8,IE=7" /><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta content="text/javascript" http-equiv="Content-Script-Type" /><meta content="text/css" http-equiv="Content-Style-Type" /><meta id="MetaDescription" name="DESCRIPTION" content="Office of Denver Mayor Michael B. Hancock" /><meta id="MetaKeywords" name="KEYWORDS" content="Office of the Mayor, Michael B. Hancock" /><meta id="MetaCopyright" name="COPYRIGHT" content="Copyright (c) 2014 by Mayor Michael B. Hancock" /><meta id="MetaAuthor" name="AUTHOR" content="Mayor Michael B. Hancock" /><meta name="RESOURCE-TYPE" content="DOCUMENT" /><meta name="DISTRIBUTION" content="GLOBAL" /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><meta name="REVISIT-AFTER" content="1 DAYS" /><meta name="RATING" content="GENERAL" /><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" /><style id="StylePlaceholder" type="text/css"></style><link id="ADesktopModules_News" rel="stylesheet" type="text/css" href="/DesktopModules/News/module.css" /><link id="APortals__default_" rel="stylesheet" type="text/css" href="/Portals/_default/default.css" /><link id="APortals__default_Skins_DenverGov_" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/DenverGov/skin.css" /><link id="APortals__default_Containers_DenverGov_TransparentSmTitle_css" rel="stylesheet" type="text/css" href="/Portals/_default/Containers/DenverGov/TransparentSmTitle.css" /><link id="APortals__default_Containers_DenverGov_Transparent_css" rel="stylesheet" type="text/css" href="/Portals/_default/Containers/DenverGov/Transparent.css" /><link id="APortals__default_Containers_DenverGov_DarkBlueWrapper_css" rel="stylesheet" type="text/css" href="/Portals/_default/Containers/DenverGov/DarkBlueWrapper.css" /><link id="APortals__default_Containers_DenverGov_Outlined_News_css" rel="stylesheet" type="text/css" href="/Portals/_default/Containers/DenverGov/Outlined_News.css" /><link id="APortals_728_" rel="stylesheet" type="text/css" href="/Portals/728/portal.css" />	<link id="CISS_module_6899dnnYourID2" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/DenverGov/CSSUltimateMulticolumnsNew/CSSUltimateMulticolumnsNew.css" /><link id="prettyPhoto" rel="stylesheet" type="text/css" href="/DesktopModules/EasyDNNGallery/css/prettyPhoto.css" /><link id="EGTheme505345" rel="stylesheet" type="text/css" href="/DesktopModules/EasyDnnGallery/Themes/ASSThemes/ADvancedTheme02.css" /><script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" ></script><style>.displaycrumb {visibility:hidden!important; height:0px!important;padding:0px!important;}.displaycrumb span {visibility:hidden!important;}.contentwide{margin:0px 0px 10px 0px!important;width:63%!important}.column1 {width:38%!important;}.column2 {width:29%!important;}.column3 {width:29%!important;}</style><link href="http://cms.denvergov.com/mayorhancock/MayorsOffice/tabid/442213/Default.aspx" rel="canonical" /><title>
+	Office of Denver Mayor Michael B. Hancock
+</title></head>
+<body id="Body">
+    <form name="Form" method="post" action="/mayor/MayorsOffice/tabid/442213/Default.aspx" id="Form" enctype="multipart/form-data">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2NDIyOTEzMjkPZBYGZg8WAh4EVGV4dAUPPCFkb2N0eXBlIGh0bWw+ZAIBD2QWDgIFDxYCHgdWaXNpYmxlaGQCBg8WAh4HY29udGVudAUpT2ZmaWNlIG9mIERlbnZlciBNYXlvciBNaWNoYWVsIEIuIEhhbmNvY2tkAgcPFgIfAgUnT2ZmaWNlIG9mIHRoZSBNYXlvciwgTWljaGFlbCBCLiBIYW5jb2NrZAIIDxYCHwIFLkNvcHlyaWdodCAoYykgMjAxNCBieSBNYXlvciBNaWNoYWVsIEIuIEhhbmNvY2tkAgkPFgQfAmQfAWhkAgoPFgIfAgUYTWF5b3IgTWljaGFlbCBCLiBIYW5jb2NrZAINDxYCHwIFDUlOREVYLCBGT0xMT1dkAgIPZBYCAgEPZBYGZg9kFgJmDxYCHwFoFgJmD2QWAmYPZBYGAgMPEGRkFgBkAg8PZBYCZg8PFgYeCEltYWdlVXJsBRQvaW1hZ2VzL2NvbGxhcHNlLmdpZh4NQWx0ZXJuYXRlVGV4dAUITWluaW1pemUeB1Rvb2xUaXAFCE1pbmltaXplFgoeB3VzZXJjdHIFCVVzYWJpbGl0eR4HdXNlcmtleQUWQ29udHJvbFBhbmVsVmlzaWJsZTcyOB4Hb25jbGljawVNaWYgKF9fZG5uX1NlY3Rpb25NYXhNaW4odGhpcywgICdJY29uQmFyLmFzY3hfcm93Q29udHJvbFBhbmVsJykpIHJldHVybiBmYWxzZTseCG1heF9pY29uBRIvaW1hZ2VzL2V4cGFuZC5naWYeCG1pbl9pY29uBRQvaW1hZ2VzL2NvbGxhcHNlLmdpZmQCEQ9kFgICAQ9kFgICAQ9kFhACAQ8QZGQWAGQCBQ8QZGQWAGQCBw8QZGQWAGQCCw8QZGQWAGQCDw8QZGQWAGQCFQ8QZGQWAGQCGQ8QZGQWAWZkAh0PEGRkFgBkAgUPZBYCZg9kFjhmD2QWAmYPDxYCHwAFGE1heW9yIE1pY2hhZWwgQi4gSGFuY29ja2RkAgEPZBYCZg8PFgIfAAUYTWF5b3IgTWljaGFlbCBCLiBIYW5jb2NrZGQCAg9kFgICAw8PFgYeCENzc0NsYXNzBQxTZWFyY2hCdXR0b24fAAUPPHNwYW4+wqA8L3NwYW4+HgRfIVNCAgJkZAIDDxYCHgVjbGFzcwUZaGVhZGVyYmFubmVyIEROTkVtcHR5UGFuZWQCBA8PFgIfAWdkFgJmDxYCHwAF6i88IS0tIE1lbnUgZ2VuZXJhdGVkIGJ5IE5hdmlnYXRpb24gU3VpdGUgZm9yIERvdE5ldE51a2UgLCB3d3cuZG5uMzYwLm5ldCwgIC0tPjxzY3JpcHQgc3JjPSIvUG9ydGFscy9fZGVmYXVsdC9Ta2lucy9EZW52ZXJHb3YvQ1NTVWx0aW1hdGVNdWx0aWNvbHVtbnNOZXcvaW1hZ2VzL2dsb2JhbC5qcyIgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiA+PC9zY3JpcHQ+PHN0eWxlIHR5cGU9InRleHQvY3NzIiA+ICANCiNUb3BOYXYgdWwgbGkgZGl2LnN1Ym5hdiBkaXYuY29sIHsNCglmbG9hdDogbGVmdDsNCgltYXJnaW4tcmlnaHQ6IDE5cHg7DQoJDQp9DQo8L3N0eWxlPjxkaXYgaWQ9IlRvcE5hdiIgPjx1bD48bGkgY2xhc3M9ImxpMCBoYXNTdWIiPjxhIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+UHJvZ3JhbXMgJiBJbml0aWF0aXZlczwvYT48ZGl2IGNsYXNzPSJzdWJuYXYgc3VibmF2MCI+PGRpdiBjbGFzcz0ic3VibmF2SW1nIj48L2Rpdj48ZGl2IGNsYXNzPSJjb250ZW50V3JhcHBlciI+PGRpdiBjbGFzcz0iY29udGVudCBjbGVhcmZpeCIgaWQ9IkZseW91dDQ0MjIzNCI+PHNwYW4+PGEgaHJlZj0iaHR0cDovL2RlbnZlcmdvdi5vcmcvbWF5b3IvTWF5b3JzT2ZmaWNlL1Byb2dyYW1zSW5pdGlhdGl2ZXMvMjAxNFN0YXRlb2Z0aGVDaXR5L3RhYmlkLzQ0NTM5Mi9EZWZhdWx0LmFzcHgiPjIwMTQgU3RhdGUgb2YgdGhlIENpdHk8L2E+PC9zcGFuPjxzcGFuPjxhIGhyZWY9Imh0dHA6Ly9kZW52ZXJnb3Yub3JnL21heW9yL01heW9yc09mZmljZS9Qcm9ncmFtc0luaXRpYXRpdmVzL0RlbnZlckRheXMvdGFiaWQvNDQ0NDU4L0RlZmF1bHQuYXNweCI+RGVudmVyIERheXM8L2E+PC9zcGFuPjxzcGFuPjxhIGhyZWY9Imh0dHA6Ly9kZW52ZXJnb3Yub3JnL21heW9yL01heW9yc09mZmljZS9Qcm9ncmFtc0luaXRpYXRpdmVzL0RlbGl2ZXJpbmdEZW52ZXJzRnV0dXJlL3RhYmlkLzQ0Mjk3Ny9EZWZhdWx0LmFzcHgiPkRlbGl2ZXJpbmcgRGVudmVyJ3MgRnV0dXJlPC9hPjwvc3Bhbj48c3Bhbj48YSBocmVmPSJodHRwOi8vZGVudmVyZ292Lm9yZy9tYXlvci9NYXlvcnNPZmZpY2UvUHJvZ3JhbXNJbml0aWF0aXZlcy9EZW52ZXJFZHVjYXRpb25Db21wYWN0L3RhYmlkLzQ0MjM3Ny9EZWZhdWx0LmFzcHgiPkRlbnZlciBFZHVjYXRpb24gQ29tcGFjdDwvYT48L3NwYW4+PHNwYW4+PGEgaHJlZj0iaHR0cDovL2RlbnZlcmdvdi5vcmcvbWF5b3IvTWF5b3JzT2ZmaWNlL1Byb2dyYW1zSW5pdGlhdGl2ZXMvTWVhc3VyZTJBU2VydmljZUludmVzdG1lbnRzL3RhYmlkLzQ0NDI3Ny9EZWZhdWx0LmFzcHgiPk1lYXN1cmUgMkEgU2VydmljZSBJbnZlc3RtZW50czwvYT48L3NwYW4+PHNwYW4+PGEgaHJlZj0iaHR0cDovL2RlbnZlcmdvdi5vcmcvbWF5b3IvTWF5b3JzT2ZmaWNlL1Byb2dyYW1zSW5pdGlhdGl2ZXMvTmVpZ2hib3Job29kUmVsYXRpb25zL3RhYmlkLzQ0MjI3Mi9EZWZhdWx0LmFzcHgiPk5laWdoYm9yaG9vZCBSZWxhdGlvbnM8L2E+PC9zcGFuPjxzcGFuPjxhIGhyZWY9Imh0dHA6Ly9kZW52ZXJnb3Yub3JnL21heW9yL01heW9yc09mZmljZS9Qcm9ncmFtc0luaXRpYXRpdmVzL05vcnRoRGVudmVyQ29ybmVyc3RvbmVDb2xsYWJvcmF0aXZlL3RhYmlkLzQ0NDM1MC9EZWZhdWx0LmFzcHgiPk5vcnRoIERlbnZlciBDb3JuZXJzdG9uZSBDb2xsYWJvcmF0aXZlPC9hPjwvc3Bhbj48c3Bhbj48YSBocmVmPSJodHRwOi8vZGVudmVyZ292Lm9yZy9tYXlvci9NYXlvcnNPZmZpY2UvUHJvZ3JhbXNJbml0aWF0aXZlcy9QZWFrUGVyZm9ybWFuY2UvdGFiaWQvNDQ0Mzc3L0RlZmF1bHQuYXNweCI+UGVhayBQZXJmb3JtYW5jZTwvYT48L3NwYW4+PHNwYW4+PGEgaHJlZj0iaHR0cDovL2RlbnZlcmdvdi5vcmcvbWF5b3IvTWF5b3JzT2ZmaWNlL1Byb2dyYW1zSW5pdGlhdGl2ZXMvU2hlcmlmZkRlcGFydG1lbnRSZWZvcm0vdGFiaWQvNDQ1NDQ4L0RlZmF1bHQuYXNweCI+U2hlcmlmZiBEZXBhcnRtZW50IFJlZm9ybTwvYT48L3NwYW4+PHNwYW4+PGEgaHJlZj0iaHR0cDovL2RlbnZlcmdvdi5vcmcvbWF5b3IvTWF5b3JzT2ZmaWNlL1Byb2dyYW1zSW5pdGlhdGl2ZXMvUHJvamVjdERlbnZlckRlbGl2ZXJzL3RhYmlkLzQ0NTQxNi9EZWZhdWx0LmFzcHgiPlByb2plY3QgRGVudmVyIERlbGl2ZXJzPC9hPjwvc3Bhbj48c3Bhbj48YSBocmVmPSJodHRwOi8vZGVudmVyZ292Lm9yZy9tYXlvci9NYXlvcnNPZmZpY2UvUHJvZ3JhbXNJbml0aWF0aXZlcy9Nb3JlL3RhYmlkLzQ0NDQ5Ny9EZWZhdWx0LmFzcHgiPk1vcmUuLi48L2E+PC9zcGFuPjwvZGl2PjwvZGl2PjwvZGl2PjwvbGk+PGxpIGNsYXNzPSJmaXJzdCBsaTEiPjxhIGhyZWY9Imh0dHA6Ly9kZW52ZXJnb3Yub3JnL21heW9yL01heW9yc09mZmljZS9CbG9nL3RhYmlkLzQ0MjIzNy9EZWZhdWx0LmFzcHgiPkJsb2c8L2E+PC9saT48bGkgY2xhc3M9ImxpMiBoYXNTdWIiPjxhIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+UGhvdG9zICYgVmlkZW9zPC9hPjxkaXYgY2xhc3M9InN1Ym5hdiBzdWJuYXYyIj48ZGl2IGNsYXNzPSJzdWJuYXZJbWciPjwvZGl2PjxkaXYgY2xhc3M9ImNvbnRlbnRXcmFwcGVyIj48ZGl2IGNsYXNzPSJjb250ZW50IGNsZWFyZml4IiBpZD0iRmx5b3V0NDQyMjM4Ij48c3Bhbj48YSBocmVmPSJodHRwOi8vZGVudmVyZ292Lm9yZy9tYXlvci9NYXlvcnNPZmZpY2UvUGhvdG9zVmlkZW9zL1Bob3RvR2FsbGVyeS90YWJpZC80NDIyNDUvRGVmYXVsdC5hc3B4Ij5QaG90byBHYWxsZXJ5PC9hPjwvc3Bhbj48c3Bhbj48YSBocmVmPSJodHRwOi8vZGVudmVyZ292Lm9yZy9tYXlvci9NYXlvcnNPZmZpY2UvUGhvdG9zVmlkZW9zL1ZpZGVvL3RhYmlkLzQ0MjI0Ni9EZWZhdWx0LmFzcHgiPlZpZGVvPC9hPjwvc3Bhbj48c3Bhbj48YSBocmVmPSJodHRwOi8vZGVudmVyZ292Lm9yZy9tYXlvci9NYXlvcnNPZmZpY2UvUGhvdG9zVmlkZW9zL1BvZGNhc3RzL3RhYmlkLzQ0MjI2OS9EZWZhdWx0LmFzcHgiPlBvZGNhc3RzPC9hPjwvc3Bhbj48L2Rpdj48L2Rpdj48L2Rpdj48L2xpPjxsaSBjbGFzcz0iZmlyc3QgbGkxIj48YSBocmVmPSJodHRwOi8vZGVudmVyZ292Lm9yZy9tYXlvci9NYXlvcnNPZmZpY2UvTmV3c3Jvb20vdGFiaWQvNDQyMjQ0L0RlZmF1bHQuYXNweCI+TmV3c3Jvb208L2E+PC9saT48bGkgY2xhc3M9ImxpNCBoYXNTdWIiPjxhIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+QWJvdXQgdGhlIE9mZmljZSBvZiB0aGUgTWF5b3I8L2E+PGRpdiBjbGFzcz0ic3VibmF2IHN1Ym5hdjQiPjxkaXYgY2xhc3M9InN1Ym5hdkltZyI+PC9kaXY+PGRpdiBjbGFzcz0iY29udGVudFdyYXBwZXIiPjxkaXYgY2xhc3M9ImNvbnRlbnQgY2xlYXJmaXgiIGlkPSJGbHlvdXQ0NDIyMzkiPjxzcGFuPjxhIGhyZWY9Imh0dHA6Ly9kZW52ZXJnb3Yub3JnL21heW9yL01heW9yc09mZmljZS9BYm91dHRoZU9mZmljZW9mdGhlTWF5b3IvQWJvdXRNYXlvckhhbmNvY2svdGFiaWQvNDQyMjQwL0RlZmF1bHQuYXNweCI+QWJvdXQgTWF5b3IgSGFuY29jazwvYT48L3NwYW4+PHNwYW4+PGEgaHJlZj0iaHR0cDovL2RlbnZlcmdvdi5vcmcvbWF5b3IvTWF5b3JzT2ZmaWNlL0Fib3V0dGhlT2ZmaWNlb2Z0aGVNYXlvci9UaGVBZG1pbmlzdHJhdGlvbi90YWJpZC80NDIyNDEvRGVmYXVsdC5hc3B4Ij5UaGUgQWRtaW5pc3RyYXRpb248L2E+PC9zcGFuPjxzcGFuPjxhIGhyZWY9Imh0dHA6Ly9kZW52ZXJnb3Yub3JnL21heW9yL01heW9yc09mZmljZS9BYm91dHRoZU9mZmljZW9mdGhlTWF5b3IvSGlzdG9yeW9mdGhlT2ZmaWNlL3RhYmlkLzQ0MjM0MC9EZWZhdWx0LmFzcHgiPkhpc3Rvcnkgb2YgdGhlIE9mZmljZTwvYT48L3NwYW4+PHNwYW4+PGEgaHJlZj0iaHR0cDovL2RlbnZlcmdvdi5vcmcvbWF5b3IvTWF5b3JzT2ZmaWNlL0Fib3V0dGhlT2ZmaWNlb2Z0aGVNYXlvci9Cb2FyZHNDb21taXNzaW9ucy90YWJpZC80NDIyNDMvRGVmYXVsdC5hc3B4Ij5Cb2FyZHMgJiBDb21taXNzaW9uczwvYT48L3NwYW4+PHNwYW4+PGEgaHJlZj0iaHR0cDovL2RlbnZlcmdvdi5vcmcvbWF5b3IvTWF5b3JzT2ZmaWNlL0Fib3V0dGhlT2ZmaWNlb2Z0aGVNYXlvci9NYXlvckNvdW5jaWxNZWV0aW5ncy90YWJpZC80NDIzMTMvRGVmYXVsdC5hc3B4Ij5NYXlvciBDb3VuY2lsIE1lZXRpbmdzPC9hPjwvc3Bhbj48L2Rpdj48L2Rpdj48L2Rpdj48L2xpPjxsaSBjbGFzcz0iZmlyc3QgbGkxIj48YSBocmVmPSJodHRwOi8vZGVudmVyZ292Lm9yZy9tYXlvci9NYXlvcnNPZmZpY2UvRmlyc3RMYWR5b2ZEZW52ZXIvdGFiaWQvNDQyOTQ3L0RlZmF1bHQuYXNweCI+Rmlyc3QgTGFkeSBvZiBEZW52ZXI8L2E+PC9saT48bGkgY2xhc3M9ImxpNiBoYXNTdWIiPjxhIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+Q29udGFjdDwvYT48ZGl2IGNsYXNzPSJzdWJuYXYgc3VibmF2NiI+PGRpdiBjbGFzcz0ic3VibmF2SW1nIj48L2Rpdj48ZGl2IGNsYXNzPSJjb250ZW50V3JhcHBlciI+PGRpdiBjbGFzcz0iY29udGVudCBjbGVhcmZpeCIgaWQ9IkZseW91dDQ0MjI0NyI+PHNwYW4+PGEgaHJlZj0iaHR0cDovL2RlbnZlcmdvdi5vcmcvbWF5b3IvTWF5b3JzT2ZmaWNlL0NvbnRhY3QvQ29udGFjdHRoZU1heW9yL3RhYmlkLzQ0MjI3NC9EZWZhdWx0LmFzcHgiPkNvbnRhY3QgdGhlIE1heW9yPC9hPjwvc3Bhbj48c3Bhbj48YSBocmVmPSJodHRwOi8vZGVudmVyZ292Lm9yZy9tYXlvci9NYXlvcnNPZmZpY2UvQ29udGFjdC9MZXR0ZXJQcm9jbGFtYXRpb25SZXF1ZXN0L3RhYmlkLzQ0MjQ4MS9EZWZhdWx0LmFzcHgiPkxldHRlciAmIFByb2NsYW1hdGlvbiBSZXF1ZXN0PC9hPjwvc3Bhbj48c3Bhbj48YSBocmVmPSJodHRwOi8vZGVudmVyZ292Lm9yZy9tYXlvci9NYXlvcnNPZmZpY2UvQ29udGFjdC9NZWV0aW5nb3JFdmVudFJlcXVlc3RzL3RhYmlkLzQ0MjI3NS9EZWZhdWx0LmFzcHgiPk1lZXRpbmcgb3IgRXZlbnQgUmVxdWVzdHM8L2E+PC9zcGFuPjwvZGl2PjwvZGl2PjwvZGl2PjwvbGk+PC91bD48L2Rpdj48c2NyaXB0IGxhbmd1YWdlPSJqYXZhc2NyaXB0IiB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiID4NCiAvL2RlYnVnZ2VyOyAgDQoJdmFyIG51bV9vZl9yb3dfcGVyY29sdW1uPTg7ICAgLy8gbnVtYmVyIG9mIGl0ZW1zIHBlciBjb2x1bW4NCiAgICB2YXIgY250ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ1RvcE5hdicpOw0KICAgIHZhciBvYmogPSBjbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ2RpdicpOw0KCXZhciBpPTA7DQogICAgZm9yIChpID0gMDsgaSA8IG9iai5sZW5ndGg7IGkrKykgew0KICANCiAgICB2YXIgZWwgPSBvYmpbaV07DQogICAgICAgIGlmIChlbC5pZC5pbmRleE9mKCdGbHlvdXQnKSA+PSAwKSB7DQoJCQkgDQoJCSAgICAgdmFyIHM9ICI8ZGl2IGNsYXNzPVwiY29sXCIgPjx1bCA+IjsNCiAgICAgICAgICAgICB2YXIgIGxpcyA9IGVsLmdldEVsZW1lbnRzQnlUYWdOYW1lKCdzcGFuJyk7DQoJCQkgDQoJCQkgDQoJCQkgdmFyIGluZGV4PTA7DQoJCQkgDQoJCQkgIGZvciAodmFyIGogPSAwOyBqIDwgbGlzLmxlbmd0aDsgaisrKSB7DQoJCQkJdmFyIGxpID0gbGlzW2pdOw0KCQkJDQoJCQkJdmFyICBsaV9hID0gbGlzW2pdLmdldEVsZW1lbnRzQnlUYWdOYW1lKCdhJyk7DQoJCQkJCXZhciBpdGVtdGV4dD1saV9hWzBdLmlubmVySFRNTDsNCgkJCQkJdmFyIGhlYWRlcj0iIjsNCgkJCQkJaWYgKGxpLmlubmVySFRNTC5pbmRleE9mKCJ2b2lkKCIpPj0wKQ0KCQkJCQkJew0KCQkJCQkJaGVhZGVyPSI8aDM+IitpdGVtdGV4dCsiPC9oMz4iDQoJCQkJCQl9DQoJCQkJCQllbHNlDQoJCQkJCQl7DQoJCQkJCQlzPXMraGVhZGVyOw0KCQkJCQkgICAgcz1zKyI8bGk+IitsaS5pbm5lckhUTUwrIjwvbGk+IjsNCgkJCQkJCX0NCgkJCQkJICAgDQoJCQkJICAgaW5kZXg9aW5kZXgrMTsNCgkJCQkgICBpZiAoKGluZGV4Pj1udW1fb2Zfcm93X3BlcmNvbHVtbiApfHwgKGhlYWRlciE9IiIpKSB7DQoJCQkJICAgaW5kZXg9MDsNCgkJCQkgICBzPXMrIjwvdWw+PC9kaXY+PGRpdiBjbGFzcz1cImNvbFwiPjx1bD4iK2hlYWRlcjsNCgkJCQkgICB9DQoJCQkJfQ0KCQkJcz1zKyI8L3VsPjwvZGl2PiI7CQ0KCQkgICAgLy9hbGVydChzKTsNCgkJCWVsLmlubmVySFRNTD1zOw0KICAgICAgICB9Ow0KICAgIH07DQogIA0KIDwvc2NyaXB0PmQCBQ8WAh8NBRR0b3BwYW5lIEROTkVtcHR5UGFuZWQCBw9kFgICAQ8WAh8NBTNEbm5Nb2R1bGUgRG5uTW9kdWxlLUVhc3lETk5HYWxsZXJ5IERubk1vZHVsZS01MDUzNDUWAgIBD2QWDgIBD2QWAgICDxYCHwFoFgZmDxYCHwUFBEVkaXRkAgEPFgIfBQUGVXBkYXRlZAICDxYCHwUFBkNhbmNlbGQCAw8PFgIfAWhkZAIFD2QWAgIBDw9kFgIfDQUjRE5OTW9kdWxlQ29udGVudCBNb2RFYXN5RE5OR2FsbGVyeUMWAgIBDw8WKB4HTW9kdWxOcgUHTTUwNTM0NR4PTGlnaHRib3hPcGFjaXR5BQMwLjgeBmpRdWVyeQUBJB4Kc3RyQXBwcm92ZQUOTWVkaWEgYXBwcm92YWweE0xpZ2h0Qm94U2xpZGVTaG93QVAFBWZhbHNlHgxTZXNHYWxsZXJ5SUQFATceDFBsYXlPbkxvYWRMQgUFZmFsc2UeC1VwbG9hZEdhbElEBQE3HgZwcEluaXQFHCdwcmV0dHlQaG90bzUwNTM0NVtNNTA1MzQ1XSceDk92ZXJsYXlHYWxsZXJ5BQVmYWxzZR4MRG93bmxvYWRUZXh0BQ5Eb3dubG9hZCBpbWFnZR4RTGlnaHRCb3hTbGlkZVNob3cFBWZhbHNlHg9MaWdodGJveFBhZGRpbmcFAjgwHgxTaG93VG9vbFRpcHMFBFRydWUeDXN0clVzZXJVcGxvYWQFBlVwbG9hZB4JQW5pbVNwZWVkBQRmYWRlHg1MaWdodGJveFRpdGxlBQVmYWxzZR4MTGlnaHRib3hUeXBlBQpwcF9kZWZhdWx0HgdSZWxMaW5rBRJwcmV0dHlQaG90b001MDUzNDUeCGhvc3RwYXRoBRRodHRwOi8vZGVudmVyZ292Lm9yZ2QWAgIBD2QWAmYPDxaiAR8SBQQxMDAwHgxTbGlkZXJFZmZlY3QFBGZhZGUeDlByZWxvYWRlckltYWdlBQpsb2FkZXIuZ2lmHhJMaWdodEJveFNsaWRlU2hvdzIFBWZhbHNlHgxOQ0NhdGVnb3J5SUQFATEfGQUFZmFsc2UeDFRvb2x0aXBUaGVtZQUFY3JlYW0eDFRHSW1hZ2VXaWR0aAUCNzUfDgUHTTUwNTM0NR8fBQpwcF9kZWZhdWx0HhFTU0F1dG9TbGlkZVJhbmRvbQUEZmFkZR4PTkdDYXRlZ29yeUl0ZW1zBQE0HxMFATceDVVzZUZsb3dQbGF5ZXIFBUZhbHNlHw8FAzAuOB4PU2hvd09uTW91c2VPdmVyBQVmYWxzZR4PQXVkaW9QbGF5T25Mb2FkBQVmYWxzZR4MU1NJbWFnZVdpZHRoBQM2NTAeCVNob3dUaXRsZQUFZmFsc2UeDVBsYXlPbkxvYWRMQjIFBWZhbHNlHhNMaWdodGJveERlc2NyaXB0aW9uBQVGYWxzZR4TUHJlbG9hZGVyQmFja2dyb3VuZAUVVHJhbnNwYXJlbnRCYWNrZ3JvdW5kHgpTaG93RWZmZWN0BQRmYWRlHgxPcGVuTWVkaWFVcmwFBFRydWUfEAUGalF1ZXJ5HgtOR1Nob3dUaXRsZQUFZmFsc2UfHQUEZmFkZR4PVG9vbHRpcFBvc2l0aW9uBQxib3R0b21NaWRkbGUeCVNlc0tvbG9uYQUBNB4MT3BlbkxpbmtUZXh0BQlPcGVuIGxpbmseFFNob3dNZWRpYURlc2NyaXB0aW9uBQRUcnVlHxQFBWZhbHNlHg5TaG93TWVkaWFUaXRsZQUEVHJ1ZR4LU3luY0VmZmVjdHMFBWZhbHNlHg5UYXJnZXRQb3NpdGlvbgUJdG9wTWlkZGxlHglOZXdXaW5kb3cFBV9zZWxmHhJFbmFibGVMb2NhbGl6YXRpb24FBUZhbHNlHgpIaWRlRWZmZWN0BQRmYWRlHx4FBUZhbHNlHxwFBlVwbG9hZB4JRWZmZWN0SW50BQQ1MDAwHhFOR1Nob3dEZXNjcmlwdGlvbgUFZmFsc2UeEU5HR2FsbGVyaWVzVG9TaG93BQE7Hg9TaG93RGVzY3JpcHRpb24FBHRydWUeDVRvb2x0aXBCb3JkZXIFAzY1MB4NU1NJbWFnZUhlaWdodAUDMzM1HgpQbGF5T25Mb2FkBQNvZmYfGgUCODAeDlNob3dPbmx5VXBsb2FkBQVGYWxzZR8bBQRUcnVlHg9UR0ltYWdlSGVpZ2h0MzACMh4NVHJlbnV0bmFTbGlrYQUBMB4Mc3RyT3Blbk1lZGlhBQRPcGVuHyAFFHByZXR0eVBob3RvW001MDUzNDVdHxEFDk1lZGlhIGFwcHJvdmFsHg1UR0ltYWdlSGVpZ2h0BQI3NR4FVFRUb3AFMXRvcDogMjUycHg7IGxlZnQ6IDBweDsgd2lkdGg6NjUwcHg7IGhlaWdodDogNTBweDseDVRvb2x0aXBSYWRpdXMFAjUwHgxTaG93TWVkaUluZm8FBFRydWUeB01lZFNvcnQFCFBvc2l0aW9uHgticm9qYWNTbGlrYQUBMB4JTkdDb2x1bW5zBQEyHghGbG9hdGluZwUFZmFsc2UfFwUFZmFsc2UeB0Nzc2ZpbGUFE0FEdmFuY2VkVGhlbWUwMi5jc3MeC0N1cnJlbnRQYWdlBQEwHgZWR1NraW4FBWJsYWNrHgtHYWxsZXJ5SW5mbwUFZmFsc2UeCkluaXRhbE9wZW4FBWZhbHNlHgRJbmZvBQNvZmYeDlByZWxvYWRlckNsYXNzBRJQYWdlVXBkYXRlUHJvZ3Jlc3MeEkhpZGVFZmZlY3REdXJhdGlvbgUBMB4FSHRtbDUFBUZhbHNlHglHYWxsZXJ5SUQFATceD1Nlc0l0ZW1zUGVyUGFnZQUBMh4KTW92SW5GbGFzaAUFRmFsc2UeCk1lZFNvcnRBU0MFA0FTQx4LRGlzcGxheVR5cGUFEUFkdmFuY2VkU2xpZGVTaG93Hg9PdmVybGF5R2FsbGVyeTIFBWZhbHNlHg5BbGxvd0Z1bGxzY3JlbgUDb2ZmHwsFD0FEdmFuY2VkVGhlbWUwMmQWBGYPZBYCZg8WAh4LXyFJdGVtQ291bnQCARYCZg9kFgRmDxUBD0ZlYXR1cmVkIFBob3Rvc2QCAQ8WAh9iAggWEGYPZBYGZg8VA1QvUG9ydGFscy83MjgvRWFzeUdhbGxlcnlJbWFnZXMvNTA1MzQ1L0FkdmFuY2VkU2xpZGVTaG93L1RodW1icy9zc3RiX0VQUzgyMzAzOTI1Ny5qcGdUL1BvcnRhbHMvNzI4L0Vhc3lHYWxsZXJ5SW1hZ2VzLzUwNTM0NS9BZHZhbmNlZFNsaWRlU2hvdy9UaHVtYnMvMjQ3Ml9FUFM4MjMwMzkyNTcuanBnF1N0YXRlIG9mIHRoZSBDaXR5LCAyMDE0ZAIBDxYEHgRocmVmZB4GdGFyZ2V0BQVfc2VsZmQCAw8WAh4FU3R5bGUFMXRvcDogMjUycHg7IGxlZnQ6IDBweDsgd2lkdGg6NjUwcHg7IGhlaWdodDogNTBweDsWBAIBDw8WAh8ABRdTdGF0ZSBvZiB0aGUgQ2l0eSwgMjAxNGRkAgMPDxYCHwBlZGQCAQ9kFgZmDxUDVC9Qb3J0YWxzLzcyOC9FYXN5R2FsbGVyeUltYWdlcy81MDUzNDUvQWR2YW5jZWRTbGlkZVNob3cvVGh1bWJzL3NzdGJfRVBTNzU5NzQ4NTI1LmpwZ1QvUG9ydGFscy83MjgvRWFzeUdhbGxlcnlJbWFnZXMvNTA1MzQ1L0FkdmFuY2VkU2xpZGVTaG93L1RodW1icy8yNDczX0VQUzc1OTc0ODUyNS5qcGchVW5pb24gU3RhdGlvbiBIb3RlbCBHcmFuZCBPcGVuaW5nZAIBDxYEH2NkH2QFBV9zZWxmZAIDDxYCH2UFMXRvcDogMjUycHg7IGxlZnQ6IDBweDsgd2lkdGg6NjUwcHg7IGhlaWdodDogNTBweDsWBAIBDw8WAh8ABSFVbmlvbiBTdGF0aW9uIEhvdGVsIEdyYW5kIE9wZW5pbmdkZAIDDw8WAh8AZWRkAgIPZBYGZg8VA18vUG9ydGFscy83MjgvRWFzeUdhbGxlcnlJbWFnZXMvNTA1MzQ1L0FkdmFuY2VkU2xpZGVTaG93L1RodW1icy9zc3RiQ2FiaW5ldENvbW11bml0eV8xMDM3ODM2LmpwZ18vUG9ydGFscy83MjgvRWFzeUdhbGxlcnlJbWFnZXMvNTA1MzQ1L0FkdmFuY2VkU2xpZGVTaG93L1RodW1icy8yNDc0Q2FiaW5ldENvbW11bml0eV8xMDM3ODM2LmpwZxhDYWJpbmV0IGluIHRoZSBDb21tdW5pdHlkAgEPFgQfY2QfZAUFX3NlbGZkAgMPFgIfZQUxdG9wOiAyNTJweDsgbGVmdDogMHB4OyB3aWR0aDo2NTBweDsgaGVpZ2h0OiA1MHB4OxYEAgEPDxYCHwAFGENhYmluZXQgaW4gdGhlIENvbW11bml0eWRkAgMPDxYCHwBlZGQCAw9kFgZmDxUDVC9Qb3J0YWxzLzcyOC9FYXN5R2FsbGVyeUltYWdlcy81MDUzNDUvQWR2YW5jZWRTbGlkZVNob3cvVGh1bWJzL3NzdGJNVEhfODAxMDg4ODkxLmpwZ1QvUG9ydGFscy83MjgvRWFzeUdhbGxlcnlJbWFnZXMvNTA1MzQ1L0FkdmFuY2VkU2xpZGVTaG93L1RodW1icy8yNDc1TVRIXzgwMTA4ODg5MS5qcGcmRGVudmVyIFNhdGVsbGl0ZSBQYXRlbnQgT2ZmaWNlIE9wZW5pbmdkAgEPFgQfY2QfZAUFX3NlbGZkAgMPFgIfZQUxdG9wOiAyNTJweDsgbGVmdDogMHB4OyB3aWR0aDo2NTBweDsgaGVpZ2h0OiA1MHB4OxYEAgEPDxYCHwAFJkRlbnZlciBTYXRlbGxpdGUgUGF0ZW50IE9mZmljZSBPcGVuaW5nZGQCAw8PFgIfAGVkZAIED2QWBmYPFQNgL1BvcnRhbHMvNzI4L0Vhc3lHYWxsZXJ5SW1hZ2VzLzUwNTM0NS9BZHZhbmNlZFNsaWRlU2hvdy9UaHVtYnMvc3N0YkRpYURlbE5pbm9zX2VkaXRzXzIzNzI3NDUuanBnYC9Qb3J0YWxzLzcyOC9FYXN5R2FsbGVyeUltYWdlcy81MDUzNDUvQWR2YW5jZWRTbGlkZVNob3cvVGh1bWJzLzI0NzZEaWFEZWxOaW5vc19lZGl0c18yMzcyNzQ1LmpwZw1EaWEgZGVsIE5pbm9zZAIBDxYEH2NkH2QFBV9zZWxmZAIDDxYCH2UFMXRvcDogMjUycHg7IGxlZnQ6IDBweDsgd2lkdGg6NjUwcHg7IGhlaWdodDogNTBweDsWBAIBDw8WAh8ABQ1EaWEgZGVsIE5pbm9zZGQCAw8PFgIfAGVkZAIFD2QWBmYPFQNUL1BvcnRhbHMvNzI4L0Vhc3lHYWxsZXJ5SW1hZ2VzLzUwNTM0NS9BZHZhbmNlZFNsaWRlU2hvdy9UaHVtYnMvc3N0Yl9FUFM4MzA4ODIyMzguanBnVC9Qb3J0YWxzLzcyOC9FYXN5R2FsbGVyeUltYWdlcy81MDUzNDUvQWR2YW5jZWRTbGlkZVNob3cvVGh1bWJzLzI0NzdfRVBTODMwODgyMjM4LmpwZyRVbmlvbiBTdGF0aW9uIFRyYW5zaXQgQ2VudGVyIE9wZW5pbmdkAgEPFgQfY2QfZAUFX3NlbGZkAgMPFgIfZQUxdG9wOiAyNTJweDsgbGVmdDogMHB4OyB3aWR0aDo2NTBweDsgaGVpZ2h0OiA1MHB4OxYEAgEPDxYCHwAFJFVuaW9uIFN0YXRpb24gVHJhbnNpdCBDZW50ZXIgT3BlbmluZ2RkAgMPDxYCHwBlZGQCBg9kFgZmDxUDXy9Qb3J0YWxzLzcyOC9FYXN5R2FsbGVyeUltYWdlcy81MDUzNDUvQWR2YW5jZWRTbGlkZVNob3cvVGh1bWJzL3NzdGJHYWx2YW5pemVfQkNZQ0xFXzA5NDQ0ODkuanBnXy9Qb3J0YWxzLzcyOC9FYXN5R2FsbGVyeUltYWdlcy81MDUzNDUvQWR2YW5jZWRTbGlkZVNob3cvVGh1bWJzLzI0NzhHYWx2YW5pemVfQkNZQ0xFXzA5NDQ0ODkuanBnHEItY3ljbGUgb3BlbmluZyBAIEdhbHZhbml6ZSBkAgEPFgQfY2QfZAUFX3NlbGZkAgMPFgIfZQUxdG9wOiAyNTJweDsgbGVmdDogMHB4OyB3aWR0aDo2NTBweDsgaGVpZ2h0OiA1MHB4OxYEAgEPDxYCHwAFHEItY3ljbGUgb3BlbmluZyBAIEdhbHZhbml6ZSBkZAIDDw8WAh8AZWRkAgcPZBYGZg8VA1UvUG9ydGFscy83MjgvRWFzeUdhbGxlcnlJbWFnZXMvNTA1MzQ1L0FkdmFuY2VkU2xpZGVTaG93L1RodW1icy9zc3RieF9FUFM4NTgzNjIwNTUuanBnVS9Qb3J0YWxzLzcyOC9FYXN5R2FsbGVyeUltYWdlcy81MDUzNDUvQWR2YW5jZWRTbGlkZVNob3cvVGh1bWJzLzI0Nzl4X0VQUzg1ODM2MjA1NS5qcGcPTVkgRGVudmVyIENhcmQgZAIBDxYEH2NkH2QFBV9zZWxmZAIDDxYCH2UFMXRvcDogMjUycHg7IGxlZnQ6IDBweDsgd2lkdGg6NjUwcHg7IGhlaWdodDogNTBweDsWBAIBDw8WAh8ABQ9NWSBEZW52ZXIgQ2FyZCBkZAIDDw8WAh8AZWRkAgEPD2QPEBYDZgIBAgIWAxYCHg5QYXJhbWV0ZXJWYWx1ZWQWAh9mZBYCH2ZkFgMCAwIDAgNkZAIHD2QWAmYPDxYCHwFoZGQCCQ9kFgJmDw8WAh8BaGRkAgsPZBYCZg8PFgIfAWhkZAIND2QWAmYPDxYCHwFoZGQCCA9kFggCAQ8WAh8NBS1Ebm5Nb2R1bGUgRG5uTW9kdWxlLUROTl9IVE1MIERubk1vZHVsZS01MDQ5NDcWAgIBD2QWDgIBD2QWAgICDxYCHwFoFgZmDxYCHwUFBEVkaXRkAgEPFgIfBQUGVXBkYXRlZAICDxYCHwUFBkNhbmNlbGQCAw8PFgIfAWhkZAIFD2QWAgIBDw9kFgIfDQUcRE5OTW9kdWxlQ29udGVudCBNb2RETk5IVE1MQxYCAgEPZBYCAgIPFgIfAWhkAgcPZBYCZg8PFgIfAWhkZAIJD2QWAmYPDxYCHwFoZGQCCw9kFgJmDw8WAh8BaGRkAg0PZBYCZg8PFgIfAWhkZAICDxYCHw0FLURubk1vZHVsZSBEbm5Nb2R1bGUtRE5OX0hUTUwgRG5uTW9kdWxlLTUwNDk0OBYCAgEPZBYOAgEPDxYCHwFoZGQCAw9kFgICAg8WAh8BaBYGZg8WAh8FBQRFZGl0ZAIBDxYCHwUFBlVwZGF0ZWQCAg8WAh8FBQZDYW5jZWxkAgUPZBYCAgEPD2QWAh8NBRxETk5Nb2R1bGVDb250ZW50IE1vZEROTkhUTUxDFgICAQ9kFgICAg8WAh8BaGQCBw9kFgJmDw8WAh8BaGRkAgkPZBYCZg8PFgIfAWhkZAILD2QWAmYPDxYCHwFoZGQCDQ9kFgJmDw8WAh8BaGRkAgMPFgIfDQUyRG5uTW9kdWxlIERubk1vZHVsZS1MaXZlQWNjb3JkaW9uIERubk1vZHVsZS01MDQ5NzEWAgIBD2QWDgIBDw8WAh8BaGRkAgMPZBYCAgIPFgIfAWgWBmYPFgIfBQUERWRpdGQCAQ8WAh8FBQZVcGRhdGVkAgIPFgIfBQUGQ2FuY2VsZAIFD2QWAgIBDw9kFgIfDQUiRE5OTW9kdWxlQ29udGVudCBNb2RMaXZlQWNjb3JkaW9uQ2QCBw9kFgJmDw8WAh8BaGRkAgkPZBYCZg8PFgIfAWhkZAILD2QWAmYPDxYCHwFoZGQCDQ9kFgJmDw8WAh8BaGRkAgQPFgIfDQUtRG5uTW9kdWxlIERubk1vZHVsZS1ETk5fSFRNTCBEbm5Nb2R1bGUtNTA0OTc0FgICAQ9kFg4CAQ9kFgICAg8WAh8BaBYGZg8WAh8FBQRFZGl0ZAIBDxYCHwUFBlVwZGF0ZWQCAg8WAh8FBQZDYW5jZWxkAgMPDxYCHwFoZGQCBQ9kFgICAQ8PZBYCHw0FHEROTk1vZHVsZUNvbnRlbnQgTW9kRE5OSFRNTEMWAgIBD2QWAgICDxYCHwFoZAIHD2QWAmYPDxYCHwFoZGQCCQ9kFgJmDw8WAh8BaGRkAgsPZBYCZg8PFgIfAWhkZAIND2QWAmYPDxYCHwFoZGQCCQ9kFgICAQ8WAh8NBTJEbm5Nb2R1bGUgRG5uTW9kdWxlLUROTl9OZXdzRmVlZHMgRG5uTW9kdWxlLTUwNDk1MBYCAgEPZBYOAgEPDxYCHwFoZGQCAw9kFgICAg8WAh8BaBYGZg8WAh8FBQRFZGl0ZAIBDxYCHwUFBlVwZGF0ZWQCAg8WAh8FBQZDYW5jZWxkAgUPZBYCAgIPD2QWAh8NBSFETk5Nb2R1bGVDb250ZW50IE1vZEROTk5ld3NGZWVkc0NkAgcPZBYCZg8PFgIfAWhkZAIJD2QWAmYPDxYCHwFoZGQCCw9kFgJmDw8WAh8BaGRkAg0PZBYCZg8PFgIfAWhkZAIKD2QWBgIBDxYCHw0FLURubk1vZHVsZSBEbm5Nb2R1bGUtRE5OX0hUTUwgRG5uTW9kdWxlLTUwNDk1MxYCAgEPZBYOAgEPZBYCAgIPFgIfAWgWBmYPFgIfBQUERWRpdGQCAQ8WAh8FBQZVcGRhdGVkAgIPFgIfBQUGQ2FuY2VsZAIDDw8WAh8BaGRkAgUPZBYCAgEPD2QWAh8NBRxETk5Nb2R1bGVDb250ZW50IE1vZEROTkhUTUxDFgICAQ9kFgICAg8WAh8BaGQCBw9kFgJmDw8WAh8BaGRkAgkPZBYCZg8PFgIfAWhkZAILD2QWAmYPDxYCHwFoZGQCDQ9kFgJmDw8WAh8BaGRkAgIPFgIfDQUyRG5uTW9kdWxlIERubk1vZHVsZS1ETk5fTmV3c0ZlZWRzIERubk1vZHVsZS01MDQ5NjcWAgIBD2QWDgIBDw8WAh8BaGRkAgMPZBYCAgIPFgIfAWgWBmYPFgIfBQUERWRpdGQCAQ8WAh8FBQZVcGRhdGVkAgIPFgIfBQUGQ2FuY2VsZAIFD2QWAgIBDw9kFgIfDQUhRE5OTW9kdWxlQ29udGVudCBNb2RETk5OZXdzRmVlZHNDZAIHD2QWAmYPDxYCHwFoZGQCCQ9kFgJmDw8WAh8BaGRkAgsPZBYCZg8PFgIfAWhkZAIND2QWAmYPDxYCHwFoZGQCAw8WAh8NBS1Ebm5Nb2R1bGUgRG5uTW9kdWxlLUROTl9IVE1MIERubk1vZHVsZS01MDQ5NzUWAgIBD2QWDgIBDw8WAh8BaGRkAgMPZBYCAgIPFgIfAWgWBmYPFgIfBQUERWRpdGQCAQ8WAh8FBQZVcGRhdGVkAgIPFgIfBQUGQ2FuY2VsZAIFD2QWAgIBDw9kFgIfDQUcRE5OTW9kdWxlQ29udGVudCBNb2RETk5IVE1MQxYCAgEPZBYCAgIPFgIfAWhkAgcPZBYCZg8PFgIfAWhkZAIJD2QWAmYPDxYCHwFoZGQCCw9kFgJmDw8WAh8BaGRkAg0PZBYCZg8PFgIfAWhkZAILDxYCHw0FFnNpZGVwYW5lMyBETk5FbXB0eVBhbmVkAgwPFgIfDQUZY29udGVudHBhbmUyIEROTkVtcHR5UGFuZWQCDQ8WAh8NBRZzaWRlcGFuZTQgRE5ORW1wdHlQYW5lZAIODxYCHw0FGG1pZGRsZXBhbmUzIEROTkVtcHR5UGFuZWQCDw8WAh8NBRhtaWRkbGVwYW5lNCBETk5FbXB0eVBhbmVkAhAPFgIfDQUZbGVmdHBhbmV3aWRlIEROTkVtcHR5UGFuZWQCEQ8WAh8NBRxjb250ZW50cGFuZXdpZGUgRE5ORW1wdHlQYW5lZAISDxYCHw0FHWNvbnRlbnRwYW5ld2lkZTIgRE5ORW1wdHlQYW5lZAITDxYCHw0FGnJpZ2h0cGFuZXdpZGUgRE5ORW1wdHlQYW5lZAIUDxYCHw0FFGNvbHVtbjEgRE5ORW1wdHlQYW5lZAIVDxYCHw0FFGNvbHVtbjIgRE5ORW1wdHlQYW5lZAIWDxYCHw0FFGNvbHVtbjMgRE5ORW1wdHlQYW5lZAIXDxYCHw0FFWNvbHVtbl8xIEROTkVtcHR5UGFuZWQCGA8WAh8NBRVjb2x1bW5fMiBETk5FbXB0eVBhbmVkAhkPFgIfDQUVY29sdW1uXzMgRE5ORW1wdHlQYW5lZAIaDxYCHw0FFWNvbHVtbl80IEROTkVtcHR5UGFuZWQCGw8WAh8NBRdib3R0b21wYW5lIEROTkVtcHR5UGFuZWQCHA9kFgJmDw8WBh8LBQVsb2dpbh8ABQVMb2dpbh8MAgJkZAILDxQrAAIUKwADZGRkZGRkwvhZ4B3JGJU7my1CUGrMHKMEOK8=" />
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form'];
+if (!theForm) {
+    theForm = document.Form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+
+<script src="/js/dnncore.js" type="text/javascript"></script><script language="javascript" src="/DesktopModules/News/loadlater.js">
+</script>
+<script src="/WebResource.axd?d=-vlzPiuZhmJucrmej7Xm-Xcx6IYt74T0pDXrn5Mshidx9HTEIdXl76bXbXM0fBYTXUvsCQ6l8A2zww2CPpVWazXpjMCuPaOsL--sozL3AFFTFMnqh9TPvrFa2y9y0RTZfdmYyHfwXk0lwfj-C6flB21bcM-osmqTn0TsruWOpVHfX-vMv1sKtwlNsaJAcW4CSBlZTg2&t=634276077923755994" type="text/javascript"></script><script src="/WebResource.axd?d=RZDndxIxRqczA9DAbW7jcFewQ6DylKaeSDdwFDtbqBTHfvSc4CDb_arKsPa1vagCAvtyBRPU3RH3YfzjTFlrI7-_yEAXrvUyBzTyBBAL10x-gbYCASX8a9vZNEoZks513Wba0J7SSDfTGIXKYc4w1yzioqsg3z2a3nDD6JMwKfhA10sYyMuVzVzdbFswY_gujX2U5g2&t=634276077923755994" type="text/javascript"></script><script src="/WebResource.axd?d=12iazaCCWKViBsO4iAYkvFa2ZL5AXKg4pYbZs8tKl74NFL0UiuOTB0V39rIe5keXCb0fQEfpXOfbE2vQuWku0D6Jv2AUZzSBoO7-JpCbexnf23p1Vxzywn8GtgKkD1WO8xwuFoFLAnWuFcBhGvYZFPQddYyRKFqEU1tqKTmmBBp8xU9c5pTswtD2Cq_5y8qMjzQG0g2&t=634276077923755994" type="text/javascript"></script><script src="/WebResource.axd?d=Ix3TpRN2BYgfmKxU45335uQ7i-CeP5rB7em84I1VgwxzorxeYu2biIn7KD2X1MVmKE9ekvHQbEvVkJhW6_KP8VwqOepvCjOhEIIz0TqUFfyXj8Z4GnbTijdPTcpPqbyM6fjflyAu1aN5N5Sd-efHmgXBVd9P7-wIpnO18Wii5OawbDMYoKMiuPXfhCyHb0pdZjN-Tg2&t=634276077923755994" type="text/javascript"></script><link rel="stylesheet" href="/desktopmodules/LiveAccordion/Themes/Redmond/Redmond.css" type="text/css" />
+<script src="/DesktopModules/EasyDNNGallery/js/jquery-1.6.1.min.js" type="text/javascript"></script>
+<script src="/DesktopModules/EasyDNNGallery/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script src="/DesktopModules/EasyDnnGallery/js/jquery-ui-1.8.5.custom.min.js" type="text/javascript"></script>
+<script src="/DesktopModules/EasyDnnGallery/js/ASSgallery.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=A4p82PZlNft50vtqLO_Be3_sLZ6hAhWxxX4Jq6RZ1bX79WyiErMIkMPKA1lehBk8_fH7Ny5Dcw3lgqeu0AoY6i-tJuTSYEPn4ZoJ4o8Ea2o52qINY5LrnmJQXlZsL-ni5UOQARS5YCbCnJlM5vo1Ge0vlkk1&amp;t=fffffffff341ea42" type="text/javascript"></script>
+<script src="/js/dnn.js" type="text/javascript"></script>
+<script src="/js/dnn.xml.js" type="text/javascript"></script>
+<script src="/js/dnn.xmlhttp.js" type="text/javascript"></script>
+
+        
+        
+<!--<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">-->
+<script type="text/javascript" src="/Portals/_default/Skins/DenverGov/js/login.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/DenverGov/js/jquery-ui-1.8.18.custom.min.js"></script>
+<script type="text/javascript" src="/JQuery/js-jquery/jquery.cycle.all.min.js?v2.51"></script>
+<link rel="stylesheet" href="/Portals/_default/Skins/DenverGov/css/print.css" type="text/css" media="print" />
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" media="screen" href="/Portals/_default/Skins/DenverGov/css/ie.css"  /><![endif]-->
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" media="screen" href="/Portals/_default/Skins/DenverGov/css/ie8.css"  /><![endif]-->
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" media="screen" href="/Portals/_default/Skins/DenverGov/css/ie7.css"  /><![endif]-->
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="/Portals/_default/Skins/DenverGov/js/html5.js"></script>
+<![endif]-->
+<!--[if lte IE 6]><script src="/Portals/_default/Skins/DenverGov/js/ie6/warning.js"></script><script>window.onload=function(){e("js/ie6/")}</script><![endif]-->
+<div id="skiplink">
+    Skip to:<a href="#navigation">Navigation</a>&nbsp;|&nbsp;<a href="#content">Content</a>
+    | <a href="#footer">Footer</a></div>
+<div id="dnn_wrapper">
+    <div class="topbanner">
+        <div class="main">
+            <!-- header -->
+           <!-- utility menu -->
+            <script type="text/javascript">
+    $(window).load(function () {
+        // on mouse click in or out, apply slideToggle
+        $('.connectDenver').click(function () {
+            $(this).find('.cdmenu').slideToggle('slow');
+        });
+    });
+</script>
+<div class="utilitybar">
+<div class="signinprint"><nav id="signin">
+        <ul id="loginform">
+          <li id="md_login"> <a id="login-trigger" href="https://www.denvergov.org/Apps4/Identity/Login.aspx?REF=http://www.denvergov.org"> Log in </a>
+            <div id="login-content">
+            </div>
+          </li>
+          <li id="signup"> <a href="https://www.denvergov.org/Apps4/Identity/Register.aspx">Sign up</a> </li>
+        </ul>
+      </nav></div>
+    <div class="utilitylinks">
+        <a href="/311">311 Help</a><a href="/atoz">A to Z Services</a>
+	</div>
+	<div id="cdenvermenu">
+		<ul class="connectDenver">
+			<li class="socialbartop"><span>Social Bar</span></li>
+			<li class="cdmenu"><a href="/connectdenver" id="connectdenvermenu">Connect</a></li>
+			<li class="cdmenu"><a href="/connectdenver#interact" id="interactmenu">Interact</a></li>
+			<li class="cdmenu"><a href="/connectdenver#discover" id="discovermenu">Discover</a></li>
+			<li class="cdmenu"><a href="/connectdenver#stayinformed" id="stayinformedmenu">Stay Informed</a></li>
+		</ul>
+	</div>
+	<br style="clear: both;" />
+</div>
+
+<div class="logoprint">
+    <header class="logo"><a href="/"><img src="/Portals/_default/Skins/DenverGov/images/denverlogo.png"/></a></header>
+</div>
+<!--Google Page Tracking Code-->
+<script type="text/javascript">
+    var portal;
+    portal = '<span id="dnn_ctl00_lblPortalName" class="SkinPortalName">Mayor Michael B. Hancock</span>';
+    portal = portal.split(">");
+    portal = portal[1].split("<");
+    portal = portal[0];
+    portal = escape(portal);
+    if (portal.length > 50) {
+        portal = portal.substring(0, 50);
+    }
+    portal = portal.replace(/\./gi, "");
+    portal = portal.replace(/\,/gi, "");
+    portal = portal.replace(/\;/gi, "");
+    portal = portal.replace(/\"/gi, "");
+    portal = portal.replace(/\'/gi, "");
+    portal = portal.replace(/ - /gi, " ");
+    portal = portal.replace(/:/gi, "");
+    portal = portal.replace(/\\/gi, " ");
+    portal = portal.replace(/\//gi, " ");
+    portal = portal.replace(/\(/gi, "");
+    portal = portal.replace(/\)/gi, "");
+    portal = unescape(portal);
+</script>
+
+            <!-- /utilitymenu-->
+            <div  class="globalmenuprint"><nav id="global_menu">
+        <ul id="global_nav">
+          <li class="help"><a href="/atoz" class="drop">
+            <h3>Help me find</h3>
+            </a><!-- Begin A to Z -->
+            <div class="dropdown_1column align_right"> 
+              <!--Begin 1 column container -->
+              <div class="col_1">
+                <ul class="greybox">
+                  <li><a href="/animalshelter">Animal Shelter</a></li>
+                  <li><a href="/assessor">Assessor</a></li>
+                  <li><a href="/ds">Building Department</a></li>
+                  <li><a href="/countycourt" target="_blank">County Courts</a></li>
+                  <li><a href="/countyjail">County Jail</a></li>
+                  <li><a href="/eforeclosure">Foreclosure Records</a></li>
+                  <li><a href="/humanservices">Human Services</a></li>
+                  <li><a href="/jobs">Jobs & Internships</a></li>
+                  <li><a href="/motorvehicle">Motor Vehicle</a></li>
+                  <li><a href="/openrecords">Open Records Policy</a></li>
+                  <li><a href="/parksandrecreation"> Parks & Recreation</a></li>
+                  <li><a href="/police">Police Department</a></li>
+                  <li><a href="/treasury">Tax Info</a></li>
+                  <li><a href="/payticket">Ticket Payment</a></li>
+                  <li><a href="/trashrecycling">Trash & Recycling</a></li>
+                  <li><a href="/atoz">More...</a></li>
+                </ul>
+              </div>
+            </div>
+            <!--End one column container --> 
+          </li>
+          <!-- End A to Z -->
+          <li id="neighborhoods"><a href="/livingindenver" class="drop">
+            <h3>Neighborhood Services</h3>
+            </a><!-- Begin Neighborhoods -->
+            <div class="dropdown_4columns"> 
+              <!-- Begin 4 columns container -->
+              <div class="col_1">
+                <h3>Human Services</h3>
+                <ul class="greybox">
+                  <li><a href="/foodassistance">Food Assistance</a></li>
+                  <li><a href="/housingassistance">Housing Assistance</a></li>
+                  <li><a href="/assistanceprograms">Child, Family, More... </a></li>
+                </ul>
+              </div>
+              <div class="col_1">
+                <h3>Libraries</h3>
+                <ul class="greybox">
+                  <li><a href="http://www.denverlibrary.org" target="_blank">Denver Public Library</a></li>
+                  <li><a href="http://denverlibrary.org/locations" target="_blank">Locations & Hours</a></li>
+                  <li><a href="http://catalog.denverlibrary.org" target="_blank">Catalog Search</a></li>
+                </ul>
+              </div>
+              <div class="col_1">
+                <h3>Parks & Recreation</h3>
+                <ul class="greybox">
+                  <li><a href="/parks">Parks</a></li>
+                  <li><a href="/permits">Rentals & Permits</a></li>
+                  <li><a href="/recreation">Recreation Centers</a></li>
+                </ul>
+              </div>
+              <div class="col_1">
+                <h3>Property</h3>
+                <ul class="greybox">
+                  <li><a href="/foreclosures">Foreclosures</a></li>
+                  <li><a href="/realproperty">Property Records</a></li>
+                  <li><a href="/cpd">Zoning and Planning</a></li>
+                </ul>
+              </div>
+              <div class="col_1">
+                <h3>Safety</h3>
+                <ul class="greybox">
+                  <li><a href="/countyjail">County Jail</a></li>
+                  <li><a href="/police">Police Department</a></li>
+                  <li><a href="/fire">Fire Department</a></li>
+                </ul>
+              </div>
+              <div class="col_1">
+                <h3>Schools</h3>
+                <ul class="greybox">
+                  <li><a href="/educationandchildren">After School Care</a></li>
+                  <li><a href="http://www.dpsk12.org" target="_blank">Public Schools</a></li>
+                  <li><a href="/educationandchildren">Summer Programs</a></li>
+                </ul>
+              </div>
+              <div class="col_1">
+                <h3>Streets</h3>
+                <ul class="greybox">
+                  <li><a href="/streetclosures">Closures</a></li>
+                  <li><a href="/snowremoval">Snow Removal</a></li>
+                  <li><a href="/streetsweeping">Street Sweeping</a></li>
+                </ul>
+              </div>
+              <div class="col_1">
+                <h3>Trash & Recycling</h3>
+                <ul class="greybox">
+                  <li><a href="/trashschedule">Trash Schedule</a></li>
+                  <li><a href="/recycling">Recycling Services</a></li>
+                  <li><a href="/compostnow">Compost Programs</a></li>
+                </ul>
+              </div>
+<div class="col_2"><a class="help_logo" href="/311" title="311 Help"></a></div>
+              <div id="bcycle" class="col_1">
+                <div class="img_med"><a href="http://denver.bcycle.com" class="graphicinfo" target="_blank" title="Denver Bike Program"><span><strong>Bike Program</strong> <br />Rent a bike now.</span></a></div>
+              </div><br/>
+              
+              <div id="denvertv" class="col_1">
+                <div class="img_med"><a href="/denver8tv" class="graphicinfo" target="_blank" title="Denver 8 TV"><span><strong>Watch Denver 8</strong> Watch now.</span></a></div>
+              </div>
+            </div>
+            <!-- End 4 columns container --> 
+          </li>
+          <!-- End Neighborhoods -->
+          <li id="business"><a href="/doingbusiness" class="drop">
+            <h3>Business Services</h3>
+            </a><!-- Begin Business -->
+            <div class="dropdown_3columns businesstab"><!-- Begin 3 columns container -->
+              <div class="col_3">
+                <div class="img_med" style="height:120px; display:inline-block; float:left"><a href="https://www.denvergov.org/ebiztax" target="_blank" class="graphicinfo"><span><strong>File business taxes & pay online</strong> Get started&nbsp;&raquo;</span></a></div>
+                <div class="busassistance">
+                  <div class="busassistance">
+                  <h3 class="head">Bidding Opportunities</h3>
+                  <a href="/DoingBusinessinDenver/BiddingOpportunities/tabid/435553/Default.aspx">Find bidding opportunities</a> for construction contracts, equipment, professional services, and supplies.<br /><br /></div>
+              </div>
+              <div class="col_2 green_box">
+                <h3>Start a Business</h3>
+                <ul class="greybox">
+                  <li class="business"><a href="/ninesteps">9 Steps to Start a Business</a></li>
+                  <li class="business"><a href="/tabid/435845/default.aspx">Financing & Loans</a></li>
+                  <li class="business"><a href="/businessincentives">Tax Credits & Incentives</a></li>
+                </ul>
+              </div>
+              <div class="col_1">
+                <h3>Licensing & Permits</h3>
+                <ul class="greybox">
+                  <li><a href="/ds">Building Permits</a></li>
+                  <li><a href="/businesslicensing">Business Licensing</a></li>
+                  <li class="business"><a href="/businesscertification">Small Business Certification</a></li>
+                  <li><a href="/specialevents">Special Event Permits</a></li>
+                </ul>
+              </div>
+              <div class="col_1" style="width:210px!important">
+                <h3>Economic Development</h3>
+                <ul class="greybox">
+                  <li class="business"><a href="/ds">Development Services</a></li>
+                  <li class="business"><a href="/biddingandcontracting">Government Contracts</a></li>
+                  <li class="business"><a href="/oed">Economic Development</a></li>
+                </ul>
+              </div>
+              <div class="col_1">
+                <h3>City Planning</h3>
+                <ul class="greybox">
+                  <li><a href="/cpd">City Plans</a></li>
+                  <li><a href="/blueprintdenver">Blueprint Denver</a></li>
+                  <li><a href="/tod">Transportation Plans</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- End 3 columns container --> 
+          </li>
+          <!-- End Business -->
+          <li id="visit"><a href="http://www.visitdenver.com" class="drop" target="_blank">
+            <h3>Visiting</h3>
+            </a><!-- Begin Visitors -->
+            <div class="dropdown_4columns align_right"> 
+              <!-- Begin 4 columns container -->
+              <div id="visitdenver" class="col_1"> <a href="http://www.denver365.com" class="graphicinfo" target="_blank" title="Visit Denver">
+                <h3>VISIT DENVER</h3>
+                </a>
+                <p>VISIT DENVER is the premier source of information about Denver's hot spots, visitor attractions, cultural events, hotels, and more. For a comprehensive listing of things to do in Denver, visit <a href="http://www.visitdenver.com">www.visitdenver.com</a></p>
+                
+                <a href="http://www.artsandvenuesdenver.com" title="Arts & Venues"><div class="img_med"></div></a><div class="center"><p>Public art, theatre rentals, entertainment, and more.</p></div>
+              </div>
+              <div id="mustsee" class="col_1"> <a href="http://www.denver.org/what-to-do/must-see-denver" class="graphicinfo" target="_blank" title="Must See Denver">
+                <h3>Must See Denver</h3>
+                <div class="img_med"></div>
+                </a></div>
+              <div id="eventcal" class="col_1"> <a href="http://www.denver.org/events" class="graphicinfo" target="_blank" title="Event Calendar">
+                <h3>Event Calendar</h3>
+                <div class="img_med"></div>
+                </a></div>
+              <div id="whattodo" class="col_1"> <a href="http://www.denver.org/what-to-do" class="graphicinfo" target="_blank" title="Things to do in Denver">
+                <h3>Things To Do</h3>
+                <div class="img_med"></div>
+                </a></div>
+              <div id="daytrips" class="col_1"> <a href="http://www.denver.org/what-to-do/colorado-day-trips" class="graphicinfo" target="_blank" title="Things to do in Denver">
+                <h3> Denver Day Trips</h3>
+                <div class="img_med"></div>
+                </a></div>
+              <div id="hoteldeals" class="col_1"> <a href="http://www.denver.org/hotels/specials" class="graphicinfo" target="_blank" title="Hotel Deals">
+                <h3>Hotel Deals</h3>
+                <div class="img_med"></div>
+                </a></div>
+              <div id="freeconcerts" class="col_1"> <a href="http://www.denver.org/events/free-events" class="graphicinfo" target="_blank" title="Free Events & Concerts">
+                <h3>Free Events</h3>
+                <div class="img_med"></div>
+                </a></div>
+            </div>
+            <!-- End 4 columns container --> 
+          </li>
+          <!-- End Visitors -->
+          <li id="government"><a href="/citygovernment" class="drop">
+            <h3>Government</h3>
+            </a> 
+            <!-- Begin Government -->
+            <div class="dropdown_4columns align_right"> 
+              <!-- Begin 3 columns container -->
+              
+              <div class="col_1">
+                <h3> Budget & Finance</h3>
+                <ul class="greybox">
+                  <li><a href="/budget">City Budget</a></li>
+                  <li><a href="/finance">Financial Reports</a></li>
+                  <li><a href="/treasury">Taxes & Revenue</a></li>
+                  <li><a href="/stimulus">Federal Stimulus</a></li>
+                  <li></li>
+                  <li></li>
+                  <div class="col_3"><h3>Jobs & Opportunities</h3><a style="display:inline-block!important;" href="/jobs">Visit denvergov.org/jobs</a> to search our jobs database, sign up for alerts, or learn about volunteer opportunities, youth jobs and seasonal employment <br />with the City and County of Denver. <br /><br /></div>
+                  <div class="col_3 help" style="position:relative;"> Have a question or need help? <a style="display:inline-block!important;" href="/311">Visit 311 for immediate assistance.</a> </div>
+                </ul>
+              </div>
+              <div class="col_1">
+                <h3> Elected Officials</h3>
+                <ul class="greybox">
+                  <li><a href="/mayor">Mayor's Office</a></li>
+                  <li><a href="/citycouncil">Denver City Council</a></li>
+                  <li><a href="/clerkandrecorder">Clerk & Recorder</a></li>
+                  <li><a href="/auditor">Auditor's Office</a></li>
+                </ul>
+              </div>
+              <div class="col_1">
+                <h3> Courts & Records</h3>
+                <ul class="greybox">
+                  <li><a href="/countycourt" target="_blank">County Court</a></li>
+                  <li><a href="/billsandlaws">Bills, Laws & Municipal Code</a></li>
+                  <li><a href="/publicrecords">Public Records</a></li>
+                </ul>
+              </div>
+              <div class="col_1">
+                <h3> Voting & Elections</h3>
+                <ul class="greybox">
+                  <li><a href="/campaigns">Campaign Information</a></li>
+                  <li><a href="/voterinfo">Voter Information</a></li>
+                  <div id="citygovernment" class="col_1">
+                    <div class="img_med"></div>
+                  </div>
+                </ul>
+              </div>
+            </div>
+            <!-- End 3 columns container --> 
+          </li>
+          <!-- End Government -->
+          <li id="onlineservices"><a href="/onlineservices" class="drop">
+            <h3>Online Services</h3>
+            </a> 
+            <!-- Begin Online Services -->
+            <div class="dropdown_3columns align_right">
+            <!-- Begin 2 columns container -->             
+              <div id="connectbadge" class="col_1">
+                <div class="img_med"><a href="/connectdenver" class="graphicinfo" title="Connect with Us"><span><strong>Connect with Us</strong> Interact and share</span></a></div>
+              </div>
+			  <div id="appsbadge" class="col_1">
+                <div class="img_med"><a href="/onlineservices" class="graphicinfo" title="Apps & Tools Center"><span><strong>Apps & Tools</strong><br/>Save time online</span></a></div>
+              </div>
+              <div id="paybadge" class="col_1">
+                <div class="img_med"><a href="/onlineservices" class="graphicinfo" title="Pay Online"><span><strong>Pay now</strong><br/>It's simple</span></a></div>
+              </div>
+              <div class="col_3">
+                <h3 class="apps"> Popular Online Services</h3>
+              </div>
+              <div class="col_1">
+                <ul class="greybox">
+                  <li><a href="/apps4/311">311 Mobile Help</a></li>
+                  <li><a href="/court" target="_blank">Court Records</a></li>
+                  <li><a href="/eforeclosure">Foreclosure Records</a></li>
+                </ul>
+              </div>
+              <div class="col_1">
+                <ul class="greybox">
+                  <li><a href="/maps">Maps</a></li>
+                  <li><a href="http://data.denvergov.org">Open Data Catalog</a></li>
+                  <li><a href="/recprograms">Recreation Programs</a></li>
+                </ul>
+              </div>
+              <div class="col_1">
+                <ul class="greybox">
+                  <li><a href="/recyclingreminder">Recycling Reminders</a></li>
+                  <li><a href="/property">Property Records</a></li>
+                  <li><a href="/onlineservices">More...</a></li>
+                </ul>
+              </div>
+              </div>
+            </div>
+            <!-- End 2 columns container --> 
+          </li>
+          <!-- End Online Services -->
+        </ul>
+      </nav></div>
+
+        </div>
+    </div>
+</div>
+<!-- / header -->
+<!-- content -->
+<div class="agencycontent">
+    <div class="main">
+        <div class="PortalName">
+            <h1>
+                <a href="http://denvergov.org/mayor">
+                    <span id="dnn_PortlalName_lblPortalName" class="SkinPortalName">Mayor Michael B. Hancock</span>
+                </a>
+            </h1>
+        </div>
+        <div id="Search_Agency">
+            
+<script type="text/javascript">
+   function SearchFocus(txt){
+   txt.value = "";
+   }
+   
+   
+   </script>
+<input name="dnn$dnnSEARCH$txtSearch" type="text" value="Search for services, locate city offices, more..." id="dnn_dnnSEARCH_txtSearch" class="NormalTextBox searchforall" onkeydown="return __dnn_KeyDown('13', 'javascript:__doPostBack(%27dnn$dnnSEARCH$imbtnSeasrch%27,%27%27)', event);" onfocus="SearchFocus(this)" />
+<a id="dnn_dnnSEARCH_imbtnSeasrch" class="SearchButton" href="javascript:__doPostBack('dnn$dnnSEARCH$imbtnSeasrch','')"><span> </span></a>
+
+        </div>
+    </div>
+    <div class="clear">
+    </div>
+    <div class="main">
+        <div class="middlecontainer">
+            <div id="dnn_HeaderBannerCustom" class="headerbanner DNNEmptyPane">
+            </div>
+            <div class="middleinside">
+                <div class="clear">
+                </div>
+                <nav>
+          <!-- Menu generated by Navigation Suite for DotNetNuke , www.dnn360.net,  --><script src="/Portals/_default/Skins/DenverGov/CSSUltimateMulticolumnsNew/images/global.js" type="text/javascript" ></script><style type="text/css" >  
+#TopNav ul li div.subnav div.col {
+	float: left;
+	margin-right: 19px;
+	
+}
+</style><div id="TopNav" ><ul><li class="li0 hasSub"><a href="javascript:void(0)">Programs & Initiatives</a><div class="subnav subnav0"><div class="subnavImg"></div><div class="contentWrapper"><div class="content clearfix" id="Flyout442234"><span><a href="http://denvergov.org/mayor/MayorsOffice/ProgramsInitiatives/2014StateoftheCity/tabid/445392/Default.aspx">2014 State of the City</a></span><span><a href="http://denvergov.org/mayor/MayorsOffice/ProgramsInitiatives/DenverDays/tabid/444458/Default.aspx">Denver Days</a></span><span><a href="http://denvergov.org/mayor/MayorsOffice/ProgramsInitiatives/DeliveringDenversFuture/tabid/442977/Default.aspx">Delivering Denver's Future</a></span><span><a href="http://denvergov.org/mayor/MayorsOffice/ProgramsInitiatives/DenverEducationCompact/tabid/442377/Default.aspx">Denver Education Compact</a></span><span><a href="http://denvergov.org/mayor/MayorsOffice/ProgramsInitiatives/Measure2AServiceInvestments/tabid/444277/Default.aspx">Measure 2A Service Investments</a></span><span><a href="http://denvergov.org/mayor/MayorsOffice/ProgramsInitiatives/NeighborhoodRelations/tabid/442272/Default.aspx">Neighborhood Relations</a></span><span><a href="http://denvergov.org/mayor/MayorsOffice/ProgramsInitiatives/NorthDenverCornerstoneCollaborative/tabid/444350/Default.aspx">North Denver Cornerstone Collaborative</a></span><span><a href="http://denvergov.org/mayor/MayorsOffice/ProgramsInitiatives/PeakPerformance/tabid/444377/Default.aspx">Peak Performance</a></span><span><a href="http://denvergov.org/mayor/MayorsOffice/ProgramsInitiatives/SheriffDepartmentReform/tabid/445448/Default.aspx">Sheriff Department Reform</a></span><span><a href="http://denvergov.org/mayor/MayorsOffice/ProgramsInitiatives/ProjectDenverDelivers/tabid/445416/Default.aspx">Project Denver Delivers</a></span><span><a href="http://denvergov.org/mayor/MayorsOffice/ProgramsInitiatives/More/tabid/444497/Default.aspx">More...</a></span></div></div></div></li><li class="first li1"><a href="http://denvergov.org/mayor/MayorsOffice/Blog/tabid/442237/Default.aspx">Blog</a></li><li class="li2 hasSub"><a href="javascript:void(0)">Photos & Videos</a><div class="subnav subnav2"><div class="subnavImg"></div><div class="contentWrapper"><div class="content clearfix" id="Flyout442238"><span><a href="http://denvergov.org/mayor/MayorsOffice/PhotosVideos/PhotoGallery/tabid/442245/Default.aspx">Photo Gallery</a></span><span><a href="http://denvergov.org/mayor/MayorsOffice/PhotosVideos/Video/tabid/442246/Default.aspx">Video</a></span><span><a href="http://denvergov.org/mayor/MayorsOffice/PhotosVideos/Podcasts/tabid/442269/Default.aspx">Podcasts</a></span></div></div></div></li><li class="first li1"><a href="http://denvergov.org/mayor/MayorsOffice/Newsroom/tabid/442244/Default.aspx">Newsroom</a></li><li class="li4 hasSub"><a href="javascript:void(0)">About the Office of the Mayor</a><div class="subnav subnav4"><div class="subnavImg"></div><div class="contentWrapper"><div class="content clearfix" id="Flyout442239"><span><a href="http://denvergov.org/mayor/MayorsOffice/AbouttheOfficeoftheMayor/AboutMayorHancock/tabid/442240/Default.aspx">About Mayor Hancock</a></span><span><a href="http://denvergov.org/mayor/MayorsOffice/AbouttheOfficeoftheMayor/TheAdministration/tabid/442241/Default.aspx">The Administration</a></span><span><a href="http://denvergov.org/mayor/MayorsOffice/AbouttheOfficeoftheMayor/HistoryoftheOffice/tabid/442340/Default.aspx">History of the Office</a></span><span><a href="http://denvergov.org/mayor/MayorsOffice/AbouttheOfficeoftheMayor/BoardsCommissions/tabid/442243/Default.aspx">Boards & Commissions</a></span><span><a href="http://denvergov.org/mayor/MayorsOffice/AbouttheOfficeoftheMayor/MayorCouncilMeetings/tabid/442313/Default.aspx">Mayor Council Meetings</a></span></div></div></div></li><li class="first li1"><a href="http://denvergov.org/mayor/MayorsOffice/FirstLadyofDenver/tabid/442947/Default.aspx">First Lady of Denver</a></li><li class="li6 hasSub"><a href="javascript:void(0)">Contact</a><div class="subnav subnav6"><div class="subnavImg"></div><div class="contentWrapper"><div class="content clearfix" id="Flyout442247"><span><a href="http://denvergov.org/mayor/MayorsOffice/Contact/ContacttheMayor/tabid/442274/Default.aspx">Contact the Mayor</a></span><span><a href="http://denvergov.org/mayor/MayorsOffice/Contact/LetterProclamationRequest/tabid/442481/Default.aspx">Letter & Proclamation Request</a></span><span><a href="http://denvergov.org/mayor/MayorsOffice/Contact/MeetingorEventRequests/tabid/442275/Default.aspx">Meeting or Event Requests</a></span></div></div></div></li></ul></div><script language="javascript" type="text/javascript" >
+ //debugger;  
+	var num_of_row_percolumn=8;   // number of items per column
+    var cnt = document.getElementById('TopNav');
+    var obj = cnt.getElementsByTagName('div');
+	var i=0;
+    for (i = 0; i < obj.length; i++) {
+  
+    var el = obj[i];
+        if (el.id.indexOf('Flyout') >= 0) {
+			 
+		     var s= "<div class=\"col\" ><ul >";
+             var  lis = el.getElementsByTagName('span');
+			 
+			 
+			 var index=0;
+			 
+			  for (var j = 0; j < lis.length; j++) {
+				var li = lis[j];
+			
+				var  li_a = lis[j].getElementsByTagName('a');
+					var itemtext=li_a[0].innerHTML;
+					var header="";
+					if (li.innerHTML.indexOf("void(")>=0)
+						{
+						header="<h3>"+itemtext+"</h3>"
+						}
+						else
+						{
+						s=s+header;
+					    s=s+"<li>"+li.innerHTML+"</li>";
+						}
+					   
+				   index=index+1;
+				   if ((index>=num_of_row_percolumn )|| (header!="")) {
+				   index=0;
+				   s=s+"</ul></div><div class=\"col\"><ul>"+header;
+				   }
+				}
+			s=s+"</ul></div>";	
+		    //alert(s);
+			el.innerHTML=s;
+        };
+    };
+  
+ </script>
+        </nav>
+                <div class="clear">
+                </div>
+                <div id="dnn_TopPane" class="toppane DNNEmptyPane">
+                </div>
+                <div id="Breadcrumb" class="displaycrumb">
+                    <span id="dnn_dnnBREADCRUMB_lblBreadCrumb"><a href="http://denvergov.org/mayor/MayorsOffice/tabid/442213/Default.aspx" class="BREADCRUMBS_object">Mayor's Office</a></span>
+
+                </div>
+                <div>
+                    <div id="dnn_ContentPane" class="contentwide">
+                    <div class="DnnModule DnnModule-EasyDNNGallery DnnModule-505345"><a name="505345"></a>
+<div class="Transparent"> 
+  <!--<div class="Transparent_Header">
+    <h2><span id="dnn_ctr505345_dnnTITLE_lblTitle" class="h2 title">Mayor Gallery</span>
+
+
+</h2>
+  </div>--><div class="clear"></div>
+  <div id="dnn_ctr505345_ContentPane" class="Transparent_Content"><!-- Start_Module_505345 --><table id="dnn_ctr505345_ModuleContent" class="DNNModuleContent ModEasyDNNGalleryC" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td>
+	
+
+<script type="text/javascript">
+ 
+    if ('$'=='jQuery')
+    {
+        jQuery.noConflict();
+    }
+    
+    $(document).ready(function() 
+    {
+            var showtips= 'True';
+             
+            $('a[rel^="prettyPhoto"]').each(function()
+            {
+            if($(this).attr("title"))
+            {
+                if($(this).attr("title").length>0)
+                {
+                    $(this).attr("pptitle", $(this).attr("title"));
+                    if (showtips =='False')
+                    {
+                        
+                                if($(this).attr("title").length>0)
+                                    {
+                                    $(this).attr("title","");
+                                    }    
+                    }
+          
+                 }   
+                 }         
+            });
+              $('a[rel^="prettyPhoto"]').prettyPhoto({            
+                    animationSpeed: 'fade',
+                    slideshow: false,
+                    autoplay_slideshow: false, 
+                    padding: 40, 
+                    opacity: 0.8,
+                    showTitle: true, 
+                    allowresize: true,
+                    hideflash: true, 
+                    downloadText:'Download image',
+                    wmode: 'opaque',
+                    autoplay: false, 
+                    modal: false,    
+                    overlay_gallery: false,
+                    counter_separator_label: '/', 
+                    theme: 'pp_default',
+                    callback: function() { }
+                });
+            });      
+
+     
+ // var $ = jQuery.noConflict(); 
+    
+</script>
+
+
+
+
+<div id="M505345EasyDNNGallery">
+    
+
+<script type="text/javascript">
+
+jQuery(document).ready(function() 
+{
+
+      jQuery('.M505345container').wtGridGallery({
+			num_col:4,
+			num_row:2,
+			screen_width:650,
+			screen_height:335,
+			item_width:75,
+			item_height:75,
+			item_margin:5,
+			display_number:false,
+			display_playbutton:true,
+			display_dbuttons:true,
+			display_advbuttons:false,
+			display_textbutton:false,
+			display_downloadbutton:false,
+			display_tooltip:true,
+			display_caption:true,
+			display_timer:false,
+			display_gallery_info:true,
+			effect:'fade',
+			transition_speed:1000,
+			text_effect:'fade',
+			text_sync:false,
+			cpanel_float:false,
+			cpanel_mouseover:false,
+			auto_scale:true,
+			cont_nav:true,
+			auto_rotate:true,
+			delay:5000,
+			initial_open:false,
+			selected_category:1,
+			selected_image:1
+      });
+ 
+//if('True'=='True')
+//   {
+//         
+//   if('False'=='True')
+//   {
+//    jQuery('#M505345EasyDNNGallery .EDGimage a[title], #M505345EasyDNNGallery .EDGvideo a[title], #M505345EasyDNNGallery .EDGaudio a[title]').each(function() 
+//    {   
+//    
+//        if(jQuery(this).attr("title").length>0)
+//        {        
+//            jQuery(this).qtip(
+//            {                
+//                show: { effect: {type: 'fade', length: '' } },
+//                hide: { effect: {type: 'fade', length: '0' } },
+//                position: { corner: { target: 'topMiddle', tooltip: 'bottomMiddle'}},
+//                style: { name: 'cream', tip: true ,  border: { width: 650, radius: 50 }} 
+//            });
+//        }
+//    });
+//    } 
+//    }
+      
+});
+
+  
+</script>
+
+<div id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_AdvancedSlideShow"> 
+    <div id="EDSGASS" class="EDSGASS">
+    <div class='M505345container'>
+        <div class="ASSgallery">
+            <div class="screen">
+                <!-- placeholder image when javascript is off -->
+                <noscript>
+                    Turn on JavaScript</noscript>
+            </div>
+            <div class="items">              
+                     
+                        <ul title="Featured Photos">                            
+                                                             
+                                    <li >                                   
+                                    <a href='/Portals/728/EasyGalleryImages/505345/AdvancedSlideShow/Thumbs/sstb_EPS823039257.jpg' >                                    
+                                     <img src='/Portals/728/EasyGalleryImages/505345/AdvancedSlideShow/Thumbs/2472_EPS823039257.jpg' alt='State of the City, 2014' /></a>                                         
+                                        <a id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl00_ImageUrl" target="_self"></a>
+                                        <div id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl00_DescDIV" Style="top: 252px; left: 0px; width:650px; height: 50px;">
+                                            <span id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl00_lblTitle">State of the City, 2014</span>  
+                                            <span id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl00_lblDescription"></span>                                                                                 
+                                        </div>                                                                               
+                                    </li>  
+                                                                 
+                                    <li >                                   
+                                    <a href='/Portals/728/EasyGalleryImages/505345/AdvancedSlideShow/Thumbs/sstb_EPS759748525.jpg' >                                    
+                                     <img src='/Portals/728/EasyGalleryImages/505345/AdvancedSlideShow/Thumbs/2473_EPS759748525.jpg' alt='Union Station Hotel Grand Opening' /></a>                                         
+                                        <a id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl01_ImageUrl" target="_self"></a>
+                                        <div id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl01_DescDIV" Style="top: 252px; left: 0px; width:650px; height: 50px;">
+                                            <span id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl01_lblTitle">Union Station Hotel Grand Opening</span>  
+                                            <span id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl01_lblDescription"></span>                                                                                 
+                                        </div>                                                                               
+                                    </li>  
+                                                                 
+                                    <li >                                   
+                                    <a href='/Portals/728/EasyGalleryImages/505345/AdvancedSlideShow/Thumbs/sstbCabinetCommunity_1037836.jpg' >                                    
+                                     <img src='/Portals/728/EasyGalleryImages/505345/AdvancedSlideShow/Thumbs/2474CabinetCommunity_1037836.jpg' alt='Cabinet in the Community' /></a>                                         
+                                        <a id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl02_ImageUrl" target="_self"></a>
+                                        <div id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl02_DescDIV" Style="top: 252px; left: 0px; width:650px; height: 50px;">
+                                            <span id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl02_lblTitle">Cabinet in the Community</span>  
+                                            <span id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl02_lblDescription"></span>                                                                                 
+                                        </div>                                                                               
+                                    </li>  
+                                                                 
+                                    <li >                                   
+                                    <a href='/Portals/728/EasyGalleryImages/505345/AdvancedSlideShow/Thumbs/sstbMTH_801088891.jpg' >                                    
+                                     <img src='/Portals/728/EasyGalleryImages/505345/AdvancedSlideShow/Thumbs/2475MTH_801088891.jpg' alt='Denver Satellite Patent Office Opening' /></a>                                         
+                                        <a id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl03_ImageUrl" target="_self"></a>
+                                        <div id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl03_DescDIV" Style="top: 252px; left: 0px; width:650px; height: 50px;">
+                                            <span id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl03_lblTitle">Denver Satellite Patent Office Opening</span>  
+                                            <span id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl03_lblDescription"></span>                                                                                 
+                                        </div>                                                                               
+                                    </li>  
+                                                                 
+                                    <li >                                   
+                                    <a href='/Portals/728/EasyGalleryImages/505345/AdvancedSlideShow/Thumbs/sstbDiaDelNinos_edits_2372745.jpg' >                                    
+                                     <img src='/Portals/728/EasyGalleryImages/505345/AdvancedSlideShow/Thumbs/2476DiaDelNinos_edits_2372745.jpg' alt='Dia del Ninos' /></a>                                         
+                                        <a id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl04_ImageUrl" target="_self"></a>
+                                        <div id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl04_DescDIV" Style="top: 252px; left: 0px; width:650px; height: 50px;">
+                                            <span id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl04_lblTitle">Dia del Ninos</span>  
+                                            <span id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl04_lblDescription"></span>                                                                                 
+                                        </div>                                                                               
+                                    </li>  
+                                                                 
+                                    <li >                                   
+                                    <a href='/Portals/728/EasyGalleryImages/505345/AdvancedSlideShow/Thumbs/sstb_EPS830882238.jpg' >                                    
+                                     <img src='/Portals/728/EasyGalleryImages/505345/AdvancedSlideShow/Thumbs/2477_EPS830882238.jpg' alt='Union Station Transit Center Opening' /></a>                                         
+                                        <a id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl05_ImageUrl" target="_self"></a>
+                                        <div id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl05_DescDIV" Style="top: 252px; left: 0px; width:650px; height: 50px;">
+                                            <span id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl05_lblTitle">Union Station Transit Center Opening</span>  
+                                            <span id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl05_lblDescription"></span>                                                                                 
+                                        </div>                                                                               
+                                    </li>  
+                                                                 
+                                    <li >                                   
+                                    <a href='/Portals/728/EasyGalleryImages/505345/AdvancedSlideShow/Thumbs/sstbGalvanize_BCYCLE_0944489.jpg' >                                    
+                                     <img src='/Portals/728/EasyGalleryImages/505345/AdvancedSlideShow/Thumbs/2478Galvanize_BCYCLE_0944489.jpg' alt='B-cycle opening @ Galvanize ' /></a>                                         
+                                        <a id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl06_ImageUrl" target="_self"></a>
+                                        <div id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl06_DescDIV" Style="top: 252px; left: 0px; width:650px; height: 50px;">
+                                            <span id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl06_lblTitle">B-cycle opening @ Galvanize </span>  
+                                            <span id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl06_lblDescription"></span>                                                                                 
+                                        </div>                                                                               
+                                    </li>  
+                                                                 
+                                    <li >                                   
+                                    <a href='/Portals/728/EasyGalleryImages/505345/AdvancedSlideShow/Thumbs/sstbx_EPS858362055.jpg' >                                    
+                                     <img src='/Portals/728/EasyGalleryImages/505345/AdvancedSlideShow/Thumbs/2479x_EPS858362055.jpg' alt='MY Denver Card ' /></a>                                         
+                                        <a id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl07_ImageUrl" target="_self"></a>
+                                        <div id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl07_DescDIV" Style="top: 252px; left: 0px; width:650px; height: 50px;">
+                                            <span id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl07_lblTitle">MY Denver Card </span>  
+                                            <span id="dnn_ctr505345_ViewEasyDNNGallery_ctl00_repGalleries_ctl00_repGalleryImages_ctl07_lblDescription"></span>                                                                                 
+                                        </div>                                                                               
+                                    </li>  
+                                 
+                        </ul>
+                                       
+            </div>
+        </div>
+</div>
+</div>
+</div>
+
+
+
+</div>
+<div>
+
+</div>
+
+</td></tr></table><!-- End_Module_505345 --></div>
+  <div class="Transparent_Footer">
+    
+    <!---->
+    
+    
+  </div><div class="clear"></div>
+</div></div></div>
+                    <div id="dnn_RightPane" class="rightpane">
+                    <div class="DnnModule DnnModule-DNN_HTML DnnModule-504947"><a name="504947"></a>
+<div class="Transparent"> 
+  <!--<div class="Transparent_Header">
+    <h2><span id="dnn_ctr504947_dnnTITLE_lblTitle" class="h2 title">Social Media</span>
+
+
+</h2>
+  </div>--><div class="clear"></div>
+  <div id="dnn_ctr504947_ContentPane" class="Transparent_Content"><!-- Start_Module_504947 --><table id="dnn_ctr504947_ModuleContent" class="DNNModuleContent ModDNNHTMLC" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td>
+	<div id="dnn_ctr504947_HtmlModule_lblContent" class="Normal">
+	<div class="socialbar"> <div style="display: block; width: 230px; margin: 0px auto;"><a class="facebookblue" href="http://www.facebook.com/5280mayor" rel="nofollow" target="_blank" alt="Facebook" title="Facebook"><span>Facebook</span></a><a class="twitterblue" href="http://twitter.com/#!/MayorHancock" rel="nofollow" target="_blank" alt="Twitter" title="Twitter"><span>Twitter</span></a><a class="youtubeblue" href="http://www.youtube.com/mayormichaelbhancock" rel="nofollow" target="_blank" alt="YouTube" title="YouTube"><span>YouTube</span></a><a href ="http://www.denvergov.org/DesktopModules/Orizonti_NukeNews/getRSS.aspx?pid=728&amp;tid=442244&amp;mid=504977" class="rssblue" href="" rel="nofollow" target="_blank" alt="RSS Newsfeed" title="RSS Newsfeed"><span>RSSnewsfeed</span></a><div class="clear"></div></div></div>
+</div>
+
+</td></tr></table><!-- End_Module_504947 --></div>
+  <div class="Transparent_Footer">
+    
+    <!---->
+    
+    
+  </div><div class="clear"></div>
+</div></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-504948"><a name="504948"></a>
+<div class="DarkBlueWrapper">
+  
+  <div class="DarkBlueWrapper_Header">
+    <h2>
+      <span id="dnn_ctr504948_dnnTITLE_lblTitle" class="h2 title">Request Meeting</span>
+
+
+
+    </h2><div class="clear"></div>
+  </div>
+  <div id="dnn_ctr504948_ContentPane" class="DarkBlueWrapper_Content"><!-- Start_Module_504948 --><table id="dnn_ctr504948_ModuleContent" class="DNNModuleContent ModDNNHTMLC" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td>
+	<div id="dnn_ctr504948_HtmlModule_lblContent" class="Normal">
+	<div>Request the Mayor at a meeting or an event.</div><div style="display: block; padding-top: 15px; margin-bottom: 10px; text-align: center;"><a href="/mayor/MayorsOffice/Contact/MeetingorEventRequests/tabid/442275/Default.aspx" class="buttonlightblue" style="color: white !important;">Send a Request &raquo;</a></div>
+</div>
+
+</td></tr></table><!-- End_Module_504948 --></div>
+  <div class="DarkBlueWrapper_Footer">
+    
+    <!---->
+    
+    
+  </div>
+</div>
+</div><div class="DnnModule DnnModule-LiveAccordion DnnModule-504971"><a name="504971"></a>
+<div class="OutlinedNews">
+  
+  <div class="OutlinedNews_Header">
+    <h2>
+      <span id="dnn_ctr504971_dnnTITLE_lblTitle" class="h2 title">Featured Initiatives</span>
+
+
+
+    </h2>
+  </div><div class="clear"></div>
+  <div id="dnn_ctr504971_ContentPane" class="OutlinedNews_Content"><!-- Start_Module_504971 --><table id="dnn_ctr504971_ModuleContent" class="DNNModuleContent ModLiveAccordionC" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td>
+	<div style="" class="liveaccredmondredmond">
+<div id="LiveAccordionWrapper504971">
+<div>
+<div id="LiveAcc5049710" class="LiveAccHead504971"><a href="#">Plan to Deliver Denver's Future</a></div>
+<div>
+<img alt="" width="0" height="0" src="/Portals/728/images/100daysBannerThumb.jpg" />
+<p><img alt="" src="/Portals/728/images/ThanksDenver.PNG" style="width: 150px; height: 94px;" width="150" height="94" /><br />
+<em><strong>Thanks</strong>&nbsp;</em>to Denver voters&rsquo; overwhelming support of Measure 2A in 2012, the city is equipped to eliminate its budget deficit, restore essential services and move Denver forward. <a href="http://www.denvergov.org/thanksdenver">Click here to read the plan...</a></p></div>
+</div>
+<div>
+<div id="LiveAcc5049711" class="LiveAccHead504971"><a href="#">Peak Performance</a></div>
+<div>
+<img alt="" src="/Portals/728/images/Peak%20newsletter%20banner.png" style="width: 147px; height: 80px; float: left;" width="147" height="80" /><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<p>After three years of measures to balance the budget, agencies are feeling the effects of putting off needed investments in capital and human resources. We need a new approach to these ongoing challenges. <a href="http://denvergov.org/peakperformance">Learn more about Peak Performance</a></p></div>
+</div>
+<div>
+<div id="LiveAcc5049712" class="LiveAccHead504971"><a href="#">Denver Education Compact</a></div>
+<div>
+<p><a href="/mayor/MayorsOffice/ProgramsInitiatives/DenverEducationCompact/tabid/442377/Default.aspx"><img alt="" src="/Portals/728/images/educationcompact.png" width="0" height="0" /><img alt="" src="/Portals/728/images/educationcompact.png" /></a><br />
+The Denver Education Compact is Mayor Hancock's initiative to create a new and binding agreement requiring the City, Denver Public Schools, higher education and community stakeholders to make specific commitments to improve education throughout Denver. <a href="http://denvergov.org/mayor/MayorsOffice/ProgramsInitiatives/DenverEducationCompact/tabid/442377/Default.aspx">Learn more...</a></p></div>
+</div>
+<div>
+<div id="LiveAcc5049713" class="LiveAccHead504971"><a href="#">North Denver Cornerstone Collaborative</a></div>
+<div>
+<p><img alt="" src="/Portals/728/images/NDCC%20RiNo.PNG" style="width: 150px; height: 40px;" width="150" height="40" /></p>
+<p>Today there are several major redevelopment and infrastructure projects taking place in Denver&rsquo;s Globeville/Elyria-Swansea/River North neighborhoods. The area is a gateway to downtown Denver and a key station along the Corridor of Opportunity which will connect downtown to Denver International Airport. <a href="http://www.denvergov.org/mayor/MayorsOffice/ProgramsInitiatives/NorthDenverCornerstoneCollaborative/tabid/444350/Default.aspx">Learn more about the NDCC...</a><a href="http://www.denvergov.org/bbd"></a></p></div>
+</div>
+</div>
+</div>
+
+</td></tr></table><!-- End_Module_504971 --></div>
+  <div class="OutlinedNews_Footer">
+    
+    <!---->
+    
+    
+  </div><div class="clear"></div>
+</div>
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-504974"><a name="504974"></a>
+<div class="Transparent"> 
+  <!--<div class="Transparent_Header">
+    <h2><span id="dnn_ctr504974_dnnTITLE_lblTitle" class="h2 title">Twitter Feed</span>
+
+
+</h2>
+  </div>--><div class="clear"></div>
+  <div id="dnn_ctr504974_ContentPane" class="Transparent_Content"><!-- Start_Module_504974 --><table id="dnn_ctr504974_ModuleContent" class="DNNModuleContent ModDNNHTMLC" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td>
+	<div id="dnn_ctr504974_HtmlModule_lblContent" class="Normal">
+	<div style="margin-left:10px"> <script src="http://widgets.twimg.com/j/2/widget.js"></script> <script> new TWTR.Widget({ version: 2, type: 'profile', rpp: 4, interval: 60000, width: 250, height: 240, theme: { shell: { background: '#6586af', color: '#ffffff' }, tweets: { background: '#315d94', color: '#ffffff', links: '#a0d0ff' } }, features: { scrollbar: true, loop: true, live: false, hashtags: true, timestamp: true, avatars: false, behavior: 'default' } }).render().setUser('MayorHancock').start(); </script> </div>
+</div>
+
+</td></tr></table><!-- End_Module_504974 --></div>
+  <div class="Transparent_Footer">
+    
+    <!---->
+    
+    
+  </div><div class="clear"></div>
+</div></div></div>
+                    <div id="dnn_MiddlePane1" class="middlepane1">
+                    <div class="DnnModule DnnModule-DNN_NewsFeeds DnnModule-504950"><a name="504950"></a>
+<div class="SmallTitle">
+  
+  <div class="SmallTitle_Header">
+    <h2>
+      <span id="dnn_ctr504950_dnnTITLE_lblTitle" class="h2 title">Latest News <a href="/DesktopModules/Orizonti_NukeNews/getRSS.aspx?pid=728&tid=442244&mid=504977" target="_blank"><img src="/Portals/728/images/rss-gray-sm.gif" style="margin-left:5px; vertical-align:middle" /></a></span>
+
+
+
+    </h2>
+  </div><div class="clear"></div>
+  <div id="dnn_ctr504950_ContentPane" class="SmallTitle_Content"><!-- Start_Module_504950 --><span class="Normal"><div style="width:378px;height:0px">&nbsp;&nbsp;</div></span><table id="dnn_ctr504950_ModuleContent" class="DNNModuleContent ModDNNNewsFeedsC" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td>
+	<table id="dnn_ctr504950_RssModule_pnlRss" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td>
+		
+ <div class="normal"><p class="Latest_News_ItemDate">Sep 22, 2014</p>
+<p class="Latest_News_ItemLink"><a href="http://www.denvergov.org/MayorsOffice/Newsroom/tabid/442244/newsid504977/9115/mid/504977/Paco-Sanchez-Park-to-Be-Home-of-Re-Imagine-Play-Project/Default.aspx" target="_main">Paco Sanchez Park to Be Home of Re-Imagine Play Project</a></p>
+<p class="Latest_News_ItemDate">Sep 22, 2014</p>
+<p class="Latest_News_ItemLink"><a href="http://www.denvergov.org/MayorsOffice/Newsroom/tabid/442244/newsid504977/9114/mid/504977/Mayor-Hancock-Announces-Appointments-to-Denver-County-Court/Default.aspx" target="_main">Mayor Hancock Announces Appointments to Denver County Court</a></p>
+<p class="Latest_News_ItemDate">Sep 22, 2014</p>
+<p class="Latest_News_ItemLink"><a href="http://www.denvergov.org/MayorsOffice/Newsroom/tabid/442244/newsid504977/9117/mid/504977/Changes-Announced-in-Denver-Sheriff-Department-Internal-Affairs-Bureau/Default.aspx" target="_main">Changes Announced in Denver Sheriff Department Internal Affairs Bureau</a></p>
+<p class="Latest_News_ItemDate">Sep 19, 2014</p>
+<p class="Latest_News_ItemLink"><a href="http://www.denvergov.org/MayorsOffice/Newsroom/tabid/442244/newsid504977/9110/mid/504977/City-to-Lead-Denver-Performing-Arts-Complex-Re-imagining-Project/Default.aspx" target="_main">City to Lead Denver Performing Arts Complex Re-imagining Project</a></p>
+<p class="Latest_News_ItemDate">Sep 18, 2014</p>
+<p class="Latest_News_ItemLink"><a href="http://www.denvergov.org/MayorsOffice/Newsroom/tabid/442244/newsid504977/9108/mid/504977/Airport-Advisory-Committee-to-Help-Guide-the-Future-of-Denver-International-Airport/Default.aspx" target="_main">Airport Advisory Committee to Help Guide the Future of Denver International Airport</a></p></div>
+ 
+ <div style="display:none;">
+  <input type="submit" name="dnn$ctr504950$RssModule$btnUpdate" value="Hit Me" id="dnn_ctr504950_RssModule_btnUpdate" />
+ </div>
+
+	</td></tr></table>
+
+</td></tr></table><span class="Normal"><div style="text-align:left;font-size:85%;font-weight:bold;margin-top:5px;margin-bottom:5px"><a href="/mayorhancock/MayorsOffice/Newsroom/tabid/442244/Default.aspx">View more »
+</a></div>
+</span><!-- End_Module_504950 --></div>
+  <div class="SmallTitle_Footer">
+    
+    <!---->
+    
+    
+  </div><div class="clear"></div>
+</div>
+</div></div>
+                    <div id="dnn_MiddlePane2" class="middlepane2">
+                    <div class="DnnModule DnnModule-DNN_HTML DnnModule-504953"><a name="504953"></a>
+<div class="Transparent"> 
+  <!--<div class="Transparent_Header">
+    <h2><span id="dnn_ctr504953_dnnTITLE_lblTitle" class="h2 title">Mayor's Welcome Message</span>
+
+
+</h2>
+  </div>--><div class="clear"></div>
+  <div id="dnn_ctr504953_ContentPane" class="Transparent_Content"><!-- Start_Module_504953 --><table id="dnn_ctr504953_ModuleContent" class="DNNModuleContent ModDNNHTMLC" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td>
+	<div id="dnn_ctr504953_HtmlModule_lblContent" class="Normal">
+	<div style="background-image: url(/portals/728/images/mayor-hancock-badge.jpg); position: relative; width: 250px; height: 166px;"> <div style="position: absolute; top: 75px; right: 10px;"><a href="/mayorhancock/MayorsOffice/AbouttheOfficeoftheMayor/WelcomeMessage/tabid/442262/Default.aspx" onmouseover="document.sub_but.src='/Portals/728/images/welcome_bt_on.png'" onmouseout="document.sub_but.src='/Portals/728/images/welcome_bt.png'"><img name="sub_but" alt="Welcome Message" src="/Portals/728/images/welcome_bt.png" /></a></div></div>
+</div>
+
+</td></tr></table><!-- End_Module_504953 --></div>
+  <div class="Transparent_Footer">
+    
+    <!---->
+    
+    
+  </div><div class="clear"></div>
+</div></div><div class="DnnModule DnnModule-DNN_NewsFeeds DnnModule-504967"><a name="504967"></a>
+<div class="SmallTitle">
+  
+  <div class="SmallTitle_Header">
+    <h2>
+      <span id="dnn_ctr504967_dnnTITLE_lblTitle" class="h2 title">Mayor's Blog<a href="/tabid/442237/rssid/1/Default.aspx" target="_blank"><img src="/Portals/728/images/rss-gray-sm.gif" style="margin-left:5px; vertical-align:middle" /></a></span>
+
+
+
+    </h2>
+  </div><div class="clear"></div>
+  <div id="dnn_ctr504967_ContentPane" class="SmallTitle_Content"><!-- Start_Module_504967 --><table id="dnn_ctr504967_ModuleContent" class="DNNModuleContent ModDNNNewsFeedsC" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td>
+	<table id="dnn_ctr504967_RssModule_pnlRss_UP" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td>
+		<table id="dnn_ctr504967_RssModule_pnlRss" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td>
+			
+ 
+ 
+ <div style="display:none;">
+  <input type="submit" name="dnn$ctr504967$RssModule$btnUpdate" value="Hit Me" id="dnn_ctr504967_RssModule_btnUpdate" />
+ </div>
+
+		</td></tr></table><table id="dnn_ctr504967_RssModule_pnlRss_UP_Prog" cellpadding="0" cellspacing="0" border="0" width="100%" style="display:none;"><tr><td>
+			<img src="/images/progressbar.gif" alt="ProgressBar" border="0" />
+		</td></tr></table>
+	</td></tr></table>
+<script language="javascript">
+newsMods[newsMods.length]='dnn_ctr504967_RssModule_btnUpdate';
+</script>
+
+</td></tr></table><!-- End_Module_504967 --></div>
+  <div class="SmallTitle_Footer">
+    
+    <!---->
+    
+    
+  </div><div class="clear"></div>
+</div>
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-504975"><a name="504975"></a>
+<div class="SmallTitle">
+  
+  <div class="SmallTitle_Header">
+    <h2>
+      <span id="dnn_ctr504975_dnnTITLE_lblTitle" class="h2 title">Flag Status</span>
+
+
+
+    </h2>
+  </div><div class="clear"></div>
+  <div id="dnn_ctr504975_ContentPane" class="SmallTitle_Content"><!-- Start_Module_504975 --><table id="dnn_ctr504975_ModuleContent" class="DNNModuleContent ModDNNHTMLC" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td>
+	<div id="dnn_ctr504975_HtmlModule_lblContent" class="Normal">
+	<p>Flags are currently at full-staff</p>
+</div>
+
+</td></tr></table><!-- End_Module_504975 --></div>
+  <div class="SmallTitle_Footer">
+    
+    <!---->
+    
+    
+  </div><div class="clear"></div>
+</div>
+</div></div>
+                    <div class="clear">
+                    </div>
+                    <div id="dnn_SidePane3" class="sidepane3 DNNEmptyPane">
+                    </div>
+                    <div id="dnn_ContentPane2" class="contentpane2 DNNEmptyPane">
+                    </div>
+                    <div id="dnn_SidePane4" class="sidepane4 DNNEmptyPane">
+                    </div>
+                    <div id="dnn_MiddlePane3" class="middlepane3 DNNEmptyPane">
+                    </div>
+                    <div id="dnn_MiddlePane4" class="middlepane4 DNNEmptyPane">
+                    </div>
+                </div>
+                <div class="clear">
+                </div>
+                <div id="dnn_LeftPaneWide" class="leftpanewide DNNEmptyPane">
+                </div>
+                <div id="dnn_ContentPaneWide" class="contentpanewide DNNEmptyPane">
+                </div>
+                <div id="dnn_ContentPaneWide2" class="contentpanewide2 DNNEmptyPane">
+                </div>
+                <div id="dnn_RightPaneWide" class="rightpanewide DNNEmptyPane">
+                </div>
+                <div class="clear">
+                </div>
+                <div id="dnn_column1" class="column1 DNNEmptyPane">
+                </div>
+                <div id="dnn_column2" class="column2 DNNEmptyPane">
+                </div>
+                <div id="dnn_column3" class="column3 DNNEmptyPane">
+                </div>
+                <div class="clear">
+                </div>
+                <div id="dnn_column_1" class="column_1 DNNEmptyPane">
+                </div>
+                <div id="dnn_column_2" class="column_2 DNNEmptyPane">
+                </div>
+                <div id="dnn_column_3" class="column_3 DNNEmptyPane">
+                </div>
+                <div id="dnn_column_4" class="column_4 DNNEmptyPane">
+                </div>
+                <div class="clear">
+                </div>
+                <div id="dnn_BottomPane" class="bottompane DNNEmptyPane">
+                </div>
+                <div class="clear">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- / content -->
+<!-- footer -->
+<div class="footerbackground">
+    <div class="footercontent">
+        <div class="main">
+            <div class="footersocial">
+                <ul id="footersocial">
+                    <li id="facebook_foot"><a href="http://www.facebook.com/CityandCountyofDenver" rel="nofollow" target="_blank"
+                        alt="Facebook" title="Facebook"><span>Facebook</span></a></li>
+                    <li style="height: 15px!important; padding: 10px 30px 0px 0px!important"><a href="http://www.facebook.com/CityandCountyofDenver" target="_blank">Facebook</a></li>
+                    <li id="twitter_foot"><a href="http://twitter.com/#!/MayorHancock" rel="nofollow" target="_blank"
+                        alt="Twitter" title="Twitter"><span>Twitter</span></a></li>
+                    <li style="height: 15px!important; padding: 10px 30px 0px 0px!important"><a href="http://twitter.com/#!/MayorHancock" target="_blank">Twitter</a></li>
+                    <li id="youtube_foot"><a href="http://www.youtube.com/user/CityandCountyDenver" rel="nofollow"
+                        target="_blank" alt="YouTube" title="YouTube"><span>YouTube</span></a></li>
+                    <li style="height: 15px!important; padding: 10px 30px 0px 0px!important"><a href="http://www.youtube.com/user/CityandCountyDenver" target="_blank">YouTube</a></li>
+                    <li id="flickr_foot"><a href="http://www.flickr.com/photos/80202894@N07/" rel="nofollow" target="_blank"
+                        alt="Flickr" title="Flickr"><span>Flickr</span></a></li>
+                    <li style="height: 15px!important; padding: 10px 30px 0px 0px!important"><a href="http://www.flickr.com/photos/80202894@N07/" target="_blank">Flickr</a></li>
+                    <!--<li id="mobile"><a href="http://itunes.apple.com/gb/app/denver-311/id484143327?mt=8" rel="nofollow" target="_blank"
+                        alt="Mobile" title="Mobile"><span>Mobile</span></a></li>-->
+                    <li id="RSS_foot"><a href="/DesktopModules/Orizonti_NukeNews/getRSS.aspx?pid=728&tid=442244&mid=504977 "
+                        rel="nofollow" alt="RSS News Feed" title="RSS News Feed"><span>RSS</span></a></li>
+                    <li style="height: 15px!important; padding: 10px 30px 0px 0px!important"><a href="/DesktopModules/Orizonti_NukeNews/getRSS.aspx?pid=728&tid=442244&mid=504977" target="_blank">Newsfeed</a></li>
+                    <li id="opendata"><a href="http://data.denvergov.org"
+                        rel="nofollow" alt="Open Data Catalog" title="Open Data Catalog"><span>Open Data Catalog</span></a></li>
+                    <li style="height: 15px!important; padding: 10px 30px 0px 0px!important"><a href="http://data.denvergov.org" target="_blank">Open Data Catalog</a></li>
+                </ul>
+            </div>
+            <footer>
+                <div class="col_1">
+                    <h3>Stay Informed</h3>
+                    <ul class="list1">
+                        <li><a href="/connectdenver" target="_blank">Connect with Denver</a></li>
+                        <li><a href="/emergencyalerts">Emergency Alerts</a></li>
+                        <li><a href="/connectdenver">News & Subscriptions</a></li>
+                        <li><a href="/mayorblog">Mayor's Blog</a></li>
+                        <li><a href="/connectdenver">More</a></li>
+                    </ul>
+                </div>
+                <div class="col_2">
+                    <h3>Apps & Tools</h3>
+                    <ul class="list1">
+                        <li><a href="/connectdenver">Connect Denver App</a></li>
+                        <li><a href="/apps4/311">311 Help App</a></li>
+                        <li><a href="/recprograms">Recreation App</a></li>
+                        <li><a href="/property">Property App</a></li>
+                        <li><a href="/onlineservices">More</a></li>
+                    </ul>
+                </div>
+                <div class="col_3">
+                    <h3>Services</h3>
+                    <ul class="list1">
+                        <li><a href="/onlineservices">Online Services</a></li>
+                        <li><a href="/livingindenver">Neighborhood Services</a></li>
+                        <li><a href="/doingbusiness">Business Services</a></li>
+                        <li><a href="/citygovernment">Government Services</a></li>
+                        <li><a href="/atoz">More</a></li>
+                    </ul>
+                </div>
+               
+                <div class="col_4"><h3>Get Help</h3><div id="footer_logo"><a class="footer_logo" href="/311" title="Denver 311 Help Center"></a></div><div id="footer_awards">
+                    <a class="footer_award_one" href="http://www.govtech.com/cdg/digital-government-achievement/Best-of-the-Web--Digital-Government-Achievement-Awards-2013.html" title="2013 Best of the Web" target="_blank"></a>
+                        </div>
+                </div></div>
+                <div class="clear"></div>
+                <div class="footerbar">
+                   
+                    &copy Copyright 2014 City and County of Denver  |  <a href="/jobs">Jobs</a> | <a href="/atoz">A to Z Services</a> | <a href="/terms">Terms of Use</a> | <a href="/privacy">Privacy & Security Policy</a> | <a href="/openrecords">Open Records Policy (CORA)</a>
+                    <a id="dnn_dnnLOGIN_cmdLogin" class="login" href="javascript:__doPostBack('dnn$dnnLOGIN$cmdLogin','')">Login</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+
+    document.onkeypress = KeyCheck;
+    function KeyCheck(evt) {
+        var events = evt ? evt : window.event;
+
+        if (!events) {
+            alert("Events is not available");
+            return;
+        }
+
+        var KeyID; // = event.keyCode;
+        //var KeyID = event.which;
+        if (events.keyCode) // IE
+        {
+            KeyID = events.keyCode;
+        }
+        else if (events.which) // Netscape/Firefox/Opera
+        {
+            KeyID = events.which;
+        }
+
+        if (KeyID == 12 || (KeyID == 76 && events.ctrlKey)) {
+            //lnk = document.getElementById("dnn_dnnLOGIN_cmdLogin");
+            //lnk.click();
+            __doPostBack('dnn$dnnLOGIN$cmdLogin', '')
+        }
+    }
+</script>
+
+
+<!-- /footer-->
+<!-- slider panel -->
+<div class="feedback"><a href="#" onclick="FBY.showForm('1901');return false;">Feedback</a></div><div class="clear"></div>
+<script type="text/javascript">
+    document.write('<script src="' + document.location.protocol + '//fby.s3.amazonaws.com/fby.js"><' + '/script>');
+</script>
+<div id="sliderpanel">
+  <div class="sliderpanel">
+    <ul id="socialslider">
+      <!--<li id="facebookslider"><a href="https://www.facebook.com/pages/City-and-County-of-Denver/378568488860947" rel="nofollow" target="_blank" title="Facebook"><span>Facebook</span></a></li>
+      <li id="twitterslider"><a href="http://twitter.com/#!/MayorHancock" rel="nofollow" target="_blank" title="Twitter"><span>Twitter</span></a></li>
+      <li id="youtubeslider"><a href="http://www.youtube.com/user/TheCityofDenver" rel="nofollow" target="_blank" title="YouTube"><span>YouTube</span></a></li>-->
+      <li id="translateslider" class="translateslider"><a href="#" rel="nofollow" target="_blank" title="Google Translate" class="googletranslate"><span>Google Translate</span></a></li>
+      <li id="addthisslider"><a class="addthis_button" title="Share This Page" href="http://www.addthis.com/bookmark.php"> <img src="http://s7.addthis.com/static/btn/sm-plus.gif"
+         width="16" height="16" style="margin-right:4px" alt="Share This Page"/></a></li>
+    </ul>
+    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e828999087ecf61"></script></div>
+</div>
+<div id="google_translate_element" title="Google Translate" class="googletranslateelement"></div>
+
+<!-- /sliderp panel-->
+<script type="text/javascript" src="/Portals/_default/Skins/DenverGov/js/translate.js"></script>
+<script src="//translate.google.com/translate_a/element.js?
+cb=googleTranslateElementInit"></script>
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" value="`{`__scdoff`:`1`}" />
+        
+    
+<script type="text/javascript" src="/Resources/Shared/scripts/initWidgets.js" ></script><script language="javascript">updateNewsModsLoad();</script>
+<script type="text/javascript">
+//<![CDATA[
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1;};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p;}('1(4).5(6(){1(\'#3\').2({7:\'b.c\',d:0,8:0,9:\'a\'})});',14,14,'false|jQuery|accordion|LiveAccordionWrapper504971|document|ready|function|header|autoHeight|collapsible|true|div|LiveAccHead504971|active'.split('|'),0,{}))
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+	<!-- DenverGov Customization - START -->
+    <!-- MFO-12/18/2009-Add Google Analytics -->
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try
+      {
+        var pageTracker = _gat._getTracker("UA-1920922-1");
+        pageTracker._setCustomVar(1, "owner", portal, 3 ); 
+        pageTracker._trackPageview();
+      } 
+      catch(err) {}
+    </script>
+	<!-- DenverGov Customization - STOP -->
+</body>
+</html>

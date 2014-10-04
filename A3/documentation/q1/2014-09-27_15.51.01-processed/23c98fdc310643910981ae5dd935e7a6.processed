@@ -1,0 +1,613 @@
+   #[1]hockey-graphs » Feed [2]hockey-graphs » Comments Feed
+   [3]hockey-graphs [4]WordPress.com
+
+[5]hockey-graphs
+
+A few people analyzing hockey and statistics
+
+Menu
+
+   [6]Skip to content
+     * [7]Home
+     * [8]About our Authors
+
+[9]Using NHL Coaching Changes to Identify Historically Good and Bad Coaches
+
+   [10]September 24, 2014September 24, 2014[11]benjaminwendorf [12]NHL
+   League-Wide Analysis [13]2pS%, [14]Alex Ovechkin, [15]Alex Semin,
+   [16]Billy Reay, [17]Bruce Boudreau, [18]Buffalo Sabres, [19]Darryl
+   Sutter, [20]Evgeni Malkin, [21]Glen Hanlon, [22]Hockey Hall of Fame,
+   [23]Jim Schoenfeld, [24]John Tortorella, [25]Lorne Molleken, [26]Michel
+   Therrien, [27]Mike Green, [28]Mike Keenan, [29]New York Rangers,
+   [30]NHL Coaches, [31]NHL Coaching Changes, [32]NHL History, [33]Nicklas
+   Backstrom, [34]Pat Quinn, [35]Pittsburgh Penguins, [36]Punch Imlach,
+   [37]Roger Neilson, [38]Scotty Bowman, [39]Sidney Crosby, [40]Vic
+   Ferrari, [41]Washington Capitals [42]Leave a comment
+   [43]Iron Mike no like. - Photo by "Resolute", via Wikimedia Commons;
+   altered by author
+
+   Iron Mike no like. – Photo by “Resolute”, via Wikimedia Commons;
+   altered by author
+
+   Having now looked at [44]the overall effect a coaching change might
+   have on a team, and [45]identified some outstanding examples where a
+   coaching change had a drastic impact on a team, it’s now time to shift
+   over to some juicier matters. For the most part, I don’t think one
+   coaching change is necessarily sufficient to say a coach is good or
+   bad; there is a possibility the previous coach was just that bad. But
+   if the coach returns the same signal a couple of times or more, you are
+   probably getting closer to a true reading on what they might bring to
+   the table.
+
+   Across the 140 or so coaching changes these last 60 years where both
+   coaches led the team 20+ games, there were 69 coaches who were a part
+   of that change twice or more (which, to me, is quite a remarkable
+   number). The full list, followed by an explanation of the measures:
+   [46]Continue reading →
+
+[47]Remembering Dellow: A few graphs to convince you on Corsi
+
+   [48]September 23, 2014September 23, 2014[49]garret9 [50]Theory
+   [51]Corsi, [52]Defensemen, [53]Differentials, [54]Forwards, [55]Goals,
+   [56]Tyler Dellow [57]6 Comments
+
+   From Wikipedia Commons
+
+   Over the past year, I based a lot of research off of  former work by
+   Tyler Dellow. It is a bit funny because I actually never read any of
+   Dellow’s work until well after I started writing about underlying
+   metrics in hockey. I knew of him, but mostly was brought up on Gabriel
+   Desjardins, Eric Tulsky, Ben Wendorf (yes, Hockey-Graphs’ own
+   Wendorff), and a few others. It is also a bit difficult now because
+   Dellow’s website has gone dark with his hiring, which removed the work
+   I quoted or built upon.
+
+   One Dellow article that will be severely missed is [58]Two Graphs and
+   480 words will convince you on Corsi.
+
+   Dellow presented analytical data in simple and effective ways. It made
+   understanding of complex concepts -such as regression in goal
+   differentials- easy.
+
+[59]Continue reading →
+
+[60]Where NHL Coaching Changes Did, and Didn’t, Help Their Teams
+
+   [61]September 22, 2014September 24, 2014[62]benjaminwendorf [63]NHL
+   League-Wide Analysis [64]Al MacNeil, [65]Alain Vigneault, [66]Claude
+   Julien, [67]Claude Ruel, [68]Dan Bylsma, [69]Ed Olczyk, [70]Jacques
+   Lemaire, [71]Jacques Martin, [72]Jim Schoenfeld, [73]John MacLean,
+   [74]Michel Therrien, [75]Montreal Canadiens, [76]NHL Coaches, [77]NHL
+   Coaching Changes, [78]NHL History, [79]Pittsburgh Penguins, [80]Randy
+   Cunneyworth, [81]Terry Murray [82]1 Comment
+   [83]If you or anyone you know have seen this man behind your player,
+   contact the front office immediately. (Photo by "Dan4th Nicholas", via
+   Wikimedia Commons; altered by author)
+
+   If you or anyone you know have seen this man behind your players,
+   contact the front office immediately. (Photo by “Dan4th Nicholas”, via
+   Wikimedia Commons; altered by author)
+
+   Michel Therrien has an interesting distinction in [84]the research I’ve
+   been doing about NHL coaching changes: he’s given me 4 instances where
+   he and his replacement have coached 20+ games within the same season.
+   He’s also replaced or been replaced in three of those instances by
+   legit coaching talent – he replaced Alain Vigneault for the Montreal
+   Canadiens in 2000-01, was replaced two years later by Claude Julien,
+   and lastly was fired in favor of Dan Bylsma for Pittsburgh in 2008-09.
+   What’s incredible about these three cases is that, in every single one
+   of them, there was a drastic change in outcomes for the teams involved.
+   Using 2pS%, or possession measured by two-period shots-for divided by
+   two-period shots-for and against together, the numbers tell a story:
+   [85]Continue reading →
+
+[86]Who Were the Top Goaltenders of Each Decade?
+
+   [87]September 19, 2014September 22, 2014[88]Jared [89]NHL League-Wide
+   Analysis [90]Chris Osgood, [91]Dominik Hasek, [92]Greg Millen,
+   [93]Henrik Lundqvist, [94]Jim Carey, [95]John Vanbiesbrouck, [96]Kay
+   Whitmore, [97]Kely Hrudey, [98]Kirk McLean, [99]Martin Brodeur,
+   [100]Patrick Roy, [101]Roberto Luongo, [102]Rollie Melanson,
+   [103]Sebastien Caron, [104]Tomas Vokoun, [105]Trevor Kidd, [106]Vesa
+   Toskala [107]4 Comments
+   [108]Image from Rick Dikeman via Wikimedia Commons
+
+   Image from Rick Dikeman via Wikimedia Commons
+
+   I set out to measure the top goaltenders of each decade using a simple
+   measure that adjusts for different environments of the years played.
+
+   The measure used is Saves Above League Average which is a measure of
+   how many pucks a goalie stops relative to league average from that
+   season. It is computed as:
+
+   [109]salaformula
+
+   I compiled the top 10 and bottom 10 for the cumulative totals for the
+   decades and the most extreme single-season marks.
+
+   If you want to test yourself before looking at the results, I made them
+   into Sporcle quizzes: [110]2000s / [111]1990s / [112]1980s
+
+   [113]Continue reading →
+
+[114]Ryan Johansen – How much is he worth on a Bridge Deal?
+
+   [115]September 18, 2014September 18, 2014[116]garik16 [117]NHL Topical
+   Analysis [118]Bridge Deal, [119]Contract Value, [120]Contracts,
+   [121]Johansen [122]1 Comment
+
+   Courtesy of Wikimedia.org
+
+   The Ryan Johansen contract dispute is the biggest contract talk going
+   in the NHL as training camps begin, as you might expect.  Johansen is
+   young, with a great pedigree (4th overall in 2010), and is coming off a
+   seemingly breakout season that also led Columbus to its first playoff
+   relevance in quite a while.  And yet Johansen is unsigned and is
+   unlikely to be so going into camp, with the Columbus front office
+   opening fire this week on Johansen’s agent.
+
+   Both sides have seemingly agreed at least to a bridge deal – Johansen
+   at first was seriously against such a deal, but has since agreed a 2
+   year deal is acceptable.  But they are WAY apart on the money – reports
+   have Columbus at 3 to 3.5 Million over 2 years while Johansen is
+   sitting at 6 to 6.5 Million.  But what is reasonable for a player’s
+   first two RFA years?
+
+   A quick note:  This article is considering how much those years are
+   worth in the league’s current economic structure, which is team
+   friendly and makes RFA deals less pricey than UFA ones.  You can argue
+   whether this is unfair to the player or not (it’s not), but if a player
+   wants to fight the system is recourse is to either go to the KHL or not
+   sign and “hold out” – see Ryan O’Reilly a few years ago for an example.
+    Since nearly all players don’t want to do that and accept the league’s
+   economic framework eventually, that’s the framework we’ll be using for
+   this post.
+
+   [123]Continue reading →
+
+[124]What to Expect When You’re Expecting: Does Switching NHL Head Coaches
+Make a Difference?
+
+   [125]September 16, 2014September 16, 2014[126]benjaminwendorf [127]NHL
+   League-Wide Analysis, [128]Theory [129]2pS%, [130]Bruce Boudreau,
+   [131]Claude Noel, [132]Dale Hunter, [133]NHL Coaches, [134]NHL History,
+   [135]NHL New Coach, [136]Paul Maurice, [137]PDO, [138]Washington
+   Capitals, [139]Winnipeg Jets [140]2 Comments
+   [141]Bruce Boudreau
+
+   Photo by Matthew Miller, via Wikimedia Commons; altered by author
+
+   How good do you feel because your team has a new coach? I mean,
+   really…it’s almost like a new-car smell. So many possibilities – This
+   time, things will be different. With the exception of coaching changes
+   due to disastrous, unexpected things, the typical hockey fan was ready
+   for that moment, and were happy to see the coach go. But is that
+   eagerness for change based on real results?
+
+   [142]Continue reading →
+
+[143]Scoring talent influence on goal differentials and statistical
+double dipping
+
+   [144]September 9, 2014September 9, 2014[145]garret9 [146]Theory
+   [147]Corsi, [148]expected goals, [149]expected wins, [150]money puck,
+   [151]P/60, [152]point production, [153]wins [154]Leave a comment
+
+   [155]Screen shot 2014-09-09 at 1.20.24 AM
+
+   In August, I wrote an article on how you can [156]translate Corsi
+   differential values in terms of the average expected goal differential
+   given for a players of similar average ice time.
+
+   In the article, I used an example of how this information could be
+   used:
+
+     For example, Matt Halischuk and Eric Tangradi are two players who
+     averaged 4th line minutes on the Winnipeg Jets. Tangradi finished
+     the season with a 53.9% Corsi, while Halischuk was at 44.0%. Over
+     the span of a season, forwards with those Corsi% would be expected
+     to have on average of -1.04 and a -4.77 goal differential
+     respectively. Therefore, on average, a 53.9% Corsi fourth line
+     forward is worth 3.73 goals more than a 44.0% Corsi forward. Another
+     option is comparing these players to the 46.8% Corsi% of an average
+     fourth line player. The goal differentials can then be used to
+     estimate win values using [157]Pythagorean relationships.
+
+     There is a caveat with using raw Corsi% to estimate goal
+     differentials; all effects -such as zone starts- still apply. The
+     estimated goal differentials would be no more predictive than Corsi
+     is; however, you can now easily and more accurately measure Corsi
+     impact in terms of goals and wins.
+
+   Now, I used the example of Halischuk and Tangradi for a few reasons.
+   The main one being that they are familiar to me as Winnipeg Jets
+   players. They are two fourth line players that have experienced similar
+   usage but have very polar opposite shot metrics. But, there is another
+   reason… an interesting one.
+
+   [158]Continue reading →
+
+[159]To Draft or Not To Draft Goalies – Not Really the Right Question
+
+   [160]September 4, 2014September 18, 2014[161]garik16 [162]Theory
+   [163]Draft, [164]Entry Draft, [165]Goalies, [166]Goaltenders,
+   [167]Goaltending [168]1 Comment
+
+   On Monday, [169]Kyle Alexander and [170]CAustin (aka the Puckologist)
+   [171]wrote a post on [172]Raw Charge titled “It’s still okay for an NHL
+   team to draft goaltenders.”  This is a topic that isn’t exactly new in
+   the hockey analytics community – on this site alone Garret and myself
+   have written a few posts about how unpredictable goalies are and the
+   general consensus in the hockey analytics community being that goalies
+   are simply not worth drafting in the early rounds of the draft, due to
+   the variability on their results compared to other skaters
+   (particularly forwards).
+
+   The Raw Charge guys in their post don’t totally disagree, but do think
+   the talk of avoiding goalies is a bit exaggerated by some, concluding:
+
+     However, the gap between goalie drafting and forward drafting isn’t
+     nearly as stark as it’s been made out to be. It’s much more
+     worthwhile to make drafting and development at all positions better
+     than to attempt to specialize in elite forwards to the exclusion of
+     other positions.
+
+   Essentially, the Raw Charge guys argue:
+   1.  The Gap between skaters and goalies’ success and failure rates
+   isn’t as big as people think – most evaluative measures used in such
+   studies disfavor goalies by using metrics such as GP by a certain age,
+   where goalies rarely get opportunities to meet such thresholds.
+   2.  The response to whatever gap there actually is should be to try and
+   improve goalie evaluation – similar to how Swedish and Finnish goalie
+   federations’ improved early goalie training to improve their goalie
+   crop – rather than to eschew goalies altogether.
+   3.  The failure of goalies may also have to do with poor development
+   processes rather than bad evaluation.
+
+   While all three points do have merit, I think they’re both quite a bit
+   overstated.
+
+   [173]Continue reading →
+
+[174]An early look into some of the new numbers available
+
+   [175]September 2, 2014September 18, 2014[176]garret9 [177]Theory
+   [178]Corsi, [179]Situational Corsi, [180]Zone Exits [181]Leave a
+   comment
+
+   From Wikipedia Commons: A graph showing the minimum value of Pearson’s
+   correlation coefficient that is significantly different from zero at
+   the 0.05 level, for a given sample size.
+
+   There are two new and very exciting frontiers being explored by the
+   hockey analytics blogosphere. There is the manual tracking of zonal
+   statistics, such as zone entries and exits. This area of research was
+   first pioneered by [182]Eric Tulsky and [183]Corey Sznajder. Then there
+   is the splicing of Corsi into microstates, such as looking at shot
+   attempt differentials momentarily after face off wins or loses in
+   particular zones. The early workers on these numbers were [184]Tyler
+   Delow and [185]Muneeb Alam.
+   (side note: it should not be a surprise that one of each group was
+   recently picked up by a NHL team this summer)
+
+   I recently was able to get data from the non-NHL hires named above (and
+   will enjoy their contact while I can until they are picked up too).
+   Sznajder provided me with zone entry and exit data for just over 60% of
+   the NHL. If you would like to check out his project and contribute,
+   [186]check this link. Alam sent over shot attempt events 10 seconds
+   after a defensive zone face off, which was further separated into wins
+   and losses.
+
+   I originally received this data for study of the Jets and noticed what
+   appeared to the eye to be a relationship, and wished to delve in
+   further.
+
+   [187]Continue reading →
+
+[188]Save Percentage vs the Experts: Do shots against inflate a goaltender’s
+save percentage?
+
+   [189]August 28, 2014August 28, 2014[190]garret9 [191]Theory
+   [192]Goalies, [193]Goaltenders, [194]Goaltending, [195]NHL, [196]Save
+   percentage [197]5 Comments
+
+   Curtesy of Wikipedia Commons
+
+   I’ve seen many statistical articles look at different ways to determine
+   whether or not shot volume inflates a goaltender’s save percentage;
+   however, I’ve never been satisfied with the methods used, regardless of
+   the outcomes. So, I finally went and looked at the data myself.
+
+   It’s been [198]seven months since I’ve written anything on save
+   percentage. With all that wait, you’d think I’d give you a big, long,
+   and in-depth article… but I won’t.
+
+   I had one planned, but accidentally lost all my data. Of course, errors
+   always come in clumps. Instead of recovering the lost data, I ended up
+   permanently removing it. To make matters worse, extraskater.com going
+   black made the information a hassle to manually extract again. I
+   probably could write a code (or get someone else) to draw up the
+   information again… but I still have one piece remaining from the
+   original data: the graph.
+
+   What is this graph of? What does it mean? [199]Continue reading →
+
+Post navigation
+
+   [200]← Older posts
+
+Recent Posts
+
+     * [201]Using NHL Coaching Changes to Identify Historically Good and
+       Bad Coaches
+     * [202]Remembering Dellow: A few graphs to convince you on Corsi
+     * [203]Where NHL Coaching Changes Did, and Didn’t, Help Their Teams
+     * [204]Who Were the Top Goaltenders of Each Decade?
+     * [205]Ryan Johansen – How much is he worth on a Bridge Deal?
+
+Follow on Twitter
+
+   My Tweets
+
+Archives
+
+     * [206]September 2014
+     * [207]August 2014
+     * [208]July 2014
+     * [209]June 2014
+     * [210]May 2014
+     * [211]April 2014
+     * [212]March 2014
+     * [213]February 2014
+     * [214]January 2014
+
+   Search for: ____________________ Search
+   [215]Blog at WordPress.com. | [216]The Typo Theme.
+
+   [217]Follow
+
+Follow “hockey-graphs”
+
+   Get every new post delivered to your Inbox.
+
+   Join 31 other followers
+
+   Enter your email add
+
+   Sign me up
+   [218]Powered by WordPress.com
+
+
+   Add your thoughts here... (optional)________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   Post to
+   [219]Cancel Reblog Post
+
+References
+
+   Visible links
+   1. http://hockey-graphs.com/feed/
+   2. http://hockey-graphs.com/comments/feed/
+   3. http://hockey-graphs.com/osd.xml
+   4. http://wordpress.com/opensearch.xml
+   5. http://hockey-graphs.com/
+   6. file:///home/mkogatam/mallika/cs595/A3/q1/2014-09-27_15.51.01/23c98fdc310643910981ae5dd935e7a6.raw#content
+   7. http://hockey-graphs.com/
+   8. http://hockey-graphs.com/about/
+   9. http://hockey-graphs.com/2014/09/24/nhl-coach-changes-history-good-bad-coaches/
+  10. http://hockey-graphs.com/2014/09/24/nhl-coach-changes-history-good-bad-coaches/
+  11. http://hockey-graphs.com/author/benjaminwendorf/
+  12. http://hockey-graphs.com/category/nhl-league-wide-analysis/
+  13. http://hockey-graphs.com/tag/2ps/
+  14. http://hockey-graphs.com/tag/alex-ovechkin/
+  15. http://hockey-graphs.com/tag/alex-semin/
+  16. http://hockey-graphs.com/tag/billy-reay/
+  17. http://hockey-graphs.com/tag/bruce-boudreau/
+  18. http://hockey-graphs.com/tag/buffalo-sabres/
+  19. http://hockey-graphs.com/tag/darryl-sutter/
+  20. http://hockey-graphs.com/tag/evgeni-malkin/
+  21. http://hockey-graphs.com/tag/glen-hanlon/
+  22. http://hockey-graphs.com/tag/hockey-hall-of-fame/
+  23. http://hockey-graphs.com/tag/jim-schoenfeld/
+  24. http://hockey-graphs.com/tag/john-tortorella/
+  25. http://hockey-graphs.com/tag/lorne-molleken/
+  26. http://hockey-graphs.com/tag/michel-therrien/
+  27. http://hockey-graphs.com/tag/mike-green/
+  28. http://hockey-graphs.com/tag/mike-keenan/
+  29. http://hockey-graphs.com/tag/new-york-rangers/
+  30. http://hockey-graphs.com/tag/nhl-coaches/
+  31. http://hockey-graphs.com/tag/nhl-coaching-changes/
+  32. http://hockey-graphs.com/tag/nhl-history/
+  33. http://hockey-graphs.com/tag/nicklas-backstrom/
+  34. http://hockey-graphs.com/tag/pat-quinn/
+  35. http://hockey-graphs.com/tag/pittsburgh-penguins/
+  36. http://hockey-graphs.com/tag/punch-imlach/
+  37. http://hockey-graphs.com/tag/roger-neilson/
+  38. http://hockey-graphs.com/tag/scotty-bowman/
+  39. http://hockey-graphs.com/tag/sidney-crosby/
+  40. http://hockey-graphs.com/tag/vic-ferrari/
+  41. http://hockey-graphs.com/tag/washington-capitals/
+  42. http://hockey-graphs.com/2014/09/24/nhl-coach-changes-history-good-bad-coaches/#respond
+  43. https://hockeygraphsdotcom.files.wordpress.com/2014/09/keenan.jpg
+  44. http://hockey-graphs.com/2014/09/16/what-to-expect-when-youre-expecting-does-switching-nhl-head-coaches-make-a-difference/
+  45. http://hockey-graphs.com/2014/09/22/nhl-coach-changes-positive-negative-nhl-history/
+  46. http://hockey-graphs.com/2014/09/24/nhl-coach-changes-history-good-bad-coaches/#more-2337
+  47. http://hockey-graphs.com/2014/09/23/remembering-dellow-forward-and-defensemen-goal-regression-corsi/
+  48. http://hockey-graphs.com/2014/09/23/remembering-dellow-forward-and-defensemen-goal-regression-corsi/
+  49. http://hockey-graphs.com/author/garret9/
+  50. http://hockey-graphs.com/category/theory/
+  51. http://hockey-graphs.com/tag/corsi/
+  52. http://hockey-graphs.com/tag/defensemen/
+  53. http://hockey-graphs.com/tag/differentials/
+  54. http://hockey-graphs.com/tag/forwards/
+  55. http://hockey-graphs.com/tag/goals/
+  56. http://hockey-graphs.com/tag/tyler-dellow/
+  57. http://hockey-graphs.com/2014/09/23/remembering-dellow-forward-and-defensemen-goal-regression-corsi/#comments
+  58. http://www.mc79hockey.com/2014/03/two-graphs-and-480-words-that-will-convince-you-on-corsi/
+  59. http://hockey-graphs.com/2014/09/23/remembering-dellow-forward-and-defensemen-goal-regression-corsi/#more-2367
+  60. http://hockey-graphs.com/2014/09/22/nhl-coach-changes-positive-negative-nhl-history/
+  61. http://hockey-graphs.com/2014/09/22/nhl-coach-changes-positive-negative-nhl-history/
+  62. http://hockey-graphs.com/author/benjaminwendorf/
+  63. http://hockey-graphs.com/category/nhl-league-wide-analysis/
+  64. http://hockey-graphs.com/tag/al-macneil/
+  65. http://hockey-graphs.com/tag/alain-vigneault/
+  66. http://hockey-graphs.com/tag/claude-julien/
+  67. http://hockey-graphs.com/tag/claude-ruel/
+  68. http://hockey-graphs.com/tag/dan-bylsma/
+  69. http://hockey-graphs.com/tag/ed-olczyk/
+  70. http://hockey-graphs.com/tag/jacques-lemaire/
+  71. http://hockey-graphs.com/tag/jacques-martin/
+  72. http://hockey-graphs.com/tag/jim-schoenfeld/
+  73. http://hockey-graphs.com/tag/john-maclean/
+  74. http://hockey-graphs.com/tag/michel-therrien/
+  75. http://hockey-graphs.com/tag/montreal-canadiens/
+  76. http://hockey-graphs.com/tag/nhl-coaches/
+  77. http://hockey-graphs.com/tag/nhl-coaching-changes/
+  78. http://hockey-graphs.com/tag/nhl-history/
+  79. http://hockey-graphs.com/tag/pittsburgh-penguins/
+  80. http://hockey-graphs.com/tag/randy-cunneyworth/
+  81. http://hockey-graphs.com/tag/terry-murray/
+  82. http://hockey-graphs.com/2014/09/22/nhl-coach-changes-positive-negative-nhl-history/#comments
+  83. https://hockeygraphsdotcom.files.wordpress.com/2014/09/therrien.jpg
+  84. http://hockey-graphs.com/2014/09/16/what-to-expect-when-youre-expecting-does-switching-nhl-head-coaches-make-a-difference/
+  85. http://hockey-graphs.com/2014/09/22/nhl-coach-changes-positive-negative-nhl-history/#more-2319
+  86. http://hockey-graphs.com/2014/09/19/who-were-the-top-goaltenders-of-each-decade/
+  87. http://hockey-graphs.com/2014/09/19/who-were-the-top-goaltenders-of-each-decade/
+  88. http://hockey-graphs.com/author/jaredsexton9/
+  89. http://hockey-graphs.com/category/nhl-league-wide-analysis/
+  90. http://hockey-graphs.com/tag/chris-osgood/
+  91. http://hockey-graphs.com/tag/dominik-hasek/
+  92. http://hockey-graphs.com/tag/greg-millen/
+  93. http://hockey-graphs.com/tag/henrik-lundqvist/
+  94. http://hockey-graphs.com/tag/jim-carey/
+  95. http://hockey-graphs.com/tag/john-vanbiesbrouck/
+  96. http://hockey-graphs.com/tag/kay-whitmore/
+  97. http://hockey-graphs.com/tag/kely-hrudey/
+  98. http://hockey-graphs.com/tag/kirk-mclean/
+  99. http://hockey-graphs.com/tag/martin-brodeur/
+ 100. http://hockey-graphs.com/tag/patrick-roy/
+ 101. http://hockey-graphs.com/tag/roberto-luongo/
+ 102. http://hockey-graphs.com/tag/rollie-melanson/
+ 103. http://hockey-graphs.com/tag/sebastien-caron/
+ 104. http://hockey-graphs.com/tag/tomas-vokoun/
+ 105. http://hockey-graphs.com/tag/trevor-kidd/
+ 106. http://hockey-graphs.com/tag/vesa-toskala/
+ 107. http://hockey-graphs.com/2014/09/19/who-were-the-top-goaltenders-of-each-decade/#comments
+ 108. https://hockeygraphsdotcom.files.wordpress.com/2014/09/royimage.png
+ 109. https://hockeygraphsdotcom.files.wordpress.com/2014/09/salaformula.png
+ 110. http://www.sporcle.com/games/rangersunlimited/nhl-goaltenders-by-decade
+ 111. http://www.sporcle.com/games/rangersunlimited/nhl-goaltenders-of-the-90s
+ 112. http://www.sporcle.com/games/rangersunlimited/nhl-goaltenders-of-the-80s
+ 113. http://hockey-graphs.com/2014/09/19/who-were-the-top-goaltenders-of-each-decade/#more-2343
+ 114. http://hockey-graphs.com/2014/09/18/ryan-johansen-how-much-is-he-worth-on-a-bridge-deal/
+ 115. http://hockey-graphs.com/2014/09/18/ryan-johansen-how-much-is-he-worth-on-a-bridge-deal/
+ 116. http://hockey-graphs.com/author/garik16/
+ 117. http://hockey-graphs.com/category/nhl-topical-analysis/
+ 118. http://hockey-graphs.com/tag/bridge-deal/
+ 119. http://hockey-graphs.com/tag/contract-value/
+ 120. http://hockey-graphs.com/tag/contracts/
+ 121. http://hockey-graphs.com/tag/johansen/
+ 122. http://hockey-graphs.com/2014/09/18/ryan-johansen-how-much-is-he-worth-on-a-bridge-deal/#comments
+ 123. http://hockey-graphs.com/2014/09/18/ryan-johansen-how-much-is-he-worth-on-a-bridge-deal/#more-2322
+ 124. http://hockey-graphs.com/2014/09/16/what-to-expect-when-youre-expecting-does-switching-nhl-head-coaches-make-a-difference/
+ 125. http://hockey-graphs.com/2014/09/16/what-to-expect-when-youre-expecting-does-switching-nhl-head-coaches-make-a-difference/
+ 126. http://hockey-graphs.com/author/benjaminwendorf/
+ 127. http://hockey-graphs.com/category/nhl-league-wide-analysis/
+ 128. http://hockey-graphs.com/category/theory/
+ 129. http://hockey-graphs.com/tag/2ps/
+ 130. http://hockey-graphs.com/tag/bruce-boudreau/
+ 131. http://hockey-graphs.com/tag/claude-noel/
+ 132. http://hockey-graphs.com/tag/dale-hunter/
+ 133. http://hockey-graphs.com/tag/nhl-coaches/
+ 134. http://hockey-graphs.com/tag/nhl-history/
+ 135. http://hockey-graphs.com/tag/nhl-new-coach/
+ 136. http://hockey-graphs.com/tag/paul-maurice/
+ 137. http://hockey-graphs.com/tag/pdo/
+ 138. http://hockey-graphs.com/tag/washington-capitals/
+ 139. http://hockey-graphs.com/tag/winnipeg-jets/
+ 140. http://hockey-graphs.com/2014/09/16/what-to-expect-when-youre-expecting-does-switching-nhl-head-coaches-make-a-difference/#comments
+ 141. https://hockeygraphsdotcom.files.wordpress.com/2014/09/bruce-boudreau.jpg
+ 142. http://hockey-graphs.com/2014/09/16/what-to-expect-when-youre-expecting-does-switching-nhl-head-coaches-make-a-difference/#more-2313
+ 143. http://hockey-graphs.com/2014/09/09/scoring-talent-influence-on-goal-differentials-and-statistical-double-dipping/
+ 144. http://hockey-graphs.com/2014/09/09/scoring-talent-influence-on-goal-differentials-and-statistical-double-dipping/
+ 145. http://hockey-graphs.com/author/garret9/
+ 146. http://hockey-graphs.com/category/theory/
+ 147. http://hockey-graphs.com/tag/corsi/
+ 148. http://hockey-graphs.com/tag/expected-goals/
+ 149. http://hockey-graphs.com/tag/expected-wins/
+ 150. http://hockey-graphs.com/tag/money-puck/
+ 151. http://hockey-graphs.com/tag/p60/
+ 152. http://hockey-graphs.com/tag/point-production/
+ 153. http://hockey-graphs.com/tag/wins/
+ 154. http://hockey-graphs.com/2014/09/09/scoring-talent-influence-on-goal-differentials-and-statistical-double-dipping/#respond
+ 155. https://hockeygraphsdotcom.files.wordpress.com/2014/09/screen-shot-2014-09-09-at-1-20-24-am.png
+ 156. http://hockey-graphs.com/2014/08/11/value-of-corsi-possession-measured-in-goals/
+ 157. http://www.hockeyanalytics.com/Research_files/Win_Probabilities.pdf
+ 158. http://hockey-graphs.com/2014/09/09/scoring-talent-influence-on-goal-differentials-and-statistical-double-dipping/#more-2307
+ 159. http://hockey-graphs.com/2014/09/04/to-draft-or-not-to-draft-goalies-not-really-the-right-question/
+ 160. http://hockey-graphs.com/2014/09/04/to-draft-or-not-to-draft-goalies-not-really-the-right-question/
+ 161. http://hockey-graphs.com/author/garik16/
+ 162. http://hockey-graphs.com/category/theory/
+ 163. http://hockey-graphs.com/tag/draft/
+ 164. http://hockey-graphs.com/tag/entry-draft/
+ 165. http://hockey-graphs.com/tag/goalies/
+ 166. http://hockey-graphs.com/tag/goaltenders/
+ 167. http://hockey-graphs.com/tag/goaltending/
+ 168. http://hockey-graphs.com/2014/09/04/to-draft-or-not-to-draft-goalies-not-really-the-right-question/#comments
+ 169. https://twitter.com/kalexanderRC
+ 170. https://twitter.com/Puckologist
+ 171. http://www.rawcharge.com/2014/9/1/6093315/its-still-okay-for-an-nhl-team-to-draft-goaltenders
+ 172. http://rawcharge.com/
+ 173. http://hockey-graphs.com/2014/09/04/to-draft-or-not-to-draft-goalies-not-really-the-right-question/#more-2304
+ 174. http://hockey-graphs.com/2014/09/02/an-early-look-into-some-of-the-new-numbers-available/
+ 175. http://hockey-graphs.com/2014/09/02/an-early-look-into-some-of-the-new-numbers-available/
+ 176. http://hockey-graphs.com/author/garret9/
+ 177. http://hockey-graphs.com/category/theory/
+ 178. http://hockey-graphs.com/tag/corsi/
+ 179. http://hockey-graphs.com/tag/situational-corsi/
+ 180. http://hockey-graphs.com/tag/zone-exits/
+ 181. http://hockey-graphs.com/2014/09/02/an-early-look-into-some-of-the-new-numbers-available/#respond
+ 182. https://twitter.com/BSH_EricT
+ 183. https://twitter.com/ShutdownLine
+ 184. https://twitter.com/mc79hockey
+ 185. https://twitter.com/muneebalamcu
+ 186. http://t.co/UK3yT0KN1p
+ 187. http://hockey-graphs.com/2014/09/02/an-early-look-into-some-of-the-new-numbers-available/#more-2299
+ 188. http://hockey-graphs.com/2014/08/28/save-percentage-vs-the-experts-do-shots-against-inflate-a-goaltenders-save-percentage/
+ 189. http://hockey-graphs.com/2014/08/28/save-percentage-vs-the-experts-do-shots-against-inflate-a-goaltenders-save-percentage/
+ 190. http://hockey-graphs.com/author/garret9/
+ 191. http://hockey-graphs.com/category/theory/
+ 192. http://hockey-graphs.com/tag/goalies/
+ 193. http://hockey-graphs.com/tag/goaltenders/
+ 194. http://hockey-graphs.com/tag/goaltending/
+ 195. http://hockey-graphs.com/tag/nhl/
+ 196. http://hockey-graphs.com/tag/save-percentage/
+ 197. http://hockey-graphs.com/2014/08/28/save-percentage-vs-the-experts-do-shots-against-inflate-a-goaltenders-save-percentage/#comments
+ 198. http://hockey-graphs.com/2014/01/20/2013-2014-goaltending-performance-save-percentage-correlation/
+ 199. http://hockey-graphs.com/2014/08/28/save-percentage-vs-the-experts-do-shots-against-inflate-a-goaltenders-save-percentage/#more-2295
+ 200. http://hockey-graphs.com/page/2/
+ 201. http://hockey-graphs.com/2014/09/24/nhl-coach-changes-history-good-bad-coaches/
+ 202. http://hockey-graphs.com/2014/09/23/remembering-dellow-forward-and-defensemen-goal-regression-corsi/
+ 203. http://hockey-graphs.com/2014/09/22/nhl-coach-changes-positive-negative-nhl-history/
+ 204. http://hockey-graphs.com/2014/09/19/who-were-the-top-goaltenders-of-each-decade/
+ 205. http://hockey-graphs.com/2014/09/18/ryan-johansen-how-much-is-he-worth-on-a-bridge-deal/
+ 206. http://hockey-graphs.com/2014/09/
+ 207. http://hockey-graphs.com/2014/08/
+ 208. http://hockey-graphs.com/2014/07/
+ 209. http://hockey-graphs.com/2014/06/
+ 210. http://hockey-graphs.com/2014/05/
+ 211. http://hockey-graphs.com/2014/04/
+ 212. http://hockey-graphs.com/2014/03/
+ 213. http://hockey-graphs.com/2014/02/
+ 214. http://hockey-graphs.com/2014/01/
+ 215. https://wordpress.com/?ref=footer_blog
+ 216. https://wordpress.com/themes/typo/
+ 217. javascript:void(0)
+ 218. https://wordpress.com/?ref=lof
+ 219. file:///home/mkogatam/mallika/cs595/A3/q1/2014-09-27_15.51.01/23c98fdc310643910981ae5dd935e7a6.raw
+
+   Hidden links:
+ 221. http://upload.wikimedia.org/wikipedia/commons/f/fc/Ryan_Johansen_2011-11-29.jpg

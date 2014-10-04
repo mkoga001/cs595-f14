@@ -1,0 +1,804 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<!-- Application: National Hockey League - NHL.com --><!--  Page: m_home  -->
+<!--  Rendered: Sat Sep 27 15:58:12 EDT 2014  -->
+
+<html>
+<head>
+	<title>Toronto Maple Leafs</title>
+	
+	<script type="text/javascript">
+		var iOSDevice = ( navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false );
+		var iPhoneDevice = ( navigator.userAgent.match(/iPhone/i) ? true : false );
+	</script>
+	
+	
+		<meta content="app-id=571767665" name="apple-itunes-app"></meta><!-- smart app banner -->
+	
+	<script type="text/javascript">
+		if(iPhoneDevice = false){
+		    addEventListener("load", function() {
+	            setTimeout(function() { window.scrollTo(0, 1); }, 0);
+	    	}, false);		
+		}
+	</script>		
+
+
+	<meta name="apple-touch-fullscreen" content="yes" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="apple-touch-icon" href="http://mapleleafs.nhl.com/v2/images/mobile/apple-touch-icon.png?v=7.49"></link>
+	<link rel="apple-touch-icon-precomposed" href="http://mapleleafs.nhl.com/v2/images/mobile/apple-touch-icon.png?v=7.49"></link>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="robots" content="noindex">	
+	<meta name="description" content="The official National Hockey League web site includes features, news, rosters, statistics, schedules, teams, live game radio broadcasts, and video clips.">
+	<meta name="keywords" content="nhl, nhl.com, www.nhl.com, m.nhl.com, playoffs, scores, video, photos, standings, news, features, players, shop, auctions, tickets, mobile, game center live, stanley cup, winter classic, draft, free agency">
+	<meta content="en" http-equiv="content-language"></meta>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://www.nhl.com/webfonts/fonticons/nhl_icons/nhl-icons.css?v=7.49"></link>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://www.nhl.com/css/_mobile.min.css?v=7.49"></link>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://mapleleafs.nhl.com/v2/css/mobile.css?v=7.49"></link>
+	<script src="http://www.nhl.com/nhl/js/_mobilev3-plugins.min.js?v=7.49" language="JavaScript" type="text/javascript"></script>
+	
+		<script type='text/javascript'>
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+	(function() {
+	var gads = document.createElement('script');
+	gads.async = true;
+	gads.type = 'text/javascript';
+	var useSSL = 'https:' == document.location.protocol;
+	gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+	var node = document.getElementsByTagName('script')[0];
+	node.parentNode.insertBefore(gads, node);
+	})();
+</script>
+<script type='text/javascript'>
+	googletag.cmd.push(function() {
+	googletag.pubads().setTargeting("home","nhl");
+	googletag.defineSlot('/2620/nhlteam_mobile_tor/web', [[1, 1], [300, 50], [320, 50]], 'div-gpt-ad-1375997415803-0').addService(googletag.pubads());
+	googletag.pubads().enableSingleRequest();
+	
+	googletag.enableServices();
+});
+</script> 
+
+	
+    
+    <!-- dependencies added for mobile DL -->
+        <script src="http://www.nhl.com/nhl/js/utils.min.js?v=7.49" language="JavaScript" type="text/javascript"></script>
+        <script src="http://www.nhl.com/nhl/js/freewheel-support.min.js?v=7.49" language="JavaScript" type="text/javascript"></script>
+        <script src="http://e1.cdnl3.neulion.com/nhlvc/player/videocenter/player/scripts/videocenter.js?v=20140927" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+	FreeWheelSupport.brand = "mapleleafs_com";
+	FreeWheelSupport.section = "generic";
+
+	var vpGlobalSettings = {
+	    "site": "mapleleafs", 
+	    "lang": "en", 
+	    "playerType": "n2", 
+	    "pageName": "maple leafs:en:home:m_home", 
+	    "section": "home",
+	    
+	    
+	    "videoChannel": "inline article",
+	    "noTealium": false
+	}
+	
+	jQuery(document).ready(function(){
+		vpGlobalSettings.fwSectionId = FreeWheelSupport.adKey();
+	});
+	
+</script>
+        
+        <!-- This has been added to yuicompress for target 'mobile' -->
+        <!-- <link rel="stylesheet" type="text/css" jwcid="@Any" href="ognl:mobileDlCssUncompressedReference" media="screen" /> -->
+        
+        <script src="http://cdn.nhle.com/nhl/js/mobile/mobile-dl.js?v=7.49" language="JavaScript" type="text/javascript"></script>
+        
+        <!-- needed to make the swipe stuff work -->
+        <script src="http://cdn.nhle.com/gc/js/swipe.js?v=7.49" language="JavaScript" type="text/javascript"></script>
+        <script src="http://cdn.nhle.com/gc/js/nhl.swipe.js?v=7.49" language="JavaScript" type="text/javascript"></script>
+
+    <!-- end dependencies for mobile DL -->
+    
+ 		<script src="http://cdn.nhle.com/nhl/js/platform-redirection.js?v=7.49" language="JavaScript" type="text/javascript"></script>
+		<script>
+			PlatformRedirect.broadbandAlternate('http://mapleleafs.nhl.com/club/index.htm');
+			function optOutOfThis() {
+				PlatformRedirect.optOut('http://mapleleafs.nhl.com/club/index.htm');
+			}
+			
+	        jQuery(document).ready(function() {
+	            jQuery('div.viewFullLink').on('click', function(event) {
+	            	optOutOfThis();
+	            });
+	        });			
+		</script>	 
+	
+
+                  <script type="text/javascript">
+                    var AKSB=AKSB||{};AKSB.q=[];AKSB.mark=function(c,a){AKSB.q.push(["mark",c,a||(new Date).getTime()])};AKSB.measure=function(c,a,b){AKSB.q.push(["measure",c,a,b||(new Date).getTime()])};AKSB.done=function(c){AKSB.q.push(["done",c])};AKSB.mark("firstbyte",(new Date).getTime());AKSB.prof={custid:"309483",ustr:"",originlat:0,clientrtt:7,ghostip:"23.62.6.37",ipv6:false,pct:10,xhrtest:false,clientip:"128.82.4.182",requestid:"6d5a3b7"};
+                    (function(c){var b=document.createElement("iframe");b.src='javascript:void((function(){document.open();document.domain="'+document.domain+'";document.close();})())';(b.frameElement||b).style.cssText="width: 0; height: 0; border: 0; display: none";var a=document.getElementsByTagName("script"),a=a[a.length-1];a.parentNode.insertBefore(b,a);var f = function(){try{var a=b.contentWindow.document,d=a.createElement("script");d.setAttribute("src",c);d.setAttribute("type","text/javascript");var e=a.head;null==e&&(e=a.createDocumentFragment());e.appendChild(d);}catch(e){}};window.setTimeout(f,1);b.onload=f;})(("https:"===document.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js");
+                    </script>
+                    </head>
+
+<body class="slideMenu-push">
+
+    <div id="fb-root"></div>
+    <script>
+        var locale = "en_CA";
+
+        <!-- //
+            (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/" + locale + "/all.js#xfbml=1&appId=341025214723&version=v2.0";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        // -->
+    </script>
+	<a name="top"></a>
+	<div id="msthd" class="slideMenu-push tch">
+
+	<div style="float: left;">
+		<a href="/club/m_home.htm" title="Return Home">
+			<img src="http://3.cdn.nhle.com/mapleleafs/v2/images/mobile/masthead.png?v=7.49" border="0" style="max-width:210px"></img>
+		</a>
+	</div>
+	
+	<div id="menuButton">
+		<div alt="Menu" aria-hidden="true" data-icon="&#xe000;"></div>
+	</div>
+	
+	   
+		<div class="searchButton" title="Open Search"></div>
+	
+	
+</div>
+
+
+
+    <div class="msearch-form tch">
+        <form action="m_search.htm" id="searchForm" name="searchForm">
+            <input type="search" placeholder="Search" Name="q" id="q_footer" class="input-search expandable" />
+        </form>
+    </div>
+
+
+<nav class="slideMenu tch" id="slideMenuContainer">
+	<div class="tchWrap1">
+		<div class="tchWrap2">
+			<ul class="menuList">
+			   	
+	<span class="itemGroup">
+		
+			<li class="arrow" data-desc="Default">
+				<a target="" href="http://mapleleafs.nhl.com/club/m_scores.htm">
+					Scores &amp; Schedule
+					
+				</a>
+			</li>
+		
+	</span>
+
+	<span class="itemGroup">
+		
+			<li class="arrow" data-desc="Default">
+				<a target="" href="http://mapleleafs.nhl.com/club/m_standings.htm">
+					Standings
+					
+				</a>
+			</li>
+		
+	</span>
+
+	<span class="itemGroup">
+		
+			<li class="arrow" data-desc="Default">
+				<a target="" href="http://mapleleafs.nhl.com/club/m_newsindex.htm">
+					Latest Headlines
+					
+				</a>
+			</li>
+		
+	</span>
+
+	<span class="itemGroup">
+		
+			<li class="arrow" data-desc="Default">
+				<a target="" href="http://mapleleafs.nhl.com/club/m_stats.htm">
+					Statistics
+					
+				</a>
+			</li>
+		
+	</span>
+
+	<span class="itemGroup">
+		
+			<li class="arrow" data-desc="Default">
+				<a target="" href="http://mapleleafs.nhl.com/club/m_roster.htm">
+					Team Roster
+					
+				</a>
+			</li>
+		
+	</span>
+
+	<span class="itemGroup">
+		
+			<li class="arrow" data-desc="Default">
+				<a target="" href="http://mapleleafs.nhl.com/club/m_prospect.htm">
+					Team Prospects
+					
+				</a>
+			</li>
+		
+	</span>
+
+	<span class="itemGroup">
+		
+			<li class="arrow" data-desc="Default">
+				<a target="" href="http://mapleleafs.nhl.com/club/m_photos.htm">
+					Photo Galleries
+					
+				</a>
+			</li>
+		
+	</span>
+
+	<span class="itemGroup">
+		
+			<li class="arrow" data-desc="Default">
+				<a target="" href="http://mapleleafs.nhl.com/club/m_draft.htm">
+					Entry Draft
+					
+				</a>
+			</li>
+		
+	</span>
+
+	<span class="itemGroup">
+		
+			<li class="arrow" data-desc="Default">
+				<a target="" href="http://mapleleafs.nhl.com/club/m_playersearch.htm">
+					Players
+					
+				</a>
+			</li>
+		
+	</span>
+
+	<span class="itemGroup">
+		
+			<li class="arrow" data-desc="Default">
+				<a target="" href="http://mapleleafs.nhl.com/club/m_home.htm">
+					Return Home
+					
+				</a>
+			</li>
+		
+	</span>
+
+
+<script>
+	jQuery.each(jQuery('.itemGroup'), function(idx, el) {
+		var $el = jQuery(el);
+		
+		if ($el.children('[data-geo]').length != 0) {
+			if ($el.children('[data-geo=' + geoCountry + ']').length != 0) {
+				$el.children('[data-geo!=' + geoCountry + ']').remove();
+			} else {
+				$el.children('[data-desc!=Default]').remove();
+			}
+		}
+	});
+</script>
+ 
+			</ul>
+			<ul class="menuList">
+				
+
+<script>
+	jQuery.each(jQuery('.itemGroup'), function(idx, el) {
+		var $el = jQuery(el);
+		
+		if ($el.children('[data-geo]').length != 0) {
+			if ($el.children('[data-geo=' + geoCountry + ']').length != 0) {
+				$el.children('[data-geo!=' + geoCountry + ']').remove();
+			} else {
+				$el.children('[data-desc!=Default]').remove();
+			}
+		}
+	});
+</script>
+ 
+			</ul>
+			<div id="footer" class="menu-footer">
+				
+
+
+	<div id="c_146935">
+		<div id="146935">
+			
+				
+			
+		</div>
+	</div>
+
+	
+	
+	
+
+				<a href="http://www.nhl.com/ice/m_page.htm?id=64440">
+					Privacy Policy
+				</a> | 
+				<a href="http://www.nhl.com/ice/m_page.htm?id=64441">
+					Terms of Service
+				</a> | 
+				<a href="http://link.nhl.com/link3/gcl/gcl-support.nsf/m?openform">
+					Mobile Feedback
+				</a>
+				<br />
+				<br />
+				NHL and the NHL Shield are registered trademarks and NHL Mobile name and logo, NHL GameCenter and Unlimited NHL are trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams.<br /><br />
+				© NHL 2014 All Rights Reserved
+			</div>
+		</div>
+	</div>
+</nav> 
+	
+	<div id="bodyWrap" class="wrap ognl:wrapRevealClass tch">
+	
+		<div id="topBannerAd">
+			
+				<div id="div-gpt-ad-1375997415803-0">
+					<script type='text/javascript'>
+						googletag.cmd.push(function() { googletag.display('div-gpt-ad-1375997415803-0'); });
+					</script>
+				</div>
+			
+			
+		</div>	
+		
+		
+	<script src="http://e1.cdnl3.neulion.com/nhlvc/player/videocenter/player/scripts/videocenter.js?v=20140927" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+	FreeWheelSupport.brand = "mapleleafs_com";
+	FreeWheelSupport.section = "generic";
+
+	var vpGlobalSettings = {
+	    "site": "mapleleafs", 
+	    "lang": "en", 
+	    "playerType": "n2", 
+	    "pageName": "maple leafs:en:home:m_home", 
+	    "section": "home",
+	    
+	    
+	    "videoChannel": "inline article",
+	    "noTealium": false
+	}
+	
+	jQuery(document).ready(function(){
+		vpGlobalSettings.fwSectionId = FreeWheelSupport.adKey();
+	});
+	
+</script>
+    
+    <ul class="menuList">
+		
+	<span class="itemGroup">
+		
+			<li class="arrow" data-desc="Default">
+				<a target="" href="http://mapleleafs.nhl.com/club/m_scores.htm">
+					Scores &amp; Schedule
+					
+				</a>
+			</li>
+		
+	</span>
+
+
+<script>
+	jQuery.each(jQuery('.itemGroup'), function(idx, el) {
+		var $el = jQuery(el);
+		
+		if ($el.children('[data-geo]').length != 0) {
+			if ($el.children('[data-geo=' + geoCountry + ']').length != 0) {
+				$el.children('[data-geo!=' + geoCountry + ']').remove();
+			} else {
+				$el.children('[data-desc!=Default]').remove();
+			}
+		}
+	});
+</script>
+ 
+	</ul>
+	
+    <!-- CSS compilation: yuicompress -a mobile -t css  -->
+    
+<!-- div that holds all of the various news items -->
+<div id="mbi_969941" class="mobileDL" style="position: relative">
+</div>
+
+<div id="mobileDLNav">
+    <div id="mobileDLNav_inner" class="indNav">     
+        <div id="mbi_969941Ind" class="slidePosIndicator"></div>
+    </div>
+</div>
+
+<script>
+jQuery(document).ready(function() {
+    var isInternationalSiteFlag = false;
+
+    
+    
+    	var dl_opts = {"navsize":"5","prsession":false,"autorotation":"10","sets":[{"id":"ROSTER MOVES@1","vhost":"mapleleafs","videos":[],"tray":{"gclSample":false,"bodycopy":"The Leafs have  reduced its training camp roster by five players. Toronto\u2019s current roster stands at 36 players (22 forwards, 11 defencemen and three goalies).","headline":"Five Assigned To Marlies","useRelatedTray":false,"link":{"name":"READ MORE","target":"_self","href":"http://mapleleafs.nhl.com/club/news.htm?id=732053&navid=DL|TOR|home"}},"name":"ROSTER MOVES","breakingNews":true,"links":[],"media":{"image":"http://1.cdn.nhle.com/mapleleafs/images/upload/2014/07/smithsigns644jul10.jpg","relatedvideolink":{"name":"MORE VIDEO","target":"","href":"http://video.nhl.com"},"caption":[]}},{"id":"TOR 6, BUF 4@2","vhost":"mapleleafs","videos":[],"tray":{"gclSample":false,"bodycopy":"Leafs beat the Sabres 6-4 in their fourth preseason game with goals from Bozak, Polak, Leivo, Phaneuf, Komarov and Clarkson.","headline":"Leafs Take Down Sabres","useRelatedTray":true,"link":{"name":"READ MORE","target":"_self","href":"http://mapleleafs.nhl.com/gamecenter/en/recap?id=2014010042&navid=DL|TOR|home"}},"name":"TOR 6, BUF 4","breakingNews":false,"links":[{"name":"Game In Six","target":"_blank","href":"http://video.mapleleafs.nhl.com/videocenter/console?catid=802&id=633883&lang=en&navid=DL|TOR|home"},{"name":"Carlyle Post-Game","target":"_blank","href":"http://video.mapleleafs.nhl.com/videocenter/console?catid=800&id=633916&lang=en&navid=DL|TOR|home"},{"name":"Roman Polak Goal","target":"_blank","href":"http://video.mapleleafs.nhl.com/videocenter/console?catid=802&id=633652&lang=en&navid=DL|TOR|home"},{"name":"Tyler Bozak Goal","target":"_blank","href":"http://video.mapleleafs.nhl.com/videocenter/console?catid=802&id=633657&lang=en&navid=DL|TOR|home"}],"media":{"videoname":"633883","image":"http://2.cdn.nhle.com/mapleleafs/images/upload/2014/09/callout644x396-062614-1.jpg","relatedvideolink":{"name":"MORE VIDEO","target":"","href":"http://video.nhl.com"},"caption":[],"flvsrc":"633883"}},{"id":"POST-GAME VIDEOS@3","vhost":"mapleleafs","videos":[{"thumbnail":"http://1.cdn.nhle.com/mapleleafs/images/upload/2014/09/phanuef092614.jpg","caption":"DION PHANEUF","flvsrc":"633917"},{"thumbnail":"http://1.cdn.nhle.com/mapleleafs/images/upload/2014/09/reimer092614-1.jpg","caption":"JAMES REIMER","flvsrc":"633911"},{"thumbnail":"http://1.cdn.nhle.com/mapleleafs/images/upload/2014/09/levio092614.jpg","caption":"JOSH LEIVO","flvsrc":"633909"},{"thumbnail":"http://1.cdn.nhle.com/mapleleafs/images/upload/2014/09/bozak092614.jpg","caption":"TYLER BOZAK","flvsrc":"633913"},{"thumbnail":"http://1.cdn.nhle.com/mapleleafs/images/upload/2014/09/gameinsix092614.jpg","caption":"GAME IN SIX","flvsrc":"633883"}],"tray":{"gclSample":false,"bodycopy":"Watch post-game videos following the Leafs win over Buffalo.","headline":"Post-Game Videos","useRelatedTray":false,"link":{"name":"WATCH NOW","target":"_blank","href":"http://video.mapleleafs.nhl.com/videocenter/console?catid=800&id=633916&lang=en&navid=DL|TOR|home"}},"name":"POST-GAME VIDEOS","breakingNews":false,"links":[],"media":{"videoname":"633916","image":"http://2.cdn.nhle.com/mapleleafs/images/upload/2014/09/carlyle092614.jpg","relatedvideolink":{"name":"MORE VIDEO","target":"","href":"http://video.nhl.com"},"caption":[],"flvsrc":"633916"},"banner":"POST-GAME"},{"id":"HENNY'S LATEST@4","vhost":"mapleleafs","videos":[],"tray":{"gclSample":false,"bodycopy":"Paul Hendrick on how the Leafs system has started to produce players who are almost ready for regular NHL duty.","headline":"Back To The Future","useRelatedTray":true,"link":{"name":"READ MORE","target":"_self","href":"http://blog.mapleleafs.com/back-to-the-future/"}},"name":"HENNY'S LATEST","breakingNews":false,"links":[{"name":"Read The Blog","target":"_self","href":"http://blog.mapleleafs.com/back-to-the-future/"},{"name":"Leafs Trim Roster","target":"_self","href":"http://mapleleafs.nhl.com/club/news.htm?id=731738&navid=DL|TOR|home&navid=DL|TOR|home"},{"name":"Coaches Open House","target":"_blank","href":"http://coachesopenhouse.ca/torontomapleleafs/index.php"},{"name":"Preseason Sked","target":"_self","href":"http://mapleleafs.nhl.com/club/news.htm?id=730037&navid=DL|TOR|home&navid=DL|TOR|home"}],"media":{"image":"http://cdn.nhle.com/mapleleafs/images/upload/2014/09/granberg644sept25_2.jpeg","relatedvideolink":{"name":"MORE VIDEO","target":"","href":"http://video.nhl.com"},"caption":[]}},{"id":"COACHES OPEN HOUSE@5","vhost":"mapleleafs","videos":[],"tray":{"gclSample":false,"bodycopy":"Coaches Open House offers coaches of all levels across Ontario to watch, listen and learn from members of the Leafs coaching staff. Join us this Sunday for this unique opportunity!","headline":"Free Coaches Clinic","useRelatedTray":false,"link":{"name":"REGISTER NOW","target":"_blank","href":"http://mapleleafs.nhl.com/coaches"}},"name":"COACHES OPEN HOUSE","breakingNews":false,"links":[],"media":{"image":"http://3.cdn.nhle.com/mapleleafs/images/upload/2014/09/CoachesOpenHouse_TopStory.jpg","relatedvideolink":{"name":"MORE VIDEO","target":"","href":"http://video.nhl.com"},"caption":[]}}],"pagename":"home","lang":"en","topvideoslink":"http://video.nhl.com"};
+    	MobileWebDL.load(dl_opts, jQuery('#mbi_969941'));
+    
+});     
+</script>
+
+    
+    
+	<!--[if IE 6]><div><![endif]-->
+	<!--  No Module for page Mobile with location id 7  -->
+
+	<!--[if IE 6]></div><![endif]-->
+
+
+
+
+	
+
+
+	
+	
+		
+	<ul class="heading">
+	<li>Upcoming Game</li>
+</ul>
+
+
+
+			
+	<table class="gmDisplay" cellspacing="0">
+<tr>
+	<td class="tvInfo" colspan="3">
+		
+		
+			
+			<span class="gameDate">28 Sep 2014</span>
+		
+		<div>NHLN-US, SN, MSG-B</div>
+	</td>
+</tr>
+<tr>
+	<td style="width: 40%">
+		
+	
+		
+
+
+	<img class="svg ognl:selectorClass ognl:inverseLogoClass" title="Buffalo Sabres" src="http://cdn.nhle.com/nhl/images/logos/teams/sabres_logo.svgz?v=7.49" alt="Buffalo Sabres"></img>
+ 	
+
+
+
+
+		
+			
+			
+				Sabres
+			
+		
+	
+	
+
+
+	</td>
+	<td>0</td>
+	<td style="text-align: right; width: 45%">
+		<span>7:00 PM EDT&nbsp;&nbsp;</span>
+	</td>
+</tr>
+<tr>
+	<td style="width: 40%">
+		
+	
+		
+
+
+	<img class="svg ognl:selectorClass ognl:inverseLogoClass" title="Toronto Maple Leafs" src="http://cdn.nhle.com/nhl/images/logos/teams/mapleleafs_dark_logo.svgz?v=7.49" alt="Toronto Maple Leafs"></img>
+ 	
+
+
+
+
+		
+			
+			
+				Maple Leafs
+			
+		
+	
+	
+
+
+	</td>
+	<td>0</td>
+	<td style="text-align: right; width: 40%">	
+		
+			<a href="http://mapleleafs.nhl.com/gamecenter/en/m_gamecenter?id=2014010062" class="smallBlackButton" style="float: right;">
+				<span>MATCHUP &rsaquo;</span>
+			</a>
+		
+	</td>
+</tr>
+
+
+	<tr>
+		<td colspan="3" class="preseasonStatus">Preseason</td>
+	</tr>
+
+
+
+	<td>
+		<a href="http://www.ticketmaster.com/Toronto-Maple-Leafs-tickets/artist/806033?intcmp=tm205777&amp;wt.mc_id=NHL_LEAGUE_TML_MOBILE_PRI" class="smallGrayButton"><span>TICKETS &rsaquo;</span></a>
+	</td>
+
+
+</table>
+
+
+<ul class="heading">
+	<li>Recent Game</li>
+</ul>
+
+
+
+			
+
+	<table class="gmDisplay finalState" cellspacing="0">
+<tr>
+	<td class="tvInfo" colspan="3">
+		
+		
+			
+			<span class="gameDate">26 Sep 2014</span>
+		
+		<div></div>
+	</td>
+</tr>
+<tr>
+	<td class="final" style="width: 40%">
+		
+	
+		
+
+
+	<img class="svg ognl:selectorClass ognl:inverseLogoClass" title="Toronto Maple Leafs" src="http://cdn.nhle.com/nhl/images/logos/teams/mapleleafs_dark_logo.svgz?v=7.49" alt="Toronto Maple Leafs"></img>
+ 	
+
+
+
+
+		
+			
+			
+				Maple Leafs
+			
+		
+	
+	
+
+
+	</td>
+	<td class="final">6</td>
+	<td style="text-align: right; width: 45%">
+		<span class="final">FINAL&nbsp;&nbsp;</span>
+	</td>
+</tr>
+<tr>
+	<td style="width: 40%">
+		
+	
+		
+
+
+	<img class="svg ognl:selectorClass ognl:inverseLogoClass" title="Buffalo Sabres" src="http://cdn.nhle.com/nhl/images/logos/teams/sabres_logo.svgz?v=7.49" alt="Buffalo Sabres"></img>
+ 	
+
+
+
+
+		
+			
+			
+				Sabres
+			
+		
+	
+	
+
+
+	</td>
+	<td>4</td>
+	<td style="text-align: right; width: 40%">	
+		
+			<a href="http://mapleleafs.nhl.com/gamecenter/en/m_gamecenter?id=2014010042" class="smallBlackButton" style="float: right;">
+				<span>RECAP &rsaquo;</span>
+			</a>
+		
+	</td>
+</tr>
+
+
+	<tr>
+		<td colspan="3" class="preseasonStatus">Preseason</td>
+	</tr>
+
+
+
+
+</table>
+
+	
+
+	<ul class="menuList">
+		
+	<span class="itemGroup">
+		
+			<li class="arrow" data-desc="Default">
+				<a target="" href="http://mapleleafs.nhl.com/club/m_newsindex.htm">
+					More Headlines
+					
+				</a>
+			</li>
+		
+	</span>
+
+	<span class="itemGroup">
+		
+			<li class="arrow" data-desc="Default">
+				<a target="" href="http://mapleleafs.nhl.com/club/m_standings.htm">
+					Standings
+					
+				</a>
+			</li>
+		
+	</span>
+
+	<span class="itemGroup">
+		
+			<li class="arrow" data-desc="Default">
+				<a target="" href="http://mapleleafs.nhl.com/club/m_stats.htm">
+					Statistics
+					
+				</a>
+			</li>
+		
+	</span>
+
+	<span class="itemGroup">
+		
+			<li class="arrow" data-desc="Default">
+				<a target="" href="http://mapleleafs.nhl.com/club/m_roster.htm">
+					Team Roster
+					
+				</a>
+			</li>
+		
+	</span>
+
+	<span class="itemGroup">
+		
+			<li class="arrow" data-desc="Default">
+				<a target="" href="http://mapleleafs.nhl.com/club/m_photos.htm">
+					Photo Galleries
+					
+				</a>
+			</li>
+		
+	</span>
+
+
+<script>
+	jQuery.each(jQuery('.itemGroup'), function(idx, el) {
+		var $el = jQuery(el);
+		
+		if ($el.children('[data-geo]').length != 0) {
+			if ($el.children('[data-geo=' + geoCountry + ']').length != 0) {
+				$el.children('[data-geo!=' + geoCountry + ']').remove();
+			} else {
+				$el.children('[data-desc!=Default]').remove();
+			}
+		}
+	});
+</script>
+ 
+<!-- 		<span jwcid="@If" condition="ognl:blackBerryDeviceOverVersion4">
+			<li class="arrow"><a jwcid="@Any" href="ognl:urlForTeamBlackBerryMobileBookmark">Get The BlackBerry Bookmark</a></li>
+		</span> -->
+		<li class="arrow"><a href="/club/m_menu.htm">More...</a></li>
+	</ul>
+	<!-- playoffs, add switch for gametype later -->
+	<!-- span jwcid="@M_PlayoffDisplay" pageContext="ognl.pageContext" /-->
+	
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		
+			_gaq.push(
+				['a0._setAccount', 'MO-17022051-2'],
+				['a0._setDomainName', 'mapleleafs.nhl.com'],
+				['a0._trackPageview', '']
+			);
+		
+			_gaq.push(
+				['a1._setAccount', 'MO-17022051-4'],
+				['a1._setDomainName', 'mapleleafs.nhl.com'],
+				['a1._trackPageview', '']
+			);
+		
+			_gaq.push(
+				['a2._setAccount', 'MO-17022051-39'],
+				['a2._setDomainName', 'mapleleafs.nhl.com'],
+				['a2._trackPageview', '']
+			);
+		
+		
+		(function() {
+	    	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+		
+		<div id="footer">
+			
+
+
+	<div id="c_146935">
+		<div id="146935">
+			
+				
+			
+		</div>
+	</div>
+
+	
+	
+	
+
+			<div class="viewFullLink"><span style="font-size: 16px; line-height: 28px;"><a href="http://www.mapleleafs.com/index.html">
+				View Full Site</a>
+			</span></div>
+			<br />
+			<a href="http://www.nhl.com/ice/m_page.htm?id=64440">
+				Privacy Policy
+			</a> | 
+			<a href="http://www.nhl.com/ice/m_page.htm?id=64441">
+				Terms of Service
+			</a> | 
+			<a href="http://link.nhl.com/link3/gcl/gcl-support.nsf/m?openform">
+				Mobile Feedback
+			</a>
+			<br />
+			<br />
+			NHL and the NHL Shield are registered trademarks and NHL Mobile name and logo, NHL GameCenter and Unlimited NHL are trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams.<br /><br />
+			© NHL 2014 All Rights Reserved
+		</div>
+		
+	</div>
+	
+	<script src="http://cdn.nhle.com/nhl/js/mobile/mobile-menu.min.js?v=7.49" language="JavaScript" type="text/javascript"></script>
+
+</body>
+</html>

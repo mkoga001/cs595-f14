@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=gb2312"/>
+    <title>Sina Visitor System</title>
+</head>
+<body>
+<span id="message"></span>
+<script type="text/javascript" src="/js/visitor/mini.js"></script>
+<script type="text/javascript">
+    var url = url || {};
+    (function () {
+        this.l = function (u, c) {
+            try {
+                var s = document.createElement("script");
+                s.type = "text/javascript";
+                s[document.all ? "onreadystatechange" : "onload"] = function () {
+
+                    if (document.all && this.readyState != "loaded" && this.readyState != "complete") {
+                        return
+                    }
+                    this[document.all ? "onreadystatechange" : "onload"] = null;
+                    this.parentNode.removeChild(this);
+                    if (c) {
+                        c()
+                    }
+                };
+                s.src = u;
+                document.getElementsByTagName("head")[0].appendChild(s)
+            } catch (e) {
+            }
+        };
+    }).call(url);
+
+    // 流程入口
+    wload(function () {
+
+        try {
+        	if (!Store.CookieHelper.get('SRF')) {
+        		// 尝试从cookie获取用户身份，获取失败走创建访客流程
+            	tid.get(function (tid, where, confidence) {
+                	incarnate(tid, where, confidence);
+            	});
+        	} else {
+        		// 用户身份存在，尝试恢复用户身份
+                restore();
+        	}
+        } catch (e) {
+            // 出错
+            error_back();
+        }
+    });
+
+    // 跳转回初始页面
+    var return_back = function (response) {
+
+        if (response['retcode'] == 20000000) {
+            var url = "http://weibo.com/EXOGlobal";
+            if (url != "none") {
+                window.location.href = url;
+            }
+        } else {
+            // 出错
+            error_back(response['msg']);
+        }
+    };
+
+    // 向新浪域发送请求，为新浪域种下访客 cookie
+    var cross_domain = function (response) {
+    	var from = "weibo";
+        if (response['retcode'] == 20000000) {
+            var cross_domain_intr = "http://login.sina.com.cn/visitor/visitor?a=crossdomain&cb=return_back&s=" +
+                    encodeURIComponent(response['data']['sub']) + "&sp=" + encodeURIComponent(response['data']['subp']) + "&from=" + from + "&_rand=" + Math.random();
+            url.l(cross_domain_intr);
+        } else {
+            // 出错
+            error_back(response['msg']);
+        }
+    };
+
+    // 为用户赋予访客 cookie
+    var incarnate = function (tid, where, conficence) {
+        var gen_conf = "";
+        var from = "weibo";
+        var incarnate_intr = "http://passport.weibo.com/visitor/visitor?a=incarnate&t=" +
+                encodeURIComponent(tid) + "&w=" + encodeURIComponent(where) + "&c=" + encodeURIComponent(conficence) +
+                "&gc=" + encodeURIComponent(gen_conf) + "&cb=cross_domain&from=" + from + "&_rand=" + Math.random();
+        url.l(incarnate_intr);
+    };
+    
+    // 恢复用户在weibo域下的cookie
+    var restore = function () {
+    	var from = "weibo";
+        var restore_intr = "http://passport.weibo.com/visitor/visitor?a=restore&cb=restore_back&from=" + from + "&_rand=" + Math.random();
+        url.l(restore_intr);
+    };
+    var restore_back = function (response) {
+    	// 身份恢复成功走广播流程，否则走创建访客流程
+        if (response['retcode'] == 20000000) {
+        	var url = "http://weibo.com/EXOGlobal";
+        	var alt = response['data']['alt'];
+        	var savestate = response['data']['savestate'];
+        	if (alt != '' && url != "none") {
+               	var params = 'entry=sso&alt=' + alt + '&returntype=META&url=' + url + '&gateway=1&savestate=' + savestate;
+                window.location.href = 'http://login.sina.com.cn/sso/login.php?' + params;
+        	} else {
+        		cross_domain(response);
+        	}
+        } else {
+        	tid.get(function (tid, where, confidence) {
+            	incarnate(tid, where, confidence);
+        	});
+        }
+    };
+
+    // 出错情况返回原页面
+    var error_back = function (msg) {
+        var url = "http://weibo.com/EXOGlobal";
+        if (url != "none") {
+            if (url.indexOf('ssovie4c55=0') === -1) {
+                url += (((url.indexOf('?') === -1) ? '?' : '&') + 'ssovie4c55=0');
+            }
+            window.location.href = 'http://weibo.com/login.php';
+        } else {
+            document.getElementById('message').innerHTML = 'Error occurred' + (msg ? (': ' + msg) : '');
+        }
+    }
+
+</script>
+</body>
+</html>

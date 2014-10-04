@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!--
+╋╋╋┏┓╋╋┏┳┓┏┓╋╋╋╋╋╋╋┏━┓
+┏┳┳╋╋┓┏┛┃┗┫┗┳━┳━━┳━┫━┫
+┃┃┃┃┃┗┫╋┃┏┫┃┃┻┫┃┃┃┻╋━┃
+┗━━┻┻━┻━┻━┻┻┻━┻┻┻┻━┻━┛　
+Theme: Kenzie | Published:AUG 2ND, 2013 | Website: wildthemes.tumblr.com
+ 
+--->
+ 
+<!--Wildthemes is licensed under a Creative Commons Attribution. Getting rid of credits without permission by the of the theme creator is ɪʟʟᴇɢᴀʟ and if caught, further actions could be taken. You may edit the theme for personal use, WITH credit. You may distribute the theme to others, with credits. You cannot claim this theme as yours. -->
+ 
+<!-- For INFINITE SCROLLING, go to customize, and scroll down to the Advanced section. And change POSTS PER PAGE to 15.-->
+ 
+<!-- For further theme html related help, go to http://blissful.tk/askfaq-->
+ 
+ 
+<script type="text/javascript"
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+ 
+ 
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+<link rel="stylesheet" href="http://static.tumblr.com/tak5d5w/raDlsuinn/quicksandfonts.css" type="text/css" charset="utf-8">
+<link href='http://fonts.googleapis.com/css?family=Quicksand:400,700|The+Girl+Next+Door|Marck+Script|Lobster|Reenie+Beanie|Shadows+Into+Light+Two|Megrim|Rock+Salt|Raleway:100' rel='stylesheet' type='text/css'>
+ 
+<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+ 
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
+ 
+<script type="text/javascript"
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+ 
+ 
+ 
+<meta name="color:background" content="#ffffff"/>
+<meta name="color:Posts" content="#ffffff"/>
+<meta name="color:Borders" content= "#aaa"/>
+<meta name="color:Navigation Background" content= "#aaa"/>
+<meta name="color:Navigation Links" content= "#fff"/>
+ 
+<meta name="color:Font" content="#130C11"/>
+<meta name="color:Link hover" content="#130C11"/>
+<meta name="color:Link" content="#000000"/>
+<meta name="image:Sidebar" content="1"/>
+<meta name="image:Background" content="1"/>
+<meta name="image:Navigation Border Image" content= ""/>
+<meta name="if:Faded images" content="1"/>
+ 
+<meta name="if:Show sidebar photo" content="0"/>
+<meta name="if:Custom font" cntent="0"/>
+ 
+ 
+<meta name="if:One Column" content="0"/>
+ 
+<meta name="if:Two Columns" content="0"/>
+ 
+<meta name="if:Three Columns" content="1"/>
+ 
+<meta name="text:Link One Title" content=""/>
+<meta name="text:Link One" content="" />
+<meta name="text:Link Two Title" content=""/>
+<meta name="text:Link Two" content=""/>
+<meta name="text:Link Three Title" content=""/>
+<meta name="text:Link Three" content=""/>
+<meta name="text:Link Four Title" content=""/>
+<meta name="text:Link Four" content=""/>
+<meta name="text:Link Five Title" content=""/>
+<meta name="text:Link Five" content=""/>
+<meta name="text:Link Six Title" content=""/>
+<meta name="text:Link Six" content=""/>
+ 
+ 
+ 
+<link href='http://fonts.googleapis.com/css?family=Asap|Share' rel='stylesheet' type='text/css'>
+ 
+<link href='http://fonts.googleapis.com/css?family=Short+Stack' rel='stylesheet' type='text/css'>
+ 
+ 
+<script language="JavaScript" src="http://dl.dropbox.com/u/3173073/GothicDarkness/qTip.js" type="text/JavaScript"></script>
+ 
+ 
+ 
+ 
+ 
+<style type="text/css">
+@font-face {font-family:"Neou"; src:url('http://static.tumblr.com/zncos8d/0yDmd37fv/neou-thin.ttf');}
+ 
+#tumblr_controls{
+    opacity:0.9;
+position:absolute !important; ;
+}
+::-webkit-scrollbar-thumb:vertical {
+    background-color:#000000;
+    height:auto;  
+     width:5px;
+    }
+ 
+::-webkit-scrollbar-thumb:horizontal {
+    background-color:#000000;
+    height:8px;  
+    }
+ 
+::-webkit-scrollbar {
+    height:8px;
+    width:5px;
+    background-color:transparent;
+    }
+ 
+ 
+ 
+#border{
+    background-color:#ffffff;
+background-attachment: fixed;
+background-image: repeat;
+background-image:url();    
+width: 70px;
+padding:4px;
+position: fixed;
+height:100%;
+top:-5px;
+right:470px;
+z-index:99999999;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+#tumblr_controls{
+position:fixed !important;
+-webkit-filter: invert(100%) ;
+}
+ 
+.wrapper{
+margin: 0px auto;
+width: 802px;
+}
+ 
+.header{
+float: left;
+width: 100%;
+}
+ 
+.left{
+float: left;
+margin-right: 20px;
+width: 802px;
+}
+ 
+.right{
+float: right;
+width: 200px;
+background-color: #ffffff;
+}
+ 
+body {
+padding: 0px;
+margin: 0px;
+color: #130C11;
+font-family: tahoma; font-size: 9px; letter-spacing:1px;;
+ 
+background-color: #ffffff;
+background-image:url(1);
+background-attachment: fixed;
+background-repeat: repeat;
+ 
+}
+a { text-decoration: none !important;}
+a:link, a:active, a:visited{
+color: #000000 ;
+-webkit-transition: color 0.6s ease-out;
+-moz-transition: color 0.6s ease-out;  text-shadow:0 0 1px #dcdcdc;
+ 
+}
+ 
+a:hover {  
+ 
+ 
+   color:#130C11;
+-webkit-transition: opacity 1s linear;opacity: 1;-webkit-transition: all 0.8s ease-out;-moz-transition: all 0.8s ease-out;transition: all 0.8s ease-out;
+   }
+ 
+ 
+ 
+.entry {
+background-color:#ffffff;
+ margin:4px;
+ text-transform:none;
+
+  width:540px;
+ 
+ 
+  width:175px;
+  
+  
+  
+ 
+
+
+overflow:hidden;
+padding-left: 8px;
+padding-top: 8px;
+padding-right: 8px;
+padding-bottom: 6px;
+ 
+border:1px solid #aaa;
+ 
+ 
+text-decoration: none !important;
+
+opacity: 0.8;
+filter: alpha(opacity = 80);
+
+ 
+ 
+ 
+ 
+}
+ 
+.entry:hover{
+opacity: 1;
+filter: alpha(opacity = 80);
+-webkit-transition: opacity 1s linear;opacity: 1;-webkit-transition: all 0.8s ease-out;-moz-transition: all 0.8s ease-out;transition: all 0.8s ease-out;}
+ 
+.entry .perma{
+position:absolute;
+width: 150px;
+height: auto;
+padding:3px;
+background-color:#fff;
+margin-left: 10px;
+overflow:hidden;
+bottom: 40px;
+font-family: consolas;
+text-transform:uppercase;
+line-height:11px;
+text-align:center;
+opacity:0.0;
+-webkit-transition: all 0.3s linear;
+-moz-transition: all 0.3s linear;
+transition: all 0.3s linear;
+ 
+width: 150px;
+  
+  
+   
+}
+ 
+.entry:hover .perma{
+overflow:visible;
+-webkit-transition: opacity 1.5s linear; opacity: 1.6;
+transition: all 0.4s linear;
+height: auto;
+opacity: 0.9;
+-webkit-transition: all 0.3s linear;
+-moz-transition: all 0.3s linear;
+transition: all 0.3s linear;
+}
+ 
+.entry:hover .perma:hover{
+padding:3px;
+height: auto;
+-webkit-transition: all 0.5s linear;
+-moz-transition: all 0.5s linear;
+transition: all 0.5s linear;
+}
+ 
+ 
+ 
+ 
+.entry .perma2{
+position:absolute;
+width: 150px;
+height: auto;
+padding:3px;
+background-color:#fff;
+overflow:hidden;
+bottom: 23px;
+font-family: consolas;
+text-transform:uppercase;
+font-size: 9px;
+line-height:11px;
+text-align:center;
+opacity:0.0;
+-webkit-transition: all 0.8s linear;
+-moz-transition: all 0.8s linear;
+transition: all 0.8s linear;
+margin-left:10px;
+ 
+width: 150px;
+  
+  
+    
+}
+ 
+.entry:hover .perma2{
+overflow:visible;
+-webkit-transition: opacity 1.5s linear; opacity: 1.6;
+transition: all 0.4s linear;
+height: auto;
+opacity: 0.8;
+-webkit-transition: all 0.8s linear;
+-moz-transition: all 0.8s linear;
+transition: all 0.8s linear;
+}
+ 
+.entry:hover .perma2:hover{
+padding:3px;
+height: auto;
+-webkit-transition: all 0.8s linear;
+-moz-transition: all 0.8s linear;
+transition: all 0.8s linear;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.permalinktext {
+display: block;
+padding: 1px;
+margin: 0px 0px 0px 8px;
+letter-spacing: 0px;
+font-size: 9px;
+color: #424242;
+line-height: 10px;
+text-transform:uppercase;
+text-align: right;
+text-decoration: none;
+-webkit-transition: color 0.5s ease-out;
+-moz-transition: color 0.5s ease-out;
+border-top: 1px solid #ddd;
+}
+ 
+ 
+ 
+ 
+@font-face{font-family:'sb';src:url('http://static.tumblr.com/hcocigh/1wBm85vn6/sweetly_broken.ttf');}
+ 
+ 
+ 
+@font-face {font-family:"Neou"; src:url('http://static.tumblr.com/zncos8d/0yDmd37fv/neou-thin.ttf');}
+ 
+ 
+#sidebar{background:#ffffff;
+ width:230px;left:160px;
+height:auto;padding:6px;position:fixed;z-index:99999999999999999999;top:100px;text-align:center;border:1px solid #aaa;}
+ 
+ 
+ 
+ 
+#posts {
+    width: 700px;
+margin-left:130px;
+margin-top: 30px;;
+float:left;
+text-decoration: none !important;
+ 
+}
+ 
+.entry .permalinks{
+opacity:0;
+width:170px;
+height: 20px;
+top:-12px;
+position: absolute;
+text-transform: uppercase;
+font-family: calibri;
+font-size: 8px;
+color:#333333;
+line-height:20px;
+overflow:hidden;
+letter-spacing: 1px;
+text-align:center;
+background:#f1f1f1;
+border-bottom: 2px solid #000000;
+transition: all 0.7s ease-out;
+-o-transition-transition: all 0.7s ease-out;
+-webkit-transition: all 0.7s ease-out;
+-moz-transition: all 0.7s ease-out;
+}
+ 
+.entry:hover .permalinks{
+opacity: .85;
+top:12px;
+transition: all 0.7s ease-out;
+-o-transition-transition: all 0.7s ease-out;
+-webkit-transition: all 0.7s ease-out;
+-moz-transition: all 0.7s ease-out;
+}
+ 
+ 
+ 
+ 
+.entry:hover .details {
+opacity: 1.0;
+margin:12px 0px 0px 0px;
+filter: alpha(opacity = 100);
+-webkit-transition: all .25s ease-in-out;
+-moz-transition: all .25s ease-in-out;
+-o-transition: all .25s ease-in-out;
+transition: all .25s ease-in-out;
+}
+ 
+ 
+ .permahover {
+    text-align: right;
+    opacity:1;
+    filter: alpha(opacity = 0);
+    font-size: 9px;
+    line-height: 9px;-webkit-transition: all .25s ease-in-out;
+-moz-transition: all .25s ease-in-out;
+-o-transition: all .25s ease-in-out;
+transition: all .25s ease-in-out;
+    text-transform: uppercase;
+    border-top:1px solid #000000;
+    font-family:calibri;
+    letter-spacing:2px;
+    font-size:8px;
+    }
+   
+    .entry:hover .permahover{
+            border-top:3px solid #000000;}
+ 
+   
+ 
+ 
+.text {
+    padding: 0px;
+}
+ 
+ 
+ 
+.entry:hover .textperma {
+    opacity: 1;
+    filter: alpha(opacity = 100);
+    -webkit-transition: all ease-in 250ms;
+    -moz-transition: all ease-in 250ms;
+    -o-transition: all ease-in 250ms;
+    -ms-transition: all ease-in 250ms;
+    transition: all ease-in 250ms;
+}
+ 
+ 
+@font-face {font-family:"Neou"; src:url('http://static.tumblr.com/zncos8d/0yDmd37fv/neou-thin.ttf');}
+ 
+ 
+ 
+ 
+#rightborder{top:0px;
+opacity:1;
+height:100%;
+right:320px;
+z-index:9;
+font-size:9px;
+width:3px;
+background:#000000;
+position:fixed;
+background-attachment: fixed;
+background-image: repeat;
+background-image:url();  
+letter-spacing:2px;
+-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+ 
+ 
+#topborder{top:0px;
+opacity:1;
+z-index:99999;
+height:25px;
+z-index:9;
+left:0px;
+font-size:9px;
+background:#aaa;
+ 
+width:100%;
+background-attachment: fixed;
+background-size:cover;
+background-image:url(http://assets.tumblr.com/images/x.gif);  
+ 
+position:fixed;
+letter-spacing:2px;
+-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+ 
+#topborder:hover{top:0px;
+opacity:1;
+ 
+ 
+}
+ 
+ #moo{top:15px;
+ font-family: consolas;  
+font-size:9px;
+text-transform:uppercase;
+opacity:1;
+z-index:99999;color:white;
+height:15px;
+text-align:center;
+z-index:9;
+right:0px;
+font-size:9px;
+background:#aaa;
+padding:7px;
+width:105px;
+background-attachment: fixed;
+background-size:cover;
+background-image:url();  
+letter-spacing:0px;
+position:fixed;
+letter-spacing:2px;
+-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+ 
+    -o-transition: all 0.3s ease;
+    overflow:hidden;
+}
+ 
+ 
+#moo:hover{height:310px;color:white;}
+ 
+ #networks{opacity:0;height:100%; top:-20px; left:2px; width:100px;position:fixed;-webkit-transition: all 0.3s ease; z-index:9;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease; }
+ #networks:hover{text-align:left;opacity:1;top:10px;}
+ 
+ 
+  #quote{opacity:1; top:5px; left:320px;position:fixed; font-family:georgia; font-size:10px;color:#130C11; z-index:9999; }
+ 
+ 
+ .linkss a{color:#fff ;}
+.linkss {
+letter-spacing:0px;
+font-size:10px;
+text-transform:uppercase;
+line-height:250%;
+margin:4px;
+font-family:share;
+-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    padding-left:5px;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-right:3px;
+   
+        -webkit-transition: all 0.6s ease-out;-moz-transition: all 0.6s ease-out;transition: all 0.6s ease-out;
+;
+ 
+ 
+}
+.linkss:hover {
+ 
+border-radius:3px;
+color:white;}
+ 
+ 
+#infscr-loading{
+bottom: -70px;
+position: absolute;
+left: 50%;
+margin-left:-8px;
+width:16px;
+height:11px;
+overflow:hidden;
+margin-bottom: 50px;
+}
+ 
+@font-face { font-family: "signerica"; src: url('http://static.tumblr.com/yo59jgt/m4om1rino/signerica_fat.ttf'); }
+@font-face { font-family: "nigga"; src: url('http://static.tumblr.com/iyodnno/EEzmfiays/signerica_medium.ttf'); }
+ 
+.blogtitle a {color:#000000;}
+.blogtitle{
+ 
+font-family: quicksandlight;
+ 
+font-size:26px;
+top:38px;
+margin-left:-2px;
+text-transform:uppercase;
+text-align: center;
+text-decoration: none !important;    -webkit-transition-duration:1s;
+ 
+}
+ 
+ 
+ 
+.desc{
+ 
+position:relative;
+width:100%;
+text-align: center;
+text-decoration: none !important;
+}
+ 
+ 
+ 
+ 
+@font-face { font-family: "bebas neue"; src: url('http://static.tumblr.com/cvlbtjz/cnsln9tpp/bebasneue.otf'); }
+ 
+.title{
+    font-family: quicksandlight;
+font-size: 20px;
+line-height:100%;
+color: #130C11;
+text-decoration: none !important;
+}
+ 
+ 
+ 
+ 
+.bubble {align:right;background: #eee; margin:7px 0px 5px 62px;padding:10px;position: relative;-moz-border-radius:0px;-webkit-border-radius:0px;border-radius:0px;  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.06);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.06);}
+ 
+.bubble p {margin:1px 0px;}
+ 
+.bubble span {display:block;position:absolute;width:1px;height:1px;font-size: 0;line-height: 1px;left:-10px;top:10px;border-top:7px solid transparent;border-bottom:7px solid transparent;border-right:10px solid #eee;}
+ 
+.askborder {float: left;margin: 1px 4px 0 0;padding: 2px; background: #eee;}
+ 
+ 
+ 
+
+ 
+</style>
+ 
+
+<script type="text/javascript" src="http://static.tumblr.com/dbek3sy/iBElrgjim/jquerymasonry.js"></script><script type="text/javascript" src="http://static.tumblr.com/o0thhnj/QDcmcmi8j/infinitescrolling.txt"></script><script type="text/javascript" src="http://static.tumblr.com/dbek3sy/Qyblrgjfn/jqueryinfintescroll.js"></script>
+ 
+<script type="text/javascript">
+$(window).load(function () {
+var $content = $('#posts');
+$content.masonry({itemSelector: '.entry'}),
+$content.infinitescroll({
+navSelector : 'div#pagination',
+nextSelector : 'div#pagination a#nextPage',
+itemSelector : '.entry',
+loading: {
+finishedMsg: '',
+img: 'http://static.tumblr.com/dbek3sy/pX1lrx8xv/ajax-loader.gif'
+},
+bufferPx : 600,
+debug : false,
+},
+// call masonry as a callback.
+function( newElements ) {
+var $newElems = $( newElements );
+$newElems.hide();
+// ensure that images load before adding to masonry layout
+$newElems.imagesLoaded(function(){
+$content.masonry( 'appended', $newElems, true, function(){$newElems.fadeIn(300);} );
+ 
+ 
+});
+});
+});
+</script>
+ 
+
+ 
+<title>♪Social Casualty♪</title>
+ 
+<link rel="shortcut icon" href="http://31.media.tumblr.com/avatar_5a3dec90215a_128.png">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://5sosthegods.tumblr.com/rss" />
+<meta name="viewport" content="width=820" />
+ 
+ 
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=5sosthegods" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="♪Social Casualty♪" /><meta property="og:url" content="http://5sosthegods.tumblr.com/?og=1" /><meta property="og:description" content="♫So tell me, tell me, tell me what you want from me, I don&#039;t wanna be another ♫" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://31.media.tumblr.com/avatar_5a3dec90215a_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=5sosthegods" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=5sosthegods" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="5sosthegods" /><meta name="twitter:description" content="♫So tell me, tell me, tell me what you want from me,
+I don&#039;t wanna be another ♫" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=5sosthegods&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=5sosthegods&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=5sosthegods&amp;referrer=twitter-cards" />
+
+</head>
+ 
+ 
+ 
+ 
+<body>
+ 
+ 
+ 
+<div id="topborder">
+ 
+ 
+ 
+<center>
+ 
+<span class="linkss"> <a href="/"> Home</a> </span>
+ 
+<span class="linkss"><a href="/ask">ask</a> </span>
+
+ 
+ <span class="linkss"> <a href="/Me"> FAQ</a> </span>  
+ 
+
+ 
+<span class="linkss"> <a href="https://twitter.com/CuddleMe5Sauce">Twitter</a> </span>  
+ 
+ <span class="linkss"> <a href="/Fanfics">Fanfics</a> </span> 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+<span class="linkss"> <a href="http://wildthemes.tumblr.com/">Theme credit</a> </span>
+ 
+ 
+   
+</div>
+ 
+ 
+ 
+<div class="wrapper">
+<div class="header">
+<div id="sidebar">
+<a title="" href="/"><img src="http://static.tumblr.com/ee123e6c05dea52139544aaa65a51e76/wruitvg/Q2Qnaspja/tumblr_static_b63q60i7s4ggsco4k048gwwok.gif" width="230"/></a>
+ 
+ 
+<br><div class="blogtitle"><a href"/">♪Social Casualty♪</a></div>
+♫So tell me, tell me, tell me what you want from me,<br />
+I don't wanna be another ♫
+</a></div>
+ 
+ 
+ 
+<div class="left">
+ 
+<div id="posts">
+ 
+
+<div class="entry">
+ 
+
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+    
+ 
+<a href="http://5sosthegods.tumblr.com/post/98474197519/ashton-irwin-little-things-luke-michael-calum"><img src="http://38.media.tumblr.com/3fc9c5ef795bee5937d2de35cedb18dc/tumblr_nc9gc0sZJa1qeyj9bo2_250.png" width="100%" style="padding:3px;"/></a>
+<a href="http://5sosthegods.tumblr.com/post/98474197519/ashton-irwin-little-things-luke-michael-calum"><img src="http://38.media.tumblr.com/5a6f1caf10e2b23ec5de5329a4f24ac3/tumblr_nc9gc0sZJa1qeyj9bo1_250.png" width="100%" style="padding:3px;"/></a>
+<a href="http://5sosthegods.tumblr.com/post/98474197519/ashton-irwin-little-things-luke-michael-calum"><img src="http://38.media.tumblr.com/89147951a00f101d7c19a3a76aaf2247/tumblr_nc9gc0sZJa1qeyj9bo4_250.png" width="100%" style="padding:3px;"/></a>
+<a href="http://5sosthegods.tumblr.com/post/98474197519/ashton-irwin-little-things-luke-michael-calum"><img src="http://33.media.tumblr.com/6ca75f36911d1e6ef1455c014446d593/tumblr_nc9gc0sZJa1qeyj9bo9_250.png" width="100%" style="padding:3px;"/></a>
+<a href="http://5sosthegods.tumblr.com/post/98474197519/ashton-irwin-little-things-luke-michael-calum"><img src="http://33.media.tumblr.com/cd428c731b831dc57251ac1471658b6d/tumblr_nc9gc0sZJa1qeyj9bo8_250.png" width="100%" style="padding:3px;"/></a>
+<a href="http://5sosthegods.tumblr.com/post/98474197519/ashton-irwin-little-things-luke-michael-calum"><img src="http://33.media.tumblr.com/bd82d4a624dd0e9ebb12ab024a061614/tumblr_nc9gc0sZJa1qeyj9bo7_250.png" width="100%" style="padding:3px;"/></a>
+<a href="http://5sosthegods.tumblr.com/post/98474197519/ashton-irwin-little-things-luke-michael-calum"><img src="http://38.media.tumblr.com/8a55ba0b21faaf18f5f1cda89394fac5/tumblr_nc9gc0sZJa1qeyj9bo5_250.png" width="100%" style="padding:3px;"/></a>
+<a href="http://5sosthegods.tumblr.com/post/98474197519/ashton-irwin-little-things-luke-michael-calum"><img src="http://31.media.tumblr.com/e1f347be0950c385eb997675273a989c/tumblr_nc9gc0sZJa1qeyj9bo6_250.png" width="100%" style="padding:3px;"/></a>
+<a href="http://5sosthegods.tumblr.com/post/98474197519/ashton-irwin-little-things-luke-michael-calum"><img src="http://33.media.tumblr.com/f9c6cb422e5765c98f4a6adee5516a71/tumblr_nc9gc0sZJa1qeyj9bo3_250.png" width="100%" style="padding:3px;"/></a>
+<a href="http://5sosthegods.tumblr.com/post/98474197519/ashton-irwin-little-things-luke-michael-calum"><img src="http://31.media.tumblr.com/b9a85c2c9c096996b7fe86bcbc77d752/tumblr_nc9gc0sZJa1qeyj9bo10_250.png" width="100%" style="padding:3px;"/></a>
+
+    <div class="permahover"><p><a href="http://5sosthegods.tumblr.com/post/98474197519/ashton-irwin-little-things-luke-michael-calum">6,883 notes</a> / <a href="https://www.tumblr.com/reblog/98474197519/TZdGjNSE" target="_blank">reblog</a></p></div>
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+<div class="entry">
+ 
+
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+    
+ 
+<a href="http://5sosthegods.tumblr.com/post/98473133484/kinkycliff0rd-calumsbarakat-stop-fucking"><img src="http://33.media.tumblr.com/ad475d778d3b692a86cc34f98ff32bcd/tumblr_n838q69LzU1tbq6r6o1_500.gif" width="100%" style="padding:3px;"/></a>
+<a href="http://5sosthegods.tumblr.com/post/98473133484/kinkycliff0rd-calumsbarakat-stop-fucking"><img src="http://31.media.tumblr.com/c53b0f49f5c7f16c65a25f77aa42d349/tumblr_n838q69LzU1tbq6r6o2_r1_500.gif" width="100%" style="padding:3px;"/></a>
+<a href="http://5sosthegods.tumblr.com/post/98473133484/kinkycliff0rd-calumsbarakat-stop-fucking"><img src="http://38.media.tumblr.com/3370ec2cf79ca1a43e3a141f5708fd2b/tumblr_n838q69LzU1tbq6r6o3_r1_500.gif" width="100%" style="padding:3px;"/></a>
+<a href="http://5sosthegods.tumblr.com/post/98473133484/kinkycliff0rd-calumsbarakat-stop-fucking"><img src="http://38.media.tumblr.com/0c703a9b4552bdc24e48d411d4710d28/tumblr_n838q69LzU1tbq6r6o4_r1_500.gif" width="100%" style="padding:3px;"/></a>
+
+    <div class="permahover"><p><a href="http://5sosthegods.tumblr.com/post/98473133484/kinkycliff0rd-calumsbarakat-stop-fucking">16,403 notes</a> / <a href="https://www.tumblr.com/reblog/98473133484/mNmT7jKZ" target="_blank">reblog</a></p></div>
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+<div class="entry">
+ 
+
+
+ 
+ 
+
+  
+<div class="perma"><a href="https://www.tumblr.com/reblog/98472158646/P4TaBhx1" title="reblog this post">reblog</a> /  <a href="http://5sosthegods.tumblr.com/post/98472158646" title="note count"> 5,239 notes
+ 
+</div>
+   <div class="perma2"> 1 day ago
+</div>
+ 
+ 
+   
+<a href="http://5sosthegods.tumblr.com/post/98472158646">
+<img src="http://38.media.tumblr.com/ae972c17c514e78ae7dd85faafb75a71/tumblr_nbqiirIWu41tl3o0xo1_500.gif" width="100%"/></a>
+
+   
+   
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+<div class="entry">
+ 
+
+
+ 
+ 
+
+  
+<div class="perma"><a href="https://www.tumblr.com/reblog/98471198155/2kqlC8Jt" title="reblog this post">reblog</a> /  <a href="http://5sosthegods.tumblr.com/post/98471198155/5-seconds-of-summer-out-in-los-angeles-september" title="note count"> 6,074 notes
+ 
+</div>
+   <div class="perma2"> 1 day ago
+</div>
+ 
+ 
+   
+<a href="http://5sosthegods.tumblr.com/post/98471198155/5-seconds-of-summer-out-in-los-angeles-september">
+<img src="http://33.media.tumblr.com/d1e887b9d4b9270afd157618329020dd/tumblr_nbrbeiuCmS1twiy9ho1_500.png" width="100%"/></a>
+
+   
+   
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+<div class="entry">
+ 
+
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+    
+ 
+<a href="http://5sosthegods.tumblr.com/post/98470258772/september-24-2014-new-orleans-x"><img src="http://38.media.tumblr.com/4668814e8f11a5e73cc7fc09c1830fb7/tumblr_ncfhmgyHHU1trq9l0o1_500.jpg" width="100%" style="padding:3px;"/></a>
+<a href="http://5sosthegods.tumblr.com/post/98470258772/september-24-2014-new-orleans-x"><img src="http://33.media.tumblr.com/fde3eda8631ac9553f513651ca96403e/tumblr_ncfhmgyHHU1trq9l0o2_500.jpg" width="100%" style="padding:3px;"/></a>
+<a href="http://5sosthegods.tumblr.com/post/98470258772/september-24-2014-new-orleans-x"><img src="http://33.media.tumblr.com/77e86f2b61ee0a237f6e04380dadaae0/tumblr_ncfhmgyHHU1trq9l0o3_500.jpg" width="100%" style="padding:3px;"/></a>
+
+    <div class="permahover"><p><a href="http://5sosthegods.tumblr.com/post/98470258772/september-24-2014-new-orleans-x">2,336 notes</a> / <a href="https://www.tumblr.com/reblog/98470258772/tPABUB3b" target="_blank">reblog</a></p></div>
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+<div class="entry">
+ 
+
+
+ 
+ 
+
+  
+<div class="perma"><a href="https://www.tumblr.com/reblog/98469328956/E86MFmVg" title="reblog this post">reblog</a> /  <a href="http://5sosthegods.tumblr.com/post/98469328956/mukedonalds-5sos-ashton-jumping-for-joy" title="note count"> 477 notes
+ 
+</div>
+   <div class="perma2"> 1 day ago
+</div>
+ 
+ 
+   
+<a href="http://5sosthegods.tumblr.com/post/98469328956/mukedonalds-5sos-ashton-jumping-for-joy">
+<img src="http://38.media.tumblr.com/f68e10d999dcd437148df7114f9ff4d2/tumblr_nc4nmrtVWj1seyywao1_1280.jpg" width="100%"/></a>
+
+   
+   
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+<div class="entry">
+ 
+
+
+ 
+ 
+
+  
+<div class="perma"><a href="https://www.tumblr.com/reblog/98468402800/XU8PRZJ3" title="reblog this post">reblog</a> /  <a href="http://5sosthegods.tumblr.com/post/98468402800/hoodparadise-cliff1995" title="note count"> 3,629 notes
+ 
+</div>
+   <div class="perma2"> 1 day ago
+</div>
+ 
+ 
+   
+<a href="http://5sosthegods.tumblr.com/post/98468402800/hoodparadise-cliff1995">
+<img src="http://38.media.tumblr.com/05a0463f03e12ec2d65773ff9d376b88/tumblr_ncd7kwoo8j1rlfwu3o1_500.jpg" width="100%"/></a>
+
+   
+   
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+<div class="entry">
+ 
+
+
+ 
+ 
+
+  
+<div class="perma"><a href="https://www.tumblr.com/reblog/98421575969/6FywEHy7" title="reblog this post">reblog</a> /  <a href="http://5sosthegods.tumblr.com/post/98421575969" title="note count"> 8,833 notes
+ 
+</div>
+   <div class="perma2"> 1 day ago
+</div>
+ 
+ 
+   
+<a href="http://5sosthegods.tumblr.com/post/98421575969">
+<img src="http://38.media.tumblr.com/e12841dbd9a11c4071464ed390b9d9ca/tumblr_nahjjjSfn41s34mjlo1_500.gif" width="100%"/></a>
+
+   
+   
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+<div class="entry">
+ 
+
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+    
+ 
+<a href="http://5sosthegods.tumblr.com/post/98420392794/morgan-irwin-puberty-game-strong"><img src="http://33.media.tumblr.com/a34292fab457f87a4acc383a72a6cb84/tumblr_ncerldlM8H1rjur8no1_500.jpg" width="100%" style="padding:3px;"/></a>
+<a href="http://5sosthegods.tumblr.com/post/98420392794/morgan-irwin-puberty-game-strong"><img src="http://38.media.tumblr.com/d039d748a837e97974039737a86f72ba/tumblr_ncerldlM8H1rjur8no2_500.jpg" width="100%" style="padding:3px;"/></a>
+
+    <div class="permahover"><p><a href="http://5sosthegods.tumblr.com/post/98420392794/morgan-irwin-puberty-game-strong">3,761 notes</a> / <a href="https://www.tumblr.com/reblog/98420392794/HMFLsnmu" target="_blank">reblog</a></p></div>
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+<div class="entry">
+ 
+
+
+ 
+ 
+
+  
+<div class="perma"><a href="https://www.tumblr.com/reblog/98419186866/JoAlzahG" title="reblog this post">reblog</a> /  <a href="http://5sosthegods.tumblr.com/post/98419186866" title="note count"> 2,085 notes
+ 
+</div>
+   <div class="perma2"> 1 day ago
+</div>
+ 
+ 
+   
+<a href="http://5sosthegods.tumblr.com/post/98419186866">
+<img src="http://38.media.tumblr.com/57061f3d74ceaedcbec20b47371b5a59/tumblr_nc7zo0GSrS1twiy9ho1_1280.jpg" width="100%"/></a>
+
+   
+   
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+</div>
+</div>
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2">&nbsp;&rarr;</a>
+
+
+</div>
+
+
+</div>
+ 
+ 
+ 
+ 
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://5sosthegods.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847893&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvNXNvc3RoZWdvZHMudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=FIIINLBIBA&K=91e11a21c83246a201133f95d8b30646765537f1c706f5936554ee5e80f568ee&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847893&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvNXNvc3RoZWdvZHMudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=FIIINLBIBA&K=cecdb17c8ffa3cfdf7f7812ec3c147c3ac168ed47078bb64e6d9e3c065d248db&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847893&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cLzVzb3N0aGVnb2RzLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI5MjEzODUyIiwicm9vdF9wb3N0aWQiOiI5ODA2NjkyNzk0NSIsInBvc3RpZCI6Ijk4NDc0MTk3NTE5IiwiYmxvZ2lkIjoiMTYyNTEyMjA2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4NTE2Njc1MCIsInJvb3RfcG9zdGlkIjoiOTA1NjAzMTIwMTUiLCJwb3N0aWQiOiI5ODQ3MzEzMzQ4NCIsImJsb2dpZCI6IjE2MjUxMjIwNiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMDE1MDIzNDAiLCJyb290X3Bvc3RpZCI6OTcyMTI1NzE0OTQsInBvc3RpZCI6Ijk4NDcyMTU4NjQ2IiwiYmxvZ2lkIjoiMTYyNTEyMjA2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE3NzYyNzc2MiIsInJvb3RfcG9zdGlkIjo5NzI0ODkyMDQ2NiwicG9zdGlkIjoiOTg0NzExOTgxNTUiLCJibG9naWQiOiIxNjI1MTIyMDYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTY4Mzc1MTkyIiwicm9vdF9wb3N0aWQiOiI5ODM0MjAzNjg2OSIsInBvc3RpZCI6Ijk4NDcwMjU4NzcyIiwiYmxvZ2lkIjoiMTYyNTEyMjA2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEzMDEzMjMwNyIsInJvb3RfcG9zdGlkIjoiOTc4NTkyNDkzMjUiLCJwb3N0aWQiOiI5ODQ2OTMyODk1NiIsImJsb2dpZCI6IjE2MjUxMjIwNiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4MTc0NzM1MSIsInJvb3RfcG9zdGlkIjoiOTgyMzgyMjk1OTUiLCJwb3N0aWQiOiI5ODQ2ODQwMjgwMCIsImJsb2dpZCI6IjE2MjUxMjIwNiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4OTA0Njk5NCIsInJvb3RfcG9zdGlkIjoiOTUwNjg3OTc2MjQiLCJwb3N0aWQiOiI5ODQyMTU3NTk2OSIsImJsb2dpZCI6IjE2MjUxMjIwNiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3Nzg2ODEwNiIsInJvb3RfcG9zdGlkIjoiOTgzMDYyOTkwMjAiLCJwb3N0aWQiOiI5ODQyMDM5Mjc5NCIsImJsb2dpZCI6IjE2MjUxMjIwNiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNzc2Mjc3NjIiLCJyb290X3Bvc3RpZCI6Ijk4MDAwODUzMzk2IiwicG9zdGlkIjoiOTg0MTkxODY4NjYiLCJibG9naWQiOiIxNjI1MTIyMDYiLCJzb3VyY2UiOjMzfV19&U=HACDDDMLIE&K=fc67de579ecdba898173f3a99d7a26546cba8ca0e90627dc67e0de7e1158f9a5&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847893&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cLzVzb3N0aGVnb2RzLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI5MjEzODUyIiwicm9vdF9wb3N0aWQiOiI5ODA2NjkyNzk0NSIsInBvc3RpZCI6Ijk4NDc0MTk3NTE5IiwiYmxvZ2lkIjoiMTYyNTEyMjA2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4NTE2Njc1MCIsInJvb3RfcG9zdGlkIjoiOTA1NjAzMTIwMTUiLCJwb3N0aWQiOiI5ODQ3MzEzMzQ4NCIsImJsb2dpZCI6IjE2MjUxMjIwNiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMDE1MDIzNDAiLCJyb290X3Bvc3RpZCI6OTcyMTI1NzE0OTQsInBvc3RpZCI6Ijk4NDcyMTU4NjQ2IiwiYmxvZ2lkIjoiMTYyNTEyMjA2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE3NzYyNzc2MiIsInJvb3RfcG9zdGlkIjo5NzI0ODkyMDQ2NiwicG9zdGlkIjoiOTg0NzExOTgxNTUiLCJibG9naWQiOiIxNjI1MTIyMDYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTY4Mzc1MTkyIiwicm9vdF9wb3N0aWQiOiI5ODM0MjAzNjg2OSIsInBvc3RpZCI6Ijk4NDcwMjU4NzcyIiwiYmxvZ2lkIjoiMTYyNTEyMjA2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEzMDEzMjMwNyIsInJvb3RfcG9zdGlkIjoiOTc4NTkyNDkzMjUiLCJwb3N0aWQiOiI5ODQ2OTMyODk1NiIsImJsb2dpZCI6IjE2MjUxMjIwNiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4MTc0NzM1MSIsInJvb3RfcG9zdGlkIjoiOTgyMzgyMjk1OTUiLCJwb3N0aWQiOiI5ODQ2ODQwMjgwMCIsImJsb2dpZCI6IjE2MjUxMjIwNiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4OTA0Njk5NCIsInJvb3RfcG9zdGlkIjoiOTUwNjg3OTc2MjQiLCJwb3N0aWQiOiI5ODQyMTU3NTk2OSIsImJsb2dpZCI6IjE2MjUxMjIwNiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3Nzg2ODEwNiIsInJvb3RfcG9zdGlkIjoiOTgzMDYyOTkwMjAiLCJwb3N0aWQiOiI5ODQyMDM5Mjc5NCIsImJsb2dpZCI6IjE2MjUxMjIwNiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNzc2Mjc3NjIiLCJyb290X3Bvc3RpZCI6Ijk4MDAwODUzMzk2IiwicG9zdGlkIjoiOTg0MTkxODY4NjYiLCJibG9naWQiOiIxNjI1MTIyMDYiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=HACDDDMLIE&K=7115e1bb8a48528d7041c2e4da2a5a55293225a10df92adb77b51a91400aa788&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:162512206,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2F5sosthegods.tumblr.com%2F&amp;lang=en_US&amp;name=5sosthegods&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_5a3dec90215a_64.png&amp;title=%E2%99%AASocial+Casualty%E2%99%AA&amp;url=http%3A%2F%2F5sosthegods.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2F5sosthegods.tumblr.com%2F&amp;lang=en_US&amp;name=5sosthegods&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_5a3dec90215a_64.png&amp;title=%E2%99%AASocial+Casualty%E2%99%AA&amp;url=http%3A%2F%2F5sosthegods.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+ 
+</html>

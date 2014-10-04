@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+	
+
+    <!DOCTYPE html>
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+     
+    <!-----
+     
+    ©THEME 06 BY MEANWOLFS - Edit all you want, but don't alter the credit in any way!
+     
+    ------>
+     
+    <title>3 2 1 Let's Jam.</title>
+     
+    <link rel="shortcut icon" href="http://31.media.tumblr.com/avatar_1019fa03978b_128.png">
+    <link rel="alternate" type="application/rss+xml" href="http://m-omentai.tumblr.com/rss">
+    <meta name="description" content="Stephanie, first of my name. Laughing is what I do best. &quot;You shoot me in a dream, you better wake up and apologize.&quot; &nbsp;world dominating bunnies" />
+     
+    <meta name="color:Background" content="#ffffff"/>
+    <meta name="color:Text" content="#aaaaaa"/>
+    <meta name="color:Headline" content="#aaaaaa"/>
+    <meta name="color:Link" content="#000000"/>
+    <meta name="color:Scrollbar" content="#dcdcdc"/>
+    <meta name="color:Link Hover" content="#dadada"/>
+     
+    <meta name="image:Sidebar" content=""/>
+     
+    <meta name="text:Link 2 URL" content="" />
+    <meta name="text:Link 2" content="" />
+    <meta name="text:Link 3 URL" content="" />
+    <meta name="text:Link 3" content="" />
+    <meta name="text:Link 4 URL" content="" />
+    <meta name="text:Link 4" content="" />
+     
+    <meta name="if:Reblog Button" content="1"/>
+     
+    <style type="text/css">
+     
+    ::-webkit-scrollbar {background-color:#ffffff; height:8px; width:5px}
+    ::-webkit-scrollbar-thumb:vertical {background-color:#DECBA4; height:50px}
+    ::-webkit-scrollbar-thumb:horizontal {background-color:#DECBA4; height:8px}
+     
+    blockquote {
+    padding-left:5px;
+    margin:0px 10px 0px 5px;
+    border-left:1px solid #f4f4f4;
+    max-width:500px!important;
+    }
+     
+    body {
+    background:#f8f5ed;
+    color:#000000;
+    font-family:arial;
+    font-size:9px;
+    text-align:justify;
+    margin:0;
+    line-height:14px;
+    }
+     
+    a {
+    color:#2c2921;
+    text-decoration:none;
+    -moz-transition-duration:0.3s;
+    -webkit-transition-duration:0.3s;
+    -o-transition-duration:0.3s;
+    }
+     
+    a:hover {
+    color:#dadada;
+    text-decoration:none;
+    -moz-transition-duration:0.3s;
+    -webkit-transition-duration:0.3s;
+    -o-transition-duration:0.3s;
+    }
+     
+    img {
+    opacity:1;
+    border:none;
+    text-decoration:none
+    }
+     
+    small {
+    font-size:9px;}
+     
+    big {
+    font-size:12px;}
+     
+    #title {
+    font-size:13px;
+    font-weight:bold;
+    line-height:18px;
+    font-family:arial;
+    margin-bottom:10px;
+    color:#000000;
+    text-align:center;
+    text-transform:uppercase;
+    }
+     
+    #sidebar {
+    text-align:left;
+    position:fixed;
+    margin-left:-180px;
+    margin-top:121px;
+    width:130px;
+    }
+     
+    #sidebarim {
+    margin-bottom:17px;
+    margin-left:-1px;
+    }
+     
+    #sidebarim img {
+    width:100px;
+    border:1px solid #f5f5f5;
+    padding:15px;
+    background:#fafafa;
+    }
+     
+    #blogt {
+    font-size:12px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    font-family:courier;
+    margin-top:-12px;
+    }
+     
+    #links {
+    margin-top:5px;
+    line-height:16px;
+    text-align:left;
+    margin-left:1px;
+    font-size:8px;
+    width:130px;
+    }
+     
+    #links a {
+    margin-right:6px;
+    margin-bottom:3px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    border-bottom:1px solid #f5f5f5;
+    display:block;
+    }
+     
+    #links a:hover {
+    text-decoration:none;
+    color:#dadada;
+    }
+     
+    #description {
+    margin-top:-13px;
+    line-height:13px;
+    text-align:justify;
+    font-size:9px;
+    }
+     
+    #pagination {
+    margin-top:5px;
+    margin-left:4px;
+    text-align: center;
+    font-size:14px;
+    opacity:0;
+    }
+     
+    #pagination a {
+    font-family:arial;
+    font-size:14px;
+    }
+     
+    #sidebar:hover #pagination {
+    opacity:1;
+    }
+     
+    #con {
+    left:50%;
+    margin-left:-230px;
+    margin-top:-30px;
+    position:absolute;
+    }
+     
+    #entries {
+    margin-top:120px;
+    margin-left:0px;
+    width:500px;
+    }
+     
+    #posts {
+    width:500px;
+    
+    margin-bottom:60px;
+    
+    
+    }
+     
+    #posts img {
+    max-width:500px;
+    }
+     
+    #posts img, #posts li, #posts blockquote {
+    max-width: 100%;
+    }
+     
+    .caption {
+    width:100%;
+    margin-top:10px;
+    }
+     
+    #titlequote{
+    text-align:center;
+    font-size:11px;
+    line-height:20px;
+    text-transform:uppercase;
+    }
+     
+    #source {
+    margin-top:5px;
+    margin-bottom:7px;
+    margin-left:0px;
+    text-align:center;
+    line-height:17px;
+    width:500px;
+    }
+     
+    #askbox {
+    height:auto;
+    min-height:48px;
+    }
+     
+    .pic {
+    width:48px;
+    height:48px;
+    }
+     
+    .pic img {
+    width:48px;
+    height:48px;
+    float:left;
+    }
+     
+    .question {
+    background:transparent;
+    padding:13px;
+    font-style:none;
+    min-height:48px;
+    margin-left:50px;
+    margin-top:-63px;
+    }
+     
+    .asker {
+    font-weight:bold;
+    text-transform:lowercase;
+    }
+     
+    .answer {
+    padding-bottom:4px;
+    }
+     
+    .playbutton {
+    overflow:hidden;
+    position:relative;
+    z-index:1000;
+    width:26px;
+    height:26px;
+    margin:11px 11px 11px 11px;
+    }
+       
+    .playbox {
+    float:left;
+    background-color:#000;
+    position:absolute;
+    z-index:1000;
+    width:50px;
+    height:50px;
+    margin:30px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    opacity:0.2;
+    -moz-transition-duration:0.6s;
+    -webkit-transition-duration:0.6s;
+    -o-transition-duration:0.6s;
+    }
+       
+    .playbox:hover {
+    opacity:0.9;
+    -moz-transition-duration:0.6s;
+    -webkit-transition-duration:0.6s;
+    -o-transition-duration:0.6s;
+    }
+     
+    .info {
+    float:right;
+    font-size:9px;
+    text-align:right;
+    width:333px;
+    background-color:#f9f9f9;
+    padding:25px;
+    height:60px;
+    line-height:150%;
+    font-family:arial;
+    letter-spacing:0px;
+    font-family:arial;
+    text-transform:lowercase;
+    }
+     
+    .info i {
+    font-style:normal;
+    font-family:arial;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    }
+     
+    .info b {
+    font-family:arial;
+    font-size:10px;
+    text-transform:uppercase;
+    letter-spacing:0px;
+    }
+     
+    .cover {
+    position: relative;
+    z-index: 1;
+    width:80px;
+    height:80px;
+    outline:15px solid #f9f9f9;
+    margin:15px;
+    }
+     
+    .chat ol {
+    padding:0;
+    list-style:none;
+    }
+    .line {padding:5px 0;}
+     
+    .label {font-weight:bold;
+    }
+     
+    #permalink {
+    margin-top:2px;
+    font-size:8px;
+    color:#000000;
+    text-transform:uppercase;
+    }
+     
+    #permalink a {
+    margin-right:2px;
+    letter-spacing:1px;
+    }
+     
+    #permalink a:hover {
+    color:#dadada;
+    }
+     
+    #tags {
+    word-break:break-all;
+    margin-top:1px;
+    margin-left:-1px;
+    font-size:8px;
+    text-transform:none;
+    -moz-transition-duration:.7s;
+    -webkit-transition-duration:.7s;
+    -o-transition-duration:.7s;
+    }
+     
+    #tags a {
+    letter-spacing:1px;
+    font-size:8px;
+    padding:2px;
+    }
+     
+    #tags a:hover {
+    color:#dadada;
+    }
+     
+    .pagenotes {
+    
+    display: none!important;
+    
+    width:500px;
+    text-align:left;
+    }
+     
+    .pagenotes img {
+    display:none!important;}
+    .pagenotes li {
+    list-style-type:none;
+    padding:5px 0px;
+    text-align:left;
+    margin:0 0 0 -40px;
+    }
+     
+    #credit {
+    position:fixed;
+    right:12px;
+    bottom:5px;
+    text-transform:lowercase;
+    font:8px arial;
+    padding:5px;
+    }
+     
+     
+    
+     
+    </style><link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=m-omentai" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/alternategothic/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="pokemon,animal crossing,stephanie plays,doctor who,oh my goodness" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="3 2 1 Let&#039;s Jam." /><meta property="og:url" content="http://m-omentai.tumblr.com/?og=1" /><meta property="og:description" content="Stephanie, first of my name. Laughing is what I do best. &quot;You shoot me in a dream, you better wake..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://31.media.tumblr.com/avatar_1019fa03978b_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=m-omentai" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=m-omentai" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="m-omentai" /><meta name="twitter:description" content="&lt;center&gt;Stephanie, first of my name. Laughing is what I do best. &lt;br&gt; &quot;You shoot me in a dream, you better wake up and apologize.&quot;&lt;/br&gt; &lt;br&gt;&lt;!-- Start FreeOnlineUsers.com --&gt;
+&lt;a href=&quot;http://www.freeonlineusers.com&quot;&gt;
+&lt;font color=#11260f&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;http://st2.freeonlineusers.com/on1.php?id=1419574&quot;&gt; &lt;/script&gt;&nbsp;world dominating bunnies&lt;/font&gt;&lt;/a&gt;
+&lt;!-- End FreeOnlineUsers.com --&gt;&lt;/center&gt;" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=m-omentai&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=m-omentai&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=m-omentai&amp;referrer=twitter-cards" />
+
+</head>
+     
+    <body>
+     
+    <div id="con">
+     
+    <div id="sidebar">
+    <div id="sidebarim"><a href="/"><img src="http://assets.tumblr.com/images/x.gif"></a></div>
+    <div id="description"><center>Stephanie, first of my name. Laughing is what I do best. <br> "You shoot me in a dream, you better wake up and apologize."</br> <br><!-- Start FreeOnlineUsers.com -->
+<a href="http://www.freeonlineusers.com">
+<font color=#11260f><script type="text/javascript" src="http://st2.freeonlineusers.com/on1.php?id=1419574"> </script> world dominating bunnies</font></a>
+<!-- End FreeOnlineUsers.com --></center></div>
+    <div id="links">
+    <a href="/ask">ask</a>
+    <a href="/blogroll" >blogroll</a>
+    <a href="/tags" >tags</a>
+    
+    </div>
+     
+    <div id="pagination">
+    
+    
+     
+     
+    
+    <a href="/page/2" title="forward" >&rarr;</a>
+    
+    
+    </div>
+     
+    </div>
+     
+     
+    <div id="entries"> 
+     
+    <div id="posts">
+     
+     
+    
+     
+     
+     
+    
+     
+    
+     
+    
+     
+    
+     
+    
+    <div id="photoset_98569214914" class="html_photoset">    <iframe id="photoset_iframe_98569214914" class="photoset" scrolling="no" frameborder="0" height="1265" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://m-omentai.tumblr.com/post/98569214914/photoset_iframe/m-omentai/tumblr_ncjki36lFE1ruepzn/500/false"></iframe></div>
+    
+     
+    
+     
+    
+     
+    
+     
+    <div class="caption"><p><a class="tumblr_blog" href="http://xekstrin.tumblr.com/post/98564499813/three-years-later-i-cant-wait">xekstrin</a>:</p>
+<blockquote>
+<blockquote>
+<p><em>Three years later …</em></p>
+</blockquote>
+<p>I can’t wait</p>
+</blockquote></div>
+     
+    <div style="border-bottom:1px solid #fafafa;"></div>
+     
+    <div id="permalink">
+    <a href="http://m-omentai.tumblr.com/post/98569214914/xekstrin-three-years-later-i-cant-wait">
+    <b>September 27</b></a>
+    
+     
+    <div style="float:right;margin-top:0px;margin-right:0px"><a href="https://www.tumblr.com/reblog/98569214914/W3QlaF8U" target="_blank" class="details">Reblog</a></div>
+     
+    
+    ― &nbsp;<a href="http://m-omentai.tumblr.com/post/98569214914/xekstrin-three-years-later-i-cant-wait">4577</a>
+    
+     
+    <div id="tags">
+    <a href="http://m-omentai.tumblr.com/tagged/mako-looks-like-a-father-like">#mako looks like a father like</a><a href="http://m-omentai.tumblr.com/tagged/legend-of-KORRA">#legend of KORRA</a>
+    </div>
+     
+    </div>
+     
+    
+     
+     
+     
+    </div>
+     
+     
+    
+     
+     
+    
+     
+    <div id="posts">
+     
+     
+    
+     
+     
+     
+    
+     
+    
+     
+    
+     
+    
+    <a href="http://m-omentai.tumblr.com/image/98558425414"><img src="http://33.media.tumblr.com/4b8438d219bfc7ecd205f74d6e8274cd/tumblr_nbx6p2C3iE1r3cenwo1_500.png" alt="magic-golden-cupcake:
+
+&quot;She&rsquo;s read all the stories from a strange blue book she found in the beasts library, she&rsquo;d never expect those stories would be true. Especially when she stumbled across a peculiar blue box.&quot;"/></a>
+    
+     
+    
+     
+    
+     
+    
+     
+    
+     
+    <div class="caption"><p><a href="http://magic-golden-cupcake.tumblr.com/post/97529063126/shes-read-all-the-stories-from-a-strange-blue" class="tumblr_blog">magic-golden-cupcake</a>:</p>
+
+<blockquote><p>"She’s read all the stories from a strange blue book she found in the beasts library, she’d never expect those stories would be true. Especially when she stumbled across a peculiar blue box."</p></blockquote></div>
+     
+    <div style="border-bottom:1px solid #fafafa;"></div>
+     
+    <div id="permalink">
+    <a href="http://m-omentai.tumblr.com/post/98558425414/magic-golden-cupcake-shes-read-all-the">
+    <b>September 27</b></a>
+    
+     
+    <div style="float:right;margin-top:0px;margin-right:0px"><a href="https://www.tumblr.com/reblog/98558425414/WVeZvJWp" target="_blank" class="details">Reblog</a></div>
+     
+    
+    ― &nbsp;<a href="http://m-omentai.tumblr.com/post/98558425414/magic-golden-cupcake-shes-read-all-the">6730</a>
+    
+     
+    <div id="tags">
+    <a href="http://m-omentai.tumblr.com/tagged/oh-my-goodness">#oh my goodness</a><a href="http://m-omentai.tumblr.com/tagged/DISNEY">#DISNEY</a><a href="http://m-omentai.tumblr.com/tagged/doctor-who">#doctor who</a>
+    </div>
+     
+    </div>
+     
+    
+     
+     
+     
+    </div>
+     
+     
+    
+     
+     
+    
+     
+    <div id="posts">
+     
+     
+    
+     
+     
+     
+    
+     
+    
+     
+    
+     
+    
+    <a href="http://m-omentai.tumblr.com/image/98529533829"><img src="http://38.media.tumblr.com/5cee0ff9a51c63a3af5c106061f05711/tumblr_nb5dd6dmet1r0yir1o1_500.png" alt="asian:
+
+The sunset was beautiful today
+"/></a>
+    
+     
+    
+     
+    
+     
+    
+     
+    
+     
+    <div class="caption"><p><a class="tumblr_blog" href="http://asian.tumblr.com/post/96220023800/the-sunset-was-beautiful-today">asian</a>:</p>
+<blockquote>
+<p>The sunset was beautiful today</p>
+</blockquote></div>
+     
+    <div style="border-bottom:1px solid #fafafa;"></div>
+     
+    <div id="permalink">
+    <a href="http://m-omentai.tumblr.com/post/98529533829/asian-the-sunset-was-beautiful-today">
+    <b>September 27</b></a>
+    
+     
+    <div style="float:right;margin-top:0px;margin-right:0px"><a href="https://www.tumblr.com/reblog/98529533829/yuKeIXjJ" target="_blank" class="details">Reblog</a></div>
+     
+    
+    ― &nbsp;<a href="http://m-omentai.tumblr.com/post/98529533829/asian-the-sunset-was-beautiful-today">115411</a>
+    
+     
+    
+     
+    </div>
+     
+    
+     
+     
+     
+    </div>
+     
+     
+    
+     
+     
+    
+     
+    <div id="posts">
+     
+     
+    
+     
+     
+     
+    
+     
+    
+     
+    
+     
+    
+     
+    
+     
+    
+     
+    
+     
+    
+    
+    <div class="playbox"><div class="playbutton"><span id="audio_player_98526563074"><div class="audio_player"><iframe class="tumblr_audio_player tumblr_audio_player_98526563074" src="http://m-omentai.tumblr.com/post/98526563074/audio_player_iframe/m-omentai/tumblr_mvtmgkLyKJ1qck976?audio_file=https%3A%2F%2Fwww.tumblr.com%2Faudio_file%2Fm-omentai%2F98526563074%2Ftumblr_mvtmgkLyKJ1qck976&color=black&simple=1" frameborder="0" allowtransparency="true" scrolling="no" width="207" height="27"></iframe></div></span></div></div>
+    
+    <img src="http://33.media.tumblr.com/tumblr_mvtmgkLyKJ1qck976o1_1383706102_cover.jpg" class="cover">
+    
+    <div class="info">
+    <i><u>Timothy</u></i><br/>
+    <b>Artist:</b> Tennis<br/>
+    <b>Album:</b> Small Sound - EP<br/>
+    <b>Plays:</b> 5,097 plays
+    </div>
+    
+    
+     
+    
+     
+    <div style="border-bottom:1px solid #fafafa;"></div>
+     
+    <div id="permalink">
+    <a href="http://m-omentai.tumblr.com/post/98526563074">
+    <b>September 27</b></a>
+    
+     
+    <div style="float:right;margin-top:0px;margin-right:0px"><a href="https://www.tumblr.com/reblog/98526563074/xHnHPCUb" target="_blank" class="details">Reblog</a></div>
+     
+    
+    ― &nbsp;<a href="http://m-omentai.tumblr.com/post/98526563074">362</a>
+    
+     
+    
+     
+    </div>
+     
+    
+     
+     
+     
+    </div>
+     
+     
+    
+     
+     
+    
+     
+    <div id="posts">
+     
+     
+    
+     
+     
+     
+    
+     
+    
+     
+    
+     
+    
+     
+    
+     
+    
+     
+    
+     
+    
+    
+    <div class="playbox"><div class="playbutton"><span id="audio_player_98524561424"><div class="audio_player"><iframe class="tumblr_audio_player tumblr_audio_player_98524561424" src="http://m-omentai.tumblr.com/post/98524561424/audio_player_iframe/m-omentai/tumblr_lz8rkiGJF41rot2yy?audio_file=https%3A%2F%2Fwww.tumblr.com%2Faudio_file%2Fm-omentai%2F98524561424%2Ftumblr_lz8rkiGJF41rot2yy&color=black&simple=1" frameborder="0" allowtransparency="true" scrolling="no" width="207" height="27"></iframe></div></span></div></div>
+    
+    <img src="http://33.media.tumblr.com/tumblr_lz8rkiGJF41rot2yyo1_1328985260_cover.jpg" class="cover">
+    
+    <div class="info">
+    <i><u>You and I</u></i><br/>
+    <b>Artist:</b> Ingrid Michaelson<br/>
+    <b>Album:</b> Be OK<br/>
+    <b>Plays:</b> 116,261 plays
+    </div>
+    
+    
+     
+    <div class="caption"><p><a href="http://takeclaire.tumblr.com/post/17436779068/you-and-i-ingrid-michaelson-lets-get-rich-and" class="tumblr_blog">takeclaire</a>:</p>
+
+<blockquote><p><strong>You and I - Ingrid Michaelson</strong></p>
+<p>lets get rich and give everybody nice sweaters and teach them how to dance.</p></blockquote></div>
+     
+    <div style="border-bottom:1px solid #fafafa;"></div>
+     
+    <div id="permalink">
+    <a href="http://m-omentai.tumblr.com/post/98524561424/takeclaire-you-and-i-ingrid-michaelson-lets">
+    <b>September 27</b></a>
+    
+     
+    <div style="float:right;margin-top:0px;margin-right:0px"><a href="https://www.tumblr.com/reblog/98524561424/IiAkXkek" target="_blank" class="details">Reblog</a></div>
+     
+    
+    ― &nbsp;<a href="http://m-omentai.tumblr.com/post/98524561424/takeclaire-you-and-i-ingrid-michaelson-lets">17887</a>
+    
+     
+    <div id="tags">
+    <a href="http://m-omentai.tumblr.com/tagged/stephanie-plays">#stephanie plays</a>
+    </div>
+     
+    </div>
+     
+    
+     
+     
+     
+    </div>
+     
+     
+    
+     
+     
+    
+     
+    <div id="posts">
+     
+     
+    
+     
+     
+     
+    
+     
+    
+     
+    
+     
+    
+     
+    
+    <div id="photoset_98504374169" class="html_photoset">    <iframe id="photoset_iframe_98504374169" class="photoset" scrolling="no" frameborder="0" height="1034" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://m-omentai.tumblr.com/post/98504374169/photoset_iframe/m-omentai/tumblr_nca11fxY5r1qa8kbz/500/false"></iframe></div>
+    
+     
+    
+     
+    
+     
+    
+     
+    <div class="caption"><p><a href="http://gottacatchemall.tumblr.com/post/98501558355" class="tumblr_blog">gottacatchemall</a>:</p>
+
+<blockquote><p>[<a href="http://www.pixiv.net/member_illust.php?mode=medium&amp;illust_id=45735205">離れていても</a>]</p></blockquote></div>
+     
+    <div style="border-bottom:1px solid #fafafa;"></div>
+     
+    <div id="permalink">
+    <a href="http://m-omentai.tumblr.com/post/98504374169/gottacatchemall">
+    <b>September 26</b></a>
+    
+     
+    <div style="float:right;margin-top:0px;margin-right:0px"><a href="https://www.tumblr.com/reblog/98504374169/98iY2D3p" target="_blank" class="details">Reblog</a></div>
+     
+    
+    ― &nbsp;<a href="http://m-omentai.tumblr.com/post/98504374169/gottacatchemall">2596</a>
+    
+     
+    <div id="tags">
+    <a href="http://m-omentai.tumblr.com/tagged/pokemon">#pokemon</a>
+    </div>
+     
+    </div>
+     
+    
+     
+     
+     
+    </div>
+     
+     
+    
+     
+     
+    
+     
+    <div id="posts">
+     
+     
+    
+     
+     
+     
+    
+     
+    
+     
+    
+     
+    
+    <a href="http://m-omentai.tumblr.com/image/98503989709"><img src="http://38.media.tumblr.com/81c9d4394285ba574f36262f7b4d7346/tumblr_nchl4gKA5Y1taqj2oo1_500.jpg" alt="crosserofanimals:
+
+Animal Crossing - どうぶつの森"/></a>
+    
+     
+    
+     
+    
+     
+    
+     
+    
+     
+    <div class="caption"><p><a href="http://crosserofanimals.tumblr.com/post/98436861835/animal-crossing" class="tumblr_blog">crosserofanimals</a>:</p>
+
+<blockquote><p>Animal Crossing - どうぶつの森</p></blockquote></div>
+     
+    <div style="border-bottom:1px solid #fafafa;"></div>
+     
+    <div id="permalink">
+    <a href="http://m-omentai.tumblr.com/post/98503989709/crosserofanimals-animal-crossing">
+    <b>September 26</b></a>
+    
+     
+    <div style="float:right;margin-top:0px;margin-right:0px"><a href="https://www.tumblr.com/reblog/98503989709/fxlJVYJW" target="_blank" class="details">Reblog</a></div>
+     
+    
+    ― &nbsp;<a href="http://m-omentai.tumblr.com/post/98503989709/crosserofanimals-animal-crossing">1749</a>
+    
+     
+    <div id="tags">
+    <a href="http://m-omentai.tumblr.com/tagged/animal-crossing">#animal crossing</a>
+    </div>
+     
+    </div>
+     
+    
+     
+     
+     
+    </div>
+     
+     
+    
+     
+     
+    
+     
+    <div id="posts">
+     
+     
+    
+     
+     
+     
+    
+     
+    
+     
+    
+     
+    
+    <img src="http://38.media.tumblr.com/tumblr_mau1bv4tAm1qig4hto1_400.jpg" alt="thecouscousqueen:
+
+this is so clever i love it
+"/>
+    
+     
+    
+     
+    
+     
+    
+     
+    
+     
+    <div class="caption"><p><a class="tumblr_blog" href="http://thecouscousqueen.tumblr.com/post/49963592405/this-is-so-clever-i-love-it">thecouscousqueen</a>:</p>
+<blockquote>
+<p>this is so clever i love it</p>
+</blockquote></div>
+     
+    <div style="border-bottom:1px solid #fafafa;"></div>
+     
+    <div id="permalink">
+    <a href="http://m-omentai.tumblr.com/post/98444263049/thecouscousqueen-this-is-so-clever-i-love-it">
+    <b>September 26</b></a>
+    
+     
+    <div style="float:right;margin-top:0px;margin-right:0px"><a href="https://www.tumblr.com/reblog/98444263049/kIzpZV3P" target="_blank" class="details">Reblog</a></div>
+     
+    
+    ― &nbsp;<a href="http://m-omentai.tumblr.com/post/98444263049/thecouscousqueen-this-is-so-clever-i-love-it">362260</a>
+    
+     
+    
+     
+    </div>
+     
+    
+     
+     
+     
+    </div>
+     
+     
+    
+     
+     
+    
+     
+    <div id="posts">
+     
+     
+    
+     
+     
+     
+    
+     
+    
+     
+    
+     
+    
+     
+    
+    <div id="photoset_98432973499" class="html_photoset">    <iframe id="photoset_iframe_98432973499" class="photoset" scrolling="no" frameborder="0" height="5410" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://m-omentai.tumblr.com/post/98432973499/photoset_iframe/m-omentai/tumblr_n9naavox8P1s8c0eg/500/false"></iframe></div>
+    
+     
+    
+     
+    
+     
+    
+     
+    <div class="caption"><p><a class="tumblr_blog" href="http://sarahbrooke007.tumblr.com/post/94943387185">sarahbrooke007</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://the-stoner-sage.tumblr.com/post/94499301517">the-stoner-sage</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://vraieronique.tumblr.com/post/93534779040/body-art-by-gesine-marwedel-germain-artist">vraieronique</a>:</p>
+<blockquote>
+<p><em>Body Art by</em> <a href="http://www.google.fr/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=2&amp;ved=0CC8QFjAB&amp;url=http%3A%2F%2Fwww.gesine-marwedel.de%2Fgalerie%2F&amp;ei=_PXbU5mCM4XA0QXd0oGgDQ&amp;usg=AFQjCNGOy1XGajEogtDxRkEIsUBp4fygZw&amp;bvm=bv.72197243,d.d2k&amp;cad=rja"><strong>Gesine Marwedel</strong></a><em>, Germain artist.</em></p>
+</blockquote>
+<p>Wow 😻</p>
+</blockquote>
+<p>This is fucking amazing</p>
+</blockquote></div>
+     
+    <div style="border-bottom:1px solid #fafafa;"></div>
+     
+    <div id="permalink">
+    <a href="http://m-omentai.tumblr.com/post/98432973499/sarahbrooke007-the-stoner-sage">
+    <b>September 25</b></a>
+    
+     
+    <div style="float:right;margin-top:0px;margin-right:0px"><a href="https://www.tumblr.com/reblog/98432973499/KLYF4bai" target="_blank" class="details">Reblog</a></div>
+     
+    
+    ― &nbsp;<a href="http://m-omentai.tumblr.com/post/98432973499/sarahbrooke007-the-stoner-sage">172695</a>
+    
+     
+    
+     
+    </div>
+     
+    
+     
+     
+     
+    </div>
+     
+     
+    
+     
+     
+    
+     
+    <div id="posts">
+     
+     
+    
+     
+     
+     
+    
+     
+    
+     
+    
+     
+    
+     
+    
+     
+    
+     
+    
+     
+    
+    
+    <div class="playbox"><div class="playbutton"><span id="audio_player_98309187969"><div class="audio_player"><iframe class="tumblr_audio_player tumblr_audio_player_98309187969" src="http://m-omentai.tumblr.com/post/98309187969/audio_player_iframe/m-omentai/tumblr_ms80tawhjh1qj4xgo?audio_file=http%3A%2F%2Fmp3-get.com%2Fget%2F2152774.mp3&color=black&simple=1" frameborder="0" allowtransparency="true" scrolling="no" width="207" height="27"></iframe></div></span></div></div>
+    
+    <img src="http://38.media.tumblr.com/_1377659422_cover.jpg" class="cover">
+    
+    <div class="info">
+    <i><u>What A Wonderful World</u></i><br/>
+    <b>Artist:</b> Louis Armstrong<br/>
+    <br/>
+    <b>Plays:</b> 2,067 plays
+    </div>
+    
+    
+     
+    <div class="caption"><p><a href="http://allthetreesofthefield.tumblr.com/post/98288469328/i-see-skies-of-blue-and-clouds-of-white-the" class="tumblr_blog">allthetreesofthefield</a>:</p>
+
+<blockquote><p><i>I see skies of blue and clouds of white <br/>
+The bright blessed day, the dark sacred night <br/>
+And I think to myself what a wonderful world</i></p></blockquote></div>
+     
+    <div style="border-bottom:1px solid #fafafa;"></div>
+     
+    <div id="permalink">
+    <a href="http://m-omentai.tumblr.com/post/98309187969/allthetreesofthefield-i-see-skies-of-blue-and">
+    <b>September 24</b></a>
+    
+     
+    <div style="float:right;margin-top:0px;margin-right:0px"><a href="https://www.tumblr.com/reblog/98309187969/NNoA2jvg" target="_blank" class="details">Reblog</a></div>
+     
+    
+    ― &nbsp;<a href="http://m-omentai.tumblr.com/post/98309187969/allthetreesofthefield-i-see-skies-of-blue-and">2475</a>
+    
+     
+    
+     
+    </div>
+     
+    
+     
+     
+     
+    </div>
+     
+     
+    
+     
+     
+    
+     
+     
+     
+    </div>
+     
+    </div>
+     
+    <div id="credit">
+    <a href="http://meanwolfs.tumblr.com/" title="theme by meanwolfs" >
+    &copy; meanwolfs</a>
+    </div>
+     
+    
+     
+    
+     
+    <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://m-omentai.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847818&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbS1vbWVudGFpLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=OPFLHBBNDG&K=b9c8a9df9615f0918d50ec85a9be7f420df2750562e0846c156d07c04e3dd0da&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847818&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbS1vbWVudGFpLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=OPFLHBBNDG&K=45c6eadf7300e9b5832270194bfcd48288feecb293e87f1865ec83eea558b7e7&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847818&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL20tb21lbnRhaS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiNTMxMzgzMzgiLCJyb290X3Bvc3RpZCI6Ijk4NTIxMjc0NjczIiwicG9zdGlkIjo5ODU2OTIxNDkxNCwiYmxvZ2lkIjoiODM5ODE3OTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjk1NDk0MTkiLCJyb290X3Bvc3RpZCI6Ijk3NTI5MDYzMTI2IiwicG9zdGlkIjoiOTg1NTg0MjU0MTQiLCJibG9naWQiOiI4Mzk4MTc5MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyNDMyOTI1NyIsInJvb3RfcG9zdGlkIjoiOTYyMjAwMjM4MDAiLCJwb3N0aWQiOiI5ODUyOTUzMzgyOSIsImJsb2dpZCI6IjgzOTgxNzkzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjYzODQ1OTQiLCJyb290X3Bvc3RpZCI6IjY2MTUxMjU1OTgxIiwicG9zdGlkIjoiOTg1MjY1NjMwNzQiLCJibG9naWQiOiI4Mzk4MTc5MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0MjUzNDQ0MSIsInJvb3RfcG9zdGlkIjoiMTc0MzY3NzkwNjgiLCJwb3N0aWQiOiI5ODUyNDU2MTQyNCIsImJsb2dpZCI6IjgzOTgxNzkzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4OTA2OTQiLCJyb290X3Bvc3RpZCI6Ijk4NTAxNTU4MzU1IiwicG9zdGlkIjoiOTg1MDQzNzQxNjkiLCJibG9naWQiOiI4Mzk4MTc5MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxODM1MjA0MDMiLCJyb290X3Bvc3RpZCI6Ijk4NDM2ODYxODM1IiwicG9zdGlkIjoiOTg1MDM5ODk3MDkiLCJibG9naWQiOiI4Mzk4MTc5MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNjI3MDAyNCIsInJvb3RfcG9zdGlkIjoiMzIxNzM4NDQzMTgiLCJwb3N0aWQiOiI5ODQ0NDI2MzA0OSIsImJsb2dpZCI6IjgzOTgxNzkzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijk4Mzc5MzA1Iiwicm9vdF9wb3N0aWQiOiI5MzUzNDc3OTA0MCIsInBvc3RpZCI6Ijk4NDMyOTczNDk5IiwiYmxvZ2lkIjoiODM5ODE3OTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTY4MDM5MzUiLCJyb290X3Bvc3RpZCI6IjU5NTUzNTI2MjMzIiwicG9zdGlkIjoiOTgzMDkxODc5NjkiLCJibG9naWQiOiI4Mzk4MTc5MyIsInNvdXJjZSI6MzN9XX0=&U=BFOMBCKIGK&K=e6da8023ca15c2b8c231b478c0500512bc94c25430c9cb8a3aa5342beebe47bb&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847818&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL20tb21lbnRhaS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiNTMxMzgzMzgiLCJyb290X3Bvc3RpZCI6Ijk4NTIxMjc0NjczIiwicG9zdGlkIjo5ODU2OTIxNDkxNCwiYmxvZ2lkIjoiODM5ODE3OTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjk1NDk0MTkiLCJyb290X3Bvc3RpZCI6Ijk3NTI5MDYzMTI2IiwicG9zdGlkIjoiOTg1NTg0MjU0MTQiLCJibG9naWQiOiI4Mzk4MTc5MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyNDMyOTI1NyIsInJvb3RfcG9zdGlkIjoiOTYyMjAwMjM4MDAiLCJwb3N0aWQiOiI5ODUyOTUzMzgyOSIsImJsb2dpZCI6IjgzOTgxNzkzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjYzODQ1OTQiLCJyb290X3Bvc3RpZCI6IjY2MTUxMjU1OTgxIiwicG9zdGlkIjoiOTg1MjY1NjMwNzQiLCJibG9naWQiOiI4Mzk4MTc5MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0MjUzNDQ0MSIsInJvb3RfcG9zdGlkIjoiMTc0MzY3NzkwNjgiLCJwb3N0aWQiOiI5ODUyNDU2MTQyNCIsImJsb2dpZCI6IjgzOTgxNzkzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4OTA2OTQiLCJyb290X3Bvc3RpZCI6Ijk4NTAxNTU4MzU1IiwicG9zdGlkIjoiOTg1MDQzNzQxNjkiLCJibG9naWQiOiI4Mzk4MTc5MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxODM1MjA0MDMiLCJyb290X3Bvc3RpZCI6Ijk4NDM2ODYxODM1IiwicG9zdGlkIjoiOTg1MDM5ODk3MDkiLCJibG9naWQiOiI4Mzk4MTc5MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNjI3MDAyNCIsInJvb3RfcG9zdGlkIjoiMzIxNzM4NDQzMTgiLCJwb3N0aWQiOiI5ODQ0NDI2MzA0OSIsImJsb2dpZCI6IjgzOTgxNzkzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijk4Mzc5MzA1Iiwicm9vdF9wb3N0aWQiOiI5MzUzNDc3OTA0MCIsInBvc3RpZCI6Ijk4NDMyOTczNDk5IiwiYmxvZ2lkIjoiODM5ODE3OTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTY4MDM5MzUiLCJyb290X3Bvc3RpZCI6IjU5NTUzNTI2MjMzIiwicG9zdGlkIjoiOTgzMDkxODc5NjkiLCJibG9naWQiOiI4Mzk4MTc5MyIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=BFOMBCKIGK&K=1ad882db39c1cb2a790fb78c7d31527f601e69b70d0cb1fda65e531b9b68f98d&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:83981793,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2Fm-omentai.tumblr.com%2F&amp;lang=en_US&amp;name=m-omentai&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_1019fa03978b_64.png&amp;title=3+2+1+Let%26%23039%3Bs+Jam.&amp;url=http%3A%2F%2Fm-omentai.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2Fm-omentai.tumblr.com%2F&amp;lang=en_US&amp;name=m-omentai&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_1019fa03978b_64.png&amp;title=3+2+1+Let%26%23039%3Bs+Jam.&amp;url=http%3A%2F%2Fm-omentai.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body></html>
+

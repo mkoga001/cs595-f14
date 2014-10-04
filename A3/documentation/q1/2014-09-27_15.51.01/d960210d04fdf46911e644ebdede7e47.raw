@@ -1,0 +1,1720 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="" lang="en" xmlns:fb="http://ogp.me/ns/fb#">  <!--<![endif]-->
+<head> 
+<meta charset="utf-8"/>
+<title>- Nose - Telly Video</title>
+<meta name="keywords" content="telly, twitvid, video, upload, share, profile, collection, trending, popular, funny" />
+<meta name="description" content="Video posted by Cassadee Pope (@heycassadee) on Telly." />
+<meta property="fb:app_id" content="99749436953"/>
+<meta property="og:title" content="- Nose" />
+<meta property="og:description" content="Video posted by Cassadee Pope (@heycassadee) on Telly." />
+<meta property="og:url" content="http://telly.com/AMBEF" />
+<meta property="og:type" content="video.other" />
+<meta property="og:image" content="http://images.telly.com/content/twitvidthumbnails/A/M/B/AMBEF_med.jpg" />
+
+<meta property="og:site_name" content="Telly">
+<meta property="og:video:url" content="http://telly.com/AMBEF" />
+<!--<meta property="og:video:secure_url" content="https://telly.com/AMBEF" />-->
+<meta property="og:video:type" content="text/html" />
+
+<meta name="twitter:card" value="summary">
+<meta name="twitter:site" value="@TellyApp">
+<meta name="twitter:url" value="http://telly.com/AMBEF">
+<meta name="twitter:title" value="- Nose">
+<meta name="twitter:description" value="Video posted by Cassadee Pope (@heycassadee) on Telly.">
+<meta name="twitter:image" value="http://images.telly.com/content/twitvidthumbnails/A/M/B/AMBEF_med.jpg">
+<meta name="twitter:domain" value="telly.com"
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<link rel="canonical" href="http://telly.com/AMBEF" />
+
+<!-- link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/pafepfdlekledfcoiikmcgnbnodholec" -->
+<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/flldhfhlbcifijbnkhjgfbmfbhbdjfeh">
+<meta name="google-site-verification" content="jTUxsnAzAVw60fhdkA9j-8Nhe2jEyysSZIBeU2Q6U9c" />
+<link rel="icon" href="http://assets.telly.com/v3/images/fav-icon.png?v=2" type="image/x-png"> 
+<link rel="shortcut icon" href="http://assets.telly.com/v3/images/fav-icon.png?v=2" type="image/x-png">
+<meta name="google" value="notranslate" />
+
+
+<script type="text/javascript" id="tv_data">
+  var less = {};
+  var TwitVidWeb = {
+    SITE_ENV : 'DEFAULT',
+    SITE_BRAND : 'Telly',
+    SITE_DOMAIN : 'telly.com',
+    COOKIE_DOMAIN : ".telly.com",
+    SITE_PROTOCOL : "http",
+    auth_token : "",
+    playVideoId : "",
+    GOOGLE_ANALYTICS_ID : 'UA-32076413-2',
+    MIXPANEL_ID : "db84436b503aff9a36f2f675ae1f8f44",
+    FACEBOOK_APP_ID : "99749436953",
+    CDN_URL: "http://assets.telly.com",
+    IP_ADDRESS: "128.82.4.182",
+    video_is_processing: 0,
+    sharethrough : 0,
+    request : {"id":"AMBEF","guid":"AMBEF","fb_landing":1,"page":0,"entity_vanity_url":null,"page_type":"carousel"},
+    hashtag : "",
+    screenname : "",
+    section : "video",
+    page_type : "carousel",
+    page_name : "default",
+    
+    version : "20140924.151219",
+    user : {"vanity_url":null,"premium_member":null,"premium_capable":false,"geoip_country":"US","geoip_city":"Norfolk","geoip_timezone":"America\/New_York","title":null,"first_name":null,"lang":"en"},
+    video_guid : "AMBEF",
+    vanityCheck : {},
+    player : 0,
+    regIndex : "",
+    masonry : 0,
+    iphoneAppStoreURL: 'http://itunes.apple.com/app/id524552885?mt=8.',
+    androidAppStoreURL: 'https://play.google.com/store/apps/details?id=com.telly&referrer=utm_source%3Dtellymobile%26utm_medium%3Dbutton%26utm_campaign%3Dmobile',
+    on_mobile: 0,
+    on_mypad: 0,
+    fb_connected: -1,
+    cur_share_vid:0,
+    user_country: '',
+    test_group: 2,
+    metrics_url: 'metrics.telly.com',
+    video_creator: '4e865160ffaf943a02fd0700'
+  };
+
+  /* Google Analytics */
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32076413-2']);
+
+var tv = window.tv || {};
+
+  /* Sharethrough */
+  var _sharethrough = _sharethrough || [];
+
+  window.sessionMetrics = {
+    loggedin: !!TwitVidWeb.auth_token,
+    authtype: 'none',
+    userid: TwitVidWeb.user ? TwitVidWeb.user.vanity_url : null,
+    product: 'web'
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) return;
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=";
+     fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+
+
+  if (top != self) { 
+    if(document.referrer) {
+      if(document.referrer.indexOf('facebook.com') > -1) top.location.replace(self.location.href); 
+    }
+  }
+</script>
+
+<!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+mixpanel.init("db84436b503aff9a36f2f675ae1f8f44");</script><!-- end Mixpanel -->
+
+
+
+<link rel="stylesheet" type="text/css" href="http://assets.telly.com/v3/less/telly.css?v=20140924.151219" />
+
+
+
+<link rel="stylesheet" type="text/css" href="http://assets.telly.com/v3/css/owl.carousel.css?v=1" />
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
+
+<!-- END CSS DESKTOP -->
+
+<!-- JS_DESKTOP -->
+  <!-- MINIFIED -->
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="http://assets.telly.com/v3/js/jquery.1.7.2.min.js"><\/script>')</script>
+
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <script>window.jQuery.ui || document.write('<script src="http://assets.telly.com/v3/js/jquery-ui.1.9.1.min.js"><\/script>')</script>
+
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+  <script type="text/javascript">(swfobject === undefined) && document.write('<script src="http://assets.telly.com/v3/js/swfobject.2.2.js"><\/script>')</script>
+
+
+  <script type="text/javascript" src="http://assets.telly.com/v3/js/vimeoJsApi.js?v=99"></script>
+  <!--<script type="text/javascript" src="//www.youtube.com/player_api" ></script>-->
+  <script type="text/javascript" src="http://assets.telly.com/v3/js/v4/app.js?v=20140924.151219"></script>
+  <script type="text/javascript" src="http://assets.telly.com/v3/js/dependencies.compiled.js?v=20140924.151219" ></script>
+  <!-- @todo decrement -->
+  <script type="text/javascript" src="http://assets.telly.com/v3/js/prototype.js?v=99"></script>
+  <script type="text/javascript" src="http://assets.telly.com/v3/js/prototypepatch.js?v=99"></script>
+  <script type="text/javascript" src="http://assets.telly.com/v3/js/bigpipe.js?v=99"></script> 
+  <script type="text/javascript" src="http://assets.telly.com/v3/js/twitvid.compiled.js?v=20140924.151219"></script>
+  
+  <script type="text/javascript" src="http://assets.telly.com/v3/js/jquery.masonry.js?v=20140924.151219"></script>
+  <script type="text/javascript" src="http://assets.telly.com/v3/js/mustache.js?v=20140924.151219"></script>
+  <script type="text/javascript" src="http://assets.telly.com/v3/js/jquery.autocomplete.1.js"></script>
+  <script type="text/javascript" src="http://assets.telly.com/v3/js/jquery.timeago.js"></script>
+
+  
+  <script type="text/javascript" src="http://assets.telly.com/v3/js/owl.carousel.min.js"></script>
+  
+
+
+
+</head>
+<body class=" section_video page_type_carousel noauth my_profile fb_auth_ref" 
+data-pagetype="carousel" 
+data-pagename="default"
+data-screenname=""
+data-analytics-section="video"
+data-analytics-pagename="/video/AMBEF">
+
+<div id="fb-root"></div>
+
+<section id="top_bar">
+  <div class="wrapper">
+    <div class="logo">
+      <a data-analytics-click="1" data-analytics-category="top_bar_menu" data-analytics-action="click" data-analytics-label="logo" data-analytics-value="0" href="/"  ><i aria-hidden="true" data-icon="A"></i></a>
+    </div>
+
+    <div class="left_side">
+      <ul class="top_bar_nav">
+        <li class="feed">
+  <a id="my_telly_tab" href="javascript:void(0)" rel="showLogin" callbacktype="reload" data-analytics-click="1" data-analytics-category="top_bar_menu" data-analytics-action="click" data-analytics-label="feed" data-analytics-value="0" class="feed">Home</a>
+        </li>
+        
+        <li class="popular dd">
+          <a href="/?s=popular" data-ajaxified="true" data-analytics-click="1" data-analytics-category="top_bar_menu" data-analytics-action="click" data-analytics-label="trending" data-analytics-value="0">Popular Clips</a>
+        </li>
+
+        <li class="categories-overflow dd">
+        <a href="javascript:" class="more"><span class="unicode">▼</span></a>
+        <ul class="top-menu-dropdown" style="z-index:1000;left:0px;margin-left:0;">
+          
+          <li>
+            <a href="/?s=popular" data-ajaxified="true" data-analytics-click="1" data-analytics-category="top_bar_menu" data-analytics-action="click" data-analytics-label="popular" data-analytics-value="0">Popular Clips</a>
+          </li>
+        </ul>   
+      </li>
+      </ul>
+      
+    </div>
+
+    <div class="right_side">
+      <ul class="top_bar_nav">
+<!--          -->
+        <li class="search">
+          <a href="javascript:"><i aria-hidden="true" data-icon="P"></i> <input type="text" placeholder="search" class="search_input_2 ac_input" autocomplete="off"></a>
+        </li>
+        <li class="button_holder">
+          <a href="javascript:void();" rel="showLogin" callbacktype="reload" callbacktarget="" data-message="" 
+          data-analytics-event="1"
+          data-analytics-category="authenticate"
+          data-analytics-action="start"
+          class="button_class up_white sign_in">Sign in</a>
+        </li>
+
+        <li class="sep"></li>
+
+        <li class="dd"><a data-analytics-click="1" data-analytics-category="top_bar_menu" href="javascript:void(0);" class="language_selector ">
+          En
+          
+          
+          
+          
+        <span class="unicode">▼</span></a>
+          <ul class="top-menu-dropdown" id="top-lang-select">
+            <li><a href="javascript:void(0);" data-lang="en">English <i aria-hidden="true" data-icon="G"></i></a></li>
+            <li><a href="javascript:void(0);" data-lang="ar">العربية </a></li>
+            <li><a href="javascript:void(0);" data-lang="es">Español </a></li>
+            <li><a href="javascript:void(0);" data-lang="ru">Русский </a></li>
+            <li><a href="javascript:void(0);" data-lang="ko">한국어 </a></li>
+          </ul>
+
+      </li>
+
+      <li class="sep"></li>
+        
+        <!-- Profile drop down if logged in -->
+        
+        <!-- Sign in button if logged out -->
+  <li class="dd about">
+  <a href="/about" class="about_us" target="_blank" data-ajaxified="false">More <span class="unicode">▼</span></a>
+  <ul class="top-menu-dropdown more_dropdown">
+        <li><a href="/about">Get the mobile app</a></li>
+        <li><a href="/?s=recommended">Popular Telly Users</a></li>
+  <li><a href="http://blog.telly.com" target="_BLANK">Blog</a></li>
+        
+  <li><a href="http://getsatisfaction.com/telly"  target="_BLANK">Support</a></li>
+        <li><a href="mailto:support@telly.com">Email us</a></li>
+  <li><a href="/?s=terms" data-ajaxified="false">Privacy &amp; Terms</a></li>
+  </ul>
+  </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
+<div class="hashtag_chooser attached">
+  <span class="list"><a href="/tag/funny" data-ajaxified="false" data-hashtag="funny" onclick="first_run=1;TwitVidWeb.hashtag='funny'">#funny</a><a href="/tag/cute" data-ajaxified="false" data-hashtag="cute" onclick="first_run=1;TwitVidWeb.hashtag='cute'">#cute</a><a href="/tag/shocking" data-ajaxified="false" data-hashtag="shocking" onclick="first_run=1;TwitVidWeb.hashtag='shocking'">#shocking</a><a href="/tag/breaking" data-ajaxified="false" data-hashtag="breaking" onclick="first_run=1;TwitVidWeb.hashtag='breaking'">#breaking</a><a href="/tag/geeky" data-ajaxified="false" data-hashtag="geeky" onclick="first_run=1;TwitVidWeb.hashtag='geeky'">#geeky</a><a href="/tag/tunes" data-ajaxified="false" data-hashtag="tunes" onclick="first_run=1;TwitVidWeb.hashtag='tunes'">#tunes</a><span class="divider"> </span><a href="/celebs">Celebs</a></span>
+</div>
+
+<div id="page_overlay">
+  <header id="loading"></header>
+  <div id="loading_content">
+    <!-- <img src="/v3/images/loader_TV.gif"> -->
+    <div class="loadingAnim">
+          <div id="followingBallsG">
+            <div id="followingBallsG_1" class="followingBallsG"></div>
+            <div id="followingBallsG_2" class="followingBallsG"></div>
+            <div id="followingBallsG_3" class="followingBallsG"></div>
+            <div id="followingBallsG_4" class="followingBallsG"></div>
+          </div>
+        </div>
+    <div id="loading_msg"></div> 
+  </div>
+</div>
+<script>
+$j('.mena_banner').delay(3000).slideDown();
+trackEvent("carousel_mena_banner", "show-banner", "true", 1);
+mixpanel.track("premium_signup:banner-impression",{banner_copy:"Watch unlimited TV shows & movies anytime, anywhere!", button_copy:"Get Telly Plus"});
+</script>
+
+
+<script type="text/javascript">
+lang = {"A collection is a set of videos built around a common theme. Here are some good examples of collection titles:":"A collection is a set of videos built around a common theme. Here are some good examples of collection titles:","A place to discover and share great video.":"A place to discover and share great video.","Activity":"Activity","add a comment":"add a comment \/ @mention your friends","Add editors":"Add editors","Add editors...":"Add editors...","Add Video":"Add Video","Anyone Can Post (Moderated)":"Anyone Can Post (Moderated)","Anyone Can Post":"Anyone Can Post","Anyone":"Anyone","Are you sure you want to delete this collection?":"Are you sure you want to delete this collection?","Are you sure you want to delete this video?":"Are you sure you want to delete this video?","AutoPlay":"AutoPlay","About Telly":"About Telly","background image":"background image","Bio":"Bio","bio":"bio","Button":"Button","Cancel":"Cancel","cancel":"cancel","Collect and Share Your Favorite Videos":"Collect and Share Your Favorite Videos","Collect":"Collect","Collection Category":"Collection Category","Collection Title":"Collection Title","Collection":"Collection","Collections":"Collections","Comments":"Comments","comments":"comments","Control when and how often Telly sends emails to you.":"Control when and how often Telly sends emails to you.","Create a Collection":"Create a Collection","Create Collection":"Create Collection","curators":"curators","Delete Collection":"Delete Collection","Permanently Delete Collection":"Permanently Delete Collection","Delete":"Delete","Delete Video":"Delete Video","Done":"Done","Edit Collection":"Edit Collection","Edit Profile":"Edit Profile","Edit your Profile":"Edit your Profile","Edit":"Edit","Edit Offline CTA":"Edit Offline CTA","Editors":"Editors","Email me when":"Email me when","Email me with":"Email me with","Email Notifications":"Email Notifications","Email":"Email","Embed code":"Embed code","Embed":"Embed","Enable Moderation":"Enable Moderation","Follow":"Follow","followers":"followers","Followers":"Followers","Following":"Following","friends":"friends","From":"From","Browse":"Browse","Get Started":"Get Started","Group Moderated":"Group Moderated","Here are some suggested People & Collections to follow on Telly":"Here are some suggested People & Collections to follow on Telly","Info":"Info","is using Telly":"is using Telly","Join Telly Today":"Join Telly Today","Just me":"Just me","Language Preference":"Language Preference","Like":"Like","like":"like","Likes":"Likes","liked this video":"liked this video","Liked":"Liked","liked":"liked","Link":"Link","Loading":"Loading","Loading...":"Loading...","loading...":"Loading...","Location":"Location","Me + Editors":"Me + Editors","Messages":"Messages","Moderated":"Moderated","Name":"Name","name":"name","Next":"Next","Open Collection":"Open Collection","others":"others","people":"people","person":"person","Popular":"Popular","Popular Clips":"Popular Clips","Popular Videos":"Popular Videos Trending Now","My Profile":"My Profile","New":"New","Picture":"Picture","Please enter a collection title":"Please enter a collection title","Please enter a valid url, ex:":"Please enter a valid url, ex:","Please enter a":"Please enter a","Please enter your email.":"Please enter your email.","Post":"Post","post":"Post","posted in":"posted a video in","Processing Video":"Processing Video","processing video":"processing video","Profile":"Profile","Remove this collection":"Remove this collection","Repost this in your Telly profile feed":"Repost this in your Telly profile feed","Save":"Save","see all":"see all","See All":"See All","English Only":"English Only","Arabic Only":"Arabic Only","TV Only":"TV Only","Movies Only":"Movies Only","Separate with commas":"Separate with commas","Settings":"Settings","Share":"Share","Sign in to Telly":"Sign in to Telly","Start a cool collection about anything!":"Start a cool collection about anything!","Tags":"Tags","Telly Username":"Telly Username","Telly video player":"Telly video player","This address is in use, try another?":"This address is in use, try another?","This is taken, try again":"This is taken, try again","This username is taken, try another?":"This username is taken, try another?","Top Rated":"Top Rated","Unfollow":"Unfollow","Unlike":"Unlike","Upload new background":"Upload new background","Upload new pic":"Upload new pic","URL":"URL","User Avatar":"User Avatar","user avatar":"user avatar","Videos":"Videos","videos":"videos","views":"views","Home":"Home","Website":"Website","Welcome to Telly!":"Welcome to Telly!","Welcome to the new Telly!":"Welcome to the new Telly!","Who can post?":"Who can post?","yes":"yes","no":"no","You are also following":"You are also following","You can change your pic later":"You can change your pic later","You":"You","Your Name":"Your Name","Your Pic":"Your Pic","fun and simple":"a fun and simple way to collect and share awesome videos from across the web.","collect_and_share":"Collect & Share videos you love.","a_collection_is":"A collection is a set of videos built around a common theme. Here are some good examples of collection titles:","details":"Please fill in a few more details below.","is_using_telly":"is_using_telly","join_telly_today":"Join Telly Today","invited_you_moderate":"has invited you to become an editor for this collection. As an editor, you can post videos to this collection and help make it awesome!","tour_description":"Your Video Feed features videos from the people & collections you follow on Telly.","tour_welcome":"Welcome to your Video Feed!","Your Video Feed":"Welcome to your Telly","post_first":"Post your first video...","paste":"Post a video from Telly or YouTube to your collection by pasting the video link","post_a_video":"Post a video...","add_title":"Add a title...","not yet on telly":"is sharing videos on Twitter, but has not yet joined Telly.","watched this video shared by":"watched this video shared by","shared this video":"shared this video","video_deleted_msg":"Video was deleted. Check out these other popular videos.","video_processing_msg":"Telly is processing this video. It should be available shortly.","Meet Telly. The web's TV":"Meet Telly. The web's TV","Results for":"Results for","Added by":"Added by","Watch on your phone or tablet":"Watch on your phone or tablet","Get the mobile app":"Get the mobile app","Suggested friends to send video to":"Suggested friends to send video to","Can you take a second to give us feedback?":"Can you take a second to give us feedback?","Now Playing":"Now Playing","Up Next":"Up Next","Celebrities":"Celebs","Top Celebrity Videos":"Top Celebrity Videos","shared by":"shared by","watched":"watched","Blog":"Blog","shared":"shared","this":"this","this video":"this video","popular":"popular","Comment with @mentions and #hashtags":"Comment with @mentions and #hashtags","seconds":"sec","minutes":"min","hours":"hr","days":"d","weeks":"wks","months":"mth","years":"yr","Share on FB":"Share on FB","Share on Twitter":"Twitter Share","search":"search","Search":"Search","more":"More","Sign out":"Sign out","Movie":"Movie","Trending Now":"Trending Now","New Movies":"New Movies","Movies You'll Like":"Movies You'll Like","Season":"Season","Seasons":"Seasons","Episode":"Episode","Episodes":"Episodes","Resume":"Resume","Resume Playing":"Resume Playing","watch_unlimited":"Watch unlimited TV shows & movies anytime, anywhere!","1299_month":"Only %PRICE% a month.","Start 7 Day Free Trial":"Start 30 Day Free Trial","latest_and_best":"The latest and best from Hollywood, Bollywood & the Arab world.","cancel_anytime":"You can cancel anytime.","Arabic Subtitles":"Arabic Subtitles","watch_anywhere":"Watch on Mobile, PC, Mac, Tablet and TV","left":"left","Private":"Private","Your Watchlist":"Your Watchlist","Recently Watched":"Recently Watched","Trailer":"Trailer","More Info":"More Info","Watch Now":"Watch Now","TV & Movies":"TV & Movies","Change":"Change","Aired":"Aired","Language":"Language","Social":"Social","Privacy":"Privacy","Telly Plus Payment":"Telly Plus Payment","Play":"Play","Related":"Related","More like this":"More like this","Welcome to Telly Plus":"Welcome to Telly Plus","thanks for subscribing telly plus":"Thank you for subscribing to Telly\u2019s unlimited catalog of on-demand movies and TV shows. Happy Streaming!","will be billed":"You will be billed %PRICE% again in one month for your premium membership.","Continue to Telly Plus":"Continue to Telly Plus","Update Payment":"Update Payment","Cancel Telly Plus Subscription":"Cancel Telly Plus Subscription","Finish":"Finish","I agree to the terms and conditions":"I agree to the terms and conditions","Credit Card Number":"Credit Card Number","Expiration Date":"Expiration Date","Security Code":"Security Code","Billing Address 1":"Billing Address 1","Billing Address 2":"Billing Address 2","Billing Address":"Billing Address","Address":"Address","Country":"Country","City":"City","State":"State","Postal Code":"Postal Code","Phone Number":"Phone Number","unlimited content":"Unlimited Movies & TV Shows","telly plus sign up or in":"To get started with your Telly Plus subscription, please sign up or sign in below.","enter billing below":"Enter your billing info below to begin the trial. You will be charged %PRICE% per month after the trial has ended. You can cancel anytime.","Sign in with facebook":"Sign in with facebook","or twitter":"or twitter","or email":"or email","Create a Telly Account":"Create a Telly Account","Forgot my password":"Forgot my password","Age Rating":"Age Rating","Update Payment on PayPal":"Update Payment on PayPal","billing managed by ios":"Your billing settings are currently managed via the App Store for iOS. To make changes, please use the mobile app.","billing managed by android":"Your billing settings are currently managed via Google Play. To make changes, please use the mobile app.","billing managed by cashu":"Your billing is currently managed via CashU. Because you prepaid for your Telly Plus account, you cannot manage your active subscription. Please contact us at <a href='mailto:plussupport@telly.com'>plussupport@telly.com<\/a> for help.","redownload app":"Need to download the app again?","Get it here":"Get it here","telly subscription valid through":"Your Telly Plus membership is valid through %1 You will be automatically billed every month for %2 until you cancel.","start_trial_for_unlimited":"Start your 30-day trial for unlimited movies and TV shows. You will not be billed during this period.","after_7_days_billed":"After 30 days you will be charged on a monthly basis.","billing_info_secure":"Your billing information is 100% secure with us. We use PayPal to process payments. Either use your existing PayPal account, or use any credit or debit card.","continue_to_paypal":"Enter Payment Information on PayPal","Directed by":"Directed by","Cast":"Cast","Created by":"Created by","Genre":"Genre","action_and_adventure":"Action & Adventure","anime":"Anime\/Animation","children_and_family":"Children & Family","classic":"Classic","comedy":"Comedy","documentary":"Documentary","drama":"Drama","religion":"Religion","horror":"Horror","independent":"Independent","music":"Music","musical":"Musical","reality":"Reality","romance":"Romance","scifi":"Sci-Fi & Fantasy","sports":"Sports","thriller":"Thriller","Already subscriber":"Already a Telly Plus subscriber?","Sign in here":"Sign in here","Sign in":"Sign in","Support":"Support","Popular Telly Users":"Popular Telly Users","Privacy and Terms":"Privacy & Terms","My Telly":"My Telly","More by":"More by","and other popular videos":"and other popular Telly videos","All Genres":"All Genres","watch_privacy_explanation":"\"My Telly\" is a personalized stream of recommended videos based on what your friends are watching, commenting on, liking, and sharing. For increased privacy, you can turn off your own \"watch\" action, so your friends only see what you've shared, liked or commented on\u2014and not watched.","Publish Watch Actions":"Publish Watch Actions","delete_telly_acount_explainer":"If you no longer wish to have a Telly account, you may delete all of your posted videos, comments, likes, etc by permanently deleting your user below. Warning: account deletions are irreversible. All of your data will be erased.","Delete Account":"Delete Account","People watch my videos":"People watch my videos","A new hot video is released (daily)":"A new hot video is released (daily)","Find Interesting Telly Members":"Find Interesting Telly Members to Follow","Add a Video to your Telly Profile":"Add a Video to your Telly Profile","Upload a video from your computer":"Upload a video from your computer","or":"or","Paste a link from most video sites":"Paste a link from most video sites","Paste video link here":"Paste video link here","A new weekly digest of videos is available":"A new weekly digest of videos is available","Featured Movies":"Featured Movies","Featured TV Shows":"Featured TV Shows","Popular Web Videos":"Popular Web Videos","Introducting Telly Plus":"Introducting Telly Plus","Watch anytime anywhere":"Watch TV shows and movies anytime, anywhere.","Get Telly Plus":"Get Telly Plus","confirm_telly_plus_delete":"Are you sure you want to stop your premium membership? If you continue, you'll have to go through the checkout process again if you want to reinstate your account.","signup_watch":"Watch 1000\u2019s of movies and TV shows online.","signup_the_best":"The best from Hollywood and the Arab world.","signup_the_best_emphasis":"The <span>best<\/span> from <span>Hollywood<\/span> and the Arab world.","signup_no_ads":"No Ads. No Contracts. Cancel Anytime.","signup_any_device":"Watch on your iPhone, Android, iPad, Mac or PC","coming soon":"Coming Soon","signup_hd":"HD quality. Fast Streaming. Arabic subtitles available.","HD Quality":"HD Quality -- Fast Streaming","No Ads":"No Ads","Password":"Password","Register":"Register","call_us":"Any questions? Call toll-free:","Secure Server":"Secure Server","30 Days Free":"30 Days Free","no hidden fees":"Cancel Anytime. No commitments. No hidden fees.","Total":"Total:","Due Today":"Due Today:","signup_start_free_month":"Start your FREE month of Telly Plus!","what is telly plus":"What is Telly Plus?","pay with a credit or debit":"&#12297; Pay with a Credit or Debit Card","get 30 days free":"Get 30 Days of Telly Plus for Free!","or create an account":"or create an account","Create an account":"Create an account","pay with paypal":"&#12297; Pay with PayPal","after 30 days":"After 30 days you will be charged %PRICE% per month for Telly Plus","plus_signup_error":"Please make sure you fill out all form fields, and correct any errors below.","problem_with_payment":"There was a problem with your payment:","streaming_error_601":"Sorry, you need to be a Telly Plus member to play this kind of content","streaming_error_602":"Sorry, you cannot stream this content in your current country","streaming_error_603":"Sorry, you currently have too many simultaneous Telly Plus streams playing","streaming_error_701":"Sorry, we can't validate your payment method at this time.","Introducing Telly Plus":"Introducing Telly Plus","You will not be charged now":"You will not be charged now.","cancel even before month is over":"You can cancel anytime, even before your FREE month is over.","joining means you agree to":"By joining, you agree to our","Now available in":"Now available in:","Join Using":"Join Using","Join Using a Credit Card":"Join using a Credit Card","Get 30 days sign in to start":"Get 30 days of Telly Plus for free\u2014just sign in to start:","sign up using email instead":"Sign up using just an email address instead","paying with cc means you agree":"Paying with a credit card means that you agree to the terms and conditions","cashu not available":"Sorry, CashU is not available yet. Please select another payment method.","enter an email":"Please enter your email address","First Name":"First Name","Last Name":"Last Name","Account":"Account","qm":"?","security_code_help":"This is the 3-digit code on the back of Visa\/MasterCard\/Discover cards or the 4-digit code on the front of American Express cards.","premium_faq_q1":"What is the difference between Telly Plus and Telly?","premium_faq_q2":"How Does Telly Plus work?","premium_faq_q3":"How much does Telly Plus cost?","premium_faq_q4":"Is there a free trial for Telly Plus?","premium_faq_q5":"How does billing for Telly Plus work?","premium_faq_q6":"Where can I dispute a credit card charge?","premium_faq_q7":"How do I cancel my membership?","premium_faq_q8":"What devices, and how many simultaneous movies\/TV shows, can I watch on Telly Plus?","premium_faq_q9":"Can I download the movie locally to my hard drive instead of streaming?","premium_faq_q10":"Are Telly Plus movies in HD?","premium_faq_q11":"Where is Telly Plus available?","premium_faq_q12":"Where can I recommend a movie or TV show to add to your database?","premium_faq_q13":"If I have an issue\/problem with Telly Plus, where can I contact you?","premium_faq_q14":"What kind of movies does Telly Plus have?","premium_faq_q15":"Help! I'm unable to log into my account","premium_faq_q16":"Where can I watch Telly Plus content?","premium_faq_q17":"I already have a Telly account, do I need to create a Telly Plus account?","premium_faq_q18":"Who can see what I watch on Telly Plus?","premium_faq_q19":"Do you have a contact phone number I can reach you at?","premium_faq_q20":"How fast does my Internet speed need to be?","premium_faq_q21":"How can I watch Telly Plus content on my TV? ","premium_faq_a1":"Telly is a simple way to share and discover awesome videos. Telly Plus is our BRAND NEW premium content service that allows you to stream some of the best movies & TV shows to all your mobile devices, even to your computer!","premium_faq_a2":"Telly Plus is simple to use. Just sign up for our 30-day FREE TRIAL and you'll have unlimited access to our entire database of popular movies & TV shows from around the globe, including the big Hollywood blockbusters along with Arabic TV shows & movies. Just find the movie\/TV show you want to watch and click play.","premium_faq_a3":"After the 30-day free trial period, Telly Plus is %PRICE% per month. You can Cancel Anytime.","premium_faq_a4":"Yes! There is an unlimited 30-day trial period and you can cancel anytime, online, 24 hours a day. There are no contracts or cancellation fees.","premium_faq_a5":"If you enjoyed your Telly Plus trial and wish to continue using the sevice, you don't have to do anything... your membership will automatically continue for as long as you choose to remain a member. The Telly Plus membership is a month-to-month subscription for %PRICE% per month. You can easily cancel anytime, online, 24 hours a day. There are no contracts or cancellation fees.","premium_faq_a6":"Telly Plus employees are here to help. If you have any issues with your billing, or if you just have a question or piece of feedback, email us at <a href='mailto:plussupport@telly.com'>plussupport@telly.com<\/a>","premium_faq_a7":"You may cancel your Telly Plus subscription at any time, 24 hours a day, via the 'Settings' in your mobile device or the web.","premium_faq_a8":"Telly Plus is available on iOS and Android devices for mobile, and you can watch our content from your computer, laptop, etc. Your subscription allows for unlimited streams on up to 5 devices.","premium_faq_a9":"Currently, Telly Plus is a streaming-only service and will require an active internet connection. However, we'll remember your progress when watching movies & TV shows so you can jump back in later where you left off.","premium_faq_a10":"Yes! Telly Plus videos are in Hi-Def when available.","premium_faq_a11":"Currently, Telly Plus is available in these countries: Saudi Arabia, Bahrain, UAE, Kuwait, Qatar, Oman, Lebanon, Jordan, Egypt, Morocco, Algeria, Tunisia, Iraq and Yemen In other words, if you're seeing this FAQ, Telly Plus is available to you right now!","premium_faq_a12":"We'd love to know what you want to see! If there's a movie or TV show that you think we should have, just email us at <a href='mailto:plusrecommend@telly.com'>plusrecommend@telly.com<\/a> and we'll put it on the list for consideration.","premium_faq_a13":"We're here to help! We have 24\/7\/365 support. Just email us at <a href='mailto:plussupport@telly.com'>plussupport@telly.com<\/a>","premium_faq_a14":"We have a large selection of the best TV shows & movies from Hollywood and the Arabic world. Our extensive library of movies and TV shows grows by the day.","premium_faq_a15":"Ack! No problem, just email us at <a href='mailto:plussupport@telly.com'>plussupport@telly.com<\/a> and we'll get you fixed up!","premium_faq_a16":"Absolutely anywhere you have an internet connection on any computer and iOS\/Android mobile devices. Telly Plus is currently available in these countries: Saudi Arabia, Bahrain, UAE, Kuwait, Qatar, Oman, Lebanon, Jordan, Egypt, Morocco, Algeria, Tunisia, Iraq and Yemen","premium_faq_a17":"Nope! Your Telly account gets the Telly Plus status once you start the trial. All your login information stays the same. Welcome to Telly Plus!","premium_faq_a18":"Telly believes in open access & sharing with friends. However, you have full control over your privacy settings and can control who to share your watch history with.","premium_faq_a19":"You bet! You can reach us at +966-8111110548","premium_faq_a20":"As a rule, 'the higher the speed the better the quality.' We recommend speeds of at least 0.5Mbps.","premium_faq_a21":"There are lots of options to get Telly Plus content on your home TV. For example: via Airplay from your MAC\/iOS device to Apple TV and connecting your laptop to your TV. We will be rolling out on other devices and will keep you informed.","Ok":"Ok","Frequently Asked Questions":"Frequently Asked Questions","content_streamed_internet":"TV shows & movies streamed instantly over the Internet","no_commitments":"No commitments, cancel online anytime","no_commitments2":"No commitments, hidden fees or hassles.","ready_to_start":"Ready to start your free month?","select_preferred":"Select your preferred method of payment:","start_free_month":"Start your free month!","thousands_options":"Thousands of options. Zero commercials.","create_account":"Create your account:","or_create_with":"Or create your account with Facebook\/Twitter:","never_post_without_permission":"We'll never post to Facebook or Twitter without your permission.","free_month_ends":"Your free month ends on %DATE%. Cancel online anytime you want.","Advertisement":"Advertisement","no_content_with_filters":"There is no content in this category that matches your filters. Select the 'See All' language option to the left to show more titles.","this_lang":"english","Join Using Your Phone":"Join Using Your Phone","Enter your phone number":"Enter your phone number","Join Telly Plus":"Join Telly Plus","sorry not available":"Sorry not available","Already have an account":"Already have a Telly account?","Block":"Block","Blocked":"Blocked","Unblock":"Unblock","Report":"Report","thank_you_reporting":"Thank you for reporting %USER%. We'll review their account.","User Reported":"User Reported","COD":"Cash on Delivery","COD now in Dubai":"Cash on Delivery is now available for residents of Dubai","Enter a valid phone number":"Please enter a valid phone number","thanks_cod":"Thank you for signing up for Telly Plus. A team member will call you in the next 24 hours to discuss your Cash On Delivery order details. If you have any questions in the meantime, please email us at <a href='mailto:plussupport@telly.com'>plussupport@telly.com<\/a>.","thanks_cod_alt":"Thank you for submitting your order. You will be contacted by our partner MENA VIP to complete your transaction. Once you have completed your payment, your subscription will automatically start. Please review your order below and reach out to us at: <a href='mailto:plussupport@telly.com'>plussupport@telly.com<\/a> if you have any questions.","cod_24_hours":"A team member will call you in the next 24 hours to discuss your Cash On Delivery order details.","signup_telly_plus_now":"Sign up for Telly Plus now!","stream_best":"Stream the best movies & TV shows from Hollywood and the Arab world","free_membership_starts_today":"Your FREE membership starts today. Enjoy unlimited streaming for 30 days!","Download Telly App":"Download Telly App","Already Installed Telly":"I already installed Telly","After installing":"After installing, log in using the email address and password you just previously entered.","Email us":"Email us","cash_u_description":"You are prepaying for 3 months of Telly Plus (17% discount)","need_telly_plus":"Join Telly Plus to Play Movie","Play from Beginning":"Start Over","Subscribe to Telly Plus":"Get Telly Plus","Remaining":"Remaining","3 Months":"3 Months - 92 AED (save 37%)","6 Months":"6 Months - 183 AED (save 37%)","12 Months":"12 Months - 308 AED (save 54%)","Pay with Cash":"Pay with Cash","Heres how it works":"Here's how it works","Learn More":"Learn More","Pay with Cash Now Available":"Pay with Cash Now Available","Give us details about how to contact you":"Give us details about how to contact you","well_contact_you":"We'll contact you and determine a time and day for cash pickup","Your account will be activated":"Your account will be activated","You can also pay with cash":"You can also pay with cash","get_started_fill_out":"To get started, please fill out the form below","pay_with_cash_only_available_in":"Pay with Cash is only available in these countries: ","Change your Telly password":"Change your Telly Password","add_password_social":"You can also add a password to your account if you don't have one (signed in with Facebook or Twitter)","Old Password":"Old Password","New Password":"New Password","Area":"Area","Plan Details":"Plan Details","Your new password needs to be at least 6 characters":"Your new password needs to be at least 6 characters","payment_error_declined":"Your bank has declined the transaction","payment_error_insufficent":"Your bank has reported you have insufficient funds","payment_error_invalid_card":"Your card number is invalid","payment_error_bad_cvv":"Invalid security code","payment_error_not_permitted":"Your bank will not allow you to use that card for Telly","payment_error_contact_bank":"Please contact your bank for further assistance","Redeem Your Gift Card":"Redeem Your Gift Card","for your Telly Plus subscription":"for your Telly Plus subscription","Enter your 10 digit code below":"Enter your 10-digit code below","Redeem":"Redeem","Need Help":"Need Help?","Contact customer support":"Contact customer support","Where to find your code":"Where to find your code","gift_code_invalid":"The code you entered appears to be invalid. Please make sure you've typed it in correctly.","gift_code_expired":"The code you entered has expired.","gift_code_redeemed":"The code you entered has already been redeemed.","gift_code_cannot_be_used":"This code cannot be used with your account.","gift_code_success":"Gift card successfully applied. %DURATION% of service has been added to your account.","Sign into Telly first":"Sign into Telly first","gift carde in a moment":"In a moment you'll be able to enter your gift card code. You must first sign in to Telly.","if you dont have a telly account":"If you do not yet have a Telly account, <a rel='create_account' href='javascript:void(0);'>please create one<a\/>.","must_have_zain":"You must have a Zain phone number to pay with Zain.","then_sms_sent":"You will then receive an SMS with a code for verification purposes.","confirm_sms":"Please enter the 4 digit confirmation code you received via SMS:","Confirm":"Confirm","not_valid_zain":"Please activate Zain Pay on your line to enjoy this service. Please call 107 to activate.","invalid_conf_code":"This confirmation code is invalid. Please try again.","not_enough_funds":"You don't have enough available funds to make this purchase. Please recharge to enjoy using Zain Pay service.","request_timeout":"This request has timed out. Please try again.","trouble_transaction":"It looks like we're having trouble attempting this transaction. Please try again.","account_suspended":"This account has been suspended.","Yes Perm Delete Account":"Yes, I really want to permanently delete my account"};
+</script>
+
+
+<div id="carousel_body">
+
+<div class="video_status_msg">
+
+</div>
+
+<div class="top_page_copy_wrapper">
+
+<div class="top_page_copy">
+<h1> &nbsp; </h1>
+<div class="hashtag_type_switch"><a href="" data-ajaxified="true" data-type="popular" class="selected"> Popular</a> <a data-type="new" href="" data-ajaxified="true">New</a></div>
+<div class="cf"></div>
+</div>
+</div>
+
+<div id="carousel_player">
+</div>
+
+<div class="carousel_container" style="margin-top:0px;">
+<div id="mainStage">
+<div class="wrapper">
+<div class="rightMeta">
+<div class="top_video_meta">
+<header class="no-comment">
+    <section class="header_title hide">
+    <div class="titles">
+<h2 id="video_title"></h2>
+<p class="story_title" style="">
+            Added by <a href="/" data-ajaxified="true" class="user_profile_link" id="user_full_name"></a>
+        </p>
+    </div>
+      </section>
+      <section class="like_container">
+<a href="javascript:void(0);" class="button_class like_button" data-usefblogin="1" onclick="likeVideo();"><i aria-hidden="true" data-icon="C"></i></a>
+<div class="likesMeta">
+<span class="count"></span>
+<div class="likes_people"></div>
+</div>
+      </section>
+      <div class="cf"></div>
+    </header> 
+</div>
+<div class="comments ">
+<form rel="ajaxify" method="POST" action="http://feed.telly.com/replies/add" class="comment_form" successaction="replaceSection" successtarget="" auxparam="">
+  <input type="hidden" name="post_id" value="">
+  <input type="hidden" name="token" value="">
+  <input type="hidden" name="beta" value="1">
+<div class="avatar_icons small">
+  <span style="background-image: url()"><img class="avatar" src="" alt=""></span>
+</div>
+<input name="comment" class="comment_box_input" type="text" maxlength="1024" placeholder="Comment with @mentions and #hashtags">
+<a rel="submit" href="javascript:void();" class="inline_button_sty_1" data-placement="below" data-usefblogin="" data-analytics-category="comment" data-analytics-action="submit" data-analytics-label="" data-analytics-value="1" data-loading-text="Loading..." style="display:none;" formindex="3">Post</a>
+</form>
+<ul id="comments_"></ul>
+</div>
+<div class="sendToMobile">  
+<a href="/about">
+<div class="icon">
+<span class="img1"></span>
+<span class="img2"></span>
+</div>
+</a>
+<div class="action">
+Watch on your phone or tablet<br />
+<a href="/about">Get the mobile app</a>
+</div>
+</div>
+</div>
+<div class="videoPlayers">
+<div id="ytcarouselplayer"></div>
+<div id="otherVideoPlayer"></div>
+<div class="loadingAnim">
+<div id="followingBallsG">
+<div id="followingBallsG_1" class="followingBallsG"></div>
+<div id="followingBallsG_2" class="followingBallsG"></div>
+<div id="followingBallsG_3" class="followingBallsG"></div>
+<div id="followingBallsG_4" class="followingBallsG"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+     <!-- BEGIN call_to_action -->
+        <div class="callToAction callToAction-desktop">
+            <a href="" data-cta-type="" target="ctaWindow" data-usefblogin="1">
+                <img src="/v3/images/v4/white-star.png" alt="" class="ctaStar noselect"/>
+                <span class="ctaBody">
+                </span>
+            </a>
+        </div>
+        <!-- END call_to_action -->
+
+        <div class="video_carousel_title">
+        
+        </div>
+
+<div class="blocks_holder">
+<div class="blocks hide" id="sliderStage"></div>
+</div>
+<div class="carousel_buttons">
+<a class="seeNextVideos" href="javascript:"></a>
+<a class="seePreviousVideos" href="javascript:"></a>
+</div>
+
+</div>
+
+<a class="like_cta_link" href="javascript:"></a>
+
+</div>
+
+
+<div id="hoverCard">
+<h2></h2>
+<span class="userName"><span>
+</div>
+
+<!-- Share modal -->
+<div class="modal shareModal shareBox" id="share_modal">
+
+<div class="content">
+
+  <header>
+    <h1>Share Video</h1>
+    <a href="javascript:void(0);" class="close">×</a>
+  </header>
+  <section>
+
+ <fieldset class="social_share_options">
+    <div class="share clearfix">
+       <a class="button_class fb" onclick="fbSendVideo('');"><i aria-hidden="true" data-icon="F"></i> Send Video</a>  
+    <!--TWITTER BUTTON-->
+    <div class="twitter-share">
+      <div rel="twitter_share_but" twitter_src=""></div> 
+    </div>
+
+    <!--FACBOOK BUTTON-->
+    <div class="facebook-share" rel="facebook-not-rendered"> 
+      <div rel="facebook_share_but" facebook_src=""></div> 
+    </div>
+
+    </div>
+ </fieldset> 
+
+  <fieldset class="send_to_friends">
+    <label>Suggested friends to send video to</label>
+    <div class="share clearfix">
+      <div class="user_list">
+        
+        <ul class="suggested_sends" data-guid=""></ul></div>
+     
+    </div>
+  </fieldset>
+    
+  <fieldset>
+      
+
+      <label>Link</label>
+      <input type="text" name="link" class="share_link" value="">
+      <label>Embed</label>
+      <textarea type="text" name="link" style="width:100%" class="embed_code"></textarea>
+    </fieldset>
+  </section>
+</div>
+
+</div>
+                  <!-- end share modal -->
+
+
+<!--- Templates -->
+<script id="building-story-feed-msg-template" type="text/template">
+<div class="building_story_feed">
+<center>
+
+<h1>Hi [[first_name]]! Your Telly is almost ready.</h1>
+<div class="progress-bar">
+<div class="polyfill"></div>
+</div>
+<h2>We’re automagically pulling in the best videos<br>your friends have liked & shared across the web.</h2>
+
+</center>
+</div>
+</script>
+<script id="post-template" type="text/template">
+<div class="block" 
+       data-guid="[[guid]]" 
+       data-media-source="[[media_source]]"
+       data-media-url="[[media_url]]"
+       data-length="[[length]]"
+       data-cta-url-web="[[cta_url_web]]"
+       data-cta-body="[[cta_body]]"
+       data-cta-follow-me="[[cta_follow_me]]"
+       data-offline_cta="[[offline_alert_data]]"
+       data-video-type="[[video_type]]"
+       data-video-embed="[[video_embed]]"
+       data-user-vanity = "[[user.vanity_url]]" 
+       data-title="[[title]]"
+       data-premium-title="[[premium_content.title]]" 
+       data-title-type="[[title_type]]" 
+       data-preview-title="[[preview_title]]" 
+       data-original-user-title="[[original_user.title]]" 
+       data-original-user-vanity="[[original_user.vanity_url]]" 
+       data-original-user-avatar="[[original_user.avatar]]" 
+       data-title-story = "[[full_title_encoded]]" 
+       data-user-name="[[user.title]]"
+       data-user-avatar="[[user.avatar]]" 
+       data-like-cta-text="[[user.like_additional_action_text]]" 
+           data-like-cta-link="[[user.like_additional_action_link]]"
+           data-featured-partner="[[featured_partner]]"
+       media_id="[[provider_id]]"
+       data-media-id="[[media_id]]"
+       data-post-id="[[id]]"
+           data-hash-tags="[[hash_tags_csv]]"
+           data-user-id="[[user.id]]"
+           data-track-id="[[track_id]]"
+           data-premium="[[premium]]"
+       data-index="">
+
+<article
+   id="post_[[id]]" itemscope itemtype="http://schema.org/VideoObject" 
+   data-guid="[[guid]]" 
+   data-media-source="[[media_source]]"
+   data-media-url="[[media_url]]"
+   data-offline_cta="[[offline_alert_data]]"
+   data-video-type="[[video_type]]"
+   data-title-story = "[[full_title_encoded]]"
+   data-video-embed="[[video_embed]]"
+   data-user-vanity = "[[user.vanity_url]]" 
+   data-title="[[title]]" 
+   data-premium-title="[[premium_content.title]]" 
+   data-preview-title="[[preview_title]]" 
+   data-title-type="[[title_type]]" 
+   data-user-name="[[user.title]]"
+   data-user-avatar="[[user.avatar]]" 
+   data-media-id="[[media_id]]"
+   data-post-id = "[[id]]"
+   data-campaign-id = "[[campaign_id]]"
+   media_id="[[provider_id]]"
+                   data-featured-partner="[[featured_partner]]"
+                   data-hash-tags="[[hash_tags_csv]]"
+                   data-user-id="[[user.id]]"
+                   data-track-id="[[track_id]]"
+   >
+
+<div class="placeholder" guid="[[media_id]]" id="video_player_modal_[[id]]">
+
+<div class="video_thumb" style="background: url('[[thumb]]') center center no-repeat; background-size:cover;background-color: rgba(0, 0, 0, 0.3);">
+<a href="#none" class="play" 
+   media_id="[[media_id]]" 
+   media_source="[[media_source]]"
+   [[#media_url]]media_url="[[media_url]]"[[/media_url]] 
+   video_path="[[video_path]]" 
+   thumb="[[thumb]]"
+   [[#is_pic]]media-id="[[media_id]]"
+   is-pic="1"[[/is_pic]] 
+   data-video-size-width="640" 
+   data-video-size-height="360" 
+   id="play_btn_modal_[[media_id]]" 
+   >
+  <span>Play Video</span>
+</a>
+<div class="preview_title">
+</div>
+
+</div>
+
+</div>
+
+</article>
+</div>
+</script>
+
+<section class="social">
+<span class="label">Love Telly?</span>
+    <div class="google">
+      <a href="https://plus.google.com/108450292219449943075?prsrc=3" rel="publisher" style="text-decoration:none;display:inline-block;color:#777;text-align:center; font:13px/16px;white-space:nowrap;">
+      <img src="//ssl.gstatic.com/images/icons/gplus-16.png" alt="Google+" style="border:0;width:16px;height:16px;border-radius:2px;"/></a>
+    </div>
+    <div class="twitter">
+      <a href="https://twitter.com/TellyApp" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @TellyApp</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+    <div class="fb-like" data-href="http://facebook.com/TellyApp" data-send="false" data-layout="button_count" data-width="170" data-show-faces="true"></div>
+    <div style="clear:both;"></div>
+  </section>
+
+<script>
+var page_campaign = "standard";
+var is_feed_ready = "0";
+var site_url = "http://telly.com";
+var static_seo = "";
+</script>
+
+<section id="modals">
+  <div id="modal-login" class="modal" style="margin-top: -248px;margin-left:-175px;">
+  <div class="content">
+    <header>
+      <h1>Sign in to Telly</h1>
+    </header>
+    <section class="loginButtons">
+      
+      <div class="loginPlaceholder">
+        <a rel="facebook_login_but" href="javascript:" class="button_class up_fb_blue facebook">Sign in with facebook</a>
+        <div class="loginPlaceholder_lower">
+          <a rel="twitter_login_but" href="javascript:" class="button_class twitter">or twitter</a>
+          <a rel="mail_login_but" href="javascript:" class="button_class mail" data-showform="1">or email</a>
+        </div>
+      </div>  
+    </section>
+    <section class="loginForm" style="display:none;">
+      <!-- getAjaxForm-->
+<form 
+  rel="ajaxify"
+  method="POST"
+  action="/proxy.php?csurl=feed.telly.com%2Fuser%2Fauthenticate"
+  
+  class="collect"
+  
+  
+   successAction="tokenlogin" retainFormValues="1"
+    data-analytics-category="auth" 
+    data-analytics-action="complete"
+    data-analytics-label="email"
+    data-analytics-value="1"
+  >
+  <input type='hidden' name='beta' value='1' />
+<!-- END getAjaxForm -->
+
+        <input name="identity" type="text" placeholder="Telly Username/Email" class="username">
+        <!-- input name="email" type="text" placeholder="email" class="email"  -->
+        <input name="password" type="password" placeholder="Password" class="password">
+        <!-- getAjaxSubmitElement-->
+<button rel="submit"
+    
+    class="btn button_class hover_blue login icon right next_g next_w_h" 
+    
+     data-useFBLogin=""
+     data-analytics-category="auth" 
+     data-analytics-action="attempt"
+     data-analytics-label="email"
+     data-analytics-value="1"
+     bypassforcelogin="true">Sign in</button>
+<!-- END getAjaxSubmitElement-->
+
+        <ul>
+          <li><a rel="create_account" href="javascript:">Create a Telly Account</a></li>
+          <li><a rel="forgot_password" data-showpassword="1" href="javascript:">Forgot my password</a></li>
+        </ul>
+      </form>
+    </section>
+    <section class="forgotPassword" style="display:none;">
+      <!-- getAjaxForm-->
+<form 
+  rel="ajaxify"
+  method="POST"
+  action="/proxy.php?csurl=feed.telly.com%2Fuser%2FforgotPassword"
+  
+  
+  
+  
+  
+    data-analytics-category="auth" 
+    data-analytics-action="forgot-password"
+    data-analytics-label="submit"
+    data-analytics-value="1"
+  >
+  <input type='hidden' name='beta' value='1' />
+<!-- END getAjaxForm -->
+
+        <input name="identity" type="text" placeholder="Telly Username/Email" class="username">
+        <!-- getAjaxSubmitElement-->
+<button rel="submit"
+    
+    class="btn button_class hover_blue login icon right next_g next_w_h" 
+    
+     data-useFBLogin=""
+     bypassforcelogin="true">Reset</button>
+<!-- END getAjaxSubmitElement-->
+
+      </form>
+      <br style="clear:both;" />      <br style="clear:both;" />
+    </section>
+  </div>
+</div>
+  <div id="modal-create-collection" class="modal hide">
+  <div class="content">
+  <header>
+    <h1>Create a Collection</h1>
+    <a href="#" class="close" data-dismiss="modal">&times;</a>
+  </header>
+
+  <section>
+  <form action = "/proxy.php?csurl=http://feed.twitvid.com/channel/create" 
+    id="form_channel_create" 
+    class="form-stacked-1 prefilter validate"
+    rel="ajaxify" 
+    successAction="addCollection" 
+    dataType="json"
+    method="POST">
+        <fieldset>
+        <div class="alert-message block-message warning" data-alert="alert" style="position:relative;top:-7px;">
+          <p class="big"><strong>Collect &amp; Share videos you love.</strong></p>
+          <p>A collection is a set of videos built around a common theme. Here are some good examples of collection titles: The Awesome Channel, Best of Family Guy, Funny Impressions, or 's Top Vids.</p>
+        </div>
+          
+          <div id="create-channel-title" class="validation_container clearfix form_row">
+            <label for="create-channel-title-input">Collection Title</label>
+            <div class="input">
+              <input type="text" 
+                name="title" 
+                id="create-channel-title-input"  
+                class="required xlarge {messages:{required:' Please enter a collection title' } } filtervalue_channeltitle" 
+                size="30" 
+                autofocus="autofocus" 
+                minlength="2"
+                maxlength="40" />
+            </div>
+          </div><!-- /clearfix -->
+          <!--
+          <div class="clearfix form_row">
+            <label for="stackedSelect">Collection Category</label>
+            <div class="input">
+              <select name="category" id="stackedSelect" class="required">
+              
+              </select>
+            </div>
+          </div>
+          -->
+          <div style="clear:both"></div>
+          <div class="clearfix">
+            <label for="editors">Who can post?</label>
+            <div class="input inline-list">
+              <div class="clearfix">
+                <label>
+                  <input type="radio"
+                    name="channel_type" 
+                    value="0" 
+                    class="multi-user-select-control"  
+                    data-multi-user-select="hide" 
+                    checked="checked" /> Just me
+                </label> 
+                <label>
+                  <input type="radio" 
+                    name="channel_type" 
+                    value="1" 
+                    class="multi-user-select-control" 
+                    data-multi-user-select="show" /> Me + Editors
+                </label>
+                <label>
+                  <input type="radio" 
+                    name="channel_type" 
+                    value="2" 
+                    class="multi-user-select-control" 
+                    data-multi-user-select="hide" /> Anyone
+                </label>
+              </div> <!-- .clearfix -->
+              <div style="clear:both"></div>
+              <div class="hide multi-user-select">
+                <input type="text"
+                  name="editors" 
+                  id="form_channel_create_editors" 
+                  class="xlarge multi-user-select-input" 
+                  size="30"  
+                  placeholder="Add editors" />
+              </div> <!-- .multi-user-input -->
+            </div> <!-- .input .inline-list -->
+
+          </div><!-- /clearfix -->
+        </fieldset>
+
+      <div class="actions">
+                <a href="#none" 
+                   class="button_class close"
+                   data-show="false"
+                   >Cancel</a>
+                <button class="button_class up_green" rel="submit" dataType="json">
+                    Create Collection
+                </button>
+      </div>
+      
+  </form>
+  </section>
+
+  </div> <!-- content -->
+</div>
+  <div id="modal-create-account" class="modal hide" style="margin-top: -248px;width: 368px;margin-left: -175px">
+  <div class="content">
+  <header>
+    <h1>Create a Telly Account</h1>
+  </header>
+
+  <section style="padding-top:0px;">
+    <form action = "/proxy.php?csurl=http://feed.twitvid.com/user/create"
+      id="form_channel_account" 
+      class="form-stacked-1 prefilter validate"
+      rel="ajaxify" 
+      successAction="tokenlogin" 
+      successTarget="" 
+      successUrl=""
+      retainFormValues="1" 
+      dataType="json"
+      method="POST">
+        <p class="alert-message">You need to create an account to use many of the features on this site.</p>
+
+          <label>Name</label>
+          <input type="text" name="name" placeholder="Name">
+
+          <label>Telly Username<small> - http://telly.com/<b>YOUR_USERNAME</b></small></label>
+          <input type="text" name="vanity_url" placeholder="Telly Username">
+
+          <label>Email</label>
+          <input type="text" name="email" placeholder="">
+          
+          <label>Password</label>
+          <input type="password" name="password" placeholder="Password">
+
+          
+          <div class="actions" style="margin-top:10px;">
+            <a href="#none" rel="resetmodals" class="button_class close">Cancel</a>
+            <button rel="submit" class="button_class up_green" bypassforcelogin="true">Finish</button>
+          </div>
+        </form>
+      </section>
+  </div> <!-- content -->
+</div>
+
+  
+  <!-- div id="modal-upload-video" class="modal add-video hide" data-backdrop="static" data-keyboard="false" -->
+<div id="modal-help" class="modal help hide">
+  <div class="content">
+    <header>
+      <h1>Help</h1>
+    </header>
+    
+    <section>
+      <div class="section" id="favoritesList">
+        <img placeholdersrc="/v3/images/v4/help/favorites.jpg" height="285" width="252" align="left" style="margin-right:15px;margin-bottom:15px;border-radius:4px;">
+        <p>Simply <strong>drag and drop</strong> user icons or collection icons throught the site to your favorites bar. </p>
+        <p>You can also sort the order of your favorites by dragging them up and down within the list. To remove a favorite, 
+          click the X to the right of the user.
+      </div>
+      <div class="section" id="fromTwitvid">
+        <p>Recently, we've started to migrate existing Twitvid users to Telly. Your Twitvid profile and all your videos will now be accessible on the Telly.com domain.
+        <p>No action is needed on your part for this migration - You will still able to do everything on Telly that you could do on Twitvid: Easily upload videos to Twitter or Facebook from the mobile apps or the website, watch videos from your favorite Twitter users, or embed your videos on other sites . 
+        <p>In addition, we've added a whole set of new features for you to enjoy:
+        <ol>
+          <li>Organize and share your favorite web videos: Setup the browser extension or our Chrome Bookmarklet to share cool videos you find on the internet
+          <li>Build a following for your videos: Upload your own videos, or share existing videos you find online to your own Telly profile. 
+          <li>Discover awesome videos: Follow others and discover what videos they like or watch
+        </ol>
+        <p>We hope you enjoy these features and many more! Help us make the product better by sending us your feedback at <a href="mailto:hi@telly.com">hi@telly.com</a></p>
+      </div>
+      <div class="section" id="enlargedAvatar">
+        
+      </div>
+      <div class="section" id="survey">
+        <iframe data-src="http://www.surveymonkey.com/s/Q95D7QR" width="100%" height="500"></iframe>
+      </div>
+      <div class="section" id="whoWatched">
+        <div class="list modalList">
+        </div>
+      </div>
+      <div class="section" id="cvv2" style="text-align:center;">
+        This is the 3-digit code on the back of Visa/MasterCard/Discover cards or the 4-digit code on the front of American Express cards.<br />
+          <img placeholdersrc="/v3/images/cvv2help.png" width="323" height="214" style="margin:15px 0;">
+      </div>
+      
+
+      <div class="actions">
+        <a href="#none" rel="resetmodals" class="button_class close">Ok</a>
+      </div>
+    </section>
+
+  </div>
+</div>
+  
+  <!-- BEGIN core_edit_entity_modal -->
+<div id="modal-edit-profile" class="modal hide entity">
+  <!-- isProfile -->
+  
+  <div class="content tabbable">
+    <header>
+      <h1>Edit your Profile</h1>
+      <a href="javascript:" class="close" data-dismiss="modal">&times;</a>
+      <ul class="nav nav-tabs">
+          <li class="active"><a href="#edit_info_profile" data-toggle="tab">Info</a></li>
+          <li><a href="#edit_design_profile" data-toggle="tab">User Avatar</a></li>
+          <!-- isProfile -->
+            <li><a href="#edit_notify_profile" data-toggle="tab">Email Notifications</a></li>
+            <li><a href="#edit_language_profile" data-toggle="tab">Language</a></li>
+      <li><a href="#social_setting_profile" data-toggle="tab">Social</a></li>
+            <li><a href="#privacy_setting_profile" data-toggle="tab">Privacy</a></li>
+            <li><a href="#password_profile" data-toggle="tab">Password</a></li>
+            <li><a href="#delete_account_profile" data-toggle="tab">Account</a></li>
+
+                </ul>
+    </header>
+    <section>
+
+    <!-- getAjaxForm-->
+<form 
+  rel="ajaxify"
+  method="POST"
+  action="/proxy.php?csurl=feed.telly.com%2Fuser%2Fupdate"
+  id="form_channel_edit"
+  class="form-stacked-1 prefilter validate"
+  
+  
+   successAction="redirect"
+    data-analytics-category="entity" 
+    data-analytics-action="edit"
+    data-analytics-label="2"
+    data-analytics-value="1"
+  >
+  <input type='hidden' name='_id' value='0' /><input type='hidden' name='beta' value='1' />
+<!-- END getAjaxForm -->
+
+
+    
+      <div class="modal-inner-container">
+
+          <!-- modal-header --> 
+          <div class="modal-header modal_top"> </div> 
+          <!-- END modal-header -->
+      
+          <div class="modal-body">
+
+            <!-- CHANNEL / PROFILE INFO PANE -->
+            <div class="tab-content"> 
+    
+              <div id="edit_info_profile" class="tab-pane active">
+                <fieldset>
+                
+                  <div id="edit-entity-title" class="validation_container clearfix form_row">
+                    <label for="form_channel_edit_ name ">Name</label>
+                    <div class="input">
+                      <input type="text"
+                        name="name" 
+                        id="form_channel_edit_name"
+                        class="required {messages:{required:' Please enter a name' } } xlarge filtervalue_channeltitle" 
+                        value="" 
+                        size="30"
+                        autofocus="autofocus"
+                        minlength="2" 
+                        maxlength="40" />
+                    </div>
+  
+                  </div> <!-- / edit-entity-title-->
+                  
+                  
+              
+
+                  <div class="validation_container clearfix form_row">
+                    <label for="bio"> Bio </label>
+                    <div class="input">
+                      <textarea 
+                        name="bio"
+                        id="form_channel_edit_description" 
+                        class="xlarge filtervalue_channeldesc" 
+                        maxlength="140"></textarea>
+                    </div>
+                  </div><!-- /validation_container -->
+
+              
+                  <!--<div class="validation-container clearfix form_row">-->
+                    <!--<label for="tags">Tags</label>-->
+                    <!--<div class="input">-->
+                      <!--<input type="text"-->
+                        <!--name="tags" -->
+                        <!--id="form_channel_edit_tags" -->
+                        <!--class="xlarge auto-suggest-tags filtervalue_channeltags" -->
+                        <!--value="" -->
+                        <!--size="30" -->
+                        <!--maxlength="140" />-->
+                      <!--<span class="help-block super-small">Separate with commas: "comedy, san francisco, lolcats, funny"</span>-->
+                    <!--</div>-->
+                  <!--</div> &lt;!&ndash; /validation_container &ndash;&gt;-->
+                
+
+                    <div class="validation_container clearfix">
+                        <label for="form_entityedit_email">Email</label>
+                        <div class="input input-prepend xlarge">
+                            <input type="text"
+                                   name="email"
+                                   id="form_entityedit_email"
+                                   placeholder="enter a vaild email"
+                                   class="required medium filtervalue_email emailIsTaken"
+                                   data-message-setup="{email:0, messages:{required:'your email', 'email':' This is taken, try again '  } }"
+                                   value=""
+                                   size="20"
+                                   minlength="4"
+                                   maxlength="120"
+                                   data-orig=""/>
+                        </div>
+                    </div>
+
+                    <div class="validation_container clearfix">
+                        <label for="form_entityedit_username">URL</label>
+                        <div class="input input-prepend xlarge">
+                            <span class="add-on">http://telly.com//</span>
+                            <input type="text"
+                                   name="url"
+                                   id="form_entityedit_username"
+                                   placeholder="enter a vanity url"
+                                   class="required medium filtervalue_username urlIsTaken"
+                                   data-message-setup="{username:0, messages:{required:'http://telly.com/your-username/<b>your-collection-here</b>', 'username':' This is taken, try again '  } }"
+                                   value=""
+                                   size="20"
+                                   minlength="2"
+                                   maxlength="40"
+                                   data-orig=""/>
+                        </div>
+                    </div>
+
+                  <!--<div class="validation_container clearfix form_row">-->
+                    <!--<label for="location">Location</label>-->
+                    <!--<div class="input">-->
+                      <!--<input name="location" -->
+                        <!--id="form_channel_edit_location"-->
+                        <!--class="xlarge filtervalue_location" -->
+                        <!--value=""-->
+                        <!--size="20"-->
+                        <!--maxlength="64"-->
+                        <!--type="text" />-->
+                    <!--</div>-->
+                  <!--</div>-->
+            
+                  <div class="validation_container clearfix">
+                    <label for="site">Website</label>
+                    <div class="input">
+                    <input name="site"
+                      id="form_channel_edit_site"
+                      class="url {messages: {url: 'Please enter a valid url, ex: http://www.example.com' } } xlarge"
+                      value=""
+                      size="20"
+                      type="text"
+                      maxlength="128" />
+                    </div>
+                  </div>
+                  
+                  
+                </fieldset>
+              </div> <!-- / #edit_info-->
+                    
+
+              <!-- PROFILE DESIGN EDIT PANE -->
+              <div id="edit_design_profile" class="tab-pane">
+                <fieldset>
+                  <div class="">
+                    <div class="alert-message clearfix block-message info">
+                      <p> Profile Pic </p>
+                      <div class='clearfix'>
+                        <div class="left">
+                          <img src="" class="img_lrg" alt=" user avatar " />
+                        </div>
+                        <div class="left">
+                          <span class="small"> Upload new pic :</span><br/>
+                          <input type='file' name="avatar" >
+                        </div>
+                      </div><!-- .clearfix -->
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+              <!-- / PROFILE DESIGN EDIT PANE -->
+
+
+              <!-- CHANNEL EDITORS PANE -->
+              <div id="edit_editors_profile" class="tab-pane">
+                <fieldset>
+                  <div class="clearfix">
+                    <label for="channel_type">Who can post?</label>
+                    <div class="input inline-list">
+                  
+                      <div class="clearfix">
+                        <label>
+                            <input type="radio"
+                              name="channel_type" 
+                              value="0"
+                              class="multi-user-select-control"
+                              data-multi-user-select="hide"
+                              data-moderation-flag="hide"
+                               /> 
+                            Just me
+                        </label>
+                        <label>
+                            <input type="radio" 
+                              name="channel_type" 
+                              value="1"
+                              class="multi-user-select-control" 
+                              data-multi-user-select="show" 
+                              data-moderation-flag="hide"
+                               /> 
+                            Me + Editors
+                        </label>
+                        <label>
+                            <input type="radio"
+                              name="channel_type" 
+                              value="2"
+                              class="multi-user-select-control" 
+                              data-multi-user-select="hide" 
+                              data-moderation-flag="show"
+                               /> 
+                            Anyone
+                        </label>
+                      </div><!-- /clearfix-->
+                      
+                      <div class="hide multi-user-select hide" channel_id="0">
+                        <input type="text"
+                          id="editors_input" 
+                          class="xlarge multi-user-select-input" 
+                          size="30"  
+                          placeholder="" />
+                        <input type="hidden"
+                          name="pending_moderators" 
+                          class="multi-user-select-value" />
+                         
+                      </div><!-- / multi-user-select -->
+                      
+                      <div class="moderation-flag hide" channel_id="0">
+                      <label class="checkbox">
+                        <input type="hidden" name="moderation" value="0" />
+                        <input type="checkbox" name="moderation" value="1" class="moderation-flag-input"  />
+                        Enable Moderation
+                      </label>
+                    
+                  </div><!-- /input inline-list -->
+                </div><!-- /clearfix -->
+              </fieldset>
+            </div>
+            <!-- END CHANNEL EDITORS PANE -->
+
+
+            <!-- CHANNEL SETTINGS/ DELETE PANE -->
+            <div id="edit_settings_profile" class="tab-pane">
+              <fieldset>
+                <div class="clearfix">
+                  <label for="xlInput3">Remove this collection</label>
+                  <a href="javascript:void();" class="button_class up_red" id="deleteCollectionButton" disabled="disabled">Delete Collection?</a>
+                  <div class="input inline-list">
+                    <a href="/proxy.php?csurl="
+                      class="button_class up_red" 
+                      rel="ajaxify" 
+                      preAction="confirm"
+                      id="permDeleteCollectionButton" 
+                      preActionVal="Are you sure you want to delete this collection?" 
+                      successAction="redirect" 
+                      successUrl="/">
+                      Permanently Delete Collection
+                    </a>
+                  </div>
+                </div><!-- /clearfix -->
+                <div style="margin-bottom:25px;clear:both;"></div>
+              </fieldset>
+            </div>
+            <!-- END CHANNEL SETTINGS PANE -->
+          
+          
+          
+          
+          
+              <!-- NOTIFICATION  PANE -->
+              <div id="edit_notify_profile" class="tab-pane">
+                <div class="content-main">
+
+                  <div class="content-inner no-stream-end" id="notifications-content">
+
+                    <fieldset class="control-group" id="notifications-activity">
+                      <p>Email me when</p>
+                      <div class="controls">
+                        <div class="control-list">
+                      
+                            <label class="checkbox">
+                            <input type="hidden" value="0" name="settings_email_tag" >
+                            <input type="checkbox" value="1" name="settings_email_tag" >
+                            I am sent a reply or @ mention
+                            </label>
+                            <label class="checkbox">
+                            <input type="hidden" value="0" name="settings_email_comment" >
+                            <input type="checkbox" value="1" name="settings_email_comment" >
+                            My Videos are Commented on
+                            </label>
+
+                        </div>
+                      </div>
+                    </fieldset>
+                
+                    <fieldset class="control-group" id="notifications-activity">
+                      <div class="controls">
+                        <div class="control-list">
+                      
+                            <label class="checkbox">
+                            <input type="hidden" value="0" name="settings_email_follow" >
+                            <input type="checkbox" value="1" name="settings_email_follow" >
+                            Someone Follows me or one of my collections
+                            </label>
+
+
+                            <label class="checkbox">
+                            <input type="hidden" value="0" name="settings_email_like" >
+                            <input type="checkbox" value="1" name="settings_email_like" >
+                            My Videos are Liked
+                            </label>
+
+
+                            <label class="checkbox">
+                            <input type="hidden" value="0" name="settings_email_repost" >
+                            <input type="checkbox" value="1" name="settings_email_repost" >
+                            My Videos are Reposted
+                            </label>
+
+                            <label class="checkbox">
+                            <input type="hidden" value="0" name="settings_email_watch" >
+                            <input type="checkbox" value="1" name="settings_email_watch" >
+                            People watch my videos
+                            </label>
+
+                    
+                        </div>
+                      </div>
+                    </fieldset>
+
+
+                    <fieldset class="control-group" id="notifications-activity">
+                      <div class="controls">
+                        <div class="control-list">
+                                <label class="checkbox">
+                                <input type="hidden" value="0" name="settings_email_marketing" >
+                                <input type="checkbox" value="1" name="settings_email_marketing" >
+                                There are New Features and Tips on Telly
+                                </label>
+
+                                <label class="checkbox">
+                                <input type="hidden" value="0" name="settings_email_weekly" >
+                                <input type="checkbox" value="1" name="settings_email_weekly" >
+                                A new weekly digest of videos is available
+                                </label>
+
+                                <label class="checkbox">
+                                <input type="hidden" value="0" name="settings_email_daily_story" >
+                                <input type="checkbox" value="1" name="settings_email_daily_story" >
+                                A new hot video is released (daily)
+                                </label>
+
+                        </div>
+                      </div>
+                    </fieldset>
+
+
+                  </div>
+                </div>
+                
+              </div>
+              <!-- NOTIFICATION  PANE -->
+        
+
+
+              <!-- LANGUAGE PANE -->
+              <div id="edit_language_profile" class="tab-pane">
+                <fieldset>
+                  <p>Language Preference</p>
+                  <div class="control-group">
+                    <div class="lang-controls">
+                      <label class="radio">
+                        <input type="radio" name="settings_lang" value="en" checked=&quot;checked&quot;> 
+                        English
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="settings_lang" value="ar" >
+                          العربية  
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="settings_lang" value="es" > 
+                        Español
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="settings_lang" value="ru" >
+                        Русский 
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="settings_lang" value="ko" >
+                          한국어  
+                      </label>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+              <!-- END LANGUAGE PANE -->
+
+
+
+
+
+
+
+              <!-- PASSWORD PANE -->
+              <div id="password_profile" class="tab-pane">
+                <fieldset>
+                  <p>Change your Telly Password</p>
+                  <p>You can also add a password to your account if you don't have one (signed in with Facebook or Twitter)</p>
+
+
+                  <div class="validation_container clearfix form_row">
+                    <label for="edit_account_new_password"> New Password </label>
+                    <div class="input">
+                      <input 
+                        type="password" 
+                        name="pass_new"
+                        id="edit_account_new_password" 
+                        class="xlarge filtervalue_channeldesc" 
+                        maxlength="60" />
+                    </div>
+                  </div>
+
+                </fieldset>
+              </div>
+              <!-- END PASSWORD PANE -->
+
+
+
+<!-- Social Settings PANE -->
+              <div id="social_setting_profile" class="tab-pane">
+                <fieldset style="margin-bottom:40px;">
+                  <div class="add-video-expanded" style="margin:0px">
+
+            <label class="facebook">
+              Connect to Facebook
+                      <!--BEGIN SWITCH UI COMPONENT -->
+        <input type="checkbox" name="post_to_facebook" value="yes" id="share-on-facebook"  style="display:none;"/>
+              <div class="switch"  data-connect-facebook="no" data-radio-switch="post_to_facebook">
+                   <a href="#none" class="no active" id="switch-facebook-no"> No </a>
+                <span><em class="knob" style=""></em></span>
+                <a href="#none" class="yes " id="switch-facebook-yes"> Yes </a>
+              </div>
+                      <!--END SWITCH UI COMPONENT -->
+            </label>
+
+            <label class="twitter">
+                      Connect to Twitter
+                      <!--BEGIN SWITCH UI COMPONENT -->
+              <input type="checkbox" name="post_to_twitter" value="yes" id="share-on-twitter"  style="display:none;"/>
+              <div class="switch" data-connect-twitter="no">
+                <a href="#none" class="no active" id="switch-twitter-no"> No </a>
+                <span><em class="knob" style=""></em></span>
+                <a href="#none" class="yes " id="switch-twitter-yes"> Yes </a>
+              </div>
+                      <!-- END SWITCH UI COMPONENT -->
+
+            </label>
+
+</div>
+
+
+                </fieldset>
+              </div>
+
+
+
+              <!-- PROFILE DESIGN EDIT PANE -->
+              <div id="privacy_setting_profile" class="tab-pane">
+                <fieldset>
+                  <div class="">
+                    <div class="alert-message clearfix block-message info">
+                      <p>&quot;My Telly&quot; is a personalized stream of recommended videos based on what your friends are watching, commenting on, liking, and sharing. For increased privacy, you can turn off your own &quot;watch&quot; action, so your friends only see what you've shared, liked or commented on—and not watched.</p>
+                        <label class="checkbox" style="font-weight:normal;">
+                            <input type="hidden" value="0" name="settings_publish_watches" >
+                            <input type="checkbox" value="1" name="settings_publish_watches" >
+                            Publish Watch Actions
+                        </label>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+              <!-- / PROFILE DESIGN EDIT PANE -->
+
+
+
+              <div id="telly_plus_profile" class="tab-pane">
+                <fieldset>
+                  <div class="">
+                    <div class="clearfix block-message info">
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+              
+
+
+
+              <!-- ACCT PANE -->
+              <div id="delete_account_profile" class="tab-pane">
+                <fieldset>
+                  <p>If you no longer wish to have a Telly account, you may delete all of your posted videos, comments, likes, etc by permanently deleting your user below. Warning: account deletions are irreversible. All of your data will be erased.</p>
+                  <div class="control-group">
+                    <a href="javascript:void();" class="button_class up_red deleteAcctButton" disabled="disabled">Delete Account</a>
+                    <a href="/proxy.php?csurl=http%3A%2F%2Ffeed.twitvid.com%2Fuser%2Fdelete%3Fdelete_user_id%3D0%26token%3D"
+                      class="button_class up_red permDeleteAcctButton" 
+                      rel="ajaxify" 
+                      preAction="confirm"
+                      preActionVal="Are you sure you want to permanently delete your account?" 
+                      successAction="redirect" 
+                      successUrl="/?op=logout&acctClose=1">
+                      Yes, I really want to permanently delete my account
+                    </a>
+                  </div>
+                </fieldset>
+              </div>
+              <!-- END ACCT PANE -->
+
+
+
+            </div>
+          </div>
+          
+        </div> <!-- modal-inner-container -->
+            <div class="actions">
+                <button class="button_class up_grey close"
+                    data-show="false"
+                    data-dismiss="modal">
+                    Cancel
+                </button>
+                <!-- getAjaxSubmitElement-->
+<button rel="submit"
+    
+    class="btn button_class up_green" 
+    
+     data-useFBLogin=""
+    >Save</button>
+<!-- END getAjaxSubmitElement-->
+
+                <button class="button_class up_green changePassword" style="display:none;" onclick="">
+                    Change your Telly Password
+                </button>
+            </div>
+      </form>
+    </section>
+  </div>
+</div>
+<!-- END core_edit_entity_modal -->
+
+  <div id="modal-add-video2-button" class="modal hide">
+  <div class="content">
+    <header>
+
+      <h1>Add a Video to your Telly Profile</h1>
+      <a href="javascript:" class="close" data-dismiss="modal">&times;</a>
+    </header>
+
+
+
+
+        <div class="left">
+          <fieldset>
+            Upload a video from your computer
+            <span id="uploadContainer2" style="width:">
+            <a id="videoUploadBtn2" class="button_class" href="javascript:">Pick a File</a>
+            </span>
+
+ 
+          </fieldset>
+        </div>
+
+        <div class="right">
+          <fieldset>
+            Paste a link from most video sites
+            <div class="loading-wrapper">
+              <input type="url" 
+                     placeholder="Paste video link here"
+                     name="media_url_input"
+                     class="contentbox"
+                     autocomplete="off"/>
+              <div class="input loading"></div>
+            </div> 
+
+          </fieldset>
+        </div>
+
+        <div class="or_indicator">
+          or
+        </div>
+        
+
+
+
+
+    <div class="actions">
+          <a href="javascript:" class="button_class" data-dismiss="modal">cancel</a>
+    </div>
+
+
+
+  </div>
+</div>
+
+  
+  <!-- BEGIN core_uploadVideoModal -->
+<!-- div id="modal-upload-video" class="modal add-video hide" data-backdrop="static" data-keyboard="false" -->
+<div id="modal-upload-video" class="modal add-video hide">
+  <div class="content">
+    <header>
+      <h1>Uploading your file...</h1>
+    </header>
+    <!-- getAjaxForm-->
+<form 
+  rel="ajaxify"
+  method="POST"
+  action="/proxy.php?csurl=http://im.twitvid.com/api/updateVideoMetaData"
+  id="post_video_form"
+  class="info-video-form post_video_form prefilter validate"
+  
+  novalidate="novalidate"
+   successAction="handleMeta" successTarget="supplementalUploadData" retainFormValues="1"
+    data-analytics-category="upload" 
+    data-analytics-action="submit-attempted"
+    data-analytics-label=""
+    data-analytics-value="1"
+  >
+  <input type='hidden' name='media_id' value='' /><input type='hidden' name='source' value='telly-web' /><input type='hidden' name='beta' value='1' />
+<!-- END getAjaxForm -->
+
+        <div class="left">
+        <div class="success" style="display: none">
+          <p><span>Your video has uploaded.</span> Make sure you have filled up the extra info and continue!</p>
+          <span class="loading-bar"><em></em></span>
+          <strong>100<small>%</small></strong>
+        </div>
+        <div class="error" style="display: none">
+          <p><span>Ooops.</span> It seems something went wrong. Try again :(</p>
+          <p class="error-message"></p>
+          <span class="loading-bar"><em></em></span>
+          <strong>:(</strong>
+        </div>
+        <div class="uploading">
+          <p>Your video is uploading. Please be patient, it shouldn’t be very long.</p>
+          <span class="loading-bar"><em></em></span>
+          <strong class="upload-percent">0<small>%</small></strong>
+        </div>
+      </div>      
+
+      <div class="right">
+
+        <fieldset>
+          <input type="text" placeholder="video title" name="title" />
+          <textarea placeholder="comment" name="description"></textarea>
+        </fieldset>
+        
+        <fieldset>
+          <label class="facebook">
+            Share on Facebook
+<!--FBENABLED?  -->
+            <!--BEGIN SWITCH UI COMPONENT -->
+            <input type="radio" name="sendtofacebook" value="0" checked="checked" />
+            <input type="radio" name="sendtofacebook" value="1"  />
+            <div class="switch" data-connect-facebook="no">
+              <a href="#none" class="no" data-switch="sendtofacebook">No</a>
+              <span><em class="knob" ></em></span>
+              <a href="#none" class="yes " data-switch="sendtofacebook">Yes</a>
+            </div>
+            <!--END SWITCH UI COMPONENT -->
+
+
+          </label>
+          <label class="twitter">
+            Share on Twitter
+
+            <!--BEGIN SWITCH UI COMPONENT -->
+            <input type="radio" name="sendtotwitter" value="0" checked="checked" />
+            <input type="radio" name="sendtotwitter" value="1"  />
+            <div class="switch" data-connect-twitter="no">
+              <a href="#none" class="no" data-switch="sendtotwitter">No</a>
+              <span><em class="knob" ></em></span>
+              <a href="#none" class="yes " data-switch="sendtotwitter">Yes</a>
+            </div>
+            <!--END SWITCH UI COMPONENT -->
+
+
+          </label>
+        </fieldset>
+      </div>
+      <div id="supplementalUploadData"></div>
+      <div class="actions">
+        <a href="#none" id="fileUploadCancel" class="button_class hover_red">Cancel</a>
+        <!-- getAjaxSubmitElement-->
+<button rel="submit"
+    id="saveMetaData"
+    class="btn button_class up_green hover_blue icon right next_w" 
+    
+     data-useFBLogin=""
+    >Save</button>
+<!-- END getAjaxSubmitElement-->
+
+      </div>
+    </form>
+
+  </div>
+</div>
+<!-- END core_uploadVideoModal -->
+
+  
+  
+  <!-- BEGIN core_edit_post_modal -->
+<div id="modal-edit-post" class="modal hide">
+<div class="content">
+<header>
+<h1>Edit Call to Action</h1>
+</header>
+<div id="edit-post-cta" class="edit-post-section">
+<!-- getAjaxForm-->
+<form 
+  rel="ajaxify"
+  method="POST"
+  action="/proxy.php?csurl=feed.telly.com%2Fpost%2FupsertCTA"
+  id="edit_cta_form"
+  
+  
+  
+   successAction="edit-post-cta"
+    data-analytics-category="cta" 
+    data-analytics-action="save"
+    data-analytics-label=""
+    data-analytics-value="1"
+  >
+  <input type='hidden' name='guid' value='undefined' /><input type='hidden' name='beta' value='1' />
+<!-- END getAjaxForm -->
+
+
+                <div class="account_level_notice">
+                    You are setting a call-to-action at the <strong>account level</strong>. Your CTA will apply to ALL videos associated to your account. If you have a CTA at the video-level, it will override this setting.
+                </div>
+
+                <div class="type_selector">
+                    <label>CTA Type: </label>
+
+                    <select name="cta_follow_me" data-input="cta_follow_me" class="required">
+                        <option value="0">Video Call to Action</option>
+                        <option value="1">Follow Me Call to Action</option>
+                    </select>
+                </div>
+                <br />
+
+                <div id="cta_container">
+                    <input name="cta_body" type="text" placeholder="Example: Visit my blog for more information" class="required cta_body" />
+                    <label>Supported Devices</label>
+                    <div class="devices-selector noselect">
+                        <label>
+                            <input name="check_cta_url_web" type="checkbox" data-input="cta_url_web" checked="checked" />
+                            Web
+                        </label>
+                        <label>
+                            <input name="check_cta_url_ios" type="checkbox" data-input="cta_url_ios" />
+                            iPhone &amp; iPad
+                        </label>
+                        <label>
+                            <input name="check_cta_url_android" type="checkbox" data-input="cta_url_android" />
+                            Android
+                        </label>
+                    </div>
+                    <div class="cta_url_web">
+                        <label>URL</label>
+                        <input name="cta_url_web" type="text" placeholder="Example: http://telly.com" class="required url" />
+                    </div>
+                    <div class="cta_url_ios" style="display: none;">
+                        <label>URL for iPhone &amp; iPad</label>
+                        <input name="cta_url_ios" type="text" placeholder="Example: http://itunes.apple.com/us/app/facebook/id284882215" class="required url" />
+                    </div>
+                    <div class="cta_url_android" style="display: none;">
+                        <label>URL for Android Devices</label>
+                        <input name="cta_url_android" type="text" placeholder="Example: https://play.google.com/store/apps/details?id=com.facebook.katana" class="required url" />
+                    </div>
+                </div>
+<!-- BEGIN call_to_action -->
+<div class="cta_preview">
+<h6>example, shown when video is played</h6>
+<div class="callToAction callToAction-preview">
+  <a href="javascript:void(0)" title="This is a preview">
+<img src="/v3/images/v4/white-star.png" alt="" class="ctaStar noselect"/>
+<span class="ctaBody" data-default="This is an example"></span>
+                        <span class="ctaBodyFollow" data-default="" style="display: none;">Follow on Telly: </span>
+  </a>
+</div>
+</div>
+<!-- END call_to_action -->
+<div class="form-footer noselect">
+<a href="javascript:void(0);" class="close">cancel</a> <!-- getAjaxSubmitElement-->
+<button rel="submit"
+    id="saveCta"
+    class="btn button_class up_green hover_blue" 
+    
+     data-useFBLogin=""
+    >Save</button>
+<!-- END getAjaxSubmitElement-->
+
+</div>
+</form>
+</div>
+</div>
+</div>
+<!-- END core_edit_post_modal -->
+  <div id="modal-ajax-wrapper" style="display:none;"> </div>
+  <div id="modal-sharebox-wrapper" style="display:none;"> </div>
+</section>
+<!-- BEGIN FOOTER --> 
+<!-- Google Analytics --> 
+<script type="text/javascript">
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- End Google Analytics --> 
+
+<script type="text/javascript">
+        // This code loads the IFrame Player API code asynchronously.
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/player_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+</script>
+
+
+
+
+</body>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </html>

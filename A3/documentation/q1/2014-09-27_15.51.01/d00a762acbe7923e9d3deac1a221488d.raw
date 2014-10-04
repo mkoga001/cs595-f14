@@ -1,0 +1,1165 @@
+<meta http-equiv="x-dns-prefetch-control" content="off"/><link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3"><!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<meta name="robots" content="noindex"/><!DOCTYPE html>
+
+
+<!-- -------------------------------------------------------------
+     
+
+     Theme FRSCH By Max Davis.
+     
+     
+     Get this free theme: http://themes.themaxdavis.com/theme/frsch
+     More Themes: http://themes.themaxdavis.com
+
+     
+     PROMOTE YOUR TUMBLR: http://themes.themaxdavis.com/spotlight
+     
+     
+     ------------------------------------------------------------- -->
+     
+
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+<meta charset="utf-8" />
+<title>Radical California</title>
+<link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_0200c0d3c669_128.png"> 
+<link rel="alternate" type="application/rss+xml" href="http://rad-icalifornia.tumblr.com/rss">
+<meta name="description" content="F r e e S p i r i t, California, A child of the sea i shall forever be." />
+
+<meta name="color:Background" content="#FFFFFF"/>
+<meta name="color:Text" content="#555555"/>
+<meta name="color:Titles" content="#111111"/>
+<meta name="color:Links" content="#111111"/>
+<meta name="color:Links Hover" content="#000000"/>
+
+<meta name="image:logo" content="" />
+<meta name="image:Background" content="" />
+
+<meta name="if:2 columns" content="0" />
+<meta name="if:2 columns broader posts" content="0" />
+<meta name="if:Infinite Scrolling" content="1" />
+<meta name="if:Background Image Fixed" content="0" />
+<meta name="if:Sidebar left Or Right" content="0" />
+<meta name="if:Show Copyright" content="1" />
+<meta name="if:Show Captions" content="1" />
+
+<meta name="text:Link Separator 1" content="//"/>
+<meta name="text:Link Separator 2" content="-"/>
+<meta name="text:Sidebar Title" content=""/>
+<meta name="text:Sidebar Description" content=""/>
+<meta name="text:Twitter Username" content=""/>
+<meta name="text:Link 1" content="" />
+<meta name="text:Link 1 Title" content="" />
+<meta name="text:Link 2" content="" />
+<meta name="text:Link 2 Title" content="" />
+<meta name="text:Link 3" content="" />
+<meta name="text:Link 3 Title" content="" />
+<meta name="text:Link 4" content="" />
+<meta name="text:Link 4 Title" content="" />
+<meta name="text:Link 5" content="" />
+<meta name="text:Link 5 Title" content="" />
+<meta name="text:Link 6" content="" />
+<meta name="text:Link 6 Title" content="" />
+
+
+<script type="text/javascript" src="http://themaxdavisthemes.com/code/jQuery.js"></script>
+
+
+
+<script type="text/javascript" src="http://static.tumblr.com/twte3d7/0pellzh2t/infinitescroll.js"></script>
+
+<script type="text/javascript" src="http://static.tumblr.com/me5sfsd/12Qlmj66n/script.js"></script>
+<script>
+$(window).load(function(){
+    var $wall = $('#content');
+    
+    $wall.masonry({
+      itemSelector: '.post',
+      columnWidth:260
+    });
+    
+    $wall.infinitescroll({
+    navSelector  : ".nav",
+    nextSelector : ".nav a",
+    itemSelector : ".post",
+    loading      : "",
+    donetext     : ""
+    },
+
+    function( newElements ) { 
+        var $newElems = $( newElements ).css({ 
+            opacity: 0 
+        });
+        $newElems.imagesLoaded(function(){
+            $newElems.animate({ opacity: 1 });
+            $wall.masonry( "appended", $newElems, true );
+        });
+    });
+});
+</script>
+
+
+<style type="text/css"> body { padding:0; margin:0; font-size:11px; font-family: Courier New, sans-serif; color:#555555; background-color:#FFFFFF; background-image:url(http://assets.tumblr.com/images/x.gif); background-position:center top; } a { text-decoration:none; color:#7bd4e7; -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear;} a:hover { color:#529ECC; -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear;} a:active{outline: none;} a:focus{-moz-outline-style: none;} :-moz-any-link:focus{outline: none;} img{border:none;} .clear {clear:both;} #tumblr_controls{position:fixed !important;} .install_button{position:fixed !important;} #container{ margin:auto; width:860px;   width:960px;  } #sidebar{ width:400px; position:fixed; height: 100%; padding:0 20px; background-color:#FFFFFF;  margin-left:420px; padding-right:20px;   margin-left:520px;   } #sidebar .logo{ height: 50%; position: relative; top: 0; width: 400px;} #sidebar .logo .image{ bottom:0; position:absolute; width:400px; padding:0 0 20px;} #sidebar .logo .image img{ max-width:400px; max-height:250px;} #sidebar .navigation{ width:400px; height:50%; bottom:0; position:relative; text-align:center; font-size:18px;} #sidebar .navigation h1{ display:inline; font-weight:normal; margin:0 10px; font-size:18px; cursor:pointer; color:#111111;} #sidebar .navigation h1.active{ text-decoration:underline;} #sidebar .navigation .description{ font-size:12px; margin-top:20px;} #sidebar .navigation .description .links{ font-size:12px; margin-top:20px;} #sidebar .navigation .description .links a{ margin:0 5px;} #sidebar .navigation .description .copyright{ margin:20px 0 0; font-size:10px;} #sidebar .navigation .description .pagination{ margin:20px 0 0; font-size:10px;} #sidebar .navigation .message{ display:none; font-size:12px; margin-top:20px; padding:0 20px} #sidebar .navigation .about{ display:none; font-size:12px; margin-top:20px;} #sidebar .navigation .permalink_side{ font-size:12px; margin-top:20px;} #sidebar .navigation .twitter{ width:400px; overflow:hidden; display:none;} #sidebar .navigation .twitter h1{ margin:20px 0; font-size:12px; display:block; text-transform:uppercase;} #sidebar .navigation .twitter #twitter_update_list{ margin:0; padding:0; list-style:none; width:400px;} #sidebar .navigation .twitter #twitter_update_list li{ padding: 4px 5px; margin:0 0 4px; font-size:10px; font-style:italic;} #sidebar .navigation .twitter #twitter_update_list li span{ font-style:normal;} #sidebar .navigation .twitter #twitter_update_list li a{ color:#555555;} #sidebar .navigation .twitter #twitter_update_list li:nth-child(even){ background:rgba(0,0,0,0.05); color:#555555;} #sidebar .navigation .twitter #twitter_update_list li:last-child{ margin:0} #content{ width:400px; padding:20px 20px 0; background-color:#FFFFFF;   width:420px;  width:520px;  } #content .post{ margin:0 0 20px; position:relative; overflow:hidden; width:400px;   float:left; width:190px; margin:0 20px 20px 0;  width:240px; margin:0 20px 20px 0;   }  #content .width{ width:400px; height:auto;  width:500px; }  #content .post img{ display:block;   width:190px;  width:240px;   } #content .post p{margin:0;} #content .post blockquote{margin: 5px 0;} #content .post h1{ margin:0 0 10px; color:#555555} #content .post .chat{ margin:0; padding:0; list-style:none;} #content .post .chat li{ padding: 10px;} #content .post .chat li:nth-child(even){ background:rgba(0,0,0,0.05);} #content .post .audio{ padding:6px 30px 3px; width:340px; background:black; margin:0;   width:30px; padding:6px 80px 3px; overflow:hidden;  padding:6px 105px 3px;   } #content .post .album{ float:left; width:300px; padding:6px 30px 3px;   width:30px; padding:6px 80px 3px; overflow:hidden;  padding:6px 105px 3px;   } #content .post .album_art{ width:34px; height:34px; overflow:hidden; padding:3px; float:left; background:black;   width:190px; clear:both; height:190px; padding:0;  width:240px; height:240px;   } #content .post .album_art img{ height: 34px; width: 34px;   height: auto; width: 190px !important;  height: auto; width: 240px !important;   } #content .post .question{ padding: 10px; background: rgba(0,0,0,0.05);} #content .post .answer{ padding: 10px 10px 0;} #content .post .permalink{ margin:10px 0; font-size:9px; text-align:center;} #content .post .photo{ display:none;} #content .post .caption{ background:rgba(0,0,0,0.05); padding:10px;  } #content .post .box{ position:relative;} #content .post .permalink_photo{ background: none repeat scroll 0 0 rgba(255, 255, 255, 0.95); bottom: 0; font-size: 10px; height: 13px; left: 0; opacity: 0; padding: 10px 0 7px; position: absolute; text-align: center; width: 100%; -webkit-transition: all 0.8s ease; -moz-transition: all 0.8s ease; transition: all 0.8s ease;   right:0px; } #content .post .permalink_photo a{ margin:0 5px;} #content .post:hover .permalink_photo { opacity:1; -webkit-transition: all 0.8s ease; -moz-transition: all 0.8s ease; transition: all 0.8s ease;} .view_notes{ cursor:pointer; text-align:center; margin:20px 0 0;} ol.notes { font-size: 10px; list-style-type: none; margin: 10px 0; padding: 0; display:none;} ol.notes a{ background-color: transparent;} ol.notes li.note { margin: 0 0 5px; padding: 5px;} ol.notes li.note img.avatar { border: medium none !important; display: inline !important; height: 16px !important; margin-right: 10px; vertical-align: -4px; width: 16px !important; min-width: 16px !important;} ol.notes li.note span.action a{} ol.notes li.note span.action a:hover{} ol.notes li.note .answer_content {} ol.notes li.note blockquote { border-left: medium none !important; margin: 5px 4px 5px 30px !important; padding: 5px 10px 4px !important;} </style>
+
+<body>
+<div class="nav"><a href="/page/2"></a></div>
+
+<div id="container">
+    <div id="sidebar">
+        <div class="logo">
+            <div class="image">
+            <a href="/"><center><img src="http://static.tumblr.com/a7c79e97453c67cb89cea1c6e90bebde/ktxpyio/HbLn9lg0j/tumblr_static_74rpht1hnzsw4s8k0s4g04ows.jpg"></center></a>
+            </div>
+        </div>
+        <div class="navigation"> 
+            
+                
+                <h1 class="m">MESSAGE</h1>
+                ||
+                
+                <h1 class="a">ABOUT</h1>
+                
+                ||
+                <h1 class="t">TWITTER</h1>
+                
+                
+                
+                <div class="description">
+                    <a href="/">
+                    
+                    </a>
+                    
+                    <br/><br/>Socal || 16 || Coastin'
+                    
+                <div class="links">
+                    <a href="/" title="Home">Index</a>
+                    
+                    ☮ 
+                    <a href="/submit">send it</a>
+                     
+                     
+                    ☮ <a href="http://rad-icalifornia.tumblr.com/myself">
+                    Me</a> 
+                    
+                    
+                    
+                     
+                    ☮ <a href="http://instagram.com/ceciliabooo">
+                    instagram </a> 
+                    
+                     
+                    ☮ <a href="http://rad-icalifornia.tumblr.com/FAQ">
+                    FAQ</a> 
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+                
+                
+                
+                
+                <div class="copyright">
+                    © 2011–2014
+                </div>
+                </div>
+                 
+                
+                
+                 
+                
+                 
+                
+                 
+                
+                 
+                
+                 
+                
+                 
+                
+                 
+                
+                 
+                
+                 
+                
+                 
+                
+                 
+                
+                 
+                
+                 
+                
+                 
+                
+                 
+                
+
+            <div class="message">
+                <iframe frameborder="0" scrolling="no" width="100%" height="149" src="http://www.tumblr.com/ask_form/rad-icalifornia.tumblr.com" style="background-color:transparent; overflow:hidden;" id="ask_form"></iframe><!--[if IE]><script type="text/javascript">document.getElementById('ask_form').allowTransparency=true;</script><![endif]-->
+            </div>
+            
+            <div class="about">
+                    F r e e S p i r i t, California, <br />
+A child of the sea i shall forever be.
+            </div>
+            
+            
+            <div class="twitter">
+                <a href="http://twitter.com/@cecesolivan" target="_blank">
+                <h1>My twitter feed</h1></a>
+                <div id="twitter_div">
+                    <ul id="twitter_update_list"></ul>
+                </div>
+                <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script><script type="text/javascript" src="http://twitter.com/statuses/user_timeline/@cecesolivan.json?callback=twitterCallback2&count=5"></script>
+                </div>
+            
+    
+            
+            <script>
+                $(".m").click(function () {
+                  $(".description").hide();
+                  $(".about").hide();
+                  $(".twitter").hide();
+                  $(".message").show();
+                  $(".m").addClass("active");
+                  $(".a").removeClass("active");
+                  $(".t").removeClass("active");
+                });    
+            </script>
+            <script>
+                $(".a").click(function () {
+                  $(".description").hide();
+                  $(".about").show();
+                  $(".twitter").hide();
+                  $(".message").hide();
+                  $(".a").addClass("active");
+                  $(".m").removeClass("active");
+                  $(".t").removeClass("active");
+                });    
+            </script>
+            <script>
+                $(".t").click(function () {
+                  $(".description").hide();
+                  $(".twitter").show();
+                  $(".about").hide();
+                  $(".message").hide();
+                  $(".t").addClass("active");
+                  $(".a").removeClass("active");
+                  $(".m").removeClass("active");
+                });    
+            </script>
+            
+            
+        </div>
+    </div>
+    <div id="content">
+        
+        <div class="post ">
+        
+        
+
+        
+            <div class="box">
+             
+            
+             
+            <div class="permalink_photo">
+                <a href="http://rad-icalifornia.tumblr.com/post/98014171405">4 notes</a> 
+                ||
+                <a href="https://www.tumblr.com/reblog/98014171405/DwYoKShh">Reblog</a>
+            </div>
+            
+            
+             
+            <a href="http://rad-icalifornia.tumblr.com/post/98014171405"><img src="http://31.media.tumblr.com/7a3d2867cca328ff7ae1d8254fbf4d89/tumblr_nc88tfSwjb1qjmktwo1_400.jpg" /></a>
+            </div>
+            
+            
+            
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+         
+         
+        <div class="permalink photo">
+            <a href="http://rad-icalifornia.tumblr.com/post/98014171405">6 days ago</a>
+        </div>
+        
+         
+        
+        
+        
+        </div>
+        
+        <div class="post ">
+        
+        
+
+        
+            <div class="box">
+             
+            
+             
+            <div class="permalink_photo">
+                <a href="http://rad-icalifornia.tumblr.com/post/95488021410">11 notes</a> 
+                ||
+                <a href="https://www.tumblr.com/reblog/95488021410/rCAXaldQ">Reblog</a>
+            </div>
+            
+            
+             
+            <a href="http://rad-icalifornia.tumblr.com/post/95488021410"><img src="http://33.media.tumblr.com/83a846f6a4d8b7493d932bf8b4e07ffa/tumblr_naq8a3IdSO1qjmktwo1_400.jpg" /></a>
+            </div>
+            
+            
+            
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+         
+         
+        <div class="permalink photo">
+            <a href="http://rad-icalifornia.tumblr.com/post/95488021410">1 month ago</a>
+        </div>
+        
+         
+        
+        
+        
+        </div>
+        
+        <div class="post ">
+        
+        
+
+        
+            <div class="box">
+             
+            
+             
+            <div class="permalink_photo">
+                <a href="http://rad-icalifornia.tumblr.com/post/94866859110">92,261 notes</a> 
+                ||
+                <a href="https://www.tumblr.com/reblog/94866859110/dr9c8WZd">Reblog</a>
+            </div>
+            
+            
+             
+            <a href="http://rad-icalifornia.tumblr.com/post/94866859110"><img src="http://31.media.tumblr.com/tumblr_lzrlbqGXd11r9jb75o1_400.jpg" /></a>
+            </div>
+            
+            
+            <div class="caption"><p>(Source: <a href="http://fraeze.tumblr.com/post/18031920031" title="fraeze">fraeze</a>, via <a href='http://sassafranski.tumblr.com/post/94866199091'>sassafranski</a>)</p></div>
+            
+            
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+         
+         
+        <div class="permalink photo">
+            <a href="http://rad-icalifornia.tumblr.com/post/94866859110">1 month ago</a>
+        </div>
+        
+         
+        
+        
+        
+        </div>
+        
+        <div class="post ">
+        
+        
+
+        
+            <div class="box">
+             
+            
+             
+            <div class="permalink_photo">
+                <a href="http://rad-icalifornia.tumblr.com/post/94866848335/tropic-ae-tropical">20,443 notes</a> 
+                ||
+                <a href="https://www.tumblr.com/reblog/94866848335/oxYE0Ccz">Reblog</a>
+            </div>
+            
+            
+             
+            <a href="http://rad-icalifornia.tumblr.com/post/94866848335/tropic-ae-tropical"><img src="http://38.media.tumblr.com/tumblr_mbcev3P92Y1qgsx62o1_400.jpg" /></a>
+            </div>
+            
+            
+            <div class="caption"><p><a href="http://tropic-ae.tumblr.com/post/94865945763/tropical" class="tumblr_blog" target="_blank">tropic-ae</a>:</p>
+
+<blockquote><p><strong>☼</strong><strong>Tropical☼</strong></p></blockquote><p>(Source: <a href="http://blissful-daisy.tumblr.com/post/32839973568/phi-phi-island-thailand-2012" title="blissful-daisy">blissful-daisy</a>, via <a href='http://idk-shay.tumblr.com/post/94866226722/tropic-ae-tropical'>idk-shay</a>)</p></div>
+            
+            
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+         
+         
+        <div class="permalink photo">
+            <a href="http://rad-icalifornia.tumblr.com/post/94866848335/tropic-ae-tropical">1 month ago</a>
+        </div>
+        
+         
+        
+        
+        
+        </div>
+        
+        <div class="post ">
+        
+        
+
+        
+            <div class="box">
+             
+            
+             
+            <div class="permalink_photo">
+                <a href="http://rad-icalifornia.tumblr.com/post/94866774730/niccoolleeyy-follow-me">226 notes</a> 
+                ||
+                <a href="https://www.tumblr.com/reblog/94866774730/fK9mp4zd">Reblog</a>
+            </div>
+            
+            
+             
+            <a href="http://rad-icalifornia.tumblr.com/post/94866774730/niccoolleeyy-follow-me"><img src="http://33.media.tumblr.com/c4d61e10b047650973ff47594566fa47/tumblr_n7fniuVWhR1t9cw58o1_400.jpg" /></a>
+            </div>
+            
+            
+            <div class="caption"><p><a class="tumblr_blog" href="http://niccoolleeyy.tumblr.com/post/89290179775/follow-me" target="_blank">niccoolleeyy</a>:</p>
+<blockquote>
+<p>Follow me.</p>
+</blockquote><p>(via <a href='http://hippielova.tumblr.com/post/94866356098/niccoolleeyy-follow-me'>hippielova</a>)</p></div>
+            
+            
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+         
+         
+        <div class="permalink photo">
+            <a href="http://rad-icalifornia.tumblr.com/post/94866774730/niccoolleeyy-follow-me">1 month ago</a>
+        </div>
+        
+         
+        
+        
+        
+        </div>
+        
+        <div class="post ">
+        
+        
+
+        
+            <div class="box">
+             
+            
+             
+            <div class="permalink_photo">
+                <a href="http://rad-icalifornia.tumblr.com/post/94866756470">3,412 notes</a> 
+                ||
+                <a href="https://www.tumblr.com/reblog/94866756470/VSmlkOZe">Reblog</a>
+            </div>
+            
+            
+             
+            <a href="http://rad-icalifornia.tumblr.com/post/94866756470"><img src="http://38.media.tumblr.com/2481b4ed8782f752b62233354a2dda7b/tumblr_na88zduQZ81rjssato1_400.jpg" /></a>
+            </div>
+            
+            
+            <div class="caption"><p>(Source: <a href="http://siahphoto.tumblr.com/post/94599336988/ryse-dawson-salvage-public" title="siahphoto">siahphoto</a>, via <a href='http://coastal-heat.tumblr.com/post/94866419058'>coastal-heat</a>)</p></div>
+            
+            
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+         
+         
+        <div class="permalink photo">
+            <a href="http://rad-icalifornia.tumblr.com/post/94866756470">1 month ago</a>
+        </div>
+        
+         
+        
+        
+        
+        </div>
+        
+        <div class="post ">
+        
+        
+
+        
+            <div class="box">
+             
+            
+             
+            <div class="permalink_photo">
+                <a href="http://rad-icalifornia.tumblr.com/post/94866746740">171,645 notes</a> 
+                ||
+                <a href="https://www.tumblr.com/reblog/94866746740/oa6D1w8U">Reblog</a>
+            </div>
+            
+            
+             
+            <a href="http://rad-icalifornia.tumblr.com/post/94866746740"><img src="http://38.media.tumblr.com/tumblr_mc2n96Gt9H1qgps7xo1_400.png" /></a>
+            </div>
+            
+            
+            <div class="caption"><p>(Source: <a href="http://de-feated.tumblr.com" title="de-feated">de-feated</a>, via <a href='http://gypsea-wild.tumblr.com/post/94866433039'>gypsea-wild</a>)</p></div>
+            
+            
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+         
+         
+        <div class="permalink photo">
+            <a href="http://rad-icalifornia.tumblr.com/post/94866746740">1 month ago</a>
+        </div>
+        
+         
+        
+        
+        
+        </div>
+        
+        <div class="post ">
+        
+        
+
+        
+            <div class="box">
+             
+            
+             
+            <div class="permalink_photo">
+                <a href="http://rad-icalifornia.tumblr.com/post/94866642155/niccoolleeyy-too-clear-too-care">100 notes</a> 
+                ||
+                <a href="https://www.tumblr.com/reblog/94866642155/FDPVrryt">Reblog</a>
+            </div>
+            
+            
+             
+            <a href="http://rad-icalifornia.tumblr.com/post/94866642155/niccoolleeyy-too-clear-too-care"><img src="http://33.media.tumblr.com/c039eeb451c922b2736904c48b77355d/tumblr_n7ffn9datq1t9cw58o1_400.jpg" /></a>
+            </div>
+            
+            
+            <div class="caption"><p><a class="tumblr_blog" href="http://niccoolleeyy.tumblr.com/post/89275629395/too-clear-too-care" target="_blank">niccoolleeyy</a>:</p>
+<blockquote>
+<p>Too clear too care</p>
+</blockquote><p>(via <a href='http://hippielova.tumblr.com/post/94866559553/niccoolleeyy-too-clear-too-care'>hippielova</a>)</p></div>
+            
+            
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+         
+         
+        <div class="permalink photo">
+            <a href="http://rad-icalifornia.tumblr.com/post/94866642155/niccoolleeyy-too-clear-too-care">1 month ago</a>
+        </div>
+        
+         
+        
+        
+        
+        </div>
+        
+        <div class="post ">
+        
+        
+
+        
+            <div class="box">
+             
+            
+             
+            <div class="permalink_photo">
+                <a href="http://rad-icalifornia.tumblr.com/post/94544429070">3,613 notes</a> 
+                ||
+                <a href="https://www.tumblr.com/reblog/94544429070/8I48zKoS">Reblog</a>
+            </div>
+            
+            
+             
+            <a href="http://rad-icalifornia.tumblr.com/post/94544429070"><img src="http://38.media.tumblr.com/a107499f9d3cf889efaf4fb0ad432af2/tumblr_n815gi5Cfn1rzaobao1_400.jpg" /></a>
+            </div>
+            
+            
+            <div class="caption"><p>(Source: <a href="http://welcome-to-the-summer-paradise.tumblr.com/post/90446632928" title="welcome-to-the-summer-paradise">welcome-to-the-summer-paradise</a>, via <a href='http://sassafranski.tumblr.com/post/94542858171'>sassafranski</a>)</p></div>
+            
+            
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+         
+         
+        <div class="permalink photo">
+            <a href="http://rad-icalifornia.tumblr.com/post/94544429070">1 month ago</a>
+        </div>
+        
+         
+        
+        
+        
+        </div>
+        
+        <div class="post ">
+        
+        
+
+        
+            <div class="box">
+             
+            
+             
+            <div class="permalink_photo">
+                <a href="http://rad-icalifornia.tumblr.com/post/94544356260/aquatropicana-bad-bitch-and-she-look-tropic">13,337 notes</a> 
+                ||
+                <a href="https://www.tumblr.com/reblog/94544356260/Pcuckp5k">Reblog</a>
+            </div>
+            
+            
+             
+            <a href="http://rad-icalifornia.tumblr.com/post/94544356260/aquatropicana-bad-bitch-and-she-look-tropic"><img src="http://38.media.tumblr.com/79755d255f6dafb92f9302d8add8ccbf/tumblr_n8n0wxv7h01rrwxcgo1_400.jpg" /></a>
+            </div>
+            
+            
+            <div class="caption"><p><a href="http://aquatropicana.tumblr.com/post/94543077947/bad-bitch-and-she-look-tropic" class="tumblr_blog" target="_blank">aquatropicana</a>:</p>
+
+<blockquote><p>Bad bitch, and she look tropic 🌺🍋🍊</p></blockquote><p>(Source: <a href="http://essenaoneill.tumblr.com/post/91621962028" title="essenaoneill">essenaoneill</a>)</p></div>
+            
+            
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+         
+         
+        <div class="permalink photo">
+            <a href="http://rad-icalifornia.tumblr.com/post/94544356260/aquatropicana-bad-bitch-and-she-look-tropic">1 month ago</a>
+        </div>
+        
+         
+        
+        
+        
+        </div>
+        
+        <div class="post ">
+        
+        
+
+        
+            <div class="box">
+             
+            
+             
+            <div class="permalink_photo">
+                <a href="http://rad-icalifornia.tumblr.com/post/94544034600/tropicaloceans-highenoughtoseethesea-instant">4,461 notes</a> 
+                ||
+                <a href="https://www.tumblr.com/reblog/94544034600/l55w2YmA">Reblog</a>
+            </div>
+            
+            
+             
+            <a href="http://rad-icalifornia.tumblr.com/post/94544034600/tropicaloceans-highenoughtoseethesea-instant"><img src="http://38.media.tumblr.com/35a0db2614a3bfbcde55a41ff126e8eb/tumblr_n9q8rahnoG1s79rl8o1_400.jpg" /></a>
+            </div>
+            
+            
+            <div class="caption"><p><a href="http://tropicaloceans.tumblr.com/post/94543834935/highenoughtoseethesea-instant-cure-for" class="tumblr_blog" target="_blank">tropicaloceans</a>:</p>
+
+<blockquote><p><a class="tumblr_blog" href="http://highenoughtoseethesea.tumblr.com/post/93672019726/instant-cure-for-jetlag" target="_blank">highenoughtoseethesea</a>:</p>
+<blockquote>
+<p>Instant cure for jetlag.</p>
+</blockquote>
+
+<p>💕</p></blockquote></div>
+            
+            
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+         
+         
+        <div class="permalink photo">
+            <a href="http://rad-icalifornia.tumblr.com/post/94544034600/tropicaloceans-highenoughtoseethesea-instant">1 month ago</a>
+        </div>
+        
+         
+        
+        
+        
+        </div>
+        
+        <div class="post ">
+        
+        
+
+        
+            <div class="box">
+             
+            
+             
+            <div class="permalink_photo">
+                <a href="http://rad-icalifornia.tumblr.com/post/94441842015/aquatropicana-surfandseaa-front-row-seats">11,209 notes</a> 
+                ||
+                <a href="https://www.tumblr.com/reblog/94441842015/ctodojwS">Reblog</a>
+            </div>
+            
+            
+             
+            <a href="http://rad-icalifornia.tumblr.com/post/94441842015/aquatropicana-surfandseaa-front-row-seats"><img src="http://38.media.tumblr.com/9f0ede57ac49b74edd4a44926d28ac80/tumblr_n91a8qN5FZ1qciwjbo1_400.png" /></a>
+            </div>
+            
+            
+            <div class="caption"><p><a href="http://aquatropicana.tumblr.com/post/94441726962/surfandseaa-front-row-seats-bad-bitch-and" class="tumblr_blog" target="_blank">aquatropicana</a>:</p>
+
+<blockquote><p><a class="tumblr_blog" href="http://surfandseaa.tumblr.com/post/92374418231/front-row-seats" target="_blank">surfandseaa</a>:</p>
+<blockquote>
+<p>Front row seats</p>
+</blockquote>
+<p>Bad bitch, and she look tropic 🌺🍋🍊</p></blockquote></div>
+            
+            
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+         
+         
+        <div class="permalink photo">
+            <a href="http://rad-icalifornia.tumblr.com/post/94441842015/aquatropicana-surfandseaa-front-row-seats">1 month ago</a>
+        </div>
+        
+         
+        
+        
+        
+        </div>
+        
+        <div class="post ">
+        
+        
+
+        
+            <div class="box">
+             
+            
+             
+            <div class="permalink_photo">
+                <a href="http://rad-icalifornia.tumblr.com/post/94441832470">99,105 notes</a> 
+                ||
+                <a href="https://www.tumblr.com/reblog/94441832470/tXc8rUjR">Reblog</a>
+            </div>
+            
+            
+             
+            <a href="http://rad-icalifornia.tumblr.com/post/94441832470"><img src="http://38.media.tumblr.com/tumblr_mbqrtzP55n1rd4cx6o1_400.jpg" /></a>
+            </div>
+            
+            
+            <div class="caption"><p>(Source: <a href="http://weheartit.com/search?page=6&amp;query=blue&amp;sort=1" title="weheartit.com">weheartit.com</a>, via <a href='http://eastcoasttvibes.tumblr.com/post/94441733518'>eastcoasttvibes</a>)</p></div>
+            
+            
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+         
+         
+        <div class="permalink photo">
+            <a href="http://rad-icalifornia.tumblr.com/post/94441832470">1 month ago</a>
+        </div>
+        
+         
+        
+        
+        
+        </div>
+        
+        <div class="post ">
+        
+        
+
+        
+            <div class="box">
+             
+            
+             
+            <div class="permalink_photo">
+                <a href="http://rad-icalifornia.tumblr.com/post/93895350745">589 notes</a> 
+                ||
+                <a href="https://www.tumblr.com/reblog/93895350745/caNW1qAU">Reblog</a>
+            </div>
+            
+            
+             
+            <a href="http://rad-icalifornia.tumblr.com/post/93895350745"><img src="http://33.media.tumblr.com/0e0c30390221630dad0f68149b4481ea/tumblr_n8ttowgTAP1razmimo1_400.jpg" /></a>
+            </div>
+            
+            
+            <div class="caption"><p>(Source: <a href="http://efeitobabilonia.tumblr.com" title="efeitobabilonia">efeitobabilonia</a>, via <a href='http://naturalida-de.tumblr.com/post/93873151477'>naturalida-de</a>)</p></div>
+            
+            
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+         
+         
+        <div class="permalink photo">
+            <a href="http://rad-icalifornia.tumblr.com/post/93895350745">1 month ago</a>
+        </div>
+        
+         
+        
+        
+        
+        </div>
+        
+        <div class="post ">
+        
+        
+
+        
+            <div class="box">
+             
+            
+             
+            <div class="permalink_photo">
+                <a href="http://rad-icalifornia.tumblr.com/post/93894914730">24 notes</a> 
+                ||
+                <a href="https://www.tumblr.com/reblog/93894914730/UIEkFqB4">Reblog</a>
+            </div>
+            
+            
+             
+            <a href="http://rad-icalifornia.tumblr.com/post/93894914730"><img src="http://38.media.tumblr.com/4741763b8adcbbdababdcacbb5972917/tumblr_n9ukvrf99M1qjmktwo1_400.jpg" /></a>
+            </div>
+            
+            
+            
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+         
+         
+        <div class="permalink photo">
+            <a href="http://rad-icalifornia.tumblr.com/post/93894914730">1 month ago</a>
+        </div>
+        
+         
+        
+        
+        
+        </div>
+        
+    </div>
+</div>
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://rad-icalifornia.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411848189&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvcmFkLWljYWxpZm9ybmlhLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=IFAPIMIBAL&K=577bed9ea7b6f69dee953296dffc2d11f9395e1e316a26b0e5860411bb968f6b&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411848189&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvcmFkLWljYWxpZm9ybmlhLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=IFAPIMIBAL&K=73d1da2178489f8f832920bea522933051a132fac2cb242dc717794d0ccf558f&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411848189&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3JhZC1pY2FsaWZvcm5pYS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6Ijk4MDE0MTcxNDA1IiwiYmxvZ2lkIjoiMTgyNjY2NTkiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk1NDg4MDIxNDEwIiwiYmxvZ2lkIjoiMTgyNjY2NTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzk5NDk2OTciLCJyb290X3Bvc3RpZCI6MTgwMzE5MjAwMzEsInBvc3RpZCI6Ijk0ODY2ODU5MTEwIiwiYmxvZ2lkIjoiMTgyNjY2NTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTIyNzc0NjYiLCJyb290X3Bvc3RpZCI6IjMyODM5OTczNTY4IiwicG9zdGlkIjoiOTQ4NjY4NDgzMzUiLCJibG9naWQiOiIxODI2NjY1OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNjA1NDg5MDgiLCJyb290X3Bvc3RpZCI6Ijg5MjkwMTc5Nzc1IiwicG9zdGlkIjoiOTQ4NjY3NzQ3MzAiLCJibG9naWQiOiIxODI2NjY1OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3Nzc3NjYzNiIsInJvb3RfcG9zdGlkIjo5NDU5OTMzNjk4OCwicG9zdGlkIjoiOTQ4NjY3NTY0NzAiLCJibG9naWQiOiIxODI2NjY1OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMjEzMTA3MiIsInJvb3RfcG9zdGlkIjozMzgyMTIyMTM5OSwicG9zdGlkIjoiOTQ4NjY3NDY3NDAiLCJibG9naWQiOiIxODI2NjY1OSIsInNvdXJjZSI6MzN9XX0=&U=NFENJEAAEH&K=b1315c845b8a1325138e11d93ef8e46c923753f3608c17334a0386c781cc59cf&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411848189&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3JhZC1pY2FsaWZvcm5pYS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6Ijk4MDE0MTcxNDA1IiwiYmxvZ2lkIjoiMTgyNjY2NTkiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk1NDg4MDIxNDEwIiwiYmxvZ2lkIjoiMTgyNjY2NTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzk5NDk2OTciLCJyb290X3Bvc3RpZCI6MTgwMzE5MjAwMzEsInBvc3RpZCI6Ijk0ODY2ODU5MTEwIiwiYmxvZ2lkIjoiMTgyNjY2NTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTIyNzc0NjYiLCJyb290X3Bvc3RpZCI6IjMyODM5OTczNTY4IiwicG9zdGlkIjoiOTQ4NjY4NDgzMzUiLCJibG9naWQiOiIxODI2NjY1OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNjA1NDg5MDgiLCJyb290X3Bvc3RpZCI6Ijg5MjkwMTc5Nzc1IiwicG9zdGlkIjoiOTQ4NjY3NzQ3MzAiLCJibG9naWQiOiIxODI2NjY1OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3Nzc3NjYzNiIsInJvb3RfcG9zdGlkIjo5NDU5OTMzNjk4OCwicG9zdGlkIjoiOTQ4NjY3NTY0NzAiLCJibG9naWQiOiIxODI2NjY1OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMjEzMTA3MiIsInJvb3RfcG9zdGlkIjozMzgyMTIyMTM5OSwicG9zdGlkIjoiOTQ4NjY3NDY3NDAiLCJibG9naWQiOiIxODI2NjY1OSIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=NFENJEAAEH&K=92cdf203a3fd2baa319f67d8dc9d78e7dded0b75c289d9dc0f261f8ade2b2582&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411848189&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3JhZC1pY2FsaWZvcm5pYS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMTYwNTQ4OTA4Iiwicm9vdF9wb3N0aWQiOiI4OTI3NTYyOTM5NSIsInBvc3RpZCI6Ijk0ODY2NjQyMTU1IiwiYmxvZ2lkIjoiMTgyNjY2NTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjEzNDg1ODMiLCJyb290X3Bvc3RpZCI6IjkwNDQ2NjMyOTI4IiwicG9zdGlkIjoiOTQ1NDQ0MjkwNzAiLCJibG9naWQiOiIxODI2NjY1OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0NzczNjczNyIsInJvb3RfcG9zdGlkIjoiOTE2MjE5NjIwMjgiLCJwb3N0aWQiOiI5NDU0NDM1NjI2MCIsImJsb2dpZCI6IjE4MjY2NjU5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijk1OTcxNTY4Iiwicm9vdF9wb3N0aWQiOjkzNjcyMDE5NzI2LCJwb3N0aWQiOiI5NDU0NDAzNDYwMCIsImJsb2dpZCI6IjE4MjY2NjU5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjYzMDUxNjAiLCJyb290X3Bvc3RpZCI6OTIzNzQ0MTgyMzEsInBvc3RpZCI6Ijk0NDQxODQyMDE1IiwiYmxvZ2lkIjoiMTgyNjY2NTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjcxOTg1NjYiLCJyb290X3Bvc3RpZCI6MzMzNzQ3MjYzOTUsInBvc3RpZCI6Ijk0NDQxODMyNDcwIiwiYmxvZ2lkIjoiMTgyNjY2NTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjMwMTI5MTEiLCJyb290X3Bvc3RpZCI6IjkxOTg5NTExMjYxIiwicG9zdGlkIjoiOTM4OTUzNTA3NDUiLCJibG9naWQiOiIxODI2NjY1OSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTM4OTQ5MTQ3MzAiLCJibG9naWQiOiIxODI2NjY1OSIsInNvdXJjZSI6MzN9XX0=&U=CFJACJELME&K=322700fa478c1a102c871f4bdec83abadc23e18e781fa297dfda97aa33b0cdaa&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411848189&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3JhZC1pY2FsaWZvcm5pYS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMTYwNTQ4OTA4Iiwicm9vdF9wb3N0aWQiOiI4OTI3NTYyOTM5NSIsInBvc3RpZCI6Ijk0ODY2NjQyMTU1IiwiYmxvZ2lkIjoiMTgyNjY2NTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjEzNDg1ODMiLCJyb290X3Bvc3RpZCI6IjkwNDQ2NjMyOTI4IiwicG9zdGlkIjoiOTQ1NDQ0MjkwNzAiLCJibG9naWQiOiIxODI2NjY1OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0NzczNjczNyIsInJvb3RfcG9zdGlkIjoiOTE2MjE5NjIwMjgiLCJwb3N0aWQiOiI5NDU0NDM1NjI2MCIsImJsb2dpZCI6IjE4MjY2NjU5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijk1OTcxNTY4Iiwicm9vdF9wb3N0aWQiOjkzNjcyMDE5NzI2LCJwb3N0aWQiOiI5NDU0NDAzNDYwMCIsImJsb2dpZCI6IjE4MjY2NjU5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjYzMDUxNjAiLCJyb290X3Bvc3RpZCI6OTIzNzQ0MTgyMzEsInBvc3RpZCI6Ijk0NDQxODQyMDE1IiwiYmxvZ2lkIjoiMTgyNjY2NTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjcxOTg1NjYiLCJyb290X3Bvc3RpZCI6MzMzNzQ3MjYzOTUsInBvc3RpZCI6Ijk0NDQxODMyNDcwIiwiYmxvZ2lkIjoiMTgyNjY2NTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjMwMTI5MTEiLCJyb290X3Bvc3RpZCI6IjkxOTg5NTExMjYxIiwicG9zdGlkIjoiOTM4OTUzNTA3NDUiLCJibG9naWQiOiIxODI2NjY1OSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTM4OTQ5MTQ3MzAiLCJibG9naWQiOiIxODI2NjY1OSIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=CFJACJELME&K=35a649b36468d96cbeff374e1f3c43ae8d4cbc10805fa945f3bdc891489c7f4a&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:18266659,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2Frad-icalifornia.tumblr.com%2F&amp;lang=en_US&amp;name=rad-icalifornia&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_0200c0d3c669_64.png&amp;title=Radical+California&amp;url=http%3A%2F%2Frad-icalifornia.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2Frad-icalifornia.tumblr.com%2F&amp;lang=en_US&amp;name=rad-icalifornia&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_0200c0d3c669_64.png&amp;title=Radical+California&amp;url=http%3A%2F%2Frad-icalifornia.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html><script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>

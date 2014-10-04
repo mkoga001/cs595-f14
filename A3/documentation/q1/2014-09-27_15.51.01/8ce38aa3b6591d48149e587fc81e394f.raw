@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraph.org/schema/">
+<head>
+
+<!--
+
+ __    __                
+/\ \__/\ \               
+\ \ ,_\ \ \___      __   
+ \ \ \/\ \  _ `\  /'__`\ 
+  \ \ \_\ \ \ \ \/\  __/ 
+   \ \__\\ \_\ \_\ \____\
+    \/__/ \/_/\/_/\/____/                         
+                                                                                                                    
+                       __          __                     
+ __  __  _____   _ __ /\_\    ____/\_\    ___      __     
+/\ \/\ \/\ '__`\/\`'__\/\ \  /',__\/\ \ /' _ `\  /'_ `\   
+\ \ \_\ \ \ \L\ \ \ \/ \ \ \/\__, `\ \ \/\ \/\ \/\ \L\ \  
+ \ \____/\ \ ,__/\ \_\  \ \_\/\____/\ \_\ \_\ \_\ \____ \ 
+  \/___/  \ \ \/  \/_/   \/_/\/___/  \/_/\/_/\/_/\/___L\ \
+           \ \_\                                   /\____/
+            \/_/                                   \_/__/ 
+                            __                          
+                           /\ \__  __                   
+  ___   _ __    __     __  \ \ ,_\/\_\  __  __     __   
+ /'___\/\`'__\/'__`\ /'__`\ \ \ \/\/\ \/\ \/\ \  /'__`\ 
+/\ \__/\ \ \//\  __//\ \L\.\_\ \ \_\ \ \ \ \_/ |/\  __/ 
+\ \____\\ \_\\ \____\ \__/.\_\\ \__\\ \_\ \___/ \ \____\
+ \/____/ \/_/ \/____/\/__/\/_/ \/__/ \/_/\/__/   \/____/
+                                                                                                                
+Designed & Developed by The Uprising Creative 
+- - -
+http://theuprisingcreative.com
+http://facebook.com/theuprisingcreative
+@uprising_create
+- - -
+
+-->
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgUOWFFWGwAIVFJVBgg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,o){t&&t(e,n,o),o||(o={});for(var a=i(e),s=a.length,c=o[r]||(o[r]={}),f=0;s>f;f++)a[f].apply(c,n);return c}function o(t,e){s[t]=i(t).concat(e)}function i(t){return s[t]||[]}function a(){return n(e)}var s={};return{on:o,emit:e,create:a,listeners:i,_events:s}}var r="nr@context";e.exports=n()},{}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(4),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(f){"stack"in f&&(t(5),t(3),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:4,2:7,3:5,4:15,5:6,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],4:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o);if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var a=document;a&&!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&&n(a);for(var s=XMLHttpRequest.prototype;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=i(e,"fn-",null,e.name||"anonymous"):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:15,2:16,ee:"QJf3ax"}],5:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:16,2:15,ee:"QJf3ax"}],6:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:16,2:15,ee:"QJf3ax"}],7:[function(t,e){function n(){c.inPlace(this,d,"fn-")}function r(t,e){c.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}var i=t("ee").create(),a=t(1),s=t(2),c=s(i),f=s(a),u=window.XMLHttpRequest,d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=i,window.XMLHttpRequest=function(t){var e=new u(t);try{i.emit("new-xhr",[],e),f.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{i.emit("internal-error",r)}catch(o){}}return e},window.XMLHttpRequest.prototype=u.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),i.on("send-xhr-start",r),i.on("open-xhr-start",r)},{1:4,2:16,ee:"QJf3ax"}],8:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=e(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(1),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(2);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=e(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",e)}catch(r){}}};for(var u=0;c>u;u++)n.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:9,2:12,3:7,4:4,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],9:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],12:[function(t,e){function n(t){if(!t||"object"!=typeof t&&"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){p.proto="https"===d.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=p.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,c=s.document,f="addEventListener",u="attachEvent",d=(""+location).split("?")[0],p=e.exports={offset:i(),origin:d,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),s[f]("load",n,!1)):(c[u]("onreadystatechange",r),s[u]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],15:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],16:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper";e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,f,u;try{i=this,n=o(arguments),f=r&&r(n,i)||{}}catch(d){c([d,"",[n,i,a],f])}s(e+"start",[n,i,a],f);try{return u=t.apply(i,n)}catch(p){throw s(e+"err",[n,i,p],f),p}finally{s(e+"end",[n,i,u],f)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,nrWrapper)}function a(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s,t))}function s(e,n,r){try{t.emit(e,n,r)}catch(o){c([o,e,n,r])}}function c(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=a,e.flag=i,e}},{1:15,ee:"QJf3ax"}]},{},["G9z0Bl",3,8]);</script>
+<meta name="URL" content="http://www.beyonce.com" />
+<meta name="author" content="The Uprising Creative" />
+<meta name="copyright" content="Copyright &copy; 2013 The Uprising Creative - All Rights Reserved" />
+<link rel="shortcut icon" href="http://static.parkwoodent.netdna-cdn.com/wp-content/themes/beyonce_2014/assets/images/favicon.png" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://www.beyonce.com/xmlrpc.php" />
+
+<link rel='stylesheet' id='app-css-css'  href='http://www.beyonce.com/wp-content/themes/beyonce_2014/assets/stylesheets/styles.css?ver=3.9.1' type='text/css' media='all' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.beyonce.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://static.parkwoodent.netdna-cdn.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.9.1" />
+<meta property="og:site_name" content="Beyonce"/>
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Beyonce" />
+<meta property="og:url" content="http://www.beyonce.com" />
+<meta property="og:description" content="The Official Website of Beyoncé" />
+<meta property="og:image" content="http://static.parkwoodent.netdna-cdn.com/wp-content/themes/beyonce_2014/assets/images/og-img.jpg" /></head>
+
+<body class="home blog bootylicious">
+
+
+<div id="loading-mask"></div>
+
+<div id="header-wrapper">
+    <header id="main-header">
+        <a id="main-brand" href="/">
+            <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/themes/beyonce_2014/assets/images/logo.svg" alt="Beyonce" />
+        </a>
+    </header>
+</div>
+
+<button id="nav-trigger-mobile"><span></span><span></span><span></span></button>
+
+<div id="nav-desktop">
+    <button id="nav-trigger"><span></span><span></span><span></span></button>
+    <nav id="main-nav-desktop">
+        <ul>
+            <li>
+              <a class="has-children" href="/album/">Music</a>
+              <ul class="sub-nav">
+                <li><a href="/album/">Albums</a></li>
+                <li><a href="/track/">Songs</a></li>
+                <li><a href="/video/">Videos</a></li>
+                <li><a href="/dvd/">DVDs</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="has-children" href="/tour/">Tour</a>
+              <ul class="sub-nav">
+                <li><a href="/tour?scope=upcoming">On The Run Tour</a></li>
+                <li><a href="/tour?scope=archive">Archive</a></li>
+              </ul>
+            </li>
+            <li><a href="/beygood/">#BeyGood</a></li>
+            <li><a href="/fragrance/">Fragrance</a></li>
+            <li><a href="http://shop.beyonce.com/" target="_blank">Shop</a></li>
+        </ul>
+    </nav>
+    <div id="nav-utilities-desktop">
+        <a id="secondary-brand-desktop" class="retract-nav" href="/"><img src="http://static.parkwoodent.netdna-cdn.com/wp-content/themes/beyonce_2014/assets/images/logo-white.svg" alt="Beyonce" /></a>
+        <div id="search-wrapper-desktop">
+            <form id="global-search" method="post">
+              <input type="text" value="" />
+              <button type="submit" class="icon-search"><img src="http://static.parkwoodent.netdna-cdn.com/wp-content/themes/beyonce_2014/assets/images/icon-search.svg" alt="Search" /></button>
+            </form>
+        </div>
+    </div>
+    <div id="addtl-links-desktop">
+        <ul id="legal-desktop">
+            <li><a class="retract-nav" href="/signup/">Join</a></li>
+            <li><a class="retract-nav" href="/follow/">Follow</a></li>
+            <li><a class="retract-nav" href="/terms-conditions/">Terms</a></li>
+            <li><a class="retract-nav" href="/privacy-policy/">Privacy</a></li>
+        </ul>
+    </div>
+</div><div id="nav-mobile">
+    <nav id="main-nav-mobile">
+        <ul>
+            <li><a href="/album/">Music</a></li>
+            <li><a href="/tour/">Tour</a></li>
+            <li><a href="/beygood/">#BeyGood</a></li>
+            <li><a href="/fragrance/">Fragrance</a></li>
+            <li><a href="http://shop.beyonce.com/" target="_blank">Shop</a></li>
+        </ul>
+    </nav>
+    <div id="nav-utilities-mobile">
+        <div id="search-wrapper-mobile">
+            <form id="global-search-mobile" method="post">
+              <input type="text" value="" />
+              <button type="submit" class="icon-search"><img src="http://static.parkwoodent.netdna-cdn.com/wp-content/themes/beyonce_2014/assets/images/icon-search.svg" alt="Search" /></button>
+            </form>
+        </div>
+    </div>
+    <div id="addtl-links-mobile">
+        <ul id="legal-mobile">
+            <li><a class="retract-nav-mobile" href="/signup/">Join</a></li>
+            <li><a class="retract-nav-mobile" href="/follow/">Follow</a></li>
+            <li><a class="retract-nav-mobile" href="/terms-conditions/">Terms</a></li>
+            <li><a class="retract-nav-mobile" href="/privacy-policy/">Privacy</a></li>
+        </ul>
+    </div>
+</div>
+<div id="main">
+<section id="home" class="section-container">
+    <div id="grid-home" class="grid">
+        <div class="grid-sizer"></div>
+         <article class="grid-item grid-item-two" data-post-id="31375" data-post-type="post" data-order-number="1">
+
+          <a class="view-details" href="http://www.beyonce.com/eye-soul-by-yosra-el-essawy/" data-post-type="post" data-post-id="31375">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">Eye. Soul. <br />By Yosra El-Essawy</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/image2-800x800.jpeg" alt="Eye. Soul. <br />By Yosra El-Essawy" />    </a>
+</article>
+ <article class="grid-item grid-item-one" data-post-id="31363" data-post-type="post" data-order-number="2">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-378/" data-post-type="post" data-post-id="31363">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown-35-600x600.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-one" data-post-id="31366" data-post-type="post" data-order-number="3">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-381/" data-post-type="post" data-post-id="31366">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown-23-600x600.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-two" data-post-id="31367" data-post-type="post" data-order-number="4">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-380/" data-post-type="post" data-post-id="31367">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown4-800x800.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-two" data-post-id="31369" data-post-type="post" data-order-number="5">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-382/" data-post-type="post" data-post-id="31369">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown-16-800x800.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-one" data-post-id="31360" data-post-type="post" data-order-number="6">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-377/" data-post-type="post" data-post-id="31360">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown-44-600x600.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-one" data-post-id="31361" data-post-type="post" data-order-number="7">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-379/" data-post-type="post" data-post-id="31361">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown-53-600x600.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-two" data-post-id="31349" data-post-type="post" data-order-number="8">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-376/" data-post-type="post" data-post-id="31349">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown1-800x800.png" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-one" data-post-id="31343" data-post-type="post" data-order-number="9">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-375/" data-post-type="post" data-post-id="31343">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown-43-600x600.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-one" data-post-id="31339" data-post-type="post" data-order-number="10">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-374/" data-post-type="post" data-post-id="31339">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown-141-600x600.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-two" data-post-id="31337" data-post-type="post" data-order-number="11">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-373/" data-post-type="post" data-post-id="31337">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown-34-800x800.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-two" data-post-id="31330" data-post-type="post" data-order-number="12">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-370/" data-post-type="post" data-post-id="31330">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown-52-800x800.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-two" data-post-id="31331" data-post-type="post" data-order-number="13">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-369/" data-post-type="post" data-post-id="31331">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/photo-1-800x800.jpg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-one" data-post-id="31335" data-post-type="post" data-order-number="14">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-372/" data-post-type="post" data-post-id="31335">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown-15-600x600.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-one" data-post-id="31333" data-post-type="post" data-order-number="15">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-371/" data-post-type="post" data-post-id="31333">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown2-600x600.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-one" data-post-id="31325" data-post-type="post" data-order-number="16">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-367/" data-post-type="post" data-post-id="31325">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown-8-600x600.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-one" data-post-id="31322" data-post-type="post" data-order-number="17">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-366/" data-post-type="post" data-post-id="31322">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/IMG_9668-600x600.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-two" data-post-id="31327" data-post-type="post" data-order-number="18">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-368/" data-post-type="post" data-post-id="31327">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/photo-2-800x800.jpg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-two" data-post-id="31320" data-post-type="post" data-order-number="19">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-365/" data-post-type="post" data-post-id="31320">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown-7-800x800.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-one" data-post-id="31318" data-post-type="post" data-order-number="20">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-364/" data-post-type="post" data-post-id="31318">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown-22-600x600.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-one" data-post-id="31317" data-post-type="post" data-order-number="21">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-363/" data-post-type="post" data-post-id="31317">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown-61-600x600.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-two" data-post-id="31314" data-post-type="post" data-order-number="22">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-362/" data-post-type="post" data-post-id="31314">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/photo-3-800x800.jpg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-one" data-post-id="31308" data-post-type="post" data-order-number="23">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-359/" data-post-type="post" data-post-id="31308">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown-9-600x600.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-one" data-post-id="31306" data-post-type="post" data-order-number="24">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-358/" data-post-type="post" data-post-id="31306">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown-112-600x600.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-two" data-post-id="31300" data-post-type="post" data-order-number="25">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-357/" data-post-type="post" data-post-id="31300">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown-10-800x800.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-one" data-post-id="31309" data-post-type="post" data-order-number="26">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-360/" data-post-type="post" data-post-id="31309">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown-132-600x600.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-one" data-post-id="31313" data-post-type="post" data-order-number="27">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-361/" data-post-type="post" data-post-id="31313">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/Unknown-121-600x600.jpeg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-two" data-post-id="31298" data-post-type="post" data-order-number="28">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-356/" data-post-type="post" data-post-id="31298">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/IMG_8695_RB-800x800.jpg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-one" data-post-id="31297" data-post-type="post" data-order-number="29">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-355/" data-post-type="post" data-post-id="31297">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/IMG_8674_RB-600x600.jpg" alt="My Life" />    </a>
+</article>
+ <article class="grid-item grid-item-one" data-post-id="31295" data-post-type="post" data-order-number="30">
+
+          <a class="view-details" href="http://www.beyonce.com/my-life-354/" data-post-type="post" data-post-id="31295">
+    
+        <div class="grid-item-animation-overlay"></div>
+            <div class="grid-item-overlay">
+                <div class="grid-item-overlay-inner">
+                                        <h2>
+                                                <span class="title">My Life</span>
+                    </h2>
+                                    </div>
+            </div>
+        <img src="http://static.parkwoodent.netdna-cdn.com/wp-content/uploads/2014/09/IMG_8676_RB-600x600.jpg" alt="My Life" />    </a>
+</article>
+    </div>
+    <div id="grid-home-pagination">
+        <a class="next" href="http://www.beyonce.com/wp-admin/admin-ajax.php?action=load_more_homepage_items&amp;paged=2">Next</a>
+    </div>
+</section>
+<a id="back-to-top" href="#"><img src="http://static.parkwoodent.netdna-cdn.com/wp-content/themes/beyonce_2014/assets/images/icon-arrow-up.svg" alt="Back To Top" /></a></div> <!-- / #main -->
+
+<div id="zoom-overlay"></div>
+<div id="zoom-lb">
+  <button id="image-zoom-close"><img src="http://static.parkwoodent.netdna-cdn.com/wp-content/themes/beyonce_2014/assets/images/icon-close.svg" alt="Close" /></button>
+  <img class="expanded-img" src="" alt="" />
+</div><script type='text/javascript' src='http://static.parkwoodent.netdna-cdn.com/wp-content/themes/beyonce_2014/assets/scripts/app.js'></script>
+<script type="text/javascript" language="javascript">
+var isReadyForTheJelly = function($) {
+    window.siteUrl = 'http://www.beyonce.com';
+    window.ajaxUrl = 'http://www.beyonce.com/wp-admin/admin-ajax.php';
+    window.templateUrl = 'http://static.parkwoodent.netdna-cdn.com/wp-content/themes/beyonce_2014';
+    var
+      opts = {
+        siteUrl : 'http://www.beyonce.com',
+        ajaxUrl : 'http://www.beyonce.com/wp-admin/admin-ajax.php',
+        templateUrl : 'http://static.parkwoodent.netdna-cdn.com/wp-content/themes/beyonce_2014',
+        ajaxContainer : '#main',
+        splashView : 0
+      };
+    // Create the beyonce app as the global var "beyonce"
+    window.beyonce = new App(opts);
+};
+// Check if jQuery is ready for the jelly?
+jQuery(isReadyForTheJelly());
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-30239633-1', 'beyonce.com');
+  ga('send', 'pageview');
+</script>
+<script>
+  adroll_adv_id = "GVRDYPBNY5DFLLW7ILFO73";
+  adroll_pix_id = "ZOBXXFDUZRBVHGXYS3PJEW";
+  (function () {
+    var oldonload = window.onload;
+    window.onload = function(){
+      __adroll_loaded=true;
+      var scr = document.createElement("script");
+      var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+      scr.setAttribute('async', 'true');
+      scr.type = "text/javascript";
+      scr.src = host + "/j/roundtrip.js";
+      ((document.getElementsByTagName('head') || [null])[0] || document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+  if(oldonload){oldonload()}};
+  }())
+</script>
+<!--
+<script>
+  var _sf_async_config = { uid: 54875, domain: 'beyonce.com', useCanonical: true };
+  (function() {
+    function loadChartbeat() {
+      window._sf_endpt = (new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src','//static.chartbeat.com/js/chartbeat.js');
+      document.body.appendChild(e);
+    };
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+      loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script>
+-->
+<img style="display: none;" src='http://tags.w55c.net/rs?id=61676cb38563456fa62fdc9a9d4fbc34&amp;t=marketing'>
+<script>(function(){
+window._fbds = window._fbds || {};
+_fbds.pixelId = 1454758574736309;
+var fbds = document.createElement('script');
+fbds.async = true;
+fbds.src = '//connect.facebook.net/en_US/fbds.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(fbds, s);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(["track", "PixelInitialized", {}]);
+</script>
+<noscript><img height="1" width="1" border="0" alt="" style="display:none" src="https://www.facebook.com/tr?id=1454758574736309&amp;ev=NoScript" /></noscript>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-5.newrelic.com","licenseKey":"4c1106d3de","applicationID":"3803719","transactionName":"NlxVZUBUWkRVWkxdXA8WdlJGXFtZG1BWUFYZ","queueTime":0,"applicationTime":367,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-460.min.js"}</script></body>
+</html><!-- CDN Linker <https://github.com/wmark/CDN-Linker/tags> active -->

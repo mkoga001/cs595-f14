@@ -1,0 +1,81 @@
+\section{Problem 1}
+\label{part1}
+\subsection*{Question}
+\begingroup
+
+\begin{verbatim}
+
+1.  Download the 1000 URIs from assignment #2.  "curl", "wget", or
+"lynx" are all good candidate programs to use.  We want just the
+raw HTML, not the images, stylesheets, etc.
+
+from the command line:
+
+% curl http://www.cnn.com/ > www.cnn.com
+
+% wget -O www.cnn.com http://www.cnn.com/
+
+% lynx -source http://www.cnn.com/ > www.cnn.com
+
+"www.cnn.com" is just an example output file name, keep in mind
+that the shell will not like some of the characters that can occur
+in URIs (e.g., "?", "&").  You might want to hash the URIs, like:
+
+% echo -n "http://www.cs.odu.edu/show_features.shtml?72" | md5
+41d5f125d13b4bb554e6e31b6b591eeb
+
+("md5sum" on some machines; note the "-n" in echo -- this removes
+the trailing newline.) 
+
+Now use a tool to remove (most) of the HTML markup.  "lynx" will
+do a fair job:
+
+% lynx -dump -force_html www.cnn.com > www.cnn.com.processed
+
+Keep both files for each URI (i.e., raw HTML and processed). 
+
+If you're feeling ambitious, "boilerpipe" typically does a good
+job for removing templates:
+
+https://code.google.com/p/boilerpipe/
+
+\end{verbatim}
+\newpage
+\subsection*{Answer}
+
+Downloading the URIs was done easily by a small shell script.The program is as follows  
+
+\lstinputlisting[language=bash, frame=single, caption={Shell Program for downloading URIs from Assignment 2}, label=lst:q1script, captionpos=b, numbers=left, showspaces=false, showstringspaces=false, basicstyle=\footnotesize]{q1/firstscript.sh}
+
+\begin{enumerate}
+
+\item The Shell program reads the file which had 1000 Unique links and gets the raw content for each link
+\item Initially I was little confused with organizing the folders which have raw files and the processed files, so to make my life easy I created the name of folder with the date and time by using date command
+\item In future we might need the raw files to get the plain text, some times Linux might not accept the special characters in the file name so its better to convert the file name to a non special characters format. 
+\item Converting the file name to a md5 hash format is the best way to deal with such problems. 
+\item Keeping track of the mapping between md5 hash for the respective URI is  needed.
+\item The respective md5 hash to a URI is stored in the file linkmap.txt.
+\item I am using the CURL command to get the raw content for each URI. 
+\item For some URI's its taking too long to load the content so I used connect--timeout to cut down processing time to only 30 seconds. It its taking more than 30 seconds it skips that URI and checks for the next URI. 
+\item Raw content for each URI is stored in an file with the name as 00a8ff411899cca3c7487fa56331730a.raw as extension. All these raw files are stored in a folder with the creation date as the name of the folder.
+
+\end{enumerate}
+\newpage
+To remove the HTML mark up from the raw content collected from the each URI the following shell Program is used. 
+
+\lstinputlisting[language=bash, frame=single, caption={Shell Program for getting the Plain Text for 1000 Raw files}, label=lst:q1script, captionpos=b, numbers=left, showspaces=false, showstringspaces=false, basicstyle=\footnotesize]{q1/getPlainText.sh}
+
+\begin{enumerate}
+\item All the files that are generated from the previous program are read and the HTML mark is removed and stored in a different file
+\item I used LYNX command to get rid of the the HTML Markup. 
+\item I am saving the file that is generated after removing the HTML Markup as \newline 00a8ff411899cca3c7487fa56331730a.processed
+\item All the processed files are saved in a folder that matches with the raw files folder with an extension of "rocessed".
+\end{enumerate}
+\subsection{Results}
+\subsubsection{linkmap.txt}
+\verbatiminput{q1/sample_linkmap.txt}
+
+
+
+
+

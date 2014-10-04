@@ -1,0 +1,782 @@
+   #[1]writing.jan.io
+
+   [2]jan@apache.org
+   [3]twitter.com/janl
+   [4]github.com/janl
+   XMPP: [5]janlehnardt@jabber.ccc.de
+   GPG Fingerprint: D2B1 7F9D A23C 0A10 991A F2E3 D9EE 01E4 7852 AEE4
+   OTR Key: DD971A73 2C16B1AB FDEB5FB4 571DECA1 55F54AD1
+
+                                    Writing
+
+   By Jan Lehnardt
+
+[6]The Innovator in Hindsight
+
+   In where Clayton Christiensen predicts that Linux on the Desktop will
+   never come and that it will fuel the mobile revolution. In 2004.
+
+   Including an introduction to the Innovator’s Dilemma and Solution, and
+   how this quares against Open Source.
+
+   [7]http://web.archive.org/web/20130729212828id_/http://itc.conversation
+   snetwork.org/shows/detail135.html
+
+   ❧
+
+[8]The State of CouchDB 2013
+
+   This is a rough transcript of the CouchDB Conf, Vancouver Keynote.
+
+Welcome
+
+   Good morning everyone. I thank you all for coming on this fine day in
+   Vancouver. I’m very happy to be here. My name is Jan Lehnardt and I am
+   the Vice President of Apache CouchDB at the Apache Software Foundation,
+   but that’s just a fancy title that means I have to do a bunch of extra
+   work behind the scenes. I’m also a core contributor to Apache CouchDB
+   and I am the longest active committer to the project at this point.
+
+   I started helping out with CouchDB in 2006 and that feels like a
+   lifetime ago. We’ve come a long way, we’ve shaped the database industry
+   in a big way, we went though a phoenix from the ashes time and came out
+   still inspiring future generations of developers to do great things.
+
+   So it is with great honour that I get to be here on stage before you to
+   take a look at the state of CouchDB.
+
+Numbers
+
+   I’d like to start with some numbers:
+     * In 2013 we added 15 committers to the project, up to a total of 30.
+       Thats 2x the number of people regularly contributing to CouchDB!
+     * The year isn’t yet over, but these committers already created 3x
+       the commits of 2012. And they have committed more than in any other
+       year in CouchDB’s history.
+
+   Commit History
+     * We have shipped eight releases: 1.0.4 1.1.2, 1.2.1, 1.2.2, 1.3.0,
+       1.3.1, 1,4.0 and 1.5.0 just this year, that is up from one(!) last
+       year.
+          + thanks to our new release schedule we are getting more
+            features to more people faster by focusing on small iterative
+            changes forward.
+     * 20% more JIRA tickets and 50% more GitHub issues
+
+   We have made a lot of changes in 2012 to make 2013 a great year for
+   CouchDB and it sure looks like we succeeded and that 2014 is only going
+   to trump that.
+
+   I’d like to thank everyone on the team for their hard work.
+
+Currently
+
+   We’ve just shipped CouchDB 1.5.0 last week and it comes with a few
+   exciting new things as previews, for you to try out and play with and
+   report any issues with back to us. And that is on top of all the
+   regular bug fixing and other improvements.
+
+   Fauxton
+    1. A completely new developed admin UI, nicknamed Fauxton, that is
+       poised to replace the much-loved, but increasingly dated Futon. I’d
+       like to personally thank the Fauxton team: Sue “Deathbear”
+       Lockwood, Russell “Chewbranca” Branca, Garren Smith and many more
+       volunteers for their work as well as the company Cloudant for
+       sponsoring a good chunk of that work. Great job everyone! Fauxton
+       is going to be replacing Futon in one of the next few releases and
+       will give us the foundation for the next stage of CouchDB’s life.
+    2. Plugins. While it was always possible to write plugins for CouchDB,
+       you kind of had to be an expert in CouchDB to get started. We
+       believe that writing plugins is a great gateway drug to getting
+       more people to hack on CouchDB proper, so we made it simpler to
+       build plugins and to install plugins into a running instance of
+       CouchDB. It is still very early days, we don’t even have a plugin
+       registry yet, but we are surely excited about the prospects of
+       installing GeoCouch with a single click of a button in Futon or
+       Fauxton. We also included a template plugin that you can easily
+       extend and make your own, along with a guide to get you started.
+
+   The plugins effort also supports a larger trend we are starting to
+   follow with the CouchDB core codebase: decide on a well-defined core
+   set of functionality and delegate more esoteric things to a rich plugin
+   system That means we no longer have to decline the inclusion of useful
+   code like we’ve done in the past, because it wasn’t applicable to the
+   majority of CouchDB users. Now we can support fringe features and
+   plugins that are only useful to a few of our users, but who really need
+   them.
+    1. A Node.JS query server. CouchDB relies on JavaScript for a number
+       of core features and we want to continue to do so. In order to keep
+       up with the rapid improvements made to the JavaScript ecosystem we
+       have tentative plans to switch from a Spidermonkey-driven query
+       server to a V8-driven one. In addition, the Node.js project has a
+       really good installation story, something that we had trouble with
+       in the past, and includes a few utilities that make it very easy
+       for us to switch the query server over.
+
+   All this however is not to blindly follow the latest trends, but to
+   encourage the community to take on the query server and introduce much
+   needed improvements. The current view server is a tricky mix of JS,
+   Erlang and C and we are not seeing many people daring to jump into
+   that. In a second step we expect these improvements to trickle down to
+   the other query server implementations like Python or PHP and make
+   things better for everyone. For now this is also a developer preview
+   and we are inviting all Node.js developers to join us and build a a
+   better query server.
+
+   Docs
+    1. Docs landed in 1.4.0, but 1.5.0 is seeing a major update to the now
+       built-in documentation system. With major thanks to Alexander
+       Shorin, Dirkjan Ochtmann and Dave Cottlehuber who were instrumental
+       in that effort, CouchDB now has “really good docs” instead of a
+       “really crappy wiki”, that are shipped with every release and are
+       integrated with Futon and Fauxton.
+
+Beyond
+
+   The immediate next area of focus for the CouchDB project is the merging
+   of two forks: BigCouch and rcouch.
+
+   BigCouch is a [9]Dynamo implementation on top of CouchDB that manages a
+   cluster of machines and makes them look as a single one, adding
+   performance improvements and fault tolerance to a CouchDB installation.
+   This is a major step in CouchDB’s evolution as it was designed for such
+   a system from the start, but the core project never included a way to
+   use and manage a cluster. Cloudant have donated their BigCouch codebase
+   to the Apache project already and we are working on an integration.
+
+   rcouch is a what I would call a “future port” of CouchDB by longtime
+   committer and contributor Benoit Chesneau. rcouch looks like CouchDB
+   would, if we started fresh today with a modern architecture. Together
+   with BigCouch’s improvements, this will thoroughly modernise CouchDB’s
+   codebase to the latest state of the art of Erlang projects. rcouch also
+   includes a good number of nifty features that make a great addition to
+   CouchDB’s core feature set and some great plugins.
+
+   Finally, we’ve just started an effort to set up infrastructure and
+   called for volunteers to translate the CouchDB documentation and admin
+   interface into all major languages. Driven by Andy Wenk from Hamburg,
+   we already have a handful of people signed up to help with translations
+   for a number of different languages.
+
+   This is going to keep us busy for a bit and we are looking forward to
+   ship some great releases with these features.
+
+tl;dr
+
+   2013 was a phenomenal year for Apache CouchDB. 2014 is poised to be
+   even greater, there are more people than ever pushing CouchDB forward
+   and there is plenty of stuff to do and hopefully, we get to shape some
+   more of the future of computing.
+
+   Thank you!
+
+   ❧
+
+[10]Understanding CouchDB Conflicts
+
+   As part of a [11]summary what Nodejitsu is planning to do with the
+   [12]scalenpm.org campaign money, they said:
+
+     All of these problems stem from the same symptom: conflicts in
+     CouchDB. If you’re new to CouchDB you can [13]read up on conflicts
+     here. Conflicts are caused in the npm registry because (depending on
+     several factors) a given publish can involve multiple writes to the
+     same document. When these writes do not hit the same CouchDB server
+     conflicts are generated. There are other medium-term solutions to
+     scaling writes (such as sticky HTTP sessions), but conflicts will
+     inevitably arise so we must address the symptom as well as the
+     cause.
+
+   Of course CouchDB has a concept of conflicts, they are core to what
+   makes CouchDB great: master-less peer to peer replication of your data.
+   But I feel they are misrepresented here, so I’ll try and clarify things
+   a little.
+
+   We will find out that the symptom isn’t CouchDB’s conflicts feature,
+   but how the npm client treats CouchDB document updates in a way that is
+   not recommended (note that I’m not trying to point any fingers here, I
+   just hope people can learn from this :).
+
+How to store data in CouchDB
+
+   The standard way to store data in CouchDB is to HTTP PUT a JSON object
+   into a CouchDB database:
+PUT /database/document
+{"a":1}
+
+   When retrieving that document, it it will look like this:
+GET /database/document
+{"_id":"document","_rev":"1-23202479633c2b380f79507a776743d5","a":1}
+
+   CouchDB will automatically add two properties to our JSON object, an
+   _id and a _rev. The _id represents whatever we named the document in
+   the initial request (we can also let CouchDB assign a random _id) and
+   the _rev, or “revision” represents an opaque hash value over the
+   contents of a document.
+
+   To change the value of a document, we need to prove to CouchDB that we
+   know what its latest revision is:
+PUT /database/document
+{"_id":"document","_rev":"1-23202479633c2b380f79507a776743d5","a":1, "b":2}
+
+   The next time we get the document it looks like this:
+GET /database/document
+{"_id":"document","_rev":"2-c5242a69558bf0c24dda59b585d1a52b","a":1, "b":2}
+
+   You see the revision updated. Now lets try to update the document
+   again, but provide the old _rev:
+PUT /database/document
+{"_id":"document","_rev":"1-23202479633c2b380f79507a776743d5","a":1, "b":2, "c":
+3}
+
+   We get:
+{"error":"conflict","reason":"Document update conflict."}
+
+Understanding revisions
+
+   This way, CouchDB ensures that a client never accidentally overwrites
+   any data it didn’t know about. Think about this like a wiki editing
+   system: one person edits a wiki page and adds a few paragraphs of new
+   information while another person just fixes a typo halfway through the
+   first person writing their contribution. Without any cleverness, the
+   first person will overwrite the second’s person typo fix when they save
+   their version (or revision) of the wiki page. To ensure they don’t,
+   each revision could be tagged with a _rev that the client then need to
+   provide when writing back to the server. If they don’t match, the
+   client needs to re-read the document and merge any other changes that
+   might have happened in the meantime (the typo fix) and then try to save
+   the wiki page again. In more technical terms, this is called
+   “optimistic locking”. This is to avoid the scenario of “pessimistic
+   locking” where the second person has to wait for the first person to
+   make their changes before they can edit the wiki page.
+
+   CouchDB works the same way and for good reasons, but it can be
+   counter-intuitive to how people are used to working with databases.
+   Some users think their way out of this without really understanding why
+   CouchDB works this way. When they encounter a document update conflict,
+   they will make a GET or HEAD request to CouchDB to learn about the
+   latest _rev of a document and then use that for a second write request
+   without first regarding the new data that has appeared on the server.
+   In some cases, this is a viable strategy, especially, if only a single
+   database server is involved and changes to documents are restricted to
+   one or very few users (like in npm).
+
+Distributed systems and all that
+
+   Now the fun part is when we add more database servers. One way to set
+   up CouchDB is to run multiple instances behind an HTTP load balancer
+   (because that’s really easy to do) and set up bi-directional
+   replication between the two databases. This helps with reliability and
+   load distribution, as two servers can share the read-load and if
+   specced correctly, a single server can survive the outage of the peer,
+   while the load balancer ensures that users never see a difference.
+
+   Two couches and a load balancer
+
+   A load balancer usually distributes reads and writes randomly between
+   the two CouchDBs. This is where the fun begins. Let us update our
+   document once more:
+PUT /database/document
+{"_id":"document","_rev":"2-c5242a69558bf0c24dda59b585d1a52b","a":1, "b":2, "d":
+4}
+
+   Now this gets written to CouchDB A because the load balancer decides
+   so. CouchDB A now has:
+GET /database/document
+{"_id":"document","_rev":"3-2235fd4815b81b2da1b84159aba4006e", "a":1, "b":2, "d"
+:4}
+
+   But CouchDB B still has:
+GET /database/document
+{"_id":"document","_rev":"2-c5242a69558bf0c24dda59b585d1a52b","a":1, "b":2}
+
+   Usually replication updates this quickly, but it might take a while due
+   to write load, and if the client sends multiple requests in quick
+   succession, there is a fair chance that updating the document yet
+   another time will hit CouchDB B which will reject the write, because
+   the _rev doesn’t match any more:
+PUT /database/document
+{"_id":"document","_rev":"3-2235fd4815b81b2da1b84159aba4006e", "a":1, "b":2, "e"
+:5}
+
+   Returns:
+{"error":"conflict","reason":"Document update conflict."}
+
+   If we use the strategy of quickly getting the _rev from the doc and
+   trying again, we might GET from CouchDB B again, to get "_rev":
+   "2-c5242a69558bf0c24dda59b585d1a52b" and attempt the write again:
+PUT /database/document
+{"_id":"document","_rev":"3-c5242a69558bf0c24dda59b585d1a52b", "a":1, "b":2, "e"
+:5}
+
+   If this PUT also goes to CouchDB B (you see this scenario is getting
+   less and less likely, but it is still possible and certainly expected
+   in a system like npm’s), this write will succeed and now we two
+   conflicting revisions on CouchDB A and CouchDB B:
+CouchDB A: 3-c5242a69558bf0c24dda59b585d1a52b
+CouchDB B: 4-8b6ea819bf3384b2c215fd05fc5a1e5a
+
+   When CouchDB replication now runs, it will introduce a conflict on both
+   CouchDB’s, as it is expected to. But since this is an undesirable
+   situation, CouchDB generally recommends against using this strategy to
+   deal with document update conflicts.
+
+Solving the riddle
+
+   There are multiple ways to fix this:
+    1. When making a change, don’t require multiple GETs and POSTs. It is
+       my understanding that the npm developers are [14]working on that
+       (Run npm install -g npm to make use of this without waiting for the
+       next node release, [15]thanks @izs).
+    2. Don’t update the _rev locally in the client without also merging
+       any new data from the server. I hope the npm developers are also
+       taking this into account.
+    3. Sticky sessions: most HTTP load balancers can be configured to send
+       subsequent requests from the same client to the same backend
+       server. This is generally not desirable because it limits
+       scalability and fault tolerance, but it is a a worthwhile stop-gap,
+       if not default setup, if applicable to the setup. I can’t comment
+       on whether this is applicable to npm or not.
+
+   I hope I could shed a bit of light on a thing that we, the CouchDB
+   developers, have thought about a lot in the design of CouchDB, but have
+   obviously failed to communicate sufficiently in the earlier days of
+   CouchDB.
+
+   Let me close with saying the Team CouchDB is proud to support npm and
+   the node community! <3
+
+   ❧
+
+[16]The Parable of Mustache.js
+
+   In October 2009 [17]Defunkt released [18]mustache.rb. It looked useful
+   to me at the time, but I needed it in JavaScript. The code was just
+   under 200 lines and simple enough that I thought I could port it over
+   on a lazy Sunday, or Saturday, I forget.
+
+   So I did, and to this day, I believe my biggest contribution to
+   mustache.js was not all the fancy stuff that happened since, but the
+   initial transliteration of Ruby to JavaScript. Yes, transliteration,
+   Ruby and JavaScript are close enough that I did a more or less line by
+   line port of the original code. I can’t claim I did any programming
+   myself there.
+
+   If you look at the early versions of both projects, they look
+   remarkably similar [19]mustache.rb vs mustache.js
+
+   mustache.rb was a huge hit in Ruby land right away and soon after I did
+   my port a number of very smart people came around and rewrote the
+   existing RegEx based “parser” (eugh) into a proper parser and compiler
+   combination to make sure all proper computer science theory is applied
+   and things run most efficient.
+
+   I looked back at the code then and couldn’t find my way around, things
+   were split over dozens of files and I am sure it all made sense to a
+   very organised brain, but I couldn’t even begin to start to understand
+   what the whole thing did. And I remember distinctly that I was happy
+   that I found mustache.rb in the before state so that I had a chance to
+   port it. I would never have begun to try if I had found the “more
+   optimal” solution.
+
+   The realisation there though made me also a bit sad. I am all for doing
+   the right thing and executing things faster and everything, but it
+   bugged me that the clarity of the code was all gone now.
+
+   Then other smart people came and wanted to do the same for mustache.js
+   and I was hesitant. But instead of trying to argue with clarity,
+   because fuck that if we can make it 10x faster, my argument was that
+   these parsers & compilers are way too long for a JavaScript
+   implementation that was targeted at the browser. My tagline was “by the
+   time your compiler is finally done downloading, my RegEx parser has
+   already produced a result”. It was of course a bit of a cop-out, but I
+   got quite far with it.
+
+   Until [20]Nate showed up and wrote a parser/compiler in ~350 lines of
+   code (that was roughly the acceptable limit for me then) and I finally
+   lost that argument too. But it took a while until mustache.js finally
+   got its well needed superpowers, with huge help from [21]Michael.
+
+   Meanwhile, I met [22]Yehuda Katz at a conference and someone introduced
+   me as “Jan, he does CouchDB and mustache.js” and Yehuda just said “Oh
+   boy, I’m going to upset you soon.” and then avoided me for the rest of
+   the conference (or it was just coincidence, I don’t know :). A week
+   later he released [23]handlebars.js, a mustache.js-inspired templating
+   engine with some extra features that were really useful. But it wasn’t
+   according to spec, just close enough, that a lot of people started
+   using it. I thought “good for them”, but I secretly ([24]or not so
+   secretly) wanted to steal the best ideas and get people to use
+   mustache.js instead. That didn’t really go anywhere because people
+   stopped working on the spec in a sensible manner and we couldn’t agree
+   on more features. And eventually, I spent more time with CouchDB again.
+
+   In the meantime [25]many more mustache implementations in other
+   languages appeared and one implicit design goal between was it to allow
+   sharing of templates between them and produce compatible output. There
+   is even [26]a spec.
+
+   Around the same time Twitter started using mustache.js in the frontend
+   and it was a great honour. But they too preferred a proper
+   parser/compiler implementation so [27]@fat & team went ahead and wrote
+   [28]Hogan, a mustache.js-compatible implementation with a faster load
+   and runtime. @fat talked about this at his [29]2012 JSConf US talk, he
+   got asked why he didn’t submit a pull request to mustache.js instead of
+   making a new project. He said that a Pull Request that consists of
+   “Hey, I threw away all your code and replaced it with mine” isn’t such
+   a good idea. I agree, it wouldn’t have left the best impression.
+
+   He praised though, that they were able to build a compatible
+   implementation that could compete on its own merits while still being
+   compatible with a spec and he said that all library development should
+   be done that way. Too often we conflate a great idea with its
+   implementation and we would be better of allowing different ones and
+   let users pick and choose their poison.
+
+   While watching @fat speak, it dawned on me that if I look at things
+   this way, then the RegEx implementation of mustache.js is just another
+   implementation of the same spec and its merits are tight and accessible
+   code. And I could have hugged him for it. In fact I ran up on stage
+   during the talk and [30]nearly ran him over (22m:15s). My beloved
+   implementation still had a reason to exist and that made me very happy.
+   Until today, the 0.4 branch of mustache.js is still around.
+
+   Hugs
+
+   Lessons Learned:
+
+   Accessible code has merit over optimised code, even if the optimised
+   code should be used most of the time.
+
+   Build libraries with a spec, encourage competing implementations. (We
+   plan to do this for [31]Hoodie)
+
+   Hugs win.
+     __________________________________________________________________
+
+   The state of mustache today is alright, the implementations are all
+   reasonably mature projects and people just use them. But there are a
+   few that want to move it forward but are hindered by the complacency of
+   the early adopters who have moved on to other things (including me). I
+   hope we can get that resolved eventually.
+
+   On that note, mustache.js has a number of interesting [32]Pull Requests
+   and [33]issues open and if anyone is interested in taking over
+   maintainership, please make yourself heard in on the [34]GitHub
+   project.
+
+   ❧
+
+[35]Let’s Start a Revolution
+
+   I will not die for you
+   I will not kill for you
+   I will not fight for you
+   I will hold your burning flag in my hand
+
+   — Coup d’etat by Refused
+     __________________________________________________________________
+
+   History is filled with two types of people: the ones that want to
+   maintain a comfortable status quo and the ones that want to move
+   humanity forward.
+
+   The maintainers of the status quo tend to be the ones on top of the
+   food chain. The ones that want to bring humanity forward are usually
+   the ones who are questioning the laws, the mechanics, the inner
+   workings of whatever is going on at that time.
+
+   Over the centuries the ruling classes set up schemes to structurally
+   keep everybody else out. Over the same centuries though, they had to
+   cede step for step that more and more people could benefit from the
+   privilege of an upper class.
+
+   There is this phrase “on the wrong side of history”. We use it when we
+   look at societal issues that are discussed at a certain point, today,
+   or in the past. Democracy, slavery, racism. A contentious issue will
+   always have people arguing either side, and over time we see who got it
+   right. The others are on the wrong side of history.
+
+   Giving the same opportunities (at least on paper) to women is a novel
+   concept as of as little as 100 years ago and is still not evenly spread
+   around this planet, especially in the western world.
+
+   The USA have built a whole country around that idea that you can work
+   your way up from the lower classes to power, fame and wealth. Under the
+   hood, however, you see the same structural oppression of the lower
+   classes that you can trace through the middle-ages, Rome, Athens and
+   ancient Egypt.
+
+   For the most part, I think it is obvious what history tends to align
+   with: making things better for a large group of people at the expense
+   of a few privileged ones.
+     __________________________________________________________________
+
+Let’s Talk About Money
+
+   Money is what enables business, enables society, and thus enables
+   progress.
+
+   People who manage money should never be the ones making final decisions
+   or define culture, work or otherwise. However, today, they dominate
+   education, culture and business. And we all suffer for it.
+
+   The focus on money today is obscene. Just look at some of the language
+   around it: “money works”, bullshit, money does nothing but representing
+   a value, people work.
+
+   People get compared by what they are “worth” as if merely having money
+   has any meaning. Only if you do something good with your money, you are
+   an asset to society, are worth something.
+
+   We allow current generations to be exploited for short-term capital
+   gains, while feeding the next generation the same ideals and thus
+   manifest this whole travesty into our culture for generations to come.
+
+   Over the past few decades though, we have forgotten that, because it
+   enables things, money is a utility, and yet we treat it as means in
+   itself.
+
+   We need to get back to understanding that money is a tool and that
+   people who manage money are enablers for the ones who push for
+   progress.
+     __________________________________________________________________
+
+This is our Time
+
+   A few weeks back Dennis Plauk was on German TV. You have likely never
+   heard of him and likely never will again, but his appearance made a
+   distinct impact on me.
+
+   He was on a national TV news show, giving his expert opinion as the
+   editor in chief of a music magazine.
+
+   More importantly though, THAT DUDE WENT TO MY HIGH SCHOOL. He was a
+   year ahead of me, and from the fifteen hundred people that went to that
+   high school, he was one of the very few that made an impression that
+   lasts until today.
+
+   Seeing him on TV solidified a feeling that I had for a while. My
+   generation, I was born in 1982, is gearing up to be the generation that
+   runs this world. We are gradually being passed the baton of history to
+   carry it all forward to make a mark. If we so choose.
+
+   If you’d ask me to characterise my generation in one word I’d choose
+   apathy. I see early 20s today that have a much keener sense of making
+   their mark in world than my generation ever had.
+
+   This is our time. Let’s make our mark.
+     __________________________________________________________________
+
+Of Privilege and Social Responsibility
+
+   My industry is high-tech, software to be precise.
+
+   My job is to take ideas that are of certain value to certain people and
+   tell computers how to provide that value.
+
+   With “job” in the getting-paid-for-it sense, I get to do what
+   alchemists have failed at for millennia: making Gold. Making Gold out
+   of thin air (and coffee).
+
+   On top of performing alchemy on a daily basis, the people in my
+   profession get treated like unicorns. We get to choose what we work on,
+   when to work on it, for how long to work on it, where to work on it.
+   And if we bloody please so, we take a week off and hang out in Dublin
+   and speak at a conference along with and in front of like-minded
+   unicorns.
+
+   In order to do our job, or taking a step back, in order to live, we
+   rely on a modern society built on people who “do their job”, whichever
+   that one is. On any given day, we rely on people who maintain the civic
+   infrastructure, water, power, waste, provide us with ways to purchase
+   food in various forms, people who clean our homes, offices and gardens,
+   people who cut our hair, who drive us around town and many many more
+   that we don’t even see or interact with.
+
+   I don’t suggest that these people can’t or won’t find pride, honour and
+   fulfilment in their work, but they sure have to live with a lot fewer
+   every-day liberties than the lucky bunch that is us technologists.
+
+   We are privileged. Privilege is when you don’t see a major problem with
+   the world around you. When you don’t understand why someone or even a
+   large group of people would be angry, after all, they all grew up here,
+   they could just have done the same things that you did and they’d be
+   fine.
+
+   Privilege is not something I was particular aware of growing up. That’s
+   usual for people who grow up privileged. Sure, there were things I
+   wasn’t particularly satisfied with, but looking back, my parents had
+   steady jobs, I went to an o-kay school, we went to France for our
+   summer vacation, in one of the two cars we had.
+
+   Understanding privilege was, for me, a very grown-up thing to do (yes,
+   I still use “grown-up” in the sense that I don’t think I really am
+   one).
+
+   My first reaction when it dawned on me that I did have a sort of
+   privilege was shame, I was better off than others through no fault of
+   theirs or feat of my own. That was a bitter realisation to make. In
+   fact, it made me not think about privilege too much, which is yet
+   another privileged thing to do (but I wouldn’t learn this until later).
+
+   I finally came to terms with my position when I understood that
+   privilege is not inherently a bad thing (and if you tell me it is, fuck
+   you for shattering my self-view). While it is very easy to exploit
+   privilege, by simply doing nothing, or actively building upon your
+   advantage to further it to the disadvantage of others. But, and here is
+   where things turned around for me, you can use privilege for good.
+
+   Now, as a unicorn alchemist and accepting my privileged position in
+   society, I understood that I do not only have the ability to use my
+   privilege for good, but that I have a social responsibility to do so.
+
+   And given all the liberties we are given through our privilege, we
+   don’t only have a responsibility of turning our powers into good, we
+   have an exceptional opportunity to make this world a better place.
+     __________________________________________________________________
+
+How to Revolt
+
+   If we are looking at the ingredients for a revolution, we are half way
+   there. We have the motivation, the opportunity and the timing. Let’s
+   find out how to revolt.
+
+   An entrepreneur’s job is to find out how to create and extract value
+   from current historic, societal and economic circumstances.
+
+   At its core business is a-moral. Money changing hands for goods and
+   services does not care who made what under which conditions.
+
+   Yet, business gets to define so much of our culture. Our life revolves
+   around working five days a week, working 40+ hours, working to maximise
+   shareholder value.
+
+   There is plenty of scientific evidence that this status quo actively
+   harms people, physically and psychologically, and as a consequence,
+   holds back society. People get sick from too much work and stress,
+   costing the healthcare systems more money than they can handle and
+   people are no longer capable or able to do any good.
+
+   Business at large, “capitalism”, is a fantastic tool to achieve great
+   progress at scale, but business for business sake, or profit for
+   profit’s sake can never be a cultural goal, only a side-effect.
+
+   Yet, as it has always been in history, the people in charge, the
+   privileged ones, keep this up for their own benefit.
+
+   We live in a culture that teaches everyone that you need a job to be
+   happy, to be a useful part in society, to work hard to be someone.
+
+   The way this work “un-ethic” is engrained into our culture is deeply
+   vicious. Through media and entertainment the people who are interested
+   in keeping this status quo pay artists, filmmakers, TV producers,
+   actors, musicians etc. vast amounts of money to keep retelling this
+   story, a story a young person born into this world has little chance of
+   escaping.
+
+   We need to prop up a counter-notion: the idea that the working-hard
+   story is just that, a story told by people who benefit from you working
+   hard.
+
+   We need to let life define work, not the other way around.
+     __________________________________________________________________
+
+Revolting Daily: An Experiment
+
+   I don’t have a tried and trusted system, but I’ve started to
+   experiment. Feel free to follow my ideas, or build upon them or
+   experiment with your own ideas, and tell us all about it. Here is what
+   I am doing:
+    1. Optimise for happiness. Nothing that is supposed to bring society
+       forward is worth doing if it makes people miserable.
+    2. De-emphasise “work” as the defining constant in life. “Life” is the
+       defining constant in life. We should be able to turn enough profit
+       to support life and growth on working two days a week. Encourage
+       that the rest of the time is spent volunteering, teaching kids to
+       code, work at a charity, or just enjoy life with friends and
+       family.
+    3. Get the money-people out of the decision line. Make them advisors,
+       make your CEO the Chief Happiness Officer, or even better, turn the
+       leadership of the company over to a non-profit that is bound by
+       ethical statutes that will always override short-sighted monetary
+       decisions.
+
+   This is a good start, let’s get that going and then address the next
+   steps:
+     * Figure out how to make all this available to less unicorn-heavy
+       sectors. Run society that way, not just high tech.
+     * Figure out the balance between being able to create a sustainable,
+       moral, business and being on the right side of history.
+     * Spread the word, inspire others to follow your lead. Learn from
+       other’s successes and mistakes. Find giants to stand on.
+     __________________________________________________________________
+
+Let’s go!
+
+   There are about five billion years in this solar system in front and
+   behind our lives. This is our one shot. And we can make a difference.
+
+   We have an exceptional opportunity to make this world a better place.
+
+   We are in a perfect position to lead change.
+
+   Now is the perfect time to start leading that change.
+
+   The culture of business today is on the wrong side of history.
+
+   Let us change that.
+
+   Let us start a revolution.
+     __________________________________________________________________
+
+   This essay was created from the notes for my opening talk for the
+   [36]2013 edition of brio. My thanks to [37]Lena Reinhard for her
+   invaluable editing help.
+
+   ❧
+
+  [38]Archive →
+
+   [39]❧
+
+References
+
+   1. file:///feed.xml
+   2. mailto:jan@apache.org?subject=From Your Website
+   3. https://twitter.com/janl
+   4. https://github.com/janl
+   5. jabber://janlehnardt@jabber.ccc.de/
+   6. file:///2014/04/20/clayton-predicts.html
+   7. http://web.archive.org/web/20130729212828id_/http://itc.conversationsnetwork.org/shows/detail135.html
+   8. file:///2013/12/20/the-state-of-couchdb-2013.html
+   9. http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html
+  10. file:///2013/12/19/understanding-couchdb-conflicts.html
+  11. http://blog.nodejitsu.com/thank-you-for-helping-scalenpm
+  12. http://scalenpm.org/
+  13. http://guide.couchdb.org/draft/conflicts.html
+  14. https://github.com/isaacs/npm/releases/tag/v1.3.19
+  15. https://twitter.com/izs/status/413461085241372673
+  16. file:///2013/11/01/the-parable-of-mustache-js.html
+  17. https://github.com/defunkt/
+  18. http://github.com/defunkt/mustache
+  19. file:///img/mustache.rb-vs-js.png
+  20. https://github.com/natevw
+  21. https://github.com/mjijackson
+  22. https://github.com/wycats/
+  23. https://github.com/wycats/handlebars.js
+  24. http://writing.jan.io/mustache-2.0.html
+  25. http://mustache.github.io/
+  26. http://mustache.github.io/mustache.5.html
+  27. https://github.com/fat
+  28. https://github.com/twitter/hogan.js
+  29. http://www.youtube.com/watch?v=zwoiwoVNaCQ
+  30. http://www.youtube.com/watch?v=zwoiwoVNaCQ
+  31. http://hood.ie/
+  32. https://github.com/janl/mustache.js/pulls
+  33. https://github.com/janl/mustache.js/issues
+  34. https://github.com/janl/mustache.js/
+  35. file:///2013/08/16/lets-start-a-revolution.html
+  36. http://2013.brioconference.com/
+  37. https://twitter.com/ffffux/
+  38. file:///archive.html
+  39. http://twitter.com/janl

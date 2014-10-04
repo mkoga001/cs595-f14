@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Aviso: Nunca introduzcas tu contrase\u00f1a de Tumblr a menos que la direcci\u00f3n \u201chttps://www.tumblr.com/login\u201d\x0aaparezca en la barra del navegador.\x0a\x0aTambi\u00e9n deber\u00edas ver el emblema verde de \u201cTumblr, Inc.\u201d en la barra de direcciones.\x0a\x0aLos spammers y otras personas malintencionadas utilizan formularios falsos para obtener contrase\u00f1as de forma il\u00edcita.\x0a\x0aTumblr jam\u00e1s te pedir\u00e1 que inicies sesi\u00f3n desde el blog de un usuario.\x0a\x0a\u00bfSeguro que quieres continuar?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html>
+
+ <!--
+	
+	theme two version 1.2 by homemade themes
+	created: december 2013, http://homemadethemes.tumblr.com
+	
+  -->
+
+<html><head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+
+<title>internet emotions</title>
+
+<link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_6ee1de888e4d_128.png">
+<meta http-equiv="X-UA-Compatiblebl" content="IE=edge,chrome=1">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://emotionalcloudzsz.tumblr.com/rss" />
+<meta name="viewport" content="width=1220" />
+ 
+<!-- DEFAULT VARIABLES -->
+<meta name="color:Background" content="#FFFFFF" />
+<meta name="color:Text" content="#000000" />
+<meta name="color:Link" content="#333333"/>
+<meta name="color:Link Hover" content="#292929" />
+<meta name="image:Background" content="" />
+<meta name="if:Infinite Scroll" content="1"/>
+<meta name="if:Rounded Photos" content="0"/>
+<meta name="if:Show Blog Title" content="1"/>
+<meta name="if:Show Description" content="1"/>
+<meta name="if:Show Photo Permalinks" content="1"/>
+<meta name="if:Show Photo Captions" content="0"/>
+<meta name="text:Ask Title" content="Message" />
+<meta name="text:Link One" content="" />
+<meta name="text:Link One Title" content="" />
+<meta name="text:Link Two" content="" />
+<meta name="text:Link Two Title" content="" />
+<meta name="text:Link Three" content="" />
+<meta name="text:Link Three Title" content="" />
+<meta name="text:Link Four" content="" />
+<meta name="text:link Four Title" content="" />
+<meta name="text:link Five" content="" />
+<meta name="text:link Five Title" content="" />
+<meta name="text:Text Online User Counter" content="" />
+<script type="text/javascript"
+src="http://static.tumblr.com/ek9ly4s/ZPLmx9glq/jquery-latest-homemadethemes.js"></script>
+
+<style type="text/css">
+
+html{
+    height:103%;}
+
+body, p {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+	color:#000000;}
+ 
+body {
+	background-color:#FFFFFF;
+	background-image:url(http://assets.tumblr.com/images/x.gif);
+	background-attachment: fixed;
+	background-repeat: repeat;}
+ 
+a {
+	text-decoration:none;
+	color:#000000;
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	transition: all 0.4s linear;}
+ 
+a:link, a:active, a:visited{
+	color: #333333;
+	text-decoration: none;
+	-webkit-transition: all 0.6s ease-out;
+	-moz-transition: all 0.6s ease-out;
+	-o-transition: all   0.6s ease-out;transition: all 0.6s ease-out;}
+ 
+a:hover{
+	color:#292929;}
+ 
+#content{
+	margin:auto;position:relative;
+	margin-top:25px;
+	padding-bottom:10px;
+	width:1240px;
+	}
+
+@media (max-width: 1340px) {
+	#content{width:930px;}}
+ 
+@media (max-width:1000px) {
+	#content{width:620px;}} 
+ 
+#header{
+	border-bottom:solid 1px #dddddd;
+	z-index:999999999999999;
+	top:35px;
+	display:block;
+	position:relative;
+	width:1190px;
+	margin:auto;}
+	
+#footer{
+    height:50px;
+    width:1190px;
+    margin:auto;
+    border-top:solid 1px #dddddd;
+    position:relative;}
+
+@media (max-width: 1340px) {
+	#footer{width:880px;}}
+ 
+ @media (max-width:1000px) {
+	#footer{width:570px;}} 
+
+.spacer{
+	height:10px;}
+
+@media (max-width: 1340px) {
+	#header{width:880px;}}
+ 
+ @media (max-width:1000px) {
+	#header{width:570px;}} 
+
+.entry{
+	margin:25px;
+	margin-bottom:0px;	
+	padding:5px;
+	float:left;
+	height:auto;
+	overflow:hidden;width:250px;
+	}
+
+.entry img{
+    width:250px;}
+
+.notes img{
+border-radius:100%;}
+
+
+.notes img{
+	border-radius:100%;}
+
+.photo{width:250px;height:auto;}
+
+.photo img{
+	width:250px;
+	-webkit-transition: 0.3s ease-in;
+	}
+
+.video{
+	width:250px;
+	height:auto;}
+
+.xnotes{
+	text-align:right;
+	margin-top:8px;}
+	
+.xnav p{
+    opacity:0.8;}
+ 
+.chat{
+	padding:3px 3px 6px 3px;
+	-webkit-transition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	transition: all 0.5s linear;}
+
+#chat{
+	margin:0; list-style:none;
+	padding:0;opacity:1;}
+
+ #chat li{
+     padding:7px 10px;}
+
+ #chat li:nth-child(even) {
+	background-color:#dddddd;
+	opacity:1;
+	border-radius:5px;}
+
+ #chat li span{
+	text-transform:uppercase;}
+
+.photo_caption{
+	padding:5px 0px 5px 0px;
+	text-align:right;}
+	
+#xpages{
+    margin:0 5px;
+    padding:5px 0;
+    text-align:
+    right;
+    line-height:20px}
+    
+#xpages a,#xpages span{
+    padding:5px}
+    
+#xpages li{
+    display:inline}
+    
+#xpages li.prev:first-child .s{
+    display:none}
+    
+#infscr-loading{
+    
+    z-index:999999999999999999;
+    bottom: 3px;
+    position: absolute;
+    left: 50%;
+    margin-left:-16px;
+    overflow:hidden;
+    margin-bottom: 25px;}
+    
+
+
+</style><link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=emotionalcloudzsz" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/newsgothicfs/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="internet emotions" /><meta property="og:url" content="http://emotionalcloudzsz.tumblr.com/?og=1" /><meta property="og:description" content="" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_6ee1de888e4d_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=emotionalcloudzsz" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=emotionalcloudzsz" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="emotionalcloudzsz" /><meta name="twitter:description" content=" " /><meta name="twitter:creator" content="LeonardoAmendez" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=emotionalcloudzsz&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=emotionalcloudzsz&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=emotionalcloudzsz&amp;referrer=twitter-cards" />
+
+</head><body>
+
+<script type="text/javascript" src="http://static.tumblr.com/ek9ly4s/Yfzmx9hib/jquery.ms.js"></script>
+
+<link href="http://static.tumblr.com/ek9ly4s/0WMmx9ghw/homemade-ii.css" rel="stylesheet">
+
+<div id="header">
+
+<div class="xnav">
+ <a href="/">internet emotions</a> // 
+
+ 
+<a href="/">Home</a> /
+<a href="/ask" title="nobody asked me">Message</a> /
+
+
+
+
+
+
+
+<a href="/archive" title="View my blogging history." target=_"blank">Archive</a> /
+<a href="http://homemadethemes.tumblr.com" title="Theme Maker">Theme</a>
+
+</div><div class="spacer"> </div></div>
+
+<div id="content">
+
+
+<div class = "autopagerize_page_element" >
+<div class="entry">
+
+
+
+
+<center>
+<div class="photoset">
+<div id="photoset_95038493975" class="html_photoset">    <iframe id="photoset_iframe_95038493975" class="photoset" scrolling="no" frameborder="0" height="312" width="250"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://emotionalcloudzsz.tumblr.com/post/95038493975/photoset_iframe/emotionalcloudzsz/tumblr_n1tpz4iLYg1r1oukl/250/false"></iframe></div><a href="http://emotionalcloudzsz.tumblr.com/post/95038493975">
+
+<a href="http://emotionalcloudzsz.tumblr.com/post/95038493975"><div class="xnotes">86 311 notas</div></a>
+
+
+</center>
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/95038493975/RPBZmgBm" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="95038493975" id="like_button_95038493975"><iframe id="like_iframe_95038493975" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=emotionalcloudzsz&amp;post_id=95038493975&amp;color=white&amp;rk=RPBZmgBm" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div class = "autopagerize_page_element" >
+<div class="entry">
+
+
+
+
+<center>
+<div class="photoset">
+<div id="photoset_94226456900" class="html_photoset">    <iframe id="photoset_iframe_94226456900" class="photoset" scrolling="no" frameborder="0" height="937" width="250"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://emotionalcloudzsz.tumblr.com/post/94226456900/photoset_iframe/emotionalcloudzsz/tumblr_n9yfwvX85m1qgqikt/250/false"></iframe></div><a href="http://emotionalcloudzsz.tumblr.com/post/94226456900/rachaelwrightphoto-m-for-secret-garden-party">
+
+<a href="http://emotionalcloudzsz.tumblr.com/post/94226456900/rachaelwrightphoto-m-for-secret-garden-party"><div class="xnotes">126 notas</div></a>
+
+
+</center>
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/94226456900/rRlE1kvH" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="94226456900" id="like_button_94226456900"><iframe id="like_iframe_94226456900" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=emotionalcloudzsz&amp;post_id=94226456900&amp;color=white&amp;rk=rRlE1kvH" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div class = "autopagerize_page_element" >
+<div class="entry">
+
+
+
+<div class="photo"><a href="http://emotionalcloudzsz.tumblr.com/image/94226397960"><a href="http://emotionalcloudzsz.tumblr.com/post/94226397960"><img src="http://40.media.tumblr.com/8155ade96f5ee011ddeeb98c800f5c31/tumblr_n9zmkj4MKd1rgyzf8o1_250.jpg" alt=""/></a></a></div>
+
+
+
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/94226397960/WCdt6Twl" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="94226397960" id="like_button_94226397960"><iframe id="like_iframe_94226397960" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=emotionalcloudzsz&amp;post_id=94226397960&amp;color=white&amp;rk=WCdt6Twl" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div class = "autopagerize_page_element" >
+<div class="entry">
+
+
+
+<div class="photo"><a href="http://emotionalcloudzsz.tumblr.com/image/94225838215"><a href="http://emotionalcloudzsz.tumblr.com/post/94225838215"><img src="http://36.media.tumblr.com/f0ec92c1078c586c6c315c778630ca58/tumblr_mwaoid8Nx81soz2dao1_250.jpg" alt=""/></a></a></div>
+
+
+
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/94225838215/8HMG5cKX" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="94225838215" id="like_button_94225838215"><iframe id="like_iframe_94225838215" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=emotionalcloudzsz&amp;post_id=94225838215&amp;color=white&amp;rk=8HMG5cKX" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div class = "autopagerize_page_element" >
+<div class="entry">
+
+
+
+<div class="photo"><a href="http://emotionalcloudzsz.tumblr.com/post/94225825480"><img src="http://41.media.tumblr.com/bb2144dbefe6a571d300846cdd3e91b0/tumblr_mx3rn3oaee1rjfsvzo1_250.jpg" alt=""/></a></div>
+
+
+
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/94225825480/o7rpdRbI" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="94225825480" id="like_button_94225825480"><iframe id="like_iframe_94225825480" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=emotionalcloudzsz&amp;post_id=94225825480&amp;color=white&amp;rk=o7rpdRbI" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div class = "autopagerize_page_element" >
+<div class="entry">
+
+
+
+<div class="photo"><a href="http://decisivo.tumblr.com/"><a href="http://emotionalcloudzsz.tumblr.com/post/94225762380/prettygayboys-similar-posts-here"><img src="http://36.media.tumblr.com/a88028eb47391f1f23890ec22e095023/tumblr_n8mejzOfCj1rq5h24o1_250.jpg" alt="prettygayboys:
+
+similar posts: here"/></a></a></div>
+
+
+
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/94225762380/FD6w1d7E" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="94225762380" id="like_button_94225762380"><iframe id="like_iframe_94225762380" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=emotionalcloudzsz&amp;post_id=94225762380&amp;color=white&amp;rk=FD6w1d7E" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div class = "autopagerize_page_element" >
+<div class="entry">
+
+
+
+<div class="photo"><a href="http://emotionalcloudzsz.tumblr.com/image/94225661195"><a href="http://emotionalcloudzsz.tumblr.com/post/94225661195/styleophile-givenchy-fw2014-details"><img src="http://40.media.tumblr.com/d8e66184f3a34c5337dab8a30df1765b/tumblr_mzkr94c6Lm1s1zp2lo1_250.jpg" alt="styleophile:
+
+Givenchy FW2014 details
+"/></a></a></div>
+
+
+
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/94225661195/GoO06snK" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="94225661195" id="like_button_94225661195"><iframe id="like_iframe_94225661195" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=emotionalcloudzsz&amp;post_id=94225661195&amp;color=white&amp;rk=GoO06snK" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div class = "autopagerize_page_element" >
+<div class="entry">
+
+
+
+
+<center>
+<div class="photoset">
+<div id="photoset_94225600175" class="html_photoset">    <iframe id="photoset_iframe_94225600175" class="photoset" scrolling="no" frameborder="0" height="116" width="250"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://emotionalcloudzsz.tumblr.com/post/94225600175/photoset_iframe/emotionalcloudzsz/tumblr_n8q2k0TUBV1tobfoh/250/false"></iframe></div><a href="http://emotionalcloudzsz.tumblr.com/post/94225600175/bahliss-15-year-old-karlie-kloss-is-so">
+
+<a href="http://emotionalcloudzsz.tumblr.com/post/94225600175/bahliss-15-year-old-karlie-kloss-is-so"><div class="xnotes">5 075 notas</div></a>
+
+
+</center>
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/94225600175/hZVUwvWA" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="94225600175" id="like_button_94225600175"><iframe id="like_iframe_94225600175" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=emotionalcloudzsz&amp;post_id=94225600175&amp;color=white&amp;rk=hZVUwvWA" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div class = "autopagerize_page_element" >
+<div class="entry">
+
+
+
+
+<center>
+<div class="photoset">
+<div id="photoset_91855103890" class="html_photoset">    <iframe id="photoset_iframe_91855103890" class="photoset" scrolling="no" frameborder="0" height="151" width="250"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://emotionalcloudzsz.tumblr.com/post/91855103890/photoset_iframe/emotionalcloudzsz/tumblr_n80zgw9NjY1rt0urp/250/false"></iframe></div><a href="http://emotionalcloudzsz.tumblr.com/post/91855103890/richard-nicoll-s-s-2012">
+
+<a href="http://emotionalcloudzsz.tumblr.com/post/91855103890/richard-nicoll-s-s-2012"><div class="xnotes">3 945 notas</div></a>
+
+
+</center>
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/91855103890/oU8c66EM" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="91855103890" id="like_button_91855103890"><iframe id="like_iframe_91855103890" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=emotionalcloudzsz&amp;post_id=91855103890&amp;color=white&amp;rk=oU8c66EM" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div class = "autopagerize_page_element" >
+<div class="entry">
+
+
+
+<div class="photo"><a href="http://emotionalcloudzsz.tumblr.com/image/91475272640"><a href="http://emotionalcloudzsz.tumblr.com/post/91475272640"><img src="http://41.media.tumblr.com/3850de7f17eef473873fdcddf3f989d0/tumblr_n28b2gADxk1t4e0smo1_250.jpg" alt=""/></a></a></div>
+
+
+
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/91475272640/X1oPgEJL" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="91475272640" id="like_button_91475272640"><iframe id="like_iframe_91475272640" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=emotionalcloudzsz&amp;post_id=91475272640&amp;color=white&amp;rk=X1oPgEJL" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div class = "autopagerize_page_element" >
+<div class="entry">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="audio">
+<a href="http://emotionalcloudzsz.tumblr.com/post/91475169230/pucci2002-m-xxx-88"><img src="http://38.media.tumblr.com/tumblr_n7q3eumH381teopqeo1_1403696838_cover.jpg" alt="" style="width:250px;"/>
+<center>
+<div style="padding:10px;><span id="audio_player_91475169230"><div class="audio_player"><iframe class="tumblr_audio_player tumblr_audio_player_91475169230" src="http://emotionalcloudzsz.tumblr.com/post/91475169230/audio_player_iframe/emotionalcloudzsz/tumblr_n7q3eumH381teopqe?audio_file=https%3A%2F%2Fwww.tumblr.com%2Faudio_file%2Femotionalcloudzsz%2F91475169230%2Ftumblr_n7q3eumH381teopqe&color=grey&simple=1" frameborder="0" allowtransparency="true" scrolling="no" width="207" height="27"></iframe></div></span>
+</div>
+
+<div class="caption"><p><a href="http://pucci2002.tumblr.com/post/89852829244/m-xxx-88" class="tumblr_blog" target="_blank">pucci2002</a>:</p>
+
+<blockquote><p>mø - xxx 88</p></blockquote></div>
+<a href="http://emotionalcloudzsz.tumblr.com/post/91475169230/pucci2002-m-xxx-88"><div class="xnotes">3 429 Plays /  485 notas</div></a>
+
+</div></center>
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div class = "autopagerize_page_element" >
+<div class="entry">
+
+
+
+<div class="photo"><a href="http://emotionalcloudzsz.tumblr.com/post/90098171370/shialablunt-lindsey-wixson-at-versace-s-s-2012"><img src="http://41.media.tumblr.com/1848fe8a1a5f7109b4d098ae4ffd911d/tumblr_n4ii64jy1S1qfn43to1_250.jpg" alt="shialablunt:
+
+Lindsey Wixson at Versace S/S 2012"/></a></div>
+
+
+
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/90098171370/dyi51oyy" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="90098171370" id="like_button_90098171370"><iframe id="like_iframe_90098171370" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=emotionalcloudzsz&amp;post_id=90098171370&amp;color=white&amp;rk=dyi51oyy" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div class = "autopagerize_page_element" >
+<div class="entry">
+
+
+
+<div class="photo"><a href="http://emotionalcloudzsz.tumblr.com/image/87104248585"><a href="http://emotionalcloudzsz.tumblr.com/post/87104248585/skyferreira-when-you-try-to-take-a-picture-of"><img src="http://40.media.tumblr.com/a72f877f2a1dff11ad2d3312ee21f597/tumblr_n5iyhiPJlm1ry31tzo1_250.jpg" alt="skyferreira:
+
+When you try to take a picture of the sky and accidentally take selfie with eyes closed bc the sun is too bright.
+http://instagram.com/p/n8kn3tHDFU/"/></a></a></div>
+
+
+
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/87104248585/pmsJojbX" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="87104248585" id="like_button_87104248585"><iframe id="like_iframe_87104248585" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=emotionalcloudzsz&amp;post_id=87104248585&amp;color=white&amp;rk=pmsJojbX" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div class = "autopagerize_page_element" >
+<div class="entry">
+
+
+
+<div class="photo"><a href="http://emotionalcloudzsz.tumblr.com/image/87104170155"><a href="http://emotionalcloudzsz.tumblr.com/post/87104170155/skyfanferreira-sky-ferreira-for-i-d-magazine"><img src="http://40.media.tumblr.com/867210518de20efda65f635c2175e5c0/tumblr_n6196tGlne1t2aaafo1_250.jpg" alt="skyfanferreira:
+
+Sky Ferreira for i-D Magazine."/></a></a></div>
+
+
+
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/87104170155/3BPoy3Ex" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="87104170155" id="like_button_87104170155"><iframe id="like_iframe_87104170155" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=emotionalcloudzsz&amp;post_id=87104170155&amp;color=white&amp;rk=3BPoy3Ex" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div class = "autopagerize_page_element" >
+<div class="entry">
+
+
+
+<div class="photo"><a href="http://store.americanapparel.net/california-floppy-hat_floppyhatc"><a href="http://emotionalcloudzsz.tumblr.com/post/87104149465/americanapparel-sky-ferreira-wears-the-floppy"><img src="http://40.media.tumblr.com/b28f04a8550878cbec31050e3c68447a/tumblr_n5xviwugFg1r05jkho1_250.jpg" alt="americanapparel:
+
+Sky Ferreira wears the Floppy Hat by American Apparel in the latest issue of Company UK."/></a></a></div>
+
+
+
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/87104149465/IBM1DXC8" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="87104149465" id="like_button_87104149465"><iframe id="like_iframe_87104149465" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=emotionalcloudzsz&amp;post_id=87104149465&amp;color=white&amp;rk=IBM1DXC8" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+</div>
+
+<!-- INFINTE SCROLL SCRIPT -->
+</script><script type="text/javascript" src="http://static.tumblr.com/ek9ly4s/KWMmx9gof/infinitexscroll-homemadethemes.js"></script></script><script type="text/javascript" src="http://static.tumblr.com/j1tjexd/WYwm8ed44/like_script.js"></script>
+<script type="text/javascript">
+$(window).load(function () {
+var $content = $('#content');
+$content.masonry({itemSelector: '.entry',
+});
+$content.infinitescroll({
+navSelector : 'div#pagination',
+nextSelector : 'div#pagination a#nextPage',
+itemSelector : '.entry',
+loading: {/*Loading...*/
+finishedMsg: '',
+img: 'http://static.tumblr.com/6jwx45k/AQTmqdo25/ajax-loader.gif'
+},
+bufferPx :200,
+extraScrollPx: 550,
+debug :false,
+},
+// call masonry as a callback.
+function( newElements ) {
+window.n = window.n || 0;
+Tumblr.LikeButton.get_status_by_page(++window.n);
+var $newElems = $( newElements );
+$newElems.hide();
+// ensure that images load before adding to masonry layout
+$newElems.imagesLoaded(function(){
+$content.masonry( 'appended', $newElems, false, function(){$newElems.fadeIn(1500);} );
+});
+});
+});
+</script>
+
+
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://emotionalcloudzsz.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847809&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZW1vdGlvbmFsY2xvdWR6c3oudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=CJFKBIFMJH&K=7982ee81e9fe058049e9e0407ffd40921ec6de4e166975bd09216706f219a71b&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847809&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZW1vdGlvbmFsY2xvdWR6c3oudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=CJFKBIFMJH&K=3220b3e763a02c595cc81d789d05d106ed6f6b6126a0eeec39c258c3b699d546&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847809&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2Vtb3Rpb25hbGNsb3VkenN6LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIyNTUyNDg4NiIsInJvb3RfcG9zdGlkIjoiNzgzNDgxMTQ5MTkiLCJwb3N0aWQiOiI5NTAzODQ5Mzk3NSIsImJsb2dpZCI6IjIyMDE2NDAyIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEyMTk5Mzk2Iiwicm9vdF9wb3N0aWQiOiI5NDA5NTE5Njc1NCIsInBvc3RpZCI6Ijk0MjI2NDU2OTAwIiwiYmxvZ2lkIjoiMjIwMTY0MDIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzMwMjY5NjgiLCJyb290X3Bvc3RpZCI6Ijk0MTUzNzYxMDk2IiwicG9zdGlkIjoiOTQyMjYzOTc5NjAiLCJibG9naWQiOiIyMjAxNjQwMiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDMyODA3MzUiLCJyb290X3Bvc3RpZCI6NjcwNDMxNjcxNTMsInBvc3RpZCI6Ijk0MjI1ODM4MjE1IiwiYmxvZ2lkIjoiMjIwMTY0MDIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzgzODI5OTAiLCJyb290X3Bvc3RpZCI6IjY4NjE2MDU1NjA3IiwicG9zdGlkIjoiOTQyMjU4MjU0ODAiLCJibG9naWQiOiIyMjAxNjQwMiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0NTQxNjA0NCIsInJvb3RfcG9zdGlkIjoiOTE1ODU1MjU3MTQiLCJwb3N0aWQiOiI5NDIyNTc2MjM4MCIsImJsb2dpZCI6IjIyMDE2NDAyIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijg2NDk2NjgyIiwicm9vdF9wb3N0aWQiOiI3MzY3MTg0ODQxNSIsInBvc3RpZCI6Ijk0MjI1NjYxMTk1IiwiYmxvZ2lkIjoiMjIwMTY0MDIiLCJzb3VyY2UiOjMzfV19&U=DFOOLJOCKD&K=0ff8257d87df45863ac109054957d0796b16602691953e4f3d7dd13c77838919&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847809&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2Vtb3Rpb25hbGNsb3VkenN6LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIyNTUyNDg4NiIsInJvb3RfcG9zdGlkIjoiNzgzNDgxMTQ5MTkiLCJwb3N0aWQiOiI5NTAzODQ5Mzk3NSIsImJsb2dpZCI6IjIyMDE2NDAyIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEyMTk5Mzk2Iiwicm9vdF9wb3N0aWQiOiI5NDA5NTE5Njc1NCIsInBvc3RpZCI6Ijk0MjI2NDU2OTAwIiwiYmxvZ2lkIjoiMjIwMTY0MDIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzMwMjY5NjgiLCJyb290X3Bvc3RpZCI6Ijk0MTUzNzYxMDk2IiwicG9zdGlkIjoiOTQyMjYzOTc5NjAiLCJibG9naWQiOiIyMjAxNjQwMiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDMyODA3MzUiLCJyb290X3Bvc3RpZCI6NjcwNDMxNjcxNTMsInBvc3RpZCI6Ijk0MjI1ODM4MjE1IiwiYmxvZ2lkIjoiMjIwMTY0MDIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzgzODI5OTAiLCJyb290X3Bvc3RpZCI6IjY4NjE2MDU1NjA3IiwicG9zdGlkIjoiOTQyMjU4MjU0ODAiLCJibG9naWQiOiIyMjAxNjQwMiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0NTQxNjA0NCIsInJvb3RfcG9zdGlkIjoiOTE1ODU1MjU3MTQiLCJwb3N0aWQiOiI5NDIyNTc2MjM4MCIsImJsb2dpZCI6IjIyMDE2NDAyIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijg2NDk2NjgyIiwicm9vdF9wb3N0aWQiOiI3MzY3MTg0ODQxNSIsInBvc3RpZCI6Ijk0MjI1NjYxMTk1IiwiYmxvZ2lkIjoiMjIwMTY0MDIiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=DFOOLJOCKD&K=3ce1a4f8b24afc5760573134df765c12309e4bc5dbffe6d42fcef211aac1a749&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847809&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2Vtb3Rpb25hbGNsb3VkenN6LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIxNjM4NzMzODYiLCJyb290X3Bvc3RpZCI6IjkxNzgzMjgxNjQzIiwicG9zdGlkIjoiOTQyMjU2MDAxNzUiLCJibG9naWQiOiIyMjAxNjQwMiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI1MDIwNTIwNCIsInJvb3RfcG9zdGlkIjoiOTA0NDE1MTkzNjUiLCJwb3N0aWQiOiI5MTg1NTEwMzg5MCIsImJsb2dpZCI6IjIyMDE2NDAyIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE1MjIxOTkwMyIsInJvb3RfcG9zdGlkIjoiNzkyNDU5MTY1OTEiLCJwb3N0aWQiOiI5MTQ3NTI3MjY0MCIsImJsb2dpZCI6IjIyMDE2NDAyIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE5MDEyMDA0NyIsInJvb3RfcG9zdGlkIjoiODk4NTI4MjkyNDQiLCJwb3N0aWQiOiI5MTQ3NTE2OTIzMCIsImJsb2dpZCI6IjIyMDE2NDAyIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEwMzQzNzQwIiwicm9vdF9wb3N0aWQiOiI4MzY3NTU4MDYwNyIsInBvc3RpZCI6IjkwMDk4MTcxMzcwIiwiYmxvZ2lkIjoiMjIwMTY0MDIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTg3MjI1OTgiLCJyb290X3Bvc3RpZCI6Ijg1NjQwMzQ2NzQ5IiwicG9zdGlkIjoiODcxMDQyNDg1ODUiLCJibG9naWQiOiIyMjAxNjQwMiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNDg3MDQxMzYiLCJyb290X3Bvc3RpZCI6Ijg2NjAxMDQxNTgzIiwicG9zdGlkIjoiODcxMDQxNzAxNTUiLCJibG9naWQiOiIyMjAxNjQwMiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMzU4NDc3MCIsInJvb3RfcG9zdGlkIjoiODY0Mjg3MTAyMjIiLCJwb3N0aWQiOiI4NzEwNDE0OTQ2NSIsImJsb2dpZCI6IjIyMDE2NDAyIiwic291cmNlIjozM31dfQ==&U=MOJJMJCBNE&K=94c55c011554d055a63cf24566c34099d8bc00c833946c6aa9f2ed3fd48c182b&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847809&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2Vtb3Rpb25hbGNsb3VkenN6LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIxNjM4NzMzODYiLCJyb290X3Bvc3RpZCI6IjkxNzgzMjgxNjQzIiwicG9zdGlkIjoiOTQyMjU2MDAxNzUiLCJibG9naWQiOiIyMjAxNjQwMiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI1MDIwNTIwNCIsInJvb3RfcG9zdGlkIjoiOTA0NDE1MTkzNjUiLCJwb3N0aWQiOiI5MTg1NTEwMzg5MCIsImJsb2dpZCI6IjIyMDE2NDAyIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE1MjIxOTkwMyIsInJvb3RfcG9zdGlkIjoiNzkyNDU5MTY1OTEiLCJwb3N0aWQiOiI5MTQ3NTI3MjY0MCIsImJsb2dpZCI6IjIyMDE2NDAyIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE5MDEyMDA0NyIsInJvb3RfcG9zdGlkIjoiODk4NTI4MjkyNDQiLCJwb3N0aWQiOiI5MTQ3NTE2OTIzMCIsImJsb2dpZCI6IjIyMDE2NDAyIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEwMzQzNzQwIiwicm9vdF9wb3N0aWQiOiI4MzY3NTU4MDYwNyIsInBvc3RpZCI6IjkwMDk4MTcxMzcwIiwiYmxvZ2lkIjoiMjIwMTY0MDIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTg3MjI1OTgiLCJyb290X3Bvc3RpZCI6Ijg1NjQwMzQ2NzQ5IiwicG9zdGlkIjoiODcxMDQyNDg1ODUiLCJibG9naWQiOiIyMjAxNjQwMiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNDg3MDQxMzYiLCJyb290X3Bvc3RpZCI6Ijg2NjAxMDQxNTgzIiwicG9zdGlkIjoiODcxMDQxNzAxNTUiLCJibG9naWQiOiIyMjAxNjQwMiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMzU4NDc3MCIsInJvb3RfcG9zdGlkIjoiODY0Mjg3MTAyMjIiLCJwb3N0aWQiOiI4NzEwNDE0OTQ2NSIsImJsb2dpZCI6IjIyMDE2NDAyIiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=MOJJMJCBNE&K=0f38b25cb46c99449bd969cb42c04911fc0840bf34ba7130d5098c6eab257271&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:22016402,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2Femotionalcloudzsz.tumblr.com%2F&amp;lang=es_ES&amp;name=emotionalcloudzsz&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_6ee1de888e4d_64.png&amp;title=internet+emotions&amp;url=http%3A%2F%2Femotionalcloudzsz.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2Femotionalcloudzsz.tumblr.com%2F&amp;lang=es_ES&amp;name=emotionalcloudzsz&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_6ee1de888e4d_64.png&amp;title=internet+emotions&amp;url=http%3A%2F%2Femotionalcloudzsz.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body></html><!-- END OF THEME -->
+<!-- SCM Music Player http://scmplayer.net -->
+<script type="text/javascript" src="http://scmplayer.net/script.js" 
+data-config="{'skin':'skins/black/skin.css','volume':100,'autoplay':true,'shuffle':true,'repeat':1,'placement':'top','showplaylist':false,'playlist':[{'title':'hot in the city','url':'http://www.youtube.com/watch?v=-6AH582yH6s'},{'title':'nuclear seasons','url':'http://www.youtube.com/watch?v=TGmM2l39LEs'},{'title':'everything is embarrassing','url':'http://www.youtube.com/watch?v=rEamE0MYPkg'},{'title':'stay away','url':'http://www.youtube.com/watch?v=KBxC5bRbruQ'}]}" ></script>
+<!-- SCM Music Player script end -->

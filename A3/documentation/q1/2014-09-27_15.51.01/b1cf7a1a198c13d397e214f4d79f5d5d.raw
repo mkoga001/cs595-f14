@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<title>Center Mass Group</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="pingback" href="http://centermassgroup.com/xmlrpc.php" />
+<link rel="alternate" type="application/rss+xml" title="Center Mass Group &raquo; Feed" href="http://centermassgroup.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Center Mass Group &raquo; Comments Feed" href="http://centermassgroup.com/comments/feed/" />
+<link rel='stylesheet' id='digg-digg-css'  href='http://centermassgroup.com/wp-content/plugins/digg-digg/css/diggdigg-style.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='wooslider-flexslider-css'  href='http://centermassgroup.com/wp-content/plugins/wooslider/assets/css/flexslider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wooslider-common-css'  href='http://centermassgroup.com/wp-content/plugins/wooslider/assets/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-lightbox-2.min.css-css'  href='http://centermassgroup.com/wp-content/plugins/wp-lightbox-2/styles/lightbox.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='woodojo-social-widgets-css'  href='http://centermassgroup.com/wp-content/plugins/woodojo/bundled/woodojo-social-widgets/assets/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-stylesheet-css'  href='http://centermassgroup.com/wp-content/themes/forthecause/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='woo-layout-css'  href='http://centermassgroup.com/wp-content/themes/forthecause/css/layout.css' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-css'  href='http://centermassgroup.com/wp-content/themes/forthecause/css/woocommerce.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mpce-bootstrap-grid-css'  href='http://centermassgroup.com/wp-content/plugins/motopress-content-editor/bootstrap/bootstrap-grid.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mpce-theme-css'  href='http://centermassgroup.com/wp-content/plugins/motopress-content-editor/includes/css/theme.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://centermassgroup.com/wp-content/plugins/jquery-updater/js/jquery-2.1.1.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var eStore_AVUI_JS = {"ajaxurl":"http:\/\/centermassgroup.com\/wp-admin\/admin-ajax.php","add_cart_nonce":"1b40d0fcbe","estore_url":"http:\/\/centermassgroup.com\/wp-content\/plugins\/wp-cart-for-digital-products","estore_checkout_page":"http:\/\/centermassgroup.com\/cart","estore_auto_co_redirect":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://centermassgroup.com/wp-content/plugins/eStore-advanced-variations-ui/js/eStore-avui-ajax.js'></script>
+<script type='text/javascript' src='http://centermassgroup.com/wp-content/plugins/wp-cart-for-digital-products/lib/jquery.external.lib.js'></script>
+<script type='text/javascript' src='http://centermassgroup.com/wp-content/plugins/wp-cart-for-digital-products/lib/jquery.lightbox-0.5.pack.js'></script>
+<script type='text/javascript' src='http://centermassgroup.com/wp-content/plugins/wp-cart-for-digital-products/lib/jquery.tools18.min.js'></script>
+<script type='text/javascript' src='http://centermassgroup.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='http://centermassgroup.com/wp-content/themes/forthecause/includes/js/modernizr.min.js'></script>
+<script type='text/javascript' src='http://centermassgroup.com/wp-content/themes/forthecause/includes/js/jquery.doubleTapToGo.min.js'></script>
+<script type='text/javascript' src='http://centermassgroup.com/wp-content/themes/forthecause/includes/js/general.js'></script>
+<script type='text/javascript' src='http://centermassgroup.com/wp-content/themes/forthecause/includes/js/jquery.flexslider.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woo_localized_data = {"animation":"slide","controlsContainer":".controls-container","smoothHeight":"true","directionNav":"false","controlNav":"false","manualControls":"","slideshow":"true","pauseOnHover":"true","slideshowSpeed":"7000","animationSpeed":"600","touch":"true","pauseOnAction":"true"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://centermassgroup.com/wp-content/themes/forthecause/includes/js/featured-slider.js'></script>
+<script type='text/javascript' src='http://centermassgroup.com/wp-content/plugins/optin-monster/assets/js/api.js'></script>
+		<style type="text/css">
+			.ads {
+				position: relative;
+				text-align: center;
+				clear: both;
+			}
+		</style><link rel="image_src" href="" /><meta name="p:domain_verify" content="ce55feedaf29901f722b60ed838ba3d4"/><link type="text/css" rel="stylesheet" href="http://centermassgroup.com/wp-content/plugins/wp-cart-for-digital-products/wp_eStore_style.css?ver=7.1.3" />
+<link type="text/css" rel="stylesheet" href="http://centermassgroup.com/wp-content/plugins/wp-cart-for-digital-products/wp_eStore_custom_style.css" />
+
+<!-- WP eStore plugin v7.1.3 - http://www.tipsandtricks-hq.com/wordpress-estore-plugin-complete-solution-to-sell-digital-products-from-your-wordpress-blog-securely-1059/ -->
+<script type="text/javascript">
+	JS_WP_ESTORE_CURRENCY_SYMBOL = "$";
+	JS_WP_ESTORE_VARIATION_ADD_STRING = "+";
+        JS_WP_ESTORE_VARIATION_DECIMAL_SEPERATOR = ".";
+	JS_WP_ESTORE_VARIATION_THOUSAND_SEPERATOR = ",";
+        JS_WP_ESTORE_VARIATION_CURRENCY_POS = "left";
+        JS_WP_ESTORE_VARIATION_NUM_OF_DECIMALS = "2";    
+	JS_WP_ESTORE_MINIMUM_PRICE_YOU_CAN_ENTER = "The minimum amount you can specify is ";
+        JS_WP_ESTORE_URL = "http://centermassgroup.com/wp-content/plugins/wp-cart-for-digital-products";</script><script type="text/javascript" src="http://centermassgroup.com/wp-content/plugins/wp-cart-for-digital-products/lib/eStore_read_form.js?ver=7.1.3"></script>
+<!-- Theme version -->
+<meta name="generator" content="For The Cause 1.1.2" />
+<meta name="generator" content="WooFramework 5.5.6" />
+
+<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<!--  Mobile viewport scale | Disable user zooming as the layout is optimised -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--[if lt IE 9]>
+<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+		
+<!-- All in One SEO Pack 2.2.3.1 by Michael Torbert of Semper Fi Web Design[68,127] -->
+<meta name="description"  content="Center Mass Group provides Combat Shooting courses, tactical training, training books and DVDs all by Navy SEAL instructors. Ever wanted to learn the secrets of" />
+
+<meta name="keywords"  content="Navy SEALS, Firearms Training, combat shooting, marksmanship, pistol, SEAL Training, Shooting, SEALS ,center mass group, maritime training, Pistol Training, Tactical Training" />
+<link rel='next' href='http://centermassgroup.com/page/2/' />
+
+<link rel="canonical" href="http://centermassgroup.com/" />
+<meta property="og:title" content="Center Mass Group" />
+<meta property="og:type" content="blog" />
+<meta property="og:url" content="http://centermassgroup.com/" />
+<meta property="og:image" content="http://centermassgroup.com/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png" />
+<meta property="og:site_name" content="Center Mass Group" />
+<meta property="og:description" content="SEAL Instructors : REAL Training" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="SEAL Instructors : REAL Training" />
+<meta itemprop="image" content="http://centermassgroup.com/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png" />
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', '75290052']);
+		  _gaq.push(['_setDomainName', 'centermassgroup.com']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+<!-- /all in one seo pack -->
+<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+<!-- Woo Custom Styling -->
+<style type="text/css">
+body { background: #ffffff !important; }
+</style>
+
+<!-- Google Webfonts -->
+<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Alef:400,700|Fauna+One" rel="stylesheet" type="text/css" />
+
+<!-- Alt Stylesheet -->
+<link href="http://centermassgroup.com/wp-content/themes/forthecause/styles/default.css" rel="stylesheet" type="text/css" />
+
+<!-- Custom Favicon -->
+<link rel="shortcut icon" href="http://centermassgroup.com/wp-content/uploads/2014/04/favicon.ico"/>
+<!-- Options Panel Custom CSS -->
+<style type="text/css">
+#header #logo {
+margin: 0 0 .5em -5em;
+}
+
+#navigation {
+width: 75%;
+padding-top: 25px;
+}
+.flexslider .flex-viewport {
+margin: 0;
+}
+
+.entry h1,  h2, h3{
+margin: 0;
+}
+#featured-slider .slide-content {
+max-width: 100%
+}
+.homepage-area .home-section .section-wrapper h3 {
+font-size: 2em;
+text-align: center;
+}
+
+#promotion h2 {
+font-size: 3em;
+margin: 0;
+}
+
+#promotion p {
+font-size: 1.8em;
+}
+#promotion .button {
+margin: 3.5em 0 0; }
+#promotion .section-wrapper {
+padding: 1.5em;
+}
+
+.flexslider .slides > li:not(:first-child)
+
+
+
+</style>
+
+
+<!-- Woo Shortcodes CSS -->
+<link href="http://centermassgroup.com/wp-content/themes/forthecause/functions/css/shortcodes.css" rel="stylesheet" type="text/css" />
+
+<!-- Custom Stylesheet -->
+<link href="http://centermassgroup.com/wp-content/themes/forthecause/custom.css" rel="stylesheet" type="text/css" />
+
+<!-- Woo Custom Styling -->
+<style type="text/css">
+#blog-posts { background: #4b4b4b !important; }
+</style>
+</head>
+<body class="home blog gecko alt-style-default layout-left-content ">
+
+<div id="wrapper">
+	<div id="inner-wrapper">
+
+    
+	<header id="header">
+
+		<div class="col-full">
+
+			<div class="section-wrapper">
+
+				
+	<a id="logo" href="http://centermassgroup.com/" title="SEAL Instructors : REAL Training">
+		<img src="http://centermassgroup.com/wp-content/uploads/2014/08/Logo2-300x133.jpg" alt="Center Mass Group" />
+	</a>
+
+				<span class="nav-toggle"><a href="#navigation"><span>Navigation</span></a></span>
+
+			    <div class="site-header">
+					<h1 class="site-title"><a href="http://centermassgroup.com/">Center Mass Group</a></h1>
+					<h2 class="site-description">SEAL Instructors : REAL Training</h2>
+         
+				</div>
+
+		        
+				<nav id="navigation" role="navigation">
+
+						<section class="menus">
+
+						<a href="http://centermassgroup.com" class="nav-home"><span>Home</span></a>
+						<h3>CMG Menu</h3><ul id="main-nav" class="nav"><li id="menu-item-4197" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4197"><a href="http://centermassgroup.com">Home</a></li>
+<li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><a href="http://centermassgroup.com/the-group/">About</a></li>
+<li id="menu-item-253" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-253"><a href="http://centermassgroup.com/blog/">Blog</a></li>
+<li id="menu-item-4766" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4766"><a href="#">Train</a>
+<ul class="sub-menu">
+	<li id="menu-item-1187" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1187"><a href="http://centermassgroup.com/training/training-schedule/hosting-courses/">Hosting Courses</a></li>
+	<li id="menu-item-118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118"><a href="http://centermassgroup.com/training-center/">Training Center</a></li>
+</ul>
+</li>
+<li id="menu-item-4200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4200"><a href="http://centermassgroup.com/shop/">Shop</a></li>
+<li id="menu-item-203" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-203"><a href="http://centermassgroup.com/contact-2/">Contact</a></li>
+</ul>										        	<h3>Shopping Cart</h3>
+				        	<ul class="nav cart">
+				        		<li >
+				        					<a class="cart-contents" href="http://centermassgroup.com/cart-2/" title="View your shopping cart"><span class="count">0 items</span></a>
+						        		</li>
+				       		</ul>
+				        				    	</section><!--/.menus-->
+
+				        <a href="#top" class="nav-close"><span>Return to Content</span></a>
+
+				</nav><!-- /#navigation -->
+
+				
+			</div><!-- /.section-wrapper -->
+ <p style="float: left; margin: 9.5em 0 0 -18em;">Firearms - Tactics - Training</p>
+		</div><!-- /.col-full -->
+
+	</header><!-- /#header -->
+
+		
+    <div id="content">
+
+    		<section class="homepage-area fullwidth">
+					<img src="https://farm6.staticflickr.com/5562/15226799996_2aa7779f42_o.png" width="1900" height="420" alt="Home-Page">
+    			<div id="woo_component-4" class="widget home-section widget_woo_component"><div class="col-full"><div class="section-wrapper">	
+		<section id="promotion" class="home-section">
+
+		<div class="col-full">
+
+	    	<div class="section-wrapper">
+			
+				<div class="left-section">
+
+											<img class="promo-img" src="http://centermassgroup.com/wp-content/uploads/2014/09/CTA-Book1.png" alt="Buy Chris' book" />
+					
+											<h2>Buy Chris' book</h2>
+					
+											<p>Learn proven techniques to dramatically improving your marksmanship skills from Navy SEAL firearms instructor Chris Sajnog.</p>
+					
+				</div>
+
+				<div class="right-section">
+											<a class="button" href="http://centermassgroup.com/product/how-to-shoot-like-a-navy-seal/">Buy Now!</a>
+									</div>
+
+			</div><!-- /.section-wrapper-->
+
+		</div><!-- /.col-full-->		
+
+	</section>
+	</div></div></div><div id="woo_component-3" class="widget home-section widget_woo_component"><div class="col-full"><div class="section-wrapper">
+<div id="featured-products" class="widget home-section">
+
+	<div class="col-full">
+
+		<div class="section-wrapper">
+
+    					<header>
+				<h1>Our Best Selling Products</h1>							</header>
+			
+			<ul class="products">
+
+				
+				<li class="product col col4 first">
+
+										<a href="http://centermassgroup.com/product/cmg-teaching-freedom-shirt-new/" title="">
+
+						<img width="300" height="266" src="http://centermassgroup.com/wp-content/uploads/2014/09/Teaching-Freedom-Full-Back-300x266.jpg" class="attachment-shop_single wp-post-image" alt="Teaching Freedom Full Back" />
+						<div class="product-details">
+							<h3>CMG Teaching Freedom Shirt (New)</h3>
+							<span class="price"><span class="amount">&#36;27.00</span>&ndash;<span class="amount">&#36;29.00</span></span>
+						</div><!--/.product-details-->
+
+					</a>
+
+				</li>
+
+			
+				<li class="product col col4">
+
+										<a href="http://centermassgroup.com/product/50-bullet-bottle-opener/" title="">
+
+						<img width="300" height="180" src="http://centermassgroup.com/wp-content/uploads/2013/07/Bullet-Bottle-Opener.jpg" class="attachment-shop_single wp-post-image" alt="Bullet Bottle Opener" />
+						<div class="product-details">
+							<h3>.50 Bullet Bottle Opener</h3>
+							<span class="price"><span class="amount">&#36;13.00</span></span>
+						</div><!--/.product-details-->
+
+					</a>
+
+				</li>
+
+			
+				<li class="product col col4">
+
+					
+	<span class="onsale">Sale!</span>
+					<a href="http://centermassgroup.com/product/how-to-shoot-like-a-navy-seal/" title="">
+
+						<img width="300" height="300" src="http://centermassgroup.com/wp-content/uploads/2014/09/Book-amazon-store-300x300.png" class="attachment-shop_single wp-post-image" alt="Book Amazon Store" />
+						<div class="product-details">
+							<h3>How to Shoot Like a Navy SEAL (Paperback)</h3>
+							<span class="price"><del><span class="amount">&#36;99.00</span></del> <ins><span class="amount">&#36;47.00</span></ins></span>
+						</div><!--/.product-details-->
+
+					</a>
+
+				</li>
+
+			
+				<li class="product col col4 last">
+
+										<a href="http://centermassgroup.com/product/cmg-evolution-shirt/" title="">
+
+						<img width="300" height="271" src="http://centermassgroup.com/wp-content/uploads/2014/06/Evolution-Full-Front.gif" class="attachment-shop_single wp-post-image" alt="Evolution Shirt Full Front" />
+						<div class="product-details">
+							<h3>CMG Evolution Shirt</h3>
+							<span class="price"><span class="amount">&#36;27.00</span>&ndash;<span class="amount">&#36;29.00</span></span>
+						</div><!--/.product-details-->
+
+					</a>
+
+				</li>
+
+			
+			</ul><!--/.featured-1-->
+
+		</div><!--/.section-wrapper-->
+
+	</div><!--/.col-full-->
+
+</div></div></div></div><div id="optin-monster-3" class="widget home-section optin-monster"><div class="col-full"><div class="section-wrapper"><!-- This site converts visitors into subscribers and customers with the OptinMonster WordPress plugin v2.0.2.2 - http://optinmonster.com/ -->
+<div id="om-pwzjwpahaw-sidebar" class="optin-monster-overlay" style=""><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script><style type="text/css" class="om-theme-fabric-styles">html div#om-pwzjwpahaw-sidebar * {box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}html div#om-pwzjwpahaw-sidebar {background:none;border:0;border-radius:0;-webkit-border-radius:0;-moz-border-radius:0;float:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;height:auto;letter-spacing:normal;outline:none;position:static;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;width:auto;visibility:visible;overflow:visible;margin:0;padding:0;line-height:1;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-shadow:none;-moz-box-shadow:none;-ms-box-shadow:none;-o-box-shadow:none;box-shadow:none;-webkit-appearance:none;}html div#om-pwzjwpahaw-sidebar .om-clearfix {clear: both;}html div#om-pwzjwpahaw-sidebar .om-clearfix:after {clear: both;content: ".";display: block;height: 0;line-height: 0;overflow: auto;visibility: hidden;zoom: 1;}html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-optin {border: 1px solid #dcdcd9;-webkit-box-shadow: 0px 6px 11px -7px #000000;-moz-box-shadow: 0px 6px 11px -7px #000000;box-shadow: 0px 6px 11px -7px #000000;position: relative;text-align: center;margin: 0 auto 20px;max-width: 400px;width: 100%;}html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-header {background-color: #f16a10;}html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-optin-title {font-size: 26px;color: #fff;-webkit-text-shadow: #888 -0 0 1px;-moz-text-shadow: #888 -0 0 1px;text-shadow: #888 -0 0 1px;width: 100%;padding: 25px 40px;}html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-content {background: url(http://centermassgroup.com/wp-content/plugins/optin-monster-sidebar/includes/themes/fabric/images/background.png);background-color: #fbfdf3;float: left;display: table;vertical-align: middle;width: 100%;}html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-optin-tagline {display: table-cell;font-size: 16px;line-height: 24px;color: #858585;width: 100%;margin-bottom: 15px;padding-left: 0;vertical-align: middle;}html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-top {display: block;vertical-align: middle;width: 100%;padding: 25px 50px;position: relative;}html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-top.om-has-image #om-sidebar-fabric-optin-tagline {width: 75%;padding-left: 15px;}html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-optin-image-container {display: table-cell;vertical-align: middle;position: relative;width: 0%;height: auto;}html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-top.om-has-image #om-sidebar-fabric-optin-image-container {width: 25%;}html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-optin-image-container img {display: block;margin: 0 auto;text-align: center;height: auto;max-width: 100%;}html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-bottom {display: block;vertical-align: middle;width: 100%;padding: 0 50px 50px;position: relative;}html div#om-pwzjwpahaw-sidebar input,html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-optin-name,html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-optin-email {background-color: #fff;width: 100%;height: 45px;border: 1px solid #c7c9bd;border-radius: 3px;font-size: 16px;line-height: 24px;padding: 6px;overflow: hidden;outline: none;margin: 0 0 10px;vertical-align: middle;display: inline;color: #222;}html div#om-pwzjwpahaw-sidebar input[type=submit],html div#om-pwzjwpahaw-sidebar button,html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-optin-submit {background: #f16a10;border: 1px solid #cc611b;-webkit-box-shadow: 0 1px 1px -1px #fff inset;-moz-box-shadow: 0 1px 1px -1px #fff inset;box-shadow: 0 1px 1px -1px #fff inset;-webkit-text-shadow: #888 -0 0 1px;-moz-text-shadow: #888 -0 0 1px;text-shadow: #888 -0 0 1px;color: #fff;font-size: 16px;padding: 6px;line-height: 24px;text-align: center;vertical-align: middle;cursor: pointer;display: inline;margin: 0;margin-top: 10px;width: 100%;}html div#om-pwzjwpahaw-sidebar input[type=checkbox],html div#om-pwzjwpahaw-sidebar input[type=radio] {-webkit-appearance: checkbox;width: auto;outline: invert none medium;padding: 0;margin: 0;}.optin-monster-image-placeholder {background-size: contain !important;}@media screen and (max-width: 600px) {html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-top,html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-bottom {display: block;width: 100%;padding: 0 30px;}html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-top {padding-top: 50px;padding-bottom: 20px;}html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-bottom {padding-bottom: 50px;}}.optin-monster-success-message {font-size: 21px;font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;color: #282828;font-weight: 300;text-align: center;margin: 0 auto;}.optin-monster-success-overlay .om-success-close {font-size: 32px !important;font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;color: #282828 !important;font-weight: 300 !important;position: absolute !important;top: 0px !important;right: 10px !important;background: none !important;text-decoration: none !important;width: auto !important;height: auto !important;display: block !important;line-height: 32px !important;}</style><style type="text/css" class="om-custom-styles">html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-content { background-image: none;}html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-optin { border: 0;}html div#om-pwzjwpahaw-sidebar #om-sidebar-fabric-optin { box-shadow: 0; }</style><div id="om-sidebar-fabric-optin" class="om-sidebar-fabric om-clearfix om-theme-fabric "><div id="om-sidebar-fabric-optin-wrap" class="om-clearfix"><div id="om-sidebar-fabric-header" class="om-clearfix" data-om-action="selectable" data-om-target="#optin-monster-field-header_bg" style="background-color:#f16a10"><div id="om-sidebar-fabric-optin-title" data-om-action="editable" data-om-field="title" style="color:#fff;font-family:Helvetica;font-size:26px;text-align:center;"><span style="font-size:26px;">Learn how to quickly and dramatically improve your tactics and shooting!</span></div></div><div id="om-sidebar-fabric-content" class="om-clearfix" style="background-color: #4b4b4b"><div id="om-sidebar-fabric-top" class="" data-om-action="selectable" data-om-target="#optin-monster-field-content_bg"><div id="om-sidebar-fabric-optin-image-container" class="om-image-container om-clearfix"></div><div id="om-sidebar-fabric-optin-tagline" data-om-action="editable" data-om-field="tagline" style="color:#858585;font-family:Helvetica;font-size:16px;"><h2><span style="font-family:arial;"><span style="font-size:26px;"><span style="color:#FFFFFF;">Start getting the latest shooting tips,<br />
+tricks and&nbsp;tactics today for <span style="font-weight:bold;">FREE </span>from<br />
+Senior&nbsp;Navy SEAL Instructor -&nbsp;<span style="font-weight:bold;">Chris Sajnog</span></span></span></span></h2>
+</div></div><div id="om-sidebar-fabric-bottom" class=" om-has-email" data-om-action="selectable" data-om-target="#optin-monster-field-content_bg"><input id="om-sidebar-fabric-optin-email" type="email" value="" data-om-action="selectable" data-om-target="#optin-monster-field-email_field" placeholder="e.g. sniperteam6@gmail.com" style="color:#858585;font-family:Helvetica;" /><input id="om-sidebar-fabric-optin-submit" type="submit" data-om-action="selectable" data-om-target="#optin-monster-field-submit_field" value="Start Training" style="color:#ffffff;background-color:#f16a10;border-color:#cc611b;font-family:Helvetica;" /></div></div></div></div><script type="text/javascript">jQuery(document).ready(function($){});</script></div>
+<script type="text/javascript">var pwzjwpahaw_sidebar, omo = {"id":4813,"optin":"pwzjwpahaw-sidebar","campaign":"The Group Page","clones":[""],"hash":"pwzjwpahaw-sidebar","optin_js":"pwzjwpahaw_sidebar","type":"sidebar","theme":"fabric","cookie":0,"delay":0,"second":false,"exit":false,"redirect":"http:\/\/centermassgroup.com\/blog\/","custom":false,"test":false,"global_cookie":false,"preview":false,"ajax":"http:\/\/centermassgroup.com\/?optin-monster-ajax-route=1","mobile":false,"post_id":4025,"preloader":"http:\/\/centermassgroup.com\/wp-content\/plugins\/optin-monster\/assets\/css\/images\/preloader.gif","error":"There was an error with your submission. Please try again.","ajax_error":"There was an error with the AJAX request: ","name_error":"Please enter a valid name.","email_error":"Please enter a valid email address.","success":"Thanks for subscribing! Please check your email for further instructions."}; pwzjwpahaw_sidebar = new OptinMonster(); pwzjwpahaw_sidebar.init(omo);</script>
+<!--[if lte IE 9]><script type="text/javascript">var om_ie_browser = true;</script><![endif]--><!-- / OptinMonster WordPress plugin. -->
+</div></div></div><div id="woothemes_testimonials-2" class="widget home-section widget_woothemes_testimonials"><div class="col-full"><div class="section-wrapper">
+<h3>What people think of Center Mass Group</h3>
+<div class="testimonials component columns-5 effect-fade">
+<div class="testimonials-list">
+<div id="quote-4596" class="quote first"><blockquote class="testimonials-text"><p>“Having attended multiple hands-on instructional courses in firearms training, I was impressed with how Chris broke down the fundamentals in a way I’d not seen before. This explanation has really helped me grasp a lot of the “why” in recognizing my bad habits and working to correct them.”</p>
+</blockquote><a href="http://itstactical.com" class="avatar-link"><img alt='' src='http://0.gravatar.com/avatar/48d6a7606860f63aa31b367e11a782a8?s=50&amp;d=wavatar&amp;r=R' class='avatar avatar-50 photo' height='50' width='50' /></a> <cite class="author" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Bryan Black</span> <span class="title" itemprop="jobTitle">Editor-in-Chief, Founder of ITS Tactical</span><!--/.title-->
+ <span class="url"><a href="http://itstactical.com" itemprop="url">http://itstactical.com</a></span><!--/.excerpt-->
+</cite><!--/.author-->
+<div class="fix"></div></div><div id="quote-4599" class="quote no-image"><blockquote class="testimonials-text"><p>“This book is the Real Deal from a great guy. Want to learn? Learn from the best, that teaches the best!”</p>
+</blockquote> <cite class="author" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Scott McEwen</span> <span class="title" itemprop="jobTitle">Best Selling Author, American Sniper and Sniper Elite</span><!--/.title-->
+</cite><!--/.author-->
+<div class="fix"></div></div><div id="quote-4597" class="quote no-image"><blockquote class="testimonials-text"><p>“To those who encounter Chris personally, you can expect an icy stare and avery sharp correction when your shooting performance is not up to his highstandards. You can then expect his strong hand on your shoulder for reassurance and encouragement to relax and try again. Chris has always received the highest marks from me and his fellow SEALs. Today he continues that mentorship into his retirement and shares those important traits with the next generation of young SEALs and men and women who look to him for “Proper Technique” with whatever he teaches.”</p>
+</blockquote> <cite class="author" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Don Shipley</span> <span class="title" itemprop="jobTitle">SEAL Team ONE, SEAL Team TWO. Owner Extreme SEAL Experience</span><!--/.title-->
+ <span class="url"><a href="http://www.extremesealexperience.com/" itemprop="url">http://www.extremesealexperience.com/</a></span><!--/.excerpt-->
+</cite><!--/.author-->
+<div class="fix"></div></div><div id="quote-4598" class="quote last no-image"><blockquote class="testimonials-text"><p>Chris Sajnog has managed to condense in one book the essence of gun fighting. Anyone being a Military, Law Enforcement or Citizen of the Free World should not only buy this book but often come back to the fundamentals described in it. In these uncertain times, such a concentration of wisdom and knowledge is a must have.</p>
+</blockquote> <cite class="author" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Michel M.</span> <span class="title" itemprop="jobTitle">SCH (ret) Spec Ops 1st group</span><!--/.title-->
+</cite><!--/.author-->
+<div class="fix"></div></div></div><!--/.testimonials-list-->
+<div class="fix"></div>
+</div><!--/.testimonials-->
+</div></div></div>
+
+    		</section>
+
+    </div><!-- /#content -->
+
+	
+<div id="footer-wrapper">
+
+<div class="col-full">
+
+<div class="section-wrapper">
+
+		
+		<section id="footer-widgets" class="col-3 fix">
+
+							
+			<div class="block footer-widget-1">
+	        	<div id="nav_menu-3" class="widget widget_nav_menu"><h3>Site</h3><div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-4198" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4198"><a href="http://centermassgroup.com">Home</a></li>
+<li id="menu-item-4005" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4005"><a href="http://centermassgroup.com/the-group/">About</a></li>
+<li id="menu-item-4006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4006"><a href="http://centermassgroup.com/training/">Train</a></li>
+<li id="menu-item-4008" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4008"><a href="http://centermassgroup.com/blog/">Blog</a></li>
+<li id="menu-item-4199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4199"><a href="http://centermassgroup.com/shop/">Shop</a></li>
+<li id="menu-item-4007" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4007"><a href="http://centermassgroup.com/contact-2/">Contact</a></li>
+</ul></div></div>			</div>
+
+		        							
+			<div class="block footer-widget-2">
+	        	<div id="nav_menu-4" class="widget widget_nav_menu"><h3>Store</h3><div class="menu-store-menu-container"><ul id="menu-store-menu" class="menu"><li id="menu-item-4024" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4024"><a href="http://centermassgroup.com/cart-2/">My Cart</a></li>
+<li id="menu-item-4023" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4023"><a href="https://centermassgroup.com/checkout/">Checkout</a></li>
+<li id="menu-item-4022" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4022"><a href="http://centermassgroup.com/contact-2/">Contact Us</a></li>
+</ul></div></div>			</div>
+
+		        							
+			<div class="block footer-widget-3">
+	        	<div id="text-6" class="widget widget_text"><h3>Social</h3>			<div class="textwidget"><a href="https://www.facebook.com/CenterMassGroup"><img src="http://centermassgroup.com/wp-content/uploads/2014/08/fb.png"> Facebook</a><br />
+<a href="https://twitter.com/centermassgroup"><img src="http://centermassgroup.com/wp-content/uploads/2014/08/tw.png"> Twitter</a><br />
+<a href="https://www.youtube.com/user/CenterMassGroup"><img src="http://centermassgroup.com/wp-content/uploads/2014/08/yt.png"> YouTube</a><br />
+
+</div>
+		</div>			</div>
+
+		        			
+		</section><!-- /#footer-widgets  -->
+			<footer id="footer">
+
+			<div id="footer-left" class="col-left">
+
+			<p>9921 Carmel Mountain Road, Suite 556, San Diego, CA 92129</p>
+<p>© 2014 Center Mass Group. All Rights Reserved.</p>
+			
+	        
+			</div>
+
+			<div id="footer-right" class="col-right">
+				<div class="block">
+		        					</div>
+			</div>
+
+		</footer><!-- /#footer  -->
+
+	</div><!-- /#footer-wrapper -->
+
+	</div><!-- /.section-wrapper -->
+
+	</div><!-- /.col-full -->	
+
+</div><!-- /#inner-wrapper -->
+
+</div><!-- /#wrapper -->
+    <script type="text/javascript">
+    // <![CDATA[
+        var disqus_shortname = 'centermassgroup';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) url = url[0];
+                    else url = url[1]
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    //]]>
+    </script>
+<div class="eStore_apple_overlay"><div class="cart_redirection_contentWrap"></div></div><script type="text/javascript">
+jQuery.noConflict();
+jQuery(document).ready(function($) {
+$(function() {
+	//set this cookie value according to the T and C settings.
+	if ($(".t-and-c").length > 0){	
+		if(!$(".t-and-c").is(':checked')){
+			$.cookie("eStore_submit_payment","false",{path: '/'});						
+		}
+	}
+	else{
+		$.cookie("eStore_submit_payment","true",{path: '/'});
+	}	
+	$(".redirect_trigger").overlay({
+		mask: '#3D4752',
+		effect: 'apple',
+		target:$('.eStore_apple_overlay'),
+		top: '20%',		
+ 
+		onBeforeLoad: function() {
+			// grab wrapper element inside content
+			var wrap = this.getOverlay().find(".cart_redirection_contentWrap"); 			
+			// load the page specified in the trigger
+			wrap.load(this.getTrigger().attr("href"));	
+
+			if ($(".t-and-c").length > 0){	
+				if(!$(".t-and-c").is(':checked'))
+				{
+					$.cookie("eStore_submit_payment","false",{path: '/'});	
+					wrap.close();						
+				}
+			}	 
+		} 
+	}); 
+ });
+ });
+</script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+    $(function() {
+    	$('[class*=eStore]').find('a[rel*=lightbox]').lightBox({
+    	imageLoading: 'http://centermassgroup.com/wp-content/plugins/wp-cart-for-digital-products/images/lightbox/lightbox-ico-loading.gif',
+    	imageBtnClose: 'http://centermassgroup.com/wp-content/plugins/wp-cart-for-digital-products/images/lightbox/lightbox-btn-close.gif',
+    	imageBtnPrev: 'http://centermassgroup.com/wp-content/plugins/wp-cart-for-digital-products/images/lightbox/lightbox-btn-prev.gif',
+    	imageBtnNext: 'http://centermassgroup.com/wp-content/plugins/wp-cart-for-digital-products/images/lightbox/lightbox-btn-next.gif',
+    	imageBlank: 'http://centermassgroup.com/wp-content/plugins/wp-cart-for-digital-products/images/lightbox/lightbox-blank.gif',
+    	txtImage: 'Image',
+    	txtOf: 'of'
+        });
+    });    
+});
+</script>
+<script type="text/javascript">
+jQuery.noConflict();
+jQuery(document).ready(function($) {
+$(function() {
+	if ($('.t-and-c').length ) {
+	    //Terms and condtions is being used so apply validation
+	}else{
+		return;
+	}
+	$('.t_and_c_error').hide();
+   $(".t-and-c").click(function(){
+       if($(".t-and-c").is(':checked')){  
+    	  $.cookie("eStore_submit_payment","true",{path: '/'}); 
+          $('.t_and_c_error').hide();          
+       }
+       else{
+    	   $.cookie("eStore_submit_payment","false",{path: '/'});	
+       }                 
+   });    
+   $(".eStore_paypal_checkout_button").click(function(e){
+       if(!$(".t-and-c").is(':checked')){
+           $('.t_and_c_error').show();
+           e.preventDefault();         
+       }
+   });   
+   $(".eStore_buy_now_button").click(function(e){
+       if(!$(".t-and-c").is(':checked')){
+           $('.t_and_c_error').show();
+           e.preventDefault();         
+       }
+   });   
+   $(".eStore_subscribe_button").click(function(e){
+       if(!$(".t-and-c").is(':checked')){
+           $('.t_and_c_error').show();
+           e.preventDefault();         
+       }
+   }); 
+	$(".free_download_submit").click(function(e) {//Non-Ajax free download squeeze page button clicked	
+		if(!$(".t-and-c").is(':checked')){
+			$('.t_and_c_error').show();
+			e.preventDefault();
+		}
+	});   
+ });
+ });
+</script>
+<script type="text/javascript">
+jQuery.noConflict();
+jQuery(document).ready(function($) {
+$(function() {
+	var shipping_var_warning_class = $('.shipping_var_changed');
+	var shipping_var_warning_default_class = $('.shipping_var_changed_default');
+	shipping_var_warning_class.hide();
+	$('.shipping_variation').change(function(){
+		shipping_var_warning_default_class.hide();
+		shipping_var_warning_class.show();
+	});
+	var eStore_shipping_var_needs_update = false;
+	if(shipping_var_warning_class.is(":visible")){eStore_shipping_var_needs_update = true;}
+	else if(shipping_var_warning_default_class.is(":visible")){eStore_shipping_var_needs_update = true;}	
+	$(".eStore_paypal_checkout_button").click(function(e){//Check if shipping variation has been selected
+		if(eStore_shipping_var_needs_update){
+	    	shipping_var_warning_class.css({'border':'1px solid red','padding':'5px'});
+	    	shipping_var_warning_default_class.css({'border':'1px solid red','padding':'5px'});
+	    	e.preventDefault();
+		}
+	});	
+ });
+ });
+</script>
+<script type="text/javascript">
+jQuery.noConflict();
+jQuery(document).ready(function($) {
+$(function(){
+	var eStore_cart_item_qty = $('.eStore_cart_item_qty');
+	eStore_cart_item_qty.keypress(function(){
+		$('.eStore_qty_change_pinfo').show();
+	});
+ });
+ });
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42926106-1', 'centermassgroup.com');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+<!--[if lt IE 9]>
+<script src="http://centermassgroup.com/wp-content/themes/forthecause/includes/js/respond.js"></script>
+<![endif]-->
+<script type='text/javascript' src='http://centermassgroup.com/wp-content/plugins/fitvids-for-wordpress/jquery.fitvids.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","ajax_loader_url":"\/\/centermassgroup.com\/wp-content\/plugins\/woocommerce\/assets\/images\/ajax-loader@2x.gif","i18n_view_cart":"View Cart","cart_url":"http:\/\/centermassgroup.com\/cart-2\/","is_cart":"","cart_redirect_after_add":"no"};
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","ajax_loader_url":"\/\/centermassgroup.com\/wp-content\/plugins\/woocommerce\/assets\/images\/ajax-loader@2x.gif","i18n_view_cart":"View Cart","cart_url":"http:\/\/centermassgroup.com\/cart-2\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//centermassgroup.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js'></script>
+<script type='text/javascript' src='//centermassgroup.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","ajax_loader_url":"\/\/centermassgroup.com\/wp-content\/plugins\/woocommerce\/assets\/images\/ajax-loader@2x.gif"};
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","ajax_loader_url":"\/\/centermassgroup.com\/wp-content\/plugins\/woocommerce\/assets\/images\/ajax-loader@2x.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//centermassgroup.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js'></script>
+<script type='text/javascript' src='//centermassgroup.com/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","fragment_name":"wc_fragments"};
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","fragment_name":"wc_fragments"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//centermassgroup.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js'></script>
+<script type='text/javascript' src='http://centermassgroup.com/wp-content/plugins/wooslider/assets/js/jquery.mousewheel.min.js'></script>
+<script type='text/javascript' src='http://centermassgroup.com/wp-content/plugins/wooslider/assets/js/jquery.flexslider.min.js'></script>
+<script type='text/javascript' src='http://centermassgroup.com/wp-content/plugins/wooslider/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JQLBSettings = {"fitToScreen":"1","resizeSpeed":"400","displayDownloadLink":"0","navbarOnTop":"0","loopImages":"","resizeCenter":"","marginSize":"0","linkTarget":"_self","help":"","prevLinkTitle":"previous image","nextLinkTitle":"next image","prevLinkText":"\u00ab Previous","nextLinkText":"Next \u00bb","closeTitle":"close image gallery","image":"Image ","of":" of ","download":"Download"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://centermassgroup.com/wp-content/plugins/wp-lightbox-2/wp-lightbox-2.min.js'></script>
+    	<script type="text/javascript">
+    	jQuery(document).ready(function() {
+    		jQuery('iframe').fitVids({ customSelector: ""});
+    	});
+    	</script></body>
+</html>
+<!-- Dynamic page generated in 0.973 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2014-09-27 12:23:37 -->
+
+<!-- super cache -->

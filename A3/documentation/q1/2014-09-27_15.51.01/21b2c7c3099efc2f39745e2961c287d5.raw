@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!doctype html>
+
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+
+    	<meta charset="utf-8">
+
+		<meta name="font:Body" content="Georgia">
+		<meta name="font:Titles" content="Baskerville">
+
+		<meta name="if:Single Column" content="0">
+
+		<meta name="image:Header image" content="http://static.tumblr.com/fkm6sn6/59Xlce272/header_white.png">
+		<meta name="if:Enable Header Image" content="1">
+
+		<meta name="color:Primary colour" content="#565656">
+		<meta name="color:Secondary colour" content="#AAAAAA">
+		<meta name="color:Tertiary colour" content="#000000">
+
+		<meta name="image:Background" content="">
+		<meta name="color:Background" content="#F7F7F7">
+		<meta name="color:Content Background" content="#FFFFFF">
+
+		<meta name="color:Stripe" content="#F7F7F7">
+
+		<meta name="if:Show Title" content="1">
+		<meta name="if:Top Navigation Drawer" content="1">
+		<meta name="if:To Top Button" content="1">
+
+		<meta name="if:Enable Infinite Scroll" content="1">
+
+		<meta name="if:Small meta info" content="0">
+		<meta name="if:Hide Meta Icons" content="0">
+		<meta name="if:Hide Description" content="0">
+		<meta name="if:Paragraph indentation" content="1">
+
+		<meta name="if:Show Tumblr Links" content="0">
+		<meta name="if:Show Tags" content="0">
+
+		<meta name="if:Show Drop Shadows" content="1">
+		<meta name="if:Show Album Art on Audio Posts" content="1">
+
+		<meta name="text:Disqus Shortname" content="">
+		<meta name="text:Google Analytics Code" content="">
+
+		<meta name="if:Legacy Mode" content="0">
+
+		<title>Brendan O'Hare.</title>
+
+		<link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_60247fddb3df_128.png">
+		<link rel="alternate" type="application/rss+xml" href="http://brendohare.tumblr.com/rss">
+		<meta name="description" content="@brendohare bohare7@yahoo.com">
+
+		
+
+		<link href="http://static.tumblr.com/urgl1bv/gqHm3yo3j/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css">
+		<link href="http://static.tumblr.com/urgl1bv/AZam1mx1l/normalize.css" rel="stylesheet" type="text/css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+
+		<style type="text/css">
+
+			/*
+			   -=  Inkhorn Tumblr Theme
+			   -=  Design & Code by Theme Anorak – themeanorak.com
+			   -=  V 2.1
+			*/
+
+			/* -=  clearfix =-  */
+
+			.clearfix:after { display: block; height: 0; clear: both; visibility: hidden; }
+			.clearfix { display: inline-table; }
+
+			/* -=  general and layout  =- */
+
+			body { margin: 0 auto; width: 100%; height:100%; background:#F7F7F7 url('http://assets.tumblr.com/images/x.gif'); color: #565656; font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif, Baskerville, Times, "Times New Roman", serif; font-weight: 300; font-size: 13px; line-height: 24px;  }
+
+			#background { background:#FFFFFF; margin: 0 auto; width: 730px; }
+			#background-inner { margin:0 auto; background:#FFFFFF; border-left: 15px solid #F7F7F7; border-right: 15px solid #F7F7F7; width:670px; }
+			section#blog { margin: 0 auto; width: 670px; }
+
+			header { margin: 0px auto 54px auto; padding-top:60px; }
+			footer { margin: 0 auto; text-align: center; color: #AAAAAA; padding-bottom: 56px; }
+
+			ul#tumblr-links,
+			ul#pages { width:510px; text-align: center; padding:0px; margin:24px 0px 0px 0px; }
+
+			#header-image { text-align:center; margin:0 auto 24px auto; }
+			img.header-image { max-width: 85%; }
+			#header-image a { text-align:center; margin:0 auto; margin-bottom:36px; border-bottom:none; padding:0px; }
+			#header-image a:hover
+			#header-image a:active,
+			#header-image a:visited { border-bottom:none; padding:0px; }
+
+			ul#tumblr-links li,
+			ul#pages li { display:inline; margin:0px 12px; }
+
+			/* -=  typography  =- */
+
+			h1 { text-align: center; font-size: 24px; font-weight: 400; font-family: Baskerville, 'Times New Roman', Times, serif; "Times New Roman", serif; margin-bottom: 36px; }
+			h3 { text-align: center; font-size: 13px; margin: 24px auto 0px auto; font-style: italic; font-weight: 300; border-top: 1px solid darkGray; width: 200px; padding: 7px 0px; border-bottom: 1px solid darkGray; }
+			h2 { text-align: center; font-family: Baskerville, 'Times New Roman', Times, serif, "Times New Roman", serif; font-weight: 400; font-size: 20px; margin-bottom: 18px; line-height: 32px; }
+
+			a,
+			a:link,
+			a:visited,
+			a:active { color: #000000; text-decoration: none; border-bottom: 1px solid #AAAAAA; padding-bottom: 2px; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+			a:hover { border-bottom: 1px solid #000000; }
+
+			a#fancybox-close,
+			a#fancybox-close:hover,
+			a.image-link:hover,
+			a.image-link { border-bottom:none; margin:0px; }
+
+			h1 a, h1 a:link,
+			h2 a, h2 a:link,
+			h3 a, h3 a:link { border-bottom:none; color: #000000; }
+			h1 a:hover, img a:hover, h2 a:hover, h3 a:hover { border-bottom:none; }
+			h2.quote { margin-bottom:12px; }
+
+			p:first-of-type { text-indent: 0px; }
+			p { text-indent: 24px; margin:0px 0px 12px 0px; }
+			p.no-indent { text-indent:0px; }
+
+			a.no-indent,
+			a.no-indent:active,
+			a.no-indent:visited,
+			a.no-indent:hover { border-bottom:none; padding:0px; }
+
+			blockquote { padding-left:24px; border-left:1px solid #AAAAAA; font-style: italic; margin:12px; }
+			blockquote img { max-width:100%; }
+
+			footer a,
+			footer a:link,
+			footer a:visited,
+			footer a:active { color: #AAAAAA; text-decoration: none; border-bottom: none; }
+			footer a:hover { border-bottom: none; color:#565656; }
+
+			nav a,
+			nav a:link,
+			nav a:visited,
+			nav a:active { color: #565656; text-decoration: none; border-bottom: 0px solid #FFFFFF; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+			nav a:hover { color:#000000; border-bottom: 1px solid #AAAAAA; padding-bottom: 2px; }
+			header nav { text-align:center; }
+
+			/* -=  posts and content styles  =- */
+
+			.post { width: 510px; padding: 0px 30px 36px 30px; margin:0 auto; }
+
+			.post.photoset .photoset,
+			.post.video .player,
+			.post img { padding: 5px;  padding: 5px; box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.39); -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.39); -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.39); background-color:#fff; margin: 5px 0px 12px 0px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;  }
+
+			.post.video .player { padding-bottom:0px; }
+			.post.video iframe { margin-bottom:-2px; }
+
+			.post ul.meta { text-align: center; font-size:13px; letter-spacing:0px; text-transform: none; margin:10px 0px 0px 0px; padding-left:0px;  }
+			.post ul.meta li { display: inline; color: #AAAAAA; margin-right: 12px; }
+			.post ul.meta li.like { margin-right:3px; height:10px; }
+			.post ul.meta li.like iframe { height:12px; }
+			.post ul.meta li.tag a { padding-right:8px; display: inline-block; }
+			.post ul.meta a { color: #AAAAAA; border-bottom: none; }
+			.post ul.meta a:hover { color: #000000; border-bottom: none; }
+
+			.post ul.meta.tags { margin:5px 0px 0px 0px; }
+
+			.post .like_button { display: inline-block; height:12px; line-height: 12px; }
+
+			.post .caption { text-align:center; }
+			.post .caption p { margin-top:0px; }
+			.post.photo a.image-link .image { margin-bottom:12px; }
+
+			.post.photo { width:85%; text-align:center; }
+			.post.photo .caption { width:510px; margin:0 auto; }
+
+			.post.text img { max-width:500px; margin:12px 0px 0px 0px; }
+
+			.post.link a.link h2 i { font-size:12px; padding-left:8px; }
+
+			.post.quote .source { text-align:center; margin-bottom:12px; }
+
+			.post.chat p { margin:0px; padding:0px; }
+			.post.chat .lines { width:500px; margin-bottom:3px; }
+			.post.chat .label { text-align:right; font-weight:800; float:left; width:30%; }
+			.post.chat .line { text-align:left; width: 65%; padding-left:24px; float:left; }
+
+			.post.audio { text-align:center; }
+			.post.audio .art img { width:207px; height:207px; }
+			.post.audio .player { margin: 0px auto 12px; border: 1px solid #ccc; width: 207px; height: 28px; }
+
+			ol.notes a,
+			ol.notes a:active,
+			ol.notes a:link,
+			ol.notes a:visited,
+			ol.notes a:hover { border-bottom:none; padding:0px; margin:0px; }
+
+			ol.notes { padding:0px; list-style: none; text-align:left; }
+			ol.notes li { padding:10px 0px; border-bottom:1px solid #AAAAAA; }
+			ol.notes li:last-of-type { border-bottom:none; }
+			ol.notes span a,
+			ol.notes span a:active,
+			ol.notes span a:link,
+			ol.notes span a:visited { border-bottom:1px solid #AAAAAA; padding-bottom:2px; }
+			ol.notes span a:hover { border-bottom:1px solid #000000; padding-bottom:2px; }
+			ol.notes a img { padding:0px 12px 0px 0px; box-shadow:none; margin:0px; border-bottom:none; border-radius:0px; }
+			.note.more_notes_link_container { margin-top:12px; }
+
+			#disqus_thread { margin-top:64px; }
+			.permalink-footer { margin-top:32px; width:100%; }
+
+			#disqus_thread .dsq-textarea,
+			#disqus_thread .dsq-textarea-reply { margin-left: 56px; }
+			#disqus_thread .dsq-comment-body { padding-left:56px; }
+			#disqus_thread #dsq-content h3 { font-style:normal; text-align: left; font-weight:700; }
+			#disqus_thread img { box-shadow:none; padding:0px; background-color:none; }
+
+			#disqus_thread a,
+			#disqus_thread a:link,
+			#disqus_thread a:active,
+			#disqus_thread a:visited,
+			#disqus_thread a:hover { border-bottom:none; }
+
+			#infinite-scroll-footer { display:none; font-size:12px; }
+
+			a#next { margin-left:5px; }
+			a#prev { margin-right:5px; }
+
+			i { font-size:10px; padding-right:7px; color:#AAAAAA; }
+
+			#to-top { position: fixed; bottom:10px; left:20px; display: none; }
+			#to-top p { margin:0px; }
+			#to-top p a { opacity:0.7; }
+
+			/* -=  Options CSS  =- */
+
+			
+
+			
+			section#blog { padding-bottom:40px; }
+			
+
+			
+
+			
+			footer { display:none; }
+			#infscr-loading { position:fixed; top:15px; left:20px; height:16px; width:16px; }
+			#infinite-scroll-footer { display:block; position:fixed; bottom:0px; right:20px; text-align:right; opacity:0.6; }
+			#infinite-scroll-footer:hover { opacity:1; }
+			
+
+			
+
+			/* -=  Custom CSS  =- */
+
+			
+
+		</style>
+
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="http://static.tumblr.com/urgl1bv/udLm41xq0/jquery.infinitescroll.min.js"></script>
+		<script src="http://static.tumblr.com/urgl1bv/aP8m3ynqq/jquery.easing-1.3.pack.js"></script>
+		<script src="http://static.tumblr.com/urgl1bv/tZ8m3yne1/jquery.fancybox-1.3.4.pack.js"></script>
+		<script src="http://static.tumblr.com/urgl1bv/2EMme8nfy/jquery.masonry.min.js"></script>
+		<script src="http://static.tumblr.com/urgl1bv/46tmo5ttx/less-1.3.3.min.js"></script>
+
+		<script type="text/javascript">
+
+			// use fancybox for hi-res images
+			$(document).ready(function() {
+				$("a.image-link").fancybox();
+				noIndent();
+			});
+
+			// remove image indentation in paragraphs
+			function noIndent() {
+				$("a.image-link").fancybox();
+				$(".post.text p:has(img)").addClass("no-indent");
+				$(".post.text p a:has(img)").addClass("no-indent");
+			}
+
+			// set height of background div
+			function setHeight() {
+			    var viewport = $(window).height();
+			    var background = $("#background").height();
+
+			    if (viewport > background) {
+					$("#background, #background-inner").css("height", viewport);
+				}
+			}
+
+			$(document).ready(function() {
+			    setHeight();
+			    $(window).bind('resize', setHeight);
+			});
+
+			/*
+			// display theme anorak help on customize screen
+			$(document).ready(function () {
+			    if(window.location.href.indexOf("tumblr.com/customize") > -1) {
+			       // display bottom right credit and support link later
+			    }
+			});
+			*/
+
+		</script>
+
+		
+
+		
+		<script type="text/javascript">
+
+			// scroll to top
+			$(function () {
+				$(window).scroll(function () {
+					if ($(this).scrollTop() > 700) {
+						$('#to-top').fadeIn();
+					} else {
+						$('#to-top').fadeOut();
+					}
+				});
+				// scroll body to 0px on click
+				$('#to-top a').click(function () {
+					$('body,html').animate({
+						scrollTop: 0
+					}, 800);
+					return false;
+				});
+			});
+
+		</script>
+		
+
+		
+		<script type="text/javascript">
+			// enable infinite scroll
+			$(document).ready(function() {
+
+				$('section#blog').infinitescroll({
+					navSelector  : "p#pagination",
+					nextSelector : "p#pagination a#next",
+					itemSelector : "#blog .post",
+					loading: {	img : "http://static.tumblr.com/fjltjbq/wgUm4m75u/loading.gif",
+								msgText: "",
+								finishedMsg: "" }
+					},
+					function( newElements ) {
+
+						var $newElems = $( newElements ).css({ opacity: 0 });
+
+						var $container = $('body.index-page #blog');
+
+					    var $newElemsIDs = $newElems.map(function () {
+					        return this.id;
+					    }).get();
+
+						$newElems.imagesLoaded(function(){
+
+							$newElems.animate({ opacity: 1 });
+							$container.masonry( 'appended', $newElems, true );
+
+							// enable likes
+							Tumblr.LikeButton.get_status_by_post_ids($newElemsIDs);
+							$("a#like").css("line-height" , "12px");
+
+							// re-enable fancybox and indent code
+							noIndent();
+
+						});
+					}
+				);
+			});
+		</script>
+		
+
+		
+
+
+	<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=brendohare" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Brendan O&#039;Hare." /><meta property="og:url" content="http://brendohare.tumblr.com/?og=1" /><meta property="og:description" content="@brendohare bohare7@yahoo.com" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_60247fddb3df_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=brendohare" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=brendohare" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="brendohare" /><meta name="twitter:description" content="@brendohare
+bohare7@yahoo.com" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=brendohare&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=brendohare&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=brendohare&amp;referrer=twitter-cards" />
+
+</head>
+
+	
+
+	<body id="" class="index-page">
+
+		<div id="background">
+		<div id="background-inner">
+
+			<header>
+				
+				<h1><a href="/">Brendan O'Hare.</a></h1>
+				<h3>@brendohare<br />
+bohare7@yahoo.com</h3>
+				<nav>
+		            
+		            <ul id="pages" class="clearfix">
+		                <li><a href="/me" class="page">Me</a></li><li><a href="/shortstories" class="page">Short Stories</a></li>
+		            </ul>
+		            
+		            
+	            </nav>
+			</header>
+
+			<section id="blog" class="clearfix">
+
+			
+
+				
+
+				
+				<div class="post photo" id="98009465196">
+					<a href="http://33.media.tumblr.com/f5cc2b374227cd3e24a27629a26eddda/tumblr_nc85h3cz1Q1qezummo1_500.png" class="image-link clearfix">
+						<img class="image" src="http://33.media.tumblr.com/f5cc2b374227cd3e24a27629a26eddda/tumblr_nc85h3cz1Q1qezummo1_500.png" alt="Help Wanted" width="414" height="515">
+					</a>
+					
+					<div class="caption">
+						<p>Help Wanted</p>
+					</div>
+					
+				<!-- / post photo -->
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				<!-- post meta -->
+				
+					<ul class="meta">
+						<li><i class="icon-calendar-empty"></i><a href="http://brendohare.tumblr.com/post/98009465196/help-wanted">20 Sep 2014</a></li>
+						
+						<li class="like"><div class="like_button" data-post-id="98009465196" id="like_button_98009465196"><iframe id="like_iframe_98009465196" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=brendohare&amp;post_id=98009465196&amp;rk=B2ks0unM" scrolling="no" width="10" height="10" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+						<li><a href="http://brendohare.tumblr.com/post/98009465196/help-wanted">116</a></li>
+					</ul>
+					
+				
+
+				
+				<!-- / post meta -->
+
+				</div>
+
+			
+
+				
+
+				
+
+				
+
+				
+
+				
+				<div class="post link" id="96362011916">
+					<a class="link" href="https://www.youtube.com/user/brendohare/videos" target="">
+						<h2>here&rsquo;s a link 2 all the videos i&rsquo;ve made over the past year or so <i class="icon-external-link"></i></h2>
+					</a>
+					
+				<!-- / post link -->
+				
+
+				
+
+				
+
+				
+
+				<!-- post meta -->
+				
+					<ul class="meta">
+						<li><i class="icon-calendar-empty"></i><a href="http://brendohare.tumblr.com/post/96362011916/heres-a-link-2-all-the-videos-ive-made-over-the-past">1 Sep 2014</a></li>
+						
+						<li class="like"><div class="like_button" data-post-id="96362011916" id="like_button_96362011916"><iframe id="like_iframe_96362011916" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=brendohare&amp;post_id=96362011916&amp;rk=ITKRAjWD" scrolling="no" width="10" height="10" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+						<li><a href="http://brendohare.tumblr.com/post/96362011916/heres-a-link-2-all-the-videos-ive-made-over-the-past">2</a></li>
+					</ul>
+					
+				
+
+				
+				<!-- / post meta -->
+
+				</div>
+
+			
+
+				
+				<div class="post text" id="93180278181">
+					
+					<p>All episodes of COOKING DELICIOUS TREATS WITH BRENDAN are organized neatly here: <a class="twitter-timeline-link" href="https://t.co/LDcVOfscDF" rel="nofollow" title="https://www.youtube.com/playlist?list=PLRP6HVZNbb3nfiHqSKm95bLeK-EnTWJZn" target="_blank" data-expanded-url="https://www.youtube.com/playlist?list=PLRP6HVZNbb3nfiHqSKm95bLeK-EnTWJZn"><span class="invisible">https://www.</span><span class="js-display-url">youtube.com/playlist?list=</span><span class="invisible">PLRP6HVZNbb3nfiHqSKm95bLeK-EnTWJZn</span><span class="tco-ellipsis"><span class="invisible"><br/></span></span></a></p>
+<p>It was fun to write/make the episodes and I think you will like the series. Or hate it! That would suck, but it&#8217;s a possibility. Life is weird that way &#8212; not everyone thinks I&#8217;m great. </p>
+<p>Thanks!</p>
+				<!-- / post text -->
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				<!-- post meta -->
+				
+					<ul class="meta">
+						<li><i class="icon-calendar-empty"></i><a href="http://brendohare.tumblr.com/post/93180278181/all-episodes-of-cooking-delicious-treats-with">29 Jul 2014</a></li>
+						
+						<li class="like"><div class="like_button" data-post-id="93180278181" id="like_button_93180278181"><iframe id="like_iframe_93180278181" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=brendohare&amp;post_id=93180278181&amp;rk=Z8KWacOK" scrolling="no" width="10" height="10" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+						<li><a href="http://brendohare.tumblr.com/post/93180278181/all-episodes-of-cooking-delicious-treats-with">5</a></li>
+					</ul>
+					
+				
+
+				
+				<!-- / post meta -->
+
+				</div>
+
+			
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+				<div class="post video" id="93124264401">
+					<div class="player clearfix">
+						
+						<iframe width="500" height="281" src="https://www.youtube.com/embed/ns4UbLuKKvI?feature=oembed" frameborder="0" allowfullscreen></iframe>
+					</div>
+					
+					<div class="caption">
+						<p>Here&#8217;s the final episode of COOKING DELICIOUS TREATS WITH BRENDAN. On this episode I am starving in the woods.</p>
+					</div>
+					
+				<!-- / post video -->
+				
+
+				<!-- post meta -->
+				
+					<ul class="meta">
+						<li><i class="icon-calendar-empty"></i><a href="http://brendohare.tumblr.com/post/93124264401/heres-the-final-episode-of-cooking-delicious">28 Jul 2014</a></li>
+						
+						<li class="like"><div class="like_button" data-post-id="93124264401" id="like_button_93124264401"><iframe id="like_iframe_93124264401" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=brendohare&amp;post_id=93124264401&amp;rk=AZJIrLL6" scrolling="no" width="10" height="10" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+						<li><a href="http://brendohare.tumblr.com/post/93124264401/heres-the-final-episode-of-cooking-delicious">4</a></li>
+					</ul>
+					
+				
+
+				
+				<!-- / post meta -->
+
+				</div>
+
+			
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+				<div class="post video" id="92443870221">
+					<div class="player clearfix">
+						
+						<iframe width="500" height="281" src="https://www.youtube.com/embed/DWS5lN5ukbY?feature=oembed" frameborder="0" allowfullscreen></iframe>
+					</div>
+					
+					<div class="caption">
+						<p>Here&#8217;s the third episode of my new cooking web series COOKING DELICIOUS TREATS WITH BRENDAN. Today I teach you how to make toilet wine.</p>
+					</div>
+					
+				<!-- / post video -->
+				
+
+				<!-- post meta -->
+				
+					<ul class="meta">
+						<li><i class="icon-calendar-empty"></i><a href="http://brendohare.tumblr.com/post/92443870221/heres-the-third-episode-of-my-new-cooking-web">21 Jul 2014</a></li>
+						
+						<li class="like"><div class="like_button" data-post-id="92443870221" id="like_button_92443870221"><iframe id="like_iframe_92443870221" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=brendohare&amp;post_id=92443870221&amp;rk=ADgqf77c" scrolling="no" width="10" height="10" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+						<li><a href="http://brendohare.tumblr.com/post/92443870221/heres-the-third-episode-of-my-new-cooking-web">2</a></li>
+					</ul>
+					
+				
+
+				
+				<!-- / post meta -->
+
+				</div>
+
+			
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+				<div class="post video" id="91759136381">
+					<div class="player clearfix">
+						
+						<iframe width="500" height="281" src="https://www.youtube.com/embed/sLdf_XL5ejY?feature=oembed" frameborder="0" allowfullscreen></iframe>
+					</div>
+					
+					<div class="caption">
+						<p>Second episode of my new cooking web series, COOKING DELICIOUS TREATS WITH BRENDAN. Today I teach you how to make a bowl of cereal, and I also prepare for my upcoming child endangerment trial.</p>
+					</div>
+					
+				<!-- / post video -->
+				
+
+				<!-- post meta -->
+				
+					<ul class="meta">
+						<li><i class="icon-calendar-empty"></i><a href="http://brendohare.tumblr.com/post/91759136381/second-episode-of-my-new-cooking-web-series">14 Jul 2014</a></li>
+						
+						<li class="like"><div class="like_button" data-post-id="91759136381" id="like_button_91759136381"><iframe id="like_iframe_91759136381" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=brendohare&amp;post_id=91759136381&amp;rk=48y2mDuZ" scrolling="no" width="10" height="10" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+						<li><a href="http://brendohare.tumblr.com/post/91759136381/second-episode-of-my-new-cooking-web-series">4</a></li>
+					</ul>
+					
+				
+
+				
+				<!-- / post meta -->
+
+				</div>
+
+			
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+				<div class="post video" id="91059585756">
+					<div class="player clearfix">
+						
+						<iframe width="500" height="281" src="https://www.youtube.com/embed/NenDQ9Xta_E?feature=oembed" frameborder="0" allowfullscreen></iframe>
+					</div>
+					
+					<div class="caption">
+						<p>First episode of my new cooking web series, COOKING DELICIOUS TREATS WITH BRENDAN. Today I teach you how to make a peanut butter and jelly sandwich.</p>
+					</div>
+					
+				<!-- / post video -->
+				
+
+				<!-- post meta -->
+				
+					<ul class="meta">
+						<li><i class="icon-calendar-empty"></i><a href="http://brendohare.tumblr.com/post/91059585756/first-episode-of-my-new-cooking-web-series">7 Jul 2014</a></li>
+						
+						<li class="like"><div class="like_button" data-post-id="91059585756" id="like_button_91059585756"><iframe id="like_iframe_91059585756" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=brendohare&amp;post_id=91059585756&amp;rk=TTa1EIIo" scrolling="no" width="10" height="10" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+						<li><a href="http://brendohare.tumblr.com/post/91059585756/first-episode-of-my-new-cooking-web-series">7</a></li>
+					</ul>
+					
+				
+
+				
+				<!-- / post meta -->
+
+				</div>
+
+			
+
+				
+
+				
+
+				
+				<div class="post photoset" id="90910861641">
+					
+					<div id="photoset_90910861641" class="html_photoset">    <iframe id="photoset_iframe_90910861641" class="photoset" scrolling="no" frameborder="0" height="979" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://brendohare.tumblr.com/post/90910861641/photoset_iframe/brendohare/tumblr_n7jjdneauE1qh59n0/500/false"></iframe></div>
+					
+					<div class="caption">
+						<p>(Source: <a href="http://fyspringfield.com/tagged/burns_baby_burns" title="fyspringfield.com">fyspringfield.com</a>, via <a href='http://fyspringfield.com/post/90898540943'>fyspringfield</a>)</p>
+					</div>
+					
+				<!-- / post photoset -->
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				<!-- post meta -->
+				
+					<ul class="meta">
+						<li><i class="icon-calendar-empty"></i><a href="http://brendohare.tumblr.com/post/90910861641">5 Jul 2014</a></li>
+						
+						<li class="like"><div class="like_button" data-post-id="90910861641" id="like_button_90910861641"><iframe id="like_iframe_90910861641" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=brendohare&amp;post_id=90910861641&amp;rk=25o9FPrF" scrolling="no" width="10" height="10" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+						<li><a href="http://brendohare.tumblr.com/post/90910861641">1862</a></li>
+					</ul>
+					
+				
+
+				
+				<!-- / post meta -->
+
+				</div>
+
+			
+
+				
+
+				
+				<div class="post photo" id="90365474866">
+					<a href="http://31.media.tumblr.com/5cfffa513cd05cdfe605019b59bc532d/tumblr_n7znp944IG1qasthro1_1280.jpg" class="image-link clearfix">
+						<img class="image" src="http://38.media.tumblr.com/5cfffa513cd05cdfe605019b59bc532d/tumblr_n7znp944IG1qasthro1_500.jpg" alt="collegehumor:
+
+This Guy Went Insane With His Political Rants On Facebook
+
+I am glad College Humor&nbsp;posted my political Facebook statuses, but I am NOT GLAD they called me &amp;#8220;insane&amp;#8221;&nbsp;" width="500" height="263">
+					</a>
+					
+					<div class="caption">
+						<a href="http://www.collegehumor.com/post/6976743/this-guy-went-insane-with-his-political-rants-on-facebook"><p><a class="tumblr_blog" href="http://blog.collegehumor.com/post/90363961304/this-guy-went-insane-with-his-political-rants-on">collegehumor</a>:</p>
+<blockquote>
+<p><strong><a href="http://www.collegehumor.com/post/6976743/this-guy-went-insane-with-his-political-rants-on-facebook">This Guy Went Insane With His Political Rants On Facebook</a></strong></p>
+</blockquote>
+<p><span>I am glad College Humor</span><span> posted my political Facebook statuses, but I am NOT GLAD they called me &#8220;insane&#8221; </span></p></a>
+					</div>
+					
+				<!-- / post photo -->
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				<!-- post meta -->
+				
+					<ul class="meta">
+						<li><i class="icon-calendar-empty"></i><a href="http://brendohare.tumblr.com/post/90365474866/collegehumor-this-guy-went-insane-with-his">30 Jun 2014</a></li>
+						
+						<li class="like"><div class="like_button" data-post-id="90365474866" id="like_button_90365474866"><iframe id="like_iframe_90365474866" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=brendohare&amp;post_id=90365474866&amp;rk=Dhm1v1F0" scrolling="no" width="10" height="10" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+						<li><a href="http://brendohare.tumblr.com/post/90365474866/collegehumor-this-guy-went-insane-with-his">109</a></li>
+					</ul>
+					
+				
+
+				
+				<!-- / post meta -->
+
+				</div>
+
+			
+
+				
+				<div class="post text" id="89176086166">
+					<h2><a href="http://brendohare.tumblr.com/post/89176086166/dessert">Dessert</a></h2>
+					<p class="p1">He was defending his title at the Bridgeport County Fair&#8217;s Annual Pie-Eating Contest, she was protesting the event, and as soon as they locked eyes they knew they were going to be together for the rest of their lives. </p>
+<p class="p2">Knowing he had a large lead over his fellow competitors, the man had taken a brief respite from eating pie face-first to take a look out at the crowd. He was attempting his seventh consecutive Bridgeport County Fair&#8217;s Annual Pie-Eating Contest crown, and had gained some notoriety for his achievements in the process. About 650 people had come from all corners of the state to watch the man eat pie, and 2 people had even come all the way from Australia after hearing about his feats when they accidentally went to bridgeportpieeatingcontest.com instead of sydneypieeatingcontest.com. </p>
+<p class="p2">The woman had lost several family members to desserts — her father choked on a cannoli when she was 8, both her uncles succumbed to heart disease in their 40’s after an ill-fated attempt at an all-donut diet, and her brother died at the age of 16 because he slipped on loose ice cream near the edge of the town canyon — and was sick of how dessert was taking away the ones she loved. Scouring the internet for anti-dessert groups, she was able to find one made up of two dozen other cursed souls that called themselves “Sugar Free.” It was not a great name. Through the group, the woman protested various pro-dessert events around the continental United States, including pie-eating contests, cookie conventions, and Cake Boss viewing parties. The Bridgeport County Fair Annual&#8217;s Pie-Eating Contest was going to be the largest event they had ever protested, and the woman was named the head of the event because of her consistent effort and the fact that no one else wanted to take on such a big responsibility.</p>
+<p class="p2">Sugar Free started their protest at the fairgrounds three days before the Contest started because they forgot when it was going to happen. That was not the woman&#8217;s fault &#8212; she had taken on all the other jobs and delegated Date Duty to someone else because she thought it would be hard to screw up. When it did happen, the group was ignored by most, and a few mean teenagers mocked them by kissing slices of cake. The Contest itself went off without a hitch, and the woman felt as if the preparation she had put in was all for naught. Depressed, she stared blankly at the stage the Contest was being held on until she made eye contact with the man who had stopped eating. She held a sign that said “Stop Pie” as she faced the man, the nine other competitors who were eating, and the twenty judges who were doing their jobs.</p>
+<p class="p2">Thanks to a fast metabolism that hid the fact he had the internal health of a 145-year-old man who only ate fried lead paint, the man was in good shape and had a sweet, pie-innard covered face that the woman couldn&#8217;t ignore. The woman had a tired look, but one that showed an undeniable passion that endeared the man to her even if she was protesting something he loved doing. They stared at each other for the remainder of the contest as 44-year-old Brent Gregory finally caught up to the man and won. The man did not care and asked her out by the funnel cake stand that only hours earlier she had chanted &#8220;Burn it down!&#8221; at.</p>
+<p class="p2">They dated for six months before the man asked the woman to marry him. In these six months they became fully devoted to one another and forgot about their prior pastimes. She did not protest the opening of the Jell-O Theme Park in town and he did not compete in the Eastern Midwest Regional County Fair&#8217;s Annual Pie-Eating Contest, something he had finally qualified for and had dreamed about for years. They became entirely consumed by one another and their relationship served as a model for the townsfolk (Bridgeport’s divorce rate was 94%, 32nd worst in the nation). He proposed unknowingly at the canyon where her brother died, but she was too happy to care. </p>
+<p class="p2">The kids came along and they solved any money problems that might have come up by getting back into their old passions, but in a moderate and more mature way. It was what they were best at and they knew it was the best way to support the expanding family. Wanting to live a longer life for his kids and wife, the man decided to go into judging the Bridgeport County Fair Annual Pie-Eating Contest rather than competing. The pay was significantly less (his usual $200,000 winners check was replaced by a $100,000 judging check), but it allowed the man to be around something he was starting to miss as well as let him spend a lot of time with his family. Judging did not require eating, so the man was also able to abstain from further destroying his body. </p>
+<p class="p2">After initially being blackballed for her relationship with a pro-desserter, Free Sugar eventually forgot to continue doing so and the woman began speaking at various anti-dessert events around the state. She no longer worked on the anti-dessert battlefield but was still able to feel like she was making a difference, inspiring the new generation. It paid well and completely supported the family during the three consecutive years the man had his year-end check be taken away by a rogue breeze.</p>
+<p class="p2">Whenever people asked how they were able to avoid arguing over dessert, the two would give the questioner a passionate 30-minute lecture about how love conquers all and how ultimately their different feelings on dessert had no sway over their feelings toward each other. Eventually they became bored of answering these types of questions so they would chalk it up to “Opposites attract.”</p>
+<p class="p2">Although he had the appearance of someone whose heart was not calcified by a layer of chocolate frosting, the man was a ticking time bomb. The doctor once told him that his blood looked like tiny slices of pie, and he did not seem to be joking.</p>
+<p class="p2">His health began to deteriorate and he had to stop judging the Contest for fear that a piece of pie might inadvertently fly into his mouth and kill him. The woman quit the speaking circuit to take care of him full time. Money became tight but the family made do as two of their three older sons got jobs as baggers at the local high-end grocery store, forcing them to occasionally come into contact with better versions of the products that were responsible for the degeneration of their father. </p>
+<p class="p2">The man wasn&#8217;t getting better, and all the pie he had eaten in a previous life had taken control of his body like a kamikaze pilot. The family sat around his soon-to-be deathbed and he and the woman told the story of how they met at least a dozen times. The man died six days before his daughter’s eighth grade dance, but the doctors say the man would have died six hours after meeting the woman if she had not inadvertently stopped him from eating more pie.</p>
+<p class="p2">Four years later the woman married a man who slaughtered cows.</p>
+				<!-- / post text -->
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				<!-- post meta -->
+				
+					<ul class="meta">
+						<li><i class="icon-calendar-empty"></i><a href="http://brendohare.tumblr.com/post/89176086166/dessert">18 Jun 2014</a></li>
+						
+						<li class="like"><div class="like_button" data-post-id="89176086166" id="like_button_89176086166"><iframe id="like_iframe_89176086166" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=brendohare&amp;post_id=89176086166&amp;rk=pX0K6ghk" scrolling="no" width="10" height="10" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+						<li><a href="http://brendohare.tumblr.com/post/89176086166/dessert">6</a></li>
+					</ul>
+					
+				
+
+				
+				<!-- / post meta -->
+
+				</div>
+
+			
+
+			</section>
+
+			<div id="infinite-scroll-footer">
+				<p>Tumblr theme by <a href="http://themeanorak.com" title="Free and premium Tumblr themes by Theme Anorak">Theme Anorak</a></p>
+			</div>
+
+			<div id="to-top">
+				<p><i class="icon-circle-arrow-up"></i> <a href="#">Back to top</a></p>
+			</div>
+
+			<footer>
+
+				
+					<p id="pagination">
+					
+					1 / 20
+					
+						<a id="next" href="/page/2">&rarr;</a>
+					
+					</p>
+				
+
+				<p>Tumblr theme by <a href="http://themeanorak.com" title="Free and premium Tumblr themes by Theme Anorak">Theme Anorak</a></p>
+
+			</footer>
+
+		</div>
+
+		</div>
+
+	<!--[if lt IE 7 ]>
+		<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+		<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+
+	<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://brendohare.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411848080&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYnJlbmRvaGFyZS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=KIFCPFFLPP&K=501cabad26b83f5424f526f1134e4819d349b124ec4bbcefb0d14fcc2f30e558&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411848080&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYnJlbmRvaGFyZS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=KIFCPFFLPP&K=5f71804e5af735b0167ef4165d693de25a050291ac825c49c5df3f8451f32032&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411848080&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2JyZW5kb2hhcmUudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJwb3N0aWQiOiI5ODAwOTQ2NTE5NiIsImJsb2dpZCI6IjkyNDIwMTUiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2MzYyMDExOTE2IiwiYmxvZ2lkIjoiOTI0MjAxNSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTMxODAyNzgxODEiLCJibG9naWQiOiI5MjQyMDE1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5MzEyNDI2NDQwMSIsImJsb2dpZCI6IjkyNDIwMTUiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjkyNDQzODcwMjIxIiwiYmxvZ2lkIjoiOTI0MjAxNSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTE3NTkxMzYzODEiLCJibG9naWQiOiI5MjQyMDE1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5MTA1OTU4NTc1NiIsImJsb2dpZCI6IjkyNDIwMTUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTM0NzY0MDgiLCJyb290X3Bvc3RpZCI6IjkwODk4NTQwOTQzIiwicG9zdGlkIjoiOTA5MTA4NjE2NDEiLCJibG9naWQiOiI5MjQyMDE1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjIxOTU0NjIiLCJyb290X3Bvc3RpZCI6IjkwMzYzOTYxMzA0IiwicG9zdGlkIjoiOTAzNjU0NzQ4NjYiLCJibG9naWQiOiI5MjQyMDE1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI4OTE3NjA4NjE2NiIsImJsb2dpZCI6IjkyNDIwMTUiLCJzb3VyY2UiOjMzfV19&U=FNECHFJIGM&K=819d96966dbe62dbb56df59e85d7fb0c7fa303b4c2e69cd75befd67c2ff617ce&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411848080&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2JyZW5kb2hhcmUudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJwb3N0aWQiOiI5ODAwOTQ2NTE5NiIsImJsb2dpZCI6IjkyNDIwMTUiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2MzYyMDExOTE2IiwiYmxvZ2lkIjoiOTI0MjAxNSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTMxODAyNzgxODEiLCJibG9naWQiOiI5MjQyMDE1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5MzEyNDI2NDQwMSIsImJsb2dpZCI6IjkyNDIwMTUiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjkyNDQzODcwMjIxIiwiYmxvZ2lkIjoiOTI0MjAxNSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTE3NTkxMzYzODEiLCJibG9naWQiOiI5MjQyMDE1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5MTA1OTU4NTc1NiIsImJsb2dpZCI6IjkyNDIwMTUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTM0NzY0MDgiLCJyb290X3Bvc3RpZCI6IjkwODk4NTQwOTQzIiwicG9zdGlkIjoiOTA5MTA4NjE2NDEiLCJibG9naWQiOiI5MjQyMDE1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjIxOTU0NjIiLCJyb290X3Bvc3RpZCI6IjkwMzYzOTYxMzA0IiwicG9zdGlkIjoiOTAzNjU0NzQ4NjYiLCJibG9naWQiOiI5MjQyMDE1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI4OTE3NjA4NjE2NiIsImJsb2dpZCI6IjkyNDIwMTUiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=FNECHFJIGM&K=a5a71c1e387f089619a8322d99ebd307678bbe99979068010f9e46ac72324529&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:9242015,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2Fbrendohare.tumblr.com%2F&amp;lang=en_US&amp;name=brendohare&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_60247fddb3df_64.png&amp;title=Brendan+O%26%23039%3BHare.&amp;url=http%3A%2F%2Fbrendohare.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2Fbrendohare.tumblr.com%2F&amp;lang=en_US&amp;name=brendohare&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_60247fddb3df_64.png&amp;title=Brendan+O%26%23039%3BHare.&amp;url=http%3A%2F%2Fbrendohare.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+
+	
+
+	
+
+</html>

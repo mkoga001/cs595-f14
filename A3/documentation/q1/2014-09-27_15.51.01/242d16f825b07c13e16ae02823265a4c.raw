@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#"><title>Non-Stop Love GG!~</title>
+
+<link rel="shortcut icon" href="http://31.media.tumblr.com/avatar_6a17a47adf85_128.png">
+<link rel="alternate" type="application/rss+xml" href="http://snsdaddicted.tumblr.com/rss">
+
+
+<meta name="description" content="A-YO SONE!" />
+
+
+<meta name="image:Background" content=""/>
+<meta name="image:Sidebar" content=""/>
+
+<meta name="if:500px" content="1"/>
+<meta name="if:400px" content="0"/>
+<meta name="if:250px" content="0"/>
+<meta name="if:Show Caption" content="0"/>
+<meta name="if:Show Tags" content="0"/>
+<meta name="if:No Side Links" content="0"/>
+<meta name="if:AudioPlayerWhite" content="1"/>
+<meta name="if:AudioPlayerGrey" content="0"/>
+<meta name="if:AudioPlayerBlack" content="0"/>
+
+<meta name="if:Infinite Scroll" content="0"/>
+<meta name="if:Faded Image" content="0"/>
+<meta name="if:Grayscale" content="0"/>
+<meta name="if:Grayscale With Hover" content="0"/>
+
+<meta name="color:Scrollbar BG" content="#fff">
+<meta name="color:Scrollbar" content="#d1afb3">
+
+<meta name="color:Post Font" content="#c09995">
+<meta name="color:Background" content="#fff">
+<meta name="color:Link" content="#a3dada">
+<meta name="color:Sidebar BG" content="#fffaf0">
+<meta name="color:Sidebar Border" content="#fcf2e0">
+<meta name="color:Sidebar Font" content="#999">
+<meta name="color:Sidebar Link" content="#f7efd6">
+<meta name="color:Sidebar Menu BG" content="#fff">
+<meta name="color:Post Title" content="#ee9191">
+<meta name="color:Post Title Border" content="#f2d5d8">
+<meta name="color:Post Info Link" content="#aaa">
+
+<meta name="color:Tooltip BG" content="#e7f9f8">
+<meta name="color:Tooltip Font" content="#8eadbd">
+<meta name="color:Tooltip Border" content="#d4e8e7">
+
+<meta name="text:Blog Title" content=""/>
+
+<meta name="text:Desc Height" content="105px"/>
+
+<meta name="font:Main Font" content="helvetica"/>
+<meta name="font:Secondary Font" content="garamond"/>
+
+<meta name="text:Desc Font Size" content="10"/>
+<meta name="text:Post Title Font Size" content="18"/>
+<meta name="text:Post Font Size" content="11"/>
+<meta name="text:Post Info Font Size" content="7"/>
+
+<meta name="text:Link 1" content=""/>
+<meta name="text:Link Url 1" content=""/>
+<meta name="text:Link 2" content=""/>
+<meta name="text:Link Url 2" content=""/>
+<meta name="text:Link 3" content=""/>
+<meta name="text:Link Url 3" content=""/>
+<meta name="text:Link 4" content=""/>
+<meta name="text:Link Url 4" content=""/>
+
+<style>
+iframe#tumblr_controls {
+position: fixed!important;
+right: 3px!important;
+}
+::-webkit-scrollbar-thumb:vertical {
+height: 100px;
+background: #444;
+}
+::-webkit-scrollbar {
+height: 10px;
+width: 10px;
+background: #fff;
+}
+body {
+font: 11px 'Helvetica, Arial, sans-serif', arial;
+color: #999;
+background: #FEFDF9 url(http://assets.tumblr.com/images/x.gif) repeat fixed;
+margin: 0;
+}
+a {
+color: #808080;
+text-decoration: none;
+border: 0;
+}
+#container {
+margin-left: 450px;
+padding: 40px 0 20px 0;
+}
+#entry {
+ width: 500px; 
+
+
+
+border: 1px solid #fcf2e0;
+background: #fffaf0;
+padding: 20px;
+margin: 15px 0;
+overflow: hidden;
+}
+#entry img {
+border: 0;
+
+
+}
+#entry img, .photoset {
+
+
+
+
+-webkit-transition: all 0.9s ease-in-out;
+-moz-transition: all 0.9s ease-in-out;
+-o-transition: all 0.9s ease-in-out;
+}
+#entry img:hover, .photoset:hover {
+
+
+}
+#sidebar {
+width: 262px;
+position: fixed;
+top: 80px;
+left: 120px;
+text-align: center;
+}
+h1 {
+font: 18px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: #ee9191;
+text-transform: lowercase;
+letter-spacing: 5px;
+text-align: center;
+padding-left: 10px;
+border-bottom: 1px solid #f2d5d8;
+}
+h1 a {
+color: #ee9191;
+}
+h2 {
+font: bold 12px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: #808080;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 5px;
+margin-bottom: 6px;
+}
+blockquote {
+background: #fff;
+margin: 0 15px;
+padding: 0 5px;
+}
+blockquote blockquote {
+margin: 0px 0px 4px 10px;
+}
+pre {
+width: auto;
+overflow: auto;
+}
+#desc {
+height: 105px;
+font-size: 10px;
+color: #999;
+padding: 6px 15px 6px 45px;
+text-align: justify;
+border-bottom: 4px solid #fcf2e0;
+overflow: auto;
+}
+#menu {
+width: 220px;
+opacity: 0.7;
+position: absolute;
+text-align: center;
+margin: -38px 0 0 21px;
+z-index: 9999;
+background: #fff;
+text-transform: lowercase;
+padding: 5px 0 0 0;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+#menu img {
+width: 16px !important;
+border: 0 !important;
+padding: 0 !important;
+}
+#menu a {
+margin: 0 10px;
+}
+#menu:hover {
+opacity: 1;
+}
+#nav {
+position: absolute;
+margin: 5px 0 0 15px;
+z-index: 99999;
+
+}
+#nav a {
+width: 20px;
+height: 20px;
+display: block;
+background: #aaa;
+margin: 5px 0;
+}
+#s-m-t-tooltip{
+max-width: 300px;
+z-index: 10;
+margin: 24px 14px 7px 12px;
+padding: 4px;
+background: #e7f9f8;
+border: 1px solid #d4e8e7;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+color: #8eadbd;
+}
+#pg {
+font: italic 18px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-top: 5px;
+}
+#entry:hover #reblog {
+opacity: 0.7;
+}
+#reblog {
+ width: 500px; 
+
+
+font-size: 9px;
+text-transform: uppercase;
+letter-spacing: 5px;
+background: #fff;
+opacity: 0;
+position: absolute;
+margin: -25px 0 0 0;
+padding: 5px 0;
+text-align: right;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+z-index: 999;
+}
+#entry:hover #reblog:hover {
+opacity: 1;
+}
+#reblog a {
+color: #aaa;
+}
+#permabar {
+ width: 540px; 
+
+
+
+font-size: 7px;
+text-transform: uppercase;
+letter-spacing: 1px;
+text-align: right;
+margin: -10px 0 30px 0;
+}
+#permabar a {
+color: #aaa;
+}
+#tags {
+border-right: 20px solid #aaa;
+padding-right: 8px;
+margin-top: 3px;
+display: none;
+}
+#notes {
+width: 500px;
+text-align: left;
+}
+ol.notes {
+margin-left: -15px;
+}
+ol.notes li.note {
+list-style-type: none;
+}
+ol.notes li.note img.avatar {
+width: 16px;
+height: 16px;
+border: 4px solid #fcf2e0;
+margin: 5px;
+vertical-align: -12px;
+}
+.quote {
+text-align: center;
+font: italic 16px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.source {
+text-align: center;
+border-top: 1px solid #f2d5d8;
+text-transform: lowercase;
+color: #808080;
+margin-top: 5px;
+}
+.music {
+height: 60px;
+margin-top: 10px;
+}
+.audio {
+width: 100%;
+ background: #fff; 
+}
+.album {
+width: 50px;
+height: 50px;
+float: left;
+margin: 0 20px;
+padding-top: 5px;
+}
+.audinfo {
+padding-top: 8px;
+}
+#backtotop{
+position: fixed;
+right: 10px;
+bottom: 0px;
+padding: 5px;
+text-align: center;
+}
+#backtotop a{
+text-transform: uppercase;
+letter-spacing: 5px;
+color: #808080;
+}
+
+</style>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script><script src="http://static.tumblr.com/6hsqxdt/FkUmbu6qr/jquery.style-my-tooltips.js"></script>
+
+<script>
+(function($){
+$(document).ready(function(){
+$("[title]").style_my_tooltips();
+});
+})(jQuery);
+</script>
+
+
+
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=snsdaddicted" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="girls generation,snsd,taeyeon,kpop,k-pop" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Non-Stop Love GG!~" /><meta property="og:url" content="http://snsdaddicted.tumblr.com/?og=1" /><meta property="og:description" content="A-YO SONE!" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://31.media.tumblr.com/avatar_6a17a47adf85_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=snsdaddicted" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=snsdaddicted" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="snsdaddicted" /><meta name="twitter:description" content="A-YO SONE!" /><meta name="twitter:creator" content="SNSDaddicted" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=snsdaddicted&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=snsdaddicted&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=snsdaddicted&amp;referrer=twitter-cards" />
+
+</head><body>
+
+
+
+<div id="sidebar"><h2></h2><img src="http://assets.tumblr.com/images/x.gif" style="width: 220px; padding: 10px; border: 1px solid #fcf2e0; background: #fffaf0;"><div id="menu"><a href="/"><img src="http://static.tumblr.com/6hsqxdt/TwXmbt5gb/home_16x16.png"></a> <a href="/ask" title="ask"><img src="http://static.tumblr.com/6hsqxdt/gHImbt5h5/mail_16x12.png"></a> <a href="/archive" title="past"><img src="http://static.tumblr.com/6hsqxdt/uAwmbt5hw/folder_stroke_16x16.png"></a> <a href="http://sakurane.tumblr.com" title="theme"><img src="http://static.tumblr.com/6hsqxdt/XKkmbt5if/cog_16x16.png"></a></div><div id="nav"><a href="Twitter" title="https://twitter.com/SNSDaddicted"></a><a href="Ask.fm" title="http://ask.fm/SNSDaddicted"></a><a href="" title="http://"></a><a href="" title="http://"></a></div><div id="desc">A-YO SONE!</div> <div id="pg"> 1/25 <a href="/page/2">+</a>  </div>
+</div>
+
+<div id="container">
+
+
+
+<div id="entry">
+
+
+
+
+
+<div class="photoset"><div id="photoset_87978282105" class="html_photoset">    <iframe id="photoset_iframe_87978282105" class="photoset" scrolling="no" frameborder="0" height="326" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://snsdaddicted.tumblr.com/post/87978282105/photoset_iframe/snsdaddicted/tumblr_n6qv7wKqtC1r268i3/500/false"></iframe></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="reblog"> <a href="https://www.tumblr.com/reblog/87978282105/08165lVA">Reblog</a></div>
+
+</div>
+
+<div id="permabar"><span style="border-right: 20px solid #aaa; padding-right: 8px;">Posted on <a href="http://snsdaddicted.tumblr.com/post/87978282105">Friday, June 06, 2014</a> with 6 notes</span><div id="tags">Tagged:  &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/taeyeon">taeyeon</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/jessica">jessica</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/tiffany">tiffany</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/kim-taeyeon">kim taeyeon</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/kid-leader">kid leader</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/pink-monster">pink monster</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/ice-princess">ice princess</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/jessica-jung">jessica jung</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/taeny">taeny</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/taengsic">taengsic</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/girls-generation">girls generation</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/kpop">kpop</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/k-pop">k-pop</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/kid-lead">kid lead</a></div></div>
+
+
+
+<div id="entry">
+
+
+
+
+
+<div class="photoset"><div id="photoset_44854414605" class="html_photoset">    <iframe id="photoset_iframe_44854414605" class="photoset" scrolling="no" frameborder="0" height="614" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://snsdaddicted.tumblr.com/post/44854414605/photoset_iframe/snsdaddicted/tumblr_mjabj3YZMS1rarfil/500/false"></iframe></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  via <a href="http://fuckyeahthebestsnsdblog.tumblr.com/post/44810044178/i-cant-say-any-more-just-say-thank-you">fuckyeahthebestsnsdblog</a>http://heylululu.tumblr.com/post/44776213342/i-cant-say-any-more-just-say-thank-you
+<a href="http://heylululu.tumblr.com/post/44776213342/i-cant-say-any-more-just-say-thank-you" class="source_link">heylululu</a> -->
+
+
+<div id="reblog"><div style="float:left; margin-left: 5px;"><a href="http://fuckyeahthebestsnsdblog.tumblr.com/post/44810044178/i-cant-say-any-more-just-say-thank-you" title="fuckyeahthebestsnsdblog">Via</a> / <a href="http://heylululu.tumblr.com/post/44776213342/i-cant-say-any-more-just-say-thank-you" title="heylululu">Source</a></div> <a href="https://www.tumblr.com/reblog/44854414605/aFn4dhTj">Reblog</a></div>
+
+</div>
+
+<div id="permabar"><span style="border-right: 20px solid #aaa; padding-right: 8px;">Posted on <a href="http://snsdaddicted.tumblr.com/post/44854414605">Friday, March 08, 2013</a> with 2,628 notes</span></div>
+
+
+
+<div id="entry">
+
+
+
+
+
+<div class="photoset"><div id="photoset_44854262893" class="html_photoset">    <iframe id="photoset_iframe_44854262893" class="photoset" scrolling="no" frameborder="0" height="464" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://snsdaddicted.tumblr.com/post/44854262893/photoset_iframe/snsdaddicted/tumblr_mja2o2o4tN1ry1pgl/500/false"></iframe></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  via <a href="http://yyys.tumblr.com/post/44849972580/to-me-shes-the-most-adorable-leader-ever">yyys</a>http://watasiwahyos.tumblr.com/post/44770761300/to-me-shes-the-most-adorable-leader-ever
+<a href="http://watasiwahyos.tumblr.com/post/44770761300/to-me-shes-the-most-adorable-leader-ever" class="source_link">watasiwahyos</a> -->
+
+
+<div id="reblog"><div style="float:left; margin-left: 5px;"><a href="http://yyys.tumblr.com/post/44849972580/to-me-shes-the-most-adorable-leader-ever" title="yyys">Via</a> / <a href="http://watasiwahyos.tumblr.com/post/44770761300/to-me-shes-the-most-adorable-leader-ever" title="watasiwahyos">Source</a></div> <a href="https://www.tumblr.com/reblog/44854262893/eM5ZYFG5">Reblog</a></div>
+
+</div>
+
+<div id="permabar"><span style="border-right: 20px solid #aaa; padding-right: 8px;">Posted on <a href="http://snsdaddicted.tumblr.com/post/44854262893">Friday, March 08, 2013</a> with 2,780 notes</span><div id="tags">Tagged:  &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/taeyeon">taeyeon</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/leader">leader</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/cute">cute</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/tae">tae</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/kim">kim</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/kim-taeyeon">kim taeyeon</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/gif">gif</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/gifs">gifs</a></div></div>
+
+
+
+<div id="entry">
+
+
+
+
+
+<div class="photoset"><div id="photoset_44700091335" class="html_photoset">    <iframe id="photoset_iframe_44700091335" class="photoset" scrolling="no" frameborder="0" height="458" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://snsdaddicted.tumblr.com/post/44700091335/photoset_iframe/snsdaddicted/tumblr_mj26exGZTg1qe4wv5/500/false"></iframe></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  via <a href="http://yyys.tumblr.com/post/44618384822/1-6-of-dandyus-epicness-in-gifs">yyys</a>http://taesunamo.tumblr.com/post/44411667498/1-6-of-dandyus-epicness-in-gifs
+<a href="http://taesunamo.tumblr.com/post/44411667498/1-6-of-dandyus-epicness-in-gifs" class="source_link">taesunamo</a> -->
+
+
+<div id="reblog"><div style="float:left; margin-left: 5px;"><a href="http://yyys.tumblr.com/post/44618384822/1-6-of-dandyus-epicness-in-gifs" title="yyys">Via</a> / <a href="http://taesunamo.tumblr.com/post/44411667498/1-6-of-dandyus-epicness-in-gifs" title="taesunamo">Source</a></div> <a href="https://www.tumblr.com/reblog/44700091335/0UUqnqnK">Reblog</a></div>
+
+</div>
+
+<div id="permabar"><span style="border-right: 20px solid #aaa; padding-right: 8px;">Posted on <a href="http://snsdaddicted.tumblr.com/post/44700091335">Wednesday, March 06, 2013</a> with 1,293 notes</span><div id="tags">Tagged:  &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/snsd">snsd</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/sunny">sunny</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/taeyeon">taeyeon</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/sunyeon">sunyeon</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/gif">gif</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/gifs">gifs</a></div></div>
+
+
+
+<div id="entry">
+
+
+
+
+
+<div class="photoset"><div id="photoset_44361294685" class="html_photoset">    <iframe id="photoset_iframe_44361294685" class="photoset" scrolling="no" frameborder="0" height="230" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://snsdaddicted.tumblr.com/post/44361294685/photoset_iframe/snsdaddicted/tumblr_mj0244N6IK1r16otg/500/false"></iframe></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  via <a href="http://sooyoungay.tumblr.com/post/44359029419">sooyoungay</a>http://kandycute.tumblr.com/
+<a href="http://kandycute.tumblr.com/" class="source_link">kandycute</a> -->
+
+
+<div id="reblog"><div style="float:left; margin-left: 5px;"><a href="http://sooyoungay.tumblr.com/post/44359029419" title="sooyoungay">Via</a> / <a href="http://kandycute-deactivated20130910.tumblr.com/post/44313753193/shake-it-sunny-shake-it" title="kandycute-deactivated20130910">Source</a></div> <a href="https://www.tumblr.com/reblog/44361294685/k8Sp00PJ">Reblog</a></div>
+
+</div>
+
+<div id="permabar"><span style="border-right: 20px solid #aaa; padding-right: 8px;">Posted on <a href="http://snsdaddicted.tumblr.com/post/44361294685">Saturday, March 02, 2013</a> with 2,086 notes</span><div id="tags">Tagged:  &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/sunyeon">sunyeon</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/sunny">sunny</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/taeyeon">taeyeon</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/leader">leader</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/snsd">snsd</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/gg">gg</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/girls-generation">girls generation</a></div></div>
+
+
+
+<div id="entry">
+
+
+
+
+
+<div class="photoset"><div id="photoset_44360891473" class="html_photoset">    <iframe id="photoset_iframe_44360891473" class="photoset" scrolling="no" frameborder="0" height="300" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://snsdaddicted.tumblr.com/post/44360891473/photoset_iframe/snsdaddicted/tumblr_mj12jox3qw1r268i3/500/false"></iframe></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="reblog"> <a href="https://www.tumblr.com/reblog/44360891473/2h39JvvK">Reblog</a></div>
+
+</div>
+
+<div id="permabar"><span style="border-right: 20px solid #aaa; padding-right: 8px;">Posted on <a href="http://snsdaddicted.tumblr.com/post/44360891473">Saturday, March 02, 2013</a> with 12 notes</span><div id="tags">Tagged:  &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/tiffany">tiffany</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/snsd">snsd</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/fany">fany</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/girls-generation">girls generation</a></div></div>
+
+
+
+<div id="entry">
+
+
+
+
+
+<div class="photoset"><div id="photoset_43087241609" class="html_photoset">    <iframe id="photoset_iframe_43087241609" class="photoset" scrolling="no" frameborder="0" height="622" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://snsdaddicted.tumblr.com/post/43087241609/photoset_iframe/snsdaddicted/tumblr_mi147ibLiB1r0igmu/500/false"></iframe></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  via <a href="http://snsdaddicted01.tumblr.com/post/43081000746/taeyeon-is-a-good-fangirl">snsdaddicted01</a>http://soshifies.tumblr.com
+<a href="http://soshifies.tumblr.com" class="source_link">soshifies</a> -->
+
+
+<div id="reblog"><div style="float:left; margin-left: 5px;"><a href="http://snsdaddicted01.tumblr.com/post/43081000746/taeyeon-is-a-good-fangirl" title="snsdaddicted01">Via</a> / <a href="http://seohyun.info/post/42798654290/the-cutest-fangirl" title="toldyouseo">Source</a></div> <a href="https://www.tumblr.com/reblog/43087241609/nJA3jXdJ">Reblog</a></div>
+
+</div>
+
+<div id="permabar"><span style="border-right: 20px solid #aaa; padding-right: 8px;">Posted on <a href="http://snsdaddicted.tumblr.com/post/43087241609">Thursday, February 14, 2013</a> with 4,403 notes</span><div id="tags">Tagged:  &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/taeyeon">taeyeon</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/girls-generation">girls generation</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/snsd">snsd</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/fangirl">fangirl</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/cute">cute</a></div></div>
+
+
+
+<div id="entry">
+
+
+
+
+
+<div class="photoset"><div id="photoset_43080754195" class="html_photoset">    <iframe id="photoset_iframe_43080754195" class="photoset" scrolling="no" frameborder="0" height="434" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://snsdaddicted.tumblr.com/post/43080754195/photoset_iframe/snsdaddicted/tumblr_mi4pfdy3p51s2fx0t/500/false"></iframe></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  via <a href="http://sooyoungay.tumblr.com/post/42991832166">sooyoungay</a>http://welovesoshi.tumblr.com
+<a href="http://welovesoshi.tumblr.com" class="source_link">welovesoshi</a> -->
+
+
+<div id="reblog"><div style="float:left; margin-left: 5px;"><a href="http://sooyoungay.tumblr.com/post/42991832166" title="sooyoungay">Via</a> / <a href="http://welovesoshi.tumblr.com/post/42952367930/snsd-reacting-to-their-own-kiss-scenes" title="welovesoshi">Source</a></div> <a href="https://www.tumblr.com/reblog/43080754195/JIWCnamS">Reblog</a></div>
+
+</div>
+
+<div id="permabar"><span style="border-right: 20px solid #aaa; padding-right: 8px;">Posted on <a href="http://snsdaddicted.tumblr.com/post/43080754195">Thursday, February 14, 2013</a> with 3,740 notes</span><div id="tags">Tagged:  &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/SNSD">SNSD</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/girls-generation">girls generation</a></div></div>
+
+
+
+<div id="entry">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table width="100%"><tr><td width="30"><img src="http://assets.tumblr.com/images/anonymous_avatar_30.gif" style="padding: 4px;"></td><td style="padding: 0 10px; font-size: 12px; color: #999;">Anonymous<br>SNSD have twitter?</td></tr></table><div style="border-top: 1px solid #f2d5d8;"><p>No~ but do follow @GirlsGeneration (:</p></div>
+
+
+
+<div id="reblog"> <a href="https://www.tumblr.com/reblog/42177187100/EJlJC9cJ">Reblog</a></div>
+
+</div>
+
+<div id="permabar"><span style="border-right: 20px solid #aaa; padding-right: 8px;">Posted on <a href="http://snsdaddicted.tumblr.com/post/42177187100">Sunday, February 03, 2013</a> </span></div>
+
+
+
+<div id="entry">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table width="100%"><tr><td width="30"><img src="http://assets.tumblr.com/images/anonymous_avatar_30.gif" style="padding: 4px;"></td><td style="padding: 0 10px; font-size: 12px; color: #999;">Anonymous<br>how many followers do you have? :3</td></tr></table><div style="border-top: 1px solid #f2d5d8;"><p>i dont have much just 200+</p></div>
+
+
+
+<div id="reblog"> <a href="https://www.tumblr.com/reblog/42177173892/IUTQqinz">Reblog</a></div>
+
+</div>
+
+<div id="permabar"><span style="border-right: 20px solid #aaa; padding-right: 8px;">Posted on <a href="http://snsdaddicted.tumblr.com/post/42177173892">Sunday, February 03, 2013</a> </span></div>
+
+
+
+<div id="entry">
+
+
+
+
+
+<div class="photoset"><div id="photoset_42092900430" class="html_photoset">    <iframe id="photoset_iframe_42092900430" class="photoset" scrolling="no" frameborder="0" height="676" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://snsdaddicted.tumblr.com/post/42092900430/photoset_iframe/snsdaddicted/tumblr_mhlavgIsTX1r268i3/500/false"></iframe></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="reblog"> <a href="https://www.tumblr.com/reblog/42092900430/df7fIqR1">Reblog</a></div>
+
+</div>
+
+<div id="permabar"><span style="border-right: 20px solid #aaa; padding-right: 8px;">Posted on <a href="http://snsdaddicted.tumblr.com/post/42092900430">Saturday, February 02, 2013</a> with 4 notes</span><div id="tags">Tagged:  &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/yoona">yoona</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/snsd">snsd</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/kpop">kpop</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/k-pop">k-pop</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/gg">gg</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/girls-generation">girls generation</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/yoong">yoong</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/visual">visual</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/cute">cute</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/event">event</a></div></div>
+
+
+
+<div id="entry">
+
+
+
+
+
+<div class="photoset"><div id="photoset_42092416988" class="html_photoset">    <iframe id="photoset_iframe_42092416988" class="photoset" scrolling="no" frameborder="0" height="710" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://snsdaddicted.tumblr.com/post/42092416988/photoset_iframe/snsdaddicted/tumblr_m9hwecOfkN1rzfk5n/500/false"></iframe></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  via <a href="http://professor-lamb.tumblr.com/post/42091829801/miditran-osh-9-things-i-love-about-each">professor-lamb</a>http://sunmelons.tumblr.com/post/30429592140/1-9-reasons-to-love-taeyeon-her-facial
+<a href="http://sunmelons.tumblr.com/post/30429592140/1-9-reasons-to-love-taeyeon-her-facial" class="source_link">sunmelons</a> -->
+
+
+<div id="reblog"><div style="float:left; margin-left: 5px;"><a href="http://professor-lamb.tumblr.com/post/42091829801/miditran-osh-9-things-i-love-about-each" title="professor-lamb">Via</a> / <a href="http://sunmelons.tumblr.com/post/30429592140/1-9-reasons-to-love-taeyeon-her-facial" title="sunmelons">Source</a></div> <a href="https://www.tumblr.com/reblog/42092416988/EONdTomv">Reblog</a></div>
+
+</div>
+
+<div id="permabar"><span style="border-right: 20px solid #aaa; padding-right: 8px;">Posted on <a href="http://snsdaddicted.tumblr.com/post/42092416988">Saturday, February 02, 2013</a> with 5,636 notes</span><div id="tags">Tagged:  &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/taeyeon">taeyeon</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/kid-leader">kid leader</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/snsd">snsd</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/girls-generation">girls generation</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/tae">tae</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/kpop">kpop</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/k-pop">k-pop</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/gifs">gifs</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/gif">gif</a></div></div>
+
+
+
+<div id="entry">
+
+
+
+
+
+<div class="photoset"><div id="photoset_42092361270" class="html_photoset">    <iframe id="photoset_iframe_42092361270" class="photoset" scrolling="no" frameborder="0" height="358" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://snsdaddicted.tumblr.com/post/42092361270/photoset_iframe/snsdaddicted/tumblr_mhl9zhQka11r268i3/500/false"></iframe></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="reblog"> <a href="https://www.tumblr.com/reblog/42092361270/pARwGUek">Reblog</a></div>
+
+</div>
+
+<div id="permabar"><span style="border-right: 20px solid #aaa; padding-right: 8px;">Posted on <a href="http://snsdaddicted.tumblr.com/post/42092361270">Saturday, February 02, 2013</a> with 15 notes</span><div id="tags">Tagged:  &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/SNSD">SNSD</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/GIRLS-GENERATION">GIRLS GENERATION</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/FANY">FANY</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/TIFFANY">TIFFANY</a></div></div>
+
+
+
+<div id="entry">
+
+
+
+
+
+<div class="photoset"><div id="photoset_30724027113" class="html_photoset">    <iframe id="photoset_iframe_30724027113" class="photoset" scrolling="no" frameborder="0" height="470" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://snsdaddicted.tumblr.com/post/30724027113/photoset_iframe/snsdaddicted/tumblr_m9q1wbdAjZ1qfaphh/500/false"></iframe></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  via <a href="http://soehyun.tumblr.com/post/30722271433/onsicaroyalty-asdfghjkl-dgsdfhwere">soehyun</a>http://onsicaroyalty.tumblr.com
+<a href="http://onsicaroyalty.tumblr.com" class="source_link">onsicaroyalty</a> -->
+
+
+<div id="reblog"><div style="float:left; margin-left: 5px;"><a href="http://soehyun.tumblr.com/post/30722271433/onsicaroyalty-asdfghjkl-dgsdfhwere" title="soehyun">Via</a> / <a href="http://kyungsifer.tumblr.com/post/30720643518/asdfghjkl-dgsdfhwere" title="kyungsifer">Source</a></div> <a href="https://www.tumblr.com/reblog/30724027113/3HnP4Vok">Reblog</a></div>
+
+</div>
+
+<div id="permabar"><span style="border-right: 20px solid #aaa; padding-right: 8px;">Posted on <a href="http://snsdaddicted.tumblr.com/post/30724027113">Sunday, September 02, 2012</a> with 1,331 notes</span><div id="tags">Tagged:  &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/Sica">Sica</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/jessica">jessica</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/jessica-snsd">jessica snsd</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/SNSD">SNSD</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/kpop">kpop</a> &nbsp;&nbsp;#<a href="http://snsdaddicted.tumblr.com/tagged/k-pop">k-pop</a></div></div>
+
+
+
+</div>
+
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://snsdaddicted.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847779&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvc25zZGFkZGljdGVkLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=CLFCGKCBLP&K=0b0b20282510671b2cd48b6d6ea983f0d51192f684586ebf9a8c7f011f7319a1&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847779&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvc25zZGFkZGljdGVkLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=CLFCGKCBLP&K=b398f52b5da059b2595f4d6cf140e0585344e26a8a9f972355b8ede2583c9d94&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847779&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3Nuc2RhZGRpY3RlZC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6Ijg3OTc4MjgyMTA1IiwiYmxvZ2lkIjoiMjY5NTk0NTUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjI2MzA1OTAiLCJyb290X3Bvc3RpZCI6NDQ3NzYyMTMzNDIsInBvc3RpZCI6IjQ0ODU0NDE0NjA1IiwiYmxvZ2lkIjoiMjY5NTk0NTUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTg2NDQwMjIiLCJyb290X3Bvc3RpZCI6NDQ3NzA3NjEzMDAsInBvc3RpZCI6IjQ0ODU0MjYyODkzIiwiYmxvZ2lkIjoiMjY5NTk0NTUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODQwNDE1NyIsInJvb3RfcG9zdGlkIjo0NDQxMTY2NzQ5OCwicG9zdGlkIjoiNDQ3MDAwOTEzMzUiLCJibG9naWQiOiIyNjk1OTQ1NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyNTI4MzIxMyIsInJvb3RfcG9zdGlkIjo0NDMxMzc1MzE5MywicG9zdGlkIjoiNDQzNjEyOTQ2ODUiLCJibG9naWQiOiIyNjk1OTQ1NSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiNDQzNjA4OTE0NzMiLCJibG9naWQiOiIyNjk1OTQ1NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyNDc5Mzk5NyIsInJvb3RfcG9zdGlkIjo0Mjc5ODY1NDI5MCwicG9zdGlkIjoiNDMwODcyNDE2MDkiLCJibG9naWQiOiIyNjk1OTQ1NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4ODQ2NjUxMiIsInJvb3RfcG9zdGlkIjo0Mjk1MjM2NzkzMCwicG9zdGlkIjoiNDMwODA3NTQxOTUiLCJibG9naWQiOiIyNjk1OTQ1NSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiNDIxNzcxODcxMDAiLCJibG9naWQiOiIyNjk1OTQ1NSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiNDIxNzcxNzM4OTIiLCJibG9naWQiOiIyNjk1OTQ1NSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiNDIwOTI5MDA0MzAiLCJibG9naWQiOiIyNjk1OTQ1NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2MTYwOTY3OCIsInJvb3RfcG9zdGlkIjoiMzA0Mjk1OTIxNDAiLCJwb3N0aWQiOiI0MjA5MjQxNjk4OCIsImJsb2dpZCI6IjI2OTU5NDU1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI0MjA5MjM2MTI3MCIsImJsb2dpZCI6IjI2OTU5NDU1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEwOTYxNjIyIiwicm9vdF9wb3N0aWQiOjMwNzIwNjQzNTE4LCJwb3N0aWQiOiIzMDcyNDAyNzExMyIsImJsb2dpZCI6IjI2OTU5NDU1Iiwic291cmNlIjozM31dfQ==&U=ACPPMHEDEA&K=857ff20c4a26c9630a999d559f3b5eb21f2799df235ce110a8c7a4fae896c5e9&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847779&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3Nuc2RhZGRpY3RlZC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6Ijg3OTc4MjgyMTA1IiwiYmxvZ2lkIjoiMjY5NTk0NTUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjI2MzA1OTAiLCJyb290X3Bvc3RpZCI6NDQ3NzYyMTMzNDIsInBvc3RpZCI6IjQ0ODU0NDE0NjA1IiwiYmxvZ2lkIjoiMjY5NTk0NTUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTg2NDQwMjIiLCJyb290X3Bvc3RpZCI6NDQ3NzA3NjEzMDAsInBvc3RpZCI6IjQ0ODU0MjYyODkzIiwiYmxvZ2lkIjoiMjY5NTk0NTUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODQwNDE1NyIsInJvb3RfcG9zdGlkIjo0NDQxMTY2NzQ5OCwicG9zdGlkIjoiNDQ3MDAwOTEzMzUiLCJibG9naWQiOiIyNjk1OTQ1NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyNTI4MzIxMyIsInJvb3RfcG9zdGlkIjo0NDMxMzc1MzE5MywicG9zdGlkIjoiNDQzNjEyOTQ2ODUiLCJibG9naWQiOiIyNjk1OTQ1NSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiNDQzNjA4OTE0NzMiLCJibG9naWQiOiIyNjk1OTQ1NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyNDc5Mzk5NyIsInJvb3RfcG9zdGlkIjo0Mjc5ODY1NDI5MCwicG9zdGlkIjoiNDMwODcyNDE2MDkiLCJibG9naWQiOiIyNjk1OTQ1NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4ODQ2NjUxMiIsInJvb3RfcG9zdGlkIjo0Mjk1MjM2NzkzMCwicG9zdGlkIjoiNDMwODA3NTQxOTUiLCJibG9naWQiOiIyNjk1OTQ1NSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiNDIxNzcxODcxMDAiLCJibG9naWQiOiIyNjk1OTQ1NSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiNDIxNzcxNzM4OTIiLCJibG9naWQiOiIyNjk1OTQ1NSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiNDIwOTI5MDA0MzAiLCJibG9naWQiOiIyNjk1OTQ1NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2MTYwOTY3OCIsInJvb3RfcG9zdGlkIjoiMzA0Mjk1OTIxNDAiLCJwb3N0aWQiOiI0MjA5MjQxNjk4OCIsImJsb2dpZCI6IjI2OTU5NDU1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI0MjA5MjM2MTI3MCIsImJsb2dpZCI6IjI2OTU5NDU1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEwOTYxNjIyIiwicm9vdF9wb3N0aWQiOjMwNzIwNjQzNTE4LCJwb3N0aWQiOiIzMDcyNDAyNzExMyIsImJsb2dpZCI6IjI2OTU5NDU1Iiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=ACPPMHEDEA&K=7bd2748fbffcdb218eac5f0c051083ca10638bff35dd3da344c0403af2d8b085&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:26959455,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2Fsnsdaddicted.tumblr.com%2F&amp;lang=en_US&amp;name=snsdaddicted&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_6a17a47adf85_64.png&amp;title=Non-Stop+Love+GG%21%7E&amp;url=http%3A%2F%2Fsnsdaddicted.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2Fsnsdaddicted.tumblr.com%2F&amp;lang=en_US&amp;name=snsdaddicted&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_6a17a47adf85_64.png&amp;title=Non-Stop+Love+GG%21%7E&amp;url=http%3A%2F%2Fsnsdaddicted.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body></html>

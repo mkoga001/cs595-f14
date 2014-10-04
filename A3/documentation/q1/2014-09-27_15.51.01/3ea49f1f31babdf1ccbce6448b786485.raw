@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title></title>
+								<meta http-equiv="refresh" content="3;url=https://itunes.apple.com/us/album/chase-dreams/id881610590?uo=4&amp;at=11lc6Z&amp;ct=paz1iu"/>	
+			</head>
+	<body>
+		<script type="text/javascript">
+			var numRedirects = 0;
+			var numPixels = 3;
+			function redirect() {
+				if (numRedirects == 0) {
+					numRedirects++;
+															window.location = "https://itunes.apple.com/us/album/chase-dreams/id881610590?uo=4&at=11lc6Z&ct=paz1iu";
+									}
+			}
+			function makePixel(url) {
+				var img = document.createElement("img");
+				img.onload = function() {
+					numPixels--;
+					if (numPixels == 0) {
+						redirect();
+					}
+				};
+				img.src = url;
+			}
+									makePixel("https://www.facebook.com/tr?id=686001558117965&ev=NoScript");
+									makePixel("https://www.facebook.com/tr?id=1537485789812380&ev=NoScript");
+									makePixel("//googleads.g.doubleclick.net/pagead/viewthroughconversion/1017011664/?value=0&label=kUGsCKDzxAsQ0Lv55AM&guid=ON&script=0");
+						window.setTimeout(redirect, 3000);
+		</script>
+		<noscript>
+					<img height="1" width="1" style="border-style:none;" alt="" src="https://www.facebook.com/tr?id=686001558117965&amp;ev=NoScript"/>
+					<img height="1" width="1" style="border-style:none;" alt="" src="https://www.facebook.com/tr?id=1537485789812380&amp;ev=NoScript"/>
+					<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1017011664/?value=0&amp;label=kUGsCKDzxAsQ0Lv55AM&amp;guid=ON&amp;script=0"/>
+				</noscript>
+	</body>
+</html>

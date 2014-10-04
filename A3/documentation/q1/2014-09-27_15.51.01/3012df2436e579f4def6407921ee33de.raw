@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8" />
+<title>Heffron Drive</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://heffrondrive.com/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="http://heffrondrive.com/wp-content/themes/duena/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]>
+<script src="http://heffrondrive.com/wp-content/themes/duena/js/jquery.mobile.customized.min.js" type="text/javascript"></script>
+<![endif]-->
+<meta name='robots' content='noindex,follow' />
+<link rel="alternate" type="application/rss+xml" title="Heffron Drive &raquo; Feed" href="http://heffrondrive.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Heffron Drive &raquo; Comments Feed" href="http://heffrondrive.com/comments/feed/" />
+<link rel='stylesheet' id='scap.flashblock-css'  href='http://heffrondrive.com/wp-content/plugins/compact-wp-audio-player/css/flashblock.css?ver=3.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='scap.player-css'  href='http://heffrondrive.com/wp-content/plugins/compact-wp-audio-player/css/player.css?ver=3.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='style.css-css'  href='http://heffrondrive.com/wp-content/plugins/google-language-translator/css/style.css?ver=3.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='toolbar.css-css'  href='http://heffrondrive.com/wp-content/plugins/google-language-translator/css/toolbar.css?ver=3.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='duena-bootstrap-css'  href='http://heffrondrive.com/wp-content/themes/duena/bootstrap/css/bootstrap.css?ver=3.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css'  href='http://heffrondrive.com/wp-content/themes/duena/css/flexslider.css?ver=3.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-css'  href='http://heffrondrive.com/wp-content/themes/duena/css/magnific-popup.css?ver=3.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://heffrondrive.com/wp-content/themes/duena/css/font-awesome.css?ver=4.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='duena-style-css'  href='http://heffrondrive.com/wp-content/themes/duena/style.css?ver=3.8.4' type='text/css' media='all' />
+<style type='text/css'>
+
+    a,
+    .searchform .screen-reader-text,
+    .post_meta i,
+    .author_bio_sidebar .social_box a,
+    .post-title a:hover,
+    .post-footer i,
+    .page_nav_wrap .post_nav ul li .current,
+    .page_nav_wrap .post_nav ul li a:hover {
+		color: #47771f;
+	}
+	.post_type_label,
+	.flex-direction-nav a,
+	#content .featured_badge,
+	.author_bio_sidebar .social_box,
+	.flex-control-paging li a.flex-active,
+	.flex-control-paging li a:hover,
+	#toTop,
+	.post-footer a,
+	.navbar_inner > div > ul ul, 
+	.navbar_inner > ul ul,
+	.btn.btn-primary,
+	input[type='submit'],
+	input[type='reset'] {
+		background-color: #47771f;
+	}
+	.site-info,
+	.widget,
+	#slider-wrapper .flexslider,
+	.navbar_inner > div > ul > li > a,
+	.navbar_inner > div > ul > li > a:hover, 
+	.navbar_inner > div > ul > li.sfHover > a, 
+	.navbar_inner > div > ul > li.current-menu-item > a, 
+	.navbar_inner > div > ul > li.current_page_item > a,
+	.navbar_inner > ul > li > a,
+	.navbar_inner > ul > li > a:hover, 
+	.navbar_inner > ul > li.sfHover > a, 
+	.navbar_inner > ul > li.current-menu-item > a, 
+	.navbar_inner > ul > li.current_page_item > a,
+	.breadcrumb,
+	#comments,
+	.post-footer a,
+	.author-info {
+		border-color: #47771f;
+	}
+	a:hover,
+	a:focus {
+		color: #ffffff;
+	}
+
+	.btn.btn-primary:hover,
+	input[type='submit']:hover,
+	input[type='reset']:hover,
+	.slider-caption .btn.btn-primary:hover {
+		background-color: #ffffff;
+	}
+
+	textarea:focus,
+	input[type='text']:focus,
+	input[type='password']:focus,
+	input[type='datetime']:focus,
+	input[type='datetime-local']:focus,
+	input[type='date']:focus,
+	input[type='month']:focus,
+	input[type='time']:focus,
+	input[type='week']:focus,
+	input[type='number']:focus,
+	input[type='email']:focus,
+	input[type='url']:focus,
+	input[type='search']:focus,
+	input[type='tel']:focus,
+	input[type='color']:focus,
+	.uneditable-input:focus {
+		border-color: #47771f;
+		box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 2px #47771f;
+	}
+	
+</style>
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='duena_ie-css'  href='http://heffrondrive.com/wp-content/themes/duena/css/ie.css?ver=3.8.4' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://heffrondrive.com/wp-content/plugins/compact-wp-audio-player/js/soundmanager2-nodebug-jsmin.js?ver=3.8.4'></script>
+<script type='text/javascript' src='http://heffrondrive.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://heffrondrive.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://heffrondrive.com/wp-content/plugins/google-language-translator/js/flags.js?ver=3.8.4'></script>
+<script type='text/javascript' src='http://heffrondrive.com/wp-content/plugins/google-language-translator/js/toolbar.js?ver=3.8.4'></script>
+<script type='text/javascript' src='http://heffrondrive.com/wp-content/plugins/google-language-translator/js/load-toolbar.js?ver=3.8.4'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://heffrondrive.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://heffrondrive.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.8.4" />
+
+<script type='text/javascript' src='http://www.bandsintown.com/javascripts/bit_widget.js'></script>
+<style type="text/css">goog-te-combo {color: #000000;}.goog-te-gadget { margin-top:2px !important; }p.hello { font-size:12px; color:#666; }#google_language_translator { clear:both; }#flags { width:165px; }#flags a { display:inline-block; margin-right:2px; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator a {display: none !important; }.goog-te-gadget {color:transparent !important;}.goog-te-gadget { font-size:0px !important; }.goog-branding { display:none; }#google_language_translator { display:none; }.goog-te-banner-frame{visibility:hidden !important;}body { top:0px !important;}</style><!-- [CincopaOpenGraph] --><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #020202; background-image: url('http://heffrondrive.com/wp-content/uploads/2014/01/background-black-stripes1.jpg'); background-repeat: repeat; background-position: top left; background-attachment: fixed; }
+</style>
+</head>
+
+<body class="home blog custom-background group-blog">
+<div class="page-wrapper">
+		<header id="header" role="banner">
+		<div class="container clearfix">
+			<div class="logo">
+								<a href="http://heffrondrive.com/" title="Heffron Drive" rel="home"><img src="http://heffrondrive.com/wp-content/uploads/2014/02/GreenHeader12.jpg" alt="Heffron Drive"></a>
+							<p class="site-description"></p>
+			</div>
+				        <div class="clear"></div>
+			<nav id="site-navigation" class="main-nav" role="navigation">
+				<div class="navbar_inner">
+				<ul id="topnav" class="sf-menu"><li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-25 active"><a href="http://heffrondrive.com/">Home</a></li>
+<li id="menu-item-53" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-53"><a href="http://heffrondrive.com/category/news/">News</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="http://heffrondrive.com/music/">Music</a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="http://heffrondrive.com/tour/">Tour</a></li>
+<li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a href="http://heffrondrive.com/radiorequest/">Request &#8220;Parallel&#8221;</a></li>
+<li id="menu-item-128" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-128"><a href="http://www.rockandrolltshirts.com/RNR_Store/Heffron-Drive">Merch Store</a></li>
+<li id="menu-item-628" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-628"><a href="http://heffrondrive.com/contest/">Contest</a></li>
+</ul>				</div>
+			</nav><!-- #site-navigation -->
+		</div>
+
+	</header><!-- #masthead -->
+		<section id="slider-wrapper">
+		<div class="container">
+	    	
+        		</div>
+	</section><!--#slider--> 
+  		<div id="main" class="site-main">
+		<div class="container">
+						<div class="row">	<div id="primary" class="col-md-8 right">
+		<div id="content" class="site-content" role="main">
+
+		<!--BEGIN .hentry -->
+<article id="post-592" class="post-592 post type-post status-publish format-aside sticky hentry category-uncategorized post__holder">
+		
+    <!-- Post Content -->
+    <div class="post_content ">
+        <span class='featured_badge'><i class='fa fa-thumb-tack'></i><strong>Featured</strong></span>        <h6></h6>
+<p style="text-align: center;"><a href="http://heffrondrive.com/wp-content/uploads/2014/08/Final_Happy-Small.jpg"><img alt="Final_Happy Small" src="http://heffrondrive.com/wp-content/uploads/2014/08/Final_Happy-Small.jpg" width="300" height="300" /></a></p>
+<h6 style="text-align: center;" align="center"><span style="color: #ffffff;"><b>HEFFRON DRIV</b><b>E</b></span></h6>
+<h6 style="text-align: center;" align="center"><b><i><span style="color: #ffcc00;">HAPPY MISTAKES</span><br />
+</i></b></h6>
+<h6 style="text-align: center;" align="center"><span style="color: #ffffff;"><b>POSTER <span style="color: #ffcc00;">ARTWORK</span> CONTEST</b></span></h6>
+<h6><span style="color: #ffffff;"><b>DEADLINES</b></span></h6>
+<ol>
+<li><b>FINALIST Voting Period</b> begins September 13th at 12:01AM (PDT) and ends September 21st at noon (PDT).</li>
+</ol>
+<h6><b>VOTING PROCESS</b></h6>
+<p><strong>FINALIST PERIOD</strong>:  Anyone, worldwide, can vote for the FINALISTS during the FINALIST Voting Period.  The three (3) FINALISTS with the most number of votes will become our 1st, 2nd, and 3rd Place Winners respectively.</p>
+<ul>
+<li><strong>How to vote for a FINALIST&#8217;S Poster Artwork</strong>:  In order to “vote” for your favorite FINALIST, you must again tweet their <strong>Poster Artwork </strong>picture along with the following information:</li>
+</ul>
+<p style="padding-left: 90px;">&#8220;Hey [<a href="http://heffrondrive.com/radiorequest/" target="_blank">enter radio station Twitter handles from this list</a>]. Check out: @HeffronDrive #HappyMistakes [FINALIST’S unique hashtag] and ow.ly links&#8221;<a href="http://twitter.com/tolboothrecords" target="_blank" data-mce-="" data-cke-saved-href="http://twitter.com/tolboothrecords"><br />
+</a></p>
+<p style="text-align: center;"><span style="text-decoration: underline;"><strong>LIST OF FINALISTS</strong></span></p>
+<p style="padding-left: 90px;">Hey, <a href="http://heffrondrive.com/radiorequest/" target="_blank"><b>RADIO STATION</b></a>. Check out: @HeffronDrive #HappyMistakes #HDDivisionOfTheHeart <a href="http://ow.ly/i/6NM6X">http://ow.ly/i/6NM6X</a> <a href="http://ow.ly/BrYBo">http://ow.ly/BrYBo</a></p>
+<p style="padding-left: 90px;">Hey, <a href="http://heffrondrive.com/radiorequest/" target="_blank"><b>RADIO STATION</b></a>. Check out: @HeffronDrive #HappyMistakes #HDNicotine <a href="http://ow.ly/i/6NM97">http://ow.ly/i/6NM97</a> <a href="http://ow.ly/BrYBo">http://ow.ly/BrYBo</a></p>
+<p style="padding-left: 90px;">Hey,<a href="http://heffrondrive.com/request-parallel/" target="_blank"> <b>RADIO STATION</b></a>. Check out: @HeffronDrive #HappyMistakes #HDParallel <a href="http://ow.ly/i/6NM4A">http://ow.ly/i/6NM4A</a> <a href="http://ow.ly/BrYBo">http://ow.ly/BrYBo</a></p>
+<p style="padding-left: 90px;">Hey, <a href="http://heffrondrive.com/radiorequest/" target="_blank"><b>RADIO STATION</b></a>. Check out: @HeffronDrive #HappyMistakes #HDHadToBePanama <a href="http://ow.ly/i/6NM8a">http://ow.ly/i/6NM8a</a> <a href="http://ow.ly/BrYBo">http://ow.ly/BrYBo</a></p>
+<p style="padding-left: 90px;">Hey, <a href="http://heffrondrive.com/radiorequest/" target="_blank"><b>RADIO STATION</b></a>. Check out: @HeffronDrive #HappyMistakes #HDPassingTime <a href="http://ow.ly/i/6NMah">http://ow.ly/i/6NMah</a> <a href="http://ow.ly/BrYBo">http://ow.ly/BrYBo</a></p>
+<p><span style="color: #ff0000;">REMEMBER: You can tweet as much as you like and share your favorite <strong><em>HAPPY MISTAKES POSTER</em></strong> with the world!  <strong>Tweets equals votes</strong>!!</span></p>
+<h6><span style="color: #ffffff;"><b>PRIZES</b></span></h6>
+<ol>
+<li>The <b>1st Place Winner</b> will receive <strong>$150 </strong>+ surprise gifts.</li>
+<li>The <b>2nd Place Winner</b> will receive <strong>$100 </strong>+ surprise gifts.</li>
+<li>The <b>3rd Place Winner</b> will receive <strong>$50</strong> + surprise gifts.</li>
+</ol>
+            <!--// Post Content -->
+    </div>
+        
+<span class="post_type_label aside"></span>
+<span class="post_date"><time datetime="2014-09-12T23:50:58">September 12, 2014</time></span>
+	<!-- Post Meta -->
+		<div class="post_meta aside">
+		<span class="post_category"><a href="http://heffrondrive.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a></span>		<span class="post_comment"><i class="fa fa-comments"></i><span class="comments-link">Comments are closed</span></span>
+		<span class="post_author"><i class="fa fa-user"></i><a href="http://heffrondrive.com/author/simple0n3aol-com/" title="Posts by Admin" rel="author">Admin</a></span>
+		<div class="clear"></div>
+	</div>
+		<!--// Post Meta -->
+	
+<!--END .hentry-->  
+</article>
+
+<!--BEGIN .hentry -->
+<article id="post-531" class="post-531 post type-post status-publish format-aside sticky hentry category-uncategorized post__holder">
+		
+    <!-- Post Content -->
+    <div class="post_content ">
+        <span class='featured_badge'><i class='fa fa-thumb-tack'></i><strong>Featured</strong></span>        <p>&nbsp;</p>
+<p style="text-align: center;"><a href="http://heffrondrive.com/wp-content/uploads/2014/08/hdlivebanner.jpg"><img class=" wp-image-532 aligncenter" alt="hdlivebanner" src="http://heffrondrive.com/wp-content/uploads/2014/08/hdlivebanner.jpg" width="760" height="115" /></a></p>
+<p style="text-align: center;">Win tickets to see Heffron Drive LIVE during the Happy Mistakes Tour!</p>
+<p style="text-align: center;">Enter <a href="https://review.wizehive.com/contests/i-want-to-see-heffron-drive-live">here</a>, tell us why you want to see them and you might win 2 tickets!</p>
+<p style="text-align: center;">
+            <!--// Post Content -->
+    </div>
+        
+<span class="post_type_label aside"></span>
+<span class="post_date"><time datetime="2014-08-29T14:48:29">August 29, 2014</time></span>
+	<!-- Post Meta -->
+		<div class="post_meta aside">
+		<span class="post_category"><a href="http://heffrondrive.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a></span>		<span class="post_comment"><i class="fa fa-comments"></i><a href="http://heffrondrive.com/531/#comments" class="comments-link"  title="Comment on ">1 comment</a></span>
+		<span class="post_author"><i class="fa fa-user"></i><a href="http://heffrondrive.com/author/lisa/" title="Posts by Editor" rel="author">Editor</a></span>
+		<div class="clear"></div>
+	</div>
+		<!--// Post Meta -->
+	
+<!--END .hentry-->  
+</article>
+
+<!--BEGIN .hentry -->
+<article id="post-499" class="post-499 post type-post status-publish format-aside sticky hentry category-news post__holder">
+		
+    <!-- Post Content -->
+    <div class="post_content ">
+        <span class='featured_badge'><i class='fa fa-thumb-tack'></i><strong>Featured</strong></span>        <p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Have you pre-order the physical album yet?<br />
+Purchase them at any of the stores listed below:</p>
+<p><strong><span style="text-decoration: underline;">Best Buy</span></strong><br />
+<a href="http://t.co/Zs3wZ5bPZ9/s/f3ZY">http://t.co/Zs3wZ5bPZ9/s/f3ZY</a></p>
+<p><strong><span style="text-decoration: underline;">Walmart</span></strong><br />
+<a href="http://t.co/yDRl8J13br/s/quOU">http://t.co/yDRl8J13br/s/quOU</a></p>
+<p><strong><span style="text-decoration: underline;">Amazon</span></strong><br />
+<a href="http://t.co/s4KBGBjk8e/s/-KbJ">http://t.co/s4KBGBjk8e/s/-KbJ</a></p>
+<p><strong><span style="text-decoration: underline;">FYE</span></strong><br />
+<a href="http://bit.ly/1nyxJdd">http://bit.ly/1nyxJdd</a></p>
+            <!--// Post Content -->
+    </div>
+        
+<span class="post_type_label aside"></span>
+<span class="post_date"><time datetime="2014-08-26T11:34:34">August 26, 2014</time></span>
+	<!-- Post Meta -->
+		<div class="post_meta aside">
+		<span class="post_category"><a href="http://heffrondrive.com/category/news/" title="View all posts in News" rel="category tag">News</a></span>		<span class="post_comment"><i class="fa fa-comments"></i><a href="http://heffrondrive.com/order-the-physical-copy-of-happy-mistakes/#respond" class="comments-link"  title="Comment on ">No comments</a></span>
+		<span class="post_author"><i class="fa fa-user"></i><a href="http://heffrondrive.com/author/lisa/" title="Posts by Editor" rel="author">Editor</a></span>
+		<div class="clear"></div>
+	</div>
+		<!--// Post Meta -->
+	
+<!--END .hentry-->  
+</article>
+
+<!--BEGIN .hentry -->
+<article id="post-422" class="post-422 post type-post status-publish format-aside sticky hentry category-news post__holder">
+		
+    <!-- Post Content -->
+    <div class="post_content ">
+        <span class='featured_badge'><i class='fa fa-thumb-tack'></i><strong>Featured</strong></span>        <h5 style="text-align: center;" align="center"></h5>
+<p><a href="http://heffrondrive.com/wp-content/uploads/2014/08/Final_Happy-Small.jpg"><img class="aligncenter size-full wp-image-477" alt="Final_Happy Small" src="http://heffrondrive.com/wp-content/uploads/2014/08/Final_Happy-Small.jpg" width="300" height="300" /></a></p>
+<h5 style="text-align: center;" align="center"><span style="color: #ffffff;"><b><span style="text-decoration: underline;">HEFFRON DRIV</span></b><b><span style="text-decoration: underline;">E</span></b></span></h5>
+<h5 style="text-align: center;" align="center"><span style="color: #ffffff;"><b><span style="text-decoration: underline;"><i><span style="text-decoration: underline; color: #ffcc00;">HAPPY MISTAKES</span><br />
+</i></span></b></span></h5>
+<h5 style="text-align: center;" align="center"><span style="font-size: 0.9em; line-height: 1.5em; color: #ffffff;"><b><span style="text-decoration: underline;">POSTER ARTWORK CONTEST</span></b></span><i style="font-size: 0.9em; line-height: 1.5em;"> </i></h5>
+<h5 style="text-align: left;"></h5>
+<h6 style="text-align: left;"><span style="color: #ffffff;"><b><span style="text-decoration: underline;">PARTICIPATION</span></b></span></h6>
+<p>This contest is open to everyone worldwide!<i> </i></p>
+<p> <a href="http://heffrondrive.com/happy-mistakes-poster-contest/#more-422" class="more-link">Continue reading</a></p>
+            <!--// Post Content -->
+    </div>
+        
+<span class="post_type_label aside"></span>
+<span class="post_date"><time datetime="2014-08-23T12:00:23">August 23, 2014</time></span>
+	<!-- Post Meta -->
+		<div class="post_meta aside">
+		<span class="post_category"><a href="http://heffrondrive.com/category/news/" title="View all posts in News" rel="category tag">News</a></span>		<span class="post_comment"><i class="fa fa-comments"></i><a href="http://heffrondrive.com/happy-mistakes-poster-contest/#comments" class="comments-link"  title="Comment on Happy Mistakes Poster Contest">3 comments</a></span>
+		<span class="post_author"><i class="fa fa-user"></i><a href="http://heffrondrive.com/author/simple0n3aol-com/" title="Posts by Admin" rel="author">Admin</a></span>
+		<div class="clear"></div>
+	</div>
+		<!--// Post Meta -->
+	
+<!--END .hentry-->  
+</article>
+
+<!--BEGIN .hentry -->
+<article id="post-383" class="post-383 post type-post status-publish format-aside sticky hentry category-news post__holder">
+		
+    <!-- Post Content -->
+    <div class="post_content ">
+        <span class='featured_badge'><i class='fa fa-thumb-tack'></i><strong>Featured</strong></span>        <p style="text-align: center;"><strong> </strong></p>
+<p style="text-align: center;"><a href="http://heffrondrive.com/wp-content/uploads/2014/08/unnamed.jpg"><img class="size-medium wp-image-384 aligncenter" alt="unnamed" src="http://heffrondrive.com/wp-content/uploads/2014/08/unnamed-300x300.jpg" width="300" height="300" /></a></p>
+<p style="text-align: center;"><strong>Heffron Drive&#8217;s newest album, <em>Happy Mistakes, </em>is available for Pre-Order!</strong></p>
+<p style="text-align: center;">Album avaliable September 9th!</p>
+<p style="text-align: center;">Pre-Order the <a href="https://t.co/XcrY7iGJou">Standard </a>or the <a href="https://t.co/DMN3kUjJdC">Deluxe </a>version</p>
+            <!--// Post Content -->
+    </div>
+        
+<span class="post_type_label aside"></span>
+<span class="post_date"><time datetime="2014-08-17T21:46:06">August 17, 2014</time></span>
+	<!-- Post Meta -->
+		<div class="post_meta aside">
+		<span class="post_category"><a href="http://heffrondrive.com/category/news/" title="View all posts in News" rel="category tag">News</a></span>		<span class="post_comment"><i class="fa fa-comments"></i><a href="http://heffrondrive.com/happy-mistakes-pre-order/#respond" class="comments-link"  title="Comment on Happy Mistakes Pre-Order">No comments</a></span>
+		<span class="post_author"><i class="fa fa-user"></i><a href="http://heffrondrive.com/author/lisa/" title="Posts by Editor" rel="author">Editor</a></span>
+		<div class="clear"></div>
+	</div>
+		<!--// Post Meta -->
+	
+<!--END .hentry-->  
+</article>
+
+<!--BEGIN .hentry -->
+<article id="post-345" class="post-345 post type-post status-publish format-aside sticky hentry category-news post__holder">
+		
+    <!-- Post Content -->
+    <div class="post_content ">
+        <span class='featured_badge'><i class='fa fa-thumb-tack'></i><strong>Featured</strong></span>        <p style="text-align: center;"><img class=" wp-image-376 aligncenter" alt="hdhm" src="http://heffrondrive.com/wp-content/uploads/2014/08/hdhm-268x300.jpg" width="368" height="400" /><strong>Heffron Drive is going on Tour this fall!</strong></p>
+<p style="text-align: center;">Tour starts at the end of August and into September!</p>
+<p style="text-align: left;">Find out if they are coming to your town and get your tickets <a href="www.heffrondrive.com/tour">here</a></p>
+<p style="text-align: left;">More dates will be added!</p>
+            <!--// Post Content -->
+    </div>
+        
+<span class="post_type_label aside"></span>
+<span class="post_date"><time datetime="2014-08-16T20:06:30">August 16, 2014</time></span>
+	<!-- Post Meta -->
+		<div class="post_meta aside">
+		<span class="post_category"><a href="http://heffrondrive.com/category/news/" title="View all posts in News" rel="category tag">News</a></span>		<span class="post_comment"><i class="fa fa-comments"></i><a href="http://heffrondrive.com/happy-mistakes-tour/#respond" class="comments-link"  title="Comment on Happy Mistakes Tour!">No comments</a></span>
+		<span class="post_author"><i class="fa fa-user"></i><a href="http://heffrondrive.com/author/lisa/" title="Posts by Editor" rel="author">Editor</a></span>
+		<div class="clear"></div>
+	</div>
+		<!--// Post Meta -->
+	
+<!--END .hentry-->  
+</article>
+
+<!--BEGIN .hentry -->
+<article id="post-268" class="post-268 post type-post status-publish format-aside sticky hentry category-news post__holder">
+		
+    <!-- Post Content -->
+    <div class="post_content ">
+        <span class='featured_badge'><i class='fa fa-thumb-tack'></i><strong>Featured</strong></span>        <p style="text-align: center;"><a href="http://heffrondrive.com/wp-content/uploads/2014/07/image2.jpeg"><img class=" wp-image-269 aligncenter" alt="MINUS_THE_BEAR" src="http://heffrondrive.com/wp-content/uploads/2014/07/image2.jpeg" width="572" height="950" /></a></p>
+<div style="text-align: center;"></div>
+<div style="text-align: center;"><em>Mexico!! We&#8217;ll be playing a show October 4th, Come rock with us!</em></div>
+<div style="text-align: center;"></div>
+<div></div>
+<p>&nbsp;</p>
+<p>Click <a href="http://www.ticketmaster.com.mx/event/14004CF3A69E3867" target="_blank">HERE</a> for tickets!</p>
+<p>Click <a href="http://www.rockandrolltshirts.com/RNR_Store/HD-10-4-14" target="_blank">HERE</a> for VIP Meet &amp; Greet passes!</p>
+            <!--// Post Content -->
+    </div>
+        
+<span class="post_type_label aside"></span>
+<span class="post_date"><time datetime="2014-07-23T18:29:12">July 23, 2014</time></span>
+	<!-- Post Meta -->
+		<div class="post_meta aside">
+		<span class="post_category"><a href="http://heffrondrive.com/category/news/" title="View all posts in News" rel="category tag">News</a></span>		<span class="post_comment"><i class="fa fa-comments"></i><a href="http://heffrondrive.com/mexico-show-oct-4th/#comments" class="comments-link"  title="Comment on Mexico Show-Oct.4th">6 comments</a></span>
+		<span class="post_author"><i class="fa fa-user"></i><a href="http://heffrondrive.com/author/lisa/" title="Posts by Editor" rel="author">Editor</a></span>
+		<div class="clear"></div>
+	</div>
+		<!--// Post Meta -->
+	
+<!--END .hentry-->  
+</article>
+
+<!--BEGIN .hentry -->
+<article id="post-237" class="post-237 post type-post status-publish format-aside sticky hentry category-news post__holder">
+		
+    <!-- Post Content -->
+    <div class="post_content ">
+        <span class='featured_badge'><i class='fa fa-thumb-tack'></i><strong>Featured</strong></span>        <p style="text-align: center;"><a href="http://heffrondrive.com/wp-content/uploads/2014/07/happymistakes.jpg"><img class=" wp-image-300 aligncenter" alt="happymistakes" src="http://heffrondrive.com/wp-content/uploads/2014/07/happymistakes.jpg" width="350" height="350" /></a></p>
+<p style="text-align: center;"><em>Our debut album will be released in the fall!</em></p>
+<p style="text-align: center;">Who wants to take a guess at the album&#8217;s name? <i></i></p>
+<p> Album hints:</p>
+<p>Hint #1: The first letter of the second word corresponds to the first letter of the first song Kendall ever wrote.</p>
+<p>&nbsp;</p>
+<p>Hint #2: The second letter of the first word corresponds to the third city stop on the Heffron Drive Winter Tour.</p>
+<p>&nbsp;</p>
+<p>Hint #3: How many original songs were first featured on HD&#8217;s MySpace? This number corresponds to the number of letters in the first word.</p>
+<p>&nbsp;</p>
+<p>Hint #4: The second letter of the second word corresponds to the name of one of Dustin&#8217;s favorite TV shows.</p>
+<p>&nbsp;</p>
+<p>Hint #5: Two letters appear in the entire album name twice. One is a vowel and one is a consonant.</p>
+<p>&nbsp;</p>
+<p>Hint #6: This letter exists somewhere in the album&#8217;s title. It&#8217;s the first letter of Kendall and Dustin&#8217;s dog.</p>
+<p>&nbsp;</p>
+<p>Hint #7: The vowel that repeats itself twice in the album title repeats itself twice in the HD single released in March.</p>
+<p>Hint #8:  Kendall and Dustin were caught hangin&#8217; with the founding member of this band earlier this year. They&#8217;re from NY <img src="http://heffrondrive.com/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div>
+<p>(Note: This isn&#8217;t the album artwork!)</p>
+</div>
+            <!--// Post Content -->
+    </div>
+        
+<span class="post_type_label aside"></span>
+<span class="post_date"><time datetime="2014-07-20T21:00:40">July 20, 2014</time></span>
+	<!-- Post Meta -->
+		<div class="post_meta aside">
+		<span class="post_category"><a href="http://heffrondrive.com/category/news/" title="View all posts in News" rel="category tag">News</a></span>		<span class="post_comment"><i class="fa fa-comments"></i><a href="http://heffrondrive.com/guess-the-new-album-name/#comments" class="comments-link"  title="Comment on Guess the new album name!">2 comments</a></span>
+		<span class="post_author"><i class="fa fa-user"></i><a href="http://heffrondrive.com/author/lisa/" title="Posts by Editor" rel="author">Editor</a></span>
+		<div class="clear"></div>
+	</div>
+		<!--// Post Meta -->
+	
+<!--END .hentry-->  
+</article>
+
+<!--BEGIN .hentry -->
+<article id="post-231" class="post-231 post type-post status-publish format-aside sticky hentry category-news post__holder">
+		
+    <!-- Post Content -->
+    <div class="post_content ">
+        <span class='featured_badge'><i class='fa fa-thumb-tack'></i><strong>Featured</strong></span>        <p style="text-align: left;"><a href="http://heffrondrive.com/wp-content/uploads/2014/07/iceflyerredo.jpg"> </a></p>
+<p style="text-align: left;"><img class=" wp-image-408 aligncenter" style="width: 723px; height: 548px;" alt="iceflyerredo" src="http://heffrondrive.com/wp-content/uploads/2014/07/iceflyerredo.jpg" width="792" height="576" />Hey Los Angeles, Enjoy ice cream with Heffron Drive on August 7th, 2014!</p>
+<p>Purchase your L.A. VIP package <a href="http://www.rockandrolltshirts.com/RNR_Store/Ice-Cream-with-Kendall-Heffron-Drive">HERE</a>!</p>
+            <!--// Post Content -->
+    </div>
+        
+<span class="post_type_label aside"></span>
+<span class="post_date"><time datetime="2014-07-20T19:12:51">July 20, 2014</time></span>
+	<!-- Post Meta -->
+		<div class="post_meta aside">
+		<span class="post_category"><a href="http://heffrondrive.com/category/news/" title="View all posts in News" rel="category tag">News</a></span>		<span class="post_comment"><i class="fa fa-comments"></i><a href="http://heffrondrive.com/aug-7th-citywalk-vip-package/#comments" class="comments-link"  title="Comment on Aug.7th VIP package">1 comment</a></span>
+		<span class="post_author"><i class="fa fa-user"></i><a href="http://heffrondrive.com/author/lisa/" title="Posts by Editor" rel="author">Editor</a></span>
+		<div class="clear"></div>
+	</div>
+		<!--// Post Meta -->
+	
+<!--END .hentry-->  
+</article>
+
+<!--BEGIN .hentry -->
+<article id="post-185" class="post-185 post type-post status-publish format-aside sticky hentry category-news post__holder">
+		
+    <!-- Post Content -->
+    <div class="post_content ">
+        <span class='featured_badge'><i class='fa fa-thumb-tack'></i><strong>Featured</strong></span>        <p style="text-align: center;"><a href="http://heffrondrive.com/wp-content/uploads/2014/07/10441002_665213990240304_8428292847846300720_n.jpg"><img class=" wp-image-188 aligncenter" alt="10441002_665213990240304_8428292847846300720_n" src="http://heffrondrive.com/wp-content/uploads/2014/07/10441002_665213990240304_8428292847846300720_n.jpg" width="960" height="960" /></a></p>
+<p>The Orchestral Arrangement of &#8220;Parallel&#8221;</p>
+<!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+<audio class="wp-audio-shortcode" id="audio-185-1" preload="none" style="width: 100%" controls="controls"><source type="audio/mpeg" src="http://heffrondrive.com/wp-content/uploads/2014/07/para.mp3" /><a href="http://heffrondrive.com/wp-content/uploads/2014/07/para.mp3">http://heffrondrive.com/wp-content/uploads/2014/07/para.mp3</a></audio>
+            <!--// Post Content -->
+    </div>
+        
+<span class="post_type_label aside"></span>
+<span class="post_date"><time datetime="2014-07-03T23:06:56">July 3, 2014</time></span>
+	<!-- Post Meta -->
+		<div class="post_meta aside">
+		<span class="post_category"><a href="http://heffrondrive.com/category/news/" title="View all posts in News" rel="category tag">News</a></span>		<span class="post_comment"><i class="fa fa-comments"></i><a href="http://heffrondrive.com/parallel-orchestral-arrangement-on-itunes/#comments" class="comments-link"  title="Comment on Parallel Orchestral Arrangement on iTunes">2 comments</a></span>
+		<span class="post_author"><i class="fa fa-user"></i><a href="http://heffrondrive.com/author/lisa/" title="Posts by Editor" rel="author">Editor</a></span>
+		<div class="clear"></div>
+	</div>
+		<!--// Post Meta -->
+	
+<!--END .hentry-->  
+</article>
+
+<!--BEGIN .hentry -->
+<article id="post-164" class="post-164 post type-post status-publish format-aside sticky hentry category-news post__holder">
+		
+    <!-- Post Content -->
+    <div class="post_content ">
+        <span class='featured_badge'><i class='fa fa-thumb-tack'></i><strong>Featured</strong></span>        <p><a href="http://heffrondrive.com/wp-content/uploads/2014/07/4julyfin.jpg"><img class=" wp-image-177 aligncenter" alt="4julyfin" src="http://heffrondrive.com/wp-content/uploads/2014/07/4julyfin.jpg" width="1430" height="441" /></a><br />
+Kendall Schmidt (<a href="http://heffrondrive.com/">Heffron Drive</a> / <a href="http://www.btrband.com/us/home" target="_blank">Big Time Rush</a>) is performing <a href="http://popcrush.com/kendall-schmidt-interview-heffron-drive-parallel-love-defined-interview/" target="_blank">&#8220;Parallel&#8221;</a> from the White House lawn, in the United States Capitol, on <a href="https://www.facebook.com/hashtag/july4thpbs" target="_blank">#July4thPBS</a> between <strong>8:00 and 9:30 p.m. Eastern Time</strong> to help ring in <a href="http://www.pbs.org/a-capitol-fourth/home/" target="_blank">America&#8217;s 238th Birthday party</a>. Watch him perform his new single <a href="https://www.facebook.com/hashtag/parallel" target="_blank">#Parallel</a> alongside the <a href="http://www.pbs.org/a-capitol-fourth/concert/2014-performers/" target="_blank">National Symphony Orchestra</a> LIVE on <a href="https://www.facebook.com/pbs" target="_blank">PBS</a>.</p>
+<p><em>Share the news via Twitter and Facebook! Watch <a href="https://twitter.com/HeffronDrive" target="_blank">@HeffronDrive</a> perform #Parallel4thofJuly on <a href="https://www.facebook.com/pbs" target="_blank">PBS</a>.</em></p>
+<p>&nbsp;</p>
+<p><strong>More information:</strong></p>
+<p><a href="http://www.pbs.org/a-capitol-fourth/home/" target="_blank">A Capitol Fourth</a></p>
+<p><a href="https://www.facebook.com/kendallschmidtofficial" target="_blank">facebook.com/kendallschmidtofficial</a></p>
+<p><a href="https://twitter.com/HeffronDrive" target="_blank">twitter.com/HeffronDrive</a></p>
+<p><a href="https://twitter.com/HDMusicTour" target="_blank">twitter.com/HDMusicTour</a></p>
+<p><a href="http://www.youtube.com/user/K3ndallSchmidt" target="_blank">youtube.com/user/K3ndallSchmidt</a></p>
+<p><a href="https://vine.co/kendall.schmidt" target="_blank">vine.co/kendall.schmidt</a></p>
+<p><strong>Make sure to check your local TV guide to see what time/channel it airs on.</strong></p>
+            <!--// Post Content -->
+    </div>
+        
+<span class="post_type_label aside"></span>
+<span class="post_date"><time datetime="2014-07-01T19:52:47">July 1, 2014</time></span>
+	<!-- Post Meta -->
+		<div class="post_meta aside">
+		<span class="post_category"><a href="http://heffrondrive.com/category/news/" title="View all posts in News" rel="category tag">News</a></span>		<span class="post_comment"><i class="fa fa-comments"></i><a href="http://heffrondrive.com/a-capitol-fourth-pbs-4th-of-july-special/#respond" class="comments-link"  title="Comment on A Capitol Fourth PBS 4th of July Special">No comments</a></span>
+		<span class="post_author"><i class="fa fa-user"></i><a href="http://heffrondrive.com/author/lisa/" title="Posts by Editor" rel="author">Editor</a></span>
+		<div class="clear"></div>
+	</div>
+		<!--// Post Meta -->
+	
+<!--END .hentry-->  
+</article>
+
+<!--BEGIN .hentry -->
+<article id="post-158" class="post-158 post type-post status-publish format-aside sticky hentry category-news post__holder">
+		
+    <!-- Post Content -->
+    <div class="post_content ">
+        <span class='featured_badge'><i class='fa fa-thumb-tack'></i><strong>Featured</strong></span>        <p>Tomorrow! Q107.5 FREE concert at Minglewood Hall!</p>
+<p><img class="alignnone size-full" alt="20140628-093411-34451157.jpg" src="http://heffrondrive.com/wp-content/uploads/2014/06/20140628-093411-34451157.jpg" /><br />
+<strong>HEFFRON DRIVE FEATURING KENDALL FROM BIG TIME RUSH</strong></p>
+<p>ALL AGES<br />
+DOORS AT 2:30<br />
+SHOW AT 3PM</p>
+<p>DETAILS AT <a href="http://q1075.com/component/k2/item/109-free-concert-june-29th">Q1075</a></p>
+<p><a href="http://public.ticketbiscuit.com/MinglewoodHall/Events/207589">Directions</a></p>
+<p>&nbsp;</p>
+            <!--// Post Content -->
+    </div>
+        
+<span class="post_type_label aside"></span>
+<span class="post_date"><time datetime="2014-06-28T16:35:14">June 28, 2014</time></span>
+	<!-- Post Meta -->
+		<div class="post_meta aside">
+		<span class="post_category"><a href="http://heffrondrive.com/category/news/" title="View all posts in News" rel="category tag">News</a></span>		<span class="post_comment"><i class="fa fa-comments"></i><a href="http://heffrondrive.com/q107-5-free-concert-june-29th/#respond" class="comments-link"  title="Comment on Q107.5 Free Concert- June 29th">No comments</a></span>
+		<span class="post_author"><i class="fa fa-user"></i><a href="http://heffrondrive.com/author/lisa/" title="Posts by Editor" rel="author">Editor</a></span>
+		<div class="clear"></div>
+	</div>
+		<!--// Post Meta -->
+	
+<!--END .hentry-->  
+</article>
+
+<!--BEGIN .hentry -->
+<article id="post-153" class="post-153 post type-post status-publish format-aside sticky hentry category-news post__holder">
+		
+    <!-- Post Content -->
+    <div class="post_content ">
+        <span class='featured_badge'><i class='fa fa-thumb-tack'></i><strong>Featured</strong></span>        <p>&nbsp;</p>
+<p><img class="alignnone size-full" alt="20140627-084427-31467396.jpg" src="http://heffrondrive.com/wp-content/uploads/2014/06/20140627-084427-31467396.jpg" /></p>
+<p>Heffron Drive will be performing at State Fair Meadowlands, next to MetLife Stadium in East Rutherford, on <strong>Saturday, June 28</strong>. The concert kicks off at<em> 7:30pm</em></p>
+<p>• The concert is <span style="text-decoration: underline">FREE</span> with entry ticket to the fair: $10 for those 13 and older, and $8 for 12 and younger</p>
+<p>• Information about the fair can be found at <a href="http://www.njfair.com">The NJ Fair</a></p>
+<p>&nbsp;</p>
+            <!--// Post Content -->
+    </div>
+        
+<span class="post_type_label aside"></span>
+<span class="post_date"><time datetime="2014-06-25T19:09:14">June 25, 2014</time></span>
+	<!-- Post Meta -->
+		<div class="post_meta aside">
+		<span class="post_category"><a href="http://heffrondrive.com/category/news/" title="View all posts in News" rel="category tag">News</a></span>		<span class="post_comment"><i class="fa fa-comments"></i><a href="http://heffrondrive.com/sf-meadowlands-show-june-28th/#respond" class="comments-link"  title="Comment on SF Meadowlands show-June 28th">No comments</a></span>
+		<span class="post_author"><i class="fa fa-user"></i><a href="http://heffrondrive.com/author/lisa/" title="Posts by Editor" rel="author">Editor</a></span>
+		<div class="clear"></div>
+	</div>
+		<!--// Post Meta -->
+	
+<!--END .hentry-->  
+</article>
+
+<!--BEGIN .hentry -->
+<article id="post-137" class="post-137 post type-post status-publish format-aside sticky hentry category-news post__holder">
+		
+    <!-- Post Content -->
+    <div class="post_content ">
+        <span class='featured_badge'><i class='fa fa-thumb-tack'></i><strong>Featured</strong></span>        <p><strong>98.5 KRZ Presents KRZ Summer Mingle! </strong></p>
+<p style="text-align: center;"> <a href="http://heffrondrive.com/wp-content/uploads/2014/07/image.jpeg"><img class="alignnone size-full wp-image-223" alt="image" src="http://heffrondrive.com/wp-content/uploads/2014/07/image.jpeg" width="968" height="661" /></a></p>
+<p>&nbsp;</p>
+<p><em>Scranton Cultural Center on Sunday, July 13th at 4pm</em> featuring:</p>
+<p>Heffron Drive with star of Big Time Rush Kendall Schmidt</p>
+<p>&nbsp;</p>
+<p>Don&#8217;t miss this one of a kind, limited opportunity to MEET the stars after an intimate, up close acoustic performance!</p>
+<p>&nbsp;</p>
+<p>Tickets are $75 each and include a meet and greet photo with ALL 3 artists, plus an acoustic performance from each of the acts. Space is extremely limited and once the tickets are gone, they&#8217;re gone! Pick up your ticket for this special opportunity to Meet your favorite artists!</p>
+<p>&nbsp;</p>
+<div><strong>*Please note &#8211; due to the nature of this show and the number of meet &amp; greets, &#8220;selfies&#8221; and personal photos will not be allowed. NO EXCEPTIONS.  Violators could forefit their meet &amp; greet session* </strong></div>
+<div></div>
+<div></div>
+<p>&nbsp;</p>
+<p>Meet &amp; Greet photos will be available following the event on a dedicated website provided by KRZ. Check their website for details after KRZ Summer Mingle on Sunday, July 13th.</p>
+<p>&nbsp;</p>
+<p><a href="http://www.ticketmaster.com/krz-summer-mingle-scranton-pennsylvania-07-13-2014/event/02004CCC3A67DBD9?artistid=1928343&amp;majorcatid=10001&amp;minorcatid=60">Tickets available here.</a></p>
+            <!--// Post Content -->
+    </div>
+        
+<span class="post_type_label aside"></span>
+<span class="post_date"><time datetime="2014-06-24T17:11:00">June 24, 2014</time></span>
+	<!-- Post Meta -->
+		<div class="post_meta aside">
+		<span class="post_category"><a href="http://heffrondrive.com/category/news/" title="View all posts in News" rel="category tag">News</a></span>		<span class="post_comment"><i class="fa fa-comments"></i><a href="http://heffrondrive.com/98-5-krz-summer-mingle-concert-heffron-drive/#respond" class="comments-link"  title="Comment on 98.5 KRZ Summer Mingle Concert- Heffron Drive">No comments</a></span>
+		<span class="post_author"><i class="fa fa-user"></i><a href="http://heffrondrive.com/author/lisa/" title="Posts by Editor" rel="author">Editor</a></span>
+		<div class="clear"></div>
+	</div>
+		<!--// Post Meta -->
+	
+<!--END .hentry-->  
+</article>
+
+<!--BEGIN .hentry -->
+<article id="post-108" class="post-108 post type-post status-publish format-aside sticky hentry category-news post__holder">
+		
+    <!-- Post Content -->
+    <div class="post_content ">
+        <span class='featured_badge'><i class='fa fa-thumb-tack'></i><strong>Featured</strong></span>        <p><a href="http://heffrondrive.com/wp-content/uploads/2014/06/sd-county-fair-2.jpg"><img src="http://heffrondrive.com/wp-content/uploads/2014/06/sd-county-fair-2.jpg" alt="sd-county-fair-2" width="780" height="521" class="alignnone size-full wp-image-134" /></a></p>
+<p>&nbsp;</p>
+<p>Come see Heffron Drive <strong>THIS</strong> <strong>Wednesday</strong> at<strong> <em>7:30pm</em></strong> at the San Diego County Fair- FREE Show!!</p>
+<p>Free Grandstand show at SD County Fair: 2260 Jimmy Durante Blvd, Del Mar, CA 92014</p>
+<p>&nbsp;</p>
+<p>http://www.sdfair.com/</p>
+<p>*Fair ticket may be required to see the show*</p>
+<p><strong>This show is free with Fair admission for:</strong></p>
+<p>• unreserved seats on the third and fifth levels</p>
+<p>• standing area in front of the stage.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+            <!--// Post Content -->
+    </div>
+        
+<span class="post_type_label aside"></span>
+<span class="post_date"><time datetime="2014-06-20T21:24:10">June 20, 2014</time></span>
+	<!-- Post Meta -->
+		<div class="post_meta aside">
+		<span class="post_category"><a href="http://heffrondrive.com/category/news/" title="View all posts in News" rel="category tag">News</a></span>		<span class="post_comment"><i class="fa fa-comments"></i><a href="http://heffrondrive.com/heffron-drive-san-diego-county-fair-6-25-14/#comments" class="comments-link"  title="Comment on Heffron Drive @ San Diego County Fair 6-25-14">1 comment</a></span>
+		<span class="post_author"><i class="fa fa-user"></i><a href="http://heffrondrive.com/author/lisa/" title="Posts by Editor" rel="author">Editor</a></span>
+		<div class="clear"></div>
+	</div>
+		<!--// Post Meta -->
+	
+<!--END .hentry-->  
+</article>
+
+<!--BEGIN .hentry -->
+<article id="post-71" class="post-71 post type-post status-publish format-aside sticky hentry category-news post__holder">
+		
+    <!-- Post Content -->
+    <div class="post_content ">
+        <span class='featured_badge'><i class='fa fa-thumb-tack'></i><strong>Featured</strong></span>        <p><a href="http://heffrondrive.com/wp-content/uploads/2014/02/SXSW_FB.jpg"><img class="alignnone size-large wp-image-72" alt="SXSW_FB" src="http://heffrondrive.com/wp-content/uploads/2014/02/SXSW_FB-786x1024.jpg" width="786" height="1024" /><br />
+</a></p>
+<p>&nbsp;</p>
+<p>Heffron Drive will be performing new material at SXSW 2014! For more information about the event, please call (212) 921-2190 (Office Hours: Monday-Friday 10 am to 6 pm EST) or e-mail booking@CEGTalent.com.</p>
+<p>&nbsp;</p>
+            <!--// Post Content -->
+    </div>
+        
+<span class="post_type_label aside"></span>
+<span class="post_date"><time datetime="2014-02-13T03:04:47">February 13, 2014</time></span>
+	<!-- Post Meta -->
+		<div class="post_meta aside">
+		<span class="post_category"><a href="http://heffrondrive.com/category/news/" title="View all posts in News" rel="category tag">News</a></span>		<span class="post_comment"><i class="fa fa-comments"></i><a href="http://heffrondrive.com/71/#comments" class="comments-link"  title="Comment on Heffron Drive at SXSW!">2 comments</a></span>
+		<span class="post_author"><i class="fa fa-user"></i><a href="http://heffrondrive.com/author/stacy/" title="Posts by Editor" rel="author">Editor</a></span>
+		<div class="clear"></div>
+	</div>
+		<!--// Post Meta -->
+	
+<!--END .hentry-->  
+</article>
+
+
+    		<div class="page_nav_wrap">
+		<div class="post_nav">
+			<ul class='page-numbers'>
+	<li><span class='page-numbers current'>1</span></li>
+	<li><a class='page-numbers' href='http://heffrondrive.com/page/2/'>2</a></li>
+	<li><a class="next page-numbers" href="http://heffrondrive.com/page/2/">Next &rarr;</a></li>
+</ul>
+		</div><!-- .pagination -->
+	</div><!-- .navigation -->
+	  <!-- Posts navigation -->
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+	<div id="secondary" class="widget-area col-md-4" role="complementary">
+			<div class="author_bio_sidebar">
+		<div class="social_box">
+	<a href='http://www.twitter.com/heffrondrive'><i class='fa fa-twitter'></i></a>
+<a href='https://www.facebook.com/heffrondrivemusic'><i class='fa fa-facebook'></i></a>
+<a href='http://www.youtube.com/user/k3ndallschmidt'><i class='fa fa-rss'></i></a>
+		</div>
+				<div class="content_box">
+		<div class='author_bio_message'><img src="http://heffrondrive.com/wp-content/uploads/2014/01/Bio1.png"><BR><BR>
+</div>
+		</div>
+			</div>
+			<aside id="text-5" class="widget widget_text">			<div class="textwidget"><iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F162026215&visual=true&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe></div>
+		</aside><aside id="text-2" class="widget widget_text">			<div class="textwidget"><center><u><b>Contact</U></b><BR><BR>
+Management || <b>Michael Cammarata</b><BR>
+mc_asst@cmistaff.com // (561) 935-3100<BR><BR>
+Booking || <B>United Talent Agency</b><BR>
+Rob Prinz<BR>
+PrinzR@unitedtalent.com<BR>
+(310) 273-6700<BR><BR>
+
+
+Press || <b>Big Machine Agency </b><BR>
+Brad Taylor & Lauren Sachs<BR>
+brad@bigmachineagency.com<BR>
+lauren@bigmachineagency.com<BR>
+(646) 395-2600
+</div>
+		</aside><aside id="text-3" class="widget widget_text">			<div class="textwidget"><div id="glt-translate-trigger"><span class="notranslate">Translate &raquo;</strong></div><div id="glt-toolbar"><a id="Belarusian" href="#" onclick="doGoogleLanguageTranslator('en|be'); return false;" title="Belarusian" class="notranslate flag be"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/belarus.png" height="24" width="24" alt="Belarus"/></a><a id="Bulgarian" href="#" onclick="doGoogleLanguageTranslator('en|bg'); return false;" title="Bulgarian" class="notranslate flag bg"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/bulgaria.png" height="24" width="24" alt="Bulgarian"/></a><a id="Chinese-Simplified" href="#" onclick="doGoogleLanguageTranslator('en|zh-CN'); return false;" title="Chinese (Simplified)" class="notranslate flag zh-CN"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/china.png" height="24" width="24" alt="Chinese (Simplified)"/></a><a id="Chinese-Traditional" href="#" onclick="doGoogleLanguageTranslator('en|zh-TW'); return false;" title="Chinese (Traditional)" class="notranslate flag zh-TW"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/china.png" height="24" width="24" alt="Chinese (Traditional)"/></a><a id="Czech" href="#" onclick="doGoogleLanguageTranslator('en|cs'); return false;" title="Czech" class="notranslate flag cs"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/czechrepublic.png" height="24" width="24" alt="Czech"/></a><a id="Danish" href="#" onclick="doGoogleLanguageTranslator('en|da'); return false;" title="Danish" class="notranslate flag da"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/denmark.png" height="24" width="24" alt="Danish"/></a><a id="Dutch" href="#" onclick="doGoogleLanguageTranslator('en|nl'); return false;" title="Dutch" class="notranslate flag nl"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/netherlands.png" height="24" width="24" alt="Dutch"/></a><a id="English" href="#" onclick="doGoogleLanguageTranslator('en|en'); return false;" title="English" class="notranslate flag en"><img class="flagimg" title="English" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/unitedkingdom.png" height="24" width="24" alt="English"/></a><a id="Filipino" href="#" onclick="doGoogleLanguageTranslator('en|tl'); return false;" title="Filipino" class="notranslate flag tl"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/philippines.png" height="24" width="24" alt="Filipino"/></a><a id="French" href="#" onclick="doGoogleLanguageTranslator('en|fr'); return false;" title="French" class="notranslate flag fr"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/france.png" height="24" width="24" alt="French"/></a><a id="German" href="#" onclick="doGoogleLanguageTranslator('en|de'); return false;" title="German" class="notranslate flag de"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/germany.png" height="24" width="24" alt="German"/></a><a id="Greek" href="#" onclick="doGoogleLanguageTranslator('en|el'); return false;" title="Greek" class="notranslate flag el"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/greece.png" height="24" width="24" alt="Greek"/></a><a id="Hindi" href="#" onclick="doGoogleLanguageTranslator('en|hi'); return false;" title="Hindi" class="notranslate flag hi"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/india.png" height="24" width="24" alt="Hindi"/></a><a id="Hungarian" href="#" onclick="doGoogleLanguageTranslator('en|hu'); return false;" title="Hungarian" class="notranslate flag hu"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/hungary.png" height="24" width="24" alt="Hungarian"/></a><a id="Indonesian" href="#" onclick="doGoogleLanguageTranslator('en|id'); return false;" title="Indonesian" class="notranslate flag id"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/indonesia.png" height="24" width="24" alt="Indonesian"/></a><a id="Italian" href="#" onclick="doGoogleLanguageTranslator('en|it'); return false;" title="Italian" class="notranslate flag it"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/italy.png" height="24" width="24" alt="Italian"/></a><a id="Japanese" href="#" onclick="doGoogleLanguageTranslator('en|ja'); return false;" title="Japanese" class="notranslate flag ja"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/japan.png" height="24" width="24" alt="Japanese"/></a><a id="Korean" href="#" onclick="doGoogleLanguageTranslator('en|ko'); return false;" title="Korean" class="notranslate flag ko"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/korea.png" height="24" width="24" alt="Korea"/></a><a id="Lithuanian" href="#" onclick="doGoogleLanguageTranslator('en|lt'); return false;" title="Lithuanian" class="notranslate flag lt"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/lithuania.png" height="24" width="24" alt="Lithuanian"/></a><a id="Norwegian" href="#" onclick="doGoogleLanguageTranslator('en|no'); return false;" title="Norwegian" class="notranslate flag no"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/norway.png" height="24" width="24" alt="Norwegian"/></a><a id="Polish" href="#" onclick="doGoogleLanguageTranslator('en|pl'); return false;" title="Polish" class="notranslate flag pl"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/poland.png" height="24" width="24" alt="Polish"/></a><a id="Portuguese" href="#" onclick="doGoogleLanguageTranslator('en|pt'); return false;" title="Portuguese" class="notranslate flag pt"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/portugal.png" height="24" width="24" alt="Portuguese"/></a><a id="Russian" href="#" onclick="doGoogleLanguageTranslator('en|ru'); return false;" title="Russian" class="notranslate flag ru"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/russia.png" height="24" width="24" alt="Russian"/></a><a id="Spanish" href="#" onclick="doGoogleLanguageTranslator('en|es'); return false;" title="Spanish" class="notranslate flag es"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/spain.png" height="24" width="24" alt="Spanish"/></a><a id="Swedish" href="#" onclick="doGoogleLanguageTranslator('en|sv'); return false;" title="Swedish" class="notranslate flag sv"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/sweden.png" height="24" width="24" alt="Swedish"/></a><a id="Thai" href="#" onclick="doGoogleLanguageTranslator('en|th'); return false;" title="Thai" class="notranslate flag th"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/thailand.png" height="24" width="24" alt="Thai"/></a><a id="Turkish" href="#" onclick="doGoogleLanguageTranslator('en|tr'); return false;" title="Turkish" class="notranslate flag tr"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/turkey.png" height="24" width="24" alt="Turkish"/></a><a id="Ukranian" href="#" onclick="doGoogleLanguageTranslator('en|uk'); return false;" title="Ukranian" class="notranslate flag uk"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/ukraine.png" height="24" width="24" alt="Ukranian"/></a><a id="Vietnamese" href="#" onclick="doGoogleLanguageTranslator('en|vi'); return false;" title="Vietnamese" class="notranslate flag vi"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/vietnam.png" height="24" width="24" alt="vietnamese"/></a></div><div id="flags"><a id="Belarusian" href="#" onclick="doGoogleLanguageTranslator('en|be'); return false;" title="Belarusian" class="notranslate flag be"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/belarus.png" height="18" width="18" alt="Belarus"/></a><a id="Bulgarian" href="#" onclick="doGoogleLanguageTranslator('en|bg'); return false;" title="Bulgarian" class="notranslate flag bg"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/bulgaria.png" height="18" width="18" alt="Bulgarian"/></a><a id="Chinese-Simplified)" href="#" onclick="doGoogleLanguageTranslator('en|zh-CN'); return false;" title="Chinese (Simplified)" class="notranslate flag zh-CN"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/china.png" height="18" width="18" alt="Chinese (Simplified)"/></a><a id="Chinese-Traditional)" href="#" onclick="doGoogleLanguageTranslator('en|zh-TW'); return false;" title="Chinese (Traditional)" class="notranslate flag zh-TW"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/china.png" height="18" width="18" alt="Chinese (Traditional)"/></a><a id="Czech" href="#" onclick="doGoogleLanguageTranslator('en|cs'); return false;" title="Czech" class="notranslate flag cs"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/czechrepublic.png" height="18" width="18" alt="Czech"/></a><a id="Danish" href="#" onclick="doGoogleLanguageTranslator('en|da'); return false;" title="Danish" class="notranslate flag da"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/denmark.png" height="18" width="18" alt="Danish"/></a><a id="Dutch" href="#" onclick="doGoogleLanguageTranslator('en|nl'); return false;" title="Dutch" class="notranslate flag nl"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/netherlands.png" height="18" width="18" alt="Dutch"/></a><a id="English" href="#" onclick="doGoogleLanguageTranslator('en|en'); return false;" title="English" class="notranslate flag en"><img class="flagimg" title="English" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/unitedkingdom.png" height="18" width="18" alt="English"/></a><a id="Filipino" href="#" onclick="doGoogleLanguageTranslator('en|tl'); return false;" title="Filipino" class="notranslate flag tl"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/philippines.png" height="18" width="18" alt="Filipino"/></a><a id="French" href="#" onclick="doGoogleLanguageTranslator('en|fr'); return false;" title="French" class="notranslate flag fr"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/france.png" height="18" width="18" alt="French"/></a><a id="German" href="#" onclick="doGoogleLanguageTranslator('en|de'); return false;" title="German" class="notranslate flag de"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/germany.png" height="18" width="18" alt="German"/></a><a id="Greek" href="#" onclick="doGoogleLanguageTranslator('en|el'); return false;" title="Greek" class="notranslate flag el"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/greece.png" height="18" width="18" alt="Greek"/></a><a id="Hindi" href="#" onclick="doGoogleLanguageTranslator('en|hi'); return false;" title="Hindi" class="notranslate flag hi"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/india.png" height="18" width="18" alt="Hindi"/></a><a id="Hungarian" href="#" onclick="doGoogleLanguageTranslator('en|hu'); return false;" title="Hungarian" class="notranslate flag hu"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/hungary.png" height="18" width="18" alt="Hungarian"/></a><a id="Indonesian" href="#" onclick="doGoogleLanguageTranslator('en|id'); return false;" title="Indonesian" class="notranslate flag id"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/indonesia.png" height="18" width="18" alt="Indonesian"/></a><a id="Italian" href="#" onclick="doGoogleLanguageTranslator('en|it'); return false;" title="Italian" class="notranslate flag it"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/italy.png" height="18" width="18" alt="Italian"/></a><a id="Japanese" href="#" onclick="doGoogleLanguageTranslator('en|ja'); return false;" title="Japanese" class="notranslate flag ja"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/japan.png" height="18" width="18" alt="Japanese"/></a><a id="Korean" href="#" onclick="doGoogleLanguageTranslator('en|ko'); return false;" title="Korean" class="notranslate flag ko"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/korea.png" height="18" width="18" alt="Korea"/></a><a id="Lithuanian" href="#" onclick="doGoogleLanguageTranslator('en|lt'); return false;" title="Lithuanian" class="notranslate flag lt"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/lithuania.png" height="18" width="18" alt="Lithuanian"/></a><a id="Norwegian" href="#" onclick="doGoogleLanguageTranslator('en|no'); return false;" title="Norwegian" class="notranslate flag no"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/norway.png" height="18" width="18" alt="Norwegian"/></a><a id="Polish" href="#" onclick="doGoogleLanguageTranslator('en|pl'); return false;" title="Polish" class="notranslate flag pl"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/poland.png" height="18" width="18" alt="Polish"/></a><a id="Portuguese" href="#" onclick="doGoogleLanguageTranslator('en|pt'); return false;" title="Portuguese" class="notranslate flag pt"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/portugal.png" height="18" width="18" alt="Portuguese"/></a><a id="Russian" href="#" onclick="doGoogleLanguageTranslator('en|ru'); return false;" title="Russian" class="notranslate flag ru"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/russia.png" height="18" width="18" alt="Russian"/></a><a id="Spanish" href="#" onclick="doGoogleLanguageTranslator('en|es'); return false;" title="Spanish" class="notranslate flag es"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/spain.png" height="18" width="18" alt="Spanish"/></a><a id="Swedish" href="#" onclick="doGoogleLanguageTranslator('en|sv'); return false;" title="Swedish" class="notranslate flag sv"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/sweden.png" height="18" width="18" alt="Swedish"/></a><a id="Thai" href="#" onclick="doGoogleLanguageTranslator('en|th'); return false;" title="Thai" class="notranslate flag th"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/thailand.png" height="18" width="18" alt="Thai"/></a><a id="Turkish" href="#" onclick="doGoogleLanguageTranslator('en|tr'); return false;" title="Turkish" class="notranslate flag tr"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/turkey.png" height="18" width="18" alt="Turkish"/></a><a id="Ukranian" href="#" onclick="doGoogleLanguageTranslator('en|uk'); return false;" title="Ukranian" class="notranslate flag uk"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/ukraine.png" height="18" width="18" alt="Ukranian"/></a><a id="Vietnamese" href="#" onclick="doGoogleLanguageTranslator('en|vi'); return false;" title="Vietnamese" class="notranslate flag vi"><img class="flagimg" src="http://heffrondrive.com/wp-content/plugins/google-language-translator/images/flags24/vietnam.png" height="18" width="18" alt="vietnamese"/></a></div><script type="text/javascript">     
+         function GoogleLanguageTranslatorInit() { 
+         new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL, autoDisplay: false, gaTrack: true, gaId: ''}, 'google_language_translator');}
+              </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=GoogleLanguageTranslatorInit"></script>
+<div id="google_language_translator"></div></div>
+		</aside><aside id="search-2" class="widget widget_search">	<form method="get" id="searchform" class="searchform" action="http://heffrondrive.com/" role="search">
+		<label for="s" class="screen-reader-text">Search</label>
+		<input type="search" class="field" name="s" value="" id="s" placeholder="Search &hellip;" />
+		<input type="submit" class="submit" id="searchsubmit" value="Search" />
+	</form>
+</aside><aside id="text-4" class="widget widget_text">			<div class="textwidget"><p><b>Facebook</b></p>
+<p><a href="http://facebook.com/kendallschmidtofficial">Kendall Schmidt</a></p>
+<p><a href="https://www.facebook.com/heffrondrivemusic">Heffron Drive</a></p>
+<p><a href="http://facebook.com/TOLboothRecords">TOLbooth Records</a></p>
+<p>&nbsp;</p>
+<p><b>Twitter</b></p>
+<p><a href="http://twitter.com/HeffronDrive">Heffron Drive</a></p>
+<p><a href="http://www.twitter.com/TOLboothRecords">TOLbooth Records</a></p>
+<p><a href="http://twitter.com/HDMusicTour">HD Music Tour</a></p>
+<p><a href="https://twitter.com/YUMAPIG1">Yuma Pig</a></p>
+<p>&nbsp;</p>
+<p><b>YouTube</b></p>
+<p><a href="http://youtube.com/user/K3ndallSchmidt">Kendall Schmidt</a></p>
+<p>&nbsp;</p>
+<p><b>Vine</b></p>
+<p><a href="http://vine.co/kendall.schmidt">Kendall Schmidt</a></p>
+<p>&nbsp;</p>
+<p><b>Sound Cloud</b></p>
+<p><a href="https://soundcloud.com/tolboothrecords">TOLbooth Records</a></p>
+</div>
+		</aside>	</div><!-- #secondary -->
+			</div>
+		</div>
+	</div><!-- #main -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="container">
+			<div class="site-info col-md-12">
+				<div class="footer-text">
+											<a href="http://wordpress.org/" title="A Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+									</div>
+								<div class="clear"></div>
+				<div id="toTop"><i class="fa fa-chevron-up"></i></div>
+			</div>
+		</div>
+	</footer><!-- #colophon -->
+</div><!-- .page-wrapper -->
+
+
+<!-- WP Audio player plugin v1.9.2 - http://www.tipsandtricks-hq.com/wordpress-audio-music-player-plugin-4556/ -->
+    <script type="text/javascript">
+        soundManager.useFlashBlock = true; // optional - if used, required flashblock.css
+        soundManager.url = 'http://heffrondrive.com/wp-content/plugins/compact-wp-audio-player/swf/soundmanager2.swf';
+        function play_mp3(flg, ids, mp3url, volume, loops)
+        {
+            //Check the file URL parameter value
+            var pieces = mp3url.split("|");
+            if (pieces.length > 1) {//We have got an .ogg file too
+                mp3file = pieces[0];
+                oggfile = pieces[1];
+                //set the file URL to be an array with the mp3 and ogg file
+                mp3url = new Array(mp3file, oggfile);
+            }
+
+            soundManager.createSound({
+                id: 'btnplay_' + ids,
+                volume: volume,
+                url: mp3url
+            });
+
+            if (flg == 'play') {
+                    soundManager.play('btnplay_' + ids, {
+                    onfinish: function() {
+                        if (loops == 'true') {
+                            loopSound('btnplay_' + ids);
+                        }
+                        else {
+                            document.getElementById('btnplay_' + ids).style.display = 'inline';
+                            document.getElementById('btnstop_' + ids).style.display = 'none';
+                        }
+                    }
+                });
+            }
+            else if (flg == 'stop') {
+    //soundManager.stop('btnplay_'+ids);
+                soundManager.pause('btnplay_' + ids);
+            }
+        }
+        function show_hide(flag, ids)
+        {
+            if (flag == 'play') {
+                document.getElementById('btnplay_' + ids).style.display = 'none';
+                document.getElementById('btnstop_' + ids).style.display = 'inline';
+            }
+            else if (flag == 'stop') {
+                document.getElementById('btnplay_' + ids).style.display = 'inline';
+                document.getElementById('btnstop_' + ids).style.display = 'none';
+            }
+        }
+        function loopSound(soundID)
+        {
+            window.setTimeout(function() {
+                soundManager.play(soundID, {onfinish: function() {
+                        loopSound(soundID);
+                    }});
+            }, 1);
+        }
+        function stop_all_tracks()
+        {
+            soundManager.stopAll();
+            var inputs = document.getElementsByTagName("input");
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].id.indexOf("btnplay_") == 0) {
+                    inputs[i].style.display = 'inline';//Toggle the play button
+                }
+                if (inputs[i].id.indexOf("btnstop_") == 0) {
+                    inputs[i].style.display = 'none';//Hide the stop button
+                }
+            }
+        }
+    </script>
+    <link rel='stylesheet' id='mediaelement-css'  href='http://heffrondrive.com/wp-includes/js/mediaelement/mediaelementplayer.min.css?ver=2.13.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://heffrondrive.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=3.8.4' type='text/css' media='all' />
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201439'></script>
+<script type='text/javascript' src='http://heffrondrive.com/wp-content/themes/duena/js/navigation.js?ver=20120206'></script>
+<script type='text/javascript' src='http://heffrondrive.com/wp-content/themes/duena/js/skip-link-focus-fix.js?ver=20130115'></script>
+<script type='text/javascript' src='http://heffrondrive.com/wp-content/themes/duena/js/superfish.js?ver=1.4.8'></script>
+<script type='text/javascript' src='http://heffrondrive.com/wp-content/themes/duena/js/jquery.mobilemenu.js?ver=1.0'></script>
+<script type='text/javascript' src='http://heffrondrive.com/wp-content/themes/duena/js/sfmenu-touch.js?ver=1.0'></script>
+<script type='text/javascript' src='http://heffrondrive.com/wp-content/themes/duena/js/jquery.flexslider.js?ver=2.1'></script>
+<script type='text/javascript' src='http://heffrondrive.com/wp-content/themes/duena/js/jquery.magnific-popup.js?ver=0.8.9'></script>
+<script type='text/javascript' src='http://heffrondrive.com/wp-content/themes/duena/js/bootstrap.js?ver=1.0'></script>
+<script type='text/javascript' src='http://heffrondrive.com/wp-content/themes/duena/js/custom.js?ver=1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://heffrondrive.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.13.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://heffrondrive.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=3.8.4'></script>
+		<script type="text/javascript">
+			// initialise plugins
+			jQuery(function(){
+				// main navigation init
+				jQuery('.navbar_inner > ul').superfish({
+					delay:       1000, 		// one second delay on mouseout 
+					animation:   {opacity:"show", height:"show"}, // fade-in and slide-down animation
+					speed:       'normal',  // faster animation speed 
+					autoArrows:  false,   // generation of arrow mark-up (for submenu)
+					dropShadows: false
+				});
+				jQuery('.navbar_inner > div > ul').superfish({
+					delay:       1000, 		// one second delay on mouseout 
+					animation:   {opacity:"show", height:"show"}, // fade-in and slide-down animation
+					speed:       'normal',  // faster animation speed 
+					autoArrows:  false,   // generation of arrow mark-up (for submenu)
+					dropShadows: false
+				});
+			});
+			jQuery(function(){
+			  var ismobile = navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i)
+			  if(ismobile){
+			  	jQuery('.navbar_inner > ul').sftouchscreen();
+			  	jQuery('.navbar_inner > div > ul').sftouchscreen();
+			  }
+			});
+		</script>
+		<!--[if (gt IE 9)|!(IE)]><!-->
+		<script type="text/javascript">
+			jQuery(function(){
+				jQuery('.navbar_inner > ul').mobileMenu();
+			  	jQuery('.navbar_inner > div > ul').mobileMenu();
+			})
+		</script>
+		<!--<![endif]-->
+		
+	<script src="http://stats.wordpress.com/e-201439.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:2.7.2',blog:'72410832',post:'0',tz:'-7'});
+	var load_cmc = function(){linktracker_init(72410832,0,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script></body>
+</html>

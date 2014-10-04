@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="DesigningIT">
+    <link rel="icon" type="image/ico" href="/assets/img/favicon.png">
+
+	<!--Title-->
+    <title>Medi-Gourmet | Homepage</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/main.css" rel="stylesheet">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- endbuild -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Google fonts -->
+    <script type="text/javascript">
+      WebFontConfig = {
+        google: { families: [ 'Arvo:700:latin', 'Open+Sans:400,600,700:latin' ] }
+      };
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script>
+
+  </head>
+
+<body>
+       <div class="top  js--fixed-header-offset">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12  col-sm-6">
+        <div class="top__slogan">
+          Balance for Life <small><span class="glyphicon  glyphicon-heart  tertiary-color"></span></small>
+        </div>
+      </div>
+      <div class="col-xs-12  col-sm-6">
+        <div class="top__menu">
+          <ul class="nav  nav-pills">
+            <li class="dropdown  js--mobile-dropdown">
+              <a class="dropdown-toggle" href="/contact">
+                Contact <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/support">Support</a></li>
+                <li><a href="/returns">Returns</a></li>
+              </ul>
+            </li>
+
+            <li><a href="/user/register">Register</a></li>
+            <li><a href="/user/login">Login</a></li>
+                      </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <header class="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-10  col-md-3">
+        <div class="header-logo">
+          <a href="/"><img alt="Logo" src="/assets/img/medigourmet-logo.png" width="233" height="67"></a>
+        </div>
+      </div>
+      <div class="col-xs-2  visible-sm  visible-xs">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle  collapsed" data-toggle="collapse" data-target="#collapsible-navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+      </div>
+      <div class="col-xs-12  col-md-7">
+        <nav class="navbar  navbar-default" role="navigation">
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse  navbar-collapse" id="collapsible-navbar">
+    <ul class="nav  navbar-nav">
+      <li>
+        <a href="/" class="dropdown-toggle">HOME</a>
+      </li>
+      <li class="dropdown">
+        <a href="/shop" class="dropdown-toggle">SHOP<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+        
+          <li><a href="http://www.medigourmet.com/shop/category/medi-gourmet-line">Medi-Gourmet Line</a></li>
+          <li><a href="http://www.medigourmet.com/shop/category/digital-downloads">Digital Downloads</a></li>
+          <li><a href="http://www.medigourmet.com/shop/category/e-books">E-Books</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="/blog" class="dropdown-toggle">MEDIA <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/articles">Weekly Articles</a></li>
+            <li><a href="/videos">Videos</a></li>
+            <li><a href="/recipes">Recipes</a></li>
+            <li><a href="/gallery">Gallery</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="/testimonials">Happy Clients</a>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle">ABOUT<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            <li><a href="/faq">FAQ</a></li>
+            
+            <li><a href="http://www.medigourmet.com/about/the-company">The Company</a></li>
+            
+            <li><a href="http://www.medigourmet.com/about/quality-assurance">Quality Assurance</a></li>
+            
+            <li><a href="http://www.medigourmet.com/about/private-label">Medi-Gourmet Private Label</a></li>
+            
+            <li><a href="http://www.medigourmet.com/about/refund-return-policy">Refund &amp; Return Policy</a></li>
+            
+            <li><a href="http://www.medigourmet.com/about/free-samples">Free Samples</a></li>
+            
+            <li><a href="http://www.medigourmet.com/about/membership">Membership</a></li>
+            
+            <li><a href="http://www.medigourmet.com/about/terms-of-service">Terms of Service</a></li>
+            
+            <li><a href="http://www.medigourmet.com/about/charitable-efforts-medigourmet">Charitable Efforts Medigourmet</a></li>
+            
+        </ul>
+      </li>
+      <li class="hidden-xs  hidden-sm">
+        <a href="#" class="js--toggle-search-mode"><span class="glyphicon  glyphicon-search  glyphicon-search--nav"></span></a>
+      </li>
+    </ul>
+    <!-- search for mobile devices -->
+    <form action="#" method="post" class="visible-xs  visible-sm  mobile-navbar-form" role="form">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search">
+        <span class="input-group-addon">
+          <button type="submit" class="mobile-navbar-form__appended-btn"><span class="glyphicon  glyphicon-search  glyphicon-search--nav"></span></button>
+        </span>
+      </div>
+    </form>
+    <div class="mobile-cart  visible-xs  visible-sm  push-down-15">
+        <span class="header-cart__text--price"><span class="header-cart__text">CART</span> $0.00</span>
+      <a href="/cart" class="header-cart__items">
+        <span class="header-cart__items-num">0</span>
+      </a>
+    </div>
+  </div><!-- /.navbar-collapse -->
+</nav>
+      </div>
+      <div class="col-xs-12  col-md-2  hidden-sm  hidden-xs">
+        <!-- Cart in header -->
+<div class="header-cart">
+  <span class="header-cart__text--price"><span class="header-cart__text">CART</span> $0.00</span>
+  <a href="#" class="header-cart__items">
+    <span class="header-cart__items-num">0</span>
+  </a>
+  <!-- Open cart panel -->
+  <div class="header-cart__open-cart">
+  
+  <p>There's nothing in your cart</p>
+  
+    <hr class="header-cart__divider">
+    <div class="header-cart__subtotal-box">
+      <span class="header-cart__subtotal">CART SUBTOTAL:</span>
+      <span class="header-cart__subtotal-price">$0.00</span>
+    </div>
+    <a class="btn btn-darker" href="/cart/">View Cart</a>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+
+  <!--Search open pannel-->
+  <div class="search-panel">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-11">
+          <form class="search-panel__form" method="post" action="http://www.medigourmet.com/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="params" value="eyJyZXN1bHRfcGFnZSI6InNlYXJjaCJ9" />
+<input type="hidden" name="ACT" value="154" />
+<input type="hidden" name="site_id" value="1" />
+<input type="hidden" name="csrf_token" value="4dfbe9361aa1ddfb08b1e19378f558078a7644e9" />
+</div>
+
+
+            <button type="submit"><span class="glyphicon  glyphicon-search"></span></button>
+            <input type="text" name="keywords" class="form-control" placeholder="Enter your search keyword">
+          </form>
+        </div>
+        <div class="col-sm-1">
+          <div class="search-panel__close  pull-right">
+            <a href="#" class="js--toggle-search-mode"><span class="glyphicon  glyphicon-circle  glyphicon-remove"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+   
+
+   <div class="jumbotron js--add-gradient" style="background:url(http://www.medigourmet.com/images/uploads/gallery/header-container-art-1920x320.jpg) repeat center top;">
+     <div class="container">
+       <div class="jumbotron__container">
+         <h2 class="jumbotron__subtitle">
+           
+         </h2>
+         <h1 class="jumbotron__title">
+           
+         </h1>
+                         </div>
+     </div>
+   </div>
+   
+
+   <div class="banners  push-down-30">
+      <div class="container">
+         <div class="row">
+            
+            <div class="col-xs-12  col-sm-6  col-md-3">
+               <div class="banners-box">
+                  <a href="/videos">
+                  <span class="glyphicon glyphicon-facetime-video glyphicon--banners"></span>
+                  <b class="banners__title">VIDEOS</b>
+                  click to view latest videos <span class="glyphicon glyphicon-play readmore"></span></a>
+               </div>
+            </div>
+            
+            <div class="col-xs-12  col-sm-6  col-md-3">
+               <div class="banners-box">
+                  <a href="/shop/category/e-books">
+                  <span class="glyphicon glyphicon-book glyphicon--banners"></span>
+                  <b class="banners__title">E-BOOKS</b>
+                  click for our ebooks <span class="glyphicon glyphicon-play readmore"></span></a>
+               </div>
+            </div>
+            
+            <div class="col-xs-12  col-sm-6  col-md-3">
+               <div class="banners-box">
+                  <a href="/recipes">
+                  <span class="glyphicon glyphicon-folder-open glyphicon--banners"></span>
+                  <b class="banners__title">DELICIOUS RECIPES</b>
+                  click to get recipes <span class="glyphicon glyphicon-play readmore"></span></a>
+               </div>
+            </div>
+            
+            <div class="col-xs-12  col-sm-6  col-md-3">
+               <div class="banners-box">
+                  <a href="/gallery">
+                  <span class="glyphicon glyphicon-picture glyphicon--banners"></span>
+                  <b class="banners__title">GALLERY</b>
+                  click to view photos <span class="glyphicon glyphicon-play readmore"></span></a>
+               </div>
+            </div>
+            
+         </div>
+      </div>
+   </div>
+   
+   <div class="container">
+      <!-- Navigation for products -->
+      <div class="products-navigation  push-down-15">
+         <div class="row">
+            <div class="col-xs-12  col-sm-8">
+               <div class="products-navigation__title">
+                  <h3>Featured Products </h3>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Products -->
+      <div class="row">
+         
+         <div class="col-xs-6 col-sm-3" >
+            <div class="products__single">
+               <figure class="products__image">
+                  <a href="http://www.medigourmet.com/shop/product/medigourmet-super-fruits-and-greens-vegan">
+                  <img src="/images/made/images/uploads/gallery/Medigourmet_Super-Fruits-greens-3_263_334_s_c1.jpg" class="product__image" width="263" height="334" alt="" />
+                  </a>
+                  <div class="product-overlay">
+                     <a class="product-overlay__more" href="http://www.medigourmet.com/shop/product/medigourmet-super-fruits-and-greens-vegan">
+                     <span class="glyphicon glyphicon-search"></span>
+                     </a>
+                     <a class="product-overlay__cart" href="http://www.medigourmet.com/shop/product/medigourmet-super-fruits-and-greens-vegan">
+                     +<span class="glyphicon glyphicon-shopping-cart"></span>
+                     </a>
+                     <div class="product-overlay__stock">
+                        <span class="in-stock">•</span> <span class="in-stock--text">In stock</span> 
+                     </div>
+                  </div>
+               </figure>
+               <div class="row">
+                  <div class="col-xs-9">
+                     <h5 class="products__title">
+                        <a class="products__link  js--isotope-title" href="http://www.medigourmet.com/shop/product/medigourmet-super-fruits-and-greens-vegan">Medigourmet Super Fruits and Greens Vegan</a>
+                     </h5>
+                  </div>
+                  <div class="col-xs-3">
+                     <div class="products__price">
+                        $59.95
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+         
+         <div class="col-xs-6 col-sm-3" >
+            <div class="products__single">
+               <figure class="products__image">
+                  <a href="http://www.medigourmet.com/shop/product/medigourmet-lose-it-weight-loss-coffee-alterntive">
+                  <img src="/images/made/images/uploads/gallery/medigourmet-loseit-koko-kiss_x360_263_334_s_c1.jpg" class="product__image" width="263" height="334" alt="" />
+                  </a>
+                  <div class="product-overlay">
+                     <a class="product-overlay__more" href="http://www.medigourmet.com/shop/product/medigourmet-lose-it-weight-loss-coffee-alterntive">
+                     <span class="glyphicon glyphicon-search"></span>
+                     </a>
+                     <a class="product-overlay__cart" href="http://www.medigourmet.com/shop/product/medigourmet-lose-it-weight-loss-coffee-alterntive">
+                     +<span class="glyphicon glyphicon-shopping-cart"></span>
+                     </a>
+                     <div class="product-overlay__stock">
+                        <span class="in-stock">•</span> <span class="in-stock--text">In stock</span> 
+                     </div>
+                  </div>
+               </figure>
+               <div class="row">
+                  <div class="col-xs-9">
+                     <h5 class="products__title">
+                        <a class="products__link  js--isotope-title" href="http://www.medigourmet.com/shop/product/medigourmet-lose-it-weight-loss-coffee-alterntive">Medigourmet Lose It Weight Loss coffee alternative</a>
+                     </h5>
+                  </div>
+                  <div class="col-xs-3">
+                     <div class="products__price">
+                        $47.95
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+         
+         <div class="col-xs-6 col-sm-3" >
+            <div class="products__single">
+               <figure class="products__image">
+                  <a href="http://www.medigourmet.com/shop/product/medigourmet-balance-vegan-dark-chocolate-bliss">
+                  <img src="/images/made/images/uploads/gallery/Medigourmet_Balance_Chocolate-x360_263_334_s_c1.jpg" class="product__image" width="263" height="334" alt="" />
+                  </a>
+                  <div class="product-overlay">
+                     <a class="product-overlay__more" href="http://www.medigourmet.com/shop/product/medigourmet-balance-vegan-dark-chocolate-bliss">
+                     <span class="glyphicon glyphicon-search"></span>
+                     </a>
+                     <a class="product-overlay__cart" href="http://www.medigourmet.com/shop/product/medigourmet-balance-vegan-dark-chocolate-bliss">
+                     +<span class="glyphicon glyphicon-shopping-cart"></span>
+                     </a>
+                     <div class="product-overlay__stock">
+                        <span class="in-stock">•</span> <span class="in-stock--text">In stock</span> 
+                     </div>
+                  </div>
+               </figure>
+               <div class="row">
+                  <div class="col-xs-9">
+                     <h5 class="products__title">
+                        <a class="products__link  js--isotope-title" href="http://www.medigourmet.com/shop/product/medigourmet-balance-vegan-dark-chocolate-bliss">Medigourmet Balance Vegan Dark Chocolate Bliss</a>
+                     </h5>
+                  </div>
+                  <div class="col-xs-3">
+                     <div class="products__price">
+                        $59.99
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+         
+         <div class="col-xs-6 col-sm-3" >
+            <div class="products__single">
+               <figure class="products__image">
+                  <a href="http://www.medigourmet.com/shop/product/medigourmet-Balance-Vegan-Vanilla-Creme">
+                  <img src="/images/made/images/uploads/gallery/Balance-Vanilla-creme_x360_263_334_s_c1.jpg" class="product__image" width="263" height="334" alt="" />
+                  </a>
+                  <div class="product-overlay">
+                     <a class="product-overlay__more" href="http://www.medigourmet.com/shop/product/medigourmet-Balance-Vegan-Vanilla-Creme">
+                     <span class="glyphicon glyphicon-search"></span>
+                     </a>
+                     <a class="product-overlay__cart" href="http://www.medigourmet.com/shop/product/medigourmet-Balance-Vegan-Vanilla-Creme">
+                     +<span class="glyphicon glyphicon-shopping-cart"></span>
+                     </a>
+                     <div class="product-overlay__stock">
+                        <span class="in-stock">•</span> <span class="in-stock--text">In stock</span> 
+                     </div>
+                  </div>
+               </figure>
+               <div class="row">
+                  <div class="col-xs-9">
+                     <h5 class="products__title">
+                        <a class="products__link  js--isotope-title" href="http://www.medigourmet.com/shop/product/medigourmet-Balance-Vegan-Vanilla-Creme">Medigourmet Balance Vegan Vanilla Creme</a>
+                     </h5>
+                  </div>
+                  <div class="col-xs-3">
+                     <div class="products__price">
+                        $59.99
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+         
+
+      </div>
+
+   </div>
+
+      <div class="testimonials  light-paper-pattern">
+         <div class="container">
+            <div class="row">
+               <div class="col-xs-12 col-sm-6 col-md-6">
+                  <a href="#js--testimonails-carousel" data-slide="prev"><span class="glyphicon  glyphicon-circle  glyphicon-chevron-left"></span></a>
+                  <h4 class="testimonials__title">Happy clients</h4>
+                  <a href="#js--testimonails-carousel" data-slide="next"><span class="glyphicon  glyphicon-circle  glyphicon-chevron-right"></span></a>
+
+                  <div id="js--testimonails-carousel" class="carousel  slide" data-ride="carousel" data-interval="5000">
+                     <div class="carousel-inner">
+                        
+                        <div class="item active">
+                           <a href="http://www.medigourmet.com/testimonials/cindy">
+                              <q class="testimonials__text">Medigourmet Balance after open heart surgery......</q><br><br>
+                              <cite><b>Cindy T.,</b></cite> Medigourmet Balance long time user
+                           </a>
+                        </div>
+                        
+                        <div class="item ">
+                           <a href="http://www.medigourmet.com/testimonials/reese-w">
+                              <q class="testimonials__text">I guess I am one of the lucky ones. I met Dr. Nappi 10 years ago when I had just had a quadrupal bypass. My Primary physian recommended that I speak with him for nutritional follow ups. Ten years later I can say all is great and...</q><br><br>
+                              <cite><b>Reese W.,</b></cite> Biochemist NASA
+                           </a>
+                        </div>
+                        
+                        <div class="item ">
+                           <a href="http://www.medigourmet.com/testimonials/matthew-mckay-barker">
+                              <q class="testimonials__text">Hey Doc, just wanted to give you some feedback.... My wife Kelly and I have been using super-fruits and greens off and on for 6yr... since KC we now live in NC with a baby in tote, you may remember me.... I ate dinner with you once... and was in an army sniper section at the time. Love your products I think they are some of the best and I appreciate the no BS attitude that comes with them i.e. like no fillers. I still think your S.F.G. is the best for what it is worth, many thanks Matt.</q><br><br>
+                              <cite><b>Matthew  Mckay Barker,</b></cite> Army Sniper
+                           </a>
+                        </div>
+                        
+                        <div class="item ">
+                           <a href="http://www.medigourmet.com/testimonials/dr-susan-t">
+                              <q class="testimonials__text">As an OGBYN physician I see many women on a daily basis in my practice and as one can imagine the visits have a wide range of variables. When I was researching to find an overall whole food daily nutritional product for my patients, Medigourmet shined like no other company or products. My patients and I are so very happy with the results month after month, year after year. I am a physician that is elated to be a patient of Dr. Napp&#39;s formulas.</q><br><br>
+                              <cite><b>Dr Susan  T.,</b></cite> OGBYN
+                           </a>
+                        </div>
+                        
+                        <div class="item ">
+                           <a href="http://www.medigourmet.com/testimonials/barry-stokes">
+                              <q class="testimonials__text">I played Pro football in the NFL for 10 years for several teams and had my share of injuries. When i needed top shelf nutrition I turned to Dr Nappi for solid nutrition and he delivered as promised.</q><br><br>
+                              <cite><b>Barry Stokes,</b></cite> Retired NFL New England Patriots Offensive Lineman
+                           </a>
+                        </div>
+                        
+                        <div class="item ">
+                           <a href="http://www.medigourmet.com/testimonials/lacy-o">
+                              <q class="testimonials__text">Where would my body and brain be without Medigourmet Balance?&nbsp; Not in the top 2% of my class or top 100 woman fitness competitors that&#39;s for sure.</q><br><br>
+                              <cite><b>Lacy O.,</b></cite> Womens Fitness competitor Grad. Student
+                           </a>
+                        </div>
+                        
+                        <div class="item ">
+                           <a href="http://www.medigourmet.com/testimonials/rachel-t">
+                              <q class="testimonials__text">When my mom was released from the hospital I needed a sure fire altenative to make sure she was getting good nutrition. Medigourmet and Dr. Nappi were there for us. Thanks very much.</q><br><br>
+                              <cite><b>Rachel T.,</b></cite> Cardiac Care Nurse
+                           </a>
+                        </div>
+                        
+                        <div class="item ">
+                           <a href="http://www.medigourmet.com/testimonials/marcus-p">
+                              <q class="testimonials__text">After suffering for years with Irritable Bowl Syndrome who would of thought a green pouch called Super Fruits and Greens would change my life in such a dramatic way, But it did! Thanks Medigourmet</q><br><br>
+                              <cite><b>Marcus P.,</b></cite> Fire Fighter
+                           </a>
+                        </div>
+                        
+                        <div class="item ">
+                           <a href="http://www.medigourmet.com/testimonials/tina-n">
+                              <q class="testimonials__text">At 58 after trying everything over the years medigourmet balance and Lose It helped me reach my fitness goal</q><br><br>
+                              <cite><b>Tina N,</b></cite> Mother of Five
+                           </a>
+                        </div>
+                        
+                        <div class="item ">
+                           <a href="http://www.medigourmet.com/testimonials/karen-w">
+                              <q class="testimonials__text">I don&#39;t know what I would do without Medigourmet Lose It and Balance in the morning
+&nbsp;</q><br><br>
+                              <cite><b>Karen W.,</b></cite> Zoomba Instructor
+                           </a>
+                        </div>
+                        
+                     </div>
+                  </div>
+                  <a class="readall" href="/testimonials">Click Here to Read all Testimonials <span class="glyphicon glyphicon-play readmore"></span></a>
+
+               </div>
+               <div class="col-xm-12 col-sm-6 col-md-6">
+                  <div class="fb-like-box" data-href="https://www.facebook.com/medigourmet" data-height="350" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   <div class="container">   
+
+      <!-- Banners big -->
+      <div class="banners--big banners-email banners--big-left">
+         <div class="row">
+            <div class="col-xs-12  col-md-7">
+               <div class="banners--big__text">
+                  Subscribe To <strong>MediGourmet's VIP</strong> Newsletter For Unpublished Discounts 
+               </div>
+            </div>
+            <div class="col-xs-12  col-md-5">
+               <div class="banners--big__form">
+               <form method="post" class="sub-form" action="http://www.aweber.com/scripts/addlead.pl" target="_new">
+                  <div style="display: none;">
+                  <input type="hidden" name="meta_web_form_id" value="1093278991" />
+                  <input type="hidden" name="meta_split_id" value="" />
+                  <input type="hidden" name="listname" value="medi-gourmet" />
+                  <input type="hidden" name="redirect" value="http://www.medigourmet.com/user/register/newsletter">
+                  <input type="hidden" name="meta_redirect_onlist" value="https://www.medigourmet.com/user/subscriber-confirmation">
+                  <input type="hidden" name="meta_adtracking" value="MediGourmet_News" />
+                  <input type="hidden" name="meta_message" value="1" />
+                  <input type="hidden" name="meta_required" value="email" />
+                  <input type="hidden" name="meta_tooltip" value="" />
+                  </div>
+
+                     <div class="form-group  form-group--form">
+                        <input type="email" name="email" class="form-control required form-control--form" placeholder="Enter your E-mail address" required>
+                        <button class="btn  btn-primary" type="submit">Sign up now</button>
+                     </div>
+                     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                     <div style="position: absolute; left: -5000px;"><input type="text" name="b_ea0786485977f5ec8c9283d5c_5dad3f35e9" value=""></div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+      <div class="row push-down-40 weekly-series">
+         <div class="col-xs-12 col-sm-8">
+            <div class="latest-article">
+               <div class="widgets__heading--line">
+                  <h4 class="widgets__heading">Weekly Series</h4>
+               </div>
+               
+               <div class="products__category weekly text-centered">
+                  Medigourmet five steps to better gut health series
+               </div>
+
+            </div>
+
+            <div class="row">
+
+               <div class="col-xs-12 col-sm-12 col-md-6 push-down-20">
+
+                  <h5 class="products__title push-down-10">
+                     <a class="products__link" href="http://www.medigourmet.com/articles/medigourmet-five-steps-to-better-gut-health-day-8">Medigourmet five steps to better gut health day 8</a>
+                  </h5>
+
+                  <a href="http://www.medigourmet.com/articles/medigourmet-five-steps-to-better-gut-health-day-8">
+                     <img  class="product__image wp-post-image" src="http://www.medigourmet.com/images/uploads/gallery/medigourmet_better_gut_health_series_day_8.jpg" />
+                  </a>
+
+                  <div class="products__title">
+                     <div class="push-down-10"></div>
+                  </div>
+                  <div class="products__category">
+                     
+                  </div>
+
+                  <p><strong>D&#1072;&#1091; 8: R&#1077;du&#1089;&#1077; Str&#1077;&#1109;&#1109;</strong></p>
+
+                  
+               </div>
+
+               <div class="col-xs-12 col-sm-12 col-md-6">
+
+                     
+                     <div class="push-down-20 latest-articles clearfix">
+                        <h5 class="products__title">
+                           <a class="products__link" href="http://www.medigourmet.com/articles/medigourmet-five-steps-to-better-gut-health-day-7">Medigourmet five steps to better gut health day 7</a>
+                        </h5>
+                        <div class="products__category">
+                           Medigourmet five steps to better gut health series
+                        </div>
+                     </div>
+                     
+                     <div class="push-down-20 latest-articles clearfix">
+                        <h5 class="products__title">
+                           <a class="products__link" href="http://www.medigourmet.com/articles/medigourmet-five-steps-to-better-gut-health-day-6">Medigourmet five steps to better gut health day 6</a>
+                        </h5>
+                        <div class="products__category">
+                           Medigourmet five steps to better gut health series
+                        </div>
+                     </div>
+                     
+                     <div class="push-down-20 latest-articles clearfix">
+                        <h5 class="products__title">
+                           <a class="products__link" href="http://www.medigourmet.com/articles/medigourmet-five-steps-to-better-gut-health-day-5">Medigourmet five steps to better gut health day 5</a>
+                        </h5>
+                        <div class="products__category">
+                           Medigourmet five steps to better gut health series
+                        </div>
+                     </div>
+                     
+                     <div class="push-down-20 latest-articles clearfix">
+                        <h5 class="products__title">
+                           <a class="products__link" href="http://www.medigourmet.com/articles/medigourmet-five-steps-to-better-gut-health-day-4">Medigourmet five steps to better gut health day 4</a>
+                        </h5>
+                        <div class="products__category">
+                           Medigourmet five steps to better gut health series
+                        </div>
+                     </div>
+                     
+                     <div class="push-down-20 latest-articles clearfix">
+                        <h5 class="products__title">
+                           <a class="products__link" href="http://www.medigourmet.com/articles/medigourmet-five-steps-to-better-gut-health-day-3">MеdiGоurmеt Fivе Stерѕ tо Bеttеr Gut Health Series Day 3</a>
+                        </h5>
+                        <div class="products__category">
+                           Medigourmet five steps to better gut health series
+                        </div>
+                     </div>
+                     
+                     <div class="push-down-20 latest-articles clearfix">
+                        <h5 class="products__title">
+                           <a class="products__link" href="http://www.medigourmet.com/articles/medigourmet-five-steps-to-better-gut-health-day-2">Medigourmet five steps to better gut health day 2</a>
+                        </h5>
+                        <div class="products__category">
+                           Medigourmet five steps to better gut health series
+                        </div>
+                     </div>
+                     
+
+               </div>
+            </div>
+             <a class="more-content" href="/articles">Click for more Weekly Series <span class="glyphicon glyphicon-play readmore"></span></a>
+         </div>
+         <div class="col-xs-12 col-sm-4">
+            <div class="widgets__heading--line">
+               <h4 class="widgets__heading">From the Blog</h4>
+            </div>
+
+            
+
+            <div class="clearfix  push-down-20">
+               <a href="http://www.medigourmet.com/blog/medigourmet-are-your-cosmetics-poisoning-you">
+               <img src="/images/made/images/uploads/gallery/medigourmet-womens-cosmetic-poisoning-600_78_78_s_c1.jpg" class="widgets__products" width="78" height="78" alt="" />
+               </a>
+               <div class="products__title">
+                  <a class="products__link" href="http://www.medigourmet.com/blog/medigourmet-are-your-cosmetics-poisoning-you">Medigourmet are your cosmetics poisoning you</a>
+               </div>
+               <p class="date">19 Sep, 2014</p>
+               <div class="products__category">
+                  
+               </div>
+            </div>
+
+            
+
+            <div class="clearfix  push-down-20">
+               <a href="http://www.medigourmet.com/blog/medigourmet-what-older-adults-need-to-know-about-retail-clinics">
+               <img src="/images/made/images/uploads/gallery/Medigourmet-retail-Health-Clinics_78_78_s_c1.jpg" class="widgets__products" width="78" height="78" alt="" />
+               </a>
+               <div class="products__title">
+                  <a class="products__link" href="http://www.medigourmet.com/blog/medigourmet-what-older-adults-need-to-know-about-retail-clinics">Medigourmet What older adults need to know about retail clinics</a>
+               </div>
+               <p class="date">12 Sep, 2014</p>
+               <div class="products__category">
+                  
+               </div>
+            </div>
+
+            
+
+            <div class="clearfix  push-down-20">
+               <a href="http://www.medigourmet.com/blog/medigourmet-eating-better-on-a-budget">
+               <img src="/images/made/images/uploads/gallery/medigourmet-food-money_78_78_s_c1.jpg" class="widgets__products" width="78" height="78" alt="" />
+               </a>
+               <div class="products__title">
+                  <a class="products__link" href="http://www.medigourmet.com/blog/medigourmet-eating-better-on-a-budget">Medigourmet eating bеttеr on a budgеt</a>
+               </div>
+               <p class="date">11 Sep, 2014</p>
+               <div class="products__category">
+                  
+               </div>
+            </div>
+
+            
+
+            <div class="clearfix  push-down-20">
+               <a href="http://www.medigourmet.com/blog/medigourmet-are-you-balanced-or-will-you-fall">
+               <img src="/images/made/images/uploads/gallery/medigourmet-are-you-balanced_78_78_s_c1.jpg" class="widgets__products" width="78" height="78" alt="" />
+               </a>
+               <div class="products__title">
+                  <a class="products__link" href="http://www.medigourmet.com/blog/medigourmet-are-you-balanced-or-will-you-fall">Medigourmet Are You Balanced or Will You Fall</a>
+               </div>
+               <p class="date">09 Sep, 2014</p>
+               <div class="products__category">
+                  
+               </div>
+            </div>
+
+            
+
+            <div class="clearfix  push-down-20">
+               <a href="http://www.medigourmet.com/blog/medigourmet-news-fish-oil-might-benefit-prostate-cancer">
+               <img src="/images/made/images/uploads/Fish_oil_and_cancer_Medigourmet_78_78_s_c1.jpg" class="widgets__products" width="78" height="78" alt="" />
+               </a>
+               <div class="products__title">
+                  <a class="products__link" href="http://www.medigourmet.com/blog/medigourmet-news-fish-oil-might-benefit-prostate-cancer">MediGourmet News Fish Oil Might Benefit Prostate Cancer</a>
+               </div>
+               <p class="date">17 Jul, 2013</p>
+               <div class="products__category">
+                  Mens Health
+               </div>
+            </div>
+
+            
+
+            <a class="more-content blog-more" href="/blog">Click for more Blog posts <span class="glyphicon glyphicon-play readmore"></span></a>
+
+
+         </div>
+      </div>
+   
+   </div>
+   
+
+     <footer class="js--page-footer">
+    <div class="footer-widgets">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12  col-sm-3">
+            <div class="footer-widgets__social">
+              <img class="push-down-10" alt="Footer Logo" src="/assets/img/medigourmet-logo-footer.png" width="236" height="68">
+              <div class="push-down-15">Medi-Gourmet Functional Food Company is a USA based manufacturer that produces only the highest quality functional foods, whole food nutraceuticals and nutritional formulations!</div>
+              <a class="social-container" href="http://www.facebook.com/medigourmet"><span class="zocial-facebook"></span></a>
+              <a class="social-container" href="https://twitter.com/healthyride"><span class="zocial-twitter"></span></a>
+              <a class="social-container" href="mailto:support@medigourmet.com"><span class="zocial-email"></span></a>
+              <a class="social-container" href="http://www.youtube.com/medigourmet"><span class="zocial-youtube"></span></a>
+            </div>
+          </div>
+          <div class="col-xs-12  col-sm-3">
+            <nav class="footer-widgets__navigation">
+              <div class="footer-wdgets__heading--line">
+                <h4 class="footer-widgets__heading">Navigation</h4>
+              </div>
+              <div class="row">
+                <div class="col-xl-12 col-sm-6">
+                <ul class="nav nav-footer">
+                  <li><a href="/index">Home</a></li>
+                  <li><a href="/shop">Shop</a></li>
+                  <li><a href="/testimonials">Testimonials</a></li>
+                  <li><a href="/about/the-company">About</a></li>
+                  <li><a href="/contact">Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-xl-12 col-sm-5">
+                <ul class="nav nav-footer col-xl-12 col-sm-6">
+                  <li><a href="/blog">Blog</a></li>
+                  <li><a href="/articles">Articles</a></li>
+                  <li><a href="/videos">Videos</a></li>
+                  <li><a href="/recipes">Recipes</a></li>
+                  <li><a href="/gallery">Gallery</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div class="col-xs-12  col-sm-3">
+            <div class="footer-widgets__navigation footer-twitter">
+              <div class="footer-wdgets__heading--line">
+                <h4 class="footer-widgets__heading">Twitter</h4>
+              </div>
+                <ul class="twitter">
+                  
+                  <li>
+                    <p>Don't miss the top 10 most exciting stories in <a href="http://twitter.com/search/%233dprinting" target="_blank">#<span>3dprinting</span></a> in the last hour at <a href="http://t.co/qcpmVs8B9y" title="http://bit.ly/19hq776" target="_blank"><span>bit.ly/19hq776</span></a></p>
+                    <a class="created" href="https://twitter.com/healthyride"><span class="zocial-twitter"></span> created 6 minutes ago</a>
+                  </li>
+                  
+                  <li>
+                    <p>Printrbot Simple Maker 1405 3D Printer Kit Fully ... - <a href="http://t.co/hpE6XQ8zBv" title="http://www.b3dgeable.com/2014/09/27/printrbot-simple-maker-1405-3d-printer-kit-fully-assembled-w-filament-rack/" target="_blank"><span>b3dgeable.com/2014/09/27/pri…</span></a> <a href="http://twitter.com/search/%233dprinting" target="_blank">#<span>3dprinting</span></a> <a href="http://twitter.com/Build3dprinter/status/515948619845754881/photo/1" title="http://twitter.com/Build3dprinter/status/515948619845754881/photo/1" target="_blank"><span>pic.twitter.com/VDB8W0MoWi</span></a></p>
+                    <a class="created" href="https://twitter.com/healthyride"><span class="zocial-twitter"></span> created 13 minutes ago</a>
+                  </li>
+                  
+
+                </ul>
+            </div>
+          </div>
+          <div class="col-xs-12  col-sm-3">
+            <div class="footer-widgets__navigation">
+                <div class="footer-wdgets__heading--line">
+                  <h4 class="footer-widgets__heading">Contact Us</h4>
+                </div>
+                <p class="footer__link">Medigourmet Functional Food Co.</p>
+                PO Box 881705 <br>
+Port Saint Lucie, FL 34988
+
+                <p class="footer__link"><span class="glyphicon glyphicon-earphone glyphicon--footer"></span>  1 800 781 4243</p>
+                <a class="footer__link" href="mailto:support@medigourmet.com"><span class="glyphicon glyphicon-envelope glyphicon--footer"></span> support@medigourmet.com</a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12  col-sm-6">
+            <div class="footer__text--link">
+              <a class="footer__link" href="http://medigourmet.com">Medi Gourmet</a> © Copyright 2014.
+            </div>
+          </div>
+          <div class="col-xs-12  col-sm-6">
+            <div class="footer__text">
+              Made with <span class="glyphicon  glyphicon-heart"></span> by <a class="footer__link" href="http://www.designingit.com/" target="_blank">DESIGNINGIT</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- Modal register-->
+<div class="modal  fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content  center">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+        <h3><span class="light">Register</span> on Medi Gourmet</h3>
+        <hr class="divider">
+      </div>
+      <div class="modal-body">
+        <form action="#" class="push-down-15">
+          <div class="form-group">
+            <input type="text" id="name" class="form-control  form-control--contact" placeholder="Username">
+          </div>
+          <div class="form-group">
+            <input type="text" id="email" class="form-control  form-control--contact" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" class="form-control  form-control--contact" placeholder="Password">
+          </div>
+          <button type="submit" class="btn  btn-primary">REGISTER</button>
+        </form>
+        <a data-toggle="modal" role="button" href="#loginModal" data-dismiss="modal">Already Registered?</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal login-->
+<div class="modal  fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content  center">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+        <h3><span class="light">Login</span> to Medi Gourmet</h3>
+        <hr class="divider">
+      </div>
+      <div class="modal-body">
+        <form id="loginform" class="push-down-15" method="post" action="http://www.medigourmet.com/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="101" />
+<input type="hidden" name="RET" value="http://www.medigourmet.com" />
+<input type="hidden" name="URI" value="" />
+<input type="hidden" name="FRM" value="3e6bce5dc7feb1d7c5c1688593b16675" />
+<input type="hidden" name="return" value="user/" />
+<input type="hidden" name="ERR" value="2sMpgRiLAHXyecuL+CiHr7LojckwsutKMEtIpmwQ6rwgFtIKjY0VhxrqEmZ6kVzF4nOa+8eAP6ZInZmIsZl+qw==" />
+<input type="hidden" name="RLS" value="9OYVqHBW34JpkbiCnqLuedfQgGJOoTi0psbyvsYQpa74SKAeTCeVS4cF7n4TyNFlRBIb/2f3PuBohRgC/CWPGQ==" />
+<input type="hidden" name="site_id" value="1" />
+<input type="hidden" name="csrf_token" value="4dfbe9361aa1ddfb08b1e19378f558078a7644e9" />
+</div>
+
+
+          <div class="form-group">
+            <input type="text" id="username" class="form-control required form-control--contact" name="username" placeholder="Username">
+          </div>
+          <div class="form-group">
+            <input type="password" id="password" class="form-control required form-control--contact" name="password" placeholder="Password">
+          </div>
+          <a class="lost_password" href="http://www.medigourmet.com/user/forgot-password"> Lost Password? </a>
+          <button type="submit" class="btn  btn-primary">SIGN IN</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+     <div class="search-mode__overlay"></div>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <script type="text/javascript" async  data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>
+
+    <script type="text/javascript">
+      function downloadJSAtOnload() {
+        var element = document.createElement("script");
+        element.src = "/assets/js/main.js";
+        document.body.appendChild(element);
+      }
+      if (window.addEventListener)
+        window.addEventListener("load", downloadJSAtOnload, false);
+      else if (window.attachEvent)
+        window.attachEvent("onload", downloadJSAtOnload);
+      else window.onload = downloadJSAtOnload;
+    </script>
+  
+  </body>
+</html>
+

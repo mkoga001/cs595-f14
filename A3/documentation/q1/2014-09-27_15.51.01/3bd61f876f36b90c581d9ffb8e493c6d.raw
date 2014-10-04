@@ -1,0 +1,1531 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html>
+<html>
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        <title>ohholybutt</title>
+
+        <meta charset="utf-8">
+        <meta name="description" content="This is where I post the things I write that are even less funny than the other ones." />
+
+        <meta name="color:Accent" content="#4EA3D0"/>
+        <meta name="font:Body" content="'Helvetica Neue', Helvetica, Arial, sans-serif"/>
+        <meta name="if:Two column posts" content="1"/>
+
+        <!-- Appearance option -->
+        <meta name="if:Show bar on top" content="1"/>
+        <meta name="if:Show blog title" content="1"/>
+        <meta name="if:Show blog description" content="1"/>
+        <meta name="if:Show profile photo" content="1"/>
+        <meta name="if:Use endless scrolling" content="1"/>
+
+
+        <meta name="if:Show right column" content="1"/>
+        <meta name="if:Place timestamp in left column" content="1"/>
+        <meta name="if:Use larger font for quotes" content="0"/>
+        <meta name="if:Show image shadows" content="1"/>
+        <meta name="if:Show tags" content="1"/>
+        <meta name="if:Show post notes" content="1"/>
+        <meta name="if:Show copyright in footer" content="1"/>
+        <meta name="text:Disqus Shortname" content="" />
+        <meta name="text:Google Analytics ID" content=""/>
+
+        <link rel="shortcut icon" href="http://31.media.tumblr.com/avatar_4e3b8c8f6e9d_128.png" />
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="http://ohholybutt.tumblr.com/rss"/>
+
+        <!-- HTML5 Shiv -->
+        <!--[if lt IE 9]>
+                <script src="http://static.tumblr.com/hriofhd/Qj0m8pn7q/html5shiv.js"></script>
+        <![endif]-->
+
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="http://static.tumblr.com/thpaaos/DIcklyl4z/reset.css" type="text/css">
+
+        <!-- Theme CSS -->
+        <style type="text/css" media="screen">
+            body {
+                -webkit-font-smoothing: antialiased;
+                font-size: 15px;
+                font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                line-height: 24px;
+                margin: 0;
+                padding: 0;
+            }
+
+            *:active, *:focus { outline-width: 0px; }
+            img { max-width: 100% }
+            .post .top.media img { width: 100%; }
+            a { text-decoration: none; color: #4EA3D0; }
+            a img { border-width: 0px; }
+            strong { font-weight: bold; }
+            em { font-style: italic; }
+
+            .group:after {
+                visibility: hidden;
+                display: block;
+                content: "";
+                clear: both;
+                height: 0;
+                }
+            * html .group             { zoom: 1; } /* IE6 */
+            *:first-child+html .group { zoom: 1; } /* IE7 */
+
+            iframe#tumblr_controls {
+                top: 12px !important;
+            }
+
+            #color_bar {
+                height: 12px;
+                background: #4EA3D0;
+            }
+
+            #container {
+                width: 950px;
+                margin: 0 auto;
+                padding: 60px 20px;
+            }
+
+            #header {
+                height: 48px;
+                margin: 0 0 60px 0;
+            }
+
+            #blog_info {
+                width: 700px;
+                margin: 0 60px 0 0;
+                float: left;
+            }
+
+            #blog_info h1 {
+                font-size: 36px;
+                font-weight: bold;
+                letter-spacing: -1px;
+                line-height: 36px;
+                margin: 8px 0 0 0;
+            }
+
+            #blog_info h1 a {
+                color: #333333;
+            }
+                            
+            #blog_info h1 a:hover {
+                color: #000;
+            }
+
+            #blog_info h1 a:active {
+                position: relative;
+                top: 1px;
+            }
+
+            #blog_info p, #blog_info .cont {
+                color: #646464;
+                margin-top: 7px;
+            }
+
+            .cont {
+                margin-bottom: 7px;
+            }
+
+            #blog_avatar {
+                width: 188px;
+                position: relative;
+                float: right;
+                
+            }
+
+            #blog_avatar a {
+                width: 48px;
+                height: 48px;
+                
+                    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, .21);
+                    box-shadow: 0px 1px 3px rgba(0, 0, 0, .21);
+                  
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: block;
+            }
+
+            #blog_avatar img {
+                width: 48px;
+                -webkit-border-radius: 2px;
+                -moz-border-radius: 2px;
+                border-radius: 2px;
+            }
+
+            #blog_avatar a::before {
+                content: " ";
+                width: 46px;
+                height: 46px;
+                -webkit-border-radius: 2px;
+                -moz-border-radius: 2px;
+                border-radius: 2px;
+                border: 1px solid rgba(0,0,0,.1);
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                z-index: 999;
+                display: block;
+            }
+
+            #blog_avatar:hover a {
+                width: 64px;
+                height: 64px;
+                top: -8px;
+                left: -8px;
+            }
+
+            #blog_avatar:hover a img {
+                width: 64px;
+            }
+
+            #blog_avatar:hover a::before {
+                width: 62px;
+                height: 62px;
+            }
+
+            #blog_avatar:active a {
+                top: -7px;
+                -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, .21);
+                box-shadow: 0px 0px 1px rgba(0, 0, 0, .21);
+            }
+
+            #posts {
+                width: 700px;
+                color: #4C4C4C;
+                margin: 0 60px 0 0;
+                float: left;
+            }
+
+            #posts .post {
+                list-style-type: none;
+                border-bottom: 1px solid #E6E6E6;
+                margin: 0 0 45px 0;
+                padding: 0 0 45px 0;
+            }
+
+
+
+            .top.audio * {
+                width: 700px;
+                height: 91px
+            }
+
+            .top.media {
+                line-height: 0;
+                
+                    -webkit-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, .27);
+                    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, .27);
+                
+                position: relative;
+                display: inline-block;
+            }
+
+            .top.media.photoset {
+                line-height: 0;
+                
+                    -webkit-box-shadow: none;
+                    box-shadow: none;
+                
+                position: relative;
+                display: inline-block;
+            }
+
+            .media img {
+                -webkit-border-radius: 2px;
+                -moz-border-radius: 2px;
+                border-radius: 2px;
+            }
+
+            .link_post .link {
+                color: #4EA3D0;
+                font-size: 21px;
+                font-weight: bold;
+                border: 1px solid rgba(78,163,208, 0.13);
+                background: rgba(78,163,208, 0.13);
+                -webkit-border-radius: 2px;
+                -moz-border-radius: 2px;
+                border-radius: 2px;
+                padding: 15px 53px 15px 20px;
+                position: relative;
+                display: block;
+            }
+
+            .link .arrow {
+                width: 0; 
+                height: 0; 
+                border-top: 8px solid transparent;
+                border-bottom: 8px solid transparent;
+                border-left: 12px solid #4EA3D0;
+                position: absolute;
+                top: 50%;
+                right: 20px;
+                margin-top: -8px;
+                display: block;
+            }
+
+            .link_post .link:hover {
+                border: 1px solid rgba(78,163,208, 0.2);
+                background: rgba(78,163,208, 0.2);
+            }
+
+            .link_post .link:active {
+                position: relative;
+                top: 1px;
+            }
+
+            #posts .post .caption_and_post_info.after_top_part {
+                border-top: 0;
+                margin: 30px auto auto auto;
+                padding-top: 0;
+            }
+
+            .post .caption {
+                width: auto;
+                float: none;
+            }
+
+            
+            .post .caption {
+                width: 513px;
+                float: right;
+            }
+            
+
+            .content_source {
+                margin-bottom: 20px;
+            }
+
+            .content_source img {
+                margin: 0 0 0 4px !important;
+                opacity: 0.7;
+                vertical-align: middle;
+            }
+
+            .caption a, .description a {
+                color: #4EA3D0;
+                padding: 0 1px;
+            }
+
+            .caption a:hover, .description a:hover {
+                background: rgba(78,163,208, 0.13);
+            }
+
+            .caption a:active, .description a:active {
+                background: rgba(78,163,208, 0.2);
+            }
+
+            .caption h2 {
+                font-size: 32px;
+                line-height: 33px;
+                margin: 0 0 18px 0;
+            }
+
+            .caption h2 a {
+                color: #333;
+                font-weight: bold;
+                letter-spacing: -1px;
+            }
+
+            .caption h2 a:hover {
+                color: #4EA3D0;
+                background: transparent;
+            }
+                                
+            .caption blockquote {
+                border-left: 2px solid #E6E6E6;
+                padding: 1px 0 1px 20px;
+            }
+
+            .caption pre {
+                background: #eee;
+                font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Anonymous Pro", "Courier New", monospace, serif;
+                overflow: scroll;
+                padding: 10px;
+                border-radius: 3px;
+                font-size: 13px;
+                line-height: 19px;
+            }
+
+            .caption p,
+            .caption ol,
+            .caption ul,
+            .caption pre,
+            .caption h1,
+            .caption h2,
+            .post h3,
+            .caption h4,
+            .caption h5,
+            .caption blockquote,
+            .caption img,
+            .caption embed,
+            .caption object {
+                margin: 0 0 20px 0;
+            }
+
+            .caption p:empty {
+                display: none;
+            }
+
+            .caption iframe {
+                display: block !important;
+            }
+
+            .post .caption ul,
+            .post .caption ol {
+                margin-left: 18px;
+            }
+
+            .caption .question {
+                display: block;
+                padding: 15px;
+                font-size: 15px;
+            }
+
+            .caption .answer {
+                margin-top: 20px;
+            }
+
+            .caption .asker {
+                line-height: 24px;
+                margin: 25px 20px 0 23px;
+            }
+
+            .caption .asker img {
+                float: left;
+                margin: 0 7px 0 0;
+            }
+
+            .caption .asker a {
+                margin-left: 0;
+            }
+
+            .caption .quote {
+                color: #333;
+                font-weight: bold;
+            }
+
+            .quote span {
+                display: inline-block;
+            }
+
+            .quote.short_text {
+                font-size: 50px;
+                letter-spacing: -2px;
+                line-height: 48px;
+                margin: 0 0 18px 0;
+            }
+
+            .quote.short_text span {
+                margin: 0 0 0 -22px;
+            }
+
+            .quote.medium_text {
+                font-size: 36px;
+                letter-spacing: -1px;
+                line-height: 36px;
+                margin: 0 0 20px 0;
+            }
+
+            .quote.medium_text span {
+                margin: 0 0 0 -13px;
+            }
+
+            .quote.long_text,
+            .quote.text {
+                font-size: 24px;
+                line-height: 27px;
+                margin: 0 0 20px 0;
+            }
+
+            .quote.long_text span {
+                margin: 0 0 0 -9px;
+            }
+
+            .quote.larger_text {
+                font-size: 50px !important;
+                letter-spacing: -2px !important;
+                line-height: 48px !important;
+                margin: 0 0 18px 0 !important;
+            }
+
+            .quote.larger_text span {
+                margin: 0 0 0 -22px !important;
+            }
+
+            .quote_source {
+                margin: 0 0 20px 0 !important;
+            }
+
+            .caption .conversation {
+                margin-left: 0 !important;
+                margin-bottom: 30px;
+                list-style-type: none;
+            }
+
+            .conversation .chat_line {
+                padding: 10px 16px;
+            }
+
+            .conversation .chat_line.user1 {
+                background: #f5f5f5;
+            }
+
+            .conversation .chat_line.user2 {
+                background: #fff;
+            }
+
+            .conversation .chat_line.user3 {
+                background: #ddd;
+            }
+
+            .conversation .chat_line.user4 {
+                background: #ccc;
+            }
+
+            .post .post_info {
+                width: auto;
+                font-size: 12px;
+                font-family: 'Times New Roman', Times, serif;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                list-style-type: none;
+                -webkit-font-smoothing: subpixel-antialiased;
+                margin: 1px 0 0 -3px;
+                overflow: hidden;
+            }
+
+            .post_info li {
+                line-height: 14px;
+                margin: 10px 0;
+                float: left;
+            }
+
+            .post_info li a {
+                margin: 0 10px 0 0;
+                padding: 0 2px 0 5px;
+            }
+
+            .post_info .timestamp {
+                color: #4c4c4c;
+                padding: 0 2px 0 5px;
+                display: inline-block;
+            }
+
+            .post_info .timestamp:hover {
+                background: rgba(0,0,0,.08);
+            }
+
+            .post_info .timestamp:active {
+                background: rgba(0,0,0,.1);
+            }
+
+            .post_info .notecount {
+                color: #4c4c4c;
+                padding: 0 2px 0 5px;
+                display: inline-block;
+            }
+
+            .post_info .notecount:hover {
+                background: rgba(0,0,0,.08);
+            }
+
+            .post_info .notecount:active {
+                background: rgba(0,0,0,.1);
+            }
+            
+            /* Post controls */
+
+            .post_controls {
+                border: 1px solid #e8e8e8;
+                border-radius: 3px;
+                float: left;
+                list-style: none;
+                margin: -10px 15px 15px 0;
+            }
+    
+            /* requires high specificity */
+            .post .post_info .post_controls li,
+            .post .post_info.floating .post_controls li {
+                float: left;
+                margin: 0;
+                padding: 7px 15px;
+                height: 21px;
+            }
+
+            .post_controls li:first-child {
+                border-right: 1px solid #e8e8e8;
+            }
+
+            .post .post_info .post_controls li a,
+            .post .post_info.floating .post_controls li a {
+                margin: 0;
+                padding: 0;
+            }
+            
+
+            /* Baselines */
+
+            .tag {
+                color: #4EA3D0;
+                display: table;
+            }
+
+            .tag span {
+                color: #4c4c4c;
+                display: table-cell;
+            }
+
+            .tag:hover {
+                background: rgba(78,163,208, 0.13);
+            }
+
+            .tag:hover span {
+                color: #4EA3D0;
+            }
+
+            .tag:active {
+                background: rgba(78,163,208, 0.2);
+            }
+
+            .post .post_info.floating {
+                width: 157px;
+                float: left;
+            }
+
+            .post .post_info.floating li {
+                float: none;
+            }
+
+            .post_notes {
+                clear: both;
+            }
+
+            ol.notes {
+                color: #4C4C4C;
+                font-size: 13px;
+                text-shadow: 0px 1px 0px rgba(255,255,255,.7);
+                text-align: left;
+                list-style-type: none;
+                border-top: solid 1px #E6E6E6;
+                -webkit-font-smoothing: subpixel-antialiased !important;
+                margin: 40px auto auto auto;
+            }
+
+            ol.notes li.note {
+                border-bottom: solid 1px #E6E6E6;
+                padding: 9px 0 10px 0;
+            }
+
+            ol.notes li.note img.avatar {
+                width: 16px;
+                height: 16px;
+                border-radius: 3px;
+                vertical-align: -4px;
+                margin-right: 6px;
+            }
+
+            ol.notes a {
+                color: #4C4C4C;
+                text-decoration: underline;
+            }
+
+                ol.notes a:hover {
+                    color: #4C4C4C;
+                }
+
+            ol.notes li.note blockquote {
+                border-color: #eee;
+                padding: 4px 10px;
+                margin: 10px 0px 0px 25px;
+            }
+
+            ol.notes li.note blockquote a {
+                text-decoration: none;
+            }
+
+            ol.notes li.note:last-child {
+                border-width: 0px;
+            }
+
+            #sidebar {
+                width: 188px;
+                color: #4c4c4c;
+                font-size: 14px;
+                margin: -8px 0 0 0;
+                float: right;
+            }
+
+            #sidebar .description {
+                line-height: 21px;
+                border-bottom: 1px solid #E6E6E6;
+                margin: 3px 0 20px 0;
+                padding: 0 0 20px 0;
+            }
+
+            #sidebar .links {
+                font-size: 12px;
+                font-family: 'Times New Roman', Times, serif;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                list-style-type: none;
+                -webkit-font-smoothing: subpixel-antialiased;
+                margin: 0 0 20px 0;
+                line-height: 20px;
+            }
+
+            #sidebar .links a {
+                color: #4c4c4c;
+            }
+
+            #sidebar .links a:hover {
+                color: #4EA3D0;
+            }
+
+            .links .icon {
+                width: 12px;
+                height: 12px;
+                background: #383838 url('http://static.tumblr.com/thpaaos/1xRm66voi/icons_sprite.png');
+                margin: 0 8px 0 0;
+                display: inline-block;
+            }
+
+            .links a:hover .icon {
+                background-color: #4EA3D0;
+            }
+
+            .ask .icon { background-position: 0 0; margin-bottom: -2px; }
+            .submit .icon { background-position: 0 -12px; margin-bottom: -1px; }
+            .rss .icon { background-position: 0 -24px; }
+            .archive .icon { background-position: 0 -36px; }
+
+            .bubble {
+                color: #6f6f6f;
+                font-size: 13px;
+                line-height: 20px;
+                background: #f5f5f5;
+                border: 1px solid #d5d5d5;
+                -webkit-border-radius: 4px;
+                -moz-border-radius: 4px;
+                border-radius: 4px;
+                padding: 8px 12px;
+                position: relative;
+                display: none;
+            }
+
+            #twitter_container .bubble:first-child {
+                display: block;
+            }
+
+            .bubble .arrow {
+                width: 0; 
+                height: 0; 
+                position: absolute;
+                display: block;
+            }
+
+            .bubble .arrow.fill {
+                border-left: 8px solid transparent;
+                border-right: 8px solid transparent;
+                border-top: 8px solid #f5f5f5;
+                bottom: -8px;
+                left: 25px;
+            }
+
+            .bubble .arrow.border {
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-top: 10px solid #d5d5d5;
+                bottom: -10px;
+                left: 23px;
+            }
+
+            .bubble:hover {
+                background: #f2f2f2;
+                border-color: #CFCFCF;
+            }
+
+            .bubble:hover .arrow.fill {
+                border-top-color: #F1F1F1;
+            }
+
+            .bubble:hover .arrow.border {
+                border-top-color: #d5d5d5;
+            }
+
+            .twitter_username {
+                max-width: 166px;
+                color: #4c4c4c;
+                font-size: 12px;
+                font-family: 'Times New Roman', Times, serif;
+                letter-spacing: 0.4em;
+                text-transform: uppercase;
+                text-overflow: ellipsis;
+                -webkit-font-smoothing: subpixel-antialiased;
+                margin: 11px 0 0 22px;
+                overflow: hidden;
+                display: inline-block;
+                opacity: 1;
+            }
+
+            .twitter_username:hover {
+                color: #4EA3D0;
+            }
+
+            #footer {
+                width: 700px;
+                color: #4C4C4C;
+                font-size: 12px;
+                font-family: 'Times New Roman', Times, serif;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                -webkit-font-smoothing: subpixel-antialiased;
+            }
+
+            #footer .copyright {
+                width: 50%;
+                float: left;
+            }
+
+            #footer .pagination {
+                width: 230px;
+                text-align: right;
+                float: right;
+                position: relative;
+            }
+
+            .pagination .count {
+                float: left;
+            }
+
+            .pagination .buttons {
+                width: 113px;
+                height: 30px;
+                margin: -2px 0 0 30px;
+                float: right;
+                position: absolute;
+                top: 0;
+                right: 0;
+                z-index: 10;
+            }
+
+            .pagination .buttons.disabled {
+                z-index: 9;
+            }
+
+            .buttons a,
+            .buttons li {
+                width: 56px;
+                height: 28px;
+                line-height: 999px;
+                text-align: center;
+                border: 1px solid #C8C8C8;
+                -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
+                box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
+                background: #f1f1f1; /* Old browsers */
+                background: -moz-linear-gradient(top,  #f1f1f1 0%, #e8e8e8 100%); /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1f1f1), color-stop(100%,#e8e8e8)); /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(top,  #f1f1f1 0%,#e8e8e8 100%); /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(top,  #f1f1f1 0%,#e8e8e8 100%); /* Opera 11.10+ */
+                background: -ms-linear-gradient(top,  #f1f1f1 0%,#e8e8e8 100%); /* IE10+ */
+                background: linear-gradient(top,  #f1f1f1 0%,#e8e8e8 100%); /* W3C */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#e8e8e8',GradientType=0 );/* IE6-9 */
+                list-style-type: none;
+                overflow: hidden;
+                position: relative;
+                display: block;
+            }
+
+            .buttons.disabled li {
+                background: #f5f5f5;
+            }
+
+            .buttons a:active {
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                background: #E6E6E6;
+            }
+
+            .buttons .arrow {
+                width: 10px;
+                height: 14px;
+                position: absolute;
+                top: 50%;
+                display: block;
+                background-image: url(http://static.tumblr.com/ogedyaw/xu1m8jxnf/arrow_sprite.png);
+            }
+
+            .buttons .left {
+                -webkit-border-top-left-radius: 2px;
+                -webkit-border-bottom-left-radius: 2px;
+                -moz-border-radius-topleft: 2px;
+                -moz-border-radius-bottomleft: 2px;
+                border-top-left-radius: 2px;
+                border-bottom-left-radius: 2px;
+                position: absolute;
+                left: 0;
+            }
+
+            .left .arrow {
+                background-position: 0 15px;
+                margin: -7px auto auto 20px;
+            }
+                
+            .disabled .left .arrow {
+                background-position: 0 0;
+            }
+
+            .buttons .right {
+                border-left-width: 1px;
+                -webkit-border-top-right-radius: 2px;
+                -webkit-border-bottom-right-radius: 2px;
+                -moz-border-radius-topright: 2px;
+                -moz-border-radius-bottomright: 2px;
+                border-top-right-radius: 2px;
+                border-bottom-right-radius: 2px;
+                position: absolute;
+                right: 0;
+            }
+
+            .right .arrow {
+                background-position: 10px -71px;
+                margin: -7px auto auto 24px;
+            }
+
+            .disabled .right .arrow {
+                background-position: 10px -56px;
+            }
+
+            /* Protection for parents that have floating children */
+            #header:after,
+            #container:after,
+            .caption_and_post_info:after,
+            #footer:after
+            .buttons:after {
+                content: ".";
+                display: block;
+                height: 0;
+                clear: both;
+                visibility: hidden;
+            }
+        </style>
+
+        
+
+        
+
+        <!-- Custom CSS -->
+        <style type="text/css" media="screen">
+            
+        </style>
+
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=ohholybutt" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="ohholybutt" /><meta property="og:url" content="http://ohholybutt.tumblr.com/?og=1" /><meta property="og:description" content="This is where I post the things I write that are even less funny than the other ones." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://31.media.tumblr.com/avatar_4e3b8c8f6e9d_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=ohholybutt" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=ohholybutt" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="ohholybutt" /><meta name="twitter:description" content="&lt;p&gt;This is where I post the things I write that are even less funny than the other ones.&lt;/p&gt;" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=ohholybutt&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=ohholybutt&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=ohholybutt&amp;referrer=twitter-cards" />
+
+</head>
+    <body>
+        <section id="color_bar"></section>
+
+        <section id="container" class="group">            
+            <header id="header">
+                <section id="blog_info">
+                    <h1><a href="/">ohholybutt</a></h1>
+                    
+                    
+                </section>
+
+                
+                    <section id="blog_avatar">
+                        <a href="/" class="avatar"><img src="http://38.media.tumblr.com/avatar_4e3b8c8f6e9d_64.png"></a>
+                    </section>
+                
+            </header>
+
+            <aside id="sidebar">
+                <div class="cont description group"><p>This is where I post the things I write that are even less funny than the other ones.</p></div>
+
+                
+
+                <ul class="links" style="display:none;">
+                    
+                    
+                </ul>
+
+                <ul class="links">
+                    <li><a href="http://ohholybutt.tumblr.com/rss" class="rss"><span class="icon"></span>rss</a></li>
+                    <li><a href="/archive" class="archive"><span class="icon"></span>archive</a></li>
+                </ul>
+
+                
+            </aside>
+
+            <ul id="posts">
+                <!-- START POSTS -->
+                
+
+                        <li class="post group"   >  
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        <section class="group caption_and_post_info
+                            
+                            
+                            
+                            
+                            
+                        ">
+                            
+                                <section class="caption group">
+                                    <h2><a href="http://ohholybutt.tumblr.com/post/97573471309/how-to-fix-the-titans">HOW TO FIX THE TITANS</a></h2>
+                                    <div class="cont group"><p>Getting Ebola is probably one of the worst things that could happen to a person. I mean, I don’t know that for a fact but it definitely sounds like a pain in the ass. There would be a plus side though because I’m pretty sure it’s one of those diseases where you can miss work for a while and nobody really says shit to you about it. Sure, it’s not an ideal vacation but it’s still technically time off, so wipe that blood out of your ears or whatever and enjoy sleeping all day.</p>
+
+<p>Being a Titans fan is basically like having Ebola. It’s not an ideal team to root for but it’s still technically football and at least you don’t have to root for a quarterback who drools on himself in line at the grocery store (I’m looking at your ugly ass, Andrew Luck).</p>
+
+<p>I’ve supported this horseshit team for not very long because I’m not very old. I have no NFL front office experience. The best one of my fantasy teams has ever finished is like fourth place. Here’s what needs to happen with the Titans.</p>
+
+<p>· Bud Adams died already so I don’t have to see that he needs to die but the Titans did need him to die right up until he did die. RIP you crazy old bastard.</p>
+
+<p>· Put Jake Locker in the trash can out back and just pray the garbage isn’t one of those assholes that goes through and picks out the things that aren’t *technically* trash and sets them by the trash can for you to deal with. Fuck those guys. WTF am I supposed to do with this washing machine I destroyed with a hammer after Kevin Dyson came up a yard short? Take the damn thing.</p>
+
+<p>· Fire anyone involved with the team drafting two players this year whose names were linked to sexual assaults in the past five years.</p>
+
+<p>· Fire anyone involved with the team drafting in the past five years.</p>
+
+<p>· Set fire to LP Field. It is the ham sandwich with old mayonnaise of NFL stadiums and it needs to go.</p>
+
+<p>· Bring back Vince Young. Don’t ask questions. I wasted too damn much money on that jersey to only get to use it for a year.</p>
+
+<p>· Bury Elvis underneath wherever the new field is. It can’t hurt.</p>
+
+<p>The other option is to sneak in under cover of darkness and destroy everything Titans related in the world and pretend they never existed. I’m down to help out with this too.</p></div>
+                                    
+                                </section>
+                            
+
+                            
+                            
+                            
+
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+
+                            
+                            
+                            
+
+                            <ul class="
+                                post_info
+                                
+                                     floating
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                
+                            ">
+                                 
+                                <li>
+                                    <ul class="post_controls group">
+                                        <li><a href="https://www.tumblr.com/reblog/97573471309/8v642KV3" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                        <li><div class="like_button" data-post-id="97573471309" id="like_button_97573471309"><iframe id="like_iframe_97573471309" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=ohholybutt&amp;post_id=97573471309&amp;rk=8v642KV3" scrolling="no" width="21" height="21" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                    </ul>
+                                </li>
+                                 
+                                <li><a href="http://ohholybutt.tumblr.com/post/97573471309/how-to-fix-the-titans" class="
+                                    timestamp
+                                    has_caption with_title
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                ">1 week ago</a></li>
+
+                                
+                                    
+                                
+
+                                
+                                    
+                                
+                                </ul>
+                                
+
+                                
+                                
+
+                                </section>
+                    </li>
+
+                
+
+                        <li class="post group"   >  
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        <section class="group caption_and_post_info
+                            
+                            
+                            
+                            
+                            
+                        ">
+                            
+                                <section class="caption group">
+                                    <h2><a href="http://ohholybutt.tumblr.com/post/96973946184/nfl-week-1-betting-preview">NFL Week 1 Betting Preview</a></h2>
+                                    <div class="cont group"><p>Betting on sports is a lot like eating an entire bag of Cheetos because you’re hooked after the first few and before you know it you are naked in an alley covered in orange dust. It’s awesome. As someone who has made A LOT of money gambling (seriously, I’ve already demonstrated that I have the kind of disposable income required to eat entire bags of cheese dipped pieces of whatever in one sitting), I know the things to look for and I am here to help you. Here are my picks for this week’s games:</p>
+
+<p><strong>Green Bay at Seattle (-6)</strong> – it will probably be hard for you to find a place that will let you bet on this one at this point, but just to show you how good I am at this gambling thing I’ll give you my pick anyways. Take the Seahawks to cover here. I would not be surprised if this game finishes somewhere in the 36-16 range and Marshawn Lynch goes off. The man is made of Skittles and bottle rockets just held together by melted steak.</p>
+
+<p><strong>New Orleans (-3) at Atlanta</strong> – thinking about betting against Atlanta at home? Well let me just say this: SHAWTY SO CRUNK SHE COMIN’ OUT HER CLOTHES / (edited the rest because this is a family site). Take the points. Mark my words, if the Ying Yang Twins don’t drop a Georgia Dome Remix when the Falcons move to their new stadium then the dirty birds might never win another game.</p>
+
+<p><strong>Minnesota at St. Louis (-3.5)</strong> – take Minnesota and the points here. Even though they cut him, I think Michael Sam had already probably kissed most of the dudes on the Rams so they are all gay now. Obviously they will have to forfeit.</p>
+
+<p><strong>Cleveland at Pittsburgh (-7)</strong> – you are ignorant if you think Manziel’s excessively rich, oil money family hasn’t hired the finest of witches to place hexes all over Brian Hoyer’s body. Pittsburgh will cover. Hoyer might die.</p>
+
+<p><strong>Jacksonville at Philadelphia (-10.5) </strong>– let me lay out a scenario for you: Eagles are up ten with two minutes to go in the game. Jags don’t have any timeouts left and the birds have the ball. They could kneel it out, but if there’s one thing I know about Chip Kelly it’s that the man loves to sacktap people. Literally and symbolically. Four verts. Touchdown. Philly by 17.</p>
+
+<p><strong>Oakland at New York Jets (-5.5) </strong>– I am quickly losing interest in week 1.</p>
+
+<p><strong>Cincinnati at Baltimore (-1.5) </strong>– Baltimore just unveiled a statue of its most famous murderer that wasn’t on The Wire farting on a match so they’ll probably be pretty jacked up for this one.</p>
+
+<p><strong>Buffalo at Chicago (-7) </strong>– bet money Jay Cutler stands up when he wipes.</p>
+
+<p><strong>Washington at Houston (-3) </strong>– is there an official spot in the rules that says Clowney can’t eat RGIII? Because I think he’s going to at least try to.</p>
+
+<p><strong>Tennessee at Kansas City (-3)</strong> – if you know me, you know I like the Titans. For that reason I expect this one to be close late and then Locker to throw like six picks in the fourth quarter and the Titans to lose by about 30.</p>
+
+<p><strong>New England (-5) at Miami </strong>– Richie Incognito isn’t around to fondle dudes with broomsticks anymore so I doubt we see the same intensity out of this Dolphin group that lead them to go like 4-9 last year. Their quarterback is Ryan Tannehill.</p>
+
+<p><strong>Carolina at Tampa Bay (-2)</strong> – sincere question, who gives a shit about the Tampa Bay Buccaneers? I know they probably have fans, but I couldn’t name one. I know they probably have people that hate them, but I couldn’t name one. At least they don’t have MRSA this year yet. Panthers will cover.</p>
+
+<p><strong>San Francisco (-5)</strong> <strong>at Dallas – </strong>I don’t know if the 49ers will win or lose but I do know Jim or Jeff or Jerry or Johannes Harbaugh, whichever of those cement jawed nerds coaches this team, can eat my butt. I hate that family.</p>
+
+<p><strong>Indianapolis at Denver (-7.5) –</strong> fun fact: Denver’s quarterback used to play for the Colts! I found that out when I was researching for my picks this week. Surprised no one is talking about this. Broncos are without Wes Welker because Peyton got annoyed with him refusing to shut up in huddles and slipped him an Adderall to chill him out. Mistake? Maybe. But he’d do it again. This is Peyton’s huddle and you can g right tfo if you have a problem with it.</p>
+
+<p><strong>New York Giants at Detroit (-6)</strong> – my only prediction here is that Matthew Stafford will continue to wear his “WIN OR LOSE WE STILL BOOZE” cutoff t-shirt under his pads for the 89<sup>th</sup> consecutive game. Consistency is key for a quarterback.</p>
+
+<p><strong>San Diego at Arizona (-3)</strong> – why are there so many games this week? This sucks. I wish football season was over.</p>
+
+<p><strong>UPSET SPECIAL – </strong>Eli Manning will not, as most are predicting, watch My Little Pony at halftime instead of listening to Coughlin’s team talk. Inside sources tell me Eli is adopting a new strategy of “getting Bronied up” before the game instead of halfway through. I guess we’ll see how that affects his play.</p>
+
+<p>So there you have it, folks. Parlay all of those together with a college football bet or two, preferably on teams you’ve never watched play, and you’ll be a very rich human being on Tuesday. In the words of the immortal Rex Ryan, “I’m going to make sweet, sweet mouth love to this bag of Jolly Ranchers I found in my closet today.” </p>
+
+<p> </p></div>
+                                    
+                                </section>
+                            
+
+                            
+                            
+                            
+
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+
+                            
+                            
+                            
+
+                            <ul class="
+                                post_info
+                                
+                                     floating
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                
+                            ">
+                                 
+                                <li>
+                                    <ul class="post_controls group">
+                                        <li><a href="https://www.tumblr.com/reblog/96973946184/sJOTBjIC" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                        <li><div class="like_button" data-post-id="96973946184" id="like_button_96973946184"><iframe id="like_iframe_96973946184" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=ohholybutt&amp;post_id=96973946184&amp;rk=sJOTBjIC" scrolling="no" width="21" height="21" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                    </ul>
+                                </li>
+                                 
+                                <li><a href="http://ohholybutt.tumblr.com/post/96973946184/nfl-week-1-betting-preview" class="
+                                    timestamp
+                                    has_caption with_title
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                ">2 weeks ago</a></li>
+
+                                
+                                    
+                                
+
+                                
+                                    
+                                
+                                </ul>
+                                
+
+                                
+                                
+
+                                </section>
+                    </li>
+
+                
+                <!-- END POSTS -->
+            </ul>
+            
+            
+
+            <footer id="footer">
+                
+                    <section class="copyright">&copy; 2013–2014 ohholybutt</section>
+                
+                
+            </footer>
+        </section>
+
+        
+        <script type="text/javascript" src="http://assets.tumblr.com/assets/scripts/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript">
+            var Tumblelog = {};
+
+            // AJAX
+            Tumblelog.Ajax = (function(url, callbackFunction) {
+                this.bindFunction = function (caller, object) {
+                    return function() {
+                        return caller.apply(object, [object]);
+                    };
+                };
+
+                this.stateChange = function (object) {
+                    if (this.request.readyState==4) this.callbackFunction(this.request.responseText);
+                };
+
+                this.getRequest = function() {
+                    if (window.ActiveXObject)
+                        return new ActiveXObject('Microsoft.XMLHTTP');
+                    else if (window.XMLHttpRequest)
+                        return new XMLHttpRequest();
+                    return false;
+                };
+
+                this.postBody = (arguments[2] || "");
+                this.callbackFunction=callbackFunction;
+                this.url=url;
+                this.request = this.getRequest();
+
+                if(this.request) {
+                    var req = this.request;
+                    req.onreadystatechange = this.bindFunction(this.stateChange, this);
+
+                    if (this.postBody!=="") {
+                        req.open("POST", url, true);
+                        req.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+                        req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                        req.setRequestHeader('Connection', 'close');
+                    } else {
+                        req.open("GET", url, true);
+                    }
+
+                    req.send(this.postBody);
+                }
+            });
+            
+            // Infinite Scroll
+            Tumblelog.Infinite = (function() {
+
+                var _$window          = $(window);
+                var _$posts           = $('#posts');
+                var _trigger_post     = null;
+
+                var _current_page     = 1;
+                var _total_pages      = 1;
+                var _url              = document.location.href.split("#")[0];
+                var _infinite_timeout = null;
+                var _is_loading       = false;
+                var _posts_loaded     = false;
+                
+                var _Ajax = Tumblelog.Ajax;
+
+                function init() {            
+                    set_trigger();
+                    enable_scroll();
+                }
+
+                function set_trigger () {
+                    var $all_posts = _$posts.find('li.post');
+                
+                    if (!_posts_loaded) {
+                        _posts_loaded = $all_posts.length;
+                    }
+
+                    if (_posts_loaded >= 4) {
+                        _trigger_post = _$posts.find('li.post:eq(' + ($all_posts.length - 4) + ')').get(0);
+                    } else if (_posts_loaded >= 3) {
+                        _trigger_post = _$posts.find('li.post:eq(' + ($all_posts.length - 3) + ')').get(0);
+                    } else {
+                        _trigger_post = _$posts.find('li.post:last').get(0);
+                    }
+                };
+
+                function in_viewport (el) {
+                    if (el == null) return;
+                    var top = el.offsetTop;
+                    var height = el.offsetHeight;
+
+                    while (el.offsetParent) {
+                        el = el.offsetParent;
+                        top += el.offsetTop;
+                    }
+
+                    return (top < (window.pageYOffset + window.innerHeight));
+                };
+
+                function enable_scroll() {
+                    $('#footer .pagination').hide();
+                    _$window.scroll(function(){
+                        clearTimeout(_infinite_timeout);
+                        infinite_timeout = setTimeout(infinite_scroll, 100);
+                    });
+                }
+
+                function disable_scroll() {
+                    clearTimeout(_infinite_timeout);
+                    $(window).unbind('scroll');
+                }
+
+                function infinite_scroll() {
+                    if (_is_loading) return;
+
+                    if (in_viewport(_trigger_post)) {
+                        load_more_posts(); // w00t
+                    }
+                };
+
+                function load_more_posts() {
+                    if (_is_loading) return;
+                    _is_loading = true;
+
+                    // Build URL
+                    if (_url.charAt(_url.length - 1) != '/') _url += '/';
+                    if (_current_page === 1) _url += 'page/1';
+                    _current_page++;
+                    _url = _url.replace('page/' + (_current_page - 1), 'page/' + _current_page);
+
+                    // Fetch
+                    _Ajax(_url, function(data) {
+                        var new_posts_html = data.split('<!-- START' + ' POSTS -->')[1].split('<!-- END' + ' POSTS -->')[0];
+                        var $new_posts = $('#posts', data);
+
+                        // Insert posts and update counters
+                        $('#posts').append(new_posts_html);
+                        _posts_loaded = $new_posts.find('li.post').length;
+
+                        if (_posts_loaded) {
+                            var post_ids = [];
+                            var like_buttons = $('#posts', data).find('.like_button');
+                            for (var i = 0; i < like_buttons.length; i++) {
+                                var button = like_buttons[i];
+                                if ($(button).attr('data-post-id')) {
+                                    post_ids.push($(button).attr('data-post-id'));
+                                }
+                            }
+                            if (post_ids.length > 0) Tumblr.LikeButton.get_status_by_post_ids(post_ids);
+                        }
+
+                        if ((_posts_loaded > 0) && (_current_page < _total_pages)) {
+                            set_trigger();
+                            _is_loading = false;
+
+                        } else {
+                            disable_scroll();
+                        }
+                    });
+
+                    // Stats
+                    
+                }
+
+                return {
+                    init: init
+                };
+            });
+
+            $(function() {
+                
+                if ( !($.browser.msie && (parseInt($.browser.version, 10) < 9) ) ) {
+                    var InfiniteScroll = new Tumblelog.Infinite;
+                    InfiniteScroll.init();
+                }
+                
+            });
+        </script>
+        
+
+        
+
+        
+    <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://ohholybutt.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847480&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvb2hob2x5YnV0dC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=HHKJLIPOKO&K=234c53cc2dd83280889aad5435f865402b5fd9260795fe5e1ced3fc057bb15cf&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847480&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvb2hob2x5YnV0dC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=HHKJLIPOKO&K=090b89c5258239b32fe615bef1c686392d85242dd68b4a4972fd17a79ea29223&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847480&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL29oaG9seWJ1dHQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJwb3N0aWQiOiI5NzU3MzQ3MTMwOSIsImJsb2dpZCI6IjkxNjQwNDQ2Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5Njk3Mzk0NjE4NCIsImJsb2dpZCI6IjkxNjQwNDQ2Iiwic291cmNlIjozM31dfQ==&U=AMOMFFEIPO&K=4b60c7a79d3f0bf2abaec5ced37fd4675f628b7c37b775bbd5091d2162b58c3d&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847480&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL29oaG9seWJ1dHQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJwb3N0aWQiOiI5NzU3MzQ3MTMwOSIsImJsb2dpZCI6IjkxNjQwNDQ2Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5Njk3Mzk0NjE4NCIsImJsb2dpZCI6IjkxNjQwNDQ2Iiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=AMOMFFEIPO&K=fcf188832da8c7ad98348638bc4800bc948a723887e0a864669a0badb90c2d0d&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:91640446,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2Fohholybutt.tumblr.com%2F&amp;lang=en_US&amp;name=ohholybutt&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_4e3b8c8f6e9d_64.png&amp;title=ohholybutt&amp;url=http%3A%2F%2Fohholybutt.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2Fohholybutt.tumblr.com%2F&amp;lang=en_US&amp;name=ohholybutt&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_4e3b8c8f6e9d_64.png&amp;title=ohholybutt&amp;url=http%3A%2F%2Fohholybutt.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

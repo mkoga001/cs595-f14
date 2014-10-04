@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        
+        <meta charset="utf-8">
+        <title>Beard.</title>
+        
+        <meta name="description" content="a follower from twitter told me bitches on tumblr love beards so I&#039;m here. twitter: OGBEARD IG: __beardgod">
+        
+        
+        
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_5c8d9e5c93c2_128.png">
+        <link rel="apple-touch-icon-precomposed" href="http://38.media.tumblr.com/avatar_5c8d9e5c93c2_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://fuckingbearded.tumblr.com/rss">
+        
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/PuGmmhqcs/normalize.css">
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/qE8n2yg06/optica-icons.css">
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/lu6nbykui/main.css">
+
+        <!-- HTML5 Shiv -->
+        <!--[if lt IE 9]>
+            <script src="http://static.tumblr.com/hriofhd/Qj0m8pn7q/html5shiv.js"></script>
+        <![endif]-->
+
+        <style>
+            /* Colors */
+            body {
+                background: #D85F46;
+            }
+
+            h1 {
+                font-family: 'Streetscript', sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+                font-weight: bold;
+            }
+
+            h1 a,
+            .description,
+            .search-header {
+                color: #444444;
+            }
+
+            .h-line {
+                background: #444444;
+            }
+
+            a {
+                color: #FFFFFF;
+            }
+            
+            #pagination a,
+            .exposed-nav-wrapper li a {
+                color: #FFFFFF;
+            }
+
+            #pagination a.next:after {
+                border-left-color: #FFFFFF;
+            }
+
+            #pagination a.previous:after {
+                border-right-color: #FFFFFF;
+            }
+
+            .loader .loader-bar {
+                background-color: #444444;
+            }
+
+            .link-wrapper h2 a {
+                background-color: #FFFFFF;
+            }
+            
+            .header-image.cover {
+                background-image: url(http://assets.tumblr.com/images/default_header/optica_pattern_08.png?_v=f0f055039bb6136b9661cf2227b535c2);
+            }
+
+            .user-avatar {
+                background-color: #D85F46;
+                border-color: #D85F46;
+            }
+
+            .avatar-style-square .user-avatar {
+                -wekbit-box-shadow: 0 0 0 4px #D85F46;
+                -moz-box-shadow: 0 0 0 4px #D85F46;
+                box-shadow: 0 0 0 4px #D85F46;
+            }
+            
+            .no-header-image .selector .bar-icon,
+            .contain-header-image .selector .bar-icon {
+                background: #FFFFFF;
+            }
+
+            .no-header-image .search-only .selector .icon,
+            .contain-header-image .search-only .selector .icon {
+                color: #FFFFFF;
+            }
+
+            /* Adjust menus for light accents on light backgrounds */
+            .light-on-light.no-header-image .selector .bar-icon,
+            .light-on-light.contain-header-image .selector .bar-icon {
+                background: #444;
+            }
+
+            .light-on-light.no-header-image .search-only .selector .icon,
+            .light-on-light.contain-header-image .search-only .selector .icon {
+                color: #444;
+            }
+
+            /* Adjust menus for dark accents on dark backgrounds */
+            .dark-on-dark.no-header-image .selector .bar-icon,
+            .dark-on-dark.contain-header-image .selector .bar-icon {
+                background: #fff;
+            }
+
+            .dark-on-dark.no-header-image .search-only .selector .icon,
+            .dark-on-dark.contain-header-image .search-only .selector .icon {
+                color: #fff;
+            }
+
+            @media screen and (max-device-width: 568px) {
+                .header-image.cover {
+                    background-image: url(http://assets.tumblr.com/images/default_header/optica_pattern_08_640.png?_v=f0f055039bb6136b9661cf2227b535c2);
+                    -webkit-background-size: cover;
+                    background-size: cover;
+                }
+
+                .nav-menu-bg,
+                .nav-menu-wrapper .nav-menu.active:before,
+                .nav-menu .pop-menu ul {
+                    background: #D85F46;
+                }
+
+                .nav-menu.active .selector .bar-icon,
+                .below-header .selector .bar-icon {
+                    background: #FFFFFF;
+                }
+
+                .nav-menu .pop-menu ul li a,
+                .below-header .search-only .selector .icon {
+                    color: #FFFFFF;
+                }
+                
+                /* Adjust menus for light accents on light backgrounds */
+                .light-on-light.below-header .nav-menu .selector .bar-icon,
+                .light-on-light.below-header .selector .bar-icon {
+                    background: #444;
+                }
+
+                .light-on-light .nav-menu .pop-menu ul li a,
+                .light-on-light.below-header .search-only .selector .icon {
+                    color: #444;
+                }
+                
+                /* Adjust menus for dark accents on dark backgrounds */
+                .dark-on-dark .nav-menu .selector .bar-icon,
+                .dark-on-dark .below-header .selector .bar-icon {
+                    background: #fff;
+                }
+
+                .dark-on-dark .nav-menu .pop-menu ul li a,
+                .dark-on-dark.below-header .search-only .selector .icon {
+                    color: #fff;
+                }
+
+                .avatar-style-square .user-avatar {
+                    -wekbit-box-shadow: 0 0 0 3px #D85F46;
+                    -moz-box-shadow: 0 0 0 3px #D85F46;
+                    box-shadow: 0 0 0 3px #D85F46;
+                }
+
+            }
+
+            /* Custom CSS */
+            
+        </style>
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=fuckingbearded" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/streetscript/stylesheet.css?v=1">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Beard." /><meta property="og:url" content="http://fuckingbearded.tumblr.com/?og=1" /><meta property="og:description" content="a follower from twitter told me bitches on tumblr love beards so I&#039;m here. twitter: OGBEARD IG:..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_5c8d9e5c93c2_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=fuckingbearded" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=fuckingbearded" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="fuckingbearded" /><meta name="twitter:description" content="a follower from twitter told me bitches on tumblr love beards so I&#039;m here.
+twitter: OGBEARD
+IG: __beardgod " /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=fuckingbearded&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=fuckingbearded&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=fuckingbearded&amp;referrer=twitter-cards" />
+
+</head>
+    <body data-urlencoded-name="fuckingbearded" class="regular index-page no-header-image">
+        <section id="page">
+            <div class="nav-menu-wrapper ">
+                <nav class="nav-menu pop">
+                    <a class="selector">
+                        
+                            <div class="bar-icon-wrapper">
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                            </div>
+                        
+                        
+                    </a>
+                    <div class="pop-menu west">
+                        <ul>
+                            <li class="no-hover search">
+                                <form action="/search" method="get" id="search">
+                                    <input type="text" name="q" id="q" placeholder="Search" value="">
+                                    <button type="submit" class="icon-search_16"></button>
+                                </form>
+                            </li>
+                            
+                                <li>
+                                    <a href="/archive" class="archive">Archive <i class="icon-arrow_carrot_right"></i></a>
+                                </li>
+                                
+                                
+                                
+                            
+                        </ul>
+                    </div> 
+                </nav>
+                <div class="glass"></div>
+            </div>
+            
+            <div class="nav-menu-bg"></div>
+            
+            <div class="header-wrapper
+                
+                no-image 
+                
+                avatar-style-square">
+
+                <header id="header">
+                    
+
+                    <div class="blog-title content">
+                        <figure class="avatar-wrapper animate">
+                            <a href="/" style="background-image: url(http://38.media.tumblr.com/avatar_5c8d9e5c93c2_128.png)" class="user-avatar"><img src="http://38.media.tumblr.com/avatar_5c8d9e5c93c2_128.png" alt="" class="print-only invisible"></a>
+                        </figure>
+
+                        <div class="title-group animate">
+                            
+                            <h1><a href="/">Beard.</a></h1>
+                            
+                            
+                            <span class="description">
+                                a follower from twitter told me bitches on tumblr love beards so I'm here.<br />
+twitter: OGBEARD<br />
+IG: __beardgod
+                            </span>
+                            
+                        </div>
+                    </div>
+
+                    
+                </header>
+            </div>
+            
+            <section id="posts" class="content clearfix no-image  avatar-style-square  ">
+    
+                <div data-page-id="1">
+                    
+                            <article class="photo reblogged not-page post-98198246059 " data-post-id="post_98198246059">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://my-own-memoir.tumblr.com/post/98198023029"><i class="icon-reblog"></i>my-own-memoir</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="" data-photo-width="500">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <img src="http://33.media.tumblr.com/bf12bd42fce850bb74fef6699abdde92/tumblr_nblr5o8kZh1tkx75ko1_500.gif" alt="" width="500" height="265">
+                                                </div>
+                                            </div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://my-own-memoir.tumblr.com/post/98198023029"><i class="icon-reblog"></i>my-own-memoir</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://pauljones2012.tumblr.com/post/97001297968">Source: pauljones2012</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://fuckingbearded.tumblr.com/post/98198246059#notes">405 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://fuckingbearded.tumblr.com/post/98198246059" title="4 days ago">Sep 22nd, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98198246059">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98198246059">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98198246059&amp;t=Beard." class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20%20http%3A%2F%2Ftmblr.co%2FZRA0jm1RT4bAh" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Beard.&amp;body=Photo%3A%20%20http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98198246059" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://fuckingbearded.tumblr.com/post/98198246059" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98198246059/EFmizXdp" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98198246059" id="like_button_98198246059"><iframe id="like_iframe_98198246059" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fuckingbearded&amp;post_id=98198246059&amp;color=black&amp;rk=EFmizXdp" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photoset reblogged not-page post-98198212114 " data-post-id="post_98198212114">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://my-own-memoir.tumblr.com/post/98198044179"><i class="icon-reblog"></i>my-own-memoir</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+                                        <figure class="photoset ">
+                                            <div id="photoset_98198212114" class="html_photoset">    <iframe id="photoset_iframe_98198212114" class="photoset" scrolling="no" frameborder="0" height="-5" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://fuckingbearded.tumblr.com/post/98198212114/photoset_iframe/fuckingbearded/tumblr_nca7k6ZIeQ1spoqux/0/false"></iframe></div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://my-own-memoir.tumblr.com/post/98198044179"><i class="icon-reblog"></i>my-own-memoir</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://britta-bella.tumblr.com/post/98113696881/yes-rih">Source: britta-bella</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://fuckingbearded.tumblr.com/post/98198212114#notes">11,847 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://fuckingbearded.tumblr.com/post/98198212114" title="4 days ago">Sep 22nd, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98198212114">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98198212114">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98198212114&amp;t=Beard." class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photoset%3A%20%20http%3A%2F%2Ftmblr.co%2FZRA0jm1RT4SuI" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Beard.&amp;body=Photoset%3A%20%20http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98198212114" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://fuckingbearded.tumblr.com/post/98198212114" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98198212114/XdZMdIkM" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98198212114" id="like_button_98198212114"><iframe id="like_iframe_98198212114" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fuckingbearded&amp;post_id=98198212114&amp;color=black&amp;rk=XdZMdIkM" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photoset reblogged not-page post-98198200089 " data-post-id="post_98198200089">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://my-own-memoir.tumblr.com/post/98198103179/treehunna-my-grandma"><i class="icon-reblog"></i>my-own-memoir</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+                                        <figure class="photoset with-caption">
+                                            <div id="photoset_98198200089" class="html_photoset">    <iframe id="photoset_iframe_98198200089" class="photoset" scrolling="no" frameborder="0" height="-10" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://fuckingbearded.tumblr.com/post/98198200089/photoset_iframe/fuckingbearded/tumblr_makrjiZ9jx1rf1uaf/0/false"></iframe></div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a href="http://treehunna.tumblr.com/post/98194747968/my-grandma" class="tumblr_blog">treehunna</a>:</p>
+
+<blockquote><p>My grandma</p></blockquote>
+
+<p>😂😂😂</p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://my-own-memoir.tumblr.com/post/98198103179/treehunna-my-grandma"><i class="icon-reblog"></i>my-own-memoir</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://gorditaputa.tumblr.com/post/31837138328">Source: gorditaputa</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://fuckingbearded.tumblr.com/post/98198200089/treehunna-my-grandma#notes">114,920 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://fuckingbearded.tumblr.com/post/98198200089/treehunna-my-grandma" title="4 days ago">Sep 22nd, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98198200089">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98198200089">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98198200089%2Ftreehunna-my-grandma&amp;t=Beard." class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photoset%3A%20treehunna%3A%20My%20grandma%20%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%20http%3A%2F%2Ftmblr.co%2FZRA0jm1RT4PyP" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Beard.&amp;body=Photoset%3A%20treehunna%3A%20My%20grandma%20%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%20http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98198200089%2Ftreehunna-my-grandma" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://fuckingbearded.tumblr.com/post/98198200089/treehunna-my-grandma" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98198200089/pyxsWT4F" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98198200089" id="like_button_98198200089"><iframe id="like_iframe_98198200089" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fuckingbearded&amp;post_id=98198200089&amp;color=black&amp;rk=pyxsWT4F" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo not-page post-98197733299 " data-post-id="post_98197733299">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="high-res with-caption" data-photo-width="1280">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://fuckingbearded.tumblr.com/image/98197733299"><img src="http://38.media.tumblr.com/ec27f1c00af1f4435066cb426fe0e40c/tumblr_ncc2naalYR1tjihyqo1_1280.jpg" alt="#Beardgang #beardism #beard" width="1280" height="720"></a>
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p>#Beardgang #beardism #beard</p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://fuckingbearded.tumblr.com/post/98197733299/beardgang-beardism-beard" title="4 days ago">Sep 22nd, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98197733299">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98197733299">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98197733299%2Fbeardgang-beardism-beard&amp;t=Beard." class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20%23Beardgang%20%23beardism%20%23beard%20http%3A%2F%2Ftmblr.co%2FZRA0jm1RT2d_p" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Beard.&amp;body=Photo%3A%20%23Beardgang%20%23beardism%20%23beard%20http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98197733299%2Fbeardgang-beardism-beard" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://fuckingbearded.tumblr.com/post/98197733299/beardgang-beardism-beard" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98197733299/QT4eYd98" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98197733299" id="like_button_98197733299"><iframe id="like_iframe_98197733299" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fuckingbearded&amp;post_id=98197733299&amp;color=black&amp;rk=QT4eYd98" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-98194774784 " data-post-id="post_98194774784">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://shamelesskitty.tumblr.com/post/98178270901"><i class="icon-reblog"></i>shamelesskitty</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class=" with-caption" data-photo-width="500">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://palemania.tumblr.com/"><img src="http://33.media.tumblr.com/db06a59dce47f2fea04cb5426eabf204/tumblr_mwj4ltw2JA1s00jgoo1_500.jpg" alt="Yasss" width="500" height="339"></a>
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p>Yasss</p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://shamelesskitty.tumblr.com/post/98178270901"><i class="icon-reblog"></i>shamelesskitty</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://fuckingbearded.tumblr.com/post/98194774784/yasss#notes">21,072 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://fuckingbearded.tumblr.com/post/98194774784/yasss" title="4 days ago">Sep 22nd, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98194774784">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98194774784">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98194774784%2Fyasss&amp;t=Beard." class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20Yasss%20http%3A%2F%2Ftmblr.co%2FZRA0jm1RStLi0" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Beard.&amp;body=Photo%3A%20Yasss%20http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98194774784%2Fyasss" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://fuckingbearded.tumblr.com/post/98194774784/yasss" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98194774784/CXjuYpbN" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98194774784" id="like_button_98194774784"><iframe id="like_iframe_98194774784" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fuckingbearded&amp;post_id=98194774784&amp;color=black&amp;rk=CXjuYpbN" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-98194765759 " data-post-id="post_98194765759">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://shamelesskitty.tumblr.com/post/98181086331"><i class="icon-reblog"></i>shamelesskitty</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="" data-photo-width="499">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <img src="http://38.media.tumblr.com/7a61431b2fec2378fe5f3113659610a8/tumblr_nc9g6wNBdt1s6fl82o1_500.jpg" alt="" width="499" height="334">
+                                                </div>
+                                            </div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://shamelesskitty.tumblr.com/post/98181086331"><i class="icon-reblog"></i>shamelesskitty</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://meagainsttheworldx.tumblr.com/post/98066675589">Source: meagainsttheworldx</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://fuckingbearded.tumblr.com/post/98194765759#notes">119 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://fuckingbearded.tumblr.com/post/98194765759" title="4 days ago">Sep 22nd, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98194765759">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98194765759">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98194765759&amp;t=Beard." class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20%20http%3A%2F%2Ftmblr.co%2FZRA0jm1RStJU-" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Beard.&amp;body=Photo%3A%20%20http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98194765759" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://fuckingbearded.tumblr.com/post/98194765759" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98194765759/j69KOdhJ" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98194765759" id="like_button_98194765759"><iframe id="like_iframe_98194765759" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fuckingbearded&amp;post_id=98194765759&amp;color=black&amp;rk=j69KOdhJ" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-98194758919 " data-post-id="post_98194758919">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://shamelesskitty.tumblr.com/post/98182223531"><i class="icon-reblog"></i>shamelesskitty</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="" data-photo-width="500">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <img src="http://31.media.tumblr.com/8ab8fc7616479872abcc1d944b2d6cf3/tumblr_n6o06ob4e21rlzxido1_500.gif" alt="" width="500" height="270">
+                                                </div>
+                                            </div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://shamelesskitty.tumblr.com/post/98182223531"><i class="icon-reblog"></i>shamelesskitty</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://sensualtouching.tumblr.com/post/98109580838">Source: sensualtouching</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://fuckingbearded.tumblr.com/post/98194758919#notes">577 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://fuckingbearded.tumblr.com/post/98194758919" title="4 days ago">Sep 22nd, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98194758919">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98194758919">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98194758919&amp;t=Beard." class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20%20http%3A%2F%2Ftmblr.co%2FZRA0jm1RStHq7" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Beard.&amp;body=Photo%3A%20%20http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98194758919" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://fuckingbearded.tumblr.com/post/98194758919" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98194758919/U4bz51jU" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98194758919" id="like_button_98194758919"><iframe id="like_iframe_98194758919" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fuckingbearded&amp;post_id=98194758919&amp;color=black&amp;rk=U4bz51jU" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-98064760934 " data-post-id="post_98064760934">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://kidsarecruel.tumblr.com/post/97961034978"><i class="icon-reblog"></i>kidsarecruel</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class=" with-caption" data-photo-width="473">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <img src="http://31.media.tumblr.com/5dedcfbb88f26f19c5a55bdfe44e2d57/tumblr_nab4lsPz5p1tdbw63o1_r1_500.jpg" alt="x-dopeshit:
+
+Long Beach, California&nbsp;
+" width="473" height="435">
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a class="tumblr_blog" href="http://x-dopeshit.tumblr.com/post/97843082483/long-beach-california">x-dopeshit</a>:</p>
+<blockquote>
+<p>Long Beach, California </p>
+</blockquote>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://kidsarecruel.tumblr.com/post/97961034978"><i class="icon-reblog"></i>kidsarecruel</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://asnakethateatsitself.tumblr.com/post/94737244225/spotted-this-morning-in-long-beach-california">Source: asnakethateatsitself</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://fuckingbearded.tumblr.com/post/98064760934/x-dopeshit-long-beach-california#notes">12,809 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://fuckingbearded.tumblr.com/post/98064760934/x-dopeshit-long-beach-california" title="6 days ago">Sep 21st, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98064760934">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98064760934">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98064760934%2Fx-dopeshit-long-beach-california&amp;t=Beard." class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20x-dopeshit%3A%20Long%20Beach%2C%20California%C2%A0%20http%3A%2F%2Ftmblr.co%2FZRA0jm1RL7O1c" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Beard.&amp;body=Photo%3A%20x-dopeshit%3A%20Long%20Beach%2C%20California%C2%A0%20http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98064760934%2Fx-dopeshit-long-beach-california" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://fuckingbearded.tumblr.com/post/98064760934/x-dopeshit-long-beach-california" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98064760934/xHXmojZe" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98064760934" id="like_button_98064760934"><iframe id="like_iframe_98064760934" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fuckingbearded&amp;post_id=98064760934&amp;color=black&amp;rk=xHXmojZe" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-98064741329 " data-post-id="post_98064741329">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://kidsarecruel.tumblr.com/post/97968698983"><i class="icon-reblog"></i>kidsarecruel</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="high-res with-caption" data-photo-width="1280">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://fuckingbearded.tumblr.com/image/98064741329"><img src="http://38.media.tumblr.com/f6a2d7dad47586d8b4aa40128c5034be/tumblr_n4chvlznGl1qf2ango1_1280.jpg" alt="kidsarecruel:
+
+I finally mastered the braless jean jacket pose thing.
+
+
+Lordt" width="1280" height="960"></a>
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a class="tumblr_blog" href="http://kidsarecruel.tumblr.com/post/83332113617">kidsarecruel</a>:</p>
+<blockquote>
+<p>I finally mastered the braless jean jacket pose thing.</p>
+</blockquote>
+
+<p>Lordt</p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://kidsarecruel.tumblr.com/post/97968698983"><i class="icon-reblog"></i>kidsarecruel</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://fuckingbearded.tumblr.com/post/98064741329/kidsarecruel-i-finally-mastered-the-braless#notes">469 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://fuckingbearded.tumblr.com/post/98064741329/kidsarecruel-i-finally-mastered-the-braless" title="6 days ago">Sep 21st, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98064741329">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98064741329">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98064741329%2Fkidsarecruel-i-finally-mastered-the-braless&amp;t=Beard." class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20kidsarecruel%3A%20I%20finally%20mastered%20the%20braless%20jean%20jacket%20pose%20thing.%20Lordt%20http%3A%2F%2Ftmblr.co%2FZRA0jm1RL7JFH" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Beard.&amp;body=Photo%3A%20kidsarecruel%3A%20I%20finally%20mastered%20the%20braless%20jean%20jacket%20pose%20thing.%20Lordt%20http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98064741329%2Fkidsarecruel-i-finally-mastered-the-braless" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://fuckingbearded.tumblr.com/post/98064741329/kidsarecruel-i-finally-mastered-the-braless" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98064741329/KZtPgbOG" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98064741329" id="like_button_98064741329"><iframe id="like_iframe_98064741329" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fuckingbearded&amp;post_id=98064741329&amp;color=black&amp;rk=KZtPgbOG" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-98064596819 " data-post-id="post_98064596819">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://kidsarecruel.tumblr.com/post/98061176203"><i class="icon-reblog"></i>kidsarecruel</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="" data-photo-width="500">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://zoo-monkey.tumblr.com/tagged/dball"><img src="http://33.media.tumblr.com/c890eb9bc6196f5a2614d4068bdb2d17/tumblr_nbabs3wmbP1t06ubmo1_500.gif" alt="" width="500" height="375"></a>
+                                                </div>
+                                            </div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://kidsarecruel.tumblr.com/post/98061176203"><i class="icon-reblog"></i>kidsarecruel</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://zoo-monkey.tumblr.com">Source: zoo-monkey</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://fuckingbearded.tumblr.com/post/98064596819#notes">992 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://fuckingbearded.tumblr.com/post/98064596819" title="6 days ago">Sep 21st, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98064596819">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98064596819">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98064596819&amp;t=Beard." class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20%20http%3A%2F%2Ftmblr.co%2FZRA0jm1RL6lzJ" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Beard.&amp;body=Photo%3A%20%20http%3A%2F%2Ffuckingbearded.tumblr.com%2Fpost%2F98064596819" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://fuckingbearded.tumblr.com/post/98064596819" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98064596819/G9Tgg143" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98064596819" id="like_button_98064596819"><iframe id="like_iframe_98064596819" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=fuckingbearded&amp;post_id=98064596819&amp;color=black&amp;rk=G9Tgg143" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                </div>
+            </section>
+            <footer id="footer" class="content clearfix">
+                
+                    
+                    <div id="pagination">
+                        
+                        
+                        <a href="/page/2" class="next" data-current-page="1" data-total-pages="3">Next<span class="bg"></span></a>
+                        
+                        <div class="loader"><div class="loader-bar"></div><div class="loader-bar"></div><div class="loader-bar"></div></div>
+                    </div>
+                    
+                
+            </footer>
+        </section>
+        <script>
+            var Optica = {};
+            Optica.ENDLESS_SCROLLING = true;
+            Optica.LAYOUT = "regular";
+            Optica.GRID_LAYOUT = (Optica.LAYOUT === 'grid');
+            Optica.TITLE_COLOR = "#444444";
+            Optica.ACCENT_COLOR = "#FFFFFF";
+            Optica.BACKGROUND_COLOR = "#D85F46";
+            Optica.ENDLESS_NOTES_SCROLLING = true;
+        </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>!window.jQuery && document.write(unescape('%3Cscript src="http://static.tumblr.com/vr9xgox/sBgmmjhyw/jquery-1.9.1.min.js"%3E%3C/script%3E'));</script>
+        <script src="http://static.tumblr.com/vr9xgox/Azhmnml1q/jquery.masonry.min.js"></script>
+        <script src="http://static.tumblr.com/wogenvz/kcyn7f6re/main-min.js"></script>
+
+        
+    <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://fuckingbearded.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411848066&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZnVja2luZ2JlYXJkZWQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=HGLHICPLGL&K=e5ff00eb50b9006091fc5a58dd218f688dd914ce40f4185e18cf9b34c63e8a97&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411848066&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZnVja2luZ2JlYXJkZWQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=HGLHICPLGL&K=331b7bb9e3ceaf8e66097d5968cfe8ec0cc096b86d3768abdf7ac3139c71cb46&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411848066&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2Z1Y2tpbmdiZWFyZGVkLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIyMDA2MTA4ODUiLCJyb290X3Bvc3RpZCI6Ijk3MDAxMjk3OTY4IiwicG9zdGlkIjoiOTgxOTgyNDYwNTkiLCJibG9naWQiOiIxOTk0NzQ4NDkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTA0NDYxMDY0Iiwicm9vdF9wb3N0aWQiOiI5ODExMzY5Njg4MSIsInBvc3RpZCI6Ijk4MTk4MjEyMTE0IiwiYmxvZ2lkIjoiMTk5NDc0ODQ5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjcwNDA3NTkyIiwicm9vdF9wb3N0aWQiOjMxODM3MTM4MzI4LCJwb3N0aWQiOiI5ODE5ODIwMDA4OSIsImJsb2dpZCI6IjE5OTQ3NDg0OSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTgxOTc3MzMyOTkiLCJibG9naWQiOiIxOTk0NzQ4NDkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODM4MTc1MDMiLCJyb290X3Bvc3RpZCI6Njc0OTQ4NjMzOTEsInBvc3RpZCI6Ijk4MTk0Nzc0Nzg0IiwiYmxvZ2lkIjoiMTk5NDc0ODQ5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijk1MjAzMzk0Iiwicm9vdF9wb3N0aWQiOiI5ODA2NjY3NTU4OSIsInBvc3RpZCI6Ijk4MTk0NzY1NzU5IiwiYmxvZ2lkIjoiMTk5NDc0ODQ5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjgxNDY5MjM4Iiwicm9vdF9wb3N0aWQiOiI5ODEwOTU4MDgzOCIsInBvc3RpZCI6Ijk4MTk0NzU4OTE5IiwiYmxvZ2lkIjoiMTk5NDc0ODQ5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4OTA1NTc1NSIsInJvb3RfcG9zdGlkIjoiOTQ3MzcyNDQyMjUiLCJwb3N0aWQiOiI5ODA2NDc2MDkzNCIsImJsb2dpZCI6IjE5OTQ3NDg0OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI5OTk1MzgxIiwicm9vdF9wb3N0aWQiOiI4MzMzMjExMzYxNyIsInBvc3RpZCI6Ijk4MDY0NzQxMzI5IiwiYmxvZ2lkIjoiMTk5NDc0ODQ5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0NDU0NDAxOSIsInJvb3RfcG9zdGlkIjo5NjQ2NTU4NDc4NiwicG9zdGlkIjoiOTgwNjQ1OTY4MTkiLCJibG9naWQiOiIxOTk0NzQ4NDkiLCJzb3VyY2UiOjMzfV19&U=OMIGPIKHJN&K=0055c0ac11de5f619d40ab5f8845ac3bb3bbf4a622964997094d3331ca75cc61&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411848066&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2Z1Y2tpbmdiZWFyZGVkLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIyMDA2MTA4ODUiLCJyb290X3Bvc3RpZCI6Ijk3MDAxMjk3OTY4IiwicG9zdGlkIjoiOTgxOTgyNDYwNTkiLCJibG9naWQiOiIxOTk0NzQ4NDkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTA0NDYxMDY0Iiwicm9vdF9wb3N0aWQiOiI5ODExMzY5Njg4MSIsInBvc3RpZCI6Ijk4MTk4MjEyMTE0IiwiYmxvZ2lkIjoiMTk5NDc0ODQ5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjcwNDA3NTkyIiwicm9vdF9wb3N0aWQiOjMxODM3MTM4MzI4LCJwb3N0aWQiOiI5ODE5ODIwMDA4OSIsImJsb2dpZCI6IjE5OTQ3NDg0OSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTgxOTc3MzMyOTkiLCJibG9naWQiOiIxOTk0NzQ4NDkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODM4MTc1MDMiLCJyb290X3Bvc3RpZCI6Njc0OTQ4NjMzOTEsInBvc3RpZCI6Ijk4MTk0Nzc0Nzg0IiwiYmxvZ2lkIjoiMTk5NDc0ODQ5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijk1MjAzMzk0Iiwicm9vdF9wb3N0aWQiOiI5ODA2NjY3NTU4OSIsInBvc3RpZCI6Ijk4MTk0NzY1NzU5IiwiYmxvZ2lkIjoiMTk5NDc0ODQ5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjgxNDY5MjM4Iiwicm9vdF9wb3N0aWQiOiI5ODEwOTU4MDgzOCIsInBvc3RpZCI6Ijk4MTk0NzU4OTE5IiwiYmxvZ2lkIjoiMTk5NDc0ODQ5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4OTA1NTc1NSIsInJvb3RfcG9zdGlkIjoiOTQ3MzcyNDQyMjUiLCJwb3N0aWQiOiI5ODA2NDc2MDkzNCIsImJsb2dpZCI6IjE5OTQ3NDg0OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI5OTk1MzgxIiwicm9vdF9wb3N0aWQiOiI4MzMzMjExMzYxNyIsInBvc3RpZCI6Ijk4MDY0NzQxMzI5IiwiYmxvZ2lkIjoiMTk5NDc0ODQ5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0NDU0NDAxOSIsInJvb3RfcG9zdGlkIjo5NjQ2NTU4NDc4NiwicG9zdGlkIjoiOTgwNjQ1OTY4MTkiLCJibG9naWQiOiIxOTk0NzQ4NDkiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=OMIGPIKHJN&K=294987ac0a828d84333f9d9692280558910bc51b7c0f0dc035d23e4b896c289d&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:199474849,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2Ffuckingbearded.tumblr.com%2F&amp;lang=en_US&amp;name=fuckingbearded&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_5c8d9e5c93c2_64.png&amp;title=Beard.&amp;url=http%3A%2F%2Ffuckingbearded.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2Ffuckingbearded.tumblr.com%2F&amp;lang=en_US&amp;name=fuckingbearded&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_5c8d9e5c93c2_64.png&amp;title=Beard.&amp;url=http%3A%2F%2Ffuckingbearded.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

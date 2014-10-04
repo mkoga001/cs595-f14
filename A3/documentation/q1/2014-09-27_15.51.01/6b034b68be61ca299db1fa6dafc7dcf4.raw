@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html> 
+<head>
+	<title>PARTICLE MACE - Andy Wallace</title>
+	<link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+	<script src="jquery-1.6.4.min.js"></script>
+	<script src="bgnoise.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="icon" 
+      type="image/png" 
+      href="http://andymakes.com/particlemace/favIcon.ico">
+</head>
+
+<body>
+
+<!--
+<div class="actionbox">	
+		<h1>PARTICLE MACE ACTION ALERT:</h1>
+		<h1>PARTICLE MACE will be part of <a href="https://www.facebook.com/events/322787347885404/">Hot Ronny Rumble</a> at <a href="http://babycastles.com/website">Babycastles</a> in NYC this Saturday (Audust 2nd).<br><br>You should be there.</h1>
+	</div>
+-->
+
+
+	<div id='title'>
+		<p><IMG src="pics/logo.png"><br><IMG src="pics/awards.png"></p>
+	</div>
+	
+	<div id='summary' class='bodyText'>
+		<p>PARTICLE MACE is an upcoming 1-4 player game for Windows/Mac/iOS by Andy Wallace about defending yourself in a hostile universe by swinging particles into enemies.</p>
+		<p>PARTICLE MACE is a game about capturing the thrill of classic arcade games with a new, physics based mechanic.</p>
+		<p>PARTICLE MACE is a game about trying not to die, but that's impossible.</p>
+	</div>
+	<br>
+	
+	<div id='video'>
+		<center>
+			<iframe src="http://player.vimeo.com/video/102190423" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		</center>
+	</div>
+
+	
+	<div id="steamWidget">
+		<p class="sectionTitle">PARTICLE MACE is in alpha!</p>
+		<iframe src="http://store.steampowered.com/widget/295690/?t=Get%20PARTICLE%20MACE%20as%20a%20Steam%20Early%20Access%20game%20and%20you%20will%20not%20only%20get%20a%20great%20arcade%20experience%20at%20a%20reduced%20price%2C%20but%20your%20feedback%20will%20help%20shape%20the%20game%20as%20ships%20and%20difficulties%20are%20tweaked%20based%20on%20your%20feedback!" frameborder="0" width="646" height="190"></iframe>
+		<br>
+		<br>
+		<br>
+	</div>
+	
+	<div id="humbleStore">
+		
+		<iframe src="//itch.io/embed/3634" width="552" height="167" frameborder="0"></iframe>
+		<br>
+		<br>
+		<br>
+		<iframe width='550' height='264' scrolling='no' frameBorder='0' style='border:none;' src='https://www.humblebundle.com/store/product/particlemace/Pdkwo9'>
+		</iframe>
+	</div>
+	
+	
+	
+<!--
+	<p class="sectionTitle">And was Greenlit!</p>
+	
+	<p class='bodyText'>
+	<a href="http://steamcommunity.com/sharedfiles/filedetails/?id=225789726" target="_blank"><img src="otherpics/greenlightBanner.png"></a>
+	</p>
+	
+	<div  class="bodyText">
+		<p>Thanks to your votes, PARTICLE MACE will be available on Steam soon. Buying the alpha guarantees you a Steam key</p>
+	</div>
+-->
+	
+	
+
+	<div id='screenshots'>
+		<p class="sectionTitle">Here are some screenshots:</p>
+		<center>
+			<div class='bodyTextCent'>
+				<p>Windows/Mac</p>
+			</div>
+	
+			<a href="pics/pcPics/arcade0.png"> <img src="thumbs/arcade0.png"> </a>
+			<a href="pics/pcPics/arcade1.png"> <img src="thumbs/arcade1.png"> </a>
+			<a href="pics/pcPics/multiplay1.png"> <img src="thumbs/multiplay1.png"> </a>
+			<br>
+			<br>
+			<a href="pics/pcPics/multiplay2.png"> <img src="thumbs/multiplay2.png"> </a>
+			<a href="pics/pcPics/shipSelect.png"> <img src="thumbs/shipSelect.png"> </a>
+			<a href="pics/pcPics
+			/endScreenMulti.png"> <img src="thumbs/endScreenMulti.png"> </a>
+			
+			<br>
+			<br>
+			<br>
+			
+			<div class='bodyTextCent'>
+				<p>iOS</p>
+			</div>
+			<a href="pics/iosPics/ios1.png"> <img src="thumbs/ios1.png"> </a>
+			<a href="pics/iosPics/ios2.png"> <img src="thumbs/ios2.png"> </a>
+			<a href="pics/iosPics/ios3.png"> <img src="thumbs/ios3.png"> </a>
+			<a href="pics/iosPics/ios4.png"> <img src="thumbs/ios4.png"> </a>
+			<a href="pics/iosPics/ios5.png"> <img src="thumbs/ios5.png"> </a>
+			<a href="pics/iosPics/ios6.png"> <img src="thumbs/ios6.png"> </a>
+			
+			<br>
+			<br>
+			<br>
+			
+			<div class='bodyTextCent'>
+				<p>GIFs</p>
+			</div>
+			<a href="pics/gifs/particleMaceAction1.gif"> <img src="pics/gifs/particleMaceAction1_300x250.gif"> </a>
+			<a href="pics/gifs/particleMaceAction2.gif"> <img src="pics/gifs/particleMaceAction2_300x250.gif"> </a>
+			<br>
+			<br>
+			<a href="pics/gifs/1v1.gif"> <img src="pics/gifs/1v1.gif"> </a>
+			<a href="pics/gifs/coop.gif"> <img src="pics/gifs/coop.gif"> </a>
+			
+			<br>
+			<br>
+			<br>
+			<div class='bodyTextCent'>
+				<p>Non-transparent Logo</p>
+			</div>
+			<a href="pics/logoBlack.png"> <img src="pics/logoBlack.png"> </a>
+			
+		</center>
+	</div>
+	
+	<p class="sectionTitle">PARTICLE MACE likes your friends</p>
+	<div  class="bodyText">
+		<p>It will even let you kill your friends, which can be a lot of fun! Or you can play with them in co-op arcade mode, but wouldn't you rather smash them?</p>
+	</div>
+	
+	<br>
+	
+	<div id='video'>
+		<center>
+			<iframe src="http://player.vimeo.com/video/98495814" width="650" height="407" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		</center>
+	</div>
+	
+
+	<p class="sectionTitle">Getting In On This Action</p>
+	<div id="testers" class="bodyText">
+	
+	<br>
+		
+		<p>Maybe you saw this and thought "I'd like to play that." Well good news: PARTICLE MACE is in alpha! For a discounted price you can get in on the action and yell at me when things aren't to your liking. But unlike normal yelling, this yelling results in me changing the game to fit your hopes and dreams.
+		<br>
+		<br>
+		Buying the game now will guarantee you all builds up through release, any updates after that point and a Steam key if you want it, as well as one for GOG/Desura if it ever comes out on those platforms. What you definitely don't get is any DRM. You buy it, it's yours.
+		<br>
+		<br>
+		(Steam has some DRM. Humble and <a href="http://andymakes.itch.io/particlemace">Itch.io</a> do not)
+		<br>
+		<br>
+		This alpha is only for the PC/Mac version of the game. iOS folks will just have to wait. Playing with Xbox/PS3 controllers is recommended.
+	</div>
+	
+	<br>
+	
+	<p class="sectionTitle">What are people saying?</p>
+	
+	<div class="pullQuote">
+		<p>Your thumbs ride the analog sticks as if a space cowboy with a mean lasso technique.</p>
+	</div>
+	<div class="pullQuoteAuthor">
+		<p><a href="http://killscreendaily.com/articles/news/get-swing-things-particle-maces-non-shooting/">Kill Screen</a></p>
+	</div>
+	
+	<div class="pullQuote">
+		<p>A complex physics based battle royal.</p>
+	</div>
+	<div class="pullQuoteAuthor">
+		<p><a href="http://greenlitgaming.com/preview-particle-mace/">Greenlit Gaming</a></p>
+	</div>
+	
+	<div class="pullQuote">
+		<p>The elegant movements of your ship are like a ballet of geometrical anarchy.</p>
+	</div>
+	<div class="pullQuoteAuthor">
+		<p><a href="http://cueindiereview.blogspot.com/2014/07/indie-impression-particle-mace.html">Cue Indie Review</a></p>
+	</div>
+	
+	<div class="pullQuote">
+		<p>It's a dangerous concoction of old and new. Dangerous because it eats time.</p>
+	</div>
+	<div class="pullQuoteAuthor">
+		<p><a href="http://indiestatik.com/2014/01/10/particle-mace/">Indie Statik</a></p>
+	</div>
+
+	<div class="pullQuote">
+		<p>A rad little game, all controlled with a single joystick/thumbstick.</p>
+	</div>
+	<div class="pullQuoteAuthor">
+		<p><a href="http://www.gamerevolution.com/preview/particle-mace">Game Revolution</a></p>
+	</div>
+
+	<div class="pullQuote">
+		<p>In Particle Mace, the only way to survive long enough to accomplish any worthwhile objectives is to lose yourself in the greater context, ceding what seem to be immediate interests for the good of those whose fates are tied up in yours.
+<br>
+<br>
+In other words, in Particle Mace, the only way to win is by becoming a better person.</p>
+	</div>
+	<div class="pullQuoteAuthor">
+		<p><a href="http://www.dashjump.com/particle-mace-selflessness/">Dashjump</a></p>
+	</div>
+	
+	<div class="pullQuote">
+		<p>PARTICLE MACE IS ONE OF THE BEST GAMES YOU'LL PLAY AT INDIECADE THAT'S NOT OFFICIALLY PART OF INDIECADE</p>
+	</div>
+	<div class="pullQuoteAuthor">
+		<p><a href="http://attractmo.de/particle-mace-is-one-of-the-best-games-youll-play-at-indiecade-thats-not-officially-part-of-indiecade/">Atractmo.de</a></p>
+	</div>
+	
+	<p class="sectionTitle">Credits and Such</p>
+	<div id="credits" class="bodyText">
+		
+		<p>This game is being made by Andy Wallace. He is a man who makes small games in a smaller apartment.</p>
+		<p>Drop secret notes/send feedback to<br>andy[at]andymakes[dot]com or <a href="https://twitter.com/Andy_Makes">@andy_makes</a></p>
+		<p>The music is being done by<br><a href="http://bubblepipemedia.bandcamp.com/">Nathaniel Chambers</a>.</p>
+		<p>The audio is being done by<br><a href="https://twitter.com/Safety_Orange">K Anthony Marefat</a> & <a href="https://twitter.com/whereisbobbynow">Bobby Fata</a>.</p>	
+		<p>PR is being done by <a href="https://twitter.com/vegapedia">Jason Vega</a>.</p>	
+	</div>
+	
+	
+		<!-- Begin MailChimp Signup Form
+	
+	<p class="sectionTitle">Staying In Touch</p>
+
+<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+
+<div id="mc_embed_signup">
+<form action="http://particlemace.us7.list-manage.com/subscribe/post?u=c4f27d6ba7613793cb12fbc8d&amp;id=1014d5d9fa" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <label for="mce-EMAIL">Join the PARTICLE MACE mailing list. Get notified when the game comes out and learn about cool events that will feature it. You will be proud. Your parents will be proud.</label>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_c4f27d6ba7613793cb12fbc8d_1014d5d9fa" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe (you did it)" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</form>
+</div>
+
+ 
+<!--End mc_embed_signup-->
+	
+	
+	<br>
+	<br>
+
+	<canvas id="bgCanvas"  >
+	</canvas>
+	
+	
+	
+</body>
+
+
+</html>

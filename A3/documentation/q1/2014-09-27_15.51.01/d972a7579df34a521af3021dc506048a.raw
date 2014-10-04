@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+     <title>Desertstormradio.com</title>
+     <meta charset="utf-8">
+     <meta name = "format-detection" content = "telephone=no" />
+     <link rel="icon" href="images/favicon.ico">
+     <link rel="shortcut icon" href="images/favicon.ico" />
+     <link rel="stylesheet" href="css/owl.carousel.css">
+     <link rel="stylesheet" href="css/camera.css">
+     <link rel="stylesheet" href="css/touchTouch.css">
+     <link rel="stylesheet" href="css/style.css">
+     <script src="js/jquery.js"></script>
+     <script src="js/jquery-migrate-1.1.1.js"></script>
+     <script src="js/script.js"></script> 
+     <script src="js/superfish.js"></script>
+     <script src="js/jquery.equalheights.js"></script>
+     <script src="js/jquery.mobilemenu.js"></script>
+     <script src="js/jquery.easing.1.3.js"></script>
+     <script src="js/jquery.ui.totop.js"></script>
+     <script src="js/owl.carousel.js"></script> 
+     <script src="js/touchTouch.jquery.js"></script>
+     <script src="js/jquery.tabs.min.js"></script>
+     <script src="js/camera.js"></script>
+     <!--[if (gt IE 9)|!(IE)]><!-->
+     <script src="js/jquery.mobile.customized.min.js"></script>
+     <!--<![endif]-->
+     <script>
+       $(document).ready(function(){
+        jQuery('#camera_wrap').camera({
+            loader: false,
+            pagination: true ,
+            minHeight: '300',
+            thumbnails: false,
+            height: '40%',
+            caption: true,
+            navigation: false,
+            fx: 'mosaic'
+          });        
+        /*carousel*/
+        var owl = $("#owl"); 
+            owl.owlCarousel({
+            items : 3, //10 items above 1000px browser width
+            itemsDesktop : [995,3], //5 items between 1000px and 901px
+            itemsDesktopSmall : [767, 2], // betweem 900px and 601px
+            itemsTablet: [700, 2], //2 items between 600 and 0
+            itemsMobile : [479, 2], // itemsMobile disabled - inherit from itemsTablet option
+            navigation : false,
+            pagination :  true
+            });
+        $('.gallery a.gal').touchTouch();
+        $().UItoTop({ easingType: 'easeOutQuart' });
+                
+     }); 
+
+     </script>
+        
+   
+    <!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+         </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <link rel="stylesheet" media="screen" href="css/ie.css">
+
+
+    <![endif]-->
+     </head>
+
+     <body class="page1" id="top">
+
+<header>
+  <div class="container_12">
+    <div class="grid_12">
+    <!--==============================header=================================-->
+      <div class="menu_block ">
+        <div class="autor"><script src="http://www.primcast.com/jwplayer5/jwplayer.js" type="text/javascript">
+</script>
+<div id="player_preview" style="float: left;"></div>
+<script type="text/javascript">
+ 
+  jwplayer('player_preview').setup({  'id': 'playerID', 'width': 300, 'height': 27, 'provider': 'rtmp', 'rtmp.tunneling':'false', events: { onPause: function(event) { jwplayer('mediaspace').play();} }, 'autostart':'true',  'streamer': 'rtmp://broadcastprovide4.flashmediacast.com:2113/live', 'file': 'livestream', 'skin': 'http://www.primcast.com/jwplayer5/glow.zip','duration': '0',  'modes': [   {type: 'flash', src: 'http://www.primcast.com/jwplayer5/player.swf'},  { type: 'html5', config: { 'file': 'http://broadcastprovide4.flashmediacast.com:2113/live/livestream/playlist.m3u8', 'provider': 'video' }},  { type: 'download', config: { 'file': 'http://broadcastprovide4.flashmediacast.com:2113/live/livestream/playlist.m3u8', 'provider': 'video' } } ] });
+</script></div>
+        <nav class="horizontal-nav full-width horizontalNav-notprocessed">
+        <ul class="sf-menu">
+         <li class="current"><a href="index.html">Home</a></li>
+         <li><a href="http://dsradio.ning.com/main/authorization/signUp?">MEMBERS</a></li>
+         <li><a href="http://www.desertstormradio.com/djstaff.html">OUR DJ'S</a>
+         <li><a href="index-2.html">PROMOTION</a></li>
+         <li><a href="http://dsradio.ning.com/page/models">MODELS</a></li>
+         <li><a href="http://tunein.com/radio/Desert-Storm-Radio-s189375/">MOBILE LISTENERS</a></li>
+        </ul>
+        </nav>
+        <div class="clear"></div>       
+      </div>
+      
+    </div>
+  </div>
+    <h1>
+        <a href="index.html">
+          <img src="images/logo.png" alt="Your Happy Family">
+        </a>
+      </h1> 
+ </header>       
+      
+<div class="slider_wrapper ">
+  <div id="camera_wrap" class="">
+    <div data-src="images/slide.jpg">
+      <div class="caption fadeIn">
+        <h2>DESERTSTORMRADIO.COM</h2>
+        <p>(DSR) is a syndicate of DJ's worldwide! Each DJ represents DSR worldwide. Our DJ's perform at Celebrity Events, Night Clubs, Lounges, Concerts, and Private Parties around the world. Each DJ broadcasts LIVE from each of these events directly back to the Desertstormradio.com website!</p>
+        <a href="http://dsradio.ning.com/main/authorization/signUp?">BECOME A MEMBER</a>
+      </div>
+    </div>
+    <div data-src="images/slide1.jpg">
+      <div class="caption fadeIn">
+        <h2>STREAMING LIVE EVENTS WORLDWIDE</h2>
+        <p>We can take 1 single hand it out to the DJ's in our Network and your 1 single is instantly heard around the world in Nightclubs, on the RADIO, at Parties, and Celebrity Events. Millions of twitter followers can be contacted within seconds and we can put you on the map!</p>
+        <a href="http://dsradio.ning.com/main/authorization/signUp?">BECOME A MEMBER</a>
+      </div>
+    </div>
+    <div data-src="images/slide2.jpg">
+      <div class="caption fadeIn">
+        <h2>CLUE-CEAS-CULTURE PRESENT:</h2>
+        <p>DJ CLUE with partners CEAS and DJ CULTURE bring you the worlds first Global DJ Network broadcasting live 24/7 365. Tune in daily for LIVE mixes and LIVE parties sent directly to your mobile device.</p>
+        <a href="http://dsradio.ning.com/main/authorization/signUp?">BECOME A MEMBER</a>
+      </div>
+    </div>    
+  </div> 
+</div>
+
+         
+<div class="slogan">
+      <div class="container_12">
+        <div class="grid_12">DJ'S JOIN OUR NETWORK <a href="http://dsradio.ning.com/page/become-a-dsr-dj">SIGNUP  HERE </a>   CALL US TOLL FREE 1-844-DSRADIO</div>
+</div>
+    </div>    
+<!--==============================Content=================================-->
+<div class="content">
+  <div class="container_12">
+    <div class="grid_12">
+      <h3>DESERTSTORMRADIO TOP SHOWS      
+    </div>
+    <div class="grid_4"><a href="http://www.twitter.com/djclue" class="banner">
+        <img src="images/page1_img1.jpg" alt="">
+        <div class="ban">
+          <div class="ban1">
+            <span></span>
+            <div class="title">DJ CLUE</div>
+            <strong>MON-FRI 6PM-10PM EST</strong>
+          </div>
+          <div class="ban2"><span></span>
+            <div class="title">@DJCLUE</div>
+            <strong>HipHop/R&B OWNER</strong>
+          </div>
+        </div>
+      </a></div>
+    <div class="grid_4"><a href="http://www.twitter.com/followceas" class="banner">
+        <img src="images/page1_img2.jpg" alt="">
+        <div class="ban">
+          <div class="ban1">
+            <span></span>
+            <div class="title">What is the Show!</div>
+            <strong>MONDAYS 10pm EST</strong>
+          </div>
+          <div class="ban2">
+            <div class="title">@FOLLOWCEAS</div>
+            <strong>Comedy, Talk Show, New Music OWNER</strong>
+          </div>
+        </div>
+      </a></div>
+    <div class="grid_4"><a href="http://www.twitter.com/dsglobalradio" class="banner">
+        <img src="images/page1_img3.jpg" alt="">
+        <div class="ban">
+          <div class="ban1">
+            <span></span>
+            <div class="title">The Global Remix Show</div>
+            <strong>FRIDAYS 10PM EST</strong>
+          </div>
+          <div class="ban2">
+            <div class="title">@THEREALCULTURE</div>
+            <strong>House, Dance, HipHop, Classics OWNER</strong>
+          </div>
+        </div>
+      </a></div>
+    <div class="grid_4"><a href="http://www.twitter.com/tampamystic" class="banner">
+        <img src="images/page1_img4.jpg" alt="">
+        <div class="ban">
+          <div class="ban1">
+            <span></span>
+            <div class="title">The Tampamystic Show</div>
+            <strong>SUNDAYS 10PM EST & MONDAYS 5-6PM</strong>
+          </div>
+          <div class="ban2">
+            <div class="title">@TAMPAMYSTIC</div>
+            <strong>Breaking Artists, New Music, New Artists</strong>
+          </div>
+        </div>
+      </a></div>
+    <div class="grid_4"><a href="http://www.twitter.com/djchuckchillout" class="banner">
+        <img src="images/page1_img5.jpg" alt="">
+        <div class="ban">
+          <div class="ban1">
+            <span></span>
+            <div class="title">The Chuck Chillout Show</div>
+            <strong>THURSDAYS 4-6PM EST</strong>
+          </div>
+          <div class="ban2">
+            <div class="title">@DJCHUCKCHILLOUT</div>
+            <strong>HipHop, Old School, Breaking Artists</strong>
+          </div>
+        </div>
+      </a></div>
+    <div class="grid_4"><a href="https://twitter.com/djrootsqueen" class="banner">
+        <img src="images/page1_img6.jpg" alt="">
+        <div class="ban">
+          <div class="ban1">
+            <span></span>
+            <div class="title">Rude Girl Radio Show</div>
+            <strong>TUESDAYS 5-6PM EST</strong>
+          </div>
+          <div class="ban2">
+            <div class="title">@DJROOTSQUEEN</div>
+            <strong>Reggae,Caribbean, New Artists </strong>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="content">
+  <div class="container_12">
+    <div class="grid_12">
+      <h3>    
+    </div>
+    <div class="grid_4"><a href="https://twitter.com/djsteveaustin" class="banner">
+        <img src="images/page1_djsteveaustin.jpg" alt="">
+        <div class="ban">
+          <div class="ban1">
+            <span></span>
+            <div class="title">DJ STEVE AUSTIN</div>
+            <strong>SATURDAYS 4-6PM EST</strong>
+          </div>
+          <div class="ban2"><span></span>
+            <div class="title">@DJSTEVEAUSTIN</div>
+            <strong>Reggae,Caribbean, New Artists</strong>
+          </div>
+      </div>
+    </a></div>
+    <div class="grid_4"><a href="https://twitter.com/djlilrye" class="banner">
+        <img src="images/rye.jpg" alt="">
+        <div class="ban">
+          <div class="ban1">
+            <span></span>
+            <div class="title">Lil Rye In The Mix</div>
+            <strong>TUESDAYS 11PM EST</strong>
+          </div>
+          <div class="ban2">
+            <div class="title">@DJLILRYE</div>
+            <strong>Dance, Pop, Top40, Rock</strong>
+          </div>
+      </div>
+    </a></div>
+    <div class="grid_4"><a href="https://twitter.com/DJFinstaBaby" class="banner">
+        <img src="images/finsta.jpg" alt="">
+        <div class="ban">
+          <div class="ban1">
+            <span></span>
+            <div class="title">NEW EXCLUSIVES</div>
+            <strong>WEDNESDAYS4-6PM EST</strong>
+          </div>
+          <div class="ban2">
+            <div class="title">@DJFINSTABABY</div>
+            <strong>New Music, New Artists, HipHop PD</strong>
+          </div>
+      </div>
+    </a></div>
+    <div class="grid_4"><a href="https://twitter.com/DJCasperDJC" class="banner">
+        <img src="images/casper.jpg" alt="">
+        <div class="ban">
+          <div class="ban1">
+            <span></span>
+            <div class="title">The DJ Casper Show</div>
+            <strong>Tuesdays 10pm FRIDAYS 3PM</strong>
+          </div>
+          <div class="ban2">
+            <div class="title">@DJCasperDJC</div>
+            <strong>Dance, House, Club, HipHop</strong>
+          </div>
+      </div>
+    </a></div>
+    <div class="grid_4"><a href="https://twitter.com/ItzBundystheory" class="banner">
+        <img src="images/bundy.jpg" alt="">
+        <div class="ban">
+          <div class="ban1">
+            <span></span>
+            <div class="title">BUNDYS THEORY</div>
+            <strong>SUNDAYS 4-6PM EST</strong>
+          </div>
+          <div class="ban2">
+            <div class="title">@ItzBundystheory</div>
+            <strong>HipHop, Classics, New Artists</strong>
+          </div>
+      </div>
+    </a></div>
+    <div class="grid_4"><a href="https://twitter.com/Djbiggsnyc" class="banner">
+        <img src="images/biggs.jpg" alt="">
+        <div class="ban">
+          <div class="ban1">
+            <span></span>
+            <div class="title">The DJ Biggs Show</div>
+            <strong>SATURDAYS 1PM EST</strong>
+          </div>
+          <div class="ban2">
+            <div class="title">@Djbiggsnyc</div>
+            <strong>HipHop, OldSchool,New Artists</strong>
+          </div>
+      </div>
+      </a>
+    </div>
+    
+    <div class="grid_8">
+      <h3 class="head1">DESERTSTORMRADIO.COM</h3>
+      <p>Desertstormradio (DSR) is a syndicate of DJ's worldwide! Each DJ represents DSR worldwide. Our DJ's perform at Celebrity Events, Night Clubs, Lounges, Concerts, and Private Parties around the world. Each DJ broadcasts LIVE from each of these events directly back to the Desertstormradio.com website! This gives you the listener the ability to listen to LIVE parties that you normally would not be able to listen to. Our method of music distribution is unto itself! We can take 1 single hand it out to the DJ's in our syndicate and your 1 single is instantly heard around the world in Nightclubs, on the RADIO, at Parties, and Celebrity Events.<br> <a href="http://dsradio.ning.com/page/about-us" class="btn bt1">More info</a>
+    </div>
+    <div class="grid_4">
+      <h3 class="head1">DOWNLOADS</h3>
+      <div class="pay">
+        <a href="https://soundcloud.com/whatisthenameoftheshow/the-smoke-break-ep-2"><img src="images/pay1.png" alt="Smoke Break 2"></a>
+        <a href="http://www.desertstormradio.com/DJCulture7480.zip"><img src="images/pay2.png" alt="DJ CULTURE CULTUREWORLD"></a>
+        <a href="http://www.datpiff.com/jay-bundy-Bundys-Theory-Married-2-Muzik-Edition-mixtape.635281.html"><img src="images/pay3.png" alt=""></a>
+        <a href="#"><img src="images/pay4.png" alt=""></a>
+        <a href="http://www.mediafire.com/download/igf21z412h0bbij/DynastyVol.1+Master.zip" title="DJ AONE"><img src="images/pay5.png" alt=""></a>
+        <a href="https://www.dropbox.com/s/rz8pgvahzhk7g81/DESERT%20STORM%20DIVAS%20WITH%20EFFECTS%20AND%20DROPS%202.mp3"><img src="images/pay6.png" alt=""></a>
+        <a href="http://www1.zippyshare.com/v/29975174/file.html"><img src="images/pay7.png" alt=""></a>
+        <a href="http://www.datpiff.com/Rick-Ross-Blood-Money-mixtape.644425.html"><img src="images/pay8.png" alt=""></a>
+        <a href="http://www.datpiff.com/Young-Jeezy-Return-Of-The-Snowman-3-mixtape.642564.html"><img src="images/pay9.png" alt=""></a>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div class="grid_6">
+      <h3 class="head1 mb0">DSR IMAGES</h3>
+      <div id="owl" class="gallery">
+        <div class="item">
+          <a href="images/big1.jpg" class="gal"><img src="images/small1.jpg" alt=""></a>
+          <a href="images/big4.jpg" class="gal"><img src="images/small4.jpg" alt=""></a>
+          <a href="images/big7.jpg" class="gal"><img src="images/small7.jpg" alt=""></a>
+          <a href="images/big10.jpg" class="gal"><img src="images/small10.jpg" alt=""></a>
+        </div>
+        <div class="item">
+          <a href="images/big2.jpg" class="gal"><img src="images/small2.jpg" alt=""></a>
+          <a href="images/big5.jpg" class="gal"><img src="images/small5.jpg" alt=""></a>
+          <a href="images/big8.jpg" class="gal"><img src="images/small8.jpg" alt=""></a>
+          <a href="images/big11.jpg" class="gal"><img src="images/small11.jpg" alt=""></a>
+        </div>
+        <div class="item">
+          <a href="images/big3.jpg" class="gal"><img src="images/small3.jpg" alt=""></a>
+          <a href="images/big6.jpg" class="gal"><img src="images/small6.jpg" alt=""></a>
+          <a href="images/big9.jpg" class="gal"><img src="images/small9.jpg" alt=""></a>
+          <a href="images/big12.jpg" class="gal"><img src="images/small12.jpg" alt=""></a>
+        </div>
+        <div class="item">
+          <a href="images/big1.jpg" class="gal"><img src="images/small1.jpg" alt=""></a>
+          <a href="images/big4.jpg" class="gal"><img src="images/small4.jpg" alt=""></a>
+          <a href="images/big7.jpg" class="gal"><img src="images/small7.jpg" alt=""></a>
+          <a href="images/big10.jpg" class="gal"><img src="images/small10.jpg" alt=""></a>
+        </div>
+        <div class="item">
+          <a href="images/big2.jpg" class="gal"><img src="images/small2.jpg" alt=""></a>
+          <a href="images/big5.jpg" class="gal"><img src="images/small5.jpg" alt=""></a>
+          <a href="images/big8.jpg" class="gal"><img src="images/small8.jpg" alt=""></a>
+          <a href="images/big11.jpg" class="gal"><img src="images/small11.jpg" alt=""></a>
+        </div>
+        <div class="item">
+          <a href="images/big3.jpg" class="gal"><img src="images/small3.jpg" alt=""></a>
+          <a href="images/big6.jpg" class="gal"><img src="images/small6.jpg" alt=""></a>
+          <a href="images/big9.jpg" class="gal"><img src="images/small9.jpg" alt=""></a>
+          <a href="images/big12.jpg" class="gal"><img src="images/small12.jpg" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="grid_6">
+      <div class="tabs">
+         <div class="div-nav  ">
+             <ul class="nav">
+                <li class="selected"><a href="#tab-1" class="">WHAT'S GOING ON!</a></li>
+                
+             </ul>
+             <div class="clear"></div>
+         </div>
+         <div class="div-tabs">
+            <div  id="tab-1" class="tab-content"><span></span>
+              <ul>
+                <li>
+                  <div class="extra_wrapper">
+                    <div class="col1">SEPTEMBER</div>
+                    <a href="http://www.culturewaterglobal.com">Culture Water hits mass distribution.</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="extra_wrapper">
+                    <div class="col1">SEPTEMBER</div>
+                    <a href="http://www.livehiphopbattle.com">Livehiphopbattle launches putting Artists against eachother in battle.</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="extra_wrapper">
+                    <div class="col1">SEPTEMBER</div>
+                    <a href="http://www.instagram.com/followceas">@followceas becomes brand ambassador for Living Proof Brand LVNPRF</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="extra_wrapper">
+                    <div class="col1">SEPTEMBER</div>
+                    <a href="http://instagram.com/djaone">DJ AONE every Monday at Sue's RONDEZVOUS With @followceas.</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="extra_wrapper">
+                    <div class="col1">SEPTEMBER</div>
+                    <a href="#">NEWS TO COME</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="extra_wrapper">
+                    <div class="col1">OCTOBER</div>
+                    <a href="#">NEWS TO COME</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div  id="tab-2" class="tab-content"><span></span>
+              <ul>
+               
+                <li>
+                  <div class="extra_wrapper">
+                    <div class="col1">OCTOBER</div>
+                    <a href="#">NEWS TO COME</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="extra_wrapper">
+                    <div class="col1">OCTOBER</div>
+                    <a href="#">NEWS TO COME </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="extra_wrapper">
+                    <div class="col1">OCTOBER</div>
+                    <a href="#">NEWS TO COME</a>
+                  </div>
+                </li>
+                 <li>
+                   <div class="extra_wrapper">
+                    <div class="col1">OCTOBER</div>
+                    <a href="#">NEWS TO COME</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="extra_wrapper">
+                    <div class="col1">NEWS TO COME</div>
+                    <a href="#">NEWS TO COME</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="extra_wrapper">
+                    <div class="col1">NEWS TO COME</div>
+                    <a href="#">NEWS TO COME</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div  id="tab-3" class="tab-content"><span></span>
+              <ul>
+                <li>
+                  <div class="extra_wrapper">
+                    <div class="col1">NEWS TO COME</div>
+                    <a href="#">NEWS TO COME</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="extra_wrapper">
+                    <div class="col1">NEWS TO COME</div>
+                    <a href="#">NEWS TO COME</a>
+                  </div>
+                </li>
+                 <li>
+                   <div class="extra_wrapper">
+                    <div class="col1">3/6- 11/1</div>
+                    <a href="#">NEWS TO COME</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="extra_wrapper">
+                    <div class="col1">NEWS TO COME</div>
+                    <a href="#">NEWS TO COME</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="extra_wrapper">
+                    <div class="col1">1/1 - 10/1</div>
+                    <a href="#">NEWS TO COME</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="extra_wrapper">
+                    <div class="col1">NEWS TO COME</div>
+                    <a href="#">NEWS TO COME</a>
+                  </div>
+                </li>
+               
+               
+              </ul>
+            </div>
+         </div>   
+     </div> 
+    </div>
+  </div>
+</div>
+
+<!--==============================footer=================================-->
+
+  <footer>   
+    <div class="container_12">
+      <div class="grid_12">
+        <div class="socials">
+          <a href="#"><img src="images/facebook.png" alt=""></a>
+          <a href="#"><img src="images/twitter.png" alt=""></a>
+          <a href="#"><img src="images/g_plus.png" alt=""></a>
+          <a href="#"><img src="images/pint.png" alt=""></a>
+        </div>
+        <a href="index.html" class="f_logo">
+          <img src="images/f_logo.png" alt="">
+        </a>
+        <div class="copy">
+        &copy; <span id="copyright-year"></span> &nbsp; <a href="index-7.html">Privacy Policy</a> <!--{%FOOTER_LINK} --><div></div>
+        </div>
+      </div>
+    </div>  
+  </footer>
+  
+</body>
+</html>
+

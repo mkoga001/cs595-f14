@@ -1,0 +1,2028 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8" />
+
+    <meta name="keywords" content="Racing Results, Latest News, Scratchings & Tips - Sky Racing" />
+						 <meta name="description" content="Sky Racing is your one-stop live racing experience; covering every greyhound, harness & horse racing moment from tips, results and latest racing news." />
+						 <meta name="generator" content="Sky Racing" />
+						 <title>Number one in Racing</title>    
+    <link href="themes/home/favicon.ico" rel="shortcut icon" type="images/favicon.ico" />
+    
+    <!--CSS-->
+    <link href="/themes/home/css/theme.css" rel="stylesheet" type="text/css" />
+    <link href="/css/common_sky2012.css" rel="stylesheet" type="text/css" />
+	<link href="/js/jQuery/css/jquery-ui-1.8.23.custom.css" rel="stylesheet" type="text/css" />
+	
+	<!--vtip-->
+   	<link rel="stylesheet" type="text/css" href="/js/jQuery/vtip/vtip.css">
+	<!--jVal-->
+  	<link rel="stylesheet" type="text/css" href="/js/jQuery/jVal/jVal.css">
+	<!--Fancybox-->
+   	<link rel="stylesheet" type="text/css" href="/js/jQuery/fancybox/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+    <!--datatables pagination-->
+   	<link rel="stylesheet" type="text/css" href="/js/jQuery/DataTables/media/css/pagination.css" media="screen" />    
+       
+	<!--JS-->
+    <script type="text/javascript" language="javascript" src="/js/core.js"></script>
+    <script type="text/javascript" src="/js/jquery-1.8.0.min.js"></script>
+	<script type="text/javascript" src="/js/jquery-ui-1.8.23.custom.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="/js/jquery.cycle.all.js"></script>
+	<script type="text/javascript" src="/js/tabs.js"></script>	
+                
+     <!--jVal-->
+	<script language="JavaScript" type="text/javascript" src="/js/jQuery/jVal/jVal.js"></script>
+    
+    <!--Fancybox-->
+	<script type="text/javascript" src="/js/jQuery/fancybox/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/js/jQuery/fancybox/fancybox/jquery.fancybox-1.3.1.js"></script>
+    
+    <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+    
+        
+</head>
+
+<body>
+
+<script type="text/javascript" src="/js/jQuery/cookie-master/jquery.cookie.js"></script>
+
+<script type="text/javascript"> 
+
+	jQuery(document).ready(function(){
+		
+		if((navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i))&& !jQuery.cookie("appPrompt2")) {
+			jQuery.cookie("appPrompt2", "1", { expires: 6 });        
+        	if (confirm("We've detected you're using an Apple device. Get the app?")) {    
+            	window.location = "https://itunes.apple.com/au/app/sky-racing/id570133214?mt=8";
+        	}
+    	}
+
+		if((navigator.userAgent.match(/Android/i)) && !jQuery.cookie("appPrompt2")) {
+			jQuery.cookie("appPrompt2", "1", { expires: 6 });
+			if (confirm("We've detected you're using Android. Get the app?")) {            
+				window.location = "https://play.google.com/store/apps/details?id=com.skyracing.skyracing&hl=en_GB";
+			}
+    	}	
+		
+	});
+	
+</script>
+<!--top login bar-->
+<div id="loginBar">   
+   
+<!--put the page top anchor here-->
+<a href="javascript://" id="pagetop"></a>
+ 
+<style>
+div#centre-loading-login {
+	text-align:right;
+}
+</style>
+
+<script type="text/javascript" charset="utf-8">
+	function checkLoginStatus() {
+		var return_url = "Lw==";
+
+		//setTimeout(function() {
+			jQuery.ajax({
+					cache: false,
+					type: "GET",
+					url: "/subscriberloginlogout.php",
+					data: "action=checkloginstatus&return="+return_url,
+					success: function(msg){										
+								document.getElementById('centre-loading-login').style.display = 'none';
+								document.getElementById('login-panel').style.display = 'block';
+
+								jQuery('#login-panel').html('');
+								jQuery('#login-panel').html(msg);
+								
+								jQuery('#tabLogin a.greyBtn').click(function () {
+									jQuery(this).siblings('.loginBox').toggle();
+									jQuery(this).toggleClass('active');
+									jQuery('#skyLogin a.greyBtn').siblings('.loginBox').hide();
+									jQuery('#skyLogin a.greyBtn').removeClass('active');
+								});
+								
+								jQuery('#skyLogin a.greyBtn').click(function () {
+									jQuery(this).siblings('.loginBox').toggle();
+									jQuery(this).toggleClass('active');
+									jQuery('#tabLogin a.greyBtn').siblings('.loginBox').hide();
+									jQuery('#tabLogin a.greyBtn').removeClass('active');
+								});
+								
+								jQuery('.loginBox .hideThis').click(function () {
+									jQuery('#skyLogin a.greyBtn').siblings('.loginBox').hide();
+									jQuery('#skyLogin a.greyBtn').removeClass('active');
+									jQuery('#tabLogin a.greyBtn').siblings('.loginBox').hide();
+									jQuery('#tabLogin a.greyBtn').removeClass('active');
+								});
+					}
+				});
+			//}, 1000);
+	}
+
+</script>
+
+<div class="wrapper" style="height:31px;">
+	<a href="https://www.tab.com.au" target="_blank" title="TAB.com.au" alt="TAB.com.au"><img src="/images/TAB_NSW_RGB_URL_white-lettering.png" width="49" height="25"></a>
+	<div id="centre-loading-login" style="display:block;">
+        <img src="/images/ajax_loading.gif" style="height: 10px;"/>
+    </div>
+
+    <div style="width:100%; display:block; height:100%;" id="login-panel">
+        
+    </div>
+    
+</div>
+
+<script type="text/javascript">
+	checkLoginStatus();
+</script></div>
+<!--top login bar ends-->
+
+<!--start body-->
+<div id="wrapper">
+	<!--start header-->
+	<div id="header">
+    	<!--next to go-->
+        
+<div id="nextToGo">
+
+    <div id="centre-loading" style="display:block;">
+        <img src="/images/ajax_loading.gif" />
+    </div>
+    
+    <div style="width:100%; display:none; height:100%;" id="top_next_to_go">
+          
+    </div>
+
+</div>
+
+<script type="text/javascript" charset="utf-8">
+	jQuery.noConflict();
+	jQuery(document).ready(function() {	
+		jQuery.ajax({
+			cache: false,
+			type: "GET",
+			url: "/ajax.php",
+			data: "action=getnextogorace",
+			success: function(msg){
+					document.getElementById('centre-loading').style.display = 'none';
+					document.getElementById('top_next_to_go').style.display = 'block';
+					
+					jQuery('#top_next_to_go').html('');
+					jQuery('#top_next_to_go').html(msg);
+				}
+		});					
+	} );
+</script>        <!--next to go end-->
+        
+        <!--leaderboard--> 
+        <div id="leaderboard">	        
+            
+<!-- Begin MCN ad code -->
+<span class="mcnamf" title="728x90"></span>
+<!-- End MCN ad code -->        </div>  
+        <!--leaderboard end-->     
+		
+        <!--sky logo-->
+		<div id="logo">
+        	<a href="/">
+            	<img src="/images/sky-ssr-logos.png" alt="Sky Racing" width="239" height="145"  />
+            </a>
+        </div>
+		<!--sky logo end-->
+   </div>
+   <!--end header-->
+   
+   <!--start main menu-->   
+	<skydoc:include type="modules" name="menu" />
+    <div id="mainMenu">
+	<ul>
+    		        		<li class="noStyle"><a href="index.php?component=content&Itemid=37&id=63" target="_self"><span></span>Home</a></li>
+        	        		<li class="noStyle"><a href="index.php?component=content&Itemid=121&id=97" target="_self"><span></span>Watch</a>
+                                        	<div class="megaMenu">
+                        	<div class="megaMenuInner">
+                         		<ul>
+                                	                                    		<li><a href="index.php?component=racing&task=racereplays&Itemid=198&id=18" target="_self">Race Replays</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=programs&task=catchuptv&Itemid=196&id=35" target="_self">Catch Up</a>
+                                                                                        
+                                            </li>
+                                                                    </ul> 
+                                <div class="clear"></div>  
+                            </div>
+                        </div>
+                    </li>         
+        	        		<li class="noStyle"><a href="index.php?component=content&Itemid=114&id=96" target="_self"><span></span>Radio</a>
+                                        	<div class="megaMenu">
+                        	<div class="megaMenuInner">
+                         		<ul>
+                                	                                    		<li><a href="index.php?component=ssr&task=podcasts&Itemid=193&id=24" target="_self">Podcasts</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=ssr&task=frequencyfinder&Itemid=194&id=24" target="_self">Frequency Finder</a>
+                                                                                        
+                                            </li>
+                                                                    </ul> 
+                                <div class="clear"></div>  
+                            </div>
+                        </div>
+                    </li>         
+        	        		<li class="noStyle"><a href="index.php?component=racing&task=todayraces&Itemid=88&id=18" target="_self"><span></span>Racing</a>
+                                        	<div class="megaMenu">
+                        	<div class="megaMenuInner">
+                         		<ul>
+                                	                                    		<li><a href="index.php?component=racing&task=todayraces&Itemid=89&id=18" target="_self">Today's Racing</a>
+                                                                                        	<ul>
+                                                                                        			<li><a href="index.php?component=racing&task=todaysrunners&Itemid=182&id=18" target="_self">Today's Runners</a></li>
+                                                                                        			<li><a href="index.php?component=racing&task=todaysjockeysdrivers&Itemid=183&id=18" target="_self">Today's Jockeys/Drivers</a></li>
+                                                                                        			<li><a href="index.php?component=racing&task=todaystrainers&Itemid=184&id=18" target="_self">Today's Trainers</a></li>
+                                                                                        	</ul>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=racing&task=yesterdayraces&Itemid=100&id=18" target="_self">Yesterday's Races</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=racing&task=todaysrundown&Itemid=101&id=18" target="_self">Today's Rundown</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=racing&task=results&Itemid=104&id=18" target="_self">Results</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="/international" target="_blank">International Racing</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=tip&task=tips&Itemid=96&id=20" target="_self">Expert Tips</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="http://schedule.skyracing.com.au/" target="_blank">Calendar</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=track&task=tracks&Itemid=95&id=19" target="_self">Tracks</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=racing&task=scratchings&Itemid=97&id=18" target="_self">Scratchings</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=content&Itemid=99&id=95" target="_self">Industry Links</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=news&task=opinionnews&Itemid=111&id=23" target="_self">Expert Comment</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=news&task=racingnews&Itemid=108&id=23" target="_self">Racing News</a>
+                                                                                        
+                                            </li>
+                                                                    </ul> 
+                                <div class="clear"></div>  
+                            </div>
+                        </div>
+                    </li>         
+        	        		<li class="noStyle"><a href="index.php?component=content&Itemid=109&id=103" target="_self"><span></span>Sports</a>
+                                        	<div class="megaMenu">
+                        	<div class="megaMenuInner">
+                         		<ul>
+                                	                                    		<li><a href="index.php?component=news&task=sportsnews&Itemid=110&id=23" target="_self">News</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="https://www.tab.com.au" target="_blank">TAB.com.au</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="http://www.bigsportsbreakfast.com.au" target="_blank">Big Sports Breakfast</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=content&Itemid=158&id=126" target="_self">The Punting Club</a>
+                                                                                        
+                                            </li>
+                                                                    </ul> 
+                                <div class="clear"></div>  
+                            </div>
+                        </div>
+                    </li>         
+        	        		<li class="noStyle"><a href="#" target="_self"><span></span>Programs</a>
+                                        	<div class="megaMenu">
+                        	<div class="megaMenuInner">
+                         		<ul>
+                                	                                    		<li><a href="index.php?component=programs&task=skyprograms&Itemid=178&id=35" target="_self">Sky Racing Programs</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=programs&task=ssrprograms&Itemid=179&id=35" target="_self">Sky Sports Radio Programs</a>
+                                                                                        
+                                            </li>
+                                                                    </ul> 
+                                <div class="clear"></div>  
+                            </div>
+                        </div>
+                    </li>         
+        	        		<li class="noStyle"><a href="index.php?component=guide&task=programguide&Itemid=107&id=22" target="_self"><span></span>Guide</a></li>
+        	        		<li class="noStyle"><a href="index.php?component=content&Itemid=126&id=104" target="_self"><span></span>Connect</a>
+                                        	<div class="megaMenu">
+                        	<div class="megaMenuInner">
+                         		<ul>
+                                	                                    		<li><a href="index.php?component=content&Itemid=192&id=132" target="_self">Community</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=competitions&task=complist&Itemid=203&id=37" target="_self">Competitions</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=content&Itemid=164&id=130" target="_self">Advertise</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="http://careers.skyracing.com.au/jobSearch.asp?stp=fw" target="_blank">Careers</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=content&Itemid=165&id=131" target="_self">Contact</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=feedback&task=feedbacktype&Itemid=189&id=33" target="_self">Feedback</a>
+                                                                                        
+                                            </li>
+                                                                    </ul> 
+                                <div class="clear"></div>  
+                            </div>
+                        </div>
+                    </li>         
+        	        		<li class="noStyle"><a href="#" target="_self"><span></span>About</a>
+                                        	<div class="megaMenu">
+                        	<div class="megaMenuInner">
+                         		<ul>
+                                	                                    		<li><a href="index.php?component=content&Itemid=91&id=89" target="_self">Sky Racing</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=content&Itemid=92&id=90" target="_self">Sky Sports Radio</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=content&Itemid=162&id=102" target="_self">Venues</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=content&Itemid=167&id=134" target="_self">Subscription TV</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=subscription&task=subscribe&Itemid=125&id=27" target="_self">Media Centre Subscription</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=team&task=skyteam&Itemid=105&id=21" target="_self">Sky Racing Team</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" target="_self">Sky Sports Radio Team</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=team&task=racecallers&Itemid=181&id=21" target="_self">Race Callers</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=content&Itemid=166&id=133" target="_self">TAB Active</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=content&Itemid=123&id=99" target="_self">Legal</a>
+                                                                                        	<ul>
+                                                                                        			<li><a href="index.php?component=content&Itemid=124&id=100" target="_self">Privacy Policy</a></li>
+                                                                                        	</ul>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=content&Itemid=159&id=127" target="_self">Website Help</a>
+                                                                                        
+                                            </li>
+                                                                        		<li><a href="index.php?component=content&Itemid=199&id=137" target="_self">Sky Racing App</a>
+                                                                                        
+                                            </li>
+                                                                    </ul> 
+                                <div class="clear"></div>  
+                            </div>
+                        </div>
+                    </li>         
+            </ul>
+</div>
+
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		// MegaMenu //	
+		jQuery('#mainMenu ul li').mouseenter(function () {
+			jQuery(this).children('.megaMenu').show();	
+			jQuery(this).children('a:first-child').addClass('mouseOver');
+		});
+		
+		jQuery('#mainMenu ul li').mouseleave(function () {
+			jQuery(this).children('.megaMenu').hide();	
+			jQuery(this).children('a:first-child').removeClass('mouseOver');
+		});
+		
+		jQuery('#mainMenu ul li ul').parent('li').children('a:first-child').addClass('expandable');
+		
+		jQuery('#mainMenu ul li a.expandable').append('<span></span>');
+		
+		jQuery('.megaMenu ul li').mouseenter(function () {
+			jQuery(this).children('ul').show();	
+		});
+		
+		jQuery('.megaMenu ul li').mouseleave(function () {
+			jQuery(this).children('ul').hide();	
+		});
+		
+		jQuery('#mainMenu ul li:last-child').addClass('last');
+	});
+</script>   
+   <!--end main menu-->
+
+	<!--start promo rotator-->
+    <div id="carousel">
+      <div id="slideNav">
+      	 <a id="previous" href="#">Previous Slide</a>
+         <div id="pager"></div>
+         <a id="next" href="#">Next Slide</a>
+      </div>
+      <div id="slides">
+	                            <div class="slide">
+                        <div class="info">
+                           <h2>Sir Rupert Clarle Stakes Preview</h2>
+                           <p><p>Sky Racing&#39;s Bernadette Cooper previews this Sunday&#39;s Group 1 Rupert Clarle Stakes from Caulfield in which the Peter Moody trained Dissident will be looking to continue his winning form.</p>
+
+<p><a class="greyBtn" href="http://www.skyracing.com.au/index.php?component=news&amp;task=onewsdetails&amp;Itemid=111&amp;id=23&amp;rid=29840&amp;page=0" target="_blank">PREVIEW</a></p>
+</p>
+                        </div>                        
+                                                		<a href="http://www.skyracing.com.au/index.php?component=news&task=onewsdetails&Itemid=111&id=23&rid=29840&page=0" target="_blank">
+                        							<a href="http://www.skyracing.com.au/index.php?component=news&amp;task=rnewsdetails&amp;Itemid=108&amp;id=23&amp;rid=29540" target="_blank"><img alt="" src="/assets/website_images/images/Homepage/Racing/DISSIDENT_1000x300.jpg" style="width: 1000px; height: 300px;" /></a>
+                    	</a>
+                     </div>
+                                  <div class="slide">
+                        <div class="info">
+                           <h2>Sky Racing App Update</h2>
+                           <p><p>The new version of the Sky Racing App is now available in the App store. The new update is compatable with Apple&#39;s latest software upgrade iOS8.</p>
+
+<p><a class="greyBtn" href="https://itunes.apple.com/us/app/sky-racing/id570133214?ls=1&amp;mt=8" target="_blank">DOWNLOAD</a></p>
+</p>
+                        </div>                        
+                                                		<a href="http://www.skyracing.com.au/index.php?component=content&Itemid=199&id=137" target="_blank">
+                        							<a href="http://www.skyracing.com.au/index.php?component=content&amp;Itemid=199&amp;id=137" target="_blank"><img alt="" src="/assets/website_images/images/Homepage/Connect/SKY%20HOME%20-%20RACING%20IPHONE%20APP%20-%20NOV%202013.jpg" style="width: 1000px; height: 300px;" /></a>
+                    	</a>
+                     </div>
+                                  <div class="slide">
+                        <div class="info">
+                           <h2>Star Stable is back for 2014</h2>
+                           <p><p>Create a league and challenge your friends, family and colleagues to find out who has the ultimate Star Stable!</p>
+
+<p><a class="greyBtn" href="http://www.skyracing.com.au/index.php?component=news&amp;task=onewsdetails&amp;Itemid=111&amp;id=23&amp;rid=29295" target="_blank">MORE</a></p>
+</p>
+                        </div>                        
+                                                		<a href="http://www.skyracing.com.au/index.php?component=news&task=onewsdetails&Itemid=111&id=23&rid=29295" target="_blank">
+                        							<a href="http://www.skyracing.com.au/index.php?component=news&amp;task=onewsdetails&amp;Itemid=111&amp;id=23&amp;rid=29295" target="_blank"><img alt="" src="/assets/website_images/images/Competitions/Star-Stable-Spring-2014_1000x300.jpg" style="width: 1000px; height: 300px;" /></a>
+                    	</a>
+                     </div>
+                                  <div class="slide">
+                        <div class="info">
+                           <h2>Connect with Sky through social media</h2>
+                           <p><p>Want more from Sky Racing, Sky Sports Radio and our programs? Connect with us through&nbsp;social media. Join the conversation&nbsp;and stay up to date with the latest news in the racing industry, plus competitions, photos, videos&nbsp;and more.</p>
+
+<p><a class="greyBtn" href="https://www.facebook.com/SkyRacingAU" target="_blank">FACEBOOK</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="greyBtn" href="https://twitter.com/SkyRacingAU" target="_blank">TWITTER</a></p>
+</p>
+                        </div>                        
+                                                		<a href="index.php?component=content&id=104" target="_self">
+                        							<a href="index.php?component=content&amp;id=104"><img alt="" src="/assets/website_images/images/Homepage/Connect/SKY%20HOME%20-%20CONNECT.jpg" style="width: 1000px; height: 300px;" /></a>
+                    	</a>
+                     </div>
+                     
+      </div>
+</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	jQuery('#carousel #slides') 
+		.before('<div id="pager">') 
+		.cycle({ 
+			fx:     'fade', 
+			speed:  1200, 
+			timeout: 8000, 
+			pager:  '#pager',
+			next:   '#next', 
+			prev:   '#previous' 
+	});
+});	
+</script>    <!--end promo rotator-->
+   
+   
+   <!--start content column-->
+   <div id="leftContent">
+   		<skydoc:include type="modules" name="contentcolumn" />
+		
+<div class="column">
+	<h2>Latest News</h2>
+    
+    <div class="box">
+    	<!--tabs-->
+        <ul id="newstabs" class="tabs">
+           <li><a class="selected" rel="Racing" href="#">Racing</a></li>
+           <li><a rel="Sports" href="#">Sports</a></li>
+           <li><a rel="Opinion" href="#">Expert Comment</a></li>
+           <div class="clear"></div>
+        </ul>
+        
+        <!--racing news-->
+        <div id="Racing">
+	        <ul>
+			                    <li>
+                        <a href="index.php?component=news&task=rnewsdetails&Itemid=108&id=23&rid=29868">
+                            Arabian Gold upsets odds-on fav Catkins                        </a>
+                    </li>    
+                                <li>
+                        <a href="index.php?component=news&task=rnewsdetails&Itemid=108&id=23&rid=29867">
+                            Like A Carousel keeps alive Melb Cup bid                        </a>
+                    </li>    
+                                <li>
+                        <a href="index.php?component=news&task=rnewsdetails&Itemid=108&id=23&rid=29866">
+                            Rock Sturdy to back up in Epsom Handicap                        </a>
+                    </li>    
+                                <li>
+                        <a href="index.php?component=news&task=rnewsdetails&Itemid=108&id=23&rid=29865">
+                            Shooting To Win claims G2 Stan Fox Stakes                        </a>
+                    </li>    
+                                <li>
+                        <a href="index.php?component=news&task=rnewsdetails&Itemid=108&id=23&rid=29864">
+                            Lady Echelon confirms Melb spring campaign                        </a>
+                    </li>    
+                                <li>
+                        <a href="index.php?component=news&task=rnewsdetails&Itemid=108&id=23&rid=29863">
+                            Khutulun resumes with smart Sandown win                        </a>
+                    </li>    
+                                <li>
+                        <a href="index.php?component=news&task=rnewsdetails&Itemid=108&id=23&rid=29862">
+                            Kourkam wins couresty of daring Berry move                        </a>
+                    </li>    
+                                <li>
+                        <a href="index.php?component=news&task=rnewsdetails&Itemid=108&id=23&rid=29861">
+                            Godolphin celebrates early stakes double                        </a>
+                    </li>    
+                                <li>
+                        <a href="index.php?component=news&task=rnewsdetails&Itemid=108&id=23&rid=29860">
+                            Kakanui pulls up sore after Sandown win                        </a>
+                    </li>    
+                                <li>
+                        <a href="index.php?component=news&task=rnewsdetails&Itemid=108&id=23&rid=29859">
+                            Deane Martin stakes Metropolitan claims                        </a>
+                    </li>    
+                                <li>
+                        <a href="index.php?component=news&task=rnewsdetails&Itemid=108&id=23&rid=29858">
+                            Hazard Bay on best behaviour at Doomben                        </a>
+                    </li>    
+                        </ul>
+            <p><a href="index.php?component=news&task=racingnews&Itemid=108&id=23" class="greyBtn">Racing News</a></p>        
+		</div>
+                        
+        <!--sports news-->
+        <div id="Sports">
+            <ul>
+                                         <li>
+                            <a href="index.php?component=news&task=snewsdetails&Itemid=110&id=23&rid=29820">
+                                Rioli and McEvoy to play AFL grand final                            </a>
+                        </li>
+                                        <li>
+                            <a href="index.php?component=news&task=snewsdetails&Itemid=110&id=23&rid=29819">
+                                End is nigh for three NRL superstars                            </a>
+                        </li>
+                                        <li>
+                            <a href="index.php?component=news&task=snewsdetails&Itemid=110&id=23&rid=29821">
+                                Wallabies select sixth-string hooker                            </a>
+                        </li>
+                                        <li>
+                            <a href="index.php?component=news&task=snewsdetails&Itemid=110&id=23&rid=29823">
+                                Sheens undecided on Kangaroos fullback                            </a>
+                        </li>
+                                        <li>
+                            <a href="index.php?component=news&task=snewsdetails&Itemid=110&id=23&rid=29824">
+                                Bogut slams critics of NBA youngster Exum                            </a>
+                        </li>
+                                        <li>
+                            <a href="index.php?component=news&task=snewsdetails&Itemid=110&id=23&rid=29825">
+                                Friend one of NRL's toughest: Gillmeister                            </a>
+                        </li>
+                                        <li>
+                            <a href="index.php?component=news&task=snewsdetails&Itemid=110&id=23&rid=29826">
+                                Abbas named in Iraq national team                            </a>
+                        </li>
+                                        <li>
+                            <a href="index.php?component=news&task=snewsdetails&Itemid=110&id=23&rid=29828">
+                                Battle-scarred Plum ripe for Panthers                            </a>
+                        </li>
+                                        <li>
+                            <a href="index.php?component=news&task=snewsdetails&Itemid=110&id=23&rid=29829">
+                                Is four the magic AFL number for Buddy?                            </a>
+                        </li>
+                                        <li>
+                            <a href="index.php?component=news&task=snewsdetails&Itemid=110&id=23&rid=29831">
+                                Don't boo Franklin, warns Hawks star Lewis                            </a>
+                        </li>
+                                        <li>
+                            <a href="index.php?component=news&task=snewsdetails&Itemid=110&id=23&rid=29822">
+                                Crowdfunding to bring Brabham racing back                            </a>
+                        </li>
+                            </ul>       
+            <p><a href="index.php?component=news&task=sportsnews&Itemid=110&id=23" class="greyBtn">Sports News</a></p>
+		</div>
+                
+        <!--opinion news-->
+        <div id="Opinion">
+            <ul>
+                                        <li>
+                            <a href="index.php?component=news&task=onewsdetails&Itemid=111&id=23&rid=29834">
+                                Moir Stakes Preview                            </a>
+                        </li>    
+                                        <li>
+                            <a href="index.php?component=news&task=onewsdetails&Itemid=111&id=23&rid=29840">
+                                Sir Rupert Clarke Stakes Preview                            </a>
+                        </li>    
+                                        <li>
+                            <a href="index.php?component=news&task=onewsdetails&Itemid=111&id=23&rid=29803">
+                                Stan Fox Stakes Preview                            </a>
+                        </li>    
+                                        <li>
+                            <a href="index.php?component=news&task=onewsdetails&Itemid=111&id=23&rid=29615">
+                                Underwood Stakes Preview                            </a>
+                        </li>    
+                                        <li>
+                            <a href="index.php?component=news&task=onewsdetails&Itemid=111&id=23&rid=29608">
+                                George Main Stakes Preview                            </a>
+                        </li>    
+                                        <li>
+                            <a href="index.php?component=news&task=onewsdetails&Itemid=111&id=23&rid=29113">
+                                Win the ultimate racing experience                            </a>
+                        </li>    
+                                        <li>
+                            <a href="index.php?component=news&task=onewsdetails&Itemid=111&id=23&rid=29409">
+                                Golden Rose Preview                            </a>
+                        </li>    
+                                        <li>
+                            <a href="index.php?component=news&task=onewsdetails&Itemid=111&id=23&rid=29398">
+                                Makybe Diva Stakes Preview                            </a>
+                        </li>    
+                                        <li>
+                            <a href="index.php?component=news&task=onewsdetails&Itemid=111&id=23&rid=29369">
+                                Dapto Megastar Preview                            </a>
+                        </li>    
+                                        <li>
+                            <a href="index.php?component=news&task=onewsdetails&Itemid=111&id=23&rid=29295">
+                                Star Stable is back!                            </a>
+                        </li>    
+                                        <li>
+                            <a href="index.php?component=news&task=onewsdetails&Itemid=111&id=23&rid=28860">
+                                History is beckoning in the National Championships                            </a>
+                        </li>    
+                   
+            </ul>
+            <p><a href="index.php?component=news&task=opinionnews&Itemid=111&id=23" class="greyBtn">Expert Comment</a></p>
+        </div>    
+    </div>
+</div>
+
+<script type="text/javascript">
+	jQuery(document).ready(function() {	
+		var newstabs=new ddtabcontent("newstabs");
+		newstabs.setpersist(true);
+		newstabs.setselectedClassTarget("link"); //"link" or "linkparent"
+		newstabs.init();
+	});
+</script>
+<div class="column">
+	<h2>Latest Racing</h2>
+    
+    <div class="box">
+    	<!--tabs-->
+        <ul id="racingtabs" class="tabs">
+           <li><a class="selected" rel="NextToGo" href="#">Next to go</a></li>
+           <li><a rel="ComingUp" href="#">Coming Up</a></li>
+           <li><a rel="Results" href="#">Results</a></li>
+           <div class="clear"></div>
+        </ul>
+        
+        <!--next to go-->
+        <div id="NextToGo" style="height:360px;">
+            <div id="centre-loading" style="display:block;">
+			    <div id="nexttogo-centre-loading" style="display:block;">
+				    <img src="/images/ajax_loading.gif" />
+                </div>
+			</div>
+            <div style="width:100%; display:none; height:100%;" id="racing_next_to_go">
+          
+		    </div>
+        </div>
+        <!--coming up-->
+        <div id="ComingUp" style="height:360px;">
+        	<div id="centre-loading" style="display:block;">
+   	        	<div id="comingup-centre-loading" style="display:block;">
+				    <img src="/images/ajax_loading.gif" />
+                </div>   
+			</div>
+            <div style="width:100%; display:none; height:100%;" id="racing_comingup">
+          
+		    </div>
+        </div>
+        
+        <!--results-->
+        <div id="Results" style="height:360px;">
+	        <div id="centre-loading" style="display:block;">
+			    <div id="results-centre-loading" style="display:block;">
+				    <img src="/images/ajax_loading.gif" />
+                </div>
+			</div>
+            <div style="width:100%; display:none; height:100%;" id="racing_results">
+          
+		    </div>
+		</div>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+	jQuery(document).ready(function() {	
+		var newstabs=new ddtabcontent("racingtabs");
+		newstabs.setpersist(true);
+		newstabs.setselectedClassTarget("link"); //"link" or "linkparent"
+		newstabs.init();
+	});
+</script>
+
+<script type="text/javascript" charset="utf-8">
+	jQuery.noConflict();
+	jQuery(document).ready(function() {	
+		jQuery.ajax({
+			cache: false,	
+			type: "GET",
+			url: "/ajax.php",
+			data: "action=getracingnextogo",
+			success: function(msg){
+					document.getElementById('nexttogo-centre-loading').style.display = 'none';
+					document.getElementById('racing_next_to_go').style.display = 'block';
+					
+					jQuery('#racing_next_to_go').html('');
+					jQuery('#racing_next_to_go').html(msg);
+				}
+			});					
+			
+		jQuery.ajax({
+			cache: false,
+			type: "GET",
+			url: "/ajax.php",
+			data: "action=getracingcomingup",
+			success: function(msg){
+					document.getElementById('comingup-centre-loading').style.display = 'none';
+					document.getElementById('racing_comingup').style.display = 'block';
+					
+					jQuery('#racing_comingup').html('');
+					jQuery('#racing_comingup').html(msg);
+				}
+			});					
+			
+		  jQuery.ajax({
+			  cache: false,
+			  type: "GET",
+			  url: "/ajax.php",
+			  data: "action=getracingresults",
+			  success: function(msg){
+					  document.getElementById('results-centre-loading').style.display = 'none';
+					  document.getElementById('racing_results').style.display = 'block';
+					  
+					  jQuery('#racing_results').html('');
+					  jQuery('#racing_results').html(msg);
+				  }
+			  });					
+	} );
+</script>
+<div class="column">
+	<h2>Tips</h2>
+    
+    <div class="box">
+	                 <h3>No tips available yet.</h3> 
+	            </div>
+          
+    
+</div>
+<div class="column">
+  <h2>On Air</h2>
+  <div class="box"> 
+    <!--sky racing 1-->
+    <div class="teamIcon"> <img src="/images/sky_racing_1.png" /> </div>
+    <h3 style="margin-top:-10px;">
+      Racing Replay: Sandown                                </h3>
+    <p style="margin-bottom:20px !important;margin-top:-8px;"> <strong>05:30</strong><br />
+      Highlights of Thoroughbred racing from Sandown......      <img src="/images/info.png" align="top" class="vtip" title="Highlights of Thoroughbred racing from Sandown." /> </p>
+    
+    <!--sky racing 2-->
+    <div class="teamIcon"> <img src="/images/sky_racing_2.png" /> </div>
+    <h3 style="margin-top:-10px;">
+      The Catching Pen                                      </h3>
+    <p style="margin-bottom:20px !important;margin-top:-8px;"> <strong> 05:30</strong><br />
+      Dave Carlson and team look back on all of the feat.....      <img src="/images/info.png" align="top" class="vtip" title="Dave Carlson and team look back on all of the feature racing from across Australia and we head to Wilberforce to meet rising New South Wales trainer Amy Bennett." /> </p>
+    
+    <!--sky world-->
+    <div class="teamIcon"> <img src="/images/sky_racing_world.png" /> </div>
+    <h3 style="margin-top:-10px;">
+      Racing Replay: Morphettville                          </h3>
+    <p style="margin-bottom:20px !important;margin-top:-8px;"> <strong> 05:30</strong><br />
+      Highlights of Thoroughbred racing from Morphettvil.....      <img src="/images/info.png" align="top"  class="vtip" title="Highlights of Thoroughbred racing from Morphettville." /> </p>
+    
+    <!--ssr-->
+    <div class="teamIcon"> <img src="/images/sky_sports_radio.png" /> </div>
+    <h3 style="margin-top:-10px;">
+      Sky Racing Simulcast    </h3>
+    <p style="margin-bottom:20px !important;margin-top:-8px;"> <strong>10:00</strong><br />
+      Live racing and more..... </p>
+    <br />
+    <p style="margin-top:5px !important;"><a href="index.php?component=guide&task=programguide&Itemid=107&id=22" class="greyBtn">View Full Program Guide</a></p>
+  </div>
+</div>
+
+<div class="clear"></div>
+
+<div class="column">
+	<h2>Sky Team</h2>
+    
+    <div class="box" id="skyteam">
+    	<a href="javascript://" class="previousBtn">Previous</a> 
+        <a href="javascript://" class="nextBtn">Next</a>
+        
+        <div class="slides">
+        	                    <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/tab25%5B1%5D.jpg" style="width: 100px; height: 140px" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Richard Freedman</h3>
+                      <p>
+                      	Richard is a member of the renowned F.B.I. (Freedman Brothers Incorporated) racing stables. He is an insightful, outspoken and, sometimes, outrageous member of the &#39;Racing Retro&#39; team and is now a regular on &#39;Raceday&#39;.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/R1CHARDFREEDMAN" class="twitter-follow-button">Follow @R1CHARDFREEDMAN</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 
+	<img alt="" src="/assets/website_images/images/Team%20Members/SKY42%5B1%5D.jpg" style="width: 100px; height: 140px" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Greg Radley</h3>
+                      <p>
+                      	After a lengthy reign as host of Raceday on Sky Sports Radio, Greg made a smooth transition to Sky Racing where he anchors the irreverent program, Off the Rails. He also presents on Sky Racing World and hosts trackside at big meetings.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/SkyOfftheRails" class="twitter-follow-button">Follow @SkyOfftheRails</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 
+	<img alt="" src="/assets/website_images/images/Team%20Members/SKY%20(100x140)%20-%20ANDREW%20BENSLEY.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Andrew Bensley</h3>
+                      <p>
+                      	Andrew has an extensive news background and a true passion for racing. Since joining the Sky Racing team in 1998, Andrew has etched himself as the premier news man of racing, providing news services for television, radio, print, online and social media!		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/AndrewBensley" class="twitter-follow-button">Follow @AndrewBensley</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/SKY%20(100x140)%20-%20TERRY%20KENNEDY.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Terry Kennedy</h3>
+                      <p>
+                      	Terry&#39;s experience in the media dates back to 1982, when he joined Network Ten. He&#39;s hosted and called many sporting events. He has a passion for rugby league and racing and a solid overall sporting knowledge which is vital in his role as co-host with Michael Slater on The Big Sports Breakfast.&#39;TK&#39; also hosts Punters Post Mortem every Monday from 9am-10am on Sky Sports Radio.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/TK_BSB" class="twitter-follow-button">Follow @TK_BSB</a>
+                                </p>     
+                                             
+                      <p>
+                      	 
+                        	                      		<a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" class="greyBtn">View Team</a>
+                            
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/tab5%5B1%5D.jpg" style="width: 100px; height: 140px" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Ron Dufficy</h3>
+                      <p>
+                      	Ron is a former jockey, astute form analyst and successful racehorse owner. His incisive and sometimes cheeky observations can be heard on Sky Sports Radio and Racing Retro, where his verbal sparring with Richard Freedman is legendary.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/DufficyRon" class="twitter-follow-button">Follow @DufficyRon</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/tab26%5B1%5D.jpg" style="width: 100px; height: 140px" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Tony Brassel</h3>
+                      <p>
+                      	Tony has more than two decades as a racing journalist and form expert. He has a great passion for racing and co-hosts Inside Running and Trials and Tribulations where his opinions are widely respected.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/TonyBrassel" class="twitter-follow-button">Follow @TonyBrassel</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/SKY%20(100x140)%20-%20MICHAEL%20SLATER.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Michael Slater</h3>
+                      <p>
+                      	&#39;Slats&#39; played 74 tests and 42 one day internationals for Australia in an 11-year cricket career. Swapping the willow for the microphone, he has been a part of many international cricket broadcasts and he co-hosts the Big Sports Breakfast with with Terry Kennedy each weekday from 5:30am.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/mj_slats" class="twitter-follow-button">Follow @mj_slats</a>
+                                </p>     
+                                             
+                      <p>
+                      	 
+                        	                      		<a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" class="greyBtn">View Team</a>
+                            
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/Bernadette-Cooper%5B1%5D.jpg" style="width: 99px; height: 140px" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Bernadette Cooper</h3>
+                      <p>
+                      	A successful career in the saddle has given her enormous credibility as a host and analyst. Bernadette&#39;s expert opinions and insight into Queensland racing have proved invaluable.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/bernadetecooper" class="twitter-follow-button">Follow @bernadetecooper</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/SKY%20(100x140)%20-%20STUART%20CLARK.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Stuart Clark</h3>
+                      <p>
+                      	Famed former Australia and NSW cricketer, Stuart Clark, joined the big Sports Breakfast Weekend team in 2011. He has a well-rounded sports knowledge and an articulate presentation. Recreationally, he harbours a deep passion for his Cronulla Sharks. Stuart has been a member of the Sky Sports Radio team since 2007 and is a co-host of the Big Sports Breakfast Summer.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/StuartClark6" class="twitter-follow-button">Follow @StuartClark6</a>
+                                </p>     
+                                             
+                      <p>
+                      	 
+                        	                      		<a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" class="greyBtn">View Team</a>
+                            
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/tab10.jpg" style="width: 100px; height: 140px" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Matthew Browning</h3>
+                      <p>
+                      	Matthew joined the Sky Racing team in 1996 after nine years in radio. He has a strong racing heritage and is one of Sky Racing&#39;s most popular and authorative presenters. Matthew has been doing a fantastic job as the host of our flagship magazine program, Racing Retro.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/BrowningMatt" class="twitter-follow-button">Follow @BrowningMatt</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 
+	<img alt="" src="/assets/website_images/images/Team%20Members/SKY%20(100x140)%20-%20ANDREW%20BENSLEY.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Andrew Bensley</h3>
+                      <p>
+                      	Starting out in country radio and moving to the Nine Network, Andrew maintains a hectic schedule on Sky Sports Radio and Sky Racing. In addition to his uncanny ability to break the latest racing news stories on radio and TV, he also hosts the informative Racing HQ program, Tuesday to Friday 9am-10am and Racing HQ Saturday from 6:30am on Sky Sports Radio.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/AndrewBensley" class="twitter-follow-button">Follow @AndrewBensley</a>
+                                </p>     
+                                             
+                      <p>
+                      	 
+                        	                      		<a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" class="greyBtn">View Team</a>
+                            
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/SKY%20(100x140)%20-%20JIMMY%20SMITH.jpg" style="width: 100px; height: 140px" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Jimmy Smith</h3>
+                      <p>
+                      	Since having joined the Sky Sports Radio stable, Jimmy&#39;s versatility has been a valuable asset. Graduating to the media after an 11-year professional rugby league career, he has successfully transferred his on-field vitality to television and radio. His regular role is co-host of Big Sports Breakfast Weekend and during the summer months Jimmy, co-hosts Big Sports Breakfast Summer with Stuart Clark.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/@ThatJimmySmith" class="twitter-follow-button">Follow @@ThatJimmySmith</a>
+                                </p>     
+                                             
+                      <p>
+                      	 
+                        	                      		<a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" class="greyBtn">View Team</a>
+                            
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 
+	<img alt="" src="/assets/website_images/images/Team%20Members/SKY38.jpg" style="width: 100px; height: 140px" />
+                         </div>
+                         <h3 style="margin-top:-10px;">John Tapp</h3>
+                      <p>
+                      	John was the voice and face of Sydney racing for more than 30 years before retiring in 1998. His iconic status in the industry makes him a huge asset at Sky Racing. He currently presents John Tapp&#39;s Inside Racing and co-hosts our harness racing program In The Gig.		
+                      </p>  
+                     </div>
+						                     
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 
+	<img alt="" src="/assets/website_images/images/Team%20Members/tab19%5B1%5D.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Dave Carlson</h3>
+                      <p>
+                      	Dave&#39;s on-air presentation is always informative and witty. He hosts The Punting Club, our dedicated greyhound racing program, The Catching Pen, and Raceday.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/SkyRacingAU" class="twitter-follow-button">Follow @SkyRacingAU</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/SKY%20(100x140)%20-%20RON%20DUFFICY.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Ron Dufficy</h3>
+                      <p>
+                      	A former jockey, he effortlessly changed gait to be panellist on Sky Racing&#39;s Racing Retro and earned an enviable reputation as a top thoroughbred authority on Sky Sports Radio. From plying the whip to trying the tip, his talent for selecting a winner is evident as the late mailman from metropolitan tracks and as co-host with Andrew Bensley of the Racing HQ Saturday preview program. Ron also joins the panel of Punters Post Mortem hosted by Terry Kennedy each Monday morning from 9am.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/DufficyRon" class="twitter-follow-button">Follow @DufficyRon</a>
+                                </p>     
+                                             
+                      <p>
+                      	 
+                        	                      		<a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" class="greyBtn">View Team</a>
+                            
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Tanyawhite100by140.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Tanya White</h3>
+                      <p>
+                      	A consummate radio professional, Tanya boasts more than 20 years of experience in the radio industry. She now is a vital part of the Big Sports Breakfast Weekend production team. Utilising her previous experience in radio news rooms, she presents several bulletins with all of the latest sporting news during the three-hour program.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/SkySportsRadio1" class="twitter-follow-button">Follow @SkySportsRadio1</a>
+                                </p>     
+                                             
+                      <p>
+                      	 
+                        	                      		<a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" class="greyBtn">View Team</a>
+                            
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 
+	<img alt="" src="/assets/website_images/images/Team%20Members/TAB3%5B1%5D.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Michael Maxworthy</h3>
+                      <p>
+                      	Originally from Sydney, Michael has extensive experience in the media including radio, race broadcasting and TV host in Singapore. He is our Asian racing specialist.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/michaelmaxworth" class="twitter-follow-button">Follow @michaelmaxworth</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 
+	<img alt="" src="/assets/website_images/images/Team%20Members/TAB16%5B1%5D.jpg" style="width: 100px; height: 140px" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Andrew Paschalidis</h3>
+                      <p>
+                      	Andy is known at Sky Sports Radio as &#39;Mr Soccer&#39;. If something&#39;s happening in the world game then Andy is the first person to reveal it to the Big Sports Breakfast listeners. He has previously worked with the likes of SBS TV and Fox Sports. One of Australia&#39;s leading football broadcasters, Andy has presented and reported major football events including the 1990 & 1994 World Cup finals and the 1996 & 2000 European Championships. Andy can be heard daily at 7.20am on the Big Sports Breakfast.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/SkySportsRadio1" class="twitter-follow-button">Follow @SkySportsRadio1</a>
+                                </p>     
+                                             
+                      <p>
+                      	 
+                        	                      		<a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" class="greyBtn">View Team</a>
+                            
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/Malcolm-Johnstone_100x140.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Malcolm Johnston</h3>
+                      <p>
+                      	From glamour jockey to rascally raconteur &ndash; it has been an easy transition for the man who calls himself &lsquo;Miracle&#39;. He provides insightful slant on racing during the racing segment of Big Sports Breakfast Weekend from 7am and lends his talents to television for Off the Rails on Sky Racing World each Tuesday. As a jockey he won three premierships, one as an apprentice and is best known for his association with one of the all-time greats, Kingston Town.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/SkyOfftheRails" class="twitter-follow-button">Follow @SkyOfftheRails</a>
+                                </p>     
+                                             
+                      <p>
+                      	 
+                        	                      		<a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" class="greyBtn">View Team</a>
+                            
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/Amelia_Oberthardt_100x140.jpg" style="width: 100px; height: 140px" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Amelia Oberhardt </h3>
+                      <p>
+                      	Amelia grew up in Brisbane in a world of radio, print, media and sport. Working her way around Australian radio, reporting, producing and promoting, Amelia progressed to television, reporting Sydney traffic for Channel 9&rsquo;s Today Show. A former reporter forThe Big Sports Breakfast, she now joins the Sky Racing team presenting magazine programs Bred To Win and Off The Beaten Track bringing a wealth of media experience and equine passion to the chair.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/@AmeliaOberhardt" class="twitter-follow-button">Follow @@AmeliaOberhardt</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/Susanne_Messara_100x140.jpg" style="width: 100px; height: 140px" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Susanne Messara</h3>
+                      <p>
+                      	Susanne brings a wealth of experience ranging from producing for 2GB Radio to on-air production and reporting for commercial television. Her career with Channel 9, included being a Hollywood correspondent live from LA and a producer/reporter for "Mornings with Kerri-Anne". No stranger to racing, Susanne was born into the game and is well-armed to report colour stories on Australia&rsquo;s major race carnivals, showcasing women in racing and the social side of the sport. Susanne is the new panelist of Sky Racing&rsquo;s popular magazine program, GG Girls.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/@SusanneMessara" class="twitter-follow-button">Follow @@SusanneMessara</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/AndrewWebster100by140.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Andrew Webster</h3>
+                      <p>
+                      	Chief Sports writer at The Sydney Morning Herald, has been writing about international and Australia sports in a variety of publications for more than 15 years. His bright, breezy and informative writing style has been adroitly adapted to his appearances on radio and TV. Andrew co-hosts the Big Sports Breakfast with Terry Kennedy on Friday mornings during the rugby league season.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/awebstar1" class="twitter-follow-button">Follow @awebstar1</a>
+                                </p>     
+                                             
+                      <p>
+                      	 
+                        	                      		<a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" class="greyBtn">View Team</a>
+                            
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 
+	<img alt="" src="/assets/website_images/images/Team%20Members/jasonw%5B1%5D.jpg" style="width: 100px; height: 140px" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Jason Witham</h3>
+                      <p>
+                      	Before joining Sky Racing, Jason worked for 13 years at the TAB in a range of roles. This gave Jason a wealth of industry knowledge, which is reflected in his smooth and intelligent on-air presentation. He is a regular host of Raceday and Inside Running.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/SkyRacingAU" class="twitter-follow-button">Follow @SkyRacingAU</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Alicelindemanheadhsot100by140.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Alice Lindeman</h3>
+                      <p>
+                      	Alice has been a part of the racing and radio industry for over ten years. An ardent rugby league and racing enthusiast, she is a racing and sports producer and can be heard reading the scratchings from time to time.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/SkySportsRadio1" class="twitter-follow-button">Follow @SkySportsRadio1</a>
+                                </p>     
+                                             
+                      <p>
+                      	 
+                        	                      		<a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" class="greyBtn">View Team</a>
+                            
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Shawn .jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Shawn Cosgrove</h3>
+                      <p>
+                      	Shawn Cosgrove has relished a radio and television career of more than 30 years. He started at Radio 3UZ in Melbourne during the mid 70s coordinating races on air when his station confreres were Don Lane, Bert Newton, Bert Bryant and Ugly Dave Gray. Later he transferred to music radio at 3KZ, GOLD FM and Easy Listening 3MP. For good measure, for many years, he was the &ldquo;Come on Down&rdquo; voice-over man on the TV show, The Price is Right. However, throughout his long media career, Shawn&rsquo;s love of racing was undiminished and he is revelling in a return to all codes of racing on Sky Sports Radio. Shawn hosts Racing HQ every Tuesday and is part of the National Racing Service team.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/SkySportsRadio1" class="twitter-follow-button">Follow @SkySportsRadio1</a>
+                                </p>     
+                                             
+                      <p>
+                      	 
+                        	                      		<a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" class="greyBtn">View Team</a>
+                            
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Ashelighmcgregorheadshot100by140.jpg" style="width: 100px; height: 140px" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Ashleigh McGregor</h3>
+                      <p>
+                      	An avid racing and sports enthusiast with a particular penchant for picking winners, Ashleigh joined the Sky Sports Radio team in 2010. A Sports media graduate, she has more than 10 years innvolvement in the radio and television industry. In addition to being the producer of Punters Post Mortem, Racing HQ and National Racing Serviceher dulcet tones may be heard reading the scratchings for race meetings during the weekly racing review program.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/mcgregs29" class="twitter-follow-button">Follow @mcgregs29</a>
+                                </p>     
+                                             
+                      <p>
+                      	 
+                        	                      		<a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" class="greyBtn">View Team</a>
+                            
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/TAB7%5B1%5D.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Glenn Munsie</h3>
+                      <p>
+                      	Glenn started with TAB.COM.AU back in 1999 and has been around the racetracks practically from birth as the son of former renowned jockey Norm Munsie. Glenn is the Sydney face and voice of TAB informing customers of all the latest sports and racing updates. His feature tasks include co-host of The Punting Club on Sky Racing and providing all of the latest betting trends for main metropolitan meetings during Racing HQ every Saturday morning.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/glennmunsieTAB" class="twitter-follow-button">Follow @glennmunsieTAB</a>
+                                </p>     
+                                             
+                      <p>
+                      	 
+                        	                      		<a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" class="greyBtn">View Team</a>
+                            
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 
+	<img alt="" src="/assets/website_images/images/Team%20Members/tab33%5B1%5D.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Larry Olsen</h3>
+                      <p>
+                      	Larry is one of a handful of jockeys to win both the Melbourne Cup and the Golden Slipper. He is Sky Racing&#39;s Queensland Raceday form analyst.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/SkyRacingAU" class="twitter-follow-button">Follow @SkyRacingAU</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 
+	<img alt="" src="/assets/website_images/images/Team%20Members/tab24%5B1%5D.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Michael Fraser</h3>
+                      <p>
+                      	Sydney-born but Queensland-bred, Michael has enjoyed a long and varied career in racing, as a jockey, punter and form assessor. He is one of our resident form analysts who co-hosts Inside Running on Saturdays.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/SkyRacingAU" class="twitter-follow-button">Follow @SkyRacingAU</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/ray_thomas%5B1%5D.jpg" style="width: 100px; height: 150px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Ray Thomas</h3>
+                      <p>
+                      	Racing editor of the Daily and Sunday Telegraph he is one of the most respected racing journalists in Australia. Ray is a regular on the racing segment on Big Sports Breakfast Weekend. His insightful news and views add considerable authority to Sky Sports Radio&#39;s racing programs. Ray also appears periodically on Sky Racing&#39;s Inside Running.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/RayThomas_1" class="twitter-follow-button">Follow @RayThomas_1</a>
+                                </p>     
+                                             
+                      <p>
+                      	 
+                        	                      		<a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" class="greyBtn">View Team</a>
+                            
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/Malcolm-Johnstone_100x140.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Malcolm Johnston</h3>
+                      <p>
+                      	&#39;Miracle&#39; Malcolm Johnston (a nickname he bestowed upon himself) has transformed from a champion jockey to a multi-media personality. Best known for his association with champion galloper Kingston Town, Malcolm can be heard on Sky Sports Radio&#39;s Inside Running and is a regular panelist on Sky Racing&#39;s Off The Rails.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/@SkyOfftheRails" class="twitter-follow-button">Follow @@SkyOfftheRails</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/PaulLangham100by140(1).jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Paul Langham</h3>
+                      <p>
+                      	Melbourne-born, Paul developed a keen interest in racing and radio from a young age. After having met Ron Hawkswell he was encouraged to pursue race calling and then he gained part time radio work with 3UZ (now Radio Sport National) and at the ABC assisting Greg Miles. Ultimately he gained full-time employment with Triple S FM in Canberra then 2KY (now Sky Sports Radio )in Sydney. Paul considers he is fortunate to be doing a job that he enjoys in presenting racing to our SSR audience. Apart from studio work, Paul recently celebrated 30 years of calling the picnic meetings at Dederang in north-east Victoria.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/SkySportsRadio1" class="twitter-follow-button">Follow @SkySportsRadio1</a>
+                                </p>     
+                                             
+                      <p>
+                      	 
+                        	                      		<a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" class="greyBtn">View Team</a>
+                            
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/SimonHarrison100by140(1).jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Simon Harrison</h3>
+                      <p>
+                      	Born in Perth, Simon moved to Sydney in 1987. As a youngster he harboured a desire to become a news reader but later an enthusiasm for racing emerged. On finishing High School he spent five-nights a week in the 2KY Parramatta studios learning the craft of race coordinating and ABC broadcaster Mike Broadhurst helped develop and refine his vocal skills. Simon now is the afternoon presenter of the national racing service on Sky Sports Radio. In his own words, &#39;&#39;bringing the races to the people&#39;&#39; is his daily passion.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/SkySportsRadio1" class="twitter-follow-button">Follow @SkySportsRadio1</a>
+                                </p>     
+                                             
+                      <p>
+                      	 
+                        	                      		<a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" class="greyBtn">View Team</a>
+                            
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/tab31%5B1%5D.jpg" style="width: 100px; height: 140px" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Mark Guest</h3>
+                      <p>
+                      	Mark is one of our Melbourne-based thoroughbred form experts. He has a great passion for racing and is a regular on Inside Running.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/guestyracing" class="twitter-follow-button">Follow @guestyracing</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/jonofarr.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Jono Farr</h3>
+                      <p>
+                      	As panel operator Jono has the unenviable and, sometimes, unpredictable task of guiding TK and Slats through three and a half hours of live breakfast radio. Jono&rsquo;s radio career started in 1998 with Austereo and two years later he joined Sky Sports Radio. After stints with other commercial networks he returned to Sky Sports Radio as panel operator for the Big Sports Breakfast. In his spare time Jono has proved to be talented in the voice over field and a fantastic host of the Monday to Friday 5am to 5.30program, The Best of the Big Sports Breakfast.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/SkySportsRadio1" class="twitter-follow-button">Follow @SkySportsRadio1</a>
+                                </p>     
+                                             
+                      <p>
+                      	 
+                        	                      		<a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" class="greyBtn">View Team</a>
+                            
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 
+	<img alt="" src="/assets/website_images/images/Team%20Members/tab9%5B1%5D.jpg" style="width: 100px; height: 140px" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Gareth Hall</h3>
+                      <p>
+                      	A former producer/reporter for the Nine Network in Melbourne, Gareth boasts a solid news reporting background, which is reflected in his incisive Raceday presentation.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/@ghall27" class="twitter-follow-button">Follow @@ghall27</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/mario.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Mario Kolotas</h3>
+                      <p>
+                      	In 2000, Mario joined the Big Sports Breakfast team and in 2005 he became the Executive Producer. Mario shoulders the responsibility for the daily preparation of the Big Sports Breakfast which he transforms into an entertaining and informative tapestry that hits the airwaves. As personal Barista to the boys he keeps the flat whites, cappuccinos and lattes flowing throughout the program. Prior to his radio career Mario had aspirations to be an actor, sadly these dreams were misguided as his career peaked when he was the guy zipping up dead bodies in the TV series Water Rats. In 2000 he was one of the extras seen dying in a plane crash in Mission Impossible 2, this on screen death also marked the end of his acting career. Mario now spends his spare time on the committee of charity Save our Sons a cause close to his heart.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/SkySportsRadio1" class="twitter-follow-button">Follow @SkySportsRadio1</a>
+                                </p>     
+                                             
+                      <p>
+                      	 
+                        	                      		<a href="index.php?component=team&task=ssrteam&Itemid=106&id=21" class="greyBtn">View Team</a>
+                            
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/tab23%5B1%5D.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Andrew Le Jeune</h3>
+                      <p>
+                      	Andrew is the producer and host of Sky Racing&rsquo;s international program, Racing Round The World. After working at National Hunt Racing in the UK, he migrated to Australia in 2004 and has been a valued member of the team ever since.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/LJ__andrew" class="twitter-follow-button">Follow @LJ__andrew</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 
+	<img alt="" src="/assets/website_images/images/Team%20Members/tab6%5B1%5D.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Mike McCann</h3>
+                      <p>
+                      	Boasting a vast and impressive sports commentating background, Mike is a key member of the Sky Racing on-air team. The professionalism developed over many years as a broadcaster is evident in his presentation of Raceday and Inside Running.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/SkyRacingAU" class="twitter-follow-button">Follow @SkyRacingAU</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 
+	<img alt="" src="/assets/website_images/images/Team%20Members/Graham-McNeice.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Graham McNeice</h3>
+                      <p>
+                      	Part of Sky&#39;s original on-air team in 1986, Graham is one of Australia&#39;s most respected sports broadcasters and documentary makers. He now produces special racing programs for Sky Racing and helps develop young presenters and race callers.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/SkyRacingAU" class="twitter-follow-button">Follow @SkyRacingAU</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/Craig-Carmody_100x140.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Gavin Carmody</h3>
+                      <p>
+                      	Gavin Carmody joined Sky Racing on a full-time basis in 2011 after spending 10 years as a producer of Australia&#39;s most successful radio program, the Alan Jones Breakfast Show on 2GB. He previously worked at Radio 2UE and Sky News. Gavin has racing in his blood. His brother, Craig, was a very successful jockey for many years in Sydney, and Singapore whorode multiple Group One winners. Gavin is the regular host of Saturday Race Day.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/SkyRacingAU" class="twitter-follow-button">Follow @SkyRacingAU</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 
+	<img alt="" src="/assets/website_images/images/Team%20Members/tab27%5B1%5D.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">Chris Kearns</h3>
+                      <p>
+                      	Apart from his passion for racing, Chris has an incredible knowledge of popular music from his years as a DJ on Sydney radio. A great all-rounder, he&#39;s a regular host of Raceday.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/SkyRacingAU" class="twitter-follow-button">Follow @SkyRacingAU</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                               <div class="slide">
+                      <div class="teamMember">
+                         <div class="teamIcon">
+							 <img alt="" src="/assets/website_images/images/Team%20Members/David%20Stanley%20100x140.jpg" style="width: 100px; height: 140px;" />
+                         </div>
+                         <h3 style="margin-top:-10px;">David Stanley</h3>
+                      <p>
+                      	Following a career on community radio in Brisbane, David instigated his own racing radio segment. A self-motivator, he developed his career into an advertising and publicity role, combining his racing knowledge and media skills. With a family instilled respect for horse racing, David entered and became a finalist in the 2013 Sky&rsquo;s Star Search competition. He was recruited to take on a Sky Racing presenter role, his dream job, and now David chairs race days and nights on Sky Racing 1 & 2.		
+                      </p>  
+                     </div>
+						                                <p>
+                                     <a href="http://twitter.com/DaveStanleySky" class="twitter-follow-button">Follow @DaveStanleySky</a>
+                                </p>     
+                                             
+                      <p>
+                      		                      		<a href="index.php?component=team&task=skyteam&Itemid=105&id=21" class="greyBtn">View Team</a>
+                            
+                         
+                            
+                      </p>
+                 </div>
+                   </div>
+    </div>     
+</div>         
+
+<script type="text/javascript">
+jQuery(function() {	
+	jQuery('#skyteam .slides') 
+		.cycle({ 
+			fx:     'scrollBothWays', 
+			speed:  400, 
+			timeout: 0, 
+			next:   '#skyteam .nextBtn', 
+			prev:   '#skyteam .previousBtn' 
+	});
+});
+</script>
+<div class="column">
+	<h2>Catch Up</h2>    
+    <div class="box">
+    	                <div class="teamIcon">
+  					                    <a onmouseover="style.cursor='pointer'" href="index.php?component=content&Itemid=121&id=97&do=SW5zaWRlIFJ1bm5pbmcjMjYxMV8yNDI2NA==">
+	                    <img src="/images/channel_img/inside_running.jpg" width="70px;" height="50px;" border="0" />
+                    </a>    
+                </div>
+                <h3 style="margin-top:-10px;">
+                      Inside Running - Sandown - 2...                </h3>
+                <p style="margin-bottom:26px !important;">
+					                    <a onmouseover="style.cursor='pointer'" href="index.php?component=content&Itemid=121&id=97&do=SW5zaWRlIFJ1bm5pbmcjMjYxMV8yNDI2NA==">
+                        Watch it now!
+                    </a>
+                                        
+                </p>
+                        <div class="teamIcon">
+  					                    <a onmouseover="style.cursor='pointer'" href="index.php?component=content&Itemid=121&id=97&do=SW5zaWRlIFJ1bm5pbmcjMjYxMV8yNDI2NQ==">
+	                    <img src="/images/channel_img/inside_running.jpg" width="70px;" height="50px;" border="0" />
+                    </a>    
+                </div>
+                <h3 style="margin-top:-10px;">
+                      Inside Running - Morphettvil...                </h3>
+                <p style="margin-bottom:26px !important;">
+					                    <a onmouseover="style.cursor='pointer'" href="index.php?component=content&Itemid=121&id=97&do=SW5zaWRlIFJ1bm5pbmcjMjYxMV8yNDI2NQ==">
+                        Watch it now!
+                    </a>
+                                        
+                </p>
+                        <div class="teamIcon">
+  					                    <a onmouseover="style.cursor='pointer'" href="index.php?component=content&Itemid=121&id=97&do=SW5zaWRlIFJ1bm5pbmcjMjYxMV8yNDI2Mw==">
+	                    <img src="/images/channel_img/inside_running.jpg" width="70px;" height="50px;" border="0" />
+                    </a>    
+                </div>
+                <h3 style="margin-top:-10px;">
+                      Inside Running - Recap - 27/...                </h3>
+                <p style="margin-bottom:26px !important;">
+					                    <a onmouseover="style.cursor='pointer'" href="index.php?component=content&Itemid=121&id=97&do=SW5zaWRlIFJ1bm5pbmcjMjYxMV8yNDI2Mw==">
+                        Watch it now!
+                    </a>
+                                        
+                </p>
+                        <div class="teamIcon">
+  					                    <a onmouseover="style.cursor='pointer'" href="index.php?component=content&Itemid=121&id=97&do=SW5zaWRlIFJ1bm5pbmcjMjYxMV8yNDI2Mg==">
+	                    <img src="/images/channel_img/inside_running.jpg" width="70px;" height="50px;" border="0" />
+                    </a>    
+                </div>
+                <h3 style="margin-top:-10px;">
+                      Inside Running - Doomben - 2...                </h3>
+                <p style="margin-bottom:26px !important;">
+					                    <a onmouseover="style.cursor='pointer'" href="index.php?component=content&Itemid=121&id=97&do=SW5zaWRlIFJ1bm5pbmcjMjYxMV8yNDI2Mg==">
+                        Watch it now!
+                    </a>
+                                        
+                </p>
+                
+       <p style="padding-top:15px !important;"><a href="/index.php?component=programs&task=catchuptv&Itemid=196&id=35" target="_self" class="greyBtn">More Catch Up</a></p>
+        
+    </div>
+    <div class="clear"></div>
+</div>        <div class="clear"></div>
+   </div>
+   <!--end content column-->
+   
+   <!--start right column-->
+   <div id="rightContent">
+       <div class="rightcolumn"><a href="index.php?component=subscription&amp;task=subscribe&amp;Itemid=125&amp;id=27" id="subscribeBtn"><span>Subscribe to the Media Centre</span></a></div>
+<!-- Begin Module - Adspace -->
+<!-- Begin MCN ad code -->
+<span class="mcnamf" title="300x250"></span>
+<br>
+<!-- End MCN ad code -->
+<!-- End Module - Adspace --><p><a class="bigGreenBtn" href="index.php?component=content&amp;id=97">Live Racing</a></p><div class="rightcolumn"><a class="bigGreyBtn" href="index.php?component=feedback&amp;task=feedbacktype&amp;Itemid=189&amp;id=33">Feedback</a></div><p><a class="bigGreyBtn" href="javascript://" onclick="openForm('/tab/form/index.php');">Form Guide</a></p>
+<div class="rightcolumn">
+	<h2>International Racing</h2>
+    <div class="box">    
+    	<h3>Upcoming International Racing on Sky</h3>
+		<h3>Sunday 28th</h3>    <p>
+
+    
+    
+    
+ 	   	<a href="https://www.tab.com.au/#!/nsw/racing/racingscheduledetail/Vincennes/Races/28-Sep-2014" title="Bet now with TAB" target="_blank" class="greenBtn" style="float:right">Bet Now</a> 
+   
+   	<img src="/international/img/flag-france-tiny.gif" alt="France"  /> 
+    <strong>VINCENNES</strong> <br />
+    G1 - Prix Des Elites	</p>
+<h3>Saturday 4th</h3>    <p>
+
+    
+    
+    
+   
+   	 
+    <strong>HASTINGS</strong> <br />
+    G1 - Livamol Classic	</p>
+<h3>Sunday 5th</h3>    <p>
+
+    
+    
+    
+   
+   	<img src="/international/img/flag-france-tiny.gif" alt="France"  /> 
+    <strong>LONGCHAMP</strong> <br />
+    G1 - Prix De L'arc De Triomphe	</p>
+    <p>
+
+    
+    
+    
+   
+   	<img src="/international/img/flag-france-tiny.gif" alt="France"  /> 
+    <strong>LONGCHAMP</strong> <br />
+    G1 - Prix Jean-luc Lagardere (grand Criterium - Post 2002)	</p>
+    <p>
+
+    
+    
+    
+   
+   	<img src="/international/img/flag-france-tiny.gif" alt="France"  /> 
+    <strong>LONGCHAMP</strong> <br />
+    G1 - Prix Marcel Boussac	</p>
+        
+    <p><a href="/international/index.php" class="greyBtn" target="_blank">View Sky International</a></p>
+    </div>
+</div><script type="text/javascript" src="/js/jQuery/alphanumeric/jquery.alphanumeric.pack.js"></script>
+
+<!--calendar-->
+<script  src="/js/calendar/dhtmlxCalendar/codebase/dhtmlxcommon.js"></script>
+<script  src="/js/calendar/dhtmlxCalendar/codebase/dhtmlxcalendar.js"></script>
+<link rel="STYLESHEET" type="text/css" href="/js/calendar/dhtmlxCalendar/codebase/dhtmlxcalendar.css">
+<script type="text/javascript">
+	window.dhx_globalImgPath = "/js/calendar/dhtmlxCalendar/codebase/imgs/";
+</script>
+    
+<script type="text/javascript">
+//initialize calendars
+var cal1,cal2;
+window.onload = function() {
+	cal1 = new dhtmlxCalendarObject('datefrom');
+	cal2 = new dhtmlxCalendarObject('dateto');	
+	cal1.setDateFormat('%d-%m-%Y');
+	cal2.setDateFormat('%d-%m-%Y');
+}
+
+function clearPublishDownDate() {
+	document.getElementById('publishdown').value = '';	
+}
+</script>
+
+<script type="text/javascript">
+	function submitSearch() {
+		openForm('/tab/form/rase-home.php?racingtype='+document.getElementById('racingtype').value+'&type='+document.getElementById('type').value+'&keyword='+document.getElementById('keyword').value+'&datefrom='+document.getElementById('datefrom').value+'&dateto='+document.getElementById('dateto').value+'&SubmittedForm=1');
+	}
+</script>
+
+<div class="rightcolumn">
+	<h2>Racing Search</h2>
+         <div class="box">
+         	<form name="adminForm-search" id="adminForm-search" action="index.php" method="get">
+            <h3>Date Range</h3>
+            <p>
+               <input type="text" name="datefrom" id="datefrom" class="calendarSelector"/>
+               &nbsp; <strong>to</strong> &nbsp;
+               <input type="text" name="dateto" id="dateto" class="calendarSelector" />
+            </p>
+            <p>
+               <select name="racingtype" id="racingtype" jVal="{valid:function (val) { if (val == '') return false; else return true; }, message:'Required'}" style="width:200px;">
+                  <option value="">Racing type...</option>               
+                  <option value="R">Thoroughbreds</option>
+                  <option value="G">Greyhounds</option>
+                  <option value="T">Harness</option>
+               </select>
+            </p>            
+            <p>
+               <select name="type" id="type" jVal="{valid:function (val) { if (val == '') return false; else return true; }, message:'Required'}" style="width:200px;">
+                  <option value="">Search by...</option>
+                  <option value="track">Track</option>
+                  <option value="trainer">Trainer</option>
+                  <option value="jockey">Jockey/Driver</option>
+                  <option value="runner">Runner Name</option>
+                  <option value="race">Race Name</option>
+               </select>
+            </p>
+            <h4>Search Keyword</h4>
+            <p>
+               <input type="text" name="keyword" id="keyword" class="name tb" jVal="{valid:function (val) { if (val == '') return false; else return true; }, message:'Required'}" style="width:180px;"/>
+            </p>
+            <!--<p><a class="greyBtn" href="javascript://" onclick="submitSearch();">Search Now</a></p>-->
+            <p>
+            <input type="submit" value="Search Now" onClick="if(jQuery('#adminForm-search').jVal({style:'cover',padding:3,border:1,wrap:true}) ) { submitSearch(); return false; } else return false;" class="submitGreyBtn"/>
+            </p>
+         </div>
+</div>
+
+<script type="text/javascript">
+	jQuery.noConflict();
+	jQuery('.name').alpha({allow:". "});
+</script>       
+   </div>
+   <div class="clear"></div>
+   <!--end right column-->
+   
+   <!--start site map-->
+   <div id="siteMap">   	   
+       <ul><li class="heading"><a href="javascript://">Media</a></li><li><a href="index.php?component=content&amp;id=97">Watch Live Racing</a></li><li><a href="index.php?component=content&amp;id=97">Listen to Sky Sports Radio</a></li><li><a href="index.php?component=content&amp;id=97">Catch Up</a></li><li><a href="index.php?component=content&amp;id=97">Find Race Replays</a></li><li><a href="index.php?component=ssr&amp;task=podcasts&amp;Itemid=114&amp;id=96">Podcasts</a></li><li><a href="/index.php?component=subscription&amp;task=subscribe&amp;Itemid=125&amp;id=27">Media Subscription</a></li><li><a href="/index.php?component=ssr&amp;task=frequencyfinder&amp;Itemid=194&amp;id=24">Find Sky Sports Radio Frequencies</a></li></ul><ul><li class="heading"><a href="javascript://">Racing</a></li><li><a href="index.php?component=racing&amp;task=todayraces&amp;Itemid=89&amp;id=18">Today&#39;s Races</a></li><li><a href="index.php?component=tip&amp;task=tips&amp;Itemid=96&amp;id=20">Form Expert Tips</a></li><li><a href="index.php?component=racing&amp;task=results&amp;Itemid=104&amp;id=18">Results</a></li><li><a href="index.php?component=racing&amp;task=scratchings&amp;Itemid=97&amp;id=18">Scratchings</a></li><li><a href="/index.php?component=racing&amp;task=todaysrundown&amp;Itemid=101&amp;id=18">Today&#39;s Rundown</a></li><li><a href="javascript:openForm('/tab/form/rase-home.php');">Race Archive Search</a></li><li><a href="/international/index.php">International Racing</a></li><li><a href="/index.php?component=track&amp;task=tracks&amp;Itemid=95&amp;id=19">Track Info and Weather</a></li><li><a href="http://schedule.skychannel.com.au/" target="_blank">Calendar</a></li></ul><ul><li class="heading"><a href="javascript://">News</a></li><li><a href="index.php?component=news&amp;task=racingnews&amp;Itemid=108&amp;id=23">Racing News</a></li><li><a href="index.php?component=news&amp;task=sportsnews&amp;Itemid=110&amp;id=23">Sports News</a></li><li><a href="index.php?component=news&amp;task=opinionnews&amp;Itemid=111&amp;id=23">Expert Comment</a></li><li><a href="/international" target="_blank">International Racing</a></li></ul><ul><li class="heading"><a href="javascript://">Programs</a></li><li><a href="index.php?component=guide&amp;task=programguide&amp;Itemid=107&amp;id=22">Program Guide</a></li><li><a href="index.php?component=content&amp;id=110">Racing Retro</a></li><li><a href="index.php?component=content&amp;id=122">Trials and Tribulations</a></li><li><a href="http://bigsportsbreakfast.com.au" target="_blank">Big Sports Breakfast</a></li><li><a href="/index.php?component=programs&amp;task=skyprograms&amp;Itemid=178&amp;id=35" target="_self">All Sky Programs</a></li><li><a href="/index.php?component=programs&amp;task=ssrprograms&amp;Itemid=179&amp;id=35" target="_self">All Sky Sports Radio Programs</a></li></ul><ul><li class="heading"><a href="javascript://">About</a></li><li><a href="index.php?component=team&amp;task=skyteam&amp;Itemid=105&amp;id=21">Sky Presenters</a></li><li><a href="/index.php?component=team&amp;task=ssrteam&amp;Itemid=106&amp;id=21" target="_self">Sky Sports Radio Presenters</a></li><li><a href="/index.php?component=team&amp;task=racecallers&amp;Itemid=181&amp;id=21" target="_self">Sky Racecallers</a></li><li><a href="index.php?component=content&amp;id=89">Sky Racing</a></li><li><a href="index.php?component=content&amp;id=90">Sky Sports Radio</a></li><li><a href="/index.php?component=content&amp;Itemid=164&amp;id=130">Advertising on Sky</a></li><li><a href="http://careers.skyracing.com.au/jobSearch.asp?stp=fw">Jobs at Sky</a></li></ul><ul><li class="heading"><a href="index.php?component=content&amp;id=104">Connect</a></li><li><a href="index.php?component=feedback&amp;task=feedbacktype&amp;Itemid=189&amp;id=33">Leave Feedback</a></li><li><a href="/index.php?component=content&amp;Itemid=165&amp;id=131">Contact Sky</a></li><li><a href="https://www.tab.com.au" target="_blank">TAB.com.au</a></li><li><a href="http://www.facebook.com/SkyRacingAU" target="_blank"><img height="24" src="/images/social-icons-facebook.png" width="24" /></a> <a href="http://www.twitter.com/SkyRacingAU" target="_blank"><img height="24" src="/images/social-icons-twitter.png" width="24" /></a> <a href="http://www.youtube.com/channel/UCs-eXS_S8uG81wdiW9fOmog/about?view_as=public" target="_blank"><img height="24" src="/images/social-icons-youtube.png" width="24" /></a>&nbsp;<a href="http://www.instagram.com/skyracingau" target="_blank"><img height="24" src="/images/social-icons-instagram.png" width="24" /></a>&nbsp;<a href="http://www.linkedin.com/company/skyracingau" target="_blank"><img height="24" src="/images/social-icons-linkedin.png" width="24" /></a></li></ul> 
+	   <div class="clear"></div>
+   </div>
+   <!--end site map-->
+</div>
+
+<script type="text/javascript" src="/js/custom.js"></script>
+<!--vtip-->
+<script language="JavaScript" type="text/javascript" src="/js/jQuery/vtip/vtip.js"></script>
+
+<!--start fooler-->
+<div id="footer">
+    <img src="images/sky_racing_footer_logo.png" />     
+	<img src="/images/TAB-Footer-Logo.png" /> 
+	<p>&copy; Copyright 2014 Sky Racing &nbsp; | <a href="index.php?component=feedback&amp;task=feedbacktype&amp;Itemid=189&amp;id=33">Feedback</a> &nbsp; | &nbsp; <a href="index.php?component=content&amp;id=100">Privacy</a> &nbsp; | &nbsp; <a href="index.php?component=content&amp;id=99">Legal</a> &nbsp; | &nbsp; <a href="/assets/website_images/files/Tabcorp_Wagering_Responsible_Gambling_Code_of_Conduct_v050310.pdf" target="_blank">Responsible Gambling</a></p> 
+  <div class="clear"></div>
+</div>
+<!--end body-->
+
+
+<script type="text/javascript">
+	window._mcn={};_mcn.config=[];
+		_mcn.config.push(function(){
+		_mcn.publisher("skyracing");
+		_mcn.amf.targeting("device","Desktop");
+		_mcn.amf.targeting("area","Home/");
+	});
+	 
+	(function(){var e=document.createElement("script"),protocol = "https:" == document.location.protocol ? "https:" : "http:";e.async=true;e.src=protocol+"//medrx.sensis.com.au/mcn/cube.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n);})();
+</script>
+
+<!-- BEGIN Google Analytics tracking Code -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8034900-1");
+pageTracker._trackPageview();
+pageTracker._trackPageLoadTime();
+} catch(err) {}</script>
+<!-- END: Google Analytics tracking Code -->
+
+</body>
+</html>

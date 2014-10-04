@@ -1,0 +1,391 @@
+<!doctype html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<title>Protect your privacy with DoNotTrackMe from Abine</title>
+		<meta name="description" content="Abine, the online privacy company, makes DoNotTrackMe to block online tracking companies and protect your personal information.">
+		<meta name="viewport" content="width=device-width">
+		<link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196">
+		<link rel="icon" type="image/png" href="favicon-160x160.png" sizes="160x160">
+		<link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+
+		<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/epanfjkfahimkgomnigadpkobaefekcd">
+		<!-- build:css styles/vendor.css -->
+		<!-- bower:css -->
+
+		<!-- endbower -->
+		<!-- endbuild -->
+
+		<link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700|Roboto+Slab:700' rel='stylesheet' type='text/css'>
+
+		<!-- build:css(.tmp) styles/main.css -->
+		<link rel="stylesheet" href="styles/main.css">
+		<!-- endbuild -->
+		<!-- build:js scripts/vendor/modernizr.js -->
+		<script src="../bower_components/modernizr/modernizr.js"></script>
+		<!-- endbuild -->
+
+	</head>
+	<body class="home">
+		<!--[if lt IE 10]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<section class="splash">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-11 col-md-8 centered">
+						<img class="dnt-logo" src="images/dntLogo.png">
+					</div>
+					<div class="col-xs-12">
+						<h1 class="splash-header">Protect your privacy</h1>
+						<div class="col-xs-10 col-sm-8 col-md-6 centered">
+							<a href="https://dnt.abine.com/#register" type="button" class="btn btn-lg btn-splash btn-block" >Get Started Free</a>
+							<div class="row">
+								<div class="col-xs-12">
+									<p class="home-lead">Also available on:</p>
+								</div>
+								<div class="col-xs-6">
+									<a class="btn btn-store app" href="//itunes.apple.com/us/app/donottrackme-mobile-privacy/id828387649?mt=8" target="_blank"><img class="img-responsive" src="images/app-store-btn.png"></a>
+								</div>
+								<div class="col-xs-6">
+									<a class="btn btn-store play" href="//play.google.com/store/apps/details?id=com.abine.dnt" target="_blank"><img class="img-responsive" src="images/play-store-btn.png"></a>
+								</div>
+							</div>
+						</div>
+					</div>                    
+				</div>
+			</div>
+		</section><!-- End Splash -->
+
+		<section class="nav">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4 col-sm-2 col-md-3 col-lg-4">
+						<div class="dropdown-logo nav">
+							<a href="/"><img class="abine-logo" src="images/abineLogo.png"></a><a href="/" data-toggle="dropdown"><span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+							  <li><a class="dnt" href="donottrackme.html"><span>DoNotTrack</span>Me</a></li>
+							  <li><a class="dm" href="/deleteme/landing.php"><span>Delete</span>Me</a></li>
+							  <li><a class="mm" href="maskme.html"><span>Mask</span>Me</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="menu-wrap col-xs-8 col-sm-10 col-md-9 col-lg-8">
+						<ul class="nav nav-pills nav-top">
+							<li class="nav-link">
+								<div class="btn-group">
+									<a type="button" href="https://dnt.abine.com/#/register" class="btn btn-info">Sign Up</a>
+								</div>
+							</li>
+							<li class="nav-link">
+								<div class="btn-group dropdown-logo login">
+								  <a type="button" href="https://dnt.abine.com/#/login" class="btn btn-primary">Log In</a>
+								  <a type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+								    <span class="caret"></span>
+								    <span class="sr-only">Toggle Dropdown</span>
+								  </a>
+								  <ul class="dropdown-menu" role="menu">
+								    <li><a class="dnt" href="https://dnt.abine.com/#/login"><span>DoNotTrack</span>Me</a></li>
+								    <li><a class="dm" href="https://www.abinedeleteme.com/login"><span>Delete</span>Me</a></li>
+								    <li><a class="mm" href="https://mm.abine.com/"><span>Mask</span>Me</a></li>
+								  </ul>
+								</div>
+							</li>
+							<li class="nav-link"><a href="/blog/">Blog</a></li>
+							<li class="nav-link"><a href="about.html">Company</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section><!-- End Nav -->
+
+		<section class="home-tracking">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h2 class="splash-subheader">Stop companies from tracking you</h2>
+					</div>
+					<div class="col-sm-6 col-lg-5">
+						<p class="home-lead">
+						  Facebook, Google, and hundreds of other advertising networks and data collection sites track you as you browse the web. 
+						</p>
+						<div class="col-xs-10 col-sm-8 centered">
+							<a href="https://dnt.abine.com/#register" class="btn btn-lg btn-block cta">Fight Back</a>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-7">
+						<img class="centered img-responsive" src="images/butcherBlock.png">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="home-control">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h2 class="splash-subheader">Stop sites from abusing your personal info</h2>
+					</div>
+					<div class="col-sm-6 col-lg-7">
+						<img class="centered img-responsive" src="images/internetID.png">
+					</div>
+					<div class="col-sm-6 col-lg-5">
+						<p class="home-lead">
+						  Big and small companies alike have lost hundreds of millions of people’s data recently. Others just spam you.
+						</p>
+						<div class="col-xs-10 col-sm-8  centered">
+							<a href="https://dnt.abine.com/#register" class="btn btn-lg btn-block cta">Take back Control</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="home-blocking">
+			<div class="container">
+			  <div class="row">
+					<div class="col-xs-12">
+					  <h2 class="splash-subheader">Protect yourself when you shop online</h2>
+					</div>
+			  </div>
+			  <div class="row">
+					<div class="col-sm-6 col-lg-5">
+					  <p class="home-lead">These days companies lose credit cards in data breaches and charge you unexpectedly. Don’t leave your card on file and become the next victim.</p>
+					  <div class="col-xs-10 col-sm-8  centered">
+							<a href="https://dnt.abine.com/#premiumreg" class="btn btn-lg btn-block cta">Get Protected</a>
+					  </div>
+					</div>
+					<div class="col-sm-6 col-lg-7">
+					  <img class="centered img-responsive" src="images/breachedCompanies.png">
+					</div>
+			  </div>
+			</div>
+		</section>    
+
+		<section class="home-premium">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h2 class="splash-subheader upsell">Privacy for the price of a latte</h2>
+					</div>
+					<div class="col-md-6">
+						<h4>$5 a month for complete privacy coverage</h4>
+						<p class="home-lead">
+						  DoNotTrackMe Premium helps you stay safe from all the bad guys online - hackers, advertisers, data collection companies, spammers, and fraudsters.
+						</p>
+						<div class="col-xs-10 col-sm-8 centered">
+							<a href="https://dnt.abine.com/#premiumreg" class="btn btn-lg btn-block cta">Go Premium</a>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<img class="img-responsive centered" src="images/premium-services.png">
+					</div>
+					<div class="row">
+						
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="home-who">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+					  <h2 class="splash-subheader">Who we are</h2>
+					</div>
+					<div class="col-sm-6">
+						<p class="home-lead">
+							Abine is a Boston-based privacy company. Led by consumer protection, privacy, and identity theft experts, we are passionate about making easy-to-use privacy solutions for everyday people. We strongly believe that these solutions must improve as online privacy becomes more difficult to get, and we work hard to stay ahead of the curve. We look forward to helping you navigate the complicated world of online privacy.
+						</p>
+						<div class="col-sm-9 centered">
+							<a class="btn btn-lg btn-block cta" href="about.html#team">Meet the Team</a>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<img class="img-responsive centered" src="images/who-we-are.png">
+					</div>
+					<div class="col-xs-12">
+						<p class="home-lead">We've been featured on:</p>
+						<img class="img-responsive centered" src="images/brandbar.png">
+					</div>
+					<!-- <div class="col-xs-12">
+						<p class="home-lead">We've been featured on:</p>
+						<div class="row">
+							<div class="col-xs-6 col-sm-4 col-md-2">
+								<a rel="nofollow" class="brandbar fbs" href="http://www.forbes.com/sites/adamtanner/2013/12/30/single-use-credit-cards-could-have-lessened-pain-for-target-shoppers/" target="_blank"></a>
+							</div>
+							<div class="col-xs-6 col-sm-4 col-md-2">
+								<a rel="nofollow" class="brandbar tc" href="http://techcrunch.com/2013/03/18/keen-on-privacy-why-giving-us-control-of-our-online-data-is-the-next-multi-billion-dollar-opportunity-tctv/" target="_blank"></a>
+							</div>
+							<div class="col-xs-6 col-sm-4 col-md-2">
+								<a rel="nofollow" class="brandbar cnn" href="http://money.cnn.com/2014/01/11/technology/security/target-hack-privacy/index.html" target="_blank"></a>
+							</div>
+							<div class="col-xs-6 col-sm-4 col-md-2">
+								<a rel="nofollow" class="brandbar wsj" href="http://online.wsj.com/news/articles/SB10001424052702304704504579432823496404570" target="_blank"></a>
+							</div>
+							<div class="col-xs-6 col-sm-4 col-md-2">
+								<a rel="nofollow" class="brandbar npr" href="http://www.npr.org/templates/story/story.php?storyId=129298003" target="_blank"></a>
+							</div>
+							<div class="col-xs-6 col-sm-4 col-md-2">
+								<a rel="nofollow" class="brandbar cnet" href="http://www.cnet.com/videos/donottrackme-simplifies-tracking-blocking/" target="_blank"></a>
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6 col-sm-3">
+						<h4 class="footerHeader">Products</h4>
+						<dl class="side-nav footer">
+						  <dd><a href="donottrackme.html">DoNotTrackMe</a></dd>
+						  <dd><a href="maskme.html">MaskMe</a></dd>
+						  <dd><a href="/deleteme/landing.php">DeleteMe</a></dd>
+						</dl>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<h4 class="footerHeader">Company</h4>
+						<dl class="side-nav footer">
+						  <dd><a href="about.html">About Us</a></dd>
+						  <dd><a href="about.html#team">Team</a></dd>
+						  <dd><a href="about.html#careers">Careers</a></dd>
+						</dl>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<h4 class="footerHeader">Trust</h4>
+						<dl class="side-nav footer">
+						  <dd><a href="about.html#mission">Mission</a></dd>
+						  <dd><a href="about.html#team">Who We Are</a></dd>
+						  <dd><a href="legal.html">Privacy Policy</a></dd>
+						</dl>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<h4 class="footerHeader">Contact</h4>
+				  <dl class="side-nav footer">
+					<dd><a href="/blog/">Blog</a></dd>
+					<dd><a href="/press/">Press</a></dd>
+					<dd><a href="support.html">Support</a></dd>
+				  </dl>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="sub-footer">
+			<div class="container">
+				<div class="row">
+				  <div class="col-xs-4">
+				  	<ul class="social">
+				  		<li><a class="gp" href="https://plus.google.com/114109226337683807083" rel="publisher" target="_blank"></a></li>
+				  		<li><a class="fb" href="https://www.facebook.com/AbineInc" target="_blank"></a></li>
+				  		<li><a class="tw" href="https://twitter.com/Abine" target="_blank"></a></li>
+				  	</ul>
+				  </div>
+				  <div class="col-xs-4">
+				  	<p class="sub-footer">Abine, Inc., 280 Summer St. Boston, MA 02210</p>
+				  	<p class="sub-footer">&copy; Abine, Inc. 2014 </p>
+				  </div>
+				  <div class="col-xs-4">
+						<img class="footerLogo" src="/images/abine.png">
+				  </div>
+				</div>
+			</div>
+		</section>
+
+		<!-- build:js scripts/vendor.js -->
+		<!-- bower:js -->
+		<script src="../bower_components/jquery/dist/jquery.js"></script>
+		<!-- endbower -->
+		<!-- endbuild -->
+
+		<!-- Piwik Open Source Analytics. We use this to help us understand user behavior while respecting user privacy. See more here: https://piwik.org/ -->
+		<script>
+			var _paq = _paq || [];
+		  _paq.push(['disableCookies']);
+		  _paq.push(["setDomains", ["*.abine.com"]]);
+		  _paq.push(['trackPageView']);
+		  _paq.push(['enableLinkTracking']);
+		  (function() {
+		    var u="https://pumpkin.abine.com/analytics/";
+		    _paq.push(['setTrackerUrl', u+'pumpkinpiwiktest.php']);
+		    _paq.push(['setSiteId', 2]);
+		    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+		    g.defer=true; g.async=true; g.src=u+'pumpkinpiwiktest.js'; s.parentNode.insertBefore(g,s);
+		  })();
+		</script>
+
+		<!-- build:js scripts/plugins.js
+		<script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js"></script>
+		<script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/alert.js"></script> -->
+		<script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/dropdown.js"></script>
+		<!-- <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tooltip.js"></script>
+		<script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js"></script>
+		<script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/transition.js"></script> -->
+		<script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/button.js"></script>
+		<!-- <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/popover.js"></script>
+		<script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/carousel.js"></script>
+		<script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/scrollspy.js"></script>
+		<script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js"></script>
+		<script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tab.js"></script> -->
+		<!-- endbuild -->
+
+		<script type="text/javascript" src="../bower_components/sticky/jquery.sticky.js"></script>
+
+		<!-- build:js({app,.tmp}) scripts/main.js -->
+		<!-- <script src="scripts/main.js"></script> -->
+		<!-- endbuild -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('section.nav').sticky({topSpacing:0});
+			});
+		</script>
+		<script type="text/javascript">
+    $(document).ready(function(){
+        // Sticky nav
+        $('section.nav').sticky({topSpacing:0});
+
+        // Browser detection (via ducktyping, replace w/ user agent library ASAP!)
+        var a = document.getElementById('get-dnt-free')
+        if (isChrome ===  true) {
+            a.onclick=installDNTMeChrome;
+        } else if (isFirefox === true) {
+            a.href = "http://link.abine.com/dntme-firefox-latest";
+        } else if (isSafari === true) {
+            a.href = "http://extensions.apple.com/details/?id=com.abine.dntpsafari-82M4SELZCB"
+        } else if (isOpera === true) {
+            a.href = "https://addons.opera.com/en/extensions/details/donottrackme-online-privacy-protection/?display=en"
+        } else if (isIE === true) {
+            a.href = "http://link.abine.com/dntme-ie-installer"
+            //console.log('interwebs exploder');
+        } else {
+            //console.log('wtf no browser found');
+            a.href = "http://dnt.abine.com"
+        }
+    });
+    var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+        // Opera 8.0+ (UA detection to detect Blink/v8-powered Opera)
+    var isFirefox = typeof InstallTrigger !== 'undefined';   // Firefox 1.0+
+    var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+        // At least Safari 3+: "[object HTMLElementConstructor]"
+    var isChrome = !!window.chrome && !isOpera;              // Chrome 1+
+    var isIE = /*@cc_on!@*/false || !!document.documentMode;   // At least IE6
+
+    function installDNTMeChrome() {
+chrome.webstore.install("https://chrome.google.com/webstore/detail/epanfjkfahimkgomnigadpkobaefekcd",
+  function(reason) {
+      //console.log("success!");    
+  },
+  function(reason) {
+      //console.log("install aborted: " + reason);
+  }
+);
+}
+</script>
+
+</body>
+</html>

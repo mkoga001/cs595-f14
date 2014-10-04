@@ -1,0 +1,624 @@
+ 
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>Police Bureau | The City of Portland, Oregon</title>
+	<link rel="shortcut icon" href="/favicon.ico" />
+	
+		<link class="stylesheet" rel="stylesheet" media="screen" href="/assets/css/main.css" />
+		<link rel="stylesheet" media="print" href="/assets/css/print.css" />
+		<!-- <link rel="stylesheet" href="/assets/css/print.css"> -->
+		<link class="stylesheet" rel="stylesheet" href="/police/custom.css" />
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+		
+			<link rel="stylesheet" href="/assets/css/responsive.css">
+		
+	<link rel="stylesheet" href="/assets/plugins/superfish/superfish.css" type="text/css" />
+	<meta name="description" content="City of Portland, Oregon Police Bureau Web Site" />
+	
+	<meta name="google-translate-customization" content="e799eece73976f86-a253c18e65e47c88-gfd59d065d2ba044c-16" />
+	
+		<link rel="alternate" type="application/rss+xml" title="Police Bureau RSS Feed" href="/rss.cfm?c=29708" />
+	
+	<link rel="alternate" type="application/rss+xml" title="All Content RSS Feed" href="/rss.cfm" />
+	<script type="text/javascript">
+	var topPages = [];
+	var latestPages = [];
+	var base_path = '/police/';
+	</script>
+
+	<script src="/shared/js/createWin.js"></script> 
+<!--[if lt IE 9]>
+	<script src="/assets/js/html5shiv.js" type="text/javascript"></script>
+	<script src="/assets/js/html5shiv-printshiv.js" type="text/javascript"></script>
+<![endif]-->
+<!--[if lt IE 7]>
+	<script src="/assets/js/ie6pngfix.js" type="text/javascript"></script>
+<![endif]-->
+</head>
+
+<body id="pog-police">
+    
+
+	 
+	 
+
+	<div id="accessibility"><a href="#main-content">Skip to Main Content</a> <a href="#" class="style-off">View Text-Only</a></div>
+	
+	<header id="main-header">
+		<div id="header-stripe">
+			<div class="container_16">
+				<h1 id="city-logo" class="hide-text"><a href="/">The City of Portland, Oregon</a></h1>
+				<div id="mobile-nav-button"></div>
+				<div id="search-form-wrap">
+					<form id="search-form" method="get" action="/police/">
+						<input type="hidden" name="mode" value="search">
+						<input type="hidden" name="search_action" value="SearchResults">
+						<input type="hidden" name="filter_category_tree_id" value="29708">
+						<input type="text" autocomplete="off" value="" name="search_words" maxlength="256" >
+						<input class="button" type="submit" value="Search" name="submit" onfocus="blur()">
+						<div class="search-results">
+							<img src="/assets/images/tip-arrow-up.png" alt="tip-arrow-up" width="22" height="12" />
+							<ol>
+							</ol>
+							<a class="adv-search" href="">Advanced Search</a>
+						</div>
+					</form>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div><!--/header-stripe -->
+		<div class="clear"></div>
+		<div id="utility-stripe">
+			<div class="container_16">
+				<nav id="breadcrumbs">
+					
+							<a href="/">City Home</a>
+						
+							<a href="/police/25783" >Government</a>
+						
+							<a href="/police/26003" >Bureaus & Offices of the City of Portland</a>
+						
+				</nav>
+				<section id="utility-tools">
+					<ul id="utility-nav">
+						
+							<li><a href="https://www.portlandoregon.gov/police/?login=1&referer=/police/" class="signin">Sign In</a>
+								<fieldset id="signin-box">
+									<form name="loginForm" action="https://www.portlandoregon.gov/police/?login=1" method="post" id="signin" >
+										<input type="hidden" name="referer" value="/police/">
+										<ol>
+											<li>
+												<label for="username">Username or Email</label>
+												<input id="username" name="user_name" value="" title="username" tabindex="4" type="text">
+											</li>
+											<li>
+												<label for="password">Password</label>
+												<input id="password" name="password" value="" title="password" tabindex="5" type="password">
+											</li>
+											<li class="submit-group">
+												<input class="button" id="signin-submit" value="Sign in" tabindex="6" type="submit">
+												<label id="remember-me" for="remember"><input id="remember" name="save_login" value="1" tabindex="7" type="checkbox"> Remember me</label>
+											</li>
+										</ol>
+										<p class="forgot"><a href="/police/?forgot=1&login=1&referer=%2Fpolice%2F" title="If you remember your password, try logging in with your email" id="resend_password_link">Forgot your username or password?</a><br />
+										<a href="/police/?new=1&login=1&referer=%2Fpolice%2F" title="Create an account here">Not signed up? Create an Account &raquo;</a></p>
+										<input type="hidden" name="process_login" value="yes">
+									</form>
+								</fieldset>
+							</li>
+						
+					</ul>
+
+					
+						<div id="google_translate_element"></div>
+						<script type="text/javascript">
+						function googleTranslateElementInit() {
+						  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+						}
+						</script>
+						<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+					
+
+					<ul id="font-resize">
+						<li class="font-increase"><a href="#increase-text">Increase Text Size</a></li>
+						<li class="font-decrease"><a href="#decrease-text">Decrease Text Size</a></li>
+						<li class="font-reset"><a href="#reset-text">Reset Text Size</a></li>
+					</ul>
+				</section>
+			</div>
+			<div class="clear"></div>
+		</div><!--/utility-stripe -->
+		<span id="under-stripe"></span>
+	</header>
+
+		<section class="container_16" id="branding-wrap">
+			
+			<header id="bureau-header" class="vcard">
+				
+					<section id="bureau-titles">
+						
+							<a href="/police/"><img src="/police/images/logo.png" alt="" class="logo" /></a>
+						
+						<hgroup>
+							
+									<h1 class="fn org"><a href="/police/">Police Bureau</a></h1>
+									<h2><a href="/police/">Sworn to protect.  Dedicated to serve.</a></h2>
+								
+						</hgroup>
+					</section>
+					<section id="bureau-contact-info">
+						<div class="cell">
+							<div id="bureau-phone-numbers">
+								
+								<p><span class="desc">Phone:</span> <span class="tel"><span class="value">503-823-0000</span> <abbr class="type" title="work"></abbr></span></p>
+								
+								<p><span class="desc">Fax:</span> <span class="tel"><span class="value">503-823-0342</span> <abbr class="type" title="work"></abbr></span></p>
+								
+								<p><span class="desc">Non-Emergency:</span> <span class="tel"><span class="value">503-823-3333</span> <abbr class="type" title="work"></abbr></span></p>
+								
+							</div>
+							
+							<p class="adr"><span class="street-address">1111 S.W. 2nd Avenue</span>, <span class="locality">Portland</span>, <span class="region">OR</span> <span class="postal-code">97204</span></p>
+							
+						</div>
+					</section>
+				
+			</header>
+
+
+			<nav id="bureau-nav" role="navigation">
+				<ul>
+				
+							<li><a href="/police/29708" class="bureau-home" title="Back to Police Bureau - Home">Bureau Home</a></li>
+						
+							<li><a href="/police/29791" class="">Divisions</a></li>
+						
+							<li><a href="/police/30379" class="">Community</a></li>
+						
+							<li><a href="/police/62044" class="">DOJ</a></li>
+						
+							<li><a href="/police/29867" class="">Directives</a></li>
+						
+							<li><a href="/police/29797" class="">News</a></li>
+						
+							<li><a href="/police/29793" class="">Docs &amp; Data</a></li>
+						
+							<li><a href="/police/60019" class="">Jobs</a></li>
+						
+							<li><a href="/police/30539" class="">Contact Us</a></li>
+						
+				
+				</ul>
+				<br class="clear" />
+			</nav>
+			
+			<section class="home" id="content-wrap">
+				<div class="clear"></div>
+				<div id="feature-wrap">
+					<div class="grid_11">
+						<div id="slideshow-wrap">
+						<ul id="slideshow">
+								
+								<li>
+									  
+										<img title="Traffic Division" src="/shared/cfm/slb.cfm?id=422475">
+									  
+										<!--
+											Like this, but in CF?
+											if(slideshow.headline !== ''){
+												<h2>attributes.slideshow.headline</h2>
+											}
+											if(slideshow.summary_text !== ''){
+												<p></p>
+											}
+										-->
+										
+											<h2>Traffic Division</h2>
+									  
+								</li>
+								
+								<li>
+									  
+										<img title="Mounted Patrol" src="/shared/cfm/slb.cfm?id=422473">
+									  
+										<!--
+											Like this, but in CF?
+											if(slideshow.headline !== ''){
+												<h2>attributes.slideshow.headline</h2>
+											}
+											if(slideshow.summary_text !== ''){
+												<p></p>
+											}
+										-->
+										
+											<h2>Mounted Patrol</h2>
+									  
+								</li>
+								
+								<li>
+									  
+										<a href="http://www.zmanscholarship.org/">
+										
+										<img title="Z-Man Wrestling" src="/shared/cfm/slb.cfm?id=470939">
+									  
+										</a>
+										
+										<!--
+											Like this, but in CF?
+											if(slideshow.headline !== ''){
+												<h2>attributes.slideshow.headline</h2>
+											}
+											if(slideshow.summary_text !== ''){
+												<p></p>
+											}
+										-->
+										
+											<h2>Z-Man Wrestling</h2>
+									  
+								</li>
+								
+								<li>
+									  
+										<img title="Become a Portland Police Officer" src="/shared/cfm/slb.cfm?id=422474">
+									  
+										<!--
+											Like this, but in CF?
+											if(slideshow.headline !== ''){
+												<h2>attributes.slideshow.headline</h2>
+											}
+											if(slideshow.summary_text !== ''){
+												<p></p>
+											}
+										-->
+										
+											<h2>Become a Portland Police Officer</h2>
+									  
+								</li>
+								
+								<li>
+									  
+										<a href="article/402885">
+										
+										<img title="Community Policing in Bangladesh" src="/shared/cfm/slb.cfm?id=419914">
+									  
+										</a>
+										
+										<!--
+											Like this, but in CF?
+											if(slideshow.headline !== ''){
+												<h2>attributes.slideshow.headline</h2>
+											}
+											if(slideshow.summary_text !== ''){
+												<p></p>
+											}
+										-->
+										
+											<h2>Community Policing in Bangladesh</h2>
+									  
+								</li>
+								
+						</ul>
+						
+						</div>
+					</div><!--/grid_11 -->
+					<div class="grid_5">
+
+							
+							
+							<div class="widget recently-added">
+								<h1>Featured</h1>
+    							<ul>
+    								
+
+    									<li><a title="The Portland Police Bureau has received two recent reports where victims stated that someone claiming to be with the Internal Revenue Service (IRS) called them and demanded money for back taxes." href="article/503173">Public Alert: Scammers Calling Portland Residents Claiming to be IRS</a></li>
+    								
+
+    									<li><a title="The Portland Police Bureau has partnered with GovDeals.com to sell unclaimed property left at the Portland Police Bureau's Property and Evidence Division." href="article/480227">Auction: Unclaimed and Recovered Property</a></li>
+    								
+
+    									<li><a title="The Portland Police Bureau, in partnership with Clear Channel Outdoor, has introduced a series of billboards around the community highlighting the police officers keeping the community safe." href="article/490065">Your City, Your Police</a></li>
+    								
+
+    									<li><a title="This map contains up to 100 of the most recent, closed, non-confidential, 911 calls for service received by Portland Oregon's 911 system in the past 24 hours." href="article/481374">Portland Police Calls for Service</a></li>
+    								
+
+    									<li><a title="The Portland Police Bureau's Mounted Patrol Unit patrols primarily the downtown area, combating street crime." href="article/250328">Mounted Patrol Unit</a></li>
+    								
+
+    									<li><a title="The Canine Unit will be used whenever possible to augment officer resources by using the specialized canine abilities." href="article/420232">Canine Unit</a></li>
+    								
+    							</ul>
+    							</div><!--/recently-added -->
+							
+
+						
+					</div><!--/grid_5 -->
+					<div class="clear"></div>
+				</div><!--/feature-wrap -->
+
+
+
+				<div class="grid_11" id="main-content">
+
+
+					
+
+					
+						<div id="i-want-to" class="grid_11 alpha omega widget">
+							
+							
+								<h1>I want to&hellip;</h1>
+							
+							<ul>
+							
+
+									<li><a href="https://www.portlandoregon.gov/police/cor/" title="">Police Report:<br> Submit Online<!-- Wrap before/after middle word --></a></li>
+
+							
+
+									<li><a href="https://www.portlandoregon.gov/police/article/143820" title="">Police Report: <br>Request a Copy<!-- Wrap before/after middle word --></a></li>
+
+							
+
+									<li><a href="https://www.portlandoregon.gov/police/article/255743" title="">Frequently Asked<br> Questions (FAQ)<!-- Wrap before/after middle word --></a></li>
+
+							
+
+									<li><a href="https://www.portlandoregon.gov/oni/46186" title="">Report Graffiti</a></li>
+
+							
+
+									<li><a href="/police/29795" title="">Crime Statistics</a></li>
+
+							
+
+									<li><a href="/police/30568" title="">Alarm Permits</a></li>
+
+							
+
+									<li><a href="https://www.portlandoregon.gov/police/news" title="">Read News Releases</a></li>
+
+							
+
+									<li><a href="https://www.portlandoregon.gov/police/pbnotify.cfm?action=UpdateSubscriber" title="">Get Email Updates</a></li>
+
+							
+
+									<li><a href="http://www.youtube.com/portlandpolice" title="">Watch Police Videos</a></li>
+
+							
+							</ul>
+							
+						</div><!--/grid_12 -->
+						<div class="clear"></div>
+					
+
+<!-- START INC -->
+
+
+					<div class="grid_11 alpha omega widget">
+
+	<h1>Our Mission Statement</h1>
+
+	<p>The mission of the Portland Police Bureau is to reduce crime and the fear of crime. We work with all community members to preserve life, maintain human rights, protect property and promote individual responsibility and community commitment.<br>
+	<br></p>
+
+</div>
+
+
+<div class="grid_6 omega">
+	
+</div>
+
+
+
+
+<div class="grid_11 alpha omega widget police-calls">
+	<h1>Portland Police Calls for Service</h1>
+
+	<p>This map contains up to 100 of the most recent, closed, non-confidential, 911 calls for service received by Portland Oregon's 911 system in the past 24 hours.</p>
+
+	<iframe src="/police/apps/calls/leaflet-map/" id="police-calls-map" frameborder="0" scrolling="No" /></iframe>
+
+	<div id="police-calls-key">
+		<ul>
+			<li><strong>KEY:</strong></li>
+			<li><img src="/shared/images/google/marker_red.png"> Last 30 minutes</li>
+			<li><img src="/shared/images/google/marker_yellow.png"> Older than 30 minutes</li>
+			<li><img src="/shared/images/google/marker_blue.png"> Older than 90 minutes</li>
+		</ul>
+	</div>
+
+	<div id="police-more-maps">
+		<ul>
+			<li><strong>MORE MAPS:</strong></li>
+			<li><a href="apps/calls/leaflet-map/full-map.html" target="_parent">Full Page App</a></li>
+			<li><a href="http://www.portlandoregon.gov/police/apps/calls/incidents_map.cfm" target="_parent">Google Map with List</a></li>
+			<li><a href="http://www.portlandoregon.gov/police/apps/calls/incidents_map_big.cfm" target="_parent">BIG Map with List</a></li>
+		</ul>
+	</div>
+
+	<div class="disclaimer">
+		<p>Incident Data provided by <a href="http://www.civicapps.org" target="_blank">CivicApps</a> dataset: <a href="http://www.civicapps.org/datasets/911-dispatch-incidents-georss" target="_blank">911 Dispatch Incidents (geoRSS)</a>.<br>
+		Developed by the Information Technology Division of the <a href="http://www.portlandpolice.com" target="_blank">Portland Police Bureau</a>.</p>
+	</div>
+</div>
+
+
+
+					<!-- END INC -->
+
+
+					<div class="clear"></div>
+				</div><!--/main-content -->
+				<div class="grid_5" id="side-content">
+										
+
+					<div class="widget leadership">
+						<ul>
+							<li>
+								<img src="/police/images/reese_48.jpg" alt="Chief Micheal Reese" width="48" height="48" />
+								<h2>Chief Michael Reese</h2>
+								<a href="index.cfm?action=UpdateItem&category_id=1143&c=30697">Email</a> | <a href="article/319093">Biography</a>
+							</li>
+							<li>
+								<img src="/assets/images/leadership/charlie-hales-thumb.jpg" alt="Mayor Charlie Hales" width="48" height="48" />
+								<h2>Mayor Charlie Hales</h2>
+								<a href="mailto:mayorcharliehales@portlandoregon.gov">Email</a> | <a href="/mayor/article/430010">Biography</a>
+							</li>
+						</ul>
+					</div>
+
+
+
+
+					<div class="widget connect">
+						<h1>Connect</h1>
+						<ul>
+						<li><a href="http://www.portlandoregon.gov/police/news/rss.cfm"><img src="/assets/images/icons/ico-rss-32.png" alt="RSS" width="32" height="32"> News RSS</a></li>
+						<li><a href="http://www.portlandoregon.gov/police/pbnotify.cfm?action=UpdateSubscriber"><img src="/assets/images/icons/ico-email-32.png" alt="EMail" width="32" height="32"> News Email</a></li>
+						<li><a href="http://www.twitter.com/portlandpolice"><img src="/assets/images/icons/ico-twitter-32.png" alt="Twitter" width="32" height="32"> Twitter</a></li>
+						<li><a href="http://facebook.com/portlandpolice"><img src="/assets/images/icons/ico-facebook-32.png" alt="Facebook" width="32" height="32"> Facebook</a></li>
+						<li><a href="http://youtube.com/portlandpolice"><img src="/assets/images/icons/ico-youtube-32.png" alt="YouTube" width="32" height="32"> YouTube</a></li>
+						<li><a href="http://instagram.com/portlandpolice"><img src="/assets/images/icons/ico-instagram-32.png" alt="Instagram" width="32" height="32"> Instagram</a></li>
+						</ul>
+						<br />
+						<p><a href="http://www.publicalerts.org/"><img src="http://www.portlandoregon.gov/police/images/public-alerts.png" alt="Public Alerts"></a></p>
+						
+					</div><!--/widget -->
+
+					
+				 
+				 <div class="widget ad1">
+				 <a class="twitter-timeline" href="https://twitter.com/PortlandPolice" data-widget-id="342714735583715329">Tweets by @PortlandPolice</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+
+				 
+					<div class="clear"></div>
+
+					<!--/widget -->
+				</div><!--/grid_4 -->
+				<div class="clear"></div>
+			</section><!--/content-wrap -->
+		</section>
+		<footer id="footer">
+			<div class="container_16">
+				<a class="backtotop" href="#top">Back to Top</a>
+				<div id="footer-directory">
+					<nav>
+						<ul>
+							<li class="grid_4">
+								<h4>City of Portland</h4>
+								<ul>
+									<li><a href="/26013">Community</a></li>
+									<li><a href="http://pdx4biz.org/">Business</a></li>
+									<li><a href="http://www.travelportland.com/">Visitors</a></li>
+									<li><a href="/25783">Government</a></li>
+									<li><a href="/bfs/26607">Investor Information</a></li>
+								</ul>
+							</li>
+							<li class="grid_4">
+								<h4>Site Menu</h4>
+								<ul>
+								
+											<li><a href="/police/29708" class="bureau-home">Police Bureau Home</a></li>
+										
+											<li><a href="/police/29791" >Divisions</a></li>
+										
+											<li><a href="/police/30379" >Community</a></li>
+										
+											<li><a href="/police/62044" >DOJ</a></li>
+										
+											<li><a href="/police/29867" >Directives</a></li>
+										
+											<li><a href="/police/29797" >News</a></li>
+										
+											<li><a href="/police/29793" >Docs &amp; Data</a></li>
+										
+											<li><a href="/police/60019" >Jobs</a></li>
+										
+											<li><a href="/police/30539" >Contact Us</a></li>
+										
+								</ul>
+							</li>
+							<li class="grid_4">
+								<h4>Access</h4>
+								
+								<ul>
+									<li><a href="?&login=1&show_message=1">Subscribe</a></li>
+									<li><a id="pog_website_feedback" href="/feedback/65532">Website Feedback</a></li>
+									<li><a class="toggleCSS" href="#">View Text-Only</a></li>
+									<li><a href="/bibs/62112">Request ADA Accommodation</a></li>
+									<li><a href="javascript:createModalWin('/police/index.cfm?Popup34590C73A57BA871F02DEF8714473A6C=1&&c=29708','Popup34590C73A57BA871F02DEF8714473A6C',600,500,1,0,1);">Privacy Policy</a></li>
+									<li><a href="javascript:createModalWin('/police/index.cfm?Popup319E421B000CBF946FDE98198E3BB5B6=1&&c=29708','Popup319E421B000CBF946FDE98198E3BB5B6',600,350,1,0,1);">Captioning / Transcription Policy</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+ 					<div class="clear"></div>
+				</div>
+				<div class="grid_12">
+					<p id="copyright">&copy; Copyright 2014 City of Portland, Oregon</p>
+				</div>
+				<div class="grid_4">
+					<img id="seal-footer" src="/assets/images/city-seal-footer.png" alt="City of Portland, Oregon" width="76" height="76" />
+				</div>
+				<div class="clear"></div>
+			</div>
+			
+		</footer>
+
+		
+
+		<!--<script src="http://www.google.com/jsapi"></script>-->
+		
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		<script src="//ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+		<script src="/assets/js/functions.js"></script>
+		<!--<script src="/assets/plugins/superfish/superfish.js"></script>-->
+		<!--<script src="/assets/plugins/superfish/hoverIntent.js"></script>-->
+		<script src="/assets/plugins/pdxfade/jquery.pdxfade.js"></script>
+		<!-- <script src="/assets/plugins/search/search.js"></script> -->
+		<script src="/assets/plugins/breadcrumbs/breadcrumbs.js"></script>
+		<script src="//jquery-secretagent.googlecode.com/files/secretAgent.js" type="text/javascript"></script>
+		<script src="/assets/js/twitterfeed.js"></script>
+		<script src="/assets/plugins/flictures/jquery.flictures.js"></script>
+		<script src="/assets/plugins/facebooktures/jquery.facebooktures.js"></script>
+		<script src="/shared/js/platform.js"></script>
+
+		
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-6858269-4', 'auto');
+			ga('send', 'pageview');
+
+			// Log client-side JavaScript errors
+			window.onerror = function(message, file, line) {
+			   var sFormattedMessage = '[' + file + ' (' + line + ')] ' + message;
+			   ga('send', 'event', 'Exceptions', 'Application', sFormattedMessage, null, {'nonInteraction': 1});
+			}
+		</script>
+
+
+
+		
+	</body>
+</html>
+
+<!-- Timestamp: {ts '2014-09-27 12:55:37'} -->
+<!-- Last updated: {ts '2014-09-27 08:07:54'} -->
+<!-- Last updated: {ts '2014-09-27 08:07:54'} (page,content,category_tree,content_category) -->
+<!-- Page cached: Yes -->
+<!-- Async update: No -->

@@ -1,0 +1,162 @@
+
+<html lang="en"><head>
+        <title>Tweetsta</title>
+<meta content="authenticity_token" name="csrf-param" />
+<meta name="description" content="Buy and Sell tweets at the tweet marketplace.">
+<meta name="keywords" content="tweet,twitter,buy,sell,marketplace,pay4tweet,purchase, pay to tweet,promoted tweets">
+<link href='//fonts.googleapis.com/css?family=Muli:400,400italic|Roboto:700' rel='stylesheet' type='text/css'><meta charset="utf-8">
+<link rel="stylesheet" href="http://tweetsta.com/css/style.css">
+</head>
+<body>
+
+<div id="header">
+		<!-- Logo -->
+		<div id="header-content">
+			<!-- Nav Login -->
+			<div id="nav-login">
+			<form onsubmit="return form_submit(this)" >
+<input name="section" value="user" type="hidden">
+<input name="action" value="login" type="hidden">
+					      <label for="email">Email</label> <input  name="paypal" type="email" valid="email"/> <label for="password">Password</label> <input  name="password" type="password" valid="password" /> 
+					      <input type="submit" value="Log In" />
+</form>	<div style="text-align:right;">or <a href="forgot.php" class="nav-login">Forgot Password</a> | <a href="register.php" class="nav-login">Register</a></div> 
+</div><div><a href="http://tweetsta.com/"><img src="logo.png" style="height:75px;"></a></div></div>
+</div>
+<div style="background-color: #64cef1; height: 3px;">
+<!-- border -->
+</div>
+<div id="bot-nav">
+<a  href="tweetlist.php" >Tweet Market</a> 
+<a href="http://tweetsta.com/register.php" >Register</a> 
+
+<a  href="learn.php" >Learn More</a>
+</div>
+<div id="wrapper">
+<div id="content"> 
+    <!--<div id="message"><div id="message-close">x</div>After a long absense we are back! All accounts were deleted, please register again.</div>-->
+
+Welcome to Tweetsta.com, the Tweet marketplace. Tweetsta is your destination for buying and selling Tweets. Whether you are looking to promote your Twitter account or take advantage of social media advertising, this is the place for you.
+
+<br>
+<div style= "display:table;">
+		<!-- Join Now Box -->
+		<span class="big-blue">Ready to get started?</span> <a href="register.php"><img src="images/joinbutt.png"></a>
+	</div>	
+</p>
+<h2>5 Most Purchased</h2>
+<table border="0" style="text-align:center; margin:0;" cellpadding="10" cellspacing="0" width="100%">
+<thead>
+<tr>
+<th >Name</th>
+<th >Tweet</th>
+<th >ReTweet</th>
+<th>Followers</th>
+<th >Following</th>
+
+</tr>
+<tr>
+<td style="text-align:left;" class="list"><img src="https://pbs.twimg.com/profile_images/510540471454552064/48ZjrlV2_normal.jpeg" alt="" >KING ASSASSIN SHOW 
+<br> <a href="http://tweetsta.com/tweet/DjKingAssassin" title="Edit" class="" button-data="action,update,id">Purchase</a> | <a href="http://twitter.com/@DjKingAssassin" rel="nofollow" target="new">Visit twitter</a></td> 
+<td>$6.3</td>
+<td>$6.5</td>
+<td class="hidden-phone">3445163</td>
+<td class="hidden-phone">509798</td>
+</tr><tr>
+<td style="text-align:left;" class="list"><img src="https://pbs.twimg.com/profile_images/495320993083424769/Yc5h6mnA_normal.jpeg" alt="" >Wizdoms tweets 
+<br> <a href="http://tweetsta.com/tweet/WizdomsTweets" title="Edit" class="" button-data="action,update,id">Purchase</a> | <a href="http://twitter.com/@WizdomsTweets" rel="nofollow" target="new">Visit twitter</a></td> 
+<td>$10</td>
+<td>$10</td>
+<td class="hidden-phone">1128231</td>
+<td class="hidden-phone">1666</td>
+</tr><tr>
+<td style="text-align:left;" class="list"><img src="https://pbs.twimg.com/profile_images/498589889491775491/EHEtBHBr_normal.jpeg" alt="" >peaches  
+<br> <a href="http://tweetsta.com/tweet/Cum_n_mybooty" title="Edit" class="" button-data="action,update,id">Purchase</a> | <a href="http://twitter.com/@Cum_n_mybooty" rel="nofollow" target="new">Visit twitter</a></td> 
+<td>$5</td>
+<td>$5</td>
+<td class="hidden-phone">761483</td>
+<td class="hidden-phone">518973</td>
+</tr><tr>
+<td style="text-align:left;" class="list"><img src="https://pbs.twimg.com/profile_images/509272441386848258/AkZXinY3_normal.jpeg" alt="" >DJ PromoGodMother 
+<br> <a href="http://tweetsta.com/tweet/PromoGodMother" title="Edit" class="" button-data="action,update,id">Purchase</a> | <a href="http://twitter.com/@PromoGodMother" rel="nofollow" target="new">Visit twitter</a></td> 
+<td>$5</td>
+<td>$5</td>
+<td class="hidden-phone">566922</td>
+<td class="hidden-phone">41343</td>
+</tr><tr>
+<td style="text-align:left;" class="list"><img src="https://pbs.twimg.com/profile_images/511198439691272192/Rm4xCMCA_normal.jpeg" alt="" >♔ 
+<br> <a href="http://tweetsta.com/tweet/ImTooReaI" title="Edit" class="" button-data="action,update,id">Purchase</a> | <a href="http://twitter.com/@ImTooReaI" rel="nofollow" target="new">Visit twitter</a></td> 
+<td>$5</td>
+<td>$5</td>
+<td class="hidden-phone">457713</td>
+<td class="hidden-phone">221297</td>
+</tr></table><br>
+
+<h2>Staff Picks</h2>
+<table border="0" style="text-align:center; margin:0;" cellpadding="10" cellspacing="0" width="100%">
+<thead>
+<tr>
+<th >Name</th>
+<th >Tweet</th>
+<th >ReTweet</th>
+<th>Followers</th>
+<th >Following</th>
+
+</tr>
+<tr>
+<td style="text-align:left;" class="list"><img src="https://pbs.twimg.com/profile_images/510540471454552064/48ZjrlV2_normal.jpeg" alt="" >KING ASSASSIN SHOW 
+<br> <a href="http://tweetsta.com/tweet/DjKingAssassin" title="Edit" class="" button-data="action,update,id">Purchase</a> | <a href="http://twitter.com/@DjKingAssassin" rel="nofollow" target="new">Visit twitter</a></td> 
+<td>$6.3</td>
+<td>$6.5</td>
+<td class="hidden-phone">3445163</td>
+<td class="hidden-phone">509798</td>
+</tr><tr>
+<td style="text-align:left;" class="list"><img src="https://pbs.twimg.com/profile_images/495320993083424769/Yc5h6mnA_normal.jpeg" alt="" >Wizdoms tweets 
+<br> <a href="http://tweetsta.com/tweet/WizdomsTweets" title="Edit" class="" button-data="action,update,id">Purchase</a> | <a href="http://twitter.com/@WizdomsTweets" rel="nofollow" target="new">Visit twitter</a></td> 
+<td>$10</td>
+<td>$10</td>
+<td class="hidden-phone">1128231</td>
+<td class="hidden-phone">1666</td>
+</tr><tr>
+<td style="text-align:left;" class="list"><img src="https://pbs.twimg.com/profile_images/498589889491775491/EHEtBHBr_normal.jpeg" alt="" >peaches  
+<br> <a href="http://tweetsta.com/tweet/Cum_n_mybooty" title="Edit" class="" button-data="action,update,id">Purchase</a> | <a href="http://twitter.com/@Cum_n_mybooty" rel="nofollow" target="new">Visit twitter</a></td> 
+<td>$5</td>
+<td>$5</td>
+<td class="hidden-phone">761483</td>
+<td class="hidden-phone">518973</td>
+</tr><tr>
+<td style="text-align:left;" class="list"><img src="https://pbs.twimg.com/profile_images/509272441386848258/AkZXinY3_normal.jpeg" alt="" >DJ PromoGodMother 
+<br> <a href="http://tweetsta.com/tweet/PromoGodMother" title="Edit" class="" button-data="action,update,id">Purchase</a> | <a href="http://twitter.com/@PromoGodMother" rel="nofollow" target="new">Visit twitter</a></td> 
+<td>$5</td>
+<td>$5</td>
+<td class="hidden-phone">566922</td>
+<td class="hidden-phone">41343</td>
+</tr><tr>
+<td style="text-align:left;" class="list"><img src="https://pbs.twimg.com/profile_images/511198439691272192/Rm4xCMCA_normal.jpeg" alt="" >♔ 
+<br> <a href="http://tweetsta.com/tweet/ImTooReaI" title="Edit" class="" button-data="action,update,id">Purchase</a> | <a href="http://twitter.com/@ImTooReaI" rel="nofollow" target="new">Visit twitter</a></td> 
+<td>$5</td>
+<td>$5</td>
+<td class="hidden-phone">457713</td>
+<td class="hidden-phone">221297</td>
+</tr></table>
+<span style="font-size:10px;">Periodically we purchase tweets from our publishers. These are accounts we had a good experience with and would recommend purchasing a tweet from. </span>
+<br><br>
+
+
+</div>
+<div id="footer"><div style="float:left;">Copyright 2014 http://tweetsta.com/</div> 
+<span style="word-spacing: 5px;">
+<a href="tweetlist.php">Buy</a>
+<a href="terms.php">Terms</a>  
+<a href="rules.php">Rules</a> 
+<a href="privacy.php">Privacy</a> 
+<a href="contact.php">Contact</a></span></div>
+</div>
+<noscript>
+  <h1>Please Enable Javascript in Browser...........</h1> 
+  <style> div{ display:none; }</style>
+</noscript>
+<script>var BASEURL='http://tweetsta.com/';</script>
+<script src="http://tweetsta.com/js/jquery.min.js"></script>
+<script src="http://tweetsta.com/js/jquery.cookie.js"></script>
+<script src="http://tweetsta.com/js/defaultscript.js"></script>
+</html>

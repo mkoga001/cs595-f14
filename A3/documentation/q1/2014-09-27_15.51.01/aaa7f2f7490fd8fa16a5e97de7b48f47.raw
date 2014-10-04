@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o?o:n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({QJf3ax:[function(t,n){function e(t){function n(n,e,o){t&&t(n,e,o),o||(o={});for(var a=i(n),u=a.length,c=o[r]||(o[r]={}),f=0;u>f;f++)a[f].apply(c,e);return c}function o(t,n){u[t]=i(t).concat(n)}function i(t){return u[t]||[]}function a(){return e(n)}var u={};return{on:o,emit:n,create:a,listeners:i,_events:u}}var r="nr@context";n.exports=e()},{}],ee:[function(t,n){n.exports=t("QJf3ax")},{}],D5DuLP:[function(t,n){function e(t,n,e){return r.listeners(t).length?r.emit(t,n,e):(o[t]||(o[t]=[]),void o[t].push(n))}var r=t("ee").create(),o={};n.exports=e,e.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,n){function e(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var n=c.createElement("script");n.src=l.proto+t.agent,c.body.appendChild(n)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=n.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",e,!1)):(c[s]("onreadystatechange",r),u[s]("onload",e)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	
+
+	
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.5.4.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Jacob Whitesides - Official Home of Jacob Whitesides</title>
+<meta name="description" content="Humble, Gracious, and Genuine are just a few of the words you will hear fans use to describe Youtube sensation, Jacob Whitesides."/>
+<meta name="keywords" content="whitesides,"/>
+<link rel="canonical" href="http://jacobwhitesides.com/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Jacob Whitesides - Official Home of Jacob Whitesides" />
+<meta property="og:description" content="Humble, Gracious, and Genuine are just a few of the words you will hear fans use to describe Youtube sensation, Jacob Whitesides." />
+<meta property="og:url" content="http://jacobwhitesides.com/" />
+<meta property="og:site_name" content="Jacob Whitesides" />
+<meta property="og:image" content="http://jacobwhitesides.com/wp-content/uploads/2014/07/slide-teen-vogue.jpg" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Jacob Whitesides &raquo; Feed" href="http://jacobwhitesides.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Jacob Whitesides &raquo; Comments Feed" href="http://jacobwhitesides.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Jacob Whitesides &raquo; Home Comments Feed" href="http://jacobwhitesides.com/home/feed/" />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://jacobwhitesides.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fts_youtube_css-css'  href='http://jacobwhitesides.com/wp-content/plugins/feed-them-premium/feeds/youtube/css/styles.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fts_pinterest_css-css'  href='http://jacobwhitesides.com/wp-content/plugins/feed-them-premium/feeds/pinterest/css/styles.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fts_fb_css-css'  href='http://jacobwhitesides.com/wp-content/plugins/feed-them-social/feeds/facebook/css/styles.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fts-font-aweseom-min-css'  href='http://jacobwhitesides.com/wp-content/plugins/feed-them-social/feeds/css/font-awesome.min.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fts_twitter_css-css'  href='http://jacobwhitesides.com/wp-content/plugins/feed-them-social/feeds/twitter/css/styles.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fts_instagram_css-css'  href='http://jacobwhitesides.com/wp-content/plugins/feed-them-social/feeds/instagram/css/styles.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='vkp_enqueue_font-css'  href='http://jacobwhitesides.com/wp-content/themes/jacobwhitesides/css/font-awesome.min.css?ver=4.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://jacobwhitesides.com/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='promenade-fonts-css'  href='//fonts.googleapis.com/css?family=Lora%3A400%2C400italic%2C700%7CRaleway%3A400%2C600%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='promenade-style-css'  href='http://jacobwhitesides.com/wp-content/themes/jacobwhitesides/style.css?ver=1.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='cpsh-shortcodes-css'  href='http://jacobwhitesides.com/wp-content/plugins/column-shortcodes/assets/css/shortcodes.css?ver=0.6.4' type='text/css' media='all' />
+<script type='text/javascript' src='http://jacobwhitesides.com/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://jacobwhitesides.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://jacobwhitesides.com/wp-content/plugins/feed-them-social/feeds/instagram/js/date-format.js?ver=4.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://jacobwhitesides.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://jacobwhitesides.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.0" />
+<link rel='shortlink' href='http://jacobwhitesides.com/' />
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7870337-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<link rel="shortcut icon" href="http://jacobwhitesides.candacejoseph.com/wp-content/uploads/2014/07/favicon.png" >
+<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://jacobwhitesides.com/xmlrpc.php">
+<script>document.documentElement.className = document.documentElement.className.replace('no-js','js');</script>
+</head>
+
+<body class="home page page-id-11 page-template page-template-templateshome-php custom-background front-page layout-full" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+	<div id="page" class="hfeed site">
+
+		<header id="masthead" class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+			<h1 class="site-title has-image"><a href="http://jacobwhitesides.com/" rel="home"><img src="http://jacobwhitesides.com/wp-content/uploads/2014/07/logo.png" alt="Jacob Whitesides"></a></h1>
+			<nav class="site-navigation clearfix" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+				<h1 class="site-navigation-toggle">Menu</h1>
+				<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+				<ul id="menu-primary-menu" class="menu"><li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page first-item menu-item-33 menu-item-about"><a href="http://jacobwhitesides.com/about/">About</a></li>
+<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32 menu-item-music"><a href="http://jacobwhitesides.com/music/">Music</a></li>
+<li id="menu-item-210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-210 menu-item-videos"><a href="http://jacobwhitesides.com/youtube-videos/">Videos</a></li>
+<li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-audiotheme_archive menu-item-106 menu-item-events"><a href="http://jacobwhitesides.com/events/">Events</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-29 menu-item-photos"><a href="http://jacobwhitesides.com/photos/">Photos</a>
+<ul class="sub-menu">
+	<li id="menu-item-562" class="menu-item menu-item-type-custom menu-item-object-custom first-child-item last-child-item menu-item-562 menu-item-meet-n-greet-photos"><a href="https://www.flickr.com/photos/127287717@N07/">Meet N&#8217; Greet Photos</a></li>
+</ul>
+</li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28 menu-item-news"><a href="http://jacobwhitesides.com/news/">News</a></li>
+<li id="menu-item-258" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-258 menu-item-store"><a target="_blank" href="http://jacobwhitesides.econgroupinc.net">Store</a></li>
+<li id="menu-item-263" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children last-item menu-item-263 menu-item-connect"><a href="/contact-jacob">Connect</a>
+<ul class="sub-menu">
+	<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page first-child-item menu-item-27 menu-item-contact-jacob"><a href="http://jacobwhitesides.com/contact-jacob/">Contact Jacob</a></li>
+	<li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-267 menu-item-whitesiders"><a href="http://jacobwhitesides.com/whitesiders/">Whitesiders</a></li>
+	<li id="menu-item-146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146 menu-item-book-jacob"><a href="http://jacobwhitesides.com/book-jacob/">Book Jacob</a></li>
+	<li id="menu-item-275" class="menu-item menu-item-type-post_type menu-item-object-page last-child-item menu-item-275 menu-item-resources"><a href="http://jacobwhitesides.com/resources/">Resources</a></li>
+</ul>
+</li>
+</ul>			</nav>
+		</header>
+
+		<div id="content" class="site-content">
+			
+				
+						<figure class="hero-image">
+			<a href="http://www.teenvogue.com/entertainment/music/2014-08/jacob-whitesides-youre-perfect-music-video-debut" target="_blank"><img width="1600" height="540" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="http://jacobwhitesides.com/wp-content/uploads/2014/07/slide-teen-vogue.jpg" class="lazy lazy-hidden attachment-full wp-post-image" alt="slide-teen-vogue" /><noscript><img width="1600" height="540" src="http://jacobwhitesides.com/wp-content/uploads/2014/07/slide-teen-vogue.jpg" class="attachment-full wp-post-image" alt="slide-teen-vogue" /></noscript></a>		</figure>
+	
+				
+
+<div class="promenade-player">
+	<div class="promenade-player-inside">
+		<audio src="http://jacobwhitesides.com/wp-content/uploads/2014/07/Youre-Perfect-30-sec.mp3" controls width="100%" height=""></audio>
+
+		<div class="promenade-player-playlist-toggle">
+			<button type="button" title="Playlist" aria-label="Playlist"></button>		</div>
+	</div>
+
+	<div class="promenade-player-playlist">
+		<ol class="promenade-player-playlist-tracks atmep-tracks">
+
+			
+				<li class="atmep-track" itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+					<div class="page-fence">
+						<span class="atmep-track-details atmep-track-cell">
+							<span class="atmep-track-title" itemprop="name">You&#039;re Perfect</span>
+							<span class="atmep-track-artist" itemprop="byArtist">Jacob Whitesides</span>
+						</span>
+
+						<span class="atmep-track-length atmep-track-cell">0:30</span>
+					</div>
+				</li>
+
+			
+				<li class="atmep-track" itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+					<div class="page-fence">
+						<span class="atmep-track-details atmep-track-cell">
+							<span class="atmep-track-title" itemprop="name">All of Me</span>
+							<span class="atmep-track-artist" itemprop="byArtist">Jacob Whitesides</span>
+						</span>
+
+						<span class="atmep-track-length atmep-track-cell">0:34</span>
+					</div>
+				</li>
+
+			
+				<li class="atmep-track" itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+					<div class="page-fence">
+						<span class="atmep-track-details atmep-track-cell">
+							<span class="atmep-track-title" itemprop="name">Hey There Delilah</span>
+							<span class="atmep-track-artist" itemprop="byArtist">Jacob Whitesides</span>
+						</span>
+
+						<span class="atmep-track-length atmep-track-cell">0:32</span>
+					</div>
+				</li>
+
+			
+				<li class="atmep-track" itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+					<div class="page-fence">
+						<span class="atmep-track-details atmep-track-cell">
+							<span class="atmep-track-title" itemprop="name">Stay With Me</span>
+							<span class="atmep-track-artist" itemprop="byArtist">Jacob Whitesides</span>
+						</span>
+
+						<span class="atmep-track-length atmep-track-cell">0:31</span>
+					</div>
+				</li>
+
+			
+				<li class="atmep-track" itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+					<div class="page-fence">
+						<span class="atmep-track-details atmep-track-cell">
+							<span class="atmep-track-title" itemprop="name">This</span>
+							<span class="atmep-track-artist" itemprop="byArtist">Jacob Whitesides</span>
+						</span>
+
+						<span class="atmep-track-length atmep-track-cell">0:33</span>
+					</div>
+				</li>
+
+			
+				<li class="atmep-track" itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+					<div class="page-fence">
+						<span class="atmep-track-details atmep-track-cell">
+							<span class="atmep-track-title" itemprop="name">Your Body is a Wonderland</span>
+							<span class="atmep-track-artist" itemprop="byArtist">Jacob Whitesides</span>
+						</span>
+
+						<span class="atmep-track-length atmep-track-cell">0:32</span>
+					</div>
+				</li>
+
+			
+		</ol>
+
+		<script type="application/json">{"tracks":[{"title":"You're Perfect","artist":"Jacob Whitesides","audioId":"453","audioUrl":"http:\/\/jacobwhitesides.com\/wp-content\/uploads\/2014\/07\/Youre-Perfect-30-sec.mp3","format":"mp3","length":"0:30","artworkId":"","artworkUrl":"","order":"0","mp3":"http:\/\/jacobwhitesides.com\/wp-content\/uploads\/2014\/07\/Youre-Perfect-30-sec.mp3","meta":{"artist":"Jacob Whitesides","length_formatted":"0:30"},"src":"http:\/\/jacobwhitesides.com\/wp-content\/uploads\/2014\/07\/Youre-Perfect-30-sec.mp3"},{"title":"All of Me","artist":"Jacob Whitesides","audioId":"349","audioUrl":"http:\/\/jacobwhitesides.com\/wp-content\/uploads\/2014\/07\/All-of-Me.mp3","format":"mp3","length":"0:34","artworkId":"","artworkUrl":"","order":"1","mp3":"http:\/\/jacobwhitesides.com\/wp-content\/uploads\/2014\/07\/All-of-Me.mp3","meta":{"artist":"Jacob Whitesides","length_formatted":"0:34"},"src":"http:\/\/jacobwhitesides.com\/wp-content\/uploads\/2014\/07\/All-of-Me.mp3"},{"title":"Hey There Delilah","artist":"Jacob Whitesides","audioId":"350","audioUrl":"http:\/\/jacobwhitesides.com\/wp-content\/uploads\/2014\/07\/Hey-There-Delilah.mp3","format":"mp3","length":"0:32","artworkId":"","artworkUrl":"","order":"2","mp3":"http:\/\/jacobwhitesides.com\/wp-content\/uploads\/2014\/07\/Hey-There-Delilah.mp3","meta":{"artist":"Jacob Whitesides","length_formatted":"0:32"},"src":"http:\/\/jacobwhitesides.com\/wp-content\/uploads\/2014\/07\/Hey-There-Delilah.mp3"},{"title":"Stay With Me","artist":"Jacob Whitesides","audioId":"351","audioUrl":"http:\/\/jacobwhitesides.com\/wp-content\/uploads\/2014\/07\/Stay-With-Me.mp3","format":"mp3","length":"0:31","artworkId":"","artworkUrl":"","order":"3","mp3":"http:\/\/jacobwhitesides.com\/wp-content\/uploads\/2014\/07\/Stay-With-Me.mp3","meta":{"artist":"Jacob Whitesides","length_formatted":"0:31"},"src":"http:\/\/jacobwhitesides.com\/wp-content\/uploads\/2014\/07\/Stay-With-Me.mp3"},{"title":"This","artist":"Jacob Whitesides","audioId":"352","audioUrl":"http:\/\/jacobwhitesides.com\/wp-content\/uploads\/2014\/07\/This-.mp3","format":"mp3","length":"0:33","artworkId":"","artworkUrl":"","order":"4","mp3":"http:\/\/jacobwhitesides.com\/wp-content\/uploads\/2014\/07\/This-.mp3","meta":{"artist":"Jacob Whitesides","length_formatted":"0:33"},"src":"http:\/\/jacobwhitesides.com\/wp-content\/uploads\/2014\/07\/This-.mp3"},{"title":"Your Body is a Wonderland","artist":"Jacob Whitesides","audioId":"353","audioUrl":"http:\/\/jacobwhitesides.com\/wp-content\/uploads\/2014\/07\/Your-Body-is-a-Wonderland.mp3","format":"mp3","length":"0:32","artworkId":"","artworkUrl":"","order":"5","mp3":"http:\/\/jacobwhitesides.com\/wp-content\/uploads\/2014\/07\/Your-Body-is-a-Wonderland.mp3","meta":{"artist":"Jacob Whitesides","length_formatted":"0:32"},"src":"http:\/\/jacobwhitesides.com\/wp-content\/uploads\/2014\/07\/Your-Body-is-a-Wonderland.mp3"}]}</script>
+	</div>
+</div>
+
+			
+			
+			<div class="site-content-inside">
+				<div class="page-fence">
+
+<main id="primary" class="content-area" role="main" itemprop="mainContentOfPage">
+
+	
+		
+<article id="post-11" class="post-11 page type-page status-publish has-post-thumbnail hentry" role="article" itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
+	<header class="entry-header">
+		<div class="page-fence">
+			<h1 class="entry-title" itemprop="headline">Home</h1>		</div>
+	</header>
+
+	<div class="entry-content" itemprop="text">
+		<h2>Humble, Gracious, and Genuine are just a few of the words you will hear fans use to describe Youtube sensation, <a href="/about">Jacob Whitesides</a>.</h2>
+<div class="ytcshort youtubechannelgallery ytccf"><ul class="ytchagallery ytccf ytc-table ytc-td-top ytc-columns3 ytc-thumb16x9">
+
+<div class="ytccf ytc-row ytc-r-1 ytc-r-odd ">
+
+
+
+	<li class="ytccell-1 ytccell-first"><div class="ytcliinner"><div class="ytcthumb-cont"><a class="ytcthumb ytclink" target="_blank" href="https://www.youtube.com/watch?v=2Cwj8p57kXI" data-playerid="ytcplayer1" data-quality="default" title=""You're Perfect"-Official Music Video by Jacob Whitesides" style="background-image:url(http://i.ytimg.com/vi/2Cwj8p57kXI/mqdefault.jpg)" ><div class="ytcplay"></div></a></div><div class="ytctitledesc-cont"><h5 class="ytctitle"><a class="ytclink" href="https://www.youtube.com/watch?v=2Cwj8p57kXI" data-playerid="ytcplayer1" data-quality="default" alt=""You're Perfect"-Official Music Video by Jacob Whitesides" title=""You're Perfect"-Official Music Video by Jacob Whitesides" >"You're Perfect"-Official Music Video by Jacob Whitesides</a></h5></div></div></li>
+
+
+
+	<li class="ytccell-2"><div class="ytcliinner"><div class="ytcthumb-cont"><a class="ytcthumb ytclink" target="_blank" href="https://www.youtube.com/watch?v=AIr8C3Fy3Zk" data-playerid="ytcplayer1" data-quality="default" title="MY FIRST TOUR - Jacob Whitesides at OMG Music Fest" style="background-image:url(http://i.ytimg.com/vi/AIr8C3Fy3Zk/mqdefault.jpg)" ><div class="ytcplay"></div></a></div><div class="ytctitledesc-cont"><h5 class="ytctitle"><a class="ytclink" href="https://www.youtube.com/watch?v=AIr8C3Fy3Zk" data-playerid="ytcplayer1" data-quality="default" alt="MY FIRST TOUR - Jacob Whitesides at OMG Music Fest" title="MY FIRST TOUR - Jacob Whitesides at OMG Music Fest" >MY FIRST TOUR - Jacob Whitesides at OMG Music Fest</a></h5></div></div></li>
+
+
+
+	<li class="ytccell-3 ytccell-last"><div class="ytcliinner"><div class="ytcthumb-cont"><a class="ytcthumb ytclink" target="_blank" href="https://www.youtube.com/watch?v=oQJvOK44NZM" data-playerid="ytcplayer1" data-quality="default" title="One Direction- "You and I" Official Music Video Cover by Jacob Whitesides" style="background-image:url(http://i.ytimg.com/vi/oQJvOK44NZM/mqdefault.jpg)" ><div class="ytcplay"></div></a></div><div class="ytctitledesc-cont"><h5 class="ytctitle"><a class="ytclink" href="https://www.youtube.com/watch?v=oQJvOK44NZM" data-playerid="ytcplayer1" data-quality="default" alt="One Direction- "You and I" Official Music Video Cover by Jacob Whitesides" title="One Direction- "You and I" Official Music Video Cover by Jacob Whitesides" >One Direction- "You and I" Official Music Video Cover by Jacob Whitesides</a></h5></div></div></li>
+
+</div>
+
+
+</ul></div>
+<hr />
+
+			</div>
+
+	</article>
+
+	
+</main>
+
+
+	<div class="widget-area widget-area--home">
+		
+		<section id="audiotheme-upcoming-gigs-2" class="widget widget_audiotheme_upcoming_gigs widget-1 widget-last widget-items-5"><h2 class="widget-title">Upcoming Events</h2>
+	
+		
+<dl class="gig-card vevent" itemscope itemtype="http://schema.org/MusicEvent">
+	
+		<dt>
+			<span class="gig-title"><span class="locality">Phoenix</span><span class="sep sep-region">,</span> <span class="region">AZ</span><span class="sep sep-country-name country-name-united-states">,</span> <span class="country-name country-name-united-states">United States</span></span>
+
+			<a href="http://jacobwhitesides.com/events/phoenix-az/" class="gig-permalink" title="View Details">+</a>
+		</dt>
+
+	
+	<dd class="date">
+		<meta content="2014-09-27T13:30:00-07:00" itemprop="startDate">
+		<time class="dtstart" datetime="2014-09-27T13:30:00-07:00">
+			<span class="month">Sep</span>
+			<span class="day">27</span>
+		</time>
+	</dd>
+
+	
+		<dd class="location vcard" itemprop="location" itemscope itemtype="http://schema.org/EventVenue">
+			<a href="http://www.thepressroomaz.com" class="url" itemprop="url"><span class="venue-name fn org" itemprop="name">The Pressroom</span></a><div class="venue-address adr" itemscope itemtype="http://schema.org/PostalAddress" itemprop="address"><span class="street-address" itemprop="streetAddress">441 W. Madison St.</span><span class="sep sep-street-address"><br></span><span class="venue-location"><span class="locality" itemprop="addressLocality">Phoenix</span>, <span class="region" itempprop="addressRegion">AZ</span> <span class="postal-code" itemprop="postalCode">85003</span></span><span class="sep sep-country-name country-name-united-states"><br></span> <span class="country-name country-name-united-states" itemprop="addressCountry">United States</span></div> 		</dd>
+
+	</dl>
+
+	
+		
+<dl class="gig-card vevent" itemscope itemtype="http://schema.org/MusicEvent">
+	
+		<dt>
+			<span class="gig-title"><span class="locality">Waukesha</span><span class="sep sep-region">,</span> <span class="region">WI</span><span class="sep sep-country-name country-name-united-states">,</span> <span class="country-name country-name-united-states">United States</span></span>
+
+			<a href="http://jacobwhitesides.com/events/think-life-music-event/" class="gig-permalink" title="View Details">+</a>
+		</dt>
+
+	
+	<dd class="date">
+		<meta content="2014-09-28T16:00:00-05:00" itemprop="startDate">
+		<time class="dtstart" datetime="2014-09-28T16:00:00-05:00">
+			<span class="month">Sep</span>
+			<span class="day">28</span>
+		</time>
+	</dd>
+
+	
+		<dd class="location vcard" itemprop="location" itemscope itemtype="http://schema.org/EventVenue">
+			<a href="http://thinkthroughyourlife.org/think-through-your-life-event-info-wi.html" class="url" itemprop="url"><span class="venue-name fn org" itemprop="name">Waukesha County Expo Center</span></a><div class="venue-address adr" itemscope itemtype="http://schema.org/PostalAddress" itemprop="address"><span class="street-address" itemprop="streetAddress">1000 Northview Road</span><span class="sep sep-street-address"><br></span><span class="venue-location"><span class="locality" itemprop="addressLocality">Waukesha</span>, <span class="region" itempprop="addressRegion">WI</span> <span class="postal-code" itemprop="postalCode">53188</span></span><span class="sep sep-country-name country-name-united-states"><br></span> <span class="country-name country-name-united-states" itemprop="addressCountry">United States</span></div> 		</dd>
+
+	</dl>
+
+	
+		
+<dl class="gig-card vevent" itemscope itemtype="http://schema.org/MusicEvent">
+	
+		<dt>
+			<span class="gig-title"><span class="locality">San Diego</span><span class="sep sep-region">,</span> <span class="region">CA</span><span class="sep sep-country-name country-name-united-states">,</span> <span class="country-name country-name-united-states">United States</span></span>
+
+			<a href="http://jacobwhitesides.com/events/san-diego-ca/" class="gig-permalink" title="View Details">+</a>
+		</dt>
+
+	
+	<dd class="date">
+		<meta content="2014-10-01T19:00:00-05:00" itemprop="startDate">
+		<time class="dtstart" datetime="2014-10-01T19:00:00-05:00">
+			<span class="month">Oct</span>
+			<span class="day">01</span>
+		</time>
+	</dd>
+
+	
+		<dd class="location vcard" itemprop="location" itemscope itemtype="http://schema.org/EventVenue">
+			<a href="http://www.houseofblues.com/sandiego/" class="url" itemprop="url"><span class="venue-name fn org" itemprop="name">House of Blues VooDoo Room</span></a><div class="venue-address adr" itemscope itemtype="http://schema.org/PostalAddress" itemprop="address"><span class="street-address" itemprop="streetAddress">1055 5th Ave</span><span class="sep sep-street-address"><br></span><span class="venue-location"><span class="locality" itemprop="addressLocality">San Diego</span>, <span class="region" itempprop="addressRegion">CA</span> <span class="postal-code" itemprop="postalCode">92101</span></span><span class="sep sep-country-name country-name-united-states"><br></span> <span class="country-name country-name-united-states" itemprop="addressCountry">United States</span></div> <span class="venue-phone tel" itemprop="telephone">(619) 299-2583</span>		</dd>
+
+	</dl>
+
+	
+		
+<dl class="gig-card vevent" itemscope itemtype="http://schema.org/MusicEvent">
+	
+		<dt>
+			<span class="gig-title"><span class="locality">Pomona</span><span class="sep sep-region">,</span> <span class="region">CA</span><span class="sep sep-country-name country-name-united-states">,</span> <span class="country-name country-name-united-states">United States</span></span>
+
+			<a href="http://jacobwhitesides.com/events/pomona-ca/" class="gig-permalink" title="View Details">+</a>
+		</dt>
+
+	
+	<dd class="date">
+		<meta content="2014-10-02T19:00:00-07:00" itemprop="startDate">
+		<time class="dtstart" datetime="2014-10-02T19:00:00-07:00">
+			<span class="month">Oct</span>
+			<span class="day">02</span>
+		</time>
+	</dd>
+
+	
+		<dd class="location vcard" itemprop="location" itemscope itemtype="http://schema.org/EventVenue">
+			<a href="http://www.theglasshouse.us" class="url" itemprop="url"><span class="venue-name fn org" itemprop="name">Glass House</span></a><div class="venue-address adr" itemscope itemtype="http://schema.org/PostalAddress" itemprop="address"><span class="street-address" itemprop="streetAddress">200 W 2nd St</span><span class="sep sep-street-address"><br></span><span class="venue-location"><span class="locality" itemprop="addressLocality">Pomona</span>, <span class="region" itempprop="addressRegion">CA</span> <span class="postal-code" itemprop="postalCode">91766</span></span><span class="sep sep-country-name country-name-united-states"><br></span> <span class="country-name country-name-united-states" itemprop="addressCountry">United States</span></div> <span class="venue-phone tel" itemprop="telephone">(408) 606-8148</span>		</dd>
+
+	</dl>
+
+	
+		
+<dl class="gig-card vevent" itemscope itemtype="http://schema.org/MusicEvent">
+	
+		<dt>
+			<span class="gig-title"><span class="locality">Los Angeles</span><span class="sep sep-region">,</span> <span class="region">CA</span><span class="sep sep-country-name country-name-united-states">,</span> <span class="country-name country-name-united-states">United States</span></span>
+
+			<a href="http://jacobwhitesides.com/events/los-angeles-ca/" class="gig-permalink" title="View Details">+</a>
+		</dt>
+
+	
+	<dd class="date">
+		<meta content="2014-10-04T13:30:00-07:00" itemprop="startDate">
+		<time class="dtstart" datetime="2014-10-04T13:30:00-07:00">
+			<span class="month">Oct</span>
+			<span class="day">04</span>
+		</time>
+	</dd>
+
+	
+		<dd class="location vcard" itemprop="location" itemscope itemtype="http://schema.org/EventVenue">
+			<a href="http://themintla.com" class="url" itemprop="url"><span class="venue-name fn org" itemprop="name">The Mint</span></a><div class="venue-address adr" itemscope itemtype="http://schema.org/PostalAddress" itemprop="address"><span class="street-address" itemprop="streetAddress">6010 W Pico Blvd</span><span class="sep sep-street-address"><br></span><span class="venue-location"><span class="locality" itemprop="addressLocality">Los Angeles</span>, <span class="region" itempprop="addressRegion">CA</span> <span class="postal-code" itemprop="postalCode">90035</span></span><span class="sep sep-country-name country-name-united-states"><br></span> <span class="country-name country-name-united-states" itemprop="addressCountry">United States</span></div> <span class="venue-phone tel" itemprop="telephone">(323) 954-9400</span>		</dd>
+
+	</dl>
+
+	
+	<footer>
+		<a class="more-link upcoming-gigs-archive-link" href="http://jacobwhitesides.com/events/">View All Events <i class="icon"></i></a>	</footer>
+
+</section>
+			</div>
+
+
+				</div><!-- .page-fence -->
+			</div><!-- .site-content-inside -->
+		</div><!-- #content -->
+
+		<footer id="footer" class="site-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+			
+				<div class="footer-widgets">
+					<div class="page-fence">
+						<div class="widgets-area widget-area--footer block-grid block-grid-3">
+							
+							<div id="twitter_fts-2" class="widget TwitterFTS block-grid-item widget-1"><h4 class="widget-title">From Twitter</h4><div>Twitter may temporarily be down but should be back shortly!</div></div><div id="instagram_fts-3" class="widget InstagramFTS block-grid-item widget-2"><h4 class="widget-title">From Instagram</h4>
+<div class="fts-instagram">
+<div class='instagram-placeholder'><a class='fts-backg' target='_blank' href='http://instagram.com/p/ta7v4lTUY-/'></a>
+  <div class='date'>September 26, 2014</div>
+  <a class='instaG-backg-link' target='_blank' href='http://instagram.com/p/ta7v4lTUY-/'>
+    <div class='instagram-image' style='background:rgba(204, 204, 204, 0.8) url(http://scontent-a.cdninstagram.com/hphotos-xaf1/t51.2885-15/10691635_968902296538559_1504847117_s.jpg)'></div>
+    <div class='instaG-photoshadow'></div>
+  </a>
+  <ul class='heart-comments-wrap'>
+    <li class='instagram-image-likes'>73334</li>
+    <li class='instagram-image-comments'>794</li>
+  </ul>
+</div>
+<div class='instagram-placeholder'><a class='fts-backg' target='_blank' href='http://instagram.com/p/tVR5bzTUTQ/'></a>
+  <div class='date'>September 24, 2014</div>
+  <a class='instaG-backg-link' target='_blank' href='http://instagram.com/p/tVR5bzTUTQ/'>
+    <div class='instagram-image' style='background:rgba(204, 204, 204, 0.8) url(http://scontent-b.cdninstagram.com/hphotos-xaf1/t51.2885-15/10683802_535370569898241_721246160_s.jpg)'></div>
+    <div class='instaG-photoshadow'></div>
+  </a>
+  <ul class='heart-comments-wrap'>
+    <li class='instagram-image-likes'>72753</li>
+    <li class='instagram-image-comments'>1215</li>
+  </ul>
+</div>
+<div class='instagram-placeholder'><a class='fts-backg' target='_blank' href='http://instagram.com/p/tTPBq0zUXb/'></a>
+  <div class='date'>September 23, 2014</div>
+  <a class='instaG-backg-link' target='_blank' href='http://instagram.com/p/tTPBq0zUXb/'>
+    <div class='instagram-image' style='background:rgba(204, 204, 204, 0.8) url(http://scontent-a.cdninstagram.com/hphotos-xfa1/t51.2885-15/10666157_727362447300403_317500915_s.jpg)'></div>
+    <div class='instaG-photoshadow'></div>
+  </a>
+  <ul class='heart-comments-wrap'>
+    <li class='instagram-image-likes'>74788</li>
+    <li class='instagram-image-comments'>713</li>
+  </ul>
+</div>
+<div class='instagram-placeholder'><a class='fts-backg' target='_blank' href='http://instagram.com/p/tSS6ZozUdh/'></a>
+  <div class='date'>September 23, 2014</div>
+  <a class='instaG-backg-link' target='_blank' href='http://instagram.com/p/tSS6ZozUdh/'>
+    <div class='instagram-image' style='background:rgba(204, 204, 204, 0.8) url(http://scontent-a.cdninstagram.com/hphotos-xfa1/t51.2885-15/10693811_324717181033404_2048537736_s.jpg)'></div>
+    <div class='instaG-photoshadow'></div>
+  </a>
+  <ul class='heart-comments-wrap'>
+    <li class='instagram-image-likes'>65691</li>
+    <li class='instagram-image-comments'>2546</li>
+  </ul>
+</div>
+<div class='instagram-placeholder'><a class='fts-backg' target='_blank' href='http://instagram.com/p/tRh_eEzUVE/'></a>
+  <div class='date'>September 23, 2014</div>
+  <a class='instaG-backg-link' target='_blank' href='http://instagram.com/p/tRh_eEzUVE/'>
+    <div class='instagram-image' style='background:rgba(204, 204, 204, 0.8) url(http://scontent-b.cdninstagram.com/hphotos-xfa1/t51.2885-15/10643837_291545524365988_190386653_s.jpg)'></div>
+    <div class='instaG-photoshadow'></div>
+  </a>
+  <ul class='heart-comments-wrap'>
+    <li class='instagram-image-likes'>48570</li>
+    <li class='instagram-image-comments'>1493</li>
+  </ul>
+</div>
+<div class='instagram-placeholder'><a class='fts-backg' target='_blank' href='http://instagram.com/p/tRRS_UTUe5/'></a>
+  <div class='date'>September 23, 2014</div>
+  <a class='instaG-backg-link' target='_blank' href='http://instagram.com/p/tRRS_UTUe5/'>
+    <div class='instagram-image' style='background:rgba(204, 204, 204, 0.8) url(http://scontent-a.cdninstagram.com/hphotos-xfa1/t51.2885-15/10707020_856682057684879_1789475405_s.jpg)'></div>
+    <div class='instaG-photoshadow'></div>
+  </a>
+  <ul class='heart-comments-wrap'>
+    <li class='instagram-image-likes'>64045</li>
+    <li class='instagram-image-comments'>1451</li>
+  </ul>
+</div>
+<div class='instagram-placeholder'><a class='fts-backg' target='_blank' href='http://instagram.com/p/tPK-TrzUaS/'></a>
+  <div class='date'>September 22, 2014</div>
+  <a class='instaG-backg-link' target='_blank' href='http://instagram.com/p/tPK-TrzUaS/'>
+    <div class='instagram-image' style='background:rgba(204, 204, 204, 0.8) url(http://scontent-a.cdninstagram.com/hphotos-xpf1/t51.2885-15/10354519_1477957909156644_400725496_s.jpg)'></div>
+    <div class='instaG-photoshadow'></div>
+  </a>
+  <ul class='heart-comments-wrap'>
+    <li class='instagram-image-likes'>59701</li>
+    <li class='instagram-image-comments'>2094</li>
+  </ul>
+</div>
+<div class='instagram-placeholder'><a class='fts-backg' target='_blank' href='http://instagram.com/p/tOVnOezUcf/'></a>
+  <div class='date'>September 21, 2014</div>
+  <a class='instaG-backg-link' target='_blank' href='http://instagram.com/p/tOVnOezUcf/'>
+    <div class='instagram-image' style='background:rgba(204, 204, 204, 0.8) url(http://scontent-b.cdninstagram.com/hphotos-xaf1/t51.2885-15/10665510_873536359325715_1860953385_s.jpg)'></div>
+    <div class='instaG-photoshadow'></div>
+  </a>
+  <ul class='heart-comments-wrap'>
+    <li class='instagram-image-likes'>81033</li>
+    <li class='instagram-image-comments'>1357</li>
+  </ul>
+</div>
+<div class='instagram-placeholder'><a class='fts-backg' target='_blank' href='http://instagram.com/p/tOLQS_zUYR/'></a>
+  <div class='date'>September 21, 2014</div>
+  <a class='instaG-backg-link' target='_blank' href='http://instagram.com/p/tOLQS_zUYR/'>
+    <div class='instagram-image' style='background:rgba(204, 204, 204, 0.8) url(http://scontent-b.cdninstagram.com/hphotos-xpa1/t51.2885-15/1889161_1530886853789519_978122692_s.jpg)'></div>
+    <div class='instaG-photoshadow'></div>
+  </a>
+  <ul class='heart-comments-wrap'>
+    <li class='instagram-image-likes'>78890</li>
+    <li class='instagram-image-comments'>1204</li>
+  </ul>
+</div>
+<div class="clear"></div>
+</div>
+	
+</div><div id="recent-posts-4" class="widget widget_recent_posts block-grid-item widget-3 widget-last post-type_post show-date show-excerpts">
+<h4 class="widget-title">Recent News</h4>
+	<ul class="recent-posts-list">
+
+			<li class="recent-posts-item">
+			<h5 class="recent-posts-item-title"><a href="http://jacobwhitesides.com/2014-2015-calendar/">2014-2015 Calendar is here!</a></h5>
+			<time class="recent-posts-item-date published" datetime="2014-09-26T21:20:09+00:00" pubdate="pubdate">September 26, 2014</time>
+			<div class="recent-posts-item-excerpt"><p>Calling all Whitesiders! The 16-month Jacob Whitesides calendar is in the merch store now&#8230; The&hellip;</p>
+</div>		</li>
+			<li class="recent-posts-item">
+			<h5 class="recent-posts-item-title"><a href="http://jacobwhitesides.com/new-merch-west-coast-tour/">NEW Merch for the West Coast Tour!</a></h5>
+			<time class="recent-posts-item-date published" datetime="2014-09-20T19:30:23+00:00" pubdate="pubdate">September 20, 2014</time>
+			<div class="recent-posts-item-excerpt"><p>Jacob is so excited to start his West Coast tour that we&#8217;ve even created brand new designs for&hellip;</p>
+</div>		</li>
+	
+	</ul>
+</div>
+													</div>
+					</div>
+				</div>
+
+			
+			
+				<nav class="social-nav menu-social-container">
+					<ul id="menu-social-menu" class="menu page-fence"><li id="menu-item-67" class="menu-item menu-item-type-custom menu-item-object-custom first-item menu-item-67 menu-item-facebook"><a href="http://www.facebook.com/jacobwhitesides1">Facebook</a></li>
+<li id="menu-item-68" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-68 menu-item-twitter"><a href="http://www.twitter.com/jacobwhitesides">Twitter</a></li>
+<li id="menu-item-72" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-72 menu-item-instagram"><a href="http://instagram.com/jacobwhitesides">Instagram</a></li>
+<li id="menu-item-69" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-69 menu-item-youtube"><a href="http://youtube.com/jacobwhiteside">YouTube</a></li>
+<li id="menu-item-70" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70 menu-item-google"><a href="https://plus.google.com/103043546977218424773/posts">Google+</a></li>
+<li id="menu-item-248" class="menu-item menu-item-type-custom menu-item-object-custom last-item menu-item-248 menu-item-vine"><a href="https://vine.co/JacobWhitesides">Vine</a></li>
+</ul>				</nav>
+
+			
+			<div class="credits">
+				<div class="page-fence">
+					© Jacob Whitesides, All Rights Reserved. | <a href= "http://candacejoseph.com" target="_blank">Site Design</a>
+				</div>
+			</div>
+		</footer>
+	</div><!-- #page -->
+
+	<link rel='stylesheet' id='youtube-channel-gallery-css'  href='http://jacobwhitesides.com/wp-content/plugins/youtube-channel-gallery/styles.css?ver=4.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://jacobwhitesides.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/jacobwhitesides.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://jacobwhitesides.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.9.1'></script>
+<script type='text/javascript' src='http://jacobwhitesides.com/wp-content/themes/promenade/assets/js/plugins.js?ver=1.2.0'></script>
+<script type='text/javascript' src='http://jacobwhitesides.com/wp-content/themes/promenade/assets/js/main.js?ver=1.2.0'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201439'></script>
+<script type='text/javascript' src='http://jacobwhitesides.com/wp-content/plugins/bj-lazy-load/js/combined.min.js?ver=0.7.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://jacobwhitesides.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.15.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _atmepSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","l10n":{"nextTrack":"Next Track","previousTrack":"Previous Track"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://jacobwhitesides.com/wp-content/themes/promenade/assets/js/vendor/jquery.atmep.js?ver=1.2.0'></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-4.newrelic.com","licenseKey":"07c6de90a5","applicationID":"3797171,3796707,2076767","transactionName":"ZFxQYhBUWkVTUkQKX10Wc1UWXFtYHVlfDlU=","queueTime":0,"applicationTime":1234,"ttGuid":"","agentToken":"","atts":"SBtTFFhOSUs=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-460.min.js"}</script></body>
+</html>

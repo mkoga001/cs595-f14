@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!--
+=======================================================================
+
+    Brick Theme (theme garden) | 2013
+
+    Designed and developed by Jen Yuan
+
+    Download: http://themes.thejenyuan.com
+
+=======================================================================
+
+    Change Log:
+    
+    07/18/14    img max-width ( fix )
+    11/18/13    Credit options
+    11/12/13    Audio feature fix
+    11/11/13    Finish
+
+-->
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+
+<title>붉 은 빛</title>
+ 
+<link rel="alternate" type="application/rss+xml" href="http://gothickrystal.tumblr.com/rss">
+<link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_29ec9d03e119_128.png">
+
+<meta name="viewport" content="width=device-width,user-scalable=false">
+
+<meta name="image:Background" content=""/>
+<meta name="image:Cover" content=""/>
+<meta name="image:Cover Logo" content=""/>
+<meta name="image:Sidebar Portrait" content=""/>
+<meta name="color:Background" content="#e9f4f8"/>
+<meta name="color:Cover Overlay" content="#000000"/>
+<meta name="color:Links" content="#1762af"/>
+<meta name="color:Links Hover" content="#cccccc"/>
+<meta name="color:Navigation Bar" content="#ffffff"/>
+<meta name="color:Navigation Link divider" content="#dddddd"/>
+<meta name="color:Navigation Links" content="#555555"/>
+<meta name="color:Photo Overlay" content="#000000"/>
+<meta name="color:Photo Overlay Text" content="#ffffff"/>
+<meta name="color:Post Background" content="#ffffff">
+<meta name="color:Post Shadow" content="#cccccc"/>
+<meta name="color:Post divider" content="#dddddd"/>
+<meta name="color:Sidebar Blog Title" content="#333333"/>
+<meta name="color:Sidebar Social Links" content="#4ba4c1"/>
+<meta name="color:Sidebar Text" content="#555555"/>
+<meta name="color:Text" content="#555555"/>
+
+<meta name="if:About Box" content="1"/>
+<meta name="if:About Box Title" content="1"/>
+<meta name="if:Infinite Scrolling" content="1"/>
+<meta name="if:Photo Border" content="1"/>
+<meta name="if:Photo Captions" content="0"/>
+<meta name="if:Post Rounded" content="0"/>
+<meta name="if:Repeat Background" content="1"/>
+<meta name="if:Show Archive Link" content="1"/>
+<meta name="if:Show Random Link" content="1"/>
+<meta name="if:Show Search Bar" content="0"/>
+<meta name="if:Show Social Links" content="0"/>
+<meta name="if:Uppercase Navigation Links" content="1"/>
+<meta name="if:Uppercase Blog Title" content="1"/>
+
+<meta name="select:Font Body" content="Source Sans Pro" title="Sans Pro"/>
+<meta name="select:Font Body" content="Abel" title="Abel"/>
+<meta name="select:Font Body" content="Arial" title="Arial"/>
+<meta name="select:Font Body" content="courier new" title="Courier"/>
+<meta name="select:Font Body" content="Droid Sans" title="Droid Sans"/>
+<meta name="select:Font Body" content="helvetica" title="Helvetica"/>
+<meta name="select:Font Body" content="Karla" Title="Karla"/>
+<meta name="select:Font Body" content="Mako" title="Mako"/>
+<meta name="select:Font Body" content="Noto Sans" title="Noto Sans"/>
+<meta name="select:Font Body" content="PT Mono" title="PT Mono"/>
+<meta name="select:Font Body" content="Raleway" title="Raleway"/>
+<meta name="select:Font Body" content="Roboto Slab" title="Roboto Slab"/>
+<meta name="select:Font Body" content="Rokkitt" title="Rokkitt"/>
+<meta name="select:Font Body" content="Ropa Sans" title="Ropa Sans"/>
+<meta name="select:Font Body" content="Times New Roman" title="Times New Roman"/>
+
+<meta name="select:Font Title" content="Source Sans Pro" title="Sans Pro"/>
+<meta name="select:Font Title" content="Arial" title="Arial"/>
+<meta name="select:Font Title" content="Abel" title="Abel"/>
+<meta name="select:Font Title" content="courier new" title="Courier"/>
+<meta name="select:Font Title" content="Droid Sans" title="Droid Sans"/>
+<meta name="select:Font Title" content="helvetica" title="Helvetica"/>
+<meta name="select:Font Title" content="Karla" Title="Karla"/>
+<meta name="select:Font Title" content="Mako" title="Mako"/>
+<meta name="select:Font Title" content="Noto Sans" title="Noto Sans"/>
+<meta name="select:Font Title" content="PT Mono" title="PT Mono"/>
+<meta name="select:Font Title" content="Raleway" title="Raleway"/>
+<meta name="select:Font Title" content="Roboto Slab" title="Roboto Slab"/>
+<meta name="select:Font Title" content="Ropa Sans" title="Ropa Sans"/>
+<meta name="select:Font Title" content="Rokkitt" title="Rokkitt"/>
+<meta name="select:Font Title" content="Times New Roman" title="Times New Roman"/>
+
+<meta name="select:Post Width" content="width-small" Title="Small"/>
+<meta name="select:Post Width" content="width-tiny" Title="Tiny"/>
+<meta name="select:Post Width" content="width-medium" Title="Medium"/>
+<meta name="select:Post Width" content="width-large" Title="Large"/>
+<meta name="select:Post Width" content="width-huge" Title="Huge"/>
+
+<meta name="text:Archive Title" content="Archive"/>
+<meta name="text:Ask Title" content="Message"/>
+<meta name="text:Disqus Shortname" content=""/>
+<meta name="text:Google Analytics ID" content=""/>
+<meta name="text:Social Links Title" content="Connect with me"/>
+<meta name="text:URL Flickr" content=""/>
+<meta name="text:URL Vimeo" content=""/>
+<meta name="text:URL Twitter" content=""/>
+<meta name="text:URL Facebook" content=""/>
+<meta name="text:URL Google Plus" content=""/>
+<meta name="text:URL Pinterest" content=""/>
+<meta name="text:URL Dribble" content=""/>
+<meta name="text:URL Spotify" content=""/>
+<meta name="text:URL Instagram" content=""/>
+<meta name="text:URL Soundcloud" content=""/>
+<meta name="text:URL Behance" content=""/>
+<meta name="text:URL Linkedin" content=""/>
+<meta name="text:URL Stumbleupon" content=""/>
+<meta name="text:URL Lastfm" content=""/>
+<meta name="text:URL Github" content=""/>
+
+<meta name="description" content="나는 한국 을 좋아 합니다 ... 많이 ~ 💕"/>
+
+<link href='http://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet' type='text/css'><link href='http://fonts.googleapis.com/css?family=PT Mono' rel='stylesheet' type='text/css'><link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'><link rel="stylesheet" href="http://static.tumblr.com/3zmswwt/iQ4mvy9de/icon.css"/><!--[if IE 7]><link rel="stylesheet" href="http://static.tumblr.com/3zmswwt/qqymvy9dv/ie.css"/><![endif]--><link rel="stylesheet" href="http://static.tumblr.com/3zmswwt/Fmkmwgp8e/style.css"/><style type="text/css">
+img{max-width:100%}
+a,a:link,a:visited{text-decoration:none;color:#e56276}a:hover{color:#a70623}body{font:14px/1.6em "Noto Sans", san-serif;color:#f5f4f4}#cover{background:url("http://static.tumblr.com/6567d9fdd962998eecb8ffdb9a03766a/nnfykno/we5nan0nv/tumblr_static_3gzc4wh02fqc00o800wkocccc.gif") no-repeat center;background-size:cover}#cover #cover-overlay{background:#c50629}#navigation,#sidebar,#search-container,.entry .details,#pagination{font-family:PT Mono}#posts-wrapper{background:#000204 url("http://static.tumblr.com/c370dee0a974e7e1bfe3bf4b650cdddf/nnfykno/hZknan0nu/tumblr_static_d68x3qanv9k4ks48gg4o8cgs0.jpg") ;box-shadow:inset 0 2px 2px #9c0214;padding:35px 0 120px 0!important}#navigation,#pagination{background:#be0218}#navigation a,#pagination a{color:#f3f1f0}#navigation #searcher input[type="text"],#navigation a{text-transform:uppercase;letter-spacing:1px}#navigation a{border-left:1px solid #eadbdb}#navigation a:first-child{border-left:0;padding:0}#navigation{text-align:center}#navigation a{margin:0;padding:0 20px}#navigation a:first-child{padding:0 20px}::-webkit-input-placeholder{color:#f3f1f0;font:15px "PT Mono", san-serif}:-moz-placeholder{color:#f3f1f0;font-size:15px "PT Mono", san-serif}::-moz-placeholder{color:#f3f1f0;font-size:15px "PT Mono", san-serif}:-ms-input-placeholder{color:#f3f1f0;font-size:15px "PT Mono", san-serif}#sidebar,#search-container,.entry,.permalink-box{background:#c31a26;box-shadow:0 2px 2px #9c0214}#sidebar{}#sidebar h1 a{text-transform:uppercase;color:#9f0421}#sidebar,#sidebar a{color:#632369}#sidebar #social a{background:#7c3976;color:#c31a26}.entry .photo{border:8px solid #c31a26}.entry .photo .photo-hover .overlay{background:#c60421}.entry .photo .photo-hover .captions a{color:#39659a}.entry .photo-post{display:none}.entry .details{border-top:1px solid #aa0322}.entry .details a:hover{color:#f5f4f4}.entry .text .question{border-bottom:1px dotted #aa0322}.entry,.entry .photo,#sidebar{border-radius:6px}.entry .photo img{border-radius:2px}#paginaion a.current,#pagination a:hover,.entry .text .link a{color:#e56276 !important}#pagination{opacity:0 !important}</style><link rel="stylesheet" href="http://static.tumblr.com/3zmswwt/OR5mw3sch/responsive.css"/>
+
+<meta name="robots" content="noindex"/>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=gothickrystal" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="붉 은 빛" /><meta property="og:url" content="http://gothickrystal.tumblr.com/?og=1" /><meta property="og:description" content="나는 한국 을 좋아 합니다 ... 많이 ~ 💕" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_29ec9d03e119_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=gothickrystal" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=gothickrystal" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="gothickrystal" /><meta name="twitter:description" content="나는 한국 을 좋아 합니다 ... 많이 ~ 💕" /><meta name="twitter:creator" content="ImGaga4Gaga" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=gothickrystal&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=gothickrystal&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=gothickrystal&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+
+<div id="loading"></div>
+
+<a id="install-button" href="http://themes.thejenyuan.com"><span id="install-theme-text">Install Theme</span></a>
+
+
+<div id="cover">
+    <div id="cover-overlay"></div>
+    <a href="/"><img src="http://assets.tumblr.com/images/x.gif" alt="붉 은 빛"></a>
+</div>
+
+
+<div id="navigation">
+
+    <a href="/">Home</a>
+
+    
+        <a href="/ask"> 귀여운 질문</a>
+    
+    
+        <a href="/submit">Submit</a>
+    
+    
+        <a href="/archive">Archive</a>
+    
+    
+    
+    <a href="http://gothickrystal.tumblr.com/rss">RSS</a>
+    
+    
+    
+    
+
+</div>
+
+<div id="posts-wrapper">
+
+<div id="posts" class="width-huge">
+
+
+
+
+
+
+
+
+
+<div id="98517314218" class="entry">
+
+<div class="featured-banner"></div>
+
+
+
+
+
+
+
+
+
+
+ 
+
+<div class="photo">
+
+    <div class="photo-hover">
+        <div class="captions">
+        <a href="http://gothickrystal.tumblr.com/post/98517314218"><span>x</span> 16 hours ago</a>
+        <a href="http://gothickrystal.tumblr.com/post/98517314218"><span>f</span> 13,841 notes</a>
+        </div>
+        <a href="http://gothickrystal.tumblr.com/post/98517314218"><div class="overlay"></div></a>
+            <div class="larger-width">
+                <img src="http://38.media.tumblr.com/f5dd82aee544646472096f927adf1cb5/tumblr_nbaahhlXg51qk08n1o1_500.gif"alt="">
+            </div>
+            <div class="normal-width">
+                <img src="http://38.media.tumblr.com/f5dd82aee544646472096f927adf1cb5/tumblr_nbaahhlXg51qk08n1o1_500.gif"alt="">
+            </div>
+    </div>
+    
+    
+
+</div>
+
+ 
+
+ 
+
+ 
+
+
+
+<div class="photo-post">
+
+    
+        <div class="captions">
+        <p>(Source: <a href="http://bricesander.tumblr.com/post/96463632133" title="bricesander">bricesander</a>, via <a href='http://lovekardashian.tumblr.com/post/97597706602'>lovekardashian</a>)</p>
+        </div>
+    
+
+    <div class="details">
+        
+
+        
+        <a href="http://gothickrystal.tumblr.com/post/98517314218">16 hours ago</a>
+        
+        
+        / <a href="http://gothickrystal.tumblr.com/post/98517314218">13,841 notes</a>
+        
+        
+        <div class="buttons">
+            
+            <span><a href="https://www.tumblr.com/reblog/98517314218/2CitxLm3" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></span>
+            <span><div class="like_button" data-post-id="98517314218" id="like_button_98517314218"><iframe id="like_iframe_98517314218" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gothickrystal&amp;post_id=98517314218&amp;rk=2CitxLm3" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></span>
+
+        </div>
+        
+    </div>
+
+</div>
+
+
+</div><!--      entry       -->
+ 
+
+ 
+
+
+<div id="98517287098" class="entry">
+
+<div class="featured-banner"></div>
+
+
+
+
+
+
+
+
+
+
+ 
+
+<div class="photo">
+
+    <div class="photo-hover">
+        <div class="captions">
+        <a href="http://gothickrystal.tumblr.com/post/98517287098"><span>x</span> 16 hours ago</a>
+        <a href="http://gothickrystal.tumblr.com/post/98517287098"><span>f</span> 4,937 notes</a>
+        </div>
+        <a href="http://gothickrystal.tumblr.com/post/98517287098"><div class="overlay"></div></a>
+            <div class="larger-width">
+                <img src="http://38.media.tumblr.com/dbaeaf47fb587362e83806ce2cf9e89a/tumblr_nb8r490fIV1qkc2s6o1_500.gif"alt="">
+            </div>
+            <div class="normal-width">
+                <img src="http://38.media.tumblr.com/dbaeaf47fb587362e83806ce2cf9e89a/tumblr_nb8r490fIV1qkc2s6o1_500.gif"alt="">
+            </div>
+    </div>
+    
+    
+
+</div>
+
+ 
+
+ 
+
+ 
+
+
+
+<div class="photo-post">
+
+    
+        <div class="captions">
+        <p>(Source: <a href="http://duke-gaga.tumblr.com" title="duke-gaga">duke-gaga</a>, via <a href='http://lovekardashian.tumblr.com/post/97601983834'>lovekardashian</a>)</p>
+        </div>
+    
+
+    <div class="details">
+        
+
+        
+        <a href="http://gothickrystal.tumblr.com/post/98517287098">16 hours ago</a>
+        
+        
+        / <a href="http://gothickrystal.tumblr.com/post/98517287098">4,937 notes</a>
+        
+        
+        <div class="buttons">
+            
+            <span><a href="https://www.tumblr.com/reblog/98517287098/s14OvUoS" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></span>
+            <span><div class="like_button" data-post-id="98517287098" id="like_button_98517287098"><iframe id="like_iframe_98517287098" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gothickrystal&amp;post_id=98517287098&amp;rk=s14OvUoS" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></span>
+
+        </div>
+        
+    </div>
+
+</div>
+
+
+</div><!--      entry       -->
+ 
+
+ 
+
+
+<div id="98516117658" class="entry">
+
+<div class="featured-banner"></div>
+
+
+
+
+
+
+
+
+
+
+ 
+
+<div class="photo">
+
+    <div class="photo-hover">
+        <div class="captions">
+        <a href="http://gothickrystal.tumblr.com/post/98516117658/kimkardashian-lifestyle-lol-d"><span>x</span> 17 hours ago</a>
+        <a href="http://gothickrystal.tumblr.com/post/98516117658/kimkardashian-lifestyle-lol-d"><span>f</span> 254,666 notes</a>
+        </div>
+        <a href="http://gothickrystal.tumblr.com/post/98516117658/kimkardashian-lifestyle-lol-d"><div class="overlay"></div></a>
+            <div class="larger-width">
+                <img src="http://33.media.tumblr.com/becb92501ba1c5913b12dcab2527f558/tumblr_n6z1izqDbX1qk08n1o1_500.gif"alt="kimkardashian-lifestyle:
+
+LOL :D">
+            </div>
+            <div class="normal-width">
+                <img src="http://33.media.tumblr.com/becb92501ba1c5913b12dcab2527f558/tumblr_n6z1izqDbX1qk08n1o1_500.gif"alt="kimkardashian-lifestyle:
+
+LOL :D">
+            </div>
+    </div>
+    
+    
+
+</div>
+
+ 
+
+ 
+
+ 
+
+
+
+<div class="photo-post">
+
+    
+        <div class="captions">
+        <p><a href="http://kimkardashian-lifestyle.tumblr.com/post/88507018080/lol-d" class="tumblr_blog">kimkardashian-lifestyle</a>:</p>
+
+<blockquote><p>LOL :D</p></blockquote><p>(Source: <a href="http://bricesander.tumblr.com/post/88407585258/kim-asking-the-hard-hitting-questions" title="bricesander">bricesander</a>)</p>
+        </div>
+    
+
+    <div class="details">
+        
+
+        
+        <a href="http://gothickrystal.tumblr.com/post/98516117658/kimkardashian-lifestyle-lol-d">17 hours ago</a>
+        
+        
+        / <a href="http://gothickrystal.tumblr.com/post/98516117658/kimkardashian-lifestyle-lol-d">254,666 notes</a>
+        
+        
+        <div class="buttons">
+            
+            <span><a href="https://www.tumblr.com/reblog/98516117658/gZoAJvH9" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></span>
+            <span><div class="like_button" data-post-id="98516117658" id="like_button_98516117658"><iframe id="like_iframe_98516117658" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gothickrystal&amp;post_id=98516117658&amp;rk=gZoAJvH9" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></span>
+
+        </div>
+        
+    </div>
+
+</div>
+
+
+</div><!--      entry       -->
+ 
+
+ 
+
+
+<div id="98516088803" class="entry">
+
+<div class="featured-banner"></div>
+
+
+
+
+
+
+
+
+
+
+ 
+
+<div class="photo">
+
+    <div class="photo-hover">
+        <div class="captions">
+        <a href="http://gothickrystal.tumblr.com/post/98516088803/kimkardashian-lifestyle"><span>x</span> 17 hours ago</a>
+        <a href="http://gothickrystal.tumblr.com/post/98516088803/kimkardashian-lifestyle"><span>f</span> 45,491 notes</a>
+        </div>
+        <a href="http://gothickrystal.tumblr.com/post/98516088803/kimkardashian-lifestyle"><div class="overlay"></div></a>
+            <div class="larger-width">
+                <img src="http://33.media.tumblr.com/c29e1496c45c5d4b82f8f11bcc7a4d73/tumblr_n712lbpHB11rdncjuo1_1280.png"alt="kimkardashian-lifestyle:
+
+&nbsp;">
+            </div>
+            <div class="normal-width">
+                <img src="http://33.media.tumblr.com/c29e1496c45c5d4b82f8f11bcc7a4d73/tumblr_n712lbpHB11rdncjuo1_500.png"alt="kimkardashian-lifestyle:
+
+&nbsp;">
+            </div>
+    </div>
+    
+    
+
+</div>
+
+ 
+
+ 
+
+ 
+
+
+
+<div class="photo-post">
+
+    
+        <div class="captions">
+        <p><a href="http://kimkardashian-lifestyle.tumblr.com/post/88560201765" class="tumblr_blog">kimkardashian-lifestyle</a>:</p>
+
+<blockquote><p><sub> </sub></p></blockquote><p>(Source: <a href="http://kimkardashianfashionstyle.tumblr.com/post/88517717479/west" title="kimkardashianfashionstyle">kimkardashianfashionstyle</a>)</p>
+        </div>
+    
+
+    <div class="details">
+        
+
+        
+        <a href="http://gothickrystal.tumblr.com/post/98516088803/kimkardashian-lifestyle">17 hours ago</a>
+        
+        
+        / <a href="http://gothickrystal.tumblr.com/post/98516088803/kimkardashian-lifestyle">45,491 notes</a>
+        
+        
+        <div class="buttons">
+            
+            <span><a href="https://www.tumblr.com/reblog/98516088803/kooItLXS" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></span>
+            <span><div class="like_button" data-post-id="98516088803" id="like_button_98516088803"><iframe id="like_iframe_98516088803" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gothickrystal&amp;post_id=98516088803&amp;rk=kooItLXS" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></span>
+
+        </div>
+        
+    </div>
+
+</div>
+
+
+</div><!--      entry       -->
+ 
+
+ 
+
+
+<div id="98516034073" class="entry">
+
+<div class="featured-banner"></div>
+
+
+
+
+
+
+
+
+
+
+ 
+
+<div class="photo">
+
+    <div class="photo-hover">
+        <div class="captions">
+        <a href="http://gothickrystal.tumblr.com/post/98516034073"><span>x</span> 17 hours ago</a>
+        <a href="http://gothickrystal.tumblr.com/post/98516034073"><span>f</span> 1,615 notes</a>
+        </div>
+        <a href="http://gothickrystal.tumblr.com/post/98516034073"><div class="overlay"></div></a>
+            <div class="larger-width">
+                <img src="http://31.media.tumblr.com/66d25c52ad68b9981a82c9537ab84270/tumblr_n7cgmqfgmh1rdncjuo1_1280.png"alt="">
+            </div>
+            <div class="normal-width">
+                <img src="http://38.media.tumblr.com/66d25c52ad68b9981a82c9537ab84270/tumblr_n7cgmqfgmh1rdncjuo1_500.png"alt="">
+            </div>
+    </div>
+    
+    
+
+</div>
+
+ 
+
+ 
+
+ 
+
+
+
+<div class="photo-post">
+
+    
+        <div class="captions">
+        <p>(Source: <a href="http://kimkardashianfashionstyle.tumblr.com/post/89121546409/june-10-2014-kim-kardashian-on-vacation-in" title="kimkardashianfashionstyle">kimkardashianfashionstyle</a>, via <a href='http://kimkardashian-lifestyle.tumblr.com/post/89144251670'>kimkardashian-lifestyle</a>)</p>
+        </div>
+    
+
+    <div class="details">
+        
+
+        
+        <a href="http://gothickrystal.tumblr.com/post/98516034073">17 hours ago</a>
+        
+        
+        / <a href="http://gothickrystal.tumblr.com/post/98516034073">1,615 notes</a>
+        
+        
+        <div class="buttons">
+            
+            <span><a href="https://www.tumblr.com/reblog/98516034073/bMrLIrkD" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></span>
+            <span><div class="like_button" data-post-id="98516034073" id="like_button_98516034073"><iframe id="like_iframe_98516034073" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gothickrystal&amp;post_id=98516034073&amp;rk=bMrLIrkD" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></span>
+
+        </div>
+        
+    </div>
+
+</div>
+
+
+</div><!--      entry       -->
+ 
+
+ 
+
+
+<div id="98516009563" class="entry">
+
+<div class="featured-banner"></div>
+
+
+
+
+
+
+
+
+
+
+ 
+
+<div class="photo">
+
+    <div class="photo-hover">
+        <div class="captions">
+        <a href="http://gothickrystal.tumblr.com/post/98516009563"><span>x</span> 17 hours ago</a>
+        <a href="http://gothickrystal.tumblr.com/post/98516009563"><span>f</span> 12,570 notes</a>
+        </div>
+        <a href="http://gothickrystal.tumblr.com/post/98516009563"><div class="overlay"></div></a>
+            <div class="larger-width">
+                <img src="http://38.media.tumblr.com/10ffe1cc5339ffb8f4f9a9d5b3bb8e80/tumblr_n7dtceaVQI1qmfdwco1_1280.jpg"alt="">
+            </div>
+            <div class="normal-width">
+                <img src="http://33.media.tumblr.com/10ffe1cc5339ffb8f4f9a9d5b3bb8e80/tumblr_n7dtceaVQI1qmfdwco1_500.jpg"alt="">
+            </div>
+    </div>
+    
+    
+
+</div>
+
+ 
+
+ 
+
+ 
+
+
+
+<div class="photo-post">
+
+    
+        <div class="captions">
+        <p>(Source: <a href="http://elegantbliss.tumblr.com/" title="elegantbliss">elegantbliss</a>, via <a href='http://kimkardashian-lifestyle.tumblr.com/post/89241525195'>kimkardashian-lifestyle</a>)</p>
+        </div>
+    
+
+    <div class="details">
+        
+
+        
+        <a href="http://gothickrystal.tumblr.com/post/98516009563">17 hours ago</a>
+        
+        
+        / <a href="http://gothickrystal.tumblr.com/post/98516009563">12,570 notes</a>
+        
+        
+        <div class="buttons">
+            
+            <span><a href="https://www.tumblr.com/reblog/98516009563/NeQZM21F" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></span>
+            <span><div class="like_button" data-post-id="98516009563" id="like_button_98516009563"><iframe id="like_iframe_98516009563" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gothickrystal&amp;post_id=98516009563&amp;rk=NeQZM21F" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></span>
+
+        </div>
+        
+    </div>
+
+</div>
+
+
+</div><!--      entry       -->
+ 
+
+ 
+
+
+<div id="98515867543" class="entry">
+
+<div class="featured-banner"></div>
+
+
+
+
+
+
+
+
+
+
+ 
+
+<div class="photo">
+
+    <div class="photo-hover">
+        <div class="captions">
+        <a href="http://gothickrystal.tumblr.com/post/98515867543"><span>x</span> 17 hours ago</a>
+        <a href="http://gothickrystal.tumblr.com/post/98515867543"><span>f</span> 5,397 notes</a>
+        </div>
+        <a href="http://gothickrystal.tumblr.com/post/98515867543"><div class="overlay"></div></a>
+            <div class="larger-width">
+                <img src="http://33.media.tumblr.com/f37f8adb0b2990091c5d7af5ee7daa04/tumblr_n7lp14GPrq1qk08n1o1_500.gif"alt="">
+            </div>
+            <div class="normal-width">
+                <img src="http://33.media.tumblr.com/f37f8adb0b2990091c5d7af5ee7daa04/tumblr_n7lp14GPrq1qk08n1o1_500.gif"alt="">
+            </div>
+    </div>
+    
+    
+
+</div>
+
+ 
+
+ 
+
+ 
+
+
+
+<div class="photo-post">
+
+    
+        <div class="captions">
+        <p>(Source: <a href="http://bricesander.tumblr.com/post/89615274418" title="bricesander">bricesander</a>, via <a href='http://kimkardashian-lifestyle.tumblr.com/post/89640326925'>kimkardashian-lifestyle</a>)</p>
+        </div>
+    
+
+    <div class="details">
+        
+
+        
+        <a href="http://gothickrystal.tumblr.com/post/98515867543">17 hours ago</a>
+        
+        
+        / <a href="http://gothickrystal.tumblr.com/post/98515867543">5,397 notes</a>
+        
+        
+        <div class="buttons">
+            
+            <span><a href="https://www.tumblr.com/reblog/98515867543/BaNz8JfN" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></span>
+            <span><div class="like_button" data-post-id="98515867543" id="like_button_98515867543"><iframe id="like_iframe_98515867543" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gothickrystal&amp;post_id=98515867543&amp;rk=BaNz8JfN" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></span>
+
+        </div>
+        
+    </div>
+
+</div>
+
+
+</div><!--      entry       -->
+ 
+
+ 
+
+
+<div id="98508397038" class="entry">
+
+<div class="featured-banner"></div>
+
+
+
+
+
+
+
+
+
+
+ 
+
+<div class="photo">
+
+    <div class="photo-hover">
+        <div class="captions">
+        <a href="http://gothickrystal.tumblr.com/post/98508397038/keilamera-royalty"><span>x</span> 19 hours ago</a>
+        <a href="http://gothickrystal.tumblr.com/post/98508397038/keilamera-royalty"><span>f</span> 84 notes</a>
+        </div>
+        <a href="http://gothickrystal.tumblr.com/post/98508397038/keilamera-royalty"><div class="overlay"></div></a>
+            <div class="larger-width">
+                <img src="http://38.media.tumblr.com/c88d790a7db371ca56fd80537f97f68c/tumblr_nchsy2XeaB1qc23oro1_500.jpg"alt="keilamera:
+
+Royalty.">
+            </div>
+            <div class="normal-width">
+                <img src="http://38.media.tumblr.com/c88d790a7db371ca56fd80537f97f68c/tumblr_nchsy2XeaB1qc23oro1_500.jpg"alt="keilamera:
+
+Royalty.">
+            </div>
+    </div>
+    
+    
+
+</div>
+
+ 
+
+ 
+
+ 
+
+
+
+<div class="photo-post">
+
+    
+        <div class="captions">
+        <p><a href="http://keilamera.tumblr.com/post/98448342168/royalty" class="tumblr_blog">keilamera</a>:</p>
+
+<blockquote><p>Royalty.</p></blockquote>
+        </div>
+    
+
+    <div class="details">
+        
+
+        
+        <a href="http://gothickrystal.tumblr.com/post/98508397038/keilamera-royalty">19 hours ago</a>
+        
+        
+        / <a href="http://gothickrystal.tumblr.com/post/98508397038/keilamera-royalty">84 notes</a>
+        
+        
+        <div class="buttons">
+            
+            <span><a href="https://www.tumblr.com/reblog/98508397038/dYDivXOp" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></span>
+            <span><div class="like_button" data-post-id="98508397038" id="like_button_98508397038"><iframe id="like_iframe_98508397038" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gothickrystal&amp;post_id=98508397038&amp;rk=dYDivXOp" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></span>
+
+        </div>
+        
+    </div>
+
+</div>
+
+
+</div><!--      entry       -->
+ 
+
+ 
+
+
+<div id="98508346963" class="entry">
+
+<div class="featured-banner"></div>
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+    <div class="photo">
+
+    
+    <div class="photo-hover">
+        <div class="captions">
+        <a href="http://gothickrystal.tumblr.com/post/98508346963/jennereverafter-this-family-basically-sums-up"><span>x</span> 19 hours ago</a>
+        <a href="http://gothickrystal.tumblr.com/post/98508346963/jennereverafter-this-family-basically-sums-up"><span>f</span> 174 notes</a>
+        <a href="http://gothickrystal.tumblr.com/post/98508346963/jennereverafter-this-family-basically-sums-up"><span>j</span> view photoset</a>
+        </div>
+        <a href="http://gothickrystal.tumblr.com/post/98508346963/jennereverafter-this-family-basically-sums-up"><div class="overlay"></div></a>
+    <div class="photoset">
+    
+    <img style="width:100%" src="http://38.media.tumblr.com/3cc8a375c8b9a46362a3337f88549cc9/tumblr_ncigrkXSzn1tmlqe2o1_400.gif" alt="jennereverafter:
+
+this family basically sums up my life">
+    
+    <img style="width:100%" src="http://38.media.tumblr.com/18f7e6bf57ec6ff3e2e382f8d5f4c249/tumblr_ncigrkXSzn1tmlqe2o2_400.gif" alt="jennereverafter:
+
+this family basically sums up my life">
+    
+    <img style="width:100%" src="http://33.media.tumblr.com/87d853172886e13fd5964af14eb52b88/tumblr_ncigrkXSzn1tmlqe2o3_500.gif" alt="jennereverafter:
+
+this family basically sums up my life">
+    
+    <img style="width:100%" src="http://38.media.tumblr.com/15f125957e20c354aacc85e723f324db/tumblr_ncigrkXSzn1tmlqe2o4_500.gif" alt="jennereverafter:
+
+this family basically sums up my life">
+    
+    <img style="width:100%" src="http://33.media.tumblr.com/09b60c59a77e131608edac6f52ed5d9b/tumblr_ncigrkXSzn1tmlqe2o5_500.gif" alt="jennereverafter:
+
+this family basically sums up my life">
+    
+    <img style="width:100%" src="http://31.media.tumblr.com/ff51e947d1a1273a5b24e7c88a025baf/tumblr_ncigrkXSzn1tmlqe2o6_500.gif" alt="jennereverafter:
+
+this family basically sums up my life">
+    
+    <img style="width:100%" src="http://38.media.tumblr.com/be0465e029bad33beefae15f8e81e8cd/tumblr_ncigrkXSzn1tmlqe2o7_500.gif" alt="jennereverafter:
+
+this family basically sums up my life">
+    
+    </div>
+    </div>
+    
+    
+    
+
+    </div>
+ 
+
+ 
+
+ 
+
+
+
+<div class="photo-post">
+
+    
+        <div class="captions">
+        <p><a href="http://jennereverafter.tumblr.com/post/98466626443/this-family-basically-sums-up-my-life" class="tumblr_blog">jennereverafter</a>:</p>
+
+<blockquote><p>this family basically sums up my life</p></blockquote>
+        </div>
+    
+
+    <div class="details">
+        
+
+        
+        <a href="http://gothickrystal.tumblr.com/post/98508346963/jennereverafter-this-family-basically-sums-up">19 hours ago</a>
+        
+        
+        / <a href="http://gothickrystal.tumblr.com/post/98508346963/jennereverafter-this-family-basically-sums-up">174 notes</a>
+        
+        
+        <div class="buttons">
+            
+            <span><a href="https://www.tumblr.com/reblog/98508346963/pGmDfJ2P" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></span>
+            <span><div class="like_button" data-post-id="98508346963" id="like_button_98508346963"><iframe id="like_iframe_98508346963" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gothickrystal&amp;post_id=98508346963&amp;rk=pGmDfJ2P" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></span>
+
+        </div>
+        
+    </div>
+
+</div>
+
+
+</div><!--      entry       -->
+ 
+
+ 
+
+
+<div id="98508273143" class="entry">
+
+<div class="featured-banner"></div>
+
+
+
+
+
+
+
+
+
+
+ 
+
+<div class="photo">
+
+    <div class="photo-hover">
+        <div class="captions">
+        <a href="http://gothickrystal.tumblr.com/post/98508273143/wereallygoneactlike"><span>x</span> 19 hours ago</a>
+        <a href="http://gothickrystal.tumblr.com/post/98508273143/wereallygoneactlike"><span>f</span> 740 notes</a>
+        </div>
+        <a href="http://gothickrystal.tumblr.com/post/98508273143/wereallygoneactlike"><div class="overlay"></div></a>
+            <div class="larger-width">
+                <img src="http://38.media.tumblr.com/89575a0c8d8444598bdd8b03eadadb3b/tumblr_nchu8kTEYc1tr3wf0o1_500.jpg"alt="wereallygoneactlike:
+
+💀">
+            </div>
+            <div class="normal-width">
+                <img src="http://38.media.tumblr.com/89575a0c8d8444598bdd8b03eadadb3b/tumblr_nchu8kTEYc1tr3wf0o1_500.jpg"alt="wereallygoneactlike:
+
+💀">
+            </div>
+    </div>
+    
+    
+
+</div>
+
+ 
+
+ 
+
+ 
+
+
+
+<div class="photo-post">
+
+    
+        <div class="captions">
+        <p><a href="http://wereallygoneactlike.tumblr.com/post/98449821787" class="tumblr_blog">wereallygoneactlike</a>:</p>
+
+<blockquote><p>💀</p></blockquote>
+        </div>
+    
+
+    <div class="details">
+        
+
+        
+        <a href="http://gothickrystal.tumblr.com/post/98508273143/wereallygoneactlike">19 hours ago</a>
+        
+        
+        / <a href="http://gothickrystal.tumblr.com/post/98508273143/wereallygoneactlike">740 notes</a>
+        
+        
+        <div class="buttons">
+            
+            <span><a href="https://www.tumblr.com/reblog/98508273143/gsl3Ahoq" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></span>
+            <span><div class="like_button" data-post-id="98508273143" id="like_button_98508273143"><iframe id="like_iframe_98508273143" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gothickrystal&amp;post_id=98508273143&amp;rk=gsl3Ahoq" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></span>
+
+        </div>
+        
+    </div>
+
+</div>
+
+
+</div><!--      entry       -->
+ 
+
+ 
+
+
+</div><!--      post        -->
+
+
+
+
+    <div id="pagination">
+
+        
+
+        
+
+        
+            <a class="current">1</a>
+        
+
+        
+
+        
+
+        
+
+        
+            <a href="/page/2">2</a>
+        
+
+        
+
+        
+
+        
+            <a href="/page/3">3</a>
+        
+
+        
+
+        
+
+        
+            <a href="/page/4">4</a>
+        
+
+        
+
+        
+
+        
+            <a href="/page/5">5</a>
+        
+
+        
+
+        
+            <a href="/page/2" id="nextPage">»</a>
+        
+
+    </div>
+
+
+
+
+</div>
+
+<script type="text/javascript" src="http://static.tumblr.com/3zmswwt/oOMmvzotr/jquery.js"></script><script type="text/javascript" src="http://static.tumblr.com/3zmswwt/f3Wmw3lnh/addons.js"></script><script type="text/javascript">(function () {var $K = $('#posts');$K.imagesLoaded(function () {$K.masonry({itemSelector:'.entry,#sidebar,#search-container',isAnimated:true,animationOptions:{duration:350,queue:false},isFitWidth:true})});$K.infinitescroll({navSelector:'div#pagination',nextSelector:'div#pagination a#nextPage',itemSelector: ".entry",loading:{finishedMsg: function(){$('#infscr-loading').css("opacity", "0");}}},function(newElements){var $newElems = $(newElements).css({opacity:0});var $newElemsIDs = $newElems.map(function () {return this.id;}).get();$newElems.imagesLoaded(function () {$newElems.animate({opacity:1});$K.masonry('appended',$newElems,true);console.log($newElems,$newElemsIDs);Tumblr.LikeButton.get_status_by_post_ids($newElemsIDs);});});})();</script>
+
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://gothickrystal.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847903&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZ290aGlja3J5c3RhbC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=OIAOBLNLHI&K=9b551af2140efdbccab9f247423f0b560c957b8c38d1042bfab22cfa6ebc65d6&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847903&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZ290aGlja3J5c3RhbC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=OIAOBLNLHI&K=921894023ea06064c168c29c95c5d978b713f8eb2adb0f5bf9c9911031cc282a&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847903&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2dvdGhpY2tyeXN0YWwudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjE4MjgwNjgxIiwicm9vdF9wb3N0aWQiOiI5NjQ2MzYzMjEzMyIsInBvc3RpZCI6Ijk4NTE3MzE0MjE4IiwiYmxvZ2lkIjoiOTE4NDMzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxOTQzOTQ5MCIsInJvb3RfcG9zdGlkIjoiOTYzOTE1MDYwMTQiLCJwb3N0aWQiOiI5ODUxNzI4NzA5OCIsImJsb2dpZCI6IjkxODQzMzkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTgyODA2ODEiLCJyb290X3Bvc3RpZCI6Ijg4NDA3NTg1MjU4IiwicG9zdGlkIjoiOTg1MTYxMTc2NTgiLCJibG9naWQiOiI5MTg0MzM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjY3NDc4OTQ1Iiwicm9vdF9wb3N0aWQiOiI4ODUxNzcxNzQ3OSIsInBvc3RpZCI6Ijk4NTE2MDg4ODAzIiwiYmxvZ2lkIjoiOTE4NDMzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2NzQ3ODk0NSIsInJvb3RfcG9zdGlkIjoiODkxMjE1NDY0MDkiLCJwb3N0aWQiOiI5ODUxNjAzNDA3MyIsImJsb2dpZCI6IjkxODQzMzkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjI5Njk5NTciLCJyb290X3Bvc3RpZCI6Ijg5MTg4OTk1ODc1IiwicG9zdGlkIjoiOTg1MTYwMDk1NjMiLCJibG9naWQiOiI5MTg0MzM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4MjgwNjgxIiwicm9vdF9wb3N0aWQiOiI4OTYxNTI3NDQxOCIsInBvc3RpZCI6Ijk4NTE1ODY3NTQzIiwiYmxvZ2lkIjoiOTE4NDMzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0OTMwNjM0Iiwicm9vdF9wb3N0aWQiOiI5ODQ0ODM0MjE2OCIsInBvc3RpZCI6Ijk4NTA4Mzk3MDM4IiwiYmxvZ2lkIjoiOTE4NDMzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMDQ2MzE4MzgiLCJyb290X3Bvc3RpZCI6Ijk4NDY2NjI2NDQzIiwicG9zdGlkIjoiOTg1MDgzNDY5NjMiLCJibG9naWQiOiI5MTg0MzM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE2NzkyMTM3NiIsInJvb3RfcG9zdGlkIjoiOTg0NDk4MjE3ODciLCJwb3N0aWQiOiI5ODUwODI3MzE0MyIsImJsb2dpZCI6IjkxODQzMzkiLCJzb3VyY2UiOjMzfV19&U=DJCDJAKMLI&K=7adab5793dbf363c1db789764d3b4dd8f77727a61f1d71f957fb31484dd2a5eb&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847903&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2dvdGhpY2tyeXN0YWwudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjE4MjgwNjgxIiwicm9vdF9wb3N0aWQiOiI5NjQ2MzYzMjEzMyIsInBvc3RpZCI6Ijk4NTE3MzE0MjE4IiwiYmxvZ2lkIjoiOTE4NDMzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxOTQzOTQ5MCIsInJvb3RfcG9zdGlkIjoiOTYzOTE1MDYwMTQiLCJwb3N0aWQiOiI5ODUxNzI4NzA5OCIsImJsb2dpZCI6IjkxODQzMzkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTgyODA2ODEiLCJyb290X3Bvc3RpZCI6Ijg4NDA3NTg1MjU4IiwicG9zdGlkIjoiOTg1MTYxMTc2NTgiLCJibG9naWQiOiI5MTg0MzM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjY3NDc4OTQ1Iiwicm9vdF9wb3N0aWQiOiI4ODUxNzcxNzQ3OSIsInBvc3RpZCI6Ijk4NTE2MDg4ODAzIiwiYmxvZ2lkIjoiOTE4NDMzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2NzQ3ODk0NSIsInJvb3RfcG9zdGlkIjoiODkxMjE1NDY0MDkiLCJwb3N0aWQiOiI5ODUxNjAzNDA3MyIsImJsb2dpZCI6IjkxODQzMzkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjI5Njk5NTciLCJyb290X3Bvc3RpZCI6Ijg5MTg4OTk1ODc1IiwicG9zdGlkIjoiOTg1MTYwMDk1NjMiLCJibG9naWQiOiI5MTg0MzM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4MjgwNjgxIiwicm9vdF9wb3N0aWQiOiI4OTYxNTI3NDQxOCIsInBvc3RpZCI6Ijk4NTE1ODY3NTQzIiwiYmxvZ2lkIjoiOTE4NDMzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0OTMwNjM0Iiwicm9vdF9wb3N0aWQiOiI5ODQ0ODM0MjE2OCIsInBvc3RpZCI6Ijk4NTA4Mzk3MDM4IiwiYmxvZ2lkIjoiOTE4NDMzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMDQ2MzE4MzgiLCJyb290X3Bvc3RpZCI6Ijk4NDY2NjI2NDQzIiwicG9zdGlkIjoiOTg1MDgzNDY5NjMiLCJibG9naWQiOiI5MTg0MzM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE2NzkyMTM3NiIsInJvb3RfcG9zdGlkIjoiOTg0NDk4MjE3ODciLCJwb3N0aWQiOiI5ODUwODI3MzE0MyIsImJsb2dpZCI6IjkxODQzMzkiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=DJCDJAKMLI&K=1dec8b0ce58f2121d212a9c4aa4dfddba8b150d6ea956bab7a6538cff44cb832&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:9184339,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2Fgothickrystal.tumblr.com%2F&amp;lang=en_US&amp;name=gothickrystal&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_29ec9d03e119_64.png&amp;title=%EB%B6%89+%EC%9D%80+%EB%B9%9B&amp;url=http%3A%2F%2Fgothickrystal.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2Fgothickrystal.tumblr.com%2F&amp;lang=en_US&amp;name=gothickrystal&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_29ec9d03e119_64.png&amp;title=%EB%B6%89+%EC%9D%80+%EB%B9%9B&amp;url=http%3A%2F%2Fgothickrystal.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

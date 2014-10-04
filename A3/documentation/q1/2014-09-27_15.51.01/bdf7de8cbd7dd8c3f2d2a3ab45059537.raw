@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<!--
+		Designed by
+		
+			_|_|_|      _|_|    _|_|_|_|    _|_|    _|  _|_|  
+			_|    _|  _|_|_|_|    _|      _|_|_|_|  _|_|      
+			_|    _|  _|          _|      _|        _|        
+			_|_|_|      _|_|_|      _|_|    _|_|_|  _|        
+			_|                                                
+			_|                                                
+
+			            _|        _|                      _|  
+			_|      _|        _|_|_|    _|_|_|  _|_|_|        
+			_|      _|  _|  _|    _|  _|    _|  _|    _|  _|  
+			  _|  _|    _|  _|    _|  _|    _|  _|    _|  _|  
+			    _|      _|    _|_|_|    _|_|_|  _|    _|  _|
+		
+		Found at http://www.tumblr.com/theme/467
+-->
+
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="generator" content="TextMate http://macromates.com/">
+	<meta name="author" content="Peter Vidani">
+	<meta name="viewport" content="width=790">
+	<title>Hi, I'm Liz</title>	
+	<meta name="description" content="I can draw (sort of) &copy; Liz Climo 2011" />
+	<link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_44b0e39c0c7a_128.png">
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://lizclimo.tumblr.com/rss" />
+	
+	<meta name="text:Disqus shortname" content="" />
+	
+	<meta name="if:Show RSS and Archive buttons" content="1">
+	<meta name="if:Show URL in posts" content="1">
+	<meta name="if:Show note count" content="1">
+	<meta name="if:Show notes on permalink page" content="1">
+	
+	<style type="text/css">
+	body {
+		font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 10px;
+		color: #202020;
+		background: #FFFFFF;
+		margin: 40px 0 20px 0;
+		padding: 0;
+	}
+	
+	a:active, a:focus { outline: 0; }
+					
+	#content {
+		width: 770px;
+		margin: 0 auto; 
+	}
+		
+		#content #header {
+			border-bottom: 3px solid #202020;
+		}
+		
+			#content #header #top {
+				border-bottom: 1px solid #202020;
+				padding: 0 0 10px 0;
+				position: relative;
+			}
+		
+				#content #header #top a.title {
+					width: 688px;
+					color: #202020;
+					font-family: Georgia;
+					font-size: 72px;
+					font-style: italic;
+					font-weight: normal;
+					letter-spacing: -3px;
+					text-decoration: none;
+					margin: 0;
+				}
+				
+				#content #header #top .buttons {
+					position: absolute;
+					bottom: 24px;
+					right: 0;
+				}
+			
+					#content #header #top .buttons a {
+						color: #FFFFFF;
+						font-weight: bold;
+						text-transform: uppercase;
+						text-decoration: none;
+						background: #D00000;
+					}
+				
+			#content #header #bottom {
+				font-size: 10px;
+				padding: 8px 0;
+			}
+			
+				#content #header #bottom a {
+					color: #447777;
+					font-weight: bold;
+					text-decoration: none;
+				}
+	#content #newDay {
+		border-top: 1px solid #202020;
+		padding: 8px 0 0 0;
+	}
+	
+		#content #newDay .post { margin: 20px 0 70px 0; }
+		
+		#content #newDay .post img { max-width: 100%; }
+		
+		#content #newDay .date {
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+	
+		#content #newDay h2 {
+			font-family: Georgia;
+			font-size: 36px;
+			letter-spacing: -1px;
+			margin: 0;
+		}
+		
+			#content #newDay a.h2 {
+				color: #0F6F9F;
+				font-family: Georgia;
+				font-size: 36px;
+				font-weight: bold;
+				text-decoration: underline;
+				letter-spacing: -1px;
+				line-height: 34px;
+				margin: 0;
+			}
+			
+			  #content #newDay a.h2.title {
+			    color: #202020;
+			  }
+			
+			#content #newDay .quote {
+				font-family: Georgia;
+				font-size: 24px;
+				line-height: 1.3em;
+			}
+				
+		#content #newDay .post img {
+		  max-width: 764px;
+			border: 1px solid #8E8E8E;
+			padding: 1px;
+		}
+		
+		#content #newDay .post code {
+			font-size: 12px;
+			background: #D9E5ED;
+			font-family: 'Lucida Console', monospace;
+			padding: 1px 4px;
+		}
+		
+		#content #newDay .post {
+			font-family: Georgia;
+			font-size: 14px;
+			line-height: 1.6em;
+		}
+		
+			#content #newDay .post a {
+				color: #0F6F9F;
+				text-decoration: none;
+			}
+			
+				#content #newDay .post a:hover { color: #D00000; }
+				
+		/* this is for chat */
+		#content #newDay .post table {
+			font-family: Georgia;
+			font-size: 14px;
+			margin: 0 0 10px 0;
+			border-collapse: collapse;
+		}
+
+			#content #newDay .post table tr td {
+				padding: 0;
+				vertical-align: top;
+			}
+
+			#content #newDay .post table tr td.name {
+				font-weight: bold;
+				text-align: right;
+				padding: 4px 15px;
+			}
+
+			#content #newDay .post table tr td.words {
+				width: 100%;
+				text-align: left;
+				padding: 4px 1px;
+			}
+		/* that was for chat */
+			
+		#content #newDay .bottom {
+			width: 100%;
+			color: #444444;
+      font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size: 10px;
+			line-height: 1.8;
+			text-transform: uppercase;
+		}
+			
+			#content #newDay .bottom .notes,
+			#content #newDay .bottom .tags {
+				text-transform: none !important;
+				margin: 0 13px 0 0;
+				float: left;
+			}
+		
+			#content #newDay .bottom a {
+				color: #444444;
+				text-transform: none;
+				text-decoration: underline;
+			}
+		
+				#content #newDay .bottom a.time {
+					text-decoration: underline;
+					font-weight: bold;
+					text-transform: uppercase;
+				}
+				
+				#content #newDay .bottom a:hover { text-decoration: underline; }
+
+	#content #pagination {
+		font-family: Georgia;
+		font-size: 12px;
+		text-align: right;
+		border-top: 3px solid #202020;
+		border-bottom: 1px solid #202020;
+		padding: 8px 0;
+		overflow: hidden;
+	}
+	
+		#content #pagination a.button {
+			color: #FFFFFF;
+			font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size: 10px;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-decoration: none;
+			background: #D00000;
+			margin-left: 12px;
+		}
+		
+		#content #pagination .rss { 
+			font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size: 10px;
+			float: left;
+		}
+			#content #pagination .rss a {
+				color: #447777;
+				font-weight: bold;
+			}
+			
+		#content #footer {
+			color: #8E8E8E;
+			line-height: 1.5em;
+			text-align: right;
+			margin: 8px 0 0 0;
+			overflow: hidden;
+		}
+
+			#content #footer form {
+				margin: 0 auto 10px auto;
+				float: left;
+			}
+
+				#content #footer form input.text {
+					width: 250px;
+				}
+	
+		#content #footer a {
+			color: #8E8E8E;
+		}
+			
+		ol.notes {
+			width: 100%;
+			border-bottom: solid 1px #ccc;
+	    padding: 48px 0 0 0px;
+	    margin: 8px 0px 0px 0px;
+	    list-style-type: none;
+		}
+		
+			ol.notes a {
+				color: #444444;
+			}
+
+			ol.notes li.note {
+				color: #777;
+				font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+				font-size: 10px;
+		    border-top: solid 1px #ccc;
+		    padding: 4px;
+			}
+
+				ol.notes li.note img.avatar {
+			    vertical-align: -4px;
+			    margin-right: 10px;
+			    width: 16px;
+			    height: 16px;
+				}
+
+				ol.notes li.note span.action {
+					margin-bottom: 5px;
+				}
+		
+					ol.notes li.note span.action a {
+						font-weight: bold;
+					}
+
+				ol.notes li.note .answer_content {
+
+				}
+
+				ol.notes li.note blockquote {
+			    border-color: #eee;
+			    padding: 4px 10px;
+			    margin: 10px 0px 0px 25px;
+				}
+
+					ol.notes li.note blockquote a {
+				    text-decoration: none;
+					}
+					
+				ol.notes li.note a:hover {
+					text-decoration: underline;
+				}
+				
+    ul#likes {
+	    border-bottom: 1px solid #202020;
+	    list-style-type: none;
+	    margin: 0 0 0 0;
+	    padding: 0 0 20px 0;
+	    overflow: hidden;
+	  }
+
+	  li.like_post {
+	    width: 150px;		    
+      font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+      font-size: 10px;list-style-type: none;
+      margin: 0;
+	    padding: 0 56px 0 0; 
+	    float: left;
+	  }
+
+	    li.like_post:last-child {
+	      padding: 0;
+	      float: right;
+	    }
+
+	    li.like_post img {
+	      max-width: 146px;
+	      border: 1px solid #8E8E8E;
+  			padding: 1px;
+	    }
+
+	    li.like_post blockquote {
+	      margin: 0;
+	      padding: 0 0 0 10px;
+	      border-left: 1px solid #eee;
+	    }
+
+	    li.like_post .like_link a {
+	      font-size: 12px;
+	      color: #0F6F9F;
+	    }
+
+	      li.like_post .like_link a:hover {
+		      color: #D00000;
+		    }
+
+		  li.like_post .like_title {
+		    font-size: 12px;
+		  }
+
+	    li.like_post a {
+	      color: #202020;
+	    }
+
+	    li.like_post ol,
+	    li.like_post ul {
+	      margin: 0 0 0 15px;
+	      padding: 0;
+	    }
+
+      li.like_post .post_info_bottom {
+        margin: 10px 0 0 0;
+        display: block !important;
+      }
+
+        li.like_post .post_info_bottom a {
+          color: #0F6F9F;
+          text-decoration: none;
+        }
+
+          li.like_post .post_info_bottom a:hover {
+            color: #D00000;
+          }
+
+    a.arrow.back,
+    a.arrow.forward {
+      display: none !important;
+    }
+    
+    a.install {
+        width: 96px;
+        height: 20px;
+        background: url(http://static.tumblr.com/thpaaos/dHHkt0jor/install_theme.png);
+        display: block;
+        position: absolute;
+        top: 26px;
+        right: 3px;
+    }
+			
+				
+	</style>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+  <script src="http://static.tumblr.com/thpaaos/78Jks5gyt/carousel.js" type="text/javascript"></script>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=lizclimo" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="comics,liz climo,animals,shark week,lizclimo" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Hi, I&#039;m Liz" /><meta property="og:url" content="http://lizclimo.tumblr.com/?og=1" /><meta property="og:description" content="I can draw (sort of) &copy; Liz Climo 2011" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_44b0e39c0c7a_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=lizclimo" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=lizclimo" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="lizclimo" /><meta name="twitter:description" content="I can draw (sort of)  &copy; Liz Climo 2011
+
+" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=lizclimo&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=lizclimo&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=lizclimo&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+    <a href="http://www.tumblr.com/theme/467" class="install"></a>
+	<div id="content">
+		<div id="header">
+			<div id="top">
+				<a href="/" class="title">Hi, I'm Liz</a>
+				
+				<div class="buttons">
+					<a href="http://lizclimo.tumblr.com/rss" class="button">RSS</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/archive" class="button">Archive</a>
+				</div>
+				
+				<div style="clear: both"></div>
+			</div>
+			<div id="bottom">
+				I can draw (sort of)  © Liz Climo 2011&nbsp;&nbsp;
+				
+                	<br/><br/>
+                    <a href="/facebook">Facebook</a>&nbsp;&nbsp;<a href="/twitter">Twitter</a>&nbsp;&nbsp;<a href="/about">About</a>&nbsp;&nbsp;<a href="/shop">Shop</a>&nbsp;&nbsp;<a href="/Books">Books</a>&nbsp;&nbsp;
+                
+                
+                
+			</div>
+		</div>
+		
+		
+		<div id="newDay">
+		    
+			<div class="date">
+				September 22, 2014
+			</div>
+			
+			
+			<div class="post">
+				
+
+				
+				
+				
+					<a href="http://lizclimo.tumblr.com/image/98178336874"><img src="http://33.media.tumblr.com/9836291dc08c18fa8e86168d96e0d5d6/tumblr_ncbr0oOAHK1r5ml59o1_r1_1280.jpg" alt="don&amp;#8217;t litter, it scares the sharks"></a>
+					<p><p>don&#8217;t litter, it scares the sharks</p></p>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="bottom">
+				    
+					<a href="http://lizclimo.tumblr.com/post/98178336874/dont-litter-it-scares-the-sharks" class="time">6:41pm</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					URL:  <a href="http://tmblr.co/ZVgbcw1RRueXg">http://tmblr.co/ZVgbcw1RRueXg</a><br />
+					
+					
+					
+  					
+  					<div class="notes">(<a href="http://lizclimo.tumblr.com/post/98178336874/dont-litter-it-scares-the-sharks">Notes: 34,942</a>)</div>&nbsp;&nbsp;
+  					
+  				    
+					
+					<div class="tags"><span style="text-transform:uppercase;">Filed under</span>: <a href="http://lizclimo.tumblr.com/tagged/liz-climo">liz climo</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/comics">comics</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/animals">animals</a>&nbsp;</div>
+					
+				</div>
+				<div class="clear"></div>
+				
+
+        
+		</div>
+		
+		<div id="newDay">
+		    
+			<div class="date">
+				September 22, 2014
+			</div>
+			
+			
+			<div class="post">
+				
+
+				
+				
+				
+					<a href="http://lizclimo.tumblr.com/image/98147277774"><img src="http://31.media.tumblr.com/35e5993bbaec7d20e3ca5623ecfb21e7/tumblr_ncb5loRF1D1r5ml59o1_1280.jpg" alt="ANNND the Winner of the custom print for the&nbsp;pre-order contest is&amp;#8230;&amp;#8230;&amp;#8230;&amp;#8230;.
+Kelsey Tekippe of Ames, Iowa!&nbsp;
+Thanks SO much to everyone who pre-ordered the book&nbsp;&amp;amp; sent in your proof of purchase! I will be printing and sending out your postcards this week, so hopefully you&amp;#8217;ll all get them pretty soon.&nbsp;
+XO!"></a>
+					<p><p>ANNND the Winner of the custom print for the <a href="http://lizclimo.tumblr.com/post/94981306500/you-guys-like-prints-good-news-i-want-to-make">pre-order</a> contest is&#8230;&#8230;&#8230;&#8230;.</p>
+<p>Kelsey Tekippe of Ames, Iowa! </p>
+<p>Thanks SO much to everyone who pre-ordered the <a href="http://lizclimo.tumblr.com/post/76459783756/guys-look-whats-available-for-pre-order-on">book</a> &amp; sent in your proof of purchase! I will be printing and sending out your postcards this week, so hopefully you&#8217;ll all get them pretty soon. </p>
+<p>XO!</p></p>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="bottom">
+				    
+					<a href="http://lizclimo.tumblr.com/post/98147277774/annnd-the-winner-of-the-custom-print-for" class="time">10:58am</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					URL:  <a href="http://tmblr.co/ZVgbcw1RQ29lE">http://tmblr.co/ZVgbcw1RQ29lE</a><br />
+					
+					
+					
+  					
+  					<div class="notes">(<a href="http://lizclimo.tumblr.com/post/98147277774/annnd-the-winner-of-the-custom-print-for">Notes: 285</a>)</div>&nbsp;&nbsp;
+  					
+  				    
+					
+					<div class="tags"><span style="text-transform:uppercase;">Filed under</span>: <a href="http://lizclimo.tumblr.com/tagged/Liz-Climo">Liz Climo</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/Comics">Comics</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/The-Little-World-of-Liz-Climo">The Little World of Liz Climo</a>&nbsp;</div>
+					
+				</div>
+				<div class="clear"></div>
+				
+
+        
+		</div>
+		
+		<div id="newDay">
+		    
+			<div class="date">
+				September 19, 2014
+			</div>
+			
+			
+			<div class="post">
+				
+
+				
+				
+				
+					<a href="http://lizclimo.tumblr.com/image/97910256364"><img src="http://33.media.tumblr.com/ef2db56df07cfeba80465c666f98ea2c/tumblr_nc60s3Fp5n1r5ml59o1_1280.jpg" alt="Today (9/19) is the last day to pre-order my new book The Little World of Liz Climo&nbsp;and receive an exclusive signed 3x5 postcard (up to 3)! Just&nbsp;send proof of purchase to info@kayepublicity.com, and I&amp;#8217;ll send it over to you! ALSO - one lucky winner will receive a CUSTOM print! You can pre-order from Barnes and Noble, Indie Bound, Books a Million&nbsp;and Amazon! OR you can order &amp;amp; pickup from Diesel or Vroman&rsquo;s bookstores in Los Angeles, where I will be having signing/launch parties this Fall. Thanks so much everyone, those of you buying the book or just visiting this page - I love you all!&nbsp;
+***Sorry, US and Canada only. If you&rsquo;ve already pre-ordered, please submit your proof of purchase to&nbsp;info@kayepublicity.com.&nbsp;"></a>
+					<p><p>Today <strong>(9/19)</strong> is the last day to pre-order my new book <em>The Little World of Liz Climo</em> and receive an exclusive signed 3x5 postcard (up to 3)! Just <span>send proof of purchase to <strong>info@kayepublicity.com</strong>, and I&#8217;ll send it over to you! ALSO - o</span><span>ne lucky winner will receive a CUSTOM print! You can pre-order from <a href="http://www.barnesandnoble.com/w/the-little-world-of-liz-climo-liz-climo/1118232706?ean=9780762452385">Barnes and Noble</a>, <a href="http://www.indiebound.org/book/9780762452385">Indie Bound</a>, <a href="http://www.booksamillion.com/product/9780762452385">Books a Million</a> and <a href="http://www.amazon.com/The-Little-World-Liz-Climo/dp/0762452382">Amazon</a>! OR you can order &amp; pickup from <a href="http://www.dieselbookstore.com/event/brentwood-liz-climo-panel-discussion-moderated-kurt-mattila-followed-signing-little-wordl-liz-">Diesel</a> or <a href="http://vromansbookstore.com/liz-climo2014">Vroman’s</a> bookstores in Los Angeles, where I will be having signing/launch parties this Fall. Thanks so much everyone, those of you buying the book or just visiting this page - I love you all! </span></p>
+<p><span>***</span><em>Sorry, US and Canada only. If you’ve already pre-ordered, please submit your proof of purchase to <a href="mailto:info@kayepublicity.com">info@kayepublicity.com</a>. </em></p></p>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="bottom">
+				    
+					<a href="http://lizclimo.tumblr.com/post/97910256364/today-9-19-is-the-last-day-to-pre-order-my-new" class="time">4:26pm</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					URL:  <a href="http://tmblr.co/ZVgbcw1RBv-Bi">http://tmblr.co/ZVgbcw1RBv-Bi</a><br />
+					
+					
+					
+  					
+  					<div class="notes">(<a href="http://lizclimo.tumblr.com/post/97910256364/today-9-19-is-the-last-day-to-pre-order-my-new">Notes: 785</a>)</div>&nbsp;&nbsp;
+  					
+  				    
+					
+					<div class="tags"><span style="text-transform:uppercase;">Filed under</span>: <a href="http://lizclimo.tumblr.com/tagged/liz-climo">liz climo</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/the-little-world-of-liz-climo">the little world of liz climo</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/comics">comics</a>&nbsp;</div>
+					
+				</div>
+				<div class="clear"></div>
+				
+
+        
+		</div>
+		
+		<div id="newDay">
+		    
+			<div class="date">
+				September 18, 2014
+			</div>
+			
+			
+			<div class="post">
+				
+
+				
+				
+				
+					<a href="http://lizclimo.tumblr.com/image/97820898354"><img src="http://38.media.tumblr.com/fd447e6b88ae134d38151f814850f89c/tumblr_n9sxgpvkv01r5ml59o1_1280.jpg" alt="One more day to do this! I wanna send you stuff!!!&nbsp;
+
+lizclimo:
+
+YOU GUYS LIKE PRINTS?!?
+Good news! I want to make some for you. Simply pre-order my new book&nbsp;The Little World of Liz&nbsp;between&nbsp;8/18-9/19&nbsp;and send proof of purchase to&nbsp;info@kayepublicity.com. Everyone who pre-orders will receive an exclusive signed 3x5 postcard (up to 3) and one lucky winner will receive a CUSTOM print! You can pre-order from Barnes and Noble, Indie Bound, Books a Million&nbsp;&nbsp;and Amazon! OR you can order &amp;amp; pickup from Diesel or&nbsp;Vroman&rsquo;s bookstores in Los Angeles, where I will be having signing/launch parties this Fall (more info about that coming soon).&nbsp;
+***Sorry, US and Canada only. If you&rsquo;ve already pre-ordered, please submit your proof of purchase to&nbsp;info@kayepublicity.com.&nbsp;
+"></a>
+					<p><p>One more day to do this! I wanna send you stuff!!! </p>
+
+<p>l<a class="tumblr_blog" href="http://lizclimo.tumblr.com/post/94981306500/you-guys-like-prints-good-news-i-want-to-make">izclimo</a>:</p>
+<blockquote>
+<p><span>YOU GUYS LIKE PRINTS?!?</span></p>
+<p><span>Good news! I want to make some for you. Simply pre-order my new book <em>The Little World of Liz</em> between </span><span>8/18-9/19 </span><span>and send proof of purchase to </span><a href="mailto:info@kayepublicity.com">info@kayepublicity.com</a><span>. Everyone who pre-orders will receive an exclusive signed 3x5 postcard (up to 3) and one lucky winner will receive a CUSTOM print! You can pre-order from <a href="http://www.barnesandnoble.com/w/the-little-world-of-liz-climo-liz-climo/1118232706?ean=9780762452385">Barnes and Noble</a>, <a href="http://www.indiebound.org/book/9780762452385">Indie Bound</a>, <a href="http://www.booksamillion.com/product/9780762452385">Books a Million </a> and <a href="http://www.amazon.com/The-Little-World-Liz-Climo/dp/0762452382">Amazon</a>! OR you can order &amp; pickup from <a href="http://www.dieselbookstore.com/book/9780762452385">Diesel</a> or </span><span><a href="http://www.vromansbookstore.com/book/9780762452385">Vroman’s</a> bookstores in Los Angeles, where I will be having signing/launch parties this Fall (more info about that coming soon). </span></p>
+<p>***<em>Sorry, US and Canada only. If you’ve already pre-ordered, please submit your proof of purchase to <span></span><a href="mailto:info@kayepublicity.com">info@kayepublicity.com</a>. </em></p>
+</blockquote><p>(via <a href='http://newleafliterary.tumblr.com/post/97585580687/lizclimo-you-guys-like-prints-good-news-i'>newleafliterary</a>)</p></p>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="bottom">
+				    
+					<a href="http://lizclimo.tumblr.com/post/97820898354/one-more-day-to-do-this-i-wanna-send-you" class="time">1:31pm</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					URL:  <a href="http://tmblr.co/ZVgbcw1R6b7Go">http://tmblr.co/ZVgbcw1R6b7Go</a><br />
+					
+					
+					
+  					
+  					<div class="notes">(<a href="http://lizclimo.tumblr.com/post/97820898354/one-more-day-to-do-this-i-wanna-send-you">Notes: 1,988</a>)</div>&nbsp;&nbsp;
+  					
+  				    
+					
+				</div>
+				<div class="clear"></div>
+				
+
+        
+		</div>
+		
+		<div id="newDay">
+		    
+			<div class="date">
+				September 17, 2014
+			</div>
+			
+			
+			<div class="post">
+				
+
+				
+				
+				
+					<a href="http://lizclimo.tumblr.com/image/97763483984"><img src="http://33.media.tumblr.com/829b7fd6c15d1281ae3705fa6d2e52fe/tumblr_nc2hn12ekv1r5ml59o1_1280.jpg" alt="impressive&nbsp;"></a>
+					<p><p>impressive </p></p>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="bottom">
+				    
+					<a href="http://lizclimo.tumblr.com/post/97763483984/impressive" class="time">6:40pm</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					URL:  <a href="http://tmblr.co/ZVgbcw1R3A65G">http://tmblr.co/ZVgbcw1R3A65G</a><br />
+					
+					
+					
+  					
+  					<div class="notes">(<a href="http://lizclimo.tumblr.com/post/97763483984/impressive">Notes: 25,654</a>)</div>&nbsp;&nbsp;
+  					
+  				    
+					
+					<div class="tags"><span style="text-transform:uppercase;">Filed under</span>: <a href="http://lizclimo.tumblr.com/tagged/lizclimo">lizclimo</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/comics">comics</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/animals">animals</a>&nbsp;</div>
+					
+				</div>
+				<div class="clear"></div>
+				
+
+        
+		</div>
+		
+		<div id="newDay">
+		    
+			<div class="date">
+				September 12, 2014
+			</div>
+			
+			
+			<div class="post">
+				
+
+				
+				<a href="http://www.neatorama.com/2014/09/11/10-Wonderfully-Adorable-Cartoons-by-Liz-Climo/" class="h2" >10 Wonderfully Adorable Cartoons by Liz Climo</a>
+				<p><p><a class="tumblr_blog" href="http://newleafliterary.tumblr.com/post/97313181224/10-wonderfully-adorable-cartoons-by-liz-climo">newleafliterary</a>:</p>
+<blockquote>
+<p>This is neat: Liz Climo, a character artist/storyboard revisionist on The Simpsons and a wonderful cartoonist, to boot, is launching her new book The Little World of Liz later this month. If you pre-order the book, you can get an exclusive signed 3x5 postcard with a grand prize winner getting a custom print from Liz. Today she is featured on Neatorama—check out 10 of her wonderful cartoons here!</p>
+</blockquote></p>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="bottom">
+				    
+					<a href="http://lizclimo.tumblr.com/post/97332615069/10-wonderfully-adorable-cartoons-by-liz-climo" class="time">6:27pm</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					URL:  <a href="http://tmblr.co/ZVgbcw1QfUTUT">http://tmblr.co/ZVgbcw1QfUTUT</a><br />
+					
+					
+					
+  					
+  					<div class="notes">(<a href="http://lizclimo.tumblr.com/post/97332615069/10-wonderfully-adorable-cartoons-by-liz-climo">Notes: 356</a>)</div>&nbsp;&nbsp;
+  					
+  				    
+					
+				</div>
+				<div class="clear"></div>
+				
+
+        
+		</div>
+		
+		<div id="newDay">
+		    
+			<div class="date">
+				September 12, 2014
+			</div>
+			
+			
+			<div class="post">
+				
+
+				
+				
+				
+					<a href="http://lizclimo.tumblr.com/image/97332466999"><img src="http://38.media.tumblr.com/d1d31c801c930cb0d5932c7cb3290565/tumblr_nbt7lnBcxw1r5ml59o1_r1_1280.jpg" alt="seems legit"></a>
+					<p><p>seems legit</p></p>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="bottom">
+				    
+					<a href="http://lizclimo.tumblr.com/post/97332466999/seems-legit" class="time">6:24pm</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					URL:  <a href="http://tmblr.co/ZVgbcw1QfTvKt">http://tmblr.co/ZVgbcw1QfTvKt</a><br />
+					
+					
+					
+  					
+  					<div class="notes">(<a href="http://lizclimo.tumblr.com/post/97332466999/seems-legit">Notes: 31,041</a>)</div>&nbsp;&nbsp;
+  					
+  				    
+					
+					<div class="tags"><span style="text-transform:uppercase;">Filed under</span>: <a href="http://lizclimo.tumblr.com/tagged/liz-climo">liz climo</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/rory-the-dinosaur">rory the dinosaur</a>&nbsp;</div>
+					
+				</div>
+				<div class="clear"></div>
+				
+
+        
+		</div>
+		
+		<div id="newDay">
+		    
+			<div class="date">
+				September 7, 2014
+			</div>
+			
+			
+			<div class="post">
+				
+
+				
+				
+				
+					<a href="http://lizclimo.tumblr.com/image/96882655224"><img src="http://33.media.tumblr.com/bd70390e68b5642ec3eb451f56e32da7/tumblr_nbjehgtUMc1r5ml59o1_r1_1280.jpg" alt="more fun than taking turns&nbsp;"></a>
+					<p><p>more fun than taking turns </p></p>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="bottom">
+				    
+					<a href="http://lizclimo.tumblr.com/post/96882655224/more-fun-than-taking-turns" class="time">11:17am</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					URL:  <a href="http://tmblr.co/ZVgbcw1QEf--u">http://tmblr.co/ZVgbcw1QEf--u</a><br />
+					
+					
+					
+  					
+  					<div class="notes">(<a href="http://lizclimo.tumblr.com/post/96882655224/more-fun-than-taking-turns">Notes: 51,402</a>)</div>&nbsp;&nbsp;
+  					
+  				    
+					
+					<div class="tags"><span style="text-transform:uppercase;">Filed under</span>: <a href="http://lizclimo.tumblr.com/tagged/comics">comics</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/liz-climo">liz climo</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/animals">animals</a>&nbsp;</div>
+					
+				</div>
+				<div class="clear"></div>
+				
+
+        
+		</div>
+		
+		<div id="newDay">
+		    
+			<div class="date">
+				September 4, 2014
+			</div>
+			
+			
+			<div class="post">
+				
+
+				
+				
+				
+					<a href="http://lizclimo.tumblr.com/image/96628686394"><img src="http://33.media.tumblr.com/099ce75aeb32b6d41d601ffa2057233d/tumblr_nbdyzoLITI1r5ml59o1_r1_1280.jpg" alt="those are big&nbsp;"></a>
+					<p><p>those are big </p></p>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="bottom">
+				    
+					<a href="http://lizclimo.tumblr.com/post/96628686394/those-are-big" class="time">12:55pm</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					URL:  <a href="http://tmblr.co/ZVgbcw1P-XBuw">http://tmblr.co/ZVgbcw1P-XBuw</a><br />
+					
+					
+					
+  					
+  					<div class="notes">(<a href="http://lizclimo.tumblr.com/post/96628686394/those-are-big">Notes: 12,448</a>)</div>&nbsp;&nbsp;
+  					
+  				    
+					
+					<div class="tags"><span style="text-transform:uppercase;">Filed under</span>: <a href="http://lizclimo.tumblr.com/tagged/liz-climo">liz climo</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/comics">comics</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/animals">animals</a>&nbsp;</div>
+					
+				</div>
+				<div class="clear"></div>
+				
+
+        
+		</div>
+		
+		<div id="newDay">
+		    
+			<div class="date">
+				August 26, 2014
+			</div>
+			
+			
+			<div class="post">
+				
+
+				
+				
+				
+					<a href="http://lizclimo.tumblr.com/image/95848766539"><img src="http://38.media.tumblr.com/44a0dbc966d75a274aedfce9c13f7ca6/tumblr_naxkvpWJlL1r5ml59o1_1280.jpg" alt="good thinkin"></a>
+					<p><p>good thinkin</p></p>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="bottom">
+				    
+					<a href="http://lizclimo.tumblr.com/post/95848766539/good-thinkin" class="time">4:28pm</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					URL:  <a href="http://tmblr.co/ZVgbcw1PH21nB">http://tmblr.co/ZVgbcw1PH21nB</a><br />
+					
+					
+					
+  					
+  					<div class="notes">(<a href="http://lizclimo.tumblr.com/post/95848766539/good-thinkin">Notes: 30,611</a>)</div>&nbsp;&nbsp;
+  					
+  				    
+					
+					<div class="tags"><span style="text-transform:uppercase;">Filed under</span>: <a href="http://lizclimo.tumblr.com/tagged/liz-climo">liz climo</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/comics">comics</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/animals">animals</a>&nbsp;</div>
+					
+				</div>
+				<div class="clear"></div>
+				
+
+        
+		</div>
+		
+		<div id="newDay">
+		    
+			<div class="date">
+				August 22, 2014
+			</div>
+			
+			
+			<div class="post">
+				
+
+				
+				<a href="http://the-toast.net/2014/08/21/on-being-a-cartoonist/" class="h2" >On Being a Cartoonist by Liz Climo</a>
+				<p><p>A guest piece I did for The Toast!</p>
+<p><a class="tumblr_blog" href="http://newleafliterary.tumblr.com/post/95480578233/on-being-a-cartoonist-by-liz-climo">newleafliterary</a>:</p>
+<blockquote>
+<blockquote class="link_og_blockquote">
+<div><em>Liz Climo on her creative process, and what it’s like, for her, at least, to be a cartoonist.</em></div>
+</blockquote>
+<p>Everyone, even non-artists like me, should read this great guest piece Liz Climo wrote for <em>The Toast. </em>Funny and inspirational: the perfect combo.</p>
+</blockquote></p>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="bottom">
+				    
+					<a href="http://lizclimo.tumblr.com/post/95495948939/on-being-a-cartoonist-by-liz-climo" class="time">6:56pm</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					URL:  <a href="http://tmblr.co/ZVgbcw1Oy08gB">http://tmblr.co/ZVgbcw1Oy08gB</a><br />
+					
+					
+					
+  					
+  					<div class="notes">(<a href="http://lizclimo.tumblr.com/post/95495948939/on-being-a-cartoonist-by-liz-climo">Notes: 318</a>)</div>&nbsp;&nbsp;
+  					
+  				    
+					
+				</div>
+				<div class="clear"></div>
+				
+
+        
+		</div>
+		
+		<div id="newDay">
+		    
+			<div class="date">
+				August 17, 2014
+			</div>
+			
+			
+			<div class="post">
+				
+
+				
+				
+				
+					<a href="http://lizclimo.tumblr.com/image/94981306500"><img src="http://38.media.tumblr.com/fd447e6b88ae134d38151f814850f89c/tumblr_n9sxgpvkv01r5ml59o1_1280.jpg" alt="YOU GUYS LIKE PRINTS?!?
+Good news! I want to make some for you. Simply pre-order my new book&nbsp;The Little World of Liz&nbsp;between&nbsp;8/18-9/19&nbsp;and send proof of purchase to&nbsp;info@kayepublicity.com. Everyone who pre-orders will receive an exclusive signed 3x5 postcard (up to 3) and one lucky winner will receive a CUSTOM print! You can pre-order from Barnes and Noble, Indie Bound, Books a Million&nbsp;&nbsp;and Amazon! OR you can order &amp;amp; pickup from Diesel or&nbsp;Vroman&amp;#8217;s bookstores in Los Angeles, where I will be having signing/launch parties this Fall (more info about that coming soon).&nbsp;
+***Sorry, US and Canada only. If you&amp;#8217;ve already pre-ordered, please submit your proof of purchase to&nbsp;info@kayepublicity.com.&nbsp;"></a>
+					<p><p><span>YOU GUYS LIKE PRINTS?!?</span></p>
+<p><span>Good news! I want to make some for you. Simply pre-order my new book <em>The Little World of Liz</em> between </span><span>8/18-9/19 </span><span>and send proof of purchase to </span><a href="mailto:info@kayepublicity.com" target="_blank">info@kayepublicity.com</a><span>. Everyone who pre-orders will receive an exclusive signed 3x5 postcard (up to 3) and one lucky winner will receive a CUSTOM print! You can pre-order from <a href="http://www.barnesandnoble.com/w/the-little-world-of-liz-climo-liz-climo/1118232706?ean=9780762452385">Barnes and Noble</a>, <a href="http://www.indiebound.org/book/9780762452385">Indie Bound</a>, <a href="http://www.booksamillion.com/product/9780762452385">Books a Million </a> and <a href="http://www.amazon.com/The-Little-World-Liz-Climo/dp/0762452382">Amazon</a>! OR you can order &amp; pickup from <a href="http://www.dieselbookstore.com/book/9780762452385">Diesel</a> or </span><span><a href="http://www.vromansbookstore.com/book/9780762452385">Vroman&#8217;s</a> bookstores in Los Angeles, where I will be having signing/launch parties this Fall (more info about that coming soon). </span></p>
+<p>***<em>Sorry, US and Canada only. If you&#8217;ve already pre-ordered, please submit your proof of purchase to <span></span><a href="mailto:info@kayepublicity.com" target="_blank">info@kayepublicity.com</a>. </em></p></p>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="bottom">
+				    
+					<a href="http://lizclimo.tumblr.com/post/94981306500/you-guys-like-prints-good-news-i-want-to-make" class="time">3:00am</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					URL:  <a href="http://tmblr.co/ZVgbcw1OTKxY4">http://tmblr.co/ZVgbcw1OTKxY4</a><br />
+					
+					
+					
+  					
+  					<div class="notes">(<a href="http://lizclimo.tumblr.com/post/94981306500/you-guys-like-prints-good-news-i-want-to-make">Notes: 1,988</a>)</div>&nbsp;&nbsp;
+  					
+  				    
+					
+				</div>
+				<div class="clear"></div>
+				
+
+        
+		</div>
+		
+		<div id="newDay">
+		    
+			<div class="date">
+				August 14, 2014
+			</div>
+			
+			
+			<div class="post">
+				
+
+				
+				
+				
+					<a href="http://lizclimo.tumblr.com/image/94720994270"><img src="http://38.media.tumblr.com/25fbf90e3f3b9d92dc7ff6a8369bc41e/tumblr_na9wj2Beqa1r5ml59o1_1280.jpg" alt="megalodon!&nbsp;"></a>
+					<p><p>megalodon! </p></p>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="bottom">
+				    
+					<a href="http://lizclimo.tumblr.com/post/94720994270/megalodon" class="time">9:00am</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					URL:  <a href="http://tmblr.co/ZVgbcw1ODpwlU">http://tmblr.co/ZVgbcw1ODpwlU</a><br />
+					
+					
+					
+  					
+  					<div class="notes">(<a href="http://lizclimo.tumblr.com/post/94720994270/megalodon">Notes: 23,571</a>)</div>&nbsp;&nbsp;
+  					
+  				    
+					
+					<div class="tags"><span style="text-transform:uppercase;">Filed under</span>: <a href="http://lizclimo.tumblr.com/tagged/liz-climo">liz climo</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/comics">comics</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/shark-week">shark week</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/megalodon">megalodon</a>&nbsp;</div>
+					
+				</div>
+				<div class="clear"></div>
+				
+
+        
+		</div>
+		
+		<div id="newDay">
+		    
+			<div class="date">
+				August 13, 2014
+			</div>
+			
+			
+			<div class="post">
+				
+
+				
+				
+				
+					<a href="http://lizclimo.tumblr.com/image/94647749149"><img src="http://31.media.tumblr.com/b4fd9acf84aad20e421dd9b8ecbf5390/tumblr_na9ckqXVr61r5ml59o1_1280.jpg" alt="shark attack&nbsp;"></a>
+					<p><p>shark attack </p></p>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="bottom">
+				    
+					<a href="http://lizclimo.tumblr.com/post/94647749149/shark-attack" class="time">2:26pm</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					URL:  <a href="http://tmblr.co/ZVgbcw1O9SWeT">http://tmblr.co/ZVgbcw1O9SWeT</a><br />
+					
+					
+					
+  					
+  					<div class="notes">(<a href="http://lizclimo.tumblr.com/post/94647749149/shark-attack">Notes: 17,698</a>)</div>&nbsp;&nbsp;
+  					
+  				    
+					
+					<div class="tags"><span style="text-transform:uppercase;">Filed under</span>: <a href="http://lizclimo.tumblr.com/tagged/shark-week">shark week</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/liz-climo">liz climo</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/comics">comics</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/tiger-shark">tiger shark</a>&nbsp;</div>
+					
+				</div>
+				<div class="clear"></div>
+				
+
+        
+		</div>
+		
+		<div id="newDay">
+		    
+			<div class="date">
+				August 12, 2014
+			</div>
+			
+			
+			<div class="post">
+				
+
+				
+				
+				
+					<a href="http://lizclimo.tumblr.com/image/94564299999"><img src="http://33.media.tumblr.com/9fe7e810c5f658faf716bb30c522d700/tumblr_na7pb4bhEP1r5ml59o1_1280.jpg" alt="back to school!&nbsp;"></a>
+					<p><p>back to school! </p></p>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="bottom">
+				    
+					<a href="http://lizclimo.tumblr.com/post/94564299999/back-to-school" class="time">5:06pm</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					URL:  <a href="http://tmblr.co/ZVgbcw1O4UBJV">http://tmblr.co/ZVgbcw1O4UBJV</a><br />
+					
+					
+					
+  					
+  					<div class="notes">(<a href="http://lizclimo.tumblr.com/post/94564299999/back-to-school">Notes: 19,465</a>)</div>&nbsp;&nbsp;
+  					
+  				    
+					
+					<div class="tags"><span style="text-transform:uppercase;">Filed under</span>: <a href="http://lizclimo.tumblr.com/tagged/lizclimo">lizclimo</a>&nbsp;<a href="http://lizclimo.tumblr.com/tagged/comics">comics</a>&nbsp;</div>
+					
+				</div>
+				<div class="clear"></div>
+				
+
+        
+		</div>
+		
+		
+		<div id="pagination">
+			<div class="rss">RSS feed: <a href="http://lizclimo.tumblr.com/rss">http://lizclimo.tumblr.com/rss</a></div>
+			
+			1 <em>of</em> 20
+			 
+			<a href="/page/2" class="button">Next page</a>
+			
+			
+		</div>
+		
+		
+		
+		<div style="margin: 20px 0 10px 0; overflow: hidden">
+		    <em><strong>Liked posts on Tumblr:</strong></em>
+		    <a href="http://www.tumblr.com/liked/by/lizclimo" style="color: #202020; font-weight: bold; text-decoration: none; float: right;">More liked posts &raquo;</a>
+		</div>
+		
+	  <div class="infiniteCarousel" style="position: relative">
+        <div class="wrapper">
+	      <ul id="likes"><li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://www.navk.ca/post/97771233211">Photo</a> <span class="via">via</span> <a href="http://www.navk.ca/">navk</a></div><a href="http://www.navk.ca/post/97771233211" class="photo_link"><img class="like_photo" alt=""
+                                src="http://33.media.tumblr.com/95001ca7a66f861d88d0cce1c82234f3/tumblr_nc2mvjWcn71qdy1zqo1_250.jpg"/></a><div class="like_below_photo"></div><div class="like_caption"><p>Yes, I’m a total sucker for Liz Climo cartoons so I got the book. Totally worth it.</p></div><div class="post_info_bottom" style="display:none;"><a href="http://www.navk.ca/post/97771233211">Photo</a> <span class="via">via</span> <a href="http://www.navk.ca/">navk</a></div></li>
+<li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://doodlesanddroolpuddles.tumblr.com/post/97913516150/you-guys-this-was-delivered-to-me-today-and-i">Photo</a> <span class="via">via</span> <a href="http://doodlesanddroolpuddles.tumblr.com/">doodlesanddroolpuddles</a></div><a href="http://doodlesanddroolpuddles.tumblr.com/post/97913516150/you-guys-this-was-delivered-to-me-today-and-i" class="photo_link"><img class="like_photo" alt=""
+                                src="http://33.media.tumblr.com/0f0c27d260f5521aa3caab5a6f8e7460/tumblr_nc62w4nWQ71qz8yrro1_250.jpg"/></a><div class="like_below_photo"></div><div class="like_caption"><p>You guys! This was delivered to me today and I cannot describe to you how excited I am right now. <a href="http://tmblr.co/mY4LmRN7qCDtxJ7o4qv_pEw">lizclimo</a> is wonderful and you should definitely...</p></div><div class="post_info_bottom" style="display:none;"><a href="http://doodlesanddroolpuddles.tumblr.com/post/97913516150/you-guys-this-was-delivered-to-me-today-and-i">Photo</a> <span class="via">via</span> <a href="http://doodlesanddroolpuddles.tumblr.com/">doodlesanddroolpuddles</a></div></li>
+<li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://gemmacorrell.tumblr.com/post/97913521918/via-four-eyes-comic-strip-on-gocomics-com">Photo</a> <span class="via">via</span> <a href="http://gemmacorrell.tumblr.com/">gemmacorrell</a></div><a href="http://gemmacorrell.tumblr.com/post/97913521918/via-four-eyes-comic-strip-on-gocomics-com" class="photo_link"><img class="like_photo" alt=""
+                                src="http://38.media.tumblr.com/f85be0a06b8228c44395c0d48ba362cc/tumblr_nc62waGSdC1qhlsrfo1_250.gif"/></a><div class="like_below_photo"></div><div class="like_caption"><p>(via <a href="http://www.gocomics.com/four-eyes/2014/09/19#.VBycH279O9x.tumblr" target="_blank">Four Eyes Comic Strip on GoComics.com</a>)</p></div><div class="post_info_bottom" style="display:none;"><a href="http://gemmacorrell.tumblr.com/post/97913521918/via-four-eyes-comic-strip-on-gocomics-com">Photo</a> <span class="via">via</span> <a href="http://gemmacorrell.tumblr.com/">gemmacorrell</a></div></li>
+<li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://michaeldantedimartino.tumblr.com/post/97615789525/the-cake-topper-from-my-wedding-this-past-weekend">Photo</a> <span class="via">via</span> <a href="http://michaeldantedimartino.tumblr.com/">michaeldantedimartino</a></div><a href="http://michaeldantedimartino.tumblr.com/post/97615789525/the-cake-topper-from-my-wedding-this-past-weekend" class="photo_link"><img class="like_photo" alt=""
+                                src="http://33.media.tumblr.com/30fe29a75a6e9ffcf0498c1a3b7d5383/tumblr_nbz23jXxy31rz68g3o1_250.jpg"/></a><div class="like_below_photo"></div><div class="like_caption"><p>The cake topper from my wedding this past weekend. With a little tribute to #aang.</p></div><div class="post_info_bottom" style="display:none;"><a href="http://michaeldantedimartino.tumblr.com/post/97615789525/the-cake-topper-from-my-wedding-this-past-weekend">Photo</a> <span class="via">via</span> <a href="http://michaeldantedimartino.tumblr.com/">michaeldantedimartino</a></div></li>
+<li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://theepicgmod.tumblr.com/post/96272680109/a-gmod-remake-of-a-cute-animal-comic-by-liz">Photo</a> <span class="via">via</span> <a href="http://theepicgmod.tumblr.com/">theepicgmod</a></div><a href="http://theepicgmod.tumblr.com/post/96272680109/a-gmod-remake-of-a-cute-animal-comic-by-liz" class="photo_link"><img class="like_photo" alt=""
+                                src="http://38.media.tumblr.com/4bca1db66cc7b61dabf112840b147e75/tumblr_nb6jfrtU2W1stzw8zo1_250.png"/></a><div class="like_below_photo"></div><div class="like_caption">
+<p>A Gmod remake of a cute animal comic by Liz Climo.</p>
+<p><a href="http://lizclimo.tumblr.com/post/29535045167/happy-shark-week">http://lizclimo.tumblr.com/post/29535045167/happy-shark-week</a></p>
+<p>Map: Gm_DdOcean.</p>
+</div><div class="post_info_bottom" style="display:none;"><a href="http://theepicgmod.tumblr.com/post/96272680109/a-gmod-remake-of-a-cute-animal-comic-by-liz">Photo</a> <span class="via">via</span> <a href="http://theepicgmod.tumblr.com/">theepicgmod</a></div></li>
+<li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://stream.pleated-jeans.com/post/95952706561/via">Photo</a> <span class="via">via</span> <a href="http://stream.pleated-jeans.com/">pleatedjeans</a></div><a href="http://stream.pleated-jeans.com/post/95952706561/via" class="photo_link"><img class="like_photo" alt=""
+                                src="http://33.media.tumblr.com/d10188b1be3f0a146829d916b9046629/tumblr_nazowrPcvO1qzcv7no1_250.jpg"/></a><div class="like_below_photo"></div><div class="like_caption"><p><a href="http://www.reddit.com/r/funny/comments/2eqhc2/damn_humidity/" target="_blank">via</a></p></div><div class="post_info_bottom" style="display:none;"><a href="http://stream.pleated-jeans.com/post/95952706561/via">Photo</a> <span class="via">via</span> <a href="http://stream.pleated-jeans.com/">pleatedjeans</a></div></li>
+<li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://bryankonietzko.tumblr.com/post/94507370997/thanks-for-sharing-your-gifts-and-taking-risks">Photo</a> <span class="via">via</span> <a href="http://bryankonietzko.tumblr.com/">bryankonietzko</a></div><a href="http://bryankonietzko.tumblr.com/post/94507370997/thanks-for-sharing-your-gifts-and-taking-risks" class="photo_link"><img class="like_photo" alt=""
+                                src="http://38.media.tumblr.com/5fa66de5c695bfa19af05a70fddeda8e/tumblr_na6hceNu7b1rptk5lo1_250.jpg"/></a><div class="like_below_photo"></div><div class="like_caption"><p>Thanks for sharing your gifts and taking risks, Robin. Mork delighted me as a kid, and Awakenings and Good Will Hunting moved me to tears as a young...</p></div><div class="post_info_bottom" style="display:none;"><a href="http://bryankonietzko.tumblr.com/post/94507370997/thanks-for-sharing-your-gifts-and-taking-risks">Photo</a> <span class="via">via</span> <a href="http://bryankonietzko.tumblr.com/">bryankonietzko</a></div></li>
+<li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://itsfunnyto.me/post/95005504565">Photo</a> <span class="via">via</span> <a href="http://itsfunnyto.me/">itsfunnytome</a></div><a href="http://itsfunnyto.me/post/95005504565" class="photo_link"><img class="like_photo" alt=""
+                                src="http://40.media.tumblr.com/a0a968510643273a871080d881edc93e/tumblr_n0timib3Qe1ryqxvio1_250.jpg"/></a><div class="like_below_photo"></div><div class="post_info_bottom" style="display:none;"><a href="http://itsfunnyto.me/post/95005504565">Photo</a> <span class="via">via</span> <a href="http://itsfunnyto.me/">itsfunnytome</a></div></li>
+</ul>
+	    </div>
+	  </div>
+	  
+		
+		
+		<div id="footer">
+			<form action="/search" method="get">
+			    <input type="text" class="text" name="q" value=""/>
+			    <input type="submit" value="Search"/>
+			</form>
+			Theme is <a href="http://www.tumblr.com/theme/467">The Atlantic</a> by <a href="http://www.petervidani.com">Peter Vidani</a> for <a href="http://www.tumblr.com">Tumblr</a>.
+	</div>
+	
+  
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://lizclimo.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847558&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbGl6Y2xpbW8udHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=AMKKDFGLFH&K=cbb4c52b7cdf71e0a1cce40ccbba0e383bc692ead59e239bc95f32ad87382a6d&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847558&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbGl6Y2xpbW8udHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=AMKKDFGLFH&K=009c2cc480ed54e3404b3126fdd722541648295448fd5083ce20352e0f862aea&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847558&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2xpemNsaW1vLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicG9zdGlkIjoiOTgxNzgzMzY4NzQiLCJibG9naWQiOiIzMzM4NDA5MyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTgxNDcyNzc3NzQiLCJibG9naWQiOiIzMzM4NDA5MyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTc5MTAyNTYzNjQiLCJibG9naWQiOiIzMzM4NDA5MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzMzM4NDA5MyIsInJvb3RfcG9zdGlkIjoiOTQ5ODEzMDY1MDAiLCJwb3N0aWQiOiI5NzgyMDg5ODM1NCIsImJsb2dpZCI6IjMzMzg0MDkzIiwic291cmNlIjozM30seyJwb3N0aWQiOiI5Nzc2MzQ4Mzk4NCIsImJsb2dpZCI6IjMzMzg0MDkzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjY1NzcwMzkwIiwicm9vdF9wb3N0aWQiOiI5NzMxMzE4MTIyNCIsInBvc3RpZCI6Ijk3MzMyNjE1MDY5IiwiYmxvZ2lkIjoiMzMzODQwOTMiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk3MzMyNDY2OTk5IiwiYmxvZ2lkIjoiMzMzODQwOTMiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2ODgyNjU1MjI0IiwiYmxvZ2lkIjoiMzMzODQwOTMiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2NjI4Njg2Mzk0IiwiYmxvZ2lkIjoiMzMzODQwOTMiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk1ODQ4NzY2NTM5IiwiYmxvZ2lkIjoiMzMzODQwOTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjU3NzAzOTAiLCJyb290X3Bvc3RpZCI6Ijk1NDgwNTc4MjMzIiwicG9zdGlkIjoiOTU0OTU5NDg5MzkiLCJibG9naWQiOiIzMzM4NDA5MyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTQ5ODEzMDY1MDAiLCJibG9naWQiOiIzMzM4NDA5MyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTQ3MjA5OTQyNzAiLCJibG9naWQiOiIzMzM4NDA5MyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTQ2NDc3NDkxNDkiLCJibG9naWQiOiIzMzM4NDA5MyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTQ1NjQyOTk5OTkiLCJibG9naWQiOiIzMzM4NDA5MyIsInNvdXJjZSI6MzN9XX0=&U=FJLPJCAENE&K=797fe89f3f17bb43e2681e59a6aae539fabbb7017294c5fb02c26e716d06ce89&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847558&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2xpemNsaW1vLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicG9zdGlkIjoiOTgxNzgzMzY4NzQiLCJibG9naWQiOiIzMzM4NDA5MyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTgxNDcyNzc3NzQiLCJibG9naWQiOiIzMzM4NDA5MyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTc5MTAyNTYzNjQiLCJibG9naWQiOiIzMzM4NDA5MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzMzM4NDA5MyIsInJvb3RfcG9zdGlkIjoiOTQ5ODEzMDY1MDAiLCJwb3N0aWQiOiI5NzgyMDg5ODM1NCIsImJsb2dpZCI6IjMzMzg0MDkzIiwic291cmNlIjozM30seyJwb3N0aWQiOiI5Nzc2MzQ4Mzk4NCIsImJsb2dpZCI6IjMzMzg0MDkzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjY1NzcwMzkwIiwicm9vdF9wb3N0aWQiOiI5NzMxMzE4MTIyNCIsInBvc3RpZCI6Ijk3MzMyNjE1MDY5IiwiYmxvZ2lkIjoiMzMzODQwOTMiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk3MzMyNDY2OTk5IiwiYmxvZ2lkIjoiMzMzODQwOTMiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2ODgyNjU1MjI0IiwiYmxvZ2lkIjoiMzMzODQwOTMiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2NjI4Njg2Mzk0IiwiYmxvZ2lkIjoiMzMzODQwOTMiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk1ODQ4NzY2NTM5IiwiYmxvZ2lkIjoiMzMzODQwOTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjU3NzAzOTAiLCJyb290X3Bvc3RpZCI6Ijk1NDgwNTc4MjMzIiwicG9zdGlkIjoiOTU0OTU5NDg5MzkiLCJibG9naWQiOiIzMzM4NDA5MyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTQ5ODEzMDY1MDAiLCJibG9naWQiOiIzMzM4NDA5MyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTQ3MjA5OTQyNzAiLCJibG9naWQiOiIzMzM4NDA5MyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTQ2NDc3NDkxNDkiLCJibG9naWQiOiIzMzM4NDA5MyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTQ1NjQyOTk5OTkiLCJibG9naWQiOiIzMzM4NDA5MyIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=FJLPJCAENE&K=f7a965fcdca62dfc219ccc9098c353851370476579114aaae4bc1f53a8d2813c&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:33384093,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2Flizclimo.tumblr.com%2F&amp;lang=en_US&amp;name=lizclimo&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_44b0e39c0c7a_64.png&amp;title=Hi%2C+I%26%23039%3Bm+Liz&amp;url=http%3A%2F%2Flizclimo.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2Flizclimo.tumblr.com%2F&amp;lang=en_US&amp;name=lizclimo&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_44b0e39c0c7a_64.png&amp;title=Hi%2C+I%26%23039%3Bm+Liz&amp;url=http%3A%2F%2Flizclimo.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

@@ -1,0 +1,3357 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7 no-js"> <![endif]-->
+<!--[if IE 7]>         <html class="lt-ie10 lt-ie9 lt-ie8 no-js"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie10 lt-ie9 no-js"> <![endif]-->
+<!--[if IE 9]>         <html class="lt-ie10 no-js"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content=""/>
+    
+
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="Al Jazeera America offers unbiased, fact-based, in-depth stories of U.S. and international news, including sports, business, lifestyle and investigative journalism"/>
+
+    
+      <meta name="apple-itunes-app" content="app-id=810543104, affiliate-data=10lxKx"/>
+    
+
+	<meta id="metaOgDescription" property="og:description" content="Al Jazeera America offers unbiased, fact-based, in-depth stories of U.S. and international news, including sports, business, lifestyle and investigative journalism" />
+	<meta id="metaOgImage" property="og:image" content="http://america.aljazeera.com/content/dam/ajam/logos/AJAM-OG-new.jpeg" />
+	<meta id="metaOgTitle" property="og:title" content="Fact-Based, In-Depth News | Al Jazeera America" />
+	<meta id="metaOgUrl" property="og:url" content="http://america.aljazeera.com/">
+	<meta property="og:type" content="website" />
+	<link rel="canonical" href="http://america.aljazeera.com/">
+
+
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@AJAM">
+    <meta name="twitter:title" content="Fact-Based, In-Depth News">
+    <meta name="twitter:description" content="Al Jazeera America offers unbiased, fact-based, in-depth stories of U.S. and international news, including sports, business, lifestyle and investigative journalism">
+    
+    
+    
+    
+    
+        <meta name="twitter:image" content="http://america.aljazeera.com/content/dam/ajam/logos/AJAM-OG-new.jpeg">
+
+    <!--
+    <PageMap>
+        <DataObject type="thumbnail">
+          <Attribute name="src" value="http://america.aljazeera.com/content/dam/ajam/logos/AJAM-OG-new.jpeg"/>
+          <Attribute name="width" value="0"/>
+          <Attribute name="height" value="0"/>
+        </DataObject>
+    </PageMap>
+    -->
+
+    
+    <link rel="icon" type="image/x-icon" href="/etc/designs/al-jazeera-america/img/Ajam_Favicon_2013_0501.ico"/>
+	<link rel="shortcut icon" type="image/x-icon" href="/etc/designs/al-jazeera-america/img/Ajam_Favicon_2013_0501.ico"/>
+	<link rel="apple-touch-icon" href="/etc/designs/al-jazeera-america/img/Ajam_AppleTouch-Icon_2013_0501.ico"/>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="alternate" href="http://america.aljazeera.com" hreflang="en-us"/>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <link href="http://america.aljazeera.com/content/ajam/articles.rss" rel="alternate" title="Al Jazeera Americas - Articles [RSS]" type="application/rss+xml"/>
+    
+	<title>Fact-Based, In-Depth News | Al Jazeera America</title>
+
+	
+
+<script type="text/javascript" src="/etc/clientlibs/granite/jquery.min.20140917121113454.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/utils.min.20140917121113454.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/jquery/granite.min.20140917121113454.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/jquery.min.20140917121113454.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/main.min.20140917121113454.js"></script>
+<link rel="stylesheet" href="/etc/clientlibs/foundation/main.min.20140917121113454.css" type="text/css"/>
+
+
+
+
+	
+
+	<script src="//cdn.gigya.com/JS/socialize.js?apiKey=3_vZPUzGQup2KEf3dmuMfVwJObhdPWZKEphPubMtu5XjuHdUyfFtVTnAVyn3sDx_HP" type="text/javascript"></script>
+
+    <!-- We now have two different clientlibs because we hit the arbitrary 4096 selector limit in legacy versions of IE -->
+	<script type="text/javascript" src="/etc/designs/al-jazeera-america/mustache.min.20140917121113454.js"></script>
+<script type="text/javascript" src="/etc/designs/al-jazeera-america/backbone.min.20140917121113454.js"></script>
+<script type="text/javascript" src="/etc/designs/al-jazeera-america/clientlibs/ajam1.min.20140917121113454.js"></script>
+<link rel="stylesheet" href="/etc/designs/al-jazeera-america/clientlibs/ajam1.min.20140917121113454.css" type="text/css"/>
+
+    <link rel="stylesheet" href="/etc/designs/al-jazeera-america/clientlibs/ajam2.min.20140917121113454.css" type="text/css"/>
+
+
+    
+        <meta name="google-play-app" content="app-id=com.aljazeera.simple">
+        <script type="text/javascript">
+            $(function() {
+				if ( !(/(iPad|iPhone|iPod).*OS [6-7].*AppleWebKit.*Mobile.*Safari/.test(navigator.userAgent)) ) {
+					$.smartbanner({
+                        title: 'Al Jazeera America News',
+                        author: 'Al Jazeera America'
+					});
+				}
+            });
+        </script>
+    
+</head>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+  
+    <!-- Google Tag Manager -->
+    <noscript>
+      <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MG5P9B"
+              height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+      var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+          '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MG5P9B');</script>
+    <!-- End Google Tag Manager -->
+  
+
+  <form class="hide" name="formRefresh">
+    <input type="hidden" id="page_refresh_check" name="page_refresh_check" value="0"/>
+  </form>
+
+  
+  
+  
+
+  
+
+  <div id="js-unsupported-browser-warning" style="display: none;" class="unsupported-browser">
+    <div class="unsupported-inner">
+      <span id="js-unsupported-browser-dismiss" class="unsupported-dismiss ir pull-right">Dismiss</span>
+      <h4 class="unsupported-title"><span class="ir icon-caution pull-left">Caution icon</span>Attention</h4>
+      <p class="unsupported-content">The browser or device you are using is out of date. It has known security flaws and a limited feature set. You will not see all the features of some websites. Please update your browser. <span class="hidden-phone">A list of the most popular browsers can be found below.</span></p>
+      <ul class="unsupported-list hidden-phone clearfix">
+        <li class="unsupported-item"><a href="http://www.firefox.com/" class="unsupported-icon icon-firefox ir">Mozilla Firefox</a></li>
+        <li class="unsupported-item"><a href="http://windows.microsoft.com/ie" class="unsupported-icon icon-ie ir">Internet Explorer</a></li>
+        <li class="unsupported-item"><a href="http://www.google.com/chrome" class="unsupported-icon icon-chrome ir">Google Chrome</a></li>
+        <li class="unsupported-item"><a href="http://www.apple.com/safari/" class="unsupported-icon icon-safari ir">Safari</a></li>
+        <li class="unsupported-item"><a href="http://www.opera.com/" class="unsupported-icon icon-opera ir">Opera</a></li>
+      </ul>
+    </div>
+  </div>
+
+  
+
+
+
+
+
+
+
+
+
+
+<header class="globalHeader">
+	<div class="header">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  .globalHeader {
+    background-image: url('/content/dam/ajam/images/featured/newheader-desktop.jpeg');
+  }
+
+  @media (min-width: 768px) and (max-width: 959px) {
+    .globalHeader {
+      background-image: url('/content/ajam/jcr:content/header/imageTablet.adapt.960.high.1411841472617.jpg');
+    }
+  }
+
+  @media (max-width: 767px) {
+    .globalHeader {
+      background-image: url('/content/ajam/jcr:content/header/imageMobile.adapt.767.medium.1411841472617.jpg');
+    }
+  }
+
+</style>
+
+<div class="row-fluid header-row has-intEditions">
+  <div class="container container-header">
+
+    
+
+        <div class="header-intEditions--container pull-right clearfix">
+            
+                
+                    <div class="header-intEditions dropdown">
+                        <a class="intEditions-link--title dropdown-toggle" data-toggle="dropdown" href="#" target="_blank">International Editions</a>
+                        <ul class="intEditions-menu dropdown-menu" role="menu" aria-labelledby="dLabel">
+                            
+                                <li class="news-item list-item A">
+                                    <li class="intEditions-item" role="presentation"><a href="http://www.aljazeera.com" class="intEditions-link" target="_blank">Al Jazeera English</a></li>
+                                </li>
+                            
+                                <li class="news-item list-item A">
+                                    <li class="intEditions-item" role="presentation"><a href="http://www.aljazeera.net/" class="intEditions-link" target="_blank">Al Jazeera Arabic</a></li>
+                                </li>
+                            
+                                <li class="news-item list-item A">
+                                    <li class="intEditions-item" role="presentation"><a href="http://balkans.aljazeera.com" class="intEditions-link" target="_blank">Al Jazeera Balkans</a></li>
+                                </li>
+                            
+                                <li class="news-item list-item A">
+                                    <li class="intEditions-item" role="presentation"><a href="http://mubasher.aljazeera.net/" class="intEditions-link" target="_blank">Al Jazeera Mubasher</a></li>
+                                </li>
+                            
+                                <li class="news-item list-item A">
+                                    <li class="intEditions-item" role="presentation"><a href="http://aljazeera.com.tr" class="intEditions-link" target="_blank">Al Jazeera Turk</a></li>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                
+                
+            
+        </div>
+    
+
+    <div class="header-triggers clearfix visible-phone pull-right">
+      <a class="header-triggers-nav icon-font-menu pull-left" data-toggle="collapse" data-target=".js-header-collapse"><span class="visuallyhidden">Display mobile navigation</span></a>
+      <a class="header-triggers-search icon-font-search pull-left" data-toggle="collapse" data-target=".js-header-search-collapse"><span class="visuallyhidden">Display mobile search bar</span></a>
+    </div>
+
+    <div class="header-logo-container">
+      <a href="/" class="header-logo-link">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Al Jazeera" class="header-logo">
+      </a>
+    </div>
+
+    <div class="header-right">
+
+      <div class="header-right-top clearfix">
+
+        <nav class="header-nav js-header-collapse nav-collapse collapse" role="navigation">
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a href="/" title="News" class="header-nav-link">News</a>
+            </li>
+            
+              <li class="header-nav-item hidden-tablet">
+                <a href="/opinions.html" title="Opinion" class="header-nav-link">Opinion</a>
+              </li>
+            
+              <li class="header-nav-item ">
+                <a href="/watch.html" title="Video" class="header-nav-link">Video</a>
+              </li>
+            
+              <li class="header-nav-item hidden-tablet">
+                <a href="/watch/shows.html" title="Shows" class="header-nav-link">Shows</a>
+              </li>
+            
+              <li class="header-nav-item ">
+                <a href="/watch/schedule.html" title="Schedule" class="header-nav-link">Schedule</a>
+              </li>
+            
+            <li class="header-nav-item dropdown visible-tablet">
+              <a class="header-nav-link dropdown-toggle" data-toggle="dropdown" href="#">More</a>
+              <ul class="header-dropdown dropdown-menu">
+                
+                  
+                    <li class="header-dropdown-item"><a href="/opinions.html" title="Opinion" class="header-dropdown-link">Opinion</a></li>
+                  
+                
+                  
+                
+                  
+                    <li class="header-dropdown-item"><a href="/watch/shows.html" title="Shows" class="header-dropdown-link">Shows</a></li>
+                  
+                
+                  
+                
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-social pull-right hidden-phone">
+            
+                <a href="http://www.facebook.com/aljazeeraamerica" title="Facebook" target="_blank" class="header-social-link header-social-facebook ir"></a>
+            
+            
+                <a href="http://www.twitter.com/ajam" title="Twitter" target="_blank" class="header-social-link header-social-twitter ir"></a>
+            
+            
+                <a href="https://plus.google.com/+aljazeeraamerica" title="Google+" target="_blank" class="header-social-link header-social-google ir"></a>
+            
+            
+                <a href="http://www.youtube.com/aljazeeraamerica" title="Youtube" target="_blank" class="header-social-link header-social-youtube ir"></a>
+            
+        </div>
+
+      </div> 
+
+      <div class="header-sections hidden-phone clearfix">
+        <div class="header-sections-title pull-left">Sections</div>
+        <div class="header-sections-items pull-left">
+          
+            <a href="/topics/topic/categories/us.html" title="U.S." class="header-sections-link">U.S.</a>
+          
+            <a href="/topics/topic/categories/international.html" title="International" class="header-sections-link">International</a>
+          
+            <a href="/topics/topic/categories/economy.html" title="Economy" class="header-sections-link">Economy</a>
+          
+            <a href="/topics/topic/categories/technology.html" title="Technology" class="header-sections-link">Technology</a>
+          
+            <a href="/topics/topic/categories/science.html" title="Science" class="header-sections-link">Science</a>
+          
+            <a href="/topics/topic/categories/environment.html" title="Environment" class="header-sections-link">Environment</a>
+          
+            <a href="/topics/topic/categories/health.html" title="Health" class="header-sections-link">Health</a>
+          
+            <a href="/topics/topic/categories/education.html" title="Education" class="header-sections-link">Education</a>
+          
+            <a href="/topics/topic/categories/culture.html" title="Culture" class="header-sections-link">Culture</a>
+          
+            <a href="/topics/topic/categories/sports.html" title="Sports" class="header-sections-link">Sports</a>
+          
+        </div>
+      </div>
+
+      <div class="header-right-bottom clearfix">
+
+        <div class="header-trending pull-left hidden-phone">
+          <div class="header-trending-title pull-left">Trending</div>
+          <div class="header-trending-items pull-left">
+            
+              <a href="/topics/topic/organization/ISIL.html" title="ISIL" class="header-trending-link">ISIL</a>
+            
+              <a href="/topics/topic/issue/climate-change.html" title="Climate Change" class="header-trending-link">Climate Change</a>
+            
+              <a href="/topics/topic/issue/human-rights.html" title="Human Rights" class="header-trending-link">Human Rights</a>
+            
+            <a href="/topics.html" title="Special Coverage" class="header-trending-link">Special Coverage</a>
+          </div>
+        </div>
+
+        <div class="js-header-search-collapse nav-collapse collapse">
+          <div class="header-search">
+            <form action="/search.html" method="get" class="header-search-form">
+              <fieldset class="header-search-fieldset media">
+                <legend class="visuallyhidden">Search Form</legend>
+                <input type="search" name="q" class="header-search-input media-body" value="" placeholder="Search">
+                <div class="container-search-submit pull-right">
+                  <input type="submit" value="Submit" class="header-search-submit media-object" />
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+
+      </div> 
+
+    </div> 
+
+  </div> 
+</div> </div>
+
+</header>
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="template-home two-columns">
+
+    
+    <section class="tv-bar-section hidden-phone">
+        <div class="container container-padding">
+            <div class="tv-bar-box">
+                <div class="callToAction">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="callToAction-box">
+  <div class="box-header">
+    
+      <h4 class="box-title">Al Jazeera America Presents</h4>
+    
+  </div>
+  <div class="box-body">
+    <div class="media media-480-ignore">
+      
+      <div class="box-image-text media-body">
+        <h3 class="box-headline">Edge of Eighteen</h3>
+        
+          <a href="/watch/shows/edge-of-eighteen/articles/2014/9/17/-make-this-all-goawaycyberbullyingmultipliesteenpain.html" target="_blank" class="box-link">'Make this all go away': Cyberbullying multiplies teen pain</a>
+        
+      </div>
+    </div>
+  </div>
+</div></div>
+
+                <div class="broadcastOnNow onNow">
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/etc/designs/al-jazeera-america/broadcastOnNow.min.20140917121113454.js"></script>
+
+
+<div class="ajax-loader"></div>
+<div class="broadcastOnNow-box broadcastOnNowData clearfix currentNextShow"
+		data-url="/bin/ajam/onnow.json"
+		data-shows="2"
+		data-b-title="On TV Now"
+		data-b-full-schedule-href="/watch/schedule.html"
+		data-b-full-schedule-display-val="View Full Schedule">
+</div></div>
+
+                <div class="k2Search broadcastFinder">
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/etc/designs/al-jazeera-america/k2Search.min.20140917121113454.js"></script>
+
+
+
+
+	<div class="k2Search-box">
+    <div class="box-header">
+      
+        <h4 class="box-title">Find Al Jazeera America on your TV</h4>
+      
+    </div>
+    <div class="box-body">
+  		<form class="k2SearchForm media media-480-ignore" action="/content/ajam/watch/channel-finder-results">
+        <div class="pull-right k2Search-pull--right">
+          <button type="submit" class="k2SearchButton media-object">Go</button>
+        </div>
+        <div class="k2SearchInput-container media-body">
+    			<input type="text" name="zip" placeholder="Enter zip code" value="" maxlength="5" class="k2SearchInput" />
+        </div>
+  		</form>
+    </div>
+	</div>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="breakingNewsBanner">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+</div>
+
+
+    
+        
+        
+            
+        
+    
+
+    
+    <div class="row row-home-top">
+        <div class="container">
+            <div class="hidden-phone placard-container ">
+                <div class="parbase ad ad1">
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/etc/designs/al-jazeera-america/ads.min.20140917121113454.js"></script>
+
+
+    <script>
+      var doubleClickAdUnitRefresh = 180000;
+    </script>
+
+    <script type="text/javascript">
+      googletag.cmd.push(function() {
+        var slot=googletag.defineSlot("/6891564/ajam/homepage", [728, 90],"ad-/content/ajam/jcr:content/ad1").addService(googletag.pubads());
+        
+        ads.push(slot);
+      });
+    </script>
+
+    <div id="ad-/content/ajam/jcr:content/ad1">
+      <script type="text/javascript">
+        googletag.cmd.push(function() {
+          googletag.display("ad-/content/ajam/jcr:content/ad1");
+        });
+      </script>
+    </div>
+  
+
+</div>
+
+            </div>
+            <div class="container container-padding">
+                <div class="parsys featurepar"></div>
+
+            </div>
+        </div>
+    </div>
+
+    
+        
+        
+            
+        
+    
+
+    <div class="row-fluid row-home-middle">
+        <div class="container container-padding container-home-middle">
+            <div class="span8 col-primary-home ">
+                <div class="parsys lowerfeaturepar"><div class="topStories section">
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="topStories-box">
+	<div class="box-content">
+  	
+  	<div class="box-body">
+  		<article class="topStories-primary clearfix">
+  			<h1 class="topStories-headline">
+  				<a href="/articles/2014/9/27/istanbul-okmeydanineighborhoodarrows.html" title="Ode to Okmeydanı: Far-left group fights to save Istanbul neighborhood" class="has-thumb  topStories-headline--link">Ode to Okmeydanı: Far-left group fights to save Istanbul neighborhood</a>
+  			</h1>
+  			<div class="col1">
+  				<figure class="image"><a class="image-link" href="/articles/2014/9/27/istanbul-okmeydanineighborhoodarrows.html"><div data-picture data-alt="Istanbul" data-class="" class=""/><div data-class='' data-src="/content/ajam/jcr:content/lowerfeaturepar/topstories_0/image.adapt.425.low.1411841472617.jpg"></div><div data-class='' data-src="/content/ajam/jcr:content/lowerfeaturepar/topstories_0/image.adapt.375.medium.1411841472617.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/jcr:content/lowerfeaturepar/topstories_0/image.adapt.375.high.1411841472617.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/jcr:content/lowerfeaturepar/topstories_0/image.adapt.375.high.1411841472617.jpg"></div><![endif]--><noscript><img src="/content/ajam/_jcr_content/lowerfeaturepar/topstories_0/image.adapt.425.low.jpg" alt="Istanbul" class=""></noscript></div></a><div class="image-captionContainer"><span class="image-credit">Bulent Kilic / AFP / Getty Images</span></div></figure>
+  			</div>
+  			<div class="col2">
+          
+            <div class="topStories-bylineContainer">
+              
+                
+                  by
+                  
+                  
+                  <span class="standard-byline"><a href="/profiles/d/joseph-dana.html" title="Joseph Dana" class="standard-byline--link">Joseph Dana</a></span>
+                
+              
+            </div>
+          
+  				<p class="topStories-description">Communist-dominated area of Turkey's largest city is revolting against government redevelopment plan</p>
+  				<dl class="topStories-topics topics">
+            <dt>Topics:</dt>
+            
+              
+                <dd><a href="/topics/topic/international-location/europe/turkey.html">Turkey</a></dd>
+              
+            
+              
+                <dd><a href="/topics/topic/international-location/europe.html">Europe</a></dd>
+              
+            
+              
+                <dd><a href="/topics/topic/issue/politics.html">Politics</a></dd>
+              
+            
+              
+            
+          </dl>
+          
+  			    <ul class="topStories-related related">
+              
+                <li class="related-item">
+                	<a href="/articles/2014/3/21/turkey-twitter-edrogangul.html" title="Twitter blackout underlines Erdogan&rsquo;s growing isolation" target="_self" class=" related-link">Twitter blackout underlines Erdogan’s growing isolation</a>
+                </li>
+              
+                <li class="related-item">
+                	<a href="/opinions/2014/8/recep-tayyip-erdogansnewturkeyislamicdemocracyeuropeanunion.html" title="Once a wunderkind, Turkey&rsquo;s decline is now complete" target="_self" class="label label-opinion related-link">Once a wunderkind, Turkey’s decline is now complete</a>
+                </li>
+              
+  				    </ul>
+  			   
+  			</div>
+  		</article>
+  		<div class="topStories-secondary clearfix">
+  			
+  				<article class="secondaryStory split33 item">
+  					
+  						<figure class="image"><a class="image-link" href="/watch/shows/america-tonight/articles/2014/9/25/atlanta-gay-homelessteens.html"><div data-picture data-alt="Rejected by their families, gay teens in the South flock to Atlanta" data-class="" class=""/><div data-class='' data-src="/content/ajam/watch/shows/america-tonight/articles/2014/9/25/atlanta-gay-homelessteens/jcr:content/image.adapt.400.low.1411834263457.jpg"></div><div data-class='' data-src="/content/ajam/watch/shows/america-tonight/articles/2014/9/25/atlanta-gay-homelessteens/jcr:content/image.adapt.225.medium.1411834263457.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/watch/shows/america-tonight/articles/2014/9/25/atlanta-gay-homelessteens/jcr:content/image.adapt.225.high.1411834263457.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/watch/shows/america-tonight/articles/2014/9/25/atlanta-gay-homelessteens/jcr:content/image.adapt.225.high.1411834263457.jpg"></div><![endif]--><noscript><img src="/content/ajam/watch/shows/america-tonight/articles/2014/9/25/atlanta-gay-homelessteens/_jcr_content/image.adapt.400.low.jpg" alt="Rejected by their families, gay teens in the South flock to Atlanta" class=""></noscript></div></a></figure>
+  					
+  					<div class="secondaryStory-body">
+  						<h1 class="secondaryStory-headline">
+  							<a href="/watch/shows/america-tonight/articles/2014/9/25/atlanta-gay-homelessteens.html" title="Rejected by their families, gay teens flock to Atlanta" class="has-thumb  secondaryStory-headline--link">Rejected by their families, gay teens flock to Atlanta</a>
+  						</h1>
+  					</div>
+				  </article>
+  			
+  				<article class="secondaryStory split33 item">
+  					
+  						<figure class="image"><a class="image-link" href="/articles/2014/9/27/attendance-problemscollegefootball.html"><div data-picture data-alt="NCAA, we have a problem: Student attendance tanking at football games" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/27/attendance-problemscollegefootball/jcr:content/image.adapt.400.low.1411681813432.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/27/attendance-problemscollegefootball/jcr:content/image.adapt.225.medium.1411681813432.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/27/attendance-problemscollegefootball/jcr:content/image.adapt.225.high.1411681813432.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/27/attendance-problemscollegefootball/jcr:content/image.adapt.225.high.1411681813432.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/27/attendance-problemscollegefootball/_jcr_content/image.adapt.400.low.jpg" alt="NCAA, we have a problem: Student attendance tanking at football games" class=""></noscript></div></a></figure>
+  					
+  					<div class="secondaryStory-body">
+  						<h1 class="secondaryStory-headline">
+  							<a href="/articles/2014/9/27/attendance-problemscollegefootball.html" title="Student attendance tanking at college football games" class="has-thumb  secondaryStory-headline--link">Student attendance tanking at college football games</a>
+  						</h1>
+  					</div>
+				  </article>
+  			
+  				<article class="secondaryStory split33 item">
+  					
+  						<figure class="image"><a class="image-link" href="/opinions/2014/9/ferguson-china-solidaritymiddleclassethnictensions.html"><div data-picture data-alt="What China&#x27;s middle class learned from Ferguson" data-class="" class=""/><div data-class='' data-src="/content/ajam/opinions/2014/9/ferguson-china-solidaritymiddleclassethnictensions/jcr:content/image.adapt.400.low.1411766096114.jpg"></div><div data-class='' data-src="/content/ajam/opinions/2014/9/ferguson-china-solidaritymiddleclassethnictensions/jcr:content/image.adapt.225.medium.1411766096114.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/opinions/2014/9/ferguson-china-solidaritymiddleclassethnictensions/jcr:content/image.adapt.225.high.1411766096114.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/opinions/2014/9/ferguson-china-solidaritymiddleclassethnictensions/jcr:content/image.adapt.225.high.1411766096114.jpg"></div><![endif]--><noscript><img src="/content/ajam/opinions/2014/9/ferguson-china-solidaritymiddleclassethnictensions/_jcr_content/image.adapt.400.low.jpg" alt="What China&#x27;s middle class learned from Ferguson" class=""></noscript></div></a></figure>
+  					
+  					<div class="secondaryStory-body">
+  						<h1 class="secondaryStory-headline">
+  							<a href="/opinions/2014/9/ferguson-china-solidaritymiddleclassethnictensions.html" title="What China&#x27;s middle class learned from Ferguson" class="has-thumb label label-opinion secondaryStory-headline--link">What China's middle class learned from Ferguson</a>
+  						</h1>
+  					</div>
+				  </article>
+  			
+  		</div>
+	  </div>
+  </div>
+</section>
+</div>
+<div class="articleHighlightList section">
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/etc/designs/al-jazeera-america/articleHighlightList.min.20140917121113454.js"></script>
+
+
+<div class="articleHighlightList-box" data-originalcount="19">
+  <div class="box-content">
+    
+      <div class="box-header">
+        <h3 class="box-title"> </h3>
+      </div>
+    
+    <div class="box-body">
+      
+        <article class="news-item media ">
+          
+            <div class="news-item-image pull-left">
+              <a href="/articles/2014/9/27/air-strikes-hit-islamicstatemilitantsineastsyria.html" title="US-led forces launch strikes against ISIL" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Defying airstrikes, ISIL shells Syrian Kurdish town" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/27/air-strikes-hit-islamicstatemilitantsineastsyria/jcr:content/image.adapt.445.low.1411846452561.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/27/air-strikes-hit-islamicstatemilitantsineastsyria/jcr:content/image.adapt.200.medium.1411846452561.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/27/air-strikes-hit-islamicstatemilitantsineastsyria/jcr:content/image.adapt.200.high.1411846452561.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/27/air-strikes-hit-islamicstatemilitantsineastsyria/jcr:content/image.adapt.200.high.1411846452561.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/27/air-strikes-hit-islamicstatemilitantsineastsyria/_jcr_content/image.adapt.445.low.jpg" alt="Defying airstrikes, ISIL shells Syrian Kurdish town" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">International</div>
+            
+            <h3 class="headline">
+              <a href="/articles/2014/9/27/air-strikes-hit-islamicstatemilitantsineastsyria.html" title="US-led forces launch strikes against ISIL" class="has-thumb ">US-led forces launch strikes against ISIL</a>
+            </h3>
+            
+            <p class="leader">Meanwhile Turkey's Erdogan shifts stance, expressing willingness to join coalition and commit ground troops</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/international-location/middle-east/Islamic-State.html">Islamic State</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/international.html">International</a></dd>
+                
+                  <dd><a href="/topics/topic/people/barack-obama.html">Barack Obama</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media ">
+          
+            <div class="news-item-image pull-left">
+              <a href="/articles/2014/9/27/hong-kong-policearrestprodemocracyprotesters.html" title="Hong Kong police arrest student protesters" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Hong Kong police arrest pro-democracy protesters " data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/27/hong-kong-policearrestprodemocracyprotesters/jcr:content/image.adapt.445.low.1411828608288.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/27/hong-kong-policearrestprodemocracyprotesters/jcr:content/image.adapt.200.medium.1411828608288.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/27/hong-kong-policearrestprodemocracyprotesters/jcr:content/image.adapt.200.high.1411828608288.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/27/hong-kong-policearrestprodemocracyprotesters/jcr:content/image.adapt.200.high.1411828608288.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/27/hong-kong-policearrestprodemocracyprotesters/_jcr_content/image.adapt.445.low.jpg" alt="Hong Kong police arrest pro-democracy protesters " class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">International</div>
+            
+            <h3 class="headline">
+              <a href="/articles/2014/9/27/hong-kong-policearrestprodemocracyprotesters.html" title="Hong Kong police arrest student protesters" class="has-thumb ">Hong Kong police arrest student protesters</a>
+            </h3>
+            
+            <p class="leader">Hong Kong's youth have become vocal supporters of democracy, fueled by anger over China's tightening grip on city
+</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/international-location/asia-pacific/hong-kong.html">Hong Kong</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/international.html">International</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media ">
+          
+            <div class="news-item-image pull-left">
+              <a href="/articles/2014/9/27/liberia-top-doctorquarantinedasebolaclinicsfillup.html" title="Liberia&#x27;s chief medical officer quarantined" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Liberia&#x27;s chief medical officer quarantined after aide dies of Ebola" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/27/liberia-top-doctorquarantinedasebolaclinicsfillup/jcr:content/image.adapt.445.low.1411841131645.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/27/liberia-top-doctorquarantinedasebolaclinicsfillup/jcr:content/image.adapt.200.medium.1411841131645.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/27/liberia-top-doctorquarantinedasebolaclinicsfillup/jcr:content/image.adapt.200.high.1411841131645.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/27/liberia-top-doctorquarantinedasebolaclinicsfillup/jcr:content/image.adapt.200.high.1411841131645.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/27/liberia-top-doctorquarantinedasebolaclinicsfillup/_jcr_content/image.adapt.445.low.jpg" alt="Liberia&#x27;s chief medical officer quarantined after aide dies of Ebola" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">International</div>
+            
+            <h3 class="headline">
+              <a href="/articles/2014/9/27/liberia-top-doctorquarantinedasebolaclinicsfillup.html" title="Liberia&#x27;s chief medical officer quarantined" class="has-thumb ">Liberia's chief medical officer quarantined</a>
+            </h3>
+            
+            <p class="leader">Meanwhile, Senegal's humanitarian corridor is expected receive its first flight Saturday carrying humanitarian staff</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/issue/Ebola.html">Ebola </a></dd>
+                
+                  <dd><a href="/topics/topic/international-location/africa/liberia.html">Liberia</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/international.html">International</a></dd>
+                
+                  <dd><a href="/topics/topic/international-location/africa.html">Africa</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media ">
+          
+            <div class="news-item-image pull-left">
+              <a href="/articles/2014/9/26/seattle-police-force.html" title="Memo: Seattle police not using enough force" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Seattle police aren&#x27;t using enough force, internal memo says" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/26/seattle-police-force/jcr:content/image.adapt.445.low.1411832913582.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/seattle-police-force/jcr:content/image.adapt.200.medium.1411832913582.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/seattle-police-force/jcr:content/image.adapt.200.high.1411832913582.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/26/seattle-police-force/jcr:content/image.adapt.200.high.1411832913582.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/26/seattle-police-force/_jcr_content/image.adapt.445.low.jpg" alt="Seattle police aren&#x27;t using enough force, internal memo says" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">U.S.</div>
+            
+            <h3 class="headline">
+              <a href="/articles/2014/9/26/seattle-police-force.html" title="Memo: Seattle police not using enough force" class="has-thumb ">Memo: Seattle police not using enough force</a>
+            </h3>
+            
+            <p class="leader">Officers lament new use of force policy, established after DOJ report found pattern of excessive force</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/categories/us.html">U.S.</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/civil-rights.html">Civil Rights</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/law-justice.html">Law & Justice</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/militarization.html">Militarization</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/police.html">Police</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/race-ethnicity.html">Race & Ethnicity</a></dd>
+                
+                  <dd><a href="/topics/topic/us-location/washington.html">Washington</a></dd>
+                
+                  <dd><a href="/topics/topic/us-location/washington/seattle.html">Seattle</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media ">
+          
+            <div class="news-item-image pull-left">
+              <a href="/articles/2014/9/27/top-indian-officialconvictedofcorruption0.html" title="Top Indian official convicted of corruption" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Top Indian official convicted of corruption" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/27/top-indian-officialconvictedofcorruption0/jcr:content/image.adapt.445.low.1411840168569.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/27/top-indian-officialconvictedofcorruption0/jcr:content/image.adapt.200.medium.1411840168569.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/27/top-indian-officialconvictedofcorruption0/jcr:content/image.adapt.200.high.1411840168569.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/27/top-indian-officialconvictedofcorruption0/jcr:content/image.adapt.200.high.1411840168569.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/27/top-indian-officialconvictedofcorruption0/_jcr_content/image.adapt.445.low.jpg" alt="Top Indian official convicted of corruption" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">International</div>
+            
+            <h3 class="headline">
+              <a href="/articles/2014/9/27/top-indian-officialconvictedofcorruption0.html" title="Top Indian official convicted of corruption" class="has-thumb ">Top Indian official convicted of corruption</a>
+            </h3>
+            
+            <p class="leader">Although often lenient on powerful politicians, the court sentenced former actress Jayalalithaa Jayaram to four years</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/international-location/central-south-asia/india.html">India</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/international.html">International</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media ">
+          
+            <div class="news-item-image pull-left">
+              <a href="/articles/2014/9/27/volcano-erupts-injapan7missing.html" title="Volcano erupts in Japan, 7 missing" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Volcano erupts in Japan, 7 missing, 40 injured" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/27/volcano-erupts-injapan7missing/jcr:content/image.adapt.445.low.1411832631930.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/27/volcano-erupts-injapan7missing/jcr:content/image.adapt.200.medium.1411832631930.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/27/volcano-erupts-injapan7missing/jcr:content/image.adapt.200.high.1411832631930.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/27/volcano-erupts-injapan7missing/jcr:content/image.adapt.200.high.1411832631930.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/27/volcano-erupts-injapan7missing/_jcr_content/image.adapt.445.low.jpg" alt="Volcano erupts in Japan, 7 missing, 40 injured" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">International</div>
+            
+            <h3 class="headline">
+              <a href="/articles/2014/9/27/volcano-erupts-injapan7missing.html" title="Volcano erupts in Japan, 7 missing" class="has-thumb ">Volcano erupts in Japan, 7 missing</a>
+            </h3>
+            
+            <p class="leader">The injured, unable to descend on their own, are stranded in mountain lodges until rescue workers arrive</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/international-location/asia-pacific/japan.html">Japan</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/natural-disasters.html">Natural Disasters</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/international.html">International</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media ">
+          
+            <div class="news-item-image pull-left">
+              <a href="/articles/2014/9/27/egyptian-court-postponesmubarakverdict.html" title="Egyptian court postpones Mubarak verdict" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Egyptian court postpones Mubarak verdict again" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/27/egyptian-court-postponesmubarakverdict/jcr:content/image.adapt.445.low.1411831921613.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/27/egyptian-court-postponesmubarakverdict/jcr:content/image.adapt.200.medium.1411831921613.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/27/egyptian-court-postponesmubarakverdict/jcr:content/image.adapt.200.high.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/27/egyptian-court-postponesmubarakverdict/jcr:content/image.adapt.200.high.1411831921613.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/27/egyptian-court-postponesmubarakverdict/_jcr_content/image.adapt.445.low.jpg" alt="Egyptian court postpones Mubarak verdict again" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">International</div>
+            
+            <h3 class="headline">
+              <a href="/articles/2014/9/27/egyptian-court-postponesmubarakverdict.html" title="Egyptian court postpones Mubarak verdict" class="has-thumb ">Egyptian court postpones Mubarak verdict</a>
+            </h3>
+            
+            <p class="leader">Judge adjourns case allegedly due to the  large amount of evidence — some 160,000 documents</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/international-location/middle-east/egypt.html">Egypt</a></dd>
+                
+                  <dd><a href="/topics/topic/event/egypt-in-turmoil.html">Egypt in Turmoil</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/international.html">International</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media ">
+          
+            <div class="news-item-image pull-left">
+              <a href="/articles/2014/9/26/save-buffalo-montana.html" title="Tribal elders want buffalo back" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="&lsquo;His life is our life&rsquo;: Tribal elders want buffalo back in the ecosystem" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/26/save-buffalo-montana/jcr:content/image.adapt.445.low.1411688183069.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/save-buffalo-montana/jcr:content/image.adapt.200.medium.1411688183069.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/save-buffalo-montana/jcr:content/image.adapt.200.high.1411688183069.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/26/save-buffalo-montana/jcr:content/image.adapt.200.high.1411688183069.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/26/save-buffalo-montana/_jcr_content/image.adapt.445.low.jpg" alt="&lsquo;His life is our life&rsquo;: Tribal elders want buffalo back in the ecosystem" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">Environment</div>
+            
+            <h3 class="headline">
+              <a href="/articles/2014/9/26/save-buffalo-montana.html" title="Tribal elders want buffalo back" class="has-thumb ">Tribal elders want buffalo back</a>
+            </h3>
+            
+            <p class="leader">Pact signed on Blackfeet territory establishes alliance among Native American groups to revive bison population </p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/categories/environment.html">Environment</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/animals.html">Animals</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/us.html">U.S.</a></dd>
+                
+                  <dd><a href="/topics/topic/us-location/montana.html">Montana</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media ">
+          
+            <div class="news-item-image pull-left">
+              <a href="/opinions/2014/9/eric-holder-resignationjusticefinancialcrisisfraud.html" title="Holder, a friend to financial frauds" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Financial frauds had a friend in Holder" data-class="" class=""/><div data-class='' data-src="/content/ajam/opinions/2014/9/eric-holder-resignationjusticefinancialcrisisfraud/jcr:content/image.adapt.445.low.1411744236689.jpg"></div><div data-class='' data-src="/content/ajam/opinions/2014/9/eric-holder-resignationjusticefinancialcrisisfraud/jcr:content/image.adapt.200.medium.1411744236689.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/opinions/2014/9/eric-holder-resignationjusticefinancialcrisisfraud/jcr:content/image.adapt.200.high.1411744236689.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/opinions/2014/9/eric-holder-resignationjusticefinancialcrisisfraud/jcr:content/image.adapt.200.high.1411744236689.jpg"></div><![endif]--><noscript><img src="/content/ajam/opinions/2014/9/eric-holder-resignationjusticefinancialcrisisfraud/_jcr_content/image.adapt.445.low.jpg" alt="Financial frauds had a friend in Holder" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">U.S.</div>
+            
+            <h3 class="headline">
+              <a href="/opinions/2014/9/eric-holder-resignationjusticefinancialcrisisfraud.html" title="Holder, a friend to financial frauds" class="has-thumb label label-opinion">Holder, a friend to financial frauds</a>
+            </h3>
+            
+            <p class="leader">Attorney general will leave office as a historic failure on white collar crime</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/categories/us.html">U.S.</a></dd>
+                
+                  <dd><a href="/topics/topic/people/eric-holder.html">Eric Holder</a></dd>
+                
+                  <dd><a href="/topics/topic/organization/department-of-justice.html">Department of Justice</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/finance.html">Finance</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/law-justice.html">Law & Justice</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media ">
+          
+            <div class="news-item-image pull-left">
+              <a href="/blogs/scrutineer/2014/9/26/lone-star-tick-allergy.html" title="When lone star ticks bite, lives change" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="When the lone star tick bites, lives change" data-class="" class=""/><div data-class='' data-src="/content/ajam/blogs/scrutineer/2014/9/26/lone-star-tick-allergy/jcr:content/image.adapt.445.low.1411796416869.jpg"></div><div data-class='' data-src="/content/ajam/blogs/scrutineer/2014/9/26/lone-star-tick-allergy/jcr:content/image.adapt.200.medium.1411796416869.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/blogs/scrutineer/2014/9/26/lone-star-tick-allergy/jcr:content/image.adapt.200.high.1411796416869.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/blogs/scrutineer/2014/9/26/lone-star-tick-allergy/jcr:content/image.adapt.200.high.1411796416869.jpg"></div><![endif]--><noscript><img src="/content/ajam/blogs/scrutineer/2014/9/26/lone-star-tick-allergy/_jcr_content/image.adapt.445.low.jpg" alt="When the lone star tick bites, lives change" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">Health</div>
+            
+            <h3 class="headline">
+              <a href="/blogs/scrutineer/2014/9/26/lone-star-tick-allergy.html" title="When lone star ticks bite, lives change" class="has-thumb label label-blog">When lone star ticks bite, lives change</a>
+            </h3>
+            
+            <p class="leader">A year later, those bitten still suffer from severe allergy to meat and meat byproducts </p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/issue/disease.html">Disease</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/food.html">Food</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/health.html">Health</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/climate-change.html">Climate Change</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media ">
+          
+            <div class="news-item-image pull-left">
+              <a href="/articles/2014/9/26/what-makes-a-foreignfighteraterrorist.html" title="When is a foreign fighter a &#x27;terrorist&#x27;?" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="UN resolution prompts question: When is a foreign fighter a &#x27;terrorist&#x27;?" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/26/what-makes-a-foreignfighteraterrorist/jcr:content/image.adapt.445.low.1411782638739.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/what-makes-a-foreignfighteraterrorist/jcr:content/image.adapt.200.medium.1411782638739.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/what-makes-a-foreignfighteraterrorist/jcr:content/image.adapt.200.high.1411782638739.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/26/what-makes-a-foreignfighteraterrorist/jcr:content/image.adapt.200.high.1411782638739.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/26/what-makes-a-foreignfighteraterrorist/_jcr_content/image.adapt.445.low.jpg" alt="UN resolution prompts question: When is a foreign fighter a &#x27;terrorist&#x27;?" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">International</div>
+            
+            <h3 class="headline">
+              <a href="/articles/2014/9/26/what-makes-a-foreignfighteraterrorist.html" title="When is a foreign fighter a &#x27;terrorist&#x27;?" class="has-thumb ">When is a foreign fighter a 'terrorist'?</a>
+            </h3>
+            
+            <p class="leader">Security Council urges crackdown on 'foreign terrorist fighters'; analysists say could have unintended consequences</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/event/syria-war.html">Syria's War</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/Crisis-in-Iraq.html">Crisis in Iraq</a></dd>
+                
+                  <dd><a href="/topics/topic/organization/ISIL.html">ISIL</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/international.html">International</a></dd>
+                
+                  <dd><a href="/topics/topic/organization/united-nations.html">United Nations</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media ">
+          
+            <div class="news-item-image pull-left">
+              <a href="/articles/2014/9/26/britain-joins-fightagainstislamicstategroup.html" title="Britain joins fight against ISIL in Iraq" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Britain joins fight against ISIL in Iraq" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/26/britain-joins-fightagainstislamicstategroup/jcr:content/image.adapt.445.low.1411752978955.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/britain-joins-fightagainstislamicstategroup/jcr:content/image.adapt.200.medium.1411752978955.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/britain-joins-fightagainstislamicstategroup/jcr:content/image.adapt.200.high.1411752978955.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/26/britain-joins-fightagainstislamicstategroup/jcr:content/image.adapt.200.high.1411752978955.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/26/britain-joins-fightagainstislamicstategroup/_jcr_content/image.adapt.445.low.jpg" alt="Britain joins fight against ISIL in Iraq" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">International</div>
+            
+            <h3 class="headline">
+              <a href="/articles/2014/9/26/britain-joins-fightagainstislamicstategroup.html" title="Britain joins fight against ISIL in Iraq" class="has-thumb ">Britain joins fight against ISIL in Iraq</a>
+            </h3>
+            
+            <p class="leader">Lawmakers commit warplanes to the US-led effort, but stop short of agreeing to take part in strikes in Syria</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/categories/international.html">International</a></dd>
+                
+                  <dd><a href="/topics/topic/organization/ISIL.html">ISIL</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/Crisis-in-Iraq.html">Crisis in Iraq</a></dd>
+                
+                  <dd><a href="/topics/topic/event/syria-war.html">Syria's War</a></dd>
+                
+                  <dd><a href="/topics/topic/international-location/middle-east/iraq.html">Iraq</a></dd>
+                
+                  <dd><a href="/topics/topic/international-location/middle-east/syria.html">Syria</a></dd>
+                
+                  <dd><a href="/topics/topic/international-location/middle-east.html">Middle East</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/war.html">War</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media ">
+          
+            <div class="news-item-image pull-left">
+              <a href="/articles/2014/9/26/australia-cambodiarefugee.html" title="Australia-Cambodia refugee deal slammed" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Rights groups slam Australia deal to ship refugees to Cambodia" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/26/australia-cambodiarefugee/jcr:content/image.adapt.445.low.1411746273609.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/australia-cambodiarefugee/jcr:content/image.adapt.200.medium.1411746273609.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/australia-cambodiarefugee/jcr:content/image.adapt.200.high.1411746273609.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/26/australia-cambodiarefugee/jcr:content/image.adapt.200.high.1411746273609.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/26/australia-cambodiarefugee/_jcr_content/image.adapt.445.low.jpg" alt="Rights groups slam Australia deal to ship refugees to Cambodia" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">International</div>
+            
+            <h3 class="headline">
+              <a href="/articles/2014/9/26/australia-cambodiarefugee.html" title="Australia-Cambodia refugee deal slammed" class="has-thumb ">Australia-Cambodia refugee deal slammed</a>
+            </h3>
+            
+            <p class="leader">Agreement signed Friday includes $35 million in aid to Phnom Penh, which has a spotty rights record of its own</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/categories/international.html">International</a></dd>
+                
+                  <dd><a href="/topics/topic/international-location/asia-pacific.html">Asia-Pacific</a></dd>
+                
+                  <dd><a href="/topics/topic/international-location/asia-pacific/australia.html">Australia</a></dd>
+                
+                  <dd><a href="/topics/topic/international-location/asia-pacific/cambodia.html">Cambodia</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/human-rights.html">Human Rights</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/law-justice.html">Law & Justice</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/politics.html">Politics</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/refugees.html">Refugees</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media ">
+          
+            <div class="news-item-image pull-left">
+              <a href="/opinions/2014/9/surveillance-datansausafreedomactisil.html" title="Don&rsquo;t let ISIL sink spy reform" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Don&rsquo;t let the ISIL threat sink surveillance reform" data-class="" class=""/><div data-class='' data-src="/content/ajam/opinions/2014/9/surveillance-datansausafreedomactisil/jcr:content/image.adapt.445.low.1411745191031.jpg"></div><div data-class='' data-src="/content/ajam/opinions/2014/9/surveillance-datansausafreedomactisil/jcr:content/image.adapt.200.medium.1411745191031.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/opinions/2014/9/surveillance-datansausafreedomactisil/jcr:content/image.adapt.200.high.1411745191031.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/opinions/2014/9/surveillance-datansausafreedomactisil/jcr:content/image.adapt.200.high.1411745191031.jpg"></div><![endif]--><noscript><img src="/content/ajam/opinions/2014/9/surveillance-datansausafreedomactisil/_jcr_content/image.adapt.445.low.jpg" alt="Don&rsquo;t let the ISIL threat sink surveillance reform" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">U.S.</div>
+            
+            <h3 class="headline">
+              <a href="/opinions/2014/9/surveillance-datansausafreedomactisil.html" title="Don&rsquo;t let ISIL sink spy reform" class="has-thumb label label-opinion">Don’t let ISIL sink spy reform</a>
+            </h3>
+            
+            <p class="leader">Republican scaremongering threatens to derail legislative fight to curb US spying powers</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/issue/surveillance.html">Surveillance</a></dd>
+                
+                  <dd><a href="/topics/topic/organization/NSA.html">NSA</a></dd>
+                
+                  <dd><a href="/topics/topic/people/edward-snowden.html">Edward Snowden</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/us.html">U.S.</a></dd>
+                
+                  <dd><a href="/topics/topic/organization/ISIL.html">ISIL</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/congress.html">Congress</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media ">
+          
+            <div class="news-item-image pull-left">
+              <a href="/watch/shows/live-news/2014/9/america-s-war-onweedrethinkingmarijuanaasaschedule1drug.html" title="Rethinking marijuana as a Schedule I drug" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="America&#x27;s war on weed: Rethinking marijuana as a schedule 1 drug" data-class="" class=" thumbOverlay-video"/><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/america-s-war-onweedrethinkingmarijuanaasaschedule1drug/jcr:content/image.adapt.445.low.1411750512651.jpg"></div><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/america-s-war-onweedrethinkingmarijuanaasaschedule1drug/jcr:content/image.adapt.200.medium.1411750512651.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/america-s-war-onweedrethinkingmarijuanaasaschedule1drug/jcr:content/image.adapt.200.high.1411750512651.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/america-s-war-onweedrethinkingmarijuanaasaschedule1drug/jcr:content/image.adapt.200.high.1411750512651.jpg"></div><![endif]--><noscript><img src="/content/ajam/watch/shows/live-news/2014/9/america-s-war-onweedrethinkingmarijuanaasaschedule1drug/_jcr_content/image.adapt.445.low.jpg" alt="America&#x27;s war on weed: Rethinking marijuana as a schedule 1 drug" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">Health</div>
+            
+            <h3 class="headline">
+              <a href="/watch/shows/live-news/2014/9/america-s-war-onweedrethinkingmarijuanaasaschedule1drug.html" title="Rethinking marijuana as a Schedule I drug" class="has-thumb ">Rethinking marijuana as a Schedule I drug</a>
+            </h3>
+            
+            <p class="leader">The departing Attorney General, Eric Holder, suggests that marijuana needs to be widely available to scientists</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/categories/health.html">Health</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/science.html">Science</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/marijuana.html">Marijuana</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/drugs.html">Drugs</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/Medical-Industry.html">Medical Industry</a></dd>
+                
+                  <dd><a href="/topics/topic/people/eric-holder.html">Eric Holder</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media ">
+          
+            <div class="news-item-image pull-left">
+              <a href="/articles/2014/9/26/ebola-cuba-who.html" title="Cuba to send more doctors to Ebola nations" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Cuba pledges 300 more doctors, nurses to combat Ebola" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/26/ebola-cuba-who/jcr:content/image.adapt.445.low.1411764479522.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/ebola-cuba-who/jcr:content/image.adapt.200.medium.1411764479522.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/ebola-cuba-who/jcr:content/image.adapt.200.high.1411764479522.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/26/ebola-cuba-who/jcr:content/image.adapt.200.high.1411764479522.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/26/ebola-cuba-who/_jcr_content/image.adapt.445.low.jpg" alt="Cuba pledges 300 more doctors, nurses to combat Ebola" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">Health</div>
+            
+            <h3 class="headline">
+              <a href="/articles/2014/9/26/ebola-cuba-who.html" title="Cuba to send more doctors to Ebola nations" class="has-thumb ">Cuba to send more doctors to Ebola nations</a>
+            </h3>
+            
+            <p class="leader">Announcement comes a day after Obama called on more nations to join the fight against the deadly virus</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/issue/Ebola.html">Ebola </a></dd>
+                
+                  <dd><a href="/topics/topic/organization/united-nations/World-Health-Organization.html">World Health Organization</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/health.html">Health</a></dd>
+                
+                  <dd><a href="/topics/topic/international-location/americas/cuba.html">Cuba</a></dd>
+                
+                  <dd><a href="/topics/topic/international-location/africa/sierra-leone.html">Sierra Leone</a></dd>
+                
+                  <dd><a href="/topics/topic/international-location/africa/liberia.html">Liberia</a></dd>
+                
+                  <dd><a href="/topics/topic/international-location/africa/guinea.html">Guinea</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/international.html">International</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media ">
+          
+            <div class="news-item-image pull-left">
+              <a href="/watch/shows/live-news/2014/9/derek-jeter-s-epiclaststand.html" title="Derek Jeter&#x27;s storybook ending" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Derek Jeter&#x27;s epic last stand" data-class="" class=" thumbOverlay-video"/><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/derek-jeter-s-epiclaststand/jcr:content/image.adapt.445.low.1411753337327.jpg"></div><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/derek-jeter-s-epiclaststand/jcr:content/image.adapt.200.medium.1411753337327.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/derek-jeter-s-epiclaststand/jcr:content/image.adapt.200.high.1411753337327.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/derek-jeter-s-epiclaststand/jcr:content/image.adapt.200.high.1411753337327.jpg"></div><![endif]--><noscript><img src="/content/ajam/watch/shows/live-news/2014/9/derek-jeter-s-epiclaststand/_jcr_content/image.adapt.445.low.jpg" alt="Derek Jeter&#x27;s epic last stand" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">Sports</div>
+            
+            <h3 class="headline">
+              <a href="/watch/shows/live-news/2014/9/derek-jeter-s-epiclaststand.html" title="Derek Jeter&#x27;s storybook ending" class="has-thumb ">Derek Jeter's storybook ending</a>
+            </h3>
+            
+            <p class="leader">Marty Appel, author and former Yankees Director of PR, talks about the legendary career of the Yankees captain</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/categories/sports.html">Sports</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/us.html">U.S.</a></dd>
+                
+                  <dd><a href="/topics/topic/organization/mlb.html">MLB</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/MLB.html">Major League Baseball</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/basebll.html">Baseball</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media ">
+          
+            <div class="news-item-image pull-left">
+              <a href="/articles/2014/9/26/taliban-ghazni-offensive.html" title="Deadly Taliban offensive gains ground" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Deadly Taliban offensive gains ground in east Afghanistan" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/26/taliban-ghazni-offensive/jcr:content/image.adapt.445.low.1411756906851.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/taliban-ghazni-offensive/jcr:content/image.adapt.200.medium.1411756906851.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/taliban-ghazni-offensive/jcr:content/image.adapt.200.high.1411756906851.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/26/taliban-ghazni-offensive/jcr:content/image.adapt.200.high.1411756906851.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/26/taliban-ghazni-offensive/_jcr_content/image.adapt.445.low.jpg" alt="Deadly Taliban offensive gains ground in east Afghanistan" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">International</div>
+            
+            <h3 class="headline">
+              <a href="/articles/2014/9/26/taliban-ghazni-offensive.html" title="Deadly Taliban offensive gains ground" class="has-thumb ">Deadly Taliban offensive gains ground</a>
+            </h3>
+            
+            <p class="leader">An attack by an estimated 700 Taliban fighters that began five days ago has left more than 100 people dead</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/categories/international.html">International</a></dd>
+                
+                  <dd><a href="/topics/topic/organization/Taliban.html">Taliban</a></dd>
+                
+                  <dd><a href="/topics/topic/international-location/central-south-asia/afghanistan.html">Afghanistan</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media ">
+          
+            <div class="news-item-image pull-left">
+              <a href="/articles/2014/9/26/modi-lawsuit-riots.html" title="US lawsuit filed against India&#x27;s Modi" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Indian government dismisses US lawsuit against PM as &#x27;frivolous&#x27; " data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/26/modi-lawsuit-riots/jcr:content/image.adapt.445.low.1411764119622.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/modi-lawsuit-riots/jcr:content/image.adapt.200.medium.1411764119622.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/modi-lawsuit-riots/jcr:content/image.adapt.200.high.1411764119622.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/26/modi-lawsuit-riots/jcr:content/image.adapt.200.high.1411764119622.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/26/modi-lawsuit-riots/_jcr_content/image.adapt.445.low.jpg" alt="Indian government dismisses US lawsuit against PM as &#x27;frivolous&#x27; " class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">International</div>
+            
+            <h3 class="headline">
+              <a href="/articles/2014/9/26/modi-lawsuit-riots.html" title="US lawsuit filed against India&#x27;s Modi" class="has-thumb ">US lawsuit filed against India's Modi</a>
+            </h3>
+            
+            <p class="leader">Court filing not expected to affect Modi's visit to New York and Washington, according to officials</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/international-location/central-south-asia/india.html">India</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/international.html">International</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media hide">
+          
+            <div class="news-item-image pull-left">
+              <a href="/articles/2014/9/25/uighur-xinjiang-conference.html" title="US Uighur conference slams Beijing" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="China&#x27;s crackdown on Uighurs could spark even more clashes, say analysts" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/25/uighur-xinjiang-conference/jcr:content/image.adapt.445.low.1411748620465.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/25/uighur-xinjiang-conference/jcr:content/image.adapt.200.medium.1411748620465.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/25/uighur-xinjiang-conference/jcr:content/image.adapt.200.high.1411748620465.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/25/uighur-xinjiang-conference/jcr:content/image.adapt.200.high.1411748620465.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/25/uighur-xinjiang-conference/_jcr_content/image.adapt.445.low.jpg" alt="China&#x27;s crackdown on Uighurs could spark even more clashes, say analysts" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">International</div>
+            
+            <h3 class="headline">
+              <a href="/articles/2014/9/25/uighur-xinjiang-conference.html" title="US Uighur conference slams Beijing" class="has-thumb ">US Uighur conference slams Beijing</a>
+            </h3>
+            
+            <p class="leader">The US 'war on terror' should stand as a cautionary tale for China, according to experts at a Uighur conference</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/international-location/asia-pacific/china.html">China</a></dd>
+                
+                  <dd><a href="/topics/topic/international-location/asia-pacific/china/Xinjiang.html">Xinjiang</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/international.html">International</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media hide">
+          
+            <div class="news-item-image pull-left">
+              <a href="/articles/2014/9/26/covert-operationsscottsdalemuseumcontemporaryart.html" title="Artists tackle modern US surveillance" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Artists take aim at hidden world of modern US surveillance" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/26/covert-operationsscottsdalemuseumcontemporaryart/jcr:content/image.adapt.445.low.1411738868409.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/covert-operationsscottsdalemuseumcontemporaryart/jcr:content/image.adapt.200.medium.1411738868409.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/covert-operationsscottsdalemuseumcontemporaryart/jcr:content/image.adapt.200.high.1411738868409.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/26/covert-operationsscottsdalemuseumcontemporaryart/jcr:content/image.adapt.200.high.1411738868409.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/26/covert-operationsscottsdalemuseumcontemporaryart/_jcr_content/image.adapt.445.low.jpg" alt="Artists take aim at hidden world of modern US surveillance" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">Culture</div>
+            
+            <h3 class="headline">
+              <a href="/articles/2014/9/26/covert-operationsscottsdalemuseumcontemporaryart.html" title="Artists tackle modern US surveillance" class="has-thumb ">Artists tackle modern US surveillance</a>
+            </h3>
+            
+            <p class="leader">'Covert Operations’ exhibition brings FOIA requests and dogged investigative fieldwork into museum setting</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/issue/Art.html">Art</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/surveillance.html">Surveillance</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/culture.html">Culture</a></dd>
+                
+                  <dd><a href="/topics/topic/organization/department-of-defense.html">Department of Defense</a></dd>
+                
+                  <dd><a href="/topics/topic/us-location/arizona.html">Arizona</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/us.html">U.S.</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media hide">
+          
+            <div class="news-item-image pull-left">
+              <a href="/watch/shows/live-news/2014/9/south-carolina-troopershotanunarmedmanduringaroutinetrafficstop.html" title="S. Carolina trooper shoots unarmed man" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="South Carolina trooper shot an unarmed man during a routine traffic stop" data-class="" class=" thumbOverlay-video"/><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/south-carolina-troopershotanunarmedmanduringaroutinetrafficstop/jcr:content/image.adapt.445.low.1411749538529.jpg"></div><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/south-carolina-troopershotanunarmedmanduringaroutinetrafficstop/jcr:content/image.adapt.200.medium.1411749538529.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/south-carolina-troopershotanunarmedmanduringaroutinetrafficstop/jcr:content/image.adapt.200.high.1411749538529.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/south-carolina-troopershotanunarmedmanduringaroutinetrafficstop/jcr:content/image.adapt.200.high.1411749538529.jpg"></div><![endif]--><noscript><img src="/content/ajam/watch/shows/live-news/2014/9/south-carolina-troopershotanunarmedmanduringaroutinetrafficstop/_jcr_content/image.adapt.445.low.jpg" alt="South Carolina trooper shot an unarmed man during a routine traffic stop" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">U.S.</div>
+            
+            <h3 class="headline">
+              <a href="/watch/shows/live-news/2014/9/south-carolina-troopershotanunarmedmanduringaroutinetrafficstop.html" title="S. Carolina trooper shoots unarmed man" class="has-thumb ">S. Carolina trooper shoots unarmed man</a>
+            </h3>
+            
+            <p class="leader">The recently fired trooper stopped the man for a seatbelt violation, but now faces felony charges for opening fire
+</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/us-location/south-carolina.html">South Carolina</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/militarization.html">Militarization</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/police.html">Police</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/us.html">U.S.</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/crime.html">Crime</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media hide">
+          
+            <div class="news-item-image pull-left">
+              <a href="/opinions/2014/9/united-nations-developmentgoalspostmdgs.html" title="New UN goals, same failed policy" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="New UN development goals, same failed policies" data-class="" class=""/><div data-class='' data-src="/content/ajam/opinions/2014/9/united-nations-developmentgoalspostmdgs/jcr:content/image.adapt.445.low.1411745965779.jpg"></div><div data-class='' data-src="/content/ajam/opinions/2014/9/united-nations-developmentgoalspostmdgs/jcr:content/image.adapt.200.medium.1411745965779.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/opinions/2014/9/united-nations-developmentgoalspostmdgs/jcr:content/image.adapt.200.high.1411745965779.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/opinions/2014/9/united-nations-developmentgoalspostmdgs/jcr:content/image.adapt.200.high.1411745965779.jpg"></div><![endif]--><noscript><img src="/content/ajam/opinions/2014/9/united-nations-developmentgoalspostmdgs/_jcr_content/image.adapt.445.low.jpg" alt="New UN development goals, same failed policies" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">International</div>
+            
+            <h3 class="headline">
+              <a href="/opinions/2014/9/united-nations-developmentgoalspostmdgs.html" title="New UN goals, same failed policy" class="has-thumb label label-opinion">New UN goals, same failed policy</a>
+            </h3>
+            
+            <p class="leader">The current aid model cannot be saved without empowering the world's poor</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/organization/united-nations.html">United Nations</a></dd>
+                
+                  <dd><a href="/topics/topic/people/Ban-Ki-moon.html">Ban Ki-moon</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/poverty.html">Poverty</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/international.html">International</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media hide">
+          
+            <div class="news-item-image pull-left">
+              <a href="/articles/2014/9/26/government-salesofconfederateflagbanned.html" title="Calif. enacts ban on Confederate flag" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="California enacts ban on Confederate flag" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/26/government-salesofconfederateflagbanned/jcr:content/image.adapt.445.low.1411744846356.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/government-salesofconfederateflagbanned/jcr:content/image.adapt.200.medium.1411744846356.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/26/government-salesofconfederateflagbanned/jcr:content/image.adapt.200.high.1411744846356.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/26/government-salesofconfederateflagbanned/jcr:content/image.adapt.200.high.1411744846356.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/26/government-salesofconfederateflagbanned/_jcr_content/image.adapt.445.low.jpg" alt="California enacts ban on Confederate flag" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">U.S.</div>
+            
+            <h3 class="headline">
+              <a href="/articles/2014/9/26/government-salesofconfederateflagbanned.html" title="Calif. enacts ban on Confederate flag" class="has-thumb ">Calif. enacts ban on Confederate flag</a>
+            </h3>
+            
+            <p class="leader">New law prohibits government agencies from selling or displaying the controversial flag unless for educational purposes</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/categories/us.html">U.S.</a></dd>
+                
+                  <dd><a href="/topics/topic/us-location/california.html">California</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/race-ethnicity.html">Race & Ethnicity</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media hide">
+          
+            <div class="news-item-image pull-left">
+              <a href="/watch/shows/live-news/2014/9/al-jazeera-journalistrecallshisexperienceinanegyptianprison.html" title="Al Jazeera staffer recalls time in Egypt prison" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Al Jazeera journalist recalls his experience in an Egyptian prison" data-class="" class=" thumbOverlay-video"/><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/al-jazeera-journalistrecallshisexperienceinanegyptianprison/jcr:content/image.adapt.445.low.1411747119852.jpg"></div><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/al-jazeera-journalistrecallshisexperienceinanegyptianprison/jcr:content/image.adapt.200.medium.1411747119852.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/al-jazeera-journalistrecallshisexperienceinanegyptianprison/jcr:content/image.adapt.200.high.1411747119852.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/al-jazeera-journalistrecallshisexperienceinanegyptianprison/jcr:content/image.adapt.200.high.1411747119852.jpg"></div><![endif]--><noscript><img src="/content/ajam/watch/shows/live-news/2014/9/al-jazeera-journalistrecallshisexperienceinanegyptianprison/_jcr_content/image.adapt.445.low.jpg" alt="Al Jazeera journalist recalls his experience in an Egyptian prison" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">International</div>
+            
+            <h3 class="headline">
+              <a href="/watch/shows/live-news/2014/9/al-jazeera-journalistrecallshisexperienceinanegyptianprison.html" title="Al Jazeera staffer recalls time in Egypt prison" class="has-thumb ">Al Jazeera staffer recalls time in Egypt prison</a>
+            </h3>
+            
+            <p class="leader">Abdullah Elshamy discusses freedom of the press and the wrongful deaths and imprisonment of press members</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/issue/press-freedom.html">Press Freedom</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/FreeAJStaff.html">#FreeAJStaff</a></dd>
+                
+                  <dd><a href="/topics/topic/organization/al-jazeera.html">Al Jazeera</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/international.html">International</a></dd>
+                
+                  <dd><a href="/topics/topic/international-location/middle-east/egypt.html">Egypt</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media hide">
+          
+            <div class="news-item-image pull-left">
+              <a href="/watch/shows/live-news/2014/9/woman-imprisonediniranfortryingtowatchmensvolleyball.html" title="Iran jails women for trying to watch volleyball" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Woman imprisoned in Iran for trying to watch men&#x27;s volleyball" data-class="" class=" thumbOverlay-video"/><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/woman-imprisonediniranfortryingtowatchmensvolleyball/jcr:content/image.adapt.445.low.1411746453413.jpg"></div><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/woman-imprisonediniranfortryingtowatchmensvolleyball/jcr:content/image.adapt.200.medium.1411746453413.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/woman-imprisonediniranfortryingtowatchmensvolleyball/jcr:content/image.adapt.200.high.1411746453413.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/woman-imprisonediniranfortryingtowatchmensvolleyball/jcr:content/image.adapt.200.high.1411746453413.jpg"></div><![endif]--><noscript><img src="/content/ajam/watch/shows/live-news/2014/9/woman-imprisonediniranfortryingtowatchmensvolleyball/_jcr_content/image.adapt.445.low.jpg" alt="Woman imprisoned in Iran for trying to watch men&#x27;s volleyball" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">International</div>
+            
+            <h3 class="headline">
+              <a href="/watch/shows/live-news/2014/9/woman-imprisonediniranfortryingtowatchmensvolleyball.html" title="Iran jails women for trying to watch volleyball" class="has-thumb ">Iran jails women for trying to watch volleyball</a>
+            </h3>
+            
+            <p class="leader">Ghoncheh Ghavami was arrested for a violation of Iran's ban on women going to some sporting events</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/international-location/middle-east/iran.html">Iran</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/us-iran-diplomacy.html">US-Iran Diplomacy</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/prison.html">Prison</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/womens-rights.html">Women's Rights</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/international.html">International</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media hide">
+          
+            <div class="news-item-image pull-left">
+              <a href="/articles/2014/9/25/ferguson-chief-apologizesinvideotobrownfamily.html" title="Ferguson rally ends with clashes, arrests" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Ferguson rally ends with clashes, arrests" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/25/ferguson-chief-apologizesinvideotobrownfamily/jcr:content/image.adapt.445.low.1411755628476.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/25/ferguson-chief-apologizesinvideotobrownfamily/jcr:content/image.adapt.200.medium.1411755628476.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/25/ferguson-chief-apologizesinvideotobrownfamily/jcr:content/image.adapt.200.high.1411755628476.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/25/ferguson-chief-apologizesinvideotobrownfamily/jcr:content/image.adapt.200.high.1411755628476.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/25/ferguson-chief-apologizesinvideotobrownfamily/_jcr_content/image.adapt.445.low.jpg" alt="Ferguson rally ends with clashes, arrests" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">U.S.</div>
+            
+            <h3 class="headline">
+              <a href="/articles/2014/9/25/ferguson-chief-apologizesinvideotobrownfamily.html" title="Ferguson rally ends with clashes, arrests" class="has-thumb ">Ferguson rally ends with clashes, arrests</a>
+            </h3>
+            
+            <p class="leader">Turmoil follows video apology by police chief over mishandling of Michael Brown’s case</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/issue/Michael-Brown-Shooting.html">Flashpoint  Ferguson</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/us.html">U.S.</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/race-ethnicity.html">Race & Ethnicity</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media hide">
+          
+            <div class="news-item-image pull-left">
+              <a href="/watch/shows/america-tonight/articles/2014/9/25/why-are-so-many-youngboysdisappearinginelsalvador.html" title="El Salvador&#x27;s young victims of gangs" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Why are so many young boys disappearing in El Salvador?" data-class="" class=""/><div data-class='' data-src="/content/ajam/watch/shows/america-tonight/articles/2014/9/25/why-are-so-many-youngboysdisappearinginelsalvador/jcr:content/image.adapt.445.low.1411673023771.jpg"></div><div data-class='' data-src="/content/ajam/watch/shows/america-tonight/articles/2014/9/25/why-are-so-many-youngboysdisappearinginelsalvador/jcr:content/image.adapt.200.medium.1411673023771.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/watch/shows/america-tonight/articles/2014/9/25/why-are-so-many-youngboysdisappearinginelsalvador/jcr:content/image.adapt.200.high.1411673023771.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/watch/shows/america-tonight/articles/2014/9/25/why-are-so-many-youngboysdisappearinginelsalvador/jcr:content/image.adapt.200.high.1411673023771.jpg"></div><![endif]--><noscript><img src="/content/ajam/watch/shows/america-tonight/articles/2014/9/25/why-are-so-many-youngboysdisappearinginelsalvador/_jcr_content/image.adapt.445.low.jpg" alt="Why are so many young boys disappearing in El Salvador?" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">International</div>
+            
+            <h3 class="headline">
+              <a href="/watch/shows/america-tonight/articles/2014/9/25/why-are-so-many-youngboysdisappearinginelsalvador.html" title="El Salvador&#x27;s young victims of gangs" class="has-thumb ">El Salvador's young victims of gangs</a>
+            </h3>
+            
+            <p class="leader">Thousands of young Salvadoran men are under pressure from gangs, and many who resist their influence don't survive</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/issue/gangs.html">Gangs</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/borders.html">Borders</a></dd>
+                
+                  <dd><a href="/topics/topic/issue/law-justice.html">Law & Justice</a></dd>
+                
+                  <dd><a href="/topics/topic/international-location/americas/el-salvador.html">El Salvador</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/international.html">International</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+        <article class="news-item media hide">
+          
+            <div class="news-item-image pull-left">
+              <a href="/articles/2014/9/25/ebola-obama-un.html" title="Obama: Not enough being done on Ebola" class="media-object" target="">
+                <figure class="image"><div data-picture data-alt="Obama: World is not doing enough to stop Ebola" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/25/ebola-obama-un/jcr:content/image.adapt.445.low.1411743218169.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/25/ebola-obama-un/jcr:content/image.adapt.200.medium.1411743218169.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/25/ebola-obama-un/jcr:content/image.adapt.200.high.1411743218169.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/25/ebola-obama-un/jcr:content/image.adapt.200.high.1411743218169.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/25/ebola-obama-un/_jcr_content/image.adapt.445.low.jpg" alt="Obama: World is not doing enough to stop Ebola" class=""></noscript></div></figure>
+              </a>
+            </div>
+          
+          <div class="media-body">
+            
+              <div class="section-tag">Health</div>
+            
+            <h3 class="headline">
+              <a href="/articles/2014/9/25/ebola-obama-un.html" title="Obama: Not enough being done on Ebola" class="has-thumb ">Obama: Not enough being done on Ebola</a>
+            </h3>
+            
+            <p class="leader">President warns of ‘significant gap’ in global response to Ebola epidemic; Sierra Leone quarantines three new districts</p>
+            
+              <dl class="topics">
+                <dt>Topics:</dt>
+                
+                  <dd><a href="/topics/topic/issue/Ebola.html">Ebola </a></dd>
+                
+                  <dd><a href="/topics/topic/categories/health.html">Health</a></dd>
+                
+                  <dd><a href="/topics/topic/organization/united-nations.html">United Nations</a></dd>
+                
+                  <dd><a href="/topics/topic/people/barack-obama.html">Barack Obama</a></dd>
+                
+                  <dd><a href="/topics/topic/categories/international.html">International</a></dd>
+                
+                  <dd><a href="/topics/topic/international-location/africa/sierra-leone.html">Sierra Leone</a></dd>
+                
+              </dl>
+            
+            
+          </div>
+        </article>
+      
+      
+        <div class="wrapper-loadMore" data-count="19" data-clicked="false">
+          <a class="sq B"><span class="loadMore-icon">Load More</span></a>
+        </div>
+      
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+                <div class="articleHighlightList">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="articleHighlightList-box" data-originalcount="10">
+  <div class="box-content">
+    
+    <div class="box-body">
+      
+      
+    </div>
+  </div>
+</div>
+</div>
+
+            </div>
+            <section class="tv-bar-section visible-phone">
+                <div class="container container-padding">
+                    <div class="tv-bar-box">
+                        
+                        
+                        <div class="callToAction">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="callToAction-box">
+  <div class="box-header">
+    
+      <h4 class="box-title">Al Jazeera America Presents</h4>
+    
+  </div>
+  <div class="box-body">
+    <div class="media media-480-ignore">
+      
+      <div class="box-image-text media-body">
+        <h3 class="box-headline">Edge of Eighteen</h3>
+        
+          <a href="/watch/shows/edge-of-eighteen/articles/2014/9/17/-make-this-all-goawaycyberbullyingmultipliesteenpain.html" target="_blank" class="box-link">'Make this all go away': Cyberbullying multiplies teen pain</a>
+        
+      </div>
+    </div>
+  </div>
+</div></div>
+
+                        <div class="broadcastOnNow onNow">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="ajax-loader"></div>
+<div class="broadcastOnNow-box broadcastOnNowData clearfix currentNextShow"
+		data-url="/bin/ajam/onnow.json"
+		data-shows="2"
+		data-b-title="On TV Now"
+		data-b-full-schedule-href="/watch/schedule.html"
+		data-b-full-schedule-display-val="View Full Schedule">
+</div></div>
+
+                        <div class="k2Search broadcastFinder">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="k2Search-box">
+    <div class="box-header">
+      
+        <h4 class="box-title">Find Al Jazeera America on your TV</h4>
+      
+    </div>
+    <div class="box-body">
+  		<form class="k2SearchForm media media-480-ignore" action="/content/ajam/watch/channel-finder-results">
+        <div class="pull-right k2Search-pull--right">
+          <button type="submit" class="k2SearchButton media-object">Go</button>
+        </div>
+        <div class="k2SearchInput-container media-body">
+    			<input type="text" name="zip" placeholder="Enter zip code" value="" maxlength="5" class="k2SearchInput" />
+        </div>
+  		</form>
+    </div>
+	</div>
+</div>
+
+                        
+                    </div>
+                </div>
+            </section>
+            <div class="span4 col-secondary col-secondary-home">
+                <div class="col1">
+                    <div class="parsys rightcolupper"><div class="dailyBrief section">
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- component class -->
+	<div class="dailyBrief-box">
+		<div class="box-content">
+			<h3 class="box-title">Spotlight</h3>
+			<div class="box-body">
+        
+				<figure class="image"><a class="image-link" href="/external/2014/9/deported-vets-lifeinthebunker.html"><div data-picture data-alt="Spotlight Image for the Daily Brief" data-class="" class=""/><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/dailybrief/image.adapt.422.low.1411841472617.jpg"></div><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/dailybrief/image.adapt.686.medium.1411841472617.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/dailybrief/image.adapt.253.high.1411841472617.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/dailybrief/image.adapt.253.high.1411841472617.jpg"></div><![endif]--><noscript><img src="/content/ajam/_jcr_content/rightcolupper/dailybrief/image.adapt.422.low.jpg" alt="Spotlight Image for the Daily Brief" class=""></noscript></div></a></figure>
+				
+					<div class="news-item">
+						<div class="topic">Mexico</div>
+						
+							<h3 class="headline"><a href="/external/2014/9/deported-vets-lifeinthebunker.html">Deported veterans:<br>Life in 'the bunker'</a></h3>
+						
+						
+					</div>
+				
+					<div class="news-item">
+						<div class="topic">Opinion</div>
+						
+							<h3 class="headline"><a href="/opinions/2014/9/land-mines-humanrightsussouthkorea.html">Obama inches US closer to land mine ban</a></h3>
+						
+						
+					</div>
+				
+					<div class="news-item">
+						<div class="topic">SCIENCE</div>
+						
+							<h3 class="headline"><a href="/articles/2014/9/27/i-want-to-be-yourneuroscienceexperiment.html">DIYers zap brain to accelerate learning</a></h3>
+						
+						
+					</div>
+				
+				<a href=""></a>
+			</div>
+		</div>
+	</div>
+	<!-- end component class --></div>
+<div class="adaptiveImageWithText section">
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/etc/designs/al-jazeera-america/adaptiveImageWithText.min.20140917121113454.js"></script>
+
+
+
+    
+    
+        <div class="adaptiveImageWithText-box">
+            
+                <a href="/topics/topic/organization/ISIL.html" class="adaptiveImageWithText-link">
+            
+            <figure class="image"><div data-picture data-alt="The ISIL Threat" data-class="adaptiveImageWithText-image" class="adaptiveImageWithText-image--container FlexEmbed FlexEmbed--8by5"/><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/adaptiveimagewithtex/src.adapt.480.low.1411841472617.jpg"></div><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/adaptiveimagewithtex/src.adapt.768.medium.1411841472617.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/adaptiveimagewithtex/src.adapt.960.high.1411841472617.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/adaptiveimagewithtex/src.adapt.960.high.1411841472617.jpg"></div><![endif]--><noscript><img src="/content/ajam/_jcr_content/rightcolupper/adaptiveimagewithtex/src.adapt.480.low.jpg" alt="The ISIL Threat" class="adaptiveImageWithText-image"></noscript></div></figure>
+            <span class="adaptiveImageWithText-credit"></span>
+            <div class="adaptiveImageWithText-caption vertical-center horizontal-center">
+                
+                    <h3 class="adaptiveImageWithText-title">In-depth special coverage</h3>
+                
+                
+                    <p class="adaptiveImageWithText-text">Click for the latest news and analysis</p>
+                
+            </div>
+            
+                </a>
+            
+        </div>
+    
+    
+
+</div>
+<div class="blogPromo section">
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  .blogPromo-banner--link {
+    background-image: url("/content/dam/ajam/images/shows/blogBG-newsblog.jpg.adapt.325.high.1411766113647.jpg");
+  }
+  @media (max-width: 767px) {
+    .blogPromo-banner--link {
+      background-image: url('/content/dam/ajam/images/shows/blogBG-newsblog.jpg.adapt.700.high.1411766113647.jpg');
+    }
+  }
+  @media (max-width: 480px) {
+    .blogPromo-banner--link {
+      background-image: url('/content/dam/ajam/images/shows/blogBG-newsblog.jpg.adapt.480.high.1411766113647.jpg');
+    }
+  }
+</style>
+
+<div class="blogPromo-container clearfix">
+  
+    <div class="blogPromo-header FlexEmbed">
+      <a href="/blogs/scrutineer.html" class="blogPromo-banner--link FlexEmbed-item">
+        
+          <div class="blogPromo-title--wrapper clearfix"><span class="blogPromo-title blogPromo-title--first">The</span> <span class="blogPromo-title blogPromo-title--second">Scrutineer</span>
+          </div>
+        
+      </a>
+    </div>
+  
+  <div class="blogPromo-body">
+    
+      <div class="blogPromo-item">
+        <a href="/blogs/scrutineer/2014/9/26/lone-star-tick-allergy.html" class="blogPromo-item--link blogPromo-item--headline">
+        	
+	        	
+	        		Lone star tick bite changes lives
+	        	
+	        	
+        	
+        </a>
+        A year later, those bitten still suffer from severe allergy to meat and meat byproducts 
+      </div>
+    
+      <div class="blogPromo-item">
+        <a href="/blogs/scrutineer/2014/9/25/walker-wisconsincriminalinvestigation.html" class="blogPromo-item--link blogPromo-item--headline">
+        	
+	        	
+	        		Court: Walker inquiry can resume
+	        	
+	        	
+        	
+        </a>
+        Prosecutors say Gov. Scott Walker's campaign illegally coordinated with outside groups during 2012 recall
+      </div>
+    
+      <div class="blogPromo-item">
+        <a href="/blogs/scrutineer/2014/9/24/compost-or-pay-seattlehopestoencouragewastemanagementwithfines.html" class="blogPromo-item--link blogPromo-item--headline">
+        	
+	        	
+	        		Seattle says, compost or pay
+	        	
+	        	
+        	
+        </a>
+        Residents say they’re for turning food scraps into fertilizer but balk at penalties
+      </div>
+    
+      <div class="blogPromo-item">
+        <a href="/blogs/scrutineer/2014/9/23/nuclear-solutionstoclimatechangeareanythingbut.html" class="blogPromo-item--link blogPromo-item--headline">
+        	
+	        	
+	        		Nuclear not a climate fix
+	        	
+	        	
+        	
+        </a>
+        While Obama touts his carbon reduction plan at the U.N., a close examination reveals a costly flaw
+      </div>
+    
+  </div>
+  
+</div>
+</div>
+<div class="adaptiveImageWithText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        <div class="adaptiveImageWithText-box">
+            
+                <a href="/external/2014/4/journalism-underfireinegypt.html" class="adaptiveImageWithText-link">
+            
+            <figure class="image"><div data-picture data-alt="FreeAJStaff" data-class="adaptiveImageWithText-image" class="adaptiveImageWithText-image--container FlexEmbed FlexEmbed--8by5"/><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/adaptiveimagewithtex_0/src.adapt.480.low.1411841472617.jpg"></div><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/adaptiveimagewithtex_0/src.adapt.768.medium.1411841472617.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/adaptiveimagewithtex_0/src.adapt.960.high.1411841472617.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/adaptiveimagewithtex_0/src.adapt.960.high.1411841472617.jpg"></div><![endif]--><noscript><img src="/content/ajam/_jcr_content/rightcolupper/adaptiveimagewithtex_0/src.adapt.480.low.jpg" alt="FreeAJStaff" class="adaptiveImageWithText-image"></noscript></div></figure>
+            <span class="adaptiveImageWithText-credit"></span>
+            <div class="adaptiveImageWithText-caption vertical-center horizontal-right">
+                
+                    <h3 class="adaptiveImageWithText-title">#FreeAJStaff</h3>
+                
+                
+                    <p class="adaptiveImageWithText-text">Click for the latest on Al Jazeera’s journalists sentenced to long prison terms in Egypt. </p>
+                
+            </div>
+            
+                </a>
+            
+        </div>
+    
+    
+
+</div>
+<div class="markup section">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="photoGalleryHeader">
+  <div id="photoGalleryHeaderTag">PHOTOS</div>
+  <div id="photoGalleryHeaderHeadline">
+  
+  <a href="http://projects.aljazeera.com/2014/beautiful-brawlers/">For women boxers, amateur is better than turning pro</a>
+  
+</div>
+</div>
+
+
+<style type="text/css">
+#photoGalleryHeader {padding:0 0 12px 0; margin:20px 0 0 0;}
+#photoGalleryHeaderTag {
+display: inline-block;
+margin: 0 0 12px 0;
+padding: 3px 7px 2px;
+color: #fff;
+font-size: 18px;
+line-height: 21px;
+text-transform: uppercase;
+background-color: #000;
+font-family: "HelveticaNeueHeavy85","Helvetica Neue Heavy","Helvetica-Neue-Heavy",Helvetica,Arial,sans-serif;
+font-weight: normal!important;
+}
+#photoGalleryHeaderHeadline {
+font-family: "HelveticaNeueHeavy85","Helvetica Neue Heavy","Helvetica-Neue-Heavy",Helvetica,Arial,sans-serif;
+font-weight: normal!important;
+font-size:15px;
+line-height: 18px;
+}
+#photoGalleryHeaderHeadline a {color:#000; text-decoration: none;}
+
+#photoGalleryHeaderHeadline a:hover {color:#2677b9;}
+
+.opinionHighlightList-container {padding:20px 0;}
+</style></div>
+<div class="adaptiveImage section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+    
+		<figure class="image"><a class="image-link" href="http://projects.aljazeera.com/2014/beautiful-brawlers/"><div data-picture data-alt="Beautiful Brawlers" data-class="" class=""/><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/adaptiveimage_0/src.adapt.410.low.1411841472617.jpg"></div><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/adaptiveimage_0/src.adapt.700.medium.1411841472617.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/adaptiveimage_0/src.adapt.310.high.1411841472617.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/adaptiveimage_0/src.adapt.310.high.1411841472617.jpg"></div><![endif]--><noscript><img src="/content/ajam/_jcr_content/rightcolupper/adaptiveimage_0/src.adapt.410.low.jpg" alt="Beautiful Brawlers" class=""></noscript></div></a></figure>
+	
+	
+
+</div>
+<div class="adaptiveImage section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+    
+		<figure class="image"><a class="image-link" href="/articles/longform.html"><div data-picture data-alt="Longform page" data-class="" class=""/><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/adaptiveimage/src.adapt.410.low.1411841472617.jpg"></div><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/adaptiveimage/src.adapt.700.medium.1411841472617.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/adaptiveimage/src.adapt.310.high.1411841472617.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/jcr:content/rightcolupper/adaptiveimage/src.adapt.310.high.1411841472617.jpg"></div><![endif]--><noscript><img src="/content/ajam/_jcr_content/rightcolupper/adaptiveimage/src.adapt.410.low.jpg" alt="Longform page" class=""></noscript></div></a></figure>
+	
+	
+
+</div>
+</div>
+
+                    <div class="opinionHighlightList">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="opinionHighlightList-container">
+  <div class="opinionHighlightList-header">
+        <a href="/opinions.html" class="opinionHighlightList-title articleopinion-showTag js-toggle--fade">Opinion</a>
+  </div>
+  <div class="opinionHighlightList-body">
+    
+      <div class="opinionHighlightList-media">
+        
+        <div class="opinionHighlightList-linkAuthor">
+          <a class="opinionHighlightList-link opinionHighlightList-link--title" href="/opinions/2014/9/ferguson-china-solidaritymiddleclassethnictensions.html">What China's middle class learned from Ferguson</a>
+          
+            <span class="opinionHighlightList-author">
+              
+                by
+                
+                
+                <span class="standard-byline"><a href="/profiles/w/di-wang.html" title="Di Wang" class="opinionHighlightList-link opinionHighlightList-author--link">Di Wang</a></span>
+              
+            </span>
+          
+        </div>
+      </div>
+    
+      <div class="opinionHighlightList-media">
+        
+        <div class="opinionHighlightList-linkAuthor">
+          <a class="opinionHighlightList-link opinionHighlightList-link--title" href="/opinions/2014/9/land-mines-humanrightsussouthkorea.html">Obama inches US closer to accepting land mine ban</a>
+          
+            <span class="opinionHighlightList-author">
+              
+                by
+                
+                
+                <span class="standard-byline"><a href="/profiles/w/jody-williams.html" title="Jody Williams" class="opinionHighlightList-link opinionHighlightList-author--link">Jody Williams</a></span>
+              
+            </span>
+          
+        </div>
+      </div>
+    
+      <div class="opinionHighlightList-media">
+        
+        <div class="opinionHighlightList-linkAuthor">
+          <a class="opinionHighlightList-link opinionHighlightList-link--title" href="/opinions/2014/9/eric-holder-resignationjusticefinancialcrisisfraud.html">Financial frauds had a friend in Holder</a>
+          
+            <span class="opinionHighlightList-author">
+              
+                by
+                
+                
+                <span class="standard-byline"><a href="/profiles/b/william-k-black.html" title="William K. Black" class="opinionHighlightList-link opinionHighlightList-author--link">William K. Black</a></span>
+              
+            </span>
+          
+        </div>
+      </div>
+    
+      <div class="opinionHighlightList-media">
+        
+        <div class="opinionHighlightList-linkAuthor">
+          <a class="opinionHighlightList-link opinionHighlightList-link--title" href="/opinions/2014/9/surveillance-datansausafreedomactisil.html">Don’t let the ISIL threat sink surveillance reform</a>
+          
+            <span class="opinionHighlightList-author">
+              
+                by
+                
+                
+                <span class="standard-byline"><a href="/profiles/k/joshua-kopstein.html" title="Joshua  Kopstein" class="opinionHighlightList-link opinionHighlightList-author--link">Joshua  Kopstein</a></span>
+              
+            </span>
+          
+        </div>
+      </div>
+    
+      <div class="opinionHighlightList-media">
+        
+        <div class="opinionHighlightList-linkAuthor">
+          <a class="opinionHighlightList-link opinionHighlightList-link--title" href="/opinions/2014/9/united-nations-developmentgoalspostmdgs.html">New UN development goals, same failed policies</a>
+          
+            <span class="opinionHighlightList-author">
+              
+                by
+                
+                
+                <span class="standard-byline"><a href="/profiles/z/rafia-zakaria.html" title="Rafia Zakaria" class="opinionHighlightList-link opinionHighlightList-author--link">Rafia Zakaria</a></span>
+              
+            </span>
+          
+        </div>
+      </div>
+    
+  </div>
+</div></div>
+
+                </div>
+                <div class="col2">
+                    <div class="parbase ad ad2">
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    <script>
+      var doubleClickAdUnitRefresh = 180000;
+    </script>
+
+    <script type="text/javascript">
+      googletag.cmd.push(function() {
+        var slot=googletag.defineSlot("/6891564/ajam/homepage", [300, 250],"ad-/content/ajam/jcr:content/ad2").addService(googletag.pubads());
+        
+        ads.push(slot);
+      });
+    </script>
+
+    <div id="ad-/content/ajam/jcr:content/ad2">
+      <script type="text/javascript">
+        googletag.cmd.push(function() {
+          googletag.display("ad-/content/ajam/jcr:content/ad2");
+        });
+      </script>
+    </div>
+  
+
+</div>
+
+                    <div class="mostActive">
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/etc/designs/al-jazeera-america/mostActive.min.20140917121113454.js"></script>
+
+
+
+<div class="mostActive-container nocontent">
+  <div class="mostActive-header">
+    <ul class="mostActive-tabs clearfix">
+      <li class="mostActive-tab active">
+        <a href="#mostActive-discussed" data-toggle="tab" class="mostActive-tab--link"><span class="mostActive-break">Most </span>Discussed</a>
+      </li>
+      <li class="mostActive-tab"><a href="#mostActive-shared" data-toggle="tab" class="mostActive-tab--link"><span class="mostActive-break">Most </span>Shared</a></li>
+      <li class="mostActive-tab"><a href="#mostActive-viewed" data-toggle="tab" class="mostActive-tab--link"><span class="mostActive-break">Most </span>Viewed</a></li>
+    </ul>
+  </div>
+  <div class="mostActive-body">
+    <div class="mostActive-tab--pane fade active in" id="mostActive-discussed" data-url="/bin/ajam/gigya.mostdiscussed.json" data-count="5">
+      <div class="ajax-loader"></div>
+    </div>
+    <div class="mostActive-tab--pane fade" id="mostActive-shared" data-url="/bin/ajam/gigya.topshares.json" data-count="5">
+      <div class="ajax-loader"></div>
+    </div>
+    <div class="mostActive-tab--pane fade" id="mostActive-viewed" data-url="/bin/ajam/analytics.mostviewed.json" data-count="5">
+      <div class="ajax-loader"></div>
+    </div>
+  </div> 
+</div> </div>
+
+                    <div class="rightcollower parsys"><div class="latestArticleList section">
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/etc/designs/al-jazeera-america/latestArticleList.min.20140917121113454.js"></script>
+
+
+<section class="latestArticleList-box">
+	<div class="box-content">
+		<div class="box-header">
+			<h3 class="box-title">New from Al Jazeera America</h3>
+			<a href="#" class="js-more more hidden-desktop">More</a>
+		</div>
+		<div class="box-body">
+			<ul class="latestArticleList-list unstyled" id="latestArticles">
+				
+					<li class="latestArticleList-item">
+						<a href="http://www.aljazeera.com/indepth/inpictures/2014/09/pictures-place-called-home-2014924144227572686.html" title="In Pictures: A place called home" class="label label-outsideContent latestArticleList-link">In Pictures: A place called home</a>
+					</li>
+				
+					<li class="latestArticleList-item">
+						<a href="/articles/2014/9/27/liberia-top-doctorquarantinedasebolaclinicsfillup.html" title="Liberia&#x27;s chief medical officer quarantined after aide dies of Ebola" class=" latestArticleList-link">Liberia's chief medical officer quarantined after aide dies of Ebola</a>
+					</li>
+				
+					<li class="latestArticleList-item">
+						<a href="/articles/2014/9/27/top-indian-officialconvictedofcorruption0.html" title="Top Indian official convicted of corruption" class=" latestArticleList-link">Top Indian official convicted of corruption</a>
+					</li>
+				
+					<li class="latestArticleList-item">
+						<a href="/articles/2014/9/27/volcano-erupts-injapan7missing.html" title="Volcano erupts in Japan, 7 missing, 40 injured" class=" latestArticleList-link">Volcano erupts in Japan, 7 missing, 40 injured</a>
+					</li>
+				
+					<li class="latestArticleList-item">
+						<a href="/articles/2014/9/27/egyptian-court-postponesmubarakverdict.html" title="Egyptian court postpones Mubarak verdict again" class=" latestArticleList-link">Egyptian court postpones Mubarak verdict again</a>
+					</li>
+				
+			</ul>
+		</div>
+	</div>
+</section>
+</div>
+<div class="section separator">
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="A"></div>
+<div class="newsletterSignUp section">
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/etc/designs/al-jazeera-america/newsletterSignUp.min.20140917121113454.js"></script>
+
+
+<div class="newsletterSignup-wrapper">
+	<div class="newsletterSignup-header">
+		<h4 class="newsletterSignup-title"><span>Get email updates from </span><span>Al Jazeera America </span></h4>
+	</div>
+	<div class="newsletterSignup-body">
+		<p class="newsletterSignup-description">Sign up for our weekly newsletter</p>
+		<form name="input" class="newsletterSignup-form" action="http://aljazeera.us2.list-manage1.com/subscribe/post?u=38ffd892c93e55497901185c8&amp;id=1a7655241c" method="POST">
+			<button name="subscribe" id="submit" type="submit" class="newsletterSignup-submit">Submit</button>
+			<div class="newsletterSignup-input--container">
+				<input type="text" name="EMAIL" placeholder="Enter Email Address" id="email" class="newsletterSignup-input">
+				<input type="hidden" value="1" name="group[5][64]">
+			</div>
+			<span class="js-newsletter--error newsletterSignup-error" style="display: none;">Please enter a valid email address!</span>
+		</form>
+	</div>
+</div>
+</div>
+</div>
+
+                    <div class="editorsPicks">
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-home-bottom">
+        <div class="container container-padding">
+            <div class="container-home-bottom-inner">
+                <div class="parsys subpar"><div class="parbase ad section">
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+    <script>
+      var doubleClickAdUnitRefresh = 180000;
+    </script>
+
+    <script type="text/javascript">
+      googletag.cmd.push(function() {
+        var slot=googletag.defineSlot("/6891564/ajam/homepage", [728, 90],"ad-/content/ajam/jcr:content/subpar/ad").addService(googletag.pubads());
+        
+        ads.push(slot);
+      });
+    </script>
+
+    <div id="ad-/content/ajam/jcr:content/subpar/ad">
+      <script type="text/javascript">
+        googletag.cmd.push(function() {
+          googletag.display("ad-/content/ajam/jcr:content/subpar/ad");
+        });
+      </script>
+    </div>
+  
+
+</div>
+<div class="markup section">
+
+
+
+
+
+
+
+
+
+
+
+
+</br></div>
+<div class="allShowsList section">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="allShowsList-box">
+  <div class="box-content">
+    <hr class="C">
+    <div class="box-header">
+      <h3 class="box-title">All Shows</h3>
+      <a href="/watch/schedule.html" class="more">View full schedule</a>
+    </div>
+    <hr class="F">
+    <div class="box-body clearfix">
+      <ul class="unstyled allShowsList-list">
+        
+          
+            <li class="allShowsList-item">
+              <a class="allShowslist-link" href="/watch/shows/live-news.html">Al Jazeera America News</a>
+              <span class="allShowsList-time">DAILY AM, NOON & PM</span>
+            </li>
+          
+            <li class="allShowsList-item">
+              <a class="allShowslist-link" href="/watch/shows/america-tonight.html">America Tonight</a>
+              <span class="allShowsList-time">Mon-Fri 9 ET/6 PT</span>
+            </li>
+          
+            <li class="allShowsList-item">
+              <a class="allShowslist-link" href="/watch/shows/consider-this.html">Consider This</a>
+              <span class="allShowsList-time">Mon-Fri 10 ET/7 PT</span>
+            </li>
+          
+            <li class="allShowsList-item">
+              <a class="allShowslist-link" href="/watch/shows/fault-lines.html">Fault Lines</a>
+              <span class="allShowsList-time">Saturday 7:00E/4:00P</span>
+            </li>
+          
+        
+      </ul>
+      <ul class="unstyled allShowsList-list">
+        
+          
+            <li class="allShowsList-item">
+              <a class="allShowslist-link" href="/watch/shows/inside-story.html">Inside Story</a>
+              <span class="allShowsList-time">Mon–Fri 5 ET/2 PT</span>
+            </li>
+          
+            <li class="allShowsList-item">
+              <a class="allShowslist-link" href="/watch/shows/real-money-with-alivelshi.html">Real Money with Ali Velshi</a>
+              <span class="allShowsList-time">Mon-Fri 7 ET/4 PT</span>
+            </li>
+          
+            <li class="allShowsList-item">
+              <a class="allShowslist-link" href="/watch/shows/the-stream.html">THE STREAM</a>
+              <span class="allShowsList-time">Mon-Fri 12:30 ET/9:30 PT</span>
+            </li>
+          
+        
+      </ul>
+      <ul class="unstyled allShowsList-list">
+        
+          
+            <li class="allShowsList-item">
+              <a class="allShowslist-link" href="/watch/shows/techknow.html">TechKnow</a>
+              <span class="allShowsList-time">Saturday 7:30E/4:30P</span>
+            </li>
+          
+            <li class="allShowsList-item">
+              <a class="allShowslist-link" href="/watch/shows/al-jazeera-america-presents.html">Al Jazeera America Presents</a>
+              <span class="allShowsList-time">Sun 9E/ 6P</span>
+            </li>
+          
+            <li class="allShowsList-item">
+              <a class="allShowslist-link" href="/watch/shows/talk-to-al-jazeera.html">Talk to Al Jazeera</a>
+              <span class="allShowsList-time">Saturday 5:00E/2:00P</span>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+                <div class="articleHighlightByTopic">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="articleHighlightByTopic-box">
+	<div class="box-content">
+		<hr class="C">
+		<div class="box-header">
+			<h3 class="box-title">Trending Topics</h3>
+		</div>
+		<div class="box-body clearfix">
+			
+				<article class="news-item clearfix">
+					<div class="hidden-tablet category"><span><a href="/topics/topic/issue/Fracking.html">Fracking</a></span></div>
+					
+						<a href="/articles/2014/9/9/fracking-free-speech.html" title="When fracking and free speech collide" target=""><figure class="image"><div data-picture data-alt="When fracking and free speech collide" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/9/fracking-free-speech/jcr:content/image.adapt.681.low.1410385050982.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/9/fracking-free-speech/jcr:content/image.adapt.187.medium.1410385050982.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/9/fracking-free-speech/jcr:content/image.adapt.222.high.1410385050982.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/9/fracking-free-speech/jcr:content/image.adapt.222.high.1410385050982.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/9/fracking-free-speech/_jcr_content/image.adapt.681.low.jpg" alt="When fracking and free speech collide" class=""></noscript></div></figure></a>
+					
+					<div class="wrapper-text">
+						<div class="visible-tablet category"><a href="/topics/topic/issue/Fracking.html">Fracking</a></div>
+						<h3 class="headline">
+							<a href="/articles/2014/9/9/fracking-free-speech.html" title="When fracking and free speech collide" class="has-thumb ">When fracking and free speech collide</a>
+						</h3>
+						<div class="leader">A defamation case against a man who claimed fracking polluted his water highlights free-speech issues</div>
+						<a href="/articles/2014/9/9/fracking-free-speech.html" class="more" title="More">More</a>
+					</div>
+				</article>
+			
+				<article class="news-item clearfix">
+					<div class="hidden-tablet category"><span><a href="/topics/topic/issue/Ebola.html">Ebola </a></span></div>
+					
+						<a href="/articles/2014/9/8/ebola-u-s-military.html" title="Aid groups, analysts give US military wary welcome in fight against Ebola" target=""><figure class="image"><div data-picture data-alt="Aid groups, analysts give US military wary welcome in fight against Ebola" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/8/ebola-u-s-military/jcr:content/image.adapt.681.low.1410376029431.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/8/ebola-u-s-military/jcr:content/image.adapt.187.medium.1410376029431.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/8/ebola-u-s-military/jcr:content/image.adapt.222.high.1410376029431.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/8/ebola-u-s-military/jcr:content/image.adapt.222.high.1410376029431.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/8/ebola-u-s-military/_jcr_content/image.adapt.681.low.jpg" alt="Aid groups, analysts give US military wary welcome in fight against Ebola" class=""></noscript></div></figure></a>
+					
+					<div class="wrapper-text">
+						<div class="visible-tablet category"><a href="/topics/topic/issue/Ebola.html">Ebola </a></div>
+						<h3 class="headline">
+							<a href="/articles/2014/9/8/ebola-u-s-military.html" title="Aid groups, analysts give US military wary welcome in fight against Ebola" class="has-thumb ">Aid groups, analysts give US military wary welcome in fight against Ebola</a>
+						</h3>
+						<div class="leader">White House pledged armed forces to provide medical aid and security in bid to stem spread of deadly virus</div>
+						<a href="/articles/2014/9/8/ebola-u-s-military.html" class="more" title="More">More</a>
+					</div>
+				</article>
+			
+				<article class="news-item clearfix">
+					<div class="hidden-tablet category"><span><a href="/topics/topic/international-location/middle-east/Islamic-State.html">Islamic State</a></span></div>
+					
+						<a href="/opinions/2014/9/islamic-state-foreignpolicyhawksmediacriticism.html" title="Don&rsquo;t listen to media hawks about the Islamic State" target=""><figure class="image"><div data-picture data-alt="Don&rsquo;t listen to media hawks about the Islamic State" data-class="" class=""/><div data-class='' data-src="/content/ajam/opinions/2014/9/islamic-state-foreignpolicyhawksmediacriticism/jcr:content/image.adapt.681.low.1410187948972.jpg"></div><div data-class='' data-src="/content/ajam/opinions/2014/9/islamic-state-foreignpolicyhawksmediacriticism/jcr:content/image.adapt.187.medium.1410187948972.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/opinions/2014/9/islamic-state-foreignpolicyhawksmediacriticism/jcr:content/image.adapt.222.high.1410187948972.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/opinions/2014/9/islamic-state-foreignpolicyhawksmediacriticism/jcr:content/image.adapt.222.high.1410187948972.jpg"></div><![endif]--><noscript><img src="/content/ajam/opinions/2014/9/islamic-state-foreignpolicyhawksmediacriticism/_jcr_content/image.adapt.681.low.jpg" alt="Don&rsquo;t listen to media hawks about the Islamic State" class=""></noscript></div></figure></a>
+					
+					<div class="wrapper-text">
+						<div class="visible-tablet category"><a href="/topics/topic/international-location/middle-east/Islamic-State.html">Islamic State</a></div>
+						<h3 class="headline">
+							<a href="/opinions/2014/9/islamic-state-foreignpolicyhawksmediacriticism.html" title="Don&rsquo;t listen to media hawks about the Islamic State" class="has-thumb label label-opinion">Don’t listen to media hawks about the Islamic State</a>
+						</h3>
+						<div class="leader">Whether reluctant or gung-ho, they lost all credibility in the Iraq War</div>
+						<a href="/opinions/2014/9/islamic-state-foreignpolicyhawksmediacriticism.html" class="more" title="More">More</a>
+					</div>
+				</article>
+			
+				<article class="news-item clearfix">
+					<div class="hidden-tablet category"><span><a href="/topics/topic/international-location/europe/scotland.html">Scotland</a></span></div>
+					
+						<a href="/articles/2014/9/9/scotland-independencevote.html" title="What it means if Scotland becomes world&rsquo;s newest independent state" target=""><figure class="image"><div data-picture data-alt="What it means if Scotland becomes world&rsquo;s newest independent state" data-class="" class=""/><div data-class='' data-src="/content/ajam/articles/2014/9/9/scotland-independencevote/jcr:content/image.adapt.681.low.1410476179736.jpg"></div><div data-class='' data-src="/content/ajam/articles/2014/9/9/scotland-independencevote/jcr:content/image.adapt.187.medium.1410476179736.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/articles/2014/9/9/scotland-independencevote/jcr:content/image.adapt.222.high.1410476179736.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/articles/2014/9/9/scotland-independencevote/jcr:content/image.adapt.222.high.1410476179736.jpg"></div><![endif]--><noscript><img src="/content/ajam/articles/2014/9/9/scotland-independencevote/_jcr_content/image.adapt.681.low.jpg" alt="What it means if Scotland becomes world&rsquo;s newest independent state" class=""></noscript></div></figure></a>
+					
+					<div class="wrapper-text">
+						<div class="visible-tablet category"><a href="/topics/topic/international-location/europe/scotland.html">Scotland</a></div>
+						<h3 class="headline">
+							<a href="/articles/2014/9/9/scotland-independencevote.html" title="What it means if Scotland becomes world&rsquo;s newest independent state" class="has-thumb ">What it means if Scotland becomes world’s newest independent state</a>
+						</h3>
+						<div class="leader">Public opinion on the looming independence vote is tied</div>
+						<a href="/articles/2014/9/9/scotland-independencevote.html" class="more" title="More">More</a>
+					</div>
+				</article>
+			
+		</div>
+	</div>
+</div>
+</div>
+
+                <div class="recentTaggedArticle">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="recentTaggedArticle-box">
+	<div class="box-content">
+		<hr class="G">
+			<div class="box-body clearfix">
+				
+					<article class="news-item clearfix split25">
+						<div class="category"><a href="/topics/topic/event/syria-war.html">Syria's War</a></div>
+						
+							<a href="/articles/2014/9/26/what-makes-a-foreignfighteraterrorist.html"><h3 class="headline">UN resolution prompts question: When is a foreign fighter a 'terrorist'?</h3></a>
+						
+							<a href="/articles/2014/9/26/britain-joins-fightagainstislamicstategroup.html"><h3 class="headline">Britain joins fight against ISIL in Iraq</h3></a>
+						
+					</article>
+				
+					<article class="news-item clearfix split25">
+						<div class="category"><a href="/topics/topic/event/ukraine-uprising.html">Ukraine Crisis</a></div>
+						
+							<a href="/articles/2014/9/22/ukraine-ceasefirewithdrawal.html"><h3 class="headline">Ukraine, rebels begin withdrawing artillery from buffer zone</h3></a>
+						
+							<a href="/articles/2014/9/22/isil-ebola-and-ukrainewhatsontheagendaattheungeneralassembly.html"><h3 class="headline">ISIL, Ebola and Ukraine: What’s on the agenda at the UN General Assembly</h3></a>
+						
+					</article>
+				
+					<article class="news-item clearfix split25">
+						<div class="category"><a href="/topics/topic/categories/environment.html">Environment</a></div>
+						
+							<a href="/articles/2014/9/26/save-buffalo-montana.html"><h3 class="headline">‘His life is our life’: Tribal elders want buffalo back in the ecosystem</h3></a>
+						
+							<a href="/articles/2014/9/25/obama-to-create-worldslargestmarinesanctuary.html"><h3 class="headline">US creates world's largest marine sanctuary</h3></a>
+						
+					</article>
+				
+					<article class="news-item clearfix split25">
+						<div class="category"><a href="/topics/topic/issue/immigration.html">Immigration</a></div>
+						
+							<a href="/articles/2014/9/26/deported-vets-lifeinthebunkercomments.html"><h3 class="headline">Deported Vets: Life in 'the bunker': Comments</h3></a>
+						
+							<a href="/watch/shows/edge-of-eighteen/articles/2014/9/24/arizona-immigrationundocumentedstudents.html"><h3 class="headline">‘I’m American too’: Undocumented students wait for Obama action</h3></a>
+						
+					</article>
+				
+			</div><!--/.box-body/-->
+	</div><!--/.box-content/-->
+</div><!--/.articleHighlightByTag-box/-->
+</div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="row-fluid row-padding videoWatchList-row hidden-phone">
+  <div class="watchList videoWatchList">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="videoWatchList-box container container-padding nocontent">
+  <div class="box-content">
+    <div class="box-header">
+      <a href="/watch.html" class="more">Watch more videos </a>
+      <h4 class="box-title">WATCH</h4>
+    </div>
+    <div class="box-body clearfix">
+      
+        
+        <div class="videoWatchList-container pull-left ">
+          
+            <a href="/watch/shows/america-tonight/2014/9/homeless-gay-andsurvivingonthestreetsofatlantapartone.html" title="Homeless, gay and surviving on the streets of Atlanta (part one)" class="videoWatchList-video--thumb__link thumbOverlay-video FlexEmbed FlexEmbed--8by5">
+              <figure class="image"><div data-picture data-alt="Homeless, gay and surviving on the streets of Atlanta (part one)" data-class="" class="videoWatchList-video--thumb FlexEmbed-item"/><div data-class='' data-src="/content/ajam/watch/shows/america-tonight/2014/9/homeless-gay-andsurvivingonthestreetsofatlantapartone/jcr:content/image.adapt.full.low.1411667301880.jpg"></div><div data-class='' data-src="/content/ajam/watch/shows/america-tonight/2014/9/homeless-gay-andsurvivingonthestreetsofatlantapartone/jcr:content/image.adapt.225.medium.1411667301880.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/watch/shows/america-tonight/2014/9/homeless-gay-andsurvivingonthestreetsofatlantapartone/jcr:content/image.adapt.200.high.1411667301880.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/watch/shows/america-tonight/2014/9/homeless-gay-andsurvivingonthestreetsofatlantapartone/jcr:content/image.adapt.200.high.1411667301880.jpg"></div><![endif]--><noscript><img src="/content/ajam/watch/shows/america-tonight/2014/9/homeless-gay-andsurvivingonthestreetsofatlantapartone/_jcr_content/image.adapt.full.low.jpg" alt="Homeless, gay and surviving on the streets of Atlanta (part one)" class=""></noscript></div></figure>
+            </a>
+          
+          <h5 class="videoWatchList-heading">
+            <a href="/watch/shows/america-tonight.html" title="America Tonight" class="videoWatchList-heading--link videoWatchList-link">America Tonight</a>
+          </h5>
+          <p class="videoWatchList-description"><a href="/watch/shows/america-tonight/2014/9/homeless-gay-andsurvivingonthestreetsofatlantapartone.html" title="Homeless, gay and surviving on the streets of Atlanta (part one)" class="videoWatchList-description--link videoWatchList-link">A gay Georgia teen's video of his family disowning him went viral; but there are many more stories like that in Atlanta</a></p>
+        </div>
+      
+        
+        <div class="videoWatchList-container pull-left ">
+          
+            <a href="/watch/shows/real-money-with-alivelshi/2014/9/what-obama-accomplishedattheunsecuritycouncilmeeting.html" title="What Obama accomplished at the UN Security Council meeting" class="videoWatchList-video--thumb__link thumbOverlay-video FlexEmbed FlexEmbed--8by5">
+              <figure class="image"><div data-picture data-alt="What Obama accomplished at the UN Security Council meeting" data-class="" class="videoWatchList-video--thumb FlexEmbed-item"/><div data-class='' data-src="/content/ajam/watch/shows/real-money-with-alivelshi/2014/9/what-obama-accomplishedattheunsecuritycouncilmeeting/jcr:content/image.adapt.full.low.1411671799875.jpg"></div><div data-class='' data-src="/content/ajam/watch/shows/real-money-with-alivelshi/2014/9/what-obama-accomplishedattheunsecuritycouncilmeeting/jcr:content/image.adapt.225.medium.1411671799875.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/watch/shows/real-money-with-alivelshi/2014/9/what-obama-accomplishedattheunsecuritycouncilmeeting/jcr:content/image.adapt.200.high.1411671799875.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/watch/shows/real-money-with-alivelshi/2014/9/what-obama-accomplishedattheunsecuritycouncilmeeting/jcr:content/image.adapt.200.high.1411671799875.jpg"></div><![endif]--><noscript><img src="/content/ajam/watch/shows/real-money-with-alivelshi/2014/9/what-obama-accomplishedattheunsecuritycouncilmeeting/_jcr_content/image.adapt.full.low.jpg" alt="What Obama accomplished at the UN Security Council meeting" class=""></noscript></div></figure>
+            </a>
+          
+          <h5 class="videoWatchList-heading">
+            <a href="/watch/shows/real-money-with-alivelshi.html" title="Real Money with Ali Velshi" class="videoWatchList-heading--link videoWatchList-link">Real Money with Ali Velshi</a>
+          </h5>
+          <p class="videoWatchList-description"><a href="/watch/shows/real-money-with-alivelshi/2014/9/what-obama-accomplishedattheunsecuritycouncilmeeting.html" title="What Obama accomplished at the UN Security Council meeting" class="videoWatchList-description--link videoWatchList-link">Ali Velshi highlights US strategy and shines a light on the little known terrorist group "Khorasan"</a></p>
+        </div>
+      
+        
+        <div class="videoWatchList-container pull-left ">
+          
+            <a href="/watch/shows/consider-this/2014/9/how-has-the-riseofisilaffectedusiranrelations.html" title="How has the rise of ISIL affected US-Iran relations?" class="videoWatchList-video--thumb__link thumbOverlay-video FlexEmbed FlexEmbed--8by5">
+              <figure class="image"><div data-picture data-alt="How has the rise of ISIL affected US-Iran relations?" data-class="" class="videoWatchList-video--thumb FlexEmbed-item"/><div data-class='' data-src="/content/ajam/watch/shows/consider-this/2014/9/how-has-the-riseofisilaffectedusiranrelations/jcr:content/image.adapt.full.low.1411673408600.jpg"></div><div data-class='' data-src="/content/ajam/watch/shows/consider-this/2014/9/how-has-the-riseofisilaffectedusiranrelations/jcr:content/image.adapt.225.medium.1411673408600.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/watch/shows/consider-this/2014/9/how-has-the-riseofisilaffectedusiranrelations/jcr:content/image.adapt.200.high.1411673408600.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/watch/shows/consider-this/2014/9/how-has-the-riseofisilaffectedusiranrelations/jcr:content/image.adapt.200.high.1411673408600.jpg"></div><![endif]--><noscript><img src="/content/ajam/watch/shows/consider-this/2014/9/how-has-the-riseofisilaffectedusiranrelations/_jcr_content/image.adapt.full.low.jpg" alt="How has the rise of ISIL affected US-Iran relations?" class=""></noscript></div></figure>
+            </a>
+          
+          <h5 class="videoWatchList-heading">
+            <a href="/watch/shows/consider-this.html" title="Consider This" class="videoWatchList-heading--link videoWatchList-link">Consider This</a>
+          </h5>
+          <p class="videoWatchList-description"><a href="/watch/shows/consider-this/2014/9/how-has-the-riseofisilaffectedusiranrelations.html" title="How has the rise of ISIL affected US-Iran relations?" class="videoWatchList-description--link videoWatchList-link">Jim Walsh, an international security expert and Al Jazeera America contributor, weighs in</a></p>
+        </div>
+      
+        
+          
+        
+        <div class="videoWatchList-container pull-left hidden-tablet">
+          
+            <a href="/watch/shows/live-news/2014/9/al-jazeera-journalistrecallshisexperienceinanegyptianprison.html" title="Al Jazeera journalist recalls his experience in an Egyptian prison" class="videoWatchList-video--thumb__link thumbOverlay-video FlexEmbed FlexEmbed--8by5">
+              <figure class="image"><div data-picture data-alt="Al Jazeera journalist recalls his experience in an Egyptian prison" data-class="" class="videoWatchList-video--thumb FlexEmbed-item"/><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/al-jazeera-journalistrecallshisexperienceinanegyptianprison/jcr:content/image.adapt.full.low.1411747119852.jpg"></div><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/al-jazeera-journalistrecallshisexperienceinanegyptianprison/jcr:content/image.adapt.225.medium.1411747119852.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/al-jazeera-journalistrecallshisexperienceinanegyptianprison/jcr:content/image.adapt.200.high.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/al-jazeera-journalistrecallshisexperienceinanegyptianprison/jcr:content/image.adapt.200.high.1411747119852.jpg"></div><![endif]--><noscript><img src="/content/ajam/watch/shows/live-news/2014/9/al-jazeera-journalistrecallshisexperienceinanegyptianprison/_jcr_content/image.adapt.full.low.jpg" alt="Al Jazeera journalist recalls his experience in an Egyptian prison" class=""></noscript></div></figure>
+            </a>
+          
+          <h5 class="videoWatchList-heading">
+            <a href="/watch/shows/live-news.html" title="Al Jazeera America News" class="videoWatchList-heading--link videoWatchList-link">Al Jazeera America News</a>
+          </h5>
+          <p class="videoWatchList-description"><a href="/watch/shows/live-news/2014/9/al-jazeera-journalistrecallshisexperienceinanegyptianprison.html" title="Al Jazeera journalist recalls his experience in an Egyptian prison" class="videoWatchList-description--link videoWatchList-link">Abdullah Elshamy discusses freedom of the press and the wrongful deaths and imprisonment of press members</a></p>
+        </div>
+      
+        
+          
+        
+        <div class="videoWatchList-container pull-left hidden-tablet">
+          
+            <a href="/watch/shows/live-news/2014/9/america-s-war-onweedrethinkingmarijuanaasaschedule1drug.html" title="America&#x27;s war on weed: Rethinking marijuana as a schedule 1 drug" class="videoWatchList-video--thumb__link thumbOverlay-video FlexEmbed FlexEmbed--8by5">
+              <figure class="image"><div data-picture data-alt="America&#x27;s war on weed: Rethinking marijuana as a schedule 1 drug" data-class="" class="videoWatchList-video--thumb FlexEmbed-item"/><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/america-s-war-onweedrethinkingmarijuanaasaschedule1drug/jcr:content/image.adapt.full.low.1411750512651.jpg"></div><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/america-s-war-onweedrethinkingmarijuanaasaschedule1drug/jcr:content/image.adapt.225.medium.1411750512651.jpg" data-media="(min-width: 481px)"></div><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/america-s-war-onweedrethinkingmarijuanaasaschedule1drug/jcr:content/image.adapt.200.high.1411750512651.jpg" data-media="(min-width: 768px)"></div><!--[if (lt IE 9) & (!IEMobile)]><div data-class='' data-src="/content/ajam/watch/shows/live-news/2014/9/america-s-war-onweedrethinkingmarijuanaasaschedule1drug/jcr:content/image.adapt.200.high.1411750512651.jpg"></div><![endif]--><noscript><img src="/content/ajam/watch/shows/live-news/2014/9/america-s-war-onweedrethinkingmarijuanaasaschedule1drug/_jcr_content/image.adapt.full.low.jpg" alt="America&#x27;s war on weed: Rethinking marijuana as a schedule 1 drug" class=""></noscript></div></figure>
+            </a>
+          
+          <h5 class="videoWatchList-heading">
+            <a href="/watch/shows/live-news.html" title="Al Jazeera America News" class="videoWatchList-heading--link videoWatchList-link">Al Jazeera America News</a>
+          </h5>
+          <p class="videoWatchList-description"><a href="/watch/shows/live-news/2014/9/america-s-war-onweedrethinkingmarijuanaasaschedule1drug.html" title="America&#x27;s war on weed: Rethinking marijuana as a schedule 1 drug" class="videoWatchList-description--link videoWatchList-link">The departing Attorney General, Eric Holder, suggests that marijuana needs to be widely available to scientists</a></p>
+        </div>
+      
+    </div>
+  </div>
+</div></div>
+
+</div>
+<div class="footer">
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="globalFooter row-padding">
+	<div class="container nav-main-box">
+		<div class="clearfix container-nav-main">
+			<a href="#" title="Al Jazeera America - home" class="logo">
+				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Al Jazeera Logo" class="logo-sprite">
+			</a>
+			<ul class="inline nav-main">
+				
+					<li><a href="/" title="NEWS" target="_self">NEWS</a></li>
+				
+					<li><a href="/opinions.html" title="OPINION" target="_self">OPINION</a></li>
+				
+					<li><a href="/watch.html" title="VIDEO" target="_self">VIDEO</a></li>
+				
+					<li><a href="/watch/shows.html" title="SHOWS" target="_self">SHOWS</a></li>
+				
+					<li><a href="/watch/schedule.html" title="SCHEDULE" target="_self">SCHEDULE</a></li>
+				
+			</ul>
+			<ul class="inline social">
+				
+					<li><a href="http://www.facebook.com/aljazeeraamerica" title="FACEBOOK" target="_blank"><img src="/content/dam/ajam/logos/footer-icon-facebook.png" alt="FACEBOOK"></a></li>
+				
+					<li><a href="http://www.twitter.com/ajam" title="TWITTER" target="_blank"><img src="/content/dam/ajam/logos/footer-icon-twitter.png" alt="TWITTER"></a></li>
+				
+					<li><a href="https://plus.google.com/+aljazeeraamerica/posts" title="GOOGLE +" target="_blank"><img src="/content/dam/ajam/logos/footer-icon-googleplus.png" alt="GOOGLE +"></a></li>
+				
+					<li><a href="http://www.youtube.com/aljazeeraamerica" title="YOUTUBE" target="_blank"><img src="/content/dam/ajam/logos/footer-icon-youtube.png" alt="YOUTUBE"></a></li>
+				
+			</ul>
+		</div>
+		<div class="row-fluid">
+			<ul class="inline clearfix nav-secondary">
+				<li>
+					
+					<ul>
+						
+							<li><a href="/tools/about.html" title="About " target="_self">About </a></li>
+						
+							<li><a href="/tools/vision-mission-values.html" title="Our Mission, Vision and Values" target="_self">Our Mission, Vision and Values</a></li>
+						
+							<li><a href="/tools/leadership.html" title="Leadership" target="_self">Leadership</a></li>
+						
+							<li><a href="/tools/code-of-ethics.html" title="Code of Ethics" target="_self">Code of Ethics</a></li>
+						
+							<li><a href="/tools/careers.html" title="Careers" target="_self">Careers</a></li>
+						
+					</ul>
+				</li>
+				<li>
+					
+					<ul>
+						
+							<li><a href="/tools/contact.html" title="Contact Us" target="_self">Contact Us</a></li>
+						
+							<li><a href="/tools/pressreleases.html" title="Press Releases" target="_self">Press Releases</a></li>
+						
+							<li><a href="/tools/awards.html" title="Awards and Accomplishments" target="_self">Awards and Accomplishments</a></li>
+						
+							<li><a href="/tools/advertise.html" title="Advertise With Us" target="_self">Advertise With Us</a></li>
+						
+					</ul>
+				</li>
+				<li>
+					
+					<ul>
+						
+							<li><a href="http://www.aljazeera.com" title="Visit Al Jazeera English" target="_blank">Visit Al Jazeera English</a></li>
+						
+							<li><a href="/tools/mobile.html" title="Mobile" target="_self">Mobile</a></li>
+						
+							<li><a href="/tools/newsletter.html" title="Newsletter" target="_blank">Newsletter</a></li>
+						
+							<li><a href="http://america.aljazeera.com/content/ajam/articles.rss" title="RSS" target="_blank">RSS</a></li>
+						
+							<li><a href="http://www.youtube.com/aljazeeraamerica" title="Subscribe to YouTube Channel" target="_blank">Subscribe to YouTube Channel</a></li>
+						
+					</ul>
+				</li>
+				<li>
+					
+					<ul>
+						
+							<li><a href="/tools/privacy.html" title="Privacy Policy" target="_self">Privacy Policy</a></li>
+						
+							<li><a href="/tools/terms.html" title="Terms of Use" target="_self">Terms of Use</a></li>
+						
+					</ul>
+				</li>
+				<li>
+					
+					<ul>
+						
+							<li><a href="/tools/getajam.html" title="Request Al Jazeera America" target="_self">Request Al Jazeera America</a></li>
+						
+							<li><a href="/tools/faq.html" title="FAQ" target="_self">FAQ</a></li>
+						
+							<li><a href="/tools/community-guidelines.html" title="Community Guidelines" target="_self">Community Guidelines</a></li>
+						
+							<li><a href="/tools/sitemap.html" title="Sitemap" target="_blank">Sitemap</a></li>
+						
+					</ul>
+				</li>
+			</ul>
+			<p class="copyright">© 2014 Al Jazeera America, LLC.  All rights reserved. <br/> CHANGE THE WAY YOU LOOK AT NEWS and THERE'S MORE TO IT are Trademarks of Al Jazeera America, LLC.</p>
+		</div><!--/.row-fluid/-->
+	</div>
+</footer>
+</div>
+
+
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <script type="text/javascript" src="/etc/designs/al-jazeera-america/newsletterSignUpSplash.min.20140917121113454.js"></script>
+
+
+    
+    
+    <div class="newsletterSignUpSplash js-newsletterSignUpSplash" data-state="expanded" style="display: inherit">
+      <div class="newsletterSignUpSplash-top">
+        <div class="newsletterSignUpSplash-wrapper clearfix">
+          <button class="newsletterSignUpSplash-dismiss pull-right js-newsletterSignUpSplash--dismiss">
+            <span>Close</span></button>
+        </div>
+      </div>
+      <div class="newsletterSignUpSplash-bottom">
+        <div class="newsletterSignUpSplash-wrapper newsletterSignUpSplash-wrapper--bottom clearfix">
+          <div class="newsletterSignUpSplash-logo--container pull-left">
+            <button
+                class="newsletterSignUpSplash-drawerToggle pull-left js-newsletterSignUpSplash--drawerToggle"></button>
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" width="53" height="75" alt="Al Jazeera America Logo" class="newsletterSignUpSplash-logo pull-left"/>
+          </div>
+          <p class="newsletterSignUpSplash-heading--collapsed pull-left">Sign Up for Updates from Al Jazeera America</p>
+          <div class="newsletterSignUpSplash-form--container">
+            <h4 class="newsletterSignUpSplash-heading pull-left">Sign Up for <span>Updates</span></h4>
+
+            <p class="newsletterSignUpSplash-description pull-left">Get the week's top stories directly from our news
+              desk</p>
+
+            <form name="input" class="newsletterSignUpSplash-form pull-left" action="http://aljazeera.us2.list-manage1.com/subscribe/post?u=38ffd892c93e55497901185c8&amp;id=1a7655241c" method="POST" target="_blank">
+              <input type="text" name="EMAIL" placeholder="Email Address"
+                     class="newsletterSignUpSplash-input newsletterSignUpSplash-input--email pull-left"/>
+              <input type="text" name="MERGE1" placeholder="Zip"
+                     class="newsletterSignUpSplash-input newsletterSignUpSplash-input--zip pull-left"/>
+
+              <div class="newsletterSignUpSplash-select--container pull-left">
+                <select class="newsletterSignUpSplash-select" name="MMERGE2">
+                </select>
+              </div>
+              <button name="submit" type="submit" class="newsletterSignUpSplash-submit pull-left">Sign Up</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+ 
+
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type='text/javascript'>
+        var _sf_async_config={};
+        /** CONFIGURATION START **/
+        _sf_async_config.uid = 3291;
+        _sf_async_config.domain = 'america.aljazeera.com';
+        _sf_async_config.useCanonical = true;
+        
+        
+        /** CONFIGURATION END **/
+        (function(){
+            function loadChartbeat() {
+                window._sf_endpt=(new Date()).getTime();
+                var e = document.createElement("script");
+                e.setAttribute("language", "javascript");
+                e.setAttribute("type", "text/javascript");
+                e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+                document.body.appendChild(e);
+            }
+            var oldonload = window.onload;
+            window.onload = (typeof window.onload != "function") ?
+                    loadChartbeat : function() { oldonload(); loadChartbeat(); };
+        })();
+    </script>
+
+  
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+var MTIProjectId='27516534-16ee-407a-972d-2127ee4b6f2d';
+ (function() {
+        var mtiTracking = document.createElement('script');
+        mtiTracking.type='text/javascript';
+        mtiTracking.async='true';
+        mtiTracking.src=('https:'==document.location.protocol?'https:':'http:')+'//fast.fonts.net/t/trackingCode.js';
+        (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
+   })();
+</script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        setTimeout(function(){var a=document.createElement("script");
+            var b=document.getElementsByTagName("script")[0];
+            a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0018/9869.js?"+Math.floor(new Date().getTime()/3600000);
+            a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+    </script>
+
+
+</body>
+
+  
+</html>

@@ -1,0 +1,621 @@
+
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="en-gb" dir="ltr" class="com_content view-featured itemid-435 home j25">
+
+  <head>
+      <base href="http://www.sketchcrewapparel.com/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="joomla 2.5 template, responsive joomla template, joomla ecommerce template, virtuemart template for joomla, virtuemart template, joomla template for sport store " />
+  <meta name="description" content="Responsive Virtuemart template for Joomla 2.5 - JA Hawkstore. Built on the latest stable version of T3 Framework, supports K2 component and Virtuemart " />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Sketch Crew Apparel</title>
+  <link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="http://www.sketchcrewapparel.com/index.php/component/search/?format=opensearch" rel="search" title="Search Sketch Crew Apparel" type="application/opensearchdescription+xml" />
+  <link href="/templates/ja_hawkstore/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="http://www.sketchcrewapparel.com/?t3action=lessc&amp;s=templates/ja_hawkstore/less/k2.less" type="text/css" />
+  <link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.bootstrap.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/plugins.system.t3.base.less.global-modules.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/plugins.system.t3.base.less.global-typo.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/plugins.system.t3.base.less.grid-ext.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/plugins.system.t3.base.less.t3.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.layout.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.core.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.form.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.navigation-core.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.navigation.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.modules.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.joomla.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.typo.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.style.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.themes.blue.template.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.bootstrap-responsive.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/plugins.system.t3.base.less.grid-ext-responsive.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/plugins.system.t3.base.less.global-typo-responsive.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/plugins.system.t3.base.less.global-modules-responsive.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/plugins.system.t3.base.less.t3-responsive.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.core-responsive.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.navigation-responsive.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.modules-responsive.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.joomla-responsive.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.typo-responsive.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.style-responsive.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.vmsite-ltr-reponsive.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/plugins.system.t3.base.less.off-canvas.less.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/ja_hawkstore/css/browserfix.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.home.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.home-responsive.less.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_javmproducts/assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/t3/base/css/megamenu.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/t3/base/css/megamenu-responsive.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.megamenu.less.css" type="text/css" />
+  <link rel="stylesheet" href="/t3-assets/dev/blue/templates.ja_hawkstore.less.megamenu-responsive.less.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_jaslideshowlite/assets/css/animate.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.sketchcrewapparel.com/?t3action=lessc&amp;s=templates/ja_hawkstore/less/mod_jaslideshowlite.less" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_jaslideshowlite/assets/css/mod_jaslideshowlite-fade.css" type="text/css" />
+  <link rel="stylesheet" href="/components/com_virtuemart/assets/css/facebox.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.sketchcrewapparel.com/?t3action=lessc&amp;s=templates/ja_hawkstore/less/vmsite-ltr.less" type="text/css" />
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript"></script>
+  <script src="/components/com_k2/js/k2.js?v2.6.6&amp;sitepath=/" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/plugins/system/t3/base/js/jquery.equalheight.js" type="text/javascript"></script>
+  <script src="/plugins/system/t3/base/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+  <script src="/plugins/system/t3/base/js/off-canvas.js" type="text/javascript"></script>
+  <script src="/plugins/system/t3/base/js/script.js" type="text/javascript"></script>
+  <script src="/plugins/system/t3/base/js/menu.js" type="text/javascript"></script>
+  <script src="/plugins/system/t3/base/js/responsive.js" type="text/javascript"></script>
+  <script src="/templates/ja_hawkstore/js/script.js" type="text/javascript"></script>
+  <script src="/templates/ja_hawkstore/js/javmprices.js" type="text/javascript"></script>
+  <script src="/modules/mod_javmproducts/assets/js/jquery.bxslider.js" type="text/javascript"></script>
+  <script src="/modules/mod_javmproducts/assets/js/script.js" type="text/javascript"></script>
+  <script src="/modules/mod_jaslideshowlite/assets/js/script.js" type="text/javascript"></script>
+  <script src="/components/com_virtuemart/assets/js/vmsite.js" type="text/javascript"></script>
+  <script src="/components/com_virtuemart/assets/js/facebox.js" type="text/javascript"></script>
+  <script src="/components/com_virtuemart/assets/js/vmprices.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+//<![CDATA[
+		vmSiteurl = 'http://www.sketchcrewapparel.com/' ;
+vmLang = '&amp;lang=en' ;
+vmCartText = ' was added to your cart.' ;
+vmCartError = 'There was an error while updating your cart.' ;
+loadingImage = '/components/com_virtuemart/assets/images/facebox/loading.gif' ;
+closeImage = '/components/com_virtuemart/assets/images/facebox/closelabel.png' ; 
+Virtuemart.addtocart_popup = '1' ; 
+faceboxHtml = '<div id="facebox" style="display:none;"><div class="popup"><div class="content"></div> <a href="#" class="close"></a></div></div>'  ;
+
+//]]>
+
+  </script>
+
+    
+<!-- META FOR IOS & HANDHELD -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta name="HandheldFriendly" content="true" />
+<meta name="apple-mobile-web-app-capable" content="YES" />
+<!-- //META FOR IOS & HANDHELD -->
+
+
+
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- For IE6-8 support of media query -->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/plugins/system/t3/base/js/respond.min.js"></script>
+<![endif]-->
+
+<!-- You can add Google Analytics here-->          
+<script type='text/javascript'>
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-52657098-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</head>
+
+  <body>
+
+    
+<!-- HEADER -->
+<header id="t3-header" class="container t3-header">
+  <div class="row">
+
+    <!-- LOGO -->
+    <div class="span3 logo">
+      <div class="logo-image">
+        <h1>
+          <a href="/" title="Sketch Crew Apparel">
+            <span>Sketch Crew Apparel</span>
+          </a>
+          <small class="site-slogan hidden-phone">Sketch Crew Apparel by D-Lab Screen Printing</small>
+        </h1>
+      </div>
+    </div>
+    <!-- //LOGO -->
+		<!-- MAIN NAVIGATION -->
+		<nav id="t3-mainnav" class="t3-mainnav navbar-collapse-fixed-top span9">
+		  <div class="navbar">
+		    <div class="navbar-inner">
+		    
+		      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		        <i class="icon-reorder"></i>
+		      </button>
+		
+		  	  <div class="nav-collapse collapse always-show">
+		      		        <div class="t3-megamenu animate elastic" data-duration="200">
+<ul class="nav level0">
+<li class="current active" data-id="435" data-level="1">
+<a class="" href="/"  >Home </a>
+</li>
+<li  data-id="564" data-level="1">
+<a class="" href="/index.php/about-zipperman-apparel"  >About </a>
+</li>
+<li class="dropdown mega" data-id="510" data-level="1">
+<a class=" dropdown-toggle" href="/index.php/shop"   data-toggle="dropdown">Shop Apparel <b class="caret"></b></a>
+<div class="nav-child dropdown-menu mega-dropdown-menu"  style="width:470px"  data-width="470"><div class="mega-dropdown-inner">
+<div class="row-fluid">
+<div class="span6 mega-col-nav" data-width="6"><div class="mega-inner">
+<ul class="mega-nav level1">
+<li class="mega mega-group" data-id="511" data-level="2" data-group="1" data-xicon="icon-home">
+<a class=" mega-group-title" href="/index.php/shop/all-categories"  ><i class="icon-home"></i>All Categories </a>
+<div class="nav-child mega-group-ct"  ><div class="mega-dropdown-inner">
+<div class="row-fluid">
+<div class="span12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul class="mega-nav level2">
+<li  data-id="514" data-level="3">
+<a class="" href="/index.php/shop/all-categories/t-shirts-for-dudes"  >T-Shirts for Dudes </a>
+</li>
+<li  data-id="559" data-level="3">
+<a class="" href="/index.php/shop/all-categories/t-shirts-for-chicks"  >T-Shirts for Chicks </a>
+</li>
+<li  data-id="558" data-level="3">
+<a class="" href="/index.php/shop/all-categories/hats"  >Hats </a>
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li class="mega mega-group" data-id="555" data-level="2" data-group="1" data-xicon="icon-star">
+<a class=" mega-group-title" href="#"  ><i class="icon-star"></i>Account Assistance &amp; Shipping</a>
+<div class="nav-child mega-group-ct"  ><div class="mega-dropdown-inner">
+<div class="row-fluid">
+<div class="span12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul class="mega-nav level2">
+<li  data-id="519" data-level="3">
+<a class="" href="/index.php/shop/2013-04-24-07-03-35/account-maintenance"  >Account Maintenance </a>
+</li>
+<li  data-id="520" data-level="3">
+<a class="" href="/index.php/shop/2013-04-24-07-03-35/edit-address"  >Edit Address </a>
+</li>
+<li  data-id="568" data-level="3">
+<a class="" href="/index.php/shop/2013-04-24-07-03-35/payment-shipping"  >Payment &amp; Shipping </a>
+</li>
+<li  data-id="521" data-level="3">
+<a class="" href="/index.php/shop/2013-04-24-07-03-35/shopping-cart"  >Shopping Cart </a>
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+</ul>
+</div></div>
+<div class="span6 mega-col-module hidden-collapse" data-width="6" data-position="127" data-hidewcol="1"><div class="mega-inner">
+	<div class="t3-module module" id="Mod127">
+    <div class="module-inner">
+                  <div class="module-ct">
+            </div>
+    </div>
+  </div>
+	
+</div></div>
+</div>
+</div></div>
+</li>
+<li class="hightline" data-id="497" data-level="1" data-class="hightline">
+<a class="" href="/index.php/contact"  >Contact </a>
+</li>
+<li class="dropdown mega search mega-align-right" data-id="553" data-level="1" data-class="search" data-alignsub="right">
+<a class=" dropdown-toggle" href="#"   data-toggle="dropdown">Search<b class="caret"></b></a>
+<div class="nav-child dropdown-menu mega-dropdown-menu"   data-class="search"><div class="mega-dropdown-inner">
+<div class="row-fluid">
+<div class="span12 mega-col-module" data-width="12" data-position="63"><div class="mega-inner">
+	<div class="t3-module module" id="Mod63">
+    <div class="module-inner">
+                  <h3 class="module-title"><span>Search</span></h3>
+            <div class="module-ct">
+      <form class="form-search" action="/index.php" method="post">
+	<div class="search">
+		<label for="mod-search-searchword">Search...</label><input name="searchword" id="mod-search-searchword" maxlength="20"  class="input" type="text" size="20" placeholder="Search..." />	<input type="hidden" name="task" value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="435" />
+	</div>
+</form>
+      </div>
+    </div>
+  </div>
+	
+</div></div>
+</div>
+</div></div>
+</li>
+<li  data-id="566" data-level="1">
+<a class="" href="https://twitter.com/KaneZipperman" target="_blank"  ><img src="/images/Twitter_20.png" alt="Tweet" /></a>
+</li>
+</ul>
+</div>
+		      		  		</div>
+		    </div>
+		  </div>
+		</nav>
+		<!-- //MAIN NAVIGATION -->
+
+				    <!-- My Cart -->
+		    <div class="mycart pull-right">     
+		      
+<!-- Virtuemart 2 Ajax Card -->
+
+<div class="vmCartModule clearfix  cart-scroller" id="vmCartModule">
+<div class="total_products">Cart empty</div>
+<div class="cart_products">
+<a href="javascript:void(0)" data-toggle="dropdown" class="dropdown-toggle"><span class="icon_cart"></span></a>
+<div class="vmCartModuleContent ">
+	<div id="hiddencontainer" style=" display: none; ">
+		<div class="container">
+						  <div class="prices" style="float: right;"></div>
+						<div class="product_row">
+				<span class="product_name"></span>&nbsp;&nbsp;(<span class="quantity"></span>)
+			</div>
+			<div class="product_attributes"></div>
+			<hr />
+		</div>
+	</div>
+	<div class="vm_cart_products viewport">
+		<div class="container overview">
+				<div class="cart-empty">
+		      You have no items in your shopping cart.		</div>
+				</div>
+	</div>
+<div class="showtotal">
+</div>
+<div style="clear:both;"></div>
+
+<noscript>
+Please wait</noscript>
+</div>
+</div>
+</div>
+
+		    </div>
+		    <!-- //My Cart -->
+		  </div>
+</header>
+<!-- //HEADER -->
+		
+	<section id="t3-slideshow" class="container t3-slideshow">
+  <div class="row">
+		
+<div id="ja-ss-115" class="ja-ss ja-ss-wrap fade"  style="visibility: hidden">
+	<div class="ja-ss-items">
+			<div class="ja-ss-item">
+			<img src="/images/joomlart/slideshow/sl1abg.jpg" alt=""/>
+
+									<div class="ja-ss-mask"></div>
+		</div>
+			<div class="ja-ss-item">
+			<img src="/images/joomlart/slideshow/sl2abg.jpg" alt=""/>
+
+									<div class="ja-ss-mask"></div>
+		</div>
+			<div class="ja-ss-item">
+			<img src="/images/joomlart/slideshow/sl3abg.jpg" alt=""/>
+
+									<div class="ja-ss-mask"></div>
+		</div>
+			<div class="ja-ss-item">
+			<img src="/images/joomlart/slideshow/sl4abg.jpg" alt=""/>
+
+									<div class="ja-ss-mask"></div>
+		</div>
+			<div class="ja-ss-item">
+			<img src="/images/joomlart/slideshow/sl5abg.jpg" alt=""/>
+
+									<div class="ja-ss-mask"></div>
+		</div>
+			<div class="ja-ss-item">
+			<img src="/images/joomlart/slideshow/sl6abg.jpg" alt=""/>
+
+									<div class="ja-ss-mask"></div>
+		</div>
+			<div class="ja-ss-item">
+			<img src="/images/joomlart/slideshow/sl7abg.jpg" alt=""/>
+
+									<div class="ja-ss-mask"></div>
+		</div>
+			<div class="ja-ss-item">
+			<img src="/images/joomlart/slideshow/sl8abg.jpg" alt=""/>
+
+									<div class="ja-ss-mask"></div>
+		</div>
+			<div class="ja-ss-item">
+			<img src="/images/joomlart/slideshow/sl90abg.jpg" alt=""/>
+
+									<div class="ja-ss-mask"></div>
+		</div>
+			<div class="ja-ss-item">
+			<img src="/images/joomlart/slideshow/sl9abg.jpg" alt=""/>
+
+									<div class="ja-ss-mask"></div>
+		</div>
+		</div>
+	
+			<div class="ja-ss-btns clearfix">
+		<span class="ja-ss-prev">&laquo; PREVIOUS</span>
+		<span class="ja-ss-playback">&lsaquo; PLAYBACK</span>
+		<span class="ja-ss-stop">STOP</span>
+		<span class="ja-ss-play">PLAY &rsaquo;</span>
+		<span class="ja-ss-next">NEXT  &raquo;</span>
+	</div>
+	</div><script type="text/javascript">
+	window.addEvent('domready', function(){
+		window.jassliteInst = window.jassliteInst || [];
+		window.jassliteInst.push(new JASliderCSS('ja-ss-115', {
+			interval: 5000,
+			duration: 1000,
+			
+			repeat: true,
+			autoplay: 1,
+			
+			navigation: 1,
+			thumbnail: 0,
+			
+			urls:['','','','','','','','','',''],
+			targets:['','','','','','','','','','']
+		}));
+	});
+</script>
+<!-- Fix animation in IE -->
+<!--[if IE]>
+	<script type="text/javascript">
+		jassurl = '/modules/mod_jaslideshowlite/assets/'; 
+	</script>
+	<script type="text/javascript" src="/modules/mod_jaslideshowlite/assets/js/iefix.js"></script>
+<![endif]-->
+
+
+  </div>
+</section> 
+		
+    
+
+    
+<section id="t3-mainbody" class="container t3-mainbody homepage">
+	<div class="row">
+		
+		<!-- MAIN CONTENT -->
+		<div id="t3-content" class="t3-content">
+			
+<div id="system-message-container">
+</div>
+
+						<section class="featured-products">
+					<div class="t3-module module" id="Mod97">
+    <div class="module-inner">
+                  <h3 class="module-title"><span>Sketch Crew Apparel</span></h3>
+            <div class="module-ct">
+      <div class="vmgroup">
+
+	
+		<ul class="vmproduct productdetails">
+						<li class=" width25 floatleft">
+								<div class="spacer">
+				<div class="vmproduct-image">
+					<a href="/index.php/shop/all-categories/t-shirts-for-chicks/cheaters-get-no-love-detail" title="Cheaters Get No Love"><img src="/images/stories/virtuemart/product/resized/12871-jrs2_225x340.jpg" alt="12871-jrs2" class="featuredProductImage" border="0" /></a>				</div>
+				<div class="clear"></div>				<a class="vmproduct-title" href="/index.php/shop/all-categories/t-shirts-for-chicks/cheaters-get-no-love-detail">Cheaters Get No Love</a>        <div class="clear"></div>					<span class="vote">Rating:  Not Rated Yet</span>
+					    <div class="product-price"><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >$20.00</span></div></div>				</div>
+			</li>
+						<li class=" width25 floatleft">
+								<div class="spacer">
+				<div class="vmproduct-image">
+					<a href="/index.php/shop/all-categories/t-shirts-for-chicks/i-m-on-pugs2014-07-09-14-05-34_-detail" title="I'm on Pugs"><img src="/images/stories/virtuemart/product/resized/12898-jrs_225x340.jpg" alt="12898-jrs" class="featuredProductImage" border="0" /></a>				</div>
+				<div class="clear"></div>				<a class="vmproduct-title" href="/index.php/shop/all-categories/t-shirts-for-chicks/i-m-on-pugs2014-07-09-14-05-34_-detail">I'm on Pugs</a>        <div class="clear"></div>					<span class="vote">Rating:  Not Rated Yet</span>
+					    <div class="product-price"><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >$20.00</span></div></div>				</div>
+			</li>
+						<li class=" width25 floatleft">
+								<div class="spacer">
+				<div class="vmproduct-image">
+					<a href="/index.php/shop/all-categories/t-shirts-for-dudes/spirit-animal-15-detail" title="Cheaters Get No Love"><img src="/images/stories/virtuemart/product/resized/12871_225x340.jpg" alt="12871" class="featuredProductImage" border="0" /></a>				</div>
+				<div class="clear"></div>				<a class="vmproduct-title" href="/index.php/shop/all-categories/t-shirts-for-dudes/spirit-animal-15-detail">Cheaters Get No Love</a>        <div class="clear"></div>					<span class="vote">Rating:  Not Rated Yet</span>
+					    <div class="product-price"><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >$20.00</span></div></div>				</div>
+			</li>
+						<li class=" width25 floatleft">
+								<div class="spacer">
+				<div class="vmproduct-image">
+					<a href="/index.php/shop/all-categories/t-shirts-for-chicks/el-presidente2014-06-17-16-08-00-detail" title="El Presidente"><img src="/images/stories/virtuemart/product/resized/12874-jrs_225x340.jpg" alt="12874-jrs" class="featuredProductImage" border="0" /></a>				</div>
+				<div class="clear"></div>				<a class="vmproduct-title" href="/index.php/shop/all-categories/t-shirts-for-chicks/el-presidente2014-06-17-16-08-00-detail">El Presidente</a>        <div class="clear"></div>					<span class="vote">Rating:  Not Rated Yet</span>
+					    <div class="product-price"><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >$20.00</span></div></div>				</div>
+			</li>
+			
+		</ul><div class="clear"></div>
+		<ul class="vmproduct productdetails last">			<li class=" width25 floatleft">
+								<div class="spacer">
+				<div class="vmproduct-image">
+					<a href="/index.php/shop/all-categories/t-shirts-for-chicks/spirit-animal2014-06-17-16-55-59-detail" title="Spirit Animal"><img src="/images/stories/virtuemart/product/resized/12870-jrs_225x340.jpg" alt="12870-jrs" class="featuredProductImage" border="0" /></a>				</div>
+				<div class="clear"></div>				<a class="vmproduct-title" href="/index.php/shop/all-categories/t-shirts-for-chicks/spirit-animal2014-06-17-16-55-59-detail">Spirit Animal</a>        <div class="clear"></div>					<span class="vote">Rating:  Not Rated Yet</span>
+					    <div class="product-price"><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >$20.00</span></div></div>				</div>
+			</li>
+						<li class=" width25 floatleft">
+								<div class="spacer">
+				<div class="vmproduct-image">
+					<a href="/index.php/shop/all-categories/t-shirts-for-chicks/tweet-like-you-mean-it2014-07-09-14-08-43_-detail" title="Tweet Like You Mean It"><img src="/images/stories/virtuemart/product/resized/12899-jrs_225x340.jpg" alt="12899-jrs" class="featuredProductImage" border="0" /></a>				</div>
+				<div class="clear"></div>				<a class="vmproduct-title" href="/index.php/shop/all-categories/t-shirts-for-chicks/tweet-like-you-mean-it2014-07-09-14-08-43_-detail">Tweet Like You Mean It</a>        <div class="clear"></div>					<span class="vote">Rating:  Not Rated Yet</span>
+					    <div class="product-price"><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >$20.00</span></div></div>				</div>
+			</li>
+						<li class=" width25 floatleft">
+								<div class="spacer">
+				<div class="vmproduct-image">
+					<a href="/index.php/shop/all-categories/hats/sketch-crew-flat-bill-detail" title="Sketch Crew Flat Bill"><img src="/images/stories/virtuemart/product/resized/12875_225x340.jpg" alt="12875" class="featuredProductImage" border="0" /></a>				</div>
+				<div class="clear"></div>				<a class="vmproduct-title" href="/index.php/shop/all-categories/hats/sketch-crew-flat-bill-detail">Sketch Crew Flat Bill</a>        <div class="clear"></div>					<span class="vote">Rating:  Not Rated Yet</span>
+					    <div class="product-price"><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >$28.50</span></div></div>				</div>
+			</li>
+						<li class=" width25 floatleft">
+								<div class="spacer">
+				<div class="vmproduct-image">
+					<a href="/index.php/shop/all-categories/t-shirts-for-chicks/keep-calm2014-07-09-14-11-58_-detail" title="Keep Calm"><img src="/images/stories/virtuemart/product/resized/12900-jrs_225x340.jpg" alt="12900-jrs" class="featuredProductImage" border="0" /></a>				</div>
+				<div class="clear"></div>				<a class="vmproduct-title" href="/index.php/shop/all-categories/t-shirts-for-chicks/keep-calm2014-07-09-14-11-58_-detail">Keep Calm</a>        <div class="clear"></div>					<span class="vote">Rating:  Not Rated Yet</span>
+					    <div class="product-price"><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >$20.00</span></div></div>				</div>
+			</li>
+			
+		</ul><div class="clear"></div>
+		<ul class="vmproduct productdetails last">			<li class=" width25 floatleft">
+								<div class="spacer">
+				<div class="vmproduct-image">
+					<a href="/index.php/shop/all-categories/t-shirts-for-chicks/cheaters-make-me-famous2014-07-09-14-14-07_-detail" title="Cheaters Make Me Famous"><img src="/images/stories/virtuemart/product/resized/12901-jrs_225x340.jpg" alt="12901-jrs" class="featuredProductImage" border="0" /></a>				</div>
+				<div class="clear"></div>				<a class="vmproduct-title" href="/index.php/shop/all-categories/t-shirts-for-chicks/cheaters-make-me-famous2014-07-09-14-14-07_-detail">Cheaters Make Me Famous</a>        <div class="clear"></div>					<span class="vote">Rating:  Not Rated Yet</span>
+					    <div class="product-price"><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >$20.00</span></div></div>				</div>
+			</li>
+						<li class=" width25 floatleft">
+								<div class="spacer">
+				<div class="vmproduct-image">
+					<a href="/index.php/shop/all-categories/t-shirts-for-dudes/just-one-tweet-detail" title="Just One Tweet"><img src="/images/stories/virtuemart/product/resized/12873_225x340.jpg" alt="12873" class="featuredProductImage" border="0" /></a>				</div>
+				<div class="clear"></div>				<a class="vmproduct-title" href="/index.php/shop/all-categories/t-shirts-for-dudes/just-one-tweet-detail">Just One Tweet</a>        <div class="clear"></div>					<span class="vote">Rating:  Not Rated Yet</span>
+					    <div class="product-price"><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >$20.00</span></div></div>				</div>
+			</li>
+						<li class=" width25 floatleft">
+								<div class="spacer">
+				<div class="vmproduct-image">
+					<a href="/index.php/shop/all-categories/t-shirts-for-dudes/el-presidente-detail" title="El Presidente"><img src="/images/stories/virtuemart/product/resized/12874_225x340.jpg" alt="12874" class="featuredProductImage" border="0" /></a>				</div>
+				<div class="clear"></div>				<a class="vmproduct-title" href="/index.php/shop/all-categories/t-shirts-for-dudes/el-presidente-detail">El Presidente</a>        <div class="clear"></div>					<span class="vote">Rating:  Not Rated Yet</span>
+					    <div class="product-price"><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >$20.00</span></div></div>				</div>
+			</li>
+						<li class=" width25 floatleft">
+								<div class="spacer">
+				<div class="vmproduct-image">
+					<a href="/index.php/shop/all-categories/t-shirts-for-chicks/sketch-crew-or-die2014-06-17-16-49-34-detail" title="Sketch Crew Or Die"><img src="/images/stories/virtuemart/product/resized/12872-jrs_225x340.jpg" alt="12872-jrs" class="featuredProductImage" border="0" /></a>				</div>
+				<div class="clear"></div>				<a class="vmproduct-title" href="/index.php/shop/all-categories/t-shirts-for-chicks/sketch-crew-or-die2014-06-17-16-49-34-detail">Sketch Crew Or Die</a>        <div class="clear"></div>					<span class="vote">Rating:  Not Rated Yet</span>
+					    <div class="product-price"><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >$20.00</span></div></div>				</div>
+			</li>
+			
+		</ul><div class="clear"></div>
+		<ul class="vmproduct productdetails last">			<li class=" width25 floatleft">
+								<div class="spacer">
+				<div class="vmproduct-image">
+					<a href="/index.php/shop/all-categories/t-shirts-for-dudes/i-m-on-pugs-detail" title="I'm on Pugs"><img src="/images/stories/virtuemart/product/resized/12898_225x340.jpg" alt="12898" class="featuredProductImage" border="0" /></a>				</div>
+				<div class="clear"></div>				<a class="vmproduct-title" href="/index.php/shop/all-categories/t-shirts-for-dudes/i-m-on-pugs-detail">I'm on Pugs</a>        <div class="clear"></div>					<span class="vote">Rating:  Not Rated Yet</span>
+					    <div class="product-price"><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >$20.00</span></div></div>				</div>
+			</li>
+						<li class=" width25 floatleft">
+								<div class="spacer">
+				<div class="vmproduct-image">
+					<a href="/index.php/shop/all-categories/t-shirts-for-dudes/tweet-like-you-mean-it-detail" title="Tweet Like You Mean It"><img src="/images/stories/virtuemart/product/resized/12899_225x340.jpg" alt="12899" class="featuredProductImage" border="0" /></a>				</div>
+				<div class="clear"></div>				<a class="vmproduct-title" href="/index.php/shop/all-categories/t-shirts-for-dudes/tweet-like-you-mean-it-detail">Tweet Like You Mean It</a>        <div class="clear"></div>					<span class="vote">Rating:  Not Rated Yet</span>
+					    <div class="product-price"><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >$20.00</span></div></div>				</div>
+			</li>
+						<li class=" width25 floatleft">
+								<div class="spacer">
+				<div class="vmproduct-image">
+					<a href="/index.php/shop/all-categories/t-shirts-for-dudes/keep-calm-detail" title="Keep Calm"><img src="/images/stories/virtuemart/product/resized/12900_225x340.jpg" alt="12900" class="featuredProductImage" border="0" /></a>				</div>
+				<div class="clear"></div>				<a class="vmproduct-title" href="/index.php/shop/all-categories/t-shirts-for-dudes/keep-calm-detail">Keep Calm</a>        <div class="clear"></div>					<span class="vote">Rating:  Not Rated Yet</span>
+					    <div class="product-price"><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >$20.00</span></div></div>				</div>
+			</li>
+						<li class=" width25 floatleft">
+								<div class="spacer">
+				<div class="vmproduct-image">
+					<a href="/index.php/shop/all-categories/t-shirts-for-dudes/cheaters-make-me-famous-detail" title="Cheaters Make Me Famous"><img src="/images/stories/virtuemart/product/resized/12901_225x340.jpg" alt="12901" class="featuredProductImage" border="0" /></a>				</div>
+				<div class="clear"></div>				<a class="vmproduct-title" href="/index.php/shop/all-categories/t-shirts-for-dudes/cheaters-make-me-famous-detail">Cheaters Make Me Famous</a>        <div class="clear"></div>					<span class="vote">Rating:  Not Rated Yet</span>
+					    <div class="product-price"><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >$20.00</span></div></div>				</div>
+			</li>
+			
+		</ul><div class="clear"></div>
+		<ul class="vmproduct productdetails last">			<li class=" width25 floatleft">
+								<div class="spacer">
+				<div class="vmproduct-image">
+					<a href="/index.php/shop/all-categories/t-shirts-for-dudes/spirit-animal-detail" title="Spirit Animal"><img src="/images/stories/virtuemart/product/resized/12870_225x340.jpg" alt="12870" class="featuredProductImage" border="0" /></a>				</div>
+				<div class="clear"></div>				<a class="vmproduct-title" href="/index.php/shop/all-categories/t-shirts-for-dudes/spirit-animal-detail">Spirit Animal</a>        <div class="clear"></div>					<span class="vote">
+					    <span title=" Rating: 5/5" class="ratingbox" style="display:inline-block;">
+								<span class="stars-orange" style="width:54px"></span>
+					  	</span>
+					  						  	( 2 voted )					</span>
+					<div class="product-price"><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >$20.00</span></div></div>				</div>
+			</li>
+						<li class=" width25 floatleft">
+								<div class="spacer">
+				<div class="vmproduct-image">
+					<a href="/index.php/shop/all-categories/t-shirts-for-dudes/sketch-crew-or-die-detail" title="Sketch Crew Or Die"><img src="/images/stories/virtuemart/product/resized/12872_225x340.jpg" alt="12872" class="featuredProductImage" border="0" /></a>				</div>
+				<div class="clear"></div>				<a class="vmproduct-title" href="/index.php/shop/all-categories/t-shirts-for-dudes/sketch-crew-or-die-detail">Sketch Crew Or Die</a>        <div class="clear"></div>					<span class="vote">Rating:  Not Rated Yet</span>
+					    <div class="product-price"><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >$20.00</span></div></div>				</div>
+			</li>
+						<li class=" width25 floatleft">
+								<div class="spacer">
+				<div class="vmproduct-image">
+					<a href="/index.php/shop/all-categories/t-shirts-for-chicks/just-one-guy-detail" title="Just One Guy"><img src="/images/stories/virtuemart/product/resized/12873-jrs_225x340.jpg" alt="12873-jrs" class="featuredProductImage" border="0" /></a>				</div>
+				<div class="clear"></div>				<a class="vmproduct-title" href="/index.php/shop/all-categories/t-shirts-for-chicks/just-one-guy-detail">Just One Guy</a>        <div class="clear"></div>					<span class="vote">Rating:  Not Rated Yet</span>
+					    <div class="product-price"><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >$20.00</span></div></div>				</div>
+			</li>
+					</ul>
+		<div class="clear"></div>
+
+		</div>      </div>
+    </div>
+  </div>
+	
+			</section>
+		
+		</div>
+		<!-- //MAIN CONTENT -->
+
+	</div>
+</section>     
+    
+    
+    
+<!-- FOOTER -->
+<footer id="t3-footer" class="wrap t3-footer">
+
+  <!-- FOOT NAVIGATION -->
+  <div class="container">
+    <div class="row">
+      <div class="span6">
+                </div>
+
+      <div class="footer-5 span3">
+          
+      </div>
+    
+      <div class="footer-6 span3">
+          
+      </div>
+    </div>
+  </div>
+  <!-- //FOOT NAVIGATION -->
+
+  <section class="t3-copyright">
+    <div class="container">
+      <div class="row">
+        <div class="span12 copyright">
+          <small>Copyright &#169; 2014 Sketch Crew Apparel. All Rights Reserved. Designed by <a href="http://www.joomlart.com/" title="Visit Joomlart.com!">JoomlArt.com</a>.</small>
+<small><a href="http://www.joomla.org">Joomla!</a> is Free Software released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License.</a></small>
+        </div>
+              </div>
+    </div>
+  </section>
+
+</footer>
+<!-- //FOOTER -->    
+  </body>
+
+</html>

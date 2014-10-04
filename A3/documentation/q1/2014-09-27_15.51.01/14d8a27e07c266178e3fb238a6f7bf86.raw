@@ -1,0 +1,1542 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+<title> Barstool Sports &#8211; Chicago</title>
+<meta name="viewport" content="width=device-width">
+
+<!--// Font Stuff //-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+<script src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/themes/barstoolsports/js/modernizr-2.6.1.min.js"></script>
+
+<meta name="copyright" content="Copyright 2014 Barstool Sports. All rights reserved.">
+<meta name="description" content="" />
+<!--// Facebook Tags //-->
+<meta property="og:image" content="/wp-content/themes/barstoolsports/img/bg_stool.png"/>
+<!--// Setup Feeds //-->
+<link rel="alternate" type="application/rss+xml" title="Barstool Sports &#8211; Chicago RSS Feed" href="http://chicago.barstoolsports.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Barstool Sports &#8211; Chicago Atom Feed" href="http://chicago.barstoolsports.com/feed/atom/" />
+
+<!--// Setup Favicon //-->
+<link rel="shortcut icon" href="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/themes/barstoolsports/favicon.ico" />
+
+<!--// Pull Main Styles //-->
+<link rel="stylesheet" href="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/themes/barstoolsports/style-edgecast.css?v=1.0.36" type="text/css" media="screen" />
+
+<!--[if IE 7]>
+<link rel="stylesheet" href="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/themes/barstoolsports/css/ie7.css" type="text/css" media="screen" />
+<![endif]-->
+
+<!--// Send to Mobile Site //-->
+<script type="text/javascript">
+if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/Android/i)) || (navigator.userAgent.match(/iemobile/i))) {
+   	if (document.cookie.indexOf("iphone_redirect=false") == -1) {
+   		if (window.location.hostname === 'www.barstoolsports.com') {
+	   		window.location = "http://www.barstoolsports.com/m/";
+   		} else {
+   			window.location = "http://chicago.barstoolsports.com/m/";
+   		}
+   		
+   	}
+}
+</script>
+
+<!--// Pull in Location Overrides CSS File //-->
+<link rel="stylesheet" href="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/themes/barstoolsports/css/style-chicago.css?v=1.0.13" type="text/css" media="screen" />
+
+<!--//Setup defaults //-->
+<script type="text/javascript">
+	var mobile = false;
+	var debug = 0;
+	var ajax_url = 'http://chicago.barstoolsports.com/wp-admin/admin-ajax.php';
+	var user_id = 0;
+</script>
+
+<script src="http://www.barstoolsports.com/wp-content/plugins/barstool-feed-ads/js/google.ad.js?v=1.0.0"></script>
+
+<!--// Head - BEG //-->
+<link rel='stylesheet' id='media-kit-css-css'  href='http://chicago.barstoolsports.com/wp-content/plugins/barstool-media-kit/css/barstool_media_kit.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='my-css-script-mkf-css'  href='http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/plugins/marry-kill-fuck/css/mkf.css?ver=1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='uug-gallery-css'  href='http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/plugins/user-upload-gallery/css/style.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='video-submissions-css'  href='http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/plugins/video-submissions/css/video-submissions.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='barstool-videos-css'  href='http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/plugins/barstool-videos/barstool_videos.css?r=be92de4ea1ef1b161a2bb920a8d1680e&#038;ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox2-css'  href='http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/themes/barstoolsports/fancybox2/jquery.fancybox.css?ver=1.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox2-thumbs-css'  href='http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/themes/barstoolsports/fancybox2/helpers/jquery.fancybox-thumbs.css?ver=1.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='http://chicago.barstoolsports.com/wp-includes/js/thickbox/thickbox.css?ver=20121105' type='text/css' media='all' />
+<link rel='stylesheet' id='fb-css'  href='http://chicago.barstoolsports.com/wp-content/plugins/facebook/style/style.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-postratings-css'  href='http://chicago.barstoolsports.com/wp-content/plugins/wp-postratings/postratings-css.css?ver=1.63' type='text/css' media='all' />
+<script type='text/javascript' src='http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/themes/barstoolsports/jquery/jquery-1.8.3.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://chicago.barstoolsports.com/wp-content/plugins/barstool-media-kit/js/barstool_media_kit.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/plugins/marry-kill-fuck/js/marry-kill-fuck.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/plugins/barstool-videos/js/barstool_videos.js?r=864e1467804d561cf1f6e25bdd0e5401&#038;ver=1.0.18'></script>
+<script type='text/javascript' src='http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/themes/barstoolsports/fancybox2/jquery.fancybox.pack.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/themes/barstoolsports/fancybox2/helpers/jquery.fancybox-thumbs.js?ver=1.0.9'></script>
+<script type='text/javascript' src='http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/themes/barstoolsports/js/comments_rating.js?ver=1.0.11'></script>
+<script type='text/javascript' src='http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/themes/barstoolsports/js/stories_rating.js?ver=1.0.6'></script>
+<script type='text/javascript' src='http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/themes/barstoolsports/js/social.js?ver=1.0.6'></script>
+<script type='text/javascript' src='http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/themes/barstoollanding/js/underscore.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/plugins/nextgen-gallery/js/jquery.cycle.all.min.js?ver=2.9995'></script>
+<script type='text/javascript' src='http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/plugins/nextgen-gallery/js/ngg.slideshow.min.js?ver=1.06'></script>
+<!-- <meta name="NextGEN" version="1.9.6" /> -->
+<meta property="http://ogp.me/ns#locale" content="en_US" />
+<meta property="http://ogp.me/ns#site_name" content="Barstool Sports - Chicago" />
+<meta property="http://ogp.me/ns#type" content="website" />
+<meta property="http://ogp.me/ns#title" content="Barstool Sports - Chicago" />
+<meta property="http://ogp.me/ns/fb#app_id" content="167901609887021" />
+<meta name="description" content="" /><script type="text/javascript">window.fbAsyncInit=function(){FB.init({"appId":"167901609887021","channelUrl":"http:\/\/chicago.barstoolsports.com\/?fb-channel-file=1","status":true,"cookie":true,"xfbml":true,"oauth":true});}</script><!--// Head - END //-->
+
+
+<!--// Takeover BEG //-->
+<!--// Takeover BEG //-->
+
+<!--// Takeover END //-->
+
+
+<!--// Takeover END //-->
+
+<!--// DoubleClick - BEG //-->
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/57249056/Leaderboard_Chicago', [728, 90], 'div-gpt-ad-1354672240112-0').addService(googletag.pubads());
+googletag.defineSlot('/57249056/SkyScraper_Chicago', [160, 600], 'div-gpt-ad-1354672240112-1').addService(googletag.pubads());
+googletag.defineSlot('/57249056/TopRightAdSpot_Chicago', [300, 250], 'div-gpt-ad-1354672240112-2').addService(googletag.pubads());
+googletag.defineSlot('/57249056/Pushdown_Chicago', [970, 66], 'div-gpt-ad-1357997478693-1').addService(googletag.pubads());
+googletag.defineSlot('/57249056/Skin_Chicago', [1, 1], 'div-gpt-ad-1357997478693-6').addService(googletag.pubads());
+googletag.defineSlot('/57249056/600x300_Chicago', [600, 300], 'div-gpt-ad-1358086369908-1').addService(googletag.pubads());
+googletag.defineSlot('/57249056/300x190_Facebook_Chicago', [300, 190], 'div-gpt-ad-1359305474063-2').addService(googletag.pubads());
+googletag.defineSlot('/57249056/Tablet_Chicago', [728, 90], 'div-gpt-ad-1369185634674-2').addService(googletag.pubads());
+googletag.defineSlot('/57249056/970x250_LeaderBoard_Chicago', [970, 250], 'div-gpt-ad-1395081010978-2').addService(googletag.pubads());
+googletag.pubads().setTargeting("content","NSFW");
+googletag.pubads().enableSingleRequest();
+googletag.pubads().collapseEmptyDivs();
+googletag.enableServices();
+});
+</script><!--// DoubleClick - END //-->
+
+<script type="text/javascript" src="//native.sharethrough.com/assets/tag.js" async></script>
+
+<!--// Google Analytics - BEG //-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49941974-1', 'barstoolsports.com');
+  ga('send', 'pageview');
+
+</script>
+<!--// Google Analytics - END //-->
+
+</head>
+
+<body class="takeover site_chicago ipad">
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+  FB.init({
+	appId      : '167901609887021', // App ID
+	channelUrl : '//www.barstoolsports.com/channel.php', // Channel File
+    status     : true, // check login status
+    cookie     : true, // enable cookies to allow the server to access the session
+    xfbml      : true  // parse XFBML
+  });
+  // Additional initialization code here
+};
+// Load the SDK Asynchronously
+(function(d){
+   var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+   if (d.getElementById(id)) {return;}
+   js = d.createElement('script'); js.id = id; js.async = true;
+   js.src = "//connect.facebook.net/en_US/all.js";
+   ref.parentNode.insertBefore(js, ref);
+ }(document));
+</script>
+
+<script>
+googletag.cmd.push(function () {
+  googletag.on("gpt-slot_rendered",function(e,level,message,service,slot,reference) {
+      var slot_id = slot.getSlotId();
+      var slot_id_new = slot_id+'';
+      if (slot_id_new.search('600x300') > 0) {
+	      $slot = $("#"+slot_id.getDomId());
+      	if($slot.find("iframe:not([id*=hidden])").map(function () { return this.contentWindow.document; }).find("body").children().length == 0) {
+        	$('.post.under_first_blog_ad').remove();
+        } else {
+        	$('body').addClass('woven');
+        }
+      }
+  });
+});
+</script>
+
+
+<div id="skin" style="opacity: 1; position: fixed; top: 0; left: 50%; margin-left: -712px; z-index: 0; height: 1080px; width: 1424px;">
+
+	<!-- Test_Skin -->
+	<div id='div-gpt-ad-1357997478693-6' class="takeover_ad" style='width:1px; height:1px;'>
+		<script type='text/javascript'>
+			googletag.cmd.push(function() { googletag.display('div-gpt-ad-1357997478693-6'); });
+		</script>
+		<script>
+			$(document).ready(function() {
+				setTimeout(function () { var contents = $("#skin").find('iframe').contents().find('#google_image_div a img');
+				if (contents.length > 0) {
+					console.log('Wrapped up');
+					$('body').addClass('woven');
+				}
+				}, 500);
+			});
+		</script>
+	</div>
+
+</div> <!--// Skin - END //-->
+
+<div class="header-container">
+	<nav>
+		<div class="wrapper_new">
+			<ul>
+				<li class="home"><a href="/">Home</a></li>
+				<li class="messageBoard"><a href="/bb3/">Message Board</a></li>
+				<li class="twitter_follow">
+					<a href="https://twitter.com/barstoolsports" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @barstoolsports</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</li>
+				<li class="facebook_like"><div class="fb-like" data-href="https://www.facebook.com/barstoolsportsboston" data-width="340" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false" data-colorscheme="dark" ></div></li>
+				<li class="loginOut"><a href="http://chicago.barstoolsports.com/wp-login.php?redirect=http%3A%2F%2Fchicago.barstoolsports.com">Login / Signup</a></li>
+			</ul>
+			<div class="clear"></div>
+		</div><!--// .wrapper //-->
+	</nav>
+	<header>
+		<div class="wrapper_new">
+			<a href="/" class="logo"><h1>Barstool Sports</h1></a>
+			<ul class="sf">
+	<form method="get" id="searchform" action="http://chicago.barstoolsports.com/">
+		<li class="search-bar"><input type="text" maxlength="150" size="30" name="s" id="s" class="" value="Search" onfocus="focusField(this.id,'Search')" onblur="blurField(this.id,'Search')" /></li>
+		<li class="search-sub"><input type="submit" id="searchsubmit" value="Submit Site" class="hide" /></li>
+	</form>
+</ul>
+			<div class="clearfix"></div>
+		</div><!--// .wrapper //-->
+	</header>
+	<nav class="lower">
+		<div class="wrapper_new">
+			<ul>
+				<li class="sites sites_right">
+					<ul>
+						<li class="store"><a href="http://store.barstoolsports.com/index.php/" target="_blank">Store</a></li>
+						<li class="videos"><a href="http://www.barstoolsports.com/videos/">Videos</a></li>
+						<li class="superblog"><a href="http://www.barstoolsports.com/" class="site">Superblog</a></li>
+						<li class="boston"><a href="http://boston.barstoolsports.com/" class="site">Boston</a></li>
+						<li class="new_york"><a href="http://nyc.barstoolsports.com/" class="site">New York</a></li>
+						<li class="philly"><a href="http://philly.barstoolsports.com/" class="site">Philly</a></li>
+						<li class="chicago"><a href="http://chicago.barstoolsports.com/" class="site">Chicago</a></li>
+						<li class="dmv"><a href="http://dmv.barstoolsports.com/" class="site">DMV</a></li>
+						<li class="la"><a href="http://la.barstoolsports.com/" class="site">LA</a></li>
+						<li class="iowa"><a href="http://iowa.barstoolsports.com/" class="site">IOWA</a></li>
+						<li class="barstoolu"><a href="http://barstoolu.barstoolsports.com/" class="site">BarstoolU</a></li>
+						<li class="beats"><a href="http://www.barstoolbeats.com/" class="site" target="_blank">Beats</a></li>
+					</ul>
+					<div class="clear"></div>
+				</li>
+			</ul>
+			<div class="clear"></div>
+		</div><!--// .wrapper //-->
+	</nav>
+</div>
+<div class="wrapper container">
+	
+	<div class="banner leaderBoard">
+										<div style="width:728px; margin: 0 auto;">
+			<!-- Leaderboard -->
+			<div id='div-gpt-ad-1354672240112-0' style='width: 728px; display: none;'>
+				<script type='text/javascript'>
+					googletag.cmd.push(function() { googletag.display('div-gpt-ad-1354672240112-0'); });
+				</script>
+			</div>
+		</div>
+				<!-- Leaderboard Pushdown -->
+		<div style="width:970px; margin: 10px auto 0;">
+			<!-- Pushdown -->
+			<div id='div-gpt-ad-1357997478693-1' style='width: 960px; height: auto;'>
+				<script type='text/javascript'>
+					googletag.cmd.push(function() { googletag.display('div-gpt-ad-1357997478693-1'); });
+				</script>
+			</div>
+		</div>
+		
+				<!-- Leaderboard 970x250 -->
+		<div style="width:970px; margin: 10px auto 0;">
+			<!-- Pushdown -->
+			<div id='div-gpt-ad-1395081010978-2' style='width: 970px; height: auto;'>
+				<script type='text/javascript'>
+					googletag.cmd.push(function() { googletag.display('div-gpt-ad-1395081010978-2'); });
+				</script>
+			</div>
+		</div>
+				
+								
+	</div>
+	
+		<div class="topStuff">
+		<div class="left ts_l">
+			<div class="inn">
+				<div class="leftArrow hide" onclick="moveIt(1)"></div>
+				<div class="rightArrow hide" onclick="moveIt(2)"></div>
+				<div class="stories">
+					<div class="scroll">
+						<div id="scroller" class="scroller">
+							
+		    <div class="left story">
+		        <div class="inner">
+		        	<div class="imgBg"><div class="img"><a href="http://chicago.barstoolsports.com/random-thoughts/barstool-pick-em-college-football-podcast-week-5/"><img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/3a999320426558c_135_90.jpg" width="135" height="90" alt="" border="0" /></a></div></div>
+		        	<div class="storyTitle"><a href="http://chicago.barstoolsports.com/random-thoughts/barstool-pick-em-college-football-podcast-week-5/">Barstool Pick Em College Football Podcast – Week 5</a></div>
+		        </div>
+		    </div>
+		    <div class="left story">
+		        <div class="inner">
+		        	<div class="imgBg"><div class="img"><a href="http://chicago.barstoolsports.com/random-thoughts/barstool-pick-em-nfl-week-3/"><img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/d01ff2a0e9775a7_135_90.jpg" width="135" height="90" alt="" border="0" /></a></div></div>
+		        	<div class="storyTitle"><a href="http://chicago.barstoolsports.com/random-thoughts/barstool-pick-em-nfl-week-3/">Barstool Pick Em NFL - Week 3</a></div>
+		        </div>
+		    </div>
+		    <div class="left story">
+		        <div class="inner">
+		        	<div class="imgBg"><div class="img"><a href="http://chicago.barstoolsports.com/random-thoughts/barstool-pick-em-college-football-podcast-week-4/"><img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/28ed3329b690621_135_90.jpg" width="135" height="90" alt="" border="0" /></a></div></div>
+		        	<div class="storyTitle"><a href="http://chicago.barstoolsports.com/random-thoughts/barstool-pick-em-college-football-podcast-week-4/">Barstool Pick Em College Football Podcast - Week 4</a></div>
+		        </div>
+		    </div>
+		    <div class="left story">
+		        <div class="inner">
+		        	<div class="imgBg"><div class="img"><a href="http://chicago.barstoolsports.com/random-thoughts/barstool-pick-em-college-football-week-3/"><img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/c9a1e47db6948d1_135_90.jpg" width="135" height="90" alt="" border="0" /></a></div></div>
+		        	<div class="storyTitle"><a href="http://chicago.barstoolsports.com/random-thoughts/barstool-pick-em-college-football-week-3/">Barstool Pick Em College Football Week 3</a></div>
+		        </div>
+		    </div>
+		    <div class="left story">
+		        <div class="inner">
+		        	<div class="imgBg"><div class="img"><a href="http://chicago.barstoolsports.com/random-thoughts/it-must-be-week-1-if-steelers-fans-are-already-hanging-johnny-football-in-effigy/"><img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/0d6a92a4eef900f_135_90.jpg" width="135" height="90" alt="" border="0" /></a></div></div>
+		        	<div class="storyTitle"><a href="http://chicago.barstoolsports.com/random-thoughts/it-must-be-week-1-if-steelers-fans-are-already-hanging-johnny-football-in-effigy/">It Must Be Week 1 If Steelers Fans Are Already Hanging Johnny Football In Effigy</a></div>
+		        </div>
+		    </div>
+		    <div class="left story">
+		        <div class="inner">
+		        	<div class="imgBg"><div class="img"><a href="http://chicago.barstoolsports.com/random-thoughts/josh-gordon-will-in-fact-be-working-this-nfl-season-at-a-car-dealership-in-ohio/"><img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/31744a9c887729d_135_90.jpg" width="135" height="90" alt="" border="0" /></a></div></div>
+		        	<div class="storyTitle"><a href="http://chicago.barstoolsports.com/random-thoughts/josh-gordon-will-in-fact-be-working-this-nfl-season-at-a-car-dealership-in-ohio/">Josh Gordon Will In Fact Be Working This NFL Season.....At A Car Dealership In Ohio</a></div>
+		        </div>
+		    </div>
+		    <div class="left story">
+		        <div class="inner">
+		        	<div class="imgBg"><div class="img"><a href="http://chicago.barstoolsports.com/random-thoughts/we-will-remember-last-nights-cubscardinals-game-as-the-turning-point-in-the-rebuild/"><img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/8e28608eb2c8393_135_90.jpg" width="135" height="90" alt="" border="0" /></a></div></div>
+		        	<div class="storyTitle"><a href="http://chicago.barstoolsports.com/random-thoughts/we-will-remember-last-nights-cubscardinals-game-as-the-turning-point-in-the-rebuild/">We Will Remember Last Night's Cubs/Cardinals Game As The Turning Point In The Rebuild </a></div>
+		        </div>
+		    </div>
+		    <div class="left story">
+		        <div class="inner">
+		        	<div class="imgBg"><div class="img"><a href="http://chicago.barstoolsports.com/random-thoughts/caroline-wozniacki-gets-her-hair-stuck-in-her-tennis-racket-like-an-idiot/"><img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/782553e9c51b188_135_90.jpg" width="135" height="90" alt="" border="0" /></a></div></div>
+		        	<div class="storyTitle"><a href="http://chicago.barstoolsports.com/random-thoughts/caroline-wozniacki-gets-her-hair-stuck-in-her-tennis-racket-like-an-idiot/">Caroline Wozniacki Gets Her Hair Stuck In Her Tennis Racket Like An IDIOT!</a></div>
+		        </div>
+		    </div>
+		    <div class="left story">
+		        <div class="inner">
+		        	<div class="imgBg"><div class="img"><a href="http://chicago.barstoolsports.com/random-thoughts/eric-legrand-using-the-moment-he-was-paralyzed-for-an-internet-meme-is-fantastic/"><img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/c99c87ee52e5966_135_90.jpg" width="135" height="90" alt="" border="0" /></a></div></div>
+		        	<div class="storyTitle"><a href="http://chicago.barstoolsports.com/random-thoughts/eric-legrand-using-the-moment-he-was-paralyzed-for-an-internet-meme-is-fantastic/">Eric Legrand Using The Moment He Was Paralyzed For An Internet Meme Is Fantastic </a></div>
+		        </div>
+		    </div>
+		    <div class="left story">
+		        <div class="inner">
+		        	<div class="imgBg"><div class="img"><a href="http://chicago.barstoolsports.com/random-thoughts/heres-your-definitive-answer-to-the-question-can-floyd-mayweather-read-he-cannot/"><img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/95035fe57d5e265_135_90.jpg" width="135" height="90" alt="" border="0" /></a></div></div>
+		        	<div class="storyTitle"><a href="http://chicago.barstoolsports.com/random-thoughts/heres-your-definitive-answer-to-the-question-can-floyd-mayweather-read-he-cannot/">Here's Your Definitive Answer To The Question, Can Floyd Mayweather Read? (He Cannot)</a></div>
+		        </div>
+		    </div>						<div class="clear"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="right ts_r">
+			<div class="inner hide">
+				<div><a href="http://barstool.market-safe.com/index.php/" target="_blank"><img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com//wp-content/banners/fake_gf_storead.jpg" width="300" height="190" /></a></div>
+			</div>
+			<!-- 300x190_Facebook -->
+			<div class="inner">
+								<div id='div-gpt-ad-1359305474063-2' style='width:300px; height:190px;'>
+					<script type='text/javascript'>
+						googletag.cmd.push(function() { googletag.display('div-gpt-ad-1359305474063-2'); });
+					</script>
+				</div>
+							</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+		
+	<div class="mainContent">
+		
+		<div class="topper"></div>
+		<div class="content">
+			
+			
+		
+<div id="side-blog-ads" class="left co_l" >
+	
+	    <div>
+		<!-- Leaderboard -->
+		<div id='div-gpt-ad-1354672240112-1' style='width:160px; height:600px;'>
+			<script type='text/javascript'>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1354672240112-1'); });
+			</script>
+		</div>
+	</div>
+        
+</div>			
+			<div class="right co_r">
+				
+
+
+
+<div class="banner rightTop">
+		<div style="width:300px; margin: 0 auto;">
+	    <!-- TopRightAdSpot -->
+	    <div id='div-gpt-ad-1354672240112-2' style='width:300px;'>
+		    <script type='text/javascript'>
+		    	googletag.cmd.push(function() { googletag.display('div-gpt-ad-1354672240112-2'); });
+		    </script>
+	    </div>
+	</div>
+	</div>
+
+<ul class="sidebar-list">
+<li id="tourdates" class="widget_tourdates tab"><h2 class="widgettitle"><span>Tour Dates</span></h2><ul><li>
+				<div class="td_inn no_foam">
+					<h3>Palladium </h3>
+					<h4>Worcester, MA</h4>
+					<h5>Oct. 24th, 2014 9:00 PM</h5>
+					<div class="btn"><a href="http://www.ticketfly.com/event/673203" target="_blank" class="tk-alternate-gothic-no-3-d"></a></div>
+				</div>
+			</li><li>
+				<div class="td_inn no_foam">
+					<h3>Webster Theater</h3>
+					<h4>Hartford, CT</h4>
+					<h5>Oct. 25th, 2014 9:00 PM</h5>
+					<div class="btn"><a href="http://www.ticketfly.com/event/673217" target="_blank" class="tk-alternate-gothic-no-3-d"></a></div>
+				</div>
+			</li><li>
+				<div class="td_inn no_foam">
+					<h3>Toads Place</h3>
+					<h4>New Haven, CT</h4>
+					<h5>Sep. 11th, 2014 9:00 PM</h5>
+					<div class="btn"><a href="http://www.etix.com/ticket/online/performanceSearch.jsp?performance_id=1839552" target="_blank" class="tk-alternate-gothic-no-3-d soldout"></a></div>
+				</div>
+			</li><li>
+				<div class="td_inn no_foam">
+					<h3>Lupos</h3>
+					<h4>Providence, RI</h4>
+					<h5>Sep. 12th, 2014 9:00 PM</h5>
+					<div class="btn"><a href="https://www.etix.com/ticket/online/performanceSearch.jsp?performance_id=1839566&cobrand=luposri" target="_blank" class="tk-alternate-gothic-no-3-d soldout"></a></div>
+				</div>
+			</li></ul></li><!--// Cache Location: /var/local/www/wordpress_staging/wp-content/cache/tweets_7.json //--><li id="tweets" class="widget_tweets tab"><h2 class="widgettitle"><span>Tweets</span></h2><section><ul>
+				<li id="tweet_515939038940102656" class=" clear clearfix">
+					<a href="http://twitter.com/barstoolsports" target="_blank" class="image">
+						<img src="http://pbs.twimg.com/profile_images/443427589823008768/G_4GqBfK_normal.jpeg" width="50" height="50" border="0" />
+					</a>
+					<div class="content">
+						<div class="text">Jennifer Lopez's taint is a magical place where age has no meaning <a href="http://t.co/NyOLjktmv1" target="_blank">http://t.co/NyOLjktmv1</a></div>
+						<div class="meta">
+							<div class="date">September 27th, 3:00 PM</div>
+						</div>
+					</div>
+				</li>
+				<li id="tweet_515924054319312896" class=" clear clearfix">
+					<a href="http://twitter.com/barstoolsports" target="_blank" class="image">
+						<img src="http://pbs.twimg.com/profile_images/443427589823008768/G_4GqBfK_normal.jpeg" width="50" height="50" border="0" />
+					</a>
+					<div class="content">
+						<div class="text">This is what sex looks like when someone films you through an MRI machine <a href="http://t.co/ot3DugIKVS" target="_blank">http://t.co/ot3DugIKVS</a></div>
+						<div class="meta">
+							<div class="date">September 27th, 2:00 PM</div>
+						</div>
+					</div>
+				</li>
+				<li id="tweet_515915652662820864" class=" clear clearfix">
+					<a href="http://twitter.com/barstoolsports" target="_blank" class="image">
+						<img src="http://pbs.twimg.com/profile_images/443427589823008768/G_4GqBfK_normal.jpeg" width="50" height="50" border="0" />
+					</a>
+					<div class="content">
+						<div class="text">Is this story of LeSean McCoy hitting a biker then acting like a dick possibly true? <a href="http://t.co/aAe8s4AM4y" target="_blank">http://t.co/aAe8s4AM4y</a></div>
+						<div class="meta">
+							<div class="date">September 27th, 1:27 PM</div>
+						</div>
+					</div>
+				</li>
+				<li id="tweet_515908870880129024" class=" clear clearfix">
+					<a href="http://twitter.com/barstoolsports" target="_blank" class="image">
+						<img src="http://pbs.twimg.com/profile_images/443427589823008768/G_4GqBfK_normal.jpeg" width="50" height="50" border="0" />
+					</a>
+					<div class="content">
+						<div class="text">$1500 rent in Iowa versus other parts of the country is profoundly depressing <a href="http://t.co/K2Z2s7w3Os" target="_blank">http://t.co/K2Z2s7w3Os</a></div>
+						<div class="meta">
+							<div class="date">September 27th, 1:00 PM</div>
+						</div>
+					</div>
+				</li>
+				<li id="tweet_515899595084550144" class=" clear clearfix">
+					<a href="http://twitter.com/barstoolsports" target="_blank" class="image">
+						<img src="http://pbs.twimg.com/profile_images/443427589823008768/G_4GqBfK_normal.jpeg" width="50" height="50" border="0" />
+					</a>
+					<div class="content">
+						<div class="text">Last nice weekend of the summer so it's time to go tits out for the boys <a href="http://t.co/D93pH2l4gB" target="_blank">http://t.co/D93pH2l4gB</a></div>
+						<div class="meta">
+							<div class="date">September 27th, 12:23 PM</div>
+						</div>
+					</div>
+				</li>
+				<li id="tweet_515893758479859713" class=" clear clearfix">
+					<a href="http://twitter.com/barstoolsports" target="_blank" class="image">
+						<img src="http://pbs.twimg.com/profile_images/443427589823008768/G_4GqBfK_normal.jpeg" width="50" height="50" border="0" />
+					</a>
+					<div class="content">
+						<div class="text">Katherine Webb dropping some sly nip slips on Instagram is such a veteran move <a href="http://t.co/BJRbkRPx9p" target="_blank">http://t.co/BJRbkRPx9p</a></div>
+						<div class="meta">
+							<div class="date">September 27th, 12:00 PM</div>
+						</div>
+					</div>
+				</li>
+				<li id="tweet_515878763536850944" class=" clear clearfix">
+					<a href="http://twitter.com/barstoolsports" target="_blank" class="image">
+						<img src="http://pbs.twimg.com/profile_images/443427589823008768/G_4GqBfK_normal.jpeg" width="50" height="50" border="0" />
+					</a>
+					<div class="content">
+						<div class="text">Introducing the sexiest catwalk moves anyone has ever shown <a href="http://t.co/pI40TZNrVP" target="_blank">http://t.co/pI40TZNrVP</a></div>
+						<div class="meta">
+							<div class="date">September 27th, 11:00 AM</div>
+						</div>
+					</div>
+				</li>
+				<li id="tweet_515867639009538049" class=" clear clearfix">
+					<a href="http://twitter.com/barstoolsports" target="_blank" class="image">
+						<img src="http://pbs.twimg.com/profile_images/443427589823008768/G_4GqBfK_normal.jpeg" width="50" height="50" border="0" />
+					</a>
+					<div class="content">
+						<div class="text">RT <a href="http://twitter.com/BarstoolBigCat" target="_blank">@BarstoolBigCat</a>: Update on MJ, double cigars and dressed to impressed <a href="http://t.co/jM0rfKVj0n" target="_blank">http://t.co/jM0rfKVj0n</a> http://t.co/1H789DpuLb</div>
+						<div class="meta">
+							<div class="date">September 27th, 10:16 AM</div>
+						</div>
+					</div>
+				</li>
+				<li id="tweet_515867583158161408" class=" clear clearfix">
+					<a href="http://twitter.com/barstoolsports" target="_blank" class="image">
+						<img src="http://pbs.twimg.com/profile_images/443427589823008768/G_4GqBfK_normal.jpeg" width="50" height="50" border="0" />
+					</a>
+					<div class="content">
+						<div class="text">RT <a href="http://twitter.com/ChrisSpags" target="_blank">@ChrisSpags</a>: Emily Ratajkowski's new topless pics just singlehandedly brought back Calvin Klein <a href="http://t.co/7ej3iTJbEy" target="_blank">http://t.co/7ej3iTJbEy</a> http://t.co/8XcFD…</div>
+						<div class="meta">
+							<div class="date">September 27th, 10:16 AM</div>
+						</div>
+					</div>
+				</li></ul></section></li></ul>
+
+
+
+
+<div class="supaBox">
+	
+	<div class="hdr">
+		<h2 class="aroundhdr">Around Barstool</h2>
+	</div>
+	<div class="bdy">
+		<div class="inn">
+			<div>
+				<ul class="hotGalleries">
+					
+	    	<div class="hp">
+	    	    <div class="left hp_l">
+	    	    	<div class="inner-pad">
+	    	    		<div class="img">
+	    	    			<a href="http://dmv.barstoolsports.com/random-thoughts/orioles-rookie-hazing-costumes-are-fantastic/">
+	    	    				<img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.dmv.barstoolsports.com//wp-content/thumbnails/featured-thumbnail/f21e253b6b20b67_135_90.jpg" alt="featured" width="80" height="53" border="0" />
+	    	    			</a>
+	    	    		</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="right hp_r">
+	    	    	<div class="inner-pad">
+	    	    		<h4><a href="http://dmv.barstoolsports.com/random-thoughts/orioles-rookie-hazing-costumes-are-fantastic/">Orioles Rookie Hazing Costumes are FANTASTIC</a></h4>
+	    	    		<div class="local washingtondc,maryland,virginia">WASHINGTON DC, MARYLAND, VIRGINIA</div>
+	    	    		<div class="comm">0 COMMENTS</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="clear"></div>
+	    	</div>
+	    	<div class="hp">
+	    	    <div class="left hp_l">
+	    	    	<div class="inner-pad">
+	    	    		<div class="img">
+	    	    			<a href="http://philly.barstoolsports.com/random-thoughts/barstool-philly-fantasy-football-week-4-preview-podcast/">
+	    	    				<img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.philly.barstoolsports.com/wp-content/themes/barstoolsports/img/stool-thumb-temp.jpg" width="80" height="53" border="0" alt="ERROR: NOT ON SERVER!" />
+	    	    			</a>
+	    	    		</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="right hp_r">
+	    	    	<div class="inner-pad">
+	    	    		<h4><a href="http://philly.barstoolsports.com/random-thoughts/barstool-philly-fantasy-football-week-4-preview-podcast/">Barstool Philly Fantasy Football Week 4 Preview With @B...</a></h4>
+	    	    		<div class="local barstoolsports:philly">PHILLY</div>
+	    	    		<div class="comm">7 COMMENTS</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="clear"></div>
+	    	</div>
+	    	<div class="hp">
+	    	    <div class="left hp_l">
+	    	    	<div class="inner-pad">
+	    	    		<div class="img">
+	    	    			<a href="http://iowa.barstoolsports.com/random-thoughts/heres-how-the-ryder-cup-stands-after-day-two/">
+	    	    				<img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.iowa.barstoolsports.com/wp-content/themes/barstoolsports/img/stool-thumb-temp.jpg" width="80" height="53" border="0" alt="ERROR: NOT ON SERVER!" />
+	    	    			</a>
+	    	    		</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="right hp_r">
+	    	    	<div class="inner-pad">
+	    	    		<h4><a href="http://iowa.barstoolsports.com/random-thoughts/heres-how-the-ryder-cup-stands-after-day-two/">Here's How The Ryder Cup Stands After Day Two</a></h4>
+	    	    		<div class="local barstoolsports-iowa">BARSTOOL SPORTS - IOWA</div>
+	    	    		<div class="comm">12 COMMENTS</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="clear"></div>
+	    	</div>
+	    	<div class="hp">
+	    	    <div class="left hp_l">
+	    	    	<div class="inner-pad">
+	    	    		<div class="img">
+	    	    			<a href="http://philly.barstoolsports.com/random-thoughts/i-really-really-really-hope-this-story-about-lesean-mccoy-hitting-a-biker-then-acting-like-a-super-dick-isnt-true/">
+	    	    				<img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.philly.barstoolsports.com/wp-content/themes/barstoolsports/img/stool-thumb-temp.jpg" width="80" height="53" border="0" alt="ERROR: NOT ON SERVER!" />
+	    	    			</a>
+	    	    		</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="right hp_r">
+	    	    	<div class="inner-pad">
+	    	    		<h4><a href="http://philly.barstoolsports.com/random-thoughts/i-really-really-really-hope-this-story-about-lesean-mccoy-hitting-a-biker-then-acting-like-a-super-dick-isnt-true/">I Really, Really, REALLY Hope This Story About LeSean M...</a></h4>
+	    	    		<div class="local barstoolsports:philly">PHILLY</div>
+	    	    		<div class="comm">28 COMMENTS</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="clear"></div>
+	    	</div>
+	    	<div class="hp">
+	    	    <div class="left hp_l">
+	    	    	<div class="inner-pad">
+	    	    		<div class="img">
+	    	    			<a href="http://boston.barstoolsports.com/random-thoughts/last-nice-weekend-of-the-year-might-as-well-let-the-girls-breathe/">
+	    	    				<img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.boston.barstoolsports.com/wp-content/themes/barstoolsports/img/stool-thumb-temp.jpg" width="80" height="53" border="0" alt="ERROR: NOT ON SERVER!" />
+	    	    			</a>
+	    	    		</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="right hp_r">
+	    	    	<div class="inner-pad">
+	    	    		<h4><a href="http://boston.barstoolsports.com/random-thoughts/last-nice-weekend-of-the-year-might-as-well-let-the-girls-breathe/">Last Nice Weekend Of The Year... Might As Well Let The ...</a></h4>
+	    	    		<div class="local barstoolsports:boston">BOSTON</div>
+	    	    		<div class="comm">39 COMMENTS</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="clear"></div>
+	    	</div>
+	    	<div class="hp">
+	    	    <div class="left hp_l">
+	    	    	<div class="inner-pad">
+	    	    		<div class="img">
+	    	    			<a href="http://iowa.barstoolsports.com/random-thoughts/this-is-how-you-dress-for-success-as-a-fan-at-the-ryder-cup/">
+	    	    				<img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.iowa.barstoolsports.com/wp-content/themes/barstoolsports/img/stool-thumb-temp.jpg" width="80" height="53" border="0" alt="ERROR: NOT ON SERVER!" />
+	    	    			</a>
+	    	    		</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="right hp_r">
+	    	    	<div class="inner-pad">
+	    	    		<h4><a href="http://iowa.barstoolsports.com/random-thoughts/this-is-how-you-dress-for-success-as-a-fan-at-the-ryder-cup/">This Is How You Dress For Success As A Fan At The Ryder...</a></h4>
+	    	    		<div class="local barstoolsports-iowa">BARSTOOL SPORTS - IOWA</div>
+	    	    		<div class="comm">12 COMMENTS</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="clear"></div>
+	    	</div>
+	    	<div class="hp">
+	    	    <div class="left hp_l">
+	    	    	<div class="inner-pad">
+	    	    		<div class="img">
+	    	    			<a href="http://barstoolu.barstoolsports.com/random-thoughts/emily-ratajkowskis-new-topless-pics-just-singlehandedly-brought-back-calvin-klein/">
+	    	    				<img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.boston.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/1070a9bde7028cf_135_90.jpg" alt="featured" width="80" height="53" border="0" />
+	    	    			</a>
+	    	    		</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="right hp_r">
+	    	    	<div class="inner-pad">
+	    	    		<h4><a href="http://barstoolu.barstoolsports.com/random-thoughts/emily-ratajkowskis-new-topless-pics-just-singlehandedly-brought-back-calvin-klein/">Emily Ratajkowski's New Topless Pics Just Singlehandedl...</a></h4>
+	    	    		<div class="local barstoolu">BARSTOOLU</div>
+	    	    		<div class="comm">32 COMMENTS</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="clear"></div>
+	    	</div>
+	    	<div class="hp">
+	    	    <div class="left hp_l">
+	    	    	<div class="inner-pad">
+	    	    		<div class="img">
+	    	    			<a href="http://barstoolu.barstoolsports.com/random-thoughts/things-are-starting-off-real-aggressive-at-gameday-in-columbia/">
+	    	    				<img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.boston.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/c4f139533b1463e_135_90.jpg" alt="featured" width="80" height="53" border="0" />
+	    	    			</a>
+	    	    		</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="right hp_r">
+	    	    	<div class="inner-pad">
+	    	    		<h4><a href="http://barstoolu.barstoolsports.com/random-thoughts/things-are-starting-off-real-aggressive-at-gameday-in-columbia/">Things Are Starting Off Real Aggressive At GameDay in C...</a></h4>
+	    	    		<div class="local barstoolu">BARSTOOLU</div>
+	    	    		<div class="comm">10 COMMENTS</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="clear"></div>
+	    	</div>
+	    	<div class="hp">
+	    	    <div class="left hp_l">
+	    	    	<div class="inner-pad">
+	    	    		<div class="img">
+	    	    			<a href="http://boston.barstoolsports.com/random-thoughts/when-rondo-broke-his-hand-falling-in-the-shower-last-night-he-really-meant-he-broke-it-at-an-indoor-trampoline-park/">
+	    	    				<img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.boston.barstoolsports.com/wp-content/themes/barstoolsports/img/stool-thumb-temp.jpg" width="80" height="53" border="0" alt="ERROR: NOT ON SERVER!" />
+	    	    			</a>
+	    	    		</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="right hp_r">
+	    	    	<div class="inner-pad">
+	    	    		<h4><a href="http://boston.barstoolsports.com/random-thoughts/when-rondo-broke-his-hand-falling-in-the-shower-last-night-he-really-meant-he-broke-it-at-an-indoor-trampoline-park/">When Rondo Said He Broke His Hand Falling In The Shower...</a></h4>
+	    	    		<div class="local barstoolsports:boston">BOSTON</div>
+	    	    		<div class="comm">40 COMMENTS</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="clear"></div>
+	    	</div>
+	    	<div class="hp">
+	    	    <div class="left hp_l">
+	    	    	<div class="inner-pad">
+	    	    		<div class="img">
+	    	    			<a href="http://boston.barstoolsports.com/random-thoughts/barstool-sports-instagram-smokeshow-of-the-day-25/">
+	    	    				<img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.boston.barstoolsports.com/wp-content/themes/barstoolsports/img/stool-thumb-temp.jpg" width="80" height="53" border="0" alt="ERROR: NOT ON SERVER!" />
+	    	    			</a>
+	    	    		</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="right hp_r">
+	    	    	<div class="inner-pad">
+	    	    		<h4><a href="http://boston.barstoolsports.com/random-thoughts/barstool-sports-instagram-smokeshow-of-the-day-25/">Barstool Sports Instagram Smokeshow of the Day </a></h4>
+	    	    		<div class="local barstoolsports:boston">BOSTON</div>
+	    	    		<div class="comm">0 COMMENTS</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="clear"></div>
+	    	</div>
+	    	<div class="hp">
+	    	    <div class="left hp_l">
+	    	    	<div class="inner-pad">
+	    	    		<div class="img">
+	    	    			<a href="http://boston.barstoolsports.com/random-thoughts/rondo-broke-his-hand-after-falling-in-the-shower-last-night/">
+	    	    				<img src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.boston.barstoolsports.com/wp-content/themes/barstoolsports/img/stool-thumb-temp.jpg" width="80" height="53" border="0" alt="ERROR: NOT ON SERVER!" />
+	    	    			</a>
+	    	    		</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="right hp_r">
+	    	    	<div class="inner-pad">
+	    	    		<h4><a href="http://boston.barstoolsports.com/random-thoughts/rondo-broke-his-hand-after-falling-in-the-shower-last-night/">Rondo Broke His Hand After Falling In The Shower Last N...</a></h4>
+	    	    		<div class="local barstoolsports:boston">BOSTON</div>
+	    	    		<div class="comm">32 COMMENTS</div>
+	    	    	</div>
+	    	    </div>
+	    	    <div class="clear"></div>
+	    	</div>				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+<div class="supaBox">
+	
+	<div class="hdr">
+		<h2 class="hotGalleriesHdr">Hot Galleries</h2>
+	</div>
+	<div class="bdy">
+		<div class="inn">
+			<div>
+				<ul class="hotGalleries">
+									</ul>
+				<div class="clear"></div>
+			</div>
+			<div><a href="/category/hot-gallery/">More...</a></div>
+		</div>
+	</div>
+	
+</div>
+
+
+			</div>
+			
+			<div class="left co_c">
+								<div class="tips_area new">
+					<a href="mailto:chicagotips@barstoolsports.com" class="tips">chicagotips@barstoolsports.com</a>
+					<a href="http://chicago.barstoolsports.com/wp-content/plugins/random_post.php" class="throwback">Barstool Throwback</a>
+					<a href="/2014/09/27/?ratings_sort=true&sort=DESC" class="most_popular">Most Popular</a>
+					<a href="/2014/09/27/?ratings_sort=true&sort=ASC" class="least_popular">Least Popular</a>
+					<div class="clear"></div>
+				</div>
+				
+
+
+
+<div class="posts">
+
+    
+    	    		
+    		    		
+    		    		
+    		    		
+    		    		
+    		    		
+    		<div id="post-117719" class="post">
+    			
+    			    			
+    		    <h2 class="post-title"><a href="http://chicago.barstoolsports.com/random-thoughts/its-saturday-lets-get-weird-111/" rel="bookmark" title="Permanent Link to It&#8217;s Saturday, Let&#8217;s Get Weird" class="post-title">It&#8217;s Saturday, Let&#8217;s Get Weird</a></h2>
+    		    
+    		        		    <div class="top_area">
+	    		    <div class="left stories_ratings" data-id="117719" data-plus="0" data-minus="0" data-sroff="0">
+	    		    	
+	    		    </div>
+	    		    <div class="right social_links">
+	    		    	<div class="tw-lb" style="width: 80px; float: right;"><a href="https://twitter.com/share" class="twitter-share-button" data-via="twitterapi" data-lang="en" data-url="http%3A%2F%2Fchicago.barstoolsports.com%2Frandom-thoughts%2Fits-saturday-lets-get-weird-111%2F">Tweet</a></div>
+	    		    	<div class="fb-lb" style="width: 80px; float: right;">http%3A%2F%2Fchicago.barstoolsports.com%2Frandom-thoughts%2Fits-saturday-lets-get-weird-111%2F</div>
+	    		    	<div class="clear"></div>
+	    		    </div>
+	    		    <div class="clear"></div>
+    		    </div>
+    		        		    
+    		    <div class="excerpt hide">
+    		    	&nbsp; &nbsp; Look at the glue guys, look at the glue.    		    </div>
+    		    <div class="post-content">
+    		
+    		    	<p><iframe frameborder="0" height="315" src="//www.youtube.com/embed/QQfRgqulDlg" width="500"></iframe></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Look at the glue guys, look at the glue.</p>
+    		    	
+    		    </div>
+    		    
+    		        		        		    <div class="author">By Big Cat posted September 27th, 2014 at 1:14 PM</div>
+    		        		    
+    		    						
+    		    <ul class="social_bar clearfix">
+    		    	<li class="fb">
+    		    		<a href="#" data-title="It&#8217;s Saturday, Let&#8217;s Get Weird" data-url="http://chicago.barstoolsports.com/random-thoughts/its-saturday-lets-get-weird-111/" data-image="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/e36601051297bb5_280_190.jpg"><span class="fa fa-facebook"></span>Share</a>
+    		    	</li>
+    		    	<li class="tw">
+    		    		<a href="#" onclick="javascript:void(window.open('http://twitter.com/share?text=It&#8217;s Saturday, Let&#8217;s Get Weird&url=http://chicago.barstoolsports.com/random-thoughts/its-saturday-lets-get-weird-111/','sharer','toolbar=0,status=0,width=600,height=350').focus()); return false;"><span class="fa fa-twitter"></span>Tweet</a>
+    		    	</li>
+    		    	<li class="di">
+    		    		<a href="http://chicago.barstoolsports.com/random-thoughts/its-saturday-lets-get-weird-111/#comments"><span class="fa fa-comment"></span>React (17)</a>
+    		    	</li>
+    		    </ul>
+    		        		    
+    		        			
+    		</div>
+    
+    		    		
+    	    		
+    		    		
+    		    		
+    		    		
+    		    		
+    		    		
+    		<div id="ad_spot" class="post under_first_blog_ad">
+				<div id="underFirstBlog" style="padding: 10px 0 10px 10px;">
+					<!-- Under First Blog -->
+					<div id='div-gpt-ad-1358086369908-1' style='width: 600px; height: auto;'>
+						<script type='text/javascript'>
+							googletag.cmd.push(function() { googletag.display('div-gpt-ad-1358086369908-1'); });
+						</script>
+					</div>
+				</div>
+				<div id='taboola-mid-page' style="display: none; padding: 5px 0;"></div>
+    		</div>
+    		
+    		    		
+    		    		
+    		<div id="post-117708" class="post">
+    			
+    			    			
+    		    <h2 class="post-title"><a href="http://chicago.barstoolsports.com/random-thoughts/update-on-mj-at-the-ryder-cup-double-cigar-and-dressed-to-impressed/" rel="bookmark" title="Permanent Link to Update On MJ At The Ryder Cup, Double Cigars And Dressed To Impress" class="post-title">Update On MJ At The Ryder Cup, Double Cigars And Dressed To Impress</a></h2>
+    		    
+    		        		    <div class="top_area">
+	    		    <div class="left stories_ratings" data-id="117708" data-plus="0" data-minus="0" data-sroff="0">
+	    		    	
+	    		    </div>
+	    		    <div class="right social_links">
+	    		    	<div class="tw-lb" style="width: 80px; float: right;"><a href="https://twitter.com/share" class="twitter-share-button" data-via="twitterapi" data-lang="en" data-url="http%3A%2F%2Fchicago.barstoolsports.com%2Frandom-thoughts%2Fupdate-on-mj-at-the-ryder-cup-double-cigar-and-dressed-to-impressed%2F">Tweet</a></div>
+	    		    	<div class="fb-lb" style="width: 80px; float: right;">http%3A%2F%2Fchicago.barstoolsports.com%2Frandom-thoughts%2Fupdate-on-mj-at-the-ryder-cup-double-cigar-and-dressed-to-impressed%2F</div>
+	    		    	<div class="clear"></div>
+	    		    </div>
+	    		    <div class="clear"></div>
+    		    </div>
+    		        		    
+    		    <div class="excerpt hide">
+    		    	Double Cigars is such a power move &nbsp; &nbsp; And when I say Dressed to impress I mean I&#8217;ve never seen someone so rich dress so poorly. That&#8217;s what you get when you&#8217;re the greatest athlete of all time though, the ultimate pass to dress like a 15 year old in public if you feel [...]    		    </div>
+    		    <div class="post-content">
+    		
+    		    	<p><a href="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/files/2014/09/Screen-Shot-2014-09-27-at-8.57.15-AM.png"><img class="alignnone size-full wp-image-117709" alt="Screen Shot 2014-09-27 at 8.57.15 AM" src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/files/2014/09/Screen-Shot-2014-09-27-at-8.57.15-AM.png" width="456" height="301" /></a></p>
+<p><a href="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/files/2014/09/Screen-Shot-2014-09-27-at-8.57.04-AM.png"><img class="alignnone size-large wp-image-117710" alt="Screen Shot 2014-09-27 at 8.57.04 AM" src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/files/2014/09/Screen-Shot-2014-09-27-at-8.57.04-AM.png" width="456" height="597" /></a></p>
+<p><a href="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/files/2014/09/Screen-Shot-2014-09-27-at-8.56.44-AM.png"><img class="alignnone size-large wp-image-117711" alt="Screen Shot 2014-09-27 at 8.56.44 AM" src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/files/2014/09/Screen-Shot-2014-09-27-at-8.56.44-AM.png" width="392" height="558" /></a></p>
+<p><em>Double Cigars is such a power move</em></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>And when I say Dressed to impress I mean I&#8217;ve never seen someone so rich dress so poorly. That&#8217;s what you get when you&#8217;re the greatest athlete of all time though, the ultimate pass to dress like a 15 year old in public if you feel like it. Comfort over everything, MJ gets it.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>I would LOVE to see how much MJ has riding on this tournament.</p>
+    		    	
+    		    </div>
+    		    
+    		        		        		    <div class="author">By Big Cat posted September 27th, 2014 at 9:02 AM</div>
+    		        		    
+    		    						
+    		    <ul class="social_bar clearfix">
+    		    	<li class="fb">
+    		    		<a href="#" data-title="Update On MJ At The Ryder Cup, Double Cigars And Dressed To Impress" data-url="http://chicago.barstoolsports.com/random-thoughts/update-on-mj-at-the-ryder-cup-double-cigar-and-dressed-to-impressed/" data-image="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/5d169888fff5273_280_190.jpg"><span class="fa fa-facebook"></span>Share</a>
+    		    	</li>
+    		    	<li class="tw">
+    		    		<a href="#" onclick="javascript:void(window.open('http://twitter.com/share?text=Update On MJ At The Ryder Cup, Double Cigars And Dressed To Impress&url=http://chicago.barstoolsports.com/random-thoughts/update-on-mj-at-the-ryder-cup-double-cigar-and-dressed-to-impressed/','sharer','toolbar=0,status=0,width=600,height=350').focus()); return false;"><span class="fa fa-twitter"></span>Tweet</a>
+    		    	</li>
+    		    	<li class="di">
+    		    		<a href="http://chicago.barstoolsports.com/random-thoughts/update-on-mj-at-the-ryder-cup-double-cigar-and-dressed-to-impressed/#comments"><span class="fa fa-comment"></span>React (29)</a>
+    		    	</li>
+    		    </ul>
+    		        		    
+    		        			
+    		</div>
+    
+    		    		
+    	    		
+    		    		
+    		    		
+    		    		
+    		    		
+    		    		
+    		<div id="post-117700" class="post">
+    			
+    			    			
+    		    <h2 class="post-title"><a href="http://chicago.barstoolsports.com/random-thoughts/barstool-pick-em-college-football-podcast-week-5/" rel="bookmark" title="Permanent Link to Barstool Pick Em College Football Podcast – Week 5" class="post-title">Barstool Pick Em College Football Podcast – Week 5</a></h2>
+    		    
+    		        		    <div class="top_area">
+	    		    <div class="left stories_ratings" data-id="117700" data-plus="0" data-minus="0" data-sroff="0">
+	    		    	
+	    		    </div>
+	    		    <div class="right social_links">
+	    		    	<div class="tw-lb" style="width: 80px; float: right;"><a href="https://twitter.com/share" class="twitter-share-button" data-via="twitterapi" data-lang="en" data-url="http%3A%2F%2Fchicago.barstoolsports.com%2Frandom-thoughts%2Fbarstool-pick-em-college-football-podcast-week-5%2F">Tweet</a></div>
+	    		    	<div class="fb-lb" style="width: 80px; float: right;">http%3A%2F%2Fchicago.barstoolsports.com%2Frandom-thoughts%2Fbarstool-pick-em-college-football-podcast-week-5%2F</div>
+	    		    	<div class="clear"></div>
+	    		    </div>
+	    		    <div class="clear"></div>
+    		    </div>
+    		        		    
+    		    <div class="excerpt hide">
+    		    	Part 1 Part 2 Part 3 Check Out Football Podcasts at Blog Talk Radio with Barstool Pick Em on BlogTalkRadio Mortal Locks Big Cat (3-4) &#8211; Maryland +4.5 Pres (4-3) &#8211; Duke +6.5 Hank (3-4) &#8211; Kansas State -27    		    </div>
+    		    <div class="post-content">
+    		
+    		    	<p><strong>Part 1</strong></p>
+<!--// Mozilla/5.0 (iPad; CPU OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B651 Safari/9537.53 | 1_qif5059g | http://cdnbakmi.kaltura.com/p/1630402/sp/163040200/thumbnail/entry_id/1_qif5059g/version/100000/acv/121/width/480//-->
+		<script src="http://cdnapi.kaltura.com/html5/html5lib/v2.8.1/mwEmbedLoader.php/partner_id/1630402/uiconf_id/23737141"></script> 
+		<script>
+			mw.setConfig("Kaltura.EnableEmbedUiConfJs", true);
+		</script>
+		<div id="kaltura_player_1_qif5059g" style="width:500px; height:352px; margin: 15px auto;" itemprop="video" itemscope itemtype="http://schema.org/VideoObject" ></div>
+		<script>
+		var vars = {
+			targetId: "kaltura_player_1_qif5059g",
+			wid: "_1630402",
+			uiconf_id: "23737141",
+			entry_id: "1_qif5059g",
+			flashvars: {
+				"vast": {
+					"plugin" : true,
+					"width" : "0%",
+					"height" : "0%",
+					"includeInLayout" : false,
+					"relativeTo" : "PlayerHolder",
+					"position" : "before",
+					"prerollUrl" : "http://ad4.liverail.com/?LR_PUBLISHER_ID=24624&LR_SCHEMA=vast2-vpaid&LR_AUTOPLAY=0&LR_CONTENT=6&LR_VIDEO_ID=barstoolsports&LR_TITLE=barstoolsports&LR_COMPANIONS=300:250:my_companion_300x250:my_default_300x250&LR_FORMAT=application/x-shockwave-flash;application/javascript",
+					"prerollUrlJs" : "http://ad4.liverail.com/?LR_PUBLISHER_ID=24624&LR_SCHEMA=vast2-vpaid&LR_AUTOPLAY=0&LR_CONTENT=6&LR_VIDEO_ID=barstoolsports&LR_TITLE=barstoolsports&LR_COMPANIONS=300:250:my_companion_300x250:my_default_300x250&LR_FORMAT=application/javascript",
+					"numPreroll" : "1",
+					"prerollStartWith" : "1",
+					"prerollInterval" : "1",
+					"preSequence" : "1",
+					"postSequence" : "1",
+					"timeout" : "4"
+				},
+				"adsOnReplay" : true,
+				"debugMode" : false
+			}
+		};
+		kWidget.embed(vars);
+		</script>
+<p><strong>Part 2</strong></p>
+<!--// Mozilla/5.0 (iPad; CPU OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B651 Safari/9537.53 | 1_iv7k3n2d | http://cdnbakmi.kaltura.com/p/1630402/sp/163040200/thumbnail/entry_id/1_iv7k3n2d/version/100000/acv/121/width/480//-->
+		<script src="http://cdnapi.kaltura.com/html5/html5lib/v2.8.1/mwEmbedLoader.php/partner_id/1630402/uiconf_id/23737141"></script> 
+		<script>
+			mw.setConfig("Kaltura.EnableEmbedUiConfJs", true);
+		</script>
+		<div id="kaltura_player_1_iv7k3n2d" style="width:500px; height:352px; margin: 15px auto;" itemprop="video" itemscope itemtype="http://schema.org/VideoObject" ></div>
+		<script>
+		var vars = {
+			targetId: "kaltura_player_1_iv7k3n2d",
+			wid: "_1630402",
+			uiconf_id: "23737141",
+			entry_id: "1_iv7k3n2d",
+			flashvars: {
+				"vast": {
+					"plugin" : true,
+					"width" : "0%",
+					"height" : "0%",
+					"includeInLayout" : false,
+					"relativeTo" : "PlayerHolder",
+					"position" : "before",
+					"prerollUrl" : "http://ad4.liverail.com/?LR_PUBLISHER_ID=24624&LR_SCHEMA=vast2-vpaid&LR_AUTOPLAY=0&LR_CONTENT=6&LR_VIDEO_ID=barstoolsports&LR_TITLE=barstoolsports&LR_COMPANIONS=300:250:my_companion_300x250:my_default_300x250&LR_FORMAT=application/x-shockwave-flash;application/javascript",
+					"prerollUrlJs" : "http://ad4.liverail.com/?LR_PUBLISHER_ID=24624&LR_SCHEMA=vast2-vpaid&LR_AUTOPLAY=0&LR_CONTENT=6&LR_VIDEO_ID=barstoolsports&LR_TITLE=barstoolsports&LR_COMPANIONS=300:250:my_companion_300x250:my_default_300x250&LR_FORMAT=application/javascript",
+					"numPreroll" : "1",
+					"prerollStartWith" : "1",
+					"prerollInterval" : "1",
+					"preSequence" : "1",
+					"postSequence" : "1",
+					"timeout" : "4"
+				},
+				"adsOnReplay" : true,
+				"debugMode" : false
+			}
+		};
+		kWidget.embed(vars);
+		</script>
+<p><strong>Part 3</strong></p>
+<!--// Mozilla/5.0 (iPad; CPU OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B651 Safari/9537.53 | 1_9atm2wwf | http://cdnbakmi.kaltura.com/p/1630402/sp/163040200/thumbnail/entry_id/1_9atm2wwf/version/100000/acv/121/width/480//-->
+		<script src="http://cdnapi.kaltura.com/html5/html5lib/v2.8.1/mwEmbedLoader.php/partner_id/1630402/uiconf_id/23737141"></script> 
+		<script>
+			mw.setConfig("Kaltura.EnableEmbedUiConfJs", true);
+		</script>
+		<div id="kaltura_player_1_9atm2wwf" style="width:500px; height:352px; margin: 15px auto;" itemprop="video" itemscope itemtype="http://schema.org/VideoObject" ></div>
+		<script>
+		var vars = {
+			targetId: "kaltura_player_1_9atm2wwf",
+			wid: "_1630402",
+			uiconf_id: "23737141",
+			entry_id: "1_9atm2wwf",
+			flashvars: {
+				"vast": {
+					"plugin" : true,
+					"width" : "0%",
+					"height" : "0%",
+					"includeInLayout" : false,
+					"relativeTo" : "PlayerHolder",
+					"position" : "before",
+					"prerollUrl" : "http://ad4.liverail.com/?LR_PUBLISHER_ID=24624&LR_SCHEMA=vast2-vpaid&LR_AUTOPLAY=0&LR_CONTENT=6&LR_VIDEO_ID=barstoolsports&LR_TITLE=barstoolsports&LR_COMPANIONS=300:250:my_companion_300x250:my_default_300x250&LR_FORMAT=application/x-shockwave-flash;application/javascript",
+					"prerollUrlJs" : "http://ad4.liverail.com/?LR_PUBLISHER_ID=24624&LR_SCHEMA=vast2-vpaid&LR_AUTOPLAY=0&LR_CONTENT=6&LR_VIDEO_ID=barstoolsports&LR_TITLE=barstoolsports&LR_COMPANIONS=300:250:my_companion_300x250:my_default_300x250&LR_FORMAT=application/javascript",
+					"numPreroll" : "1",
+					"prerollStartWith" : "1",
+					"prerollInterval" : "1",
+					"preSequence" : "1",
+					"postSequence" : "1",
+					"timeout" : "4"
+				},
+				"adsOnReplay" : true,
+				"debugMode" : false
+			}
+		};
+		kWidget.embed(vars);
+		</script>
+<p><iframe frameborder="0" height="370" src="http://player.cinchcast.com/?platformId=1&amp;assetType=single&amp;assetId=6949769" width="400"></iframe></p>
+<div style="font-size: 10px;text-align: center;width: 400px">Check Out Football Podcasts at Blog Talk Radio with <a href="http://www.blogtalkradio.com/barstoolsports" rel="nofollow">Barstool Pick Em</a> on BlogTalkRadio</div>
+<div style="font-size: 10px;text-align: center;width: 400px"></div>
+<div style="font-size: 10px;text-align: center;width: 400px"></div>
+<div style="font-size: 10px;text-align: center;width: 400px"></div>
+<p>Mortal Locks</p>
+<p>Big Cat (3-4) &#8211; Maryland +4.5</p>
+<p>Pres (4-3) &#8211; Duke +6.5</p>
+<p>Hank (3-4) &#8211; Kansas State -27</p>
+    		    	
+    		    </div>
+    		    
+    		        		        		    <div class="author">By Big Cat posted September 27th, 2014 at 8:09 AM</div>
+    		        		    
+    		    						
+    		    <ul class="social_bar clearfix">
+    		    	<li class="fb">
+    		    		<a href="#" data-title="Barstool Pick Em College Football Podcast – Week 5" data-url="http://chicago.barstoolsports.com/random-thoughts/barstool-pick-em-college-football-podcast-week-5/" data-image="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/3a999320426558c_280_190.jpg"><span class="fa fa-facebook"></span>Share</a>
+    		    	</li>
+    		    	<li class="tw">
+    		    		<a href="#" onclick="javascript:void(window.open('http://twitter.com/share?text=Barstool Pick Em College Football Podcast – Week 5&url=http://chicago.barstoolsports.com/random-thoughts/barstool-pick-em-college-football-podcast-week-5/','sharer','toolbar=0,status=0,width=600,height=350').focus()); return false;"><span class="fa fa-twitter"></span>Tweet</a>
+    		    	</li>
+    		    	<li class="di">
+    		    		<a href="http://chicago.barstoolsports.com/random-thoughts/barstool-pick-em-college-football-podcast-week-5/#comments"><span class="fa fa-comment"></span>React (10)</a>
+    		    	</li>
+    		    </ul>
+    		        		    
+    		        			
+    		</div>
+    
+    		    		
+    	    		
+    		    		
+    		    		
+    		    		
+    		    		
+    		    		
+    		<div id="post-117694" class="post">
+    			
+    			    			
+    		    <h2 class="post-title"><a href="http://chicago.barstoolsports.com/random-thoughts/paulies-2005-game-2-world-series-grand-slam-taking-you-into-the-weekend/" rel="bookmark" title="Permanent Link to Paulie&#8217;s 2005 Game 2 World Series Grand Slam Taking You Into The Weekend!" class="post-title">Paulie&#8217;s 2005 Game 2 World Series Grand Slam Taking You Into The Weekend!</a></h2>
+    		    
+    		        		    <div class="top_area">
+	    		    <div class="left stories_ratings" data-id="117694" data-plus="0" data-minus="0" data-sroff="0">
+	    		    	
+	    		    </div>
+	    		    <div class="right social_links">
+	    		    	<div class="tw-lb" style="width: 80px; float: right;"><a href="https://twitter.com/share" class="twitter-share-button" data-via="twitterapi" data-lang="en" data-url="http%3A%2F%2Fchicago.barstoolsports.com%2Frandom-thoughts%2Fpaulies-2005-game-2-world-series-grand-slam-taking-you-into-the-weekend%2F">Tweet</a></div>
+	    		    	<div class="fb-lb" style="width: 80px; float: right;">http%3A%2F%2Fchicago.barstoolsports.com%2Frandom-thoughts%2Fpaulies-2005-game-2-world-series-grand-slam-taking-you-into-the-weekend%2F</div>
+	    		    	<div class="clear"></div>
+	    		    </div>
+	    		    <div class="clear"></div>
+    		    </div>
+    		        		    
+    		    <div class="excerpt hide">
+    		    	See everyone at the Cell tomorrow night!  Big thanks to Paul Konerko for 16 awesome season on the South Side&#8230; We&#8217;ll be seeing this picture below on the left/center wall soon.  Go Sox, and Viva la Stool! &nbsp;    		    </div>
+    		    <div class="post-content">
+    		
+    		    	<p><iframe frameborder="0" height="315" src="//www.youtube.com/embed/AFsmDKUswas" width="560"></iframe></p>
+<p>See everyone at the Cell tomorrow night!  Big thanks to Paul Konerko for 16 awesome season on the South Side&#8230; We&#8217;ll be seeing this picture below on the left/center wall soon.  Go Sox, and Viva la Stool!</p>
+<p><a href="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/files/2014/09/Capture5.png"><img alt="Capture" src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/files/2014/09/Capture5.png" width="316" height="310" /></a></p>
+<p>&nbsp;</p>
+    		    	
+    		    </div>
+    		    
+    		        		        		    <div class="author">By whitesoxdave posted September 26th, 2014 at 5:00 PM</div>
+    		        		    
+    		    						
+    		    <ul class="social_bar clearfix">
+    		    	<li class="fb">
+    		    		<a href="#" data-title="Paulie&#8217;s 2005 Game 2 World Series Grand Slam Taking You Into The Weekend!" data-url="http://chicago.barstoolsports.com/random-thoughts/paulies-2005-game-2-world-series-grand-slam-taking-you-into-the-weekend/" data-image="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/70bd1a5fea36ae8_280_190.jpg"><span class="fa fa-facebook"></span>Share</a>
+    		    	</li>
+    		    	<li class="tw">
+    		    		<a href="#" onclick="javascript:void(window.open('http://twitter.com/share?text=Paulie&#8217;s 2005 Game 2 World Series Grand Slam Taking You Into The Weekend!&url=http://chicago.barstoolsports.com/random-thoughts/paulies-2005-game-2-world-series-grand-slam-taking-you-into-the-weekend/','sharer','toolbar=0,status=0,width=600,height=350').focus()); return false;"><span class="fa fa-twitter"></span>Tweet</a>
+    		    	</li>
+    		    	<li class="di">
+    		    		<a href="http://chicago.barstoolsports.com/random-thoughts/paulies-2005-game-2-world-series-grand-slam-taking-you-into-the-weekend/#comments"><span class="fa fa-comment"></span>React (20)</a>
+    		    	</li>
+    		    </ul>
+    		        		    
+    		        			
+    		</div>
+    
+    		    		
+    	    		
+    		    		
+    		    		
+    		    		
+    		    		
+    		    		
+    		<div id="post-117649" class="post">
+    			
+    			    			
+    		    <h2 class="post-title"><a href="http://chicago.barstoolsports.com/random-thoughts/viva-la-dogs-45/" rel="bookmark" title="Permanent Link to Viva La Dogs" class="post-title">Viva La Dogs</a></h2>
+    		    
+    		        		    <div class="top_area">
+	    		    <div class="left stories_ratings" data-id="117649" data-plus="0" data-minus="0" data-sroff="0">
+	    		    	
+	    		    </div>
+	    		    <div class="right social_links">
+	    		    	<div class="tw-lb" style="width: 80px; float: right;"><a href="https://twitter.com/share" class="twitter-share-button" data-via="twitterapi" data-lang="en" data-url="http%3A%2F%2Fchicago.barstoolsports.com%2Frandom-thoughts%2Fviva-la-dogs-45%2F">Tweet</a></div>
+	    		    	<div class="fb-lb" style="width: 80px; float: right;">http%3A%2F%2Fchicago.barstoolsports.com%2Frandom-thoughts%2Fviva-la-dogs-45%2F</div>
+	    		    	<div class="clear"></div>
+	    		    </div>
+	    		    <div class="clear"></div>
+    		    </div>
+    		        		    
+    		    <div class="excerpt hide">
+    		    	&nbsp; Viva La Stool, Viva La Dogs &nbsp; Send dogs to stooliedogs@gmail.com &nbsp;    		    </div>
+    		    <div class="post-content">
+    		
+    		    	<p><a href="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/files/2014/09/Screen-Shot-2014-09-26-at-1.41.32-PM.png"><img class="alignnone size-large wp-image-117650" alt="Screen Shot 2014-09-26 at 1.41.32 PM" src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/files/2014/09/Screen-Shot-2014-09-26-at-1.41.32-PM-480x486.png" width="480" height="486" /></a></p>
+<p>&nbsp;</p>
+<p>Viva La Stool, Viva La Dogs</p>
+<p>&nbsp;</p>
+<p>Send dogs to stooliedogs@gmail.com</p>
+<p>&nbsp;</p>
+<p> <a href="http://chicago.barstoolsports.com/random-thoughts/viva-la-dogs-45/#more-117649" class="more-link">Read the rest of this entry &raquo;</a></p>
+    		    	
+    		    </div>
+    		    
+    		        		        		    <div class="author">By Big Cat posted September 26th, 2014 at 4:20 PM</div>
+    		        		    
+    		    						
+    		    <ul class="social_bar clearfix">
+    		    	<li class="fb">
+    		    		<a href="#" data-title="Viva La Dogs" data-url="http://chicago.barstoolsports.com/random-thoughts/viva-la-dogs-45/" data-image="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/874f9fc143cec6b_280_190.jpg"><span class="fa fa-facebook"></span>Share</a>
+    		    	</li>
+    		    	<li class="tw">
+    		    		<a href="#" onclick="javascript:void(window.open('http://twitter.com/share?text=Viva La Dogs&url=http://chicago.barstoolsports.com/random-thoughts/viva-la-dogs-45/','sharer','toolbar=0,status=0,width=600,height=350').focus()); return false;"><span class="fa fa-twitter"></span>Tweet</a>
+    		    	</li>
+    		    	<li class="di">
+    		    		<a href="http://chicago.barstoolsports.com/random-thoughts/viva-la-dogs-45/#comments"><span class="fa fa-comment"></span>React (6)</a>
+    		    	</li>
+    		    </ul>
+    		        		    
+    		        			
+    		</div>
+    
+    		    		
+    	    		
+    		    		
+    		    		
+    		    		
+    		    		
+    		    		
+    		<div id="post-117502" class="post">
+    			
+    			    			
+    		    <h2 class="post-title"><a href="http://chicago.barstoolsports.com/random-thoughts/instagram-heat-check-of-the-day-173/" rel="bookmark" title="Permanent Link to Instagram Heat Check Of The Day" class="post-title">Instagram Heat Check Of The Day</a></h2>
+    		    
+    		        		    <div class="top_area">
+	    		    <div class="left stories_ratings" data-id="117502" data-plus="0" data-minus="0" data-sroff="0">
+	    		    	
+	    		    </div>
+	    		    <div class="right social_links">
+	    		    	<div class="tw-lb" style="width: 80px; float: right;"><a href="https://twitter.com/share" class="twitter-share-button" data-via="twitterapi" data-lang="en" data-url="http%3A%2F%2Fchicago.barstoolsports.com%2Frandom-thoughts%2Finstagram-heat-check-of-the-day-173%2F">Tweet</a></div>
+	    		    	<div class="fb-lb" style="width: 80px; float: right;">http%3A%2F%2Fchicago.barstoolsports.com%2Frandom-thoughts%2Finstagram-heat-check-of-the-day-173%2F</div>
+	    		    	<div class="clear"></div>
+	    		    </div>
+	    		    <div class="clear"></div>
+    		    </div>
+    		        		    
+    		    <div class="excerpt hide">
+    		    	    		    </div>
+    		    <div class="post-content">
+    		
+    		    	<p><iframe frameborder="0" height="710" src="//instagram.com/p/tVnaQPMUq3/embed/" width="612"></iframe><br />
+ <a href="http://chicago.barstoolsports.com/random-thoughts/instagram-heat-check-of-the-day-173/#more-117502" class="more-link">Read the rest of this entry &raquo;</a></p>
+    		    	
+    		    </div>
+    		    
+    		        		        		    <div class="author">By t bone posted September 26th, 2014 at 3:40 PM</div>
+    		        		    
+    		    						
+    		    <ul class="social_bar clearfix">
+    		    	<li class="fb">
+    		    		<a href="#" data-title="Instagram Heat Check Of The Day" data-url="http://chicago.barstoolsports.com/random-thoughts/instagram-heat-check-of-the-day-173/" data-image="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/72c56e6e501179a_280_190.jpg"><span class="fa fa-facebook"></span>Share</a>
+    		    	</li>
+    		    	<li class="tw">
+    		    		<a href="#" onclick="javascript:void(window.open('http://twitter.com/share?text=Instagram Heat Check Of The Day&url=http://chicago.barstoolsports.com/random-thoughts/instagram-heat-check-of-the-day-173/','sharer','toolbar=0,status=0,width=600,height=350').focus()); return false;"><span class="fa fa-twitter"></span>Tweet</a>
+    		    	</li>
+    		    	<li class="di">
+    		    		<a href="http://chicago.barstoolsports.com/random-thoughts/instagram-heat-check-of-the-day-173/#comments"><span class="fa fa-comment"></span>React (3)</a>
+    		    	</li>
+    		    </ul>
+    		        		    
+    		        			
+    		</div>
+    
+    		    		
+    	    		
+    		    		
+    		    		
+    		    		
+    		    		
+    		    		
+    		<div id="post-117682" class="post">
+    			
+    			    			
+    		    <h2 class="post-title"><a href="http://chicago.barstoolsports.com/random-thoughts/cant-be-more-bro-than-the-bro-selling-his-bench-press-on-craigslist-for-3-cases-of-natty-ice/" rel="bookmark" title="Permanent Link to Can&#8217;t Be More Bro Than The Bro Selling His Bench Press On Craigslist For 3 Cases Of Natty Ice" class="post-title">Can&#8217;t Be More Bro Than The Bro Selling His Bench Press On Craigslist For 3 Cases Of Natty Ice</a></h2>
+    		    
+    		        		    <div class="top_area">
+	    		    <div class="left stories_ratings" data-id="117682" data-plus="0" data-minus="0" data-sroff="0">
+	    		    	
+	    		    </div>
+	    		    <div class="right social_links">
+	    		    	<div class="tw-lb" style="width: 80px; float: right;"><a href="https://twitter.com/share" class="twitter-share-button" data-via="twitterapi" data-lang="en" data-url="http%3A%2F%2Fchicago.barstoolsports.com%2Frandom-thoughts%2Fcant-be-more-bro-than-the-bro-selling-his-bench-press-on-craigslist-for-3-cases-of-natty-ice%2F">Tweet</a></div>
+	    		    	<div class="fb-lb" style="width: 80px; float: right;">http%3A%2F%2Fchicago.barstoolsports.com%2Frandom-thoughts%2Fcant-be-more-bro-than-the-bro-selling-his-bench-press-on-craigslist-for-3-cases-of-natty-ice%2F</div>
+	    		    	<div class="clear"></div>
+	    		    </div>
+	    		    <div class="clear"></div>
+    		    </div>
+    		        		    
+    		    <div class="excerpt hide">
+    		    	&nbsp; &nbsp; Love this guy. Done getting ripped and swole during the summer, time to get drunk. It&#8217;s like a tiny ecosystem of bro. A continuous never ending circle. I get diesel, then I get drunk, then I have to get diesel again. Just need a home for my sick ride brah.    		    </div>
+    		    <div class="post-content">
+    		
+    		    	<p><a href="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/files/2014/09/Screen-Shot-2014-09-26-at-2.09.10-PM.png"><img class="alignnone size-large wp-image-117685" alt="Screen Shot 2014-09-26 at 2.09.10 PM" src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/files/2014/09/Screen-Shot-2014-09-26-at-2.09.10-PM-480x217.png" width="480" height="217" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Love this guy. Done getting ripped and swole during the summer, time to get drunk. It&#8217;s like a tiny ecosystem of bro. A continuous never ending circle. I get diesel, then I get drunk, then I have to get diesel again. Just need a home for my sick ride brah.</p>
+    		    	
+    		    </div>
+    		    
+    		        		        		    <div class="author">By Big Cat posted September 26th, 2014 at 3:00 PM</div>
+    		        		    
+    		    						
+    		    <ul class="social_bar clearfix">
+    		    	<li class="fb">
+    		    		<a href="#" data-title="Can&#8217;t Be More Bro Than The Bro Selling His Bench Press On Craigslist For 3 Cases Of Natty Ice" data-url="http://chicago.barstoolsports.com/random-thoughts/cant-be-more-bro-than-the-bro-selling-his-bench-press-on-craigslist-for-3-cases-of-natty-ice/" data-image="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/15d49248f16de19_280_190.jpg"><span class="fa fa-facebook"></span>Share</a>
+    		    	</li>
+    		    	<li class="tw">
+    		    		<a href="#" onclick="javascript:void(window.open('http://twitter.com/share?text=Can&#8217;t Be More Bro Than The Bro Selling His Bench Press On Craigslist For 3 Cases Of Natty Ice&url=http://chicago.barstoolsports.com/random-thoughts/cant-be-more-bro-than-the-bro-selling-his-bench-press-on-craigslist-for-3-cases-of-natty-ice/','sharer','toolbar=0,status=0,width=600,height=350').focus()); return false;"><span class="fa fa-twitter"></span>Tweet</a>
+    		    	</li>
+    		    	<li class="di">
+    		    		<a href="http://chicago.barstoolsports.com/random-thoughts/cant-be-more-bro-than-the-bro-selling-his-bench-press-on-craigslist-for-3-cases-of-natty-ice/#comments"><span class="fa fa-comment"></span>React (16)</a>
+    		    	</li>
+    		    </ul>
+    		        		    
+    		        			
+    		</div>
+    
+    		    		
+    	    		
+    		    		
+    		    		
+    		    		
+    		    		
+    		    		
+    		<div id="post-117521" class="post">
+    			
+    			    			
+    		    <h2 class="post-title"><a href="http://chicago.barstoolsports.com/random-thoughts/4-downs-with-ed-bears-vs-packers-preview/" rel="bookmark" title="Permanent Link to 4 Downs With Ed; Bears Vs. Packers Preview" class="post-title">4 Downs With Ed; Bears Vs. Packers Preview</a></h2>
+    		    
+    		        		    <div class="top_area">
+	    		    <div class="left stories_ratings" data-id="117521" data-plus="1" data-minus="0" data-sroff="0">
+	    		    	
+	    		    </div>
+	    		    <div class="right social_links">
+	    		    	<div class="tw-lb" style="width: 80px; float: right;"><a href="https://twitter.com/share" class="twitter-share-button" data-via="twitterapi" data-lang="en" data-url="http%3A%2F%2Fchicago.barstoolsports.com%2Frandom-thoughts%2F4-downs-with-ed-bears-vs-packers-preview%2F">Tweet</a></div>
+	    		    	<div class="fb-lb" style="width: 80px; float: right;">http%3A%2F%2Fchicago.barstoolsports.com%2Frandom-thoughts%2F4-downs-with-ed-bears-vs-packers-preview%2F</div>
+	    		    	<div class="clear"></div>
+	    		    </div>
+	    		    <div class="clear"></div>
+    		    </div>
+    		        		    
+    		    <div class="excerpt hide">
+    		    	Gonna put this out there right away. Please spare me the shit that the Packers aren&#8217;t good. I&#8217;m not saying you&#8217;re wrong. You may very well be right that they aren&#8217;t that good, but this is the Bears vs. Packers. They don&#8217;t like us. We don&#8217;t like them. They need a win and so do [...]    		    </div>
+    		    <div class="post-content">
+    		
+    		    	<p style="text-align: center"><a href="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/files/2014/09/4-Downs.jpg"><img class="size-large wp-image-117522 aligncenter" alt="4 Downs" src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/files/2014/09/4-Downs-480x480.jpg" width="480" height="480" /></a></p>
+<p style="text-align: left">Gonna put this out there right away. Please spare me the shit that the Packers aren&#8217;t good. I&#8217;m not saying you&#8217;re wrong. You may very well be right that they aren&#8217;t that good, but this is the Bears vs. Packers. They don&#8217;t like us. We don&#8217;t like them. They need a win and so do we.</p>
+<p style="text-align: left"><span style="text-decoration: underline"><strong>1st Down: Can We Return One Past The 20?</strong></span></p>
+<p style="text-align: left">I wish this were a joke but until it get&#8217;s addressed I physically cannot take it off of first down. Field position is the name of the game and these guys are just giving the offense zero help. Green Bay has let kicks get taken for thirty yards in both the Seahawks and Lions game&#8217;s, would it ask too much to do the same? Just get us to the 35, maybe? I&#8217;ll even take the 31. Just something to trend upwards, please?</p>
+<p style="text-align: left"><span style="text-decoration: underline"><strong>2nd Down: Expose Their Offensive Line</strong></span></p>
+<p style="text-align: left">Through three game&#8217;s Rodgers has been hit 19 times with 9 of them being sacks. The Packers offense has looked like a shell of itself and a lot of blame is being put on the guys up front. I&#8217;d say the blame is pretty deserved when you see a stat line like that, but you have to remember they have played Seattle, New York, and Detroit whom all have a pretty stout defense. I think everybody can agree that the defensive line has been about a million times better this year than last year, but it would be something if it can <strong>really</strong> come together to pick on this offensive line. Let&#8217;s hope that Ratliff get&#8217;s cleared to play because his size will give them a ton of trouble as Wilkerson and Richardson&#8217;s did.</p>
+<p style="text-align: left"><span style="text-decoration: underline"><strong>3rd Down: Watch Out For The Hungry Lacy</strong></span></p>
+<p style="text-align: left">As you probably know McCarthy called out Lacy pretty hard this week saying that he needs to do better. Lacy responded with saying he needs to get his pads lower which is probably pretty terrifying for a certain guy in our defensive backfield. His stat line is a brutal 34,43, 36 yards per game in the first three games. The point of this all is that Lacy is going to come out HARD this week to prove that he is still the back the Packers have been waiting for since Ahman Green left town. Let&#8217;s also remember that he torched us for 216 and 2 touchdowns last year too.</p>
+<p style="text-align: left"><span style="text-decoration: underline"><strong>4th Down: Don&#8217;t Let Them Expose Our DB&#8217;s</strong></span></p>
+<p style="text-align: left">You already know Rodgers is licking his stupid mustache thinking about our DB&#8217;s minus TJ(I hope) and Kyle Fuller who he&#8217;s probably already scared of. As of right now it looks like Mundy and Conte are going to be a go but if they get more banged up in the game it&#8217;s kind of a lot to ask an undrafted rookie out of Baylor to step up against one of the best quarterback&#8217;s in the league. Another question is what kind of game can we expect out of Isiah Frey because it looks like McManis is going to be held out another week. Seeing at it was his first game all year, Frey looked slow and got beat quite a few times last week. He is going to need to play a lot better this week against the Nelson/Cobb/Boykin trio if he wants to keep his job.</p>
+<p style="text-align: left"><span style="text-decoration: underline"><strong>Flag On 4th Down: CAN WE FOR THE LOVE OF GOD GET MATT FORTE GOING?</strong></span></p>
+<p style="text-align: left">^No other comment&#8217;s. That&#8217;s it.</p>
+<p style="text-align: left">Expect a good one with the Packers feeling like they&#8217;ve got a lot to prove which is basically to prove that they don&#8217;t completely suck. I&#8217;m a little nervous about this one just because Aaron Rodgers knows how to break our hearts better than anybody, but whatever. Bears/Packers Round 1, let&#8217;s go.</p>
+<p style="text-align: left">P.S. If Peppers plays well and you hear about a dude who got hit walking down the 90 eating a chicken sandwich than it was nice knowin ya.</p>
+<p style="text-align: left">Bear Down.</p>
+    		    	
+    		    </div>
+    		    
+    		        		        		    <div class="author">By Ed posted September 26th, 2014 at 2:25 PM</div>
+    		        		    
+    		    						
+    		    <ul class="social_bar clearfix">
+    		    	<li class="fb">
+    		    		<a href="#" data-title="4 Downs With Ed; Bears Vs. Packers Preview" data-url="http://chicago.barstoolsports.com/random-thoughts/4-downs-with-ed-bears-vs-packers-preview/" data-image="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/thumbnails/featured-thumbnail/e8b290863d2ca1b_280_190.jpg"><span class="fa fa-facebook"></span>Share</a>
+    		    	</li>
+    		    	<li class="tw">
+    		    		<a href="#" onclick="javascript:void(window.open('http://twitter.com/share?text=4 Downs With Ed; Bears Vs. Packers Preview&url=http://chicago.barstoolsports.com/random-thoughts/4-downs-with-ed-bears-vs-packers-preview/','sharer','toolbar=0,status=0,width=600,height=350').focus()); return false;"><span class="fa fa-twitter"></span>Tweet</a>
+    		    	</li>
+    		    	<li class="di">
+    		    		<a href="http://chicago.barstoolsports.com/random-thoughts/4-downs-with-ed-bears-vs-packers-preview/#comments"><span class="fa fa-comment"></span>React (5)</a>
+    		    	</li>
+    		    </ul>
+    		        		    
+    		        			
+    		</div>
+    
+    		    		
+    	    	
+    			
+		<div id="nav-below" class="navigation">
+		    <div class="nav-previous"></div>
+		    <div class="nav-next"><a href="http://chicago.barstoolsports.com/page/2/" >Keep Reading Bitches &raquo;</a></div>
+		</div>
+    
+        
+</div>
+			
+<div id='taboola-page-bottom'></div>
+<script type="text/javascript">
+   window._taboola = window._taboola || [];
+   _taboola.push({mode:'autosized-generated-1r', container:'taboola-page-bottom', placement:'page-bottom'});
+</script>
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({flush:true});
+</script>
+	
+			
+
+
+				<!--// Twitter Script - BEG //-->
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				<!--// Twitter Script - END //-->
+				
+			</div>
+			
+			<div class="clear"></div>
+			
+		</div>
+		
+				
+		<div class="disclaimer">
+			<div class="inn">
+				<div class="block">
+					&copy; 2014 Barstool Sports | 
+					<a href="http://boston.barstoolsports.com/disclaimer/">Disclaimer</a> | 
+					<a href="http://boston.barstoolsports.com/copyright/">Copyright</a> | 
+					<a href="http://boston.barstoolsports.com/privacy-policy/">Privacy Policy</a> | 
+					<a href="#" class="media_kit">Media Kit</a>
+				</div>
+			</div>
+		<div class="footer"></div>
+		
+	</div>
+	
+</div>
+
+
+<div id="media_kit_snippet">
+
+	<ul class="stats">
+		<li class="pageViews">
+			<h5>Page Views</h5>
+			<h3>75 Million+</h3>
+		</li>
+		<li class="audienceDemo">
+			<h5>Audience Demo</h5>
+			<h3>78% 18-34 Year Olds</h3>
+		</li>
+		<li class="incomingTraffic">
+			<h5>Incoming Traffic</h5>
+			<h3>5-7 Million AUV</h3>
+		</li>
+		<li class="averageDuration">
+			<h5>Average Duration</h5>
+			<h3>8 Minutes</h3>
+		</li>
+	</ul>
+	
+	<div class="clear"></div>
+	
+	<ul class="kits">
+		<li>
+			<a href="http://boston.barstoolsports.com/wp-content/uploads/media_kit.pdf?r=aed71" target="_blank">
+				<h3>Media Kit</h3>
+				<p>Advertising Inquiries: Email tips@barstoolsports.com </p>
+			</a>
+		</li>
+		<li>
+			<a href="http://boston.barstoolsports.com/wp-content/uploads/sponsorship.pdf?r=7f653" target="_blank">
+				<h3>Sponsorship Kit</h3>
+				<p>Event & Sponsorship Opportunities</p>
+			</a>
+		</li>
+		<li>
+			<a href="http://boston.barstoolsports.com/wp-content/uploads/barstool_impact.pdf?r=2c896" target="_blank">
+				<h3>Barstool Sports Impact Kit</h3>
+				<p>Case Study June 2013</p>
+			</a>
+		</li>
+	</ul>
+
+</div>
+
+
+<!--// FOOT-BEG //-->
+<div id="fb-root"></div>
+<script type="text/javascript">tb_pathToImage = "http://chicago.barstoolsports.com/wp-includes/js/thickbox/loadingAnimation.gif";tb_closeImage = "http://chicago.barstoolsports.com/wp-includes/js/thickbox/tb-close.png";</script>
+<script type='text/javascript' src='http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/plugins/user-upload-gallery/js/app.js?ver=1.0'></script>
+<script type='text/javascript' src='http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/plugins/video-submissions/js/video-submissions.js?ver=1.0.0.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/chicago.barstoolsports.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif","closeImage":"http:\/\/chicago.barstoolsports.com\/wp-includes\/js\/thickbox\/tb-close.png"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://chicago.barstoolsports.com/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ratingsL10n = {"plugin_url":"http:\/\/chicago.barstoolsports.com\/wp-content\/plugins\/wp-postratings","ajax_url":"http:\/\/chicago.barstoolsports.com\/wp-admin\/admin-ajax.php","text_wait":"Please rate only 1 post at a time.","image":"stars_crystal","image_ext":"gif","max":"10","show_loading":"1","show_fading":"1","custom":"0"};
+var ratings_mouseover_image=new Image();ratings_mouseover_image.src=ratingsL10n.plugin_url+"/images/"+ratingsL10n.image+"/rating_over."+ratingsL10n.image_ext;;
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://chicago.barstoolsports.com/wp-content/plugins/wp-postratings/postratings-js.js?ver=1.63'></script>
+<script type='text/javascript' src='http://connect.facebook.net/en_US/all.js'></script>
+<!--// FOOT-END //-->
+
+<script src="http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.chicago.barstoolsports.com/wp-content/themes/barstoolsports/js/app.min.js?ver=1.3.18"></script>
+
+<!-- comScore Tag - BEG -->
+<script src="http://b.scorecardresearch.com/beacon.js"></script>
+<script> COMSCORE.beacon({ c1:2, c2:6036003, c3:"", c4:"", c5:"", c6:"", c15:"" });</script>
+<noscript>
+	<img src="http://b.scorecardresearch.com/b?c1=2&c2=6036003&c3=&c4=&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript>
+<!-- comScore Tag - END -->
+
+
+<script type="text/javascript">ggv2id='c947314e';</script>
+<script type="text/javascript" src="http://g2.gumgum.com/javascripts/ggv2.js"></script>
+
+<!--// Underscore Game Pod //-->
+<script id="video_player_layover" type="text/template">
+<div class="inner clearfix"><a href="#" class="fa fa-times close"></a><h2><%= value['title'] %></h2><div class="video"><div id="kaltura_player" style="width:<%= value['width'] %>px; height:<%= value['height'] %>px;" itemprop="video" itemscope itemtype="http://schema.org/VideoObject" ></div></div><div class="video_sidebar"><div id="my_default_300x250" style="width: 300px; height: 250px; background: #CCC; line-height: 250px; text-align: center; margin-bottom: 10px;"><!-- 300x250_video_ad --><div id='div-gpt-ad-1401481706742-0' style='width:300px; height:250px;'></div></div><div id="my_companion_300x250" style=" width: 300px; height: 250px; margin-bottom: 10px; display: none;"></div></div></div><div class="comment_area"><ul></ul></div>
+</script>
+
+<script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-6.newrelic.com","ac430a66a2","1980708","MQcAMEcEWkIFV01fDAhNIwdBDFtfS11XUgYe",0,401,new Date().getTime(),"","","","",""]);</script>
+</body>
+</html>
+
+<!--// WebHead:  //-->
+
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Database Caching 51/75 queries in 0.089 seconds using memcached
+
+ Served from: chicago.barstoolsports.com @ 2014-09-27 14:55:08 by W3 Total Cache -->

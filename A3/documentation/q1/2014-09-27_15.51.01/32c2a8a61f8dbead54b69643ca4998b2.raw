@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o?o:n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({D5DuLP:[function(t,n){function e(t,n){var e=r[t];return e?e.apply(this,n):(o[t]||(o[t]=[]),void o[t].push(n))}var r={},o={};n.exports=e,e.queues=o,e.handlers=r},{}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],G9z0Bl:[function(t,n){function e(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&p&&p.body){l.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",i("mark",["onload",a()]);var n=p.createElement("script");n.src=l.proto+t.agent,p.body.appendChild(n)}}function r(){"complete"===p.readyState&&o()}function o(){i("mark",["domContent",a()])}function a(){return(new Date).getTime()}var i=t("handle"),u=window,p=u.document,s="addEventListener",c="attachEvent",f=(""+location).split("?")[0],l=n.exports={offset:a(),origin:f,features:[]};p[s]?(p[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(p[c]("onreadystatechange",r),u[c]("onload",e)),i("mark",["firstbyte",a()])},{handle:"D5DuLP"}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}]},{},["G9z0Bl"]);</script>
+    <meta name="viewport" content="width=768">
+		<meta name="keywords" content="twitlonger, twit longer, twitter longer, twitterlonger, tweet longer, tweetlonger, 140, over 140, twitter, more than 140">
+		<meta name="description" content="TwitLonger is the easy way to post more than 140 characters to Twitter">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <title>TwitLonger &mdash; When you talk too much for Twitter</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/tl_fixed.css">
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&v2' rel='stylesheet' type='text/css'>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-6415384-2', 'twitlonger.com');
+      ga('send', 'pageview');
+
+    </script>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <span class="navbar-default">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </span>
+          <a class="navbar-brand" href="/">TwitLonger</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/ad-free" >Ad-free</a></li>
+            <li><a href="/account" >Account</a></li>
+            <li class="hidden-xs"><div class="navbar-form"><a href="/post" class="btn btn-primary"><i class="fa fa-pencil-square-o"></i> Write a Post</a></div></li>
+            <li class="visible-xs"><a href="/post" >Write a Post</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container" id="main-container">
+<div class="row" id="post">
+  <div class="col-xs-12">
+    <div id="postinfo">
+      <div class="row">
+        <div class="col-xs-9">
+          <div class="media" id="user-info">
+            <a href="https://twitter.com/intent/user?screen_name=dontbackdownANM">
+            <img src="http://pbs.twimg.com/profile_images/472897596445315072/gKlZbDJs_normal.jpeg" alt="dontbackdownANM" class="img-responsive img-rounded media-object pull-left"></a>
+            <div class="media-body">
+              <h4 class="media-heading">
+                <a href="https://twitter.com/intent/user?screen_name=dontbackdownANM">Alexander N. Miller</a> &middot;
+                <a href="https://twitter.com/intent/user?screen_name=dontbackdownANM">@dontbackdownANM</a>
+              </h4>
+              <p id="timeclient">
+                <i class="fa fa-calendar"></i> 18th Aug 2014 from <a href="http://twitlonger.com">TwitLonger</a>              </p>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-xs-3">
+          <div class="row">
+            <div class="col-xs-6" id="twitter-count">
+        			<a href="http://twitter.com/share" class="twitter-share-button"
+                data-url="http://tl.gd/n_1s4hvc4"
+                data-via="dontbackdownANM"
+                data-count="vertical"
+                data-counturl="http://www.twitlonger.com/show/n_1s4hvc4"
+                data-text="Dear A.J. Lee,
+My name is Alexander Miller.  I&rsquo;m a former child football player and current re">Tweet</a>
+            </div>
+
+            <div class="col-xs-6" id="facebook-like">
+              <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.twitlonger.com%2Fshow%2Fn_1s4hvc4&amp;width=150&amp;layout=box_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=422371721221723" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:115px; height:70px;" allowTransparency="true"></iframe>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+      <div id="topbannerad" class="bannerad col-xs-12">
+
+    
+  
+    <script type='text/javascript'>
+    <!--//<![CDATA[
+       document.MAX_ct0 ='';
+       var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');
+       var m3_r = Math.floor(Math.random()*99999999999);
+       document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+       document.write ("zoneid=51451");document.write("&amp;nodis=1");
+       document.write ('&amp;cb=' + m3_r);
+       if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+       document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+       document.write ("&amp;loc=" + escape(window.location));
+       if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+       if (document.context) document.write ("&context=" + escape(document.context));
+       if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {
+           document.write ("&amp;ct0=" + escape(document.MAX_ct0));
+       }
+       if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+       document.write ("'></scr"+"ipt>");
+    //]]>--></script>
+
+  </div>  
+  <div class="col-xs-12">
+
+    <div id="postcontent">
+    
+              <h3 class="post-title">My Letter of Thanks & Appreciation to @WWEAJLee & #TeamAJ (for my 20th Birthday)</h3>
+        <hr>
+            <p id="posttext">Dear A.J. Lee,<br />
+My name is Alexander Miller.  I&rsquo;m a former child football player and current recreational weightlifter (for twelve years) with an ambition to become a WWE Superstar, the aspiration I&rsquo;ve had since I was four years old.  I would like to take this moment to dedicate my twentieth birthday to you and your other fans.  A.J., I thank you for inspiring me to become a WWE Superstar and caring so much for us A.J. fans.  I, as a young man who&rsquo;s diagnosed with Asperger&rsquo;s Syndrome, don&rsquo;t think you and your other fans have realized how much my passion for WWE has flourished because of you and your other fans&rsquo; support for me.  At first, I used to be really insecure about being a grown man inspired by a WWE Diva to become a WWE Superstar in the near future, because I was made fun of.  I know what it&rsquo;s like for people to make fun of others.  After a little while, I started to become more of a confident young man.  I finally found someone to look up to like a big sister.  I am who I am.  You&rsquo;ve shown me that height and gender don&rsquo;t matter when it comes to inspiration.  Like Lita and Trish, who are my other female idols, you have found a way to stand out differently from the other Divas in WWE.  You guys have taught both male and female fans to not only be a fan of Divas considering their looks, but also for their talents, athletic abilities, wrestling abilities, charisma, personalities and characters, as well.  I&rsquo;m proud of you for doing these things and being different, but most importantly, being yourself.  A.J., you&rsquo;ve set so many good examples for boys, girls, men, women and the elderly both inside and outside the world of wrestling.  It&rsquo;s nice, great and amazingly awesome to know a lot about a young, geeky woman who cares for her fans, retweets and replies to her fans wearing her merchandise, compliments her fans on their fan art, loves wrestling, loves pets like her Chihuahua Nacho, video games, action movies and comic books and being a person people would love to hang out with and talk to.  It&rsquo;s also glad to see that you don&rsquo;t care what other people think and I&rsquo;m proud of you for not changing who you are.  That makes you one of the best, influential, entertaining WWE Divas today, but only at what you do.  You&rsquo;ve paved the way for both present and future generations of WWE Superstars and Divas.  You&rsquo;ve proven that anybody inspired by a Diva can be as tough, athletic, determined and passionate as anybody inspired by a Superstar or a WWE Legend.  Your life story speaks so much to me.  You lived in poverty in your childhood, but you had the courage to save yourself and your family from it.  I&rsquo;ve heard stories of you making so many sacrifices to get to where you are now.  That&rsquo;s very valiant of you to break through glass ceilings and break down doors.  You&rsquo;ve proven that if you can do something like that, so can others.  You&rsquo;re one of those Divas who has proven that a Diva can inspire anybody, male or female, to do anything.  Divas can do anything Superstars can do, only better.  You&rsquo;ve given me reason to believe that no matter the looks, race, style, height or weight, a person can do anything he/she sets his/her mind to as he/she sees fit.  Like the WWE Superstars, Divas are athletes; they&rsquo;re not sex objects or eye candy.  You&rsquo;ve become my queen, idol, inspiration, role model and mentor.  Like your other fans, I see you as a potential friend of mine, as well.  You taught me how to deal with haters and other people who tell me I&rsquo;ll never amount to anything.  I&rsquo;ll never change who I am or what I am.  I won&rsquo;t let any insensitive people stop me from living my life and what I do.  I&rsquo;ve seen you deal with a lot of pressure from so many critics and detractors before, and look at where we are now.  You&rsquo;ve proven these people wrong.  Before you came along, I used to have a really tough childhood and get in trouble several times.  However, your presence and example have opened my eyes.  Your spark, when you were a contestant on WWE NXT, had motivated me to be really interested in you and become a huge fan of you.  You&rsquo;ve changed my life and heart.  You&rsquo;ve made an impact on my life.  Not only did you change my life, you saved it.  As the years have passed, you&rsquo;ve become a significant part of my life.  My loyalty and your other fans&rsquo; loyalty have encouraged me to make friends with tons of your fans.  You&rsquo;re one of the reasons I have become a better person.  As an athlete who stands at six foot three, I would like to say that you have inspired me to work really hard, push myself harder towards my goals of becoming a WWE Superstar, care for you and your fans and protect you guys from haters, sickos, crazies and psychos.  You&#039;ve helped me be all about helping others and giving advice.  That, of course, would dub me as the powerhouse of your fan base called #TeamAJ.  You&rsquo;ve taught me how to be protective of people who I really care about.  Not only have you inspired me to become a WWE Superstar, you&rsquo;ve taught me how to become an idol, inspiration and role model for your other fans, too, just like you are to them.  No matter what you do, no matter if you&rsquo;re a face or heel, no matter if you&rsquo;re champion or not, one way or another, I&rsquo;ll always support you through thick and thin until my last breath because I care about you and your fans.  To be honest with you, you also inspired me not to back down, hence the reason I have a Twitter @dontbackdownANM, because I always say I don&rsquo;t back down and tell other wrestling fans not to back down when it comes to their aspirations.  Remember, when you and your other fans have nobody else to turn to, you&rsquo;ve got me.  You&rsquo;ll see me in the ring one day.  If you could find some time to respond, I would appreciate that, but I&#039;ll understand if you don&#039;t.  Regardless, I&rsquo;ll also appreciate if you and your other fans keep supporting me through thick and thin until the end, as well.  I appreciate you &amp; your other fans helping me go through good &amp; bad times.  I thank you guys! I wish you much the best of luck in WWE and other endeavors.  Thank you and keep up the good work! Stay strong! Don&rsquo;t back down! Keep thinking positively! Always keep your head up.  That&rsquo;s the bottom line, because Alexander Miller said so! Keep living your life and dreams.<br />
+Yours Sincerely,<br />
+Alexander N. Miller    <br />
+</p>
+
+      <p class="actions text-right">
+        <a href="http://www.twitlonger.com/post/dontbackdownANM/501242902581108736"><i class="fa fa-reply"></i> Reply</a> &middot;
+        <a href="#" data-toggle="modal" data-target="#reportModal"><i class="fa fa-exclamation-triangle"></i> Report Post</a>
+      </p>
+    </div>
+  </div>
+
+  <div id="bottombannerad" class="bannerad col-xs-12">
+          <script type='text/javascript'>
+    <!--//<![CDATA[
+       document.MAX_ct0 ='';
+       var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');
+       var m3_r = Math.floor(Math.random()*99999999999);
+       document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+       document.write ("zoneid=53524");document.write("&amp;nodis=1");
+       document.write ('&amp;cb=' + m3_r);
+       if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+       document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+       document.write ("&amp;loc=" + escape(window.location));
+       if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+       if (document.context) document.write ("&context=" + escape(document.context));
+       if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {
+           document.write ("&amp;ct0=" + escape(document.MAX_ct0));
+       }
+       if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+       document.write ("'></scr"+"ipt>");
+    //]]>--></script>
+  
+</div></div>
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+    $.ajaxSetup({ cache: true });
+    $.getScript('/js/twitter-text.js', function(data, textStatus, jqxhr){
+      $("#posttext").html( twttr.txt.autoLink( $("#posttext").html() ) );
+    });
+  });
+</script>
+
+<div class="modal fade" id="reportModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Report Content</h4>
+      </div>
+      <div class="modal-body">
+        <p>If you believe this post is inappropriate, please report it. Inappropriate content includes:</p>
+        <ul>
+          <li>Crude or indecent language, including adult stories or "imagines"</li>
+<li>Sexual tips or advice</li>
+<li>Sexual fetish content (e.g. foot fetish content)</li>
+<li>Information on adult toys or products</li>
+<li>Links to external sites containing adult content</li>
+<li>Content which advocates against an individual, group, or organization</li>
+<li>Content that may be construed as biased against individuals, groups, or organisations based on criteria such as race, religion, disability, sex, age, veteran status, sexual orientation, gender identity, or political affiliation.</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <a href="mailto:hello@twitlonger.com?subject=TwitLonger Content Violation&body=I believe the page http://tl.gd/n_1s4hvc4 includes inappropriate content for the follwing reason: " class="btn btn-danger">Report Post</a>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="footer">
+            <div class="row">
+              <div class="col-xs-12 col-md-6">
+                <ul class="list-inline" id="site-links">
+                  <li><a href="/">home</a></li>
+            		  <li><a href="/about">about</a></li>
+            		  <li><a href="/privacy">privacy</a></li>
+            		  <li><a href="http://api.twitlonger.com">api</a></li>
+            		  <li><a href="/ad-free">ad-free</a></li>
+                </ul>
+                <p id="twitter-follow">
+                  <a href="https://twitter.com/TwitLonger" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @TwitLonger</a>
+                </p>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <p class="small text-right" id="disclaimer">
+            			TwitLonger is developed entirely by <a href="http://imetstuart.com">Stuart Gibson</a>
+                  (<a href="http://www.twitter.com/stuartgibson">@stuartgibson</a>).
+                  TwitLonger is in no way associated with Twitter, but they sure do a swell job over there <i class="fa fa-heart-o"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-2.newrelic.com","licenseKey":"406fb7a40f","applicationID":"4591669","transactionName":"ZAAHZhYEXBEFVkZRXV1KJFEQDF0MS2VdS0YcFg1dEw==","queueTime":0,"applicationTime":40,"ttGuid":"","agentToken":"","atts":"SEcEEF4eTx8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-412.min.js"}</script></body>
+</html>

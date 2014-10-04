@@ -1,0 +1,3382 @@
+<!DOCTYPE html>
+<html lang="en"  >
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="http://static.ctvnews.ca/bellmedia/common/css/common.css" />
+<script type="text/javascript" src="http://static.ctvnews.ca/bellmedia/common/js/jquery-1.7.js"></script>
+<script type="text/javascript" src="http://static.ctvnews.ca/bellmedia/common/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="http://static.ctvnews.ca/bellmedia/common/js/requireDependency.js"></script>
+<script type="text/javascript" src="http://static.ctvnews.ca/bellmedia/common/js/jquery.polopoly.js"></script>
+
+<script type="text/javascript">
+  var kruxID = "InJgKD0f";
+</script>
+<!-- END Krux Controltag -->
+
+	<script>
+  		var vhBrand = {};
+    	vhBrand.id = 'CP24';
+    	vhBrand.destinationCode = 'cp24_web';
+		requiresDependency('http://cauth.9c9media.com/auth5/axisAuthApi.js', function() {});
+	</script>
+
+                        <link rel="stylesheet" type="text/css" href="http://static.ctvnews.ca/bellmedia/common/css/elections.css" media="screen" />
+                <script type="text/javascript">
+requiresDependency('http://static.ctvnews.ca/bellmedia/common/js/elections.js', function() {
+getGainsAndLosses = function(url){  
+  $.getJSON(url, function(data) {
+      var parties = data.parties;
+    if(parties != null && parties.length > 0){
+      gainsAndLosses.length = 0;
+      for(var i=0; i<parties.length; i++){
+        var party = parties[i];
+        party.colour = getPartyColour(party.name);
+        gainsAndLosses.push(party);
+      }
+    }
+
+    // Descending sort
+    gainsAndLosses.sort(function(obj1, obj2){  
+                return obj2.seatsTotal - obj1.seatsTotal;
+              });
+    
+    jQuery("#dynamicGainsAndLosses").html('');
+    
+    for ( var i = 0; i < gainsAndLosses.length; i ++ ){
+      var party = gainsAndLosses[i];
+      
+      jQuery("#dynamicGainsAndLosses").append('<article class="partyResult">' 
+                      +  '<dl class="party' + party.colour + ' clearfix">'                      
+                      +     '<dt class="partyName">' + getPartyDisplayName(party.name) +  '</dt>'
+                      +     '<span class="seatTotal"><span class="totalR">Total</span><br>'
+                      +     '<dd class="currentResult">' + party.seatsTotal + '</dd></span>'
+                      +     '<span class="eAndl">'
+                      +     '<dt>Elected:</dt><dd>' + party.seatsGained + '</dd><br/>'
+                      +     '<dt>Leading:</dt><dd>' + party.seatsLost + '</dd>'
+                      +     '</span>'
+                      +   '</dl>'
+                      + '</article>');
+    }
+  });
+};
+  
+});
+</script>                    <link rel="stylesheet" type="text/css" href="http://static.ctvnews.ca/bellmedia/common/css/jquery.lightbox-0.4.css" media="screen" />
+                    <script type="text/javascript" src="http://static.ctvnews.ca/bellmedia/common/js/swfobject-2.2.js" ></script>
+                    <script type="text/javascript" src="http://static.ctvnews.ca/bellmedia/common/js/lightbox/jquery.lightbox-0.4.min.js" ></script>
+                    <script type="text/javascript" src="http://static.ctvnews.ca/bellmedia/common/js/jquery.validate-1.5.1.min.js" ></script>
+                    <script type="text/javascript" src="http://static.ctvnews.ca/bellmedia/common/js/membership.js" ></script>
+                      <link rel="stylesheet" type="text/css" href="http://static.ctvnews.ca/bellmedia/ctvnews/css/imageGallery.css" media="screen" />
+                <!--[if IE 7]>
+<style>
+.content-secondary .videoPromoList .teaser .teaserTitle {margin-top: 0}
+.content-secondary .videoPromoList .teaser .teaserTitle, .content-secondary .videoPromoList .teaser .teaserTitle a {line-height: 1}
+.onlineExtras .right {float: left; margin-left: 0; width: auto}
+.onlineExtras .button {padding-right: 0.9em}
+.onlineExtras .arrow {position: absolute; margin-top: 5px; }
+.topAd .boxAd p {position: static!important}
+.fbpluginrecommendationsbarright {display: none!important}
+
+.element.time {display: none!important}
+</style>
+ <![endif]-->                  <script type="text/javascript" src="http://static.ctvnews.ca/bellmedia/common/js/detectMobile.js" ></script>
+                <script type="text/javascript">
+if(!(window.console && console.log)) {
+  console = {
+    log: function(){},
+    debug: function(){},
+    info: function(){},
+    warn: function(){},
+    error: function(){}
+  };
+}  
+function outputLog(source, str) {
+  try {
+        if (isDebug) {
+            if (console && console.log) {
+                console.log("[ " + source + " ]=" + str);
+            }
+        }
+  } catch (e) {
+  }
+}
+</script>  
+                 <script type='text/javascript'>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+
+    
+    googletag.cmd.push(function() {
+      googletag.pubads().collapseEmptyDivs(true);
+                                            
+    googletag.enableServices();
+    });
+    
+ 
+</script>                    <link rel="stylesheet" type="text/css" href="http://static.ctvnews.ca/bellmedia/cp24/css/cp24_layout.css" media="screen" />
+                      <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="http://static.ctvnews.ca/bellmedia/cp24/css/ie_cp24.css" media="screen" />
+      <![endif]-->
+                      <!--[if IE 8]>
+      <link rel="stylesheet" type="text/css" href="http://static.ctvnews.ca/bellmedia/common/css/ie8_common.css" media="screen" />
+      <![endif]-->
+                  <link rel="icon" type="image/ico" href="http://static.ctvnews.ca/bellmedia/cp24/img/favicon.ico" /> 
+              <!--[if IE 7]>
+<style>
+.banner .search {margin-right: 65px!important;}
+.banner .search FORM {width: 166px}
+.time.element {margin-left: 185px!important}
+.banner .search.element input[type="text"] {width: 125px!important}
+</style>
+<![endif]-->                <link rel="apple-touch-icon" type="image/png" href="http://static.ctvnews.ca/bellmedia/cp24/img/apple-touch-icon.png " /> 
+                <link rel="apple-touch-icon" type="image/png" href="http://static.ctvnews.ca/bellmedia/cp24/img/apple-touch-icon-72x72.png " sizes="72x72"/> 
+                <link rel="apple-touch-icon" type="image/png" href="http://static.ctvnews.ca/bellmedia/cp24/img/apple-touch-icon-114x114.png " /> 
+              <meta name="google-site-verification" content="AU6kMFW-Dd-lYTXYKS0K98fbD05aEV5AwDq7fCg3Tkk" />              <link rel="publisher" href="https://plus.google.com/u/0/b/104271651368601473061/"/>              <meta property="twitter:account_id" content="19636948" />  <script type="text/javascript" src="http://static.ctvnews.ca/bellmedia/common/js/mdetect.js"></script>
+   <link rel="stylesheet" type="text/css" href="/cmlink/ctv-styles-7.132" />
+  <link rel="stylesheet" type="text/css" href="/cmlink/ontario2014-7.523345" />
+  <link rel="stylesheet" type="text/css" href="/cmlink/video-bin-column-css-7.489853" />
+  <link rel="stylesheet" type="text/css" href="/cmlink/bandage-rebrand-ctvnews-20130930-7.440100" />
+  <link rel="stylesheet" type="text/css" href="/cmlink/banner-temp-7.298239" />
+  <link rel="stylesheet" type="text/css" href="/cmlink/player-style-7.363763" />
+  <link rel="stylesheet" type="text/css" href="/cmlink/mynews-7.555290" />
+  <link rel="stylesheet" type="text/css" href="/cmlink/cp24-styles-7.298238" />
+  <link rel="stylesheet" type="text/css" href="/cmlink/pmh5050css-7.494541" />
+  <link rel="stylesheet" type="text/css" href="/cmlink/story-related-7.343939" />
+
+<link href="http://static.ctvnews.ca/bellmedia/common/css/responsive_layout.css" rel="stylesheet" type="text/css" media="screen, handheld, print, projection" />
+<link href="http://static.ctvnews.ca/bellmedia/common/css/print.css" rel="stylesheet" type="text/css" media="print" />
+<!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lt IE 9]>
+        <script>
+        document.createElement('header');
+        document.createElement('nav');
+        document.createElement('section');
+        document.createElement('article');
+        document.createElement('aside');
+        document.createElement('footer');
+        document.createElement('hgroup');
+        </script>
+        <![endif]-->
+<script type="text/javascript">
+if(!(window.console && console.log)) {
+  console = {
+    log: function(){},
+    debug: function(){},
+    info: function(){},
+    warn: function(){},
+    error: function(){}
+  };
+}
+</script>
+	
+
+
+
+
+
+
+<script>
+window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+(function(){
+	function retrieve(n){
+		var m, k='kx'+n;
+		if (window.localStorage) {
+			return window.localStorage[k] || "";
+		} else if (navigator.cookieEnabled) {
+			m = document.cookie.match(k+'=([^;]*)');
+			return (m && unescape(m[1])) || "";
+		} else {
+			return '';
+		}
+	} 
+	Krux.user = retrieve('user'); 
+	Krux.segments = retrieve('segs') && retrieve('segs').split(',') || [];
+})();
+</script>
+
+<script type='text/javascript'>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+    var gads = document.createElement('script'); gads.async = true; gads.type = 'text/javascript'; var useSSL = 'https:' == document.location.protocol; gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node); })();
+    
+    googletag.cmd.push(function() {
+                                      
+    		    googletag.defineOutOfPageSlot('/5479/ctv.cp24/home','div-gpt-ad-outofpage-1-oop').addService(googletag.pubads()).addService(googletag.companionAds());
+          
+                                                                                                                                                    
+                googletag.pubads().setTargeting("keyvalues",["envr=prod"]);
+                                            googletag.pubads().collapseEmptyDivs(true);
+			googletag.pubads().setTargeting("ksgmnt", Krux.segments);
+			googletag.pubads().setTargeting("u", Krux.user);
+		    googletag.enableServices();
+    });
+    
+	    jQuery(document).ready(function(){
+      
+        for(var i=1; i < 3; i++){
+          var idArray = [];
+        var gptDivs = jQuery("div[id^='div-gpt-ad']");
+      
+        gptDivs.each( function(index, value){
+          id = jQuery(this).attr("id");
+          idArray.push(id);
+        });
+      
+        var actionedItems = [];
+        gptDivs.each( function(index, value){
+          var id = jQuery(this).attr("id");
+          
+          //if not found in actionedItems
+        if(jQuery.inArray(id, actionedItems) == -1){
+          var indices = [];
+          var idx = jQuery.inArray(id, idArray);
+          while (idx != -1) {
+            indices.push(idx);
+            idx = jQuery.inArray(id, idArray, idx + 1);
+          }
+          
+          if(indices.length > 1){
+            //assign unique id for each div.
+            
+            var repeatingDivs = jQuery("div[id="+id+"]");
+            var count = 0;
+            repeatingDivs.each( function(index, value){
+              if(count>0){
+                var divId = jQuery(this).attr("id");
+                var uniqueCount = parseInt(divId.charAt(divId.length-1));
+                divId = divId.slice(0, divId.lastIndexOf("-")+1).concat(uniqueCount+1);
+                jQuery(this).attr("id", divId);
+              }         
+              count++;
+            });
+            
+            actionedItems.push(id);
+          }
+        }
+        });   
+        }
+        
+      });
+</script>  <title>CP24 - Toronto News | Breaking News Headlines | Weather, Traffic, Sports</title>
+      <meta name="description" content="CP24 - Toronto's Breaking News for the GTA, with CP24 Breakfast, Sports, Video, Traffic Times and Weather and more." />
+      <meta name="robots" content="noarchive,noodp" />
+<meta name="robots" content="index,follow,noodp" />
+<meta name="robots" content="ACAP allow-index" />
+<script type="text/javascript">
+  jQuery.ajaxSetup({
+    cache: 'true'
+  });
+</script> 
+  <link rel="alternate" type="application/rss+xml" title="Top Stories" href="http://www.cp24.com/rss/top-stories-1.1129631" />
+</head>
+
+<body id="top">
+  <div id="insertForm"></div>
+<script type="text/javascript">
+detectMobile();
+</script> 
+<script type="text/javascript"><!--jQuery(document).ready(function() {window.pageLoaded=true});//--></script>
+  <div class="topAd">
+        
+
+
+
+  
+  
+    <a name="pagetop"></a>
+<div id='div-gpt-ad-outofpage-1-oop' style='height: 0; width: 0'>
+   <script type='text/javascript'>
+     googletag.cmd.push(function() {
+       googletag.display('div-gpt-ad-outofpage-1-oop');
+     });
+    </script>
+</div>
+  
+  
+  
+    
+    
+
+
+
+<div class="columnsplitter container twoColumns none">
+        
+      <div class="column col1 ">
+      
+
+
+
+  
+  
+    
+                                  
+                <div class="clearfix">
+            
+                                            <a href="http://www.cp24.com/more/advertise-on-cp24" target="_blank">
+                  
+
+
+<img title='' height='90' alt='Advertise With Us V2 July 3' width='200' src='http://www.cp24.com/polopoly_fs/1.1352177!/httpImage/image.jpg_gen/derivatives/landscape_300/image.jpg' />                </a>
+                                    </div>
+          
+  
+</div>
+<div class="column col2 ">
+      
+
+
+
+  
+  
+                                                <div class="advert">
+                
+                                
+                              
+                          
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+                    
+            
+                  googletag.defineSlot('/5479/ctv.cp24/home/index', [[728,90]], 'div-gpt-ad-728_90-1')
+            .addService(googletag.pubads())
+	  	  	  .addService(googletag.companionAds());  
+    });
+</script>                 
+        <div id="div-gpt-ad-728_90-1">
+					<script type="text/javascript">  
+						googletag.cmd.push(function() { googletag.display("div-gpt-ad-728_90-1"); });         
+					</script>
+		    </div>
+
+                    </div>
+                    
+  
+  
+</div>    <div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+
+  
+  </div>
+<!-- BEGIN BANNERS -->
+<header class="banner clearfix">
+  <div class="skip-links hidden">
+    <ul>
+      <li><a href="#responsive_main" title="skip to content">Skip to Main Content</a></li>
+            <li><a href="#section-links_7.289807" title="skip to links">Skip to Section Links</a></li>
+          </ul>
+  </div><!-- END .skip-links -->
+  
+        <div class="content-wrapper">
+        
+
+
+
+  
+  
+    <a class="logo logo_cp24" href="http://www.cp24.com/" title="CP24.com"></a>
+  
+  
+  
+    <div class="time element" style="display:none;">
+<script type="text/javascript">
+var longWeekdays = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
+var longMonths = ['Jan.','Feb.','Mar.','Apr.','May','Jun.','Jul.','Aug.','Sept.','Oct.','Nov.','Dec.'];
+function updateTime(){
+        var currentDate = new Date();
+    if(currentDate) {
+    jQuery(".currentDay").html(longWeekdays[currentDate.getDay()]);
+    jQuery(".currentMonth").html(longMonths[currentDate.getMonth()]);
+    jQuery(".currentDayOfMonth").html(currentDate.getDate());
+    var minutes = currentDate.getMinutes();
+    var hours = currentDate.getHours();
+    minutes = (minutes < 10 ? "0" + minutes : minutes);
+    var suffix = "AM";
+    if (hours >= 12) {
+      suffix = "PM";
+      hours = hours - 12;
+    }
+    if (hours == 0) {
+      hours = 12;
+    }
+    
+    jQuery(".currentTime").html(hours + ":" + minutes + suffix);
+    
+            var timeZone = 'ET';
+    jQuery(".currentTimeZone").html(timeZone);
+    jQuery(".time.element").fadeTo("slow", 1);
+
+        
+    t=setTimeout('updateTime()', (30 * 1000));
+  }
+}
+</script>
+<script type="text/javascript">jQuery(document).ready(updateTime);</script>
+<span class="currentDay"></span>
+<span class="currentMonth"></span>
+<span class="currentDayOfMonth"></span>
+<span class="currentTime"></span>
+<span class="currentTimeZone"></span>
+  <span class="currentTemp">
+    24 &#176;C
+  </span>
+</div>
+  
+  
+  
+    
+<div class="micronav">
+	<div class="liveSched"><div class="vidLock"></div> <p>Live Now:
+			                  <a  href="http://cp24.com/live?autoPlay=true"   >CP24 News</a>
+    		</p>
+	</div>
+</div>
+	
+ 
+  
+  
+  
+    
+    
+
+<div class="search element" id="search_7.127">
+      <a href="" class="sb">Search</a>
+  <form action="/search-results/search-cp24-7.127" method="get" class="frm frmSearch">
+    <input class="bt submit" type="submit" value="" />
+    <div class="form">
+      <label class="hidden" for="search_bar_7_127">Search CP24</label>
+      <input id="search_bar_7_127" placeholder="Search CP24" type="text" name="q" value="" />
+      <a class="close">X</a>
+    </div>
+  </form></div>
+  
+  
+  
+    <div class="clearfix"></div>
+  
+  
+  
+                                                            
+<div class="mainnavigation_wrapper ">
+<div class="mainnavigation_subnavigation_wrapper">
+<nav class="mainnavigation container" id='section-links_7.289807' >
+        <ul class="menu menuSite menuTwo section-links">
+            
+                      
+                                    
+                        						            
+            <li class="mainnavigation_item item_7289808 bm-red ">
+            <span class="mainnavigation_item_text">
+                            <span class="navlink">
+                                  NEWS
+                                </span>
+            
+                          <span class="arrow"></span>
+                        </span>
+            </li>
+                
+                      
+                                    
+                        						            
+            <li class="mainnavigation_item item_7289810 bm-blue ">
+            <span class="mainnavigation_item_text">
+                            <span class="navlink">
+                                  WEATHER
+                                </span>
+            
+                          <span class="arrow"></span>
+                        </span>
+            </li>
+                
+                      
+                                    
+                        						            
+            <li class="mainnavigation_item item_7291933 bm-yellow ">
+            <span class="mainnavigation_item_text">
+                            <span class="navlink">
+                                  TRAFFIC
+                                </span>
+            
+                          <span class="arrow"></span>
+                        </span>
+            </li>
+                
+                      
+                                    
+                        						            
+            <li class="mainnavigation_item item_7291945 bm-green ">
+            <span class="mainnavigation_item_text">
+                            <span class="navlink">
+                                  VIDEO
+                                </span>
+            
+                          <span class="arrow"></span>
+                        </span>
+            </li>
+                
+                      
+                                    
+                        						            
+            <li class="mainnavigation_item item_7291951 bm-redDark ">
+            <span class="mainnavigation_item_text">
+                            <span class="navlink">
+                                  CP24 BREAKFAST
+                                </span>
+            
+                          <span class="arrow"></span>
+                        </span>
+            </li>
+                
+                      
+                                    
+                        						            
+            <li class="mainnavigation_item item_7292047 bm-black ">
+            <span class="mainnavigation_item_text">
+                            <span class="navlink">
+                                  MORE
+                                </span>
+            
+                          <span class="arrow"></span>
+                        </span>
+            </li>
+                
+                      
+                                    
+                        						            
+            <li class="mainnavigation_item item_7291960 bm-twitter_cyan ">
+            <span class="mainnavigation_item_text">
+                          <span class="navlink">
+                                    <a  href="/twitter"  title="Twitter" >Twitter</a>
+                  </span>
+            
+                        </span>
+            </li>
+                    </ul>
+</nav>
+                             <div class="drop_down link_id_7289808" style="display:none;">
+                    <div class="drop_down_element_container bm-red">
+      <a href="#" class="close" title="Close menu"><span></span></a>
+                <div class="element list none ">
+                  <ul class="linklist horizontal">
+                                  
+            
+                <li>
+      
+                                               
+                                <a  href="/"  title="Back to homepage" >Home</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                              <a  href="/news"   >Local</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/world"  title="World" >World</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                              <a  href="/entertainment-news"   >Entertainment</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/sports"  title="Sports" >Sports</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/photo-galleries"  title="Photo Galleries" >Photo Galleries</a>
+                                                    </li>
+              
+            
+    </ul>
+            <div class="bottom-links">
+          </div>
+    <div class="clearfix"></div>
+</div>
+          </div>
+            <script type="text/javascript">
+          jQuery(document).ready(function() {
+            jQuery(".item_7289808").click(click_7289808);
+            jQuery(".link_id_7289808 .close").click(click_7289808);
+          });
+          </script>
+        </div>
+            <script type="text/javascript">
+          function click_7289808() {
+            var itemSelector = ".item_7289808";
+            var selector = ".link_id_7289808";
+            var shouldOpen = ((jQuery(selector + ":visible").size() <= 0) && (jQuery(selector + " div").size() > 0));
+            if (jQuery(".drop_down:visible").size() > 0) {
+              jQuery(".drop_down:visible").hide();
+              jQuery(".mainnavigation_item").removeClass("active");
+            }
+            if(shouldOpen) {
+              jQuery(selector).slideDown();
+              jQuery(itemSelector).toggleClass("active");
+            }
+          }
+      </script>
+                                       <div class="drop_down link_id_7289810" style="display:none;">
+                    <div class="drop_down_element_container bm-blue">
+      <a href="#" class="close" title="Close menu"><span></span></a>
+                <div class="element list none ">
+                  <ul class="linklist horizontal">
+                                  
+            
+                <li>
+      
+                                               
+                              <a  href="/weather/toronto-weather"   >Toronto</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                              <a  href="/weather/southern-ontario-weather"   >Southern Ontario</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                              <a  href="/weather/canada-weather"   >Canada</a>
+                                                    </li>
+              
+            
+    </ul>
+            <div class="bottom-links">
+          </div>
+    <div class="clearfix"></div>
+</div>
+          </div>
+            <script type="text/javascript">
+          jQuery(document).ready(function() {
+            jQuery(".item_7289810").click(click_7289810);
+            jQuery(".link_id_7289810 .close").click(click_7289810);
+          });
+          </script>
+        </div>
+            <script type="text/javascript">
+          function click_7289810() {
+            var itemSelector = ".item_7289810";
+            var selector = ".link_id_7289810";
+            var shouldOpen = ((jQuery(selector + ":visible").size() <= 0) && (jQuery(selector + " div").size() > 0));
+            if (jQuery(".drop_down:visible").size() > 0) {
+              jQuery(".drop_down:visible").hide();
+              jQuery(".mainnavigation_item").removeClass("active");
+            }
+            if(shouldOpen) {
+              jQuery(selector).slideDown();
+              jQuery(itemSelector).toggleClass("active");
+            }
+          }
+      </script>
+                                       <div class="drop_down link_id_7291933" style="display:none;">
+                    <div class="drop_down_element_container bm-yellow">
+      <a href="#" class="close" title="Close menu"><span></span></a>
+                <div class="element list none ">
+                  <ul class="linklist horizontal">
+                                  
+            
+                <li>
+      
+                                               
+                                <a  href="/commuter-centre"  title="Commuter Centre" >Commuter Centre</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/commuter-centre/traffic"  title="Traffic" >Traffic</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/commuter-centre/transit"  title="Transit" >Transit</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/commuter-centre/air-travel"  title="Air Travel" >Air Travel</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/commuter-centre/border-crossings"  title="Border Crossings" >Border Crossings</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                              <a  href="/commuter-centre/traffic/traffic-alert"   >CP24 Traffic Alert App</a>
+                                                    </li>
+              
+            
+    </ul>
+            <div class="bottom-links">
+          </div>
+    <div class="clearfix"></div>
+</div>
+          </div>
+            <script type="text/javascript">
+          jQuery(document).ready(function() {
+            jQuery(".item_7291933").click(click_7291933);
+            jQuery(".link_id_7291933 .close").click(click_7291933);
+          });
+          </script>
+        </div>
+            <script type="text/javascript">
+          function click_7291933() {
+            var itemSelector = ".item_7291933";
+            var selector = ".link_id_7291933";
+            var shouldOpen = ((jQuery(selector + ":visible").size() <= 0) && (jQuery(selector + " div").size() > 0));
+            if (jQuery(".drop_down:visible").size() > 0) {
+              jQuery(".drop_down:visible").hide();
+              jQuery(".mainnavigation_item").removeClass("active");
+            }
+            if(shouldOpen) {
+              jQuery(selector).slideDown();
+              jQuery(itemSelector).toggleClass("active");
+            }
+          }
+      </script>
+                                       <div class="drop_down link_id_7291945" style="display:none;">
+                    <div class="drop_down_element_container bm-green">
+      <a href="#" class="close" title="Close menu"><span></span></a>
+                <div class="element list none ">
+                  <ul class="linklist horizontal">
+                                  
+            
+                <li>
+      
+                                               
+                              <a  href="/live"   >CP24 LIVE</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                              <a  href="/video"   >All Video</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/talk-shows/live-at-noon"  title="Live at Noon" >Live at Noon</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/talk-shows/animal-house-calls"  title="Animal House Calls" >Animal House Calls</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/talk-shows/hot-property"  title="Hot Property" >Hot Property</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                              <a  href="/talk-shows/auto-shop"   >Autoshop</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/talk-shows/know-your-rights"  title="Know Your Rights" >Know Your Rights</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/talk-shows/the-commish"  title="The Commish" >The Commish</a>
+                                                    </li>
+              
+            
+    </ul>
+            <div class="bottom-links">
+          </div>
+    <div class="clearfix"></div>
+</div>
+          </div>
+            <script type="text/javascript">
+          jQuery(document).ready(function() {
+            jQuery(".item_7291945").click(click_7291945);
+            jQuery(".link_id_7291945 .close").click(click_7291945);
+          });
+          </script>
+        </div>
+            <script type="text/javascript">
+          function click_7291945() {
+            var itemSelector = ".item_7291945";
+            var selector = ".link_id_7291945";
+            var shouldOpen = ((jQuery(selector + ":visible").size() <= 0) && (jQuery(selector + " div").size() > 0));
+            if (jQuery(".drop_down:visible").size() > 0) {
+              jQuery(".drop_down:visible").hide();
+              jQuery(".mainnavigation_item").removeClass("active");
+            }
+            if(shouldOpen) {
+              jQuery(selector).slideDown();
+              jQuery(itemSelector).toggleClass("active");
+            }
+          }
+      </script>
+                                       <div class="drop_down link_id_7291951" style="display:none;">
+                    <div class="drop_down_element_container bm-redDark">
+      <a href="#" class="close" title="Close menu"><span></span></a>
+                <div class="element list none ">
+                  <ul class="linklist horizontal">
+                                  
+            
+                <li>
+      
+                                               
+                              <a  href="/cp24-breakfast"   >All Videos</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/cp24-breakfast/milestones"  title="Milestones" >Milestones</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                              <a  href="/cp24-breakfast/wakeup-call"   >Wake Up Call </a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/cp24-breakfast/breakfast-blog"  title="Breakfast Blog " >Breakfast Blog </a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/contests"  title="Contests" >Contests</a>
+                                                    </li>
+              
+            
+    </ul>
+            <div class="bottom-links">
+          </div>
+    <div class="clearfix"></div>
+</div>
+          </div>
+            <script type="text/javascript">
+          jQuery(document).ready(function() {
+            jQuery(".item_7291951").click(click_7291951);
+            jQuery(".link_id_7291951 .close").click(click_7291951);
+          });
+          </script>
+        </div>
+            <script type="text/javascript">
+          function click_7291951() {
+            var itemSelector = ".item_7291951";
+            var selector = ".link_id_7291951";
+            var shouldOpen = ((jQuery(selector + ":visible").size() <= 0) && (jQuery(selector + " div").size() > 0));
+            if (jQuery(".drop_down:visible").size() > 0) {
+              jQuery(".drop_down:visible").hide();
+              jQuery(".mainnavigation_item").removeClass("active");
+            }
+            if(shouldOpen) {
+              jQuery(selector).slideDown();
+              jQuery(itemSelector).toggleClass("active");
+            }
+          }
+      </script>
+                                       <div class="drop_down link_id_7292047" style="display:none;">
+                    <div class="drop_down_element_container bm-black">
+      <a href="#" class="close" title="Close menu"><span></span></a>
+                <div class="element list none ">
+                  <ul class="linklist horizontal">
+                                  
+            
+                <li>
+      
+                                               
+                              <a  href="/go"   >CP24 GO</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                              <a  href="/faq"   >Video Help</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/more/bios"  title="Bios" >Bios</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/more/contact-us"  title="Contact Us" >Contact Us</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                              <a  href="/links-24/cp24-supports"   >CP24 Supports</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                              <a  href="/lotto"   >Lotto Numbers</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/contests"  title="Contests" >Contests</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/breaking-news-email"  title="Breaking News Email" >Breaking News Email</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                                            </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/talk-shows"  title="Talk Shows" >Talk Shows</a>
+                                                    </li>
+              
+            
+    </ul>
+            <div class="bottom-links">
+          </div>
+    <div class="clearfix"></div>
+</div>
+          </div>
+            <script type="text/javascript">
+          jQuery(document).ready(function() {
+            jQuery(".item_7292047").click(click_7292047);
+            jQuery(".link_id_7292047 .close").click(click_7292047);
+          });
+          </script>
+        </div>
+            <script type="text/javascript">
+          function click_7292047() {
+            var itemSelector = ".item_7292047";
+            var selector = ".link_id_7292047";
+            var shouldOpen = ((jQuery(selector + ":visible").size() <= 0) && (jQuery(selector + " div").size() > 0));
+            if (jQuery(".drop_down:visible").size() > 0) {
+              jQuery(".drop_down:visible").hide();
+              jQuery(".mainnavigation_item").removeClass("active");
+            }
+            if(shouldOpen) {
+              jQuery(selector).slideDown();
+              jQuery(itemSelector).toggleClass("active");
+            }
+          }
+      </script>
+                                       <div class="drop_down link_id_7291960" style="display:none;">
+                          <script type="text/javascript">
+          jQuery(document).ready(function() {
+            jQuery(".item_7291960").click(click_7291960);
+            jQuery(".link_id_7291960 .close").click(click_7291960);
+          });
+          </script>
+        </div>
+            <script type="text/javascript">
+          function click_7291960() {
+            var itemSelector = ".item_7291960";
+            var selector = ".link_id_7291960";
+            var shouldOpen = ((jQuery(selector + ":visible").size() <= 0) && (jQuery(selector + " div").size() > 0));
+            if (jQuery(".drop_down:visible").size() > 0) {
+              jQuery(".drop_down:visible").hide();
+              jQuery(".mainnavigation_item").removeClass("active");
+            }
+            if(shouldOpen) {
+              jQuery(selector).slideDown();
+              jQuery(itemSelector).toggleClass("active");
+            }
+          }
+      </script>
+           </div>
+</div>
+  
+  
+  
+    
+
+  
+  
+  
+    
+  <style>
+					.banner .breakingNews div.BNID_74247111410978245 {background-color: #595959;  height:41px;}
+				
+     .banner .breakingNews div.content-wrapper h2.BNID_74247111410978245, .banner .breakingNews div.content-wrapper h2.BNID_74247111410978245 a {color: white;}
+    .breakingnewsTag h2.BNID_74247111410978245 {color: white;}
+</style>
+  <article class="breakingNews">
+    <div class="content-wrapper BNID_74247111410978245">
+      <div class="breakingnewsTag"><h2 class="TagText BNID_74247111410978245"> WATCH LIVE </h2><span class="tagArrow">&nbsp;</span>
+      <h2 class="BNID_74247111410978245 mobi">
+                                                          <a  target="_blank"  class="newWindow"  href="http://www.cp24.com/news/2014-municipal-elections"   >CLICK HERE:  Comprehensive coverage of the 2014 municipal election campaigns</a>
+                        </h2>
+			      <span class="clearfix"></span>
+			</div>
+    </div><!-- END .content-wrapper -->
+  </article>
+
+
+  
+  
+  
+    
+
+  
+  </div>
+  </header><!-- END .banner -->
+<!-- END BANNERS -->
+
+
+
+<div class="content">
+      <div class="video-header">
+      <div class="content-wrapper">
+          <div class="col-wrapper left clearfix" >
+                                        
+
+
+
+  
+  
+    
+
+
+  
+    
+    
+<script type="text/javascript">
+function isVideoPlayerSupported(){
+	var videoPlayerSupported = !MobileEsp.DetectBlackBerry();
+	return videoPlayerSupported;
+}
+</script>
+
+    
+    
+  
+
+
+
+
+
+    
+
+
+
+
+
+              <script type="text/javascript">
+        var playlist = new Array(); // Playlist used by the player
+        var nowPlayingClipId = ""; // Clip ID of the clip currently playing in the player.
+        var maxClipsPerPage = 3;
+        
+        // Playlist auto-page-turning logic vars.
+        var playlistPageNum = 1; // The requested page num of the selected playlist.  
+        var currPlayingClipPageNum = 1; // Page num of the current playing clip.  Could be difference than the page num user is browsing. 
+        var totalPagesOfClips = 1; // Total number of pages of clips in the selected playlist.
+      </script>
+      
+      <div class="shows-player">
+                    <div class="playa-playa">
+              <div id="mediaplayerdiv"></div>
+          </div>
+                      <div class="listing-box" id="genericPlayerNav">
+                          </div>
+                </div>
+       
+                        
+                                    
+                
+                                                 
+                                                  
+                                                                    
+                      
+                
+                                                 
+                                                  
+                                                      
+                      
+                
+                                                 
+                                                  
+                                                      
+                
+                                          
+    
+                              <script type="text/javascript">
+    jQuery(document).ready(
+      function(){
+                requiresDependency('http://static.ctvnews.ca/bellmedia/common/js/videoPlayer.axis.js?v=20140903', function() {
+          var globalDestination = "cp24_web";
+          var globalPlatform = "desktop";
+          var clipResourceName = "CP24";
+          var videoPlayerBrandId = "CP24";
+          var videoPlayerDisplayName = "CP24";
+          var videoPlayerAkamaiResource = "CP24";
+          var videoPlayerTrackingName = "CP24";
+          var videoPlayerDestinationCode = "cp24_web";
+
+          initializeVideoApi(globalDestination, globalPlatform, clipResourceName, videoPlayerBrandId, videoPlayerDisplayName, videoPlayerAkamaiResource, videoPlayerTrackingName, videoPlayerDestinationCode);
+
+          requiresDependency('http://cauth.9c9media.com/auth5/axisAuthApi.js', function() {
+        
+          setIsDebug(false);
+
+          if(isVideoPlayerSupported()){
+            // Initialize player
+            jQuery(document).bind('onready.etsapi', function () {
+                setPlayerWidth(620);
+                setPlayerHeight(348);
+                setPlayerVidFolder('620x348/');
+                setPlayerLogo('http://www.cp24.com/polopoly_fs/1.844228!/httpImage/image.png_gen/derivatives/box_135/image.png');
+                setPlayerAdRule("long");
+                setPlayerAdZone("default");
+				setPlayerAdSite("ctv.cp24");
+                setComScoreBranch("cp24");
+                setVideoPlayerName("CP24 Home page video player");
+                initPlayer(452939);
+            });
+          }
+
+          // Send playlist to player when player is ready.
+          jQuery(document).bind('isDone.onPlayerReady', function() { setPFUserIP("75.119.233.1");
+                                                                     setPFClientSite("www.cp24.com");
+                                                                     setPFCanonicalUrl("%2Fcm%2F2.628%2F2.629%2F2.614%2F");
+                                                                     //setPlaylistTmp(playlist, 0, "http://www.cp24.com/polopoly_fs/1.2027579!/httpImage/image.jpg_gen/derivatives/landscape_620/image.jpg"); 
+                                                                     });
+
+          // BEGIN CTVOmnitureTracking 
+          requiresDependency('http://esi2.ctv.ca/players/mediaplayer/builds/ETS_Universal/includes/Metrics.js', function() {
+            Metrics.VIDEOPLAYER_NAME = "CP24 Home page video player";
+
+                                      requiresDependency('http://player.9c9media.com/channels/cp24_web/apiInterface.js', function() {});
+                      });
+          // END CTVOmnitureTracking
+                    });
+                 });
+      });
+    </script>
+            
+  <script type="text/javascript">
+    requiresDependency('http://static.ctvnews.ca/bellmedia/common/js/videoUtil.js?v=20130705', function() {
+      // First load, trigger paginated clip and send playlist to player.
+      jQuery(document).bind('isDone.onPlayerReady', function() {
+        CTVNews.getPaginatedClips('1.813278', '1', 3, "genericPlayerNav", "false", "true");
+      });
+      
+      /* ----------------- Event binding: Playlist logic ---------------------- */
+      // This event is triggered when a user selects a clip or it moved on to the next page of clips.                                            
+      jQuery(document).bind('isDone.onPlaylistUpdate', function() {
+        CTVNews.setCurrPlayingClipPageNum( CTVNews.getPlaylistPageNum() );
+      });
+      
+      // This event is triggered when the player has finished playing the playlist of clips on a single page of clips.
+      jQuery(document).bind('isDone.onPlaylistComplete', function() {
+          var nextPageNum = CTVNews.getCurrPlayingClipPageNum() + 1;
+          if ( nextPageNum <= CTVNews.getTotalPagesOfClips() ) {
+            CTVNews.getPaginatedClips('1.813278', nextPageNum, 3, "genericPlayerNav", "true");
+          }
+      });
+    });
+  </script>
+
+  
+                      </div><!-- END .col-wrapper -->
+        </div>
+    </div>
+    
+  
+  <div class="content-wrapper">
+        
+        
+      
+            
+                <div class="content-primary" id="responsive_main">
+        
+
+
+
+  
+  
+    
+    
+
+
+
+<div class="columnsplitter container twoColumns none">
+        
+      <div class="column col1 ">
+      
+
+
+
+  
+  
+    
+
+<div>
+  
+  
+
+
+
+  
+  
+    <style>@import url('http://static.ctvnews.ca/bellmedia/cp24/css/cp24_newWeather.css');</style><div class="CP24Weather">
+<h4>
+<a href="http://www.cp24.com/weather/toronto-weather">WEATHER</a>
+</h4>
+<table class="weather">
+<tr>
+<td>EVE<div class="weatherIcon">
+<img src="http://static.ctvnews.ca/bellmedia/cp24/img/newWeather/30.png" width="56" height="56"/>
+</div>
+<div>18°C</div>
+</td>
+<td>NIGHT<div class="weatherIcon">
+<img src="http://static.ctvnews.ca/bellmedia/cp24/img/newWeather/30.png" width="56" height="56"/>
+</div>
+<div>12°C</div>
+</td>
+<td>T.MOR<div class="weatherIcon">
+<img src="http://static.ctvnews.ca/bellmedia/cp24/img/newWeather/0.png" width="56" height="56"/>
+</div>
+<div>18°C</div>
+</td>
+<td>T.AFT<div class="weatherIcon">
+<img src="http://static.ctvnews.ca/bellmedia/cp24/img/newWeather/1.png" width="56" height="56"/>
+</div>
+<div>25°C</div>
+</td>
+</tr>
+</table>
+</div>
+
+  
+  
+  
+    
+  <style>@import url('http://static.ctvnews.ca/bellmedia/cp24/css/cp24_newWeather.css');</style><table class="currentWeather">
+<tr>
+<td class="outside">SUNNY</td>
+<td class="bar"> | </td>
+<td class="temp">24°C</td>
+<td class="bar"> | </td>
+<td class="hum">Humidity: 82</td>
+</tr>
+</table>
+
+  
+
+  </div>
+  
+</div>
+<div class="column col2 ">
+      
+
+
+
+  
+  
+    <style>
+  .trafficWidget h4{color:#777777;}
+  table.trafficW {background:#000; color:#fff; padding:0px;}
+  td.header{color:#777777;font-size:75%; font-weight:bold;}
+  td.header1{color:#f6e519;font-size:75%;font-weight:bold; padding-left:3px;}
+  td.locationCopy {font-size:62.5%; font-weight:bold; padding:3px;}
+  td.ideal {color:#a6c947;font-size:62.5%; font-weight:bold;}
+  td.delaymin {color:#ff0000;font-size:62.5%;font-weight:bold;}
+  </style><div class="trafficWidget">
+<h4>
+<a href="http://www.cp24.com/traffic/travel-times">TRAFFIC</a>
+</h4>
+<table border="0" cellpadding="0" cellspacing="0" class="trafficW" height="173" width="300">
+<tr>
+<td>
+<table>
+<tr>
+<td class="header1" width="130">Travel Times</td>
+<td align="center" class="header" width="55">Current</td>
+<td align="center" class="header" width="50">Ideal</td>
+<td align="center" class="header">Delay</td>
+</tr>
+<tr>
+<td class="locationCopy">Allen Rd. SB; Hwy. 401 to Eglinton Ave. (ID2433)</td>
+<td valign="top" align="center" class="locationCopy">12 MIN</td>
+<td valign="top" align="center" class="ideal">4 MIN</td>
+<td valign="top" align="center" class="delaymin">8 MIN</td>
+</tr>
+<tr>
+<td class="locationCopy">DVP NB; Gardiner to 401 (ID585)</td>
+<td valign="top" align="center" class="locationCopy">18 MIN</td>
+<td valign="top" align="center" class="ideal">9 MIN</td>
+<td valign="top" align="center" class="delaymin">9 MIN</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" valign="bottom" height="53">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="bottom" height="53">
+<a href="http://cp24.com/commuter-centre">
+<img border="0" src="http://static.ctvnews.ca/bellmedia/cp24/img/AllTravelTimes_Button.jpg"/>
+</a>
+</td>
+<td valign="bottom" height="53">
+<a href="http://cp24.com/commuter-centre/traffic">
+<img border="0" src="http://static.ctvnews.ca/bellmedia/cp24/img/trafficCams_Button.jpg"/>
+</a>
+</td>
+<td valign="bottom" height="53">
+<a href="http://cp24.com/commuter-centre/transit">
+<img border="0" src="http://static.ctvnews.ca/bellmedia/cp24/img/GoTransit_button.jpg"/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+
+  
+</div>    <div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+
+  
+  
+  
+    
+    
+
+
+
+<div class="columnsplitter container twoColumns listHorizontal border_top">
+        
+      <div class="column col1 ">
+      
+
+
+
+  
+  
+    <div class="element list none ">
+              <h3>                    <a  href="/news"  title="Toronto News" >Local News<span class="da"></span></a>
+    </h3>
+                  <ul class="linklist ">
+                          
+            
+    <li class="dc">
+                                                      
+
+
+
+
+
+<div style="display: inline-table; width:303px; " class="element teaser">
+              <div class="teaser-image-wrapper teaser-image-top">
+    <div class="teaserImage">
+                                        <a  href="/news/ford-to-speak-at-campaign-bbq-as-mayoral-race-begins-final-month-1.2027538"   ><img title='Rob Ford' height='168' alt='Rob Ford' width='300' src='http://www.cp24.com/polopoly_fs/1.2004355!/httpImage/image.jpg_gen/derivatives/landscape_300/image.jpg' /></a>
+                        </div>
+    <div class="bn-headline">
+              <h2 class="teaserTitle">
+                          <a  href="/news/ford-to-speak-at-campaign-bbq-as-mayoral-race-begins-final-month-1.2027538"   >Ford to speak at campaign BBQ as mayoral race begins final month</a>
+        </h2>
+  </div>
+    </div>
+
+  <span class="comment-video">
+  <a href="/news/ford-to-speak-at-campaign-bbq-as-mayoral-race-begins-final-month-1.2027538?autoPlay=true" class="smallCount" title="Videos">
+    <span class="videos"></span>2
+  </a>
+</span>
+   
+</div>
+                                        </li>
+    			      
+            
+    </ul>
+            <div class="bottom-links">
+          </div>
+    <div class="clearfix"></div>
+</div>
+
+  
+</div>
+<div class="column col2 ">
+      
+
+
+
+  
+  
+    <div class="element list none ">
+                  <ul class="linklist vertical">
+                          
+            
+                                <li class='listItem_7_289587_1355525761_1087757677' updated='1411822020000' created='1411813080000'>
+                                                                          <a  href="/news/man-fatally-stabbed-in-city-s-east-end-1.2027406"  title="Man fatally stabbed in city's east end" >Man fatally stabbed in city's east end</a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289587_1355525761_1087757677' updated='1411843320000' created='1411814700000'>
+                                                                          <a  href="/news/investigation-underway-after-man-shot-in-both-legs-in-scarborough-1.2027415"  title="Investigation underway after man shot in both legs in Scarborough " >Investigation underway after man shot in both legs in Scarborough </a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289587_1355525761_1087757677' updated='1411819740000' created='1411819800000'>
+                                                                          <a  href="/news/gardiner-expressway-closed-for-fall-maintenance-1.2027451"  title="Gardiner Expressway closed for fall maintenance" >Gardiner Expressway closed for fall maintenance</a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289587_1355525761_1087757677' updated='1411823220000' created='1411823340000'>
+                                                                          <a  href="/news/woman-dies-in-hospital-after-two-vehicle-crash-in-whitby-1.2027474"  title="Woman dies in hospital after two-vehicle crash in Whitby" >Woman dies in hospital after two-vehicle crash in Whitby</a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289587_1355525761_1087757677' updated='1411816860000' created='1411816980000'>
+                                                                          <a  href="/news/toronto-hosting-international-convention-which-brings-world-of-space-to-canada-1.2027430"  title="Toronto hosting international convention which brings world of space to Canada" >Toronto hosting international convention which brings world of space to Canada</a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289587_1355525761_1087757677' updated='1411841640000' created='1411841700000'>
+                                                                          <a  href="/news/remains-of-four-wwi-soldiers-from-winnipeg-regiment-killed-in-france-id-d-1.2027625"  title="Remains of four WWI soldiers from Winnipeg regiment killed in France ID'd" >Remains of four WWI soldiers from Winnipeg regiment killed in France ID'd</a>
+                                                    </li>
+  <script type="text/javascript">
+  jQuery(document).ready(function(){
+    var listItems = jQuery(".listItem_" + "7_289587_1355525761_1087757677");
+    var currentTime = new Date().getTime();
+    var updateTimer = 60*60*1000;
+    var tenMinutesAgo = currentTime - updateTimer;
+    var updatedString = "UPDATED";
+    var newString = "NEW";
+    listItems.each(function() {
+      var item = $(this);
+      var modifiedTime = item.attr("updated");
+      var publishedTime = item.attr("created");
+      var linkElement = item.find("a").first();
+      if (modifiedTime != undefined && publishedTime != undefined) {
+        modifiedTime = new Number(modifiedTime);
+        publishedTime = new Number(publishedTime);
+        if (modifiedTime > publishedTime && currentTime > modifiedTime && modifiedTime > tenMinutesAgo) {
+          linkElement.html("<span class='tag'>" + updatedString + "</span>" + linkElement.html());
+        } else if (currentTime > publishedTime && publishedTime > tenMinutesAgo) {
+          linkElement.html("<span class='tag'>" + newString + "</span>" + linkElement.html());
+        }
+      }
+    });
+  });
+</script>            
+            
+    </ul>
+            <div class="bottom-links">
+              <div>
+                    <a  href="/news"  title="Toronto Breaking News stories" >Local News Stories</a>
+    </div>
+          </div>
+    <div class="clearfix"></div>
+</div>
+
+  
+</div>    <div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+
+  
+  
+  
+                                
+                <div class="clearfix">
+            
+                                            <a href="http://www.cp24.com/cityelection2014">
+                  
+
+
+<img title='' height='40' alt='CP24 - 2014 Municipal Elections' width='620' src='http://www.cp24.com/polopoly_fs/1.1729681!/httpImage/image.jpg_gen/derivatives/landscape_620/image.jpg' />                </a>
+                                    </div>
+          
+  
+  
+  
+  
+    
+    
+
+
+
+<div class="columnsplitter container twoColumns listHorizontal border_top">
+        
+      <div class="column col1 ">
+      
+
+
+
+  
+  
+    <div class="element list none ">
+              <h3>                    <a  href="http://www.cp24.com/world"  title="World News " >World News<span class="da"></span></a>
+    </h3>
+                  <ul class="linklist ">
+                          
+            
+    <li class="dc">
+                                                      
+
+
+
+
+
+<div style="display: inline-table; width:303px; " class="element teaser">
+              <div class="teaser-image-wrapper teaser-image-top">
+    <div class="teaserImage">
+                                        <a  href="/world/volcano-erupts-with-thundering-sound-in-japan-7-people-missing-1.2027407"   ><img title='Volcano' height='169' alt='Dense fumes are spewed out from several spots on the slope of Mt. Ontake as the volcano erupts in central Japan Saturday, Sept. 27, 2014. Mt. Ontake erupted Saturday, sending a large plume of ash high into the sky and prompting a warning to climbers and others to avoid the area. Japanese broadcaster NHK, citing local authorities, said there were reports of injuries, but no word on their severity. It also reported that people had been evacuated from a mountain lodge. (AP Photo/Yomiuri Shimbun, Toshihiko Kawaguchi) ' width='300' src='http://www.cp24.com/polopoly_fs/1.2027408!/httpImage/image.jpg_gen/derivatives/landscape_300/image.jpg' /></a>
+                        </div>
+    <div class="bn-headline">
+              <h2 class="teaserTitle">
+                          <a  href="/world/volcano-erupts-with-thundering-sound-in-japan-7-people-missing-1.2027407"   >Volcano erupts with thundering sound in Japan; 7 people missing</a>
+        </h2>
+  </div>
+    </div>
+
+     
+</div>
+                                        </li>
+    			      
+            
+    </ul>
+            <div class="bottom-links">
+          </div>
+    <div class="clearfix"></div>
+</div>
+
+  
+</div>
+<div class="column col2 ">
+      
+
+
+
+  
+  
+    <div class="element list none ">
+                  <ul class="linklist vertical">
+                          
+            
+                                <li class='listItem_7_289589_1355525680_1087757753' updated='1411840080000' created='1411840200000'>
+                                                                          <a  href="/world/india-pm-tells-un-that-he-s-serious-about-peace-with-pakistan-1.2027611"  title="India PM tells UN that he's serious about peace with Pakistan" >India PM tells UN that he's serious about peace with Pakistan</a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289589_1355525680_1087757753' updated='1411840680000' created='1411823940000'>
+                                                                          <a  href="/world/u-s-led-coalition-launches-new-airstrikes-in-syria-1.2027479"  title="U.S.-led coalition launches new airstrikes in Syria " >U.S.-led coalition launches new airstrikes in Syria </a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289589_1355525680_1087757753' updated='1411840500000' created='1411840620000'>
+                                                                          <a  href="/world/yemen-s-shiite-rebels-agree-to-withdraw-from-capital-1.2027619"  title="Yemen's Shiite rebels agree to withdraw from capital" >Yemen's Shiite rebels agree to withdraw from capital</a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289589_1355525680_1087757753' updated='1411840200000' created='1411840380000'>
+                                                                          <a  href="/world/semi-collides-with-college-softball-team-s-bus-killing-4-players-1.2027615"  title="Semi collides with college softball team's bus, killing 4 players" >Semi collides with college softball team's bus, killing 4 players</a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289589_1355525680_1087757753' updated='1411814040000' created='1411814160000'>
+                                                                          <a  href="/world/police-man-fired-from-oklahoma-food-processing-plant-beheaded-co-worker-1.2027413"  title="Police: Man fired from Oklahoma food processing plant beheaded co-worker" >Police: Man fired from Oklahoma food processing plant beheaded co-worker</a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289589_1355525680_1087757753' updated='1411815420000' created='1411815480000'>
+                                                                          <a  href="/world/egyptian-court-postpones-ruling-in-retrial-of-former-president-mubarak-1.2027420"  title="Egyptian court postpones ruling in retrial of former president Mubarak " >Egyptian court postpones ruling in retrial of former president Mubarak </a>
+                                                    </li>
+  <script type="text/javascript">
+  jQuery(document).ready(function(){
+    var listItems = jQuery(".listItem_" + "7_289589_1355525680_1087757753");
+    var currentTime = new Date().getTime();
+    var updateTimer = 60*60*1000;
+    var tenMinutesAgo = currentTime - updateTimer;
+    var updatedString = "UPDATED";
+    var newString = "NEW";
+    listItems.each(function() {
+      var item = $(this);
+      var modifiedTime = item.attr("updated");
+      var publishedTime = item.attr("created");
+      var linkElement = item.find("a").first();
+      if (modifiedTime != undefined && publishedTime != undefined) {
+        modifiedTime = new Number(modifiedTime);
+        publishedTime = new Number(publishedTime);
+        if (modifiedTime > publishedTime && currentTime > modifiedTime && modifiedTime > tenMinutesAgo) {
+          linkElement.html("<span class='tag'>" + updatedString + "</span>" + linkElement.html());
+        } else if (currentTime > publishedTime && publishedTime > tenMinutesAgo) {
+          linkElement.html("<span class='tag'>" + newString + "</span>" + linkElement.html());
+        }
+      }
+    });
+  });
+</script>            
+            
+    </ul>
+            <div class="bottom-links">
+              <div>
+                    <a  href="/world"  title="International News stories" >International News Stories</a>
+    </div>
+          </div>
+    <div class="clearfix"></div>
+</div>
+
+  
+</div>    <div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+
+  
+  
+  
+    
+    
+
+
+
+<div class="columnsplitter container twoColumns listHorizontal border_top">
+        
+      <div class="column col1 ">
+      
+
+
+
+  
+  
+    <div class="element list none ">
+              <h3>                    <a  href="http://www.cp24.com/entertainment-news"  title="Entertainment News" >Entertainment News<span class="da"></span></a>
+    </h3>
+                  <ul class="linklist ">
+                          
+            
+    <li class="dc">
+                                                      
+
+
+
+
+
+<div style="display: inline-table; width:303px; " class="element teaser">
+              <div class="teaser-image-wrapper teaser-image-top">
+    <div class="teaserImage">
+                                        <a  href="/entertainment-news/cronenberg-fulfills-childhood-dream-with-new-book-consumed-1.2027476"   ><img title='David Cronenberg' height='169' alt='Director David Cronenberg attends the "Maps to the Stars" premiere at Roy Thomson Hall during the Toronto International Film Festival on Tuesday, Sept. 9, 2014, in Toronto. (Photo by Evan Agostini/Invision/AP)' width='300' src='http://www.cp24.com/polopoly_fs/1.2027477!/httpImage/image.jpg_gen/derivatives/landscape_300/image.jpg' /></a>
+                        </div>
+    <div class="bn-headline">
+              <h2 class="teaserTitle">
+                          <a  href="/entertainment-news/cronenberg-fulfills-childhood-dream-with-new-book-consumed-1.2027476"   >Cronenberg fulfills childhood dream with new book 'Consumed'</a>
+        </h2>
+  </div>
+    </div>
+
+     
+</div>
+                                        </li>
+    			      
+            
+    </ul>
+            <div class="bottom-links">
+          </div>
+    <div class="clearfix"></div>
+</div>
+
+  
+</div>
+<div class="column col2 ">
+      
+
+
+
+  
+  
+    <div class="element list none ">
+                  <ul class="linklist vertical">
+                          
+            
+                                <li class='listItem_7_289591_1376336075_1087757836' updated='1411764480000' created='1411764600000'>
+                                                                          <a  href="/entertainment-news/music-news/thom-yorke-to-distribute-new-solo-album-through-bittorrent-1.2026552"  title="Thom Yorke to distribute new solo album through BitTorrent" >Thom Yorke to distribute new solo album through BitTorrent</a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289591_1376336075_1087757836' updated='1411764660000' created='1411761000000'>
+                                                                          <a  href="/entertainment-news/museum-exhibit-opens-at-tina-turner-s-former-school-1.2026433"  title="Museum exhibit opens at Tina Turner's former school" >Museum exhibit opens at Tina Turner's former school</a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289591_1376336075_1087757836' updated='1411760760000' created='1411760880000'>
+                                                                          <a  href="/entertainment-news/jersey-shore-star-nicole-snooki-polizzi-delivers-baby-girl-1.2026426"  title="'Jersey Shore' star Nicole 'Snooki' Polizzi delivers baby girl" >'Jersey Shore' star Nicole 'Snooki' Polizzi delivers baby girl</a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289591_1376336075_1087757836' updated='1411769640000' created='1411739400000'>
+                                                                          <a  href="/entertainment-news/clooney-and-fiancee-arrive-in-venice-for-celebrity-studded-wedding-1.2025775"  title="Clooney and fiancee arrive in Venice for celebrity-studded wedding " >Clooney and fiancee arrive in Venice for celebrity-studded wedding </a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289591_1376336075_1087757836' updated='1411678980000' created='1411679160000'>
+                                                                          <a  href="/entertainment-news/celebrity-news/kardashian-jostled-outside-paris-fashion-show-when-person-lunges-from-crowd-1.2024764"  title="Kardashian jostled outside Paris fashion show when person lunges from crowd" >Kardashian jostled outside Paris fashion show when person lunges from crowd</a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289591_1376336075_1087757836' updated='1411672380000' created='1411672860000'>
+                                                                          <a  href="/entertainment-news/celebrity-news/venice-to-close-area-on-monday-for-clooney-alamuddin-wedding-1.2024541"  title="Venice to close area on Monday for Clooney-Alamuddin wedding" >Venice to close area on Monday for Clooney-Alamuddin wedding</a>
+                                                    </li>
+  <script type="text/javascript">
+  jQuery(document).ready(function(){
+    var listItems = jQuery(".listItem_" + "7_289591_1376336075_1087757836");
+    var currentTime = new Date().getTime();
+    var updateTimer = 60*60*1000;
+    var tenMinutesAgo = currentTime - updateTimer;
+    var updatedString = "UPDATED";
+    var newString = "NEW";
+    listItems.each(function() {
+      var item = $(this);
+      var modifiedTime = item.attr("updated");
+      var publishedTime = item.attr("created");
+      var linkElement = item.find("a").first();
+      if (modifiedTime != undefined && publishedTime != undefined) {
+        modifiedTime = new Number(modifiedTime);
+        publishedTime = new Number(publishedTime);
+        if (modifiedTime > publishedTime && currentTime > modifiedTime && modifiedTime > tenMinutesAgo) {
+          linkElement.html("<span class='tag'>" + updatedString + "</span>" + linkElement.html());
+        } else if (currentTime > publishedTime && publishedTime > tenMinutesAgo) {
+          linkElement.html("<span class='tag'>" + newString + "</span>" + linkElement.html());
+        }
+      }
+    });
+  });
+</script>            
+            
+    </ul>
+            <div class="bottom-links">
+              <div>
+                    <a  href="/entertainment-news"  title="Entertainment News Stories" >Entertainment News Stories</a>
+    </div>
+          </div>
+    <div class="clearfix"></div>
+</div>
+
+  
+</div>    <div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+
+  
+  
+  
+    
+    
+
+
+
+<div class="columnsplitter container twoColumns listHorizontal border_top">
+        
+      <div class="column col1 ">
+      
+
+
+
+  
+  
+    <div class="element list none ">
+              <h3>                    <a  href="/sports"  title="Sports news" >Sports News<span class="da"></span></a>
+    </h3>
+                  <ul class="linklist ">
+                          
+            
+    <li class="dc">
+                                                      
+
+
+
+
+
+<div style="display: inline-table; width:303px; " class="element teaser">
+              <div class="teaser-image-wrapper teaser-image-top">
+    <div class="teaserImage">
+                                        <a  href="/sports/argonauts-place-running-back-chad-kackert-on-practice-roster-1.2027658"   ><img title='Chad Kackert ' height='168' alt='Toronto Argonauts&#39; Chad Kackert, left, is tackled by Hamilton Tiger-Cats&#39; Ike Brown during first half CFL pre-season action in Hamilton on June 13, 2013. (The Canadian Press/ Chris Young)' width='300' src='http://www.cp24.com/polopoly_fs/1.919303!/httpImage/image.jpeg_gen/derivatives/landscape_300/image.jpeg' /></a>
+                        </div>
+    <div class="bn-headline">
+              <h2 class="teaserTitle">
+                          <a  href="/sports/argonauts-place-running-back-chad-kackert-on-practice-roster-1.2027658"   >Argonauts place running back Chad Kackert on practice roster</a>
+        </h2>
+  </div>
+    </div>
+
+     
+</div>
+                                        </li>
+    			      
+            
+    </ul>
+            <div class="bottom-links">
+          </div>
+    <div class="clearfix"></div>
+</div>
+
+  
+</div>
+<div class="column col2 ">
+      
+
+
+
+  
+  
+    <div class="element list none ">
+                  <ul class="linklist vertical">
+                          
+            
+                                <li class='listItem_7_289607_1374091479_1087757920' updated='1411840800000' created='1411840920000'>
+                                                                          <a  href="/sports/airplane-banner-begs-ronaldo-to-leave-madrid-and-return-to-man-united-1.2027622"  title="Airplane banner begs Ronaldo to leave Madrid and return to Man United" >Airplane banner begs Ronaldo to leave Madrid and return to Man United</a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289607_1374091479_1087757920' updated='1411836300000' created='1411817280000'>
+                                                                          <a  href="/sports/europe-leads-10-6-in-ryder-cup-dominates-foursomes-again-1.2027434"  title="Europe leads 10-6 in Ryder Cup, dominates foursomes again" >Europe leads 10-6 in Ryder Cup, dominates foursomes again</a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289607_1374091479_1087757920' updated='1411814880000' created='1411815000000'>
+                                                                          <a  href="/sports/kvitova-wins-wimbledon-rematch-against-bouchard-to-take-wuhan-open-title-1.2027416"  title="Kvitova wins Wimbledon rematch against Bouchard to take Wuhan Open title" >Kvitova wins Wimbledon rematch against Bouchard to take Wuhan Open title</a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289607_1374091479_1087757920' updated='1411787580000' created='1411784640000'>
+                                                                          <a  href="/sports/toronto-maple-leafs-news/bozak-strong-in-pre-season-debut-for-leafs-who-lose-tallinder-to-injury-1.2027318"  title="Bozak strong in pre-season debut for Leafs, who lose Tallinder to injury" >Bozak strong in pre-season debut for Leafs, who lose Tallinder to injury</a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289607_1374091479_1087757920' updated='1411784220000' created='1411784400000'>
+                                                                          <a  href="/sports/toronto-blue-jays-news/pompey-leads-blue-jays-in-4-2-win-against-orioles-1.2027314"  title="Pompey leads Blue Jays  in 4-2 win against Orioles" >Pompey leads Blue Jays  in 4-2 win against Orioles</a>
+                                                    </li>
+        
+            
+                                <li class='listItem_7_289607_1374091479_1087757920' updated='1411775220000' created='1411775400000'>
+                                                                          <a  href="/sports/blatter-insists-world-cup-bid-corruption-probe-must-stay-secret-1.2027099"  title="Blatter insists World Cup bid corruption probe must stay secret" >Blatter insists World Cup bid corruption probe must stay secret</a>
+                                                    </li>
+  <script type="text/javascript">
+  jQuery(document).ready(function(){
+    var listItems = jQuery(".listItem_" + "7_289607_1374091479_1087757920");
+    var currentTime = new Date().getTime();
+    var updateTimer = 60*60*1000;
+    var tenMinutesAgo = currentTime - updateTimer;
+    var updatedString = "UPDATED";
+    var newString = "NEW";
+    listItems.each(function() {
+      var item = $(this);
+      var modifiedTime = item.attr("updated");
+      var publishedTime = item.attr("created");
+      var linkElement = item.find("a").first();
+      if (modifiedTime != undefined && publishedTime != undefined) {
+        modifiedTime = new Number(modifiedTime);
+        publishedTime = new Number(publishedTime);
+        if (modifiedTime > publishedTime && currentTime > modifiedTime && modifiedTime > tenMinutesAgo) {
+          linkElement.html("<span class='tag'>" + updatedString + "</span>" + linkElement.html());
+        } else if (currentTime > publishedTime && publishedTime > tenMinutesAgo) {
+          linkElement.html("<span class='tag'>" + newString + "</span>" + linkElement.html());
+        }
+      }
+    });
+  });
+</script>            
+            
+    </ul>
+            <div class="bottom-links">
+              <div>
+                    <a  href="/sports"  title="Sports News Stories" >Sports News Stories</a>
+    </div>
+          </div>
+    <div class="clearfix"></div>
+</div>
+
+  
+</div>    <div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+
+  
+  
+  
+    
+
+<div class='bug-fix'>
+  
+  
+
+
+
+  
+  
+    
+      
+
+
+
+<div class="columnsplitter container threeColumns border_top">
+      	               <h3>Features </h3>
+          
+      <div class="column col1 ">
+      
+
+
+
+  
+  
+    
+
+
+
+
+
+<div style="display: inline-table;  " class="element teaser">
+              <div class="teaser-image-wrapper teaser-image-top">
+    <div class="teaserImage">
+                                        <a  href="/video?clipId=445942"   ><div class='vid'>false</div><img title='Travelling Toronto: The best way to get around' height='106' alt='Travelling Toronto: The best way to get around' width='190' src='http://www.cp24.com/polopoly_fs/1.2015576!/httpImage/image.jpg_gen/derivatives/box_190/image.jpg' /></a>
+                        </div>
+    <div class="bn-headline">
+              <h2 class="teaserTitle">
+                                                                                <a  href="/video?clipId=445942"   ><span class='vidWatch'>WATCH:</span>Travelling Toronto: The best way to get around</a>
+        </h2>
+  </div>
+    </div>
+
+    <div class="lead-top teaserLead">
+    <p>
+      In this CP24.com original report, an in-depth look at congestion in Toronto, and the best way to get the city moving. 
+          </p>
+  </div>
+   
+</div>
+
+  
+</div>
+<div class="column col2 ">
+      
+
+
+
+  
+  
+    
+
+
+
+
+
+<div style="display: inline-table;  " class="element teaser">
+              <div class="teaser-image-wrapper teaser-image-top">
+    <div class="teaserImage">
+                                        <a  href="/news/2014-municipal-elections"   ><img title='Election ballot box' height='106' alt='An undated file photo of an election ballot box. ' width='190' src='http://www.cp24.com/polopoly_fs/1.882202!/httpImage/image.jpeg_gen/derivatives/box_190/image.jpeg' /></a>
+                        </div>
+    <div class="bn-headline">
+              <h2 class="teaserTitle">
+                          <a  href="/news/2014-municipal-elections"   >Your Vote 2014</a>
+        </h2>
+  </div>
+    </div>
+
+    <div class="lead-top teaserLead">
+    <p>
+      On Oct. 27, the GTA will go to the polls to elect their new city councils. Catch up on the campaigns here.
+          </p>
+  </div>
+   
+</div>
+
+  
+</div>
+<div class="column col3 ">
+      
+
+
+
+  
+  
+    
+
+
+
+
+
+<div style="display: inline-table;  " class="element teaser">
+              <div class="teaser-image-wrapper teaser-image-top">
+    <div class="teaserImage">
+                                        <a  href="/photo-galleries/farewell-to-summer-2014-1.2020320"   ><div class='gal'>&nbsp;</div><img title='CNEgallery14.jpg' height='106' alt='A boy watches a ride at the Canadian National Exhibition in Toronto on Saturday, August 23, 2014. THE CANADIAN PRESS/Chris Young' width='190' src='http://www.cp24.com/polopoly_fs/1.1985466!/httpImage/image.jpg_gen/derivatives/box_190/image.jpg' /></a>
+                        </div>
+    <div class="bn-headline">
+              <h2 class="teaserTitle">
+                          <a  href="/photo-galleries/farewell-to-summer-2014-1.2020320"   >Farewell to summer 2014</a>
+        </h2>
+  </div>
+    </div>
+
+    <div class="lead-top teaserLead">
+    <p>
+      As we enter into the fall season, here is a look back at this year's summer in the city. 
+          </p>
+  </div>
+   
+</div>
+
+  
+</div>    <div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+
+  
+
+  </div>
+  
+  
+  
+    
+
+<div class='cp24BreakfastPromo'>
+  
+  
+
+
+
+  
+  
+    <script>
+function changeImage()
+{
+    var img = document.getElementById("changeIMG");
+    img.src = images[x];
+    x++;
+
+    if(x >= images.length){
+        x = 0;
+    }
+
+    fadeImg(img, 0, true);
+    setTimeout("changeImage()", 5000);
+}
+
+function fadeImg(el, val, fade){
+    if(fade === true){
+        val--;
+    }else{
+        val ++;
+    }
+
+    if(val > 0 && val < 100){
+        el.style.opacity = val / 100;
+        setTimeout(function(){fadeImg(el, val, fade);}, 10);
+    }
+}
+
+var images = [];
+x = 0;
+
+images[0] = "/polopoly_fs/7.560875!/httpImage/image.jpg";
+images[1] = "/polopoly_fs/7.560877!/httpImage/image.jpg";
+setTimeout("changeImage()", 5000);
+
+</script>
+
+<img src="/polopoly_fs/7.560875!/httpImage/image.jpg" id="changeIMG" alt="" />
+  
+  
+  
+                                    
+<div class="mainnavigation_wrapper ">
+<div class="mainnavigation_subnavigation_wrapper">
+<nav class="mainnavigation container" >
+        <ul class="menu menuSite menuTwo section-links">
+            
+                      
+                                    
+                        						            
+            <li class="mainnavigation_item item_7289735 bm- ">
+            <span class="mainnavigation_item_text">
+                          <span class="navlink">
+                                    <a  href="/cp24-breakfast"  title="CP24 Breakfast" >All Videos</a>
+                  </span>
+            
+                        </span>
+            </li>
+                
+                      
+                                    
+                        						            
+            <li class="mainnavigation_item item_7289736 bm- ">
+            <span class="mainnavigation_item_text">
+                          <span class="navlink">
+                                    <a  href="/cp24-breakfast/milestones"  title="Milestones" >Milestones</a>
+                  </span>
+            
+                        </span>
+            </li>
+                
+                      
+                                    
+                        						            
+            <li class="mainnavigation_item item_7289737 bm- ">
+            <span class="mainnavigation_item_text">
+                          <span class="navlink">
+                                    <a  href="/cp24-breakfast/wakeup-call"  title="Wakeup Call" >Wakeup Call</a>
+                  </span>
+            
+                        </span>
+            </li>
+                
+                      
+                                    
+                        						            
+            <li class="mainnavigation_item item_7300261 bm- ">
+            <span class="mainnavigation_item_text">
+                          <span class="navlink">
+                                    <a  href="/cp24-breakfast/breakfast-blog"  title="Breakfast Blog " >Breakfast Blog</a>
+                  </span>
+            
+                        </span>
+            </li>
+                    </ul>
+</nav>
+                             <div class="drop_down link_id_7289735" style="display:none;">
+                          <script type="text/javascript">
+          jQuery(document).ready(function() {
+            jQuery(".item_7289735").click(click_7289735);
+            jQuery(".link_id_7289735 .close").click(click_7289735);
+          });
+          </script>
+        </div>
+            <script type="text/javascript">
+          function click_7289735() {
+            var itemSelector = ".item_7289735";
+            var selector = ".link_id_7289735";
+            var shouldOpen = ((jQuery(selector + ":visible").size() <= 0) && (jQuery(selector + " div").size() > 0));
+            if (jQuery(".drop_down:visible").size() > 0) {
+              jQuery(".drop_down:visible").hide();
+              jQuery(".mainnavigation_item").removeClass("active");
+            }
+            if(shouldOpen) {
+              jQuery(selector).slideDown();
+              jQuery(itemSelector).toggleClass("active");
+            }
+          }
+      </script>
+                                       <div class="drop_down link_id_7289736" style="display:none;">
+                          <script type="text/javascript">
+          jQuery(document).ready(function() {
+            jQuery(".item_7289736").click(click_7289736);
+            jQuery(".link_id_7289736 .close").click(click_7289736);
+          });
+          </script>
+        </div>
+            <script type="text/javascript">
+          function click_7289736() {
+            var itemSelector = ".item_7289736";
+            var selector = ".link_id_7289736";
+            var shouldOpen = ((jQuery(selector + ":visible").size() <= 0) && (jQuery(selector + " div").size() > 0));
+            if (jQuery(".drop_down:visible").size() > 0) {
+              jQuery(".drop_down:visible").hide();
+              jQuery(".mainnavigation_item").removeClass("active");
+            }
+            if(shouldOpen) {
+              jQuery(selector).slideDown();
+              jQuery(itemSelector).toggleClass("active");
+            }
+          }
+      </script>
+                                       <div class="drop_down link_id_7289737" style="display:none;">
+                          <script type="text/javascript">
+          jQuery(document).ready(function() {
+            jQuery(".item_7289737").click(click_7289737);
+            jQuery(".link_id_7289737 .close").click(click_7289737);
+          });
+          </script>
+        </div>
+            <script type="text/javascript">
+          function click_7289737() {
+            var itemSelector = ".item_7289737";
+            var selector = ".link_id_7289737";
+            var shouldOpen = ((jQuery(selector + ":visible").size() <= 0) && (jQuery(selector + " div").size() > 0));
+            if (jQuery(".drop_down:visible").size() > 0) {
+              jQuery(".drop_down:visible").hide();
+              jQuery(".mainnavigation_item").removeClass("active");
+            }
+            if(shouldOpen) {
+              jQuery(selector).slideDown();
+              jQuery(itemSelector).toggleClass("active");
+            }
+          }
+      </script>
+                                       <div class="drop_down link_id_7300261" style="display:none;">
+                          <script type="text/javascript">
+          jQuery(document).ready(function() {
+            jQuery(".item_7300261").click(click_7300261);
+            jQuery(".link_id_7300261 .close").click(click_7300261);
+          });
+          </script>
+        </div>
+            <script type="text/javascript">
+          function click_7300261() {
+            var itemSelector = ".item_7300261";
+            var selector = ".link_id_7300261";
+            var shouldOpen = ((jQuery(selector + ":visible").size() <= 0) && (jQuery(selector + " div").size() > 0));
+            if (jQuery(".drop_down:visible").size() > 0) {
+              jQuery(".drop_down:visible").hide();
+              jQuery(".mainnavigation_item").removeClass("active");
+            }
+            if(shouldOpen) {
+              jQuery(selector).slideDown();
+              jQuery(itemSelector).toggleClass("active");
+            }
+          }
+      </script>
+           </div>
+</div>
+  
+  
+  
+    
+    
+
+
+
+<div class="columnsplitter container twoColumns none">
+        
+      <div class="column col1 ">
+      
+
+
+
+  
+  
+    <div class="element list videoPromosHomepage ">
+              <ul class="linklist ">
+                      
+      
+            
+              <li class="dc grid">
+                                            
+
+
+
+
+
+<div style="display: inline-table; width:138px; " class="element teaser">
+              <div class="teaser-image-wrapper teaser-image-top">
+    <div class="teaserImage">
+                                        <a  href="/video?clipId=452922"   ><div class='vid'>false</div><img title='Divine Brown' height='76' alt='Divine Brown' width='135' src='http://www.cp24.com/polopoly_fs/1.2027512!/httpImage/image.jpg_gen/derivatives/landscape_135/image.jpg' /></a>
+                        </div>
+    <div class="bn-headline">
+              <h2 class="teaserTitle">
+                                                                                <a  href="/video?clipId=452922"   ><span class='vidWatch'>WATCH:</span>Divine Brown</a>
+        </h2>
+  </div>
+    </div>
+
+     
+</div>
+                                                  
+            
+                                                
+
+
+
+
+
+<div style="display: inline-table; width:138px; " class="element teaser">
+              <div class="teaser-image-wrapper teaser-image-top">
+    <div class="teaserImage">
+                                        <a  href="/video?clipId=452923"   ><div class='vid'>false</div><img title='Steel Band' height='76' alt='Steel Band' width='135' src='http://www.cp24.com/polopoly_fs/1.2027513!/httpImage/image.jpg_gen/derivatives/landscape_135/image.jpg' /></a>
+                        </div>
+    <div class="bn-headline">
+              <h2 class="teaserTitle">
+                                                                                <a  href="/video?clipId=452923"   ><span class='vidWatch'>WATCH:</span>All Star Steel Orchestra </a>
+        </h2>
+  </div>
+    </div>
+
+     
+</div>
+                                              <div class="clearfix"></div></li>
+                    
+            
+    </ul>
+            <div class="bottom-links">
+          </div>
+    <div class="clearfix"></div>
+</div>
+
+  
+</div>
+<div class="column col2 ">
+      
+
+
+
+  
+  
+    
+
+
+
+
+
+<div style="display: inline-table;  " class="element teaser">
+              <div class="teaserText largeVersion">
+<div class="bn-headline">
+    <span class="tag">Monday, September 29, 2014 </span>          <h2 class="teaserTitle">
+          What's On
+        </h2>
+  </div>
+        <div class="lead-left teaserLead">
+    <p>
+            Sarah-Louise Young from the stage show 'Julie Madly Deeply' will be in our studio! Follow <a href="http://www.twitter.com/cp24breakfast" target="_blank">@CP24Breakfast</a> on Twitter!     </p>
+    
+  </div>
+</div>
+   
+</div>
+
+  
+</div>    <div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+
+  
+
+  </div>
+  
+  
+  
+    
+
+<div class='bug-fix'>
+  
+  
+
+
+
+  
+  
+    
+      
+
+
+
+<div class="columnsplitter container threeColumns border_top">
+        
+      <div class="column col1 ">
+      
+
+
+
+  
+  
+    <a href="http://www.cp24.com/talk-shows" style="color:#797979"><h2 class="teaserTitle">Talk Shows</h2></a>
+  
+  
+  
+    
+
+
+
+
+
+<div style="display: inline-table;  " class="element teaser">
+              <div class="teaser-image-wrapper teaser-image-top">
+    <div class="teaserImage">
+                                        <a  href="/talk-shows/live-at-noon"   ><img title='Live at Noon - video image' height='107' alt='Live at Noon - video image' width='190' src='http://www.cp24.com/polopoly_fs/1.1134687!/httpImage/image.jpeg_gen/derivatives/landscape_190/image.jpeg' /></a>
+                        </div>
+    <div class="bn-headline">
+              <h2 class="teaserTitle">
+                          <a  href="/talk-shows/live-at-noon"   >Live at Noon</a>
+        </h2>
+  </div>
+    </div>
+
+    <div class="lead-top teaserLead">
+    <p>
+      Tune into the always charismatic Stephen LeDrew, on Live at Noon, as he explores the latest news and events affecting Toronto.
+          </p>
+  </div>
+   
+</div>
+
+  
+</div>
+<div class="column col2 ">
+      
+
+
+
+  
+  
+    <a href="http://www.cp24.com/commuter-centre/traffic/traffic-alert" style="color:#797979"><h2 class="teaserTitle">CP24 Traffic Alert App</h2></a>
+  
+  
+  
+    
+
+
+
+
+
+<div style="display: inline-table;  " class="element teaser">
+              <div class="teaser-image-wrapper teaser-image-top">
+    <div class="teaserImage">
+                                        <a  href="/commuter-centre/traffic/traffic-alert"   ><img title='app' height='143' alt='app' width='190' src='http://www.cp24.com/polopoly_fs/1.165152!/httpImage/image._gen/derivatives/landscape_190/image.' /></a>
+                        </div>
+    <div class="bn-headline">
+              <h2 class="teaserTitle">
+                          <a  href="/commuter-centre/traffic/traffic-alert"   >CP24 Traffic Alert App</a>
+        </h2>
+  </div>
+    </div>
+
+    <div class="lead-top teaserLead">
+    <p>
+      Download the Traffic Alert app for your smartphone now. Learn how to find and install it. 
+          </p>
+  </div>
+   
+</div>
+
+  
+</div>
+<div class="column col3 ">
+      
+
+
+
+  
+  
+    
+
+<div class='teaserNewsletter'>
+  
+  
+
+
+
+  
+  
+    
+
+
+
+
+
+<div style="display: inline-table;  " class="element teaser">
+              <div class="teaser-image-wrapper teaser-image-top">
+    <div class="teaserImage">
+                                        <a  href="/breaking-news-email"   ><img title='Breaking News Alerts thumbnail' height='105' alt='Breaking News Alerts thumbnail' width='190' src='http://www.cp24.com/polopoly_fs/1.859636!/httpImage/image.jpeg_gen/derivatives/landscape_190/image.jpeg' /></a>
+                        </div>
+    <div class="bn-headline">
+              <h2 class="teaserTitle">
+                          <a  href="/breaking-news-email"   >News Alerts</a>
+        </h2>
+  </div>
+    </div>
+
+    <div class="lead-top teaserLead">
+    <p>
+      CP24 is pleased to offer you breaking news e-mail alerts that will keep you up-to-date on the latest breaking news.
+          </p>
+  </div>
+   
+</div>
+
+  
+  
+  
+    
+
+<div class='cp24Subscribe'>
+  
+  
+
+
+
+  
+  
+    <div>
+                  <a  href="/breaking-news-email"   >Sign Up/Unsubscribe</a>
+    </div>
+
+  
+
+  </div>
+  
+
+  </div>
+  
+</div>    <div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+
+  
+
+  </div>
+  
+  
+  
+    <div class="footer-logos-cp24"><a class="footer-logo-link" href="http://twitter.com/#!/CP24"><img src="http://static.ctvnews.ca/bellmedia/cp24/img/logos/footer-logo_twitter.jpg" height="60" width="164" alt="Follow Us on Twitter" /></a><a class="footer-logo-link" href="http://www.cp24.com/lotto/"><img src="http://static.ctvnews.ca/bellmedia/cp24/img/logos/footer-logo_lotto.jpg" height="65" width="169" alt="OLG" /></a><a class="footer-logo-link" href="http://m.cp24.com/"><img src="http://static.ctvnews.ca/bellmedia/cp24/img/logos/footer-logo_cp24-mobile.jpg" height="48" width="141" alt="CP24 Mobile" /></a></div>
+  
+      </div><!-- END .content-primary -->
+    
+    <!-- if(content.righttop || content.boxads) -->
+          <div class="content-secondary">
+                <div class="sidebar">
+                      
+
+
+
+  
+  
+    <!--
+<style> .blogPromo .teaser{ border-top: 4px solid #797979; border-bottom: 4px solid #797979; margin-top: 1em !important; margin-bottom: 0em !important; padding: 1em 0 1em 0 !important; } </style>
+-->
+  
+  
+  
+                                        <div class="boxAd ">
+							                            <div class="advert">
+                
+                                
+                              
+                          
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+                    
+            
+                  googletag.defineSlot('/5479/ctv.cp24/home/index', [[300,250],[300,600],[300,1050]], 'div-gpt-ad-300_250-2')
+            .addService(googletag.pubads())
+	  	  	  .addService(googletag.companionAds());  
+    });
+</script>                 
+        <div id="div-gpt-ad-300_250-2">
+					<script type="text/javascript">  
+						googletag.cmd.push(function() { googletag.display("div-gpt-ad-300_250-2"); });         
+					</script>
+		    </div>
+
+                    </div>
+                            								<p class="ad-below">Advertisement</p>
+							            </div>
+            
+  
+  
+  
+  
+    
+             
+
+<div class="element tabviewelement bothSideAlign">
+
+  
+
+
+     <div id="tabs_7_372090_1387476290_1087758050" class="bothSideAlign">
+    <ul>
+      
+      <li><a href="#tabs_7_372090_1387476290_1087758050_tab1"><span Style="width:147px;">Today's Question</span></a></li>
+      
+      <li><a href="#tabs_7_372090_1387476290_1087758050_tab2"><span Style="width:147px;">Most Popular</span></a></li>
+        </ul>
+        <div id="tabs_7_372090_1387476290_1087758050_tab1">
+
+<div>
+  
+  
+
+
+
+  
+  
+      <div class="element poll ">
+            <div class="pollContentpoll7_562006_19 pollQuestion" style="display:none;">
+        <div class="pollContainer">
+      
+              <form method="post" action="/poll" id="formpoll7_562006_19" onsubmit="return false;">
+                      <h2 class="questionHdr"> TODAY'S QUESTION </h2>
+                    <fieldset><h4 class="questionCopy">The municipal election is one month from today. Have you made up your mind on who you will vote for? </h4>
+            <input type="hidden" name="pollId" value="poll_7_562006" />
+            <input type="hidden" name="questionId" value="0" />
+                        <input type="hidden" name="forward" value="/today-s-question-7.562006?ot=AjaxLayout&mode=www" />
+                        
+                                              <button name="answerId" class="todayPoll submit" value="0" type="submit"><div>Yes</div></button>
+                                  <button name="answerId" class="todayPoll submit" value="1" type="submit"><div>No</div></button>
+                                              
+                              <div class="linkContainer">
+                                      <div class="viewResult" onclick="getPollpoll7_562006_19('/today-s-question-7.562006?ot=AjaxLayout&mode=www&amp;showResult=true', 'poll7_562006_19')">View result</div> 
+                                  </div>
+                        </fieldset>
+        </form>
+        <script type="text/javascript">
+          jQuery(document).ready(function() {
+              jQuery("#formpoll7_562006_19").ajaxForm(function(data) {
+                  fadeInResult("poll7_562006_19", data);
+                  return false;
+              });
+          });
+        </script>
+          <script type="text/javascript">
+    jQuery(document).ready(function() {
+      var pollId = 'poll7_562006_19';
+      jQuery(".pollContent" + pollId).fadeTo("slow", 1);
+    });
+        function fadeInResult(pollId, data) {
+      jQuery(".pollContent" + pollId).fadeTo("slow",0, function() {
+        jQuery(".pollContent" + pollId).replaceWith(data);
+        jQuery(".pollContent" + pollId).fadeTo("slow", 1);
+      });
+    }  
+    
+        function getPollpoll7_562006_19(requestUrl, pollId) {
+      jQuery.ajax({
+        url: requestUrl + '&standalone=false',
+        success: function(data) {
+            fadeInResult(pollId, data);
+          }
+      });
+    }
+  </script>
+</div>
+
+
+              </div>
+              </div>
+
+  
+
+  </div></div>
+        <div id="tabs_7_372090_1387476290_1087758050_tab2"><div class="element list none ">
+                  <ul class="linklist vertical">
+                                  
+            
+                <li>
+      
+                                               
+                                <a  href="/news/man-fatally-stabbed-in-city-s-east-end-1.2027406"  title="Man fatally stabbed in city's east end" >Man fatally stabbed in city's east end</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/world/police-man-fired-from-oklahoma-food-processing-plant-beheaded-co-worker-1.2027413"  title="Police: Man fired from Oklahoma food processing plant beheaded co-worker" >Police: Man fired from Oklahoma food processing plant beheaded co-worker</a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/news/2014-municipal-elections/rob-ford-canvasses-in-etobicoke-will-attend-bbq-saturday-1.2027293"  title="Rob Ford canvasses in Etobicoke, will attend BBQ Saturday " >Rob Ford canvasses in Etobicoke, will attend BBQ Saturday </a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/news/investigation-underway-after-man-shot-in-both-legs-in-scarborough-1.2027415"  title="Investigation underway after man shot in both legs in Scarborough " >Investigation underway after man shot in both legs in Scarborough </a>
+                                                    </li>
+        
+            
+                <li>
+      
+                                               
+                                <a  href="/news/ford-to-speak-at-campaign-bbq-as-mayoral-race-begins-final-month-1.2027538"  title="Ford to speak at campaign BBQ as mayoral race begins final month" >Ford to speak at campaign BBQ as mayoral race begins final month</a>
+                                                    </li>
+              
+            
+    </ul>
+            <div class="bottom-links">
+          </div>
+    <div class="clearfix"></div>
+</div>
+</div>
+      </div>
+<script type="text/javascript">
+    jQuery(document).ready(
+      function(){
+        requiresDependency('http://static.ctvnews.ca/bellmedia/common/js/jquery-ui-tabs-1.5.packed.js', function() {
+          requiresDependency('http://static.ctvnews.ca/bellmedia/common/js/jquery-ui-1.8.18.custom.min.js', function() {
+            jQuery("#tabs_7_372090_1387476290_1087758050 > ul").tabs();
+          });
+        });
+      });
+    </script>
+
+</div>
+  
+  
+  
+    
+
+<div style='CP24 Social Story' class='cp24-social-story'>
+      <style> .sidebar .cp24-social-story .linklist li.dc.teaserLink { background: none; padding: 0; } .content-secondary .cp24-social-story .teaser .teaserTitle a { font-size: 16px; line-height: 1.2; } .sidebar .cp24-social-story .linklist a, .sidebar .cp24-social-story .teaserLink a { padding: 0; } .sidebar .cp24-social-story .linklist a, .sidebar .cp24-social-story .teaserLink a { padding: 0; } .sidebar .cp24-social-story .listHorizontalTop .teaserTitle a, .sidebar .cp24-social-story .topstorybn .teaserTitle a { padding: 10px !important; width: 280px; } </style>
+  
+  
+
+
+
+  
+  
+    <div class="element list topstorybn ">
+              <h3>                    <a  href="/news/top-social-stories"  title="More Viral Hits" >Social Story of the Day<span class="da"></span></a>
+    </h3>
+                  <ul class="linklist ">
+                          
+            
+          <li class="dc teaserLink">
+                                                                
+
+
+
+
+
+<div style="display: inline-table; width:300px; " class="element teaser">
+              <div class="teaser-image-wrapper teaser-image-top">
+    <div class="teaserImage">
+                                        <a  href="/news/man-leaves-37-000-pounds-of-chicken-to-rot-at-truck-stop-in-montana-say-police-1.2025549"   ><img title='Rotten chicken, Flying J truck stop, Dixie River' height='168' alt='Rotten chicken, Flying J truck stop, Dixie River' width='300' src='http://www.cp24.com/polopoly_fs/1.2025552!/httpImage/image.jpg_gen/derivatives/landscape_300/image.jpg' /></a>
+                        </div>
+    <div class="bn-headline">
+              <h2 class="teaserTitle">
+                          <a  href="/news/man-leaves-37-000-pounds-of-chicken-to-rot-at-truck-stop-in-montana-say-police-1.2025549"   >Man leaves 37,000 pounds of chicken to rot at truck stop in Montana, say police</a>
+        </h2>
+  </div>
+    </div>
+
+     
+</div>
+                                              </li>
+            
+            
+                <li>
+                                                                                    <a  href="/news/canadian-accused-of-smuggling-had-51-live-turtles-stuffed-in-pants-1.2024650"  title="Canadian accused of smuggling had 51 live turtles stuffed in pants" >Canadian accused of smuggling had 51 live turtles stuffed in pants</a>
+                                                          </li>
+            
+            
+                <li>
+                                                                                    <a  href="/news/tim-hortons-turns-calgary-home-into-pop-up-coffee-shop-1.2021941"  title="Tim Hortons turns Calgary home into pop-up coffee shop" >Tim Hortons turns Calgary home into pop-up coffee shop</a>
+                                                          </li>
+            
+            
+                <li>
+                                                                                    <a  href="/world/police-officers-deliver-the-pie-after-pizza-hut-driver-injured-in-crash-1.2020115"  title="Police officers deliver the pie after Pizza Hut driver injured in crash " >Police officers deliver the pie after Pizza Hut driver injured in crash </a>
+                                                          </li>
+            
+            
+                <li>
+                                                                                    <a  href="/news/independence-leader-announces-resignation-after-scotland-votes-to-remain-in-u-k-1.2014415"  title="Independence leader announces resignation after Scotland votes to remain in U.K." >Independence leader announces resignation after Scotland votes to remain in U.K.</a>
+                                                          </li>
+                  
+            
+    </ul>
+            <div class="bottom-links">
+              <div>
+                    <a  href="/news/top-social-stories"  title="More Viral Hits" >More Viral Hits</a>
+    </div>
+          </div>
+    <div class="clearfix"></div>
+</div>
+
+  
+
+  </div>
+  
+  
+  
+    
+<div class="element facebookElement">
+  <div class="facebookElementName"></div>
+  <div id="fb-root"></div>
+<script type="text/javascript">
+jQuery(document).ready(
+  function(){
+    window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '117341078420651', // App ID
+          channelUrl : 'http://static.ctvnews.ca/bellmedia/common/channel.html', // Channel File
+          status     : true, // check login status
+          cookie     : true, // enable cookies to allow the server to access the session
+          xfbml      : true  // parse XFBML
+        });
+        // Additional initialization code here
+    };
+    requiresDependency('//connect.facebook.net/en_US/all.js#xfbml=1&appId=117341078420651', function() {}, 'facebook-jssdk');
+  });
+</script>
+    
+                    <div class="fb-like-box" data-href="http://www.facebook.com/#!/CP24Toronto" data-width="300" data-show-faces="false" data-stream="false" data-header="false"></div>
+  
+    </div>
+  
+  
+  
+    <br/>
+  
+  
+  
+    
+
+<div class='bug-fix buttonCarousel'>
+      <style>
+.buttonCarousel h3{ font-family: arial; font-size: 0.9em; }
+</style>
+  
+  
+
+
+
+  
+  
+       <div class="carousel"> 
+
+      <h3 class="c-header-none">Sponsored <span class="da"></span></h3>
+    
+  <div id="f_7_459069_1411847654459" class="none" style="visibility: hidden">    
+    <ul>
+              <li style="width: 300px;">
+      <div>
+    
+
+
+
+
+
+<div style="display: inline-table; width:300px; " class="element teaser">
+              <div class="teaser-image-wrapper teaser-image-top">
+    <div class="teaserImage">
+                                        <a  href="http://pubads.g.doubleclick.net/gampad/clk?id=50070799&amp;iu=/5479/ctv.cp24"   ><img title='CP24 Travel Guide, Sponsored by Sunquest' height='100' alt='CP24 Travel Guide, Sponsored by Sunquest' width='300' src='http://www.cp24.com/polopoly_fs/1.1495248!/image/image.jpg_gen/derivatives/landscape_300/image.jpg' /></a>
+                        </div>
+    <div class="bn-headline">
+      </div>
+    </div>
+
+     
+</div>
+      </div>
+    </li>
+      </ul>
+  </div>
+  
+        <script type="text/javascript">
+  jQuery(document).ready(function() {
+  requiresDependency('http://static.ctvnews.ca/bellmedia/common/js/jcarousellite_1.0.1.min.js', function() {
+      jQuery("#f_7_459069_1411847654459").jCarouselLite({
+        auto: 3000,
+        speed: 3000,
+        vertical: false,
+        visible: 1,
+        btnNext: ".C-next",
+        btnPrev: ".C-prev",
+        start: 0,
+        circular: true
+      });
+			$('#f_7_459069_1411847654459').css("visibility", "visible");
+    });
+  });
+  </script>
+ 
+
+</div>
+
+  
+  
+  
+    
+
+<div>
+  
+  
+
+
+
+  
+  
+       <div class="carousel"> 
+
+      <h3 class="c-header-none">Community <span class="da"></span></h3>
+    
+  <div id="f_7_459059_1411847654464" class="none" style="visibility: hidden">    
+    <ul>
+              <li style="width: 300px;">
+      <div>
+    
+
+
+
+
+
+<div style="display: inline-table; width:300px; " class="element teaser">
+              <div class="teaser-image-wrapper teaser-image-top">
+    <div class="teaserImage">
+                                        <a  href="/commuter-centre/traffic/traffic-alert"   ><img title='CP24 Traffic Alert app' height='100' alt='CP24 Traffic Alert app' width='300' src='http://www.cp24.com/polopoly_fs/1.1902300!/httpImage/image.jpg_gen/derivatives/landscape_300/image.jpg' /></a>
+                        </div>
+    <div class="bn-headline">
+      </div>
+    </div>
+
+     
+</div>
+      </div>
+    </li>
+      </ul>
+  </div>
+  
+        <script type="text/javascript">
+  jQuery(document).ready(function() {
+  requiresDependency('http://static.ctvnews.ca/bellmedia/common/js/jcarousellite_1.0.1.min.js', function() {
+      jQuery("#f_7_459059_1411847654464").jCarouselLite({
+        auto: 0,
+        speed: 0,
+        vertical: false,
+        visible: 1,
+        btnNext: ".C-next",
+        btnPrev: ".C-prev",
+        start: 0,
+        circular: true
+      });
+			$('#f_7_459059_1411847654464').css("visibility", "visible");
+    });
+  });
+  </script>
+ 
+
+</div>
+
+  
+
+  </div>
+  
+
+  </div>
+  
+  
+  
+    <br/>
+  
+  
+  
+    <div class="element TwitterWidget">
+
+<h3>Latest CP24 Tweets</h3>
+  
+<a class="twitter-timeline" data-dnt="true" height="450" href="https://twitter.com/CP24"  data-widget-id="344888780668416001">Tweets by @CP24</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
+
+  
+  
+  
+    <h2><a href="http://www.cp24.com/cp24-supports">CP24 Supports</a></h2>
+
+<script type="text/javascript" src="http://www.trumba.com/scripts/spuds.js"></script>
+
+<script type="text/javascript">
+$Trumba.addSpud({
+  webName: "cp24-links-24",
+  spudType : "upcomingphoto"    ,
+  url : { filterview : "featured" }  ,
+  teaserBase : "http://www.cp24.com/cp24-supports"  });
+</script>
+
+
+  
+  
+  
+    <br/>
+  
+  
+  
+    <div class="iframe_element">
+        <script type="text/javascript">
+    jQuery(document).ready(function() {
+      var iframeSrc_7289798 = 'http://events.cp24.com/widget?mode=short';
+      var iframeWidth_7289798 = '300' + 'px';
+      var iframeHeight_7289798 = '360' + 'px';
+      var iframeScrolling_7289798 = 'no';
+      var iframeStyle_7289798 = 'border:0px; overflow:' + 'hidden';
+      var iframes = jQuery(".iframe_" + 7289798);
+      iframes.each(function(i) {
+        var el = jQuery(this);
+        if (el.attr("src") == "") {
+          el.attr("style", iframeStyle_7289798);
+          el.attr("scrolling", iframeScrolling_7289798);
+          el.attr("src", iframeSrc_7289798);
+          el.attr("width", iframeWidth_7289798);
+          el.attr("height", iframeHeight_7289798);
+                            }
+      });
+      
+    });
+  </script>
+  
+  <iframe class="iframe_7289798" frameborder="0" src="" width="0" height="0" scrolling="" style=""></iframe>
+  <noscript>
+    <a href="http://events.cp24.com/widget?mode=short" target="_blank">Events</a>
+  </noscript>
+</div>
+
+  
+
+  
+                  </div><!-- END .sidebar -->
+      </div><!-- END div.content-secondary -->
+        <footer class="content-footer">
+              
+
+
+
+           
+      
+
+
+
+  
+  
+    
+
+<div class='footernav'>
+      <nav>
+  
+  
+
+
+
+  
+  
+    <div>
+                    <a  href="/"  title="CP24 Home" >Home</a>
+    </div>
+
+  
+  
+  
+    <div>
+                    <a  href="http://jobs.bce.ca/go/jobs-with-bell-media/357957/"  title="Careers" >Careers</a>
+    </div>
+
+  
+  
+  
+    <div>
+                    <a  href="http://www.bellmedia.ca/en/privacy.html"  title="Privacy Policy" >Privacy Policy</a>
+    </div>
+
+  
+  
+  
+    <div>
+                    <a  href="http://www.bellmedia.ca/en/toc.html"  title="Terms and Conditions" >Terms and Conditions</a>
+    </div>
+
+  
+  
+  
+    <div>
+                    <a  href="/more/contact-us"  title="Contact Us" >Contact Us</a>
+    </div>
+
+  
+  
+  
+    <div>
+                    <a  href="/more/about-us"  title="About Us" >About Us</a>
+    </div>
+
+  
+  
+  
+    <div>
+                    <a  href="/more/advertise-on-cp24"  title="Advertise on CP24" >Advertise on CP24</a>
+    </div>
+
+  
+
+      </nav>
+  </div>
+  
+  
+  
+    
+
+<div class='footernav'>
+      <nav>
+  
+  
+
+
+
+  
+  
+    <div>
+                    <a  href="/news"  title="Toronto News" >Toronto News</a>
+    </div>
+
+  
+  
+  
+    <div>
+                    <a  href="http://www.cp24.com/world"  title="World News " >World News</a>
+    </div>
+
+  
+  
+  
+    <div>
+                    <a  href="/weather"  title="Weather, Toronto, GTA, cottage country" >Weather</a>
+    </div>
+
+  
+  
+  
+    
+  
+  
+  
+    <div>
+                    <a  href="/sports"  title="Sports news" >Sports News</a>
+    </div>
+
+  
+  
+  
+    <div>
+                    <a  href="http://www.cp24.com/entertainment-news"  title="Entertainment News" >Entertainment News</a>
+    </div>
+
+  
+
+      </nav>
+  </div>
+  
+  
+  
+    <div class="footer-logos">
+  <a class="footer-logo-link" href="http://www.ctv.ca"><img src="http://static.ctvnews.ca/bellmedia/common/img/logos/footer-logo_ctv.jpg" height="16" width="50" alt="CTV.ca" /></a>
+  <a class="footer-logo-link" href="http://www.ctv.ca"><img src="http://static.ctvnews.ca/bellmedia/common/img/logos/footer-logo_ctv-two.jpg" height="29" width="52" alt="CTV Two" /></a>
+  <a class="footer-logo-link" href="http://www.ctvnews.ca"><img src="http://www.ctvnews.ca/polopoly_fs/7.439307!/httpImage/image.jpg" height="29" width="60" alt="CTVNews"/></a>
+  <a class="footer-logo-link" href="http://www.ctvnews.ca/ctv-news-channel"><img src="http://static.ctvnews.ca/bellmedia/common/img/logos/footer-logo_ctv-news-channel.jpg" height="35" width="56" alt="CTV News Channel" /></a>
+  <a class="footer-logo-link" href="http://www.bnn.ca"><img src="http://static.ctvnews.ca/bellmedia/common/img/logos/footer-logo_bnn.jpg" height="22" width="50" alt="BNN - Business News Network" /></a>
+  <a class="footer-logo-link" href="http://www.cp24.com"><img src="http://static.ctvnews.ca/bellmedia/common/img/logos/footer-logo_cp24.jpg" height="30" width="53" alt="CP24" /></a>
+</div>
+<br/>
+  
+  
+  
+    
+
+<div class='footernav'>
+  
+  
+
+
+
+  
+  
+    
+<script type="text/javascript">
+     var vhBrand = {destinationCode : 'cp24_web', preloadAIS: true}; 
+  	var destCode = {QueryString:function(item){var svalue=location.search.match(new RegExp("[\?\&]"+item+"=([^\&]*)(\&?)", "i"));return svalue?svalue[1]:svalue;}}.QueryString('destinationCode');
+	if (destCode) {vhBrand.destinationCode=destCode;}
+		function jump(h){
+    var top = document.getElementById(h).offsetTop;
+    window.scrollTo(0, top);
+}
+</script>
+
+	<div id="divLogin" class="element tveLoginButtonelement">
+		<div id="divLogIn-7_525535_1402440635_1087758137" class="tve-button-login"><a href="#" style="position:relative;" onclick="axisAuthApi.performAuthentication('login');jump('top'); return false;">Sign In</a></div>
+		<div id="divLogOut-7_525535_1402440635_1087758137" style="display:none;" class="tve-button-logout"><a href="#" onclick="axisAuthApi.performLogout('logout'); Tracking.trackLogout(); return false;">Sign Out</a></div>
+	</div>
+	<script type="text/javascript">
+	requiresDependency('http://cauth.9c9media.com/auth5/axisAuthApi.js', function() {
+  	axisAuthApi.events.addEvent('on_authentication_state_change', function (authenticationStatus, options) {
+  		if (authenticationStatus == true) { 
+  			$('#divLogIn-7_525535_1402440635_1087758137').hide(); $('#divLogOut-7_525535_1402440635_1087758137').show(); 
+			}
+  		else { 
+				$('#divLogIn-7_525535_1402440635_1087758137').show(); $('#divLogOut-7_525535_1402440635_1087758137').hide(); 
+			}
+  	});
+		});
+	</script>
+	<div class="clearfix tvefooter"></div>
+
+  
+  
+  
+    <div>
+                  <a  href="/go"   >CP24 GO</a>
+    </div>
+
+  
+  
+  
+    <div>
+                  <a  href="/faq"   >Video Help</a>
+    </div>
+
+  
+  
+  
+    <div>
+                  <a  href="http://www.cp24.com/mobile"   >Mobile Website</a>
+    </div>
+
+  
+
+      <br/>
+
+  </div>
+  
+  
+  
+    <p class="terms">Use of this Website assumes acceptance of <a href="http://www.bellmedia.ca/en/toc.html" title="Terms &amp; Conditions">Terms &amp; Conditions</a> and <a href="http://www.bellmedia.ca/en/privacy.html" title="Privacy Policy">Privacy Policy</a></p><p class="copyright">&#169; 2014 <a href="http://www.bellmedia.ca/"><img class="copyright" src="http://static.ctvnews.ca/bellmedia/common/img/logos/bellmedia_logo.gif" alt="Bell Media" /></a> All rights reserved.</p><p class="credits">Bell Media Television</p>
+  
+          
+    <p><a class="back-top hidden" href="#top" title="skip to top of page">Back to top</a></p>
+
+</footer><!-- END #content-footer -->  </div><!-- END div.content-wrapper -->
+</div><!-- END .content -->
+                          <script type="text/javascript" src="http://static.ctvnews.ca/bellmedia/common/js/jquery.form.js" ></script>
+                        <script type="text/javascript" src="http://static.ctvnews.ca/bellmedia/common/js/common.js" ></script>
+                        <script type="text/javascript" src="http://metrics.ctvdigital.net/comscore/beacon.js" ></script>
+                    <script type="text/javascript">
+                var _sf_async_config={uid:2895,domain:'ctv.ca'};
+    var loadPublishflow = function() {
+      jQuery(window).load(function() {
+        window._sf_endpt=(new Date()).getTime();
+      });
+    };
+    var pf_src = ('https:'   == document.location.protocol ? 'https://s3.amazonaws.com/'   : 'http://s3.amazonaws.com/') + 'publishflow/javascript/data.js';
+    requiresDependency(pf_src,loadPublishflow);
+</script>                    <script type="text/javascript">
+        var _gaq = _gaq || []; 
+                        _gaq.push(['_setAccount', 'UA-19847838-1']);
+    _gaq.push(['_setDomainName', 'cp24.com']);
+          _gaq.push(['_trackPageview']);
+    
+    jQuery(document).ready(function() {
+        var insertGATriggers = function() {
+                    jQuery("a[data-gaTrackingEvent]").bind('click', function() {
+            var gaTrackingEvent = jQuery(this).attr('data-gaTrackingEvent');
+            var gaTrackingCategory = jQuery(this).attr('data-gaTrackingCategory');
+            var gaTrackingAction = jQuery(this).attr('data-gaTrackingAction');
+            var gaTrackingLabel = jQuery(this).attr('data-gaTrackingLabel');
+            if (typeof gaTrackingLabel == 'undefined') {
+                gaTrackingLabel = "";
+            }
+            _gaq.push([gaTrackingEvent, gaTrackingCategory, gaTrackingAction, gaTrackingLabel]);
+          });
+        };
+        var ga_src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        requiresDependency(ga_src,insertGATriggers);
+    });
+</script>            <img src='/logger/p.gif?d=/2.628/2.629/2.614' alt='' />    <script type="text/javascript">
+    jQuery('body').bind('logger', function(event) {
+      if (event.a) {
+        if (!event.d) {
+          event.d = '/2.628/2.629/2.614';
+        }
+        jQuery.ajax({url:'/logger/p.gif', data:{a:event.a, d:event.d}});
+      }
+    });
+  </script>
+                
+      
+  <script type="text/javascript"> _AUTO_TRACK = false; </script>
+            <script type="text/javascript" src="http://components.bellmedia.ca/tracking/Include"></script>
+  <script type="text/javascript" src="http://static.ctvnews.ca/bellmedia/common/js/omnitureTVE.js"></script>
+    <script type="text/javascript">s.trackExternalLinks = false;</script>
+  <script type="text/javascript">
+                          
+  setupOmnitureTracking("ctvgmtvecp24desktop", "CP24", "News", "CP24","home", "www", "CP24", "true", false, false);
+  
+  </script>
+
+         <script type="text/javascript">
+      jQuery(document).ready(
+      function(){
+                              trackPage(false);
+                        });
+      </script>
+     </body>
+</html>

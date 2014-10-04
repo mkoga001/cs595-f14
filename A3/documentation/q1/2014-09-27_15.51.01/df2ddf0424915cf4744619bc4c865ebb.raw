@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://www.facebook.com/2008/fbml">
+<head><script src="http://sports-ak.espn.go.com/sports/optimizely.js"></script><meta charset="iso-8859-1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript">    
+    if(true && navigator && navigator.userAgent.toLowerCase().indexOf("teamstream") >= 0) {
+        window.location = 'http://a.m.espn.go.com/mobilecache/general/apps/sc';
+    }
+</script><script type="text/javascript">
+var espn=window.espn||{};espn.beta=(function(e,h,b){function a(k){var o="http://beta.espn.go.com",v=e.location.href,w=h.location.pathname,q,j,l,n,p,t,u,m,r;if(k!==b){v=k;q=k.match(/http:\/\/([^\/]*)([^?]*).*/);if(q&&q.length===3){w=q[2];}}if(w.match(/\/story$/i)||w.match(/\/story\//i)){n=i("storyId",k)||i("id",k);p=i("storyPage",k)||i("page",k);if(n!==""){return o+w+"/_/id/"+n;}else{if(p!==""){return o+w+"/_/page/"+p;}else{return o+w;}}}if(w.match(/\/blogpostindex$/i)){j=i("blogname",k);if(e.espn&&espn.GLOBALS&&espn.GLOBALS.isCEBlog===true){return;}if(j!==""){return o+"/blog/"+j;}}if(w.match(/\/blogpost$/i)){j=i("blogname",k);l=i("id",k);if(e.espn&&espn.GLOBALS&&espn.GLOBALS.isCEBlog===true){return;}if(j!==""&&l!==""){return o+"/blog/"+j+"/post/_/id/"+l;}}if(w.match(/^\/blog\//i)){j=i("blogName",k);l=i("id",k);if(w.match(/\/blog\/[^\/]*?\/post$/i)){if(l!==""){return o+w+"/_/id/"+l;}}else{if(j!==""&&l!==""){return o+"/blog/"+j+"/post/_/id/"+l;}else{if(j!==""){return o+"/blog/"+j;}else{return o+w;}}}}if((w===""||w==="/")&&!v.match(/^https?:\/\/insider\.espn\.go\.com/i)){return o;}var s=w.match(/^\/.*?\/(?:index)?$/i);if(s){t={"/frontpage/":true,"/wireless/":true,"/general/":true,"/extra/":true,"/mobile/":true,"/nfl/":true,"/nba/":true,"/mlb/":true,"/nhl/":true,"/ncf/":true,"/college-football/":true,"/ncb/":true,"/mens-college-basketball/":true,"/ncw/":true,"/womenbb/":true,"/womens-basketball/":true,"/wnba/":true,"/golf/":true,"/tennis/":true,"/general/tennis/":true,"/mma/":true,"/extra/mma/":true,"/racing/":true,"/rpm/":true,"/racing/nascar/":true,"/rpm/nascar/":true,"/boxing/":true,"/extra/boxing/":true,"/college-sports/":true,"/ncaa/":true,"/extra/ncaa/":true,"/olympics/":true,"/extra/olympics/":true,"/horse-racing/":true,"/horse/":true,"/general/horse/":true,"/poker/":true,"/general/poker/":true,"/sports/endurance/":true,"/extra/endurance/":true};if(w.match(/\/index$/i)){w=w.substring(0,w.length-5);}if(t[w]===true){return o+w;}}if(w.match(/\/nflpreview$/i)||w.match(/\/preview$/i)){u=i("gameId",k);if(u!==""){if(w.match(/\/nflpreview$/i)){return o+"/nfl/preview?gameId="+u;}else{return o+w+"?gameId="+u;}}}if(w.match(/\/recap$/i)){u=i("gameId",k);if(u!==""){return o+w+"?gameId="+u;}}if(w==="/general/video"){m=i("cid",k);r=i("vid",k);if(m!==""){return o+"/video/clip?id="+m;}else{if(r!==""){return o+"/video/clip?id="+r;}}}if(w.match(/^\/(?:videohub\/video|video)\/clip$/i)){m=i("id",k);if(m!==""){return o+w+"?id="+m;}}}function g(k){var j=a(k);if(j){j=j.replace("/wireless/","/");j=j.replace("/general/","/");j=j.replace("/extra/","/");j=j.replace("/mobile/","/");j=j.replace("/frontpage/","/");j=j.replace("/videohub/","/");j=j.replace("/ncf/","/college-football/");j=j.replace("/rpm/","/racing/");j=j.replace("/ncb/","/mens-college-basketball/");j=j.replace("/ncw/","/womens-basketball/");j=j.replace("/wnba/","/womens-basketball/");j=j.replace("/ncaa/","/college-sports/");}return j;}function i(l,n){var j=location.search;if(n!==b){var k=n.indexOf("?");if(k>-1){j=n.substr(k);}}l=l.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");var o=new RegExp("[\\?&]"+l+"=([^&#]*)"),m=o.exec(j);return m===null?"":decodeURIComponent(m[1].replace(/\+/g," "));}function c(){var k=d("betauser");var j=d("betacohort")||"";if(k!==null&&j.indexOf("cohort-")===0){var l=g();if(l){e.location=l;}}}function d(k){var m=k+"=";var j=h.cookie.split(";");for(var l=0;l<j.length;l++){var n=j[l];while(n.charAt(0)===" "){n=n.substring(1,n.length);}if(n.indexOf(m)===0){return n.substring(m.length,n.length);}}return null;}function f(){if(i("rand")==="beta"){espn.beta.recheck=true;}else{c();}}return{init:function(){f();}};})(this,this.document);espn.beta.init();
+</script><title>Jemele Hill News, Videos, Photos, and PodCasts - ESPN</title>
+<meta name="google-site-verification" content="xuj1ODRluWa0frM-BjIr_aSHoUC7HB5C1MgmYAM_GkA" />
+<meta name="msvalidate.01" content="B1FEB7C682C46C8FCDA3130F3D18AC28" />
+<meta name="googlebot" content="noodp" />
+<meta name="robots" content="index, follow" />
+<meta name="description" content="Explore the comprehensive jemele hill archive on ESPN.com, including news, features, video clips, PodCasts, photos, and more." />
+<meta name="keywords" content="jemele hill,jemele hill news,jemele hill videos,jemele hill podcasts,jemele hill photos" />
+<meta property="fb:app_id" content="116656161708917">
+<meta property="og:site_name" content="ESPN.com">
+<meta property="og:type" content="" />
+<meta property="og:description" content="Explore the comprehensive jemele hill archive on ESPN.com, including news, features, video clips, PodCasts, photos, and more." />
+<meta property="og:image" content="" />
+<meta property="og:url" content="http://search.espn.go.com/jemele-hill/" />
+<meta name="twitter:site" content="espn">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="Explore the comprehensive jemele hill archive on ESPN.com, including news, features, video clips, PodCasts, photos, and more.">
+<meta name="twitter:image" content="">
+<meta name="twitter:url" content="http://search.espn.go.com/jemele-hill/">
+<meta name="twitter:app:name:iphone" content="SportsCenter"/>
+<meta name="twitter:app:id:iphone" content="317469184"/>
+<meta name="twitter:app:name:googleplay" content="SportsCenter"/>
+<meta name="twitter:app:id:googleplay" content="com.espn.score_center"/>
+<link rel="canonical" href="http://search.espn.go.com/jemele-hill/" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://a.espncdn.com/search/opensearch.xml" title="ESPN Search" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/201401211964?css=global_reset.r1.css,base.r236.css,modules.r462.css,global_header.r44.css,header_topbar.r1.css,modules/global_nav.r54.css,modules/insider_enhanced.r1.css,modules/mem/mem.r12.1.css,modules/mem/mem_espn360.r8.4.css,modules/mem/skirmish.r8.css,modules/twin.r1.css,modules/facebook/button.r2.css,universal_overlay/universal_overlay.css,universal_overlay/media_overlay.css,universal_overlay/video_overlay.css,universal_overlay/photo_overlay.css,universal_overlay/dyk_overlay.css,fonts/bentonsans.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/201303290924?css=sprites/teamlogos.r18.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c?css=search/search_201406011256.css,ui/jquery.ui.all.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://static.ak.fbcdn.net/connect.php/css/share-button-css"" type="text/css" media="screen" charset="utf-8" />
+<style>
+body.search { background-image: url(http://a.espncdn.com/i/search/new/beta/espn_generic_gradient.jpg) !important; background-repeat: repeat-x; }
+body.search .bg-elements { background-image: none !important;}
+body.search .nav-main-breadcrumbs, body.search .nav-main-breadcrumbs a { color: #D3BF95; }
+</style>
+<script type="text/javascript">
+var _vrq = _vrq || [];
+ _vrq.push(['id', 489]);
+ _vrq.push(['automate', false]);
+ _vrq.push(['track', function(){}]);
+ (function(d, a){var s = d.createElement(a),x = d.getElementsByTagName(a)[0];
+s.async = true;
+s.src = 'http://a.visualrevenue.com/vrs.js';
+ x.parentNode.insertBefore(s, x);})(document, 'script'); </script>
+<script src="http://a.espncdn.com/combiner/c?js=jquery-1.7.1.js,plugins/json2.r3.js,plugins/teacrypt.js,plugins/jquery.metadata.js,plugins/jquery.bgiframe.r3.js,plugins/jquery.easing.1.3.js,plugins/jquery.hoverIntent.js,plugins/jquery.jcarousel.0.2.9.js,plugins/jquery.tinysort.r4.js,plugins/jquery.pubsub.r5.js,ui/1.8.16/jquery.ui.core.js,ui/1.8.16/jquery.ui.widget.js,ui/1.8.16/jquery.ui.tabs.js,ui/1.8.16/jquery.ui.accordion.js,plugins/ba-debug-0.4.js,espn.l10n.r12.js,swfobject/2.2/swfobject.js,flashObjWrapper.r7.js,plugins/jquery.colorbox.1.3.14.js,plugins/jquery.ba-postmessage.js,espn.core.duo.r55.js,m/beta/betacheck.r5.js,espn.mem.r39.js,stub.search.r9.js,espn.nav.mega.r38b.js,espn.storage.r6.js,espn.p13n.r19.5.js,espn.geo.r3.js,espn.video.r81.js,analytics/chartbeat/video/strategy_comprehensive.r1.js,registration/staticLogin.r12.06102014.js,espn.universal.overlay.r19.js,insider/espn.insider.20140915.js,espn.espn360.stub.r9.js,espn.myHeadlines.stub.r16.js,espn.myfaves.stub.r3.js,tsscoreboard.20090612.js,ie9pinning.r3.js,espn.f8.noauth.r3.js,espn.socialmediamod.r7.js,registration/myEspn.201003231022.js,ui/1.7.2/ui.core.js,ui/1.7.2/ui.datepicker.js,espn.search.201008201145.js,plugins/jquery.hoverIntent.js"></script>
+<script>espn.core.navVersion = 'a';</script>
+<script type="text/javascript" src="http://a.espncdn.com/prod/scripts/analytics/target.20.r2.js"></script>
+<script>var ad_site="",ad_zone="searchresults",ad_kvps="pgtyp=searchresults;sp=espn;noad=t;",ad_swid="",ad_counter=1,ad_ord=Math.floor(9999999999*Math.random()),ad_seg="",ad_mnr=-1<document.cookie.indexOf("grif=1")?"t":"f",ad_ref="other",ref=document.referrer,refsMap={"facebook.com":"facebook","twitter.com|t.co":"twitter","plus.url.google.com|plus.google.com":"googleplus","google.com":"google","bing.com":"bing","yahoo.com":"yahoo","espn.go.com":"espn"},refKey;for(refKey in refsMap)ref.match(refKey)&&(ad_ref=refsMap[refKey]);
+ad_kvps=ad_kvps+"ref="+ad_ref+";mnr="+ad_mnr+";";ad_swid=jQuery.cookie("SWID");"function"===typeof espn.core.ad_segments&&(ad_seg=espn.core.ad_segments(),null!=ad_seg&&""!=ad_seg&&(ad_kvps+=ad_seg));var ad_u="";null!=ad_swid&&""!=ad_swid&&(ad_u="swid="+ad_swid+";");</script>
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://search.espn.go.com/rss/jemele-hill/" /></head>
+<body class="search" >
+<div class="mboxDefault"><link rel="stylesheet" charset="utf-8" media="screen" href="http://a.espncdn.com/prod/styles/modules/hideGravity.css" type="text/css" /></div><script>mboxCreate('ESPN_global');</script><!--[if IE 5]><div class="ie5"><![endif]-->
+<!--[if IE 6]><div class="ie ie6"><![endif]-->
+<!--[if IE 7]><div class="ie ie7"><![endif]-->
+<!--[if IE 8]><div class="ie ie8"><![endif]-->
+<!--[if IE 9]><div class="ie9"><![endif]-->
+<!-- begin bg-elements -->
+<div class="bg-elements">
+<!-- begin header -->
+<div id="header" class="container">
+<!-- begin top-bar -->
+<div class="top-bar">
+<!-- begin uni login -->
+<script type="text/javascript">
+var returnURL = document.location.href;
+var anCV = "";
+var myEspnText = {'welcometext':'Welcome','register':'Register','signin':'Sign In','signout':'Sign Out','heliumdown':'Login Temporarily Unavailable','connectedfacebook':'Connected to Facebook','connectfacebook':'Connect with Facebook','activateinsider':'Activate Insider'};
+</script>
+<form id="form-memberarea">
+<input type="hidden" name="language" id="language" value="en"/>
+<input type="hidden" name="affiliateName" id="memberAreaAffiliateName" value="espn"/>
+<input type="hidden" name="regFormId" id="regFormId" value="espn"/>
+</form>
+<div class="signin" id="signin"></div>
+<script>espn.memberservices.welcome();</script>
+<div class="nav-edition editions">
+<label>EDITIONS:</label>
+<ul class="main">
+	<li class="e-usa active"><a href="http://espn.go.com/" name="&amp;lpos=editionsnav&amp;lid=usa">USA</a></li>
+	<li class="e-deportes"><a href="http://www.espn.com?country-view=us&lang-view=es" name="&amp;lpos=editionsnav&amp;lid=deportes" class="{langPref:'spanish'}">DEPORTES</a></li>
+	<li class="last dropdown">
+	<ul class="">
+	<li class="selected">More</li>
+        <li><a href="http://www.espn.com?country-view=ar&lang-view=es" name="&amp;lpos=editionsnav&amp;lid=argentina">Argentina</a></li>
+	<li><a href="http://www.espn.com.au" name="&amp;lpos=editionsnav&amp;lid=australia">Australia</a></li>
+	<li><a href="http://www.espn.com.br" name="&amp;lpos=editionsnav&amp;lid=brazil">Brazil</a></li>
+        <li><a href="http://www.espn.com?country-view=co&lang-view=es" name="&amp;lpos=editionsnav&amp;lid=colombia">Colombia</a></li>
+        <li><a href="http://www.espn.com?country-view=mx&lang-view=es" name="&amp;lpos=editionsnav&amp;lid=mexico">Mexico</a></li>
+	<li><a href="http://www.espn.co.uk/" name="&amp;lpos=editionsnav&amp;lid=uk">United Kingdom</a></li>
+        <li><a href="http://www.espn.com?country-view=ve&lang-view=es" name="&amp;lpos=editionsnav&amp;lid=venezuela">Venezuela</a></li>
+	</ul>
+	</li>
+</ul>
+</div>
+
+<div class="nav-edition">
+<label>CITIES:</label>
+<ul class="main">
+	<li class="e-boston"><a href="http://espn.go.com/boston/" name="&amp;lpos=citynav&amp;lid=boston">BOSTON</a></li>
+	<li class="e-chicago"><a href="http://espn.go.com/chicago/" name="&amp;lpos=citynav&amp;lid=chicago">CHICAGO</a></li>
+	<li class="e-dallas"><a href="http://espn.go.com/dallas/" name="&amp;lpos=citynav&amp;lid=dallas">DALLAS</a></li>
+	<li class="e-losangeles"><a href="http://espn.go.com/los-angeles/" name="&amp;lpos=citynav&amp;lid=losangeles">LOS ANGELES</a></li>
+	<li class="last e-newyork"><a href="http://espn.go.com/new-york/" name="&amp;lpos=citynav&amp;lid=newyork">NEW YORK</a></li>
+</ul>
+</div>
+</div>
+<!-- end top-bar -->
+<!-- begin espn-logo -->
+<div class="espn-logo">
+<h1>
+<a href="http://espn.go.com/" name="&lpos=sitenavdefault&lid=sitenav_main-logo" class="espn">ESPN</a> <a href="http://search.espn.go.com/" class="section-title">Search</a></h1>
+</div>
+<!-- end espn-logo -->
+<div class="header-right">
+<div id="shop"><a class="shop-btn" href="null" name="&lpos=sitenavdefault&lid=sitenav_shopbutton" rel="nofollow">Shop</a></div></div>
+</div>
+<!-- end header -->
+<!-- begin subheader -->
+<div id="subheader">
+<!-- begin content -->
+<div id="content-wrapper">
+<div id="content" class="container">
+<div id="fb-root"></div><!--[if lte IE 7]><link rel="stylesheet" charset="utf-8" media="screen" href="http://a.espncdn.com/combiner/c?css=modules/browser-alert.r7.css" type="text/css" /><div class="span-6" id="browser-alert-wrapper" style="display:none;"><div class="mod-container mod-no-header-footer browser-alert"><div class="mod-content"><div class="gradient-container"><h1><span>Your Web Browser</span> is no longer supported</h1><p>To experience everything that ESPN.com has to offer, we recommend that you upgrade to a newer version of your web browser. Click the upgrade button to the right or <a href="http://espn.go.com/espn/news/story?id=5630562">learn more</a>.</p><ul><li><a class="btn-upgrade" href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Upgrade</a></li><li><a class="btn-faq" href="http://espn.go.com/espn/news/story?id=5630562">FAQs</a></li></ul></div></div></div></div><script>(function(b){setTimeout(function(){var a=b("#browser-alert-wrapper");if(espn.cookie.get("browseralert")!="true"){b('<a class="btn-close" href="#">Close</a>').bind("click",function(){a.hide();espn.cookie.set("browseralert","true",30);return false}).appendTo(a.find(".gradient-container"));a.show();espn.cookie.set("browseralert","true")}},100)})(jQuery);</script><![endif]-->
+<style>
+		body.search 
+		{ 
+			background-image: url(http://a3.espncdn.com/prod/assets/bg_v2/bg_search_red.jpg) !important; 
+			background-repeat: repeat-x; 
+		}
+		
+		.cboxIE div:last 
+		{
+			width: 0 !important;
+		}
+</style><div class="clear"></div>
+<div class="span-6">
+<div class="mod-search-box">
+<form method="get" action="/results" id="searchForm">
+<div class="mag-glass"></div>
+<input type="text" class="autoCompleteInput ac_input ui-autocomplete-input txt-search" name="searchString" value="jemele hill" />
+<input type="hidden" name="fromForm" value="true" />
+<input type="submit" name="searchSubmit" class="btn-search" value="SEARCH"/>
+</form>
+</div>
+</div>
+<div class="span-1 col-left-nav">
+<div id="ln-content-type" class="ln-group">
+<h4>CONTENT TYPES</h4>
+<ul class="main-list">
+<li class="active" style="padding-left:0px;"><a name="&lpos=srchleftnav&lid=all" href="/jemele-hill/">ALL</a></li>
+<li ><a name="&lpos=srchleftnav&lid=stories" href="/jemele-hill/stories/5">STORIES</a></li>
+<li ><a name="&lpos=srchleftnav&lid=videos" href="/jemele-hill/videos/6">VIDEOS</a></li>
+<li ><a name="&lpos=srchleftnav&lid=audio" href="/jemele-hill/audio/7">AUDIO</a></li>
+</ul>
+</div>
+
+<script type="text/javascript">
+	(function($){
+		$(document).ready(function(){
+			$('#startDate,#endDate').datepicker({
+				dateFormat: 'mm/dd/yy',
+				nextText: '<span></span>',
+				prevText: '<span></span>',
+				changeYear: true,
+				changeMonth: true,
+				maxDate: 0,
+				minDate: '-15Y'
+			});
+		});
+	})(jQuery);
+</script>
+
+<div id="ln-date-filter" class="ln-group">
+	<h4 style="margin-bottom:10px;">FILTER BY DATE<span class="ln-expand-icon"></span></h4>
+	<ul class="main-list">
+	<li id="ln-filter-by-date">
+	<div class="date-options">
+		<form method="get" action="/results?searchString=jemele hill" id="dateFilter">
+			<ul class="secondary-list date-form">
+				<li>
+					<span>From</span>
+					<input type="text" class="txt-date" id="startDate" name="startDate" value="mm/dd/yyyy" tabindex=1/>
+				</li>
+				<li><span>To</span> <input type="text" class="txt-date" id="endDate" name="endDate" value="mm/dd/yyyy" tabindex=2 /></li>
+				<li>
+				<input type="hidden" name="searchString" value="jemele hill"/>
+				<input type="hidden" name="soccernetSearch" value="false"/>
+				<input type="hidden" name="dims" value="0"/>
+				<input type="submit" name="dateFilter" class="btn-go-date" value="GO" tabindex=3 onClick="anTrackLink(this,'espn','srchleftnav','filter_date');" />
+				</li>
+			</ul>
+		</form>
+	</div>
+	</li>
+	</ul>
+</div><div id="ln-refine-search" class="ln-group">
+<h4><a href="#">REFINE SEARCH<span class="ln-expand-icon"></span></a></h4>
+<ul class="main-list" style="display:none">
+<li id="ln-filter-by-sport">
+<h5>By Sport</h5>
+<ul class="secondary-list">
+<li><a name="&lpos=srchleftnav&lid=refine_sport" href="/jemele-hill/nfl/47">NFL</a></li>
+<li><a name="&lpos=srchleftnav&lid=refine_sport" href="/jemele-hill/nba/46">NBA</a></li>
+<li><a name="&lpos=srchleftnav&lid=refine_sport" href="/jemele-hill/soccer/52">Soccer</a></li>
+<li><a name="&lpos=srchleftnav&lid=refine_sport" href="/jemele-hill/college-football/28">College Football</a></li>
+<li><a name="&lpos=srchleftnav&lid=refine_sport" href="/jemele-hill/golf/38">Golf</a></li>
+</ul>
+</li>
+<li id="ln-filter-by-section">
+<h5>By Section</h5>
+<ul class="secondary-list">
+<li><a name="&lpos=srchleftnav&lid=refine_section" href="/jemele-hill/page-2/62">Page 2</a></li>
+<li><a name="&lpos=srchleftnav&lid=refine_section" href="/jemele-hill/espnw/134">ESPNW</a></li>
+<li><a name="&lpos=srchleftnav&lid=refine_section" href="/jemele-hill/sportsnation/63">SportsNation</a></li>
+<li><a name="&lpos=srchleftnav&lid=refine_section" href="/jemele-hill/gigemnation/161">GigEmNation</a></li>
+<li><a name="&lpos=srchleftnav&lid=refine_section" href="/jemele-hill/nittanynation/159">NittanyNation</a></li>
+<li><a name="&lpos=srchleftnav&lid=refine_section" href="/jemele-hill/geauxtigernation/155">GeauxTigerNation</a></li>
+<li><a name="&lpos=srchleftnav&lid=refine_section" href="/jemele-hill/us/153">US</a></li>
+<li><a name="&lpos=srchleftnav&lid=refine_section" href="/jemele-hill/nhl_feed/150">NHL_Feed</a></li>
+</ul>
+</li>
+<li id="ln-filter-by-columnist">
+<h5>By Columnist</h5>
+<ul class="secondary-list">
+<li><a name="&lpos=srchleftnav&lid=refine_columnist" href="/jemele-hill/jemele-hill/4294588387">Jemele Hill</a></li>
+<li><a name="&lpos=srchleftnav&lid=refine_columnist" href="/jemele-hill/&nbsp;/4294571343">&nbsp;</a></li>
+<li><a name="&lpos=srchleftnav&lid=refine_columnist" href="/jemele-hill/espncom-staff/4294599330">ESPN.com staff</a></li>
+<li><a name="&lpos=srchleftnav&lid=refine_columnist" href="/jemele-hill/espnbostoncom/4294599889">ESPNBoston.com</a></li>
+<li><a name="&lpos=srchleftnav&lid=refine_columnist" href="/jemele-hill/david-ubben/4294599190">David Ubben</a></li>
+<li><a name="&lpos=srchleftnav&lid=refine_columnist" href="/jemele-hill/henry-abbott/4294595454">Henry Abbott</a></li>
+<li><a name="&lpos=srchleftnav&lid=refine_columnist" href="/jemele-hill/jeff-dickerson/4294591661">Jeff Dickerson</a></li>
+</ul>
+</li>
+<li id="ln-filter-by-insider">
+<h5>By Insider</h5>
+<ul class="secondary-list">
+<li><a name="&lpos=srchleftnav&lid=refine_insider" href="/jemele-hill/insider-only/83">Insider Only</a></li>
+<li><a name="&lpos=srchleftnav&lid=refine_insider" href="/jemele-hill/non-insider/84">Non Insider</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="ln-related-searches" class="ln-group">
+<h4>RELATED SEARCHES</h4>
+<ul class="main-list">
+<li><a name="&lpos=srchleftnav&lid=related_search" href="/michael-smith/">michael smith</a></li>
+<li><a name="&lpos=srchleftnav&lid=related_search" href="/nba/">nba</a></li>
+<li><a name="&lpos=srchleftnav&lid=related_search" href="/nfl/">nfl</a></li>
+<li><a name="&lpos=srchleftnav&lid=related_search" href="/page-2/">page 2</a></li>
+<li><a name="&lpos=srchleftnav&lid=related_search" href="/lebron-james/">lebron james</a></li>
+</ul>
+</div>
+
+<div id="ln-search-tools" class="ln-group">
+	<h4>SEARCH TOOLS</h4>
+	<ul class="main-list">
+		<li><a href="http://search.espn.go.com/rss/jemele-hill/"><span class="ln-icon rss"></span> RSS</a></li>
+	</ul>
+</div></div>
+<div class="span-5 last">
+<div class="col-results">
+<div class="mod-paginator mod-results mod-results-header">
+<h2>1249 results for "jemele hill"</h2>
+<form method="get" action="/results">
+<div class="controls">
+<a href="/results?searchString=jemele hill&start=null&dims=0" class="page-btn page-prev-disabled"></a>
+<div class="page-numbers">
+<span>Page</span>
+<input type="text" value="1" maxlength="6" class="page-txt" id="page-number" name="page"/>
+<input type="hidden" name="searchString" value="jemele hill" />
+<input type="hidden" name="dims" value="0" />
+<span>of 37</span>
+</div>
+<a href="/results?searchString=jemele hill&start=16&dims=0" class="page-btn page-next"></a>
+</div>
+</form>
+</div>
+<ol>
+<li class="result mod-smart-card" style="margin-bottom:10px;">
+<div class="card-img"><a href="http://espnmediazone.com/us/bios/hill_jemele/"><img src="http://a.espncdn.com/i/columnists/hill_jemele_m.jpg" alt="Jemele Hill" title="Jemele Hill" valign="top" /></a></div><h3>Jemele Hill</h3>
+<br /><br />
+<div style="margin-top:-5px;"><span><a href="http://espnmediazone.com/us/bios/hill_jemele/">Bio</a>
+ | <a href="http://sports.espn.go.com/espn/page2/story?page=mailform/jemelehill">E-mail</a>
+ | <a href="http://espn.go.com/sportsnation/chat/archive/_/id/115/name/jemele--hill">Chats</a>
+ | <a href="http://search.espn.go.com/his-and-hers/audio/7">His and Hers podcast</a>
+</span><ul class="bulletlinks" style="float: left; padding: 5px 0;"><li>Co-host of ESPN2's "Numbers Never Lie" and His and Hers podcast<li>Columnist for ESPN.com
+<li>Columnist for Orlando Sentinel (2005-06)
+<li>Writer for The Detroit Free Press (1999-2005)</ul>
+<style>.mod-smart-card .bulletlinks li { padding-bottom: 2px; }</style><span>
+</span></div></li><li class="result">
+<h3><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11538125/video-highlights">Video Highlights</a></h3>
+<div>
+<cite></cite>
+<p>&#x26;#8226; Greeny and Golic share their thoughts on the responsibilities of NFL owners and the state of the league.  &#x26;#8226; Jemele Hill, CC and the guys discuss the NFL's responsibility to address domestic violence....</p>
+<span><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11538125/video-highlights">Blog</a> | <a href="http://espn.go.com/espn/conversations/_/id/11538125">Conversation</a> | September 16, 2014</span>
+</div>
+</li>
+<li class="result grid-result video-result">
+<h3><a href="/jemele-hill/videos/6">Video results for "jemele hill"</a></h3>
+<div>
+<ul>
+<li>
+<a rel="nofollow" class="grid-thumb" href="http://espn.go.com/video/clip?id=11576104">
+<span class="vid-icon"></span>
+<span class="vid-time">02:11</span>
+<img src="http://a.espncdn.com/media/motion/2014/0923/dm_140923_nfl_nnl_kaepernick_comments/dm_140923_nfl_nnl_kaepernick_comments.jpg" width="134" height="75" alt="" onerror="this.src='http://a.espncdn.com/broadband/video/images/thumb_default.gif';" />
+</a>
+<h3><a rel="nofollow" href="http://espn.go.com/video/clip?id=11576104">Bears DE Confirms Kaepernick Used N-Word</a></h3>
+<span>September 23, 2014</span>
+<div class="rating-stars">
+<div class="gray-stars">
+<span class="star full"></span>
+<span class="star full"></span>
+<span class="star full"></span>
+<span class="star none"></span>
+<span class="star none"></span>
+</div>
+<!--<span class="votes">(94 Votes)</span>-->
+</div>
+</li>
+<li>
+<a rel="nofollow" class="grid-thumb" href="http://espn.go.com/video/clip?id=11538227">
+<span class="vid-icon"></span>
+<span class="vid-time">06:54</span>
+<img src="http://a.espncdn.com/media/motion/2014/0916/dm_140916_COM_RADIO_NFL_Domestic_Violence_Responsibility/dm_140916_COM_RADIO_NFL_Domestic_Violence_Responsibility.jpg" width="134" height="75" alt="" onerror="this.src='http://a.espncdn.com/broadband/video/images/thumb_default.gif';" />
+</a>
+<h3><a rel="nofollow" href="http://espn.go.com/video/clip?id=11538227">Mike & Mike: Addressing Domestic Violence</a></h3>
+<span>September 16, 2014</span>
+<div class="rating-stars">
+<div class="gray-stars">
+<span class="star full"></span>
+<span class="star none"></span>
+<span class="star none"></span>
+<span class="star none"></span>
+<span class="star none"></span>
+</div>
+<!--<span class="votes">(94 Votes)</span>-->
+</div>
+</li>
+<li>
+<a rel="nofollow" class="grid-thumb" href="http://espn.go.com/video/clip?id=11503158">
+<span class="vid-icon"></span>
+<span class="vid-time">02:22</span>
+<img src="http://a.espncdn.com/media/motion/2014/0910/dm_140910_NNL_danny_ferry/dm_140910_NNL_danny_ferry.jpg" width="134" height="75" alt="" onerror="this.src='http://a.espncdn.com/broadband/video/images/thumb_default.gif';" />
+</a>
+<h3><a rel="nofollow" href="http://espn.go.com/video/clip?id=11503158">Does Ferry Need To Be Fired?</a></h3>
+<span>September 10, 2014</span>
+<div class="rating-stars">
+<div class="gray-stars">
+<span class="star full"></span>
+<span class="star none"></span>
+<span class="star none"></span>
+<span class="star none"></span>
+<span class="star none"></span>
+</div>
+<!--<span class="votes">(94 Votes)</span>-->
+</div>
+</li>
+<li>
+<a rel="nofollow" class="grid-thumb" href="http://espn.go.com/video/clip?id=11481633">
+<span class="vid-icon"></span>
+<span class="vid-time">01:01</span>
+<img src="http://a.espncdn.com/media/motion/2014/0907/dm_140907_nascar_jemelehill/dm_140907_nascar_jemelehill.jpg" width="134" height="75" alt="" onerror="this.src='http://a.espncdn.com/broadband/video/images/thumb_default.gif';" />
+</a>
+<h3><a rel="nofollow" href="http://espn.go.com/video/clip?id=11481633">Winston Case Still Not Resolved</a></h3>
+<span>September 07, 2014</span>
+<div class="rating-stars">
+<div class="gray-stars">
+<span class="star full"></span>
+<span class="star full"></span>
+<span class="star none"></span>
+<span class="star none"></span>
+<span class="star none"></span>
+</div>
+<!--<span class="votes">(94 Votes)</span>-->
+</div>
+</li>
+</ul>
+</div>
+</li>
+
+
+<li class="result grid-result audio-result">
+	<h3><a href="/jemele-hill/audio/7">Audio results for "jemele hill"</a></h3>
+	<div>
+		<ul>
+			
+			<li>
+				<a class="grid-thumb" href="http://espn.go.com/espnradio/play?id=11593774" style="height:75px;overflow:hidden;border:1px solid silver;">
+				<img src="http://a.espncdn.com/i/espnradio/stations/espn/podcasts/numbers_never_lie_134.jpg" width="134" alt="" onerror="this.src='http://a.espncdn.com/i/espnradio/logos/espnradio_134.jpg';" />
+				</a>
+				
+				<h3 style="margin-bottom:0px;"><a href="http://espn.go.com/espnradio/play?id=11593774">Numbers Never Lie</a></h3>
+				
+				<span>September 26, 2014</span>
+				
+				<cite></cite>
+				
+			</li>
+			
+			<li>
+				<a class="grid-thumb" href="http://espn.go.com/espnradio/play?id=11581365" style="height:75px;overflow:hidden;border:1px solid silver;">
+				<img src="http://a.espncdn.com/i/espnradio/stations/espn/podcasts/numbers_never_lie_134.jpg" width="134" alt="" onerror="this.src='http://a.espncdn.com/i/espnradio/logos/espnradio_134.jpg';" />
+				</a>
+				
+				<h3 style="margin-bottom:0px;"><a href="http://espn.go.com/espnradio/play?id=11581365">Numbers Never Lie: 9/24/14</a></h3>
+				
+				<span>September 24, 2014</span>
+				
+				<cite></cite>
+				
+			</li>
+			
+			<li>
+				<a class="grid-thumb" href="http://espn.go.com/espnradio/play?id=11575306" style="height:75px;overflow:hidden;border:1px solid silver;">
+				<img src="http://a.espncdn.com/i/espnradio/stations/espn/podcasts/numbers_never_lie_134.jpg" width="134" alt="" onerror="this.src='http://a.espncdn.com/i/espnradio/logos/espnradio_134.jpg';" />
+				</a>
+				
+				<h3 style="margin-bottom:0px;"><a href="http://espn.go.com/espnradio/play?id=11575306">Numbers Never Lie</a></h3>
+				
+				<span>September 23, 2014</span>
+				
+				<cite></cite>
+				
+			</li>
+			
+			<li>
+				<a class="grid-thumb" href="http://espn.go.com/espnradio/play?id=11569946" style="height:75px;overflow:hidden;border:1px solid silver;">
+				<img src="http://a.espncdn.com/i/espnradio/stations/espn/podcasts/numbers_never_lie_134.jpg" width="134" alt="" onerror="this.src='http://a.espncdn.com/i/espnradio/logos/espnradio_134.jpg';" />
+				</a>
+				
+				<h3 style="margin-bottom:0px;"><a href="http://espn.go.com/espnradio/play?id=11569946">Numbers Never Lie: 9/22/14</a></h3>
+				
+				<span>September 22, 2014</span>
+				
+				<cite></cite>
+				
+			</li>
+			
+		</ul>
+	</div>
+</li>
+<li class="result">
+<h3><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11537923/flying-high">Mike & Mike on ESPN Radio: Flying High</a></h3>
+<div>
+<cite></cite>
+<p>&#x26;#8226; ESPN NFL analyst Brian Dawkins breaks down the Eagles' comeback win over the Colts and the off-the-field issues in the NFL. Dawkins   &#x26;#8226; His &#x26; Hers' Jemele Hill weighs in on the latest developments in the Adrian Peterson case and the co...</p>
+<span><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11537923/flying-high">Blog</a> | <a href="http://espn.go.com/espn/conversations/_/id/11537923">Conversation</a> | September 16, 2014</span>
+</div>
+</li>
+<li class="result">
+<h3><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11532400/cooking">Mike & Mike on ESPN Radio: Show Preview September 16, 2014</a></h3>
+<div>
+<cite></cite>
+<p>Greeny and Golic welcome former Dolphins OL coach Jim Turner (7:00 a.m. ET), ESPN NFL analyst Cris Carter (8:00), His &#x26; Hers' Jemele Hill (8:10), ESPN NFL analyst Brian Dawkins (8:30) and NFLPA president Eric Winston (9:10) to the show on Tuesday. Ge...</p>
+<span><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11532400/cooking">Blog</a> | <a href="http://espn.go.com/espn/conversations/_/id/11532400">Conversation</a> | September 15, 2014</span>
+</div>
+</li>
+<li class="result">
+<h3><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11490399/cooking">Mike & Mike on ESPN Radio: Show Preview September 9, 2014</a></h3>
+<div>
+<cite></cite>
+<p>Greeny and Golic welcome ESPN legal analyst Lester Munson (7:10 a.m. ET), His &#x26; Hers' Jemele Hill (7:30), ESPN NFL analyst Cris Carter (8:00), ESPN NFL Insider Chris Mortensen (8:10) and Jets QB Geno Smith (9:00) to the show on Tuesday. Get in touch ...</p>
+<span><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11490399/cooking">Blog</a> | <a href="http://espn.go.com/espn/conversations/_/id/11490399">Conversation</a> | September 08, 2014</span>
+</div>
+</li>
+<li class="result">
+<h3><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11426370/cooking">Mike & Mike on ESPN Radio: Show Preview August 29, 2014</a></h3>
+<div>
+<cite></cite>
+<p>Jorge Sedano, Jemele Hill and Michael Smith welcome ESPN NASCAR analyst Dale Jarrett (7:10 a.m. ET), ESPN fantasy analyst Matthew Berry (7:30), Giants QB Eli Manning (8:30), Eagles RB LeSean McCoy (8:45) and ESPN CFB analyst Danny Kanell (9:00) to th...</p>
+<span><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11426370/cooking">Blog</a> | <a href="http://espn.go.com/espn/conversations/_/id/11426370">Conversation</a> | August 28, 2014</span>
+</div>
+</li>
+<li class="result">
+<h3><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11419450/cooking">Mike & Mike on ESPN Radio: Show Preview August 28, 2014</a></h3>
+<div>
+<cite></cite>
+<p>Greeny, Jemele Hill and Michael Smith welcome ESPN Browns reporter Pat McManamon (7:10 a.m. ET), ESPN's Rece Davis (7:30), ESPN fantasy analyst Matthew Berry (8:10), ESPN NFL analyst Jeff Saturday (8:30), two-time NCAA champion Bobby Bowden (9:00) an...</p>
+<span><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11419450/cooking">Blog</a> | <a href="http://espn.go.com/espn/conversations/_/id/11419450">Conversation</a> | August 27, 2014</span>
+</div>
+</li>
+<li class="result">
+<h3><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11340008/cooking">Mike & Mike on ESPN Radio: Show Preview August 12, 2014</a></h3>
+<div>
+<cite></cite>
+<p>Greeny, Jemele Hill and Michael Smith welcome Warriors G Stephen Curry (7:30 a.m. ET), comedian Frank Caliendo (8:10) and three-time Super Bowl champion Shannon Sharpe (9:00) to the show on Tuesday. Get in touch with Mike &#x26; Mike by emailing (mikeandm...</p>
+<span><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11340008/cooking">Blog</a> | <a href="http://espn.go.com/espn/conversations/_/id/11340008">Conversation</a> | August 11, 2014</span>
+</div>
+</li>
+<li class="result">
+<h3><a href="http://espn.go.com/blog/sec/post/_/id/86222/video-nick-saban-on-future-of-sec">Video: Nick Saban on future of SEC</a></h3>
+<div>
+<cite>ESPN.com staff</cite>
+<p>Alabama coach Nick Saban joins "Numbers Never Lie's" Michael Smith and Jemele Hill to discuss the future of SEC football....</p>
+<span><a href="http://espn.go.com/blog/sec/post/_/id/86222/video-nick-saban-on-future-of-sec">Blog</a> | August 05, 2014</span>
+</div>
+</li>
+<li class="result">
+<h3><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11295344/apology-accepted">Apology Accepted?</a></h3>
+<div>
+<cite></cite>
+<p>&#x26;#8226; ESPN NFL reporter Sal Paolantonio recaps Ray Rice's news conference. Paolantonio   &#x26;#8226; ESPN's Jemele Hill reacts to Ray Rice's apology during his news conference. Hill   &#x26;#8226; espnW's Jane McManus talks about Ray Rice's apology during...</p>
+<span><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11295344/apology-accepted">Blog</a> | <a href="http://espn.go.com/espn/conversations/_/id/11295344">Conversation</a> | August 01, 2014</span>
+</div>
+</li>
+<li class="result">
+<h3><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11292634/cooking">Mike & Mike on ESPN Radio: Show Preview August 1, 2014</a></h3>
+<div>
+<cite></cite>
+<p>Jorge Sedano and Mark Schlereth welcome ESPN NFL reporter Sal Paolantonio (7:10 a.m. ET), Baseball Tonight's Buster Olney (7:45), espnW's Jane McManus (8:00) and His &#x26; Hers' Jemele Hill (8:10) to the show on Friday. Get in touch with Mike &#x26; Mike by e...</p>
+<span><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11292634/cooking">Blog</a> | <a href="http://espn.go.com/espn/conversations/_/id/11292634">Conversation</a> | July 31, 2014</span>
+</div>
+</li>
+<li class="result">
+<h3><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11112000/video-highlights">Video Highlights</a></h3>
+<div>
+<cite></cite>
+<p>&#x26;#8226; Michael Smith and Jemele Hill present Greeny with an Eddie Murphy T-shirt.  &#x26;#8226; Greeny kisses TV producer Seth's head and questions his stance on kiss greetings....</p>
+<span><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11112000/video-highlights">Blog</a> | <a href="http://espn.go.com/espn/conversations/_/id/11112000">Conversation</a> | June 20, 2014</span>
+</div>
+</li>
+<li class="result">
+<h3><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11109123/cooking">Mike & Mike on ESPN Radio: Show Preview June 20, 2014</a></h3>
+<div>
+<cite></cite>
+<p>Greeny, Jemele Hill and Michael Smith welcome ESPN NBA Insider Brian Windhorst (7:10 a.m. ET), Men in Blazers' Michael Davies (8:00) and Reds OF Ryan Ludwick (9:30) to the show on Friday. Get in touch with Mike &#x26; Mike by emailing (mikeandmike@espnrad...</p>
+<span><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11109123/cooking">Blog</a> | <a href="http://espn.go.com/espn/conversations/_/id/11109123">Conversation</a> | June 19, 2014</span>
+</div>
+</li>
+<li class="result">
+<h3><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11041324/video-highlights">Video Highlights</a></h3>
+<div>
+<cite></cite>
+<p>&#x26;#8226; Greeny, Jemele Hill and Michael Smith debate whether the air conditioning failure during Game 1 of the NBA Finals was a product of gamesmanship.  &#x26;#8226; CBS Sports' Shannon Sharpe explains his tweet about LeBron James during Game 1....</p>
+<span><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11041324/video-highlights">Blog</a> | <a href="http://espn.go.com/espn/conversations/_/id/11041324">Conversation</a> | June 06, 2014</span>
+</div>
+</li>
+<li class="result">
+<h3><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11037621/cooking">Mike & Mike on ESPN Radio: Show Preview June 6, 2014</a></h3>
+<div>
+<cite></cite>
+<p>Greeny, Jemele Hill and Michael Smith welcome seven-time NBA All-Star Grant Hill (8:10 a.m. ET) and ESPN NBA analyst Mark Jackson (8:30) to the show on Friday. Get in touch with Mike &#x26; Mike by emailing (mikeandmike@espnradio.com) or tweeting (@MikeAn...</p>
+<span><a href="http://espn.go.com/espnradio/show/_/showId/mikeandmike/postId/11037621/cooking">Blog</a> | <a href="http://espn.go.com/espn/conversations/_/id/11037621">Conversation</a> | June 05, 2014</span>
+</div>
+</li>
+<li class="result">
+<h3><a href="http://espn.go.com/blog/houston-texans/post/_/id/5464/number-never-lie-discusses-manziel-clowney">'Numbers Never Lie' talks Manziel, Clowney</a></h3>
+<div>
+<cite>Tania Ganguli</cite>
+<p>We are close to the start of Jadeveon Clowney's first news conference with the Houston media.  While you wait, take a listen to the Numbers Never Lie podcast in which Jemele Hill and Michael Smith discuss the Texans' selection of Jadeveon Clowney a...</p>
+<span><a href="http://espn.go.com/blog/houston-texans/post/_/id/5464/number-never-lie-discusses-manziel-clowney">Blog</a> | May 09, 2014</span>
+</div>
+</li>
+<li class="result">
+<h3><a href="http://espn.go.com/espnw/news-commentary/article/10873553/los-angeles-clippers-nba-expect-donald-sterling-just-go-away">espnW -- Jemele Hill: The Los Angeles Clippers and the NBA should...</a></h3>
+<div>
+<cite>Jemele Hill</cite>
+<p>The Clippers' issues with notoriously litigious Donald Sterling won't end with his lifetime NBA ban. Are the players ready to stand in and fight?</p>
+<span><a href="http://espn.go.com/espnw/news-commentary/article/10873553/los-angeles-clippers-nba-expect-donald-sterling-just-go-away">Story</a> | <a href="http://espn.go.com/espnw/conversations/_/id/10873553">Conversation</a> | May 02, 2014</span>
+</div>
+</li>
+</ol>
+<div class="ad-box">
+<div id="splinks-bottom"></div></div>
+<div class="mod-paginator mod-results mod-results-footer">
+<form method="get" action="/results">
+<div class="controls">
+<a href="/results?searchString=jemele hill&start=null&dims=0" class="page-btn page-prev-disabled"></a>
+<div class="page-numbers">
+<span>Page</span>
+<input type="text" value="1" maxlength="6" class="page-txt" id="page-number" name="page"/>
+<input type="hidden" name="searchString" value="jemele hill" />
+<input type="hidden" name="dims" value="0" />
+<span>of 37</span>
+</div>
+<a href="/results?searchString=jemele hill&start=16&dims=0" class="page-btn page-next"></a>
+</div>
+</form>
+</div>
+</div>
+<div class="col-ad">
+<div class="ad-box">
+<div id="splinks-right"></div></div>
+</div>
+</div>
+
+            <script src="http://www.google.com/adsense/search/ads.js" type="text/javascript"></script>
+            <script type="text/javascript" charset="utf-8">
+                var pageOptions = {
+                  'pubId' : 'espn',
+                  'query' : 'jemele hill',
+                  'domainLinkAboveDescription': 'true'
+                };
+
+                var adblockBottom = {
+                  'container' : 'splinks-bottom',
+                  'width': '587px',
+                  'colorBorder': '#C2C2C2',
+                  'colorBackground': '#F0F0F0',
+                  'colorText': '#000000',
+                  'colorDomainLink': '#008000',
+                  'colorTitleLink': '#225DB7',
+                  'number': 4
+                };
+
+                var adblockRight = {
+                  'container' : 'splinks-right',
+                  'width': '160px',
+                  'colorBorder': '#C2C2C2',
+                  'colorBackground': '#F0F0F0',
+                  'colorText': '#000000',
+                  'colorDomainLink': '#008000',
+                  'colorTitleLink': '#225DB7',
+                  'number': 4
+                };
+
+                new google.ads.search.Ads(pageOptions, adblockRight, adblockBottom);
+            </script>
+            <div class="span-6">
+<div class="mod-search-box">
+<form method="get" action="/results" id="searchForm">
+<div class="mag-glass"></div>
+<input type="text" class="autoCompleteInput ac_input ui-autocomplete-input txt-search" name="searchString" value="jemele hill" />
+<input type="hidden" name="fromForm" value="true" />
+<input type="submit" name="searchSubmit" class="btn-search" value="SEARCH"/>
+</form>
+</div>
+</div>
+</div>
+<div id="nav-wrapper" class="container">
+<div id="nav-wrapper-container">
+<div id="nav-main">
+<!-- begin site nav -->
+<ul class="top">
+<!-- begin site nav -->
+<p><!-- begin site nav --></p>
+<ul class="top" id="nav-main-list"><!-- start: Menuitem :: MyTAB -->
+<li class="last myespn" id="menu-myespn"><a class="myespn" ref="#">MyESPN</a></li>
+<!-- start: Menuitem :: NFL -->
+<li class="sport-menu default t-nfl" data-sportid="28" id="menu-nfl"><a href="http://espn.go.com/nfl/" name="&amp;lpos=sitenavdefault&amp;lid=sitenav_nfl">NFL</a></li>
+<!-- start: Menuitem :: MLB -->
+<li class="sport-menu default t-mlb" data-sportid="10" id="menu-mlb"><a href="http://espn.go.com/mlb/" name="&amp;lpos=sitenavdefault&amp;lid=sitenav_mlb">MLB</a></li>
+<!-- start: Menuitem :: NBA -->
+<li class="sport-menu default t-nba" data-sportid="46" id="menu-nba"><a href="http://espn.go.com/nba/" name="&amp;lpos=sitenavdefault&amp;lid=sitenav_nba">NBA</a></li>
+<!-- start: Menuitem :: NHL -->
+<li class="sport-menu default t-nhl" data-sportid="90" id="menu-nhl"><a href="http://espn.go.com/nhl/" name="&amp;lpos=sitenavdefault&amp;lid=sitenav_nhl">NHL</a></li>
+<!-- start: Menuitem :: NCAA FB -->
+<li class="sport-menu default t-ncf" data-sportid="23" id="menu-ncf"><a href="http://espn.go.com/college-football/" name="&amp;lpos=sitenavdefault&amp;lid=sitenav_ncf">NCAAF</a></li>
+<!-- start: Menuitem :: NCAA BB -->
+<li class="sport-menu default t-ncb" data-sportid="41" id="menu-ncb"><a href="http://espn.go.com/mens-college-basketball/" name="&amp;lpos=sitenavdefault&amp;lid=sitenav_ncb">NCAAM</a></li>
+<!-- start: Menuitem :: NASCAR -->
+<li class="sport-menu default t-nascar" data-sportid="2020" id="menu-nascar"><a href="http://espn.go.com/racing/nascar/" name="&amp;lpos=sitenavdefault&amp;lid=sitenav_nascar">NASCAR</a></li>
+<!-- start: Menuitem :: SOCCER -->
+<li class="sport-menu default t-soccer" data-sportid="600" id="menu-soccer"><a href="http://espnfc.us/" name="&amp;lpos=sitenavdefault&amp;lid=sitenav_soccer">SOCCER</a></li>
+<!-- start: Menuitem :: GOLF -->
+<li class="sport-menu t-golf" data-sportid="1106" id="menu-golf" style="display: none;"><a href="http://espn.go.com/golf/" name="&amp;lpos=sitenavdefault&amp;lid=sitenav_golfl">GOLF</a></li>
+<!-- start: Menuitem :: TENNIS -->
+<li class="sport-menu t-tennis" data-sportid="850" id="menu-tennis" style="display: none;"><a href="http://espn.go.com/tennis/" name="&amp;lpos=sitenavdefault&amp;lid=sitenav_tennis">TENNIS</a></li>
+<!-- start: Menuitem :: BOXING-->
+<li class="sport-menu t-boxing" data-sportid="1000" id="menu-boxing" style="display: none;"><a href="http://espn.go.com/boxing/" name="&amp;lpos=sitenavdefault&amp;lid=sitenav_boxing">BOXING</a></li>
+<!-- start: Menuitem :: MMA -->
+<li class="sport-menu t-mma" data-sportid="3301" id="menu-mma" style="display: none;"><a href="http://espn.go.com/mma/" name="&amp;lpos=sitenavdefault&amp;lid=sitenav_mma">MMA</a></li>
+<!-- start: Menuitem :: ALL SPORTS -->
+<li class="nav-allsports t-allsports" id="menu-allsports"><a href="http://espn.go.com/sports/" name="&amp;lpos=sitenavdefault&amp;lid=sitenav_allsports">MORE SPORTS</a></li>
+<!-- start: Menuitem :: INSIDER -->
+<li class="sport-menu t-insider" id="menu-insider" style="display: none;"><a href="http://insider.espn.go.com/insider/index" name="&amp;lpos=sitenavdefault&amp;lid=sitenav_insider">INSIDER</a></li>
+<!-- start: Menuitem :: SPORTSNATION -->
+<li class="sport-menu t-sportsnation" id="menu-sportsnation" style="display: none;"><a href="http://espn.go.com/sportsnation/" name="&amp;lpos=sitenavdefault&amp;lid=sitenav_sportsnation">SN</a></li>
+<!-- start: Menuitem :: RADIO & MORE -->
+<li class="right-menu two-line last t-radio" id="menu-radio"><a href="http://espn.go.com/espnradio/" name="&amp;lpos=sitenavdefault&amp;lid=sitenav_radioandmore">RADIO<span>&amp; MORE</span></a></li>
+<!-- start: Menuitem :: espnW & PLAYBOOK -->
+<li class="right-menu two-line t-page2" id="menu-page2"><a href="http://espn.go.com/espnw/" name="&amp;lpos=sitenavdefault&amp;lid=sitenav_espnwandxgames" target="_blank">espnW<span>&amp; X GAMES</span></a></li>
+<!-- start: Menuitem :: FANTASY & GAMES -->
+<li class="right-menu two-line t-fantasy" id="menu-fantasy"><a href="http://games.espn.go.com/frontpage" name="&amp;lpos=sitenavdefault&amp;lid=sitenav_fantasy">FANTASY<span>&amp; GAMES</span></a></li>
+<!-- start: Menuitem :: WATCH -->
+<li class="right-menu t-watch" id="menu-watch"><a href="http://espn.go.com/video/" name="&amp;lpos=sitenavdefault&amp;lid=sitenav_watch">WATCH</a></li>
+</ul>
+<!-- end site nav -->
+<!-- end site nav -->
+</ul>
+<!-- end site nav -->
+</div>
+<div class="nav-main-secondary">
+</div>
+</div>
+</div>
+</div>
+<!-- end content -->
+</div>
+<!-- end subheader -->
+
+<script>
+espn.core.init.nav();
+espn.insider.checkUserForPromo();
+</script>
+<!-- begin footer -->
+<div id="footer" class="container">
+<script type="text/javascript">
+//<![CDATA[
+var link = window.location;
+var bugText = '<a href="#" onclick="window.open(\'http://dynamic.espn.go.com/espn/bugs?url=' + escape(link) + '\', \'Bugs\',\'noresizable,noscrollbars,height=400,width=400\');">Report a Bug</a> | ';
+//]]>
+</script>
+<span style="font-weight:bold;">ESPN.com:</span> <a href="http://sports.espn.go.com/espn/news/story?page=help/index">Help</a> | <a href="http://espnmediazone.com/us/" rel="nofollow">Press</a> | <a href="http://www.espncms.com/Advertise-on-ESPN.aspx" rel="nofollow">Advertise on ESPN.com</a> | <a href="http://www.espncms.com" rel="nofollow">Sales Media Kit</a> | <a href="http://preferences.truste.com/2.0/?type=espn&affiliateId=148" onclick="window.open('http://preferences.truste.com/2.0/?type=espn&affiliateId=148','popup','width=986,height=878,scrollbars=yes,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">Interest-Based Ads</a> | <script type="text/javascript">document.write(bugText);</script><a href="http://espn.go.com/espn/corrections">Corrections</a> | <a href="http://sports.espn.go.com/espn/news/story?page=contact/index">Contact Us</a> | <a href="http://espn.go.com/espn/sitemap">Site Map</a> | <a href="http://espncareers.com">Jobs at ESPN</a> | <!--a href="http://corporate.disney.go.com/corporate/sourcing.html" rel="nofollow"><span style="font-weight:bold;">Supplier Information</span></a--><a href="http://go.com">Go.com</a><br/>&copy; 2014 ESPN Internet Ventures. <a href="http://disneytermsofuse.com/" rel="nofollow">Terms of Use</a> and <a href="http://disneyprivacycenter.com/" rel="nofollow">Privacy Policy and Safety Information/Your California Privacy Rights</a> are applicable to you.  All rights reserved.
+
+<!--
+<a href="http://www.espnshop.com/" onClick="location.href('http://log.go.com/log?srvc=sz&guid=73B641A0-6660-4EFC-B8FF-9DE23E8CD9BD&drop=0&addata=3374:65:478847:65&a=1&goto=http://www.espnshop.com/');return false">Shop</a>
+--></div>
+<!-- end footer -->
+<!--[if lte IE 9]></div><![endif]-->
+</div>
+<!-- end bg-elements -->
+
+
+<!-- SiteCatalyst code version: H.21.3 Copyright 1997-2010 Omniture, Inc. http://www.omniture.com -->
+<script type="text/javascript">
+	var undef = 'undefined'
+	,s_account="wdgespcom"
+	,omniPageName = "espn:search:results:search+result"
+	
+	,insiderStatus = ""
+	,anGen = ""
+	,anYear = ""
+	,anDateString = ""
+	,anLoginStatus = ""
+	,callOmniture = function(){
+		/*-- core story s_omni properties --*/
+		if (typeof anCV != "undefined"){anParseLoginBarInfo(anCV);}
+		s_omni.pageName="search:results:search+result";
+		s_omni.server = window.location.host; // Server from the Host
+		s_omni.channel = "search";
+		s_omni.pageType= "searchresults";
+		s_omni.prop1 = "espn";
+		s_omni.prop4 = "searchresults";
+		s_omni.prop5 = "search:results";
+		s_omni.prop7 = "pre:jemele+hill";
+		s_omni.prop8 = "1249";
+		s_omni.prop11 = (insiderStatus !== null) ? insiderStatus + ":premium-no" : "premium-no";
+		s_omni.prop17 = "en";
+		s_omni.prop21 = anDateString;
+		s_omni.prop22 = anGen;
+		s_omni.prop29 = anLoginStatus;
+		s_omni.prop30 = "false";
+		s_omni.hier1 = "search:results:search+result";
+		s_omni.eVar41 = "1249";
+		s_omni.prop41 = "1";
+		s_omni.eVar7 = anYear + ":" + anGen + ":" + anLoginStatus + ":" + s_omni.prop11 + ":";
+		s_omni.eVar9 = "en";
+		s_omni.eVar13 = "search:results:search+result";
+		
+		if (s_omni.prop11=="anonymous:premium-yes" || s_omni.prop11=="insider-no:premium-yes" && typeof s_omni.prop4!="undefined" &&
+			(s_omni.prop4=="story" || s_omni.prop4=="blog")) {
+			if (typeof s_omni.events != "undefined" && s_omni.events!="") {
+				s_omni.events = s_omni.events+",event8" }
+			else { s_omni.events="event8" }
+		}
+		
+		
+		anVersion = "_11apr14_v2_0_r5_";
+		
+		/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+		
+		var s_code = s_omni.t();
+		if(s_code) {
+			var sci = new Image(1,1);
+			sci.onload = function() {console.log("loaded no append")};
+			sci.src = s_code;
+		}
+		
+	};	
+</script>
+
+
+
+<script type="text/javascript">
+	if (typeof(s_omni) === 'undefined') {
+		jQuery(function($) {
+			// we want to load the analytics files from the cache if possible - so, let's use full $.ajax() calls
+			$.ajax({
+				type:'GET',
+				url: 'http://a.espncdn.com/combiner/c?js=analytics/sOmni.js,analytics/analytics.js,analytics/externalnielsen.js&v=3',
+				dataType: 'script',
+				cache: true,
+				success: function() {
+					var lgSrc;
+					if(typeof anCV !== undef && anCV === '' && document.getElementById('form-memberarea') != null) {
+						lgSrc = 'https://r.espn.go.com/members/util/getUserInfo?cb=runOmnitureIndependently';
+						$.getScript(lgSrc); // we don't want this to be cached - so we'll use the $.getScript() method
+					} else {
+						callOmniture();
+					}
+				}
+			});
+		});
+	}
+</script>
+
+<!-- End SiteCatalyst code version: H.21. -->
+
+
+<!-- Begin comScore Tag -->
+<script type="text/javascript">
+	if (typeof(jQuery) !== 'undefined') {
+		jQuery(function($) {
+			if(typeof window._comscore === 'undefined') {
+				window._comscore = window._comscore || [];
+				window._comscore.push({ c1: "2", c2: "3000005" });
+				jQuery.getScript((document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js");
+			}
+		});
+	}
+</script>
+<!-- End comScore Tag -->
+<!-- dynamic logic: safecount -->
+<script src="http://content.dl-rms.com/rms/mother/508/nodetag.js"></script>
+
+<script type="text/javascript" charset="utf-8">buildOutHeadlinesForPinnedSite();</script>
+<script type="text/javascript">
+   var isInIFrame = (window.location != window.parent.location) ? true : false;
+   if(isInIFrame){ if(document.referrer){ if(document.referrer.indexOf(".go.com")==-1){ top.location.href=self.location.href; } } }
+</script>
+
+<script type='text/javascript'>
+  //<![CDATA[
+    (function(){
+    window.gravityInsightsParams = {
+      'type': 'content',
+      'action': '',
+      'site_guid': '9a41401e9b7c945344e001ee7f23031e'
+    };
+    var b,c;b="https:"===document.location.protocol?"https://b-ssl.grvcdn.com/moth-min.js":"http://b.grvcdn.com/moth-min.js";window.grvMakeScript=function(d){var a;a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src=d;return a};c=document.getElementsByTagName("script")[0];b&&c.parentNode.insertBefore(window.grvMakeScript(b),c);})();
+  //]]>
+</script></body>
+</html>

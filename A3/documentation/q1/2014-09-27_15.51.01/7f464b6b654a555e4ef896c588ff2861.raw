@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js old-ie" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"><!--<![endif]-->
+<head>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VgAOV1FbGwAIVlVRAgg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,o){t&&t(e,n,o),o||(o={});for(var a=i(e),s=a.length,c=o[r]||(o[r]={}),f=0;s>f;f++)a[f].apply(c,n);return c}function o(t,e){s[t]=i(t).concat(e)}function i(t){return s[t]||[]}function a(){return n(e)}var s={};return{on:o,emit:e,create:a,listeners:i,_events:s}}var r="nr@context";e.exports=n()},{}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(5),i=t(3),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(f){"stack"in f&&(t(6),t(4),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:4,2:7,3:"QJf3ax",4:5,5:15,6:6,handle:"D5DuLP",loader:"G9z0Bl"}],4:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(2),t(1).create()),i=t(3)(o);if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var a=document;a&&!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&&n(a);for(var s=XMLHttpRequest.prototype;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=i(e,"fn-",null,e.name||"anonymous"):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:"QJf3ax",2:15,3:16}],5:[function(t,e){var n=(t(3),t(1).create()),r=t(2)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:"QJf3ax",2:16,3:15}],6:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(3),t(1).create()),o=t(2)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:"QJf3ax",2:16,3:15}],7:[function(t,e){function n(){c.inPlace(this,d,"fn-")}function r(t,e){c.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}var i=t(2).create(),a=t(1),s=t(3),c=s(i),f=s(a),u=window.XMLHttpRequest,d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=i,window.XMLHttpRequest=function(t){var e=new u(t);try{i.emit("new-xhr",[],e),f.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{i.emit("internal-error",r)}catch(o){}}return e},window.XMLHttpRequest.prototype=u.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),i.on("send-xhr-start",r),i.on("open-xhr-start",r)},{1:4,2:"QJf3ax",3:16}],8:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=e(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(1),a=t(3),s=["load","error","abort","timeout"],c=s.length,f=t(2);t(5),t(4),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=e(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",e)}catch(r){}}};for(var u=0;c>u;u++)n.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:9,2:12,3:"QJf3ax",4:7,5:4,handle:"D5DuLP",loader:"G9z0Bl"}],9:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t(1).create(),o={};e.exports=n,n.ee=r,r.q=o},{1:"QJf3ax"}],12:[function(t,e){function n(t){if(!t||"object"!=typeof t&&"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){p.proto="https"===d.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=p.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,c=s.document,f="addEventListener",u="attachEvent",d=(""+location).split("?")[0],p=e.exports={offset:i(),origin:d,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),s[f]("load",n,!1)):(c[u]("onreadystatechange",r),s[u]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],15:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],16:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t(1),o=t(2),i="nr@wrapper";e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,f,u;try{i=this,n=o(arguments),f=r&&r(n,i)||{}}catch(d){c([d,"",[n,i,a],f])}s(e+"start",[n,i,a],f);try{return u=t.apply(i,n)}catch(p){throw s(e+"err",[n,i,p],f),p}finally{s(e+"end",[n,i,u],f)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,nrWrapper)}function a(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s,t))}function s(e,n,r){try{t.emit(e,n,r)}catch(o){c([o,e,n,r])}}function c(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=a,e.flag=i,e}},{1:"QJf3ax",2:15}]},{},["G9z0Bl",3,8]);</script><meta charset="UTF-8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VgAOV1FbGwAIVlVRAgg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,o){t&&t(e,n,o),o||(o={});for(var a=i(e),s=a.length,c=o[r]||(o[r]={}),f=0;s>f;f++)a[f].apply(c,n);return c}function o(t,e){s[t]=i(t).concat(e)}function i(t){return s[t]||[]}function a(){return n(e)}var s={};return{on:o,emit:e,create:a,listeners:i,_events:s}}var r="nr@context";e.exports=n()},{}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(5),i=t(3),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(f){"stack"in f&&(t(6),t(4),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:4,2:7,3:"QJf3ax",4:5,5:15,6:6,handle:"D5DuLP",loader:"G9z0Bl"}],4:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(2),t(1).create()),i=t(3)(o);if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var a=document;a&&!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&&n(a);for(var s=XMLHttpRequest.prototype;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=i(e,"fn-",null,e.name||"anonymous"):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:"QJf3ax",2:15,3:16}],5:[function(t,e){var n=(t(3),t(1).create()),r=t(2)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:"QJf3ax",2:16,3:15}],6:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(3),t(1).create()),o=t(2)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:"QJf3ax",2:16,3:15}],7:[function(t,e){function n(){c.inPlace(this,d,"fn-")}function r(t,e){c.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}var i=t(2).create(),a=t(1),s=t(3),c=s(i),f=s(a),u=window.XMLHttpRequest,d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=i,window.XMLHttpRequest=function(t){var e=new u(t);try{i.emit("new-xhr",[],e),f.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{i.emit("internal-error",r)}catch(o){}}return e},window.XMLHttpRequest.prototype=u.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),i.on("send-xhr-start",r),i.on("open-xhr-start",r)},{1:4,2:"QJf3ax",3:16}],8:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=e(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(1),a=t(3),s=["load","error","abort","timeout"],c=s.length,f=t(2);t(5),t(4),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=e(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",e)}catch(r){}}};for(var u=0;c>u;u++)n.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:9,2:12,3:"QJf3ax",4:7,5:4,handle:"D5DuLP",loader:"G9z0Bl"}],9:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t(1).create(),o={};e.exports=n,n.ee=r,r.q=o},{1:"QJf3ax"}],12:[function(t,e){function n(t){if(!t||"object"!=typeof t&&"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){p.proto="https"===d.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=p.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,c=s.document,f="addEventListener",u="attachEvent",d=(""+location).split("?")[0],p=e.exports={offset:i(),origin:d,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),s[f]("load",n,!1)):(c[u]("onreadystatechange",r),s[u]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],15:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],16:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t(1),o=t(2),i="nr@wrapper";e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,f,u;try{i=this,n=o(arguments),f=r&&r(n,i)||{}}catch(d){c([d,"",[n,i,a],f])}s(e+"start",[n,i,a],f);try{return u=t.apply(i,n)}catch(p){throw s(e+"err",[n,i,p],f),p}finally{s(e+"end",[n,i,u],f)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,nrWrapper)}function a(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s,t))}function s(e,n,r){try{t.emit(e,n,r)}catch(o){c([o,e,n,r])}}function c(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=a,e.flag=i,e}},{1:"QJf3ax",2:15}]},{},["G9z0Bl",3,8]);</script>
+
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="handheldfriendly" content="true">
+<meta name="mobileoptimized" content="320">
+<meta http-equiv="cleartype" content="on">
+<meta name="apple-mobile-web-app-title" content="BoF">
+<link rel="apple-touch-icon" href="/bundles/assets/images/favicons/apple-touch-icon-57x57-precomposed.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/bundles/assets/images/favicons/apple-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/bundles/assets/images/favicons/apple-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/bundles/assets/images/favicons/apple-touch-icon-144x144-precomposed.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="twitter:title" content="BoF - The Business of Fashion - Fashion News, Analysis and Business Intelligence from the leading digital authority on the global fashion industry."/>
+
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.5.3.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>BoF - The Business of Fashion - Fashion News, Analysis and Business Intelligence from the leading digital authority on the global fashion industry.</title>
+<link rel="next" href="http://www.businessoffashion.com/page/2" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="BoF - The Business of Fashion - Fashion News, Analysis and Business Intelligence from the leading digital authority on the global fashion industry." />
+<meta property="og:description" content="Fashion News, Analysis and Business Intelligence from the leading digital authority on the global fashion industry." />
+<meta property="og:site_name" content="BoF - The Business of Fashion" />
+<meta property="fb:admins" content="647829669" />
+<meta property="og:image" content="http://cdn.businessoffashion.com/wp-content/uploads/2013/01/bof_logo.png" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="BoF - The Business of Fashion &raquo; Feed" href="http://www.businessoffashion.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="BoF - The Business of Fashion &raquo; Comments Feed" href="http://www.businessoffashion.com/comments/feed" />
+<link rel='stylesheet' id='wp-email-css'  href='http://www.businessoffashion.com/wp-content/plugins/wp-email/email-css.css?ver=2.60' type='text/css' media='all' />
+<link rel='stylesheet' id='default-css'  href='http://cdn.businessoffashion.com/wp-content/themes/bof/style.css?ver=1411577505' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://cdn.businessoffashion.com/wp-content/themes/bof/sass/jquery.fancybox-1.3.4.css?ver=1404109735' type='text/css' media='all' />
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/modernizr.js?ver=1359465828'></script>
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/jquery.min.js?ver=1404109735'></script>
+
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<link rel="stylesheet" type="text/css" href="http://www.businessoffashion.com/wp-content/plugins/most-shared-posts/most-shared-posts.css">
+<!--Plugin WP Missed Schedule 2013.1231.2013 Active - Tag 6707293c0218e2d8b7aa38d418ffa608-->
+
+<!-- This site is patched which an important unfixed problem since WordPress 2.5+ -->
+
+<meta name="robots" content="noindex"><script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/6599739/Allpages_Sidebar_Top', [300, 250], 'div-gpt-ad-1409928876751-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/6599739/Allpages_Sidebar_Bottom', [300, 600], 'div-gpt-ad-1409928951039-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+</head>
+<body class="home blog trackpageviewsubs profile-widget-enabled" id="top" data-ctx="index" data-load-search-widget="0" data-search-url="/search/?">
+
+
+
+<div id="viewport">
+	
+	<header class="header cf">
+		<a href="javascript:void(0);" class="only-mobile mobile-menu-bttn"></a>
+		<ul class="only-mobile mobile-menu"><li><a href="javascript:void(0);" class="mobile-login-btn"></a></li><li><a href="javascript:void(0);" class="mobile-search-btn"></a></li><li><a href="/daily-digest" class="mobile-daily-btn"></a></li></ul>
+		<h1 class="logo"><a href="/" title="BoF &#8211; The Business of Fashion" rel="home"><img src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/bof_logo.png" alt="BoF &#8211; The Business of Fashion" width="278"></a></h1>
+		<nav class="nav" role="navigation">
+			<h1 class="menu-title visuallyhidden">Navigation</h1>
+			<ul id="menu-channel-navigation" class="menu"><li  class="category-daily-digest menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.businessoffashion.com/daily-digest/2014/09/27" title="Daily digest">Daily Digest</a></li><li id="menu-item-40438" class="category-news-analysis menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-40438"><a href="http://www.businessoffashion.com/category/news-analysis">News &#038; Analysis</a><ul class="sub-menu"><li id="menu-item-42282" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-42282"><a href="http://www.businessoffashion.com/category/bof-exclusive">BoF Exclusive</a></li><li id="menu-item-43440" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43440"><a href="http://www.businessoffashion.com/category/news-analysis/power-moves">Power Moves</a></li><li id="menu-item-53113" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53113"><a href="http://www.businessoffashion.com/category/news-analysis/the-shows">The Shows</a></li><li id="menu-item-45225" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45225"><a href="http://www.businessoffashion.com/category/week-in-review">Week in Review</a></li></ul></li><li id="menu-item-40437" class="category-intelligence menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-40437"><a href="http://www.businessoffashion.com/category/intelligence">Intelligence</a><ul class="sub-menu"><li id="menu-item-41966" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41966"><a href="http://www.businessoffashion.com/category/intelligence/market-pulse">Market Pulse</a></li><li id="menu-item-41965" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41965"><a href="http://www.businessoffashion.com/category/intelligence/retail-recon">Retail Recon</a></li><li id="menu-item-41967" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41967"><a href="http://www.businessoffashion.com/category/intelligence/the-long-view">The Long View</a></li><li id="menu-item-55445" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-55445"><a href="http://www.businessoffashion.com/category/intelligence/against-the-grain">Against the Grain</a></li></ul></li><li id="menu-item-40436" class="category-global-currents menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-40436"><a href="http://www.businessoffashion.com/category/global-currents">Global Currents</a><ul class="sub-menu"><li id="menu-item-40481" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40481"><a href="http://www.businessoffashion.com/category/global-currents/global-briefing">Global Briefing</a></li><li id="menu-item-51311" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51311"><a href="http://www.businessoffashion.com/category/global-currents/market-gps">Market GPS</a></li><li id="menu-item-40491" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40491"><a href="http://www.businessoffashion.com/category/global-currents/india-inc">India Inc</a></li><li id="menu-item-47243" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47243"><a href="http://www.businessoffashion.com/category/global-currents/the-china-edit">The China Edit</a></li><li id="menu-item-48704" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-48704"><a href="http://www.businessoffashion.com/category/global-currents/french-press">French Press</a></li><li id="menu-item-61509" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-61509"><a href="http://www.businessoffashion.com/category/global-currents/made-in-america">Made in America</a></li><li id="menu-item-40482" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40482"><a href="http://www.businessoffashion.com/category/global-currents/the-fashion-trail">The Fashion Trail</a></li></ul></li><li id="menu-item-40435" class="category-fashion-20 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-40435"><a href="http://www.businessoffashion.com/category/fashion-20">Fashion 2.0</a><ul class="sub-menu"><li id="menu-item-40479" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40479"><a href="http://www.businessoffashion.com/category/fashion-20/digital-scorecard">Digital Scorecard</a></li><li id="menu-item-40480" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40480"><a href="http://www.businessoffashion.com/category/fashion-20/elevator-pitch">Elevator Pitch</a></li><li id="menu-item-53493" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53493"><a href="http://www.businessoffashion.com/category/fashion-20/bits-bytes">Bits &#038; Bytes</a></li></ul></li><li id="menu-item-40440" class="category-people menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-40440"><a href="http://www.businessoffashion.com/category/people">People</a><ul class="sub-menu"><li id="menu-item-40485" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40485"><a href="http://www.businessoffashion.com/category/people/ceo-talk">CEO Talk</a></li><li id="menu-item-49479" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49479"><a href="http://www.businessoffashion.com/category/people/founder-stories">Founder Stories</a></li><li id="menu-item-40486" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40486"><a href="http://www.businessoffashion.com/category/people/first-person">First Person</a></li><li id="menu-item-40488" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40488"><a href="http://www.businessoffashion.com/category/people/the-creative-class">The Creative Class</a></li><li id="menu-item-40487" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40487"><a href="http://www.businessoffashion.com/category/people/the-business-of-blogging-2">The Business Of Blogging</a></li><li id="menu-item-43082" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43082"><a href="http://www.businessoffashion.com/category/people/turning-point">Turning Point</a></li><li id="menu-item-41938" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41938"><a href="http://www.businessoffashion.com/category/people/the-spotlight">The Spotlight</a></li></ul></li><li id="menu-item-40432" class="category-education menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-40432"><a href="http://www.businessoffashion.com/category/education">Education</a><ul class="sub-menu"><li id="menu-item-40477" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40477"><a href="http://www.businessoffashion.com/category/education/finding-your-mo-2">Finding Your M.O.</a></li><li id="menu-item-41970" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41970"><a href="http://www.businessoffashion.com/category/education/basics">The Basics</a></li></ul></li><li id="menu-item-40439" class="category-opinion menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-40439"><a href="http://www.businessoffashion.com/category/opinion">Opinion</a><ul class="sub-menu"><li id="menu-item-45151" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45151"><a href="http://www.businessoffashion.com/category/opinion/bof-comment">BoF Comment</a></li><li id="menu-item-40489" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40489"><a href="http://www.businessoffashion.com/category/opinion/bubble-and-speak-2">Bubble and Speak</a></li><li id="menu-item-40490" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40490"><a href="http://www.businessoffashion.com/category/opinion/colins-column-2">Colin&#8217;s Column</a></li><li id="menu-item-42913" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-42913"><a href="http://www.businessoffashion.com/category/opinion/right-brain-left-brain">Right Brain, Left Brain</a></li><li id="menu-item-40492" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40492"><a href="http://www.businessoffashion.com/category/opinion/op-ed-2">Op-Ed</a></li></ul></li><li id="menu-item-40476" class="category-video menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-40476"><a href="http://www.businessoffashion.com/category/video">Video</a><ul class="sub-menu"><li id="menu-item-61666" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-61666"><a href="http://www.businessoffashion.com/category/video/top-10-fashion-films">Top 10 Fashion Films</a></li></ul></li></ul>			<ul id="menu-mobile-header-menu" class="menu"><li id="menu-item-41983" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41983"><a href="http://www.businessoffashion.com/about">About</a></li><li id="menu-item-41984" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41984"><a href="http://www.businessoffashion.com/masthead">Masthead</a></li><li id="menu-item-41985" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41985"><a href="http://www.businessoffashion.com/press">Press</a></li><li id="menu-item-86846" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86846"><a href="http://www.businessoffashion.com/general-info">Contact</a></li></ul>		</nav>
+        <div id="mobile-menu" class="mm-menu">
+          <ul>
+            <li class="ml-menu-item"><a data-ajax="false" href="/" class="notupper"><i class="ml-icon home-icon"></i>BoF HOME</a></li>
+            <li class="ml-menu-item"><a data-ajax="false" href="/bof500/" class="notupper"><i class="ml-icon bof500-icon"></i>BoF 500</a></li>
+                          <li class="ml-menu-item"><a data-ajax="false" href="/careers/" class="notupper"><i class="ml-icon careers-icon"></i>BoF CAREERS</a></li>
+                        <li class="ml-menu-item"><a data-ajax="false" href="/daily-digest"><i class="ml-icon dd-icon"></i>Daily digest</a></li>
+            <li  class="category-daily-digest menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.businessoffashion.com/daily-digest/2014/09/27" title="Daily digest">Daily Digest</a></li><li class="category-news-analysis menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-40438"><a href="http://www.businessoffashion.com/category/news-analysis">News &#038; Analysis</a><ul class="sub-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-42282"><a href="http://www.businessoffashion.com/category/bof-exclusive">BoF Exclusive</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43440"><a href="http://www.businessoffashion.com/category/news-analysis/power-moves">Power Moves</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53113"><a href="http://www.businessoffashion.com/category/news-analysis/the-shows">The Shows</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45225"><a href="http://www.businessoffashion.com/category/week-in-review">Week in Review</a></li></ul></li><li class="category-intelligence menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-40437"><a href="http://www.businessoffashion.com/category/intelligence">Intelligence</a><ul class="sub-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41966"><a href="http://www.businessoffashion.com/category/intelligence/market-pulse">Market Pulse</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41965"><a href="http://www.businessoffashion.com/category/intelligence/retail-recon">Retail Recon</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41967"><a href="http://www.businessoffashion.com/category/intelligence/the-long-view">The Long View</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-55445"><a href="http://www.businessoffashion.com/category/intelligence/against-the-grain">Against the Grain</a></li></ul></li><li class="category-global-currents menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-40436"><a href="http://www.businessoffashion.com/category/global-currents">Global Currents</a><ul class="sub-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40481"><a href="http://www.businessoffashion.com/category/global-currents/global-briefing">Global Briefing</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51311"><a href="http://www.businessoffashion.com/category/global-currents/market-gps">Market GPS</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40491"><a href="http://www.businessoffashion.com/category/global-currents/india-inc">India Inc</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47243"><a href="http://www.businessoffashion.com/category/global-currents/the-china-edit">The China Edit</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-48704"><a href="http://www.businessoffashion.com/category/global-currents/french-press">French Press</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-61509"><a href="http://www.businessoffashion.com/category/global-currents/made-in-america">Made in America</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40482"><a href="http://www.businessoffashion.com/category/global-currents/the-fashion-trail">The Fashion Trail</a></li></ul></li><li class="category-fashion-20 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-40435"><a href="http://www.businessoffashion.com/category/fashion-20">Fashion 2.0</a><ul class="sub-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40479"><a href="http://www.businessoffashion.com/category/fashion-20/digital-scorecard">Digital Scorecard</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40480"><a href="http://www.businessoffashion.com/category/fashion-20/elevator-pitch">Elevator Pitch</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53493"><a href="http://www.businessoffashion.com/category/fashion-20/bits-bytes">Bits &#038; Bytes</a></li></ul></li><li class="category-people menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-40440"><a href="http://www.businessoffashion.com/category/people">People</a><ul class="sub-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40485"><a href="http://www.businessoffashion.com/category/people/ceo-talk">CEO Talk</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49479"><a href="http://www.businessoffashion.com/category/people/founder-stories">Founder Stories</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40486"><a href="http://www.businessoffashion.com/category/people/first-person">First Person</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40488"><a href="http://www.businessoffashion.com/category/people/the-creative-class">The Creative Class</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40487"><a href="http://www.businessoffashion.com/category/people/the-business-of-blogging-2">The Business Of Blogging</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43082"><a href="http://www.businessoffashion.com/category/people/turning-point">Turning Point</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41938"><a href="http://www.businessoffashion.com/category/people/the-spotlight">The Spotlight</a></li></ul></li><li class="category-education menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-40432"><a href="http://www.businessoffashion.com/category/education">Education</a><ul class="sub-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40477"><a href="http://www.businessoffashion.com/category/education/finding-your-mo-2">Finding Your M.O.</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41970"><a href="http://www.businessoffashion.com/category/education/basics">The Basics</a></li></ul></li><li class="category-opinion menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-40439"><a href="http://www.businessoffashion.com/category/opinion">Opinion</a><ul class="sub-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45151"><a href="http://www.businessoffashion.com/category/opinion/bof-comment">BoF Comment</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40489"><a href="http://www.businessoffashion.com/category/opinion/bubble-and-speak-2">Bubble and Speak</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40490"><a href="http://www.businessoffashion.com/category/opinion/colins-column-2">Colin&#8217;s Column</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-42913"><a href="http://www.businessoffashion.com/category/opinion/right-brain-left-brain">Right Brain, Left Brain</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40492"><a href="http://www.businessoffashion.com/category/opinion/op-ed-2">Op-Ed</a></li></ul></li><li class="category-video menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-40476"><a href="http://www.businessoffashion.com/category/video">Video</a><ul class="sub-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-61666"><a href="http://www.businessoffashion.com/category/video/top-10-fashion-films">Top 10 Fashion Films</a></li></ul></li>            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41983"><a href="http://www.businessoffashion.com/about">About</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41984"><a href="http://www.businessoffashion.com/masthead">Masthead</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41985"><a href="http://www.businessoffashion.com/press">Press</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86846"><a href="http://www.businessoffashion.com/general-info">Contact</a></li>        </ul>
+        </div>
+		        <div class="only-mobile mobile-search"><form role="search" action="http://www.businessoffashion.com/" method="get" class="inlineblock" autocomplete="off">
+	<div class="inlineblock">
+		<input type="text" value="" name="s"  class="input-text">
+        		<input type="submit" class="btn" value="Search">
+	</div>
+</form>
+</div>
+		<div class="only-mobile mobile-menu-drop">
+			<ul>
+<li><a href="http://www.businessoffashion.com/wp-login.php" class="simplemodal-login" data-action="login">Login</a></li><li><a href="http://www.businessoffashion.com/register" class="simplemodal-login" data-action="signup">Sign up</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<div class="body cf">
+<div class="main" role="main">
+								<div class="flexslider flex-front cf  ">
+				<ul class="slides">
+																									<li data-slider="slider_player_96131" class="slide-type-default slider-type-default  ">
+							
+															<a href="http://www.businessoffashion.com/2014/09/duo-taking-chloe-another-level.html">
+																					 								<img alt="" class="slide-image" src="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/ClareGeoffreyslider.jpg">
+							 								</a>
+															<div class="slide-meta">
+									<strong class="slide-title"><a href="http://www.businessoffashion.com/2014/09/duo-taking-chloe-another-level.html">The Duo Taking Chloé to ‘Another Level’</a></strong>
+									<span class="slide-author">By <b>Julien Neuville</b></span>																	</div>
+																		</li>
+																														<li data-slider="slider_player_96067" class="slide-type-default slider-type-default  ">
+							
+															<a href="http://www.businessoffashion.com/2014/09/soft-meets-structured-isaac-reina.html">
+																					 								<img alt="" class="slide-image lazyslider" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/slider.jpg">
+							 							</a>
+															<div class="slide-meta">
+									<strong class="slide-title"><a href="http://www.businessoffashion.com/2014/09/soft-meets-structured-isaac-reina.html">Isaac Reina, Soft Meets Structured</a></strong>
+									<span class="slide-author">By <b>Lisa Wang</b></span>																	</div>
+																		</li>
+																														<li data-slider="slider_player_96017" class="slide-type-default slider-type-default  ">
+							
+															<a href="http://www.businessoffashion.com/2014/09/caroline-issa-beautiful-mind.html">
+																					 								<img alt="" class="slide-image lazyslider" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/issa-slider.jpg">
+							 							</a>
+															<div class="slide-meta">
+									<strong class="slide-title"><a href="http://www.businessoffashion.com/2014/09/caroline-issa-beautiful-mind.html">Caroline Issa, A Beautiful Mind</a></strong>
+									<span class="slide-author">By <b>Robin Mellery-Pratt</b></span>																	</div>
+																		</li>
+																														<li data-slider="slider_player_95775" class="slide-type-default slider-type-default  ">
+							
+															<a href="http://www.businessoffashion.com/2014/09/catching-toiletpaper-virus.html">
+																					 								<img alt="" class="slide-image lazyslider" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/maurizio-cattelan-pierpaolo-ferrari-courtesy-toiletpaper-slider.jpg">
+							 							</a>
+															<div class="slide-meta">
+									<strong class="slide-title"><a href="http://www.businessoffashion.com/2014/09/catching-toiletpaper-virus.html">Catching the Toiletpaper Virus</a></strong>
+									<span class="slide-author">By <b>J.J. Martin</b></span>																	</div>
+																		</li>
+																														<li data-slider="slider_player_95772" class="slide-type-default slider-type-default  ">
+							
+															<a href="http://www.businessoffashion.com/2014/09/secret-journey-fashion-piece-part-1-creativity-design.html">
+																					 								<img alt="" class="slide-image lazyslider" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/shutterstock_1920380871.jpg">
+							 							</a>
+															<div class="slide-meta">
+									<strong class="slide-title"><a href="http://www.businessoffashion.com/2014/09/secret-journey-fashion-piece-part-1-creativity-design.html">The Secret Journey of a Fashion Piece</a></strong>
+									<span class="slide-author">By <b>Lauren Sherman</b></span>																	</div>
+																		</li>
+																														<li data-slider="slider_player_95660" class="slide-type-default slider-type-default  ">
+							
+															<a href="http://www.businessoffashion.com/2014/09/encyclopaedia-tim-blanks.html">
+																					 								<img alt="" class="slide-image lazyslider" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/Tim-Blanks-slider.jpg">
+							 							</a>
+															<div class="slide-meta">
+									<strong class="slide-title"><a href="http://www.businessoffashion.com/2014/09/encyclopaedia-tim-blanks.html">Encyclopaedia Blanks</a></strong>
+									<span class="slide-author">By <b>Robin Mellery-Pratt</b></span>																	</div>
+																		</li>
+																			</ul>
+				
+			</div>
+		
+		<div class="home-posts">
+			<article class="post-96121 post type-post status-publish format-standard has-post-thumbnail hentry category-people tag-bof500 tag-collection_bof500-2013 tag-collection_bof500-2014 tag-chloe tag-claire-waight-keller tag-clare-waight-keller tag-categorisation-subject_design tag-location-written-continent_europe tag-france tag-gaby-aghion tag-geoffroy-de-la-bourdonnaye tag-hannah-mcgibbon tag-paris tag-people tag-categorisation-topic_ready-to-wear tag-richemont archive-display cat-people has-image cf" style="min-height: 367px">
+	<div class="fw">
+		<header>
+			<p class="article-category"><a href="http://www.businessoffashion.com/category/people" class="cat-label">People</a></p>
+			<h1 class="article-title"><a href="http://www.businessoffashion.com/2014/09/duo-taking-chloe-another-level.html">The Duo Taking Chloé to ‘Another Level’</a></h1>
+			<p class="article-meta">
+                <span class="author">By <a href="http://www.businessoffashion.com/author/julien-neuville"><strong>Julien Neuville</strong></a></span>
+				<span class="date"><time datetime="2014-09-26T19:02:10+00:00">26 September, 2014</time></span>
+			</p>
+					</header>
+					<div class="article-image"><a href="http://www.businessoffashion.com/2014/09/duo-taking-chloe-another-level.html">
+								<img alt="" src="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/Claire-Geoffrey-500x327.jpg">
+							</a><em>(L) Clare Waight-Keller and (R) Geoffroy De La Bourdonnaye | Source: Boo George, Courtesy</em></div>
+								<div class="article-summary">
+												<p>In less than four years, French luxury brand Chloé has quietly relaunched its second line and transformed its aesthetic, thanks to the company’s energetic new creative director and CEO. On the eve of the brand’s Paris runway show, BoF talks to <a href="http://www.businessoffashion.com/clare-waight-keller"  class="kws_link bof-track imp clk" data-e="profile.link" data-id="102">Clare Waight-Keller</a> and Geoffroy de La Bourdonnaye about their partnership and joint aim to turn Chloé into a globally recognised powerhouse.</p>
+										<p class="read-more"><a href="http://www.businessoffashion.com/2014/09/duo-taking-chloe-another-level.html" class="cat-label">&hellip;Continue Reading</a></p>
+		</div>
+	</div>
+	<div class="article-share" data-socialite-context="article-share-96121" id="article-share-96121">
+		<div class="icon-share-wrap">
+			<i class="icon"></i>
+						 			 <span class="share-count"><b>27</b> Shares</span>
+			 			 <ul class="share-buttons socialWidgets">
+			 	<li><a class="socialite twitter-share" href="http://twitter.com/share" data-url="http://www.businessoffashion.com/2014/09/duo-taking-chloe-another-level.html" data-text="The Duo Taking Chloé to ‘Another Level’" data-show-count="true" data-via="bof" data-size="medium" rel="nofollow" target="_blank">Share on Twitter</a></li>
+				<li><a class="socialite facebook-like" href="http://www.facebook.com/sharer.php?u=http://www.businessoffashion.com/2014/09/duo-taking-chloe-another-level.html" data-send="false" data-layout="button_count" data-show_faces="false" data-width="120" data-href="http://www.businessoffashion.com/2014/09/duo-taking-chloe-another-level.html" rel="nofollow" target="_blank">Share on Facebook</a></li>
+				<li><a class="socialite linkedin-share" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.businessoffashion.com/2014/09/duo-taking-chloe-another-level.html&amp;title=The+Duo+Taking+Chlo%C3%A9+to+%E2%80%98Another+Level%E2%80%99" data-counter="right" data-url="http://www.businessoffashion.com/2014/09/duo-taking-chloe-another-level.html" rel="nofollow" target="_blank">Share on LinkedIn</a></li>
+				<li><a class="socialite pinterest-pinit" href="//www.pinterest.com/pin/create/button/?url=http://www.businessoffashion.com/2014/09/duo-taking-chloe-another-level.html" data-pin-do="buttonPin" data-pin-config="beside" target="_blank">Share on Pinterest</a></li>
+				<li><a class="socialite googleplus-one" href="https://plus.google.com/share?url=http://www.businessoffashion.com/2014/09/duo-taking-chloe-another-level.html" data-size="medium" data-width="100" data-href="http://www.businessoffashion.com/2014/09/duo-taking-chloe-another-level.html" rel="nofollow" target="_blank">Share on Google+</a></li>
+			 </ul>
+		 </div>
+	</div>
+</article>
+					<article class="post-96081 post type-post status-publish format-standard has-post-thumbnail hentry category-week-in-review archive-display cat-week-in-review has-image cf" style="min-height: 439px">
+	<div class="fw">
+		<header>
+			<p class="article-category"><a href="http://www.businessoffashion.com/category/week-in-review" class="cat-label">Week in Review</a></p>
+			<h1 class="article-title"><a href="http://www.businessoffashion.com/2014/09/week-review-bof-500-karl-lagerfeld-tim-blanks-caroline-issa-toiletpaper-milan-isaac-reina.html">Week in Review | #BoF 500, Karl Lagerfeld, Tim Blanks, Caroline Issa, Toiletpaper, Milan, Isaac Reina</a></h1>
+			<p class="article-meta">
+                <span class="author">By <a href="http://www.businessoffashion.com/author/imran-amed"><strong>Imran Amed</strong></a></span>
+				<span class="date"><time datetime="2014-09-26T18:30:07+00:00">26 September, 2014</time></span>
+			</p>
+					</header>
+					<div class="article-image"><a href="http://www.businessoffashion.com/2014/09/week-review-bof-500-karl-lagerfeld-tim-blanks-caroline-issa-toiletpaper-milan-isaac-reina.html">
+								<img alt="" class="lazy" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/bof500-500x399.png">
+							</a><em>The #BoF 500 - 2014</em></div>
+								<div class="article-summary">
+												<p style="color: #000000;">BoF editor-in-chief Imran Amed recaps the week in the business of fashion.</p>
+										<p class="read-more"><a href="http://www.businessoffashion.com/2014/09/week-review-bof-500-karl-lagerfeld-tim-blanks-caroline-issa-toiletpaper-milan-isaac-reina.html" class="cat-label">&hellip;Continue Reading</a></p>
+		</div>
+	</div>
+	<div class="article-share" data-socialite-context="article-share-96081" id="article-share-96081">
+		<div class="icon-share-wrap">
+			<i class="icon"></i>
+						 			 <span class="share-count"><b>22</b> Shares</span>
+			 			 <ul class="share-buttons socialWidgets">
+			 	<li><a class="socialite twitter-share" href="http://twitter.com/share" data-url="http://www.businessoffashion.com/2014/09/week-review-bof-500-karl-lagerfeld-tim-blanks-caroline-issa-toiletpaper-milan-isaac-reina.html" data-text="Week in Review | #BoF 500, Karl Lagerfeld, Tim Blanks, Caroline Issa, Toiletpaper, Milan, Isaac Reina" data-show-count="true" data-via="bof" data-size="medium" rel="nofollow" target="_blank">Share on Twitter</a></li>
+				<li><a class="socialite facebook-like" href="http://www.facebook.com/sharer.php?u=http://www.businessoffashion.com/2014/09/week-review-bof-500-karl-lagerfeld-tim-blanks-caroline-issa-toiletpaper-milan-isaac-reina.html" data-send="false" data-layout="button_count" data-show_faces="false" data-width="120" data-href="http://www.businessoffashion.com/2014/09/week-review-bof-500-karl-lagerfeld-tim-blanks-caroline-issa-toiletpaper-milan-isaac-reina.html" rel="nofollow" target="_blank">Share on Facebook</a></li>
+				<li><a class="socialite linkedin-share" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.businessoffashion.com/2014/09/week-review-bof-500-karl-lagerfeld-tim-blanks-caroline-issa-toiletpaper-milan-isaac-reina.html&amp;title=Week+in+Review+%7C+%23BoF+500%2C+Karl+Lagerfeld%2C+Tim+Blanks%2C+Caroline+Issa%2C+Toiletpaper%2C+Milan%2C+Isaac+Reina" data-counter="right" data-url="http://www.businessoffashion.com/2014/09/week-review-bof-500-karl-lagerfeld-tim-blanks-caroline-issa-toiletpaper-milan-isaac-reina.html" rel="nofollow" target="_blank">Share on LinkedIn</a></li>
+				<li><a class="socialite pinterest-pinit" href="//www.pinterest.com/pin/create/button/?url=http://www.businessoffashion.com/2014/09/week-review-bof-500-karl-lagerfeld-tim-blanks-caroline-issa-toiletpaper-milan-isaac-reina.html" data-pin-do="buttonPin" data-pin-config="beside" target="_blank">Share on Pinterest</a></li>
+				<li><a class="socialite googleplus-one" href="https://plus.google.com/share?url=http://www.businessoffashion.com/2014/09/week-review-bof-500-karl-lagerfeld-tim-blanks-caroline-issa-toiletpaper-milan-isaac-reina.html" data-size="medium" data-width="100" data-href="http://www.businessoffashion.com/2014/09/week-review-bof-500-karl-lagerfeld-tim-blanks-caroline-issa-toiletpaper-milan-isaac-reina.html" rel="nofollow" target="_blank">Share on Google+</a></li>
+			 </ul>
+		 </div>
+	</div>
+</article>
+					<article class="post-96042 post type-post status-publish format-standard has-post-thumbnail hentry category-news-analysis category-power-moves tag-adidas tag-bof500 tag-collection_bof500-2013 tag-collection_bof500-2014 tag-careers tag-carolina-herrera tag-carolina-herrera-ltd tag-caroline-brown tag-denis-dekovic tag-donna-karan tag-organisation-subject_drapers tag-marc-dolce tag-mark-milner tag-mark-weber tag-nike tag-roger-farah tag-spanx tag-tory-burch tag-united-kingdom archive-display cat-news-analysis has-image cf" style="min-height: 367px">
+	<div class="fw">
+		<header>
+			<p class="article-category"><a href="http://www.businessoffashion.com/category/news-analysis" class="cat-label">News &amp; Analysis</a></p>
+			<h1 class="article-title"><a href="http://www.businessoffashion.com/2014/09/power-moves-tory-burch-hires-co-ceo-carolina-herrera-president-adidas-poaches-nike-designers.html">Power Moves | Tory Burch Hires Co-CEO, Brown Exits Carolina Herrera, Adidas Poaches Nike Designers</a></h1>
+			<p class="article-meta">
+                <span class="author">By <a href="http://www.businessoffashion.com/author/kati-chitrakorn"><strong>Kati Chitrakorn</strong></a></span>
+				<span class="date"><time datetime="2014-09-26T14:14:31+00:00">26 September, 2014</time></span>
+			</p>
+					</header>
+					<div class="article-image"><a href="http://www.businessoffashion.com/2014/09/power-moves-tory-burch-hires-co-ceo-carolina-herrera-president-adidas-poaches-nike-designers.html">
+								<img alt="" class="lazy" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/2014092609451760-500x327.jpg">
+							</a><em>Roger Farah, co-CEO of Tory Burch | Source: Courtesy</em></div>
+								<div class="article-summary">
+												<p>BoF compiles the most important professional moves of the week.</p>
+										<p class="read-more"><a href="http://www.businessoffashion.com/2014/09/power-moves-tory-burch-hires-co-ceo-carolina-herrera-president-adidas-poaches-nike-designers.html" class="cat-label">&hellip;Continue Reading</a></p>
+		</div>
+	</div>
+	<div class="article-share" data-socialite-context="article-share-96042" id="article-share-96042">
+		<div class="icon-share-wrap">
+			<i class="icon"></i>
+						 			 <span class="share-count"><b>32</b> Shares</span>
+			 			 <ul class="share-buttons socialWidgets">
+			 	<li><a class="socialite twitter-share" href="http://twitter.com/share" data-url="http://www.businessoffashion.com/2014/09/power-moves-tory-burch-hires-co-ceo-carolina-herrera-president-adidas-poaches-nike-designers.html" data-text="Power Moves | Tory Burch Hires Co-CEO, Brown Exits Carolina Herrera, Adidas Poaches Nike Designers" data-show-count="true" data-via="bof" data-size="medium" rel="nofollow" target="_blank">Share on Twitter</a></li>
+				<li><a class="socialite facebook-like" href="http://www.facebook.com/sharer.php?u=http://www.businessoffashion.com/2014/09/power-moves-tory-burch-hires-co-ceo-carolina-herrera-president-adidas-poaches-nike-designers.html" data-send="false" data-layout="button_count" data-show_faces="false" data-width="120" data-href="http://www.businessoffashion.com/2014/09/power-moves-tory-burch-hires-co-ceo-carolina-herrera-president-adidas-poaches-nike-designers.html" rel="nofollow" target="_blank">Share on Facebook</a></li>
+				<li><a class="socialite linkedin-share" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.businessoffashion.com/2014/09/power-moves-tory-burch-hires-co-ceo-carolina-herrera-president-adidas-poaches-nike-designers.html&amp;title=Power+Moves+%7C+Tory+Burch+Hires+Co-CEO%2C+Brown+Exits+Carolina+Herrera%2C+Adidas+Poaches+Nike+Designers" data-counter="right" data-url="http://www.businessoffashion.com/2014/09/power-moves-tory-burch-hires-co-ceo-carolina-herrera-president-adidas-poaches-nike-designers.html" rel="nofollow" target="_blank">Share on LinkedIn</a></li>
+				<li><a class="socialite pinterest-pinit" href="//www.pinterest.com/pin/create/button/?url=http://www.businessoffashion.com/2014/09/power-moves-tory-burch-hires-co-ceo-carolina-herrera-president-adidas-poaches-nike-designers.html" data-pin-do="buttonPin" data-pin-config="beside" target="_blank">Share on Pinterest</a></li>
+				<li><a class="socialite googleplus-one" href="https://plus.google.com/share?url=http://www.businessoffashion.com/2014/09/power-moves-tory-burch-hires-co-ceo-carolina-herrera-president-adidas-poaches-nike-designers.html" data-size="medium" data-width="100" data-href="http://www.businessoffashion.com/2014/09/power-moves-tory-burch-hires-co-ceo-carolina-herrera-president-adidas-poaches-nike-designers.html" rel="nofollow" target="_blank">Share on Google+</a></li>
+			 </ul>
+		 </div>
+	</div>
+</article>
+					<article class="post-96023 post type-post status-publish format-standard has-post-thumbnail hentry category-education archive-display cat-education has-image cf" style="min-height: 367px">
+	<div class="fw">
+		<header>
+			<p class="article-category"><a href="http://www.businessoffashion.com/category/education" class="cat-label">Education</a></p>
+			<h1 class="article-title"><a href="http://www.businessoffashion.com/2014/09/pop-quiz-karl-lagerfeld-caroline-issa-toiletpaper-black-milk.html">Pop Quiz | Karl Lagerfeld, Caroline Issa, Toiletpaper, Black Milk</a></h1>
+			<p class="article-meta">
+                <span class="author">By <a href="http://www.businessoffashion.com/author/devivallabhaneni"><strong>Devi Vallabhaneni</strong></a></span>
+				<span class="date"><time datetime="2014-09-26T11:57:15+00:00">26 September, 2014</time></span>
+			</p>
+					</header>
+					<div class="article-image"><a href="http://www.businessoffashion.com/2014/09/pop-quiz-karl-lagerfeld-caroline-issa-toiletpaper-black-milk.html">
+								<img alt="" class="lazy" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/05/shutterstock_79404877-pop-quiz-exam-500x327.jpg">
+							</a><em>Source: Shutterstock</em></div>
+								<div class="article-summary">
+												<header id="post_header" style="color: #000000;">
+<div class="article-summary" style="font-weight: inherit; font-style: inherit;">
+<header id="post_header" style="font-weight: inherit; font-style: inherit;">
+<div class="article-summary" style="font-weight: inherit; font-style: inherit;">
+<p style="font-weight: inherit; font-style: inherit;"><span style="font-weight: inherit; font-style: inherit;">How well have you read your BoF this week? Test your knowledge of all of the latest news and analysis from around the world of fashion in our Pop Quiz, which covers <a href="http://www.businessoffashion.com/karl-lagerfeld"  class="kws_link bof-track imp clk" data-e="profile.link" data-id="266">Karl Lagerfeld</a>, <a href="http://www.businessoffashion.com/caroline-issa"  class="kws_link bof-track imp clk" data-e="profile.link" data-id="83">Caroline Issa</a>, Toiletpaper</span><span style="font-weight: inherit; font-style: inherit;"> and more.</span></p>
+</div>
+</header>
+</div>
+</header>
+										<p class="read-more"><a href="http://www.businessoffashion.com/2014/09/pop-quiz-karl-lagerfeld-caroline-issa-toiletpaper-black-milk.html" class="cat-label">&hellip;Continue Reading</a></p>
+		</div>
+	</div>
+	<div class="article-share" data-socialite-context="article-share-96023" id="article-share-96023">
+		<div class="icon-share-wrap">
+			<i class="icon"></i>
+						 			 <span class="share-count"><b>57</b> Shares</span>
+			 			 <ul class="share-buttons socialWidgets">
+			 	<li><a class="socialite twitter-share" href="http://twitter.com/share" data-url="http://www.businessoffashion.com/2014/09/pop-quiz-karl-lagerfeld-caroline-issa-toiletpaper-black-milk.html" data-text="Pop Quiz | Karl Lagerfeld, Caroline Issa, Toiletpaper, Black Milk" data-show-count="true" data-via="bof" data-size="medium" rel="nofollow" target="_blank">Share on Twitter</a></li>
+				<li><a class="socialite facebook-like" href="http://www.facebook.com/sharer.php?u=http://www.businessoffashion.com/2014/09/pop-quiz-karl-lagerfeld-caroline-issa-toiletpaper-black-milk.html" data-send="false" data-layout="button_count" data-show_faces="false" data-width="120" data-href="http://www.businessoffashion.com/2014/09/pop-quiz-karl-lagerfeld-caroline-issa-toiletpaper-black-milk.html" rel="nofollow" target="_blank">Share on Facebook</a></li>
+				<li><a class="socialite linkedin-share" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.businessoffashion.com/2014/09/pop-quiz-karl-lagerfeld-caroline-issa-toiletpaper-black-milk.html&amp;title=Pop+Quiz+%7C+Karl+Lagerfeld%2C+Caroline+Issa%2C+Toiletpaper%2C+Black+Milk" data-counter="right" data-url="http://www.businessoffashion.com/2014/09/pop-quiz-karl-lagerfeld-caroline-issa-toiletpaper-black-milk.html" rel="nofollow" target="_blank">Share on LinkedIn</a></li>
+				<li><a class="socialite pinterest-pinit" href="//www.pinterest.com/pin/create/button/?url=http://www.businessoffashion.com/2014/09/pop-quiz-karl-lagerfeld-caroline-issa-toiletpaper-black-milk.html" data-pin-do="buttonPin" data-pin-config="beside" target="_blank">Share on Pinterest</a></li>
+				<li><a class="socialite googleplus-one" href="https://plus.google.com/share?url=http://www.businessoffashion.com/2014/09/pop-quiz-karl-lagerfeld-caroline-issa-toiletpaper-black-milk.html" data-size="medium" data-width="100" data-href="http://www.businessoffashion.com/2014/09/pop-quiz-karl-lagerfeld-caroline-issa-toiletpaper-black-milk.html" rel="nofollow" target="_blank">Share on Google+</a></li>
+			 </ul>
+		 </div>
+	</div>
+</article>
+					<article class="post-95922 post type-post status-publish format-standard has-post-thumbnail hentry category-bits-bytes category-fashion-20 tag-alibaba tag-bonobos tag-china tag-e-commerce tag-jack-ma tag-macys tag-new-york tag-rem-d-koolhaas tag-retail tag-rocket-internet tag-technology tag-united-nude tag-united-states tag-warby-parker archive-display cat-fashion-20 has-image cf" style="min-height: 367px">
+	<div class="fw">
+		<header>
+			<p class="article-category"><a href="http://www.businessoffashion.com/category/fashion-20" class="cat-label">Fashion 2.0</a></p>
+			<h1 class="article-title"><a href="http://www.businessoffashion.com/2014/09/bits-bytes-alibaba-rocket-internet-ipo-macys-new-yorks-e-commerce-companies.html">Bits &#038; Bytes | Alibaba, Rocket Internet IPO, Macy&#8217;s, New York&#8217;s E-Commerce Companies</a></h1>
+			<p class="article-meta">
+                <span class="author">By <a href="http://www.businessoffashion.com/author/kati-chitrakorn"><strong>Kati Chitrakorn</strong></a></span>
+				<span class="date"><time datetime="2014-09-25T17:21:42+00:00">25 September, 2014</time></span>
+			</p>
+					</header>
+					<div class="article-image"><a href="http://www.businessoffashion.com/2014/09/bits-bytes-alibaba-rocket-internet-ipo-macys-new-yorks-e-commerce-companies.html">
+								<img alt="" class="lazy" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/6012792494_d98c3d7792_b-500x327.jpg">
+							</a><em>Alibaba corporate event | Source: Flickr, Alibaba Fairplayfund</em></div>
+								<div class="article-summary">
+												<p>Bits &amp; Bytes is a weekly roundup of the most important news in the fast evolving fashion-tech space.</p>
+										<p class="read-more"><a href="http://www.businessoffashion.com/2014/09/bits-bytes-alibaba-rocket-internet-ipo-macys-new-yorks-e-commerce-companies.html" class="cat-label">&hellip;Continue Reading</a></p>
+		</div>
+	</div>
+	<div class="article-share" data-socialite-context="article-share-95922" id="article-share-95922">
+		<div class="icon-share-wrap">
+			<i class="icon"></i>
+						 			 <span class="share-count"><b>31</b> Shares</span>
+			 			 <ul class="share-buttons socialWidgets">
+			 	<li><a class="socialite twitter-share" href="http://twitter.com/share" data-url="http://www.businessoffashion.com/2014/09/bits-bytes-alibaba-rocket-internet-ipo-macys-new-yorks-e-commerce-companies.html" data-text="Bits &#038; Bytes | Alibaba, Rocket Internet IPO, Macy&#8217;s, New York&#8217;s E-Commerce Companies" data-show-count="true" data-via="bof" data-size="medium" rel="nofollow" target="_blank">Share on Twitter</a></li>
+				<li><a class="socialite facebook-like" href="http://www.facebook.com/sharer.php?u=http://www.businessoffashion.com/2014/09/bits-bytes-alibaba-rocket-internet-ipo-macys-new-yorks-e-commerce-companies.html" data-send="false" data-layout="button_count" data-show_faces="false" data-width="120" data-href="http://www.businessoffashion.com/2014/09/bits-bytes-alibaba-rocket-internet-ipo-macys-new-yorks-e-commerce-companies.html" rel="nofollow" target="_blank">Share on Facebook</a></li>
+				<li><a class="socialite linkedin-share" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.businessoffashion.com/2014/09/bits-bytes-alibaba-rocket-internet-ipo-macys-new-yorks-e-commerce-companies.html&amp;title=Bits+%26%23038%3B+Bytes+%7C+Alibaba%2C+Rocket+Internet+IPO%2C+Macy%26%238217%3Bs%2C+New+York%26%238217%3Bs+E-Commerce+Companies" data-counter="right" data-url="http://www.businessoffashion.com/2014/09/bits-bytes-alibaba-rocket-internet-ipo-macys-new-yorks-e-commerce-companies.html" rel="nofollow" target="_blank">Share on LinkedIn</a></li>
+				<li><a class="socialite pinterest-pinit" href="//www.pinterest.com/pin/create/button/?url=http://www.businessoffashion.com/2014/09/bits-bytes-alibaba-rocket-internet-ipo-macys-new-yorks-e-commerce-companies.html" data-pin-do="buttonPin" data-pin-config="beside" target="_blank">Share on Pinterest</a></li>
+				<li><a class="socialite googleplus-one" href="https://plus.google.com/share?url=http://www.businessoffashion.com/2014/09/bits-bytes-alibaba-rocket-internet-ipo-macys-new-yorks-e-commerce-companies.html" data-size="medium" data-width="100" data-href="http://www.businessoffashion.com/2014/09/bits-bytes-alibaba-rocket-internet-ipo-macys-new-yorks-e-commerce-companies.html" rel="nofollow" target="_blank">Share on Google+</a></li>
+			 </ul>
+		 </div>
+	</div>
+</article>
+					<article class="post-95856 post type-post status-publish format-standard has-post-thumbnail hentry category-bof-500 category-people tag-organisation-subject_andam tag-bof500 tag-collection_bof500-2013 tag-collection_bof500-2014 tag-bottega-veneta tag-christopher-bailey tag-diane-von-furstenberg tag-iris-van-herpen tag-joe-zee tag-jonathan-anderson tag-kering tag-lvmh tag-marc-jacobs tag-marco-bizzarri tag-marigay-mckee tag-michael-kors tag-net-a-porter tag-nicolas-ghesquiere tag-porter tag-sophia-amoruso tag-thomas-tait tag-tomas-maier tag-yahoo archive-display cat-bof-500 has-image cf" style="min-height: 367px">
+	<div class="fw">
+		<header>
+			<p class="article-category"><a href="http://www.businessoffashion.com/category/bof-500" class="cat-label">#BoF500</a></p>
+			<h1 class="article-title"><a href="http://www.businessoffashion.com/2014/09/bof-500-newsmakers-2014.html">Introducing the #BoF500 Newsmakers of 2014</a></h1>
+			<p class="article-meta">
+                <span class="author">By <a href="http://www.businessoffashion.com/author/lisa-wang-and-antonia-asseily"><strong>Lisa Wang and Antonia Asseily</strong></a></span>
+				<span class="date"><time datetime="2014-09-25T15:41:48+00:00">25 September, 2014</time></span>
+			</p>
+					</header>
+					<div class="article-image"><a href="http://www.businessoffashion.com/2014/09/bof-500-newsmakers-2014.html">
+								<img alt="" class="lazy" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/NM3-500x327.jpg">
+							</a><em>Source: BoF</em></div>
+								<div class="article-summary">
+												<div class="page" title="Page 3">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<p>Today, <a href="http://www.businessoffashion.com/the-business-of-fashion"  class="kws_link bof-track imp clk" data-e="profile.link" data-id="1161">The Business of Fashion</a> unveils the BoF 500 Newsmakers of 2014.</p>
+</div>
+</div>
+</div>
+</div>
+										<p class="read-more"><a href="http://www.businessoffashion.com/2014/09/bof-500-newsmakers-2014.html" class="cat-label">&hellip;Continue Reading</a></p>
+		</div>
+	</div>
+	<div class="article-share" data-socialite-context="article-share-95856" id="article-share-95856">
+		<div class="icon-share-wrap">
+			<i class="icon"></i>
+						 			 <span class="share-count"><b>218</b> Shares</span>
+			 			 <ul class="share-buttons socialWidgets">
+			 	<li><a class="socialite twitter-share" href="http://twitter.com/share" data-url="http://www.businessoffashion.com/2014/09/bof-500-newsmakers-2014.html" data-text="Introducing the #BoF500 Newsmakers of 2014" data-show-count="true" data-via="bof" data-size="medium" rel="nofollow" target="_blank">Share on Twitter</a></li>
+				<li><a class="socialite facebook-like" href="http://www.facebook.com/sharer.php?u=http://www.businessoffashion.com/2014/09/bof-500-newsmakers-2014.html" data-send="false" data-layout="button_count" data-show_faces="false" data-width="120" data-href="http://www.businessoffashion.com/2014/09/bof-500-newsmakers-2014.html" rel="nofollow" target="_blank">Share on Facebook</a></li>
+				<li><a class="socialite linkedin-share" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.businessoffashion.com/2014/09/bof-500-newsmakers-2014.html&amp;title=Introducing+the+%23BoF500+Newsmakers+of+2014" data-counter="right" data-url="http://www.businessoffashion.com/2014/09/bof-500-newsmakers-2014.html" rel="nofollow" target="_blank">Share on LinkedIn</a></li>
+				<li><a class="socialite pinterest-pinit" href="//www.pinterest.com/pin/create/button/?url=http://www.businessoffashion.com/2014/09/bof-500-newsmakers-2014.html" data-pin-do="buttonPin" data-pin-config="beside" target="_blank">Share on Pinterest</a></li>
+				<li><a class="socialite googleplus-one" href="https://plus.google.com/share?url=http://www.businessoffashion.com/2014/09/bof-500-newsmakers-2014.html" data-size="medium" data-width="100" data-href="http://www.businessoffashion.com/2014/09/bof-500-newsmakers-2014.html" rel="nofollow" target="_blank">Share on Google+</a></li>
+			 </ul>
+		 </div>
+	</div>
+</article>
+					<article class="post-95745 post type-post status-publish format-standard has-post-thumbnail hentry category-people category-the-spotlight tag-categorisation-topic_accessories tag-emerging-designers tag-location-written-continent_europe tag-france tag-isaac-reina tag-london tag-paris tag-united-kingdom tag-western-europe archive-display cat-people has-image cf" style="min-height: 368px">
+	<div class="fw">
+		<header>
+			<p class="article-category"><a href="http://www.businessoffashion.com/category/people" class="cat-label">People</a></p>
+			<h1 class="article-title"><a href="http://www.businessoffashion.com/2014/09/soft-meets-structured-isaac-reina.html">Isaac Reina, Soft Meets Structured</a></h1>
+			<p class="article-meta">
+                <span class="author">By <a href="http://www.businessoffashion.com/author/lisa-wang"><strong>Lisa Wang</strong></a></span>
+				<span class="date"><time datetime="2014-09-25T09:00:11+00:00">25 September, 2014</time></span>
+			</p>
+					</header>
+					<div class="article-image"><a href="http://www.businessoffashion.com/2014/09/soft-meets-structured-isaac-reina.html">
+								<img alt="" class="lazy" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/isaac-reina-3-500x328.jpg">
+							</a><em>Isaac Reina's primary coloured S/S 2015 collection | Source: Courtesy</em></div>
+								<div class="article-summary">
+												<p>This month, our Spotlight shines on Isaac Reina, who brings a compelling blend of spare utilitarianism and human warmth to his collection of bags and small leather goods.</p>
+										<p class="read-more"><a href="http://www.businessoffashion.com/2014/09/soft-meets-structured-isaac-reina.html" class="cat-label">&hellip;Continue Reading</a></p>
+		</div>
+	</div>
+	<div class="article-share" data-socialite-context="article-share-95745" id="article-share-95745">
+		<div class="icon-share-wrap">
+			<i class="icon"></i>
+						 			 <span class="share-count"><b>228</b> Shares</span>
+			 			 <ul class="share-buttons socialWidgets">
+			 	<li><a class="socialite twitter-share" href="http://twitter.com/share" data-url="http://www.businessoffashion.com/2014/09/soft-meets-structured-isaac-reina.html" data-text="Isaac Reina, Soft Meets Structured" data-show-count="true" data-via="bof" data-size="medium" rel="nofollow" target="_blank">Share on Twitter</a></li>
+				<li><a class="socialite facebook-like" href="http://www.facebook.com/sharer.php?u=http://www.businessoffashion.com/2014/09/soft-meets-structured-isaac-reina.html" data-send="false" data-layout="button_count" data-show_faces="false" data-width="120" data-href="http://www.businessoffashion.com/2014/09/soft-meets-structured-isaac-reina.html" rel="nofollow" target="_blank">Share on Facebook</a></li>
+				<li><a class="socialite linkedin-share" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.businessoffashion.com/2014/09/soft-meets-structured-isaac-reina.html&amp;title=Isaac+Reina%2C+Soft+Meets+Structured" data-counter="right" data-url="http://www.businessoffashion.com/2014/09/soft-meets-structured-isaac-reina.html" rel="nofollow" target="_blank">Share on LinkedIn</a></li>
+				<li><a class="socialite pinterest-pinit" href="//www.pinterest.com/pin/create/button/?url=http://www.businessoffashion.com/2014/09/soft-meets-structured-isaac-reina.html" data-pin-do="buttonPin" data-pin-config="beside" target="_blank">Share on Pinterest</a></li>
+				<li><a class="socialite googleplus-one" href="https://plus.google.com/share?url=http://www.businessoffashion.com/2014/09/soft-meets-structured-isaac-reina.html" data-size="medium" data-width="100" data-href="http://www.businessoffashion.com/2014/09/soft-meets-structured-isaac-reina.html" rel="nofollow" target="_blank">Share on Google+</a></li>
+			 </ul>
+		 </div>
+	</div>
+</article>
+					<article class="post-95215 post type-post status-publish format-standard has-post-thumbnail hentry category-bof-500 category-people tag-bof500 tag-collection_bof500-2013 tag-collection_bof500-2014 tag-caroline-issa tag-categorisation-subject_design tag-location-written-continent_europe tag-london tag-magazines tag-categorisation-subject_marketing tag-tank tag-tank-magazine tag-united-kingdom tag-western-europe archive-display cat-bof-500 has-image cf" style="min-height: 367px">
+	<div class="fw">
+		<header>
+			<p class="article-category"><a href="http://www.businessoffashion.com/category/bof-500" class="cat-label">#BoF500</a></p>
+			<h1 class="article-title"><a href="http://www.businessoffashion.com/2014/09/caroline-issa-beautiful-mind.html">Caroline Issa, A Beautiful Mind</a></h1>
+			<p class="article-meta">
+                <span class="author">By <a href="http://www.businessoffashion.com/author/robin-mellery-pratt"><strong>Robin Mellery-Pratt</strong></a></span>
+				<span class="date"><time datetime="2014-09-25T08:00:20+00:00">25 September, 2014</time></span>
+			</p>
+					</header>
+					<div class="article-image"><a href="http://www.businessoffashion.com/2014/09/caroline-issa-beautiful-mind.html">
+								<img alt="" class="lazy" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/BoF-High-097-500x327.jpg">
+							</a><em>Caroline Issa | Photo: Morgan O'Donovan</em></div>
+								<div class="article-summary">
+												<p>From modelling to management consulting, publishing to fashion design, Caroline Issa’s iterative evolution has been nothing short of remarkable.</p>
+										<p class="read-more"><a href="http://www.businessoffashion.com/2014/09/caroline-issa-beautiful-mind.html" class="cat-label">&hellip;Continue Reading</a></p>
+		</div>
+	</div>
+	<div class="article-share" data-socialite-context="article-share-95215" id="article-share-95215">
+		<div class="icon-share-wrap">
+			<i class="icon"></i>
+						 			 <span class="share-count"><b>832</b> Shares</span>
+			 			 <ul class="share-buttons socialWidgets">
+			 	<li><a class="socialite twitter-share" href="http://twitter.com/share" data-url="http://www.businessoffashion.com/2014/09/caroline-issa-beautiful-mind.html" data-text="Caroline Issa, A Beautiful Mind" data-show-count="true" data-via="bof" data-size="medium" rel="nofollow" target="_blank">Share on Twitter</a></li>
+				<li><a class="socialite facebook-like" href="http://www.facebook.com/sharer.php?u=http://www.businessoffashion.com/2014/09/caroline-issa-beautiful-mind.html" data-send="false" data-layout="button_count" data-show_faces="false" data-width="120" data-href="http://www.businessoffashion.com/2014/09/caroline-issa-beautiful-mind.html" rel="nofollow" target="_blank">Share on Facebook</a></li>
+				<li><a class="socialite linkedin-share" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.businessoffashion.com/2014/09/caroline-issa-beautiful-mind.html&amp;title=Caroline+Issa%2C+A+Beautiful+Mind" data-counter="right" data-url="http://www.businessoffashion.com/2014/09/caroline-issa-beautiful-mind.html" rel="nofollow" target="_blank">Share on LinkedIn</a></li>
+				<li><a class="socialite pinterest-pinit" href="//www.pinterest.com/pin/create/button/?url=http://www.businessoffashion.com/2014/09/caroline-issa-beautiful-mind.html" data-pin-do="buttonPin" data-pin-config="beside" target="_blank">Share on Pinterest</a></li>
+				<li><a class="socialite googleplus-one" href="https://plus.google.com/share?url=http://www.businessoffashion.com/2014/09/caroline-issa-beautiful-mind.html" data-size="medium" data-width="100" data-href="http://www.businessoffashion.com/2014/09/caroline-issa-beautiful-mind.html" rel="nofollow" target="_blank">Share on Google+</a></li>
+			 </ul>
+		 </div>
+	</div>
+</article>
+					<article class="post-95717 post type-post status-publish format-standard has-post-thumbnail hentry category-news-analysis tag-location-written-continent_europe tag-footwear tag-france tag-hogan tag-italy tag-milan tag-paris tag-tods tag-western-europe archive-display cat-news-analysis has-image cf" style="min-height: 367px">
+	<div class="fw">
+		<header>
+			<p class="article-category"><a href="http://www.businessoffashion.com/category/news-analysis" class="cat-label">News &amp; Analysis</a></p>
+			<h1 class="article-title"><a href="http://www.businessoffashion.com/2014/09/tods-may-spin-hogan-luxury-sneaker-brand.html">Tod’s May Spin Off Hogan Luxury Sneaker Brand</a></h1>
+			<p class="article-meta">
+                <span class="author">By <strong>Bloomberg</strong></span>
+				<span class="date"><time datetime="2014-09-24T16:54:29+00:00">24 September, 2014</time></span>
+			</p>
+					</header>
+					<div class="article-image"><a href="http://www.businessoffashion.com/2014/09/tods-may-spin-hogan-luxury-sneaker-brand.html">
+								<img alt="" class="lazy" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/hogan-shoes-winter-2014-campaign-500x327.jpg">
+							</a><em>Hogan A/W 2014 campaign | Source: Hogan</em></div>
+								<div class="article-summary">
+												<p>Tod&#8217;s may spin off its luxury sneaker division, Hogan, according to a company spokeswoman.</p>
+										<p class="read-more"><a href="http://www.businessoffashion.com/2014/09/tods-may-spin-hogan-luxury-sneaker-brand.html" class="cat-label">&hellip;Continue Reading</a></p>
+		</div>
+	</div>
+	<div class="article-share" data-socialite-context="article-share-95717" id="article-share-95717">
+		<div class="icon-share-wrap">
+			<i class="icon"></i>
+						 			 <span class="share-count"><b>37</b> Shares</span>
+			 			 <ul class="share-buttons socialWidgets">
+			 	<li><a class="socialite twitter-share" href="http://twitter.com/share" data-url="http://www.businessoffashion.com/2014/09/tods-may-spin-hogan-luxury-sneaker-brand.html" data-text="Tod’s May Spin Off Hogan Luxury Sneaker Brand" data-show-count="true" data-via="bof" data-size="medium" rel="nofollow" target="_blank">Share on Twitter</a></li>
+				<li><a class="socialite facebook-like" href="http://www.facebook.com/sharer.php?u=http://www.businessoffashion.com/2014/09/tods-may-spin-hogan-luxury-sneaker-brand.html" data-send="false" data-layout="button_count" data-show_faces="false" data-width="120" data-href="http://www.businessoffashion.com/2014/09/tods-may-spin-hogan-luxury-sneaker-brand.html" rel="nofollow" target="_blank">Share on Facebook</a></li>
+				<li><a class="socialite linkedin-share" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.businessoffashion.com/2014/09/tods-may-spin-hogan-luxury-sneaker-brand.html&amp;title=Tod%E2%80%99s+May+Spin+Off+Hogan+Luxury+Sneaker+Brand" data-counter="right" data-url="http://www.businessoffashion.com/2014/09/tods-may-spin-hogan-luxury-sneaker-brand.html" rel="nofollow" target="_blank">Share on LinkedIn</a></li>
+				<li><a class="socialite pinterest-pinit" href="//www.pinterest.com/pin/create/button/?url=http://www.businessoffashion.com/2014/09/tods-may-spin-hogan-luxury-sneaker-brand.html" data-pin-do="buttonPin" data-pin-config="beside" target="_blank">Share on Pinterest</a></li>
+				<li><a class="socialite googleplus-one" href="https://plus.google.com/share?url=http://www.businessoffashion.com/2014/09/tods-may-spin-hogan-luxury-sneaker-brand.html" data-size="medium" data-width="100" data-href="http://www.businessoffashion.com/2014/09/tods-may-spin-hogan-luxury-sneaker-brand.html" rel="nofollow" target="_blank">Share on Google+</a></li>
+			 </ul>
+		 </div>
+	</div>
+</article>
+					<article class="post-95001 post type-post status-publish format-standard has-post-thumbnail hentry category-bof-500 category-people tag-advertising tag-bof500 tag-collection_bof500-2014 tag-location-written-continent_europe tag-italy tag-categorisation-subject_marketing tag-maurizio-cattelan-pierpaolo-ferrari tag-milan tag-organisation-subject_toiletpaper tag-western-europe archive-display cat-bof-500 has-image cf" style="min-height: 367px">
+	<div class="fw">
+		<header>
+			<p class="article-category"><a href="http://www.businessoffashion.com/category/bof-500" class="cat-label">#BoF500</a></p>
+			<h1 class="article-title"><a href="http://www.businessoffashion.com/2014/09/catching-toiletpaper-virus.html">Catching the Toiletpaper Virus</a></h1>
+			<p class="article-meta">
+                <span class="author">By <a href="http://www.businessoffashion.com/author/jj-martin"><strong>JJ Martin</strong></a></span>
+				<span class="date"><time datetime="2014-09-24T08:00:18+00:00">24 September, 2014</time></span>
+			</p>
+					</header>
+					<div class="article-image"><a href="http://www.businessoffashion.com/2014/09/catching-toiletpaper-virus.html">
+								<img alt="" class="lazy" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/maurizio-cattelan-pierpaolo-ferrari-courtesy-toiletpaper-500x327.jpg">
+							</a><em>Maurizio Cattelan and Pierpaolo Ferrari | Source: Toiletpaper</em></div>
+								<div class="article-summary">
+												<p>At Toiletpaper, artist Maurizio Cattelan and photographer Pierpaolo Ferrari are creating provocative, hyperreal imagery that has ‘infected’ fashion with its naughtiness, irony, humour and shock value.</p>
+										<p class="read-more"><a href="http://www.businessoffashion.com/2014/09/catching-toiletpaper-virus.html" class="cat-label">&hellip;Continue Reading</a></p>
+		</div>
+	</div>
+	<div class="article-share" data-socialite-context="article-share-95001" id="article-share-95001">
+		<div class="icon-share-wrap">
+			<i class="icon"></i>
+						 			 <span class="share-count"><b>805</b> Shares</span>
+			 			 <ul class="share-buttons socialWidgets">
+			 	<li><a class="socialite twitter-share" href="http://twitter.com/share" data-url="http://www.businessoffashion.com/2014/09/catching-toiletpaper-virus.html" data-text="Catching the Toiletpaper Virus" data-show-count="true" data-via="bof" data-size="medium" rel="nofollow" target="_blank">Share on Twitter</a></li>
+				<li><a class="socialite facebook-like" href="http://www.facebook.com/sharer.php?u=http://www.businessoffashion.com/2014/09/catching-toiletpaper-virus.html" data-send="false" data-layout="button_count" data-show_faces="false" data-width="120" data-href="http://www.businessoffashion.com/2014/09/catching-toiletpaper-virus.html" rel="nofollow" target="_blank">Share on Facebook</a></li>
+				<li><a class="socialite linkedin-share" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.businessoffashion.com/2014/09/catching-toiletpaper-virus.html&amp;title=Catching+the+Toiletpaper+Virus" data-counter="right" data-url="http://www.businessoffashion.com/2014/09/catching-toiletpaper-virus.html" rel="nofollow" target="_blank">Share on LinkedIn</a></li>
+				<li><a class="socialite pinterest-pinit" href="//www.pinterest.com/pin/create/button/?url=http://www.businessoffashion.com/2014/09/catching-toiletpaper-virus.html" data-pin-do="buttonPin" data-pin-config="beside" target="_blank">Share on Pinterest</a></li>
+				<li><a class="socialite googleplus-one" href="https://plus.google.com/share?url=http://www.businessoffashion.com/2014/09/catching-toiletpaper-virus.html" data-size="medium" data-width="100" data-href="http://www.businessoffashion.com/2014/09/catching-toiletpaper-virus.html" rel="nofollow" target="_blank">Share on Google+</a></li>
+			 </ul>
+		 </div>
+	</div>
+</article>
+					<article class="post-95531 post type-post status-publish format-standard has-post-thumbnail hentry category-intelligence tag-categorisation-topic_accessories tag-australia tag-black-milk tag-location-written-city_brisbane tag-cameron-parker tag-categorisation-subject_communications tag-e-commerce tag-james-lillis tag-location-written-continent_oceania tag-south-pacific-ocean archive-display cat-intelligence has-image cf" style="min-height: 367px">
+	<div class="fw">
+		<header>
+			<p class="article-category"><a href="http://www.businessoffashion.com/category/intelligence" class="cat-label">Intelligence</a></p>
+			<h1 class="article-title"><a href="http://www.businessoffashion.com/2014/09/black-milk-sharkies-rise-fashion-fandom.html">Black Milk, &#8216;Sharkies&#8217; and the Rise of a Fashion Fandom</a></h1>
+			<p class="article-meta">
+                <span class="author">By <a href="http://www.businessoffashion.com/author/madelin-newman"><strong>Madelin Newman</strong></a></span>
+				<span class="date"><time datetime="2014-09-24T07:50:35+00:00">24 September, 2014</time></span>
+			</p>
+					</header>
+					<div class="article-image"><a href="http://www.businessoffashion.com/2014/09/black-milk-sharkies-rise-fashion-fandom.html">
+								<img alt="" class="lazy" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/black-milk-fandom-brisbane-australia-500x327.jpg">
+							</a><em>Black Milk | Source: Courtesy</em></div>
+								<div class="article-summary">
+												<p>Black Milk’s rabid fan base is the driving force behind the fast-growing Australian clothing brand, influencing everything from product design to marketing. BoF examines one of fashion’s most obsessive fandoms.</p>
+										<p class="read-more"><a href="http://www.businessoffashion.com/2014/09/black-milk-sharkies-rise-fashion-fandom.html" class="cat-label">&hellip;Continue Reading</a></p>
+		</div>
+	</div>
+	<div class="article-share" data-socialite-context="article-share-95531" id="article-share-95531">
+		<div class="icon-share-wrap">
+			<i class="icon"></i>
+						 			 <span class="share-count"><b>1034</b> Shares</span>
+			 			 <ul class="share-buttons socialWidgets">
+			 	<li><a class="socialite twitter-share" href="http://twitter.com/share" data-url="http://www.businessoffashion.com/2014/09/black-milk-sharkies-rise-fashion-fandom.html" data-text="Black Milk, &#8216;Sharkies&#8217; and the Rise of a Fashion Fandom" data-show-count="true" data-via="bof" data-size="medium" rel="nofollow" target="_blank">Share on Twitter</a></li>
+				<li><a class="socialite facebook-like" href="http://www.facebook.com/sharer.php?u=http://www.businessoffashion.com/2014/09/black-milk-sharkies-rise-fashion-fandom.html" data-send="false" data-layout="button_count" data-show_faces="false" data-width="120" data-href="http://www.businessoffashion.com/2014/09/black-milk-sharkies-rise-fashion-fandom.html" rel="nofollow" target="_blank">Share on Facebook</a></li>
+				<li><a class="socialite linkedin-share" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.businessoffashion.com/2014/09/black-milk-sharkies-rise-fashion-fandom.html&amp;title=Black+Milk%2C+%26%238216%3BSharkies%26%238217%3B+and+the+Rise+of+a+Fashion+Fandom" data-counter="right" data-url="http://www.businessoffashion.com/2014/09/black-milk-sharkies-rise-fashion-fandom.html" rel="nofollow" target="_blank">Share on LinkedIn</a></li>
+				<li><a class="socialite pinterest-pinit" href="//www.pinterest.com/pin/create/button/?url=http://www.businessoffashion.com/2014/09/black-milk-sharkies-rise-fashion-fandom.html" data-pin-do="buttonPin" data-pin-config="beside" target="_blank">Share on Pinterest</a></li>
+				<li><a class="socialite googleplus-one" href="https://plus.google.com/share?url=http://www.businessoffashion.com/2014/09/black-milk-sharkies-rise-fashion-fandom.html" data-size="medium" data-width="100" data-href="http://www.businessoffashion.com/2014/09/black-milk-sharkies-rise-fashion-fandom.html" rel="nofollow" target="_blank">Share on Google+</a></li>
+			 </ul>
+		 </div>
+	</div>
+</article>
+					<article class="post-94832 post type-post status-publish format-standard has-post-thumbnail hentry category-careers category-role-call tag-careers tag-location-written-continent_europe tag-instagram tag-kristen-joy-watts tag-new-york tag-social-media tag-united-states tag-western-europe archive-display cat-careers has-image cf" style="min-height: 367px">
+	<div class="fw">
+		<header>
+			<p class="article-category"><a href="http://www.businessoffashion.com/category/careers" class="cat-label">Careers</a></p>
+			<h1 class="article-title"><a href="http://www.businessoffashion.com/2014/09/role-call-kristen-joy-watts-fashion-community-lead.html">Role Call | Kristen Joy Watts, Fashion Community Lead</a></h1>
+			<p class="article-meta">
+                <span class="author">By <a href="http://www.businessoffashion.com/author/lisa-wang"><strong>Lisa Wang</strong></a></span>
+				<span class="date"><time datetime="2014-09-23T14:57:08+00:00">23 September, 2014</time></span>
+			</p>
+					</header>
+					<div class="article-image"><a href="http://www.businessoffashion.com/2014/09/role-call-kristen-joy-watts-fashion-community-lead.html">
+								<img alt="" class="lazy" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/kristen-joy-watts-instagram-500x327.jpg">
+							</a><em>Kristen Joy Watts | Source: Courtesy</em></div>
+								<div class="article-summary">
+												<p>There were times in my career when I was encouraged to focus and pick a narrower path, but having a wide variety of skills and interests and experiences serves me well now, says Kristen Joy Watts, fashion community lead at Instagram.</p>
+										<p class="read-more"><a href="http://www.businessoffashion.com/2014/09/role-call-kristen-joy-watts-fashion-community-lead.html" class="cat-label">&hellip;Continue Reading</a></p>
+		</div>
+	</div>
+	<div class="article-share" data-socialite-context="article-share-94832" id="article-share-94832">
+		<div class="icon-share-wrap">
+			<i class="icon"></i>
+						 			 <span class="share-count"><b>203</b> Shares</span>
+			 			 <ul class="share-buttons socialWidgets">
+			 	<li><a class="socialite twitter-share" href="http://twitter.com/share" data-url="http://www.businessoffashion.com/2014/09/role-call-kristen-joy-watts-fashion-community-lead.html" data-text="Role Call | Kristen Joy Watts, Fashion Community Lead" data-show-count="true" data-via="bof" data-size="medium" rel="nofollow" target="_blank">Share on Twitter</a></li>
+				<li><a class="socialite facebook-like" href="http://www.facebook.com/sharer.php?u=http://www.businessoffashion.com/2014/09/role-call-kristen-joy-watts-fashion-community-lead.html" data-send="false" data-layout="button_count" data-show_faces="false" data-width="120" data-href="http://www.businessoffashion.com/2014/09/role-call-kristen-joy-watts-fashion-community-lead.html" rel="nofollow" target="_blank">Share on Facebook</a></li>
+				<li><a class="socialite linkedin-share" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.businessoffashion.com/2014/09/role-call-kristen-joy-watts-fashion-community-lead.html&amp;title=Role+Call+%7C+Kristen+Joy+Watts%2C+Fashion+Community+Lead" data-counter="right" data-url="http://www.businessoffashion.com/2014/09/role-call-kristen-joy-watts-fashion-community-lead.html" rel="nofollow" target="_blank">Share on LinkedIn</a></li>
+				<li><a class="socialite pinterest-pinit" href="//www.pinterest.com/pin/create/button/?url=http://www.businessoffashion.com/2014/09/role-call-kristen-joy-watts-fashion-community-lead.html" data-pin-do="buttonPin" data-pin-config="beside" target="_blank">Share on Pinterest</a></li>
+				<li><a class="socialite googleplus-one" href="https://plus.google.com/share?url=http://www.businessoffashion.com/2014/09/role-call-kristen-joy-watts-fashion-community-lead.html" data-size="medium" data-width="100" data-href="http://www.businessoffashion.com/2014/09/role-call-kristen-joy-watts-fashion-community-lead.html" rel="nofollow" target="_blank">Share on Google+</a></li>
+			 </ul>
+		 </div>
+	</div>
+</article>
+					<article class="post-95620 post type-post status-publish format-standard has-post-thumbnail hentry category-intelligence tag-categorisation-subject_design tag-designers tag-nellie-partow tag-new-york tag-parsons-the-new-school-for-design tag-premiere-vision tag-categorisation-topic_ready-to-wear tag-united-states tag-wren archive-display cat-intelligence has-image cf" style="min-height: 367px">
+	<div class="fw">
+		<header>
+			<p class="article-category"><a href="http://www.businessoffashion.com/category/intelligence" class="cat-label">Intelligence</a></p>
+			<h1 class="article-title"><a href="http://www.businessoffashion.com/2014/09/secret-journey-fashion-piece-part-1-creativity-design.html">The Secret Journey of a Fashion Piece — Part 1: Creativity &#038; Design</a></h1>
+			<p class="article-meta">
+                <span class="author">By <a href="http://www.businessoffashion.com/author/lauren-sherman"><strong>Lauren Sherman</strong></a></span>
+				<span class="date"><time datetime="2014-09-23T14:21:43+00:00">23 September, 2014</time></span>
+			</p>
+					</header>
+					<div class="article-image"><a href="http://www.businessoffashion.com/2014/09/secret-journey-fashion-piece-part-1-creativity-design.html">
+								<img alt="" class="lazy" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/shutterstock_192038087-500x327.jpg">
+							</a><em>Source: Shutterstock</em></div>
+								<div class="article-summary">
+												<p>Taking a fashion piece from inception to store is a complex journey. In the first instalment of a three-part series supported by <a href="http://www.lectra.com/en/industries/fashion/index.html" target="_blank">Lectra</a> — a product design, development and manufacturing solutions company — BoF goes inside the studio to understand the creative process that goes into producing fashion pieces and how designers find that perfect balance of colour, materials, shape, pattern and fit.</p>
+										<p class="read-more"><a href="http://www.businessoffashion.com/2014/09/secret-journey-fashion-piece-part-1-creativity-design.html" class="cat-label">&hellip;Continue Reading</a></p>
+		</div>
+	</div>
+	<div class="article-share" data-socialite-context="article-share-95620" id="article-share-95620">
+		<div class="icon-share-wrap">
+			<i class="icon"></i>
+						 			 <span class="share-count"><b>1920</b> Shares</span>
+			 			 <ul class="share-buttons socialWidgets">
+			 	<li><a class="socialite twitter-share" href="http://twitter.com/share" data-url="http://www.businessoffashion.com/2014/09/secret-journey-fashion-piece-part-1-creativity-design.html" data-text="The Secret Journey of a Fashion Piece — Part 1: Creativity &#038; Design" data-show-count="true" data-via="bof" data-size="medium" rel="nofollow" target="_blank">Share on Twitter</a></li>
+				<li><a class="socialite facebook-like" href="http://www.facebook.com/sharer.php?u=http://www.businessoffashion.com/2014/09/secret-journey-fashion-piece-part-1-creativity-design.html" data-send="false" data-layout="button_count" data-show_faces="false" data-width="120" data-href="http://www.businessoffashion.com/2014/09/secret-journey-fashion-piece-part-1-creativity-design.html" rel="nofollow" target="_blank">Share on Facebook</a></li>
+				<li><a class="socialite linkedin-share" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.businessoffashion.com/2014/09/secret-journey-fashion-piece-part-1-creativity-design.html&amp;title=The+Secret+Journey+of+a+Fashion+Piece+%E2%80%94+Part+1%3A+Creativity+%26%23038%3B+Design" data-counter="right" data-url="http://www.businessoffashion.com/2014/09/secret-journey-fashion-piece-part-1-creativity-design.html" rel="nofollow" target="_blank">Share on LinkedIn</a></li>
+				<li><a class="socialite pinterest-pinit" href="//www.pinterest.com/pin/create/button/?url=http://www.businessoffashion.com/2014/09/secret-journey-fashion-piece-part-1-creativity-design.html" data-pin-do="buttonPin" data-pin-config="beside" target="_blank">Share on Pinterest</a></li>
+				<li><a class="socialite googleplus-one" href="https://plus.google.com/share?url=http://www.businessoffashion.com/2014/09/secret-journey-fashion-piece-part-1-creativity-design.html" data-size="medium" data-width="100" data-href="http://www.businessoffashion.com/2014/09/secret-journey-fashion-piece-part-1-creativity-design.html" rel="nofollow" target="_blank">Share on Google+</a></li>
+			 </ul>
+		 </div>
+	</div>
+</article>
+			<div class='wp-pagenavi'>
+<span class='current'>1</span><a class="page larger" href="http://www.businessoffashion.com/page/2">2</a><a class="page larger" href="http://www.businessoffashion.com/page/3">3</a><a class="page larger" href="http://www.businessoffashion.com/page/4">4</a><a class="page larger" href="http://www.businessoffashion.com/page/5">5</a><a class="nextpostslink" href="http://www.businessoffashion.com/page/2">Next</a>
+</div></div>
+	
+		
+	
+	
+</div>
+
+
+<aside class="aside" role="complementary">
+<script id="500ProfilesSliderTemplate" type="text/x-handlebars-template">
+{{#if initial}}
+<a class="logo500" href="/bof500"></a>
+<ul class="slides fw">{{/if}}
+  {{# each slides}}
+  <li class="slide">
+    {{> sliderItem}}
+  </li>
+  {{/each}}
+  {{#if initial}}
+  <li class="itemslide">
+    <a class="img" href="/bof500/">
+      <img src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/bof-500.jpg" alt="BoF 500" />
+    </a>
+    <a href="/bof500/" class="seeprofile">Click here to discover the full BoF 500 list</a>
+  </li>
+</ul>{{/if}}
+</script>
+<script id="500ProfilesSliderItemTemplate" type="text/x-handlebars-template">
+<ul class="fw">
+  {{#each profiles}}
+  <li class="itemslide">
+    {{#if image_medium }}
+    <a class="bof-track imp clk img" href="{{url}}" data-e="profile.widget.thumbnail" data-id="{{id}}">
+    <img src="{{ image_medium }}" alt="{{ title }}'s photo">
+    </a>
+    {{/if}}
+    <div class="info">
+      <div class="fw">
+        <div class="titles">
+          <h3><a class="bof-track clk" href="{{url}}" data-e="profile.widget.thumbnail" data-id="{{id}}">{{title}}</a></h3>
+          <h4>{{summary}}</h4>
+        </div>
+        <div class="icons"><i class="countries-24-{{location_code}}"></i><i class="role roles-24-{{category_slug}}"></i></div>
+      </div>
+      {{#if intro }}
+      <div class="text">{{ intro }}</div>
+      {{/if}}      
+    </div>
+    <div class="follow-spacer"></div>
+    <div class="profile-follow-button-cnt">
+      <div class="btn-follow js-bof-follow-btn" data-profile="{{ id }}"></div>
+    </div>
+  </li>
+{{/each}}
+</ul>
+</script>
+<script id="CareersWidgetTemplate" type="text/x-handlebars-template">
+  <a class="logo-careers" href="/careers">BoF Careers</a>
+  <p class="subtitle">The Global Marketplace For Fashion Talent</p>
+  <p class="title-featured"><em>&mdash;</em> PARTNER <em>&mdash;</em></p>
+  <a href="{{ company.url }}" class="companyLink">
+    <span>{{ company.title }}</span>
+    <img src="{{ company.sliderImage_medium }}" class="featured">
+  </a>
+  <a href="/careers" class="view-more">» Visit BoF Careers</a>
+</script>
+
+<script id="JobsFeedWidgetTemplate" type="text/x-handlebars-template">
+  <a class="logo-careers" href="/careers">
+      BoF Careers
+  </a>
+  <p class="subtitle">The Global Marketplace For Fashion Talent</p>
+  <p class="title-featured">
+      <em>—</em>
+      CURRENT JOB OPENINGS
+      <em>—</em>
+  </p>
+  <ul class="slides">
+  {{# each slides}}
+  <li class="slide">
+    {{> sliderItem}}
+  </li>
+  {{/each}}
+</script>
+<script id="JobsSliderItemTemplate" type="text/x-handlebars-template">
+<ul data-ctx="widget_job">
+  <li class="itemslide">
+      <a href="{{url}}" class="js-job bof-track clk" data-index='{{@index}}' data-id='{{job_id}}' data-e="job.widget.spotlight">
+        <img src="{{ images.small}}" class="job-logo">
+        <h2>{{substring job_title 0 35}}, <span>{{company_title}}</span></h2>
+        <small>{{location}}</small>
+      </a>
+  </li>
+</ul>
+</script>
+
+	<ul>
+		<li id="bof_basics-3" class="widget widget-the-basics"><h2 class="widgettitle"><span>SPECIAL PRINT EDITION</span></h2>    
+<div class="widget-content">
+                    <img src="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/Karl_Cover_issue3-337x480.jpg" alt="" class="basics-photo">    
+            <h3 class="title">Polymaths &amp; Multitaskers</h3>    
+      <p class="summary">Featuring Karl Lagerfeld, Mark Parker, Caroline Issa, Tim Blanks, Mario Testino and the full 2014 BoF 500 directory.</p>
+      <p class="browse"><span>Purchase now...</span></p>
+    <a href="http://shop.businessoffashion.com/" class="overlay" target="_blank"></a>
+</div></li>
+<li id="bof_trending-2" class="widget trending"><h2 class="widgettitle">TICKER</h2>
+<div class="trending-item" id="latest">
+            <h3 data-target="latest">Latest News</h3>
+        <ul>
+                    <li class="cf">
+                <div class="img">
+                                                                <img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/Claire-Geoffrey-117x78.jpg">
+                                    </div>
+                <h4>The Duo Taking Chloé to ‘Another Level’</h4>
+                <a href="http://www.businessoffashion.com/2014/09/duo-taking-chloe-another-level.html" class="overlay"></a>
+            </li>
+                    <li class="cf">
+                <div class="img">
+                                                                <img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/bof500-117x78.png">
+                                    </div>
+                <h4>Week in Review | #BoF 500, Karl Lagerfeld, Tim Blanks,&hellip;</h4>
+                <a href="http://www.businessoffashion.com/2014/09/week-review-bof-500-karl-lagerfeld-tim-blanks-caroline-issa-toiletpaper-milan-isaac-reina.html" class="overlay"></a>
+            </li>
+                    <li class="cf">
+                <div class="img">
+                                                                <img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/2014092609451760-117x78.jpg">
+                                    </div>
+                <h4>Power Moves | Tory Burch Hires Co-CEO, Brown Exits&hellip;</h4>
+                <a href="http://www.businessoffashion.com/2014/09/power-moves-tory-burch-hires-co-ceo-carolina-herrera-president-adidas-poaches-nike-designers.html" class="overlay"></a>
+            </li>
+                    <li class="cf">
+                <div class="img">
+                                                                <img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/05/shutterstock_79404877-pop-quiz-exam-117x78.jpg">
+                                    </div>
+                <h4>Pop Quiz | Karl Lagerfeld, Caroline Issa, Toiletpaper,&hellip;</h4>
+                <a href="http://www.businessoffashion.com/2014/09/pop-quiz-karl-lagerfeld-caroline-issa-toiletpaper-black-milk.html" class="overlay"></a>
+            </li>
+                    <li class="cf">
+                <div class="img">
+                                                                <img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/07/Netherlands_Strootman_Hero_Nike_world_cup_kit-117x78.jpg">
+                                    </div>
+                <h4>World Cup Boosts Nike Sales</h4>
+                <a href="http://www.businessoffashion.com/2014/09/world-cup-boosts-nike-sales.html" class="overlay"></a>
+            </li>
+                    <li class="cf">
+                <div class="img">
+                                                                <img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/6012792494_d98c3d7792_b-117x78.jpg">
+                                    </div>
+                <h4>Bits &#038; Bytes | Alibaba, Rocket Internet IPO, Macy&&hellip;</h4>
+                <a href="http://www.businessoffashion.com/2014/09/bits-bytes-alibaba-rocket-internet-ipo-macys-new-yorks-e-commerce-companies.html" class="overlay"></a>
+            </li>
+                    <li class="cf">
+                <div class="img">
+                                                                <img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/shutterstock_179020586-117x78.jpg">
+                                    </div>
+                <h4>Berlin Super-Mall Targets Rising Tourist Trade</h4>
+                <a href="http://www.businessoffashion.com/2014/09/berlin-super-mall-targets-rising-tourist-trade.html" class="overlay"></a>
+            </li>
+                    <li class="cf">
+                <div class="img">
+                                                                <img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/NM3-117x78.jpg">
+                                    </div>
+                <h4>Introducing the #BoF500 Newsmakers of 2014</h4>
+                <a href="http://www.businessoffashion.com/2014/09/bof-500-newsmakers-2014.html" class="overlay"></a>
+            </li>
+                    <li class="cf">
+                <div class="img">
+                                                                <img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/shutterstock_152631884-117x78.jpg">
+                                    </div>
+                <h4>Sears Mimics Zara&#8217;s Fast Fashion Approach</h4>
+                <a href="http://www.businessoffashion.com/2014/09/slim-mimics-zara-spruce-sears-fashions.html" class="overlay"></a>
+            </li>
+                    <li class="cf">
+                <div class="img">
+                                                                <img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/04/miranda-kerr-hm-HM-spring-campaign-117x78.jpg">
+                                    </div>
+                <h4>H&#038;M Profit Jumps as Retailer Pushes Into New Online&hellip;</h4>
+                <a href="http://www.businessoffashion.com/2014/09/hm-profit-jumps-retailer-pushes-new-online-markets.html" class="overlay"></a>
+            </li>
+                </ul>
+    </div><div class="trending-item" id="most-read">
+			<h3 data-target="most-read">Most read</h3>
+		<ul>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/Dolce-Gabbana-Milan-RTW-SS15-7957-14113106111-117x78.jpg">
+									</div>
+				<h4>Milan’s Struggles</h4>
+				<a href="http://www.businessoffashion.com/2014/09/milans-struggles.html" class="overlay"></a>
+			</li>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/shutterstock_192038087-117x78.jpg">
+									</div>
+				<h4>The Secret Journey of a Fashion Piece — Part 1: Creativity&hellip;</h4>
+				<a href="http://www.businessoffashion.com/2014/09/secret-journey-fashion-piece-part-1-creativity-design.html" class="overlay"></a>
+			</li>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/Karl-Lagerfeld-Self-Portrait-Courtesy-117x78.jpg">
+									</div>
+				<h4>Karl Lagerfeld, Mr Multitasker</h4>
+				<a href="http://www.businessoffashion.com/2014/09/karl-lagerfeld-mr-multitasker-part.html" class="overlay"></a>
+			</li>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/bof500-117x78.png">
+									</div>
+				<h4>#BoF500 | The People Shaping the Global Fashion Industry&hellip;</h4>
+				<a href="http://www.businessoffashion.com/2014/09/introducing-bof500-2014.html" class="overlay"></a>
+			</li>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/black-milk-fandom-brisbane-australia-117x78.jpg">
+									</div>
+				<h4>Black Milk, &#8216;Sharkies&#8217; and the Rise of a&hellip;</h4>
+				<a href="http://www.businessoffashion.com/2014/09/black-milk-sharkies-rise-fashion-fandom.html" class="overlay"></a>
+			</li>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/BoF-High-097-117x78.jpg">
+									</div>
+				<h4>Caroline Issa, A Beautiful Mind</h4>
+				<a href="http://www.businessoffashion.com/2014/09/caroline-issa-beautiful-mind.html" class="overlay"></a>
+			</li>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/maurizio-cattelan-pierpaolo-ferrari-courtesy-toiletpaper-117x78.jpg">
+									</div>
+				<h4>Catching the Toiletpaper Virus</h4>
+				<a href="http://www.businessoffashion.com/2014/09/catching-toiletpaper-virus.html" class="overlay"></a>
+			</li>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/Tim-Print-023-117x78.jpg">
+									</div>
+				<h4>Encyclopaedia Blanks</h4>
+				<a href="http://www.businessoffashion.com/2014/09/encyclopaedia-tim-blanks.html" class="overlay"></a>
+			</li>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/spring-fashion-app-tisch-courtesy-117x78.jpg">
+									</div>
+				<h4>Op-Ed | Sizing Up Spring, the Instagram-Like Shopping App</h4>
+				<a href="http://www.businessoffashion.com/2014/09/op-ed-sizing-spring-instagram-like-shopping-app.html" class="overlay"></a>
+			</li>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/NM3-117x78.jpg">
+									</div>
+				<h4>Introducing the #BoF500 Newsmakers of 2014</h4>
+				<a href="http://www.businessoffashion.com/2014/09/bof-500-newsmakers-2014.html" class="overlay"></a>
+			</li>
+				</ul>
+	</div>
+<div class="trending-item" id="most-shared">
+			<h3 data-target="most-shared">Most shared</h3>
+		<ul>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/Dolce-Gabbana-Milan-RTW-SS15-7957-14113106111-117x78.jpg">
+									</div>
+				<h4>Milan’s Struggles</h4>
+				<a href="http://www.businessoffashion.com/2014/09/milans-struggles.html" class="overlay"></a>
+			</li>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/shutterstock_192038087-117x78.jpg">
+									</div>
+				<h4>The Secret Journey of a Fashion Piece — Part 1: Creativity&hellip;</h4>
+				<a href="http://www.businessoffashion.com/2014/09/secret-journey-fashion-piece-part-1-creativity-design.html" class="overlay"></a>
+			</li>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/black-milk-fandom-brisbane-australia-117x78.jpg">
+									</div>
+				<h4>Black Milk, &#8216;Sharkies&#8217; and the Rise of a&hellip;</h4>
+				<a href="http://www.businessoffashion.com/2014/09/black-milk-sharkies-rise-fashion-fandom.html" class="overlay"></a>
+			</li>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/Karl-Lagerfeld-Self-Portrait-Courtesy-117x78.jpg">
+									</div>
+				<h4>Karl Lagerfeld, Mr Multitasker</h4>
+				<a href="http://www.businessoffashion.com/2014/09/karl-lagerfeld-mr-multitasker-part.html" class="overlay"></a>
+			</li>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/BoF-High-097-117x78.jpg">
+									</div>
+				<h4>Caroline Issa, A Beautiful Mind</h4>
+				<a href="http://www.businessoffashion.com/2014/09/caroline-issa-beautiful-mind.html" class="overlay"></a>
+			</li>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/maurizio-cattelan-pierpaolo-ferrari-courtesy-toiletpaper-117x78.jpg">
+									</div>
+				<h4>Catching the Toiletpaper Virus</h4>
+				<a href="http://www.businessoffashion.com/2014/09/catching-toiletpaper-virus.html" class="overlay"></a>
+			</li>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/bof500-117x78.png">
+									</div>
+				<h4>#BoF500 | The People Shaping the Global Fashion Industry&hellip;</h4>
+				<a href="http://www.businessoffashion.com/2014/09/introducing-bof500-2014.html" class="overlay"></a>
+			</li>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/Tim-Print-023-117x78.jpg">
+									</div>
+				<h4>Encyclopaedia Blanks</h4>
+				<a href="http://www.businessoffashion.com/2014/09/encyclopaedia-tim-blanks.html" class="overlay"></a>
+			</li>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/shutterstock_180268430-117x78.jpg">
+									</div>
+				<h4>U.S. Retailers Suffer as Shoppers Go Online</h4>
+				<a href="http://www.businessoffashion.com/2014/09/u-s-retailers-suffer-shoppers-go-online.html" class="overlay"></a>
+			</li>
+					<li class="cf">
+				<div class="img">
+																<img alt="" class="img-grayscale lazythumbs" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/thumb_med_alt.png" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/isaac-reina-3-117x78.jpg">
+									</div>
+				<h4>Isaac Reina, Soft Meets Structured</h4>
+				<a href="http://www.businessoffashion.com/2014/09/soft-meets-structured-isaac-reina.html" class="overlay"></a>
+			</li>
+				</ul>
+	</div>
+</li>
+<li id="bof_mailchimp_widget-2" class="widget widget_ns_mailchimp">    <h2 class="widgettitle mailchimp-widgettitle">SUBSCRIBE TO THE  BoF DAILY DIGEST</h2>
+    <p>A complimentary email newsletter with all the fashion business news and analysis you need to start your day.</p>
+    <form action="/register/second?type=WIDGET" id="ns_widget_mailchimp_form-5" method="post">
+      <input name="mailchimp" value="1" type="hidden">
+      <input id="ns_widget_mailchimp-email-5" name="fos_user_registration_form[email]" type="text">
+      <input class="button" name="Submit" value="Submit" type="submit">
+    </form>
+    </li>
+<li id="jobsfeed-2" class="widget jobs-feed"><div class="flexslider fw" rel="jobSlider"><i class="ajax-loader"></i></div></li>
+<li id="careerpartner-3" class="widget featured-company-widget"><i class="ajax-loader"></i></li>
+<li id="bof_editorpick-2" class="widget widget-editors-picks">    <h2 class="widgettitle"><span>FROM THE ARCHIVE</span></h2>
+<div class="pick">
+            <img src="http://cdn.businessoffashion.com/wp-content/uploads/2013/08/Screen-Shot-2013-08-12-at-15.18.46-320x220.png" alt="" class="pick-photo" />    
+            <h3 class="title">Trunks of Treasure: How Vilebrequin and Orlebar Brown Are Tapping the Lucrative Luxury Swimwear Market</h3>    
+        <p class="meta">By <span class="author">Robin Mellery-Pratt</span> 12 August, 2013</p>
+    <a href="http://www.businessoffashion.com/2013/08/trunks-of-treasure-how-vilebrequin-and-orlebar-brown-are-tapping-the-lucrative-luxury-swimwear-market.html" class="overlay"></a>
+</div>
+<div class="pick">
+            <img src="http://cdn.businessoffashion.com/wp-content/uploads/2012/11/Chris-Anderson-320x220.jpg" alt="" class="pick-photo" />    
+            <h3 class="title">The Long View | Chris Anderson Says the 'Maker' Movement is the Next Industrial Revolution</h3>    
+        <p class="meta">By <span class="author">Vikram Alexei Kansara</span> 6 November, 2012</p>
+    <a href="http://www.businessoffashion.com/2012/11/the-long-view-chris-anderson-says-the-maker-movement-is-the-next-industrial-revolution.html" class="overlay"></a>
+</div>
+<div class="pick">
+            <img src="http://cdn.businessoffashion.com/wp-content/uploads/2012/07/Christian-Dior-Couture-Raf-Simons-320x220.jpg" alt="" class="pick-photo" />    
+            <h3 class="title">Colin's Column | Making the Case for a Modern Couture</h3>    
+        <p class="meta">By <span class="author">Colin McDowell</span> 9 July, 2012</p>
+    <a href="http://www.businessoffashion.com/2012/07/colins-column-making-the-case-for-a-modern-couture.html" class="overlay"></a>
+</div>
+<div class="pick">
+            <img src="http://cdn.businessoffashion.com/wp-content/uploads/2012/03/Alice-Ferraz-300x220.jpg" alt="" class="pick-photo" />    
+            <h3 class="title">Three Women Behind the Scenes of Brazil's Fashion Industry</h3>    
+        <p class="meta">By <span class="author">Guest Contributor</span> 11 April, 2012</p>
+    <a href="http://www.businessoffashion.com/2012/04/three-women-behind-the-scenes-of-brazils-fashion-industry-2.html" class="overlay"></a>
+</div>
+<div class="pick">
+            <img src="http://cdn.businessoffashion.com/wp-content/uploads/2012/03/Cedric-Charlier-320x220.jpg" alt="" class="pick-photo" />    
+            <h3 class="title">Why Isn’t the World’s Fashion Capital Producing More Emerging Fashion Businesses?</h3>    
+        <p class="meta">By <span class="author">BoF Team</span> 8 March, 2012</p>
+    <a href="http://www.businessoffashion.com/2012/03/why-isn%e2%80%99t-the-world%e2%80%99s-fashion-capital-producing-more-emerging-fashion-businesses.html" class="overlay"></a>
+</div>
+</li>
+<li id="bofpeople-2" class="widget widgetAllProfiles"><div class="flexslider fw"><i class="ajax-loader"></i></div></li>
+<li id="follow_bof_icons-2" class="widget follow_bof_icons">	<h2 class="widgettitle">FOLLOW BoF</h2>
+<ul>
+	<li><a target="_blank" class="social-twitter" href="http://www.twitter.com/bof" title="Follow us on Twitter">Twitter</a></li>
+	<li><a target="_blank" class="social-facebook" href="http://www.facebook.com/businessoffashion" title="Follow us on Facebook">Facebook</a></li>
+	<li><a target="_blank" class="social-tumblr" href="http://businessoffashion.tumblr.com/" title="Follow us on Tumblr">Tumblr</a></li>
+	<li><a target="_blank" class="social-instagram" href="http://instagram.com/bof/" title="Follow us on Instagram">Instagram</a></li>
+	<li><a target="_blank" class="social-linkedin" href="http://www.linkedin.com/company/the-business-of-fashion" title="Follow us on Linkedin">Linkedin</a></li>
+	<li><a target="_blank" class="social-youtube" href="https://www.youtube.com/user/BusinessofFashion" title="Follow us on Youtube">Youtube</a></li>
+	<li><a target="_blank" class="social-pinterest" href="http://pinterest.com/fashionbusiness/" title="Follow us on Pinterest">Pinterest</a></li>
+	<li><a target="_blank" class="social-rss" href="/feed" title="Follow us on Rss">Rss</a></li>
+	<li><a target="_blank" class="social-google" href="https://plus.google.com/+businessoffashion/posts" title="Follow us on Google">Google</a></li>
+</ul>
+</li>
+	</ul>
+</aside>
+<div class="fw alt">
+<section class="latestarticles cf">
+	<h1 class="latestarticles-title">Latest Articles</h1>
+	<ul>
+												<li class="latestarticles-group cat-news-analysis">
+					<h2 class="latestarticles-channel"><a href="http://www.businessoffashion.com/category/news-analysis" class="cat-label">News &amp; Analysis</a></h2>
+					<ul class="latestarticles-links">
+													<li><a href="http://www.businessoffashion.com/2014/09/power-moves-tory-burch-hires-co-ceo-carolina-herrera-president-adidas-poaches-nike-designers.html" title="Power Moves | Tory Burch Hires Co-CEO, Brown Exits Carolina Herrera, Adidas Poaches Nike Designers">Power Moves | Tory Burch Hires Co-CEO, Brown Exits Carolina Herrera, Adidas Poaches Nike Designers</a></li>
+													<li><a href="http://www.businessoffashion.com/2014/09/world-cup-boosts-nike-sales.html" title="World Cup Boosts Nike Sales">World Cup Boosts Nike Sales</a></li>
+													<li><a href="http://www.businessoffashion.com/2014/09/berlin-super-mall-targets-rising-tourist-trade.html" title="Berlin Super-Mall Targets Rising Tourist Trade">Berlin Super-Mall Targets Rising Tourist Trade</a></li>
+											</ul>
+				</li>
+															<li class="latestarticles-group cat-fashion-20">
+					<h2 class="latestarticles-channel"><a href="http://www.businessoffashion.com/category/fashion-20" class="cat-label">Fashion 2.0</a></h2>
+					<ul class="latestarticles-links">
+													<li><a href="http://www.businessoffashion.com/2014/09/bits-bytes-alibaba-rocket-internet-ipo-macys-new-yorks-e-commerce-companies.html" title="Bits &amp; Bytes | Alibaba, Rocket Internet IPO, Macy&#8217;s, New York&#8217;s E-Commerce Companies">Bits &#038; Bytes | Alibaba, Rocket Internet IPO, Macy&#8217;s, New York&#8217;s E-Commerce Companies</a></li>
+													<li><a href="http://www.businessoffashion.com/2014/09/bits-bytes-neiman-marcus-acquires-mytheresa-rocket-internet-asos.html" title="Bits &amp; Bytes | Neiman Marcus Acquires MyTheresa, Rocket Internet, ASOS">Bits &#038; Bytes | Neiman Marcus Acquires MyTheresa, Rocket Internet, ASOS</a></li>
+													<li><a href="http://www.businessoffashion.com/2014/09/lvmhs-tag-heuer-plans-smartwatch-paper.html" title="LVMH&#8217;s TAG Heuer Has Plans for Smartwatch">LVMH&#8217;s TAG Heuer Has Plans for Smartwatch</a></li>
+											</ul>
+				</li>
+															<li class="latestarticles-group cat-opinion">
+					<h2 class="latestarticles-channel"><a href="http://www.businessoffashion.com/category/opinion" class="cat-label">Opinion</a></h2>
+					<ul class="latestarticles-links">
+													<li><a href="http://www.businessoffashion.com/2014/09/op-ed-sizing-spring-instagram-like-shopping-app.html" title="Op-Ed | Sizing Up Spring, the Instagram-Like Shopping App">Op-Ed | Sizing Up Spring, the Instagram-Like Shopping App</a></li>
+													<li><a href="http://www.businessoffashion.com/2014/09/milans-struggles.html" title="Milan’s Struggles">Milan’s Struggles</a></li>
+													<li><a href="http://www.businessoffashion.com/2014/09/colins-column-hussein-chalayan-londons-radical-fashion-designer.html" title="Colin’s Column | Hussein Chalayan, London&#8217;s Most Radical Fashion Designer">Colin’s Column | Hussein Chalayan, London&#8217;s Most Radical Fashion Designer</a></li>
+											</ul>
+				</li>
+															<li class="latestarticles-group cat-intelligence">
+					<h2 class="latestarticles-channel"><a href="http://www.businessoffashion.com/category/intelligence" class="cat-label">Intelligence</a></h2>
+					<ul class="latestarticles-links">
+													<li><a href="http://www.businessoffashion.com/2014/09/black-milk-sharkies-rise-fashion-fandom.html" title="Black Milk, &#8216;Sharkies&#8217; and the Rise of a Fashion Fandom">Black Milk, &#8216;Sharkies&#8217; and the Rise of a Fashion Fandom</a></li>
+													<li><a href="http://www.businessoffashion.com/2014/09/secret-journey-fashion-piece-part-1-creativity-design.html" title="The Secret Journey of a Fashion Piece — Part 1: Creativity &amp; Design">The Secret Journey of a Fashion Piece — Part 1: Creativity &#038; Design</a></li>
+													<li><a href="http://www.businessoffashion.com/2014/09/6-emerging-fashion-brands-worth-investing.html" title="6 Emerging Fashion Brands Worth Investing In">6 Emerging Fashion Brands Worth Investing In</a></li>
+											</ul>
+				</li>
+															<li class="latestarticles-group cat-people">
+					<h2 class="latestarticles-channel"><a href="http://www.businessoffashion.com/category/people" class="cat-label">People</a></h2>
+					<ul class="latestarticles-links">
+													<li><a href="http://www.businessoffashion.com/2014/09/duo-taking-chloe-another-level.html" title="The Duo Taking Chloé to ‘Another Level’">The Duo Taking Chloé to ‘Another Level’</a></li>
+													<li><a href="http://www.businessoffashion.com/2014/09/bof-500-newsmakers-2014.html" title="Introducing the #BoF500 Newsmakers of 2014">Introducing the #BoF500 Newsmakers of 2014</a></li>
+													<li><a href="http://www.businessoffashion.com/2014/09/soft-meets-structured-isaac-reina.html" title="Isaac Reina, Soft Meets Structured">Isaac Reina, Soft Meets Structured</a></li>
+											</ul>
+				</li>
+															<li class="latestarticles-group cat-video">
+					<h2 class="latestarticles-channel"><a href="http://www.businessoffashion.com/category/video" class="cat-label">Video</a></h2>
+					<ul class="latestarticles-links">
+													<li><a href="http://www.businessoffashion.com/2014/07/run-d-m-c-s-adidas-birth-hip-hop-sneaker-culture.html" title="Run-D.M.C.&#8217;s &#8216;My Adidas&#8217; and the Birth of Hip Hop Sneaker Culture">Run-D.M.C.&#8217;s &#8216;My Adidas&#8217; and the Birth of Hip Hop Sneaker Culture</a></li>
+													<li><a href="http://www.businessoffashion.com/2014/06/full-video-inside-suzy-menkes-new-digital-world.html" title="Full Video: Suzy Menkes on Going Digital and Her Top Fashion Moments">Full Video: Suzy Menkes on Going Digital and Her Top Fashion Moments</a></li>
+													<li><a href="http://www.businessoffashion.com/2014/06/bof-exclusive-inside-suzy-menkes-new-digital-world-conde-nast-international.html" title="BoF Exclusive | Inside Suzy Menkes&#8217; New Digital World">BoF Exclusive | Inside Suzy Menkes&#8217; New Digital World</a></li>
+											</ul>
+				</li>
+															<li class="latestarticles-group cat-global-currents">
+					<h2 class="latestarticles-channel"><a href="http://www.businessoffashion.com/category/global-currents" class="cat-label">Global Currents</a></h2>
+					<ul class="latestarticles-links">
+													<li><a href="http://www.businessoffashion.com/2014/09/china-edit-alibaba-ipo-hermes-expansion-krizia-angelica-cheung.html" title="The China Edit | Alibaba IPO, Hermès Expansion, Krizia, Angelica Cheung">The China Edit | Alibaba IPO, Hermès Expansion, Krizia, Angelica Cheung</a></li>
+													<li><a href="http://www.businessoffashion.com/2014/09/china-hermes-paces.html" title="In China, Hermès Paces Itself">In China, Hermès Paces Itself</a></li>
+													<li><a href="http://www.businessoffashion.com/2014/09/china-edit-luxury-middle-class-e-commerce-moguls-k-pop-stars.html" title="The China Edit | Luxury for the Middle Class, E-Commerce Moguls, K-Pop Stars">The China Edit | Luxury for the Middle Class, E-Commerce Moguls, K-Pop Stars</a></li>
+											</ul>
+				</li>
+															<li class="latestarticles-group cat-education">
+					<h2 class="latestarticles-channel"><a href="http://www.businessoffashion.com/category/education" class="cat-label">Education</a></h2>
+					<ul class="latestarticles-links">
+													<li><a href="http://www.businessoffashion.com/2014/09/pop-quiz-karl-lagerfeld-caroline-issa-toiletpaper-black-milk.html" title="Pop Quiz | Karl Lagerfeld, Caroline Issa, Toiletpaper, Black Milk">Pop Quiz | Karl Lagerfeld, Caroline Issa, Toiletpaper, Black Milk</a></li>
+													<li><a href="http://www.businessoffashion.com/2014/09/pop-quiz-hussein-chalayan-hermes-frida-giannini.html" title="Pop Quiz | Hussein Chalayan, Hermès, Frida Giannini">Pop Quiz | Hussein Chalayan, Hermès, Frida Giannini</a></li>
+													<li><a href="http://www.businessoffashion.com/2014/09/5-lessons-lulu-kennedy.html" title="5 Lessons from Lulu Kennedy">5 Lessons from Lulu Kennedy</a></li>
+											</ul>
+				</li>
+						</ul>
+</section>
+</div>
+	</div>
+
+	<footer class="footer" role="contentinfo">
+		<ul>
+			<li id="follow_bof_icons-3" class="widget follow_bof_icons">	<h2 class="widgettitle">FOLLOW BoF</h2>
+<ul>
+	<li><a target="_blank" class="social-twitter" href="http://www.twitter.com/bof" title="Follow us on Twitter">Twitter</a></li>
+	<li><a target="_blank" class="social-facebook" href="http://www.facebook.com/businessoffashion" title="Follow us on Facebook">Facebook</a></li>
+	<li><a target="_blank" class="social-tumblr" href="http://businessoffashion.tumblr.com/" title="Follow us on Tumblr">Tumblr</a></li>
+	<li><a target="_blank" class="social-instagram" href="http://instagram.com/bof/" title="Follow us on Instagram">Instagram</a></li>
+	<li><a target="_blank" class="social-linkedin" href="http://www.linkedin.com/company/the-business-of-fashion" title="Follow us on Linkedin">Linkedin</a></li>
+	<li><a target="_blank" class="social-youtube" href="https://www.youtube.com/user/BusinessofFashion" title="Follow us on Youtube">Youtube</a></li>
+	<li><a target="_blank" class="social-pinterest" href="http://pinterest.com/fashionbusiness/" title="Follow us on Pinterest">Pinterest</a></li>
+	<li><a target="_blank" class="social-rss" href="/feed" title="Follow us on Rss">Rss</a></li>
+	<li><a target="_blank" class="social-google" href="https://plus.google.com/+businessoffashion/posts" title="Follow us on Google">Google</a></li>
+</ul>
+</li>
+<li id="nav_menu-2" class="widget widget_nav_menu"><h2 class="widgettitle">ABOUT</h2>
+<div class="menu-footer-navigation-1-container"><ul id="menu-footer-navigation-1" class="menu"><li id="menu-item-41544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41544"><a href="http://www.businessoffashion.com/about">About</a></li>
+<li id="menu-item-41545" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41545"><a href="http://www.businessoffashion.com/masthead">Masthead</a></li>
+<li id="menu-item-40449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40449"><a href="http://www.businessoffashion.com/press">Press</a></li>
+</ul></div></li>
+<li id="nav_menu-3" class="widget widget_nav_menu"><h2 class="widgettitle">CONTACT</h2>
+<div class="menu-footer-navigation-2-container"><ul id="menu-footer-navigation-2" class="menu"><li id="menu-item-41560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41560"><a href="http://www.businessoffashion.com/tips-and-stories">Tips and Stories</a></li>
+<li id="menu-item-41559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41559"><a href="http://www.businessoffashion.com/media-and-press-requests">Media and Press Requests</a></li>
+<li id="menu-item-41558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41558"><a href="http://www.businessoffashion.com/advertising-and-sponsorship">Advertising and Sponsorship</a></li>
+<li id="menu-item-41557" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41557"><a href="http://www.businessoffashion.com/jobs-and-contributors">Jobs and Contributors</a></li>
+<li id="menu-item-41556" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41556"><a href="http://www.businessoffashion.com/general-info">General Info</a></li>
+</ul></div></li>
+<li id="bof_mailchimp_widget_footer-2" class="widget widget_ns_mailchimp">    <div class="fw widgetspacer">
+    <h2 class="widgettitle mailchimp-widgettitle">SUBSCRIBE TO THE BoF DAILY DIGEST</h2>
+    <p>A complimentary email newsletter with all the fashion business news and analysis you need to start your day.</p>
+    <form action="/register/second?type=WIDGET" id="ns_widget_mailchimp_form-5"  method="post">
+      <input name="mailchimp" value="1" type="hidden">
+      <input id="ns_widget_mailchimp-email-5" name="fos_user_registration_form[email]" type="text">
+      <input class="button" name="Submit" value="Submit" type="submit">
+    </form>
+    </div>
+    <div class="fw manage-acc">
+      <h2 class="widgettitle">MEMBERS</h2>
+      <p>
+      <a href="http://www.businessoffashion.com/wp-login.php">Manage my account</a>
+            </p>
+    </div>
+    </li>
+<li id="text-2" class="widget widget_text"><h2 class="widgettitle">LEGAL</h2>
+			<div class="textwidget"><p>© The Business of Fashion Ltd., registered in England and Wales, No. 8212217.  All rights reserved. By using this site, you agree to our <a href="http://www.businessoffashion.com/tcs">Terms & Conditions</a>.  All content on the site is the sole property of The Business of Fashion Ltd., unless otherwise noted, and may not be reproduced without our consent. This website has cookies in use, please see our <a href="http://www.businessoffashion.com/privacy-policy">Privacy Policy</a> for more details.</p>
+</div>
+		</li>
+		</ul>
+	</footer>
+	<div class="globalHeader">
+							<ul class="items">
+														<li class="item cat-global-currents">
+						<a href="http://www.businessoffashion.com/2014/09/china-hermes-paces.html" class="item-link">
+							<img alt="" class="item-image lazycutout" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2013/08/Hermes-Kelly-Bag-Cutout.gif">
+						</a>
+						<div class="item-text">
+							<a href="http://www.businessoffashion.com/2014/09/china-hermes-paces.html" class="item-link">
+								<span class="item-content">In China, Hermès Paces Itself</span>
+							</a>
+							<b class="item-category cat-label cat-global-currents">Global Currents</b>
+						</div>
+					</li>
+														<li class="item cat-intelligence">
+						<a href="http://www.businessoffashion.com/2014/09/behind-vans-boom.html" class="item-link">
+							<img alt="" class="item-image lazycutout" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/vans-cutout.gif">
+						</a>
+						<div class="item-text">
+							<a href="http://www.businessoffashion.com/2014/09/behind-vans-boom.html" class="item-link">
+								<span class="item-content">Behind the Vans Boom</span>
+							</a>
+							<b class="item-category cat-label cat-intelligence">Intelligence</b>
+						</div>
+					</li>
+														<li class="item cat-people">
+						<a href="http://www.businessoffashion.com/2014/09/creative-class-kim-hastreiter-editor-publisher.html" class="item-link">
+							<img alt="" class="item-image lazycutout" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/uploads/2014/09/kim-hastreiter-cutout.gif">
+						</a>
+						<div class="item-text">
+							<a href="http://www.businessoffashion.com/2014/09/creative-class-kim-hastreiter-editor-publisher.html" class="item-link">
+								<span class="item-content">Kim Hastreiter, Editor of Paper Magazine</span>
+							</a>
+							<b class="item-category cat-label cat-people">People</b>
+						</div>
+					</li>
+												<li class="item cat-printcutoutorder">
+					<a href="http://shop.businessoffashion.com" class="item-link" target="_blank">
+						<img alt="" class="item-image lazycutout" src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/blank.gif" data-original="http://cdn.businessoffashion.com/wp-content/themes/bof/img/download-bof500-print-3.png">
+					</a>
+					<div class="item-text">
+						<a href="http://shop.businessoffashion.com" class="item-link" target="_blank">
+							<span class="item-content">Special Print Edition: Polymaths &amp; Multitaskers</span>
+						</a>
+						<a href="http://shop.businessoffashion.com" class="item-category cat-label cat-printcutoutorder" target="_blank">PURCHASE NOW</a>
+					</div>
+				</li>
+							</ul>
+		
+				<div class="toolbar">
+			<div class="links">
+				<a class="current" data-ajax="false" href="/">Home</a>
+				<a data-ajax="false" href="/bof500">BoF 500</a>
+								<a data-ajax="false" href="/careers/" id="careers-link">Careers</a>
+							</div>
+			<div class="social">
+			    <div class="social-overlay">
+
+			      <a class="socialite twitter-follow" href="https://twitter.com/bof" data-show-count="true" data-size="medium" data-show-screen-name="false">Follow us</a>
+
+			      <a class="socialite facebook-like" href="https://www.facebook.com/businessoffashion" data-href="https://www.facebook.com/businessoffashion" data-send="false" data-layout="button_count" data-stream="false" data-show-faces="false" data-width="120">Like BoF</a>
+
+			    </div>
+			</div>
+						<b>London, <time datetime="2014-09-27T00:00:00+00:00">27 September, 2014</time></b>
+			<div class="logo-pinned">
+				<a href="http://www.businessoffashion.com"><img src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/logo-pinned.png"></a>
+			</div>
+			<div class="userTools">
+				<div class="search"></div>
+				<!--<a href="#top" class="icon-up ir" title="Go to top">Go to top</a>-->
+			</div>
+			<div class="userLinks">
+				<a href="http://www.businessoffashion.com/wp-login.php" class="simplemodal-login" data-action="login">Login</a> <a href="http://www.businessoffashion.com/register" class="simplemodal-login last-child" data-action="signup">Sign up</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="bofpopup" id="bofpopup">
+  <div class="bofpopup-logo">
+    <img src="http://cdn.businessoffashion.com/wp-content/themes/bof/img/logo.png" alt="">
+    <div class="close"><img alt="" src="/bundles/assets/images/icon-close.png"></div>
+  </div>
+  <h3 class="bofpopup-title">Sign up for BoF's free agenda-setting daily newsletter, with our must read features and the top fashion business news and analysis of the day.</h3>
+  <form action="/register/second?type=SUBSPOPUP" method="post">
+    <div class="inputs">
+      <input name="mailchimp" value="1" type="hidden">
+      <input id="bofpopup_input_email" name="fos_user_registration_form[email]" type="email" placeholder="Enter your email address">
+    </div>
+    <div class="buttons">
+      <a class="notnow btnnew btnnew-black" href="javascript:void(0);">Not now</a>
+      <input class="btnnew bofpopup-submit" name="Submit" value="Sign up for free" type="submit">
+    </div>
+    <div class="dontask">
+      <label class="blockpopup" for="bofpopup_check_dontask"><input class="blockpopup" type="checkbox" id="bofpopup_check_dontask"> Please don't ask again</label>
+    </div>
+
+  </form>
+</div>
+<script type="text/javascript">
+var addToHomeConfig = {
+	animationIn : 'bubble',
+	returningVisitor: false,
+	expire: 11440,
+	touchIcon:true
+};
+</script>
+
+		<!-- /// LOAD CHARTBEAT /// -->
+		<script type="text/javascript">
+		var _sf_async_config={};
+		_sf_async_config.uid = 50155;
+		_sf_async_config.useCanonical = true;
+		
+		(function(){
+		  function loadChartbeat() {
+			window._sf_endpt=(new Date()).getTime();
+			var e = document.createElement('script');
+			e.setAttribute('language', 'javascript');
+			e.setAttribute('type', 'text/javascript');
+			e.setAttribute('src',
+			   (("https:" == document.location.protocol) ? "https://" : "http://") +
+			   "static.chartbeat.com/js/chartbeat.js");
+			document.body.appendChild(e);
+		  }
+		  var oldonload = window.onload;
+		  window.onload = (typeof window.onload != 'function') ?
+			 loadChartbeat : function() { try { oldonload(); } catch (e) { loadChartbeat(); throw e} loadChartbeat(); };
+		})();
+		</script>
+		
+<!--Plugin WP Missed Schedule 2013.1231.2013 Active - Tag 6707293c0218e2d8b7aa38d418ffa608-->
+
+<!-- This site is patched which an important unfixed problem since WordPress 2.5+ -->
+
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/enquire.js?ver=1404109735'></script>
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/jquery.mousewheel.min.js?ver=1407856579'></script>
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/jquery.flexslider-min.js?ver=1358948047'></script>
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/socialite.min.js?ver=1404109735'></script>
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/jquery.cookie.js?ver=1372312330'></script>
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/jquery.purl.js?ver=1372312330'></script>
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/jquery.bofpageview.js?ver=1407856579'></script>
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/moment.min.js?ver=1372312330'></script>
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/jquery.fancybox-1.3.4.min.js?ver=1404109735'></script>
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/jquery.lazyload.min.js?ver=1404109735'></script>
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/jquery.ias.js?ver=1369209603'></script>
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/jquery.fitvids.js?ver=1369209603'></script>
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/handlebars.js?ver=1404109735'></script>
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/jquery.mmenu.min.js?ver=1379674526'></script>
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/add2home.js?ver=1361127153'></script>
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/jquery.stickyfloat.js?ver=1404109735'></script>
+<script type='text/javascript' src='http://www.businessoffashion.com/assets/js/global/follow-button.js?ver=3.9.1'></script>
+<script type='text/javascript' src='http://search.businessoffashion.com/engine.js?ver=3.9.1'></script>
+<script type='text/javascript' src='http://www.businessoffashion.com/assets/js/global/analytics.js?ver=3.9.1'></script>
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/jquery.countdown.min.js?ver=1410697863'></script>
+<script type='text/javascript' src='http://www.businessoffashion.com/assets/js/global/countdown.js?ver=3.9.1'></script>
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/global.js?ver=1411378720'></script>
+<script type='text/javascript' src='http://cdn.businessoffashion.com/wp-content/themes/bof/js/responsive.js?ver=1410440632'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var emailL10n = {"ajax_url":"http:\/\/www.businessoffashion.com\/wp-admin\/admin-ajax.php","max_allowed":"2","text_error":"The Following Error Occurs:","text_name_invalid":"- Your Name is empty\/invalid","text_email_invalid":"- Your Email is empty\/invalid","text_remarks_invalid":"- Your Remarks is invalid","text_friend_names_empty":"- Friend Name(s) is empty","text_friend_name_invalid":"- Friend Name is empty\/invalid: ","text_max_friend_names_allowed":"- Maximum 2 Friend Names allowed","text_friend_emails_empty":"- Friend Email(s) is empty","text_friend_email_invalid":"- Friend Email is invalid: ","text_max_friend_emails_allowed":"- Maximum 2 Friend Emails allowed","text_friends_tally":"- Friend Name(s) count does not tally with Friend Email(s) count","text_image_verify_empty":"- Image Verification is empty"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.businessoffashion.com/wp-content/plugins/wp-email/email-js.js?ver=2.60'></script>
+<script>
+// Quantcast Tag
+var _qevents = _qevents || [];
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-32ScH5nqxH-Ag"
+});
+
+// Google Analytics
+var _gaq=[['_setAccount','UA-526184-4'],['_trackPageview']];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-32ScH5nqxH-Ag.gif" border="0" height="1" width="1" alt="Quantcast" />
+</div>
+</noscript><script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0023/5691.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-3.newrelic.com","licenseKey":"2a47bc82ae","applicationID":"3824359","transactionName":"MQYBZEFYChUCARIPCQhMIlNHUAsITAQUCQgSThNRVFw=","queueTime":0,"applicationTime":1152,"ttGuid":"","agentToken":"","atts":"HUECEglCGRs=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-454.min.js"}</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-3.newrelic.com","licenseKey":"2a47bc82ae","applicationID":"3824359","transactionName":"MQYBZEFYChUCARIPCQhMNkJaFg0IBwceSBYOEw==","queueTime":0,"applicationTime":115,"ttGuid":"","agentToken":"","atts":"HUECEglCGRs=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-454.min.js"}</script></body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using memcached
+Object Caching 9280/9559 objects using memcached
+Fragment Caching 2/2 fragments using memcached
+Content Delivery Network via Amazon Web Services: CloudFront: cdn.businessoffashion.com
+
+ Served from: www.businessoffashion.com @ 2014-09-27 20:30:21 by W3 Total Cache -->

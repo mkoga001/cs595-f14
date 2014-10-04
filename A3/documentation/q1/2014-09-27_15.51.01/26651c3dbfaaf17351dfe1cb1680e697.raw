@@ -1,0 +1,449 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/history_template_1.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta name="keywords" content=" NASA History"/>
+<meta name="description" content="NASA History" />
+<meta name="revisit-after" content="10 days" />
+<meta name="robots" content="all" />
+<meta name="rating" content="general" />
+<meta name="distribution" content="global" />
+<meta name="classification" content="NASA History" />
+<meta name="copyright" content="NASA" />
+<meta name="author" content="Todd Messer, Claire Rojstaczer, and Steve Garber" />
+<meta name="author" content="SA 10.08.04" />
+<script>
+function doThePopUp(theUrl){
+reWin=window.open(theUrl,'NASA_History_Office','toolbar=yes,location=yes,directories=yes,status=yes,menubar=yes,scrollbars=yes,resizable=no,width=789,height=700,top=100,left=100')
+}
+</script>
+<script>
+var str = "This is a string";
+var str = window.location;
+var secondString = "" + str
+var currentPage = secondString.substring(secondString.lastIndexOf("/")+1);
+function goPF () {
+theURL = "printFriendly/"+currentPage;
+doThePopUp(theURL)
+
+}
+</script>
+<link href="Assets/CSS/v2.0.css" rel="stylesheet" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>History Home</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<script id="_fed_an_js_tag" type="text/javascript" src="/gacommon/js/Federated-Analytics.js?agency=NASA"></script>
+</head>
+<body bgcolor="#FFFFFF" style="margin:0">
+<div align="center">
+  <table width="789" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td></td>
+    </tr>
+  </table>
+  <table cellpadding="0" cellspacing="0" border="0" width="789" bgcolor="#cccccc">
+    <tr>
+      <td height="65" align="left"><a href="http://www.nasa.gov"> <img src="http://www.nasa.gov/templateimages/template/header/logo_nasa.gif" width="288" height="51" alt="NASA - National Aeronautics and Space Administration" border="0" /></a></td>
+    </tr>
+  </table>
+  <table width="789" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td></td>
+    </tr>
+  </table>
+  <table width="789"  cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td bgcolor="#FFFFFF"><script>
+ makeFlash = function(src,width,height,version,id,flashVars,bgcolor) {
+ var flashTag = '';
+    
+        flashTag += '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" ';
+        if (this.id != null)
+        {
+            flashTag += 'id="'+this.id+'" ';
+        }
+        flashTag += 'codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version='+version+'" ';
+        flashTag += 'width="'+width+'" ';
+        flashTag += 'height="'+height+'">';
+        flashTag += '<param name="movie" value="'+src+'"/>';
+        flashTag += '<param name="quality" value="high"/>';
+        flashTag += '<param name="bgcolor" value="#'+bgcolor+'"/>';
+        if (flashVars != null)
+        {
+            flashTag += '<param name="flashvars" value="'+flashVars+'"/>';
+        }
+		
+		flashTag += '<embed src="'+src+'" ';
+        flashTag += 'quality="high" '; 
+        flashTag += 'bgcolor="#'+bgcolor+'" ';
+        flashTag += 'width="'+width+'" ';
+        flashTag += 'height="'+height+'" ';
+        flashTag += 'type="application/x-shockwave-flash" ';
+        if (flashVars != null)
+        {
+            flashTag += 'flashvars="'+flashVars+'" ';
+        }
+        if (id != null)
+        {
+            flashTag += 'name="'+id+'" ';
+        }
+        flashTag += 'pluginspage="http://www.macromedia.com/go/getflashplayer">';
+        flashTag += '</embed>';
+        flashTag += '</object>';
+
+return flashTag;
+}
+</script>
+        <script>
+			var imageNames="header_b05.jpg,header_b04.jpg,header_b06.jpg,header_b10.jpg,header_b16.jpg,header_b03.jpg";
+			var captionList ="On 31 July 1971, Apollo 15 Lunar Module pilot James Irwin loaded the Lunar Roving Vehicle in preparation for the first lunar extravehicular activity.|On 21 August 1965, the Mission Control Center tracked the progress of the Gemini 5 spacecraft from Johnson Space Center in Houston, Texas.|The Beam Waveguide antennas at the Goldstone Deep Space Communications complex in the Mojave Desert provide radio communications as part of NASA's Deep Space Network.|On 15 July 1989, the Space Shuttle Columbia rolled out of the Vehicle Assembly Building to the pad in preparation for Space Shuttle Mission STS-28.|In 1993, the Hubble Space Telescope showed spectacular images of the Cygnus Loop supernova remnant.|In 2000, the Hubble Space Telescope revealed the formation and evolution of the NGC 4214 star cluster from interstellar gas and dust. "
+			var urlList = " http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-001140.html | http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-001405.html | http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-000506.html | http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-000669.html | http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-000992.html | http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-000877.html"
+			</script>
+        <!-- InstanceBeginEditable name="EditRegion4" -->
+			<script>
+			var imageNames="header_b05.jpg,header_b04.jpg,header_b06.jpg,header_b10.jpg,header_b16.jpg,header_b03.jpg";
+			var captionList ="On 31 July 1971, Apollo 15 Lunar Module pilot James Irwin loaded the Lunar Roving Vehicle in preparation for the first lunar extravehicular activity.|On 21 August 1965, the Mission Control Center tracked the progress of the Gemini 5 spacecraft from Johnson Space Center in Houston, Texas.|The Beam Waveguide antennas at the Goldstone Deep Space Communications complex in the Mojave Desert provide radio communications as part of NASA's Deep Space Network.|On 15 July 1989, the Space Shuttle Columbia rolled out of the Vehicle Assembly Building to the pad in preparation for Space Shuttle Mission STS-28.|In 1993, the Hubble Space Telescope showed spectacular images of the Cygnus Loop supernova remnant.|In 2000, the Hubble Space Telescope revealed the formation and evolution of the NGC 4214 star cluster from interstellar gas and dust. "
+			var urlList = " http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-001140.html | http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-001405.html | http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-000506.html | http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-000669.html | http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-000992.html | http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-000877.html"
+			</script>
+			<!-- InstanceEndEditable -->
+        <script>
+			flashVars = "imageNames=" +  imageNames + "&captionList=" + captionList + "&urlList=" + urlList;
+
+			var flashtemp = makeFlash("current_header.swf", 789, 194, "2","7,0,14,0",flashVars,"FFFFFF");
+			document.write(flashtemp);
+			</script></td>
+    </tr>
+  </table>
+  <table width="789" cellpadding="0" cellspacing="0">
+    <tr>
+      <Td><img src="Assets/Images/spacer.gif" width="1" height="2"></Td>
+    </tr>
+  </table>
+  <table width="789" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td bgcolor="#e3e3e3" colspan="3"><img src="Assets/Images/spacer.gif" width="1" height="1"></td>
+      <td bgcolor="#FFFFFF"><img src="Assets/Images/spacer.gif" width="1" height="1"></td>
+      <td bgcolor="#e3e3e3" colspan="3"><img src="Assets/Images/spacer.gif" width="1" height="1"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#CCCCCC" width="1"><img src="Assets/Images/spacer.gif" width="1" height="1"></td>
+      <td bgcolor="#006798" valign="top"><table width="100%" cellpadding="5" cellspacing="0" border="0" bgcolor="#006798">
+          <tr>
+            <td align="right"><!--img src="Assets/Images/spacer.gif" width="1" height="2"--></td>
+          </tr>
+          <tr>
+            <td align="right"><img src="Assets/Images/alphaIndex.jpg"></td>
+          </tr>
+          <tr>
+            <td align="right"><a href="tindex.html#a" target="_parent" class="white">A</a> <a href="tindex.html#b" target="_parent" class="white">B</a> <a href="tindex.html#c" target="_parent" class="white">C</a> <a href="tindex.html#d" target="_parent" class="white">D</a> <a href="tindex.html#e" target="_parent" class="white">E</a> <a href="tindex.html#f" target="_parent" class="white">F</a> <a href="tindex.html#g" target="_parent" class="white">G</a> <a href="tindex.html#h" target="_parent" class="white">H</a> <a href="tindex.html#i" target="_parent" class="white">I<BR>
+              </a> <a href="tindex.html#j" target="_parent" class="white">J</a> <a href="tindex.html#k" target="_parent" class="white">K</a> <a href="tindex.html#l" target="_parent" class="white">L</a> <a href="tindex.html#m" target="_parent" class="white">M</a> <a href="tindex.html#n" target="_parent" class="white">N</a> <a href="tindex.html#o" target="_parent" class="white">O</a> <a href="tindex.html#p" target="_parent" class="white">P</a> <a href="tindex.html#q" target="_parent" class="white">Q</a> <a href="tindex.html#r" target="_parent" class="white">R<BR>
+              </a> <a href="tindex.html#s" target="_parent" class="white">S</a> <a href="tindex.html#t" target="_parent" class="white">T</a> <a href="tindex.html#u" target="_parent" class="white">U</a> <a href="tindex.html#v" target="_parent" class="white">V</a> <a href="tindex.html#w" target="_parent" class="white">W</a> <a href="tindex.html#x" target="_parent" class="white">X</a> <a href="tindex.html#y" target="_parent" class="white">Y</a> <a href="tindex.html#z" target="_parent" class="white">Z</a></td>
+          </tr>
+        </table>
+        <table width="100%" cellpadding="0" cellspacing="0">
+          <TR>
+            <TD bgcolor="#CCCCCC"><IMG src="Assets/Images/spacer.gif" width="1" height="1"></TD>
+          </TR>
+        </table>
+        <table width="100%" cellpadding="0" cellspacing="0">
+          <tr>
+            <td><table width="100%" cellpadding="5" cellspacing="0">
+                <tr>
+                  <td align="right"><img src="Assets/Images/topicalSearch.jpg"></td>
+                </tr>
+                <tr>
+                  <td><table width="100%" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td class="small" align="right"><a href="tindex.html#1" target="_parent" class="white">Aeronautics</a></td>
+                      </tr>
+                      <tr>
+                        <td class="small" align="right"><a href="tindex.html#2" target="_parent" class="white">Anniversaries</a></td>
+                      </tr>
+                      <tr>
+                        <td class="small" align="right"><a href="tindex.html#3" target="_parent" class="white">Biographies</a></td>
+                      </tr>
+                      <tr>
+                        <td class="small" align="right"><a href="tindex.html#4" target="_parent" class="white">Centers &amp; Offices</a></td>
+                      </tr>
+                      <tr>
+                        <td class="small" align="right"><a href="sep.htm" target="_parent" class="white">Exploration</a></td>
+                      </tr>
+                      <tr>
+                        <td class="small" align="right"><a href="tindex.html#5" target="_parent" class="white">Human Spaceflight</a></td>
+                      </tr>
+                      <tr>
+                        <td class="small" align="right"><a href="tindex.html#7" target="_parent" class="white">Photo-Video</a></td>
+                      </tr>
+                      <tr>
+                        <td class="small" align="right"><a href="tindex.html#6" target="_parent" class="white">Reference</a></td>
+                      </tr>
+                      <tr>
+                        <td class="small" align="right"><a href="tindex.html#8" target="_parent" class="white">Satellites</a></td>
+                      </tr>
+                      <tr>
+                        <td class="small" align="right"><a href="tindex.html#9" target="_parent" class="white">Space Biology</a></td>
+                      </tr>
+                      <tr>
+                        <td class="small" align="right"><a href="tindex.html#10" target="_parent" class="white">Space Policy</a></td>
+                      </tr>
+                      <tr>
+                        <td class="small" align="right"><a href="tindex.html#11" target="_parent" class="white">Space Science</a></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table></td>
+          </tr>
+        </table>
+        <table width="100%" cellpadding="0" cellspacing="0">
+          <TR>
+            <TD bgcolor="#CCCCCC"><IMG src="Assets/Images/spacer.gif" width="1" height="1"></TD>
+          </TR>
+        </table>
+        <!--        <script type="text/javascript" language="javascript">
+		function checkSearch() {
+			if (document.getElementById("nI").value == "") {
+				alert("Please enter the search term(s)");
+				document.getElementById("nI").focus();
+				return false;
+				}
+				else if (document.getElementById("dtype").value == "") {
+					alert("Please specify NASA domain");
+					document.getElementById("dtype").focus();
+					return false;
+					}
+					else {
+						submitForm();
+						}
+					}
+		function submitForm(startVal, nasaInclude) {
+			//document.getElementById("start").value = startVal;
+			document.getElementById("filter").value = '0';
+			//document.getElementById("nI").value = nasaInclude;
+			document.advancedSearchForm01.spell.value = "1";
+			var s = document.getElementById("dtype");
+			var v = s.options[s.selectedIndex].value;
+			document.getElementById("dn").value = v;
+			document.getElementById("dn1").value = v;
+			document.advancedSearchForm01.submit();
+			}
+        </script>
+        <form id="advancedSearchForm01" name="advancedSearchForm01" method="get" action="http://search.nasa.gov/search/advSearch.jsp" onSubmit="return checkSearch();">
+          <p>
+            <input id="start" name="start" type="hidden"/>
+            <input id="filter" name="filter" type="hidden" value="0"/>
+            <input id="spell" name="spell" type="hidden" />
+          </p>
+          <p>
+            <input type="text" name="nasaInclude" id="nI" value="" size="10" maxlength="100"/>
+            <br />
+            <input type="hidden" name="qt" id="qt" value="all" >
+            </input>
+            <select name="dtype" id="dtype">
+              <option value="" selected>Select one...</option>
+              <option value="history.nasa.gov">History (Main)</option>
+              <option value="history.nasa.gov/alsj/">Apollo (ALSJ)</option>
+              <option value="nasa.gov">All of NASA</option>
+              <option value="www.centennialofflight.gov">Centennial</option>
+            </select>
+            <input type="hidden" name="dtype" checked="checked" />
+            <input type="hidden" class="searchtxtbox2" id="dn1" name="dn1" maxLength="100" size="15" />
+            <input type="hidden" id="dn" maxLength="100" size="15" name="dn"  value="" />
+            <input type="hidden" name="displayFormat" id="dF" value="detail" />
+            <input type="hidden" value="" id="search_btn" class="searchbtn" />
+            <br />
+            <br />
+            <input type="submit" value="&nbsp;Search&nbsp;" id="search_btn" class="searchbtn"/>
+          </p>
+        </form>-->
+        <br>
+        <br>
+        <form accept-charset="UTF-8" action="http://search.usa.gov/search" id="search_form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+
+    <input id="affiliate" name="affiliate" type="hidden" value="all" />
+    
+    <label for="query"><span style="color:#66ccff; line-height:0.95em;"><font size="+1">NASA Search:</font></span></label>
+    <br>
+    &nbsp;<input autocomplete="off" class="usagov-search-autocomplete" id="query" size="13"name="query" type="text" />
+    <br>
+    &nbsp;<input name="commit" type="submit" value="Search" />
+    <br>
+    <br>
+        </form>
+        
+        
+        
+        
+        <br />
+        <table width="100%">
+          <tr></tr>
+        </table></td>
+      <td bgcolor="#CCCCCC" width="1"><img src="Assets/Images/spacer.gif" width="1" height="1"></td>
+      <td bgcolor="#FFFFFF" width="8"><img src="Assets/Images/spacer.gif" width="1" height="8"></td>
+      <td bgcolor="#CCCCCC" width="1"><img src="Assets/Images/spacer.gif" width="1" height="1"></td>
+      <td bgcolor="#FFFFFF" width="655" valign="top"><table width="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <tD><table width="100%" cellpadding="5" cellspacing="0">
+                <Tr>
+                  <td class="title" width="70%" align="left"><!-- #BeginEditable "title" --><center>HISTORY HOME</center><!-- #EndEditable --></td>
+                  <td align="right"><a href="javascript:goPF()"><!-- #BeginEditable "printer" --><img src="Assets/Images/printerFriendly.jpg" border="0"><!-- #EndEditable --> </a></td>
+                </Tr>
+              </table>
+              <table width="100%" cellpadding="0" cellspacing="0" height="1">
+                <tr>
+                  <td bgcolor="#CCCCCC"><img src="Assets/Images/spacer.gif" width="1" height="1"></td>
+                </tr>
+              </table>
+              <table width="100%" cellpadding="5" cellspacing="0">
+                <tr>
+                  <td align="left"><!-- #BeginEditable "mainContent" -->
+  
+  <P>Since its inception in 1958, NASA has accomplished many 
+                  great scientific and technological feats in air and space. 
+                  NASA technology also has been adapted for many nonaerospace 
+                  uses by the private sector. NASA remains a leading force in 
+                  scientific research and in stimulating public interest in 
+                  aerospace exploration, as well as science and technology in 
+                  general. Perhaps more importantly, our exploration of space 
+                  has taught us to view Earth, ourselves, and the universe in a 
+                  new way. While the tremendous technical and scientific 
+                  accomplishments of NASA demonstrate vividly that humans can 
+                  achieve previously inconceivable feats, we also are humbled by 
+                  the realization that Earth is just a tiny "blue marble" in the 
+                  cosmos. Check out our <A 
+                  href="http://history.nasa.gov/thinking/index.html">"Thinking 
+                  About NASA History"</A> folder online as an introduction to 
+                  how history can help you.</P>
+                 
+                  <P><STRONG>HISTORY AT NASA HEADQUARTERS:</STRONG><A 
+                  href="http://history.nasa.gov/launiuspharticle.pdf"><EM><BR>An article</EM></A> 
+                    by former NASA Chief Historian Roger Launius on the accomplishments of the NASA History Division.<P>
+                   
+                  
+                    <STRONG>NASA HISTORY FELLOWSHIPS:</STRONG><br> 
+                   
+                    <A 
+                    href="http://www.historians.org/prizes/NASA.htm"><STRONG>American 
+                    Historical Association</STRONG></A><br>
+                    <A 
+                    href="http://www.hssonline.org/publications/Newsletter2009/October-space-science.html"><STRONG>History 
+                    of Science Society (HSS) Fellowship in the History of Space 
+                    Science</STRONG></A><br>
+                    <A 
+                    href="http://www.historyoftechnology.org/awards/nasa.html"><STRONG>NASA 
+                    Fellowship in the History of Space 
+                    Technology</STRONG></A><br> 
+                    <EM><A 
+                    href="https://intern.nasa.gov/solar/web/public/main/index.cfm?solarAction=view&subAction=content&contentCode=HOME_PAGE_FELLOWSHIPS">OTHER 
+                    NASA FELLOWSHIPS AND GRANTS</A></EM><p>
+                    
+                    
+                  <STRONG>NASA HISTORY NEWS &amp; NOTES 
+                  NEWSLETTER:</STRONG><br>
+                  <A 
+                  href="http://history.nasa.gov/nltrc.pdf">Download our latest 
+                  (Third Quarter 2014) newsletter</A> or click <A 
+                  href="http://history.nasa.gov/histnews.htm">here</A> for 
+                  previous newsletters.</CENTER>
+                  <P>
+               
+                  <STRONG>NASA HISTORY OFFICE ANNUAL REPORT:</STRONG><BR>For our <EM>Year in Review</EM> annual 
+                  report, click <A 
+                  href="http://history.nasa.gov/histnews.htm#review">here</A>
+                  
+                   <p><STRONG>NASA HISTORY ON FACEBOOK:</STRONG><BR> Catch up with NASA History on our<A 
+                  href="https://www.facebook.com/NASAHistoryOffice"> Facebook</A> page. <A 
+                  href="https://www.facebook.com/r.php?profile_id=519024461482574&next=https%3A%2F%2Fwww.facebook.com%2FNASAHistoryOffice&friend_or_subscriber=friend">Sign Up</A> today</p>
+                  
+                  <p><STRONG>NASA HISTORY ON TWITTER:</STRONG><BR>  Get short, timely messages from the NASA History Office. Twitter is a rich source of instantly updated information. It's                  easy to stay updated on an incredibly wide variety of topics. Join today and follow @NASAhistory: </p>
+                  
+                  <a href="https://twitter.com/NASAhistory" class="twitter-follow-button" data-show-count="false">Follow @NASAhistory</a>
+                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.                  insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>                                             
+                  
+                  <P align=right>       
+                  <BR>Steve 
+                  Garber, NASA History Web Curator <BR>Site design by NASA HQ Printing &amp; Design <BR>For further 
+                  information email <A 
+                  href="mailto:histinfo@hq.nasa.gov">mailto:histinfo@hq.nasa.gov</A><BR><A 
+                  href="http://www.hq.nasa.gov/privacy.html">Privacy Statement 
+                  </A><BR>
+                  <!-- #EndEditable --></td>
+                </tr>
+              </table></tD>
+          </tr>
+        </table></td>
+      <td bgcolor="#CCCCCC" width="1"><img src="Assets/Images/spacer.gif" width="1" height="1"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#cccccc" colspan="7"><img src="Assets/Images/spacer.gif" width="1" height="1"></td>
+    </tr>
+  </table>
+  <!-- SPACER START--->
+  <table width="789" cellpadding="0" cellspacing="0">
+    <tr>
+      <Td><img src="Assets/Images/spacer.gif" width="1" height="3"></Td>
+    </tr>
+  </table>
+  <!-- SPACER END -->
+  <table width="789" cellpadding="1" cellspacing="0" class="small" border="0" bgcolor="#999999">
+    <tr>
+      <td><table width="100%" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC" border="0" class="small">
+          <tr>
+            <td><b>&nbsp;ADA Navigation</b></td>
+          </tr>
+          <tr>
+            <td bgcolor="#ffffff" width="1"><img src="Assets/Images/spacer.gif" width="1" height="1"></td>
+          </tr>
+          <tr>
+            <td  align="center"><span class="extrasmall"><a href="program.html">About Us</a></span> | <span class="extrasmall"><a href="what.html">What's New</a></span> | <span class="extrasmall"><a href="publications.html">Publications</a></span> | <span class="extrasmall"><a href="refcoll.html">Researching NASA History</a></span> | <span class="extrasmall"><a href="histnews.htm">News letter/Annual Reports</a></span> | <span class="extrasmall"><a href="centers.html">Center History Offices</a></span> | <span class="extrasmall"><a href="tindex.html">Topical Index</a></span> | <span class="extrasmall"><a href="topics.html">Common Topics/FAQ</a></span> | <span class="extrasmall"><a href="contact.html">Contact Us</a></span></td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+  <!-- SPACER START--->
+  <table width="789" cellpadding="0" cellspacing="0">
+    <tr>
+      <Td><img src="Assets/Images/spacer.gif" width="1" height="5"></Td>
+    </tr>
+  </table>
+  <!-- SPACER END -->
+  <!-- [[ FOOTER START ]] -->
+  <table id="footer" cellspacing="0" cellpadding="1" width="789" bgcolor="#999999" border="0">
+    <tr>
+      <td><table width="100%" cellpadding="0" cellspacing="0" bgcolor="#cccccc" border="0">
+          <tr>
+            <td valign="top" width="57"><a href="http://www.nasa.gov/" target="_blank"><img src="http://www.nasa.gov/templateimages/template/footer/logo_nasa.gif" width="49" height="48" alt="Click to visit the NASA Homepage" border="0" /></a></td>
+            <td valign="top" width="179"><br />
+              NASA Official: Stephen Garber <br />
+              Last Updated: <!-- InstanceBeginEditable name="lastUpdated" -->September 26, 2014<!-- InstanceEndEditable --><br>
+              <a class="footerLnk" href="http://history.nasa.gov/contact.html">+ Contact NASA</a><br />
+              <a class="footerLnk" href="http://history.nasa.gov/sitemap.htm">+ Site Map</a></td>
+            <td width="219" valign="top"><br />
+              <a class=footerLnk href="http://www.nasa.gov/news/budget/index.html" target="_blank">+ Budgets, Strategic Plans and<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;Accountability Reports</a><br />
+              <a class=footerLnk href="http://www.hq.nasa.gov/office/codee/nofear.html" target="_blank">+ Equal Employment Opportunity Data<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;Posted Pursuant to the No Fear Act</a><br />
+              <a class=footerLnk href="http://www.nasa.gov/about/contact/information_inventories_schedules.html" target="_blank">+ Information-Dissemination Policies<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;and Inventories</a><br /></td>
+            <td valign="top" width="198"><br />
+              <a class=footerLnk href="http://www.hq.nasa.gov/office/pao/FOIA/agency/" target="_blank">+ Freedom of Information Act</a><br />
+              <a class=footerLnk href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">+ Privacy Policy &amp; Important Notices</a><br />
+              <a class=footerLnk href="http://www.nasa.gov/offices/nac/home/index.html" target="_blank">+ NASA&nbsp;&nbsp;Advisory Council</a><br />
+              <a class=footerLnk href="http://oig.nasa.gov/hotline.html" target="_blank">+ Inspector General Hotline</a><br />
+              <a class=footerLnk href="http://oig.nasa.gov/" target="_blank">+ Office of the Inspector General</a><br />
+              <a class="footerLnk" href="http://www.nasa.gov/audience/formedia/features/communication_policy.html" target="_blank">+ NASA Communications Policy</a></td>
+            <td valign="top" width="134"><p><a href="http://www.firstgov.gov/" target="_blank"><img height="42" alt="FirstGov - Your First Click to the US Government" src="http://www.nasa.gov/templateimages/template/footer/logo_first_gov.gif" width="125" border="0" /></a></p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.usa.gov/">+ USA.gov</a><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.whitehouse.gov/omb/expectmore/">+ ExpectMore.gov</a></p></td>
+          </tr>
+          <tr>
+            <td colspan="5"><img height="5" alt="" src="http://www.nasa.gov/templateimages/common/spacer.gif" width="1" border="0" /></td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+  <!-- [[ FOOTER END ]] -->
+</div>
+</body>
+<!-- InstanceEnd --></html>

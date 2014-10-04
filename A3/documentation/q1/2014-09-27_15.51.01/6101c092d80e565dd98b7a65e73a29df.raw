@@ -1,0 +1,989 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<base href="http://www.nehumanesociety.org/site/PageServer" />
+<title>Nebraska Humane Society: Nebraska Humane Society</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="Keywords" content=" " />
+<meta name="Description" content="" />
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="../yui3/yui/yui-min.js"></script><noscript>&nbsp;</noscript>
+<script type="text/javascript" src="../js/convio/modules.js?version=2.9"></script><noscript>&nbsp;</noscript>
+<script type="text/javascript">
+var Y = YUI({base: '../yui3/',
+insertBefore: 'yui_marker_loader_css', // insert all YUI module css before customstyle so it can be overridden
+debug: false, 
+modules: getModules('../', 'convio', false)});
+</script><noscript>&nbsp;</noscript>
+
+<script type="text/javascript" src="http://cdn.gigya.com/JS/gigya.js?services=socialize&APIKey=  2_morP1y24khuy6BAbRZrO3a_FMbHcT3mGfKXRd6foIwAEnjlWhwglrue4FvODHuV5">
+{
+lang: 'en'
+}
+</script>	
+
+
+
+<script type="text/javascript" src="../js/utils.js"></script><noscript>&nbsp;</noscript>
+
+<script type="text/javascript" src="../js/obs_comp_rollup.js"></script><noscript>&nbsp;</noscript>
+
+
+<link href="../css/themes/default.css" rel="stylesheet" type="text/css" />
+<link href="../css/themes/alphacube.css" rel="stylesheet" type="text/css"/>
+
+
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script><noscript>&nbsp;</noscript>
+
+
+
+<link href="../css/UserGlobalStyle.css" rel="stylesheet" type="text/css" />
+
+
+
+
+<link rel="stylesheet" type="text/css" id="yui_marker_loader_css" />
+<link href="../css/CustomStyle.css" rel="stylesheet" type="text/css" />
+<link href="../css/CustomWysiwygStyle.css" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+<meta name="CnvHeaderVersion" content="v5.0" />
+
+
+<style>
+
+/*---- Wrapper Styles ----*/
+
+body{
+background:#6a4622 url(../images/wrpr/page-background.jpg) no-repeat top center;
+}
+
+#o-wrapper{
+width:970px;
+margin:20px auto;
+
+}
+
+#i-wrapper{
+width:100%;
+overflow:none;
+}
+
+/*---- Common Properties ----*/
+#header-top,
+#header-body,
+#header-nav,
+#body,
+#footer{
+width:970px;
+}
+#header #header-top-content,
+#header #header-body-content,
+#header #header-nav-content,
+#body #body-content,
+#footer #footer-body-content{
+width:950px;
+margin:0 auto;
+}
+
+#header #header-body,
+#header #header-nav,
+#footer #footer-body,
+#body{
+background: url(../images/wrpr/background-shadow.png) repeat-y top left;
+}
+
+#header-body,
+#header-nav,
+#body,
+#footer,
+#footer-bottom{
+clear:both;
+}
+
+/*---- Header ----*/
+#header #header-top{
+background: url(../images/wrpr/background-shadow-top.png) bottom left no-repeat;
+}
+#header #header-top-content{
+height:40px;
+}
+
+#header #header-body{
+}
+#header #header-body-content{
+min-height:170px;
+}
+
+#header #header-nav{}
+#header #header-nav-content{
+background: url(../images/wrpr/nav-background.jpg);
+height:30px;
+}
+#header #logo,
+#header #random-header-image{
+float:left;
+margin-left:8px;
+margin-top:3px;
+}
+
+#header #logo{
+background:#ffffff url(../images/wrpr/header-logo.gif) top left no-repeat;
+width:166px;
+height:161px;
+}
+#header #logo a{
+height:161px;
+width:161px;
+display:block;
+}
+
+#header #random-header-image{
+border:1px solid black;
+}
+
+/*---- Body ----*/
+#body{}
+#body #body-content{
+min-height:400px;
+}
+
+
+/*---- Footer ----*/
+#footer{}
+#footer #footer-body{}
+#footer #footer-body-content{
+border-top:5px solid #5346a7;
+min-height:80px;
+background-color:#fff8db;
+overflow:none;
+}
+
+#footer #footer-bottom{
+background: url(../images/wrpr/background-shadow-bottom-jpg.jpg) top left ;
+height:15px;
+}
+
+#footer-left-side{ 
+float:left;
+width:500px;
+height:50px;
+position:relative;
+top: 1.13em;
+}
+#footer-logo{
+float:left;
+margin:1em 0em 0em 2em;
+}
+#footer-links{
+margin: 1.6em ;
+color:#5346a7;
+
+}
+#footer-links a{
+margin: 0px 10px;
+color:#5346a7;
+font-weight:bold;
+}
+#footer-links a:hover{
+text-decoration:underline;
+}
+
+#footer-right-side{
+float:right;
+width:400px;
+text-align:right;
+position:relative;
+top: 2.38em;
+}
+#footer-right-side #convio-logo{
+position:relative;
+right:1em;
+}
+
+/*---- Nav ----*/
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.sf-menu {
+	line-height:	1.0;
+}
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			10em; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+        z-index:             1000;
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			2.2em; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+
+/*** SKIN ***/
+.sf-menu {
+	float:			left;
+	margin-bottom:	0em;
+}
+.sf-menu a {
+	border-left:	0px solid #fff;
+	border-top:		1px solid #fff;
+	padding: 		.21em 1.093em;
+	text-decoration:none;
+        font: 12pt Trebuchet MS;
+}
+.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	color:			#fff;
+        font-weight:            bold;
+}
+.sf-menu li {
+	background:		inherit;
+}
+.sf-menu li li {
+	background:		#5346A7;
+}
+.sf-menu li li a{
+        font: 10pt Trebuchet MS;
+}
+.sf-menu li li li {
+	background:		#9AAEDB;
+}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background:		#ffd222;
+	outline:		0;
+        color:                  #000;
+}
+
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+	padding-right: 	1.093em;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sf-sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			.75em;
+	top:			1.05em; /* IE6 only */
+	width:			10px;
+	height:			10px;
+	text-indent: 	-999em;
+	overflow:		hidden;
+	background:		url('../images/arrows-ffffff.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:			.8em;
+	background-position: 0 -100px; /* use translucent arrow for modern browsers*/
+}
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px; /* arrow hovers for modern browsers*/
+}
+
+/* point right for anchors in subs */
+.sf-menu ul .sf-sub-indicator { background-position:  -10px 0; }
+.sf-menu ul a > .sf-sub-indicator { background-position:  0 0; }
+/* apply hovers to modern browsers */
+.sf-menu ul a:focus > .sf-sub-indicator,
+.sf-menu ul a:hover > .sf-sub-indicator,
+.sf-menu ul a:active > .sf-sub-indicator,
+.sf-menu ul li:hover > a > .sf-sub-indicator,
+.sf-menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+}
+
+/*** shadows for all but IE6 ***/
+.sf-shadow ul {
+	background:	url('../images/shadow.png') no-repeat bottom right;
+	padding: 0 8px 9px 0;
+	-moz-border-radius-bottomleft: 17px;
+	-moz-border-radius-topright: 17px;
+	-webkit-border-top-right-radius: 17px;
+	-webkit-border-bottom-left-radius: 17px;
+}
+.sf-shadow ul.sf-shadow-off {
+	background: transparent;
+}
+
+.signupFormSubmit{
+	background-image: url(../images/content/pagebuilder/31361.jpg);
+	border: 0;
+	margin: 8px 0 0 0 !important;
+	padding: 0.99em;
+	width: 91px;
+}
+
+#nav-fragment-1 a,
+#nav-fragment-2 a,
+#nav-fragment-3 a,
+#nav-fragment-4 a{ 
+display:block;
+width: 100%;
+text-align:left;
+}
+
+ #header-search{
+	 float:right;
+	 width:278px;
+	 height:inherit;
+	 text-align:right;
+vertical-align:bottom;
+ }
+#header-search #searchForm{
+	width:277px;
+	text-align:right;
+}
+#header-search #searchForm input{
+	width:59px;
+	margin-right:0px;
+	margin-left:-12px;
+
+}
+#header-search #searchForm input:hover{
+	cursor:pointer;
+}
+#header-search #searchForm input#query{
+	opacity:100;
+	filter:alpha(opacity=100);
+	visibility:visible;
+	width:180px;
+	margin:0 10px 0 25px;
+	cursor:text;
+	border: 0;
+	padding: 3px 0 0 0;
+	height: 17px;
+
+}
+#header-search .NetscapeFix{
+	padding:0;
+	margin:0;
+}
+#body-content .appArea{
+margin:0;
+padding:10px;
+}
+
+
+
+</style><!-- 19 -->
+<script type="text/javascript" src="../js/jquery-1.4.4.min.js"></script>
+		<script type="text/javascript" src="../js/hoverIntent.js"></script>
+
+		<script type="text/javascript" src="../js/superfish.js"></script>
+		<script type="text/javascript">
+
+		// initialise plugins
+		jQuery(function(){
+			jQuery('ul.sf-menu').superfish();
+		});
+
+</script>
+
+</head>
+<body
+
+
+
+
+
+
+
+
+
+
+
+
+
+>	
+<div id='o-wrapper'>
+	<div id='i-wrapper'>
+		<div id='header'>
+			<div id='header-top'>
+				<div id='header-top-content'> 
+                                      <div id="header-search" style="width: 892px; color: white;">
+
+        <div style="width: 612px; float: left" id="header-login"><form id="LogonForm" name="LogonForm" action="UserLogin?NEXTURL=http%3A%2F%2Fwww.nehumanesociety.org%2Fsite%2FPageServer" method="post" target="_top">
+	<label for="USERNAME">User Name:</label>
+	<input id="USERNAME"  name="USERNAME" value="" class="text" title="User Name" maxLength=60 size="10" onFocus="this.value='';"/>
+	<label for="Password">Password:</label>
+	<input id="Password" name="Password" value="" class="text" title="Password" type="password" maxLength="20" size="10" onFocus="this.value='';"/>			
+	<input type="checkbox" checked name="RememberMe" id="RememberMe" value="RememberMe" title="Remember Me" />
+	<label for="RememberMe">Remember me</label>
+	<input id="login" title="Enter your username and password then click here to login." type="submit" alt="Login" value="Login" border="0"/>
+	<a href="UserLogin?NEXTURL=http%3A%2F%2Fwww.nehumanesociety.org%2Fsite%2FPageServer" style="font-weight: normal;">Forgot username/password?</a>
+</form></div>
+
+      <div id="header-search-box" style="width: 280px; float: left;">
+        <form action="http://www.nehumanesociety.org/site/Search" method="get" name="searchForm" id="searchForm">
+          <span class="NetscapeFix">
+          <input type="text" name="query" id="query" value="" size="15" maxlength="50" />
+          </span>
+          <input type="submit" value="Search" />
+          <input type="hidden" name="inc" id="inc" value="10" />
+        </form>
+      </div>
+				</div>
+			</div>
+			<div id='header-body'>
+				<div id='header-body-content'>
+                                  <div id="logo"><a href="http://www.nehumanesociety.org">&nbsp;</a> </div>
+<div id="random-header-image"><table style="width: 760px; height: 160px;" border="0" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td><a href="PageServer?pagename=mym_landingpage"><img src="../images/content/pagebuilder/32282.jpg" border="0" alt="" width="760" height="160" /></a></td>
+</tr>
+</tbody>
+</table></div>
+				</div>
+			</div>
+			<div id='header-nav'>
+				<div id='header-nav-content'>
+                              <div id="nav">
+<ul class="sf-menu">
+<li id="first"><a href="PageServer?pagename=adopt_Adopt">Adopt</a>
+		
+<ul>
+<li><a href="PageServer?pagename=PH_Dogs">Available Dogs</a></li>
+<li><a href="PageServer?pagename=PH_Cats">Available Cats</a></li>
+<li><a href="PageServer?pagename=PH_Offsite">Cats at PetSmart</a></li>
+<li><a href="PageServer?pagename=Adopt_Current_Fosters_Dogs">Dogs in Foster Care</a></li>
+<li><a href="PageServer?pagename=Adopt_Current_Fosters_Cats">Cats in Foster Care</a></li>
+<li><a href="PageServer?pagename=Adopt_Horses">Available Horses</a></li>
+<li><a href="PageServer?pagename=PH_Other">Available Mice &amp; Rats</a></li>
+<li><a href="PageServer?pagename=PH_Other">Available Hamsters &amp; Gerbils</a></li>
+<li><a href="PageServer?pagename=PH_Other">Available Rabbits &amp; Guinea Pigs</a></li>
+<li><a href="PageServer?pagename=PH_Other">Available Birds</a></li>
+<li><a href="PageServer?pagename=PH_Other">Available Snakes &amp; Reptiles</a></li>
+<li><a href="PageServer?pagename=adopt_Special_Adoptions">Special Needs Animals</a></li>
+<li><a href="PageServer?pagename=adopt_Adopt">Adoption Information</a></li>
+<li><a href="PageServer?pagename=copy_of_adopt_success_stories">Success Stories</a></li>
+</ul>
+</li>
+<li><a href="PageServer?pagename=donate_Donate">Donate</a>
+		
+<ul>
+<li><a href="Donation2?idb=1488691212&amp;df_id=1220&amp;1220.donation=form1">Donate Online</a></li>
+<li><a href="Donation2?idb=1571626318&amp;df_id=1280&amp;1280.donation=form1">Gift- Honor or memory</a></li>
+<li><a href="Donation2?idb=797063932&amp;df_id=1520&amp;1520.donation=form1">Monthly Giving</a></li>
+<li><a href="Donation2?idb=1815268553&amp;df_id=1161&amp;1161.donation=form1">Sponsor a Shelter Animal</a></li>
+<li><a href="PageServer?pagename=donate_Ways_to_Give#.TsKYtfHXYe0">Ways to Give</a></li>
+<li><a href="http://www.gftpln.org/Article.do?orgId=5817&amp;articleId=12249">Shelter Wish List</a></li>
+<li><a href="PageServer?pagename=donate_Planned_Giving">Gift Planning</a></li>
+</ul>
+</li>
+<li><a href="PageServer?pagename=lost_found_ive_lost_a_pet">Lost Pets</a>
+		
+<ul>
+<li><a href="PageServer?pagename=lost_found_ive_lost_a_pet">I've Lost a Pet</a></li>
+<li><a href="PageServer?pagename=lost_found_ive_found_a_pet">I've Found a Pet</a></li>
+</ul>
+</li>
+<li><a href="PageServer?pagename=training_Training_and_Pet_Care">Training</a>
+		
+<ul>
+<li><a href="PageServer?pagename=training_home">Dog Training</a></li>
+<li><a href="PageServer?pagename=training_basicclasses">Basic Training</a></li>
+<li><a href="PageServer?pagename=training_advancedclasses">Beyond the Basic Training</a></li>
+<li><a href="PageServer?pagename=training_specialty_classes">Specialty Training Classes</a></li>
+<li><a href="PageServer?pagename=training_recentadopters">Training for Recent Adopters</a></li>
+<li><a href="PageServer?pagename=training_privatelessons">Private Training</a></li>
+<li><a href="PageServer?pagename=training_locations">Training Locations</a></li>
+<li><a href="PageServer?pagename=training_Behavior_Solutions">Behavior Solutions</a></li>
+<li><a href="PageServer?pagename=training_Behavior_Solutions">Behavior Helpline</a></li>
+</ul>
+</li>
+<li><a href="PageServer?pagename=programs_Special_Events">News &amp; Events</a>
+		
+<ul>
+<li><a href="Calendar/1086836538?view=MonthGrid&Day=9,1,2014">Calendar of Events</a></li>
+<li><a href="PageServer?pagename=Walk_Homepage">Walk For The Animals</a></li>
+</ul>
+</li>
+<li><a href="PageServer?pagename=programs_Main">Programs &amp; Services</a>
+		
+<ul>
+<li><a href="PageServer?pagename=laws_Animal_Control_Problems">Animal Control</a></li>
+<li><a href="PageServer?pagename=sos_homepage">Low Cost Spay/Neuter</a></li>
+<li><a href="PageServer?pagename=RainbowBridge_homepage">Pet Cremation</a></li>
+<li><a href="PageServer?pagename=programs_Pet_Loss_Support_Group">Pet Loss Support Group</a></li>
+<li><a title="BoneJour_Main" href="PageServer?pagename=BoneJour_Main">Dog Day Care</a></li>
+<li><a title="BoneJour_Main" href="PageServer?pagename=BoneJour_Services_Boarding">Dog Boarding</a></li>
+<li><a href="PageServer?pagename=BoneJour_Services">Grooming</a></li>
+<li><a href="PageServer?pagename=volunteer_Volunteer">Volunteering</a></li>
+<li><a href="PageServer?pagename=horses_homepage">Horse Program</a></li>
+<li><a href="PageServer?pagename=programs_Group_Tours">Group Tours</a></li>
+<li><a href="PageServer?pagename=programs_CampKindness">Summer Camps</a></li>
+<li><a href="PageServer?pagename=disaster_relief">Disaster Tips</a></li>
+<li><a href="PageServer?pagename=programs_Project_Pet_Safe">Project Pet Safe</a></li>
+<li><a href="PageServer?pagename=programs_Programs_for_Seniors">Animeals</a></li>
+<li><a href="PageServer?pagename=programs_Programs_for_Seniors">Project PETS</a></li>
+<li><a href="PageServer?pagename=programs_Programs_for_Kids">Kids &amp; Teachers</a></li>
+</ul>
+</li>
+<li><a href="PageServer?pagename=laws_Licensing_and_Laws">Licensing &amp; Laws</a>
+		
+<ul>
+<li><a href="PageServer?pagename=laws_Animal_Control_Problems">Animal Control</a></li>
+<li><a href="PageServer?pagename=laws_responsible_owner">City Laws</a></li>
+<li><a href="PageServer?pagename=laws_State_and_Federal_Laws">State &amp; Federal Laws</a></li>
+<li><a href="PageServer?pagename=laws_license_pet">Licensing Your Pet</a></li>
+<li><a href="PageServer?pagename=laws_Reporting_Animal_Cruelty">Reporting Animal Cruelty</a></li>
+<li><a href="PageServer?pagename=wildlife_Wildlife">Wildlife</a></li>
+</ul>
+</li>
+<li id="last"><a href="PageServer?pagename=about_About_Us">About</a>
+		
+<ul>
+<li><a href="PageServer?pagename=about_Contact_Us">Contact Us</a></li>
+<li><a href="PageServer?pagename=Asilomar_welcome">Shelter Statistics</a></li>
+<li><a href="PageServer?pagename=about_Employment_Opportunities">Job Opportunities</a></li>
+<li><a href="PageServer?pagename=jobs_internship_program">Internship Opportunities</a></li>
+<li><a href="PageServer?pagename=shop_Shop">Shop @ NHS</a></li>
+<li><a href="PageServer?pagename=about_Virtual_Tour">Shelter Tour</a></li>
+<li><a href="PageServer?pagename=reus_redesign_epaws_signup">Epaws Sign Up</a></li>
+<li><a href="PageServer?pagename=about_About_Us#FAQ">FAQs</a></li>
+<li><a href="PageServer?pagename=about_privacy_policy">Privacy Policy</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+				</div>
+			</div>
+		</div>
+		<div id='body'>
+			<div id='body-content'>
+                              
+
+
+
+
+
+<style type="text/css"><!--
+#featured{
+background-color: #ffcd07;
+}
+#featured ul li{
+list-style-type:none;
+}
+#featured ul li a{
+padding:0;
+margin:0;
+}
+--></style>
+<table style="width: 930px;" border="0" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 650px;" align="center" valign="middle">
+<table style="width: 600px;" border="0" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td><!--CTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dt-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="../slideshow/style.css" type="text/css" rel="stylesheet" />
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.3/jquery-ui.min.js" type="text/javascript"></script>
+<script type="text/javascript">// <![CDATA[
+	$(document).ready(function(){
+		$("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5000, true);
+	});
+// ]]></script>
+<div id="featured">
+<ul class="ui-tabs-nav"><!-- First Tab -->
+<li id="nav-fragment-1" class="ui-tabs-nav-item ui-tabs-selected"><a href="#fragment-1"><img src="../slideshow/images/Walk2014_Thumb.jpg" border="0" alt="" width="80" height="50" /><span><br>Walk for the Animals</span></a></li>
+
+<!-- Second Tab -->
+<li id="nav-fragment-3" class="ui-tabs-nav-item"><a href="#fragment-3"><img src="../slideshow/images/CatSale_091714_thumb.jpg" alt="" /><span><br>Cat Party</span></a></li>
+
+<!-- Third Tab -->
+<li id="nav-fragment-2" class="ui-tabs-nav-item"><a href="#fragment-2"><img src="../slideshow/images/HumaneHands_Thumb.jpg" alt="" /><span><br>Humane Hands</span></a></li>
+
+<!-- Fourth Tab -->
+<li id="nav-fragment-4" class="ui-tabs-nav-item"><a href="#fragment-4"><img src="../slideshow/images/training_thumbnail.jpg" alt="" /><span><br>Dog Training</span></a></li>
+</ul>
+
+<!-- First Content -->
+<div id="fragment-1" class="ui-tabs-panel"><a href="http://www.nehumanesociety.org/walk"/><img src="../slideshow/images/Walk2014_Slider.jpg" alt=""/></a>
+<div class="info">
+<h2>Walk for the Animals & 5K Run</h2>
+<p>Registration is NOW OPEN for the 25th Annual Walk for the Animals on Sunday, Sept. 28th. New this year a 5K Run!<strong><a href="http://www.nehumanesociety.org/walk"> Register for the Walk or Run today </a></strong></p>
+</div>
+</div>
+<!-- Second Content -->
+<div id="fragment-3" class="ui-tabs-panel ui-tabs-hide"><a href="http://www.nehumanesociety.org/cats"/><img src="../slideshow/images/CatSale_091714_slider.jpg" alt="" /></a>
+<div class="info">
+<h2>Cat Sale at NHS!</h2>
+<p>From now until Sunday cats six months and up at NHS are just $2.50 in honor of the 25th Anniversary of the Walk for the Animals!<strong><a href="http://www.nehumanesociety.org/cats">View Available Cats </a></strong></p>
+</div>
+</div>
+<!-- Third Content -->
+<div id="fragment-2" class="ui-tabs-panel ui-tabs-hide"><a href="http://www.nehumanesociety.org/humanehands"/><img src="../slideshow/images/HumaneHands_Slider.jpg" alt="" /></a>
+<div class="info">
+<h2>Humane Hands Starts This Month!</h2>
+<p>Is your child between the ages of 11 & 14 & would like to learn about different areas within NHS?  <a href="http://www.nehumanesociety.org/humanehands">Register Your Child Today! </a></strong></p>
+</div>
+</div>
+<!-- Fourth Content -->
+<div id="fragment-4" class="ui-tabs-panel ui-tabs-hide"><a href="http://www.nehumanesociety.org/site/PageServer?pagename=training_MannersNMore#.U0x4ccexSsM/"/><img src="../slideshow/images/newtraining_big.jpg" alt="" /></a>
+<div class="info">
+<h2>Dog Training Classes at NHS</h2>
+<p>Want your dog to know sit, stay and down? Let us help! <strong><a href="http://www.nehumanesociety.org/site/PageServer?pagename=training_MannersNMore#.U0x4ccexSsM">Register for a training class today</a></strong></p>
+</div>
+</div>
+</div>
+<br /></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td rowspan="3">&nbsp;</td>
+<td rowspan="3" align="right" valign="top">
+<table style="width: 246px;" border="0" cellspacing="0" cellpadding="0" align="right">
+<tbody>
+<tr>
+<td align="center" valign="top"><a title="General Donation_homepage button" href="Donation2?idb=0&amp;df_id=2020&amp;2020.donation=root"><img src="../images/content/pagebuilder/31351.jpg" border="0" alt="" width="246" height="47" /></a></td>
+</tr>
+<tr>
+<td style="background-image: url(../images/content/pagebuilder/31352.jpg); height: 4px;" align="left" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<!-- NOTE: This survey will submit twice if the user clicks through the entire survey. If they only submit their name and email, then it will submit once to capture that data. If they answer the next two questions, it will submit a second time to capture that data. -->
+
+<script src="/yui3/yui/yui-min.js" type="text/javascript"></script>
+<script src="/js/convio/modules.js" type="text/javascript"></script>
+<script src="/yui/yuiloader/yuiloader-min.js" type="text/javascript"></script>
+<link href="/api/survey.css" rel="stylesheet" type="text/css" />
+<script src="/api/survey_utils.js" type="text/javascript"></script>
+<script src="/api/survey_rest_v2.js" type="text/javascript"></script>
+
+<style>
+.question-input {
+    margin-left: 0;
+}
+
+.survey-intro-name {
+    margin: 0 0 3px;
+}
+
+.question-container {
+    margin-top: 0;
+}
+
+#container_question_14220, #container_question_14221, #container_question_14222, #finalphase {
+	width: 246px; 
+	min-height: 70px;
+}
+
+#row_name_input, #row_cons_email { width: 160px; }
+
+#container_question_14220 .question-text, #container_question_14221, #container_question_14222, #finalphase, #reset_survey_8001, .survey-api-auto-opt-in-text, #row_s_rememberMe, .question-hint { display: none; }
+
+#finalphase p { 
+	margin: 0;
+	padding: 5px; 
+}
+
+.error { 
+	color: red; 
+	display: none;
+}
+
+#cons_first_name, #cons_last_name, #cons_email { width: 100%; }
+
+#cons_last_name { margin-left: 3px; }
+
+.survey-api-button-container {
+	clear: both;
+    margin-left: 20px;
+    margin-top: 0 !important;
+}
+
+input#submit_survey_8001 {
+	background: transparent url("../images/content/pagebuilder/31361.jpg") no-repeat left top;
+	width: 90px;
+	height: 30px;
+	font-size: 0;
+	border: 0;
+}
+
+#container_question_14221 .question-input div {
+    float: left;
+    white-space: nowrap;
+    width: 75px;
+}
+
+#container_question_14222 .question-input div {
+    float: left;
+    white-space: nowrap;
+    width: 90px;
+}
+
+.survey-api-question-error {
+    background-color: transparent;
+    border: 0;
+    color: #CC0000;
+    font-size: 9px;
+    line-height: 7px;
+}
+
+.survey-api-field-error {
+    background-color: white;
+    border: 1px solid #F0F0F0;
+    border-style: inset;
+    color: #CC0000;
+}
+</style>
+
+<!-- Conditional Comments for the Quickreg form in IE7 -->
+<!--[if IE 7]>
+<style>
+#cons_first_name, #cons_last_name { width:90px; };
+</style>
+<![endif]-->
+
+<script type="text/javascript">// <![CDATA[
+    // **********************************
+    // *    JAVASCRIPT CONFIGURATION    *
+    // **********************************
+
+    var apiKey = "nhsapikey7f8asf87da";
+    var clientAPIFile = "/api/api_client.html";  // For cross-domain only: CHANGE THIS to the relative path your api_client.html file
+    var surveyId = 8001;                    // CHANGE THIS to be the survey ID of the COM Survey you wish to load
+    var includeIntro = true;                // CHANGE THIS to true if you want to display the survey introduction, false if you do not
+	var question1_id = 14220;
+	var question2_id = 14221;
+	var question3_id = 14222;
+	var nonsecure_path = "www.nehumanesociety.org";
+	YAHOO.Convio.Survey.Data.authToken = "ztNtzW6r7fsETJWKc9QCwN6kFykvOt9rUo-G0E2eDAqnYdrqokKC1eXs2AwrRikONjfCoJDiVqg";
+
+    // Setup the Y Object
+    var Y;
+    if (!Y) {
+      Y = YUI({
+        base: '/yui3/',   // For cross-domain only: CHANGE THIS to an abosolute path on your Convio site
+        debug: false,
+        modules: getModules('/','convio',false) // For cross-domain only: CHANGE THIS first parameter to the URL of your Convio site
+      });
+    }
+
+    // Dynamically load the YUI modules needed to render the survey, then load the survey
+    Y.use(
+        "yui2-loader",
+        "yui2-connection",
+        "yui2-container",
+        "yui2-yde",
+        "yui2-json",
+        "yui2-calendar",
+        function(Y) {
+            loadSurvey(apiKey, clientAPIFile, surveyId, includeIntro);
+        }
+    );
+
+// ]]></script>
+<input type="hidden" name="current_phase" id="current_phase" value="phase1" />
+<div class="survey-container" id="survey_8001"></div>  <!-- CHANGE THIS div id attribute value to reflect the survey ID -->
+<div id="finalphase">
+	<p>Thank you for joining the NHS community. <a href="http://www.nehumanesociety.org/site/PageServer?pagename=adopt_Adopt">Click here to read more about animal adoption.</a></p>
+</div>
+<br /></td>
+</tr>
+<tr>
+<td style="background-image: url(../images/content/pagebuilder/31352.jpg); height: 24px;" align="left" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table style="width: 246px;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td align="left" valign="top"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: 14pt;"><span style="color: #41a0a0;">FEATURED PETS</span></span></span></td>
+</tr>
+<tr>
+<td align="center" valign="top"><img src="../images/content/pagebuilder/fp_missy_foster.jpg" border="0" alt="Missy" width="246" height="125" /></td>
+</tr>
+<tr>
+<td style="text-align: left;" valign="top"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: 10pt;"><strong><span style="color: #636b9b;"><span style="font-size: 12pt;">Meet Missy<br /></span></span></strong></span></span></td>
+</tr>
+<tr>
+<td style="text-align: left;" valign="top"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;"><span>Missy is a high-energy puppy who loves to play fetch. She&rsquo;s a good learner who&rsquo;s looking for a patient family to help her grow into an adult dog.</span></span></td>
+</tr>
+<tr>
+<td style="text-align: left;"><span style="color: #be0073;"><a title="Dogs in Foster Care" href="PageServer?pagename=Adopt_Current_Fosters_Dogs"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: 10pt;">View all dogs in foster care&raquo;</span></span></a></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="background-image: url(../images/content/pagebuilder/31352.jpg); height: 24px;" align="left" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+<table style="width: 246px;" border="0" cellspacing="0" cellpadding="1" align="center">
+<tbody>
+<tr>
+<td rowspan="2"><img src="../images/content/pagebuilder/31366.jpg" border="0" alt="" width="84" height="53" /></td>
+<td style="text-align: left;" colspan="4" valign="bottom"><span style="font-family: arial,helvetica,sans-serif;"><span style="color: #808080;"><span style="font-size: 10pt;">FIND US ON</span></span></span></td>
+</tr>
+<tr>
+<td align="center" valign="middle"><a href="http://www.facebook.com/NebraskaHumaneSociety" target="_blank"><img src="../images/content/pagebuilder/22543.jpg" border="0" alt="Facebook" width="25" height="25" /></a></td>
+<td align="center" valign="middle"><a href="http://twitter.com/nehumanesociety" target="_blank"><img src="../images/content/pagebuilder/22544.jpg" border="0" alt="Twitter" width="25" height="25" /></a></td>
+<td align="center" valign="middle"><a href="http://www.youtube.com/nehumanesociety" target="_blank"><img src="../images/content/pagebuilder/22545.jpg" border="0" alt="YouTube" width="25" height="25" /></a></td>
+<td align="center" valign="middle"><a href="http://www.flickr.com/photos/nehumanesociety/" target="_blank"><img src="../images/content/pagebuilder/22546.jpg" border="0" alt="Flickr" width="25" height="25" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<table style="width: 650px;" border="0" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="text-align: left;" valign="top"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: 14pt;"><span style="color: #41a0a0;">WAYS TO HELP</span></span></span></td>
+<td style="background-image: url(../images/content/pagebuilder/31347.jpg); width: 22px;" rowspan="4" valign="top">&nbsp;</td>
+<td align="left" valign="top"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: 14pt;"><span style="color: #41a0a0;">NHS SERVICES</span></span></span></td>
+<td style="background-image: url(../images/content/pagebuilder/31347.jpg); width: 22px;" rowspan="4" valign="top">&nbsp;</td>
+<td align="left" valign="top"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: 14pt;"><span style="color: #41a0a0;">PURINA<br /></span></span></span></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img src="../images/content/pagebuilder/31344.jpg" border="0" alt="" width="200" height="95" /></td>
+<td align="left" valign="top"><img src="../images/content/pagebuilder/31345.jpg" border="0" alt="" width="200" height="95" /></td>
+<td align="left" valign="top"><img src="../images/content/pagebuilder/purina_homepage.jpg" border="0" alt="Purina" width="195" height="93" /></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td style="text-align: left;" valign="top"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: 10pt;"><span style="color: #5347a7;"><strong>&raquo; <a title="NHS Wish List" href="http://www.plan.gs/Article.do?orgId=5817&amp;articleId=12249">View the Animal Wish List</a><br />&raquo; <a title="Donate a Kuranda Bed" href="http://kuranda.com/donate/">Donate a Kuranda Bed</a><br />&raquo; <a title="Get an NHS Gift Card" href="http://www.cardpartner.com/app/nhs">Get an NHS Credit Card</a><br />&raquo; <a title="Sponsor a Shelter Animal" href="Donation2?idb=0&amp;df_id=1161&amp;1161.donation=root"></a><a title="Sponsor A Shelter Animals Dogs" href="Donation2?idb=0&amp;df_id=1241&amp;1241.donation=root">Sponsor our Shelter Dogs</a><br /></strong></span></span></span><a title="Sponsor a Shelter Animal" href="Donation2?idb=0&amp;df_id=1161&amp;1161.donation=root"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: 10pt;"><span style="color: #5347a7;"><strong>&raquo; </strong></span></span></span></a><span style="color: #000000;"><a title="Sponsor A Shelter Animal Cats" href="Donation2?idb=0&amp;df_id=1240&amp;1240.donation=root"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: 10pt;"><strong>Sponsor our Shelter Cats</strong></span></span></a></span><br /></td>
+<td style="text-align: left;" valign="top"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: 10pt;"><strong><span style="color: #5347a7;">&raquo; <a title="training_MannersNMore" href="PageServer?pagename=training_MannersNMore">Training Classes</a><br />&raquo; <a title="BoneJour_Main" href="PageServer?pagename=BoneJour_Main">Bone Jour Dog Day Care</a><br />&raquo; <a title="programs_Rainbow_Bridge" href="PageServer?pagename=programs_Rainbow_Bridge">Pet Cremation</a><br />&raquo; <a title="laws_Animal_Control_Problems" href="PageServer?pagename=laws_Animal_Control_Problems">Animal Control</a><br />&raquo; <a title="programs_Speakers_Bureau" href="PageServer?pagename=programs_Speakers_Bureau">Speakers Bureau<br /></a></span></strong></span></span><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: 10pt;"><strong><span style="color: #5347a7;">&raquo;<a title="training_Behavior_Solutions" href="PageServer?pagename=training_Behavior_Solutions"> FREE Behavior Helpline</a></span></strong></span></span><span style="font-family: arial,helvetica,sans-serif; color: #000000;"><span style="font-size: 10pt;"><strong>&nbsp;</strong></span></span><span style="color: #000000;"><strong>&nbsp;</strong></span></td>
+<td style="text-align: left;" valign="top"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: 10pt;">The Nebraska Humane Society is now proudly serving Purina. Purchase your own bag today at Animal Outfitters located inside the Nebraska Humane Society.<strong>&nbsp;</strong><strong><span style="color: #5347a7;"><br /></span></strong></span></span></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+
+			</div>
+		</div>
+		<div id='footer'>
+			<div id='footer-body'>
+				<div id='footer-body-content'>
+                              <div id="footer-left-side">
+<div id="footer-logo">
+  <img src="../images/wrpr/footer-logo.gif" alt="" />
+</div>
+<div id="footer-links">
+<a href="PageServer?pagename=about_Contact_Us">Contact Us</a>|<a href="#">Print This Page</a>|<a href="#">Tell a Friend</a>| <a title="Logout" href="UserLogin?logout=">LogOut</a><br />
+<a href="PageServer?pagename=about_Employment_Opportunities">Employment Opportunities</a>|<a href="PageServer?pagename=about_privacy_policy">Privacy Policy</a>|<a href="PageServer">Home</a>
+</div>
+</div>
+<div id="footer-right-side">
+<div id="convio-logo">
+<img src="../images/wrpr/powered-by-logo.jpg" alt="" />
+</div>
+</div>
+				</div>
+			</div>
+			<div id='footer-bottom'>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<script type="text/javascript">
+_uacct="UA-3472459-1";
+urchinTracker();
+</script> 
+
+
+
+
+
+
+</body>
+
+</html>

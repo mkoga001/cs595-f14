@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <meta name="keywords" />
+    <meta name="description" />
+    
+    <link href="/Content/ps.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="headerRow ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <img alt="Powersaves 3DS logo" src="/images/powersaves-3ds-logo.png" class="img-responsive"/>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="headerRow ">
+     <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+            
+        </div>
+        <div class="navbar-collapse collapse">
+           <ul class="nav navbar-nav navbar-left">
+
+                   <li class="active"><a href="/" class=" menuicon"><span class="glyphicon glyphicon-home menuicon"></span>Home</a></li>
+
+                 <li><a href="/coderequest/" class=" menuicon"><span class="glyphicon glyphicon-edit menuicon"></span>Code Request</a></li>
+                    
+                 <li><a href="/support/" class=" menuicon"><span class="glyphicon glyphicon-question-sign menuicon"></span>Support / FAQ</a></li>
+
+                 <li><a href="/licensing/" class=" menuicon"><span class="glyphicon glyphicon-file menuicon"></span>Licensing</a></li>
+</ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+</div>
+
+    
+
+<div class="white">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                    
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="well2">
+                            <h3>Powersaves 3DS Software</h3>
+                            <table class="table table-condensed">
+                                <tr>
+                                    <td class="col-sm-6 col-md-8 col-xl-8">Windows XP / Vista / 7 / 8</td>
+                                    <td><a class="btn btn-inverse btn-block" href="/download/powersaves3ds-software-121.zip"><span class="glyphicon glyphicon-download"></span> Download</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-8 col-xl-8">    </td>
+                                    <td></td>
+                                </tr>
+                                
+                            </table>
+                            <h3>Powersaves 3DS User Guides</h3>
+                            <table class="table table-condensed">
+                                <tr>
+                                    <td class="col-md-8 col-xl-8">User Manual (English)</td>
+                                    <td><a class="btn btn-inverse btn-block" href="/download/user-guide/powersaves3ds-user-guide.pdf"><span class="glyphicon glyphicon-download"></span> View</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-8 col-xl-8">User Manual (DE)</td>
+                                    <td><a class="btn btn-inverse btn-block" href="/download/user-guide/powersaves3ds-user-guide-DE.pdf"><span class="glyphicon glyphicon-download"></span> View</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-8 col-xl-8">User Manual (FR)</td>
+                                    <td><a class="btn btn-inverse btn-block" href="/download/user-guide/powersaves3ds-user-guide-FR.pdf"><span class="glyphicon glyphicon-download"></span> View</a></td>
+                                </tr>
+
+                            </table>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="well2">
+                             <h3>Powersaves 3DS System Status</h3>
+
+ <table class="table table-condensed">
+                                <tr>
+                                    <td class="col-sm-3 col-md-3 col-xl-3" style="text-align:center;"><br /><img class="img-responsive" src="/images/service-running.gif" /> <h4>Web Servers</h4></td>
+                                     <td class="col-sm-3 col-md-3 col-xl-3" style="text-align:center;"><br /><img class="img-responsive" src="\images\save-engine-running.gif" /> <h4>Saves Engine</h4></td>
+                                      <td class="col-sm-3 col-md-3 col-xl-3" style="text-align:center;"><br /><img class="img-responsive"  src="\images\code-engine-running.gif" /> <h4>Code Engine</h4></td>
+                                </tr>
+                                
+                              
+                                
+                            </table>
+
+
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row codes">
+        <div class="col-md-6 col-sm-6">
+               <h3>Latest Codes/Saves  <img src="/images/North-America.jpg" /></h3>
+<div id="comingsoonResult">
+      <ul id="comingsoon">
+               <li><a class="gameModel"  href="/home/gamedetails/AFEE" data-toggle="modal" data-target="#myModal"><span> Fire Emblem: Awakening </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/EKJE" data-toggle="modal" data-target="#myModal"><span> Pok&#233;mon X </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/EK2E" data-toggle="modal" data-target="#myModal"><span> Pok&#233;mon Y </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/BZLE" data-toggle="modal" data-target="#myModal"><span> The Legend of Zelda: a Link Between Worlds </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/BTHE" data-toggle="modal" data-target="#myModal"><span> Theatrhythm Final Fantasy Curtain Call </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/EC6E" data-toggle="modal" data-target="#myModal"><span> Tomodachi Life </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AMTE" data-toggle="modal" data-target="#myModal"><span> Shin Megami Tensei Devil Survivor Overclocked </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/BTRE" data-toggle="modal" data-target="#myModal"><span> Bravely Default </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/BUWE" data-toggle="modal" data-target="#myModal"><span> One Piece Unlimited World Red </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AJ3E" data-toggle="modal" data-target="#myModal"><span> Mario Golf World Tour </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AMXE" data-toggle="modal" data-target="#myModal"><span> Shin Megami Tensei IV </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AMHE" data-toggle="modal" data-target="#myModal"><span> Monster Hunter 3 Ultimate </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AMKE" data-toggle="modal" data-target="#myModal"><span> Mario Kart 7 </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AQEE" data-toggle="modal" data-target="#myModal"><span> The Legend of Zelda: Ocarina of Time 3D </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/BALE" data-toggle="modal" data-target="#myModal"><span> Kirby: Triple Deluxe </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/EGDE" data-toggle="modal" data-target="#myModal"><span> Animal Crossing: New Leaf </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/BCCE" data-toggle="modal" data-target="#myModal"><span> Conception II: Children of the Seven Stars </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AR4E" data-toggle="modal" data-target="#myModal"><span> Rune Factory 4 </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ASSE" data-toggle="modal" data-target="#myModal"><span> Super Street Fighter IV 3D Edition </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ANGE" data-toggle="modal" data-target="#myModal"><span> Angry Birds Trilogy </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/BR3E" data-toggle="modal" data-target="#myModal"><span> Cut The Rope: Triple Treat </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AWAE" data-toggle="modal" data-target="#myModal"><span> Pilotwings Resort </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AL6E" data-toggle="modal" data-target="#myModal"><span> Professor Layton and the Azran Legacy </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AKKE" data-toggle="modal" data-target="#myModal"><span> Professor Layton and the Miracle Mask </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ATAE" data-toggle="modal" data-target="#myModal"><span> Yoshi&#39;s New Island </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AFJE" data-toggle="modal" data-target="#myModal"><span> LEGO Movie Video Game </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AABE" data-toggle="modal" data-target="#myModal"><span> Tales of the Abyss </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ATSE" data-toggle="modal" data-target="#myModal"><span> Mario Party Island Tour </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AA8E" data-toggle="modal" data-target="#myModal"><span> LEGO City Undercover </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ADDE" data-toggle="modal" data-target="#myModal"><span> Dead or Alive: Dimensions </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AL5E" data-toggle="modal" data-target="#myModal"><span> LEGO Marvel Super Heroes: Universe In Peril </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AMSE" data-toggle="modal" data-target="#myModal"><span> Marvel Super Hero Squad: the Infinity Gauntlet </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AHQE" data-toggle="modal" data-target="#myModal"><span> Shin Megami Tensei Devil Summoner Soul Hackers </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ASNE" data-toggle="modal" data-target="#myModal"><span> Sonic Generations </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ABLZ" data-toggle="modal" data-target="#myModal"><span> BlazBlue Continuum Shift II </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AXXE" data-toggle="modal" data-target="#myModal"><span> Project X Zone </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ANRE" data-toggle="modal" data-target="#myModal"><span> Starfox 64 3D </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ATHE" data-toggle="modal" data-target="#myModal"><span> Theatrhythm Final Fantasy </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AKGE" data-toggle="modal" data-target="#myModal"><span> Zero Escape: Virtue&#39;s Last Reward </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AMGE" data-toggle="modal" data-target="#myModal"><span> Metal Gear Solid 3D Snake Eater </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ABQE" data-toggle="modal" data-target="#myModal"><span> Harvest Moon 3D: A New Beginning </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ASJE" data-toggle="modal" data-target="#myModal"><span> Etrian Odyssey IV Legends of the Titan </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AKDE" data-toggle="modal" data-target="#myModal"><span> Kid Icarus Uprising </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ARRE" data-toggle="modal" data-target="#myModal"><span> Ridge Racer 3D </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ADRE" data-toggle="modal" data-target="#myModal"><span> Driver: Renegade </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ALAE" data-toggle="modal" data-target="#myModal"><span> LEGO Lord of The Rings </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ASVE" data-toggle="modal" data-target="#myModal"><span> Shinobi </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AKHE" data-toggle="modal" data-target="#myModal"><span> Kingdom Hearts 3D </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ABRE" data-toggle="modal" data-target="#myModal"><span> Resident Evil Revelations </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ADCE" data-toggle="modal" data-target="#myModal"><span> Nintendogs+Cats Toy Poodle &amp; New Friends  </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ABME" data-toggle="modal" data-target="#myModal"><span> Resident Evil: The Mercenaries 3D </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/APCE" data-toggle="modal" data-target="#myModal"><span> LEGO Pirates of the Caribbean: The Video Game </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ADAE" data-toggle="modal" data-target="#myModal"><span> Nintendogs+Cats Golden Retriever &amp; New Friends </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/APDE" data-toggle="modal" data-target="#myModal"><span> Pok&#233;mon Mystery Dungeon Gates to Infinity </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ALGE" data-toggle="modal" data-target="#myModal"><span> LEGO Star Wars III: The Clone Wars </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AG5E" data-toggle="modal" data-target="#myModal"><span> Paper Mario Sticker Star </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ADBE" data-toggle="modal" data-target="#myModal"><span> Nintendogs+Cats French Bulldog &amp; New Friends </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ABEE" data-toggle="modal" data-target="#myModal"><span> New Super Mario Bros. 2 </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ALBE" data-toggle="modal" data-target="#myModal"><span> LEGO Batman 2: DC Super Heroes </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AGGE" data-toggle="modal" data-target="#myModal"><span> Luigi&#39;s Mansion: Dark Moon </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AYME" data-toggle="modal" data-target="#myModal"><span> Mario &amp; Luigi: Dream Team </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AYTE" data-toggle="modal" data-target="#myModal"><span> Donkey Kong Country Returns 3D </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ACFE" data-toggle="modal" data-target="#myModal"><span> Castlevania: Lords of Shadow Mirror of Fate </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AT2E" data-toggle="modal" data-target="#myModal"><span> Harvest Moon 3D: Tale of Two Towns </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ASDE" data-toggle="modal" data-target="#myModal"><span> Steel Diver </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/ACCE" data-toggle="modal" data-target="#myModal"><span> Pok&#233;mon Rumble Blast </span></a></li>
+               <li><a class="gameModel"  href="/home/gamedetails/AREE" data-toggle="modal" data-target="#myModal"><span> Super Mario 3D Land  </span></a></li>
+       </ul>
+</div>    
+        </div>
+        <div class="col-md-6 col-sm-6">
+              <h3>Latest Codes/Saves <img src="/images/eu.jpg" /></h3>
+<div id="comingsoonResult">
+      <ul id="comingsoon">
+             <li><a class="gameModel"  href="/home/gamedetails/BRDP" data-toggle="modal" data-target="#myModal"><span> One Piece Romance Dawn </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AFEP" data-toggle="modal" data-target="#myModal"><span> Fire Emblem:Awakening </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/EKJP" data-toggle="modal" data-target="#myModal"><span> Pok&#233;mon X </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/EK2P" data-toggle="modal" data-target="#myModal"><span> Pok&#233;mon Y </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/BTHP" data-toggle="modal" data-target="#myModal"><span> Theatrhythm Final Fantasy Curtain Call </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AMTP" data-toggle="modal" data-target="#myModal"><span> Shin Megami Tensei Devil Survivor Overclocked </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/BTRP" data-toggle="modal" data-target="#myModal"><span> Bravely Default </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/BUWP" data-toggle="modal" data-target="#myModal"><span> One Piece Unlimited World Red </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/EC6P" data-toggle="modal" data-target="#myModal"><span> Tomodachi Life </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AE4P" data-toggle="modal" data-target="#myModal"><span> Inazuma Eleven Go:Light </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ADEP" data-toggle="modal" data-target="#myModal"><span> Inazuma Eleven Go:Shadow </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AJ3P" data-toggle="modal" data-target="#myModal"><span> Mario Golf World Tour </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AXSP" data-toggle="modal" data-target="#myModal"><span> Inazuma Eleven 3: Lightning Bolt </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AXBP" data-toggle="modal" data-target="#myModal"><span> Inazuma Eleven 3: Bomb Blast </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/BALP" data-toggle="modal" data-target="#myModal"><span> Kirby: Triple Deluxe </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AMHP" data-toggle="modal" data-target="#myModal"><span> Monster Hunter 3 Ultimate </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/EGDP" data-toggle="modal" data-target="#myModal"><span> Animal Crossing: New Leaf </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/BSKP" data-toggle="modal" data-target="#myModal"><span> Etrian Odyssey Untold: The Millenium Girl </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ASJP" data-toggle="modal" data-target="#myModal"><span> Etrian Odyssey IV Legends of the Titan </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ASSP" data-toggle="modal" data-target="#myModal"><span> Super Street Fighter IV 3D Edition </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AL6P" data-toggle="modal" data-target="#myModal"><span> Professor Layton and the Azran Legacy </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AVSP" data-toggle="modal" data-target="#myModal"><span> Professor Layton vs Phoenix Wright: Ace Attorney </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AKKP" data-toggle="modal" data-target="#myModal"><span> Professor Layton and the Miracle Mask </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ATAP" data-toggle="modal" data-target="#myModal"><span> Yoshi&#39;s New Island </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ATSP" data-toggle="modal" data-target="#myModal"><span> Mario Party </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AABP" data-toggle="modal" data-target="#myModal"><span> Tales of the Abyss </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/BZLP" data-toggle="modal" data-target="#myModal"><span> The Legend of Zelda: A Link Between Worlds </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AL5P" data-toggle="modal" data-target="#myModal"><span> LEGO Marvel Super Heroes: Universe In Peril </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ARVP" data-toggle="modal" data-target="#myModal"><span> Sonic Lost World </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AKDP" data-toggle="modal" data-target="#myModal"><span> Kid Icarus Uprising </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AYTP" data-toggle="modal" data-target="#myModal"><span> Donkey Kong Country Returns </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AWAP" data-toggle="modal" data-target="#myModal"><span> Pilotwings Resort </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AHQP" data-toggle="modal" data-target="#myModal"><span> Shin Megami Tensei Devil Summoner Soul Hackers </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ABQP" data-toggle="modal" data-target="#myModal"><span> Harvest Moon 3D: A New Beginning </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AQEP" data-toggle="modal" data-target="#myModal"><span> The Legend of Zelda: Ocarina of Time 3D </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AT2P" data-toggle="modal" data-target="#myModal"><span> Harvest Moon Tales of the Two Towns </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AMGP" data-toggle="modal" data-target="#myModal"><span> Metal Gear Solid 3D Snake Eater </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ANRP" data-toggle="modal" data-target="#myModal"><span> Starfox 64 3D </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AA8P" data-toggle="modal" data-target="#myModal"><span> LEGO City Undercover </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ADCP" data-toggle="modal" data-target="#myModal"><span> Nintendogs+Cats Toy Poodle &amp; New Friends  </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ADBP" data-toggle="modal" data-target="#myModal"><span> Nintendogs+Cats French Bulldog &amp; New Friends </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ALAP" data-toggle="modal" data-target="#myModal"><span> LEGO Lord Of The Rings </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ACFP" data-toggle="modal" data-target="#myModal"><span> Castlevania: Lords of Shadow Mirror of Fate </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ASDP" data-toggle="modal" data-target="#myModal"><span> Steel Diver </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AKGP" data-toggle="modal" data-target="#myModal"><span> Zero Escape: Virtue&#39;s Last Reward </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ADRP" data-toggle="modal" data-target="#myModal"><span> Driver: Renegade </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ACCP" data-toggle="modal" data-target="#myModal"><span> Super Pok&#233;mon Rumble </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ASVP" data-toggle="modal" data-target="#myModal"><span> Shinobi </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ARRP" data-toggle="modal" data-target="#myModal"><span> Ridge Racer 3D </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ADDP" data-toggle="modal" data-target="#myModal"><span> Dead or Alive: Dimensions </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ALGP" data-toggle="modal" data-target="#myModal"><span> LEGO Star Wars III: The Clone Wars </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/APCP" data-toggle="modal" data-target="#myModal"><span> LEGO Pirates of the Caribbean: The Video Game </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ABMP" data-toggle="modal" data-target="#myModal"><span> Resident Evil: The Mercenaries 3D </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ABRP" data-toggle="modal" data-target="#myModal"><span> Resident Evil Revelations </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AXXP" data-toggle="modal" data-target="#myModal"><span> Project X Zone </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AGGP" data-toggle="modal" data-target="#myModal"><span> Luigi&#39;s Mansion 2 </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AREP" data-toggle="modal" data-target="#myModal"><span> Super Mario 3D Land </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ADAP" data-toggle="modal" data-target="#myModal"><span> Nintendogs+Cats Golden Retriever &amp; New Friends </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ATHP" data-toggle="modal" data-target="#myModal"><span> Theatrhythm Final Fantasy </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AMKP" data-toggle="modal" data-target="#myModal"><span> Mario Kart 7 </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AKHP" data-toggle="modal" data-target="#myModal"><span> Kingdom Hearts 3D </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ALBP" data-toggle="modal" data-target="#myModal"><span> LEGO Batman 2:DC Super Heroes </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/APDP" data-toggle="modal" data-target="#myModal"><span> Pok&#233;mon Mystery Dungeon Gates to Infinity </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AG5P" data-toggle="modal" data-target="#myModal"><span> Paper Mario Sticker Star </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ASNP" data-toggle="modal" data-target="#myModal"><span> Sonic Generations </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AYMP" data-toggle="modal" data-target="#myModal"><span> Mario &amp; Luigi: Dream Team Bros. </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/ABEP" data-toggle="modal" data-target="#myModal"><span> New Super Mario Bros. 2 </span></a></li>
+             <li><a class="gameModel"  href="/home/gamedetails/AGRP" data-toggle="modal" data-target="#myModal"><span> Ghost Recon Shadow Wars </span></a></li>
+       </ul>
+</div>
+        </div>
+    </div>
+</div>
+</div>
+<footer>
+    <div class="container">
+        <div class="row footerWrapper">
+            <div class="col-md-12">
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Loading</h4>
+      </div>
+      <div class="modal-body">
+              <div class="codelistDetails">
+                  <div style="width:100%;text-align:center;">
+                    <img src="/images/loading.gif" />
+                  </div>
+             </div>
+          </div>
+      <div class="modal-footer"> 
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script>
+
+
+    $('body').on('hidden.bs.modal', '.modal', function () {
+        $(this).removeData('bs.modal');
+    });
+
+    $(document).on('hidden.bs.modal', function (e) {
+        $(e.target).removeData('bs.modal').find('.modal-body').html('<div style="width:100%;text-align:center;"><img src="/images/loading.gif" /></div>');
+        $(e.target).removeData('bs.modal').find('.modal-header').html(' <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel">Loading</h4>')
+    });
+</script>
+
+    
+</body>
+</html>

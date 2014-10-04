@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+	generated in 0.484 seconds
+	74388 bytes batcached for 300 seconds
+-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>hockey-graphs | A few people analyzing hockey and statistics</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://hockey-graphs.com/xmlrpc.php">
+
+		<script src='//r-login.wordpress.com/remote-login.php?action=js&amp;host=hockey-graphs.com&amp;id=61874218&amp;t=1411848276&amp;back=http%3A%2F%2Fhockey-graphs.com%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel="alternate" type="application/rss+xml" title="hockey-graphs &raquo; Feed" href="http://hockey-graphs.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="hockey-graphs &raquo; Comments Feed" href="http://hockey-graphs.com/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}
+/* ]]> */
+</script>
+<link rel='stylesheet' id='all-css-0' href='http://s0.wp.com/_static/??-eJx9kN0OwjAIRl/Iisb/C+OzbB12TFqawbLs7a0maoxmdx/lnEKAMTsvyTAZxMFlHgIlBY3EOOVeOvT2XS296gL+a0w3VOjQcuVv7ln94DVL+AgSAjYymLsKs4wwUhNwdgalKyWy6R3mYG2lNy9N2apQoEwltjK6d2PO9tJjeY+5sgcRsaEKGWPB5rSY9y/rEdtyi98zWFv+UchDDTZlAbWJn8tc4nm9XR0Pm+Nps+vuFUqc9Q==' type='text/css' media='all' />
+<link rel='stylesheet' id='typo-vast-shadow-css'  href='http://fonts.googleapis.com/css?family=Vast+Shadow&#038;ver=4.0-RC3' type='text/css' media='all' />
+<link rel='stylesheet' id='typo-droid-serif-css'  href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C700%2C400italic%2C700italic&#038;ver=4.0-RC3' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-4' href='http://s0.wp.com/_static/??-eJx9kNEKwjAMRX/ImomD7UX8lq7ErpI2pcmQ/b0dGzJR9pQbcs8lCbyycZwUk4KOGFEgTwPonBlCciA6E5pXdhzPTuQEARJrqIh8xDrYBcXJZJp8qB6PbIid1cDpqzEPsqEcoQUHYl+lh+ratUdQZtE1GmS0ZYG3erxlwrIe9Vf+sNurxhY88WBpMdzj7dI23bXt+qZ/vgFYioD4' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-4' href='http://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1387483371g' type='text/css' media='print' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LoggedOutFollow = {"invalid_email":"Your subscription did not succeed, please try again with a valid email address."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://s0.wp.com/_static/??-eJyFkNsOwiAMQH9IxrZo4ovxW3bpSBEoUhjRrxeTGTXO7KlNe9LTVmYvBnIRXJSapaUeDYjEEDpVagLdRJXmnSwcusGkEfgJ6muCcFvCJiAsqtBFqCy6F/xh9cTRAnNRrnS/VehmhLyJaYi+Gy4iAOP9Z2pvSAlvkkLHsuQKRkpRTGQMZZlxVBDXjmL/3v//NxbqbE/Nvq4Px6atW/0AiPqGzQ=='></script>
+<link rel='stylesheet' id='all-css-0' href='http://s2.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621g' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='http://s2.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563g&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://hockeygraphsdotcom.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://wp.me/4bCjg' />
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="hockey-graphs" />
+<meta property="og:description" content="A few people analyzing hockey and statistics" />
+<meta property="og:url" content="http://hockey-graphs.com/" />
+<meta property="og:site_name" content="hockey-graphs" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<link rel="shortcut icon" type="image/x-icon" href="http://s2.wp.com/i/favicon.ico?m=1405977958g" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="http://s2.wp.com/i/favicon.ico?m=1405977958g" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon-precomposed" href="http://s0.wp.com/i/webclip.png?m=1391188133g" />
+<link rel='openid.server' href='http://hockeygraphsdotcom.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='http://hockeygraphsdotcom.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="http://hockey-graphs.com/osd.xml" title="hockey-graphs" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wordpress.com/opensearch.xml" title="WordPress.com" />
+<meta name="application-name" content="hockey-graphs" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="A few people analyzing hockey and statistics" /><meta name="msapplication-task" content="name=Subscribe;action-uri=http://hockey-graphs.com/feed/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="title" content="hockey-graphs on WordPress.com" />
+<meta name="description" content="A few people analyzing hockey and statistics" />
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('http://hockeygraphsdotcom.wordpress.com/wp-content/themes/pub/typo/images/body-bg.png?m=1391152414g'); background-repeat: repeat; background-position: top left; background-attachment: fixed; }
+</style>
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+</head>
+
+<body class="home blog custom-background mp6 group-blog highlander-enabled highlander-light infinite-scroll">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header" role="banner">
+				<div class="site-branding">
+			<h1 class="site-title"><a href="http://hockey-graphs.com/" rel="home">hockey-graphs</a></h1>
+			<h2 class="site-description">A few people analyzing hockey and statistics</h2>
+		</div>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<h1 class="menu-toggle">Menu</h1>
+			<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+			
+				<div class="menu"><ul><li class="current_page_item"><a href="http://hockey-graphs.com/">Home</a></li><li class="page_item page-item-1"><a href="http://hockey-graphs.com/about/">About our Authors</a></li></ul></div>
+
+			
+		</nav><!-- #site-navigation -->
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+						
+				
+<div class="hentry-wrapper">
+	<article id="post-2337" class="post-2337 post type-post status-publish format-standard hentry category-nhl-league-wide-analysis tag-2ps tag-alex-ovechkin tag-alex-semin tag-billy-reay tag-bruce-boudreau tag-buffalo-sabres tag-darryl-sutter tag-evgeni-malkin tag-glen-hanlon tag-hockey-hall-of-fame tag-jim-schoenfeld tag-john-tortorella tag-lorne-molleken tag-michel-therrien tag-mike-green tag-mike-keenan tag-new-york-rangers tag-nhl-coaches tag-nhl-coaching-changes tag-nhl-history tag-nicklas-backstrom tag-pat-quinn tag-pittsburgh-penguins tag-punch-imlach tag-roger-neilson tag-scotty-bowman tag-sidney-crosby tag-vic-ferrari tag-washington-capitals">
+		<header class="entry-header">
+							<h1 class="entry-title"><a href="http://hockey-graphs.com/2014/09/24/nhl-coach-changes-history-good-bad-coaches/" rel="bookmark">Using NHL Coaching Changes to Identify Historically Good and Bad&nbsp;Coaches</a></h1>									<div class="entry-meta">
+				<span class="posted-on"><a href="http://hockey-graphs.com/2014/09/24/nhl-coach-changes-history-good-bad-coaches/" rel="bookmark"><time class="entry-date published" datetime="2014-09-24T05:00:55+00:00">September 24, 2014</time><time class="updated" datetime="2014-09-24T13:57:14+00:00">September 24, 2014</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="http://hockey-graphs.com/author/benjaminwendorf/">benjaminwendorf</a></span></span>																		<span class="cat-links">
+						<a href="http://hockey-graphs.com/category/nhl-league-wide-analysis/" rel="category tag">NHL League-Wide Analysis</a>					</span>
+					
+										<span class="tags-links">
+						<a href="http://hockey-graphs.com/tag/2ps/" rel="tag">2pS%</a>, <a href="http://hockey-graphs.com/tag/alex-ovechkin/" rel="tag">Alex Ovechkin</a>, <a href="http://hockey-graphs.com/tag/alex-semin/" rel="tag">Alex Semin</a>, <a href="http://hockey-graphs.com/tag/billy-reay/" rel="tag">Billy Reay</a>, <a href="http://hockey-graphs.com/tag/bruce-boudreau/" rel="tag">Bruce Boudreau</a>, <a href="http://hockey-graphs.com/tag/buffalo-sabres/" rel="tag">Buffalo Sabres</a>, <a href="http://hockey-graphs.com/tag/darryl-sutter/" rel="tag">Darryl Sutter</a>, <a href="http://hockey-graphs.com/tag/evgeni-malkin/" rel="tag">Evgeni Malkin</a>, <a href="http://hockey-graphs.com/tag/glen-hanlon/" rel="tag">Glen Hanlon</a>, <a href="http://hockey-graphs.com/tag/hockey-hall-of-fame/" rel="tag">Hockey Hall of Fame</a>, <a href="http://hockey-graphs.com/tag/jim-schoenfeld/" rel="tag">Jim Schoenfeld</a>, <a href="http://hockey-graphs.com/tag/john-tortorella/" rel="tag">John Tortorella</a>, <a href="http://hockey-graphs.com/tag/lorne-molleken/" rel="tag">Lorne Molleken</a>, <a href="http://hockey-graphs.com/tag/michel-therrien/" rel="tag">Michel Therrien</a>, <a href="http://hockey-graphs.com/tag/mike-green/" rel="tag">Mike Green</a>, <a href="http://hockey-graphs.com/tag/mike-keenan/" rel="tag">Mike Keenan</a>, <a href="http://hockey-graphs.com/tag/new-york-rangers/" rel="tag">New York Rangers</a>, <a href="http://hockey-graphs.com/tag/nhl-coaches/" rel="tag">NHL Coaches</a>, <a href="http://hockey-graphs.com/tag/nhl-coaching-changes/" rel="tag">NHL Coaching Changes</a>, <a href="http://hockey-graphs.com/tag/nhl-history/" rel="tag">NHL History</a>, <a href="http://hockey-graphs.com/tag/nicklas-backstrom/" rel="tag">Nicklas Backstrom</a>, <a href="http://hockey-graphs.com/tag/pat-quinn/" rel="tag">Pat Quinn</a>, <a href="http://hockey-graphs.com/tag/pittsburgh-penguins/" rel="tag">Pittsburgh Penguins</a>, <a href="http://hockey-graphs.com/tag/punch-imlach/" rel="tag">Punch Imlach</a>, <a href="http://hockey-graphs.com/tag/roger-neilson/" rel="tag">Roger Neilson</a>, <a href="http://hockey-graphs.com/tag/scotty-bowman/" rel="tag">Scotty Bowman</a>, <a href="http://hockey-graphs.com/tag/sidney-crosby/" rel="tag">Sidney Crosby</a>, <a href="http://hockey-graphs.com/tag/vic-ferrari/" rel="tag">Vic Ferrari</a>, <a href="http://hockey-graphs.com/tag/washington-capitals/" rel="tag">Washington Capitals</a>					</span>
+									
+								<span class="comments-link"><a href="http://hockey-graphs.com/2014/09/24/nhl-coach-changes-history-good-bad-coaches/#respond" title="Comment on Using NHL Coaching Changes to Identify Historically Good and Bad&nbsp;Coaches">Leave a comment</a></span>
+								</div><!-- .entry-meta -->
+						</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<div id="attachment_2338" style="width: 278px" class="wp-caption aligncenter"><a href="https://hockeygraphsdotcom.files.wordpress.com/2014/09/keenan.jpg"><img class="size-medium wp-image-2338" src="http://hockeygraphsdotcom.files.wordpress.com/2014/09/keenan.jpg?w=268&#038;h=300" alt="Iron Mike no like. - Photo by &quot;Resolute&quot;, via Wikimedia Commons; altered by author"   /></a><p class="wp-caption-text">Iron Mike no like. &#8211; Photo by &#8220;Resolute&#8221;, via Wikimedia Commons; altered by author</p></div>
+<p>Having now looked at <a href="http://hockey-graphs.com/2014/09/16/what-to-expect-when-youre-expecting-does-switching-nhl-head-coaches-make-a-difference/" target="_blank">the overall effect a coaching change might have on a team</a>, and <a href="http://hockey-graphs.com/2014/09/22/nhl-coach-changes-positive-negative-nhl-history/" target="_blank">identified some outstanding examples where a coaching change had a drastic impact on a team</a>, it&#8217;s now time to shift over to some juicier matters. For the most part, I don&#8217;t think one coaching change is necessarily sufficient to say a coach is good or bad; there is a possibility the previous coach was just that bad. But if the coach returns the same signal a couple of times or more, you are probably getting closer to a true reading on what they might bring to the table.</p>
+<p>Across the 140 or so coaching changes these last 60 years where both coaches led the team 20+ games, there were 69 coaches who were a part of that change twice or more (which, to me, is quite a remarkable number). The full list, followed by an explanation of the measures:<br />
+ <a href="http://hockey-graphs.com/2014/09/24/nhl-coach-changes-history-good-bad-coaches/#more-2337" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-## -->
+</div><!-- .hentry-wrapper -->
+
+			
+				
+<div class="hentry-wrapper">
+	<article id="post-2367" class="post-2367 post type-post status-publish format-standard hentry category-theory tag-corsi tag-defensemen tag-differentials tag-forwards tag-goals tag-tyler-dellow">
+		<header class="entry-header">
+							<h1 class="entry-title"><a href="http://hockey-graphs.com/2014/09/23/remembering-dellow-forward-and-defensemen-goal-regression-corsi/" rel="bookmark">Remembering Dellow: A few graphs to convince you on&nbsp;Corsi</a></h1>									<div class="entry-meta">
+				<span class="posted-on"><a href="http://hockey-graphs.com/2014/09/23/remembering-dellow-forward-and-defensemen-goal-regression-corsi/" rel="bookmark"><time class="entry-date published" datetime="2014-09-23T06:57:00+00:00">September 23, 2014</time><time class="updated" datetime="2014-09-23T12:28:44+00:00">September 23, 2014</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="http://hockey-graphs.com/author/garret9/">garret9</a></span></span>																		<span class="cat-links">
+						<a href="http://hockey-graphs.com/category/theory/" rel="category tag">Theory</a>					</span>
+					
+										<span class="tags-links">
+						<a href="http://hockey-graphs.com/tag/corsi/" rel="tag">Corsi</a>, <a href="http://hockey-graphs.com/tag/defensemen/" rel="tag">Defensemen</a>, <a href="http://hockey-graphs.com/tag/differentials/" rel="tag">Differentials</a>, <a href="http://hockey-graphs.com/tag/forwards/" rel="tag">Forwards</a>, <a href="http://hockey-graphs.com/tag/goals/" rel="tag">Goals</a>, <a href="http://hockey-graphs.com/tag/tyler-dellow/" rel="tag">Tyler Dellow</a>					</span>
+									
+								<span class="comments-link"><a href="http://hockey-graphs.com/2014/09/23/remembering-dellow-forward-and-defensemen-goal-regression-corsi/#comments" title="Comment on Remembering Dellow: A few graphs to convince you on&nbsp;Corsi">6 Comments</a></span>
+								</div><!-- .entry-meta -->
+						</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<div style="width: 240px" class="wp-caption aligncenter"><img class="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Dustin_Byfuglien_-_Winnipeg_Jets.jpg/230px-Dustin_Byfuglien_-_Winnipeg_Jets.jpg" alt="" width="230" height="253" /><p class="wp-caption-text">From Wikipedia Commons</p></div>
+<p>Over the past year, I based a lot of research off of  former work by Tyler Dellow. It is a bit funny because I actually never read any of Dellow&#8217;s work until well after I started writing about underlying metrics in hockey. I knew of him, but mostly was brought up on Gabriel Desjardins, Eric Tulsky, Ben Wendorf <em>(yes, Hockey-Graphs&#8217; own Wendorff)</em>, and a few others. It is also a bit difficult now because Dellow&#8217;s website has gone dark with his hiring, which removed the work I quoted or built upon.</p>
+<p>One Dellow article that will be severely missed is <a href="http://www.mc79hockey.com/2014/03/two-graphs-and-480-words-that-will-convince-you-on-corsi/" target="_blank">Two Graphs and 480 words will convince you on Corsi</a>.</p>
+<p>Dellow presented analytical data in simple and effective ways. It made understanding of complex concepts -such as regression in goal differentials- easy.</p>
+<h3> <a href="http://hockey-graphs.com/2014/09/23/remembering-dellow-forward-and-defensemen-goal-regression-corsi/#more-2367" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></h3>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-## -->
+</div><!-- .hentry-wrapper -->
+
+			
+				
+<div class="hentry-wrapper">
+	<article id="post-2319" class="post-2319 post type-post status-publish format-standard hentry category-nhl-league-wide-analysis tag-al-macneil tag-alain-vigneault tag-claude-julien tag-claude-ruel tag-dan-bylsma tag-ed-olczyk tag-jacques-lemaire tag-jacques-martin tag-jim-schoenfeld tag-john-maclean tag-michel-therrien tag-montreal-canadiens tag-nhl-coaches tag-nhl-coaching-changes tag-nhl-history tag-pittsburgh-penguins tag-randy-cunneyworth tag-terry-murray">
+		<header class="entry-header">
+							<h1 class="entry-title"><a href="http://hockey-graphs.com/2014/09/22/nhl-coach-changes-positive-negative-nhl-history/" rel="bookmark">Where NHL Coaching Changes Did, and Didn&#8217;t, Help Their&nbsp;Teams</a></h1>									<div class="entry-meta">
+				<span class="posted-on"><a href="http://hockey-graphs.com/2014/09/22/nhl-coach-changes-positive-negative-nhl-history/" rel="bookmark"><time class="entry-date published" datetime="2014-09-22T05:00:19+00:00">September 22, 2014</time><time class="updated" datetime="2014-09-24T12:21:36+00:00">September 24, 2014</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="http://hockey-graphs.com/author/benjaminwendorf/">benjaminwendorf</a></span></span>																		<span class="cat-links">
+						<a href="http://hockey-graphs.com/category/nhl-league-wide-analysis/" rel="category tag">NHL League-Wide Analysis</a>					</span>
+					
+										<span class="tags-links">
+						<a href="http://hockey-graphs.com/tag/al-macneil/" rel="tag">Al MacNeil</a>, <a href="http://hockey-graphs.com/tag/alain-vigneault/" rel="tag">Alain Vigneault</a>, <a href="http://hockey-graphs.com/tag/claude-julien/" rel="tag">Claude Julien</a>, <a href="http://hockey-graphs.com/tag/claude-ruel/" rel="tag">Claude Ruel</a>, <a href="http://hockey-graphs.com/tag/dan-bylsma/" rel="tag">Dan Bylsma</a>, <a href="http://hockey-graphs.com/tag/ed-olczyk/" rel="tag">Ed Olczyk</a>, <a href="http://hockey-graphs.com/tag/jacques-lemaire/" rel="tag">Jacques Lemaire</a>, <a href="http://hockey-graphs.com/tag/jacques-martin/" rel="tag">Jacques Martin</a>, <a href="http://hockey-graphs.com/tag/jim-schoenfeld/" rel="tag">Jim Schoenfeld</a>, <a href="http://hockey-graphs.com/tag/john-maclean/" rel="tag">John MacLean</a>, <a href="http://hockey-graphs.com/tag/michel-therrien/" rel="tag">Michel Therrien</a>, <a href="http://hockey-graphs.com/tag/montreal-canadiens/" rel="tag">Montreal Canadiens</a>, <a href="http://hockey-graphs.com/tag/nhl-coaches/" rel="tag">NHL Coaches</a>, <a href="http://hockey-graphs.com/tag/nhl-coaching-changes/" rel="tag">NHL Coaching Changes</a>, <a href="http://hockey-graphs.com/tag/nhl-history/" rel="tag">NHL History</a>, <a href="http://hockey-graphs.com/tag/pittsburgh-penguins/" rel="tag">Pittsburgh Penguins</a>, <a href="http://hockey-graphs.com/tag/randy-cunneyworth/" rel="tag">Randy Cunneyworth</a>, <a href="http://hockey-graphs.com/tag/terry-murray/" rel="tag">Terry Murray</a>					</span>
+									
+								<span class="comments-link"><a href="http://hockey-graphs.com/2014/09/22/nhl-coach-changes-positive-negative-nhl-history/#comments" title="Comment on Where NHL Coaching Changes Did, and Didn&#8217;t, Help Their&nbsp;Teams">1 Comment</a></span>
+								</div><!-- .entry-meta -->
+						</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<div id="attachment_2320" style="width: 299px" class="wp-caption aligncenter"><a href="https://hockeygraphsdotcom.files.wordpress.com/2014/09/therrien.jpg"><img class="size-medium wp-image-2320" src="http://hockeygraphsdotcom.files.wordpress.com/2014/09/therrien.jpg?w=289&#038;h=300" alt="If you or anyone you know have seen this man behind your player, contact the front office immediately.  (Photo by &quot;Dan4th Nicholas&quot;, via Wikimedia Commons; altered by author)" width="289" height="300" /></a><p class="wp-caption-text">If you or anyone you know have seen this man behind your players, contact the front office immediately. (Photo by &#8220;Dan4th Nicholas&#8221;, via Wikimedia Commons; altered by author)</p></div>
+<p style="text-align:left;">Michel Therrien has an interesting distinction in <a href="http://hockey-graphs.com/2014/09/16/what-to-expect-when-youre-expecting-does-switching-nhl-head-coaches-make-a-difference/" target="_blank">the research I&#8217;ve been doing about NHL coaching changes</a>: he&#8217;s given me 4 instances where he and his replacement have coached 20+ games within the same season. He&#8217;s also replaced or been replaced in three of those instances by legit coaching talent &#8211; he replaced Alain Vigneault for the Montreal Canadiens in 2000-01, was replaced two years later by Claude Julien, and lastly was fired in favor of Dan Bylsma for Pittsburgh in 2008-09. What&#8217;s incredible about these three cases is that, in every single one of them, there was a drastic change in outcomes for the teams involved. Using 2pS%, or possession measured by two-period shots-for divided by two-period shots-for and against together, the numbers tell a story:<br />
+ <a href="http://hockey-graphs.com/2014/09/22/nhl-coach-changes-positive-negative-nhl-history/#more-2319" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-## -->
+</div><!-- .hentry-wrapper -->
+
+			
+				
+<div class="hentry-wrapper">
+	<article id="post-2343" class="post-2343 post type-post status-publish format-standard hentry category-nhl-league-wide-analysis tag-chris-osgood tag-dominik-hasek tag-greg-millen tag-henrik-lundqvist tag-jim-carey tag-john-vanbiesbrouck tag-kay-whitmore tag-kely-hrudey tag-kirk-mclean tag-martin-brodeur tag-patrick-roy tag-roberto-luongo tag-rollie-melanson tag-sebastien-caron tag-tomas-vokoun tag-trevor-kidd tag-vesa-toskala">
+		<header class="entry-header">
+							<h1 class="entry-title"><a href="http://hockey-graphs.com/2014/09/19/who-were-the-top-goaltenders-of-each-decade/" rel="bookmark">Who Were the Top Goaltenders of Each&nbsp;Decade?</a></h1>									<div class="entry-meta">
+				<span class="posted-on"><a href="http://hockey-graphs.com/2014/09/19/who-were-the-top-goaltenders-of-each-decade/" rel="bookmark"><time class="entry-date published" datetime="2014-09-19T09:02:13+00:00">September 19, 2014</time><time class="updated" datetime="2014-09-22T22:10:23+00:00">September 22, 2014</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="http://hockey-graphs.com/author/jaredsexton9/">Jared</a></span></span>																		<span class="cat-links">
+						<a href="http://hockey-graphs.com/category/nhl-league-wide-analysis/" rel="category tag">NHL League-Wide Analysis</a>					</span>
+					
+										<span class="tags-links">
+						<a href="http://hockey-graphs.com/tag/chris-osgood/" rel="tag">Chris Osgood</a>, <a href="http://hockey-graphs.com/tag/dominik-hasek/" rel="tag">Dominik Hasek</a>, <a href="http://hockey-graphs.com/tag/greg-millen/" rel="tag">Greg Millen</a>, <a href="http://hockey-graphs.com/tag/henrik-lundqvist/" rel="tag">Henrik Lundqvist</a>, <a href="http://hockey-graphs.com/tag/jim-carey/" rel="tag">Jim Carey</a>, <a href="http://hockey-graphs.com/tag/john-vanbiesbrouck/" rel="tag">John Vanbiesbrouck</a>, <a href="http://hockey-graphs.com/tag/kay-whitmore/" rel="tag">Kay Whitmore</a>, <a href="http://hockey-graphs.com/tag/kely-hrudey/" rel="tag">Kely Hrudey</a>, <a href="http://hockey-graphs.com/tag/kirk-mclean/" rel="tag">Kirk McLean</a>, <a href="http://hockey-graphs.com/tag/martin-brodeur/" rel="tag">Martin Brodeur</a>, <a href="http://hockey-graphs.com/tag/patrick-roy/" rel="tag">Patrick Roy</a>, <a href="http://hockey-graphs.com/tag/roberto-luongo/" rel="tag">Roberto Luongo</a>, <a href="http://hockey-graphs.com/tag/rollie-melanson/" rel="tag">Rollie Melanson</a>, <a href="http://hockey-graphs.com/tag/sebastien-caron/" rel="tag">Sebastien Caron</a>, <a href="http://hockey-graphs.com/tag/tomas-vokoun/" rel="tag">Tomas Vokoun</a>, <a href="http://hockey-graphs.com/tag/trevor-kidd/" rel="tag">Trevor Kidd</a>, <a href="http://hockey-graphs.com/tag/vesa-toskala/" rel="tag">Vesa Toskala</a>					</span>
+									
+								<span class="comments-link"><a href="http://hockey-graphs.com/2014/09/19/who-were-the-top-goaltenders-of-each-decade/#comments" title="Comment on Who Were the Top Goaltenders of Each&nbsp;Decade?">4 Comments</a></span>
+								</div><!-- .entry-meta -->
+						</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<div id="attachment_2353" style="width: 378px" class="wp-caption aligncenter"><a href="https://hockeygraphsdotcom.files.wordpress.com/2014/09/royimage.png"><img class="size-full wp-image-2353" src="http://hockeygraphsdotcom.files.wordpress.com/2014/09/royimage.png?w=615" alt="Image from Rick Dikeman via Wikimedia Commons"   /></a><p class="wp-caption-text">Image from Rick Dikeman via Wikimedia Commons</p></div>
+<p>I set out to measure the top goaltenders of each decade using a simple measure that adjusts for different environments of the years played.</p>
+<p>The measure used is Saves Above League Average which is a measure of how many pucks a goalie stops relative to league average from that season. It is computed as:</p>
+<p><a href="https://hockeygraphsdotcom.files.wordpress.com/2014/09/salaformula.png"><img class="alignnone size-full wp-image-2351" src="http://hockeygraphsdotcom.files.wordpress.com/2014/09/salaformula.png?w=615" alt="salaformula"   /></a></p>
+<p>I compiled the top 10 and bottom 10 for the cumulative totals for the decades and the most extreme single-season marks.</p>
+<p>If you want to test yourself before looking at the results, I made them into Sporcle quizzes: <a href="http://www.sporcle.com/games/rangersunlimited/nhl-goaltenders-by-decade" target="blank">2000s</a> / <a href="http://www.sporcle.com/games/rangersunlimited/nhl-goaltenders-of-the-90s" target="blank">1990s</a> / <a href="http://www.sporcle.com/games/rangersunlimited/nhl-goaltenders-of-the-80s" target="blank">1980s</a></p>
+<p> <a href="http://hockey-graphs.com/2014/09/19/who-were-the-top-goaltenders-of-each-decade/#more-2343" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-## -->
+</div><!-- .hentry-wrapper -->
+
+			
+				
+<div class="hentry-wrapper">
+	<article id="post-2322" class="post-2322 post type-post status-publish format-standard hentry category-nhl-topical-analysis tag-bridge-deal tag-contract-value tag-contracts tag-johansen">
+		<header class="entry-header">
+							<h1 class="entry-title"><a href="http://hockey-graphs.com/2014/09/18/ryan-johansen-how-much-is-he-worth-on-a-bridge-deal/" rel="bookmark">Ryan Johansen &#8211; How much is he worth on a Bridge&nbsp;Deal?</a></h1>									<div class="entry-meta">
+				<span class="posted-on"><a href="http://hockey-graphs.com/2014/09/18/ryan-johansen-how-much-is-he-worth-on-a-bridge-deal/" rel="bookmark"><time class="entry-date published" datetime="2014-09-18T11:30:46+00:00">September 18, 2014</time><time class="updated" datetime="2014-09-18T13:24:57+00:00">September 18, 2014</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="http://hockey-graphs.com/author/garik16/">garik16</a></span></span>																		<span class="cat-links">
+						<a href="http://hockey-graphs.com/category/nhl-topical-analysis/" rel="category tag">NHL Topical Analysis</a>					</span>
+					
+										<span class="tags-links">
+						<a href="http://hockey-graphs.com/tag/bridge-deal/" rel="tag">Bridge Deal</a>, <a href="http://hockey-graphs.com/tag/contract-value/" rel="tag">Contract Value</a>, <a href="http://hockey-graphs.com/tag/contracts/" rel="tag">Contracts</a>, <a href="http://hockey-graphs.com/tag/johansen/" rel="tag">Johansen</a>					</span>
+									
+								<span class="comments-link"><a href="http://hockey-graphs.com/2014/09/18/ryan-johansen-how-much-is-he-worth-on-a-bridge-deal/#comments" title="Comment on Ryan Johansen &#8211; How much is he worth on a Bridge&nbsp;Deal?">1 Comment</a></span>
+								</div><!-- .entry-meta -->
+						</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<div style="width: 425px" class="wp-caption aligncenter"><a href="http://upload.wikimedia.org/wikipedia/commons/f/fc/Ryan_Johansen_2011-11-29.jpg"><img class="" src="http://upload.wikimedia.org/wikipedia/commons/f/fc/Ryan_Johansen_2011-11-29.jpg" alt="" width="415" height="666" /></a><p class="wp-caption-text">Courtesy of Wikimedia.org</p></div>
+<p>The Ryan Johansen contract dispute is the biggest contract talk going in the NHL as training camps begin, as you might expect.  Johansen is young, with a great pedigree (4th overall in 2010), and is coming off a seemingly breakout season that also led Columbus to its first playoff relevance in quite a while.  And yet Johansen is unsigned and is unlikely to be so going into camp, with the Columbus front office opening fire this week on Johansen&#8217;s agent.</p>
+<p>Both sides have seemingly agreed at least to a bridge deal &#8211; Johansen at first was seriously against such a deal, but has since agreed a 2 year deal is acceptable.  But they are WAY apart on the money &#8211; reports have Columbus at 3 to 3.5 Million over 2 years while Johansen is sitting at 6 to 6.5 Million.  But what is reasonable for a player&#8217;s first two RFA years?</p>
+<p>A quick note:  This article is considering how much those years are worth in the league&#8217;s current economic structure, which is team friendly and makes RFA deals less pricey than UFA ones.  You can argue whether this is unfair to the player or not (it&#8217;s not), but if a player wants to fight the system is recourse is to either go to the KHL or not sign and &#8220;hold out&#8221; &#8211; see Ryan O&#8217;Reilly a few years ago for an example.  Since nearly all players don&#8217;t want to do that and accept the league&#8217;s economic framework eventually, that&#8217;s the framework we&#8217;ll be using for this post.</p>
+<p> <a href="http://hockey-graphs.com/2014/09/18/ryan-johansen-how-much-is-he-worth-on-a-bridge-deal/#more-2322" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-## -->
+</div><!-- .hentry-wrapper -->
+
+			
+				
+<div class="hentry-wrapper">
+	<article id="post-2313" class="post-2313 post type-post status-publish format-standard hentry category-nhl-league-wide-analysis category-theory tag-2ps tag-bruce-boudreau tag-claude-noel tag-dale-hunter tag-nhl-coaches tag-nhl-history tag-nhl-new-coach tag-paul-maurice tag-pdo tag-washington-capitals tag-winnipeg-jets">
+		<header class="entry-header">
+							<h1 class="entry-title"><a href="http://hockey-graphs.com/2014/09/16/what-to-expect-when-youre-expecting-does-switching-nhl-head-coaches-make-a-difference/" rel="bookmark">What to Expect When You&#8217;re Expecting: Does Switching NHL Head Coaches Make a&nbsp;Difference?</a></h1>									<div class="entry-meta">
+				<span class="posted-on"><a href="http://hockey-graphs.com/2014/09/16/what-to-expect-when-youre-expecting-does-switching-nhl-head-coaches-make-a-difference/" rel="bookmark"><time class="entry-date published" datetime="2014-09-16T05:00:30+00:00">September 16, 2014</time><time class="updated" datetime="2014-09-16T02:25:41+00:00">September 16, 2014</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="http://hockey-graphs.com/author/benjaminwendorf/">benjaminwendorf</a></span></span>																		<span class="cat-links">
+						<a href="http://hockey-graphs.com/category/nhl-league-wide-analysis/" rel="category tag">NHL League-Wide Analysis</a>, <a href="http://hockey-graphs.com/category/theory/" rel="category tag">Theory</a>					</span>
+					
+										<span class="tags-links">
+						<a href="http://hockey-graphs.com/tag/2ps/" rel="tag">2pS%</a>, <a href="http://hockey-graphs.com/tag/bruce-boudreau/" rel="tag">Bruce Boudreau</a>, <a href="http://hockey-graphs.com/tag/claude-noel/" rel="tag">Claude Noel</a>, <a href="http://hockey-graphs.com/tag/dale-hunter/" rel="tag">Dale Hunter</a>, <a href="http://hockey-graphs.com/tag/nhl-coaches/" rel="tag">NHL Coaches</a>, <a href="http://hockey-graphs.com/tag/nhl-history/" rel="tag">NHL History</a>, <a href="http://hockey-graphs.com/tag/nhl-new-coach/" rel="tag">NHL New Coach</a>, <a href="http://hockey-graphs.com/tag/paul-maurice/" rel="tag">Paul Maurice</a>, <a href="http://hockey-graphs.com/tag/pdo/" rel="tag">PDO</a>, <a href="http://hockey-graphs.com/tag/washington-capitals/" rel="tag">Washington Capitals</a>, <a href="http://hockey-graphs.com/tag/winnipeg-jets/" rel="tag">Winnipeg Jets</a>					</span>
+									
+								<span class="comments-link"><a href="http://hockey-graphs.com/2014/09/16/what-to-expect-when-youre-expecting-does-switching-nhl-head-coaches-make-a-difference/#comments" title="Comment on What to Expect When You&#8217;re Expecting: Does Switching NHL Head Coaches Make a&nbsp;Difference?">2 Comments</a></span>
+								</div><!-- .entry-meta -->
+						</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<div id="attachment_2314" style="width: 392px" class="wp-caption aligncenter"><a href="https://hockeygraphsdotcom.files.wordpress.com/2014/09/bruce-boudreau.jpg"><img class="wp-image-2314" src="http://hockeygraphsdotcom.files.wordpress.com/2014/09/bruce-boudreau.jpg?w=382&#038;h=269" alt="Bruce Boudreau" width="382" height="269" /></a><p class="wp-caption-text">Photo by Matthew Miller, via Wikimedia Commons; altered by author</p></div>
+<p>How good do you feel because your team has a new coach? I mean, really&#8230;it&#8217;s almost like a new-car smell. So many possibilities &#8211; <em>This time, things will be different</em>. With the exception of coaching changes due to disastrous, unexpected things, the typical hockey fan was ready for that moment, and were happy to see the coach go. But is that eagerness for change based on real results?</p>
+<p> <a href="http://hockey-graphs.com/2014/09/16/what-to-expect-when-youre-expecting-does-switching-nhl-head-coaches-make-a-difference/#more-2313" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-## -->
+</div><!-- .hentry-wrapper -->
+
+			
+				
+<div class="hentry-wrapper">
+	<article id="post-2307" class="post-2307 post type-post status-publish format-standard hentry category-theory tag-corsi tag-expected-goals tag-expected-wins tag-money-puck tag-p60 tag-point-production tag-wins">
+		<header class="entry-header">
+							<h1 class="entry-title"><a href="http://hockey-graphs.com/2014/09/09/scoring-talent-influence-on-goal-differentials-and-statistical-double-dipping/" rel="bookmark">Scoring talent influence on goal differentials and statistical double&nbsp;dipping</a></h1>									<div class="entry-meta">
+				<span class="posted-on"><a href="http://hockey-graphs.com/2014/09/09/scoring-talent-influence-on-goal-differentials-and-statistical-double-dipping/" rel="bookmark"><time class="entry-date published" datetime="2014-09-09T14:36:34+00:00">September 9, 2014</time><time class="updated" datetime="2014-09-09T14:39:07+00:00">September 9, 2014</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="http://hockey-graphs.com/author/garret9/">garret9</a></span></span>																		<span class="cat-links">
+						<a href="http://hockey-graphs.com/category/theory/" rel="category tag">Theory</a>					</span>
+					
+										<span class="tags-links">
+						<a href="http://hockey-graphs.com/tag/corsi/" rel="tag">Corsi</a>, <a href="http://hockey-graphs.com/tag/expected-goals/" rel="tag">expected goals</a>, <a href="http://hockey-graphs.com/tag/expected-wins/" rel="tag">expected wins</a>, <a href="http://hockey-graphs.com/tag/money-puck/" rel="tag">money puck</a>, <a href="http://hockey-graphs.com/tag/p60/" rel="tag">P/60</a>, <a href="http://hockey-graphs.com/tag/point-production/" rel="tag">point production</a>, <a href="http://hockey-graphs.com/tag/wins/" rel="tag">wins</a>					</span>
+									
+								<span class="comments-link"><a href="http://hockey-graphs.com/2014/09/09/scoring-talent-influence-on-goal-differentials-and-statistical-double-dipping/#respond" title="Comment on Scoring talent influence on goal differentials and statistical double&nbsp;dipping">Leave a comment</a></span>
+								</div><!-- .entry-meta -->
+						</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="https://hockeygraphsdotcom.files.wordpress.com/2014/09/screen-shot-2014-09-09-at-1-20-24-am.png"><img class="aligncenter size-full wp-image-2306" src="http://hockeygraphsdotcom.files.wordpress.com/2014/09/screen-shot-2014-09-09-at-1-20-24-am.png?w=615" alt="Screen shot 2014-09-09 at 1.20.24 AM"   /></a></p>
+<p>In August, I wrote an article on how you can <a href="http://hockey-graphs.com/2014/08/11/value-of-corsi-possession-measured-in-goals/" target="_blank">translate Corsi differential values in terms of the average expected goal differential </a>given for a players of similar average ice time.</p>
+<p>In the article, I used an example of how this information could be used:</p>
+<blockquote><p>For example, Matt Halischuk and Eric Tangradi are two players who averaged 4th line minutes on the Winnipeg Jets. Tangradi finished the season with a 53.9% Corsi, while Halischuk was at 44.0%. Over the span of a season, forwards with those Corsi% would be expected to have on average of -1.04 and a -4.77 goal differential respectively. Therefore, on average, a 53.9% Corsi fourth line forward is worth 3.73 goals more than a 44.0% Corsi forward. Another option is comparing these players to the 46.8% Corsi% of an average fourth line player. The goal differentials can then be used to estimate win values using <a href="http://www.hockeyanalytics.com/Research_files/Win_Probabilities.pdf">Pythagorean relationships</a>.</p>
+<p>There is a caveat with using raw Corsi% to estimate goal differentials; all effects -such as zone starts- still apply. The estimated goal differentials would be no more predictive than Corsi is; however, you can now easily and more accurately measure Corsi impact in terms of goals and wins.</p>
+</blockquote>
+<p>Now, I used the example of Halischuk and Tangradi for a few reasons. The main one being that they are familiar to me as Winnipeg Jets players. They are two fourth line players that have experienced similar usage but have very polar opposite shot metrics. But, there is another reason&#8230; an interesting one.</p>
+<p> <a href="http://hockey-graphs.com/2014/09/09/scoring-talent-influence-on-goal-differentials-and-statistical-double-dipping/#more-2307" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-## -->
+</div><!-- .hentry-wrapper -->
+
+			
+				
+<div class="hentry-wrapper">
+	<article id="post-2304" class="post-2304 post type-post status-publish format-standard hentry category-theory tag-draft tag-entry-draft tag-goalies tag-goaltenders tag-goaltending">
+		<header class="entry-header">
+							<h1 class="entry-title"><a href="http://hockey-graphs.com/2014/09/04/to-draft-or-not-to-draft-goalies-not-really-the-right-question/" rel="bookmark">To Draft or Not To Draft Goalies &#8211; Not Really the Right&nbsp;Question</a></h1>									<div class="entry-meta">
+				<span class="posted-on"><a href="http://hockey-graphs.com/2014/09/04/to-draft-or-not-to-draft-goalies-not-really-the-right-question/" rel="bookmark"><time class="entry-date published" datetime="2014-09-04T10:30:00+00:00">September 4, 2014</time><time class="updated" datetime="2014-09-18T00:19:42+00:00">September 18, 2014</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="http://hockey-graphs.com/author/garik16/">garik16</a></span></span>																		<span class="cat-links">
+						<a href="http://hockey-graphs.com/category/theory/" rel="category tag">Theory</a>					</span>
+					
+										<span class="tags-links">
+						<a href="http://hockey-graphs.com/tag/draft/" rel="tag">Draft</a>, <a href="http://hockey-graphs.com/tag/entry-draft/" rel="tag">Entry Draft</a>, <a href="http://hockey-graphs.com/tag/goalies/" rel="tag">Goalies</a>, <a href="http://hockey-graphs.com/tag/goaltenders/" rel="tag">Goaltenders</a>, <a href="http://hockey-graphs.com/tag/goaltending/" rel="tag">Goaltending</a>					</span>
+									
+								<span class="comments-link"><a href="http://hockey-graphs.com/2014/09/04/to-draft-or-not-to-draft-goalies-not-really-the-right-question/#comments" title="Comment on To Draft or Not To Draft Goalies &#8211; Not Really the Right&nbsp;Question">1 Comment</a></span>
+								</div><!-- .entry-meta -->
+						</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>On Monday, <a href="https://twitter.com/kalexanderRC">Kyle Alexander </a>and <a href="https://twitter.com/Puckologist">CAustin</a> (aka the Puckologist) <a href="http://www.rawcharge.com/2014/9/1/6093315/its-still-okay-for-an-nhl-team-to-draft-goaltenders">wrote a post</a> on <a href="http://rawcharge.com">Raw Charge</a> titled &#8220;It&#8217;s still okay for an NHL team to draft goaltenders.&#8221;  This is a topic that isn&#8217;t exactly new in the hockey analytics community &#8211; on this site alone Garret and myself have written a few posts about how unpredictable goalies are and the general consensus in the hockey analytics community being that goalies are simply not worth drafting in the early rounds of the draft, due to the variability on their results compared to other skaters (particularly forwards).</p>
+<p>The Raw Charge guys in their post don&#8217;t totally disagree, but do think the talk of avoiding goalies is a bit exaggerated by some, concluding:</p>
+<blockquote><p id="paragraph50" class="pgh-paragraph">However, the gap between goalie drafting and forward drafting isn&#8217;t nearly as stark as it&#8217;s been made out to be. It&#8217;s much more worthwhile to make drafting and development at all positions better than to attempt to specialize in elite forwards to the exclusion of other positions.</p>
+</blockquote>
+<p>Essentially, the Raw Charge guys argue:<br /> 1.  The Gap between skaters and goalies&#8217; success and failure rates isn&#8217;t as big as people think &#8211; most evaluative measures used in such studies disfavor goalies by using metrics such as GP by a certain age, where goalies rarely get opportunities to meet such thresholds.<br /> 2.  The response to whatever gap there actually is should be to try and improve goalie evaluation &#8211; similar to how Swedish and Finnish goalie federations&#8217; improved early goalie training to improve their goalie crop &#8211; rather than to eschew goalies altogether.<br /> 3.  The failure of goalies may also have to do with poor development processes rather than bad evaluation.</p>
+<p>While all three points do have merit, I think they&#8217;re both quite a bit overstated.</p>
+<p> <a href="http://hockey-graphs.com/2014/09/04/to-draft-or-not-to-draft-goalies-not-really-the-right-question/#more-2304" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-## -->
+</div><!-- .hentry-wrapper -->
+
+			
+				
+<div class="hentry-wrapper">
+	<article id="post-2299" class="post-2299 post type-post status-publish format-standard hentry category-theory tag-corsi tag-situational-corsi tag-zone-exits">
+		<header class="entry-header">
+							<h1 class="entry-title"><a href="http://hockey-graphs.com/2014/09/02/an-early-look-into-some-of-the-new-numbers-available/" rel="bookmark">An early look into some of the new numbers&nbsp;available</a></h1>									<div class="entry-meta">
+				<span class="posted-on"><a href="http://hockey-graphs.com/2014/09/02/an-early-look-into-some-of-the-new-numbers-available/" rel="bookmark"><time class="entry-date published" datetime="2014-09-02T09:00:00+00:00">September 2, 2014</time><time class="updated" datetime="2014-09-18T00:17:47+00:00">September 18, 2014</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="http://hockey-graphs.com/author/garret9/">garret9</a></span></span>																		<span class="cat-links">
+						<a href="http://hockey-graphs.com/category/theory/" rel="category tag">Theory</a>					</span>
+					
+										<span class="tags-links">
+						<a href="http://hockey-graphs.com/tag/corsi/" rel="tag">Corsi</a>, <a href="http://hockey-graphs.com/tag/situational-corsi/" rel="tag">Situational Corsi</a>, <a href="http://hockey-graphs.com/tag/zone-exits/" rel="tag">Zone Exits</a>					</span>
+									
+								<span class="comments-link"><a href="http://hockey-graphs.com/2014/09/02/an-early-look-into-some-of-the-new-numbers-available/#respond" title="Comment on An early look into some of the new numbers&nbsp;available">Leave a comment</a></span>
+								</div><!-- .entry-meta -->
+						</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><div style="width: 370px" class="wp-caption aligncenter"><img class="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Correlation_significance.svg/360px-Correlation_significance.svg.png" alt="" width="360" height="305" /><p class="wp-caption-text">From Wikipedia Commons: A graph showing the minimum value of Pearson&#8217;s correlation coefficient that is significantly different from zero at the 0.05 level, for a given sample size.</p></div>
+<p>There are two new and very exciting frontiers being explored by the hockey analytics blogosphere. There is the manual tracking of zonal statistics, such as zone entries and exits. This area of research was first pioneered by <a href="https://twitter.com/BSH_EricT" target="_blank">Eric Tulsky</a> and <a href="https://twitter.com/ShutdownLine" target="_blank">Corey Sznajder</a>. Then there is the splicing of Corsi into microstates, such as looking at shot attempt differentials momentarily after face off wins or loses in particular zones. The early workers on these numbers were <a href="https://twitter.com/mc79hockey" target="_blank">Tyler Delow</a> and <a href="https://twitter.com/muneebalamcu" target="_blank">Muneeb Alam</a>.<br /><em>(side note: it should not be a surprise that one of each group was recently picked up by a NHL team this summer)</em></p>
+<p>I recently was able to get data from the non-NHL hires named above <em>(and will enjoy their contact while I can until they are picked up too)</em>. Sznajder provided me with zone entry and exit data for just over 60% of the NHL. If you would like to check out his project and contribute, <a href="http://t.co/UK3yT0KN1p" target="_blank">check this link</a>. Alam sent over shot attempt events 10 seconds after a defensive zone face off, which was further separated into wins and losses.</p>
+<p>I originally received this data for study of the Jets and noticed what appeared to the eye to be a relationship, and wished to delve in further.</p>
+<p> <a href="http://hockey-graphs.com/2014/09/02/an-early-look-into-some-of-the-new-numbers-available/#more-2299" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-## -->
+</div><!-- .hentry-wrapper -->
+
+			
+				
+<div class="hentry-wrapper">
+	<article id="post-2295" class="post-2295 post type-post status-publish format-standard hentry category-theory tag-goalies tag-goaltenders tag-goaltending tag-nhl tag-save-percentage">
+		<header class="entry-header">
+							<h1 class="entry-title"><a href="http://hockey-graphs.com/2014/08/28/save-percentage-vs-the-experts-do-shots-against-inflate-a-goaltenders-save-percentage/" rel="bookmark">Save Percentage vs the Experts: Do shots against inflate a goaltender&#8217;s save&nbsp;percentage?</a></h1>									<div class="entry-meta">
+				<span class="posted-on"><a href="http://hockey-graphs.com/2014/08/28/save-percentage-vs-the-experts-do-shots-against-inflate-a-goaltenders-save-percentage/" rel="bookmark"><time class="entry-date published" datetime="2014-08-28T07:30:00+00:00">August 28, 2014</time><time class="updated" datetime="2014-08-28T09:31:28+00:00">August 28, 2014</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="http://hockey-graphs.com/author/garret9/">garret9</a></span></span>																		<span class="cat-links">
+						<a href="http://hockey-graphs.com/category/theory/" rel="category tag">Theory</a>					</span>
+					
+										<span class="tags-links">
+						<a href="http://hockey-graphs.com/tag/goalies/" rel="tag">Goalies</a>, <a href="http://hockey-graphs.com/tag/goaltenders/" rel="tag">Goaltenders</a>, <a href="http://hockey-graphs.com/tag/goaltending/" rel="tag">Goaltending</a>, <a href="http://hockey-graphs.com/tag/nhl/" rel="tag">NHL</a>, <a href="http://hockey-graphs.com/tag/save-percentage/" rel="tag">Save percentage</a>					</span>
+									
+								<span class="comments-link"><a href="http://hockey-graphs.com/2014/08/28/save-percentage-vs-the-experts-do-shots-against-inflate-a-goaltenders-save-percentage/#comments" title="Comment on Save Percentage vs the Experts: Do shots against inflate a goaltender&#8217;s save&nbsp;percentage?">5 Comments</a></span>
+								</div><!-- .entry-meta -->
+						</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><div style="width: 1238px" class="wp-caption alignnone"><img class="" src="http://upload.wikimedia.org/wikipedia/commons/9/98/James_Reimer.jpg" alt="" width="1228" height="938" /><p class="wp-caption-text">Curtesy of Wikipedia Commons</p></div>
+<p>I&#8217;ve seen many statistical articles look at different ways to determine whether or not shot volume inflates a goaltender&#8217;s save percentage; however, I&#8217;ve never been satisfied with the methods used, regardless of the outcomes. So, I finally went and looked at the data myself.</p>
+<p>It&#8217;s been <a href="http://hockey-graphs.com/2014/01/20/2013-2014-goaltending-performance-save-percentage-correlation/">seven months since I&#8217;ve written anything on save percentage</a>. With all that wait, you&#8217;d think I&#8217;d give you a big, long, and in-depth article&#8230; but I won&#8217;t. </p>
+<p>I had one planned, but accidentally lost all my data. Of course, errors always come in clumps. Instead of recovering the lost data, I ended up permanently removing it. To make matters worse, extraskater.com going black made the information a hassle to manually extract again. I probably could write a code<em> (or get someone else)</em> to draw up the information again&#8230; but I still have one piece remaining from the original data: the graph.</p>
+<p><img class="aligncenter" src="https://pbs.twimg.com/media/BuuSvpGIEAEx0sk.png" alt="" width="544" height="294" /></p>
+<p>What is this graph of? What does it mean? <a href="http://hockey-graphs.com/2014/08/28/save-percentage-vs-the-experts-do-shots-against-inflate-a-goaltenders-save-percentage/#more-2295" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-## -->
+</div><!-- .hentry-wrapper -->
+
+			
+				<nav role="navigation" id="nav-below" class="paging-navigation">
+		<h1 class="screen-reader-text">Post navigation</h1>
+
+	
+				<div class="nav-previous"><a href="http://hockey-graphs.com/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+		
+		
+	
+	</nav><!-- #nav-below -->
+	
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+			<div id="secondary" class="widget-areas clear" role="complementary">
+							<div class="first widget-area">
+						<aside id="recent-posts-2" class="widget widget_recent_entries">		<h1 class="widget-title">Recent Posts</h1>		<ul>
+					<li>
+				<a href="http://hockey-graphs.com/2014/09/24/nhl-coach-changes-history-good-bad-coaches/">Using NHL Coaching Changes to Identify Historically Good and Bad&nbsp;Coaches</a>
+						</li>
+					<li>
+				<a href="http://hockey-graphs.com/2014/09/23/remembering-dellow-forward-and-defensemen-goal-regression-corsi/">Remembering Dellow: A few graphs to convince you on&nbsp;Corsi</a>
+						</li>
+					<li>
+				<a href="http://hockey-graphs.com/2014/09/22/nhl-coach-changes-positive-negative-nhl-history/">Where NHL Coaching Changes Did, and Didn&#8217;t, Help Their&nbsp;Teams</a>
+						</li>
+					<li>
+				<a href="http://hockey-graphs.com/2014/09/19/who-were-the-top-goaltenders-of-each-decade/">Who Were the Top Goaltenders of Each&nbsp;Decade?</a>
+						</li>
+					<li>
+				<a href="http://hockey-graphs.com/2014/09/18/ryan-johansen-how-much-is-he-worth-on-a-bridge-deal/">Ryan Johansen &#8211; How much is he worth on a Bridge&nbsp;Deal?</a>
+						</li>
+				</ul>
+		</aside>			</div>
+							<div class="second widget-area">
+				<aside id="twitter_timeline-2" class="widget widget_twitter_timeline"><h1 class="widget-title">Follow on Twitter</h1><a class="twitter-timeline" data-widget-id="418850159892512768" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-tweet-limit="3" width="225" height="400" lang="EN">My Tweets</a></aside>			</div>
+							<div class="third widget-area">
+				<aside id="archives-2" class="widget widget_archive"><h1 class="widget-title">Archives</h1>		<ul>
+	<li><a href='http://hockey-graphs.com/2014/09/'>September 2014</a></li>
+	<li><a href='http://hockey-graphs.com/2014/08/'>August 2014</a></li>
+	<li><a href='http://hockey-graphs.com/2014/07/'>July 2014</a></li>
+	<li><a href='http://hockey-graphs.com/2014/06/'>June 2014</a></li>
+	<li><a href='http://hockey-graphs.com/2014/05/'>May 2014</a></li>
+	<li><a href='http://hockey-graphs.com/2014/04/'>April 2014</a></li>
+	<li><a href='http://hockey-graphs.com/2014/03/'>March 2014</a></li>
+	<li><a href='http://hockey-graphs.com/2014/02/'>February 2014</a></li>
+	<li><a href='http://hockey-graphs.com/2014/01/'>January 2014</a></li>
+		</ul>
+</aside>			</div>
+			</div><!-- #secondary -->
+
+		<div class="site-info">
+						<div class="footer-search">
+				<form role="search" method="get" class="search-form" action="http://hockey-graphs.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s">
+	</label>
+	<input type="submit" class="search-submit" value="Search">
+</form>
+			</div>
+			<div class="footer-credits">
+								<a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com</a>.
+				<span class="sep"> | </span>
+				<a href="https://wordpress.com/themes/typo/" title="Learn more about this theme">The Typo Theme</a>.			</div>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+		<script type="text/javascript">
+		//<![CDATA[
+		var infiniteScroll = {"settings":{"id":"main","ajaxurl":"http:\/\/hockey-graphs.com\/?infinity=scrolling","type":"click","wrapper":true,"wrapper_class":"infinite-wrap","footer":"secondary","click_handle":"1","text":"Older posts","totop":"Scroll back to top","currentday":"28.08.14","order":"DESC","scripts":[],"styles":[],"google_analytics":false,"offset":0,"history":{"host":"hockey-graphs.com","path":"\/page\/%d\/","use_trailing_slashes":true,"parameters":""},"query_args":{"error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","static":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","tag":"","cat":"","tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"comments_popup":"","meta_key":"","meta_value":"","preview":"","s":"","sentence":"","fields":"","menu_order":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"posts_per_page":10,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":false,"update_post_term_cache":true,"update_post_meta_cache":true,"post_type":"","nopaging":false,"comments_per_page":"50","no_found_rows":false,"order":"DESC"},"last_post_date":"2014-08-28 07:30:00","stats":"blog=61874218&v=wpcom&tz=-5&user_id=0&subd=hockeygraphsdotcom&x_pagetype=infinite-click"}};
+		//]]>
+		</script>
+		                <script type="text/javascript">
+                        !function(d,s,id){
+                                var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+                                if(!d.getElementById(id)){
+                                        js=d.createElement(s);
+                                        js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+                                        fjs.parentNode.insertBefore(js,fjs);
+                                }
+                        }
+                        (document,"script","twitter-wjs");
+                </script>
+        <script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201439x'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781g'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"http:\/\/hockeygraphsdotcom.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/hockeygraphsdotcom.wordpress.com\/wp-login.php?action=logout&_wpnonce=03d59d8470","homeURL":"http:\/\/hockey-graphs.com\/","postID":"2337","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"","userIsLoggedIn":"","isJetpack":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1409006146j'></script>
+
+	<div id="bit" class="loggedout-follow-normal">
+		<a class="bsub" href="javascript:void(0)"><span id='bsub-text'>Follow</span></a>
+		<div id="bitsubscribe">
+
+					<h3><label for="loggedout-follow-field">Follow &ldquo;hockey-graphs&rdquo;</label></h3>
+
+			<form action="https://subscribe.wordpress.com" method="post" accept-charset="utf-8" id="loggedout-follow">
+			<p>Get every new post delivered to your Inbox.</p>
+
+			<p id="loggedout-follow-error" style="display: none;"></p>
+
+						<p class="bit-follow-count">Join 31 other followers</p>
+			<p><input type="email" name="email" value="Enter your email address" onfocus='this.value=(this.value=="Enter your email address") ? "" : this.value;' onblur='this.value=(this.value=="") ? "Enter email address" : this.value;'  id="loggedout-follow-field"/></p>
+
+			<input type="hidden" name="action" value="subscribe"/>
+			<input type="hidden" name="blog_id" value="61874218"/>
+			<input type="hidden" name="source" value="http://hockey-graphs.com/"/>
+			<input type="hidden" name="sub-type" value="loggedout-follow"/>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="cbe770ede4" /><input type="hidden" name="_wp_http_referer" value="/" />
+			<p id='bsub-subscribe-button'><input type="submit" value="Sign me up" /></p>
+			</form>
+					<div id='bsub-credit'><a href="https://wordpress.com/?ref=lof">Powered by WordPress.com</a></div>
+		</div><!-- #bitsubscribe -->
+	</div><!-- #bit -->
+
+	<div id="carousel-reblog-box">
+		<form action="" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" onclick="if ( this.value == 'Add your thoughts here... (optional)' ) { this.value = ''; }" onblur="if ( this.value == '' || this.value == '' ) { this.value = 'Add your thoughts here... (optional)'; }">Add your thoughts here... (optional)</textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="" class="cancel">Cancel</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post" />
+				<input type="hidden" id="carousel-reblog-blog-id" value="61874218" />
+				<input type="hidden" id="carousel-reblog-blog-url" value="http://hockey-graphs.com" />
+				<input type="hidden" id="carousel-reblog-blog-title" value="hockey-graphs" />
+				<input type="hidden" id="carousel-reblog-post-url" value="" />
+				<input type="hidden" id="carousel-reblog-post-title" value="" />
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="9f16177a13" /><input type="hidden" name="_wp_http_referer" value="/" />		</form>
+
+		<div class="arrow"></div>
+	</div>
+<link rel='stylesheet' id='all-css-0' href='http://s2.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1405298036g' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='http://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1409081593g&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='all-css-2' href='http://s2.wp.com/wp-content/mu-plugins/tiled-gallery/tiled-gallery.css?m=1401143454g' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackSlideshowSettings = {"spinner":"http:\/\/s1.wp.com\/wp-content\/mu-plugins\/shortcodes\/img\/slideshow-loader.gif","blog_id":"61874218","blog_subdomain":"hockeygraphsdotcom","user_id":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"http:\/\/hockey-graphs.com\/wp-admin\/admin-ajax.php","nonce":"ce9e2edb19","display_exif":"1","display_geo":"1","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/hockeygraphsdotcom.wordpress.com\/wp-login.php?redirect_to=http%3A%2F%2Fhockey-graphs.com%2F2014%2F08%2F28%2Fsave-percentage-vs-the-experts-do-shots-against-inflate-a-goaltenders-save-percentage%2F","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=61874218&v=wpcom&tz=-5&user_id=0&subd=hockeygraphsdotcom","is_public":"1"};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"http:\/\/hockey-graphs.com\/wp-admin\/admin-ajax.php","nonce":"ce9e2edb19","display_exif":"1","display_geo":"1","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/hockeygraphsdotcom.wordpress.com\/wp-login.php?redirect_to=http%3A%2F%2Fhockey-graphs.com%2F2014%2F08%2F28%2Fsave-percentage-vs-the-experts-do-shots-against-inflate-a-goaltenders-save-percentage%2F","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=61874218&v=wpcom&tz=-5&user_id=0&subd=hockeygraphsdotcom","is_public":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://s0.wp.com/_static/??-eJyNj8GOwjAMRH9oQ6i0CPWA+JZgXOo0tUPttNu/34LUCnFA3OzxvNHYT9mBsCGbj+qvOBJg/ttF/fEvp764nMqNWD1xQ0w2b8MHr7YyGMgV9REe7wWHeQczJPwa0kTL1MrkNv2dtRb7xZzLxduc5UFxGOkWjIS/MGtH2SXizjUCRV1D2//EkMraZGrkEhHsPXItPi5NxQdVtCfw3POAqh++hTBIUUw+ouUAnVuFhTn3p+q32td1VR8P8R+6oqCU'></script>
+<script type='text/javascript' src='http://platform.twitter.com/widgets.js?ver=20111117'></script>
+<script type='text/javascript' src='http://s0.wp.com/_static/??-eJyVy7EOQEAMANAfUnViYBDfgmsupepyivh7VpMY3/DwjDCuaqSGyw5R9sC6oZ1sRgkG6cd54OQhMqHSQYnUs4Z82jL8c+P3YyEPoRehdL31rG5pXVXUTVO70k03DU5D1g=='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "hockeygraphsdotcom.wordpress.com";
+	</script>
+	<script type="text/javascript" src="http://s.skimresources.com/js/725X1342.skimlinks.js"></script><script type="text/javascript">
+			jQuery.extend( infiniteScroll.settings.scripts, ["jquery","mobile-useragent-info","jquery-core","jquery-migrate","postmessage","jquery_inview","jetpack_resize","loggedout-subscribe","spin","jquery.spin","grofiles-cards","wpgroho","jquery.autoresize","highlander-comments","devicepx","the-neverending-homepage","jquery-cycle","jetpack-slideshow","typo-navigation","typo-skip-link-focus-fix","swfobject","videopress","jetpack-carousel","twitter-widgets","twitter-widgets-infinity","twitter-widgets-pending","tiled-gallery"] );
+			jQuery.extend( infiniteScroll.settings.styles, ["smileyproject","jetpack_likes","loggedout-subscribe","the-neverending-homepage","jetpack-slideshow","wpcom-core-compat-playlist-styles","mp6hacks","typo-style","typo-wpcom","noticons","geo-location-flair","reblogging","a8c-global-print","sharedaddy","genericons","h4-global","typo-vast-shadow","typo-droid-serif","highlander-comments","highlander-comments-ie7","jetpack-carousel","tiled-gallery","jetpack-carousel-ie8fix"] );
+		</script><script src="//stats.wp.com/w.js?23" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({'blog':'61874218','v':'wpcom','tz':'-5','user_id':'0','subd':'hockeygraphsdotcom'});
+ex_go({'crypt':'UE40eW5QN0p8M2Y/RE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhzVndTdktBX0ddJnpXRjVaOTd6fj1YMX4ydzRUSk0wbVRfODlnNUZzflp6OEpndVFkNkxGP0RsdXZLYjB4aExtdHplfldrRndCTEcwN01PWTg0Zkt+JlNrbWJEb11vTEVRXSZfdVd8cGViVFQ5Rz9bcV9BTFZOUWllK1JEMW1CbXdVdlRpajQwTkNKZnh6aXx1SU12NnNLai9LOGlsYTd6JmFwQm1ILjZwd3hJQ1hFY0h+VU5KcnBlYTV8cy9bRTV8X1tRbGolYixMc1R2RT14Li03ZC8/Q3dhY3pCJnpJRnBmLFJX'});
+addLoadEvent(function(){linktracker_init('61874218',0);});
+	</script>
+<noscript><img src="http://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>

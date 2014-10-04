@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7 no-js ie ie7 ie6 no-touch" lang="en-US"><![endif]-->
+<!--[if IE 7]><html class="lt-ie10 lt-ie9 lt-ie8 no-js ie ie7 no-touch" lang="en-US"><![endif]-->
+<!--[if IE 8]><html class="lt-ie10 lt-ie9 ie ie8 no-js no-touch" lang="en-US"><![endif]-->
+<!--[if IE 9]><html class="lt-ie10 ie ie9 no-js no-touch" lang="en-US"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js no-touch" lang="en-US"><!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Dustin Lynch</title>
+<link rel="shortcut icon" href="http://dustinlynchmusic.com/wp-content/themes/dustinlynch/img/icons/favicon.ico">
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://dustinlynchmusic.com/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Dustin Lynch &raquo; Feed" href="http://dustinlynchmusic.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dustin Lynch &raquo; Comments Feed" href="http://dustinlynchmusic.com/comments/feed/" />
+<link rel='stylesheet' id='googlefonts-css'  href='//fonts.googleapis.com/css?family=Oswald%3A400%2C700%7CDroid+Sans%3A400%2C700&#038;ver=3.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://dustinlynchmusic.com/wp-content/themes/dustinlynch/js/fancybox/jquery.fancybox.css' type='text/css' media='all' />
+<link rel='stylesheet' id='icomoon-css'  href='http://dustinlynchmusic.com/wp-content/themes/dustinlynch/css/fonts/icomoon/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='base-css'  href='http://dustinlynchmusic.com/wp-content/themes/dustinlynch/css/base.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dustinlynch-css'  href='http://dustinlynchmusic.com/wp-content/themes/dustinlynch/style.css?ver=3.9.2' type='text/css' media='all' />
+<link rel='prev' title='Bio' href='http://dustinlynchmusic.com/bio/' />
+<link rel='next' title='Blog' href='http://dustinlynchmusic.com/blog/' />
+<link rel='canonical' href='http://dustinlynchmusic.com/' />
+<link rel='shortlink' href='http://dustinlynchmusic.com/' />
+<script>
+(function touchCheck(){
+	var obj = document.getElementsByTagName('html')[0];
+	if (('ontouchstart' in window) ||
+	     (navigator.maxTouchPoints > 0) ||
+	     (navigator.msMaxTouchPoints > 0)) {
+	        obj.className = obj.className.replace('no-touch', 'touch');
+	}
+	obj.className = obj.className.replace('no-js', '');
+})();
+
+var switchTo5x=true;
+</script>
+</head>
+
+<body class="home page page-id-107 page-template page-template-home-php home">
+<div id="bg"></div>
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+		<div id="social-bar">
+			<div class="row">
+				<div class="col-0 pull-right">
+					<ul class="socials"><li><a href="http://www.facebook.com/dustinlynchmusic" title="facebook" rel="publisher" target="_blank"><span class="icon-facebook"></span></a></li><li><a href="http://twitter.com/dustinlynch" title="twitter" rel="publisher" target="_blank"><span class="icon-twitter"></span></a></li><li><a href="https://plus.google.com/117389207129110031173/videos" title="googleplus" rel="publisher" target="_blank"><span class="icon-googleplus"></span></a></li><li><a href="http://instagram.com/dustinlynchmusic" title="instagram" rel="publisher" target="_blank"><span class="icon-instagram"></span></a></li><li><a href="https://www.youtube.com/dustinlynch" title="youtube" rel="publisher" target="_blank"><span class="icon-youtube"></span></a></li><li class="vevo-social"><a href="http://www.vevo.com/artist/dustin-lynch" title="vevo" rel="publisher" target="_blank"><span class="icon-vevo">V</span></a></li><li><a href="http://open.spotify.com/artist/1dID9zgn0OV0Y8ud7Mh2tS" title="spotify" rel="publisher" target="_blank"><span class="icon-spotify"></span></a></li></ul>					<div id="newsletter">
+						<a class="sign-up" href="http://dustinlynchmusic.us2.list-manage1.com/subscribe?u=4b44e39accc4767380cd7d0ca&id=b28fbebf46" data-alttext="close" >Sign Up</a>
+						<form id="newsletter-form">
+							<div class="form-fields row">
+								<div class="col-12">
+									<label for="firstname">First Name</label>
+									<input type="text" placeholder="First Name" name="firstname"/>
+									<label for="lastname">Last Name</label>
+									<input type="text" placeholder="Last Name" name="lastname"/>
+									<label for="email">Email Address*</label>
+									<input type="text" placeholder="Email Address" name="email"/>
+									<input type="hidden" value="" name="date"/>
+									<input type="hidden" value="dlblue65" name="formid"/>
+									<button class="btn btn-alt" id="newsletter-submit">Join Newsletter</button>
+								</div>
+							</div>
+							<div id="newsletter-msg"></div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="header-group">
+			<div class="header-group-container row">
+				<h1 class="site-title col-0"><a href="http://dustinlynchmusic.com/" title="Dustin Lynch" rel="home">Dustin Lynch</a></h1>
+				<h3 id="mobile-menu" class="mobile-menu-toggle">Menu</h3>
+				<nav id="site-navigation" class="main-navigation col-0 pull-right" role="navigation">
+					<a class="assistive-text" href="#content" title="Skip to content">Skip to content</a>
+					<div class="menu-main-menu-container"><ul id="menu-main-menu" class="nav-menu"><li id="menu-item-131" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-131"><a href="http://dustinlynchmusic.com/news/">News</a></li>
+<li id="menu-item-135" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135"><a href="/tour">Tour</a></li>
+<li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="http://dustinlynchmusic.com/bio/">Bio</a></li>
+<li id="menu-item-119" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-119"><a href="#">Media</a>
+<ul class="sub-menu">
+	<li id="menu-item-116" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-116"><a href="/photos">Photos</a></li>
+	<li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a href="/videos">Videos</a></li>
+	<li id="menu-item-118" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-118"><a href="/music">Music</a></li>
+</ul>
+</li>
+<li id="menu-item-115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-115"><a target="_blank" href="http://dustinlynch.ras.bustores.com/?cPath=927">Store</a></li>
+</ul></div>				</nav><!-- #site-navigation -->
+			</div>
+		</div>
+	</header><!-- #masthead -->
+
+	<div id="main" class="wrapper">	<style>#slide-1 .slide-image{background-image: url("http://dustinlynchmusic.com/wp-content/uploads/2014/06/Slide_Album1.jpg");}#slide-2 .slide-image{background-image: url("http://dustinlynchmusic.com/wp-content/uploads/2014/09/DL_Site_CMT.jpg");}#slide-3 .slide-image{background-image: url("http://dustinlynchmusic.com/wp-content/uploads/2014/06/Slide_tour_bw_web.jpg");}#slide-4 .slide-image{background-image: url("http://dustinlynchmusic.com/wp-content/uploads/2014/06/Slide_video_wia_web.jpg");}@media screen and (max-width: 599px){#slide-1 .slide-image{background-image: url("http://dustinlynchmusic.com/wp-content/uploads/2014/06/Slide_Album1-600x510.jpg");}#slide-2 .slide-image{background-image: url("http://dustinlynchmusic.com/wp-content/uploads/2014/09/DL_Site_CMT-600x510.jpg");}#slide-3 .slide-image{background-image: url("http://dustinlynchmusic.com/wp-content/uploads/2014/06/Slide_tour_bw_web.jpg");}#slide-4 .slide-image{background-image: url("http://dustinlynchmusic.com/wp-content/uploads/2014/06/Slide_video_wia_web.jpg");}}</style><ul id="slider"><li id="slide-1" class="slide" data-img="http://dustinlynchmusic.com/wp-content/uploads/2014/06/Slide_Album1.jpg"><a href="http://smarturl.it/whereitsat " target="_blank"><div class="slide-image"></div><div class="slide-text"><div class="slide-title">Where It&#8217;s At</div><div class="slide-subtext">Available Now!</div></div></a></li><li id="slide-2" class="slide" data-img="http://dustinlynchmusic.com/wp-content/uploads/2014/09/DL_Site_CMT.jpg"><a href="http://www.cmt.com/community/sweepstakes/2014/dustin-lynch/" target="_blank"><div class="slide-image"></div><div class="slide-text"><div class="slide-title">Where It&#8217;s At Sweepstakes</div><div class="slide-subtext">Where It&#039;s At Sweepstakes </div></div></a></li><li id="slide-3" class="slide" data-img="http://dustinlynchmusic.com/wp-content/uploads/2014/06/Slide_tour_bw_web.jpg"><a href="http://dustinlynchmusic.com/tour"><div class="slide-image"></div><div class="slide-text"><div class="slide-title">Tour Dates</div><div class="slide-subtext">View Official Tour Dates</div></div></a></li><li id="slide-4" class="slide inv-color" data-img="http://dustinlynchmusic.com/wp-content/uploads/2014/06/Slide_video_wia_web.jpg"><a href="http://youtu.be/QsRMlR0CUt8" target="_blank"><div class="slide-image"></div><div class="slide-text"><div class="slide-title">Where It&#8217;s At (Official Video)</div><div class="slide-subtext">Watch the &quot;Where It&#039;s At&quot; Music Video </div></div></a></li></ul>	</div><!-- #main .wrapper -->
+	<footer id="colophon" role="contentinfo">
+		<div id="top"><a href="#">Back To Top</a></div>
+		<div class="footer-container row">		
+							<div id="tweet" class="tweet col-7"><div class="tweet-content" data-id="515733638806519808"><p class="tweet-id"><a href="https://twitter.com/dustinlynch" target="_blank" rel="publisher">@dustinlynch</a> | <span class="tweet-time">14 hours</span> Ago</p><p class="tweet-text">Hawkeye Nation!!!!!!!!   That was a blast 💪 <a class="url" href="http://t.co/i0DD1ZkrK6" rel="external" target="_blank">http://t.co/i0DD1ZkrK6</a></p></div></div>				
+			<div id="footer-nav" class="nav col-5 pull-right">
+				<p class="copy">&copy;2014 Dustin Lynch. All Rights Reserved.</p>
+				
+				<nav class="footer-nav">
+					<div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-190" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-190"><a href="mailto:TDL@dustinlynchmusic.com">Contact Us</a></li>
+<li id="menu-item-189" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-189"><a href="http://dustinlynchmusic.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-191" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-191"><a href="http://brokenbowrecords.com">Broken Bow Records</a></li>
+</ul></div>				</nav>
+			</div>
+		</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wp_ajax_loc = ["http:\/\/dustinlynchmusic.com\/wp-admin\/admin-ajax.php"];
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://dustinlynchmusic.com/wp-content/plugins/bwp-minify/min/?f=wp-content/themes/dustinlynch/js/jquery.fitvids.js,wp-content/themes/dustinlynch/js/jquery.touchSwipe.min.js,wp-content/themes/dustinlynch/js/fancybox/jquery.fancybox.pack.js,wp-content/themes/dustinlynch/js/fastclick.js,wp-content/themes/dustinlynch/js/global.js,wp-content/themes/dustinlynch/js/site-videos.js,wp-content/themes/dustinlynch/js/slider.js&#038;ver=09032014'></script>
+<!--[if lt IE 9]>
+<script src="http://dustinlynchmusic.com/wp-content/themes/dustinlynch/js/slider-polyfill.js" type="text/javascript"></script>
+<![endif]-->
+<script>
+var _gaq=[["_setAccount","UA-25418845-1"],["_trackPageview", window.location.pathname]];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+s.parentNode.insertBefore(g,s)}(document,"script"));
+</script>
+<script type="application/javascript" src="//uadx.com/s/41c7ea50-0864-11e4-968f-22000afe405e"></script>
+</body>
+</html>

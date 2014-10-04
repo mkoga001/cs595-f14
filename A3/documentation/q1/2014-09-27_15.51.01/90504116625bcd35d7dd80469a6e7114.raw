@@ -1,0 +1,882 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><!-- new relic header --><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o?o:n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({QJf3ax:[function(t,n){function e(t){function n(n,e,o){t&&t(n,e,o),o||(o={});for(var a=i(n),u=a.length,c=o[r]||(o[r]={}),f=0;u>f;f++)a[f].apply(c,e);return c}function o(t,n){u[t]=i(t).concat(n)}function i(t){return u[t]||[]}function a(){return e(n)}var u={};return{on:o,emit:n,create:a,listeners:i,_events:u}}var r="nr@context";n.exports=e()},{}],ee:[function(t,n){n.exports=t("QJf3ax")},{}],D5DuLP:[function(t,n){function e(t,n,e){return r.listeners(t).length?r.emit(t,n,e):(o[t]||(o[t]=[]),void o[t].push(n))}var r=t("ee").create(),o={};n.exports=e,e.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,n){function e(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var n=c.createElement("script");n.src=l.proto+t.agent,c.body.appendChild(n)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=n.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",e,!1)):(c[s]("onreadystatechange",r),u[s]("onload",e)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);</script>
+
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>NFL Humor</title>
+<meta http-equiv="content-type" content="text/xhtml; charset=utf-8" />
+<meta http-equiv="content-language" content="en" />
+<meta name="author" content="Spreadshirt" />
+<meta name="copyright" content="Spreadshirt" />
+<meta name="language" content="en" />
+<meta name="description" content="" />
+<meta name="keywords" content=" " />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="http://nflhumor.spreadshirt.com/" />
+<link rel="alternate" type="application/rss+xml" title="NFL Humor  RSS_Feed" href="http://NFLHumor.spreadshirt.com/shop/feed" />
+
+<link rel="stylesheet" href="http://cache.spreadshirt.com/Public/Shop/Styles-packaged/shop_common_e9f0b8af5d1672abe89d2502b5a04cb2.css" type="text/css" media="screen" />
+
+<link rel="shortcut icon" href="http://cache.spreadshirt.com/Public/Common/images/favicon/lovetab.ico" />
+<link rel="apple-touch-icon" href="http://cache.spreadshirt.com/Public/Common/images/favicon/appletouch/lovetab.png" />
+<link rel="stylesheet" href="http://cache.spreadshirt.com/Public/Shop/Styles/icons.css" type="text/css" media="all" />
+<link rel="stylesheet" href="http://cache.spreadshirt.com/Public/Shop/Styles/navigationset-5.css" type="text/css" media="all" />
+<link rel="stylesheet" href="http://cache.spreadshirt.com/Public/Shop/Styles/buttonset-8.css" type="text/css" media="all" />
+<link rel="stylesheet" href="http://cache.spreadshirt.com/Public/Shop/Styles/ibox.css" type="text/css" media="all" />
+<link rel="stylesheet" href="http://cache.spreadshirt.com/Public/Shop/Styles/1/828/structure.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://cache.spreadshirt.com/users/3928000/3927600/508185/color.css" type="text/css" media="all" />
+<link rel="stylesheet" href="http://cache.spreadshirt.com/users/3928000/3927600/508185/shop.css" type="text/css" media="all" />
+
+
+<script type="text/javascript" src="http://cache.spreadshirt.com/Public/Shop/Js-packaged/shop_4620304ba5814350171a73fff9a2d630.js"></script>
+
+<script type="text/javascript">
+var AjaxUrl = 'http://nflhumor.spreadshirt.com/us/US/Ajax/';
+var AjaxShopIdentifier = 'nflhumor';
+var switchingColors = false;
+</script>
+<!--[if lt IE 7]><script type="text/javascript" src="http://cache.spreadshirt.com/Public/Shop/Js/transparencyFix.js"></script><![endif]-->
+
+</head>
+<body class="noElements shop mvc"><noscript><p class="message pending nojs">This page requires JavaScript in order to function correctly.</p></noscript>
+
+<div id="main" class="container ">
+<div id="headerUserInformation" style="visibility: hidden">
+<ul class="left">
+<li id="userDisable"><strong>Hello, you're not logged in.&nbsp;</strong><a href="https://nflhumor.spreadshirt.com/shop/logon" title="Login now!">Login now!</a></li>
+<li id="userEnable" style="display: none;"><strong>Hello&nbsp;<span id="userName"></span></strong></li>
+<li id="userLogout" style="display: none;"><a href="http://nflhumor.spreadshirt.com/shop/logout" title="Logout">Logout</a></li>
+<li id="userChart">
+<a href="https://nflhumor.spreadshirt.com/shop/basket" class="bntBasket" title="Shopping Cart">Shopping Cart</a>
+<strong>&nbsp;(<span id="shopBasketCount">0</span>&nbsp;Articles&nbsp;:&nbsp;<span id="shopBasketPrice"></span>)</strong>
+</li>
+</ul>
+<ul class="right">
+<li id="userHelp"><a href="javascript:popUp('http://nflhumor.spreadshirt.com/shop/help/index/Popup/Show', '', 'width=680, height=700, scrollbars=1');" title="Help?">
+Help?</a>
+</li>
+
+
+</ul>
+</div>
+
+<div id="banner"><a href="http://twitter.com/nfootballlhumor"><img src="http://cache.spreadshirt.com/users/3928000/3927600/508185/img/508185_20140211171958.jpg" alt="" /></a></div>
+
+
+
+<ul id="menu">
+<li id="menuItemShop" class="current">
+<a href="http://nflhumor.spreadshirt.com/" title="Shop">Shop</a>
+</li><li id="menuItemDesigns" class="none">
+<a href="http://nflhumor.spreadshirt.com/shop/designs" title="Designs">Designs</a>
+</li><li id="menuItemBasket" class="none">
+<a href="https://nflhumor.spreadshirt.com/shop/basket" title="Purchase">Purchase</a>
+</li><li id="menuItemHelp" class="none">
+<a href="http://nflhumor.spreadshirt.com/shop/help" title="Help ?">Help ?</a>
+</li>
+<li id="affiliate-powered-by-logo">
+<a href="http://www.spreadshirt.com/start-selling-shirts-C3598/affiliate/6937" title="" target="_blank" onclick="trackLink(this, 'prop16','Standard-Logo-Classic-508185')"></a>
+</li>
+</ul>
+
+<div id="content">
+<div id="cookieErrorMessage" style="display: none;">
+<br class="clearfix"/>
+<br/>
+<p class="message error">
+<a href="#">This shop requires cookies in order to work properly. Please click here to activate cookies.</a>
+
+</p>
+</div>
+<div id="cookieSuccessMessage" style="display: none;">
+<br class="clearfix"/>
+<br/>
+<p class="message success">
+The settings have been changed successfully. Enjoy shopping!
+
+</p>
+</div>
+<script type="text/javascript">
+(function ($) {
+if (!document.cookie) {
+var $cookieErrorMessage = $('cookieErrorMessage'),
+links = $cookieErrorMessage.select('a'),
+$cookieErrorMessageLink,
+$cookieSuccessMessage = $('cookieSuccessMessage');
+if(links.length) {
+$cookieErrorMessageLink = links.pop();
+} else {
+$cookieErrorMessageLink = $cookieErrorMessage;
+}
+$cookieErrorMessage.show();
+$cookieErrorMessageLink.observe('click', function (e) {
+e.preventDefault && e.preventDefault();
+var cookieWindow = window.open("/shop/cookie?Popup=Show", "Cookies", "width=300,height=400,left=100,top=200");
+cookieWindow.focus();
+cookieWindow.handleSuccess = function(){
+cookieWindow.close();
+$cookieErrorMessage.hide();
+$cookieSuccessMessage.show();
+};
+return false;
+});
+}
+})($);
+</script><div id="articleList">
+	<script type="text/javascript" src="/Public/Shop/Js/carousel.js"></script>
+	<script type="text/javascript">
+var filterUrls = [];
+filterUrls[0]  = [];filterUrls[0][0]  = [];filterUrls[0][0][0]  = [];filterUrls[0][0][0][0]  = 'http://nflhumor.spreadshirt.com/';filterUrls[0][1]  = [];filterUrls[0][1][0]  = [];filterUrls[0][1][0][0]  = 'http://nflhumor.spreadshirt.com/men-D1';filterUrls[0][2]  = [];filterUrls[0][2][0]  = [];filterUrls[0][2][0][0]  = 'http://nflhumor.spreadshirt.com/women-D2';filterUrls[0][4]  = [];filterUrls[0][4][0]  = [];filterUrls[0][4][0][0]  = 'http://nflhumor.spreadshirt.com/accessories-D4';filterUrls[0][18]  = [];filterUrls[0][18][0]  = [];filterUrls[0][18][0][0]  = 'http://nflhumor.spreadshirt.com/cases-D18';
+function filterUrl(category, department, producttypeCategory, producttype){
+return filterUrls[category][department][producttypeCategory][producttype];
+}
+</script>
+<form id="frmFilter" action="http://nflhumor.spreadshirt.com/" method="post">
+<input type="hidden" id="filterSearch" name="search" value="0" />
+<input type="hidden" id="filterDesignId" name="design" value="0" />
+<input type="hidden" id="filterConfigurable" name="configurable" value="0" />
+
+
+
+<div>
+<select id="filterDepartmentId" name="department" onchange="javascript:submitFilter(this.id);">
+<option value="">All products</option>
+<option value="1" >Men</option><option value="2" >Women</option><option value="4" >Accessories</option><option value="18" >Cases</option>
+</select>
+</div>
+
+
+</form>
+<form id="frmSort" action="#" class="bg_color_3">
+<label for="selectSort" class="font_color_7">Sort by</label>
+<select name="sort" id="selectSort" onchange="window.location.href=$F('selectSort')">
+<option value="http://nflhumor.spreadshirt.com//customize/sort/default">Recommended shirts first</option>
+<option value="http://nflhumor.spreadshirt.com//customize/sort/price-asc" >Price - low to high</option>
+<option value="http://nflhumor.spreadshirt.com//customize/sort/price-desc" >Price - high to low</option>
+</select>
+</form>
+	
+	<div class="navigation">
+<small class="left">Page&nbsp;1&nbsp;of&nbsp;10</small>
+<div class="num6">
+
+
+
+<span>1</span><a href="http://nflhumor.spreadshirt.com/p2">2</a>
+<a href="http://nflhumor.spreadshirt.com/p3">3</a>
+<a href="http://nflhumor.spreadshirt.com/p4">4</a>
+<a href="http://nflhumor.spreadshirt.com/p5">5</a>
+
+<a href="http://nflhumor.spreadshirt.com/p2" title="Next Page" class="right"><span class="hideText">&raquo;</span></a>
+<a href="http://nflhumor.spreadshirt.com/p10" title="Last Page" class="rightend"><span class="hideText">&raquo;&raquo;</span></a>
+</div>
+<small class="right">Products&nbsp;1&nbsp;to&nbsp;4&nbsp;of&nbsp;37</small>
+</div>
+	<div id="index" class="classicExtended">
+	
+	<form id="frmArticle18474530" action="https://nflhumor.spreadshirt.com/shop/basket/addtobasket" method="post">
+	<fieldset class="with-title">
+        <legend></legend>
+		<input type="hidden" name="product" value="1002508368" />
+		<input type="hidden" name="article" value="18474530" />
+        <input type="hidden" name="currentView" id="currentView18474530" value="351"/>
+		<input type="hidden" name="color" id="productColor18474530" value="196" />
+		<h3 class="small-gap-down">SURG3Y Shirt&nbsp;</h3>
+		<div class="articleImages" onmouseover="javascript:articleImageMouseover(18474530, false);" onmouseout="javascript:articleImageMouseover(18474530, true);">
+	        <a href="http://nflhumor.spreadshirt.com/surg3y-shirt-A18474530" onclick="appendColor(this, 18474530);">
+                        <img src="http://image.spreadshirt.com/image-server/v1/products/1002508368/views/1,width=190,height=190.png/surg3y-shirt.png" border="0" alt="T-Shirts ~ Men's T-Shirt ~ SURG3Y Shirt" title="T-Shirts ~ Men's T-Shirt ~ SURG3Y Shirt" class="pimg" id="articleImage18474530" />
+                     <img src="http://image.spreadshirt.com/image-server/v1/compositions/1002508368/views/1,width=190,height=190,appearanceId=196.png/surg3y-shirt_design.png" id="compositionImage18474530" style="display:none" alt="Design ~ SURG3Y Shirt" title="Design ~ SURG3Y Shirt"/> </a>
+			
+			<ul> <li><a href="#" class="tag" title="Favoriten">Favoriten</a></li> <li><a href="#" class="delicious" title="Delicious">Delicious</a></li> </ul>
+			
+		</div>
+		<div class="articlePriceWrapper">
+		<div class="clearfix articleDesc">
+			
+			<h5 title="">Men&#39;s T-Shirt</h5>
+			
+			
+			<p class="articleProducttypeTxt">Classic-cut standard weight t-shirt for men, 100% pre-shrunk cotton, Brand: Gildan</p>
+			<a class="articleDetailsLink" href="http://nflhumor.spreadshirt.com/surg3y-shirt-A18474530" title="Details">Details</a>
+			
+			
+			<div class="freeColorSelection clearfix">
+				<h4>Color</h4>
+				
+                        <ul class="clearfix" id="articleColor18474530">
+                                
+                                <li id="article18474530colorListEntry95" >
+                                    <a id="article18474530colorEntry95" onclick="switchColor(18474530, 95, 351, 'big'); return false;" rel="track[action:color]" title="orange" href="#"><img alt="orange" src="http://image.spreadshirt.com/image-server/v1/appearances/95"/></a>
+                                </li>
+                                
+                                <li id="article18474530colorListEntry120" >
+                                    <a id="article18474530colorEntry120" onclick="switchColor(18474530, 120, 351, 'big'); return false;" rel="track[action:color]" title="brown" href="#"><img alt="brown" src="http://image.spreadshirt.com/image-server/v1/appearances/120"/></a>
+                                </li>
+                                
+                                <li id="article18474530colorListEntry134" >
+                                    <a id="article18474530colorEntry134" onclick="switchColor(18474530, 134, 351, 'big'); return false;" rel="track[action:color]" title="purple" href="#"><img alt="purple" src="http://image.spreadshirt.com/image-server/v1/appearances/134"/></a>
+                                </li>
+                                
+                                <li id="article18474530colorListEntry196" class="selected">
+                                    <a id="article18474530colorEntry196" onclick="switchColor(18474530, 196, 351, 'big'); return false;" rel="track[action:color]" title="red" href="#"><img alt="red" src="http://image.spreadshirt.com/image-server/v1/appearances/196"/></a>
+                                </li>
+                                
+                                <li id="article18474530colorListEntry258" >
+                                    <a id="article18474530colorEntry258" onclick="switchColor(18474530, 258, 351, 'big'); return false;" rel="track[action:color]" title="royal blue" href="#"><img alt="royal blue" src="http://image.spreadshirt.com/image-server/v1/appearances/258"/></a>
+                                </li>
+                                
+                                <li id="article18474530colorListEntry259" >
+                                    <a id="article18474530colorEntry259" onclick="switchColor(18474530, 259, 351, 'big'); return false;" rel="track[action:color]" title="bright green" href="#"><img alt="bright green" src="http://image.spreadshirt.com/image-server/v1/appearances/259"/></a>
+                                </li>
+                                
+                                <li id="article18474530colorListEntry351" >
+                                    <a id="article18474530colorEntry351" onclick="switchColor(18474530, 351, 351, 'big'); return false;" rel="track[action:color]" title="light oxford" href="#"><img alt="light oxford" src="http://image.spreadshirt.com/image-server/v1/appearances/351"/></a>
+                                </li>
+                                
+                                <li id="article18474530colorListEntry1" >
+                                    <a id="article18474530colorEntry1" onclick="switchColor(18474530, 1, 351, 'big'); return false;" rel="track[action:color]" title="white" href="#"><img alt="white" src="http://image.spreadshirt.com/image-server/v1/appearances/1"/></a>
+                                </li>
+                                
+                                <li id="article18474530colorListEntry16" >
+                                    <a id="article18474530colorEntry16" onclick="switchColor(18474530, 16, 351, 'big'); return false;" rel="track[action:color]" title="khaki" href="#"><img alt="khaki" src="http://image.spreadshirt.com/image-server/v1/appearances/16"/></a>
+                                </li>
+                                
+                                <li id="article18474530colorListEntry22" >
+                                    <a id="article18474530colorEntry22" onclick="switchColor(18474530, 22, 351, 'big'); return false;" rel="track[action:color]" title="burgundy" href="#"><img alt="burgundy" src="http://image.spreadshirt.com/image-server/v1/appearances/22"/></a>
+                                </li>
+                                
+                                <li id="article18474530colorListEntry2" >
+                                    <a id="article18474530colorEntry2" onclick="switchColor(18474530, 2, 351, 'big'); return false;" rel="track[action:color]" title="black" href="#"><img alt="black" src="http://image.spreadshirt.com/image-server/v1/appearances/2"/></a>
+                                </li>
+                                
+                                <li id="article18474530colorListEntry4" >
+                                    <a id="article18474530colorEntry4" onclick="switchColor(18474530, 4, 351, 'big'); return false;" rel="track[action:color]" title="navy" href="#"><img alt="navy" src="http://image.spreadshirt.com/image-server/v1/appearances/4"/></a>
+                                </li>
+                                
+                                <li id="article18474530colorListEntry63" >
+                                    <a id="article18474530colorEntry63" onclick="switchColor(18474530, 63, 351, 'big'); return false;" rel="track[action:color]" title="sky blue" href="#"><img alt="sky blue" src="http://image.spreadshirt.com/image-server/v1/appearances/63"/></a>
+                                </li>
+                                
+                                <li id="article18474530colorListEntry66" >
+                                    <a id="article18474530colorEntry66" onclick="switchColor(18474530, 66, 351, 'big'); return false;" rel="track[action:color]" title="forest green" href="#"><img alt="forest green" src="http://image.spreadshirt.com/image-server/v1/appearances/66"/></a>
+                                </li>
+                                
+                        </ul>
+                
+			</div>
+	        
+			
+			<div class="articleSizes">
+	            <label for="articleSize18474530" onclick="javascript:popUp('http://nflhumor.spreadshirt.com/shop/info/producttypedetails/Popup/Show/productType/210', 'measureTablePopup', 'width=680, height=650, scrollbars=1');">Size</label>
+	            
+				<select id="articleSize18474530" name="size">
+					<option value="0" >...</option>
+					<option value="2" >S</option><option value="3" >M</option><option value="4" >L</option><option value="5" >XL</option><option value="6" >XXL</option>
+				</select>
+				
+				
+				
+			</div>
+			
+	
+	        
+	        <a href="#" title="Size chart" class="measureTable"
+	            onclick="javascript:popUp('http://nflhumor.spreadshirt.com/shop/info/producttypedetails/Popup/Show/productType/210', 'measureTablePopup', 'width=680, height=650, scrollbars=1');">
+	            Size chart</a>
+	        
+	
+			
+			<div><label for="articleQuantity18474530">Quantity</label>
+			<input type="text" id="articleQuantity18474530" name="quantity" value="1" size="2" maxlength="2"/></div>
+			
+	
+			
+			
+			<div>
+				<label>Shipping</label>
+				<span>
+					<a href="#" onclick="javascript:popUp('http://nflhumor.spreadshirt.com/shop/help/index/Popup/Show/categoryId/6', 'deliveryTimePopup', 'width=868, height=560, scrollbars=1');">
+					within&nbsp;1-2&nbsp;business days</a>
+				</span>
+			</div>
+			
+	
+			<div><label>Article</label> <span>18474530</span></div>
+		</div>
+		<div class="articlePrice clearfix ">
+		
+	
+		
+	
+		
+	
+		
+		<label>Price:</label>
+		<span class="priceGroup">
+			
+			<strong class="price">$ 17.00</strong>
+		</span>
+		
+		<input type="submit" value="Add to cart" title="Add to cart" class="button main"/>
+		</div>
+		</div>
+	</fieldset>
+	</form>
+	
+	<form id="frmArticle18474528" action="https://nflhumor.spreadshirt.com/shop/basket/addtobasket" method="post">
+	<fieldset class="with-title">
+        <legend></legend>
+		<input type="hidden" name="product" value="1002508277" />
+		<input type="hidden" name="article" value="18474528" />
+        <input type="hidden" name="currentView" id="currentView18474528" value="351"/>
+		<input type="hidden" name="color" id="productColor18474528" value="258" />
+		<h3 class="small-gap-down">Ship Wrecked shirt&nbsp;</h3>
+		<div class="articleImages" onmouseover="javascript:articleImageMouseover(18474528, false);" onmouseout="javascript:articleImageMouseover(18474528, true);">
+	        <a href="http://nflhumor.spreadshirt.com/ship-wrecked-shirt-A18474528" onclick="appendColor(this, 18474528);">
+                        <img src="http://image.spreadshirt.com/image-server/v1/products/1002508277/views/1,width=190,height=190.png/ship-wrecked-shirt.png" border="0" alt="T-Shirts ~ Men's T-Shirt ~ Ship Wrecked shirt" title="T-Shirts ~ Men's T-Shirt ~ Ship Wrecked shirt" class="pimg" id="articleImage18474528" />
+                     <img src="http://image.spreadshirt.com/image-server/v1/compositions/1002508277/views/1,width=190,height=190,appearanceId=258.png/ship-wrecked-shirt_design.png" id="compositionImage18474528" style="display:none" alt="Design ~ Ship Wrecked shirt" title="Design ~ Ship Wrecked shirt"/> </a>
+			
+			<ul> <li><a href="#" class="tag" title="Favoriten">Favoriten</a></li> <li><a href="#" class="delicious" title="Delicious">Delicious</a></li> </ul>
+			
+		</div>
+		<div class="articlePriceWrapper">
+		<div class="clearfix articleDesc">
+			
+			<h5 title="">Men&#39;s T-Shirt</h5>
+			
+			
+			<p class="articleProducttypeTxt">Classic-cut standard weight t-shirt for men, 100% pre-shrunk cotton, Brand: Gildan</p>
+			<a class="articleDetailsLink" href="http://nflhumor.spreadshirt.com/ship-wrecked-shirt-A18474528" title="Details">Details</a>
+			
+			
+			<div class="freeColorSelection clearfix">
+				<h4>Color</h4>
+				
+                        <ul class="clearfix" id="articleColor18474528">
+                                
+                                <li id="article18474528colorListEntry95" >
+                                    <a id="article18474528colorEntry95" onclick="switchColor(18474528, 95, 351, 'big'); return false;" rel="track[action:color]" title="orange" href="#"><img alt="orange" src="http://image.spreadshirt.com/image-server/v1/appearances/95"/></a>
+                                </li>
+                                
+                                <li id="article18474528colorListEntry120" >
+                                    <a id="article18474528colorEntry120" onclick="switchColor(18474528, 120, 351, 'big'); return false;" rel="track[action:color]" title="brown" href="#"><img alt="brown" src="http://image.spreadshirt.com/image-server/v1/appearances/120"/></a>
+                                </li>
+                                
+                                <li id="article18474528colorListEntry134" >
+                                    <a id="article18474528colorEntry134" onclick="switchColor(18474528, 134, 351, 'big'); return false;" rel="track[action:color]" title="purple" href="#"><img alt="purple" src="http://image.spreadshirt.com/image-server/v1/appearances/134"/></a>
+                                </li>
+                                
+                                <li id="article18474528colorListEntry196" >
+                                    <a id="article18474528colorEntry196" onclick="switchColor(18474528, 196, 351, 'big'); return false;" rel="track[action:color]" title="red" href="#"><img alt="red" src="http://image.spreadshirt.com/image-server/v1/appearances/196"/></a>
+                                </li>
+                                
+                                <li id="article18474528colorListEntry258" class="selected">
+                                    <a id="article18474528colorEntry258" onclick="switchColor(18474528, 258, 351, 'big'); return false;" rel="track[action:color]" title="royal blue" href="#"><img alt="royal blue" src="http://image.spreadshirt.com/image-server/v1/appearances/258"/></a>
+                                </li>
+                                
+                                <li id="article18474528colorListEntry259" >
+                                    <a id="article18474528colorEntry259" onclick="switchColor(18474528, 259, 351, 'big'); return false;" rel="track[action:color]" title="bright green" href="#"><img alt="bright green" src="http://image.spreadshirt.com/image-server/v1/appearances/259"/></a>
+                                </li>
+                                
+                                <li id="article18474528colorListEntry351" >
+                                    <a id="article18474528colorEntry351" onclick="switchColor(18474528, 351, 351, 'big'); return false;" rel="track[action:color]" title="light oxford" href="#"><img alt="light oxford" src="http://image.spreadshirt.com/image-server/v1/appearances/351"/></a>
+                                </li>
+                                
+                                <li id="article18474528colorListEntry1" >
+                                    <a id="article18474528colorEntry1" onclick="switchColor(18474528, 1, 351, 'big'); return false;" rel="track[action:color]" title="white" href="#"><img alt="white" src="http://image.spreadshirt.com/image-server/v1/appearances/1"/></a>
+                                </li>
+                                
+                                <li id="article18474528colorListEntry16" >
+                                    <a id="article18474528colorEntry16" onclick="switchColor(18474528, 16, 351, 'big'); return false;" rel="track[action:color]" title="khaki" href="#"><img alt="khaki" src="http://image.spreadshirt.com/image-server/v1/appearances/16"/></a>
+                                </li>
+                                
+                                <li id="article18474528colorListEntry22" >
+                                    <a id="article18474528colorEntry22" onclick="switchColor(18474528, 22, 351, 'big'); return false;" rel="track[action:color]" title="burgundy" href="#"><img alt="burgundy" src="http://image.spreadshirt.com/image-server/v1/appearances/22"/></a>
+                                </li>
+                                
+                                <li id="article18474528colorListEntry2" >
+                                    <a id="article18474528colorEntry2" onclick="switchColor(18474528, 2, 351, 'big'); return false;" rel="track[action:color]" title="black" href="#"><img alt="black" src="http://image.spreadshirt.com/image-server/v1/appearances/2"/></a>
+                                </li>
+                                
+                                <li id="article18474528colorListEntry4" >
+                                    <a id="article18474528colorEntry4" onclick="switchColor(18474528, 4, 351, 'big'); return false;" rel="track[action:color]" title="navy" href="#"><img alt="navy" src="http://image.spreadshirt.com/image-server/v1/appearances/4"/></a>
+                                </li>
+                                
+                                <li id="article18474528colorListEntry63" >
+                                    <a id="article18474528colorEntry63" onclick="switchColor(18474528, 63, 351, 'big'); return false;" rel="track[action:color]" title="sky blue" href="#"><img alt="sky blue" src="http://image.spreadshirt.com/image-server/v1/appearances/63"/></a>
+                                </li>
+                                
+                                <li id="article18474528colorListEntry66" >
+                                    <a id="article18474528colorEntry66" onclick="switchColor(18474528, 66, 351, 'big'); return false;" rel="track[action:color]" title="forest green" href="#"><img alt="forest green" src="http://image.spreadshirt.com/image-server/v1/appearances/66"/></a>
+                                </li>
+                                
+                        </ul>
+                
+			</div>
+	        
+			
+			<div class="articleSizes">
+	            <label for="articleSize18474528" onclick="javascript:popUp('http://nflhumor.spreadshirt.com/shop/info/producttypedetails/Popup/Show/productType/210', 'measureTablePopup', 'width=680, height=650, scrollbars=1');">Size</label>
+	            
+				<select id="articleSize18474528" name="size">
+					<option value="0" >...</option>
+					<option value="2" >S</option><option value="3" >M</option><option value="4" >L</option><option value="5" >XL</option><option value="6" >XXL</option>
+				</select>
+				
+				
+				
+			</div>
+			
+	
+	        
+	        <a href="#" title="Size chart" class="measureTable"
+	            onclick="javascript:popUp('http://nflhumor.spreadshirt.com/shop/info/producttypedetails/Popup/Show/productType/210', 'measureTablePopup', 'width=680, height=650, scrollbars=1');">
+	            Size chart</a>
+	        
+	
+			
+			<div><label for="articleQuantity18474528">Quantity</label>
+			<input type="text" id="articleQuantity18474528" name="quantity" value="1" size="2" maxlength="2"/></div>
+			
+	
+			
+			
+			<div>
+				<label>Shipping</label>
+				<span>
+					<a href="#" onclick="javascript:popUp('http://nflhumor.spreadshirt.com/shop/help/index/Popup/Show/categoryId/6', 'deliveryTimePopup', 'width=868, height=560, scrollbars=1');">
+					within&nbsp;1-2&nbsp;business days</a>
+				</span>
+			</div>
+			
+	
+			<div><label>Article</label> <span>18474528</span></div>
+		</div>
+		<div class="articlePrice clearfix ">
+		
+	
+		
+	
+		
+	
+		
+		<label>Price:</label>
+		<span class="priceGroup">
+			
+			<strong class="price">$ 17.00</strong>
+		</span>
+		
+		<input type="submit" value="Add to cart" title="Add to cart" class="button main"/>
+		</div>
+		</div>
+	</fieldset>
+	</form>
+	
+	<form id="frmArticle14789901" action="http://nflhumor.spreadshirt.com/richard-freakin-sherman-A14789901" method="post">
+	<fieldset class="with-title">
+        <legend></legend>
+		<input type="hidden" name="product" value="110380150" />
+		<input type="hidden" name="article" value="14789901" />
+        <input type="hidden" name="currentView" id="currentView14789901" value="351"/>
+		<input type="hidden" name="color" id="productColor14789901" value="4" />
+		<h3 class="small-gap-down">Richard Freakin' Sherman&nbsp;</h3>
+		<div class="articleImages" onmouseover="javascript:articleImageMouseover(14789901, false);" onmouseout="javascript:articleImageMouseover(14789901, true);">
+	        <a href="http://nflhumor.spreadshirt.com/richard-freakin-sherman-A14789901" onclick="appendColor(this, 14789901);">
+                        <img src="http://image.spreadshirt.com/image-server/v1/products/110380150/views/1,width=190,height=190.png/richard-freakin-sherman.png" border="0" alt="T-Shirts ~ Men's T-Shirt ~ Richard Freakin' Sherman" title="T-Shirts ~ Men's T-Shirt ~ Richard Freakin' Sherman" class="pimg" id="articleImage14789901" />
+                     <img src="http://image.spreadshirt.com/image-server/v1/compositions/110380150/views/1,width=190,height=190,appearanceId=4.png/richard-freakin-sherman_design.png" id="compositionImage14789901" style="display:none" alt="Design ~ Richard Freakin' Sherman" title="Design ~ Richard Freakin' Sherman"/> </a>
+			
+			<ul> <li><a href="#" class="tag" title="Favoriten">Favoriten</a></li> <li><a href="#" class="delicious" title="Delicious">Delicious</a></li> </ul>
+			
+		</div>
+		<div class="articlePriceWrapper">
+		<div class="clearfix articleDesc">
+			
+			<h5 title="">Men&#39;s T-Shirt</h5>
+			
+			<p class="articleTxt">Don't test the best</p>
+			<p class="articleProducttypeTxt">Classic-cut standard weight t-shirt for men, 100% pre-shrunk cotton, Brand: Gildan</p>
+			<a class="articleDetailsLink" href="http://nflhumor.spreadshirt.com/richard-freakin-sherman-A14789901" title="Details">Details</a>
+			
+			
+			<div class="freeColorSelection clearfix">
+				<h4>Color</h4>
+				
+                        <ul class="clearfix" id="articleColor14789901">
+                                
+                                <li id="article14789901colorListEntry95" >
+                                    <a id="article14789901colorEntry95" onclick="switchColor(14789901, 95, 351, 'big'); return false;" rel="track[action:color]" title="orange" href="#"><img alt="orange" src="http://image.spreadshirt.com/image-server/v1/appearances/95"/></a>
+                                </li>
+                                
+                                <li id="article14789901colorListEntry120" >
+                                    <a id="article14789901colorEntry120" onclick="switchColor(14789901, 120, 351, 'big'); return false;" rel="track[action:color]" title="brown" href="#"><img alt="brown" src="http://image.spreadshirt.com/image-server/v1/appearances/120"/></a>
+                                </li>
+                                
+                                <li id="article14789901colorListEntry134" >
+                                    <a id="article14789901colorEntry134" onclick="switchColor(14789901, 134, 351, 'big'); return false;" rel="track[action:color]" title="purple" href="#"><img alt="purple" src="http://image.spreadshirt.com/image-server/v1/appearances/134"/></a>
+                                </li>
+                                
+                                <li id="article14789901colorListEntry196" >
+                                    <a id="article14789901colorEntry196" onclick="switchColor(14789901, 196, 351, 'big'); return false;" rel="track[action:color]" title="red" href="#"><img alt="red" src="http://image.spreadshirt.com/image-server/v1/appearances/196"/></a>
+                                </li>
+                                
+                                <li id="article14789901colorListEntry258" >
+                                    <a id="article14789901colorEntry258" onclick="switchColor(14789901, 258, 351, 'big'); return false;" rel="track[action:color]" title="royal blue" href="#"><img alt="royal blue" src="http://image.spreadshirt.com/image-server/v1/appearances/258"/></a>
+                                </li>
+                                
+                                <li id="article14789901colorListEntry259" >
+                                    <a id="article14789901colorEntry259" onclick="switchColor(14789901, 259, 351, 'big'); return false;" rel="track[action:color]" title="bright green" href="#"><img alt="bright green" src="http://image.spreadshirt.com/image-server/v1/appearances/259"/></a>
+                                </li>
+                                
+                                <li id="article14789901colorListEntry351" >
+                                    <a id="article14789901colorEntry351" onclick="switchColor(14789901, 351, 351, 'big'); return false;" rel="track[action:color]" title="light oxford" href="#"><img alt="light oxford" src="http://image.spreadshirt.com/image-server/v1/appearances/351"/></a>
+                                </li>
+                                
+                                <li id="article14789901colorListEntry1" >
+                                    <a id="article14789901colorEntry1" onclick="switchColor(14789901, 1, 351, 'big'); return false;" rel="track[action:color]" title="white" href="#"><img alt="white" src="http://image.spreadshirt.com/image-server/v1/appearances/1"/></a>
+                                </li>
+                                
+                                <li id="article14789901colorListEntry16" >
+                                    <a id="article14789901colorEntry16" onclick="switchColor(14789901, 16, 351, 'big'); return false;" rel="track[action:color]" title="khaki" href="#"><img alt="khaki" src="http://image.spreadshirt.com/image-server/v1/appearances/16"/></a>
+                                </li>
+                                
+                                <li id="article14789901colorListEntry22" >
+                                    <a id="article14789901colorEntry22" onclick="switchColor(14789901, 22, 351, 'big'); return false;" rel="track[action:color]" title="burgundy" href="#"><img alt="burgundy" src="http://image.spreadshirt.com/image-server/v1/appearances/22"/></a>
+                                </li>
+                                
+                                <li id="article14789901colorListEntry2" >
+                                    <a id="article14789901colorEntry2" onclick="switchColor(14789901, 2, 351, 'big'); return false;" rel="track[action:color]" title="black" href="#"><img alt="black" src="http://image.spreadshirt.com/image-server/v1/appearances/2"/></a>
+                                </li>
+                                
+                                <li id="article14789901colorListEntry4" class="selected">
+                                    <a id="article14789901colorEntry4" onclick="switchColor(14789901, 4, 351, 'big'); return false;" rel="track[action:color]" title="navy" href="#"><img alt="navy" src="http://image.spreadshirt.com/image-server/v1/appearances/4"/></a>
+                                </li>
+                                
+                                <li id="article14789901colorListEntry63" >
+                                    <a id="article14789901colorEntry63" onclick="switchColor(14789901, 63, 351, 'big'); return false;" rel="track[action:color]" title="sky blue" href="#"><img alt="sky blue" src="http://image.spreadshirt.com/image-server/v1/appearances/63"/></a>
+                                </li>
+                                
+                                <li id="article14789901colorListEntry66" >
+                                    <a id="article14789901colorEntry66" onclick="switchColor(14789901, 66, 351, 'big'); return false;" rel="track[action:color]" title="forest green" href="#"><img alt="forest green" src="http://image.spreadshirt.com/image-server/v1/appearances/66"/></a>
+                                </li>
+                                
+                        </ul>
+                
+			</div>
+	        
+			
+			<div class="articleSizes">
+	            <label for="articleSize14789901" onclick="javascript:popUp('http://nflhumor.spreadshirt.com/shop/info/producttypedetails/Popup/Show/productType/210', 'measureTablePopup', 'width=680, height=650, scrollbars=1');">Size</label>
+	            
+				<select id="articleSize14789901" name="size">
+					<option value="0" >...</option>
+					<option value="2" >S</option><option value="3" >M</option><option value="4" >L</option><option value="5" >XL</option><option value="6" >XXL</option>
+				</select>
+				
+				
+				
+			</div>
+			
+	
+	        
+	        <a href="#" title="Size chart" class="measureTable"
+	            onclick="javascript:popUp('http://nflhumor.spreadshirt.com/shop/info/producttypedetails/Popup/Show/productType/210', 'measureTablePopup', 'width=680, height=650, scrollbars=1');">
+	            Size chart</a>
+	        
+	
+			
+			<div><label for="articleQuantity14789901">Quantity</label>
+			<input type="text" id="articleQuantity14789901" name="quantity" value="1" size="2" maxlength="2"/></div>
+			
+	
+			
+			
+			<div>
+				<label>Shipping</label>
+				<span>
+					<a href="#" onclick="javascript:popUp('http://nflhumor.spreadshirt.com/shop/help/index/Popup/Show/categoryId/6', 'deliveryTimePopup', 'width=868, height=560, scrollbars=1');">
+					within&nbsp;1-2&nbsp;business days</a>
+				</span>
+			</div>
+			
+	
+			<div><label>Article</label> <span>14789901</span></div>
+		</div>
+		<div class="articlePrice clearfix ">
+		
+	
+		
+	
+		
+	
+		
+		<label>Price:</label>
+		<span class="priceGroup">
+			
+			<strong class="price">$ 20.00</strong>
+		</span>
+		
+		<input type="submit" value="Change Text" title="Change Text" class="button main"/>
+		</div>
+		</div>
+	</fieldset>
+	</form>
+	
+	<form id="frmArticle14578435" action="https://nflhumor.spreadshirt.com/shop/basket/addtobasket" method="post">
+	<fieldset class="with-title">
+        <legend></legend>
+		<input type="hidden" name="product" value="110022701" />
+		<input type="hidden" name="article" value="14578435" />
+        <input type="hidden" name="currentView" id="currentView14578435" value="1850"/>
+		<input type="hidden" name="color" id="productColor14578435" value="366" />
+		<h3 class="small-gap-down">Colin Freakin' Kaepernick Shirt&nbsp;</h3>
+		<div class="articleImages" onmouseover="javascript:articleImageMouseover(14578435, false);" onmouseout="javascript:articleImageMouseover(14578435, true);">
+	        <a href="http://nflhumor.spreadshirt.com/colin-freakin-kaepernick-shirt-A14578435" onclick="appendColor(this, 14578435);">
+                        <img src="http://image.spreadshirt.com/image-server/v1/products/110022701/views/1,width=190,height=190.png/colin-freakin-kaepernick-shirt.png" border="0" alt="T-Shirts ~ Men's Premium T-Shirt ~ Colin Freakin' Kaepernick Shirt" title="T-Shirts ~ Men's Premium T-Shirt ~ Colin Freakin' Kaepernick Shirt" class="pimg" id="articleImage14578435" />
+                     <img src="http://image.spreadshirt.com/image-server/v1/compositions/110022701/views/1,width=190,height=190,appearanceId=366.png/colin-freakin-kaepernick-shirt_design.png" id="compositionImage14578435" style="display:none" alt="Design ~ Colin Freakin' Kaepernick Shirt" title="Design ~ Colin Freakin' Kaepernick Shirt"/> </a>
+			
+			<ul> <li><a href="#" class="tag" title="Favoriten">Favoriten</a></li> <li><a href="#" class="delicious" title="Delicious">Delicious</a></li> </ul>
+			
+		</div>
+		<div class="articlePriceWrapper">
+		<div class="clearfix articleDesc">
+			
+			<h5 title="">Men&#39;s Premium T-Shirt</h5>
+			
+			
+			<p class="articleProducttypeTxt">Classic cut t-shirt for men, 100% cotton (heather gray is 95% cotton/5% viscose). Brand: Spreadshirt</p>
+			<a class="articleDetailsLink" href="http://nflhumor.spreadshirt.com/colin-freakin-kaepernick-shirt-A14578435" title="Details">Details</a>
+			
+			
+			<div class="freeColorSelection clearfix">
+				<h4>Color</h4>
+				
+                        <ul class="clearfix" id="articleColor14578435">
+                                
+                                <li id="article14578435colorListEntry387" >
+                                    <a id="article14578435colorEntry387" onclick="switchColor(14578435, 387, 1850, 'big'); return false;" rel="track[action:color]" title="noble brown" href="#"><img alt="noble brown" src="http://image.spreadshirt.com/image-server/v1/appearances/387"/></a>
+                                </li>
+                                
+                                <li id="article14578435colorListEntry506" >
+                                    <a id="article14578435colorEntry506" onclick="switchColor(14578435, 506, 1850, 'big'); return false;" rel="track[action:color]" title="purple" href="#"><img alt="purple" src="http://image.spreadshirt.com/image-server/v1/appearances/506"/></a>
+                                </li>
+                                
+                                <li id="article14578435colorListEntry92" >
+                                    <a id="article14578435colorEntry92" onclick="switchColor(14578435, 92, 1850, 'big'); return false;" rel="track[action:color]" title="kelly green" href="#"><img alt="kelly green" src="http://image.spreadshirt.com/image-server/v1/appearances/92"/></a>
+                                </li>
+                                
+                                <li id="article14578435colorListEntry231" >
+                                    <a id="article14578435colorEntry231" onclick="switchColor(14578435, 231, 1850, 'big'); return false;" rel="track[action:color]" title="heather gray" href="#"><img alt="heather gray" src="http://image.spreadshirt.com/image-server/v1/appearances/231"/></a>
+                                </li>
+                                
+                                <li id="article14578435colorListEntry317" >
+                                    <a id="article14578435colorEntry317" onclick="switchColor(14578435, 317, 1850, 'big'); return false;" rel="track[action:color]" title="royal blue" href="#"><img alt="royal blue" src="http://image.spreadshirt.com/image-server/v1/appearances/317"/></a>
+                                </li>
+                                
+                                <li id="article14578435colorListEntry348" >
+                                    <a id="article14578435colorEntry348" onclick="switchColor(14578435, 348, 1850, 'big'); return false;" rel="track[action:color]" title="navy" href="#"><img alt="navy" src="http://image.spreadshirt.com/image-server/v1/appearances/348"/></a>
+                                </li>
+                                
+                                <li id="article14578435colorListEntry366" class="selected">
+                                    <a id="article14578435colorEntry366" onclick="switchColor(14578435, 366, 1850, 'big'); return false;" rel="track[action:color]" title="red" href="#"><img alt="red" src="http://image.spreadshirt.com/image-server/v1/appearances/366"/></a>
+                                </li>
+                                
+                                <li id="article14578435colorListEntry1" >
+                                    <a id="article14578435colorEntry1" onclick="switchColor(14578435, 1, 1850, 'big'); return false;" rel="track[action:color]" title="white" href="#"><img alt="white" src="http://image.spreadshirt.com/image-server/v1/appearances/1"/></a>
+                                </li>
+                                
+                                <li id="article14578435colorListEntry2" >
+                                    <a id="article14578435colorEntry2" onclick="switchColor(14578435, 2, 1850, 'big'); return false;" rel="track[action:color]" title="black" href="#"><img alt="black" src="http://image.spreadshirt.com/image-server/v1/appearances/2"/></a>
+                                </li>
+                                
+                                <li id="article14578435colorListEntry39" >
+                                    <a id="article14578435colorEntry39" onclick="switchColor(14578435, 39, 1850, 'big'); return false;" rel="track[action:color]" title="sun yellow" href="#"><img alt="sun yellow" src="http://image.spreadshirt.com/image-server/v1/appearances/39"/></a>
+                                </li>
+                                
+                        </ul>
+                
+			</div>
+	        
+			
+			<div class="articleSizes">
+	            <label for="articleSize14578435" onclick="javascript:popUp('http://nflhumor.spreadshirt.com/shop/info/producttypedetails/Popup/Show/productType/812', 'measureTablePopup', 'width=680, height=650, scrollbars=1');">Size</label>
+	            
+				<select id="articleSize14578435" name="size">
+					<option value="0" >...</option>
+					<option value="2" >S</option><option value="3" >M</option><option value="4" >L</option><option value="5" >XL</option><option value="6" >XXL</option><option value="38" >3X</option><option value="94" >4X</option><option value="102" >5X</option>
+				</select>
+				
+				
+				
+			</div>
+			
+	
+	        
+	        <a href="#" title="Size chart" class="measureTable"
+	            onclick="javascript:popUp('http://nflhumor.spreadshirt.com/shop/info/producttypedetails/Popup/Show/productType/812', 'measureTablePopup', 'width=680, height=650, scrollbars=1');">
+	            Size chart</a>
+	        
+	
+			
+			<div><label for="articleQuantity14578435">Quantity</label>
+			<input type="text" id="articleQuantity14578435" name="quantity" value="1" size="2" maxlength="2"/></div>
+			
+	
+			
+			
+			<div>
+				<label>Shipping</label>
+				<span>
+					<a href="#" onclick="javascript:popUp('http://nflhumor.spreadshirt.com/shop/help/index/Popup/Show/categoryId/6', 'deliveryTimePopup', 'width=868, height=560, scrollbars=1');">
+					within&nbsp;1-2&nbsp;business days</a>
+				</span>
+			</div>
+			
+	
+			<div><label>Article</label> <span>14578435</span></div>
+		</div>
+		<div class="articlePrice clearfix ">
+		
+	
+		
+	
+		
+	
+		
+		<label>Price:</label>
+		<span class="priceGroup">
+			
+			<strong class="price">$ 20.00</strong>
+		</span>
+		
+		<input type="submit" value="Add to cart" title="Add to cart" class="button main"/>
+		</div>
+		</div>
+	</fieldset>
+	</form>
+	
+	</div>
+	<div class="navigation">
+<small class="left">Page&nbsp;1&nbsp;of&nbsp;10</small>
+<div class="num6">
+
+
+
+<span>1</span><a href="http://nflhumor.spreadshirt.com/p2">2</a>
+<a href="http://nflhumor.spreadshirt.com/p3">3</a>
+<a href="http://nflhumor.spreadshirt.com/p4">4</a>
+<a href="http://nflhumor.spreadshirt.com/p5">5</a>
+
+<a href="http://nflhumor.spreadshirt.com/p2" title="Next Page" class="right"><span class="hideText">&raquo;</span></a>
+<a href="http://nflhumor.spreadshirt.com/p10" title="Last Page" class="rightend"><span class="hideText">&raquo;&raquo;</span></a>
+</div>
+<small class="right">Products&nbsp;1&nbsp;to&nbsp;4&nbsp;of&nbsp;37</small>
+</div>
+	
+</div>
+<div id="menuFooter">
+    <ul>
+    <li><a href="http://nflhumor.spreadshirt.com/shop/terms-and-conditions" title="Terms of Service">Terms of Service</a></li><li><a href="http://nflhumor.spreadshirt.com/shop/imprint" title="Contact">Contact</a></li><li><a href="http://nflhumor.spreadshirt.com/shop/privacy" title="Privacy">Privacy</a></li><li><a href="http://nflhumor.spreadshirt.com/shop/copyright" title="Intellectual Property">Intellectual Property</a></li><li><a href="http://nflhumor.spreadshirt.com/shop/feed" title="RSS Feed" target="_blank">RSS Feed</a></li><li><a href="http://nflhumor.spreadshirt.com/shop/help" title="Help ?">Help ?</a></li>
+    </ul>
+</div>
+
+
+<p id="footer">
+    <small>The <a href="http://nflhumor.spreadshirt.com/shop/imprint" rel="nofollow" style="">Shop Partner</a> is exclusively and solely responsible for the design and content of this shop.  At <a href="http://www.spreadshirt.com">Spreadshirt</a> you can create custom t-shirts and other products like custom hoodies and custom tank tops.  You can also make your own personalized products and sell them when you open a free t-shirt shop!</small>
+    <span class="powerd-by">
+        <img src="http://cache.spreadshirt.com/Public/Shop/Images/Icons/powered-by.png" alt="Powered by Spreadshirt" />
+    </span>
+</p>
+
+
+<div class="ie-spacer-float-bug-fixer">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+
+
+
+<script language="JavaScript" type="text/javascript">var s_account = "spreadshirt-com-en";</script>
+<script language="JavaScript" type="text/javascript" src="http://cache.spreadshirt.com/Public/Common/Js/AppMeasurement_0cab6660bf81ce1568e8f0604fd996d2.js"></script>
+<script language="JavaScript" type="text/javascript"><!--
+s.cookieDomain = ".spreadshirt.com";
+s.trackingServer = "analytics.spreadshirt.com";
+s.trackingServerSecure = "sanalytics.spreadshirt.com";
+s.lang = "us";
+s.linkInternalFilters="javascript:,.spreadshirt.com,.spreadshirt.net," + s.cookieDomain;
+
+if (getCookieValue('cdn_h_referer') == null) {
+    reg = new RegExp('^(http|https):\/\/[a-zA-Z0-9._\-]+'+s.cookieDomain.replace(/[.]/g, '\\.'), '');
+    if(document.referrer.match(reg) == null){
+        createCookie('cdn_h_referer', document.referrer, s.cookieDomain, 1);
+    }
+}s.server = "508185.spreadshirt.com"
+s.currencyCode = "USD"
+s.prop32 = "shop"
+s.eVar41 = "shop"
+s.eVar13 = "classic_extended - classic - 1/828/structure.css"
+s.prop25 = "classic_extended - classic - 1/828/structure.css"
+s.eVar8 = "not logged in"
+s.campaign = "7404"
+s.eVar7 = "u"
+s.prop29 = "us - US - Shop - 508185 - Article Index - page:1 - title:NFL Humor"
+s.pageName = "Article Index"
+s.eVar44 = "en-Article Index"
+s.channel = "Shops - Standard"
+s.prop1 = "Shops - 508185 - NFLHumor - NFL Humor - Standard"
+s.prop31 = "Shops - Standard"
+s.eVar52 = "508185"
+if('undefined' != typeof confomatLoadStatus) {
+    if(confomatLoadStatus == 'loaded') {
+        if('undefined' == typeof s.events || s.events == "") {
+            s.events="event1";
+        } else {
+            s.events = s.events + ",event1";
+        }
+    }else if(confomatLoadStatus == 'updaterLoaded') {
+        s.eVar39 = "Flash Updater loaded";
+    } else {
+        s.eVar39 = "Flash not installed/not updatable";
+    }
+}
+
+if (window.appendToPageName) {
+    s.pageName += window.appendToPageName;
+    window.appendToPageName = null;
+}
+//--></script><script language="JavaScript" type="text/javascript" defer="defer"><!--
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/if (window . appendToPageName) {
+    s . pageName += window . appendToPageName;
+    window . appendToPageName = null;
+}var s_code=s.t();if(s_code)document.write(s_code)
+//if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><noscript><div><img src="http://analytics.spreadshirt.com/b/ss/spreadshirt-com-en/1/H.21-NS/0" height="1" width="1" alt="" /></div></noscript>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-24747471-7']);
+_gaq.push(['_gat._anonymizeIp']);
+_gaq.push(['_setDomainName', 'none']);
+_gaq.push(['_setAllowLinker', true]);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js'
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<script type="text/javascript">
+    document.getElementsByTagName('body')[0].className += ' mvc ';
+
+    var updatePageUrl = "http://nflhumor.spreadshirt.com/shop/updatePage/focus/Index";
+    updateShopPage(updatePageUrl);
+
+</script>
+</div>
+</div>
+
+
+	<!-- new relic footer --><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-4.newrelic.com","licenseKey":"38db0f5d68","applicationID":"2053421","transactionName":"MVwEZUFXXEoDBxVQXQgWJURAQl1UTQ==","queueTime":0,"applicationTime":1034,"ttGuid":"","agentToken":"","atts":"HRsHEwlNT0Q=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-460.min.js"}</script>
+
+</body></html>

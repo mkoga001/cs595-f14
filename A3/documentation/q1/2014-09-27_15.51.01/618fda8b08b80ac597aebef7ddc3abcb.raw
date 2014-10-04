@@ -1,0 +1,536 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js ie6 oldie" lang="en"><![endif]-->
+<!--[if IE 7]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if IE 8]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+
+  
+  <meta charset="utf-8" />
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' /><![endif]-->
+
+  <title>
+    Jersey Collection
+  </title>
+
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <link rel="canonical" href="http://jersey-collection.com/" /> 
+
+  
+
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Jersey Collection" />
+  
+
+
+
+<meta property="og:url" content="http://jersey-collection.com/" />
+<meta property="og:site_name" content="Jersey Collection" />
+  
+
+
+
+
+
+  <link href="//cdn.shopify.com/s/files/1/0651/8559/t/1/assets/styles.scss.css?30" rel="stylesheet" type="text/css"  media="all"  />
+  
+  
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cabin:300,400,700">
+  
+  
+  <script src="//cdn.shopify.com/s/files/1/0651/8559/t/1/assets/html5shiv.js?30" type="text/javascript"></script>
+
+  <script>
+//<![CDATA[
+      var Shopify = Shopify || {};
+      Shopify.shop = "jersey-collection.myshopify.com";
+      Shopify.theme = {"name":"launchpad-star","id":10836387,"theme_store_id":null,"role":"main"};
+
+//]]>
+</script>
+
+
+<script id="__st">
+//<![CDATA[
+var __st={"a":6518559,"offset":-14400,"reqid":"3b10fc8b-3e85-4c55-851b-584e8aea2cb7","u":"4fd34b2c12f4","p":"home"};
+//]]>
+</script>
+<script>
+//<![CDATA[
+    (function() {
+      function asyncLoad() {
+        var urls = ["//cdn.shopify.com/s/javascripts/shopify_stats.js?v=6"];
+        for (var i = 0; i < urls.length; i++) {
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = urls[i];
+          var x = document.getElementsByTagName('script')[0];
+          x.parentNode.insertBefore(s, x);
+        }
+      }
+      window.attachEvent ? window.attachEvent('onload', asyncLoad) : window.addEventListener('load', asyncLoad, false);
+    })();
+
+//]]>
+</script>
+<script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-54933416-1', 'auto', {'allowLinker': true});ga('send', 'pageview');
+      (function(){
+        ga('require', 'linker');
+        function addListener(element, type, callback) {
+          if (element.addEventListener) {
+            element.addEventListener(type, callback);
+          }
+          else if (element.attachEvent) {
+            element.attachEvent('on' + type, callback);
+          }
+        }
+        function decorate(event) {
+          event = event || window.event;
+          var target = event.target || event.srcElement;
+          if (target && (target.action || target.href)) {
+            ga(function (tracker) {
+              var linkerParam = tracker.get('linkerParam');
+              document.cookie = '_shopify_ga=' + linkerParam + '; ' + 'path=/';
+            });
+          }
+        }
+        addListener(window, 'load', function(){
+          for (var i=0; i<document.forms.length; i++) {
+            if(document.forms[i].action && document.forms[i].action.indexOf('/cart') >= 0) {
+              addListener(document.forms[i], 'submit', decorate);
+            }
+          }
+          for (var i=0; i<document.links.length; i++) {
+            if(document.links[i].href && document.links[i].href.indexOf('/checkout') >= 0) {
+              addListener(document.links[i], 'click', decorate);
+            }
+          }
+        })
+      }());
+    </script><script type="text/javascript" src="//cdn.shopify.com/s/global/ga_urchin_forms.js?295cac1b3674bb37dc0171128b267e0a3774c338"></script>
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+  <script src="//cdn.shopify.com/s/files/1/0651/8559/t/1/assets/jquery-migrate-1.2.0.min.js?30" type="text/javascript"></script>
+  
+  <script src="//cdn.shopify.com/s/shopify/option_selection.js?295cac1b3674bb37dc0171128b267e0a3774c338" type="text/javascript"></script>
+  <script src="//cdn.shopify.com/s/shopify/api.jquery.js?295cac1b3674bb37dc0171128b267e0a3774c338" type="text/javascript"></script>
+
+  
+  <script src="//cdn.shopify.com/s/files/1/0651/8559/t/1/assets/scripts.js?30" type="text/javascript"></script>
+  
+</head>
+
+<body>
+  
+  <!-- Begin toolbar -->
+  <div class="toolbar-wrapper wrapper">
+    <div class="toolbar span12 clearfix">
+        <ul class="unstyled">
+
+          
+          <li class="search-field fl">
+            <form class="search" action="/search">
+              <input type="image" src="//cdn.shopify.com/s/files/1/0651/8559/t/1/assets/icon-search.png?30" alt="Go" id="go">
+              <input type="text" name="q" class="search_box" placeholder="Search" value=""  />
+            </form>
+          </li>
+          
+          <li id="cart-target" class="toolbar-cart ">
+            <a href="/cart" class="cart" title="Shopping Cart">
+              <span class="icon-cart"></span>
+              <span id="cart-count">0</span>
+              Cart
+            </a>
+          </li>
+          
+          
+        </ul>
+    </div>
+  </div>
+  <!-- End toolbar -->
+  
+  <!-- Begin wrapper -->
+  <div id="transparency" class="wrapper clearfix">
+    <div class="row p0">      
+
+      <!-- Begin navigation -->
+      
+
+        <div class="span12 clearfix">
+          <div class="logo">
+            
+            <h1><a href="/">Jersey Collection</a></h1>
+            
+          </div> 
+        </div> 
+        <section id="nav" class="row p30">
+          <div class="span12">
+            <nav class="main">
+              <ul class="horizontal unstyled clearfix">
+  
+  
+  <li>
+    <a href="/" class=" current">
+      <span>Home</span></a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="/collections/all" class="">
+      <span>Catalog</span></a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="/blogs/news" class="">
+      <span>Blog</span></a>
+  </li>
+  
+  
+</ul>
+            </nav> <!-- /.main -->
+            <nav class="mobile clearfix">
+              
+<select name="main_navigation" id="main_navigation" class="fl">
+  
+    
+    <option value="/" selected="selected">Home</option>
+    
+    
+    
+  
+    
+    <option value="/collections/all">Catalog</option>
+    
+    
+  
+    
+    <option value="/blogs/news">Blog</option>
+    
+    
+  
+  
+  <option value="/cart">Your cart (0)</option>
+</select>
+            </nav> <!-- /.mobile --> 
+          </div> 
+        </section> 
+
+      
+      <!-- End navigation -->
+      
+      <!-- Begin content-->
+      <section id="content" class="clearfix">
+          
+          
+
+<!-- Start products -->
+
+
+  <div class="clearfix helper-section">
+
+    
+
+      
+
+      
+
+        
+        
+
+        
+
+        
+
+          
+            <!-- Grid-style product -->
+            <div class="products">
+            
+          
+
+          
+
+
+
+
+
+
+<div class="product span4">
+
+  
+
+  <div class="image">
+    <a href="/collections/frontpage/products/michael-jordan-23-tune-squad-jersey">          
+      <img src="//cdn.shopify.com/s/files/1/0651/8559/products/5c6ff8f98eff857b4b58fe785fb29387_large.png?v=1410752009" alt="Michael Jordan #23 Tune Squad Jersey" />
+    </a>
+  </div>
+
+  <div class="details">
+    <a href="/collections/frontpage/products/michael-jordan-23-tune-squad-jersey" class="clearfix">
+      <h4 class="title">Michael Jordan #23 Tune Squad Jersey</h4>
+
+      <span class="price">
+      
+        
+        
+        $ 49.99
+      
+      </span>
+      <span class="shopify-product-reviews-badge" data-id="357696491"></span>
+    </a>
+  </div>
+</div>
+
+
+
+
+
+          
+
+        
+
+      
+
+        
+        
+
+        
+
+        
+
+          
+
+          
+
+
+
+
+
+
+<div class="product span4">
+
+  
+
+  <div class="image">
+    <a href="/collections/frontpage/products/mj23tunesquadhankco">          
+      <img src="//cdn.shopify.com/s/files/1/0651/8559/products/5c6ff8f98eff857b4b58fe785fb29387_ec5a90a8-23d7-42f2-8ece-29bfdbece9eb_large.png?v=1411529153" alt="Michael Jordan #23 Tune Squad Jersey (hc)" />
+    </a>
+  </div>
+
+  <div class="details">
+    <a href="/collections/frontpage/products/mj23tunesquadhankco" class="clearfix">
+      <h4 class="title">Michael Jordan #23 Tune Squad Jersey (hc)</h4>
+
+      <span class="price">
+      
+        
+        
+        $ 49.99
+      
+      </span>
+      <span class="shopify-product-reviews-badge" data-id="366219203"></span>
+    </a>
+  </div>
+</div>
+
+
+
+
+
+          
+
+        
+
+      
+
+        
+        
+
+        
+
+        
+
+          
+
+          
+
+
+
+
+
+
+<div class="product span4">
+
+  
+
+  <div class="image">
+    <a href="/collections/frontpage/products/mj23brandonisafag">          
+      <img src="//cdn.shopify.com/s/files/1/0651/8559/products/5c6ff8f98eff857b4b58fe785fb29387_8ed253e4-ec96-4d0d-b855-0555a4a4cea9_large.png?v=1411702028" alt="Michael Jordan #23 Tune Squad Jersey (bm)" />
+    </a>
+  </div>
+
+  <div class="details">
+    <a href="/collections/frontpage/products/mj23brandonisafag" class="clearfix">
+      <h4 class="title">Michael Jordan #23 Tune Squad Jersey (bm)</h4>
+
+      <span class="price">
+      
+        
+        
+        $ 49.99
+      
+      </span>
+      <span class="shopify-product-reviews-badge" data-id="367842919"></span>
+    </a>
+  </div>
+</div>
+
+<div style="clear:both;"></div>
+
+
+
+          
+            </div>
+          
+
+        
+
+      
+
+      <!-- End -->
+      <div class="span12 border-bottom p30"></div>
+
+    
+
+  </div>
+
+<!-- End products -->
+
+<!-- start content page -->
+
+  
+  
+  
+
+  
+
+  <div class="span12 clearfix ">
+    
+    <div class="p30 clearfix  ">
+      <div class="intro clearfix">
+        <h2></h2>
+        
+      </div>
+    </div>
+  </div>
+
+<!-- end content page -->
+
+          
+      </section>
+      <!-- End content-->
+      
+    </div>
+  </div>
+  <!-- End wrapper -->
+  
+  <!-- Begin footer -->
+  <div class="footer-wrapper wrapper">
+    <footer>
+      <div class="row">
+
+        <div class="span12 full-border"></div>
+        
+        
+        
+        
+        
+        
+
+        <!-- Begin latest blog post -->
+        
+        <div class="span4">
+          
+          <div class="p30">
+            <h4>News</h4>
+            <p class="p10"><strong><a href="/blogs/news/16591051-we-are-just-getting-started" title="">We are just getting started!!</a></strong></p>
+            <p>Hello shoppers! Thank you for visiting the Jersey Collection, we are building our collection as quickly as we can and we are always interested in your recommendations. If you have...</p>
+          </div>
+        </div>
+        
+        <!-- End latest blog post -->
+        
+        
+        <!-- Begin footer navigation -->
+        <div class="span4 footer-menu">          
+          <h4>Quick Links</h4>
+          <ul class="unstyled">
+            
+              <li><a href="/search" title="Search">Search</a></li>
+            
+          </ul>
+          
+        </div>
+        <!-- End footer navigation -->
+        
+        
+        
+          
+        
+        <!-- Begin social -->
+          <div class="span4">
+            <h4>Follow Us</h4>
+            <a href="http://twitter.com/shopify" title="Jersey Collection on Twitter" class="icon-social twitter">Twitter</a>
+            <a href="http://facebook.com/shopify" title="Jersey Collection on Facebook" class="icon-social facebook">Facebook</a>
+            
+            
+            
+            
+            
+            
+            
+          </div>
+        <!-- End social -->
+        
+        
+        <!-- Begin copyright -->
+        <div class="span12 tc copyright">
+          <ul class="credit-cards p10 clearfix">
+            <li><img src="//cdn.shopify.com/s/files/1/0651/8559/t/1/assets/icon-cc-visa.png?30" alt="Visa" /></li>
+            <li><img src="//cdn.shopify.com/s/files/1/0651/8559/t/1/assets/icon-cc-mastercard.png?30" alt="MasterCard" /></li>
+            <li><img src="//cdn.shopify.com/s/files/1/0651/8559/t/1/assets/icon-cc-amex.png?30" alt="Amex" /></li>
+            
+            
+            
+            
+
+          </ul> <!-- /.credit-cards -->
+          <p>Copyright &copy; 2014 Jersey Collection | Powered by <a href="http://www.shopify.com" target="_blank">Shopify</a></p>
+        </div>
+        <!-- End copyright -->
+
+      </div>
+    </footer>
+  </div>
+  <!-- End footer -->
+    
+  <script src="//cdn.shopify.com/s/files/1/0651/8559/t/1/assets/jquery.flexslider-min.js?30" type="text/javascript"></script>
+
+  
+  <script src="//cdn.shopify.com/s/files/1/0651/8559/t/1/assets/jquery.tweet.js?30" type="text/javascript"></script>
+  <script src="//cdn.shopify.com/s/files/1/0651/8559/t/1/assets/jquery.fancybox.js?30" type="text/javascript"></script>
+
+</body>
+</html>

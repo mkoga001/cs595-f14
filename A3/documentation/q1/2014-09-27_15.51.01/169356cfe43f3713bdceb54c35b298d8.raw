@@ -1,0 +1,516 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    
+    <!-- Copyright ©2001-2010 Epitaph Records -->
+    <!-- All rights reserved, all code & design copyrighted. -->
+    <!-- Please don't steal our stuff. We know where you live -->
+    <!-- Development, design, HTML, CSS, Flash and JS by Cuban Council http://www.cubancouncil.com -->
+    <!-- Heat particle system "concept" by Joshua Davis and Branden Hall http://www.joshuadavis.com -->
+    <!-- Audio player by Sarah Grant of Chootka http://www.chootka.com -->
+    
+    <head>
+        <title>Epitaph Records</title>
+        
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="verify-v1" content="/s6AG+RRqI+gc32G4T0vJSDFZSWW1UtfFUfgQxJ6x98=" />
+        <meta name="robots" content="all" />
+        <meta name="archive" content="none" />
+        <meta name="MSSmartTagsPreventParsing" content="true" />
+        <meta name="author" content="Epitaph Records" />
+        <meta name="copywright" content="Epitaph Records" />
+        <meta name="description" content="One of the most respected independent labels of all time featuring a diverse roster from punk to post-hardcore, powerpop to hip hop. The best place to find MP3s, videos, ringtones and other media, as well as full discographies, news and tour info for bands like Motion City Soundtrack, Escape the Fate and Bad Religion" />
+        <meta name="keywords" content="Epitaph, Epitaph Records, NOFX, Rancid, Pennywise, Bad Religion, Punk,  Hardcore, Punkorama, punk o rama" />
+        
+        <link rel="author" href="http://www.epitaph.com/" />
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.epitaph.com/rss/news" />
+        <link rel="stylesheet" href="/_lib/epi.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="/_lib/epi_videos.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="/_lib/epi_front.css" type="text/css" media="screen" />
+        <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+        
+        <script language="JavaScript" src="/_lib/mootools.js" type="text/javascript"></script>
+        <script language="JavaScript" src="/_lib/epi.js" type="text/javascript"></script>
+        <script language="JavaScript" src="/_lib/epi_buttons_front.js" type="text/javascript"></script>
+        <script language="JavaScript" src="/_lib/swfobject.js" type="text/javascript"></script>
+        <script language="JavaScript" src="/_lib/htmlbox.js" type="text/javascript"></script>
+        <script language="JavaScript" type="text/javascript"><!--
+        
+        browserNaming();
+        
+        function initPage() {
+            preButtons();
+            getLinksToBlur();
+        }
+        
+        function setSelect(formname, fieldname, newpath) {
+            iSelectedLabel = document.forms[formname].elements[fieldname].options[document.forms[formname].elements[fieldname].options.selectedIndex].value;
+            if (iSelectedLabel != '') {
+                document.location.href = newpath + iSelectedLabel;
+            }
+        }
+        
+        function spawnPlayer(bHome) {
+            if (bHome) {
+                playerWin = window.open("/player", "player", 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=330,height=166');
+            } else {
+            	playerWin = window.open("/artists/player/artist//title/", "player", 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=330,height=130');
+            }
+        	playerWin.focus();
+        }
+        
+        function setCalDate(str) {
+            document.getElementById("caldate").innerHTML = str;
+        }
+        
+        var featsel = 'artists';
+        
+        // -->
+        </script>
+        
+        
+
+    </head>
+    
+    <body onload="initPage();  tabClicked('artists');">
+        <div id="container">
+            
+            <div id="menu">
+                <script language="JavaScript" type="text/javascript"> 
+                    var s = new Swf("/_swf/header.swf",980,164,"#dcd1b2","6,0,0,0"); 
+                    s.flashvars("xmlpath=/xml/header&amp;section=front"); 
+                    s.write();
+                </script>
+            </div>
+            
+            <div id="content">
+                <div id="contentin">
+                                        
+                    <!-- weezer promo start -->
+                    <a href="javascript:closePromo();" id="fullscreen-overlay"></a>
+                    <div id="weezer-promo">
+                        <a href="http://kingsroadmerch.com/epitaph-records/artist/?id=193"><img src="/_img/generic/weezerpromo.jpg" width="400" height="615" align="top" alt="" /></a>
+                        <!-- <h2>Heading here</h2>
+                        Text goes here ... <a href="#">Read More ...</a> -->
+                    </div>
+                    <script language="javascript" type="text/javascript">
+                    
+                        function closePromo() {
+                            var myEffect = $('fullscreen-overlay').effect('opacity', {duration: 200}).addEvent('onComplete', function(){
+                                $('fullscreen-overlay').setStyle('display', 'none');
+                                var myEffect2 = $('weezer-promo').effect('opacity', {duration: 200}).addEvent('onComplete', function(){
+                                    $('weezer-promo').setStyle('display', 'none');
+                                });
+                                myEffect2.start(1, 0);
+                            });
+                            myEffect.start(0.7, 0);
+                        }
+                        
+                        function createCookie(name,value,days) {
+                            if (days) {
+                                var date = new Date();
+                                date.setTime(date.getTime()+(days*24*60*60*1000));
+                                var expires = "; expires="+date.toGMTString();
+                            }
+                            else var expires = "";
+                            document.cookie = name+"="+value+expires+"; path=/";
+                        }
+                        
+                        function readCookie(name) {
+                            var nameEQ = name + "=";
+                            var ca = document.cookie.split(';');
+                            for(var i=0;i < ca.length;i++) {
+                                var c = ca[i];
+                                while (c.charAt(0)==' ') c = c.substring(1,c.length);
+                                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+                            }
+                            return null;
+                        }
+                        
+                        /*
+                        window.addEvent('domready', function() { 
+                            weezCookie = readCookie('weezerpromo');
+                            if (weezCookie != 'shown') {
+                                $('fullscreen-overlay').setStyle('opacity', '0');
+                                $('fullscreen-overlay').setStyle('display', 'block');
+                                var myEffect = $('fullscreen-overlay').effect('opacity', {duration: 400}).addEvent('onComplete', function(){
+                                    $('weezer-promo').setStyle('opacity', '0');
+                                    $('weezer-promo').setStyle('display', 'block');
+                                    var myEffect2 = $('weezer-promo').effect('opacity', {duration: 700});
+                                    myEffect2.start(0, 1);
+                                    createCookie('weezerpromo', 'shown', 1);
+                                });
+                                myEffect.start(0, 0.7);
+                            }
+                        });
+                        */
+                        
+                    </script>
+                    <!-- weezer promo stop -->
+                    
+                    <div id="colleft">
+                        <div class="stnd1col" style="height: 61px;">
+                            <div id="b_search">
+                                <form id="sitesearch" action="/search/" class="searchform" method="post">
+                                    <div class="shinydarkcapl"></div><input type="text" name="search_keywords" size="36" value="Find Stuff" onclick="this.select();"/><div class="shinydarkcapr"></div>
+                                    <button name="submit" type="submit" class="search"></button>
+                                    <div class="iefix"></div>
+                                </form>
+                            </div>
+                            <img src="/_img/boxes/stnd1_col_left_fill_end.jpg" width="325" height="10" align="top" alt="" />
+                        </div>
+                        <img src="/_img/generic/hug_left.gif" width="349" height="10" align="top" alt="" /><br />
+                        <div id="b_audioplayerlrg">
+                            <div style="margin: 0px; padding: 0px; float: left"><img src="/_img/flash/audioplayer_side_tall.gif" width="27" height="161" align="top" alt="" /></div>
+                            <div style="margin: 0px; padding: 0px; float: left">
+                            <script language="javascript" type="text/javascript">
+                                var s = new Swf("/_swf/player.swf",312,161,"#ffffff","7,0,0,0");
+                                s.flashvars("xmlpath=/xml/playlist-front/home/true"); 
+                                s.write();
+                            </script>
+                            </div>
+                            <div class="iefix">e</div>
+                        </div>
+                        <img src="/_img/generic/hug_left.gif" width="349" height="10" align="top" alt="" /><br />
+                        <div class="stnd1col">
+                            <div id="b_followus">
+                                <div class="social-links">
+                                    <a href="http://twitter.com/EpitaphRecords" target="_blank" class="social-tw" title="Twitter (US)">Twitter</a>
+                                    <a href="http://www.facebook.com/epitaphrecords" target="_blank" class="social-fb" title="Facebook">Facebook</a>
+                                    <a href="http://www.epitaphblog.com" target="_blank" class="social-rs" title="Blog">Blog</a>
+                                    <a href="http://www.youtube.com/user/epitaphrecords" target="_blank" class="social-yt" title="YouTube">YouTube</a>
+                                </div>
+                                <div class="social-links-twitter">
+                                    <span class="hd">Twitter</span>
+                                    <a href="http://twitter.com/EpitaphRecords" target="_blank">US</a>&nbsp;&nbsp;&nbsp;<a href="http://twitter.com/epitaphcanada" target="_blank">Canada</a>&nbsp;&nbsp;&nbsp;<a href="http://twitter.com/EpitaphAus" target="_blank">Australia</a>&nbsp;&nbsp;&nbsp;<a href="http://twitter.com/EpitaphEurope" target="_blank">Europe</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <img src="/_img/generic/hug_left.gif" width="349" height="10" align="top" alt="" /><br />
+                        
+                        <div class="stnd1col" style="height: 299px;">
+                            <img src="/_img/boxheaders/bh_newreleases.jpg" width="325" height="33" align="top" alt="" /><br />
+                            <div class="stnd1colleftaltmid" style="height: 256px;">
+                                <div class="newrel" id="newrel1" style="width: 149px;" onmouseover="cSwitcher('newrel1','newrelover');" onmouseout="cSwitcher('newrel1','newrel');">
+                                    <a href="/artists/artist/291/Obey_The_Brave" class="inb"><img src="/dispatch/_depot/title/medium/7233878f3fedbf767b80b9c6fe1a9b2b.jpg" width="137" height="137" align="top" alt="" class="acover" /></a>
+                                    <p class="reltxt">
+                                        <a href="/artists/artist/291/Obey_The_Brave" class="alt">Obey The Brave</a><br />
+                                        <a href="/artists/album/707/Salvation">Salvation</a><br />
+                                        <span class="tsmlgreen">Epitaph</span>
+                                    </p>
+                                    <div class="relbtns"><a href="http://www.epitaphstore.com" target="_blank" class="btn-buy inb" onmouseover="say('Buy'); return true" onmouseout="say(''); return true"><img src="/_img/1.gif" width="35" height="16" align="top" alt="Buy" /></a></div>
+                                </div>
+                                <div class="newrel" id="newrel2"  onmouseover="cSwitcher('newrel2','newrelover');" onmouseout="cSwitcher('newrel2','newrel');">
+                                    <a href="/artists/artist/307/Sleepwave" class="inb"><img src="/dispatch/_depot/title/medium/fcffc8b0d3becf111403e508c466862a.jpg" width="137" height="137" align="top" alt="" class="acover" /></a>
+                                    <p class="reltxt">
+                                        <a href="/artists/artist/307/Sleepwave" class="alt">Sleepwave</a><br />
+                                        <a href="/artists/album/706/Broken_Compass">Broken Compass</a><br />
+                                        <span class="tsmlgreen">Epitaph</span>
+                                    </p>
+                                    <div class="relbtns"><a href="http://sleepwave.merchline.com" target="_blank" class="btn-buy inb" onmouseover="say('Buy'); return true" onmouseout="say(''); return true"><img src="/_img/1.gif" width="35" height="16" align="top" alt="Buy" /></a></div>
+                                </div>
+                                <div class="iefix">e</div>
+                            </div>
+                            <img src="/_img/boxes/stnd_1col_leftalt_end.jpg" width="325" height="10" align="top" alt="" />
+                        </div>
+                        
+                        <img src="/_img/generic/hug_left.gif" width="349" height="10" align="top" alt="" /><br />
+                        
+                        <div class="stnd1col">
+                            <div class="box_morebtn" style="background-image: url(/_img/boxheaders/bh_siteupdates.jpg);"><a href="/siteupdates/" onmouseover="changeImage(null,'btnmore_su','btnmoredon'); say('More Site Updates'); return true" onmouseout="changeImage(null,'btnmore_su','btnmoredoff'); say(''); return true"><img src="/_img/buttons/more_dark_off.gif" width="40" height="14" align="top" alt="More ..." id="btnmore_su" /></a></div>
+                            <div class="stnd1colleftmid">
+                                <h1 class="boxfirst">Saturday September 27, 2014</h1>
+                                <p class="listtxt17" onmouseover="highLight(this,1);"><img src="/_img/icons/front_press.gif" width="18" height="17" alt="" align="left" /><a href="/press/index/artist/290">Presskit Entry: The Ghost Inside</a></p>
+                                <p class="listtxt17" onmouseover="highLight(this,1);"><img src="/_img/icons/front_press.gif" width="18" height="17" alt="" align="left" /><a href="/press/index/artist/290">Presskit Entry: The Ghost Inside</a></p>
+                                <p class="listtxt17" onmouseover="highLight(this,1);"><img src="/_img/icons/front_release.gif" width="18" height="17" alt="" align="left" /><a href="/artists/album/710/Dear_Youth">Release: The Ghost Inside</a></p>
+                                <p class="listtxt17" onmouseover="highLight(this,1);"><img src="/_img/icons/front_release.gif" width="18" height="17" alt="" align="left" /><a href="/artists/album/706/Broken_Compass">Release: Sleepwave</a></p>
+                                <p class="listtxt17" onmouseover="highLight(this,1);"><img src="/_img/icons/front_press.gif" width="18" height="17" alt="" align="left" /><a href="/press/index/artist/307">Presskit Entry: Sleepwave</a></p>
+                            </div>
+                            <img src="/_img/boxes/stnd_1col_left_end_sml.jpg" width="325" height="10" align="top" alt="" /><br />
+                        </div>
+                        
+                        <img src="/_img/generic/hug_left.gif" width="349" height="10" align="top" alt="" /><br />
+                                            
+                        <div class="stnd1col" style="height: 286px;">
+                            <div class="box_morebtn" style="height: 26px; background-image: url(/_img/boxheaders/bh_upcomingreleases.jpg);"><a href="/releases/" onmouseover="changeImage(null,'btnmore_ur','btnmorelon'); say('More Upcoming Releases'); return true" onmouseout="changeImage(null,'btnmore_ur','btnmoreloff'); say(''); return true"><img src="/_img/buttons/more_light_off.gif" width="40" height="14" align="top" alt="More ..." id="btnmore_ur" /></a></div>
+                            <div class="stnd1colleftaltmid" style="height: 243px;">
+                                <div class="upcrel" id="upcrel1" style="width: 149px;" onmouseover="cSwitcher('upcrel1','upcrelover');" onmouseout="cSwitcher('upcrel1','upcrel');">
+                                    <a href="/artists/artist/309/Jamie_T" class="inb"><img src="/dispatch/_depot/title/medium/5bb3cdd89ac47cd2da4047a674bbbc4e.jpg" width="137" height="137" align="top" alt="" class="acover" /></a>
+                                    <p class="reltxt">
+                                        <a href="/artists/artist/309/Jamie_T" class="alt">Jamie T</a><br />
+                                        <a href="/artists/album/709/Carry_On_The_Grudge">Carry On The Grudge</a><br />
+                                        <span class="tsmlgreen">Epitaph</span>
+                                    </p>
+                                </div>
+                                <div class="upcrel" id="upcrel2"  onmouseover="cSwitcher('upcrel2','upcrelover');" onmouseout="cSwitcher('upcrel2','upcrel');">
+                                    <a href="/artists/artist/308/Pianos_Become_The_Teeth" class="inb"><img src="/dispatch/_depot/title/medium/98a6feae22d7c8645fdb27a8608e8629.jpg" width="137" height="137" align="top" alt="" class="acover" /></a>
+                                    <p class="reltxt">
+                                        <a href="/artists/artist/308/Pianos_Become_The_Teeth" class="alt">Pianos Become The Teeth</a><br />
+                                        <a href="/artists/album/708/Keep_You">Keep You</a><br />
+                                        <span class="tsmlgreen">Epitaph</span>
+                                    </p>
+                                </div>
+                                <div class="iefix">e</div>
+                            </div>
+                            <img src="/_img/boxes/stnd_1col_leftalt_end.jpg" width="325" height="10" align="top" alt="" />
+                        </div>
+
+                        
+                        
+                    </div>
+                    <div id="colrightd">
+                    
+                        <div id="b_largepromo">
+                            <script language="javascript" type="text/javascript"> 
+                                var s = new Swf("/_swf/promo.swf",630,226,"#000000","6,0,0,0"); 
+                                s.flashvars("xmlpath=/xml/promo"); 
+                                s.write();
+                            </script>
+                        </div>
+                        
+                        <img src="/_img/generic/hug_right.gif" width="645" height="10" align="top" alt="" /><br />
+                        
+                        <div id="b_newsfeatures">
+                            
+                            <script language="javascript" type="text/javascript"> 
+                                newsSelTab = "us";
+                                
+                                function newsTabSwitcher(id) {
+                                    if (id == "us") {
+                                        changeImage(null,'newstabus','newstabuson');
+                                        changeImage(null,'newstabworld','newstabworldoff');
+                                        newsSelTab = id;
+                                        f_news.document.location.href = "/news/front/region/us";
+                                    } else {
+                                        changeImage(null,'newstabus','newstabusoff');
+                                        changeImage(null,'newstabworld','newstabworldon');
+                                        newsSelTab = id;
+                                        f_news.document.location.href = "/news/front/region/world";
+                                    }
+                                }
+                            </script>
+                            
+                            <div id="b_news">
+                                <p class="tabs" style="position: relative;"><a href="javascript:newsTabSwitcher('us');" title="US News"><img src="/_img/boxheaders/b_news_tabus_on.gif" width="78" height="26" align="top" alt="US News" id="newstabus" /></a><a href="javascript:newsTabSwitcher('world');" title="World News"><img src="/_img/boxheaders/b_news_tabworld_off.gif" width="90" height="26" align="top" alt="World News" id="newstabworld" /></a><a href="/rss/news" style="position: absolute; top: 4px; left: 283px;"><img src="/_img/icons/rss_header_sml.gif" width="18" height="18" align="top" alt="RSS" border="0" /></a></p>
+                                <iframe src="/news/front/" name="f_news" id="f_news" width="290" height="247" scrolling="auto" frameborder="0" marginheight="0" marginwidth="0">iframe content</iframe>
+                                <form id="search" action="/news/search/" method="get" name="search" target="_top">
+                                <p class="newssearch">
+                                    <span style="float: right;"><a href="#" class="inb" onclick="document.search.submit(); return false;" onmouseover="changeImage(null,'btnsubmit_ne','btnsubarrnewson'); say('Submit'); return true" onmouseout="changeImage(null,'btnsubmit_ne','btnsubarrnewsoff'); say(''); return true"><img src="/_img/buttons/submitarrow_news_off.gif" width="17" height="18" align="top" alt="Submit" id="btnsubmit_ne" /></a></span>
+                                    <input type="text" name="q" size="24" style="width: 213px;" value="Enter Keywords" onfocus="if (this.value == 'Enter Keywords') { this.value = ''; }" onblur="if (this.value == '') { this.value = 'Enter Keywords'; }" />
+                                </p>
+                                </form>
+                            </div>
+                            
+                            <div id="b_features" style="position: relative;">
+                                <div class="tabbar"><a href="javascript:tabClicked('artists');" class="inb" onmouseover="tabOver('artists','on'); say('Featured Artist'); return true" onmouseout="tabOver('artists','off'); say(''); return true"><img src="/_img/tabs/artists_off.gif" width="73" height="28" align="top" alt="Artists" id="tabartists" /></a><a href="javascript:tabClicked('mp3s');" class="inb" onmouseover="tabOver('mp3s','on'); say('Featured MP3s'); return true" onmouseout="tabOver('mp3s','off'); say(''); return true"><img src="/_img/tabs/mp3s_off.gif" width="58" height="28" align="top" alt="MP3s" id="tabmp3s" /></a><a href="javascript:tabClicked('videos');" class="inb" onmouseover="tabOver('videos','on'); say('Featured Videos'); return true" onmouseout="tabOver('videos','off'); say(''); return true"><img src="/_img/tabs/videos_off.gif" width="67" height="28" align="top" alt="Videos" id="tabvideos" /></a></div>
+                                <div id="features_artists" style="display: block;">
+                                    
+                                    <a href="/artists/artist/290/The_Ghost_Inside"><img src="/dispatch/_depot/artist/066022252c8d1291ec4e10e4a6fe380f.jpg" width="282" height="102" align="top" alt="" /></a>
+                                    <p class="featlrgtxt">
+                                        <span class="featicn"><a href="/artists/artist/290/The_Ghost_Inside"><img src="/_img/icons/icn_front_artist_lrg.gif" width="37" height="12" align="top" alt="" /></a></span>
+                                        <a href="/artists/artist/290/The_Ghost_Inside"> The Ghost Inside</a>
+                                    </p>
+                                    
+                                    
+                                    <div class="featinsert">
+                                        <a href="/artists/artist/309/Jamie_T"><img src="/dispatch/_depot/artist/thumb/41b5450b89d887cc62eb18a22091200f.jpg" width="138" height="64" align="top" alt="" /></a><br />
+                                        <p>
+                                            <span class="icnsml"><a href="/artists/artist/309/Jamie_T"><img src="/_img/icons/icn_front_artist_sml.gif" width="28" height="9" align="top" alt="" /></a></span>
+                                            <a href="/artists/artist/309/Jamie_T"><b>Jamie T</b></a><br />
+                                            New Album Out S...
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="featinsert">
+                                        <a href="/artists/artist/308/Pianos_Become_The_Teeth"><img src="/dispatch/_depot/artist/thumb/7d0c4c0216cf3d34760a71a5b8fbfa5d.jpg" width="138" height="64" align="top" alt="" /></a><br />
+                                        <p>
+                                            <span class="icnsml"><a href="/artists/artist/308/Pianos_Become_The_Teeth"><img src="/_img/icons/icn_front_artist_sml.gif" width="28" height="9" align="top" alt="" /></a></span>
+                                            <a href="/artists/artist/308/Pianos_Become_The_Teeth"><b>Pianos Become T...</b></a><br />
+                                            New Album Avail...
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                                <div id="features_mp3s" >
+                                    
+                                    <a href="/artists/album/701/Clouded"><img src="/dispatch/_depot/media/e89e9a3f14a77e7d73a15aeebe9c4bf6.jpg" width="282" height="102" align="top" alt="" /></a>
+                                    <p class="featlrgtxt">
+                                        <span class="featicn"><a href="/artists/album/701/Clouded"><img src="/_img/icons/icn_front_mp3_lrg.gif" width="23" height="12" align="top" alt="" /></a></span>
+                                        This Wild Life: <a href="/artists/album/701/Clouded">&quot;History&quot;</a>
+                                    </p>
+                                    
+                                    
+                                    <div class="featinsert">
+                                        <a href="/artists/album/700/Broke_Til_Midnight"><img src="/dispatch/_depot/media/thumb/7c97e4efe9c1fbebe1482624f45b29e1.jpg" width="138" height="64" align="top" alt="" /></a><br />
+                                        <p>
+                                            <span class="icnsml"><a href="/artists/album/700/Broke_Til_Midnight"><img src="/_img/icons/icn_front_mp3_sml.gif" width="19" height="9" align="top" alt="" /></a></span>
+                                            <a href="/artists/album/700/Broke_Til_Midnight">&quot;Goodnight Jimmy Le...&quot;</a><br />
+                                            Roll The Tanks
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="featinsert">
+                                        <a href="/artists/album/698/Rented_World"><img src="/dispatch/_depot/media/thumb/51df3fab4c4e81dc82c1a38777b2636a.jpg" width="138" height="64" align="top" alt="" /></a><br />
+                                        <p>
+                                            <span class="icnsml"><a href="/artists/album/698/Rented_World"><img src="/_img/icons/icn_front_mp3_sml.gif" width="19" height="9" align="top" alt="" /></a></span>
+                                            <a href="/artists/album/698/Rented_World">&quot;I Don&#039;t Wanna...&quot;</a><br />
+                                            The Menzingers
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                                <div id="features_videos" >
+                                    
+                                    <a href="/videos/player/1411"><img src="/dispatch/_depot/media/9aae2a7be26c73e602eeb43bc5622619.jpg" width="282" height="102" align="top" alt="" /></a>
+                                    <p class="featlrgtxt">
+                                        <span class="featicn"><a href="/videos/player/1411"><img src="/_img/icons/icn_front_video_lrg.gif" width="29" height="12" align="top" alt="" /></a></span>
+                                        Plague Vendor: <a href="/videos/player/1411">&quot;Black Sap Scriptu...&quot;</a>
+                                    </p>
+                                    
+                                    
+                                    <div class="featinsert">
+                                        <a href="/videos/player/1409"><img src="/dispatch/_depot/media/thumb/5c91226fd46b8481ebb400697d5b70b8.jpg" width="138" height="64" align="top" alt="" /></a><br />
+                                        <p>
+                                            <span class="icnsml"><a href="/videos/player/1409"><img src="/_img/icons/icn_front_video_sml.gif" width="25" height="9" align="top" alt="" /></a></span>
+                                            <a href="/videos/player/1409">&quot;Rented World&quot;</a><br />
+                                            The Menzingers
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="featinsert">
+                                        <a href="/videos/player/1407"><img src="/dispatch/_depot/media/thumb/7efb800d09b93b420cc21b3bb946d83e.jpg" width="138" height="64" align="top" alt="" /></a><br />
+                                        <p>
+                                            <span class="icnsml"><a href="/videos/player/1407"><img src="/_img/icons/icn_front_video_sml.gif" width="25" height="9" align="top" alt="" /></a></span>
+                                            <a href="/videos/player/1407">&quot;Seventeener (17th...&quot;</a><br />
+                                            The Lawrence Arms
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <img src="/_img/generic/hug_right_frontfeatured.gif" width="645" height="10" align="top" alt="" /><br />
+                        
+                        <div id="b_calendar">
+                            <div class="float_morebtn"><a href="/tours/" onmouseover="changeImage(null,'btnmore_ca','btnmoredon'); say('More Tours and Events'); return true" onmouseout="changeImage(null,'btnmore_ca','btnmoredoff'); say(''); return true"><img src="/_img/buttons/more_dark_off.gif" width="40" height="14" align="top" alt="More ..." id="btnmore_ca" /></a></div>
+                            <table width="610" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="110" valign="top">
+                                        <div id="b_calprefs">
+                                            <form id="radius" action="/tours/calendar/" method="get" name="radius" target="f_cal">
+                                            <h2>View by Location</h2>
+                                            <p style="height: 49px;">
+                                                <select name="dist" size="1">
+                                                    <option value="25">25 miles of</option>
+                                                    <option value="50">50 miles of</option>
+                                                    <option value="100">100 miles of</option>
+                                                    <option value="200">200 miles of</option>
+                                                </select>
+                                                <input type="text" name="postal" size="24" value="US Zip Code" maxlength="15" onfocus="if (this.value == 'US Zip Code') { this.value = ''; }" onblur="if (this.value == '') { this.value = 'US Zip Code'; }" />
+                                            </p>
+                                            </form>
+                                            <p style="height: 23px;"><a href="#" onclick="document.forms['radius'].submit(); return false;" onmouseover="changeImage(null,'btngo_1','btngoon'); say('Go!'); return true" onmouseout="changeImage(null,'btngo_1','btngooff'); say(''); return true"><img src="/_img/buttons/go_off.gif" width="30" height="16" align="top" alt="Go!" id="btngo_1" /></a></p>
+                                            <form id="filter" action="/tours/calendar/" method="get" name="filter" target="f_cal">
+                                            <h2>or View by Artist</h2>
+                                            <p style="height: 27px;">
+                                                <select name="artist" size="1">
+                                                    <option value="">All Artists</option>
+                                                    <option value="">-------------</option>
+                                                    <option value="274">Alkaline Trio</option>
+                                                    <option value="260">Bring Me The Horizon</option>
+                                                    <option value="178">Daniel Lanois</option>
+                                                    <option value="264">Every Time I Die</option>
+                                                    <option value="287">Falling In Reverse</option>
+                                                    <option value="290">The Ghost Inside</option>
+                                                    <option value="300">I Killed The Prom Queen</option>
+                                                    <option value="193">Jolie Holland</option>
+                                                    <option value="306">Joyce Manor</option>
+                                                    <option value="301">The Lawrence Arms</option>
+                                                    <option value="283">letlive.</option>
+                                                    <option value="286">The Menzingers</option>
+                                                    <option value="291">Obey The Brave</option>
+                                                    <option value="224">Parkway Drive</option>
+                                                    <option value="56">Pennywise</option>
+                                                    <option value="308">Pianos Become The Teeth</option>
+                                                    <option value="303">Plague Vendor</option>
+                                                    <option value="293">Retox</option>
+                                                    <option value="278">Social Distortion</option>
+                                                    <option value="305">This Wild Life</option>
+                                                    <option value="276">Veara</option>
+                                                </select>
+                                            </p>
+                                            <p style="height: 21px;"><a href="#" onclick="document.forms['filter'].submit(); return false;" onmouseover="changeImage(null,'btngo_2','btngoon'); say('Go!'); return true" onmouseout="changeImage(null,'btngo_2','btngooff'); say(''); return true"><img src="/_img/buttons/go_off.gif" width="30" height="16" align="top" alt="Go!" id="btngo_2" /></a></p>
+                                            </form>
+                                        </div>
+                                    </td>
+                                    <td width="200" valign="top"><iframe src="/tours/calendar/" name="f_cal" id="f_cal" width="177" height="179" scrolling="no" frameborder="0" marginheight="0" marginwidth="0">iframe content</iframe></td>
+                                    <td width="300" valign="top">
+                                        <div class="navfloater" style="height: 23px;"><h2 id="caldate" align="center"></h2></div>
+                                        <iframe src="/tours/frontlist/" name="f_calresults" id="f_calresults" width="300" height="156" scrolling="auto" frameborder="0" marginheight="0" marginwidth="0">iframe content</iframe>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        
+                        <img src="/_img/generic/hug_right.gif" width="645" height="10" align="top" alt="" /><br />
+                        
+                        <div id="b_releases">
+                            <a href="/releases/"><img src="/_img/boxheaders/bh_currentreleases.gif" width="645" height="26" align="top" alt="Current Releases" /></a><br />
+                            <script language="javascript" type="text/javascript"> 
+                                var s = new Swf("/_swf/releases.swf",632,391,"#ffffff","6,0,0,0"); 
+                                s.flashvars("xmlpath=/xml/releases/limit/40"); 
+                                s.write();
+                            </script>
+                            <img src="/_img/boxes/b_releases_endalt.gif" width="645" height="8" align="top" alt="" /><br />
+                        </div>
+                        
+                        <img src="/_img/generic/hug_right.gif" width="645" height="10" align="top" alt="" /><br />
+                        <div id="b_collectables">
+                            <img src="/_img/boxheaders/bh_collectables.gif" width="645" height="26" align="top" alt="Collectables" /><br />
+                            <script language="javascript" type="text/javascript"> 
+                                var s = new Swf("/_swf/releases.swf",632,154,"#ffffff","6,0,0,0");
+                                s.flashvars("xmlpath=/xml/collectables/limit/16");
+                                s.write();
+                            </script>
+                        </div>
+                        
+                    </div>
+                    <div class="iefix">e</div>
+                    
+                </div>
+            </div>
+            
+            <div id="footer">
+                <div class="f1"><span class="twhite">&copy; 2005 Epitaph. All Rights Reserved</span></div>
+                <div class="f2"><a href="/about/">Contact Us</a> | <a href="/about/privacy/">Privacy Policy</a> | <a href="#top">TOP</a></div>
+                <div class="f3"><a href="http://www.burningheart.com/" target="_blank" onmouseover="changeImage(null,'fheart','hearton'); say('Burning Heart Records'); return true" onmouseout="changeImage(null,'fheart','heartoff'); say(''); return true"><img src="/_img/generic/foot_heart_off.gif" width="54" height="36" align="top" alt="" id="fheart" /></a><a href="http://www.hell-cat.com/" target="_blank" onmouseover="changeImage(null,'fcat','caton'); say('HellCat Records'); return true" onmouseout="changeImage(null,'fcat','catoff'); say(''); return true"><img src="/_img/generic/foot_cat_off.gif" width="36" height="36" align="top" alt="" id="fcat" /></a><a href="http://www.anti.com/" target="_blank" onmouseover="changeImage(null,'fanti','antion'); say('ANTI- Records'); return true" onmouseout="changeImage(null,'fanti','antioff'); say(''); return true"><img src="/_img/generic/foot_anti_off.gif" width="45" height="36" align="top" alt="" id="fanti" /></a></div>
+            </div>
+            
+        </div>
+        
+        <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        try {
+        var pageTracker = _gat._getTracker("UA-4692310-4");
+        pageTracker._trackPageview();
+        } catch(err) {}</script>
+        
+        <script type="text/javascript" src="http://include.reinvigorate.net/re_.js"></script>
+        <script type="text/javascript">
+        var re_name_tag = "";
+        re_("f2x44-8585re7n7r");
+        </script>
+        
+    </body>
+    
+</html>
+
+<!--  -->
+
+<!-- 0.0465 -->
+

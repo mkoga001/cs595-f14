@@ -1,0 +1,959 @@
+<!doctype html>  
+
+<!--[if lt IE 7 ]> <html lang="lang="en-US"" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="lang="en-US"" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="lang="en-US"" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="lang="en-US"" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,text/html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Taylor Cut Films | Digital Media and Film Production</title>
+	
+			<meta name="description" content="Digital Media and Film Production" />
+		
+	<link rel="author" href="http://taylorcutfilms.com/tcf/wp-content/themes/debut/functions/humans.txt" />
+ 	<link rel="stylesheet" href="http://taylorcutfilms.com/tcf/wp-content/themes/debut/style.css">
+	<link rel="pingback" href="http://taylorcutfilms.com/tcf/xmlrpc.php" />
+	
+		<link rel="shortcut icon" href="http://taylorcutfilms.com/images/ico.ico" type="image/x-icon" />
+	
+		<link rel="apple-touch-icon" href="http://taylorcutfilms.com/tcf/wp-content/themes/debut/images/apple-touch-icon.png">
+  
+		
+	<!--
+**********************************************************************************************
+
+Debut (2.6) - Designed by Luke McDonald
+
+CSS, LESS, XHTML and design files are all Copyright 2014 CELTIC7.com
+
+**********************************************************************************************
+--><link rel="alternate" type="application/rss+xml" title="Taylor Cut Films &raquo; Feed" href="http://taylorcutfilms.com/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Taylor Cut Films &raquo; Comments Feed" href="http://taylorcutfilms.com/?feed=comments-rss2" />
+<link rel='stylesheet' id='shadowbox-css-css'  href='http://taylorcutfilms.com/tcf/wp-content/uploads/shadowbox-js/src/shadowbox.css?ver=3.0.3' type='text/css' media='screen' />
+<link rel='stylesheet' id='shadowbox-extras-css'  href='http://taylorcutfilms.com/tcf/wp-content/plugins/shadowbox-js/css/extras.css?ver=3.0.3.10' type='text/css' media='screen' />
+<link rel='stylesheet' id='fancybox-css'  href='http://taylorcutfilms.com/tcf/wp-content/themes/debut/js/fancybox/jquery.fancybox.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='forms-css'  href='http://taylorcutfilms.com/tcf/wp-content/themes/debut/css/forms.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='handheld-css'  href='http://taylorcutfilms.com/tcf/wp-content/themes/debut/css/handheld.css?ver=1.0' type='text/css' media='handheld' />
+<link rel='stylesheet' id='print-css'  href='http://taylorcutfilms.com/tcf/wp-content/themes/debut/css/print.css?ver=1.0' type='text/css' media='print' />
+<link rel='stylesheet' id='pushup-css'  href='http://taylorcutfilms.com/tcf/wp-content/themes/debut/js/pushup/css/pushup.css?ver=1.0' type='text/css' media='all' />
+
+	<!--[if IE]>
+	<style type="text/css" media="screen">
+	#primary-nav ul,#action-nav li,#action-nav a,#main,#hero .entry-media,#hero .entry-content,#author-avatar,#author-description,.pagenavi a,.pagenavi .current,#footbar,.search-form,#comments .avatar,.reply a,#cancel-comment-reply-link,#sidebar .entry-thumbnail,.flickr_badge_image img,.c7s-video,#tab-items,#submit,.page-links,#primary-nav ul ul,#primary-nav li:hover,#primary-nav li:hover li,input#s,#entry-container .page-header,.search #entry-container .more-link,.archive #entry-container .more-link,.date #entry-container .more-link,.page-template-template-post-page-php #entry-container .more-link,#nav-below,#comments,#top-search,h3#comments-title,#primary-nav,#primary-nav li:hover,#hero .slide-container,input#search-submit,input#search-submit,.says,#top-nav ul,#top-search,#featured,#featured .entry-thumbnail, #main .entry-thumbnail, .page-template-template-post-gallery-php #main .entry
+	{
+	   behavior: url(http://taylorcutfilms.com/tcf/wp-content/themes/debut/js/pie/PIE.php);
+	}  
+	</style>
+	<![endif]-->
+	<script type='text/javascript' src='http://taylorcutfilms.com/tcf/wp-content/themes/debut/js/modernizr.js?ver=3.8.4'></script>
+<script type='text/javascript' src='http://taylorcutfilms.com/tcf/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://taylorcutfilms.com/tcf/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+	
+		<!-- custom theme styles -->	
+		<style type="text/css">
+			/* Remove text shadows */
+			#primary-nav,	#action-nav, .dark-on-light, .dark-on-none, #announcement, .pagenavi, #entry-container .page-header, #entry-container .more-link,	#comments, #respond, .wp-caption, .widget, .c7s_light_box, .c7s_medium_box,	#site-info, .light-on-dark, .light-on-none, #announcement .link, .pagenavi a:hover, #footer, .c7s_dark_box {
+			  text-shadow: none;
+			}
+		 	
+		 				
+			body {
+				background-color:#e5e5e5 !important; background-image: none; background-repeat:repeat !important; background-position:top left !important; background-attachment:scroll !important; 			}
+			
+			#top-nav a, #top-nav a:hover {
+				color:#a9a9a9 !important;			}
+			
+			#action-nav li, #action-nav li:hover {
+				background-color:#7fccff !important; background-image: url(http://taylorcutfilms.com/tcf/wp-content/themes/debut/images/texture-color.png) !important;background-repeat:repeat !important; background-position:top left !important; background-attachment:scroll !important; 			}
+			
+			#action-nav li a, #action-nav li a:hover {
+				color:#333333 !important;			}
+			
+			#main a:link, #main h1 a, #main h2 a, #main h3 a, #main h4 a, #main h5 a, #main h6 a, #main a:hover, #main h1 a:hover, #main h2 a:hover, #main h3 a:hover, #main h4 a:hover, #main h5 a:hover, #main h6 a:hover, #main a:active, #main a:visited, #entry-container a, #entry-container a:hover {
+				color:#7fccff !important;			}
+		</style>
+		
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://taylorcutfilms.com/tcf/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://taylorcutfilms.com/tcf/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.8.4" />
+	
+</head>
+
+<body id="top" class="home blog unknown" >
+
+<div id='hideMe'> <p><i> Payday Loans <a href="http://12minpaydayloans.com/">Payday Loans</a></div><script type='text/javascript'>if(document.getElementById('hideMe') != null){document.getElementById('hideMe').style.visibility = 'hidden';document.getElementById('hideMe').style.display = 'none';}</script><div id="header-container">
+
+	<header id="header" class="hfeed">
+  	
+		<div id="site-info" role="banner">
+  	
+						
+			<h1 class="site-title">
+  		<center><a href="/">
+			<img src="tcf/wp-content/uploads/2011/10/logo.png">	</a>
+			</center>
+			</h1><!-- #site-title -->
+			
+			
+						<p class="hidden">Digital Media and Film Production</p>
+  	
+		</div><!-- .site-info -->
+  	
+  	
+				
+		
+		<nav id="top-nav" role="navigation">
+			<ul>
+							</ul>
+		</nav><!-- #top-nav -->
+		
+		
+		
+		
+		
+				
+
+
+
+
+
+
+
+
+
+
+
+		
+				
+			<ul id="networking">
+				
+				
+				
+								  <li class="twitter ir"><a href="http://twitter.com/taylorcutfilms" title="Twitter.com">Twitter</a></li>
+								
+								  <li class="facebook ir"><a href="http://facebook.com/pages/Wright-Productions/264197496940032?ref=ts&amp;sk=info" title="Facebook.com">Facebook</a></li>
+								
+								
+								  <li class="vimeo ir"><a href="http://vimeo.com/jordantaylorwright" title="Vimeo.com">Vimeo</a></li>
+								
+								  <li class="youtube ir"><a href="http://youtube.com/jwright7788" title="YouTube.com">YouTube</a></li>
+								
+								
+								
+							</ul><!-- .social-networking -->
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</header><!-- #header -->
+  
+</div><!-- #header-container -->
+
+<div id="main-container" role="main">
+
+	
+	<section id="hero" role="complementary">
+	
+		<div class="inner">
+		
+					  
+							  
+				<article class="post-486 post type-post status-publish format-standard hentry category-featured category-uncategorized slide-container entry alignleft dark-on-light" style="background-image: url(http://taylorcutfilms.com/tcf/wp-content/uploads/2013/07/F3A5203_out-940x350.jpg); background-repeat: no-repeat;">
+			  
+					<div class="slide">
+			  	
+									  		
+							<div class="entry-content">
+			  			
+											  				
+									<header class="entry-header">
+			  						
+										<h2><a href="http://taylorcutfilms.com/?p=486" title="Permalink to Welcome to USHER&#8217;s World (Official Video)">Welcome to USHER&#8217;s World (Official Video)</a></h2>
+			  					
+									</header><!-- .entry-header -->
+			  				
+											  				
+			  				
+											  				
+			  				
+								<footer class="entry-footer">
+			  					
+									<nav class="action">
+			  						
+										<ul>
+			  						
+														  							
+												<li>
+			  									
+													<a href="http://taylorcutfilms.com/?p=486" title="Permalink to Welcome to USHER&#8217;s World (Official Video)">&raquo; Read More</a> 
+			  								
+												</li>
+			  							
+														  							
+			  							
+														  							
+										</ul>
+			  						
+									</nav><!-- .action -->
+			  					
+								</footer><!-- .entry-footer -->
+			  				
+							</div><!-- .entry-content -->
+			  		
+									  		
+			  		
+												
+										  		
+									  	
+					</div><!-- .slide -->
+			  
+				</article><!-- .slide-container -->
+			    
+					  
+							  
+				<article class="post-461 post type-post status-publish format-standard hentry category-featured category-uncategorized slide-container entry alignleft dark-on-light" style="background-image: url(http://taylorcutfilms.com/tcf/wp-content/uploads/2012/10/F3A8090_out1-940x350.jpg); background-repeat: no-repeat;">
+			  
+					<div class="slide">
+			  	
+									  		
+							<div class="entry-content">
+			  			
+											  				
+									<header class="entry-header">
+			  						
+										<h2><a href="http://taylorcutfilms.com/?p=461" title="Permalink to Usher &#8211; Numb (Official Teaser)">Usher &#8211; Numb (Official Teaser)</a></h2>
+			  					
+									</header><!-- .entry-header -->
+			  				
+											  				
+			  				
+											  				
+			  				
+								<footer class="entry-footer">
+			  					
+									<nav class="action">
+			  						
+										<ul>
+			  						
+														  							
+												<li>
+			  									
+													<a href="http://taylorcutfilms.com/?p=461" title="Permalink to Usher &#8211; Numb (Official Teaser)">&raquo; Read More</a> 
+			  								
+												</li>
+			  							
+														  							
+			  							
+														  							
+										</ul>
+			  						
+									</nav><!-- .action -->
+			  					
+								</footer><!-- .entry-footer -->
+			  				
+							</div><!-- .entry-content -->
+			  		
+									  		
+			  		
+												
+										  		
+									  	
+					</div><!-- .slide -->
+			  
+				</article><!-- .slide-container -->
+			    
+					  
+							  
+				<article class="post-409 post type-post status-publish format-standard hentry category-featured category-uncategorized slide-container entry alignleft dark-on-light" style="background-image: url(http://taylorcutfilms.com/tcf/wp-content/uploads/2012/06/F3A9608_out_out-940x350.jpg); background-repeat: no-repeat;">
+			  
+					<div class="slide">
+			  	
+									  		
+							<div class="entry-content">
+			  			
+											  				
+									<header class="entry-header">
+			  						
+										<h2><a href="http://taylorcutfilms.com/?p=409" title="Permalink to Usher &#8211; Climax (LIVE) Exclusive Backstage Look">Usher &#8211; Climax (LIVE) Exclusive Backstage Look</a></h2>
+			  					
+									</header><!-- .entry-header -->
+			  				
+											  				
+			  				
+											  				
+			  				
+								<footer class="entry-footer">
+			  					
+									<nav class="action">
+			  						
+										<ul>
+			  						
+														  							
+												<li>
+			  									
+													<a href="http://taylorcutfilms.com/?p=409" title="Permalink to Usher &#8211; Climax (LIVE) Exclusive Backstage Look">&raquo; Read More</a> 
+			  								
+												</li>
+			  							
+														  							
+			  							
+														  							
+										</ul>
+			  						
+									</nav><!-- .action -->
+			  					
+								</footer><!-- .entry-footer -->
+			  				
+							</div><!-- .entry-content -->
+			  		
+									  		
+			  		
+												
+										  		
+									  	
+					</div><!-- .slide -->
+			  
+				</article><!-- .slide-container -->
+			    
+					  
+							  
+				<article class="post-471 post type-post status-publish format-standard hentry category-featured category-uncategorized slide-container entry alignleft dark-on-light" style="background-image: url(http://taylorcutfilms.com/tcf/wp-content/uploads/2012/11/7-940x350.jpg); background-repeat: no-repeat;">
+			  
+					<div class="slide">
+			  	
+									  		
+							<div class="entry-content">
+			  			
+											  				
+									<header class="entry-header">
+			  						
+										<h2><a href="http://taylorcutfilms.com/?p=471" title="Permalink to Timeflies Tuesday &#8211; Say Something">Timeflies Tuesday &#8211; Say Something</a></h2>
+			  					
+									</header><!-- .entry-header -->
+			  				
+											  				
+			  				
+											  				
+			  				
+								<footer class="entry-footer">
+			  					
+									<nav class="action">
+			  						
+										<ul>
+			  						
+														  							
+												<li>
+			  									
+													<a href="http://taylorcutfilms.com/?p=471" title="Permalink to Timeflies Tuesday &#8211; Say Something">&raquo; Read More</a> 
+			  								
+												</li>
+			  							
+														  							
+			  							
+														  							
+										</ul>
+			  						
+									</nav><!-- .action -->
+			  					
+								</footer><!-- .entry-footer -->
+			  				
+							</div><!-- .entry-content -->
+			  		
+									  		
+			  		
+												
+										  		
+									  	
+					</div><!-- .slide -->
+			  
+				</article><!-- .slide-container -->
+			    
+					  
+							  
+				<article class="post-440 post type-post status-publish format-standard hentry category-featured category-uncategorized slide-container entry alignleft dark-on-light" style="background-image: url(http://taylorcutfilms.com/tcf/wp-content/uploads/2012/07/retrospective-site-pic-940x350.jpg); background-repeat: no-repeat;">
+			  
+					<div class="slide">
+			  	
+									  		
+							<div class="entry-content">
+			  			
+											  				
+									<header class="entry-header">
+			  						
+										<h2><a href="http://taylorcutfilms.com/?p=440" title="Permalink to Usher &#8211; &#8220;Looking 4 Myself&#8221; Album Commercial">Usher &#8211; &#8220;Looking 4 Myself&#8221; Album Commercial</a></h2>
+			  					
+									</header><!-- .entry-header -->
+			  				
+											  				
+			  				
+											  				
+			  				
+								<footer class="entry-footer">
+			  					
+									<nav class="action">
+			  						
+										<ul>
+			  						
+														  							
+												<li>
+			  									
+													<a href="http://taylorcutfilms.com/?p=440" title="Permalink to Usher &#8211; &#8220;Looking 4 Myself&#8221; Album Commercial">&raquo; Read More</a> 
+			  								
+												</li>
+			  							
+														  							
+			  							
+														  							
+										</ul>
+			  						
+									</nav><!-- .action -->
+			  					
+								</footer><!-- .entry-footer -->
+			  				
+							</div><!-- .entry-content -->
+			  		
+									  		
+			  		
+												
+										  		
+									  	
+					</div><!-- .slide -->
+			  
+				</article><!-- .slide-container -->
+			    
+					  
+							  
+				<article class="post-362 post type-post status-publish format-standard hentry category-featured category-uncategorized slide-container entry alignleft dark-on-light" style="background-image: url(http://taylorcutfilms.com/tcf/wp-content/uploads/2012/02/03-940x350.jpg); background-repeat: no-repeat;">
+			  
+					<div class="slide">
+			  	
+									  		
+							<div class="entry-content">
+			  			
+											  				
+									<header class="entry-header">
+			  						
+										<h2><a href="http://taylorcutfilms.com/?p=362" title="Permalink to Cris Cab &#8211; Rihanna&#8217;s Gun feat. Mavado &amp; Wyclef (Official Video)">Cris Cab &#8211; Rihanna&#8217;s Gun feat. Mavado &#038; Wyclef (Official Video)</a></h2>
+			  					
+									</header><!-- .entry-header -->
+			  				
+											  				
+			  				
+											  				
+			  				
+								<footer class="entry-footer">
+			  					
+									<nav class="action">
+			  						
+										<ul>
+			  						
+														  							
+												<li>
+			  									
+													<a href="http://taylorcutfilms.com/?p=362" title="Permalink to Cris Cab &#8211; Rihanna&#8217;s Gun feat. Mavado &amp; Wyclef (Official Video)">&raquo; Read More</a> 
+			  								
+												</li>
+			  							
+														  							
+			  							
+														  							
+										</ul>
+			  						
+									</nav><!-- .action -->
+			  					
+								</footer><!-- .entry-footer -->
+			  				
+							</div><!-- .entry-content -->
+			  		
+									  		
+			  		
+												
+										  		
+									  	
+					</div><!-- .slide -->
+			  
+				</article><!-- .slide-container -->
+			    
+					
+		</div><!-- .inner -->
+		
+	</section><!-- #hero -->
+
+
+	
+	
+		
+	
+	
+	<section id="featured" role="contentinfo">
+
+<center><i> <div style="line-height:20px; padding:10px 20px 10px 20px;background-color:#ddd; color:#333;"><strong>Taylor Cut Films</strong> is a digital media and film production company that specializes in shooting and editing music videos, short films, live concerts, and commercials. TCF was created by Jordan Taylor Wright and is based out of the New York / New Jersey area. </div> </i></center>
+
+
+
+				
+			<header class="featured-header">
+			  
+			<center>	<h3 class="section-title">
+			  
+					PORTFOLIO
+			  	
+				</h3><!-- .section-title -->
+			  
+			  </center>
+							  
+			</header><!-- #featured-header -->
+		
+			
+		<div class="entry-container">
+		
+							
+								
+				<article id="post-486" class="post-486 post type-post status-publish format-standard hentry category-featured category-uncategorized entry">
+					
+											
+						
+	<figure class="entry-thumbnail">
+	
+				 
+		  <div class="entry-media">
+		  
+				<a class="inline thumbnail-frame-video" href="#video-486" title="Permalink to Welcome to USHER&#8217;s World (Official Video)"><!-- nothing to see here --></a>
+
+		  			  
+		  		<img width="240" height="140" src="http://taylorcutfilms.com/tcf/wp-content/uploads/2013/07/F3A5203_out-240x140.jpg" class="attachment-thumbnail-wide wp-post-image" alt="_F3A5203_out" />		    
+		  			    
+		  </div><!-- .entry-media -->
+		
+			
+	</figure><!-- .entry-thumbnail -->
+
+
+					
+										
+
+										
+						<header class="entry-header">
+				  	  
+							<div style="a:link{color:#000;}"><h4><a href="http://taylorcutfilms.com/?p=486" title="Permalink to Welcome to USHER&#8217;s World (Official Video)">Welcome to USHER&#8217;s World (Official Video)</a></h4></div>
+				  	
+						</header><!-- .entry-header -->
+					
+										
+					
+										
+					
+										
+						<footer class="entry-footer">
+							
+							<a class="more-link" href="http://taylorcutfilms.com/?p=486" title="Permalink to Welcome to USHER&#8217;s World (Official Video)"><span>Read More &rarr;</span></a>
+						
+						</footer><!-- .entry-footer -->
+					
+										
+				</article><!-- #post-## -->
+				
+				
+				<div class="instant"><div id="video-486" class="instant-view"><iframe src="http://player.vimeo.com/video/68428675" width="900" height="540" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></div>
+			
+							
+								
+				<article id="post-461" class="post-461 post type-post status-publish format-standard hentry category-featured category-uncategorized entry">
+					
+											
+						
+	<figure class="entry-thumbnail">
+	
+				 
+		  <div class="entry-media">
+		  
+				<a class="inline thumbnail-frame-video" href="#video-461" title="Permalink to Usher &#8211; Numb (Official Teaser)"><!-- nothing to see here --></a>
+
+		  			  
+		  		<img width="240" height="140" src="http://taylorcutfilms.com/tcf/wp-content/uploads/2012/10/F3A8090_out1-240x140.jpg" class="attachment-thumbnail-wide wp-post-image" alt="_F3A8090_out" />		    
+		  			    
+		  </div><!-- .entry-media -->
+		
+			
+	</figure><!-- .entry-thumbnail -->
+
+
+					
+										
+
+										
+						<header class="entry-header">
+				  	  
+							<div style="a:link{color:#000;}"><h4><a href="http://taylorcutfilms.com/?p=461" title="Permalink to Usher &#8211; Numb (Official Teaser)">Usher &#8211; Numb (Official Teaser)</a></h4></div>
+				  	
+						</header><!-- .entry-header -->
+					
+										
+					
+										
+					
+										
+						<footer class="entry-footer">
+							
+							<a class="more-link" href="http://taylorcutfilms.com/?p=461" title="Permalink to Usher &#8211; Numb (Official Teaser)"><span>Read More &rarr;</span></a>
+						
+						</footer><!-- .entry-footer -->
+					
+										
+				</article><!-- #post-## -->
+				
+				
+				<div class="instant"><div id="video-461" class="instant-view"><iframe src="http://player.vimeo.com/video/50842790" width="900" height="540" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></div>
+			
+							
+								
+				<article id="post-409" class="post-409 post type-post status-publish format-standard hentry category-featured category-uncategorized entry">
+					
+											
+						
+	<figure class="entry-thumbnail">
+	
+				 
+		  <div class="entry-media">
+		  
+				<a class="inline thumbnail-frame-video" href="#video-409" title="Permalink to Usher &#8211; Climax (LIVE) Exclusive Backstage Look"><!-- nothing to see here --></a>
+
+		  			  
+		  		<img width="240" height="140" src="http://taylorcutfilms.com/tcf/wp-content/uploads/2012/06/F3A9608_out_out-240x140.jpg" class="attachment-thumbnail-wide wp-post-image" alt="_F3A9608_out_out" />		    
+		  			    
+		  </div><!-- .entry-media -->
+		
+			
+	</figure><!-- .entry-thumbnail -->
+
+
+					
+										
+
+										
+						<header class="entry-header">
+				  	  
+							<div style="a:link{color:#000;}"><h4><a href="http://taylorcutfilms.com/?p=409" title="Permalink to Usher &#8211; Climax (LIVE) Exclusive Backstage Look">Usher &#8211; Climax (LIVE) Exclusive Backstage Look</a></h4></div>
+				  	
+						</header><!-- .entry-header -->
+					
+										
+					
+										
+					
+										
+						<footer class="entry-footer">
+							
+							<a class="more-link" href="http://taylorcutfilms.com/?p=409" title="Permalink to Usher &#8211; Climax (LIVE) Exclusive Backstage Look"><span>Read More &rarr;</span></a>
+						
+						</footer><!-- .entry-footer -->
+					
+										
+				</article><!-- #post-## -->
+				
+				
+				<div class="instant"><div id="video-409" class="instant-view"><iframe src="http://player.vimeo.com/video/44687023" width="900" height="540" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></div>
+			
+							
+								
+				<article id="post-471" class="post-471 post type-post status-publish format-standard hentry category-featured category-uncategorized entry">
+					
+											
+						
+	<figure class="entry-thumbnail">
+	
+				 
+		  <div class="entry-media">
+		  
+				<a class="inline thumbnail-frame-video" href="#video-471" title="Permalink to Timeflies Tuesday &#8211; Say Something"><!-- nothing to see here --></a>
+
+		  			  
+		  		<img width="240" height="140" src="http://taylorcutfilms.com/tcf/wp-content/uploads/2012/11/7-240x140.jpg" class="attachment-thumbnail-wide wp-post-image" alt="7" />		    
+		  			    
+		  </div><!-- .entry-media -->
+		
+			
+	</figure><!-- .entry-thumbnail -->
+
+
+					
+										
+
+										
+						<header class="entry-header">
+				  	  
+							<div style="a:link{color:#000;}"><h4><a href="http://taylorcutfilms.com/?p=471" title="Permalink to Timeflies Tuesday &#8211; Say Something">Timeflies Tuesday &#8211; Say Something</a></h4></div>
+				  	
+						</header><!-- .entry-header -->
+					
+										
+					
+										
+					
+										
+						<footer class="entry-footer">
+							
+							<a class="more-link" href="http://taylorcutfilms.com/?p=471" title="Permalink to Timeflies Tuesday &#8211; Say Something"><span>Read More &rarr;</span></a>
+						
+						</footer><!-- .entry-footer -->
+					
+										
+				</article><!-- #post-## -->
+				
+				
+				<div class="instant"><div id="video-471" class="instant-view"><iframe src="//player.vimeo.com/video/84193100" width="900" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
+			
+							
+								
+				<article id="post-440" class="post-440 post type-post status-publish format-standard hentry category-featured category-uncategorized entry">
+					
+											
+						
+	<figure class="entry-thumbnail">
+	
+				 
+		  <div class="entry-media">
+		  
+				<a class="inline thumbnail-frame-video" href="#video-440" title="Permalink to Usher &#8211; &#8220;Looking 4 Myself&#8221; Album Commercial"><!-- nothing to see here --></a>
+
+		  			  
+		  		<img width="240" height="140" src="http://taylorcutfilms.com/tcf/wp-content/uploads/2012/07/retrospective-site-pic-240x140.jpg" class="attachment-thumbnail-wide wp-post-image" alt="retrospective site pic" />		    
+		  			    
+		  </div><!-- .entry-media -->
+		
+			
+	</figure><!-- .entry-thumbnail -->
+
+
+					
+										
+
+										
+						<header class="entry-header">
+				  	  
+							<div style="a:link{color:#000;}"><h4><a href="http://taylorcutfilms.com/?p=440" title="Permalink to Usher &#8211; &#8220;Looking 4 Myself&#8221; Album Commercial">Usher &#8211; &#8220;Looking 4 Myself&#8221; Album Commercial</a></h4></div>
+				  	
+						</header><!-- .entry-header -->
+					
+										
+					
+										
+					
+										
+						<footer class="entry-footer">
+							
+							<a class="more-link" href="http://taylorcutfilms.com/?p=440" title="Permalink to Usher &#8211; &#8220;Looking 4 Myself&#8221; Album Commercial"><span>Read More &rarr;</span></a>
+						
+						</footer><!-- .entry-footer -->
+					
+										
+				</article><!-- #post-## -->
+				
+				
+				<div class="instant"><div id="video-440" class="instant-view"><iframe src="http://player.vimeo.com/video/45152453" width="900" height="540" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></div>
+			
+							
+								
+				<article id="post-362" class="post-362 post type-post status-publish format-standard hentry category-featured category-uncategorized entry">
+					
+											
+						
+	<figure class="entry-thumbnail">
+	
+				 
+		  <div class="entry-media">
+		  
+				<a class="inline thumbnail-frame-video" href="#video-362" title="Permalink to Cris Cab &#8211; Rihanna&#8217;s Gun feat. Mavado &amp; Wyclef (Official Video)"><!-- nothing to see here --></a>
+
+		  			  
+		  		<img width="240" height="140" src="http://taylorcutfilms.com/tcf/wp-content/uploads/2012/02/03-240x140.jpg" class="attachment-thumbnail-wide wp-post-image" alt="03" />		    
+		  			    
+		  </div><!-- .entry-media -->
+		
+			
+	</figure><!-- .entry-thumbnail -->
+
+
+					
+										
+
+										
+						<header class="entry-header">
+				  	  
+							<div style="a:link{color:#000;}"><h4><a href="http://taylorcutfilms.com/?p=362" title="Permalink to Cris Cab &#8211; Rihanna&#8217;s Gun feat. Mavado &amp; Wyclef (Official Video)">Cris Cab &#8211; Rihanna&#8217;s Gun feat. Mavado &#038; Wyclef (Official Video)</a></h4></div>
+				  	
+						</header><!-- .entry-header -->
+					
+										
+					
+										
+					
+										
+						<footer class="entry-footer">
+							
+							<a class="more-link" href="http://taylorcutfilms.com/?p=362" title="Permalink to Cris Cab &#8211; Rihanna&#8217;s Gun feat. Mavado &amp; Wyclef (Official Video)"><span>Read More &rarr;</span></a>
+						
+						</footer><!-- .entry-footer -->
+					
+										
+				</article><!-- #post-## -->
+				
+				
+				<div class="instant"><div id="video-362" class="instant-view">    <iframe src="http://player.vimeo.com/video/36878190" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></div>
+			
+																							<div style="font-style: italic; text-align: right; position: absolute; top: 495px; left: 830px;"> <a href="http://taylorcutfilms.com/?cat=3&paged=2"><strong>More Videos</strong></a></div>
+<div style="font-style: italic; text-align: right; position: absolute; top: 1085px; left: 830px;"> <a href="http://taylorcutfilms.com/?cat=3&paged=2"><strong>More Videos</strong></a></div>
+
+		</div><!-- .entry-container -->
+		
+					
+	</section><!-- #featured -->
+
+
+
+
+	
+
+	
+		<section id="footbar-container" role="complementary">
+		
+			
+<ul id="footbar">
+
+  <li class="column1"><aside id="text-4" class="widget widget_text"><h4 class="widget-title">Contact TCF:</h4>			<div class="textwidget"><strong></strong>
+<center>
+<a href="mailto:Jordan@TaylorCutFilms.com">Jordan@TaylorCutFilms.com</a><br>
+201.320.3665
+<br>
+<img src="tcf/wp-content/uploads/2011/10/logob.png" width="100%"></center></div>
+		</aside></li>
+
+  <li class="column3"><aside id="text-6" class="widget widget_text"><h4 class="widget-title">About Jordan Wright:</h4>			<div class="textwidget"><div style="font-size:14px;">Jordan Taylor Wright has worked with several established artists within the music industry, such as Usher, Wyclef Jean, and Mavado. Before starting up TCF, Wright was a videographer for the TV production company Sharp Entertainment. There he filmed hit reality shows that aired on the Travel Channel, Discovery, Sundance, TLC, Animal Planet, and Food Network. Wright also worked as an editor for Mad Dog Films, where he cut nationally televised commercials. </div></div>
+		</aside></li>
+
+</ul><!-- footbar -->
+
+<div class="clearfix"><!-- nothing to see here --></div>
+
+		
+		</section><!-- #footbar-container -->
+
+		
+	<div class="clearfix"><!-- nothing to see here --></div>
+
+</div><!-- #main-container -->
+
+
+<div id="footer-container">
+		
+	<footer id="footer">
+		
+				
+			<ul id="networking">
+				<li class="text">Connect with TCF: </li>
+				
+				
+				
+								  <li class="twitter ir"><a href="http://twitter.com/taylorcutfilms" title="Twitter.com">Twitter</a></li>
+								
+								  <li class="facebook ir"><a href="http://facebook.com/pages/Wright-Productions/264197496940032?ref=ts&amp;sk=info" title="Facebook.com">Facebook</a></li>
+								
+								
+								  <li class="vimeo ir"><a href="http://vimeo.com/jordantaylorwright" title="Vimeo.com">Vimeo</a></li>
+								
+								  <li class="youtube ir"><a href="http://youtube.com/jwright7788" title="YouTube.com">YouTube</a></li>
+								
+								
+								
+							</ul><!-- .social-networking -->
+		
+				
+		<ul id="role-credits" role="contentinfo">
+						
+		  <li class="copyright">&copy; Copyright 2014 Taylor Cut Films</li>
+		  
+		  		  
+		 
+		</ul><!-- #role-credits -->
+		
+	</footer><!-- #footer -->
+
+</div><!-- #footer-container -->
+	
+
+<script type='text/javascript' src='http://taylorcutfilms.com/tcf/wp-content/uploads/shadowbox-js/cb16c55c226e87619bbc26cef4cc228a.js?ver=3.0.3'></script>
+<script type='text/javascript' src='http://taylorcutfilms.com/tcf/wp-content/themes/debut/js/superfish.js?ver=1.0'></script>
+<script type='text/javascript' src='http://taylorcutfilms.com/tcf/wp-content/themes/debut/js/jquery.easing.js?ver=1.0'></script>
+<script type='text/javascript' src='http://taylorcutfilms.com/tcf/wp-content/themes/debut/js/jquery.cycle.all.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://taylorcutfilms.com/tcf/wp-content/themes/debut/js/fancybox/jquery.fancybox.js?ver=1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var script_options = {"optionsframework_enabled":"1","hero_cycle_speed":"2000","hero_cycle_timeout":"6000","hero_cycle_fx":"scrollHorz"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://taylorcutfilms.com/tcf/wp-content/themes/debut/js/script.js?ver=1.0'></script>
+<script type='text/javascript' src='http://taylorcutfilms.com/tcf/wp-content/themes/debut/js/pushup/pushup.js?ver=1.0'></script>
+
+<!-- Begin Shadowbox JS v3.0.3.10 -->
+<!-- Selected Players: html, iframe, img, qt, swf, wmp -->
+<script type="text/javascript">
+/* <![CDATA[ */
+	var shadowbox_conf = {
+		animate: true,
+		animateFade: true,
+		animSequence: "sync",
+		modal: false,
+		showOverlay: true,
+		overlayColor: "#000",
+		overlayOpacity: "0.8",
+		flashBgColor: "#000000",
+		autoplayMovies: true,
+		showMovieControls: true,
+		slideshowDelay: 0,
+		resizeDuration: "0.35",
+		fadeDuration: "0.35",
+		displayNav: true,
+		continuous: false,
+		displayCounter: true,
+		counterType: "default",
+		counterLimit: "10",
+		viewportPadding: "20",
+		handleOversize: "resize",
+		handleUnsupported: "link",
+		autoDimensions: false,
+		initialHeight: "160",
+		initialWidth: "320",
+		enableKeys: true,
+		skipSetup: false,
+		useSizzle: false,
+		flashParams: {bgcolor:"#000000", allowFullScreen:true},
+		flashVars: {},
+		flashVersion: "9.0.0"
+	};
+	Shadowbox.init(shadowbox_conf);
+/* ]]> */
+</script>
+<!-- End Shadowbox JS -->
+
+
+
+</body>
+</html>

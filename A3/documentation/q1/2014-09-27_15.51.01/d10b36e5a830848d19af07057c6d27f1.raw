@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <!--<meta name="viewport" content="width=device-width" />-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <title>Say What!</title>
+  <meta name="description" content="" />
+
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="/assets/build/build.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <script src="/assets/js/vendor/modernizr.foundation.js"></script>
+
+  <!-- Typekit -->
+  <script type="text/javascript" src="//use.typekit.net/ejz7kik.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+  <header class="header">
+    <div class="row">
+      <div class="twelve columns branding">
+        <a href="/" class="logo">Say What!</a>
+      </div>
+    </div>
+
+    <nav>
+      <div class="row">
+        <div class="twelve columns">
+          <ul id="mainNav">
+
+
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/events">Events</a></li>
+            <li><a href="/media">Media</a></li>
+            <li><a href="/resources">Resources</a></li>
+            <li><a href="/team">Team</a></li>
+            <li><a href="http://app.txsaywhat.com/sign_up">Sign-Up</a></li>
+            <li><a href="http://app.txsaywhat.com">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="darkWrap">
+    <div class="row">
+      <div class="tweleve columns">
+
+        <!--[if lt IE 7]>
+          <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="row">
+          <div class="twelve columns rotatingBanners">
+
+            <div id="bannerCarousel">
+
+              
+
+                
+                
+
+                  <div class="mainBanner row ">
+                    <div class="tweleve columns">
+
+                      <!-- Image To Switch Out -->
+                      <img src="http://txsaywhat.com/uploads/banners/Rotating_Banner_Conf.jpg" width="930" height="360" />
+
+                      <!-- Meta Info About Banner Image -->
+                      <div class="row bannerMeta">
+                        <div class="bannerInfo four columns offset-by-eight end">
+                          <hgroup>
+                            <!-- Heading Line 1 -->
+                            <h2 class="mainHeading">Summer Conference</h2>
+
+                            <!-- Heading Line 2 -->
+                                                        <h3>was the BEST YET!!!</h3>
+                                                      </hgroup>
+
+                          <!-- Blurb -->
+                          <div class="bannerBlurb">
+                            <!-- Formatted input from CMS -->
+                            <p><p>Over 430 students and adults attended the 2014 tobacco-free youth leadership event last summer! </p>
+
+<p>Click here to check out all the pics and videos from the SayWhat! Photo Booth and throughout the week, and start making plans to be there next year!!!</p></p>
+                          </div>
+                        </div> <!-- / bannerInfo -->
+                      </div> <!-- / bannerMeta -->
+
+                      <a class="linkWrap" href="/events/details/conference/">&nbsp;</a>
+                    </div>
+                  </div> <!-- / mainBanner -->
+
+                  
+                
+
+                  <div class="mainBanner row hide">
+                    <div class="tweleve columns">
+
+                      <!-- Image To Switch Out -->
+                      <img src="http://txsaywhat.com/uploads/banners/Rotating_Banner_SayWhat.jpg" width="930" height="360" />
+
+                      <!-- Meta Info About Banner Image -->
+                      <div class="row bannerMeta">
+                        <div class="bannerInfo four columns offset-by-eight end">
+                          <hgroup>
+                            <!-- Heading Line 1 -->
+                            <h2 class="mainHeading">What is Say What! ?</h2>
+
+                            <!-- Heading Line 2 -->
+                                                        <h3>Students, Adults, and Youth Working Hard Against Tobacco!</h3>
+                                                      </hgroup>
+
+                          <!-- Blurb -->
+                          <div class="bannerBlurb">
+                            <!-- Formatted input from CMS -->
+                            <p><p>The youth-led tobacco prevention movement in Texas, Say What! aims to connect and train students and across the state to lead local and statewide efforts to reduce tobacco use and make the Lone Star State safe and healthier for everyone!</p></p>
+                          </div>
+                        </div> <!-- / bannerInfo -->
+                      </div> <!-- / bannerMeta -->
+
+                      <a class="linkWrap" href="/about">&nbsp;</a>
+                    </div>
+                  </div> <!-- / mainBanner -->
+
+                  
+                
+
+                  <div class="mainBanner row hide">
+                    <div class="tweleve columns">
+
+                      <!-- Image To Switch Out -->
+                      <img src="http://txsaywhat.com/uploads/banners/Banner_SummitsComingSoon.jpg" width="930" height="360" />
+
+                      <!-- Meta Info About Banner Image -->
+                      <div class="row bannerMeta">
+                        <div class="bannerInfo four columns offset-by-eight end">
+                          <hgroup>
+                            <!-- Heading Line 1 -->
+                            <h2 class="mainHeading">Say What Summits!</h2>
+
+                            <!-- Heading Line 2 -->
+                                                        <h3>are OVER!!!</h3>
+                                                      </hgroup>
+
+                          <!-- Blurb -->
+                          <div class="bannerBlurb">
+                            <!-- Formatted input from CMS -->
+                            <p><p>Click here to see all the different places we traveled across Texas! Each summit was limited to the first 100 registered Middle School and High School students, so check out what you missed and join us next year for the best FREE YOUTH LEADERSHIP TRAINING in Texas!!!</p></p>
+                          </div>
+                        </div> <!-- / bannerInfo -->
+                      </div> <!-- / bannerMeta -->
+
+                      <a class="linkWrap" href="http://txsaywhat.com/events/details/summits">&nbsp;</a>
+                    </div>
+                  </div> <!-- / mainBanner -->
+
+                  
+                
+
+                  <div class="mainBanner row hide">
+                    <div class="tweleve columns">
+
+                      <!-- Image To Switch Out -->
+                      <img src="http://txsaywhat.com/uploads/banners/Rotating_Banner_TTFKD.jpg" width="930" height="360" />
+
+                      <!-- Meta Info About Banner Image -->
+                      <div class="row bannerMeta">
+                        <div class="bannerInfo four columns offset-by-eight end">
+                          <hgroup>
+                            <!-- Heading Line 1 -->
+                            <h2 class="mainHeading">March 18, 2015</h2>
+
+                            <!-- Heading Line 2 -->
+                                                        <h3>Texas Tobacco-Free Kids Day (TTFKD)</h3>
+                                                      </hgroup>
+
+                          <!-- Blurb -->
+                          <div class="bannerBlurb">
+                            <!-- Formatted input from CMS -->
+                            <p><p>An annual awareness day in Texas that encourages students of all ages to live tobacco-free lifestyles. Say What! encourages all youth groups across Texas to take part in TTFKD 2015!&nbsp; Let us know about the projects your group does March 2015 and become eligible to win a scholarship to the 2015 Say What! Conference in July!</p></p>
+                          </div>
+                        </div> <!-- / bannerInfo -->
+                      </div> <!-- / bannerMeta -->
+
+                      <a class="linkWrap" href="http://www.txsaywhat.com/events/details/ttfkd">&nbsp;</a>
+                    </div>
+                  </div> <!-- / mainBanner -->
+
+                  
+                
+
+              
+
+            </div> <!-- / banners -->
+
+            <!-- Banner Bullets -->
+            <div class="bannerBullets">
+              <div class="one column leftArrow">
+                <a id="carouselPrev" class="arrow" href="#">&nbsp;</a>
+              </div>
+
+              <div class="ten columns bullets">
+                <div class="bulletsWrap">
+                  <ul id="carousel-index">
+                    
+                    
+                      
+                        <li>
+                          <a href="#" data-item='1'>
+                            
+                                <img src="http://txsaywhat.com/uploads/banners/_thumb/Rotating_Banner_Conf.jpg" />
+                            
+                          </a>
+                        </li>
+                                              
+                        <li>
+                          <a href="#" data-item='2'>
+                            
+                                <img src="http://txsaywhat.com/uploads/banners/_thumb/Rotating_Banner_SayWhat.jpg" />
+                            
+                          </a>
+                        </li>
+                                              
+                        <li>
+                          <a href="#" data-item='3'>
+                            
+                                <img src="http://txsaywhat.com/uploads/banners/_thumb/Banner_SummitsComingSoon.jpg" />
+                            
+                          </a>
+                        </li>
+                                              
+                        <li>
+                          <a href="#" data-item='4'>
+                            
+                                <img src="http://txsaywhat.com/uploads/banners/_thumb/Rotating_Banner_TTFKD.jpg" />
+                            
+                          </a>
+                        </li>
+                                              
+                    
+                  </ul>
+                </div>
+              </div>
+
+              <div class="one column rightArrow">
+                <a id="carouselNext" class="arrow" href="#">&nbsp;</a>
+              </div>
+            </div>
+
+          </div> <!-- / columns -->
+        </div> <!-- / row -->
+
+      </div> <!-- / columns -->
+    </div> <!-- / row -->
+  </div> <!-- / darkWrap -->
+
+  <div class="lightWrap main">
+
+    <div class="row">
+      <div class="six columns">
+
+        <div class="row">
+          <div class="twelve columns">
+            
+            <h2><i class="icon-star"></i> Welcome</h2>
+
+            <!-- Dynamic Content from the CMS -->
+            <div class="content">
+              <p>
+	Say What! was created by young people from across Texas and connects students and adults interested in eliminating tobacco from their schools and communities.</p>
+<p>
+	<strong>Why Tobacco Prevention:</strong></p>
+<p>
+	<strong>Stand Up</strong>&nbsp;for what you believe in and promote the real story behind youth and tobacco use.<br />
+	<strong>Speak Up</strong> for the truth about tobacco use at the local level through advocacy activities in your community.<br />
+	<strong>Be Tobacco-Free,</strong> lead by example, and ensure the health of others by working on policy-related activities at the local and statewide level.</p>
+            </div> <!-- / content -->
+
+                        <div class="moreLink right">
+              <a href="http://txsaywhat.com/about">Learn More <i class="icon-right-dir"></i></a>
+            </div>
+            
+            
+          </div> <!-- / columns -->
+
+          <div class="twelve columns">
+            <h2><i class="icon-twitter-bird"></i> Twitter Feed</h2>
+
+            <!-- Dynamic Twitter Feed -->
+            <div class="content">
+	        <a class="twitter-timeline" data-dnt=true href="https://twitter.com/TxSayWhat" data-widget-id="277137554145415168">Tweets by @TxSayWhat</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+          </div> <!-- / columns -->
+
+        </div> <!-- / row -->
+      </div> <!-- close column -->
+
+      <div class="six columns">
+
+        <div class="row">
+          <div class="tweleve columns">
+            
+            <h2><i class="icon-videocam"></i> Featured Video</h2>
+
+            <!-- Dynamic Content from the CMS -->
+            <div class="content">
+              <p>
+	<iframe allowfullscreen="" frameborder="0" height="281" mozallowfullscreen="" scrolling="no" src="//www.youtube.com/embed/uYvqMcJm1fY" webkitallowfullscreen="" width="500"></iframe></p>
+<div class="embed_media">
+	<div class="embed_media">
+		<p>
+			<b>Wanna make a difference? You&#39;ve come to the right place...</b></p>
+	</div>
+</div>
+            </div> <!-- / content -->
+
+                        <div class="moreLink right">
+              <a href="http://txsaywhat.com/about">Learn More <i class="icon-right-dir"></i></a>
+            </div>
+            
+            
+          </div> <!-- / columns -->
+
+          <div class="twelve columns">
+            
+            <h2><i class="icon-light-up"></i> Spotlight</h2>
+
+            <!-- Dynamic Content from the CMS -->
+            <div class="content">
+              <h3>
+	Harlingen Youth Promote Smoking Ordinance &amp; Win</h3>
+<p>
+	The Harlingen Smoke Busters have been advocating for their city to be smoke free during the past few weeks at their city commision meetings. They spoke out about why they believe smoking should not be allowed inside public facilities and on May 28th the commisioners voted to approve the ordinance!&nbsp;</p>
+<p>
+	Way to go Harlingen Smoke Busters!&nbsp;</p>
+<p>
+	<img alt="" src="http://txsaywhat.com/uploads/misc/Smoke_Busters_Speak_at_City_Hall.jpg" style="width: 300px; height: 225px;" /></p>
+<p>
+	<span style="font-size:10px;">Source: <a href="http://www.valleymorningstar.com/news/local_news/article_000a761a-e15d-11e3-9e8d-0017a43b2370.html">Valley Morning Star</a> - originally posted May 29, 2014.</span></p>
+            </div>
+
+                        <div class="moreLink right">
+              <a href="/team/details/troops/spotlight-groups">Learn More <i class="icon-right-dir"></i></a>
+            </div>
+                        
+          </div> <!-- / columns -->
+        </div> <!-- / row -->
+
+      </div> <!-- close column -->
+
+    </div> <!-- / row -->
+
+  </div> <!-- / lightWrap -->
+
+  <div class="darkWrap">
+    <div class="footer">
+      <div class="footerWrapBG">
+        <div class="row">
+          <div class="twelve columns">
+
+            <!-- Footer Navigation -->
+            <div class="row">
+              <div class="three columns pac">
+                <a href="/about/faq">
+                  <span class="pacChar pacUno"></span>
+                  <span class="title"><i class="icon-picture"></i> FAQ</span>
+                </a>
+              </div>
+
+              <div class="three columns pac">
+                <a href="/events">
+                  <span class="pacChar pacDos"></span>
+                  <span class="title"><i class="icon-calendar"></i> Events</span>
+                </a>
+              </div>
+
+              <div class="three columns pac">
+                <a href="/resources">
+                  <span class="pacChar pacTres"></span>
+                  <span class="title"><i class="icon-folder"></i> Resources</span>
+                </a>
+              </div>
+
+              <div class="three columns pac">
+                <a href="/team">
+                  <span class="pacChar pacQuatro"></span>
+                  <span class="title"><i class="icon-users"></i> The Team</span>
+                </a>
+              </div>
+            </div> <!-- / Footer Navigation -->
+          </div> <!-- / columns -->
+        </div> <!-- / row -->
+      </div> <!-- / wrapBG -->
+
+      <div class="footerBranding">
+        <div class="row">
+          <div class="twelve columns">
+            <a href="http://txssc.txstate.edu" class="txsscLogo">http://txssc.txstate.edu</a>
+            <a href="http://www.dshs.state.tx.us" class="dshsLogo">http://www.dshs.state.tx.us</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row fundingStatement">
+        <div class="twelve columns">
+          <p>Say What! was created and designed by young people from across Texas and connects students interested in eliminating tobacco from their schools and communities. The Say What! movement is funded by the Texas Department of State Health Services through a contract with the Texas School Safety Center at Texas State University.</p>
+        </div>
+      </div>
+    </div> <!-- / footer -->
+  </div> <!-- / darkWrap -->
+
+  <!-- Included JS Files (Compressed) -->
+  <script src="/assets/js/vendor/jquery-1.8.2.min.js"></script>
+  <script src="/assets/build/build.js"></script>
+  <!--<script src="/assets/js/vendor/foundation.min.js"></script>-->
+
+  <!-- Initialize JS Plugins -->
+  <script>require('saywhat/boot');</script>
+
+  <!--<script src="/assets/js/app.js"></script>-->
+</body>
+</html>

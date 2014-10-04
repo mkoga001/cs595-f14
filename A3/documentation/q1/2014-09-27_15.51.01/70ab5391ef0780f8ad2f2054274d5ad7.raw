@@ -1,0 +1,856 @@
+
+<!DOCTYPE html>
+
+<html lang="en-US" class="css3transitions">
+ 
+<head>
+
+    <meta charset="UTF-8" />
+
+    <link rel="icon" href="/wp-content/uploads/2013/10/favicon-3.ico" type="image/x-icon">
+    <!-- Title -->
+
+    <title>Greivis Vasquez | </title>
+
+<link rel="stylesheet" href="/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css?v=3.0.1" type="text/css" media="all" />
+
+    <!-- Responsive Meta -->
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+    <!-- Pingback URL -->
+    <link rel="pingback" href="http://www.greivisvasquez.com/xmlrpc.php" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+
+	<!--[if lt IE 9]>
+
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+	<![endif]-->
+
+    
+
+
+<style type="text/css">
+  
+	body{background: #000000 
+
+	
+  
+	}
+  .boxed_layout{background: #000000;}
+
+	input,button,select,textarea,body,span, aside .widget_twitter li,.ui-slider-tabs-list li a span, aside ul li a, nav .menu li ul.sub-menu li a, .skill_title{font-family: Open Sans;  }
+  input,button,select,textarea,body, aside .widget_twitter li, aside ul li a{ font-size: 14px; color:#c8c8c8; font-weight:300 }
+	h1,h2,h3,h4,h5,h6, nav .menu > li > a,.ui-slider-tabs-list li a,.page_intro h1, .kwicks .box p.title, .single-post .single_title{font-family: Oswald}
+  
+
+
+	
+  header#header, .header_3 #navigation, .header_7 #navigation{background: #000000;}
+	h1{font-size: 20px}
+
+	h2{font-size: 18px}
+
+	h3{font-size: 17px}
+
+	h4{font-size: 16px}
+
+	h5{font-size: 15px}
+
+	h6{font-size: 13px}
+
+  .textbar h1{color: #a7aab2;}
+	
+  nav .menu li a{color:#6f585e;}
+  nav .menu li ul.sub-menu li a{color:#888888}
+  nav .menu > li > ul.sub-menu, nav .menu > li > ul.sub-menu ul, .themeple_custom_menu_mega_menu{background:#000000}
+  nav .menu li > ul.sub-menu li{background-color:#000000}
+  nav .menu li ul.sub-menu li:hover>a, nav .menu li ul.sub-menu li li:hover>a{color:#fff;}
+  .sticky_menu{background: #000000;}
+  .services_medium .icon_wrapper:hover{border:1px solid #000000 !important;}
+  .top_nav, #slider-fullwidth, nav .menu li > ul.sub-menu li, .blog-article, .grid_row, .comment, #slider-fixed.section_active, .single_content .metas dl, .tabbable.style_1.tabs-top .nav-tabs, .tabbable.style_1.tabs-left .nav-tabs li:last-child, .tabbable.style_2.tabs-left, .plain_text .big_title, ul.default_list li, ol.default_list li, .header_1 header#header, .header_2 header#header, .header_3 header#header, .header_4 header#header, .header_5 header#header, .header_6 header#header, .header_7 header#header, .header_3 #navigation, .header_7 #navigation, .header_7 #navigation .menu>li, .header_8 header#header, #woocommerce .product .price, ul.products .product .price, .ordering-container .dropdown ul li a, header#header .cart .content .cart_item, .sticky_menu .cart .content .cart_item,.section-style, .with_text_thumbnail .flex-text-thumbnail li, .side-nav li, .side-nav .children li{border-bottom:1px solid #282828;}
+  .wp-caption, .sticky, .single-post .tags_social a.ctag, .single-post .prev, .single-post .next, #portfolio-filter ul li,#faq-filter ul li, #portfolio-filter .nav a, #faq-filter .nav a, #blog-filter ul li, #blog-filter .nav a, .single_content .prev, .single_content .next, .count_to, .tabbable.style_2.tabs-top .tab-content, .p_pagination .nav-previous a, .p_pagination .nav-next a, .p_pagination .pagi a,  .quantity, .variations .value select, .ordering-container .order li a, .ordering-container .dropdown .current-li, .woocommerce-pagination ul li a, .woocommerce-pagination ul li span.current, .woocommerce .cart-collaterals .shipping_calculator,.woocommerce-page .cart-collaterals .shipping_calculator, .woocommerce .cart-collaterals .cart_totals,.woocommerce-page .cart-collaterals .cart_totals, .woocommerce table.shop_table,.woocommerce-page table.shop_table, .coupon input.input-text, .shipping-calculator-form select, #customer_login .col-1, #customer_login .col-2, .checkout .tab-content .tab-pane, #edit_address .col2-set.addresses .col-1, #edit_address .col2-set.addresses .col-2, .checkout .tab-content .tab-pane, #myaccount .tab-content, .edit_address_form, .woocommerce .widget_layered_nav ul li.chosen a,.woocommerce-page .widget_layered_nav ul li.chosen a , .woocommerce .widget_layered_nav_filters ul li a,.woocommerce-page .widget_layered_nav_filters ul li a , .container #bbp_search, .side-nav  {border:1px solid #282828;}
+  .header_5_body .header_page, .tabbable.style_1 .nav-tabs li, .tabbable.style_1.tabs-left .nav-tabs li, .tabbable.style_1.tabs-left .nav-tabs li:hover, .tabbable.style_1.tabs-left .nav-tabs li.active, .tabbable.style_2 .nav-tabs li, .tabbable.style_2.tabs-left li, .tabbable.style_2.tabs-left .nav-tabs li:hover , .tabbable.style_2.tabs-left .nav-tabs li.active, .tabbable.style_2 .tab-content, .header_3 #navigation .menu>li, .header_7 #navigation .menu>li, .product-category h3, .woocommerce .cart-collaterals .cart_totals table,.woocommerce-page .cart-collaterals .cart_totals table, .woocommerce .cart-collaterals .cart_totals tr td,.woocommerce-page .cart-collaterals .cart_totals tr td,.woocommerce .cart-collaterals .cart_totals tr th,.woocommerce-page .cart-collaterals .cart_totals tr th, .woocommerce table.shop_table td,.woocommerce-page table.shop_table td, .woocommerce table.shop_table tfoot td,.woocommerce-page table.shop_table tfoot td,.woocommerce table.shop_table tfoot th,.woocommerce-page table.shop_table tfoot th, .menu-small ul.menu li, .section-style, .side-nav .children  {border-top:1px solid #282828;}
+  .with_text_thumbnail .flex-text-thumbnail li, .tabbable.style_1 .nav-tabs li, .tabbable.style_1.tabs-left .nav-tabs li, .tabbable.style_2.tabs-left, .tabbable.style_2 .nav-tabs li, .tabbable.style_2.tabs-left li, .tabbable.style_2.tabs-left .tab-content, .header_2 nav .menu>li>a, .header_3 #navigation .menu>li>a, .header_7 #navigation .menu>li>a, .ordering-container .dropdown ul li a, .accordion.style_2{border-left:1px solid #282828;}
+  .with_text_thumbnail .flex-text-thumbnail li:last-child, .tabbable.style_1.tabs-left .nav-tabs, .tabbable.style_1 .nav-tabs li:last-child, .tabbable.style_2.tabs-left, .tabbable.style_2.tabs-left .nav-tabs, .tabbable.style_2 .nav-tabs li:last-child, .quantity .minus, .quantity .qty, ul.products .product .add_to_cart_button, ul.products .product .product_type_variable, ul.products .product .product_type_grouped, .ordering-container .dropdown ul li a, .woocommerce .cart-collaterals .cart_totals th, .woocommerce table.shop_table th,.woocommerce-page table.shop_table th, .woocommerce table.shop_table td,.woocommerce-page table.shop_table td, .accordion.style_2, .widget_recent_content .tabbable.tabs-top.style_1 .nav-tabs li.active{border-right:1px solid #282828;} 
+  .divider__.solid_border{background:#282828;}
+  .container #bbpress-forums ul.bbp-lead-topic, #bbpress-forums ul.bbp-topics, #bbpress-forums ul.bbp-forums, #bbpress-forums ul.bbp-search-results, .bbp-login-form .bbp-username input, .bbp-login-form .bbp-email input, .bbp-login-form .bbp-password input, #bbpress-forums fieldset.bbp-form, #bbpress-forums legend, .code,  .contact_form input,.contact_form select, .contact_form textarea{border:1px solid #282828 !important;}
+  #bbpress-forums li.bbp-body ul.forum, #bbpress-forums li.bbp-body ul.topic{border-top:1px solid #282828 !important;}
+  .top_nav .little_icon i {color: #53565f}
+  .top_nav .widget{border-left:1px solid #3a3c42;}
+  .right_search_container .more{background-color:#ce0f42 } 
+  .gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit]{background: #ce0f42;}
+  .creative_header h1{color: #000000;}
+
+  .single-post .tags_social .shares li,.accordion.style_3 .accordion-heading,.one-staff .social_widget ul li, #respond input[type="text"],.header_1_body .top_nav .social_widget ul li, .header_3_body .top_nav .social_widget ul li, #respond textarea, aside #s,.header_6_body .top_nav .social_widget ul li,.header_7_body .top_nav .social_widget ul li , .row-dynamic-el .pagination a,.row-fluid .pagination a, .themeple_sc .header .pagination a , .services_medium .icon_wrapper, .header_9_body .top_nav .social_widget ul li, .header_10_body .top_nav .social_widget ul li, header#header .cart .cart_icon, header .right_search, .sticky_menu .right_search,.sticky_menu .cart .cart_icon, .shipping-calculator-form input[type='text'], #customer_login input[type='text'], #customer_login input[type='password'], #customer_login input[type='email'], .checkout input[type='text'],.checkout_coupon input[type='text'],.edit_address_form input[type='text'], #customer_login input[type='password'], #customer_login input[type='email'], #myaccount input[type='password'], aside select, aside input, aside .tagcloud a {border:1px solid #dbdee4;}
+  .single-post .tags_social .shares li i, .services_medium i, .one-staff .social_widget ul li i, ul.default_list.check li:before, ul.default_list.icon li i, ol.default_list, .header_1_body .top_nav .social_widget ul li i, .header_3_body .top_nav .social_widget ul li i, .header_6_body .top_nav .social_widget ul li i,.header_7_body .top_nav .social_widget ul li i, .header_9_body .top_nav .social_widget ul li i, .header_10_body .top_nav .social_widget ul li i, header#header .cart .cart_icon i, header .right_search i, .sticky_menu .right_search i, .sticky_menu .cart .cart_icon i {color:#dbdee4;}
+  .accordion.style_1 .accordion-heading{border-left:1px solid #dbdee4;border-right:1px solid #dbdee4;border-bottom:1px solid #dbdee4;}
+  .accordion.style_2 .accordion-group{border-left:1px solid #dbdee4;border-right:1px solid #dbdee4;}
+  .accordion.style_2 .accordion-heading, .accordion.style_2 .accordion-inner, .accordion.style_3 .accordion-inner{border-top:1px solid #dbdee4;}
+  .accordion.style_2 .accordion-group:last-child, .accordion.style_3 .accordion-group:last-child .accordion-heading {border-bottom:1px solid  #dbdee4;}
+  
+  .textbar-container {background: #31000d }
+
+  .header_1_body .top_nav, .header_3_body .top_nav, .header_6_body .top_nav, .header_7_body .top_nav, .header_9_body .top_nav, .header_10_body .top_nav{ background: #ffffff;color: #a60933;}
+  .header_1_body .top_nav{border-top:2px solid #ce0f42;}
+
+  .header_1 nav .menu li.current-menu-item > a, .header_1 nav .menu li.current-menu-parent > a, .header_1 nav .menu li.current-menu-ancestor > a{color: #ce0f42;}
+  .header_1 nav .menu li.current-menu-item > a:before, .header_1 nav .menu li.current-menu-parent > a:before, .header_1 nav .menu li.current-menu-ancestor > a:before{background:#ce0f42;}
+  
+  .down_m nav .menu li.current-menu-item.hasSubMenu:after, .down_m nav .menu li.current-menu-parent.hasSubMenu:after{color: #ce0f42;}
+
+  .header_2 nav .menu li.current-menu-item > a, .header_2 nav .menu li.current-menu-parent > a, .header_2 nav .menu li.current-menu-ancestor > a{color: #ce0f42;}
+  
+  .header_3_body .top_nav{border-top:2px solid #ce0f42;}
+  .header_3 #navigation .menu > li.current-menu-item,  .header_3 #navigation .menu > li.current-menu-parent,  .header_3 #navigation .menu > li.current-menu-ancestor{border-top:1px solid #ce0f42;}
+  .header_3 nav .menu li.current-menu-item > a, .header_3 nav .menu li.current-menu-parent > a, .header_3 nav .menu li.current-menu-ancestor > a{color: #ce0f42;}
+
+  .header_4_body .top_nav{background: #ce0f42;}
+  .header_4 nav .menu > li.current-menu-item > a, .header_4 nav .menu > li.current-menu-parent > a, .header_4 nav .menu > li.current-menu-ancestor > a{border:1px solid #ce0f42;}
+  .header_4 nav .menu li.current-menu-item > a, .header_4 nav .menu li.current-menu-parent > a, .header_4 nav .menu li.current-menu-ancestor > a{color: #ce0f42;}
+
+  .header_5 nav .menu > li.current-menu-item > a, .header_5 nav .menu > li.current-menu-parent > a, .header_5 nav .menu > li.current-menu-ancestor > a{border-bottom:2px solid #ce0f42;}
+  header#header.header_5{border-top:2px solid #ce0f42;}
+  .header_5 nav .menu li.current-menu-item > a, .header_5 nav .menu li.current-menu-parent > a, .header_5 nav .menu li.current-menu-ancestor > a{color: #ce0f42;}
+  
+  .header_6 nav .menu > li.current-menu-item > a:before, .header_6 nav .menu > li.current-menu-parent > a:before, .header_6 nav .menu > li.current-menu-ancestor > a:before{color:#ce0f42;}
+  .header_6 nav .menu li.current-menu-item > a, .header_6 nav .menu li.current-menu-parent > a, .header_6 nav .menu li.current-menu-ancestor > a{color: #ce0f42;}
+  
+  .header_7 nav .menu li.current-menu-item > a, .header_7 nav .menu li.current-menu-parent > a, .header_7 nav .menu li.current-menu-ancestor > a{color: #ce0f42;} 
+  .header_7 #navigation .menu > li.current-menu-item,  .header_7 #navigation .menu > li.current-menu-parent,  .header_7 #navigation .menu > li.current-menu-ancestor{border-top:1px solid #ce0f42;border-bottom:1px solid #ce0f42;}
+  .header_7_body .top_nav{border-top:2px solid #ce0f42;}
+
+  header#header.header_8{border-top:2px solid #ce0f42;}
+  .header_8 #navigation .menu > li.current-menu-item,  .header_8 #navigation .menu > li.current-menu-parent,  .header_8 #navigation .menu > li.current-menu-ancestor{background:#ce0f42;}
+
+  .header_9 #navigation .menu > li.current-menu-item,  .header_9 #navigation .menu > li.current-menu-parent  .header_9 #navigation .menu > li.current-menu-ancestor{background:#ce0f42;}
+
+  .header_10_body .top_nav{border-top:2px solid #ce0f42;}
+  .list_portfolio .portfolio-info a, .blog-article h1 a:hover, .blog-article  a.read_m, aside ul li a:hover,  .with_text_thumbnail .flex-text-thumbnail li.flex-active h5, .services_small .link, .accordion.style_1 .accordion-heading.in_head .accordion-toggle, .accordion.style_2 .accordion-heading.in_head .accordion-toggle,  .accordion.style_3 .accordion-heading.in_head .accordion-toggle, .carousel_blog li.blog-article h4 a:hover, .carousel_blog li.blog-article .readmore, .desc .readmore, .recent_news .news-article a.readmore, .recent_news .news-article.style_1 dd h4 a:hover, .services_medium_box .content_box h2 a:hover, .data_visualization i, .services_medium a.link, .portfolio-item .show_text h4 a:hover, nav .menu li ul.sub-menu li.current-menu-item > a, #woocommerce .product .price span, ul.products .product .price span, .star-rating, ul.products .product .links a:hover, ul.products .product .links a:before:hover, .variations .reset_variations:hover, .product .loading_ef i, .cart .content .cart_item .description .price, .woocommerce table.shop_table .product-subtotal span, .cart_totals .total strong, .edit, .myaccount_user a, .widget_shopping_cart ul li .quantity, .widget_shopping_cart .buttons a, footer.type_skin_color .tweet_list dt i{color:#ce0f42;}
+  footer#footer.type_skin_color .inner, footer#footer.type_skin_color #copyright, #portfolio-filter ul li.active,#faq-filter ul li.active, #blog-filter ul li.active, .p_pagination .pagi a.selected, aside .tagcloud a:hover, .single-post .tags_social a.ctag:hover, #respond input[type="submit"], .ui-slider-tabs-list li, .ui-slider-tabs-list, .accordion.style_4 .accordion-heading.in_head, .btn-system, .wpcf7-submit, .skill .prog, .onsale, .product .added_to_cart, .woocommerce-pagination ul li span.current, .cart .cart_icon_active, .cart .checkout, .woocommerce .widget_price_filter .ui-slider .ui-slider-handle,.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle, .ui-slider-tabs-list li.selected, .ui-slider-left-arrow, .ui-slider-right-arrow, .ui-slider-left-arrow.edge:hover, .ui-slider-right-arrow.edge:hover{background:#ce0f42;}
+  #portfolio-filter ul li:hover,#faq-filter ul li:hover, #blog-filter ul li:hover, .p_pagination .nav-previous a:hover, .p_pagination .nav-next a:hover, .p_pagination .pagi a:hover, aside .tagcloud a:hover, .single-post .tags_social a.ctag:hover, .single-post .prev:hover, .single-post .next:hover,.single_content .prev:hover, .single_content .next:hover, .woocommerce-pagination ul li a:hover, .cart .cart_icon_active{border:1px solid #ce0f42;}
+  .cart_icon_active{border:1px solid #ce0f42 !important;}
+  .flex-text-thumbnail li.flex-active{border-top:2px solid #ce0f42 !important;}
+  .accordion.style_1 .accordion-heading.in_head, .accordion.style_2 .accordion-heading.in_head, .tabbable.style_1 .nav-tabs li.active,  .tabbable.style_2 .nav-tabs li.active, .tabbable.style_3 .nav-tabs li.active, .cart .content{border-top:1px solid #ce0f42;}
+  .accordion.style_4 .accordion-heading.in_head{border-bottom:1px solid #ce0f42;}
+  .tabbable.style_1.tabs-left .nav-tabs li.active, .tabbable.style_2.tabs-left .nav-tabs li.active, .tabbable.style_3.tabs-left .nav-tabs li.active, .tabbable.style_3.tabs-left .nav-tabs li.active:first-child{border-left:1px solid #ce0f42;}
+    .chart_skill i.base{background: -webkit-linear-gradient(#fcdbad, #ce0f42);}
+  .tpl2 .bg,  .blog_masonry .blog-article .bar_info, .services_medium_box .icon_box, .services_medium .icon_wrapper .overlay, .services_list dt, .swiper-slide.woocommerce-slide .overlay, .woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content,.woocommerce-page .widget_price_filter .price_slider_wrapper .ui-widget-content{
+    background: rgba(252, 219, 173, 0.95) ; /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(252, 219, 173, 0.95) 0%, rgba(206,15, 66, 0.95)  100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252, 219, 173, 0.95)), color-stop(100%,rgba(206,15, 66, 0.95))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(252, 219, 173, 0.95) 0%,rgba(206,15, 66, 0.95) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(252, 219, 173, 0.95) 0%,rgba(206,15, 66, 0.95) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(252, 219, 173, 0.95) 0%,rgba(206,15, 66, 0.95) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(252, 219, 173, 0.95) 0%,rgba(206,15, 66, 0.95) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(252, 219, 173, 0.95)', endColorstr='rgba(206,15, 66, 0.95)',GradientType=0 ); /* IE6-9 */
+  }
+
+  .gradient{ background: rgba(252, 219, 173, 0.95) ; /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(252, 219, 173, 0.90) 0%, rgba(206,15, 66, 0.90)  100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252, 219, 173, 0.90)), color-stop(100%,rgba(206,15, 66, 0.95))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(252, 219, 173, 0.90) 0%,rgba(206,15, 66, 0.90) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(252, 219, 173, 0.90) 0%,rgba(206,15, 66, 0.90) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(252, 219, 173, 0.90) 0%,rgba(206,15, 66, 0.90) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(252, 219, 173, 0.90) 0%,rgba(206,15, 66, 0.90) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(252, 219, 173, 0.90)', endColorstr='rgba(206,15, 66, 0.90)',GradientType=0 ); /* IE6-9 */}
+
+  .btn-system.gradient:hover{ 
+  	background: -moz-linear-gradient(top,  rgba(252, 219, 173, 0.90) 0%, rgba(206,15, 66, 0.90)  100%) !important; /* FF3.6+ */
+    background: -webkit-gradient(linear, top left, bottom left, color-stop(0%,rgba(252, 219, 173, 0.90)), color-stop(100%,rgba(206,15, 66, 0.90))) !important; /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(bottom,  rgba(252, 219, 173, 0.90) 0%,rgba(206,15, 66, 0.90) 100%) !important; /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(bottom,  rgba(252, 219, 173, 0.90) 0%,rgba(206,15, 66, 0.90) 100%) !important; /* Opera 11.10+ */
+    background: -ms-linear-gradient(bottom,  rgba(252, 219, 173, 0.90) 0%,rgba(206,15, 66, 0.90) 100%) !important; /* IE10+ */
+    background: linear-gradient(to top,  rgba(252, 219, 173, 0.90) 0%,rgba(206,15, 66, 0.90) 100%) !important; /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(252, 219, 173, 0.90)', endColorstr='rgba(206,15, 66, 0.90)',GradientType=0 ) !important; /* IE6-9 */}
+  .scrollup:hover{background-color: rgba(206,15, 66, 1) !important;}
+  textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus{border-color:#ce0f42 !important;}
+  .themeple_sc .themeple_blockquote{border-left:4px solid #ce0f42;}
+  .bbp-pagination-links .page-numbers.current{background:#ce0f42 !important;}
+  .bbp-pagination-links a:hover{border:1px solid #ce0f42 !important;}
+  #portfolio-preview-items .portfolio-item.v3 .link:hover, .woocommerce-slide .overlay .link:hover{background:#fcdbad;}
+  .price_1_col.level-max .header .title{background:#ce0f42 !important;}
+  .price_1_col.level-max .header .price, .price_1_col.level-max .header .period{background:#fcdbad !important;}
+  #portfolio-preview-items .portfolio-item.v1 .link:hover, .carousel_blog li.blog-article .tpl2 a.link:hover, .recent_news .news-article .tpl2 a.link:hover, #blog .blog-article .tpl2 a.link:hover{background-color:#fcdbad !important;}
+  .price_1_col.level-max .header .period{color:#ce0f42 !important;}
+  .bbp-forum-title{color:#ce0f42}
+  mark{background-color:#ce0f42;}
+  #bbp_search_submit{background-color:#ce0f42}
+  .bbp-topic-permalink, .menu-small ul li.current-menu-item a{color:#ce0f42  !important;}
+  nav .menu li ul.sub-menu, nav .themeple_custom_menu_mega_menu{border-top:1px solid #ce0f42;}
+  #bbpress-forums .button.submit, aside .bbp-login-form .button.submit{background-color:#ce0f42 ;}
+  .container .bbp-body .sticky .bbp-topic-permalink:before, .container .bbp-body .super-sticky .bbp-topic-permalink:before {color:#ce0f42}
+  aside .widget_recent_content ul li.active a{color:#ce0f42 !important;}
+
+  .accordion.style_1 .accordion-heading.in_head .accordion-toggle, .accordion.style_2 .accordion-heading.in_head .accordion-toggle {
+    background:url('http://fortis7.moutheme.com/wp-content/themes/fortis7/img/toggle_1_open.png') no-repeat 10px center;
+  }
+  .accordion.style_3 .accordion-heading.in_head .accordion-toggle {
+    background:url('http://fortis7.moutheme.com/wp-content/themes/fortis7/img/toggle_3_open.png') no-repeat right center;
+  }
+  .side-nav .current_page_parent > a, .side-nav .current_page_item > a{color:#ce0f42;}
+  .recent_portfolio .desc .readmore, .latest_blog .desc .readmore, .carousel_blog li.blog-article .readmore, .services_medium a.link, .services_small .link, .recent_news .news-article a.readmore {background:url('http://fortis7.moutheme.com/wp-content/themes/fortis7/img/small_right_c.png') no-repeat center right;}
+  .services_list ul li{background: url('http://fortis7.moutheme.com/wp-content/themes/fortis7/img/small_right_c.png') no-repeat left center;}
+  .list_portfolio .portfolio-info a, .blog-article a.read_m{background:url('http://fortis7.moutheme.com/wp-content/themes/fortis7/img/small_right_c.png') right center no-repeat;}
+  .skill{background:#41434b;}
+  .row-dynamic-el .header h6,.themeple_sc .header h6 {color: #bec2cc;}
+  .row-dynamic-el .header:before,.themeple_sc .header:before{background: #3a3c42;}
+  .page_intro h1{color: #a7aab2;}
+  .services_medium_box .content_box, .side-nav .page_item_has_children .children, .side-nav .children li, .tabbable.style_3 .tab-content{background:#41434b}
+  .circle_testimonial p , .code{background:#41434b; ?>}
+  .single_testimonial dd{background:#41434b;}
+  aside h6.widget-title{color:#fff}
+  .colored_second, .with_white_background{color: #ce0f42 !important;}
+  .with_colored_background{background:#ce0f42 !important;}
+   
+   </style>
+
+
+ 		
+        
+
+
+        
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:100,400,300,500,600,300italic' rel='stylesheet' type='text/css' />
+
+        
+        
+        <link href='http://fonts.googleapis.com/css?family=Oswald:100,400,300,500,600,700,300italic' rel='stylesheet' type='text/css' />
+
+ 		
+ 		 
+	
+ <script type='text/javascript'>
+ /* <![CDATA[ */  
+var themeple_global = { 
+ 	ajaxurl: 'http://www.greivisvasquez.com/wp-admin/admin-ajax.php'
+ 	}; 
+ /* ]]> */ 
+ </script>
+ 
+ <link rel="alternate" type="application/rss+xml" title="Greivis Vasquez &raquo; Feed" href="http://www.greivisvasquez.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Greivis Vasquez &raquo; Comments Feed" href="http://www.greivisvasquez.com/comments/feed/" />
+<link rel='stylesheet' id='mailchimpSF_main_css-css'  href='http://www.greivisvasquez.com/?mcsf_action=main_css&#038;ver=3.7.4' type='text/css' media='all' />
+<!--[if IE]>
+<link rel='stylesheet' id='mailchimpSF_ie_css-css'  href='/wp-content/plugins/mailchimp/css/ie.css?ver=3.7.4' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='layerslider_css-css'  href='/wp-content/plugins/LayerSlider/css/layerslider.css?ver=4.6.6' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-settings-css'  href='/wp-content/plugins/revslider/rs-plugin/css/settings.css?rev=4.0.5&#038;ver=3.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-captions-css'  href='/wp-content/plugins/revslider/rs-plugin/css/dynamic-captions.css?rev=4.0.5&#038;ver=3.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-static-css'  href='/wp-content/plugins/revslider/rs-plugin/css/static-captions.css?rev=4.0.5&#038;ver=3.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='/wp-content/themes/fortis7/style.css?ver=3.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-responsive-css'  href='/wp-content/themes/fortis7/css/bootstrap-responsive.css?ver=3.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelementplayer-css'  href='/wp-content/themes/fortis7/css/mediaelementplayer.css?ver=3.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery.fancybox-css'  href='/wp-content/themes/fortis7/fancybox/source/jquery.fancybox.css?v=2.1.2&#038;ver=3.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='hoverex-css'  href='/wp-content/themes/fortis7/css/hoverex-all.css?ver=3.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='vector-icons-css'  href='/wp-content/themes/fortis7/css/vector-icons.css?ver=3.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery.easy-pie-chart-css'  href='/wp-content/themes/fortis7/css/jquery.easy-pie-chart.css?ver=3.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='idangerous.swiper-css'  href='/wp-content/themes/fortis7/css/idangerous.swiper.css?ver=3.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='showbiz-css'  href='/wp-content/themes/fortis7/css/showbiz.css?ver=3.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery.sliderTabscss-css'  href='/wp-content/themes/fortis7/css/jquery.sliderTabs.css?ver=3.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='kwicks_css-css'  href='/wp-content/themes/fortis7/css/kwicks.css?ver=3.7.4' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.greivisvasquez.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://www.greivisvasquez.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='/wp-content/plugins/LayerSlider/js/layerslider.kreaturamedia.jquery.js?ver=4.6.6'></script>
+<script type='text/javascript' src='/wp-content/plugins/LayerSlider/js/jquery-easing-1.3.js?ver=1.3.0'></script>
+<script type='text/javascript' src='/wp-content/plugins/LayerSlider/js/jquerytransit.js?ver=0.9.9'></script>
+<script type='text/javascript' src='/wp-content/plugins/LayerSlider/js/layerslider.transitions.js?ver=4.6.6'></script>
+<script type='text/javascript' src='/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.plugins.min.js?rev=4.0.5&#038;ver=3.7.4'></script>
+<script type='text/javascript' src='/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?rev=4.0.5&#038;ver=3.7.4'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/jquery.easy-pie-chart.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/jquery.appear-1.1.1.modified.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/modernizr.custom.66803.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/jquery.countTo.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/animations.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/megafolio/jquery.themepunch.plugins.min.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/megafolio/jquery.themepunch.megafoliopro.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/showbiz/jquery.themepunch.showbizpro.min.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/active_slider/jquery.roundabout2.js?ver=1'></script>
+<script type='text/javascript' src='http://www.greivisvasquez.com/wp-includes/js/comment-reply.min.js?ver=3.7.4'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/jquery.countdown.min.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/waypoints.min.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/idangerous.swiper-2.0.min.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/jquery.sliderTabs.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/kwicks/kwicks.js?ver=1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.greivisvasquez.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.greivisvasquez.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.7.4" />
+<link rel='shortlink' href='http://www.greivisvasquez.com/?p=162' />
+<meta name="generator" content="WPML ver:3.0.1 stt:1,2;0" />
+<link rel="alternate" hreflang="en-US" href="http://www.greivisvasquez.com" />
+<link rel="alternate" hreflang="es-ES" href="http://www.greivisvasquez.com?lang=es" />
+
+<style type="text/css">                                                                                    
+</style><style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('/wp-content/uploads/2014/01/bgbgbg.jpg'); background-repeat: no-repeat; background-position: top left; background-attachment: fixed; }
+</style>
+
+</head>
+
+<!-- End of Header -->
+
+<body  class="home page page-id-162 page-template-default custom-background header_1_body dark_version fullwidth_slider_page">
+
+    <div class="sticky_menu header_1">
+        <div class="container">
+            <div id="navigation" class="nav_top ">
+                <nav>
+                <ul id="menu-main-menu" class="menu themeple_megemenu"><li id="menu-item-2698" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-162 current_page_item"><a href="http://www.greivisvasquez.com/">Home</a></li>
+<li id="menu-item-2734" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.greivisvasquez.com/updates/">Updates</a></li>
+<li id="menu-item-2732" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.greivisvasquez.com/aboutgreivis/">About Greivis</a></li>
+<li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.greivisvasquez.com/gallery/">Photo Gallery</a></li>
+<li id="menu-item-2844" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.greivisvasquez.com/videos/">Videos</a></li>
+<li id="menu-item-2749" class="menu-item menu-item-type-custom menu-item-object-custom"><a target="_blank" href="http://www.nba.com/playerfile/greivis_vasquez/index.html?nav=page">Stats</a></li>
+<li id="menu-item-2748" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.greivisvasquez.com/camp/">Camp</a></li>
+<li id="menu-item-2746" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.greivisvasquez.com/contact/">Contact</a></li>
+</ul>                </nav>
+            </div><!-- #navigation -->
+            
+             <!-- Search -->
+
+            
+                    <div class="header_search">
+                        <div class="right_search">
+                            <i class="moon-search-2"></i>
+                        </div>
+                        <div class="right_search_container">
+<form action="http://www.greivisvasquez.com" id="search-form">
+                            <div class="input-append">
+                                <input type="text" size="16" placeholder="Search&hellip;" name="s" id="s"><button type="submit" class="more">Search</button>
+                            	<a href="#" class="close_"><i class="moon-close"></i></a>
+                            </div>
+</form> </div> 
+                    </div>
+                                                    <!-- End Search-->
+
+        </div>
+    </div>
+<!-- Used for boxed layout -->
+        
+
+    <!-- Start Top Navigation -->
+        <div class="top_nav">
+        
+        <div class="container">
+            <div class="row-fluid">
+                <div class="span4">
+                    <div class="pull-left">
+                                            </div>
+                </div>
+                <div class="span8">
+                    <div class="pull-right">
+                        <div id="social_widget-2" class="widget social_widget"><div class="row-fluid social_row"><div class="span12"><ul class="footer_social_icons"><li class="twitter"><a href="http://www.twitter.com/greivisvasquez"><i class="moon-twitter"></i></a></li><li class="facebook"><a href="http://www.facebook.com/greivisvasquez"><i class="moon-facebook"></i></a></li></ul></div></div></div><div id="icl_lang_sel_widget" class="widget icl_languages_selector"><div id="lang_sel"  >
+    <ul>
+        <li><a href="#" class="lang_sel_sel icl-en">
+                            
+            <img  class="iclflag" src="/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="en"  title="English" />                                
+            &nbsp;English</a>                                    
+            <ul>
+                                                <li class="icl-es">          
+                    <a href="http://www.greivisvasquez.com?lang=es">
+                                    
+                    <img  class="iclflag" src="/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png" alt="es" title="Español" />&nbsp;                    
+                                        Español                    </a>
+                </li>
+                            </ul>            
+             
+                    </li>
+    </ul>    
+</div>
+</div>                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- End of Top Navigation -->
+
+    
+
+    <!-- Page Background used for background images -->
+    <div id="page-bg"><img src="/wp-content/uploads/2013/10/bgbgbg1.jpg" alt="" /></div>
+    
+        
+    <!-- Header BEGIN -->
+    <div  class="header_wrapper header_1">
+        <header id="header" class="">
+
+            <div class="container">
+        	   <div class="row-fluid">
+                    <div class="span12">
+                        
+                        <!-- Logo -->
+                                                <div id="logo" class="">
+                            <a href='http://www.greivisvasquez.com/'><img src=/wp-content/uploads/2013/10/gvlogo.png alt='' /></a>                            <span class="logo_desc"></span>   
+                        </div>
+                        <!-- #logo END -->
+    			         
+                         
+                                                 
+
+
+                        <!-- Woocommerce Cart -->
+                                                <!-- End Woocommerce Cart -->
+
+
+                        <!-- Search -->
+
+                        
+                                <div class="header_search">
+                                    <div class="right_search">
+                                        <i class="moon-search-2"></i>
+                                    </div>
+                                    <div class="right_search_container">
+<form action="http://www.greivisvasquez.com" id="search-form">
+                            <div class="input-append">
+                                <input type="text" size="16" placeholder="Search&hellip;" name="s" id="s"><button type="submit" class="more">Search</button>
+                            	<a href="#" class="close_"><i class="moon-close"></i></a>
+                            </div>
+</form> </div> 
+                                </div>
+                                                    <!-- End Search-->
+
+
+                        <!-- Show for all header expect header 4 -->
+    			                     			         
+                                 <div id="navigation" class="nav_top pull-right  ">
+                                    <nav>
+                                    <ul id="menu-main-menu-1" class="menu themeple_megemenu"><li id="menu-item-2698" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-162 current_page_item"><a href="http://www.greivisvasquez.com/">Home</a></li>
+<li id="menu-item-2734" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.greivisvasquez.com/updates/">Updates</a></li>
+<li id="menu-item-2732" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.greivisvasquez.com/aboutgreivis/">About Greivis</a></li>
+<li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.greivisvasquez.com/gallery/">Photo Gallery</a></li>
+<li id="menu-item-2844" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.greivisvasquez.com/videos/">Videos</a></li>
+<li id="menu-item-2749" class="menu-item menu-item-type-custom menu-item-object-custom"><a target="_blank" href="http://www.nba.com/playerfile/greivis_vasquez/index.html?nav=page">Stats</a></li>
+<li id="menu-item-2748" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.greivisvasquez.com/camp/">Camp</a></li>
+<li id="menu-item-2746" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.greivisvasquez.com/contact/">Contact</a></li>
+</ul>                                    </nav>
+                                </div><!-- #navigation -->
+                                
+    			                                  <!-- End custom menu here -->
+    		    	     <a href="#" class="mobile_small_menu open"></a>
+                    </div>
+                </div>
+
+                
+              
+            </div>
+            
+
+        </header>
+
+         
+
+                        <div class="header_shadow"><span class="shadow3"></span></div>
+                <!-- Responsive Menu -->
+        <div class="menu-small">
+	
+	<ul id="menu-main-menu-2" class="menu themeple_megemenu"><li id="menu-item-2698" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-162 current_page_item"><a href="http://www.greivisvasquez.com/">Home</a></li>
+<li id="menu-item-2734" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.greivisvasquez.com/updates/">Updates</a></li>
+<li id="menu-item-2732" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.greivisvasquez.com/aboutgreivis/">About Greivis</a></li>
+<li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.greivisvasquez.com/gallery/">Photo Gallery</a></li>
+<li id="menu-item-2844" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.greivisvasquez.com/videos/">Videos</a></li>
+<li id="menu-item-2749" class="menu-item menu-item-type-custom menu-item-object-custom"><a target="_blank" href="http://www.nba.com/playerfile/greivis_vasquez/index.html?nav=page">Stats</a></li>
+<li id="menu-item-2748" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.greivisvasquez.com/camp/">Camp</a></li>
+<li id="menu-item-2746" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.greivisvasquez.com/contact/">Contact</a></li>
+</ul>	
+</div>        <!-- End Responsive Menu -->
+    </div>
+    <div class="top_wrapper">
+            
+                                <span class="slider-img"></span>
+
+                                <section id="slider-fullwidth"  class="slider">
+                                       
+                            <script type="text/javascript">var lsjQuery = jQuery;</script><script type="text/javascript" src="/wp-content/plugins/LayerSlider/js/layerslider.kreaturamedia.jquery.js?ver=4.6.6"></script>
+<script type="text/javascript" src="/wp-content/plugins/LayerSlider/js/jquery-easing-1.3.js?ver=1.3.0"></script>
+<script type="text/javascript" src="/wp-content/plugins/LayerSlider/js/jquerytransit.js?ver=0.9.9"></script>
+<script type="text/javascript">
+lsjQuery(document).ready(function() {
+                if(typeof lsjQuery.fn.layerSlider == "undefined") { lsShowNotice('layerslider_1','jquery'); }
+                    else if(typeof lsjQuery.transit == "undefined" || typeof lsjQuery.transit.modifiedForLayerSlider == "undefined") { lsShowNotice('layerslider_1', 'transit'); }
+                        else {
+                            lsjQuery("#layerslider_1").layerSlider({
+                                width : '1100px',
+                                height : '460px',
+                                responsive : true,
+                                responsiveUnder : 0,
+                                sublayerContainer : 0,
+                                autoStart : true,
+                                pauseOnHover : true,
+                                firstLayer : 1,
+                                animateFirstLayer : true,
+                                randomSlideshow : false,
+                                twoWaySlideshow : true,
+                                loops : 0,
+                                forceLoopNum : true,
+                                autoPlayVideos : true,
+                                autoPauseSlideshow : 'auto',
+                                youtubePreview : 'maxresdefault.jpg',
+                                keybNav : true,
+                                touchNav : true,
+                                skin : 'defaultskin',
+                                skinsPath : '/wp-content/plugins/LayerSlider/skins/',
+navPrevNext : true,
+                                navStartStop : false,
+                                navButtons : false,
+                                hoverPrevNext : true,
+                                hoverBottomNav : false,
+                                showBarTimer : false,
+                                showCircleTimer : true,
+                                thumbnailNavigation : 'hover',
+                                tnWidth : 100,
+                                tnHeight : 60,
+                                tnContainerWidth : '60%',
+                                tnActiveOpacity : 35,
+                                tnInactiveOpacity : 100,
+                                imgPreload : true,
+                        		yourLogo : false,
+                                yourLogoStyle : 'left: 10px; top: 10px;',
+                                yourLogoLink : false,
+                                yourLogoTarget : '_self',
+                                cbInit : function(element) { },
+                                cbStart : function(data) { },
+                                cbStop : function(data) { },
+                                cbPause : function(data) { },
+                                cbAnimStart : function(data) { },
+                                cbAnimStop : function(data) { },
+                                cbPrev : function(data) { },
+                                cbNext : function(data) { }
+                            });
+                        }
+            });
+        </script><div id="layerslider_1" class="ls-wp-container" style="width: 1100px; height: 460px; margin: 0px auto; "><div class="ls-layer"  style="slidedirection: right; slidedelay: 5000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; timeshift: 0; transition2d: 11; "><img src="/wp-content/uploads/2014/01/gv1.jpg" class="ls-bg" alt="Slide background"><img class="ls-s-1"  src="/wp-content/uploads/2014/01/gv2.jpg"  style="position: absolute; top: -5px; left: 212px; slidedirection : fade;   durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; "><img class="ls-s-1"  src="/wp-content/uploads/2014/01/gv32.png"  style="position: absolute; top: 75px; left: 45px; slidedirection : left;   durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 800; delayout : 0; showuntil : 0; "></div><div class="ls-layer"  style="slidedirection: right; slidedelay: 5000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; timeshift: 0; transition2d: 9; "><img src="/wp-content/uploads/2014/01/gv4.jpg" class="ls-bg" alt="Slide background"></div><div class="ls-layer"  style="slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; timeshift: 0; transition2d: 66; "><img src="/wp-content/uploads/2014/01/gv41.jpg" class="ls-bg" alt="Slide background"></div></div>
+                                         
+             </section>
+                
+<!-- .header -->    
+
+       
+    <section id="content" class="page-dynamic_template-test sequentialchildren  ">
+                
+            <div class="row-fluid">
+                       
+            
+               <div class="span12">
+               
+        <div class="row-fluid row-dynamic-el " style="">
+
+<div class="container">
+
+<div class="row-fluid">
+
+<div class="span9 recent_portfolio  animate_onoffset"><div class="header">    <h6>Featured</h6><div class="pagination"><a href="#" class="prev"></a><a href="#" class="next"></a></div></div><section id="portfolio-preview-items" class="row four-cols rows_1"><div class="carousel carousel_portfolio">      
+       <!-- Portfolio Normal Mode -->
+       
+                 <div class="portfolio-item  v3" data-id="2924">
+                                        <div class="he-wrap tpl2">
+                                                                                    <img src="/wp-content/uploads/2013/11/gvtwitter-514x360.jpg" alt="">
+                                            <div class="shape4"></div>
+                                                                                                                                                                                                       <div class="overlay he-view">
+                                            <div class="bg a0" data-animate="fadeIn">
+                                                <div class="center-bar v1">
+                                                    <a href="/wp-content/uploads/2013/11/gvtwitter.jpg" class="link a0 lightbox-gallery lightbox" data-animate="zoomIn"><i class="moon-search-3"></i></a></a>
+                                                    <a href="http://www.twitter.com/greivisvasquez" class="link a0" data-animate="zoomIn"><i class="moon-link-4"></i></a></a>
+                                                </div>
+                                            </div>
+                                             
+                                        </div>   
+                                            
+                                            
+                                                
+                                     </div>   
+
+                                                                             <div class="show_text">
+                                            <h4><a href="http://www.twitter.com/greivisvasquez">Twitter</a></h4>
+                                            <span class="cat"></span>
+                                            <p>Follow @GreivisVasquez on Twitter.</p>
+                                        </div>
+                                            
+                                        
+                                           
+                        </div>
+
+                    <!-- Portfolio Normal Mode End -->
+       
+        
+
+
+      
+
+
+
+
+
+
+
+      
+       <!-- Portfolio Normal Mode -->
+       
+                 <div class="portfolio-item  v3" data-id="353">
+                                        <div class="he-wrap tpl2">
+                                                                                    <img src="/wp-content/uploads/2013/11/gv_instagram_f-514x360.jpg" alt="">
+                                            <div class="shape4"></div>
+                                                                                                                                                                                                       <div class="overlay he-view">
+                                            <div class="bg a0" data-animate="fadeIn">
+                                                <div class="center-bar v1">
+                                                    <a href="/wp-content/uploads/2013/11/gv_instagram_f.jpg" class="link a0 lightbox-gallery lightbox" data-animate="zoomIn"><i class="moon-search-3"></i></a></a>
+                                                    <a href="http://instagram.com/greivisvasquez" class="link a0" data-animate="zoomIn"><i class="moon-link-4"></i></a></a>
+                                                </div>
+                                            </div>
+                                             
+                                        </div>   
+                                            
+                                            
+                                                
+                                     </div>   
+
+                                                                             <div class="show_text">
+                                            <h4><a href="http://instagram.com/greivisvasquez">Instagram</a></h4>
+                                            <span class="cat"></span>
+                                            <p>Follow @GreivisVasquez on Instagram</p>
+                                        </div>
+                                            
+                                        
+                                           
+                        </div>
+
+                    <!-- Portfolio Normal Mode End -->
+       
+        
+
+
+      
+
+
+
+
+
+
+
+      
+       <!-- Portfolio Normal Mode -->
+       
+                 <div class="portfolio-item  v3" data-id="352">
+                                        <div class="he-wrap tpl2">
+                                                                                    <img src="/wp-content/uploads/2013/11/gvshoe-514x360.jpg" alt="">
+                                            <div class="shape4"></div>
+                                                                                                                                                                                                       <div class="overlay he-view">
+                                            <div class="bg a0" data-animate="fadeIn">
+                                                <div class="center-bar v1">
+                                                    <a href="/wp-content/uploads/2013/11/gvshoe.jpg" class="link a0 lightbox-gallery lightbox" data-animate="zoomIn"><i class="moon-search-3"></i></a></a>
+                                                    <a href="http://www.underarmour.com/shop/us/en/sports/basketball/mens" class="link a0" data-animate="zoomIn"><i class="moon-link-4"></i></a></a>
+                                                </div>
+                                            </div>
+                                             
+                                        </div>   
+                                            
+                                            
+                                                
+                                     </div>   
+
+                                                                             <div class="show_text">
+                                            <h4><a href="http://www.underarmour.com/shop/us/en/sports/basketball/mens">Under Armour</a></h4>
+                                            <span class="cat"></span>
+                                            <p>Check out the gear Greivis wears.</p>
+                                        </div>
+                                            
+                                        
+                                           
+                        </div>
+
+                    <!-- Portfolio Normal Mode End -->
+       
+        
+
+
+      
+
+
+
+
+
+
+
+</div></section></div>
+
+<div class="span3"><div class="header"><h6>twitter</h6></div><aside><div class="dyn_widget"><div id="widget_twitter-2" class="widget widget_twitter"><ul class='tweet_list'><dl><dt><i class="moon-twitter"></i></dt><dd><span class="message">RT <a class="twitter-link" href="http://twitter.com/enlapizarra">@enlapizarra</a>: <a class="twitter-link" href="http://search.twitter.com/search?q=Entrevista">#Entrevista</a> Greivis Vásquez <a class="twitter-link" href="http://twitter.com/greivisvasquez">@greivisvasquez</a> quiere invertir en <a class="twitter-link" href="http://search.twitter.com/search?q=Venezuela">#Venezuela</a> (+fotos) <a href="http://t.co/y0DvVT2Lgg" class="twitter-link">http://t.co/y0DvVT2Lgg</a> <a href="http://t.co/dwU5" class="twitter-link">http://t.co/dwU5</a>…<span><span class="date">September 27, 2014 - 3:51 pm</span></dd></dl><dl><dt><i class="moon-twitter"></i></dt><dd><span class="message">Toronto- Canada <a class="twitter-link" href="http://search.twitter.com/search?q=TeamVasquez">#TeamVasquez</a> <a href="http://t.co/YUuaeVUvAN" class="twitter-link">http://t.co/YUuaeVUvAN</a><span><span class="date">September 27, 2014 - 3:53 am</span></dd></dl></ul></div></div></aside></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="row-fluid row-dynamic-el  fourth_space" style="">
+
+<div class="container">
+
+<div class="row-fluid">
+
+<div class="divider__ solid_border"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="row-fluid row-dynamic-el " style="">
+
+<div class="container">
+
+<div class="row-fluid">
+
+<div class="span12 clients_el"><div class="header">    <h6>Partners</h6><div class="pagination"><a href="#" class="prev"></a><a href="#" class="next"></a></div></div><section class="row clients clients_caro">                    <div class="item">
+                                                    <a href="http://www.underarmour.com/shop/us/en/sports/basketball/mens"  rel="tooltip" title="Under Armour">
+                                                        <img src="/wp-content/uploads/2013/10/ua.jpg" alt="" >
+                                                        
+                                                    </a>
+                                                </div>                    <div class="item">
+                                                    <a href="http://www.gatorade.com"  rel="tooltip" title="Gatorade">
+                                                        <img src="/wp-content/uploads/2013/10/gatorade.jpg" alt="" >
+                                                        
+                                                    </a>
+                                                </div></section></div>
+
+</div>
+
+</div>
+
+</div>                
+                </div>
+             
+                    </div>
+             </section>
+ <a href="#" class="scrollup">Scroll</a> 
+ <!-- Social Profiles -->
+    
+
+<!-- Footer -->
+    </div>
+
+
+    <div class="footer_wrapper ">
+	
+   
+
+    <footer id="footer" class="type_dark">
+        
+
+    	<div class="inner">
+	    	<div class="container">
+	        	<div class="row-fluid ff">
+                
+                	<!-- widget -->
+		        	                        <div class="span3">
+                        
+                            		<div id="recent-posts-3" class="widget widget_recent_entries">		<h6 class="widget-title">Recent Posts</h6>		<ul>
+					<li>
+				<a href="http://www.greivisvasquez.com/toronto-raptor-greivis-vasquez-embraces-role-as-pan-am-ambassador/">Toronto Raptor Greivis Vasquez embraces role as Pan Am ambassador</a>
+						</li>
+					<li>
+				<a href="http://www.greivisvasquez.com/greivis-vasquez-top-10-plays-last-season/">Greivis Vasquez Top 10 Plays 2013-14 Season</a>
+						</li>
+					<li>
+				<a href="http://www.greivisvasquez.com/greivis-vasquez-was-selected-mvp-of-the-south-american-and-dedicates-victory-to-venezuela/">Greivis Vasquez was selected MVP of the South American and dedicates victory to Venezuela</a>
+						</li>
+				</ul>
+		</div>                            
+                        </div>
+                        
+                        
+                        
+                         
+                                                <div class="span3">
+                        
+                            <div id="archives-3" class="widget widget_archive"><h6 class="widget-title">Archives</h6>		<ul>
+			<li><a href='http://www.greivisvasquez.com/2014/09/'>September 2014</a></li>
+	<li><a href='http://www.greivisvasquez.com/2014/07/'>July 2014</a></li>
+	<li><a href='http://www.greivisvasquez.com/2014/04/'>April 2014</a></li>
+	<li><a href='http://www.greivisvasquez.com/2014/03/'>March 2014</a></li>
+	<li><a href='http://www.greivisvasquez.com/2014/02/'>February 2014</a></li>
+	<li><a href='http://www.greivisvasquez.com/2014/01/'>January 2014</a></li>
+	<li><a href='http://www.greivisvasquez.com/2013/12/'>December 2013</a></li>
+		</ul>
+</div>                            
+                        </div>
+                        
+                        
+                        
+                         
+                                                <div class="span3">
+                        
+                            <div id="search-3" class="widget widget_search"><h6 class="widget-title">Search</h6>
+<form action="http://www.greivisvasquez.com" id="search-form">
+                            <div class="input-append">
+                                <input type="text" size="16" placeholder="Search&hellip;" name="s" id="s"><button type="submit" class="more">Search</button>
+                            	<a href="#" class="close_"><i class="moon-close"></i></a>
+                            </div>
+</form></div>                            
+                        </div>
+                        
+                        
+                        
+                         
+                                                <div class="span3">
+                        
+                            <div id="text-2" class="widget widget_text">			<div class="textwidget"></div>
+		</div>                            
+                        </div>
+                        
+                        
+                        
+                         
+                                            
+	            </div>
+	        </div>
+        </div>
+        
+        <div id="copyright">
+	    	<div class="container">
+	        	<div class="row-fluid">
+		        	<div class="span12"><img src="http://greivisvasquez.com.php53-9.dfw1-1.websitetestlink.com/wp-content/themes/fortis7/img/copyright_logo-3.png" />Copyright 2014 Greivis Vasquez. All Rights Reserved.                        <div class="pull-right">
+                                                   </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div><!-- #copyright -->
+
+    </footer><!-- #footer -->
+</div>
+
+
+                <div id="lang_sel_footer">
+                    <ul>
+                        <li><a href="http://www.greivisvasquez.com" class="lang_sel_sel"><img src="/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="English" class="iclflag" title="English"  />&nbsp;English</a></li>
+                        <li><a href="http://www.greivisvasquez.com?lang=es"><img src="/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png" alt="Español" class="iclflag" title="Español"  />&nbsp;Español</a></li>
+                    </ul>
+                </div><script type='text/javascript' src='/wp-content/plugins/wp-retina-2x/js/retina.js?ver=1.1.0'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/bootstrap.min.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/jquery.easing.1.1.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/jquery.easing.1.3.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/jquery.mobilemenu.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/isotope.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/jquery.cycle.all.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/customSelect.jquery.min.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/jquery.flexslider-min.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/fancybox/source/jquery.fancybox.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/fancybox/source/helpers/jquery.fancybox-media.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/jquery.carouFredSel-6.1.0-packed.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/mediaelement-and-player.min.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/tooltip.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/jquery.hoverex.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/main.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/jquery.placeholder.min.js?ver=1'></script>
+<script type='text/javascript' src='/wp-content/themes/fortis7/js/jquery.livequery.js?ver=1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var icl_vars = {"current_language":"en","icl_home":"http:\/\/www.greivisvasquez.com"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js?ver=3.7.4'></script>
+</body>
+</html>

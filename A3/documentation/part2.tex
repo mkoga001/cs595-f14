@@ -1,0 +1,119 @@
+\section{Problem 2}
+\label{par21}
+\subsection*{Question}
+\begingroup
+
+\begin{verbatim}
+2.  Choose a query term (e.g., "shadow") that is not a stop word
+(see week 4 slides) and not HTML markup from step 1 (e.g., "http")
+that matches at least 10 documents (hint: use "grep" on the processed
+files).  If the term is present in more than 10 documents, choose
+any 10 from your list.  (If you do not end up with a list of 10
+URIs, you've done something wrong).
+
+As per the example in the week 4 slides, compute TFIDF values for
+the term in each of the 10 documents and create a table with the
+TF, IDF, and TFIDF values, as well as the corresponding URIs.  The
+URIs will be ranked in decreasing order by TFIDF values.  For
+example:
+
+Table 1. 10 Hits for the term "shadow", ranked by TFIDF.
+
+TFIDF	TF	IDF	URI
+-----	--	---	---
+0.150	0.014	10.680	http://foo.com/
+0.085	0.008	10.680	http://bar.com/
+
+
+You can use Google or Bing for the DF estimation.  To count the
+number of words in the processed document (i.e., the deonminator
+for TF), you can use "wc":
+
+% wc -w www.cnn.com.processed
+    2370 www.cnn.com.processed
+
+It won't be completely accurate, but it will be probably be
+consistently inaccurate across all files.  You can use more 
+accurate methods if you'd like.  
+
+Don't forget the log base 2 for IDF, and mind your significant
+digits!
+
+\end{verbatim}
+\newpage
+\subsection{Solution}
+
+I choose the keyword "music" for my search. So searching for the term "music" yielded quite a few results. This was done with the following command, which also selects out the tops 10 for use in this question
+
+\begin{lstlisting}[frame=single]
+grep -i music *.processed | awk -F: '{print $1}' | \
+sort | uniq -c | sort -rn | head -n 10
+\end{lstlisting}
+
+Which returned:
+\begin{lstlisting}[frame=single]
+ 70 849eb65c56a594275d14344d5dbe8129.processed
+ 54 d56232cb8ce6fe9624ec90451435ab94.processed
+ 53 403420845ed7e9e3d3fcccc69b21a30f.processed
+ 41 ab69c40500d93f26154d61b41b584465.processed
+ 40 bdc1fcffc976b155b83cb489c3c50382.processed
+ 39 d871b4a90834a0b1369bf3bf5dae503f.processed
+ 38 b4a4921e1ae50ea861e2b9c0db2bf666.processed
+ 38 98097117c84edd657e374d07c6ea86cb.processed
+ 36 5d410b78a0056341523ab8e6322331a0.processed
+ 34 a4d210430013cb5caa4295c96c127569.processed
+\end{lstlisting}
+
+
+ This gives us raw term frequency for these files but does not give us the word count so we can normalize it. to get the word count for the calculation I have written a small shell program which gives the word count for each file and gets the respective URI.
+
+\lstinputlisting[language=bash, frame=single, caption={Shell Program for wordcount of each file and to get URI}, label=lst:q1script, captionpos=b, numbers=left, showspaces=false, showstringspaces=false, basicstyle=\footnotesize]{q2/wordcnt.sh}
+
+ This give the output as follows 
+\begin{lstlisting}[frame=single,breaklines=true]
+2058 70 849eb65c56a594275d14344d5dbe8129 http://www.xxlmag.com
+4680 54 d56232cb8ce6fe9624ec90451435ab94 http://www.soundclick.com/bands/default.cfm?bandID=1350875
+1601 53 403420845ed7e9e3d3fcccc69b21a30f http://www.bet.com
+320 41 ab69c40500d93f26154d61b41b584465 https://soundcloud.com/scorpios4music
+766 40 bdc1fcffc976b155b83cb489c3c50382 http://www.kaskademusic.com
+1878 39 d871b4a90834a0b1369bf3bf5dae503f http://runthetrap.com
+789 38 b4a4921e1ae50ea861e2b9c0db2bf666 http://TrueMusicInHipHop.blogspot.com/
+1293 38 98097117c84edd657e374d07c6ea86cb http://music.iamlights.com/
+2071 36 5d410b78a0056341523ab8e6322331a0 http://www.famoushollywoodbay.com
+3408 34 a4d210430013cb5caa4295c96c127569 http://www.ew.com/ew/
+\end{lstlisting}
+ The Above output gives the word count for each file followed by the occurrence of the word music and the file name followed by the URI.
+\newpage
+
+To generate the TDF we need to know the files that have the term "music" in it out of the total files in the corpus. so to get the number of files that have the key word i executed the following command.That gives the output as 235.
+
+\begin{lstlisting}[frame=single]
+grep -i music *.processed | awk -F: '{print $1}' | sort | uniq -c | wc -l
+\end{lstlisting}
+
+To calculate the TF,IDF,TFDIF value i have written a small python code which give the output in a table. The program is as follows.
+
+\lstinputlisting[language=python, frame=single, caption={Python Program for calculating  TF,IDF,TFDIF of each URI}, label=lst:q1script, captionpos=b, numbers=left, showspaces=false, showstringspaces=false, basicstyle=\footnotesize]{q2/word_analysis.py}
+
+\begin{enumerate}
+
+\item To calculate the IDF value \[
+\log_2 \left( \frac{total docs in corpus}{docs with term} \right) = \log_2 \left( \frac{1007}{235} \right) 
+\]
+\item Here the total docs in corpus is the total number of files in which we are search for a particular keyword. so i have 1007 files in which i am intended to search for "music".
+\item And the "docs with term" is the number of files which have the key word "music", in this case its 235 out of 1007 files. 
+\item So by the above values the IDF is calculated in the program.
+\item The TF values is Count of keyword times the count of word in the files. 
+\item As the TF and IDF are calculated its easy to calculate TFIDF value just by multiplying them.
+\item Initially I rounded the decimal value to 4 digits but later on i rounded it to two decimal so that it makes the calculations easier in the Problem 4. 
+\end{enumerate}
+
+\subsection{Result}
+\subsubsection{Resul with 4 decimal places.}
+\verbatiminput{q2/q2finaltable.txt}
+\subsubsection{Resul with 2 decimal places.}
+\verbatiminput{q2/q2finaltable-2.txt}
+
+
+
+

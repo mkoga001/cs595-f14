@@ -1,0 +1,135 @@
+\section{Problem 3}
+\label{part3}
+\subsection{Problem 3}
+\begin{verbatim}
+3.  Now rank the same 10 URIs from question #2, but this time 
+by their PageRank.  Use any of the free PR estimaters on the web,
+such as:
+
+http://www.prchecker.info/check_page_rank.php
+http://www.seocentro.com/tools/search-engines/pagerank.html
+http://www.checkpagerank.net/
+
+If you use these tools, you'll have to do so by hand (they have
+anti-bot captchas), but there is only 10.  Normalize the values
+they give you to be from 0 to 1.0.  Use the same tool on all 10
+(again, consistency is more important than accuracy).
+
+Create a table similar to Table 1:
+
+Table 2.  10 hits for the term "shadow", ranked by PageRank.
+
+PageRank	URI
+--------	---
+0.9		http://bar.com/
+0.5		http://foo.com/
+
+Briefly compare and contrast the rankings produced in questions 2
+and 3.
+\end{verbatim}
+\newpage
+\subsection{Solution}
+\begin{enumerate}
+\item Using the URI's acquired form Question 2, I put each into one of the suggested Page Rank Calculators. 
+\item Unsurprisingly three websites gave different results for each URI. They seem like they have different data for each sites.We can observe this from Table 1.   
+\item So I picked up the values got from PR checker as the Page Ranks for each Website. And I normalized with N/A and Error with 0.0. Table 2 shows the Normalized Ranks for each Website.  
+\item Table 3 contains the PageRank and TFIDF values for comparison
+\item For this set of URI's, doesn't seem to be a whole lot of correlation between PageRank and TFIDF. 
+\item The URI with the highest TFIDF of 0.27 has a PageRank of 0.0 and the page with the lowest TFIDF of 0.02 had a PageRank of 0.7 or 0.0
+
+\end{enumerate}
+
+\newpage
+\begin{table}
+\small
+\begin{tabular}{ | p{2.0cm} | p{2.4cm} | p{2.0cm} | p{8.0cm} | }
+\hline
+\textbf{Check PageRank} & \textbf{SEO Central} & \textbf{PR Checker} & \textbf{URI} \\
+\hline
+6/10 & 5/10 & 6/10  & \url{http://www.xxlmag.com } \\
+\hline
+INVALID DOMAIN & undef & N/A & \url{ http://www.soundclick.com/bands/default.cfm?bandID=1350875} \\
+\hline
+0/10 & 6/10 & 6/10 & \url{ http://www.bet.com} \\
+\hline
+INVALID DOMAIN & 2/10 & ERROR & \url{ https://soundcloud.com/scorpios4music} \\
+\hline 
+5/10 & 5/10 & 5/10 & \url{ http://www.kaskademusic.com/} \\
+\hline
+3/10 & 3/10 & 3/10 & \url{http://runthetrap.com} \\
+\hline
+0/10 & undef & N/A & \url{ http://TrueMusicInHipHop.blogspot.com} \\
+\hline
+5/10 & 5/10 & 5/10 & \url{ http://music.iamlights.com} \\
+\hline
+0/10 & undef & N/A & \url{ http://www.famoushollywoodbay.com/} \\
+\hline
+INVALID DOMAIN & 7/10 & 7/10 &\url{ http://www.ew.com/ew/} \\
+\hline
+\end{tabular}
+\caption{PageRank of URIs containing the word \emph{music}, based on the CheckPageRank, SEO Central, and PR Checker Page Rank services}
+\label{table:q3-1}
+\end{table}
+
+\begin{table}
+\small
+\begin{tabular}{ | p{2.4cm} | p{8.0cm} | }
+\hline
+\textbf{PAGE RANK} & \textbf{URI} \\
+\hline
+0.6  & \url{http://www.xxlmag.com } \\
+\hline
+0.0 & \url{ http://www.soundclick.com/bands/default.cfm?bandID=1350875} \\
+\hline
+0.6 & \url{ http://www.bet.com} \\
+\hline
+0.0 & \url{ https://soundcloud.com/scorpios4music} \\
+\hline 
+0.5 & \url{ http://www.kaskademusic.com/} \\
+\hline
+0.3 & \url{http://runthetrap.com} \\
+\hline
+0.0 & \url{ http://TrueMusicInHipHop.blogspot.com} \\
+\hline
+0.5 & \url{ http://music.iamlights.com} \\
+\hline
+0.0 & \url{ http://www.famoushollywoodbay.com/} \\
+\hline
+0.7 &\url{ http://www.ew.com/ew/} \\
+\hline
+\end{tabular}
+\caption{Normalized PageRank of URIs containing the word \emph{music}, based on the PR Checker Page Rank services}
+\label{table:q3-2}
+\end{table}
+\begin{table}
+\small
+\begin{tabular}{ | p{2.4cm} | p{2.4cm} | p{8.0cm} | }
+\hline
+\textbf{TFIDF} & \textbf{PAGE RANK} & \textbf{URI}  \\
+\hline
+0.02 & 0.7 &\url{ http://www.ew.com/ew/} \\
+\hline
+0.07 & 0.6  & \url{http://www.xxlmag.com } \\
+\hline
+0.07 & 0.6 & \url{ http://www.bet.com} \\
+\hline
+0.11 & 0.5 & \url{ http://www.kaskademusic.com/} \\
+\hline
+0.06 & 0.5 & \url{ http://music.iamlights.com} \\
+\hline
+0.04 & 0.3 & \url{http://runthetrap.com} \\
+\hline
+0.02 & 0.0 & \url{ http://www.soundclick.com/bands/default.cfm?bandID=1350875} \\
+\hline
+0.27 & 0.0 & \url{ https://soundcloud.com/scorpios4music} \\
+\hline 
+0.10 & 0.0 & \url{ http://TrueMusicInHipHop.blogspot.com} \\
+\hline
+0.04 & 0.0 & \url{ http://www.famoushollywoodbay.com/} \\
+
+
+\hline
+\end{tabular}
+\caption{PageRank of URIs containing the word \emph{football}, based on the PR Checker Page Rank service, with \emph{Not available} replaced with $0$ and all other values normalized, sorted by decreasing PageRank}
+\label{table:q3-3}
+\end{table}

@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        
+        <meta charset="utf-8">
+        <title>Batman & Bullwinkle</title>
+        
+        <meta name="description" content="Posts dedicated to the ever-loving &amp; hilarious fandom of Supernatural. Enjoy, Assbutts!">
+        
+        
+        
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_0f5a771ed70a_128.png">
+        <link rel="apple-touch-icon-precomposed" href="http://33.media.tumblr.com/avatar_0f5a771ed70a_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://batmanandbullwinkle.tumblr.com/rss">
+        
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/PuGmmhqcs/normalize.css">
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/qE8n2yg06/optica-icons.css">
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/lu6nbykui/main.css">
+
+        <!-- HTML5 Shiv -->
+        <!--[if lt IE 9]>
+            <script src="http://static.tumblr.com/hriofhd/Qj0m8pn7q/html5shiv.js"></script>
+        <![endif]-->
+
+        <style>
+            /* Colors */
+            body {
+                background: #f6f6f6;
+            }
+
+            h1 {
+                font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+                font-weight: bold;
+            }
+
+            h1 a,
+            .description,
+            .search-header {
+                color: #444444;
+            }
+
+            .h-line {
+                background: #444444;
+            }
+
+            a {
+                color: #529ecc;
+            }
+            
+            #pagination a,
+            .exposed-nav-wrapper li a {
+                color: #529ecc;
+            }
+
+            #pagination a.next:after {
+                border-left-color: #529ecc;
+            }
+
+            #pagination a.previous:after {
+                border-right-color: #529ecc;
+            }
+
+            .loader .loader-bar {
+                background-color: #444444;
+            }
+
+            .link-wrapper h2 a {
+                background-color: #529ecc;
+            }
+            
+            .header-image.cover {
+                background-image: url(http://static.tumblr.com/414ba1393f02def994c525fc1e03c21b/efxuq8m/ROImvo7bx/tumblr_static_tumblr_mv4hj8b7hg1sf4hxio1_1280.jpg);
+            }
+
+            .user-avatar {
+                background-color: #f6f6f6;
+                border-color: #f6f6f6;
+            }
+
+            .avatar-style-square .user-avatar {
+                -wekbit-box-shadow: 0 0 0 4px #f6f6f6;
+                -moz-box-shadow: 0 0 0 4px #f6f6f6;
+                box-shadow: 0 0 0 4px #f6f6f6;
+            }
+            
+            .no-header-image .selector .bar-icon,
+            .contain-header-image .selector .bar-icon {
+                background: #529ecc;
+            }
+
+            .no-header-image .search-only .selector .icon,
+            .contain-header-image .search-only .selector .icon {
+                color: #529ecc;
+            }
+
+            /* Adjust menus for light accents on light backgrounds */
+            .light-on-light.no-header-image .selector .bar-icon,
+            .light-on-light.contain-header-image .selector .bar-icon {
+                background: #444;
+            }
+
+            .light-on-light.no-header-image .search-only .selector .icon,
+            .light-on-light.contain-header-image .search-only .selector .icon {
+                color: #444;
+            }
+
+            /* Adjust menus for dark accents on dark backgrounds */
+            .dark-on-dark.no-header-image .selector .bar-icon,
+            .dark-on-dark.contain-header-image .selector .bar-icon {
+                background: #fff;
+            }
+
+            .dark-on-dark.no-header-image .search-only .selector .icon,
+            .dark-on-dark.contain-header-image .search-only .selector .icon {
+                color: #fff;
+            }
+
+            @media screen and (max-device-width: 568px) {
+                .header-image.cover {
+                    background-image: url(http://static.tumblr.com/414ba1393f02def994c525fc1e03c21b/efxuq8m/ROImvo7bx/tumblr_static_tumblr_mv4hj8b7hg1sf4hxio1_1024.jpg);
+                    -webkit-background-size: cover;
+                    background-size: cover;
+                }
+
+                .nav-menu-bg,
+                .nav-menu-wrapper .nav-menu.active:before,
+                .nav-menu .pop-menu ul {
+                    background: #f6f6f6;
+                }
+
+                .nav-menu.active .selector .bar-icon,
+                .below-header .selector .bar-icon {
+                    background: #529ecc;
+                }
+
+                .nav-menu .pop-menu ul li a,
+                .below-header .search-only .selector .icon {
+                    color: #529ecc;
+                }
+                
+                /* Adjust menus for light accents on light backgrounds */
+                .light-on-light.below-header .nav-menu .selector .bar-icon,
+                .light-on-light.below-header .selector .bar-icon {
+                    background: #444;
+                }
+
+                .light-on-light .nav-menu .pop-menu ul li a,
+                .light-on-light.below-header .search-only .selector .icon {
+                    color: #444;
+                }
+                
+                /* Adjust menus for dark accents on dark backgrounds */
+                .dark-on-dark .nav-menu .selector .bar-icon,
+                .dark-on-dark .below-header .selector .bar-icon {
+                    background: #fff;
+                }
+
+                .dark-on-dark .nav-menu .pop-menu ul li a,
+                .dark-on-dark.below-header .search-only .selector .icon {
+                    color: #fff;
+                }
+
+                .avatar-style-square .user-avatar {
+                    -wekbit-box-shadow: 0 0 0 3px #f6f6f6;
+                    -moz-box-shadow: 0 0 0 3px #f6f6f6;
+                    box-shadow: 0 0 0 3px #f6f6f6;
+                }
+
+            }
+
+            /* Custom CSS */
+            
+        </style>
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=batmanandbullwinkle" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="DallasCon" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Batman &amp; Bullwinkle" /><meta property="og:url" content="http://batmanandbullwinkle.tumblr.com/?og=1" /><meta property="og:description" content="Posts dedicated to the ever-loving &amp; hilarious fandom of Supernatural. Enjoy, Assbutts!" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_0f5a771ed70a_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=batmanandbullwinkle" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=batmanandbullwinkle" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="batmanandbullwinkle" /><meta name="twitter:description" content="Posts dedicated to the ever-loving &amp; hilarious fandom of Supernatural. Enjoy, Assbutts!" /><meta name="twitter:creator" content="WinchesterGank" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=batmanandbullwinkle&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=batmanandbullwinkle&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=batmanandbullwinkle&amp;referrer=twitter-cards" />
+
+</head>
+    <body data-urlencoded-name="batmanandbullwinkle" class="regular index-page">
+        <section id="page">
+            <div class="nav-menu-wrapper ">
+                <nav class="nav-menu pop">
+                    <a class="selector">
+                        
+                            <div class="bar-icon-wrapper">
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                            </div>
+                        
+                        
+                    </a>
+                    <div class="pop-menu west">
+                        <ul>
+                            <li class="no-hover search">
+                                <form action="/search" method="get" id="search">
+                                    <input type="text" name="q" id="q" placeholder="Search" value="">
+                                    <button type="submit" class="icon-search_16"></button>
+                                </form>
+                            </li>
+                            
+                                <li>
+                                    <a href="/archive" class="archive">Archive <i class="icon-arrow_carrot_right"></i></a>
+                                </li>
+                                
+                                    <li>
+                                        <a href="/ask" class="ask">Ask me anything <i class="icon-arrow_carrot_right"></i></a>
+                                    </li>
+                                
+                                
+                                
+                            
+                        </ul>
+                    </div> 
+                </nav>
+                <div class="glass"></div>
+            </div>
+            
+            <div class="nav-menu-bg"></div>
+            
+            <div class="header-wrapper
+                
+                
+                
+                avatar-style-circle">
+
+                <header id="header">
+                    
+                    <div class="header-image-wrapper ">
+                        <a href="/" class="header-image parallax cover " data-bg-image="http://static.tumblr.com/414ba1393f02def994c525fc1e03c21b/efxuq8m/ROImvo7bx/tumblr_static_tumblr_mv4hj8b7hg1sf4hxio1_1280.jpg">
+                            
+                        </a>
+                        <div class="loader-bg"></div>
+                    </div>
+                    
+
+                    <div class="blog-title content">
+                        <figure class="avatar-wrapper animate">
+                            <a href="/" style="background-image: url(http://33.media.tumblr.com/avatar_0f5a771ed70a_128.png)" class="user-avatar"><img src="http://33.media.tumblr.com/avatar_0f5a771ed70a_128.png" alt="" class="print-only invisible"></a>
+                        </figure>
+
+                        <div class="title-group animate">
+                            
+                            <h1><a href="/">Batman & Bullwinkle</a></h1>
+                            
+                            
+                            <span class="description">
+                                Posts dedicated to the ever-loving & hilarious fandom of Supernatural. Enjoy, Assbutts!
+                            </span>
+                            
+                        </div>
+                    </div>
+
+                    
+                </header>
+            </div>
+            
+            <section id="posts" class="content clearfix  avatar-style-circle  ">
+    
+                <div data-page-id="1">
+                    
+                            <article class="photo reblogged not-page post-98440077294 " data-post-id="post_98440077294">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://thatwasmyperfectending.tumblr.com/post/98065923322"><i class="icon-reblog"></i>thatwasmyperfectending</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="high-res with-caption" data-photo-width="600">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://batmanandbullwinkle.tumblr.com/image/98440077294"><img src="http://38.media.tumblr.com/f743bc940d059205c07049405c82a25a/tumblr_nc9fr7okmw1ql0rn7o1_500.jpg" alt="thatwasmyperfectending:
+
+#_#
+
+My camera :)" width="600" height="450"></a>
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a class="tumblr_blog" href="http://thatwasmyperfectending.tumblr.com/post/98065923322">thatwasmyperfectending</a>:</p>
+<blockquote>
+<p><a href="https://twitter.com/WinchesterGank/status/513728857514704896">#_#</a></p>
+</blockquote>
+<p>My camera :)</p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://thatwasmyperfectending.tumblr.com/post/98065923322"><i class="icon-reblog"></i>thatwasmyperfectending</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98440077294/thatwasmyperfectending-my-camera#notes">66 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98440077294/thatwasmyperfectending-my-camera" title="1 day ago">Sep 25th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98440077294">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98440077294">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98440077294%2Fthatwasmyperfectending-my-camera&amp;t=Batman%20%26%20Bullwinkle" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20thatwasmyperfectending%3A%20%23_%23%20My%20camera%20%3A%29%20http%3A%2F%2Ftmblr.co%2FZ2sAdq1RhV5-k" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Batman%20%26amp%3B%20Bullwinkle&amp;body=Photo%3A%20thatwasmyperfectending%3A%20%23_%23%20My%20camera%20%3A%29%20http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98440077294%2Fthatwasmyperfectending-my-camera" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://batmanandbullwinkle.tumblr.com/post/98440077294/thatwasmyperfectending-my-camera" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98440077294/g6AyHhXz" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98440077294" id="like_button_98440077294"><iframe id="like_iframe_98440077294" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=batmanandbullwinkle&amp;post_id=98440077294&amp;color=black&amp;rk=g6AyHhXz" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photoset reblogged not-page post-98439985459 " data-post-id="post_98439985459">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://misslillith.tumblr.com/post/98094427270/sooooo-on-friday-lapinchocolat-and-i-got-to-the"><i class="icon-reblog"></i>misslillith</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+                                        <figure class="photoset with-caption">
+                                            <div id="photoset_98439985459" class="html_photoset">    <iframe id="photoset_iframe_98439985459" class="photoset" scrolling="no" frameborder="0" height="-10" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://batmanandbullwinkle.tumblr.com/post/98439985459/photoset_iframe/batmanandbullwinkle/tumblr_nc9vx4hwnE1s0yaqc/0/false"></iframe></div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a class="tumblr_blog" href="http://misslillith.tumblr.com/post/98094427270/sooooo-on-friday-lapinchocolat-and-i-got-to-the">misslillith</a>:</p>
+<blockquote>
+<p>Sooooo… On Friday, <a class="tumblelog" href="http://tmblr.co/mTzt12YDuBxvUw6VXYGlLmg">lapinchocolat</a> and I got to the con a bit late, and things were already closing up. We went back to our room and decided to test our coords out for the next day… then this happened. &lt;3</p>
+<p>P.S. Misha is a really cute lolita. &gt;////&lt;</p>
+</blockquote>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://misslillith.tumblr.com/post/98094427270/sooooo-on-friday-lapinchocolat-and-i-got-to-the"><i class="icon-reblog"></i>misslillith</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98439985459/misslillith-sooooo-on-friday-lapinchocolat#notes">74 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98439985459/misslillith-sooooo-on-friday-lapinchocolat" title="1 day ago">Sep 25th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98439985459">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98439985459">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98439985459%2Fmisslillith-sooooo-on-friday-lapinchocolat&amp;t=Batman%20%26%20Bullwinkle" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photoset%3A%20misslillith%3A%20Sooooo%E2%80%A6%20On%20Friday%2C%20lapinchocolat%20and%20I%20got%20to%20the%20con%20a%20bit%20late%2C%20and%20things%20were...%20http%3A%2F%2Ftmblr.co%2FZ2sAdq1RhUlap" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Batman%20%26amp%3B%20Bullwinkle&amp;body=Photoset%3A%20misslillith%3A%20Sooooo%E2%80%A6%20On%20Friday%2C%20lapinchocolat%20and%20I%20got%20to%20the%20con%20a%20bit%20late%2C%20and%20things%20were%20already%20closing%20up.%20We%20went%20back%20to%20our%20room%20and...%20http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98439985459%2Fmisslillith-sooooo-on-friday-lapinchocolat" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://batmanandbullwinkle.tumblr.com/post/98439985459/misslillith-sooooo-on-friday-lapinchocolat" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98439985459/cxg7Hb7E" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98439985459" id="like_button_98439985459"><iframe id="like_iframe_98439985459" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=batmanandbullwinkle&amp;post_id=98439985459&amp;color=black&amp;rk=cxg7Hb7E" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photoset reblogged not-page post-98439203384 " data-post-id="post_98439203384">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://jenacklesdaily.tumblr.com/post/98282876423/strokethings"><i class="icon-reblog"></i>jenacklesdaily</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+                                        <figure class="photoset with-caption">
+                                            <div id="photoset_98439203384" class="html_photoset">    <iframe id="photoset_iframe_98439203384" class="photoset" scrolling="no" frameborder="0" height="11" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://batmanandbullwinkle.tumblr.com/post/98439203384/photoset_iframe/batmanandbullwinkle/tumblr_nce03c52wI1tke77a/0/false"></iframe></div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a class="tumblr_blog" href="http://jenacklesdaily.tumblr.com/post/98282876423/strokethings">jenacklesdaily</a>:</p>
+<blockquote>
+<p><a href="http://www.youtube.com/watch?v=UWhsNAjaB14">#strokethings</a></p>
+</blockquote>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://jenacklesdaily.tumblr.com/post/98282876423/strokethings"><i class="icon-reblog"></i>jenacklesdaily</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98439203384/jenacklesdaily-strokethings#notes">98 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98439203384/jenacklesdaily-strokethings" title="1 day ago">Sep 25th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98439203384">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98439203384">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98439203384%2Fjenacklesdaily-strokethings&amp;t=Batman%20%26%20Bullwinkle" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photoset%3A%20jenacklesdaily%3A%20%23strokethings%20http%3A%2F%2Ftmblr.co%2FZ2sAdq1RhRmeu" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Batman%20%26amp%3B%20Bullwinkle&amp;body=Photoset%3A%20jenacklesdaily%3A%20%23strokethings%20http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98439203384%2Fjenacklesdaily-strokethings" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://batmanandbullwinkle.tumblr.com/post/98439203384/jenacklesdaily-strokethings" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98439203384/LjKCo7Sh" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98439203384" id="like_button_98439203384"><iframe id="like_iframe_98439203384" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=batmanandbullwinkle&amp;post_id=98439203384&amp;color=black&amp;rk=LjKCo7Sh" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-98438435279 " data-post-id="post_98438435279">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://castielwinchesterofficial.tumblr.com/post/98107235060/mark-wandering-at-dalcon"><i class="icon-reblog"></i>castielwinchesterofficial</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="high-res with-caption" data-photo-width="1200">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://batmanandbullwinkle.tumblr.com/image/98438435279"><img src="http://31.media.tumblr.com/b4a062c6b6ca7f2973dd54656c4ebaf6/tumblr_nca3wddhsQ1scgdajo1_1280.jpg" alt="castielwinchesterofficial:
+
+Mark wandering at DalCon
+
+I busted out laughing!!" width="1200" height="900"></a>
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a class="tumblr_blog" href="http://castielwinchesterofficial.tumblr.com/post/98107235060/mark-wandering-at-dalcon">castielwinchesterofficial</a>:</p>
+<blockquote>
+<p>Mark wandering at DalCon</p>
+</blockquote>
+<p>I busted out laughing!!</p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://castielwinchesterofficial.tumblr.com/post/98107235060/mark-wandering-at-dalcon"><i class="icon-reblog"></i>castielwinchesterofficial</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98438435279/castielwinchesterofficial-mark-wandering-at#notes">101 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98438435279/castielwinchesterofficial-mark-wandering-at" title="1 day ago">Sep 25th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98438435279">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98438435279">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98438435279%2Fcastielwinchesterofficial-mark-wandering-at&amp;t=Batman%20%26%20Bullwinkle" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20castielwinchesterofficial%3A%20Mark%20wandering%20at%20DalCon%20I%20busted%20out%20laughing%21%21%20http%3A%2F%2Ftmblr.co%2FZ2sAdq1RhOr7F" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Batman%20%26amp%3B%20Bullwinkle&amp;body=Photo%3A%20castielwinchesterofficial%3A%20Mark%20wandering%20at%20DalCon%20I%20busted%20out%20laughing%21%21%20http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98438435279%2Fcastielwinchesterofficial-mark-wandering-at" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://batmanandbullwinkle.tumblr.com/post/98438435279/castielwinchesterofficial-mark-wandering-at" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98438435279/DcK3ZFPw" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98438435279" id="like_button_98438435279"><iframe id="like_iframe_98438435279" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=batmanandbullwinkle&amp;post_id=98438435279&amp;color=black&amp;rk=DcK3ZFPw" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="reblogged video not-page post-98437127829 " data-post-id="post_98437127829">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://amazingisaisnotonfire.tumblr.com/post/98021137226/richard-speight-jr-matt-cohen-and-rob-benedict"><i class="icon-reblog"></i>amazingisaisnotonfire</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                                                    
+                                        <figure class="with-caption">
+                                            <div class="video-wrapper">
+                                                <div id="tumblr_video_container_98437127829" class="tumblr_video_container" style="width:700px;height:525px;"></div><script class="inline_embed" type="text/javascript">
+    (function(params){
+        var container = document.getElementById(params.container);
+        if (!container) return;
+        var iframe = document.createElement('iframe');
+        iframe.width = parseInt(params.width, 10) || 500;
+        iframe.height = parseInt(params.height, 10) || Math.floor(iframe.width*0.75); // 4x3
+        iframe.src = 'about:blank';
+        for (var attr in params.attr) {
+            if (params.attr.hasOwnProperty(attr)) {
+               iframe.setAttribute(attr, params.attr[attr]);
+            }
+        }
+        iframe.setAttribute('frameborder', '0');
+        iframe.setAttribute('scrolling', 'no');
+        iframe.setAttribute('webkitAllowFullScreen', '');
+        iframe.setAttribute('mozallowfullscreen', '');
+        iframe.setAttribute('allowFullScreen', '');
+        iframe.setAttribute('seamless', '');
+        iframe.setAttribute('style', 'display:block;background-color:transparent;overflow:hidden;');
+        container.appendChild(iframe);
+        iframe.onload = function() {
+            var newHeight = iframe.contentWindow.document.body.offsetHeight;
+            if (newHeight) iframe.height = newHeight;
+            if (typeof(params.onload) === 'function') params.onload();
+        };
+        var doc = iframe.contentWindow.document;
+        doc.open('text/html', 'replace');
+        doc.write([
+            '<!DOCTYPE html><html><head><title>Tumblr Video</title></head>',
+            '<body class="' + params.body_class + '">',
+            params.content,
+            '</body></html>'
+        ].join(''));
+        doc.close();
+    })({
+        attr  : {
+            'id'          : 'tumblr_video_iframe_98437127829',
+            'class'       : 'tumblr_video_iframe has_lightbox',
+            'data-origin' : 'batmanandbullwinkle.tumblr.com',
+            'data-width'  : '700',
+            'data-height' : '525'
+        },
+        container   : 'tumblr_video_container_98437127829',
+        content     : '\x3clink rel=\x22stylesheet\x22 media=\x22screen\x22 href=\x22http://assets.tumblr.com/assets/styles/video.css?_v=ff005cc828522dbbd50120e1184bdfcd\x22\x3e\x3cscript src=\x22http://assets.tumblr.com/assets/scripts/spin.js?_v=5da39d93f7f0ee499e20291a39d10bee\x22\x3e\x3c/script\x3e\x3cscript src=\x22http://assets.tumblr.com/assets/scripts/video.js?_v=bd3c6c870b620a87285735d17d2dcf9f\x22\x3e\x3c/script\x3e\x3cscript src=\x22http://assets.tumblr.com/assets/scripts/vendor/video-js/video.js?_v=b7aca555c284f13d3d30732837a4b476\x22\x3e\x3c/script\x3e\x3cmeta name=\x22tumblr-form-key\x22 content=\x22\x22 id=\x22tumblr_form_key\x22 /\x3e\x3cvideo preload=\x22none\x22 id=\x22tumblr_video_player_98437127829\x22 class=\x22video-js tvp_video\x22 width=\x22700\x22 height=\x22525\x22 poster=\x22\x22\x3e\x3csource src=\x22http://batmanandbullwinkle.tumblr.com/video_file/98437127829/tumblr_nc8di1eHOP1sdpujt\x22 type=\x22video/mp4\x22\x3e\x3c/video\x3e\x3cdiv class=\x22tumblr_lightbox_controls\x22\x3e\x3cspan class=\x22post_control close_button\x22\x3eClose\x3c/span\x3e\x3c/div\x3e\x3cscript type=\x22text/javascript\x22 \x3e    var __ = (function() {\x0a        var translation = {\x0a            \x22Cancel\x22            : \'Cancel\',\x0a            \x22Email\x22             : \'Email\',\x0a            \x22Send\x22              : \'Send\',\x0a            \x22Play\x22              : \'Play\',\x0a            \x22Pause\x22             : \'Pause\',\x0a            \x22Fullscreen\x22        : \'Fullscreen\',\x0a            \x22Share\x22             : \'Share\',\x0a            \x22Twitter\x22           : \'Twitter\',\x0a            \x22Facebook\x22          : \'Facebook\',\x0a            \x22Copy embed code\x22   : \'Copy embed code\',\x0a            \x22There was an error with this video.\x22 : \'There was an error with this video.\'        };\x0a        return function(string) {\x0a            return translation[string] || string;\x0a        };\x0a    })();\x0a\x0a    var tumblr_video = new TumblrVideo;\x0a\x0a    var load_video = function() {\x0a        tumblr_video.initialize({\x0a            id          : \'98437127829\',\x0a            posters     : [\x22http:\\/\\/media.tumblr.com\\/tumblr_nc8di1eHOP1sdpujt_frame1.jpg\x22,\x22http:\\/\\/media.tumblr.com\\/tumblr_nc8di1eHOP1sdpujt_frame2.jpg\x22,\x22http:\\/\\/media.tumblr.com\\/tumblr_nc8di1eHOP1sdpujt_frame3.jpg\x22,\x22http:\\/\\/media.tumblr.com\\/tumblr_nc8di1eHOP1sdpujt_frame4.jpg\x22,\x22http:\\/\\/media.tumblr.com\\/tumblr_nc8di1eHOP1sdpujt_frame5.jpg\x22],\x0a            retro_static: true,\x0a            duration    : \'29\',\x0a            post_title  : \'\',\x0a            post_url    : \'http://batmanandbullwinkle.tumblr.com/post/98437127829/amazingisaisnotonfire-richard-speight-jr-matt\',\x0a            video_url   : \'http://batmanandbullwinkle.tumblr.com/video/98437127829\',\x0a            dimensions  : {\x22width\x22:640,\x22height\x22:480},\x0a            embed_code  : \'\x3ciframe src=\x22http://www.tumblr.com/video/batmanandbullwinkle/98437127829/500\x22 id=\x22tumblr_video_iframe_98437127829\x22 class=\x22tumblr_video_iframe\x22 width=\x22500\x22 height=\x22375\x22 style=\x22display:block;background-color:transparent;overflow:hidden;\x22 allowTransparency=\x22true\x22 frameborder=\x220\x22 scrolling=\x22no\x22 webkitAllowFullScreen mozallowfullscreen allowFullScreen\x3e\x3c/iframe\x3e\',\x0a\x0a            \x0a            origin_url  : \'http://batmanandbullwinkle.tumblr.com/\',\x0a\x0a            \x0a            thumbnails  : {\x0a                url     : \'http://38.media.tumblr.com/previews/tumblr_nc8di1eHOP1sdpujt_filmstrip.jpg\',\x0a                width   : \'200\',\x0a                height  : \'150\',\x0a                total   : \'10\'            },\x0a            _autocycle  : true,  // Auto-cycles through posters, set to false for :hover only\x0a            _sharing    : false, // Enables sharing popover menu on hold 8/27/12\x0a            _lightbox   : false, // Disabled lightbox because it was horrible, also did not work in search 12/16/13\x0a            _dashboard  : false,\x0a            _dev        : false\x0a        });\x0a    };\x0a\x0a    load_video();\x0a\x3c/script\x3e\x0a',
+        width       : '700',
+        height      : '525',
+        body_class  : 'tumblr_video_iframe_body'
+    });
+    </script>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a class="tumblr_blog" href="http://amazingisaisnotonfire.tumblr.com/post/98021137226/richard-speight-jr-matt-cohen-and-rob-benedict">amazingisaisnotonfire</a>:</p>
+<blockquote>
+<p>Richard Speight Jr., Matt Cohen, and Rob Benedict helped me ask my boyfriend ( <a class="tumblelog" href="http://tmblr.co/m7Gi46SDLjY2OiQ4NXIpPPg">pirdak</a> ) to Homecoming. Special thanks to <a class="tumblelog" href="http://tmblr.co/mbqrniGmDAJ6TqVowZyA0ug">enjol-ratchet</a> and <a class="tumblelog" href="http://tmblr.co/mGe0Zmp5IDxlS9ZfEBzcO2A">castiel-angelofthetimelord</a> for recording and inviting me because today has been one of the best days of my life</p>
+</blockquote>
+<p>I LOVED THIS!!! So fun!! Thanks for posting it.</p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://amazingisaisnotonfire.tumblr.com/post/98021137226/richard-speight-jr-matt-cohen-and-rob-benedict"><i class="icon-reblog"></i>amazingisaisnotonfire</a>
+                                                </li>
+                                                
+                                                
+                                                    
+                                                        <li>
+                                                            <a href="http://batmanandbullwinkle.tumblr.com/tagged/DallasCon" class="tag">DallasCon</a>
+                                                        </li>
+                                                    
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98437127829/amazingisaisnotonfire-richard-speight-jr-matt#notes">209 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98437127829/amazingisaisnotonfire-richard-speight-jr-matt" title="1 day ago">Sep 25th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98437127829">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98437127829">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98437127829%2Famazingisaisnotonfire-richard-speight-jr-matt&amp;t=Batman%20%26%20Bullwinkle" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Video%3A%20amazingisaisnotonfire%3A%20Richard%20Speight%20Jr.%2C%20Matt%20Cohen%2C%20and%20Rob%20Benedict%20helped%20me%20ask%20my%20boyfriend...%20http%3A%2F%2Ftmblr.co%2FZ2sAdq1RhJrwL" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20video%20from%20Batman%20%26amp%3B%20Bullwinkle&amp;body=Video%3A%20amazingisaisnotonfire%3A%20Richard%20Speight%20Jr.%2C%20Matt%20Cohen%2C%20and%20Rob%20Benedict%20helped%20me%20ask%20my%20boyfriend%20%28%20pirdak%20%29%20to%20Homecoming.%20Special%20thanks%20to...%20http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98437127829%2Famazingisaisnotonfire-richard-speight-jr-matt" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://batmanandbullwinkle.tumblr.com/post/98437127829/amazingisaisnotonfire-richard-speight-jr-matt" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98437127829/V0wW62lp" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98437127829" id="like_button_98437127829"><iframe id="like_iframe_98437127829" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=batmanandbullwinkle&amp;post_id=98437127829&amp;color=black&amp;rk=V0wW62lp" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-98436406384 " data-post-id="post_98436406384">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://yeahiknowyoudean.tumblr.com/post/98120404018/wantawinchester-how-i-spent-my-sunday-me-and"><i class="icon-reblog"></i>yeahiknowyoudean</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="high-res with-caption" data-photo-width="600">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://batmanandbullwinkle.tumblr.com/image/98436406384"><img src="http://33.media.tumblr.com/bedd2b0fd7b98b3b431eab397bfdf111/tumblr_ncabicScRc1tv2qjho1_500.jpg" alt="yeahiknowyoudean:
+
+&quot;@WantAWinchester: HOW I SPENT MY SUNDAY&nbsp;ME AND @jarpad TRYING TO PUSH @JensenAckles BOWLEGS STRAIGHT&quot;
+This is priceless!!!
+" width="600" height="719"></a>
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a class="tumblr_blog" href="http://yeahiknowyoudean.tumblr.com/post/98120404018/wantawinchester-how-i-spent-my-sunday-me-and">yeahiknowyoudean</a>:</p>
+<blockquote>
+<p>"@WantAWinchester: HOW I SPENT MY SUNDAY ME AND @jarpad TRYING TO PUSH @JensenAckles BOWLEGS STRAIGHT"</p>
+<p>This is priceless!!!</p>
+</blockquote>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://yeahiknowyoudean.tumblr.com/post/98120404018/wantawinchester-how-i-spent-my-sunday-me-and"><i class="icon-reblog"></i>yeahiknowyoudean</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98436406384/yeahiknowyoudean-wantawinchester-how-i-spent#notes">259 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98436406384/yeahiknowyoudean-wantawinchester-how-i-spent" title="1 day ago">Sep 25th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98436406384">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98436406384">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98436406384%2Fyeahiknowyoudean-wantawinchester-how-i-spent&amp;t=Batman%20%26%20Bullwinkle" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20yeahiknowyoudean%3A%20%22%40WantAWinchester%3A%20HOW%20I%20SPENT%20MY%20SUNDAY%C2%A0ME%20AND%20%40jarpad%20TRYING%20TO%20PUSH...%20http%3A%2F%2Ftmblr.co%2FZ2sAdq1RhH5nm" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Batman%20%26amp%3B%20Bullwinkle&amp;body=Photo%3A%20yeahiknowyoudean%3A%20%22%40WantAWinchester%3A%20HOW%20I%20SPENT%20MY%20SUNDAY%C2%A0ME%20AND%20%40jarpad%20TRYING%20TO%20PUSH%20%40JensenAckles%20BOWLEGS%20STRAIGHT%22%20This%20is%20priceless%21%21%21%20http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98436406384%2Fyeahiknowyoudean-wantawinchester-how-i-spent" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://batmanandbullwinkle.tumblr.com/post/98436406384/yeahiknowyoudean-wantawinchester-how-i-spent" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98436406384/K0ECMBLT" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98436406384" id="like_button_98436406384"><iframe id="like_iframe_98436406384" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=batmanandbullwinkle&amp;post_id=98436406384&amp;color=black&amp;rk=K0ECMBLT" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photoset reblogged not-page post-98435841189 " data-post-id="post_98435841189">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://asagraves.tumblr.com/post/98121092735/my-sister-and-my-photo-ops-with-all-the-boys"><i class="icon-reblog"></i>asagraves</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+                                        <figure class="photoset with-caption">
+                                            <div id="photoset_98435841189" class="html_photoset">    <iframe id="photoset_iframe_98435841189" class="photoset" scrolling="no" frameborder="0" height="-7" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://batmanandbullwinkle.tumblr.com/post/98435841189/photoset_iframe/batmanandbullwinkle/tumblr_ncabxqbFm01rpuejv/0/false"></iframe></div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a class="tumblr_blog" href="http://asagraves.tumblr.com/post/98121092735/my-sister-and-my-photo-ops-with-all-the-boys">asagraves</a>:</p>
+<blockquote>
+<p>my sister and my photo ops with all the boys :)</p>
+</blockquote>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://asagraves.tumblr.com/post/98121092735/my-sister-and-my-photo-ops-with-all-the-boys"><i class="icon-reblog"></i>asagraves</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98435841189/asagraves-my-sister-and-my-photo-ops-with-all#notes">390 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98435841189/asagraves-my-sister-and-my-photo-ops-with-all" title="1 day ago">Sep 25th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98435841189">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98435841189">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98435841189%2Fasagraves-my-sister-and-my-photo-ops-with-all&amp;t=Batman%20%26%20Bullwinkle" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photoset%3A%20asagraves%3A%20my%20sister%20and%20my%20photo%20ops%20with%20all%20the%20boys%20%3A%29%20http%3A%2F%2Ftmblr.co%2FZ2sAdq1RhExob" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Batman%20%26amp%3B%20Bullwinkle&amp;body=Photoset%3A%20asagraves%3A%20my%20sister%20and%20my%20photo%20ops%20with%20all%20the%20boys%20%3A%29%20http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98435841189%2Fasagraves-my-sister-and-my-photo-ops-with-all" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://batmanandbullwinkle.tumblr.com/post/98435841189/asagraves-my-sister-and-my-photo-ops-with-all" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98435841189/qEBEroCc" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98435841189" id="like_button_98435841189"><iframe id="like_iframe_98435841189" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=batmanandbullwinkle&amp;post_id=98435841189&amp;color=black&amp;rk=qEBEroCc" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text reblogged not-page post-98435653324 " data-post-id="post_98435653324">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://croatoansammy.tumblr.com/post/98093918086/jared-talked-in-his-m-g-about-how-much-of-the-hate-he"><i class="icon-reblog"></i>croatoansammy</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+                                            <h2><a href="http://batmanandbullwinkle.tumblr.com/post/98435653324/jared-talked-in-his-m-g-about-how-much-of-the-hate-he">"Jared talked in his M&amp;G about how much of the hate he DOES see online towards he &amp; Gen, &amp; how much it bothers him. He deals with it by knowing there&#8217;s so much more love than hate. Made me sad."</a></h2>
+                                            
+                                            <div class="body-text">
+                                                <p><a class="tumblr_blog" href="http://croatoansammy.tumblr.com/post/98093918086/jared-talked-in-his-m-g-about-how-much-of-the-hate-he">croatoansammy</a>:</p>
+<blockquote>
+<p>(<a href="https://twitter.com/Kyline">x</a>) i just want to wrap around him and his family a big fluffy magical blanket that only lets the love and the positive things pass:(</p>
+</blockquote>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://croatoansammy.tumblr.com/post/98093918086/jared-talked-in-his-m-g-about-how-much-of-the-hate-he"><i class="icon-reblog"></i>croatoansammy</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98435653324/jared-talked-in-his-m-g-about-how-much-of-the-hate-he#notes">546 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98435653324/jared-talked-in-his-m-g-about-how-much-of-the-hate-he" title="1 day ago">Sep 25th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98435653324">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98435653324">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98435653324%2Fjared-talked-in-his-m-g-about-how-much-of-the-hate-he&amp;t=%22Jared%20talked%20in%20his%20M%26amp%3BG%20about%20how%20much%20of%20the%20hate%20he%20DOES%20see%20online%20towards%20he%20%26amp%3B%20Gen%2C%20%26amp%3B%20how%20much%20it%20bothers%20him.%20He%20deals%20with%20it%20by%20knowing%20there%26%238217%3Bs%20so%20much%20more%20love%20than%20hate.%20Made%20me%20sad.%22" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=%22Jared%20talked%20in%20his%20M%26G%20about%20how%20much%20of%20the%20hate%20he%20DOES%20see%20online%20towards%20he%20%26%20Gen%2C%20%26%20how%20much%20it...%20http%3A%2F%2Ftmblr.co%2FZ2sAdq1RhEDxC" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20Batman%20%26amp%3B%20Bullwinkle&amp;body=%22Jared%20talked%20in%20his%20M%26G%20about%20how%20much%20of%20the%20hate%20he%20DOES%20see%20online%20towards%20he%20%26%20Gen%2C%20%26%20how%20much%20it%20bothers%20him.%20He%20deals%20with%20it%20by%20knowing...%20http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98435653324%2Fjared-talked-in-his-m-g-about-how-much-of-the-hate-he" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://batmanandbullwinkle.tumblr.com/post/98435653324/jared-talked-in-his-m-g-about-how-much-of-the-hate-he" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98435653324/dQXhI9Qb" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98435653324" id="like_button_98435653324"><iframe id="like_iframe_98435653324" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=batmanandbullwinkle&amp;post_id=98435653324&amp;color=black&amp;rk=dQXhI9Qb" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text reblogged not-page post-98434918214 " data-post-id="post_98434918214">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://kellios.tumblr.com/post/98157799008/my-j2-photo-op-with-adorkablekati-it-came-out"><i class="icon-reblog"></i>kellios</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+                                            
+                                            
+                                            <div class="body-text">
+                                                <p><a class="tumblr_blog" href="http://kellios.tumblr.com/post/98157799008/my-j2-photo-op-with-adorkablekati-it-came-out">kellios</a>:</p>
+<blockquote>
+<p><img alt="image" src="http://media.tumblr.com/db2b24e2930786a2ace9f43516ae66d4/tumblr_inline_ncbdugQQIZ1qisnss.jpg"/></p>
+<p>My J2 photo op with @adorkablekati! It came out fantastic, of course, and they had fun playing with the balls beforehand. Jensen is a very good juggler, and Clif can attest that Jared has good aim lol</p>
+</blockquote>
+<p>ALL TRUE!!</p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://kellios.tumblr.com/post/98157799008/my-j2-photo-op-with-adorkablekati-it-came-out"><i class="icon-reblog"></i>kellios</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98434918214/kellios-my-j2-photo-op-with-adorkablekati#notes">1,667 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98434918214/kellios-my-j2-photo-op-with-adorkablekati" title="1 day ago">Sep 25th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98434918214">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98434918214">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98434918214%2Fkellios-my-j2-photo-op-with-adorkablekati&amp;t=" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=kellios%3A%20My%20J2%20photo%20op%20with%20%40adorkablekati%21%20It%20came%20out%20fantastic%2C%20of%20course%2C%20and%20they%20had%20fun%20playing...%20http%3A%2F%2Ftmblr.co%2FZ2sAdq1RhBQT6" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20Batman%20%26amp%3B%20Bullwinkle&amp;body=kellios%3A%20My%20J2%20photo%20op%20with%20%40adorkablekati%21%20It%20came%20out%20fantastic%2C%20of%20course%2C%20and%20they%20had%20fun%20playing%20with%20the%20balls%20beforehand.%20Jensen%20is%20a%20very%20good...%20http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98434918214%2Fkellios-my-j2-photo-op-with-adorkablekati" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://batmanandbullwinkle.tumblr.com/post/98434918214/kellios-my-j2-photo-op-with-adorkablekati" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98434918214/jaksgpR4" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98434918214" id="like_button_98434918214"><iframe id="like_iframe_98434918214" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=batmanandbullwinkle&amp;post_id=98434918214&amp;color=black&amp;rk=jaksgpR4" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photoset reblogged not-page post-98434841274 " data-post-id="post_98434841274">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://out-in-the-open.tumblr.com/post/98217710918/jensen-demands-a-do-over-x"><i class="icon-reblog"></i>out-in-the-open</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+                                        <figure class="photoset with-caption">
+                                            <div id="photoset_98434841274" class="html_photoset">    <iframe id="photoset_iframe_98434841274" class="photoset" scrolling="no" frameborder="0" height="-10" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://batmanandbullwinkle.tumblr.com/post/98434841274/photoset_iframe/batmanandbullwinkle/tumblr_nccmu6SSwZ1qafea7/0/false"></iframe></div>
+                                            
+                                            <figcaption class="caption">
+                                                <blockquote>
+<p>Jensen demands a do over (<a href="https://www.youtube.com/watch?v=s_3Ahqfc2aM&amp;t=3m12s">x</a>)</p>
+</blockquote>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://out-in-the-open.tumblr.com/post/98217710918/jensen-demands-a-do-over-x"><i class="icon-reblog"></i>out-in-the-open</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98434841274/jensen-demands-a-do-over-x#notes">3,168 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://batmanandbullwinkle.tumblr.com/post/98434841274/jensen-demands-a-do-over-x" title="1 day ago">Sep 25th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98434841274">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98434841274">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98434841274%2Fjensen-demands-a-do-over-x&amp;t=Batman%20%26%20Bullwinkle" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photoset%3A%20Jensen%20demands%20a%20do%20over%20%28x%29%20http%3A%2F%2Ftmblr.co%2FZ2sAdq1RhB7gw" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Batman%20%26amp%3B%20Bullwinkle&amp;body=Photoset%3A%20Jensen%20demands%20a%20do%20over%20%28x%29%20http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2Fpost%2F98434841274%2Fjensen-demands-a-do-over-x" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://batmanandbullwinkle.tumblr.com/post/98434841274/jensen-demands-a-do-over-x" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98434841274/KSHRdAM7" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98434841274" id="like_button_98434841274"><iframe id="like_iframe_98434841274" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=batmanandbullwinkle&amp;post_id=98434841274&amp;color=black&amp;rk=KSHRdAM7" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                </div>
+            </section>
+            <footer id="footer" class="content clearfix">
+                
+                    
+                    <div id="pagination">
+                        
+                        
+                        <a href="/page/2" class="next" data-current-page="1" data-total-pages="778">Next<span class="bg"></span></a>
+                        
+                        <div class="loader"><div class="loader-bar"></div><div class="loader-bar"></div><div class="loader-bar"></div></div>
+                    </div>
+                    
+                
+            </footer>
+        </section>
+        <script>
+            var Optica = {};
+            Optica.ENDLESS_SCROLLING = true;
+            Optica.LAYOUT = "regular";
+            Optica.GRID_LAYOUT = (Optica.LAYOUT === 'grid');
+            Optica.TITLE_COLOR = "#444444";
+            Optica.ACCENT_COLOR = "#529ecc";
+            Optica.BACKGROUND_COLOR = "#f6f6f6";
+            Optica.ENDLESS_NOTES_SCROLLING = true;
+        </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>!window.jQuery && document.write(unescape('%3Cscript src="http://static.tumblr.com/vr9xgox/sBgmmjhyw/jquery-1.9.1.min.js"%3E%3C/script%3E'));</script>
+        <script src="http://static.tumblr.com/vr9xgox/Azhmnml1q/jquery.masonry.min.js"></script>
+        <script src="http://static.tumblr.com/wogenvz/kcyn7f6re/main-min.js"></script>
+
+        
+    <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://batmanandbullwinkle.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847797&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYmF0bWFuYW5kYnVsbHdpbmtsZS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=JEJCFOFEOJ&K=ea84c89d2871524a7487e13ec3c8962220f7e184c4860122b3f65e7472b094bb&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847797&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYmF0bWFuYW5kYnVsbHdpbmtsZS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=JEJCFOFEOJ&K=eb320629a2b5d26294740e18f169e483193cea88e6c23bb6566291019ff8a125&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847797&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2JhdG1hbmFuZGJ1bGx3aW5rbGUudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjE5OTY4MDc5Iiwicm9vdF9wb3N0aWQiOiI5ODA2NTkyMzMyMiIsInBvc3RpZCI6Ijk4NDQwMDc3Mjk0IiwiYmxvZ2lkIjoiMTMzODk1MDk4Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijg0Nzg1MDUzIiwicm9vdF9wb3N0aWQiOiI5ODA5NDQyNzI3MCIsInBvc3RpZCI6Ijk4NDM5OTg1NDU5IiwiYmxvZ2lkIjoiMTMzODk1MDk4Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjIwMDkzNzUzOSIsInJvb3RfcG9zdGlkIjoiOTgyODI4NzY0MjMiLCJwb3N0aWQiOiI5ODQzOTIwMzM4NCIsImJsb2dpZCI6IjEzMzg5NTA5OCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMjcxNTI5NTYiLCJyb290X3Bvc3RpZCI6Ijk4MTA3MjM1MDYwIiwicG9zdGlkIjoiOTg0Mzg0MzUyNzkiLCJibG9naWQiOiIxMzM4OTUwOTgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTI4MDI4MDY0Iiwicm9vdF9wb3N0aWQiOiI5ODAyMTEzNzIyNiIsInBvc3RpZCI6Ijk4NDM3MTI3ODI5IiwiYmxvZ2lkIjoiMTMzODk1MDk4Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE3NDU4NTU4MiIsInJvb3RfcG9zdGlkIjoiOTgxMjA0MDQwMTgiLCJwb3N0aWQiOiI5ODQzNjQwNjM4NCIsImJsb2dpZCI6IjEzMzg5NTA5OCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0NDI5MzUwNiIsInJvb3RfcG9zdGlkIjoiOTgxMjEwOTI3MzUiLCJwb3N0aWQiOiI5ODQzNTg0MTE4OSIsImJsb2dpZCI6IjEzMzg5NTA5OCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMDc5MTExNyIsInJvb3RfcG9zdGlkIjoiOTgwOTM5MTgwODYiLCJwb3N0aWQiOiI5ODQzNTY1MzMyNCIsImJsb2dpZCI6IjEzMzg5NTA5OCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNzk1ODIzOSIsInJvb3RfcG9zdGlkIjoiOTgxNTc3OTkwMDgiLCJwb3N0aWQiOiI5ODQzNDkxODIxNCIsImJsb2dpZCI6IjEzMzg5NTA5OCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyODE1OTg3Iiwicm9vdF9wb3N0aWQiOiI5ODIxNzcxMDkxOCIsInBvc3RpZCI6Ijk4NDM0ODQxMjc0IiwiYmxvZ2lkIjoiMTMzODk1MDk4Iiwic291cmNlIjozM31dfQ==&U=DMFEJLBLCE&K=781e42d810a31b8fd6db250c282ec347f13cbd38bbfa97896b6f9a9397700c1a&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847797&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2JhdG1hbmFuZGJ1bGx3aW5rbGUudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjE5OTY4MDc5Iiwicm9vdF9wb3N0aWQiOiI5ODA2NTkyMzMyMiIsInBvc3RpZCI6Ijk4NDQwMDc3Mjk0IiwiYmxvZ2lkIjoiMTMzODk1MDk4Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijg0Nzg1MDUzIiwicm9vdF9wb3N0aWQiOiI5ODA5NDQyNzI3MCIsInBvc3RpZCI6Ijk4NDM5OTg1NDU5IiwiYmxvZ2lkIjoiMTMzODk1MDk4Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjIwMDkzNzUzOSIsInJvb3RfcG9zdGlkIjoiOTgyODI4NzY0MjMiLCJwb3N0aWQiOiI5ODQzOTIwMzM4NCIsImJsb2dpZCI6IjEzMzg5NTA5OCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMjcxNTI5NTYiLCJyb290X3Bvc3RpZCI6Ijk4MTA3MjM1MDYwIiwicG9zdGlkIjoiOTg0Mzg0MzUyNzkiLCJibG9naWQiOiIxMzM4OTUwOTgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTI4MDI4MDY0Iiwicm9vdF9wb3N0aWQiOiI5ODAyMTEzNzIyNiIsInBvc3RpZCI6Ijk4NDM3MTI3ODI5IiwiYmxvZ2lkIjoiMTMzODk1MDk4Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE3NDU4NTU4MiIsInJvb3RfcG9zdGlkIjoiOTgxMjA0MDQwMTgiLCJwb3N0aWQiOiI5ODQzNjQwNjM4NCIsImJsb2dpZCI6IjEzMzg5NTA5OCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0NDI5MzUwNiIsInJvb3RfcG9zdGlkIjoiOTgxMjEwOTI3MzUiLCJwb3N0aWQiOiI5ODQzNTg0MTE4OSIsImJsb2dpZCI6IjEzMzg5NTA5OCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMDc5MTExNyIsInJvb3RfcG9zdGlkIjoiOTgwOTM5MTgwODYiLCJwb3N0aWQiOiI5ODQzNTY1MzMyNCIsImJsb2dpZCI6IjEzMzg5NTA5OCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNzk1ODIzOSIsInJvb3RfcG9zdGlkIjoiOTgxNTc3OTkwMDgiLCJwb3N0aWQiOiI5ODQzNDkxODIxNCIsImJsb2dpZCI6IjEzMzg5NTA5OCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyODE1OTg3Iiwicm9vdF9wb3N0aWQiOiI5ODIxNzcxMDkxOCIsInBvc3RpZCI6Ijk4NDM0ODQxMjc0IiwiYmxvZ2lkIjoiMTMzODk1MDk4Iiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=DMFEJLBLCE&K=820f481a95b80998a612ebff974c94a981225e774b97085663536ef0999ee202&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:133895098,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2F&amp;lang=en_US&amp;name=batmanandbullwinkle&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_0f5a771ed70a_64.png&amp;title=Batman+%26amp%3B+Bullwinkle&amp;url=http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2F&amp;lang=en_US&amp;name=batmanandbullwinkle&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_0f5a771ed70a_64.png&amp;title=Batman+%26amp%3B+Bullwinkle&amp;url=http%3A%2F%2Fbatmanandbullwinkle.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

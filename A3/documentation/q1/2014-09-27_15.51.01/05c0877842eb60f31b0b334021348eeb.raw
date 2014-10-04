@@ -1,0 +1,4998 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+
+<html>
+<head>
+    <title>Haltom High School / Overview</title>
+    <!--
+    <PageMap>
+    <DataObject type="document">
+    <Attribute name="siteid">787</Attribute>
+    </DataObject>
+    </PageMap>
+    -->
+
+
+    
+    <!-- Begin swuc.GlobalJS -->
+<script type="text/javascript">
+ staticURL = "http://schools.birdvilleschools.net/Static/V2_07_01/";
+ SessionTimeout = "0";
+</script>
+<!-- End swuc.GlobalJS -->
+    
+    
+    <!-- Stylesheets -->
+
+    <link rel="Stylesheet" type="text/css" href="http://schools.birdvilleschools.net/Static/V2_07_01/App_Themes/SW/jquery.jgrowl.css" />
+    <link rel="Stylesheet" type="text/css" href="http://schools.birdvilleschools.net/Static/V2_07_01//site/assets/styles/system.css" />
+    <link rel="Stylesheet" type="text/css" href="http://schools.birdvilleschools.net/Static/V2_07_01//site/assets/styles/apps.css" />
+    <link rel="Stylesheet" type="text/css" href="http://schools.birdvilleschools.net/Static/V2_07_01/App_Themes/SW/jQueryUI.css" />
+    
+    
+    <!-- Scripts -->
+    
+
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' type='text/javascript'></script>
+    <script src='http://schools.birdvilleschools.net/Static/V2_07_01/GlobalAssets/Scripts/min/jquery-migrate-1.2.1.js' type='text/javascript'></script>
+
+    <script src='http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js' type='text/javascript'></script>
+
+    
+
+   <!--  -->
+    
+<script type="text/javascript">
+    $(document).ready(function() {
+        SetCookie('SWScreenWidth', screen.width);
+        SetCookie('SWClientWidth', document.body.clientWidth);
+
+        //If small browser window and responsive template and first load, reload to get the off-canvas menu
+        var isResponsiveTemplatePreInit = 'False';
+        var isResponsive = 'False';
+
+        if (isResponsiveTemplatePreInit == 'False' && isResponsive == 'True' && document.body.clientWidth < 1024) {
+            window.location.reload(true);
+        } 
+
+        $("div.ui-article:last").addClass("last-article");
+        $("div.region .app:last").addClass("last-app");
+    });
+    </script>
+    
+    <!-- Page -->
+    
+    <style type="text/css">/* MedaiBegin Standard */                                                                                                                                                                                                                                                                                                                                                                                            
+
+div.sw-special-mode-bar {
+	position:fixed !important;
+	bottom:0px;
+	left:0px;
+	width:100%;
+}
+@font-face {
+	font-family: 'birdville';
+	src:url('/cms/lib2/TX01000797/Centricity/Template/18//fonts/birdville.eot');
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+@font-face {
+	font-family: 'birdville';
+	src: url(data:application/x-font-woff;charset=utf-8;base64,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) format('woff'),
+		 url(data:application/x-font-ttf;charset=utf-8;base64,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) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+.icon-font {
+	font-family: 'birdville';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	font-size:20px;
+}
+/* GroupBegin Mystart */
+#sw-mystart-outer {
+	width:960px;
+	height:31px;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) repeat-x 0px -281px transparent;
+	border-radius:0px 0px 6px 6px;
+	-webkit-border-radius:0px 0px 6px 6px;
+	-moz-border-radius:0px 0px 6px 6px;
+	position:fixed;
+	top:0px;
+	left:50%;
+	margin-left:-480px;
+	z-index:8001;
+}
+#sw-mystart-inner {
+	width:100%;
+}
+.sw-mystart-button > a > span, #sw-myaccount {
+	font-family:'Oswald', 'Arial', sans-serif;
+	text-transform:uppercase;
+	font-size:11px;
+	font-weight:normal;
+	color:#FFF;
+}
+.sw-mystart-button:hover, #sw-mystart-account:hover {
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat right -659px #000000;
+}
+#sw-mystart-account.clicked-state:hover, #sw-mystart-account.clicked-state #sw-myaccount {
+	background:#FFF;
+	color:#000;
+}
+.sw-mystart-button, #sw-mystart-account {
+	margin-top:6px;
+	height:17px;
+	padding:3px 10px 2px 10px;
+}
+.sw-mystart-button.home {
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat -141px -9px transparent;
+	width:15px;
+	height:13px;
+	padding:3px 0px 0px 0px;
+	margin:10px 10px 0px 8px;
+}
+.sw-mystart-button.home a {
+	display:block;
+	width:100%;
+	height:100%;
+}
+.sw-mystart-button.home span {
+	display:none;
+}
+.sw-mystart-dropdown {
+	color:#FFF;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat right -659px #000000;
+	height:17px;
+	margin-top:6px;
+}
+.sw-mystart-dropdown .sw-dropdown {
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat right -659px #000000;
+	color:#FFF;
+}
+.sw-mystart-dropdown .sw-dropdown-arrow {
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat -168px -5px transparent;
+	border-color:#DFDFDF;
+	height:20px;
+}
+.sw-mystart-dropdown .sw-dropdown-selected{
+	color:#FFF;
+}
+.sw-mystart-dropdown .sw-dropdown-list li a {
+	color:#FFF;
+}
+.sw-mystart-dropdown .sw-dropdown-list li:hover a {
+	color:#FFF;
+}
+.sw-mystart-dropdown .sw-dropdown-list li:hover {
+	background-color:#000000;
+}
+#sw-mystart-search {
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat right -659px #000000;
+	width:160px;
+	height:22px;
+	margin-top:6px;
+}
+#sw-search-input {
+	width: 130px;
+	color:#FFF;
+	font-size:11px;
+}
+#sw-search-input:focus {
+	outline:none;
+}
+#sw-search-button {
+	border-color:#DFDFDF;
+	height:18px;
+	width:19px;
+	padding:2px 2px 0px 1px;
+}
+#sw-mystart-right #gb-icons {
+	display:none;
+}
+/* GroupEnd */ 
+ 
+/* GroupBegin Global */
+#sw-footer-outer {
+	display:none;
+}
+.show768, .show640, .show480, .show320, .hide960 {
+	display:none;
+}
+body {
+	-webkit-text-size-adjust: none;
+	-webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+	background:#E3E2CD;
+	color:#333;
+}
+#gb-texture {
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/texture.png) repeat-x 0px 0px #000000;
+	width:100%;
+	height:305px;
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+#gb-page {
+	width: 960px;
+	height: auto;
+	margin: 0px auto 0px auto;
+	position:relative;
+}
+.shadow {
+	width:7px;
+	height:100%;
+	position:absolute;
+	bottom:0px;
+}
+.shadow.right {
+	right:-7px;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/gb-right-shadow.png) repeat-y 0px 0px transparent;
+}
+.shadow.left {
+	left:-7px;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/gb-left-shadow.png) repeat-y 0px 0px transparent;
+}
+#gb-seal {
+	width:274px;
+	height:275px;
+	position:absolute;
+	top:0px;
+	left:50%;
+	margin-left:-581px;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat right top transparent;
+}
+#gb-header-outer {
+	width: 960px;
+        height: 120px;
+        position:fixed;
+        top:31px;
+        z-index:8000;
+        background:url(/cms/lib2/TX01000797/Centricity/Template/18/texture.png) repeat-x 0px 0px #000000;
+}
+#gb-header {
+        background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat center -316px transparent;
+}
+#mystart-cover {
+	 background:url(/cms/lib2/TX01000797/Centricity/Template/18/texture.png) repeat-x 0px 0px #000000;
+	 width:960px;
+	 height:31px;
+	 position:absolute;
+	 top:-31px;
+	 left:0px;
+}
+#seal-cover {
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat -1126px -32px transparent;
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:180px;
+}
+#gb-logo {
+	float:left;
+	max-width: 25%;
+	height:84px;
+	position:relative;
+}
+#gb-logo a {
+	display: block;
+	height: 100%;
+	padding:18px 0px 0px 15px;
+}
+#gb-logo img {
+	height:100%;
+	max-height: 84px;
+	width: 100%;
+}
+#gb-sitename {
+	max-width: 75%;
+	float:left;
+	color:#FFF;
+	display:none;
+}
+#gb-sitename-inner {
+	padding:40px 0px 0px 15px;
+}
+#gb-sitename h1 {
+	font-family:'Georgia', 'Times New Roman', serif;
+	font-size:39px;
+	line-height:1;
+}
+#gb-sitename h1.cte, #gb-sitename h1.pard, #gb-sitename h1.counseling {
+	font-size:28px;
+}	
+#gb-sitename h2 {
+	font-family:'Oswald', 'Arial', sans-serif;
+	font-size:16px;
+	text-transform:uppercase;
+	font-weight:normal;
+}
+#gb-icons {
+	float:right;
+	margin:0px 15px 0px 0px;
+}
+.icon-container-outer {
+	float:left;
+	width:69px;
+	height:70px;
+	position:relative;
+	margin:0px 0px 0px 3px;
+}
+.icon-container-outer img {
+	width:100%;
+	height:auto;
+}
+.icon-container-outer img.hover {
+	display:none;
+}
+.icon-container-outer:hover img.hover {
+	display:block;
+}
+.icon-container-outer:hover img.regular {
+	display:none;
+}
+.icon-container {
+	position:absolute;
+	top:0px;
+	left:0px;
+	text-align:center;
+	display:block;
+	width:100%;
+	margin-top:10px;
+}
+.icon-link {
+	text-decoration:none;
+	color:#000000;
+	display:block;
+	border:0px;
+}
+.icon-container span {
+	display:block;
+}
+.icon-container .icon-text {
+	font-family:'Oswald', 'Arial', sans-serif;
+	font-size:14px;
+}
+.icon-font {
+	height:24px;
+}
+.icon-font.menus {
+	font-size:18px;
+}
+.icon-font.grades {
+	font-size:26px;
+	margin:-4px 0px 4px 0px;
+}
+#district-tabs {
+	display:none;
+	position:absolute;
+	bottom:0px;
+	right:12px;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat -31px -60px transparent;
+	height:35px;
+	padding-top:15px;
+}
+.tab {
+	float:left;
+	display:block;
+	color:#FFF;
+	margin:5px 0px 0px 7px;
+	padding:1px 10px 4px 10px;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat -230px -407px #ff6600;
+	text-decoration:none;
+	font-family:'Times New Roman', 'Times', serif;
+	font-size:21px;
+	font-style:italic;
+	height:25px;
+}
+.tab:hover {
+	margin-top:0px;
+	padding-top:6px;
+	background-position:-230px -402px;
+}
+#gb-footer {
+	width: 100%;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat center -428px #C6C6B0;
+	padding:20px 0px 0px 0px;
+	position:relative;
+	font-family:'Roboto Condensed', 'Arial', sans-serif;
+}
+#gb-footer a {
+	color:#333;
+	text-decoration:none;
+}
+#gb-footer a:hover {
+	text-decoration:underline;
+}
+.gb.footer p {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+.gb.footer {
+	float:left;
+}
+.gb.footer.one {
+	width: 225px;
+	padding:0px 0px 0px 15px;
+	min-height:1px;	
+}
+.hideDistrict {
+	display:none;
+}
+.school .hideDistrict {
+	display:block;
+}
+.school .hideSchool {
+	display:none;
+}
+.gb.footer.one h1 {
+	text-transform:uppercase;
+	color:#000000;
+	font-size:12px;
+	line-height:1.1;
+}
+#address-info {
+	padding-top:4px;
+}
+.row {
+	margin:0px 0px 2px 0px;
+}
+.left {
+	float:left;
+	color:#000000;
+	margin:0px 20px 0px 0px;
+	width:50px;
+}
+.right {
+	float:left;
+}
+.gb.footer.two {
+	width: 480px;
+	text-align:center;
+	padding:40px 0px 0px 0px;
+	line-height:1.4;	
+}
+.gb.footer.three {
+	width: 230px;
+	text-align:right;
+	font-size:10px;
+	font-family:'Arial', sans-serif;
+	line-height:1.4;
+	padding:0px 10px 0px 0px;	
+}
+#sw-info {
+	height:18px;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat 96px -366px transparent;
+	padding:9px 106px 0px 0px;
+	margin:10px 0px 0px 28px;
+}
+#sw-info p {
+	text-align:left;
+}
+/* GroupEnd */
+
+/* GroupBegin App Styles */
+li h1 {
+	line-height:1.5;
+}
+div.ui-hp div.ui-widget.app {
+	padding:0px;
+}
+div.ui-widget.app {
+	padding:0px 10px 0px 10px;
+}
+.hp.column.one div.ui-widget.app div.ui-widget-header, .hp.column.three #sw-content-container4 div.ui-widget.app div.ui-widget-header {
+	position:relative;
+	min-height:29px;
+	width:253px;
+	margin:0px 0px 0px -5px;
+	padding:10px 0px 8px 0px;
+}
+div.ui-widget.app div.ui-widget-header h1, div.ui-widget.app.navigation div.ui-widget-header h1, .tab-right {
+	font-family:'Oswald', 'Arial', sans-serif;
+	font-size:17px;
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#000000;
+	position:relative;
+}
+.sp.column.one div.ui-widget.app div.ui-widget-header h1, .sp.column.one div.ui-widget.app.navigation div.ui-widget-header h1, #spn-content div.ui-widget.app div.ui-widget-header h1, #spn-content div.ui-widget.app.navigation div.ui-widget-header h1 {
+	font-size:22px;
+	color:#ff6600;
+	text-transform:none;
+}
+div.ui-hp div.ui-widget.app div.ui-widget-header h1 {
+	padding:0px 15px 0px 15px;
+	margin:0px;
+}
+.hp.column.two div.ui-hp div.ui-widget.app div.ui-widget-header h1 {
+	padding:0px 20px 0px 20px;
+}
+.hp.column.two div.ui-widget-detail, .hp.column.two div.ui-widget-footer {
+	padding:0px 20px 0px 20px;
+	width:auto;
+}
+.hp.column.one div.ui-widget-detail, .hp.column.one div.ui-widget-footer, .hp.column.three div.ui-widget-detail, .hp.column.three div.ui-widget-footer {
+	padding:0px 15px 0px 15px;
+	width:auto;
+}
+.hp.column.three #sw-content-container3 div.ui-widget.app {
+	display:none;
+}
+.hp.column.three #sw-content-container3 div.ui-widget.app.active-app {
+	display:block;
+}
+.hp.column.three #sw-content-container3 div.ui-widget.app div.ui-widget-header {
+	display:none;
+}
+.hp-app-header {
+	display:block;
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.header-curl {
+	width:6px;
+	height:11px;
+	position:absolute;
+	bottom:-6px;
+	left:0px;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat -220px -11px transparent;
+}
+.sp.column.two div.ui-widget-header {
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat -719px -1150px #E3E2CD;
+}
+.sp.column.two div.ui-widget.app {
+	padding:0px;
+}
+.sp.column.two div.ui-widget-detail, .sp.column.two div.ui-widget-footer {
+	padding:10px 25px;
+	width:auto;
+}
+.sp.column.two div.ui-widget-header h1 {
+	padding:9px 25px 8px;
+	margin:0px;
+}
+div.ui-widget-title h1 {
+	font-family:'Oswald', 'Arial', sans-serif;
+	color:#000000;
+}
+h1.ui-article-title, h1.ui-article-title a {
+	font-family:'Oswald', 'Arial', sans-serif;
+	color:#000000;
+}
+#calendar-pnl-smcalendar {
+	display: block;
+}
+#cal-event-detail-col1, #cal-event-detail-col2 {
+	width: 100% !important;
+	padding: 10px 0px 0px;
+}
+.cal-ed-header-title {
+	width: auto;
+}
+.ui-column-one.region {
+	width: auto;
+	clear: both;
+}
+.ui-column-one-quarter.region {
+	width: 25%;
+	float: left;
+}
+.ui-column-one-half.region {
+	width: 50%;
+	float: left;
+}
+.ui-column-one-third.region {
+	width: 33%;
+	float: left;
+}
+.ui-column-two-thirds.region {
+	width: 66%;
+	float: left;
+}
+.region.right {
+	float: right;
+}
+.region.clearleft {
+	clear: left;
+}
+.facebook-like iframe {
+	width:90% !important;
+	height:auto !important;
+	max-height:60px !important;
+	margin-left:10px !important;
+}
+/* GroupEnd */
+
+/* GroupBegin Tabbed Apps */
+.tabs-container {
+	height:35px;
+	margin:0px 0px 0px 1px;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat -6px -229px transparent;
+}
+.hp.column.one .tabs-container, .hp.column.three .tabs-container {
+	margin-top: -35px;
+}
+.tab-button {
+	background:#9E9E8E;
+	float:left;
+	margin:0px 0px 0px 3px;
+	padding:4px 10px 6px 10px;
+	border-radius:6px 6px 0px 0px;
+	-webkit-border-radius:6px 6px 0px 0px;
+	-moz-border-radius:6px 6px 0px 0px;
+	cursor:pointer;
+}
+.tab-button.active {
+	background:#ff6600;
+}
+.tab-right {
+	color:#FFF;
+}
+/* GroupEnd */
+
+/* GroupBegin Upcoming Events */
+.upcoming-column.left {
+	text-align: center;
+	width: 51px;
+	height:52px;
+	margin: 0px 10px 0px 0px;
+	float:left;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	overflow:hidden;
+	background: #ffffe6; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZlNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU4JSIgc3RvcC1jb2xvcj0iI2UzZTJjZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  #ffffe6 0%, #e3e2cd 58%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffe6), color-stop(58%,#e3e2cd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffe6 0%,#e3e2cd 58%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffe6 0%,#e3e2cd 58%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffe6 0%,#e3e2cd 58%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffe6 0%,#e3e2cd 58%); /* W3C */
+	font-family:'Roboto Condensed', 'Arial', sans-serif;
+}
+.upcoming-column.left h1.ui-article-title {
+	font-size:21px;
+	line-height: 1.5;
+	color: #666;
+	padding: 0px 0px 2px 0px;
+	font-weight:normal;
+}
+.joel-month {
+	display: block;
+	background-color:#000000;
+	color: #FFF;
+	letter-spacing: normal;
+	font-weight:normal;
+	text-transform:uppercase;
+	font-size:13px;
+	-webkit-border-radius: 4px 4px 0px 0px;
+	-moz-border-radius: 4px 4px 0px 0px;
+	border-radius: 4px 4px 0px 0px;
+}
+.upcoming-column.right {
+	text-align: left;
+	width: 145px;
+	height: auto;
+	float:left;
+}
+.upcoming-column.right p.ui-article-description {
+	color: #333;
+	padding: 0px;
+	margin: 0px;
+}
+.upcoming-column.right p.ui-article-description a {
+	color: #000;
+	padding: 0px;
+	margin: 0px;
+}
+.upcoming-column.right p.ui-article-description a:hover {
+	text-decoration:underline;
+}
+.view-calendar-link {
+	line-height: 2.57;
+	text-decoration: none;
+	color:#000;
+}
+div.ui-hp div.ui-widget.app.upcomingevents .sw-calendar-block-time, div.ui-hp div.ui-widget.app.upcomingevents .sw-calendar-block-title {
+	color:#333;
+}
+.ui-hp div.upcomingevents div.ui-article {
+	padding:10px 0px;
+}
+/* GroupEnd */
+
+/* GroupBegin Homepage */
+#hp-content-top {
+	width:100%;
+	position:relative;
+	background:#E3E2CD;
+	margin-top:188px;
+}
+#hp-top-right {
+	width:240px;
+	height:280px;
+	float:left;
+	background: #fdfdfb; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZkZmRmYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMzJSIgc3RvcC1jb2xvcj0iI2UzZTJjZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(left, #fdfdfb 0%, #e3e2cd 33%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#fdfdfb), color-stop(33%,#e3e2cd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #fdfdfb 0%,#e3e2cd 33%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #fdfdfb 0%,#e3e2cd 33%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #fdfdfb 0%,#e3e2cd 33%); /* IE10+ */
+	background: linear-gradient(to right, #fdfdfb 0%,#e3e2cd 33%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfb', endColorstr='#e3e2cd',GradientType=1 ); /* IE6-8 */
+	position:relative;
+}
+#social-icons {
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat 0px -148px transparent;
+	width:215px;
+	height:56px;
+	position:absolute;
+	left:-63px;
+	bottom:0px;
+	z-index:10;
+	padding:24px 0px 0px 98px;
+}
+#social-connect {
+	position:absolute;
+	top:22px;
+	left:29px;
+	color:#666;
+}
+#social-connect h2 {
+	font-family:'Roboto Condensed', 'Arial', sans-serif;
+	font-weight:normal;
+	font-size:12px;
+	letter-spacing:2px;
+	line-height:1;
+}
+#social-connect h3 {
+	font-family:'Times New Roman', 'Times', serif;
+	font-size:19px;
+	font-style:italic;
+	font-weight:normal;
+	line-height:1;
+}
+#social-icons .icon-font {
+	text-decoration:none;
+	color:#878786;
+	height:auto;
+	font-size:23px;
+	margin:0px 5px;
+}
+#social-icons .icon-font:hover {
+	color:#BBBCAB;
+}
+#top-shadow {
+	width:100%;
+	height:7px;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat center -316px transparent;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:10;
+}
+#hp-content {
+	width: 100%;
+	position:relative;
+	z-index:11;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/hp-content-bg.png) repeat-y 0px 0px transparent;
+	margin:15px 0px 0px 0px;
+}
+#column-two-top {
+	width:490px;
+	height:51px;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat center -10px transparent;
+	position:absolute;
+	top:-51px;
+	left:50%;
+	margin:0px 0px 0px -245px;
+}
+.column {
+	float: left;
+}
+.column .ui-widget-detail img {
+	max-width:100%;
+	height:auto;
+}
+.hp.column.one {
+	width: 240px;
+	margin:-9px 0px 0px 0px;
+}
+.hp.column.two {
+	width: 480px;
+	margin:-40px 0px 0px 0px;
+	position:relative;
+	min-height: 60px;
+}
+.hp.column.two.original.clone {
+	display:none;
+}
+.hp.column.three {
+	width: 240px;
+}
+#hp-content-bottom {
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat center -567px transparent;
+	width:100%;
+	height:23px;
+	position:absolute;
+	bottom:-23px;
+	left:50%;
+	margin:0px 0px 0px -480px;
+}
+/* GroupEnd */
+
+/* GroupBegin Photo Area */
+#hp-slideshow {
+	width: 720px;
+	height: 315px;
+	position: relative;
+	float:left;
+}
+#hp-slideshow .rotating-images {
+	width: 100%;
+	height: 100%;
+	position: static;
+}
+#hp-slideshow .rotating-images ul.pictures li {
+	width: 100% !important;
+	height: auto !important;
+}
+#hp-slideshow .rotating-images ul.pictures li img {
+	min-height: 0px;
+	width: 100% !important;
+	height: auto !important;
+	border-radius:4px 0px 0px 0px;
+	-webkit-border-radius:4px 0px 0px 0px;
+	-moz-border-radius:4px 0px 0px 0px;
+}
+.image-overlay {
+	width:720px;
+	height:315px;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat 3px bottom transparent;
+	z-index:3;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.gallery-desc {
+	position:absolute;
+	top:0px;
+	left:720px;
+	z-index:5;
+	width:200px;
+	height:180px;
+	padding:15px 20px 15px 20px;
+	color:#333;
+	overflow:hidden;
+}
+.title h1 {
+	font-family:'Roboto Condensed', 'Arial', sans-serif;
+	font-weight:normal;
+	font-size:18px;
+	margin-bottom:8px;
+}
+.caption {
+	line-height:1.4;
+}
+.image-button {
+	position:absolute;
+	z-index:6;
+	top:119px;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat 0px 0px transparent;
+	cursor:pointer;
+}
+.image-button.back {
+	width:44px;
+	height:53px;
+	left:-5px;
+}
+.image-button.next {
+	width:57px;
+	height:47px;
+	right:0px;
+	background:none;
+}
+/* GroupEnd */ 
+
+/* GroupBegin Subpage */
+#sp-content {
+	width: 100%;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/hp-content-bg.png) repeat-y -1709px 0px transparent;
+	position:relative;
+	min-height:400px;
+	margin-top:188px;
+}
+.sp.column.one {
+	width: 690px;
+	padding:0px 15px;
+}
+ul.ui-breadcrumbs {
+	margin:10px 3px 3px 7px;
+}
+ul.ui-breadcrumbs > li > a {
+	color:#666;
+}
+.sp.column.two {
+	width: 240px;
+}
+#sp-rs-pagelist-menu {
+	display: none !important;
+}
+#sp-content-bottom {
+	background: url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat center -612px transparent;
+	width: 100%;
+	height: 23px;
+	position: absolute;
+	bottom: -23px;
+	left: 0px;
+	z-index: 5;
+}
+/* GroupEnd */
+
+/* GroupBegin Subpage No Nav */
+#spn-content {
+	width: 100%;
+	min-height:400px;
+	position:relative;
+	background:#FFF;
+	margin-bottom:6px;
+	padding-top:1px;
+	margin-top:188px;
+}
+#spn-content-inner {
+	padding:0px 15px;
+}
+#spn-content img {
+	max-width:100%;
+	height:auto;
+}
+#spn-content-bottom {
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat center -635px transparent;
+	width:100%;
+	height:23px;
+	position:absolute;
+	bottom:-23px;
+	left:50%;
+	margin:0px 0px 0px -480px;
+	z-index:1;
+}
+/* GroupEnd */ 
+
+/* GroupBegin Navigation Styles */
+div.ui-widget.app.navigation li div.bullet.expandable{
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat -289px -12px transparent;
+}
+div.ui-widget.app.navigation li div.bullet.collapsible{
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat -319px -12px transparent;
+}
+div.ui-widget.app.navigation li div.bullet{
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat -261px -12px transparent;
+	width:15px;
+}
+div.ui-widget.app.navigation li a {
+	color:#333;
+}
+div.ui-widget.app.navigation li a:hover {
+	text-decoration:underline;
+}
+/* GroupEnd */
+ 
+/* GroupBegin Channel Bar Styles */
+#gb-channel-list-outer {
+	width:946px;
+	padding:3px 7px 0px 7px; 
+	background: #e3e2cd; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI0NyUiIHN0b3AtY29sb3I9IiNlM2UyY2QiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+	background: -moz-linear-gradient(top,  #e3e2cd 47%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(47%,#e3e2cd), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e3e2cd 47%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e3e2cd 47%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e3e2cd 47%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e3e2cd 47%,#ffffff 100%); /* W3C */
+	border-radius:6px 6px 0px 0px;
+	-webkit-border-radius:6px 6px 0px 0px;
+	-moz-border-radius:6px 6px 0px 0px;
+	position:fixed;
+	top:151px;
+	z-index:8000;
+}
+#sw-channel-list-container {
+	display: block;
+	width: 100%;	
+}
+ul.sw-channel-list {
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+}
+ul.sw-channel-list li.sw-channel-item {
+	float: left;
+	height: 34px;
+	list-style: none outside none;
+	margin: 0px 2px 0px 0px;
+	position: relative;
+}
+li.sw-channel-item > a {
+	color: #333;
+	display: block;
+	height: 100%;
+	padding: 0 8px 0 0;
+	text-decoration: none;
+	font-size:14px;
+	font-family:'Roboto Condensed', 'Arial', sans-serif;
+	text-transform:uppercase;
+}
+li.sw-channel-item > a span {
+	display: block;
+	padding: 6px 0 11px 8px;
+}
+li.sw-channel-item.active, li.sw-channel-item.hover  {
+	background:#ff6600;
+	border-radius:6px 6px 0px 0px;
+	-webkit-border-radius:6px 6px 0px 0px;
+	-moz-border-radius:6px 6px 0px 0px;
+}
+li.sw-channel-item.active > a, li.sw-channel-item.hover > a {
+	color: #FFF;
+}
+li.sw-channel-item.active > a span, li.sw-channel-item.hover > a span {
+
+}
+/* GroupEnd */ 
+
+/* GroupBegin Channel Bar Dropdown Styles */
+ul.sw-channel-dropdown {
+	background: none repeat scroll 0 0 #E3E2CD;
+	border: 1px solid #CCCCCC;
+	display: none;
+	font-size: 12px;
+	font-weight: normal;
+	left: 0;
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 34px;
+	width: 180px;
+	z-index: 7001;
+}
+ul.sw-channel-dropdown li {
+	background: none repeat scroll 0 0 transparent;
+	border: 0 none;
+	display: block;
+	height: auto;
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+	white-space: pre-wrap;
+	width: 180px;
+}
+ul.sw-channel-dropdown li a {
+	background: none repeat scroll 0 0 transparent;
+	color: #333;
+	display: block;
+	padding: 7px 10px;
+	text-decoration: none;
+	width: 160px;
+}
+ul.sw-channel-dropdown li a:hover {
+	background: none repeat scroll 0 0 #D7D7C2;
+	color: #333;
+}
+.sw-channel-more-li {
+	background-color: #333333;
+	background-image: url("http://c2.creative.schoolwires.net//GlobalAssets/Images/Backgrounds/sw-channel-more-chevron.png");
+	background-position: right top;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+}
+ul.sw-channel-dropdown .sw-channel-more-li a:hover {
+	background-color: #333333;
+	background-image: url("http://c2.creative.schoolwires.net//GlobalAssets/Images/Backgrounds/sw-channel-more-chevron.png");
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+.sw-channel-more-span {
+	color: #FFFFFF;
+}       
+/* GroupEnd */ 
+ 
+/* GroupBegin EditorStyles */
+body {
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+h1 {
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+h2 {
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+h3 {
+	font-size: 16px;
+	line-height: 1.2;	
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-weight: normal;
+}
+h4 {
+	font-size: 14px;
+	line-height: 1.2;	
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-weight: normal;
+}
+h5 {
+	font-size: 12px;
+	line-height: 1;	
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-weight: bold;
+}
+h6 {
+	font-size: 12px;
+	line-height: 1;		
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-weight: normal;
+	font-style: italic;
+}
+.title {
+	font-weight:bold;
+}
+.subtitle {
+	font-style:italic;
+}     
+/* GroupEnd */         
+        
+        
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                /* MediaEnd *//* MediaBegin 768+ */ @media (max-width: 1023px) {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+/* GroupBegin MyStart */
+#sw-mystart-outer {
+	width:744px;
+	background:none;
+	padding:0px 12px 0px 12px;
+	position:relative;
+	margin-left:0px;
+	left:auto;
+	top:auto;
+}
+.sw-mystart-dropdown {
+	display:none;
+}
+#sw-mystart-search {
+	display:none;
+}
+.mystart-home {
+	width:17px;
+	height:16px;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat -195px -8px transparent;
+	float:left;
+	margin:11px 8px 0px 0px;
+}
+.mystart-home a {
+	display:block;
+	width:100%;
+	height:100%;
+}
+#rs-mystart-menu-btn {
+	float:left;
+}
+#rs-menu-info-text {
+	position:relative;
+	font-family:'Roboto Condensed', 'Arial', sans-serif;
+	font-size:16px;
+	padding-left:10px;
+}
+#rs-menu-info-text:after {
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	border-right:7px solid #FFF;
+	content:"";
+	display:block;
+	position:absolute;
+	top:12px;
+	left:5px;
+}
+#rs-mystart-menu-btn, .account-menu {
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat right -659px #000000;
+	font-family:'Oswald', 'Arial', sans-serif;
+	text-transform:uppercase;
+	font-size:13px;
+	font-weight:normal;
+	color:#FFF;
+	margin-top:6px;
+	height:21px;
+	padding:3px 0px 1px 0px;
+}
+#sw-mystart-right #gb-icons {
+	display:block;
+	float:left;
+	margin-right:10px;
+}
+.account-menu {
+	padding:3px 25px 1px 7px;
+	position:relative;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	cursor:pointer;
+	z-index:8000;
+	float:right;
+}
+#account-arrow {
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat -271px -41px transparent;
+	width:13px;
+	height:7px;
+	display:block;
+	position:absolute;
+	top:10px;
+	right:5px;
+}
+.account-menu.open #account-arrow {
+	background-position:-331px -41px;
+}
+#account-menu-dropdown {
+	z-index:8000;
+	list-style:none outside none;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat right -659px #000000;
+	position:absolute;
+	top:21px;
+	right:0px;
+	padding:5px 0px 5px 0px;
+	margin:0px;
+	min-width:75px;
+	border-radius:5px 0px 5px 5px;
+	-moz-border-raduis:5px 0px 5px 5px;
+	-webkit-border-radius:5px 0px 5px 5px;
+	text-align:left;
+	display:none;
+}
+#account-menu-dropdown li {
+	padding:0px 5px 0px 5px;
+}
+#account-menu-dropdown a {
+	color:#FFF;
+	text-decoration:none;
+	font-size:11px;
+}
+#account-menu-dropdown a:hover {
+	text-decoration:underline;
+}
+#rs-mystart-menu-btn:before {
+	display:none;
+}
+#rs-mystart-menu-btn span {
+	padding:0px 7px 0px 7px;
+}
+.sw-mystart-button.home, #sw-mystart-right .sw-mystart-button, #sw-mystart-right #sw-mystart-account {
+	display:none;
+}
+/* GroupEnd */
+
+/* GroupBegin Global */
+#gb-page {
+	width:768px;
+}
+.show768, .hide960 {
+	display:block;
+}
+.hide768 {
+	display:none;
+}
+#gb-header-outer {
+	background:none;
+	position:relative;
+	width:100%;
+	top:auto;
+}
+#gb-header {
+	background-position:center 113px;
+}
+#gb-logo {
+	max-width: 30%;
+	height:62px;
+}
+#gb-logo a {
+	padding-top:26px;
+}
+#gb-sitename {
+	max-width: 70%;
+}
+#gb-sitename h1 {
+	font-size:27px;
+}
+#gb-sitename h2 {
+	font-size:12px;
+}
+#gb-header #gb-icons {
+	display:none;
+}
+.school #gb-footer {
+	height:auto;
+}
+#gb-footer {
+	background:none #C6C6B0;
+}
+.gb.footer.one {
+	display:none;
+}
+.school .gb.footer.one {
+	display:block;
+	float:none;
+	position:absolute;
+	top:110px;
+	left:5px;
+}
+.gb.footer.two {
+	text-align:left;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat -1238px -320px transparent;
+	padding:15px 0px 0px 85px;
+	margin:0px 0px 0px 20px;
+	width:390px;
+}
+.gb.footer.three {
+	margin:0px 0px 0px 20px;
+	padding-top:15px;
+}
+.school .gb.footer.three {
+	padding:90px 10px 30px 0px;
+}
+/* GroupEnd */
+
+/* GroupBegin App Styles */
+.hp.column.one div.ui-widget.app div.ui-widget-header, .hp.column.three #sw-content-container4 div.ui-widget.app div.ui-widget-header {
+	width:198px;
+	padding:3px 0px 2px 0px;
+}
+#calendar-pnl-calendarcontainer {
+	min-width: 0px;
+}
+#calendar-pnl-smcalendar {
+	display: none;
+}
+.ui-column-one-quarter.region {
+	width: 50%;
+	float: left;
+}
+.ui-column-one-third.region {
+	width: 50%;
+	float: left;
+}
+.ui-column-two-thirds.region {
+	width: 50%;
+	float: left;
+}
+.region.right {
+	float: left;
+}
+.region.clearleft {
+	clear: none;
+}                  
+/* GroupEnd */
+
+/* GroupBegin Tabbed Apps */
+.tabs-container {
+	height:28px;
+	margin-top:-28px;
+	background-position:-6px -236px;
+}
+.tab-button {
+	padding-bottom:3px;
+}
+.tab-right {
+	font-size:14px;
+}
+/* GroupEnd */
+
+/* GroupBegin Upcoming Events */
+.upcoming-column.left {
+	width: 39px;
+	height:40px;
+}
+.upcoming-column.left h1.ui-article-title {
+	font-size:14px;
+}
+.joel-month {
+	font-size:10px;
+}
+.upcoming-column.right {
+	width: 100px;
+}
+/* GroupEnd */
+
+/* GroupBegin Homepage */
+#hp-content-top {
+	padding-top:10px;
+	height:384px;
+	margin-top:0px;
+}
+#hp-top-right {
+	width:319px;
+	height:80px;
+	float:none;
+	background:none;
+	position:absolute;
+	top:260px;
+	right:0px;
+}
+#social-icons {
+	background-position:-332px -97px;
+	left:auto;
+	right:0px;
+	width:201px;
+}
+#hp-content {
+	background-position:-960px 0px;
+	width:749px;
+	margin:15px auto 0px auto;
+}
+#column-two-top {
+	width:385px;
+	height:34px;
+	background-position: center -63px;
+	top:-34px;
+	left:182px;
+	margin:0px;
+}
+.hp.column.one {
+	width:187px;
+	margin-top:-23px;
+}
+.hp.column.two {
+	width:375px;
+	margin-top:-14px;
+}
+.hp.column.three {
+	width:187px;
+}
+#hp-content-bottom {
+	background-position:center -590px;
+	left:0px;
+	margin:0px;
+	height:22px;
+	bottom:-22px;
+}
+/* GroupEnd */
+
+/* GroupBegin Photo Area */
+#hp-slideshow {
+	width: 704px;
+	margin:0px auto 0px auto;
+	float:none;
+}
+.image-overlay {
+	background-position:0px -675px;
+	height:308px;
+}
+.image-button.next {
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat -69px 0px transparent;
+	width:44px;
+	height:53px;
+	right:-5px;
+}
+.gallery-desc {
+	top:290px;
+	left:0px;
+	width:684px;
+	height:64px;
+	padding:15px 10px 15px 10px;
+}
+.title h1 {
+	margin-bottom:0px;
+}
+.caption {
+	line-height:1;
+}
+/* GroupEnd */
+
+/* GroupBegin Subpage */
+#gb-header.sp {
+	background:none;
+}
+#sp-content {
+	background:#FFF;
+	border-radius:6px;
+	box-shadow:0px 0px 8px -1px #000;
+	-moz-box-shadow:0px 0px 8px -1px #000;
+	-webkit-box-shadow:0px 0px 8px -1px #000;
+	margin-bottom:6px;
+	margin-top:0px;
+}
+.sp.column.one {
+	width:738px;
+	float:none;
+	padding-top:1px;
+}
+div#sp-rs-pagelist-menu {
+	left:auto;
+	right:39px;
+	display: block !important;
+}
+div#sp-rs-pagelist-btn {
+	border-radius:0px 6px 0px 0px;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat right -659px #000000;
+}
+div#sp-rs-pagelist-body {
+	background:url(/cms/lib2/TX01000797/Centricity/Template/18/template-sprite.png) no-repeat right -659px #000000;
+}
+div#sp-rs-pagelist-menu h2 {
+	color:#FFF;
+	font-family:'Oswald', 'Arial', sans-serif;
+	font-size:17px;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+ul#sp-rs-pagelist > li {
+	min-width:200px;
+}
+div.rs-pagelist-bullet:before {
+	background:#FFF;
+}
+ul#sp-rs-pagelist > li a {
+	color:#FFF;
+	text-decoration:none;
+}
+div.rs-pagelist-bullet.expandable:before {
+	border-left:6px solid #FFF;
+}
+div.rs-pagelist-bullet.collapsible:before {
+	border-top:6px solid #FFF;
+}
+/* GroupEnd */
+
+/* GroupBegin Subpage No Nav */
+#spn-content {
+	border-radius:6px;
+	box-shadow:0px 0px 8px -1px #000;
+	-moz-box-shadow:0px 0px 8px -1px #000;
+	-webkit-box-shadow:0px 0px 8px -1px #000;
+	margin-bottom:6px;
+	margin-top:0px;
+}
+/* GroupEnd*/
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                } /* MediaEnd *//* MediaBegin 640+ */ @media (max-width: 767px) {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+/* GroupBegin MyStart */
+#sw-mystart-outer {
+	width:616px;
+}
+/* GroupEnd */
+
+/* GroupBegin Global */
+#gb-page {
+	width:640px;
+}
+.show640 {
+	display:block;
+}
+.hide640 {
+	display:none;
+}
+#gb-header {
+	height:120px;
+	background-position:center 113px;
+}
+#gb-logo {
+	height:56px;
+}
+#gb-sitename-inner {
+	padding-top:35px;
+}
+#gb-sitename h1.cte, #gb-sitename h1.pard, #gb-sitename h1.counseling {
+	font-size:26px;
+}
+#gb-sitename h2 {
+	font-size:10px;
+}
+.icon-container-outer {
+	width:55px;
+	height:56px;
+}
+.icon-container {
+	margin-top:6px;
+}
+.icon-container .icon-text {
+	font-size:12px;
+}
+.icon-font {
+	height:20px;
+}
+.icon-font.menus {
+	font-size:16px;
+}
+.icon-font.grades {
+	font-size:20px;
+	margin:-1px 0px 1px 0px;
+}
+.icon-font.contact {
+	font-size:18px;
+}
+#gb-footer {
+	height:180px;
+	padding:0px;
+}
+.school .gb.footer.one {
+	top:80px;
+}
+.gb.footer.three {
+	float:right;
+}
+.school .gb.footer.three {
+	padding-top:25px;
+}
+/* GroupEnd */
+
+/* GroupBegin App Styles */
+.upcoming-column.right {
+	width:236px;
+}
+div.ui-hp div.ui-widget.app div.ui-widget-header h1 {
+	padding:0px 9px;
+}
+.hp-app-header, .header-curl {
+	display:none;
+}
+.hp.column.one div.ui-widget.app div.ui-widget-header, .hp.column.three #sw-content-container4 div.ui-widget.app div.ui-widget-header, .hp.column.three div.ui-widget.app div.ui-widget-header {
+	background: #dfdec9; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RmZGVjOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ1JSIgc3RvcC1jb2xvcj0iI2JiYmNhYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(left, #dfdec9 0%, #bbbcab 45%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#dfdec9), color-stop(45%,#bbbcab)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #dfdec9 0%,#bbbcab 45%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #dfdec9 0%,#bbbcab 45%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #dfdec9 0%,#bbbcab 45%); /* IE10+ */
+	background: linear-gradient(to right, #dfdec9 0%,#bbbcab 45%); /* W3C */
+	border-radius:6px;
+	min-height:26px;
+	width:auto;
+	margin:0px 0px 3px;
+	position:relative;
+	cursor:pointer;
+}
+.hp.column.one div.ui-widget.app div.ui-widget-header:after, .hp.column.three #sw-content-container4 div.ui-widget.app div.ui-widget-header:after, .hp.column.three div.ui-widget.app div.ui-widget-header:after {
+	content:"";
+	display:block;
+	position:absolute;
+	right:8px;
+	top:50%;
+	margin-top:-10px;
+	width: 0;
+	height: 0;
+	border-top: 9px solid transparent;
+	border-bottom: 9px solid transparent;
+	border-left: 9px solid #868684;
+}
+.hp.column.one div.ui-widget.app.active div.ui-widget-header:after, .hp.column.three #sw-content-container4 div.ui-widget.app.active div.ui-widget-header:after, .hp.column.three div.ui-widget.app.active div.ui-widget-header:after {
+	border-left: 9px solid transparent;
+	border-right: 9px solid transparent;
+	border-top: 9px solid #FFFFFF;
+	margin-top:-5px;
+}
+.hp.column.three #sw-content-container3 div.ui-widget.app div.ui-widget-header {
+	display:block;
+	padding:3px 0px 2px 0px;
+}
+.tabs-container {
+	display:none;
+}
+.hp.column.three #sw-content-container3 div.ui-widget.app {
+	display:block;
+}
+.hp.column.one div.ui-widget-detail, .hp.column.three div.ui-widget-detail {
+	background:#FFF;
+	display:none;
+	margin-bottom:3px;
+}
+.hp.column.one div.ui-widget-footer, .hp.column.three div.ui-widget-footer {
+	display:none;
+}
+.ui-hp div.ui-widget-detail div.ui-widget-footer {
+	display:block;
+}
+.hp.column.one div.ui-widget.app.active div.ui-widget-header, .hp.column.three #sw-content-container4 div.ui-widget.app.active div.ui-widget-header, .hp.column.three div.ui-widget.app.active div.ui-widget-header {
+	background:#ff6600;
+}
+.hp.column.one div.ui-widget.app.active div.ui-widget-header h1, .hp.column.three #sw-content-container4 div.ui-widget.app.active div.ui-widget-header h1, .hp.column.three div.ui-widget.app.active div.ui-widget-header h1 {
+	color:#FFF;
+}
+.hp.column.two div.ui-hp div.ui-widget.app div.ui-widget-header h1 {
+	padding:0px 15px;
+}
+.hp.column.two div.ui-widget-detail, .hp.column.two div.ui-widget-footer {
+	padding:0px 15px;
+}
+.ui-column-one.region {
+	width: auto;
+	clear: none;
+}
+.ui-column-one-quarter.region {
+	width: auto;
+	float: none;
+}
+.ui-column-one-half.region {
+	width: auto;
+	float: none;
+}
+.ui-column-one-third.region {
+	width: auto;
+	float: none;
+}
+.ui-column-two-thirds.region {
+	width: auto;
+	float: none;
+}
+.region.right {
+	float: none;
+}
+/* GroupEnd */
+
+/* GroupBegin Homepage */
+#hp-content-top {
+	height:272px;
+}
+#hp-top-right {
+	top:214px;
+}
+#hp-content {
+	background:none;
+	margin-top:10px;
+	width:100%;
+}
+.hp.column.one {
+	margin:0px 0px 0px 4px;
+	width:315px;
+}
+.hp.column.two {
+	margin:0px 3px 0px 0px;
+	float:right;
+	width:314px;
+	background:#FFF;
+	border-radius:6px;
+	box-shadow:0px 0px 8px -1px #000;
+	-moz-box-shadow:0px 0px 8px -1px #000;
+	-webkit-box-shadow:0px 0px 8px -1px #000;
+	padding-top:10px;
+}
+.hp.column.three {
+	margin:0px 0px 0px 4px;
+	clear:left;
+	width:315px;
+}
+/* GroupEnd */
+
+/* GroupBegin Photo Area */
+#hp-slideshow {
+	width: 622px;
+}
+.image-overlay {
+	background-position:0px -711px;
+	height:280px;
+	width:622px;
+}
+.gallery-desc {
+	display:none;
+}
+.image-button {
+	top:91px;
+}
+/* GroupEnd */
+
+/* GroupBegin Subpage */
+.sp.column.one {
+	width:610px;
+}
+/* GroupEnd */
+
+/* GroupBegin Subpage No Nav */
+
+/* GroupEnd*/
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                } /* MediaEnd *//* MediaBegin 480+ */ @media (max-width: 639px) {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+/* GroupBegin Global */
+#sw-mystart-outer {
+	width:456px;
+}
+#sw-mystart-right #gb-icons {
+	display:none;
+}
+#gb-page {
+	width:480px;
+}
+.show480 {
+	display:block;
+}
+.hide480 {
+	display:none;
+}
+#gb-header {
+	height:124px;
+	background-position:center 117px;
+}
+#gb-logo a {
+	padding-top:20px;
+}
+#gb-sitename-inner {
+	padding-top:31px;
+}
+#gb-sitename h1.cte, #gb-sitename h1.pard, #gb-sitename h1.counseling {
+	font-size:18px;
+}
+#gb-header #gb-icons {
+	display:block;
+}
+#gb-icons {
+	float:none;
+	position:absolute;
+	bottom:0px;
+	left:18px;
+}
+.icon-container-outer {
+	background:#E3E2CD;
+	width:auto;
+	height:auto;
+	margin:0px 3px 0px 0px;
+}
+.icon-container {
+	position:relative;
+}
+.icon-container .icon-text {
+	padding:0px 8px 3px;
+	font-size:14px;
+}
+.icon-link img {
+	display:none;
+}
+.icon-container-outer:hover img.hover {
+	display:none;
+}
+.icon-container span.icon-font {
+	display:none;
+}
+#district-tabs {
+	right:18px;
+}
+.tab {
+	margin-left:3px;
+	background-image:none;
+	font-size:18px;
+}
+.tab:hover {
+	margin-top:5px;
+	padding-top:1px;
+}
+#gb-footer {
+	height:208px;
+	margin-top:6px;
+}
+.school .gb.footer.one {
+	top:100px;
+}
+.gb.footer.two {
+	width:375px;
+	margin-left:10px;
+}
+.gb.footer.three {
+	padding-top:45px;
+}
+/* GroupEnd */
+
+/* GroupBegin App Styles */
+#calendar-pnl-filter-toggle, #calendar-pnl-buttons-top, a.ui-btn-toolbar, span.ui-toggle {
+	display: none;	
+}
+#calendar-pnl-title {
+	width: auto;	
+}
+#cal-event-detail-header h1 {
+	margin: 0px;
+}
+/* GroupEnd */
+
+/* GroupBegin Homepage */
+#hp-content-top {
+	height:61px;
+	margin:0px;
+	padding:0px;
+}
+#hp-top-right {
+	top:0px;
+	right:auto;
+	left:0px;
+	width:100%;
+	height:61px;
+}
+#social-icons {
+	background-position:-355px -199px;
+	width:380px;
+	left:0px;
+	right:auto;
+	height:45px;
+	padding-top:23px;
+}
+#social-connect {
+	top:21px;
+	left:16px;
+}
+#social-connect h2 {
+	font-size:14px;
+}
+#social-connect h3 {
+	font-size:22px;
+}
+#social-icons .icon-font {
+	font-size:30px;
+	margin:0px 18px;
+}
+#hp-content {
+	background:#E3E2CD;
+	margin:0px;
+}
+.hp.column.one, .hp.column.two, .hp.column.three {
+	width:470px;
+	margin:0px 5px;
+}
+.hp.column.two.original {
+	display:none;
+}
+.hp.column.two.original.clone {
+	display:block;
+}
+.hp.column.two {
+	border-radius:0px;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+/* GroupEnd */
+
+/* GroupBegin Subpage */
+.sp.column.one {
+	width:470px;
+	padding:1px 5px 0px;
+}
+/* GroupEnd */
+
+/* GroupBegin Subpage No Nav */
+#spn-content-inner {
+	padding:0px 5px;
+}
+/* GroupEnd*/
+
+/* GroupBegin SignIn Page */
+input.ui-txt-general.medium, textarea.ui-txt-general.medium, input.ui-txt-heading.medium {
+	width:90%;
+}
+/* GroupEnd */
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                } /* MediaEnd *//* MediaBegin 320+ */ @media (max-width: 479px) {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+/* GroupBegin Global */
+#rs-menu-info-text {
+	font-size:14px;
+	width:130px;
+	line-height:1;
+}
+#rs-menu-info-text:after {
+
+}
+#sw-mystart-outer {
+	width:296px;
+}
+#gb-page {
+	width:320px;
+}
+.show320 {
+	display:block;
+}
+.hide320 {
+	display:none;
+}
+#gb-logo {
+	max-width: 40%;
+	height:51px;
+}
+#gb-sitename {
+	max-width: 60%;
+}
+#gb-sitename-inner {
+	padding-top:26px;
+}
+#gb-sitename h1 {
+	font-size: 20px;
+}
+#gb-sitename h1.cte, #gb-sitename h1.pard, #gb-sitename h1.counseling {
+	font-size:9px;
+}
+#gb-icons {
+	left:6px;
+}
+.icon-container-outer {
+	margin-right:2px;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/17/template-sprite.png) no-repeat -230px -413px #E3E2CD;
+}
+.icon-container {
+	margin-top:4px;
+}
+.icon-container .icon-text {
+	font-size:10px;
+	padding:0px 5px 3px;
+}
+#district-tabs {
+	right:6px;
+	background:none;
+}
+.tab {
+	font-size:12px;
+	margin:12px 0px 0px 2px;
+	padding:3px 8px 4px;
+	height:16px;
+	background:url(/cms/lib2/TX01000797/Centricity/Template/17/template-sprite.png) no-repeat -230px -413px #ff6600;
+}
+.tab:hover {
+	margin-top:12px;
+	padding-top:3px;
+}
+#gb-footer {
+	height:auto;
+}
+.school .gb.footer.one {
+	top:130px;
+	left:-5px;
+}
+.gb.footer.two {
+	padding:42px 0px 0px;
+	background-position:-1238px -336px;
+	width:310px;
+	float:none;
+	height:auto;
+}
+.gb.footer.three {
+	text-align:left;
+	float:none;
+	padding-top:20px;
+	margin-left:10px;
+}
+.school .gb.footer.three {
+	padding:150px 10px 20px 0px;
+}
+#sw-info {
+	padding:0px 0px 35px;
+	margin:0px;
+	background-position:0px -348px;
+}	
+/* GroupEnd */
+
+/* GroupBegin App Styles */
+
+/* GroupEnd */
+                                                                                                                                                                                                                                                                                                                                                                                                                
+/* GroupBegin Homepage */
+#social-icons {
+	width:100%;
+	height:46px;
+	padding:15px 0px 0px 0px;
+	background-position:-649px -104px;
+}
+#social-connect {
+	display:none;
+}
+#social-icons .icon-font {
+	margin:0px 12px;
+}
+#social-icons .icon-font.facebook {
+	margin-left:23px;
+}
+.hp.column.one, .hp.column.two, .hp.column.three {
+	width:310px;
+}
+/* GroupEnd */
+
+/* GroupBegin Subpage */
+.sp.column.one {
+	width:310px;
+}
+/* GroupEnd */
+
+/* GroupBegin Subpage No Nav */
+
+/* GroupEnd*/                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                } /* MediaEnd */</style>
+    <script language="JavaScript">
+	var theInformationArr = new Array();
+	var theDirectoryTypeID = 6;
+	var originalStartingColumns = [1,2];
+	
+	var numTotalGroups = 0;
+	function getTheParamValue(searchParam)
+	{
+		/* returns the value of any parameter in the URL when a name is passed in called in such manner var cOpenValue = getTheParamValue('cOpen');*/
+		var myLocation = "'"+window.location+"'";
+		var getRidOfDomain = myLocation.split("?");
+		if(getRidOfDomain[1]){
+			var onlyParameters = getRidOfDomain[1].split("&");
+			
+			for(var i=0;i<onlyParameters.length;i++){
+				var currentParam = onlyParameters[i];
+				var theMatch = searchParam+"=(.*)";
+				var rgxp = new RegExp(theMatch,"g");
+				var whatMatched = currentParam.match(rgxp);
+				if(whatMatched){
+					var cleanup = whatMatched.toString().replace("'","");
+					var breakdown = cleanup.split("=");
+					return breakdown[1];
+				}
+			}	
+		}
+	}
+	
+	
+	$( document ).ready(function() {
+if("hhs" == "ci"){
+$("#gb-sitename h1").css("font-size", "30px");
+}
+		/*Find out how many columns we have */
+		var numOrigColumns = 0;
+		$('.ui-column-one-third').each(function(){
+			numOrigColumns +=1;
+		});
+
+		var whereAreWe = getTheParamValue('DirectoryType');
+
+		if(whereAreWe==theDirectoryTypeID && jQuery.inArray(numOrigColumns,originalStartingColumns)!==-1)
+		{
+			$("a.sw-directory-item").each(function(){
+				var beginLetter = $(this).html().substr(0,1);
+				if(!theInformationArr[beginLetter]){
+					theInformationArr[beginLetter] = new Array();
+					numTotalGroups += 1;
+				}
+				$(this).attr('style','color:#000000;text-decoration:none');
+				theInformationArr[beginLetter].push($(this).parent().html());
+			
+			});
+			
+			var theCount = 1;
+			var totalCount = 0;
+			var theHTML = '<div style="float:left;width:33%;">';
+			var allHTML = '';
+			var howToGetThreeCols = Math.ceil(numTotalGroups/3);
+			
+
+			for(var i in theInformationArr)
+			{
+				theHTML +="<div style='padding-left:5px;'>";
+				theHTML +="<div class='sw-directory-alphabetical-group-heading'>"+i+"</div><ul>";
+				for(var j in theInformationArr[i])
+				{
+					theHTML +="<li style='padding-bottom:20px;'>"+theInformationArr[i][j]+"</li>";
+				}
+				theHTML +="</ul></div>";
+				
+				if(theCount == howToGetThreeCols || totalCount == (numTotalGroups - 1))
+				{
+					theHTML += '</div>';
+					allHTML += theHTML;
+					theHTML = '<div style="float:left;width:33%;">';
+					theCount=1;
+				}
+				else{theCount += 1;}
+				
+				totalCount +=1 ;
+				
+			}
+			$(".sw-directory-columns").html(allHTML);
+		}
+		
+		
+	});
+
+</script><link href='//fonts.googleapis.com/css?family=Roboto+Condensed|Oswald' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<script type="text/javascript" src="/cms/lib2/TX01000797/Centricity/Template/17/scripts/joel.modEvents.min.js"></script>
+<script type="text/javascript" src="/cms/lib2/TX01000797/Centricity/Template/17/scripts/joel.tabbed.blocks.pg.min.js"></script>
+<script type="text/javascript" src="/cms/lib2/TX01000797/Centricity/Template/17/scripts/creative.responsive.menu.min.js"></script>
+<script type="text/javascript" src="/cms/lib2/TX01000797/Centricity/Template/17/scripts/brenton.responsive.pagelist.menu.birdville.min.js"></script>
+<script type="text/javascript" src="//extend.schoolwires.com/creative/scripts/creative/rotate/creative.GalleryRotate-V3.jQuery.min.js"></script>
+<script type="text/javascript">
+$(window).load(function(){
+	if($(window).width() >= 320 && $(window).width() <= 639){
+		calendarListView();
+	}
+});
+
+$(function(){
+	$(window).bind("resize", function(){ pgScreenSize(); });
+
+	// RESPONSIVE MENUS
+	$("body").creativeResponsiveMenu({
+		"breakPoint"		: 1023, // SYSTEM BREAK POINTS - 1023, 767, 639, 479
+		"folderURL"		: "/cms/lib2/TX01000797/Centricity/Template/17/rs-menu/",
+		"useDefaultCSS"		: "yes",
+		"slideDirection"	: "left-to-right", // OTHER OPTION - left-to-right
+		"menuPosition"		: "absolute", // OTHER OPTION - relative
+		"menuButtonParent"	: "#sw-mystart-left",
+		"showMenuBtnText"	: "yes",
+		"menuBtnText"		: "RESOURCES",
+		"showMenuInfoText"	: "yes",
+		"menuInfoText768"	: "Access information and school sites",
+		"menuInfoText640"	: "Access information and school sites",
+		"menuInfoText480"	: "Access information and school sites",
+		"menuInfoText320"	: "Access information and school sites",
+		"showSearch"		: "yes",
+		"showMyAccount"		: "no",
+		"showSiteManager"       : "no",
+		"showDistrictHome"	: "yes",
+		"showSchoolList"	: "yes",
+		"showChannelList"	: "yes",
+		"showTranslate"		: "yes",
+		"translateId"           : "none",
+		"addGradesBtn"		: "no",
+		"gradesBtnURL"		: "",
+		"addEmailBtn"		: "no",
+		"emailBtnURL"		: ""
+	});
+	$("div#sp-content").responsivePagelistMenu({
+		"breakPoint" : 1023
+	});
+	
+	dynamicContent();
+	pgScreenSize();
+	siteName();
+	useChannelForSection();
+	searchText();
+	addFramesetTranslate();	
+	hideSchools();
+});	
+
+function pgScreenSize(){
+	var getWidth = $(window).width();
+	if (getWidth >= 1024) { // 960+
+		photoGallery();
+		tabbedBlocks();
+		appHeaders();
+		headerIcons();
+	} if (getWidth >= 768 && getWidth < 1024) { // 768+
+		photoGallery();
+		tabbedBlocks();
+		appHeaders();
+		modMyStart();
+		headerIcons();
+	} if (getWidth >= 640 && getWidth < 768) { // 640+
+		photoGallery();
+		modMyStart();
+		headerIcons();
+		appView();
+	} if (getWidth >= 480 && getWidth < 640) { // 480+
+		modMyStart();
+		appView();
+		//columnTwo();
+		//calendarListView();
+	} if (getWidth >= 320 && getWidth < 480) { // 320+
+		modMyStart();
+		appView();
+		//columnTwo();
+		//calendarListView();
+	}
+}
+function hideSchools(){
+	$(".sw-dropdown-list li").each(function(){
+		var schoolname = $(this).text();
+		switch(schoolname){
+			case "Communications":
+			case "General":
+			case "Bilingual/ESL":
+			case "Testing Site":
+			case "Fine Arts Athletic Complex (FAAC)":
+			case "Purchasing":
+			case "Student Services":
+			case "Transportation":
+			case "Technology and Information Management Services":
+				$(this).hide();
+			break;
+		}
+	});
+}
+function photoGallery(){
+	if(!$("#sw-content-container10.region.ui-hp .gallery-container").length){
+		// PHOTO GALLERY CONFIGURATION
+		$("#sw-content-container10.ui-hp div.ui-widget.app.gallery").creativeGalleryRotate({
+			"imageHeight"		: 315,
+			"imageControls"		: "on",
+			"animateType"		: "fade", // CHOICES - "slide"
+			"animateSpeed"		: 3,
+			"pauseHover"		: ['all'], // CHOICES - ['title'], ['overlay'], ['caption'], ['all']
+			"autoRotate"		: "on",
+			"useTitles"		: "on",
+			"useCaptions"		: "on",
+			"useOverlay"		: "on",
+			"randomOrder"		: "on",
+			"linkedElement"		: ['overlay'], // CHOICES - ['picture'], ['title'], ['overlay']
+			"itemizedBullets"	: "off",
+			"thumbnails"		: "off",
+			"thumbnailWidth"	: 50,
+			"thumbnailHeight"	: 32,
+			"thumbnailControls"	: "off",
+			"thumbnailLimit"	: 3,
+			"addClass"		: "unclassed",
+			"moreLinkText"		: "off" 
+		});
+	}
+}
+function columnTwo(){
+	if(!$(".hp.column.two.original").length){
+		$(".hp.column.two").addClass("original");		
+		$(".hp.column.two").addClass("original").clone().appendTo("#hp-content").addClass("clone");
+	}
+}
+function headerIcons(){
+	if(!$("#sw-mystart-right #gb-icons").length){
+		$("#gb-icons").clone().prependTo("#sw-mystart-right");
+	}
+}
+function modMyStart(){
+	if(!$(".mystart-home").length){
+		$("<div class='mystart-home hide960'><a href='/'></a></div>").prependTo("#sw-mystart-left");
+	}
+	if(!$(".account-menu").length){
+		
+			var liStructure = "<li><a href='/site/Default.aspx?PageType=7&SiteID=787&IgnoreRedirect=true'>Sign In</a></li>" +
+					  "<li><a href='/site/Default.aspx?PageType=10&SiteID=787'>Register</a></li>";
+		
+		
+		var accountDD = "<div class='account-menu hide960'>" +
+				"	ACCT" +
+				"	<span id='account-arrow'></span>" +
+				"	<ul id='account-menu-dropdown'>" +
+						liStructure +
+				"	</ul>" +
+				"</div>";
+		$("#sw-mystart-right .clear").before(accountDD);
+		
+		$(".account-menu").live("click", function(){
+			$("#account-menu-dropdown").slideToggle();
+			if($(this).hasClass("open")){
+				$(this).removeClass("open");
+			} else {
+				$(this).addClass("open");
+			}
+		});
+	}
+}
+function appHeaders(){
+	if(!$(".hp-app-header").length){
+		$(".ui-hp div.ui-widget-header").not(".hp.column.two .ui-hp div.ui-widget-header, .hp.column.three #sw-content-container3 div.ui-widget-header").each(function(){
+			$(this).prepend("<img src='/cms/lib2/TX01000797/Centricity/Template/17/app-header-banner.png' class='hp-app-header'/>");
+			$(this).append("<span class='header-curl'></span>");
+		});
+	}
+}
+function siteName(){
+	switch("hhs"){
+		case "digitallearning":
+		case "noms":
+		case "nrchms":
+		case "nrdgms":
+		case "ame":
+		case "fve":
+		case "gve":
+		case "hhe":
+		case "nre":
+		case "she":
+		case "wce":
+		case "ghe":
+		case "ohse":
+		case "wape":
+		case "wtfe":
+		case "sp":
+		case "hs":
+		case "humanresources":
+		case "it":
+		case "pl":
+		case "fa":
+		case "nutrition":
+			var siteNameText = "Haltom High School";
+			var headerArray = siteNameText.split(" ");
+			$("#gb-sitename h1").text(headerArray[0]+" "+headerArray[1]);
+			$("h1.topline").text(headerArray[0]+" "+headerArray[1]);
+			
+			//FOR EACH ADDITIONAL WORD IN THE APP HEADER, WRAP IT IN A SPAN FOR CAPITALIZATION
+			for(i = 2;i <= headerArray.length - 1;i++){
+				$("#gb-sitename h2").append(headerArray[i]+" ");
+				$("h1.bottomline").append(headerArray[i]+" ");
+			}
+		break;
+		case "dese":
+		case "jcbe":
+		case "jdse":
+		case "sbe":
+		case "ci":
+		case "lms":
+		case "counseling":
+			var siteNameText = "Haltom High School";
+			var headerArray = siteNameText.split(" ");
+			$("#gb-sitename h1").text(headerArray[0]+" "+headerArray[1]+" "+headerArray[2]).addClass("hhs");
+			$("h1.topline").text(headerArray[0]+" "+headerArray[1]+" "+headerArray[2]);
+			
+			//FOR EACH ADDITIONAL WORD IN THE APP HEADER, WRAP IT IN A SPAN FOR CAPITALIZATION
+			for(i = 3;i <= headerArray.length - 1;i++){
+				$("#gb-sitename h2").append(headerArray[i]+" ");
+				$("h1.bottomline").append(headerArray[i]+" ");
+			}
+		break;
+		case "cotal":
+		case "prd":
+		case "pard":
+		case "cte":
+			var siteNameText = "Haltom High School";
+			var headerArray = siteNameText.split(" ");
+			$("#gb-sitename h1").text(headerArray[0]+" "+headerArray[1]+" "+headerArray[2]+" "+headerArray[3]).addClass("hhs");
+			$("h1.topline").text(headerArray[0]+" "+headerArray[1]+" "+headerArray[2]+" "+headerArray[3]);
+			
+			//FOR EACH ADDITIONAL WORD IN THE APP HEADER, WRAP IT IN A SPAN FOR CAPITALIZATION
+			for(i = 4;i <= headerArray.length - 1;i++){
+				$("#gb-sitename h2").append(headerArray[i]+" ");
+				$("h1.bottomline").append(headerArray[i]+" ");
+			}
+		break;
+		case "tims":
+			var siteNameText = "Haltom High School";
+			var headerArray = siteNameText.split(" ");
+			$("#gb-sitename h1").text(headerArray[0]+" "+headerArray[1]+" "+headerArray[2]+" "+headerArray[3]+" "+headerArray[4]);
+			$("h1.topline").text(headerArray[0]+" "+headerArray[1]+" "+headerArray[2]+" "+headerArray[3]+" "+headerArray[4]);
+			
+			//FOR EACH ADDITIONAL WORD IN THE APP HEADER, WRAP IT IN A SPAN FOR CAPITALIZATION
+			for(i = 5;i <= headerArray.length - 1;i++){
+				$("#gb-sitename h2").append(headerArray[i]+" ");
+				$("h1.bottomline").append(headerArray[i]+" ");
+			}
+		break;
+		case "bef":
+			var siteNameText = "Haltom High School";
+			var headerArray = siteNameText.split(" ");
+			$("#gb-sitename h1").text(headerArray[0]+" "+headerArray[1]);
+			$("h1.topline").text(headerArray[0]+" "+headerArray[1]);
+			$("#gb-sitename h2").append(headerArray[2]);
+			$("h1.bottomline").append(headerArray[2]);
+			
+			//FOR EACH ADDITIONAL WORD IN THE APP HEADER, WRAP IT IN A SPAN FOR CAPITALIZATION
+			//for(i = 1;i <= headerArray.length - 1;i++){
+			//	$("#gb-sitename h2").append(headerArray[i]+" ");
+			//	$("h1.bottomline").append(headerArray[i]+" ");
+			//}
+			
+		break;	
+		default:
+			var siteNameText = "Haltom High School";
+			var headerArray = siteNameText.split(" ");
+			$("#gb-sitename h1").text(headerArray[0]);
+			$("h1.topline").text(headerArray[0]);
+			
+			//FOR EACH ADDITIONAL WORD IN THE APP HEADER, WRAP IT IN A SPAN FOR CAPITALIZATION
+			for(i = 1;i <= headerArray.length - 1;i++){
+				$("#gb-sitename h2").append(headerArray[i]+" ");
+				$("h1.bottomline").append(headerArray[i]+" ");
+			}
+	}
+	$("#gb-sitename").show();
+}
+function tabbedBlocks(){
+	if(!$(".tabs-container").size()){
+		$(".hp.column.three #sw-content-container3").tabBlocks();
+		$(".hp.column.three #sw-content-container3 div.ui-widget.app.upcomingevents").removeAttr("style");
+	}
+}
+function appView(){
+	if(!$("div.ui-widget.app.active").length){
+		$("#hp-content div.ui-widget.app:first").addClass("active");
+		$(".hp.column div.ui-widget.app").not(".hp.column.two div.ui-widget.app").each(function(){
+			$("div.ui-widget-detail", this).append($("div.ui-widget-footer", this));
+		});
+		$("#hp-content div.ui-widget.app:first div.ui-widget-detail").show();
+		
+		$("div.ui-hp div.ui-widget-header").click(function(){
+			var clickedHeader = $(this);
+			$("div.ui-widget.app.active div.ui-widget-detail").slideUp(function(){
+				$("div.ui-widget.app").removeClass("active");
+				$(clickedHeader).parent().addClass("active");
+				$(clickedHeader).next().slideDown();	
+			});		
+		});
+	}
+}	
+
+function useChannelForSection(){
+	if(!$("div.sp.column.two .ui-widget-header h1").length > 0) {
+		$("div.sp.column.two .ui-widget-header").append("<h1></h1>");
+	}
+}
+
+function dynamicContent(){
+	$("li.ui-breadcrumb-first > a > span").text("Home");
+	$("#swsignin-txt-username").focus();
+	if($("div.ui-spn > div > p > span").text() == "You have been signed out."){
+		$("div.ui-spn > div").css({"text-align" : "center", "padding" : "50px 0px 50px 0px"});
+	}
+	
+	//DISTRICT TABS
+	if("hhs" == "bisd"){
+		$("#district-tabs").show();
+	}
+	
+	//DISTRICT ADDRESS (ON SCHOOL SITES)
+	if("hhs" != "bisd"){
+		$("#gb-page").addClass("school");
+	}
+	
+	//UPCOMING EVENTS
+	$(".ui-hp .upcomingevents").modEvents({
+		columns:"yes"
+	});	
+	alignEvents();	
+}
+
+function alignEvents(){
+	if($("div.ui-hp div.upcomingevents span.sw-calendar-block-title").length){
+		$("div.ui-hp div.upcomingevents div.ui-article p.ui-article-description").not("div.ui-article.upcoming-column-container p.ui-article-description").each(function(){
+			$(this).wrap("<div class='upcoming-column right'></div>");
+			$(this).parent().parent().addClass("ui-clear upcoming-column-container");
+			var monthText = $(this).parent().parent().parent().prev().find("div.upcoming-column.left").html();
+			$(this).parent().parent().prepend("<div class='upcoming-column left'>" + monthText + "</div>");
+		});
+	}
+}
+
+function searchText() {
+        //SEARCH TEXT
+        $("div#sw-mystart-search input#sw-search-input").removeAttr("placeholder");
+	$("div#sw-mystart-search input#sw-search-input").attr("value", "Search...");
+	$("div#sw-mystart-search input#sw-search-input").focus(function() {
+		if($(this).val() == "Search...") {
+			$(this).val("");
+		}
+	});
+	$("div#sw-mystart-search input#sw-search-input").blur(function() {
+		if($(this).val() == "") {
+			$(this).val("Search...");
+		}
+	});
+}
+
+function calendarListView(){
+	if(!$("a.ui-btn-toggle.list").hasClass("active")){
+		$("a.ui-btn-toggle.list").click();
+	}
+}
+function addFramesetTranslate(){
+	var pageURL = window.location.href;
+	var translateDropdown = '<div class="sw-mystart-dropdown translate">' +
+						'<div class="selector">Translate this page...</div>' +
+						'<div class="sw-dropdown" style="display: none;">' +
+							'<div class="sw-dropdown-selected">Translate this page...</div>' +
+							'<ul class="sw-dropdown-list">' +
+								'<li>' +
+									'<a href="http://translate.google.com/translate?u=' + pageURL + '&langpair=en|es&hl=en&anno=0&ie=UTF8">English to Spanish</a>' +
+								'</li>' +
+								'<li>' +
+									'<a href="http://translate.google.com/translate?u=' + pageURL + '&langpair=en|ar&hl=en&anno=0&ie=UTF8">English to Arabic</a>' +
+								'</li>' +
+								'<li>' +
+									'<a href="http://translate.google.com/translate?u=' + pageURL + '&langpair=en|zh-CN&hl=en&anno=0&ie=UTF8">English to Chinese (Simplified)</a>' +
+								'</li>' +
+								'<li>' +
+									'<a href="http://translate.google.com/translate?u=' + pageURL + '&langpair=en|zh-TW&hl=en&anno=0&ie=UTF8">English to Chinese (Traditional)</a>' +
+								'</li>' +
+								'<li>' +
+									'<a href="http://translate.google.com/translate?u=' + pageURL + '&langpair=en|fr&hl=en&anno=0&ie=UTF8">English to French</a>' +
+								'</li>' +
+								'<li>' +
+									'<a href="http://translate.google.com/translate?u=' + pageURL + '&langpair=en|de&hl=en&anno=0&ie=UTF8">English to German</a>' +
+								'</li>' +
+								'<li>' +
+									'<a href="http://translate.google.com/translate?u=' + pageURL + '&langpair=en|it&hl=en&anno=0&ie=UTF8">English to Italian</a>' +
+								'</li>' +
+								'<li>' +
+									'<a href="http://translate.google.com/translate?u=' + pageURL + '&langpair=en|ja&hl=en&anno=0&ie=UTF8">English to Japanese</a>' +
+								'</li>' +
+								'<li>' +
+									'<a href="http://translate.google.com/translate?u=' + pageURL + '&langpair=en|ko&hl=en&anno=0&ie=UTF8">English to Korean</a>' +
+								'</li>' +
+								'<li>' +
+									'<a href="http://translate.google.com/translate?u=' + pageURL + '&langpair=en|pt&hl=en&anno=0&ie=UTF8">English to Portuguese</a>' +
+								'</li>' +
+								'<li>' +
+									'<a href="http://translate.google.com/translate?u=' + pageURL + '&langpair=en|ru&hl=en&anno=0&ie=UTF8">English to Russian</a>' +
+								'</li>' +
+							'</ul>' +
+						'</div>' +
+						'<div class="sw-dropdown-arrow"></div>' +
+					'</div>';
+	var pageHost = window.location.host;
+	if(pageHost != "translate.googleusercontent.com")
+	{				
+		$(".sw-mystart-dropdown.schoollist").after(translateDropdown);
+		$(".sw-mystart-dropdown.translate").click(function()
+		{
+			$(".sw-dropdown",this).show();
+		});
+		$(".sw-mystart-dropdown.translate").hover(function()
+		{
+		},
+		function()
+		{
+			$(".sw-dropdown",this).hide();
+		});
+	}
+		
+}
+</script>
+
+<!--[if IE 7]>
+<style type="text/css">
+	div.ui-widget.app.headlines ul.ui-articles div.ui-article {
+		display: inline-block;
+	}
+	div.ui-widget.app.headlines ul.ui-articles div.ui-article {
+		display: block;
+		padding: 0px;
+	}
+	div.ui-widget.app.headlines ul.ui-articles li {
+		vertical-align: top;
+		margin: 5px 0px 5px 0px;
+	}
+	.ui-datepicker td {
+		padding: 4px 0px;
+	}
+	#hp-slideshow {
+		z-index:10;
+	}
+	#gb-channel-list-outer {
+		z-index:7000;
+	}
+	#hp-top-right {
+		behavior:url(/cms/lib2/TX01000797/Centricity/Template/17/scripts/PIE.htc);
+		-pie-background: linear-gradient(left, #fdfdfb, #e3e2cd);
+		filter:none;
+	}
+	img.hp-app-header {
+		height:48px;
+	}
+	#sw-search-input {
+		width:125px;
+	}
+	#hp-top-right #social-icons {
+		display:none;
+	}
+	#hp-content-top #social-icons {
+		left:658px;
+		bottom:35px;
+	}
+</style>
+<script type="text/javascript">
+$(function(){
+	$("#social-icons").clone().appendTo("#hp-content-top");
+});
+</script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+<style type="text/css">
+	li.sw-channel-item.active, li.sw-channel-item.hover, #hp-slideshow .rotating-images ul.pictures li img, #gb-page, div.ui-hp div.ui-widget.app.upcomingevents div.upcoming-column-container div.upcoming-column.left h1.ui-article-title span.joel-month, div.ui-hp div.ui-widget.app.upcomingevents div.upcoming-column-container div.upcoming-column.left {
+		position:relative;
+		behavior:url(/cms/lib2/TX01000797/Centricity/Template/17/scripts/PIE.htc);
+	}
+	.icon-font, .icon-container span {
+		display:none;
+	}
+	.upcoming-column.left {
+		-pie-background: linear-gradient(top, #ffffe6, #e3e2cd);
+	}
+	#sw-mystart-outer {
+		background:url(/cms/lib2/TX01000797/Centricity/Template/18/ltIE9-bg.png) no-repeat 0px 0px transparent;
+	}
+	#gb-channel-list-outer {
+		background:url(/cms/lib2/TX01000797/Centricity/Template/18/ltIE9-bg.png) no-repeat 0px -108px transparent;
+	}
+</style>
+<script type="text/javascript" src="/cms/lib2/TX01000797/Centricity/Template/17/scripts/jquery.corner.js"></script>
+<script type="text/javascript">
+$(window).load(function(){
+	$(".icon-container span").css("display", "block");
+	$(".icon-font").show();
+	$(".tab-button").corner("top 6px");
+});
+</script>
+<![endif]-->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27174884-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<style type="text/css" media="print">
+	.noprint, div#sw-mystart-outer, {
+		display: none;
+	}
+	div#sp-content, div#spn-content {
+		background: none;
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+	div.sp.column.two {
+		background: none;
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		min-height: 0px;
+		border: 0px;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	}
+</style>
+    
+    <!-- App Preview -->
+    
+	
+	
+	<style type="text/css">
+		/* HOMEPAGE EDIT THUMBNAIL STYLES */
+		
+		div.region {
+		    
+		}
+		
+		div.region span.homepage-thumb-region-number {
+		    font: bold 100px verdana;
+		    color: #fff;  
+		}
+		
+		div.homepage-thumb-region {
+		    background: #264867; /*dark blue*/
+		    border: 5px solid #fff;
+		    text-align: center;
+		    padding: 40px 0 40px 0;
+		    display: block;
+		}
+		div.homepage-thumb-region.region-1 {
+		    background: #264867; /*dark blue*/
+		}
+		div.homepage-thumb-region.region-2 {
+		    background: #5C1700; /*dark red*/
+		}
+		div.homepage-thumb-region.region-3 {
+		    background: #335905; /*dark green*/
+		}
+		div.homepage-thumb-region.region-4 {
+		    background: #B45014; /*dark orange*/
+		}
+		div.homepage-thumb-region.region-5 {
+		    background: #51445F; /*dark purple*/
+		}
+		div.homepage-thumb-region.region-6 {
+		    background: #3B70A0; /*lighter blue*/
+		}
+		div.homepage-thumb-region.region-7 {
+		    background: #862200; /*lighter red*/
+		}
+		div.homepage-thumb-region.region-8 {
+		    background: #417206; /*lighter green*/
+		}
+		div.homepage-thumb-region.region-9 {
+		    background: #D36929; /*lighter orange*/
+		}
+		div.homepage-thumb-region.region-10 {
+		    background: #6E5C80; /*lighter purple*/
+		}
+		
+		/* END HOMEPAGE EDIT THUMBNAIL STYLES */
+	</style>
+	
+	<style type="text/css" media="print">
+       .noprint {
+           display: none !important;
+       }
+    </style>
+    
+    
+
+<!-- Begin Schoolwires Traffic Code --> 
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5173826-6']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+
+    // Added Custom Variable to allow us to filter based on hosting type, so we can see stats for each environment. Pulls from web config.
+  _gaq.push(['_setCustomVar',
+    1,                // This custom var is set to slot #1.  Required parameter.
+    'Hosting Type',    // The name of the custom variable.  Required parameter.
+    'ESCXI',        // The value of the custom variable.  Required parameter.
+                      //  (possible values might be Free, Bronze, Gold, and Platinum)
+    1                 // Sets the scope to visitor-level.  Optional parameter.
+  ]);
+    _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- End Schoolwires Traffic Code -->  
+ 
+    
+</head>
+<body>
+
+<!-- off-canvas menu enabled-->
+
+
+	
+
+<style type="text/css">
+	/* SPECIAL MODE BAR */
+	div.sw-special-mode-bar {
+		background: #FBC243 url('http://schools.birdvilleschools.net/Static/V2_07_01//GlobalAssets/Images/special-mode-bar-background.png') no-repeat;
+		height: 30px;
+		text-align: left;
+		font-size: 12px;
+		position: relative;
+		z-index: 10000;
+	}
+	div.sw-special-mode-bar > div {
+		padding: 8px 0 0 55px;
+		font-weight: bold;
+	}
+	div.sw-special-mode-bar > div > a {
+		margin-left: 20px;
+		background: #A0803D;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		color: #fff;
+		padding: 4px 6px 4px 6px;
+		font-size: 11px;
+	}
+	
+	body.blue div.sw-special-mode-bar, body.green div.sw-special-mode-bar, body.red div.sw-special-mode-bar {
+	    display: none;
+	}
+
+	/* END SPECIAL MODE BAR */
+</style>
+
+<script type="text/javascript">
+	
+	function SWEndPreviewMode() { 
+		var data = "{}";
+		var success = "window.location='';";
+		var failure = "CallControllerFailure(result[0].errormessage);";
+		CallController("http://schools.birdvilleschools.net/site/SiteController.aspx/EndPreviewMode", data, success, failure);
+	}
+	
+	function SWEndEmulationMode() {
+		SetUnescapedCookie('UserID', GetCookie('SourceEmulationUserID'));
+		DeleteCookie('SourceEmulationUserID');
+		window.location = 'http://schools.birdvilleschools.net/ums/Users/Users.aspx';
+	}
+
+	function SWEndPreviewConfigMode() {
+	    var data = "{}";
+	    var success = "window.location='';";
+	    var failure = "CallControllerFailure(result[0].errormessage);";
+	    CallController("http://schools.birdvilleschools.net/site/SiteController.aspx/EndPreviewConfigMode", data, success, failure);
+	}
+</script>
+            
+
+    <!-- BEGIN - MYSTART BAR -->
+<div id='sw-mystart-outer' class='noprint'>
+<div id='sw-mystart-inner'>
+<div id='sw-mystart-left'>
+<div class='sw-mystart-button home'><a href="http://schools.birdvilleschools.net/Domain/1" alt="District Home" title="Return to the homepage on the district site."><span>District Home<div id='sw-home-icon'></div>
+</span></a></div>
+<div class='sw-mystart-dropdown schoollist'>
+<div class='selector'>Select a School...</div>
+<div class='sw-dropdown'>
+<div class='sw-dropdown-selected'>Select a School</div>
+<ul class='sw-dropdown-list'>
+<li><a href="/Domain/1670">Alliene Mullendore Elementary</a></li>
+<li><a href="/Domain/2359">Academy at C.F. Thomas Elementary</a></li>
+<li><a href="/Domain/2008">Academy at West Birdville Elementary</a></li>
+<li><a href="/Domain/1444">Birdville Elementary</a></li>
+<li><a href="/Domain/1505">David E. Smith Elementary</a></li>
+<li><a href="/Domain/2437">Foster Village Elementary</a></li>
+<li><a href="/Domain/2212">Grace Hardeman Elementary</a></li>
+<li><a href="/Domain/2617">Green Valley Elementary</a></li>
+<li><a href="/Domain/2078">Holiday Heights Elementary</a></li>
+<li><a href="/Domain/1593">Jack C. Binion Elementary</a></li>
+<li><a href="/Domain/2547">John D. Spicer Elementary</a></li>
+<li><a href="/Domain/1882">Major Cheney Elementary at South Birdville</a></li>
+<li><a href="/Domain/2482">North Ridge Elementary</a></li>
+<li><a href="/Domain/1938">O.H. Stowe Elementary</a></li>
+<li><a href="/Domain/1716">Richland Elementary</a></li>
+<li><a href="/Domain/1781">Smithfield Elementary</a></li>
+<li><a href="/Domain/1835">Snow Heights Elementary</a></li>
+<li><a href="/Domain/204">Walker Creek Elementary</a></li>
+<li><a href="/Domain/2143">Watauga Elementary</a></li>
+<li><a href="/Domain/2282">W.A. Porter Elementary</a></li>
+<li><a href="/Domain/1555">W.T. Francisco Elementary</a></li>
+<li><a href="/Domain/267">Haltom Middle School</a></li>
+<li><a href="/Domain/512">North Oaks Middle School</a></li>
+<li><a href="/Domain/360">North Richland Middle School</a></li>
+<li><a href="/Domain/669">North Ridge Middle School</a></li>
+<li><a href="/Domain/441">Richland Middle School</a></li>
+<li><a href="/Domain/2677">Smithfield Middle School</a></li>
+<li><a href="/Domain/581">Watauga Middle School</a></li>
+<li><a href="/Domain/18">Birdville High School</a></li>
+<li><a href="/Domain/787">Haltom High School</a></li>
+<li><a href="/Domain/1058">Richland High School</a></li>
+<li><a href="/Domain/1368">Birdville Center of Technology & Advanced Learning</a></li>
+<li><a href="/Domain/1272">Shannon Learning Center</a></li>
+<li><a href="/Domain/3449">Accountability Research and Program Evaluation</a></li>
+<li><a href="/Domain/2933">Athletics</a></li>
+<li><a href="/Domain/2842">Birdville e-Learning</a></li>
+<li><a href="/Domain/2850">Finance</a></li>
+<li><a href="/Domain/4062">Career Technology Education</a></li>
+<li><a href="/Domain/4063">Child Nutrition</a></li>
+<li><a href="/Domain/2799">Curriculum and Instruction</a></li>
+<li><a href="/Domain/2759">Digital Learning</a></li>
+<li><a href="/Domain/2911">Fine Arts</a></li>
+<li><a href="/Domain/4064">Guidance Counseling</a></li>
+<li><a href="/Domain/2886">Health Services</a></li>
+<li><a href="/Domain/3450">Human Resources</a></li>
+<li><a href="/Domain/2840">Library Media Services</a></li>
+<li><a href="/Domain/2819">Professional Learning</a></li>
+<li><a href="/Domain/3017">Planning & Resource Development</a></li>
+<li><a href="/Domain/2979">Special Services</a></li>
+<li><a href="/Domain/2956">Technical Services</a></li>
+<li><a href="/Domain/3504">BISD Council of PTAs</a></li>
+<li><a href="/Domain/4035">Birdville Education Foundation</a></li>
+<li><a href="/Domain/2954">Technology Department</a></li>
+</ul>
+</div>
+<div class='sw-dropdown-arrow'></div>
+</div>
+</div>
+<div id='sw-mystart-right'>
+<div class='sw-mystart-button signin'><a href="http://schools.birdvilleschools.net/site/Default.aspx?PageType=7&SiteID=787&IgnoreRedirect=true" title="Sign in to your website."><span>Sign In</span></a></div>
+<div class='sw-mystart-button register'><a href="http://schools.birdvilleschools.net/site/Default.aspx?PageType=10&SiteID=787" title="Register for this site."><span>Register</span></a></div>
+<div id='sw-mystart-search'>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#sw-search-input').keyup(function(e) {        if (e.keyCode == 13) {
+            SWGoToSearchResultsPageswsearchinput();
+        }
+    });
+    $('#sw-search-input').val($('#swsearch-hid-word').val())});
+function SWGoToSearchResultsPageswsearchinput() {
+window.location.href="http://schools.birdvilleschools.net/site/Default.aspx?PageType=6&SiteID=787&SearchString=" + $('#sw-search-input').val();
+}
+</script>
+<input id="sw-search-input" type="text" title="Type the word to search for and click Search." placeholder="Search this Site..." />
+<a id="sw-search-button" onclick="SWGoToSearchResultsPageswsearchinput();"><span><img src="http://schools.birdvilleschools.net/Static/V2_07_01//globalassets/images/sw-mystart-search.png" alt="Search" /></span></a>
+</div>
+<div class='clear'></div>
+</div>
+</div>
+</div>
+<!-- END - MYSTART BAR -->
+<div id="gb-texture">
+	<div id="gb-seal" class="hide768"></div>
+</div>
+<div id="gb-page">
+	<span class="shadow left hide768"></span>
+	<div id="gb-header-outer">
+		<div id="gb-header" class="ui-clear">
+			<div id="mystart-cover" class="hide768"></div>
+			<div id="seal-cover" class="hide768"></div>
+			<div id="gb-logo">
+				<a href="/hhs" title="Haltom High School">
+					<img src='/cms/lib2/TX01000797/Centricity/Template/GlobalAssets/images///logos/192x84-HaltomHS.png' alt="Haltom High School" />
+				</a>		
+			</div>
+			<div id="gb-sitename">
+				<div id="gb-sitename-inner">
+					<h1></h1>
+					<h2></h2>
+				</div>
+			</div>
+			<div id="gb-icons">
+				<div class="icon-container-outer">
+					<a class="icon-link" href="/menus" target="_self">
+						<img class="regular" src="/cms/lib2/TX01000797/Centricity/Template/18/icon-bg.png"/>
+						<img class="hover" src="/cms/lib2/TX01000797/Centricity/Template/18/icon-bg-hover.png"/>
+						<span class="icon-container">
+							<span class="icon-font menus">1</span>
+							<span class="icon-text">MENUS</span>
+						</span>
+					</a>
+				</div>
+				<div class="icon-container-outer">
+					<a class="icon-link" href="/grades" target="_self">
+						<img class="regular" src="/cms/lib2/TX01000797/Centricity/Template/18/icon-bg.png"/>
+						<img class="hover" src="/cms/lib2/TX01000797/Centricity/Template/18/icon-bg-hover.png"/>
+						<span class="icon-container">
+							<span class="icon-font grades">2</span>
+							<span class="icon-text">GRADES</span>
+						</span>
+					</a>
+				</div>
+				<div class="icon-container-outer">
+					<a class="icon-link" href="/contact" target="_self">
+						<img class="regular" src="/cms/lib2/TX01000797/Centricity/Template/18/icon-bg.png"/>
+						<img class="hover" src="/cms/lib2/TX01000797/Centricity/Template/18/icon-bg-hover.png"/>
+						<span class="icon-container">
+							<span class="icon-font contact">3</span>
+							<span class="icon-text">CONTACT</span>
+						</span>
+					</a>
+				</div>
+			</div>
+			<div id="district-tabs" class="ui-clear">
+				<a class="tab" href="/family" target="_self"><span>family</span></a>
+				<a class="tab" href="/staff" target="_self"><span>staff</span></a>
+				<a class="tab" href="/community" target="_self"><span>community</span></a>
+			</div>
+		</div>
+	</div>
+	<div id="gb-channel-list-outer" class="hide768">
+		<div id="sw-channel-list-container">
+<ul id="channel-navigation" class="sw-channel-list">
+<li class="sw-channel-item active"><a href="/Page/5141"><span>Home</span></a></li>
+<li class="sw-channel-item ">
+<a href="/domain/789">
+<span>Administration</span></a>
+</li><li class="sw-channel-item ">
+<a href="http://schools.birdvilleschools.net/site/Default.aspx?PageType=1&SiteID=787&ChannelID=790&DirectoryType=6
+">
+<span>Athletics</span></a>
+</li><li class="sw-channel-item ">
+<a href="/domain/808">
+<span>Counselor</span></a>
+</li><li class="sw-channel-item ">
+<a href="/domain/810">
+<span>Departments</span></a>
+<ul class="sw-channel-dropdown">
+<li class=""><a href="/domain/810"><span>Career and Technology</span></a></li>
+<li class=""><a href="/domain/811"><span>Fine Arts</span></a></li>
+<li class=""><a href="/domain/812"><span>Foreign Language</span></a></li>
+<li class=""><a href="/domain/813"><span>JROTC</span></a></li>
+<li class=""><a href="/domain/814"><span>Language Arts</span></a></li>
+<li class=""><a href="/domain/815"><span>Mathematics</span></a></li>
+<li class=""><a href="/domain/816"><span>Nurses' Corner</span></a></li>
+<li class=""><a href="/domain/817"><span>Physical Education</span></a></li>
+<li class=""><a href="/domain/818"><span>Science</span></a></li>
+<li class=""><a href="/domain/819"><span>Social Studies</span></a></li>
+<li class=""><a href="/domain/820"><span>Special Education</span></a></li>
+<li class=""><a href="/domain/821"><span>Support Staff</span></a></li>
+</ul>
+</li><li class="sw-channel-item ">
+<a href="http://schools.birdvilleschools.net/site/Default.aspx?PageType=1&SiteID=787&ChannelID=822&DirectoryType=6
+">
+<span>Faculty/Staff</span></a>
+</li><li class="sw-channel-item ">
+<a href="/domain/1017">
+<span>Library</span></a>
+</li><li class="sw-channel-item ">
+<a href="http://schools.birdvilleschools.net/site/Default.aspx?PageType=1&SiteID=787&ChannelID=1018&DirectoryType=6
+">
+<span>Organizations</span></a>
+</li><li class="sw-channel-item ">
+<a href="/domain/1051">
+<span>Our School</span></a>
+<ul class="sw-channel-dropdown">
+<li class=""><a href="/domain/1051"><span>Alma Mater / Fight Song</span></a></li>
+<li class=""><a href="/domain/1052"><span>Attendance</span></a></li>
+<li class=""><a href="/domain/1053"><span>Make Up Time Schedule</span></a></li>
+<li class=""><a href="/domain/1054"><span>Mission Statement</span></a></li>
+<li class=""><a href="/domain/1055"><span>Semester Exam Exemption Policy</span></a></li>
+<li class=""><a href="/domain/1056"><span>Senior Activities</span></a></li>
+</ul>
+</li><li class="sw-channel-item "><a href="/Page/5142"><span>Calendar</span></a></li>
+</ul><div class='clear'></div>
+</div>
+
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        channelHoverIE();
+        channelTouch();
+    });
+
+    function channelTouch() {
+        // this will change the dropdown behavior when it is touched vs clicked.
+        // channels will be clickable on second click. first click simply opens the menu.
+        $('#channel-navigation > .sw-channel-item > a').on({
+            'touchstart': function (e) {
+                
+                // see if has menu
+                if ($(this).siblings('ul.sw-channel-dropdown').length > 0) {
+                    var button = $(this);
+
+                    // add href as property if not already set
+                    // then remove href attribute
+                    if (!button.prop('linkHref')) {
+                        button.prop('linkHref', button.attr('href'));
+                        button.removeAttr('href');
+                    }
+
+                    // check to see if menu is already open
+                    if ($(this).siblings('ul.sw-channel-dropdown').is(':visible')) {
+                        // if open go to link
+                        window.location.href = button.prop('linkHref');
+                    } 
+
+                } 
+            }
+        });
+    }
+
+
+    
+    function channelHoverIE(){
+		// set z-index for IE7
+		var parentZindex = $('#channel-navigation').parents('div:first').css('z-index');
+		var zindex = (parentZindex > 0 ? parentZindex : 8000);
+		$(".sw-channel-item").each(function(ind) {
+			$(this).css('z-index', zindex - ind);
+			zindex --;
+		});
+	    $(".sw-channel-item").hover(function(){
+	        var subList = $(this).children('ul');
+	        if ($.trim(subList.html()) !== "") {
+		        subList.show();
+		    }
+		    $(this).addClass("hover");
+	    }, function(){
+		    $(".sw-channel-dropdown").hide();
+		    $(this).removeClass("hover");
+	    });
+    }
+
+</script>
+
+
+	</div>
+	<div id="hp-content-top" class="ui-clear">
+		<div id="hp-slideshow" class="hide480">
+			<div id="sw-content-container10" class="region ui-hp"><div id='pmi-33616'>
+<div id="module-content-39266" >
+<div class="ui-widget app gallery json">
+<script type="text/javascript">
+var photoGallery33616= {"Album": {"title":"Rotating Photos 720 x 315","description":"","transitiondelay":"7","fadestyle":"NO","gallerywidth":"720","backgroundaudio":"/cms/lib2/TX01000797/Centricity/ModuleInstance/39266/","loopaudio":"False","lgpath":"/cms/lib2/TX01000797/Centricity/ModuleInstance/39266/large/","tnpath":"/cms/lib2/TX01000797/Centricity/ModuleInstance/39266/thumbs/","Images": [{"photoname":"Haltom High School","src":"HHS.jpg?rnd=0.0322074699365569","caption":"","pause":"","link":"","target":"_self"},{"photoname":"HB5 Information Site Now Available","src":"HB5.jpg?rnd=0.44731752734972","caption":"House Bill 5 will affect students who will graduate beginning in 2018.  Visit site for information.","pause":"","link":"http://schools.birdvilleschools.net/cms/lib2/TX01000797/Centricity/Domain/4116/rangersflier2014.pdf","target":"_self"},{"photoname":"Community Activities","src":"communityactivities.jpg?rnd=0.937804967601693","caption":"Click photo to view events and activities today.","pause":"","link":"http://schools.birdvilleschools.net/Page/31504","target":"_self"},{"photoname":"Volunteer Application","src":"volunteerapp.jpg?rnd=0.440304295364909","caption":"Click the picture to submit a new or to renew a volunteer application","pause":"","link":"https://ims.birdvilleschools.net/cf/volunteer/VolApp.cfm","target":"_self"}]}}
+</script>
+</div>
+</div>
+</div>
+</div>
+		</div>
+		<div id="hp-top-right">
+			<div id="social-icons">
+				<div id="social-connect">
+					<h2>CONNECT</h2>
+					<h3>with us</h3>
+				</div>
+				<a class="icon-font facebook" href="http://www.facebook.com/clarence.simmons.796">6</a>
+				<a class="icon-font twitter" href="https://twitter.com/birdvilleschool">5</a>
+				<a class="icon-font photos" href="http://birdvilleschools.smugmug.com/">7</a>
+				<a class="icon-font youtube" href="http://www.youtube.com/user/HaltomStampedeTV?feature=mhee">8</a>
+				<a class="icon-font blogger" href="http://wordpress.com/#!/read/following/">4</a>
+			</div>
+		</div>
+		<span id="top-shadow" class="hide768"></span>
+	</div>
+	<div id="hp-content" class="ui-clear">
+		<span id="column-two-top" class="hide640"></span>
+		<div class="hp column one">
+			<div id="sw-content-container1" class="region ui-hp"><div id='pmi-8580'>
+<div id="module-content-12901" >
+<div class="ui-widget app navigation  siteshortcuts">
+	<div class="ui-widget-header"><h1>Site Shortcuts</h1></div>
+	<div class="ui-widget-detail">
+		<ul class="site-shortcuts">
+<li id="siteshortcut-791" class=" no-bullet"><a href="http://schools.birdville.k12.tx.us/site/Default.aspx?PageID=5582" target="_parent"  title="Advanced Academics" >Advanced Academics</a>
+</li>
+<li id="siteshortcut-780" class=" no-bullet"><a href="http://www.alumniclass.com/haltom" target="_blank"  title="Alumni" >Alumni</a>
+</li>
+<li id="siteshortcut-793" class=" no-bullet"><a href="http://schools.birdvilleschools.net//Domain/3930" target="_parent"  title="ASPIRE" >ASPIRE</a>
+</li>
+<li id="siteshortcut-786" class=" no-bullet"><a href="http://schools.birdville.k12.tx.us/site/Default.aspx?PageID=5731" target="_parent"  title="AVID" >AVID</a>
+</li>
+<li id="siteshortcut-785" class=" no-bullet"><a href="https://www.birdville.k12.tx.us/elearning/index.html" target="_parent"  title="Birdville~e~Learning" >Birdville~e~Learning</a>
+</li>
+<li id="siteshortcut-1975" class=" no-bullet"><a href="http://birdvilleschools.net/bisdalert" target="_parent" >BISD Alert</a>
+</li>
+<li id="siteshortcut-1765" class=" no-bullet"><a href="http://schools.birdvilleschools.net/bisdpta" target="_blank" >BISD Council of PTAs</a>
+</li>
+<li id="siteshortcut-1760" class=" no-bullet"><a href="http://schools.birdvilleschools.net/bisdcalendar" target="_blank" >BISD District Calendar</a>
+</li>
+<li id="siteshortcut-782" class=" no-bullet"><a href="http://www.birdvilleschools.net/" target="_blank"  title="BISD Home" >BISD Home</a>
+</li>
+<li id="siteshortcut-1761" class=" no-bullet"><a href="http://schools.birdvilleschools.net/studenthandbooks" target="_blank" >BISD Student Handbooks</a>
+</li>
+<li id="siteshortcut-1905" class=" no-bullet"><a href="http://w3.birdvilleschools.net/cal/2014-2015/1415calendar.pdf" target="_parent" >Calendar 2014-2015</a>
+</li>
+<li id="siteshortcut-794" class=" no-bullet"><a href="http://schools.birdvilleschools.net/communityactivitiesforstudents" target="_blank"  title="View promotional and informational fliers for non-BISD events, clubs and organizations." >Community Activities/Fliers for Students</a>
+</li>
+<li id="siteshortcut-1429" class=" no-bullet"><a href="/Page/5793" target="_parent" >Curriculum &amp; Instruction</a>
+</li>
+<li id="siteshortcut-787" class=" no-bullet"><a href="http://schools.birdville.k12.tx.us/site/Default.aspx?PageID=5146" target="_parent"  title="Follow HHS on Twitter" >Follow HHS on Twitter</a>
+</li>
+<li id="siteshortcut-789" class=" no-bullet"><a href="http://schools.birdville.k12.tx.us/site/Default.aspx?PageID=6469" target="_parent"  title="Go Center" >Go Center</a>
+</li>
+<li id="siteshortcut-2096" class=" no-bullet"><a href="http://www.birdvilleschools.net/hb5" target="_blank" >HB5 Graduate Information</a>
+</li>
+<li id="siteshortcut-1318" class=" no-bullet"><a href="http://schools.birdvilleschools.net/Page/22632" target="_parent" >Literacy Strategies</a>
+</li>
+<li id="siteshortcut-788" class=" no-bullet"><a href="http://www.birdville.k12.tx.us/cn/advisory_committees.html" target="_parent"  title="Lunch Menu" >Lunch Menu</a>
+</li>
+<li id="siteshortcut-1766" class=" no-bullet"><a href="http://schools.birdvilleschools.net/mealpay" target="_blank" >MealPay Plus</a>
+</li>
+<li id="siteshortcut-1348" class=" no-bullet"><a href="http://schools.birdvilleschools.net/cms/lib2/TX01000797/Centricity/Domain/4383/epaper/CTE_Student_Medical_Release.pdf" target="_parent" >Medical Release Form</a>
+</li>
+<li id="siteshortcut-2016" class=""><a href="http://schools.birdvilleschools.net/cms/lib2/TX01000797/Centricity/Domain/4383/2013-2014%20Parent%20Permission%20PDF%20Form.pdf" target="_parent" >Parent Permission Forms</a>
+</li>
+<li id="siteshortcut-1267" class=" no-bullet"><a href="http://www.haltomfootball.net/" target="_parent" >Quarterback Club</a>
+</li>
+<li id="siteshortcut-1764" class=" no-bullet"><a href="http://schools.birdvilleschools.net/safetyzone" target="_blank" >Safety Zone</a>
+</li>
+<li id="siteshortcut-792" class=" no-bullet"><a href="http://schools.birdville.k12.tx.us/site/Default.aspx?PageID=6590" target="_parent"  title="Senior Information" >Senior Information</a>
+</li>
+<li id="siteshortcut-783" class=" no-bullet"><a href="http://schools.birdvilleschools.net/bnews" target="_blank"  title="B-News mailing list" >Sign Up for B-News District Newsletter</a>
+</li>
+<li id="siteshortcut-1824" class=" no-bullet"><a href="http://clarencesimmons.wix.com/simmons-says" target="_parent" >SIMMONS SAYS</a>
+</li>
+<li id="siteshortcut-1305" class=" no-bullet"><a href="http://schools.birdvilleschools.net/Page/22230" target="_parent" >SIOP</a>
+</li>
+<li id="siteshortcut-781" class=" no-bullet"><a href="http://schools.birdvilleschools.net/skyward" target="_blank"  title="Family Access" >Skyward Family Access</a>
+</li>
+<li id="siteshortcut-1409" class=" no-bullet"><a href="http://schools.birdvilleschools.net/Page/25888" target="_parent" >Special Education</a>
+</li>
+<li id="siteshortcut-790" class=" no-bullet"><a href="http://schools.birdvilleschools.net/Domain/883" target="_parent"  title="Testing" >Testing</a>
+</li>
+<li id="siteshortcut-1762" class=" no-bullet"><a href="http://schools.birdvilleschools.net/touchofclass" target="_blank" >Touch of Class-Staff Recognition</a>
+</li>
+<li id="siteshortcut-1894" class=" no-bullet"><a href="http://schools.birdvilleschools.net/volunteerapplicationespanol" target="_parent"  title="Aplicaciones voluntarios deben ser renovados cada a&#241;o." >Volunteer Application (en Espa&#241;ol)</a>
+</li>
+<li id="siteshortcut-1763" class=" no-bullet"><a href="http://schools.birdvilleschools.net/volunteerapplication" target="_blank"  title="Volunteer applications must be renewed each year." >Volunteer Application</a>
+</li>
+<li id="siteshortcut-1895" class=" no-bullet"><a href="http://schools.birdvilleschools.net/volunteerpartnership" target="_parent" >Volunteer Information</a>
+</li></ul>
+<div class="app-level-social-follow"></div>
+	</div>
+	<div class="ui-widget-footer">
+	</div>
+</div></div>
+</div>
+</div>
+		</div>
+		<div class="hp column two">
+			<div id="sw-content-container2" class="region ui-hp"><div id='pmi-40677'>
+
+
+
+<div id='sw-module-467240'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var DomainID = '787';
+            var PageID = '5141';
+            var RenderLoc = '0';
+            var MIID = '46724';
+
+            //added to check to make sure moderated content doesn't bleed through the dialog
+            if ($('#dialog-overlay-WindowLargeModal-body.moderateContent').length > 0) {
+                $("#module-content-" + MIID).find(".ui-widget-detail").find(".ui-article").append("<p>&nbsp;</p>");
+            }
+        });
+    </script>
+
+    <script type="text/javascript">$(document).ready(function() {CheckScript('ModuleView');CheckScript('Mustache');
+ });</script>
+    
+    <div id="module-content-46724" >
+<div class="ui-widget app announcements">
+	<div class="ui-widget-header ui-helper-hidden">
+		<h1></h1>
+	</div>
+	
+	<div class="ui-widget-detail">
+		<ul class="ui-articles">
+		</ul>
+	</div>
+	<div class="ui-widget-footer">
+		
+		<div class="app-level-social-follow"></div> 
+		<div class="clear"></div>
+	</div>
+</div>
+<input type="hidden" id="hidFullPath" value="http://schools.birdvilleschools.net/" />
+<input type="hidden" id="hidModuleInstanceID0" value="46724"/>
+<script type="text/javascript">
+$(document).ready(function (){
+});
+function LoadGroupedData(container, MIID, PMI, groupYear, groupMonth, groupBy, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&EnableQuirksMode=0&ViewID=' + viewToUse + '&Tag=' + tag, container, 2, 'chkSidebar();');
+}
+function LoadData(container, MIID, PMI, flexDataID, groupYear, groupMonth, groupBy, targetView, tag) {
+  if(targetView !== undefined || targetView.Length() == 0){
+  //targetView looks at the hidden Detail View defined in the Builder View.
+      targetView = $('#hid-'+MIID+'-DetailView').val();
+   }
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&FlexDataID=' + flexDataID + '&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&RenderLoc=0&FromRenderLoc=0&EnableQuirksMode=0&Tag=' + tag + '&ViewID=' + targetView, container, 2, 'chkSidebar();');
+}
+function LoadTaggedData(container, MIID, PMI, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&Tag=' + tag + '&EnableQuirksMode=0&ViewID='+viewToUse, container, 2, 'chkSidebar();');
+}
+</script>
+</div>
+
+</div></div>
+<div id='pmi-38939'>
+
+
+
+<div id='sw-module-449060'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var DomainID = '787';
+            var PageID = '5141';
+            var RenderLoc = '0';
+            var MIID = '44906';
+
+            //added to check to make sure moderated content doesn't bleed through the dialog
+            if ($('#dialog-overlay-WindowLargeModal-body.moderateContent').length > 0) {
+                $("#module-content-" + MIID).find(".ui-widget-detail").find(".ui-article").append("<p>&nbsp;</p>");
+            }
+        });
+    </script>
+
+    <script type="text/javascript">$(document).ready(function() {CheckScript('ModuleView');CheckScript('Mustache');
+ });</script>
+    
+    <div id="module-content-44906" >
+<div class="ui-widget app announcements">
+	<div class="ui-widget-header ui-helper-hidden">
+		<h1></h1>
+	</div>
+	
+	<div class="ui-widget-detail">
+		<ul class="ui-articles">
+		</ul>
+	</div>
+	<div class="ui-widget-footer">
+		
+		<div class="app-level-social-follow"></div> 
+		<div class="clear"></div>
+	</div>
+</div>
+<input type="hidden" id="hidFullPath" value="http://schools.birdvilleschools.net/" />
+<input type="hidden" id="hidModuleInstanceID0" value="44906"/>
+<script type="text/javascript">
+$(document).ready(function (){
+});
+function LoadGroupedData(container, MIID, PMI, groupYear, groupMonth, groupBy, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&EnableQuirksMode=0&ViewID=' + viewToUse + '&Tag=' + tag, container, 2, 'chkSidebar();');
+}
+function LoadData(container, MIID, PMI, flexDataID, groupYear, groupMonth, groupBy, targetView, tag) {
+  if(targetView !== undefined || targetView.Length() == 0){
+  //targetView looks at the hidden Detail View defined in the Builder View.
+      targetView = $('#hid-'+MIID+'-DetailView').val();
+   }
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&FlexDataID=' + flexDataID + '&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&RenderLoc=0&FromRenderLoc=0&EnableQuirksMode=0&Tag=' + tag + '&ViewID=' + targetView, container, 2, 'chkSidebar();');
+}
+function LoadTaggedData(container, MIID, PMI, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&Tag=' + tag + '&EnableQuirksMode=0&ViewID='+viewToUse, container, 2, 'chkSidebar();');
+}
+</script>
+</div>
+
+</div></div>
+<div id='pmi-41145'>
+
+
+
+<div id='sw-module-471460'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var DomainID = '787';
+            var PageID = '5141';
+            var RenderLoc = '0';
+            var MIID = '47146';
+
+            //added to check to make sure moderated content doesn't bleed through the dialog
+            if ($('#dialog-overlay-WindowLargeModal-body.moderateContent').length > 0) {
+                $("#module-content-" + MIID).find(".ui-widget-detail").find(".ui-article").append("<p>&nbsp;</p>");
+            }
+        });
+    </script>
+
+    <script type="text/javascript">$(document).ready(function() {CheckScript('ModuleView');CheckScript('Mustache');
+ });</script>
+    
+    <div id="module-content-47146" >
+<div class="ui-widget app announcements">
+	<div class="ui-widget-header ui-helper-hidden">
+		<h1></h1>
+	</div>
+	
+	<div class="ui-widget-detail">
+		<ul class="ui-articles">
+<li>
+	<div class="ui-article">
+		<div class="ui-article-description">
+			<span><p align="left">
+ 
+<img width="130" height="150" title="careful" align="left" style="font-size: 14pt;" alt="careful " src="http://extend.schoolwires.com/ClipartGallery/images/32690362.gif" border="0" /><span style="font-size: 14pt;">Construction on Haltom Road continues.&nbsp; Please plan ahead and allow yourself plenty of time to arrive at school on time!&nbsp; First period begins at 7:30a.m</span>.</p></span>
+		</div>
+		<div class="ui-article-controls">
+                	<a class="sub-link" href="../../site/default.aspx?PageType=3&ModuleInstanceID=47146&ViewID=ed695a1c-ef13-4546-b4eb-4fefcdd4f389&RenderLoc=0&FlexDataID=59640&PageID=5141"><span>Comments (-1)</span></a>
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+</li> 
+		</ul>
+	</div>
+	<div class="ui-widget-footer">
+		
+		<div class="app-level-social-follow"></div> 
+		<div class="clear"></div>
+	</div>
+</div>
+<input type="hidden" id="hidFullPath" value="http://schools.birdvilleschools.net/" />
+<input type="hidden" id="hidModuleInstanceID0" value="47146"/>
+<script type="text/javascript">
+$(document).ready(function (){
+});
+function LoadGroupedData(container, MIID, PMI, groupYear, groupMonth, groupBy, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&EnableQuirksMode=0&ViewID=' + viewToUse + '&Tag=' + tag, container, 2, 'chkSidebar();');
+}
+function LoadData(container, MIID, PMI, flexDataID, groupYear, groupMonth, groupBy, targetView, tag) {
+  if(targetView !== undefined || targetView.Length() == 0){
+  //targetView looks at the hidden Detail View defined in the Builder View.
+      targetView = $('#hid-'+MIID+'-DetailView').val();
+   }
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&FlexDataID=' + flexDataID + '&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&RenderLoc=0&FromRenderLoc=0&EnableQuirksMode=0&Tag=' + tag + '&ViewID=' + targetView, container, 2, 'chkSidebar();');
+}
+function LoadTaggedData(container, MIID, PMI, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&Tag=' + tag + '&EnableQuirksMode=0&ViewID='+viewToUse, container, 2, 'chkSidebar();');
+}
+</script>
+</div>
+
+</div></div>
+<div id='pmi-45032'>
+
+
+
+<div id='sw-module-507170'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var DomainID = '787';
+            var PageID = '5141';
+            var RenderLoc = '0';
+            var MIID = '50717';
+
+            //added to check to make sure moderated content doesn't bleed through the dialog
+            if ($('#dialog-overlay-WindowLargeModal-body.moderateContent').length > 0) {
+                $("#module-content-" + MIID).find(".ui-widget-detail").find(".ui-article").append("<p>&nbsp;</p>");
+            }
+        });
+    </script>
+
+    <script type="text/javascript">$(document).ready(function() {CheckScript('ModuleView');CheckScript('Mustache');
+ });</script>
+    
+    <div id="module-content-50717" >
+<div class="ui-widget app headlines">
+	
+	<div class="ui-widget-header">
+		<h1>CAMPUS NEWS ...</h1>
+	</div>
+	
+	<div class="ui-widget-detail" id="sw-app-headlines">
+		<ul class="ui-articles">
+<li>  <div  class="ui-article">   <a class="ui-article-thumb" href="../../site/default.aspx?PageType=3&DomainID=787&ModuleInstanceID=50717&ViewID=047E6BE3-6D87-4130-8424-D8E4E9ED6C2A&RenderLoc=0&FlexDataID=60000&PageID=5141"><span class="img"><img alt="" height="103" width="100" src="../..//cms/lib2/TX01000797/Centricity/Domain/787/BONDlogo_small.jpg" /></span></a>   <h1 class="ui-article-title"><a href="../../site/default.aspx?PageType=3&DomainID=787&ModuleInstanceID=50717&ViewID=047E6BE3-6D87-4130-8424-D8E4E9ED6C2A&RenderLoc=0&FlexDataID=60000&PageID=5141"><span>BOND14: How does it impact our campus?</span></a></h1>     <p class="ui-article-description">Safety and Security Upgrades, Renovations and Upgrades, Technology Upgrades, Science Lab Additions/Upgrades...click logo to read more.</p>   <div class="ui-article-controls">                                    <a class="sub-link" href="../../site/default.aspx?PageType=3&DomainID=787&ModuleInstanceID=50717&ViewID=047E6BE3-6D87-4130-8424-D8E4E9ED6C2A&RenderLoc=0&FlexDataID=60000&PageID=5141"><span>Comments (-1)</span></a>       </div>   <div class="clear"></div>  </div> </li>
+</ul>
+	</div>
+
+	<div class="ui-widget-footer">
+		
+		
+		<div class="clear"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+        $(document).on('click', 'a.ui-article-thumb', function() {
+        	window.location = $(this).attr('href');
+    	});
+    		
+		$('#sw-app-headlines').find('img').each(function() {
+			if ($.trim(this.src) == '' ) {
+				$(this).parent().parent().remove();
+			}
+		});
+        
+		SetImgSrc();
+	});
+	
+	function  SetImgSrc(){
+		$("img").each(function() {
+		    
+			var imgsrc = this.src.toLowerCase();
+			if(-1 != imgsrc.indexOf("http://") || -1 != imgsrc.indexOf("https://")){
+				var ext;
+				if(-1 != imgsrc.lastIndexOf("http://")){
+					ext = imgsrc.substring(imgsrc.lastIndexOf("http://"));
+				}
+				if(-1 != imgsrc.lastIndexOf("https://")){
+					ext = imgsrc.substring(imgsrc.lastIndexOf("https://"));
+				}
+				this.src = ext;
+		    }
+		});
+	}
+</script>
+<input type="hidden" id="hidFullPath" value="http://schools.birdvilleschools.net/" />
+<input type="hidden" id="hidModuleInstanceID0" value="50717"/>
+<script type="text/javascript">
+$(document).ready(function (){
+});
+function LoadGroupedData(container, MIID, PMI, groupYear, groupMonth, groupBy, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&EnableQuirksMode=0&ViewID=' + viewToUse + '&Tag=' + tag, container, 2, 'chkSidebar();');
+}
+function LoadData(container, MIID, PMI, flexDataID, groupYear, groupMonth, groupBy, targetView, tag) {
+  if(targetView !== undefined || targetView.Length() == 0){
+  //targetView looks at the hidden Detail View defined in the Builder View.
+      targetView = $('#hid-'+MIID+'-DetailView').val();
+   }
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&FlexDataID=' + flexDataID + '&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&RenderLoc=0&FromRenderLoc=0&EnableQuirksMode=0&Tag=' + tag + '&ViewID=' + targetView, container, 2, 'chkSidebar();');
+}
+function LoadTaggedData(container, MIID, PMI, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&Tag=' + tag + '&EnableQuirksMode=0&ViewID='+viewToUse, container, 2, 'chkSidebar();');
+}
+</script>
+</div>
+
+</div></div>
+<div id='pmi-5635'>
+
+
+
+<div id='sw-module-99410'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var DomainID = '787';
+            var PageID = '5141';
+            var RenderLoc = '0';
+            var MIID = '9941';
+
+            //added to check to make sure moderated content doesn't bleed through the dialog
+            if ($('#dialog-overlay-WindowLargeModal-body.moderateContent').length > 0) {
+                $("#module-content-" + MIID).find(".ui-widget-detail").find(".ui-article").append("<p>&nbsp;</p>");
+            }
+        });
+    </script>
+
+    <script type="text/javascript">$(document).ready(function() {CheckScript('ModuleView');CheckScript('Mustache');
+ });</script>
+    
+    <div id="module-content-9941" >
+<div class="ui-widget app announcements">
+	<div class="ui-widget-header ui-helper-hidden">
+		<h1></h1>
+	</div>
+	
+	<div class="ui-widget-detail">
+		<ul class="ui-articles">
+<li>
+	<div class="ui-article">
+		<div class="ui-article-description">
+			<span><div align="center">&nbsp;<img title="Border" alt="Border " src="/cms/lib2/TX01000797/Centricity/Domain/787/screen_shot_2011-03-03_at_3.33.06_pm.png" width="600" height="13" /></div><div align="center">&nbsp;<span style="font-size: 12pt;">Daily Announcements at HHS</span></div><div align="center">&nbsp;</div><div align="center"><a href="http://www.youtube.com/user/HaltomStampedeTV?feature=mhee" target="_blank"><img title="Pencil" alt="Pencil " src="/cms/lib2/TX01000797/Centricity/Domain/787/pencil.gif" width="64" height="77" /></a>&nbsp;&nbsp;&nbsp; </div><div>&nbsp;</div><div><div align="center"><img title="Border" alt="Border " src="/cms/lib2/TX01000797/Centricity/Domain/787/screen_shot_2011-03-03_at_3.33.06_pm.png" width="600" height="13" />&nbsp;</div></div>         </span>
+		</div>
+		<div class="ui-article-controls">
+                	<a class="sub-link" href="../../site/default.aspx?PageType=3&ModuleInstanceID=9941&ViewID=ed695a1c-ef13-4546-b4eb-4fefcdd4f389&RenderLoc=0&FlexDataID=27681&PageID=5141"><span>Comments (-1)</span></a>
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+</li> 
+<li>
+	<div class="ui-article">
+		<div class="ui-article-description">
+			<span>
+ 
+<div align="center"><img width="500" height="647" title="HHS SPIRIT CALENDAR" alt="HHS SPIRIT CALENDAR " src="/cms/lib2/TX01000797/Centricity/Domain/787/HALTOM HIGH 2014 15 SPIRIT CALENDAR (2)-page0001.jpg" /></div><div align="center"><img width="600" height="13" title="Border" alt="Border " src="/cms/lib2/TX01000797/Centricity/Domain/787/screen_shot_2011-03-03_at_3.33.06_pm.png" /></div> 
+</span>
+		</div>
+		<div class="ui-article-controls">
+                	<a class="sub-link" href="../../site/default.aspx?PageType=3&ModuleInstanceID=9941&ViewID=ed695a1c-ef13-4546-b4eb-4fefcdd4f389&RenderLoc=0&FlexDataID=60782&PageID=5141"><span>Comments (-1)</span></a>
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+</li> 
+<li>
+	<div class="ui-article">
+		<div class="ui-article-description">
+			<span>
+<strong><div align="left"><br /></div></strong><div align="left"><table width="346" align="center" style="width: 346px; height: 513px;" border="0" cellspacing="2" cellpadding="2"><tbody><tr><td title="null" bgcolor="#ff0000"><p align="center"><strong style="color: #ffffff; font-size: 14pt;">STUDENT DROP OFF &amp; PICK UP</strong></p></td></tr><tr><td></td></tr><tr><td title="null" bgcolor="#ff0000">&nbsp;</td></tr><tr><td title="null" style="width: 371px; height: 36px;" bgcolor="#ff0000"><p align="center"><strong style="color: #ffffff;">&nbsp;All vehicle traffic entering &amp; leaving the HHS Student Parking Lot is two way.</strong></p></td></tr><tr><td title="null" bgcolor="#ff0000">&nbsp;</td></tr><tr><td title="null" bgcolor="#ff0000">&nbsp;<strong style="color: #ffffff;">For the safety of HHS students and their families, all</strong></td></tr><tr style="color: #ffffff;"><td title="null" style="height: 24px;" bgcolor="#ff0000"><strong>&nbsp;vehicle&nbsp;operators on the HHS Student Parking Lot will:</strong></td></tr><tr style="color: #ffffff;"><td title="null" style="height: 24px;" bgcolor="#ff0000"></td></tr><tr style="color: #ffffff;"><td title="null" bgcolor="#ff0000"><strong>&nbsp;- Drive in the RIGHT LANE ONLY,</strong></td></tr><tr style="color: #ffffff;"><td title="null" bgcolor="#ff0000"><strong>&nbsp;- Drive slowly and carefully, (5 MPH posted speed),</strong></td></tr><tr><td title="null" bgcolor="#ff0000"><strong style="color: #ffffff;">&nbsp;- Steer away from all safety cones,</strong></td></tr><tr><td title="null" bgcolor="#ff0000"><span style="color: #ffffff;"><strong>&nbsp;- NOT drive over ANY parking spaces,</strong></span></td></tr><tr style="color: #ffffff;"><td title="null" bgcolor="#ff0000"><strong>&nbsp;- ALWAYS give right away to pedestrians,</strong></td></tr><tr style="color: #ffffff;"><td title="null" bgcolor="#ff0000"><strong>&nbsp;- NEVER leave a student off on Haltom Road.</strong></td></tr><tr style="color: #ffffff;"><td title="null" bgcolor="#ff0000"><strong>&nbsp;</strong></td></tr><tr><td title="null" bgcolor="#ff0000"><div align="left"><span style="color: #ffffff;"><strong>&nbsp;Please contact Mr. Cortez if you have any concerns.</strong></span></div></td></tr><tr><td title="null" style="height: 18px;" bgcolor="#ff0000">&nbsp;</td></tr></tbody></table></div><div align="left">&nbsp;</div><div align="center"><strong></strong>&nbsp;</div><div align="center"><strong></strong>&nbsp;<img width="600" height="13" title="Border" alt="Border " src="/cms/lib2/TX01000797/Centricity/Domain/787/screen_shot_2011-03-03_at_3.33.06_pm.png" /></div><div align="center"><strong></strong>&nbsp;</div> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+</span>
+		</div>
+		<div class="ui-article-controls">
+                	<a class="sub-link" href="../../site/default.aspx?PageType=3&ModuleInstanceID=9941&ViewID=ed695a1c-ef13-4546-b4eb-4fefcdd4f389&RenderLoc=0&FlexDataID=59276&PageID=5141"><span>Comments (-1)</span></a>
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+</li> 
+<li>
+	<div class="ui-article">
+		<div class="ui-article-description">
+			<span><div>&nbsp;</div><div align="center"><strong>Is Weekend College Right For You?</strong></div><div align="center"><strong></strong>&nbsp;</div><strong><div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://schools.birdvilleschools.net/Page/37656" target="_blank">Click this link for information about the possibility!</a><a href="http://schools.birdvilleschools.net/Page/37656" target="_blank"></a></div><a href="http://schools.birdvilleschools.net/Page/37656" target="_blank"></a><div align="left"></div></strong><div align="left"></div><div>&nbsp;</div><div>&nbsp;</div><div><img width="600" height="13" title="Border" alt="Border " src="/cms/lib2/TX01000797/Centricity/Domain/787/screen_shot_2011-03-03_at_3.33.06_pm.png" /></div>        </span>
+		</div>
+		<div class="ui-article-controls">
+                	<a class="sub-link" href="../../site/default.aspx?PageType=3&ModuleInstanceID=9941&ViewID=ed695a1c-ef13-4546-b4eb-4fefcdd4f389&RenderLoc=0&FlexDataID=58174&PageID=5141"><span>Comments (-1)</span></a>
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+</li> 
+<li>
+	<div class="ui-article">
+		<div class="ui-article-description">
+			<span><div>&nbsp;</div><div align="center"><span style="font-size: 12pt;">2014-2015</span></div><div align="center"></div><div align="center"><span style="font-size: 14pt;"><a href="/cms/lib2/TX01000797/Centricity/Domain/787/Course Descriptions Jan 11 2014.pdf">COURSE DESCRIPTION GUIDE</a></span></div><div>&nbsp;</div><div>&nbsp;</div><div><img width="600" height="13" title="Border" alt="Border " src="/cms/lib2/TX01000797/Centricity/Domain/787/screen_shot_2011-03-03_at_3.33.06_pm.png" /></div></span>
+		</div>
+		<div class="ui-article-controls">
+                	<a class="sub-link" href="../../site/default.aspx?PageType=3&ModuleInstanceID=9941&ViewID=ed695a1c-ef13-4546-b4eb-4fefcdd4f389&RenderLoc=0&FlexDataID=55102&PageID=5141"><span>Comments (-1)</span></a>
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+</li> 
+<li>
+	<div class="ui-article">
+		<div class="ui-article-description">
+			<span><div><img title="HHS Mobile Site Info" alt="HHS Mobile Site Info " src="/cms/lib2/TX01000797/Centricity/Domain/787/mobilesite.jpg" width="500" height="219" /><br />&nbsp;</div><div>&nbsp;</div><div><table border="0" cellspacing="2" cellpadding="2" width="500"><tbody><tr><td>&nbsp;<div align="left"><a href="/cms/lib2/TX01000797/Centricity/Domain/787/mobileappflier.pdf"><span style="color: rgb(0, 0, 255); font-size: 10pt;">Click here to get more info on BISD's New Mobile Site</span></a></div><div>&nbsp;</div></td></tr></tbody></table></div><div>&nbsp;</div> </span>
+		</div>
+		<div class="ui-article-controls">
+                	<a class="sub-link" href="../../site/default.aspx?PageType=3&ModuleInstanceID=9941&ViewID=ed695a1c-ef13-4546-b4eb-4fefcdd4f389&RenderLoc=0&FlexDataID=54199&PageID=5141"><span>Comments (-1)</span></a>
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+</li> 
+<li>
+	<div class="ui-article">
+		<div class="ui-article-description">
+			<span>
+<div align="center"><img width="416" height="9" title="Border" style="width: 416.7px; height: 9.39px;" alt="Border " src="/cms/lib2/TX01000797/Centricity/Domain/787/screen_shot_2011-03-03_at_3.33.06_pm.png" /><a href="/cms/lib2/TX01000797/Centricity/Domain/787/BISDeducatorsNEW.pdf"><span style="font-size: 12pt;"><br /><br />EDUCATORS IN BISD WILL...</span></a></div><div align="left"></div>                    
+ 
+ 
+ 
+ 
+ 
+</span>
+		</div>
+		<div class="ui-article-controls">
+                	<a class="sub-link" href="../../site/default.aspx?PageType=3&ModuleInstanceID=9941&ViewID=ed695a1c-ef13-4546-b4eb-4fefcdd4f389&RenderLoc=0&FlexDataID=48295&PageID=5141"><span>Comments (-1)</span></a>
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+</li> 
+<li>
+	<div class="ui-article">
+		<div class="ui-article-description">
+			<span></span>
+		</div>
+		<div class="ui-article-controls">
+                	<a class="sub-link" href="../../site/default.aspx?PageType=3&ModuleInstanceID=9941&ViewID=ed695a1c-ef13-4546-b4eb-4fefcdd4f389&RenderLoc=0&FlexDataID=28886&PageID=5141"><span>Comments (-1)</span></a>
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+</li> 
+<li>
+	<div class="ui-article">
+		<div class="ui-article-description">
+			<span>
+<div align="center"><img width="416" height="9" title="Border" style="width: 416.7px; height: 9.39px;" alt="Border " src="/cms/lib2/TX01000797/Centricity/Domain/787/screen_shot_2011-03-03_at_3.33.06_pm.png" /><a href="http://birdville.drivethefoundation.com/" target="_blank"><span style="color: #000000;"><br /><br />Driver's Education Info</span></a></div><div align="center">&nbsp;</div><div align="center"><div align="center"><img width="416" height="9" title="Border" style="width: 416.7px; height: 9.39px;" alt="Border " src="/cms/lib2/TX01000797/Centricity/Domain/787/screen_shot_2011-03-03_at_3.33.06_pm.png" /></div></div>     
+ 
+</span>
+		</div>
+		<div class="ui-article-controls">
+                	<a class="sub-link" href="../../site/default.aspx?PageType=3&ModuleInstanceID=9941&ViewID=ed695a1c-ef13-4546-b4eb-4fefcdd4f389&RenderLoc=0&FlexDataID=27007&PageID=5141"><span>Comments (-1)</span></a>
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+</li> 
+		</ul>
+	</div>
+	<div class="ui-widget-footer">
+		
+		<div class="app-level-social-follow"></div> 
+		<div class="clear"></div>
+	</div>
+</div>
+<input type="hidden" id="hidFullPath" value="http://schools.birdvilleschools.net/" />
+<input type="hidden" id="hidModuleInstanceID0" value="9941"/>
+<script type="text/javascript">
+$(document).ready(function (){
+});
+function LoadGroupedData(container, MIID, PMI, groupYear, groupMonth, groupBy, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&EnableQuirksMode=0&ViewID=' + viewToUse + '&Tag=' + tag, container, 2, 'chkSidebar();');
+}
+function LoadData(container, MIID, PMI, flexDataID, groupYear, groupMonth, groupBy, targetView, tag) {
+  if(targetView !== undefined || targetView.Length() == 0){
+  //targetView looks at the hidden Detail View defined in the Builder View.
+      targetView = $('#hid-'+MIID+'-DetailView').val();
+   }
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&FlexDataID=' + flexDataID + '&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&RenderLoc=0&FromRenderLoc=0&EnableQuirksMode=0&Tag=' + tag + '&ViewID=' + targetView, container, 2, 'chkSidebar();');
+}
+function LoadTaggedData(container, MIID, PMI, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&Tag=' + tag + '&EnableQuirksMode=0&ViewID='+viewToUse, container, 2, 'chkSidebar();');
+}
+</script>
+</div>
+
+</div></div>
+<div id='pmi-40676'>
+
+
+
+<div id='sw-module-467230'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var DomainID = '787';
+            var PageID = '5141';
+            var RenderLoc = '0';
+            var MIID = '46723';
+
+            //added to check to make sure moderated content doesn't bleed through the dialog
+            if ($('#dialog-overlay-WindowLargeModal-body.moderateContent').length > 0) {
+                $("#module-content-" + MIID).find(".ui-widget-detail").find(".ui-article").append("<p>&nbsp;</p>");
+            }
+        });
+    </script>
+
+    <script type="text/javascript">$(document).ready(function() {CheckScript('ModuleView');CheckScript('Mustache');
+ });</script>
+    
+    <div id="module-content-46723" >
+<div class="ui-widget app announcements">
+	<div class="ui-widget-header">
+		<h1>District News...</h1>
+	</div>
+	
+	<div class="ui-widget-detail">
+		<ul class="ui-articles">
+<li>
+	<div class="ui-article">
+		<div class="ui-article-description">
+			<span><div><img src="http://schools.birdvilleschools.net/cms/lib2/TX01000797/Centricity/Domain/1/RegistertoVote.jpg" alt="Register to Vote " title="Register to Vote" height="126" width="125" align="Left" style="font-size: 12pt;" /></div><div><div><strong style="font-family: Tahoma; font-size: 12pt;">Are You Registered to Vote?</strong><strong style="font-family: Tahoma;"><br /></strong><span style="font-family: Tahoma; font-size: 13px;">Register online,&nbsp;</span><span style="font-family: Tahoma; font-size: 10pt;">Confirm or</span><span style="font-family: Tahoma; font-size: 10pt;">&nbsp;Update voter registration</span></div><div><span style="font-family: Tahoma; font-size: 10pt;">&gt;&nbsp;Visit&nbsp;</span><a href="http://www.sos.state.tx.us/elections/voter/reqvr.shtml" target="_blank" style="font-family: Tahoma; font-size: 10pt; background-color: #ffff99;">VoteTEXAS.gov</a><span style="font-family: Tahoma; font-size: 10pt;">&nbsp;<br /><br /></span></div><div style="font-family: Tahoma;"><strong style="background-color: #ffff99;"><span style="background-color: #ffffff;"><span style="font-size: 12pt;">&#191; Estoy Registrado/a para Votar?</span>&nbsp;</span></strong></div><div><span style="font-family: Tahoma; font-size: 10pt;">Registrase en linea, Confirmar o Actualize su certificado del registro electoral&nbsp; <br />&gt;&nbsp;</span><span style="font-family: Tahoma; font-size: 10pt; background-color: #ffff99;"><span style="background-color: #ffffff;">Visite </span><a href="http://www.sos.state.tx.us/elections/voter/reqvrspanish.shtml" target="_blank">Votar en Tejas</a></span></div>&nbsp;</div><hr /></span>
+		</div>
+		<div class="ui-article-controls">
+                	<a class="sub-link" href="../../site/default.aspx?PageType=3&ModuleInstanceID=46723&ViewID=ed695a1c-ef13-4546-b4eb-4fefcdd4f389&RenderLoc=0&FlexDataID=61187&PageID=5141"><span>Comments (-1)</span></a>
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+</li> 
+		</ul>
+	</div>
+	<div class="ui-widget-footer">
+		
+		<div class="app-level-social-follow"></div> 
+		<div class="clear"></div>
+	</div>
+</div>
+<input type="hidden" id="hidFullPath" value="http://schools.birdvilleschools.net/" />
+<input type="hidden" id="hidModuleInstanceID0" value="46723"/>
+<script type="text/javascript">
+$(document).ready(function (){
+});
+function LoadGroupedData(container, MIID, PMI, groupYear, groupMonth, groupBy, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&EnableQuirksMode=0&ViewID=' + viewToUse + '&Tag=' + tag, container, 2, 'chkSidebar();');
+}
+function LoadData(container, MIID, PMI, flexDataID, groupYear, groupMonth, groupBy, targetView, tag) {
+  if(targetView !== undefined || targetView.Length() == 0){
+  //targetView looks at the hidden Detail View defined in the Builder View.
+      targetView = $('#hid-'+MIID+'-DetailView').val();
+   }
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&FlexDataID=' + flexDataID + '&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&RenderLoc=0&FromRenderLoc=0&EnableQuirksMode=0&Tag=' + tag + '&ViewID=' + targetView, container, 2, 'chkSidebar();');
+}
+function LoadTaggedData(container, MIID, PMI, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&Tag=' + tag + '&EnableQuirksMode=0&ViewID='+viewToUse, container, 2, 'chkSidebar();');
+}
+</script>
+</div>
+
+</div></div>
+<div id='pmi-5696'>
+
+
+
+<div id='sw-module-100030'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var DomainID = '787';
+            var PageID = '5141';
+            var RenderLoc = '0';
+            var MIID = '10003';
+
+            //added to check to make sure moderated content doesn't bleed through the dialog
+            if ($('#dialog-overlay-WindowLargeModal-body.moderateContent').length > 0) {
+                $("#module-content-" + MIID).find(".ui-widget-detail").find(".ui-article").append("<p>&nbsp;</p>");
+            }
+        });
+    </script>
+
+    <script type="text/javascript">$(document).ready(function() {CheckScript('ModuleView');CheckScript('Mustache');
+ });</script>
+    
+    <div id="module-content-10003" >
+<div class="ui-widget app headlines">
+	
+	<div class="ui-widget-header ui-helper-hidden">
+		<h1></h1>
+	</div>
+	
+	<div class="ui-widget-detail" id="sw-app-headlines">
+		<ul class="ui-articles">
+</ul>
+	</div>
+
+	<div class="ui-widget-footer">
+		
+		
+		<div class="clear"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+        $(document).on('click', 'a.ui-article-thumb', function() {
+        	window.location = $(this).attr('href');
+    	});
+    		
+		$('#sw-app-headlines').find('img').each(function() {
+			if ($.trim(this.src) == '' ) {
+				$(this).parent().parent().remove();
+			}
+		});
+        
+		SetImgSrc();
+	});
+	
+	function  SetImgSrc(){
+		$("img").each(function() {
+		    
+			var imgsrc = this.src.toLowerCase();
+			if(-1 != imgsrc.indexOf("http://") || -1 != imgsrc.indexOf("https://")){
+				var ext;
+				if(-1 != imgsrc.lastIndexOf("http://")){
+					ext = imgsrc.substring(imgsrc.lastIndexOf("http://"));
+				}
+				if(-1 != imgsrc.lastIndexOf("https://")){
+					ext = imgsrc.substring(imgsrc.lastIndexOf("https://"));
+				}
+				this.src = ext;
+		    }
+		});
+	}
+</script>
+<input type="hidden" id="hidFullPath" value="http://schools.birdvilleschools.net/" />
+<input type="hidden" id="hidModuleInstanceID0" value="10003"/>
+<script type="text/javascript">
+$(document).ready(function (){
+});
+function LoadGroupedData(container, MIID, PMI, groupYear, groupMonth, groupBy, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&EnableQuirksMode=0&ViewID=' + viewToUse + '&Tag=' + tag, container, 2, 'chkSidebar();');
+}
+function LoadData(container, MIID, PMI, flexDataID, groupYear, groupMonth, groupBy, targetView, tag) {
+  if(targetView !== undefined || targetView.Length() == 0){
+  //targetView looks at the hidden Detail View defined in the Builder View.
+      targetView = $('#hid-'+MIID+'-DetailView').val();
+   }
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&FlexDataID=' + flexDataID + '&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&RenderLoc=0&FromRenderLoc=0&EnableQuirksMode=0&Tag=' + tag + '&ViewID=' + targetView, container, 2, 'chkSidebar();');
+}
+function LoadTaggedData(container, MIID, PMI, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&Tag=' + tag + '&EnableQuirksMode=0&ViewID='+viewToUse, container, 2, 'chkSidebar();');
+}
+</script>
+</div>
+
+</div></div>
+</div>
+		</div>
+		<div class="hp column three">
+			<div id="sw-content-container3" class="region ui-hp"><div id='pmi-3240'>
+<div id="module-content-7499" ><div class="ui-widget app upcomingevents">
+ <div class="ui-widget-header">
+     <h1>Upcoming Events</h1>
+ </div>
+ <div class="ui-widget-detail">
+		<ul class="ui-articles">
+<li>
+<div class="ui-article">
+     <h1 class="ui-article-title sw-calendar-block-date">Today</h1>
+     <p class="ui-article-description">
+         <span class="sw-calendar-block-title"><a href="
+http://schools.birdvilleschools.net/site/Default.aspx?PageID=5142&PageType=17&DomainID=787&ModuleInstanceID=7498&EventDateID=151054">HHS Volleyball Chisholm Trail JV Tournament</a></span>
+     </p>
+</div>
+</li>
+<li>
+<div class="ui-article">
+     <h1 class="ui-article-title sw-calendar-block-date">Monday</h1>
+     <p class="ui-article-description">
+         <span class="sw-calendar-block-title"><a href="
+http://schools.birdvilleschools.net/site/Default.aspx?PageID=5142&PageType=17&DomainID=787&ModuleInstanceID=7498&EventDateID=153797">School Pictures in HHS Omni Room during Buff Times</a></span>
+     </p>
+</div>
+</li>
+<li>
+<div class="ui-article">
+     <p class="ui-article-description">
+         <span class="sw-calendar-block-time">7:00 PM - 8:00 PM</span>
+         <span class="sw-calendar-block-title"><a href="
+http://schools.birdvilleschools.net/site/Default.aspx?PageID=5142&PageType=17&DomainID=787&ModuleInstanceID=7498&EventDateID=156822">HHS Quarterback Club - Football Team Room</a></span>
+     </p>
+</div>
+</li>
+<li>
+<div class="ui-article">
+     <h1 class="ui-article-title sw-calendar-block-date">Tuesday</h1>
+     <p class="ui-article-description">
+         <span class="sw-calendar-block-title"><a href="
+http://schools.birdvilleschools.net/site/Default.aspx?PageID=5142&PageType=17&DomainID=787&ModuleInstanceID=7498&EventDateID=153797">School Pictures in HHS Omni Room during Buff Times</a></span>
+     </p>
+</div>
+</li>
+<li>
+<div class="ui-article">
+     <p class="ui-article-description">
+         <span class="sw-calendar-block-time">8:30 AM</span>
+         <span class="sw-calendar-block-title"><a href="
+http://schools.birdvilleschools.net/site/Default.aspx?PageID=5142&PageType=17&DomainID=787&ModuleInstanceID=7498&EventDateID=148855">Play it Safe - 9th graders</a></span>
+     </p>
+</div>
+</li>
+<li>
+<div class="ui-article">
+     <p class="ui-article-description">
+         <span class="sw-calendar-block-time">5:30 PM</span>
+         <span class="sw-calendar-block-title"><a href="
+http://schools.birdvilleschools.net/site/Default.aspx?PageID=5142&PageType=17&DomainID=787&ModuleInstanceID=7498&EventDateID=151055">HHS Volleyball @LDBell HS; 9A, JV@5:30; 9B, V@6:30pm</a></span>
+     </p>
+</div>
+</li>
+<li>
+<div class="ui-article">
+     <p class="ui-article-description">
+         <span class="sw-calendar-block-time">6:00 PM</span>
+         <span class="sw-calendar-block-title"><a href="
+http://schools.birdvilleschools.net/site/Default.aspx?PageID=5142&PageType=17&DomainID=787&ModuleInstanceID=7498&EventDateID=152380">BISD Bandfest @FAAC</a></span>
+     </p>
+</div>
+</li>
+<li>
+<div class="ui-article">
+     <h1 class="ui-article-title sw-calendar-block-date">Wednesday</h1>
+     <p class="ui-article-description">
+         <span class="sw-calendar-block-title"><a href="
+http://schools.birdvilleschools.net/site/Default.aspx?PageID=5142&PageType=17&DomainID=787&ModuleInstanceID=7498&EventDateID=148856">Play it Safe - 9th graders</a></span>
+     </p>
+</div>
+</li>
+<li>
+<div class="ui-article">
+     <p class="ui-article-description">
+         <span class="sw-calendar-block-title"><a href="
+http://schools.birdvilleschools.net/site/Default.aspx?PageID=5142&PageType=17&DomainID=787&ModuleInstanceID=7498&EventDateID=153797">School Pictures in HHS Omni Room during Buff Times</a></span>
+     </p>
+</div>
+</li>
+<li>
+<div class="ui-article">
+     <h1 class="ui-article-title sw-calendar-block-date">November 4, 2014</h1>
+     <p class="ui-article-description">
+         <span class="sw-calendar-block-time">7:00 PM - 9:00 PM</span>
+         <span class="sw-calendar-block-title"><a href="
+http://schools.birdvilleschools.net/site/Default.aspx?PageID=5142&PageType=17&DomainID=787&ModuleInstanceID=7498&EventDateID=153680">PTSA Board Meeting: Omni room</a></span>
+     </p>
+</div>
+</li>
+	</ul>
+<a class='view-calendar-link' href="/Page/5142"><span>View Calendar</span></a>
+ </div>
+ <div class="ui-widget-footer">
+ </div>
+</div>
+</div>
+</div>
+</div>
+			<div id="sw-content-container4" class="region ui-hp"><div id='pmi-29734'>
+
+
+
+<div id='sw-module-351870'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var DomainID = '787';
+            var PageID = '5141';
+            var RenderLoc = '0';
+            var MIID = '35187';
+
+            //added to check to make sure moderated content doesn't bleed through the dialog
+            if ($('#dialog-overlay-WindowLargeModal-body.moderateContent').length > 0) {
+                $("#module-content-" + MIID).find(".ui-widget-detail").find(".ui-article").append("<p>&nbsp;</p>");
+            }
+        });
+    </script>
+
+    <script type="text/javascript">$(document).ready(function() {CheckScript('ModuleView');CheckScript('Mustache');
+ });</script>
+    
+    <div id="module-content-35187" >
+<div class="ui-widget app announcements">
+	<div class="ui-widget-header">
+		<h1>Dates to Remember</h1>
+	</div>
+	
+	<div class="ui-widget-detail">
+		<ul class="ui-articles">
+<li>
+	<div class="ui-article">
+		<div class="ui-article-description">
+			<span><span style="font-family: Tahoma; font-size: 10pt;">&gt; View </span><a href="http://www.birdvilleschools.net/importantdates" target="_blank" style="font-family: Tahoma; font-size: 10pt;">2014-15 Important Dates</a></span>
+		</div>
+		<div class="ui-article-controls">
+                	<a class="sub-link" href="../../site/default.aspx?PageType=3&ModuleInstanceID=35187&ViewID=ed695a1c-ef13-4546-b4eb-4fefcdd4f389&RenderLoc=0&FlexDataID=56523&PageID=5141"><span>Comments (-1)</span></a>
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+</li> 
+		</ul>
+	</div>
+	<div class="ui-widget-footer">
+		
+		<div class="app-level-social-follow"></div> 
+		<div class="clear"></div>
+	</div>
+</div>
+<input type="hidden" id="hidFullPath" value="http://schools.birdvilleschools.net/" />
+<input type="hidden" id="hidModuleInstanceID0" value="35187"/>
+<script type="text/javascript">
+$(document).ready(function (){
+});
+function LoadGroupedData(container, MIID, PMI, groupYear, groupMonth, groupBy, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&EnableQuirksMode=1&ViewID=' + viewToUse + '&Tag=' + tag, container, 2, 'chkSidebar();');
+}
+function LoadData(container, MIID, PMI, flexDataID, groupYear, groupMonth, groupBy, targetView, tag) {
+  if(targetView !== undefined || targetView.Length() == 0){
+  //targetView looks at the hidden Detail View defined in the Builder View.
+      targetView = $('#hid-'+MIID+'-DetailView').val();
+   }
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&FlexDataID=' + flexDataID + '&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&RenderLoc=0&FromRenderLoc=0&EnableQuirksMode=1&Tag=' + tag + '&ViewID=' + targetView, container, 2, 'chkSidebar();');
+}
+function LoadTaggedData(container, MIID, PMI, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('http://schools.birdvilleschools.net//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=787&PageID=5141&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&Tag=' + tag + '&EnableQuirksMode=1&ViewID='+viewToUse, container, 2, 'chkSidebar();');
+}
+</script>
+</div>
+
+</div></div>
+</div>
+		</div>
+		<span id="hp-content-bottom" class="hide640"></span>
+	</div>
+	<div id="gb-footer" class="ui-clear">
+		<div class="gb footer one">
+			<div class="hideDistrict">
+				<h1 class="topline"></h1>
+				<h1 class="bottomline"></h1>
+				<div id="address-info">
+					<div class="row ui-clear">
+						<div class="left">
+							<p>ADDRESS</p>
+						</div>
+						<div class="right">
+							<p>5501 North Haltom Road</p>
+							<p>Haltom City, TX 76137 </p>	
+						</div>
+					</div>
+					<div class="row ui-clear">
+						<div class="left">
+							<p>PHONE</p>
+						</div>
+						<div class="right">
+							<p>817-547-6000</p>
+						</div>
+					</div>
+					<div class="row ui-clear">
+						<div class="left">
+							<p>FAX</p>
+						</div>
+						<div class="right">
+							<p>817-581-5387 </p>
+						</div>
+					</div>
+					<p><a href="mailto:michelle.doporto@birdvilleschools.net">Email Webmaster</a></p>	
+				</div>
+			</div>
+		</div>
+		<div class="gb footer two">
+			<p>BIRDVILLE INDEPENDENT SCHOOL DISTRICT</p>
+			<p>6125 EAST BELKNAP ST <span class="middot">•</span> HALTOM CITY <span class="middot">•</span> TEXAS <span class="middot">•</span> 76117</p>
+			<p>P: 817-547-5700 <span class="middot">•</span> F: 817-547-5530 <span class="middot hide480">•</span><span class="hide480"> E: <a href="mailto:communications@birdvilleschools.net">communications@birdvilleschools.net</a></span></p>
+			<p class="show480">E: <a href="mailto:communications@birdvilleschools.net">communications@birdvilleschools.net</a></p>
+		</div>
+		<div class="gb footer three">
+			<p class="hideSchool"><a href="mailto:michelle.doporto@birdvilleschools.net">Email Webmaster</a></p>
+			<p><a href="http://www.schoolwires.com/terms" target="_blank">Terms of Use</a></p>
+			<p>Copyright © 2002-<script type="text/javascript">var currYear = new Date();document.write(currYear.getFullYear());</script> Schoolwires, Inc.</p>
+			<div id="sw-info">
+				<p>All rights reserved.</p>
+			</div>
+		</div>
+	</div>
+	<span class="shadow right hide768"></span>
+</div><!-- BEGIN - STANDARD FOOTER -->
+<div id='sw-footer-outer'>
+<div id='sw-footer-inner'>
+<div id='sw-footer-left'></div>
+<div id='sw-footer-right'>
+<div id='sw-footer-links'>
+<ul>
+<li><a title='Click to email the primary contact' href='mailto:michelle.doporto@birdvilleschools.net'>Questions or Feedback?</a> | </li>
+<li><a href='http://www.schoolwires.com/privacy' target="_blank">Schoolwires Privacy Policy (Updated)</a> | </li>
+<li><a href='http://www.schoolwires.com/terms' target="_blank">Terms of Use</a></li>
+</ul>
+</div>
+<div id='sw-footer-copyright'>Copyright &copy; 2002-2014 Schoolwires, Inc. All rights reserved.</div>
+<div id='sw-footer-logo'><a href='http://www.schoolwires.com' title="This site is powered by Schoolwires Centricity2.">
+<img src='http://schools.birdvilleschools.net/Static/V2_07_01//GlobalAssets/Images/sw-footer-logo.png'/>
+</a></div>
+</div>
+</div>
+</div>
+<!-- END - STANDARD FOOTER -->
+<script type="text/javascript">
+   $(document).ready(function(){
+      var beaconURL='http://analytics.schoolwires.com/analytics.asmx/Insert?AccountNumber=YDfHNOyoRmnTWLe0KNkAPg%3d%3d&SessionID=e613703f-2b24-4e27-8c47-729503f27fcc&SiteID=787&ChannelID=0&SectionID=787&PageID=5141&HitDate=9%2f27%2f2014+2%3a57%3a00+PM&Browser=Mozilla+0.0&OS=Unknown&IPAddress=128.82.4.182';
+      try {
+         $.getJSON(beaconURL + '&jsonp=?', function(myData) {});
+      } catch(err) { 
+         // prevent site error for analytics
+      }
+   });
+</script>
+  
+    <input type="hidden" id="hid-pageid" value="5141" />  
+ 
+
+
+
+<div id='dialog-overlay-WindowMedium-base' class='ui-dialog-overlay-base' ><div id='WindowMedium'  class='ui-dialog-overlay medium' ><div class='ui-dialog-overlay-close' title='Close.' onclick='CloseDialogOverlay("WindowMedium");' ></div><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-WindowMedium-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-WindowMedium-body' ></div><div class='ui-dialog-overlay-footer' id='dialog-overlay-WindowMedium-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-WindowMedium-base').appendTo('body');
+ 		
+		
+    });
+</script>
+<div id='dialog-overlay-WindowSmall-base' class='ui-dialog-overlay-base' ><div id='WindowSmall'  class='ui-dialog-overlay small' ><div class='ui-dialog-overlay-close' title='Close.' onclick='CloseDialogOverlay("WindowSmall");' ></div><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-WindowSmall-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-WindowSmall-body' ></div><div class='ui-dialog-overlay-footer' id='dialog-overlay-WindowSmall-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-WindowSmall-base').appendTo('body');
+ 		
+		
+    });
+</script>
+<div id='dialog-overlay-WindowLarge-base' class='ui-dialog-overlay-base' ><div id='WindowLarge'  class='ui-dialog-overlay large' ><div class='ui-dialog-overlay-close' title='Close.' onclick='CloseDialogOverlay("WindowLarge");' ></div><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-WindowLarge-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-WindowLarge-body' ></div><div class='ui-dialog-overlay-footer' id='dialog-overlay-WindowLarge-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-WindowLarge-base').appendTo('body');
+ 		
+		
+    });
+</script>
+
+<div id='dialog-overlay-WindowMediumModal-base' class='ui-dialog-overlay-base-modal' ><div id='WindowMediumModal'  class='ui-dialog-overlay medium' ><div class='ui-dialog-overlay-close modal' title='Close.' onclick='CloseDialogOverlay("WindowMediumModal");' ></div><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-WindowMediumModal-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-WindowMediumModal-body' ></div><div class='ui-dialog-overlay-footer' id='dialog-overlay-WindowMediumModal-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-WindowMediumModal-base').appendTo('body');
+ 		
+		
+    });
+</script>
+<div id='dialog-overlay-WindowSmallModal-base' class='ui-dialog-overlay-base-modal' ><div id='WindowSmallModal'  class='ui-dialog-overlay small' ><div class='ui-dialog-overlay-close modal' title='Close.' onclick='CloseDialogOverlay("WindowSmallModal");' ></div><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-WindowSmallModal-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-WindowSmallModal-body' ></div><div class='ui-dialog-overlay-footer' id='dialog-overlay-WindowSmallModal-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-WindowSmallModal-base').appendTo('body');
+ 		
+		
+    });
+</script>
+<div id='dialog-overlay-WindowLargeModal-base' class='ui-dialog-overlay-base-modal' ><div id='WindowLargeModal'  class='ui-dialog-overlay large' ><div class='ui-dialog-overlay-close modal' title='Close.' onclick='CloseDialogOverlay("WindowLargeModal");' ></div><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-WindowLargeModal-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-WindowLargeModal-body' ></div><div class='ui-dialog-overlay-footer' id='dialog-overlay-WindowLargeModal-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-WindowLargeModal-base').appendTo('body');
+ 		
+		
+    });
+</script>
+<div id='dialog-overlay-WindowXLargeModal-base' class='ui-dialog-overlay-base-modal' ><div id='WindowXLargeModal'  class='ui-dialog-overlay xlarge' ><div class='ui-dialog-overlay-close modal' title='Close.' onclick='CloseDialogOverlay("WindowXLargeModal");' ></div><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-WindowXLargeModal-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-WindowXLargeModal-body' ></div><div class='ui-dialog-overlay-footer' id='dialog-overlay-WindowXLargeModal-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-WindowXLargeModal-base').appendTo('body');
+ 		
+		
+    });
+</script>
+
+<div id='dialog-overlay-MyAccountSubscriptionOverlay-base' class='ui-dialog-overlay-base-modal' ><div id='MyAccountSubscriptionOverlay'  class='ui-dialog-overlay medium' ><div class='ui-dialog-overlay-close modal' title='Close.' onclick='CloseDialogOverlay("MyAccountSubscriptionOverlay");' ></div><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-MyAccountSubscriptionOverlay-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-MyAccountSubscriptionOverlay-body' ></div><div class='ui-dialog-overlay-footer' id='dialog-overlay-MyAccountSubscriptionOverlay-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-MyAccountSubscriptionOverlay-base').appendTo('body');
+ 		
+		
+    });
+</script>
+
+<div id='dialog-overlay-InsertOverlay-base' class='ui-dialog-overlay-base-modal' ><div id='InsertOverlay'  class='ui-dialog-overlay large' ><div class='ui-dialog-overlay-close modal' title='Close.' onclick='CloseDialogOverlay("InsertOverlay");' ></div><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-InsertOverlay-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-InsertOverlay-body' ></div><div class='ui-dialog-overlay-footer' id='dialog-overlay-InsertOverlay-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-InsertOverlay-base').appendTo('body');
+ 		
+		
+    });
+</script>
+<div id='dialog-overlay-InsertOverlay2-base' class='ui-dialog-overlay-base-modal' ><div id='InsertOverlay2'  class='ui-dialog-overlay large' ><div class='ui-dialog-overlay-close modal' title='Close.' onclick='CloseDialogOverlay("InsertOverlay2");' ></div><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-InsertOverlay2-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-InsertOverlay2-body' ></div><div class='ui-dialog-overlay-footer' id='dialog-overlay-InsertOverlay2-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-InsertOverlay2-base').appendTo('body');
+ 		
+		
+    });
+</script>
+
+
+    <script type="text/javascript">
+		$(document).ready(function() {
+			removeBrokenImages();
+			checkSidebar();
+			RemoveCookie();
+			
+			$('.navigation li.collapsible').each(function() {
+			    if ($(this).find('ul').length == 0) {
+			        $(this).removeClass('collapsible');
+			    } 
+			});
+			
+			// find page nav state cookie and add open chevron
+			var arrValues = GetCookie('SWPageNavState').split('~');
+
+			$.each(arrValues, function() {
+				if (this != '') {
+					$('#' + this).addClass('collapsible').prepend("<div class='bullet collapsible' />");
+				}
+			});
+
+			// find remaining sub menus and add closed chevron and close menu
+			$('.navigation li > ul').each(function() {
+			    var list = $(this);
+			    
+			    if (list.parent().hasClass('active') && !list.parent().hasClass('collapsible')) {
+			        // open sub for currently selected page                    
+			        list.parent().addClass('collapsible').prepend("<div class='bullet collapsible' />");
+			    } else {
+			        if (list.parent().hasClass('collapsible') && !list.siblings('div').hasClass('collapsible')) {
+			            // open sub for page with auto expand
+			            list.siblings('div.expandable').remove();
+			            list.parent().prepend("<div class='bullet collapsible' />");
+			        }
+			    }
+
+				if (!list.siblings('div').hasClass('collapsible')) {
+				    // keep all closed that aren't already set to open
+					list.parent().addClass('expandable').prepend("<div class='bullet expandable' />");
+					ClosePageSubMenu(list.parent());
+				} else {
+					OpenPageSubMenu(list.parent());
+				}
+			});
+			
+			// remove bullet from hierarchy if no-bullet set
+			$('.navigation li.collapsible').each(function() {
+			    if ($(this).hasClass('no-bullet')) {
+			        if (!$(this).hasClass('navigationgroup')) {$(this).removeClass('collapsible');}
+			        $(this).children('div.collapsible').remove();
+			    }
+			});
+
+			$('.navigation li.expandable').each(function() {
+			    if ($(this).hasClass('no-bullet')) {
+			        if (!$(this).hasClass('navigationgroup')) {$(this).removeClass('expandable');}
+			        $(this).children('div.expandable').remove();
+			    }
+			});
+			
+			$('.navigation li:not(.collapsible,.expandable,.no-bullet)').each(function() {
+			    $(this).prepend("<div class='bullet' />");
+			});
+		
+			$('.navigation li.active').parents('ul').each(function() {
+                if (!$(this).hasClass('page-navigation')) {
+                    OpenPageSubMenu($(this).parent());
+                }
+            });
+		
+			// set click event for chevron
+            $(document).on('click', '.navigation div.collapsible', function() {
+				ClosePageSubMenu($(this).parent());
+			});
+
+            $(document).on('click', '.navigation div.expandable', function() {
+				OpenPageSubMenu($(this).parent());
+            });
+            
+            // set navigation grouping links
+            $(document).on('click', '.navigationgroup.collapsible > a', function() {
+                ClosePageSubMenu($(this).parent());
+            });
+
+            $(document).on('click', '.navigationgroup.expandable > a', function() {
+                OpenPageSubMenu($(this).parent());
+            });				
+			
+			//SW MYSTART DROPDOWNS
+            $(document).on('click', '.sw-mystart-dropdown', function() {
+			    $(this).children(".sw-dropdown").css("display","block");
+			});
+
+		    $(".sw-mystart-dropdown").hover(function() {}, function() {
+				$(this).children(".sw-dropdown").hide();
+            });
+
+		    //SW ACCOUNT DROPDOWN
+            $(document).on('click', '#sw-mystart-account', function() {
+				$(this).children("#sw-myaccount-list").show();
+				$(this).addClass("clicked-state");
+            });
+
+			$("#sw-mystart-account, #sw-myaccount-list").hover(function() {}, function() {
+				$(this).children("#sw-myaccount-list").hide();
+				$(this).removeClass("clicked-state");
+			});
+			   
+		   // set hover class for page and section navigation
+		   $('.ui-widget.app.pagenavigation, .ui-widget.app.sectionnavigation').find('li > a').hover(function() {
+		        $(this).addClass('hover');
+		   }, function() {
+		        $(this).removeClass('hover');
+		   });
+
+		}); // end document ready
+		
+		function OpenPageSubMenu(li) {
+            if (li.prop('tagName').toLowerCase() == "li") {
+			    li.removeClass('expandable').addClass('collapsible');
+			    li.find('div:first').removeClass('expandable').addClass('collapsible');	
+			    li.find('ul:first').show();
+
+			    PageNavigationStateCookie();
+            }
+		}
+		
+		function ClosePageSubMenu(li) {
+            if (li.prop('tagName').toLowerCase() == "li") {
+			    li.removeClass('collapsible').addClass('expandable');
+			    li.find('div:first').removeClass('collapsible').addClass('expandable');	 
+			    li.find('ul:first').hide();
+
+			    PageNavigationStateCookie();
+            }
+		}
+		
+		function PageNavigationStateCookie() {
+		    var strCookie = "";
+
+			$('.pagenavigation li > ul').each(function() {
+			    var item = $(this).parent('li');
+				if (item.hasClass('collapsible') && !item.hasClass('no-bullet')){
+					strCookie += $(this).parent().attr('id') + '~';
+				}
+            });
+
+			SetCookie('SWPageNavState', strCookie);
+		}
+		
+		function checkSidebar(){
+		   $(".ui-widget-sidebar").each(function() {
+			   if($.trim($(this).html()) != ""){
+				   $(this).show();
+				   $(this).siblings(".ui-widget-detail").addClass("with-sidebar");
+			   } 
+		   });
+        }
+
+		function removeBrokenImages(){
+		   //REMOVES ANY BROKEN IMAGES
+		    $("span.img img").each(function() {
+		        if ($(this).attr("src") !== undefined) {
+		            $(this).parent().parent().show();
+		            $(this).parent().parent().siblings().addClass("has-thumb");
+		        } 
+		    });
+		}
+
+		function LoadEventDetailUE(moduleInstanceID, eventDateID, userRegID, isEdit) {
+		    (userRegID === undefined ? userRegID = 0 : '');
+		    (isEdit === undefined ? isEdit = false : '');
+		    OpenDialogOverlay("WindowMediumModal", { LoadType: "U", LoadURL: "http://schools.birdvilleschools.net//site/UserControls/Calendar/EventDetailWrapper.aspx?ModuleInstanceID=" + moduleInstanceID + "&EventDateID=" + eventDateID + "&UserRegID=" + userRegID + "&IsEdit=" + isEdit });
+		}
+
+		function RemoveCookie() {
+		    // There are no sub page            
+		    if ($('.pagenavigation li li').length == 0) {
+		        //return false;
+		        PageNavigationStateCookie();
+		    }
+		}
+	</script>
+	
+	<script type="text/javascript">
+
+	    function AddOffCanvasMenuHeightForSiteNav() {
+	        var sitenavulHeight = 0;
+
+	        if ($('#sw-pg-sitenav-ul').length > 0) {
+	            sitenavulHeight = parseInt($("#sw-pg-sitenav-ul").height());
+	        }
+
+	        var swinnerwrapHeight = 0;
+
+	        if ($('#sw-inner-wrap').length > 0) {
+	            swinnerwrapHeight = parseInt($("#sw-inner-wrap").height());
+	        }
+
+	        // 360px is abount 5 li height
+	        if (sitenavulHeight + 360 >= swinnerwrapHeight) {
+	            $("#sw-inner-wrap").height(sitenavulHeight + 360);
+	        }
+	    }
+
+	    function AddOffCanvasMenuHeightForSelectSchool() {
+	        var selectschoolulHeight = 0;
+
+	        if ($('#sw-pg-selectschool-ul').length > 0) {
+	            selectschoolulHeight = parseInt($("#sw-pg-selectschool-ul").height());
+	        }
+
+	        var swinnerwrapHeight = 0;
+
+	        if ($('#sw-inner-wrap').length > 0) {
+	            swinnerwrapHeight = parseInt($("#sw-inner-wrap").height());
+	        }
+
+	        // 360px is abount 5 li height
+	        if (selectschoolulHeight + 360 >= swinnerwrapHeight) {
+	            $("#sw-inner-wrap").height(selectschoolulHeight + 360);
+	        }
+	    }
+
+	    $(document).ready(function() {
+	        if ($("#sw-pg-sitenav-a").length > 0) {
+                $(document).on('click', '#sw-pg-sitenav-a', function() {
+	                if ($("#sw-pg-sitenav-ul").hasClass('sw-pgmenu-closed')) {
+	                    AddOffCanvasMenuHeightForSiteNav();
+
+	                    $("ul.sw-pgmenu-toplevel").removeClass('sw-pgmenu-open').addClass('sw-pgmenu-closed');
+	                    $("#sw-pg-sitenav-ul").removeClass('sw-pgmenu-closed');
+	                    $("#sw-pg-sitenav-ul").addClass('sw-pgmenu-open');
+	                } else {
+	                    $("#sw-pg-sitenav-ul").removeClass('sw-pgmenu-open');
+	                    $("#sw-pg-sitenav-ul").addClass('sw-pgmenu-closed');
+	                }
+	            });
+
+                $(document).on('click', '#sw-pg-selectschool-a', function() {
+	                if ($("#sw-pg-selectschool-ul").hasClass('sw-pgmenu-closed')) {
+	                    AddOffCanvasMenuHeightForSelectSchool();
+
+	                    $("ul.sw-pgmenu-toplevel").removeClass('sw-pgmenu-open').addClass('sw-pgmenu-closed');
+	                    $("#sw-pg-selectschool-ul").removeClass('sw-pgmenu-closed');
+	                    $("#sw-pg-selectschool-ul").addClass('sw-pgmenu-open');
+	                } else {
+	                    $("#sw-pg-selectschool-ul").removeClass('sw-pgmenu-open');
+	                    $("#sw-pg-selectschool-ul").addClass('sw-pgmenu-closed');
+	                }
+	            });
+
+                $(document).on('click', '#sw-pg-myaccount-a', function() {
+	                if ($("#sw-pg-myaccount-ul").hasClass('sw-pgmenu-closed')) {
+	                    $("ul.sw-pgmenu-toplevel").removeClass('sw-pgmenu-open').addClass('sw-pgmenu-closed');
+	                    $("#sw-pg-myaccount-ul").removeClass('sw-pgmenu-closed');
+	                    $("#sw-pg-myaccount-ul").addClass('sw-pgmenu-open');
+	                } else {
+	                    $("#sw-pg-myaccount-ul").removeClass('sw-pgmenu-open');
+	                    $("#sw-pg-myaccount-ul").addClass('sw-pgmenu-closed');
+	                }
+	            });
+
+                $(document).on('click', '.pg-list-bullet', function() {
+	                $(this).prev().toggle();
+
+	                if ($(this).hasClass('closed')) {
+	                    AddOffCanvasMenuHeightForSiteNav();
+
+	                    $(this).removeClass('closed');
+	                    $(this).addClass('open');
+	                } else {
+	                    $(this).removeClass('open');
+	                    $(this).addClass('closed');
+	                }
+	            });
+
+                $(document).on('mouseover', '#sw-pg-selectschool', function() {
+	                $("#sw-pg-selectschool-firstli").removeClass('sw-pg-selectschool-firstli-mouseout').addClass('sw-pg-selectschool-firstli-mouseover');
+	                $("#sw-pg-selectschool-firstli a").addClass('sw-pg-selectschool-firstli-a-mouseover').removeClass('sw-pg-selectschool-firstli-a-mouseout');
+	            });
+
+                $(document).on('mouseout', '#sw-pg-selectschool', function() {
+	                $("#sw-pg-selectschool-firstli").removeClass('sw-pg-selectschool-firstli-mouseover').addClass('sw-pg-selectschool-firstli-mouseout');
+	                $("#sw-pg-selectschool-firstli a").addClass('sw-pg-selectschool-firstli-a-mouseout').removeClass('sw-pg-selectschool-firstli-a-mouseover');
+	            });
+
+                $(document).on('mouseover', '#sw-pg-myaccount', function() {
+	                $("#sw-pg-myaccount-firstli").removeClass('sw-pg-myaccount-firstli-mouseout').addClass('sw-pg-myaccount-firstli-mouseover');
+	                $("#sw-pg-myaccount-firstli a").addClass('sw-pg-myaccount-firstli-a-mouseover').removeClass('sw-pg-myaccount-firstli-a-mouseout');
+	            });
+
+                $(document).on('mouseout', '#sw-pg-myaccount', function() {
+	                $("#sw-pg-myaccount-firstli").removeClass('sw-pg-myaccount-firstli-mouseover').addClass('sw-pg-myaccount-firstli-mouseout');
+	                $("#sw-pg-myaccount-firstli a").addClass('sw-pg-myaccount-firstli-a-mouseout').removeClass('sw-pg-myaccount-firstli-a-mouseover');
+	            });
+
+                $(document).on('mouseover', '#sw-pg-sitenav', function() {
+	                $("#sw-pg-sitenav-firstli").removeClass('sw-pg-sitenav-firstli-mouseout').addClass('sw-pg-sitenav-firstli-mouseover');
+	                $("#sw-pg-sitenav-firstli a").addClass('sw-pg-sitenav-firstli-a-mouseover').removeClass('sw-pg-sitenav-firstli-a-mouseout');
+	            });
+
+                $(document).on('mouseout', '#sw-pg-sitenav', function() {
+	                $("#sw-pg-sitenav-firstli").removeClass('sw-pg-sitenav-firstli-mouseover').addClass('sw-pg-sitenav-firstli-mouseout');
+	                $("#sw-pg-sitenav-firstli a").addClass('sw-pg-sitenav-firstli-a-mouseout').removeClass('sw-pg-sitenav-firstli-a-mouseover');
+	            });
+
+                $(document).on('mouseover', '#sw-pg-district', function() {
+	                $("#sw-pg-district-firstli").removeClass('sw-pg-district-firstli-mouseout').addClass('sw-pg-district-firstli-mouseover');
+	                $("#sw-pg-district-firstli a").addClass('sw-pg-district-firstli-a-mouseover').removeClass('sw-pg-district-firstli-a-mouseout');
+	            });
+
+                $(document).on('mouseout', '#sw-pg-district', function() {
+	                $("#sw-pg-district-firstli").removeClass('sw-pg-district-firstli-mouseover').addClass('sw-pg-district-firstli-mouseout');
+	                $("#sw-pg-district-firstli a").addClass('sw-pg-district-firstli-a-mouseout').removeClass('sw-pg-district-firstli-a-mouseover');
+	            });
+	        }
+	    });	
+
+
+</script>
+    
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js' type='text/javascript'></script>
+    <script src="http://schools.birdvilleschools.net/Static/V2_07_01/GlobalAssets/Scripts/min/SW-UI.min.js" type='text/javascript'></script>
+    <script src="http://schools.birdvilleschools.net/Static/V2_07_01/GlobalAssets/Scripts/Initialize.js" type='text/javascript'></script>
+    <script src="http://schools.birdvilleschools.net/Static/V2_07_01/GlobalAssets/Scripts/min/swfobject.min.js" type="text/javascript"></script>
+    <script src="http://schools.birdvilleschools.net/Static/V2_07_01/GlobalAssets/Scripts/min/jquery.ajaxupload.min.js" type="text/javascript"></script> 
+
+<!-- Begin swuc.CheckScript -->
+  <script type="text/javascript" src="http://schools.birdvilleschools.net/Static/V2_07_01/GlobalAssets/Scripts/ThirdParty/json2.js"></script>
+  <script type="text/javascript" src="http://schools.birdvilleschools.net/Static/V2_07_01/GlobalAssets/Scripts/CheckScript.js"></script>
+<!-- End swuc.CheckScript -->
+
+
+<!-- Server Load Time (01): 0.0312048 Seconds -->
+
+
+
+<!-- off-canvas menu enabled-->
+
+
+</body>
+</html>

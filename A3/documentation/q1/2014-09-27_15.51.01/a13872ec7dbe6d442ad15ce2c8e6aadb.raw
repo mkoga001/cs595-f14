@@ -1,0 +1,1922 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6 lte-ie8"> <![endif]-->
+<!--[if IE 7 ]> <html lang="en" class="no-js ie7 lte-ie8"> <![endif]-->
+<!--[if IE 8 ]> <html lang="en" class="no-js ie8 lte-ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!--
+==========================================================================
+ ____                     ___       __  __
+/\  _`\  __              /\_ \     /\ \/\ \          __
+\ \ \L\ \\_\  __  _    __\//\ \    \ \ \ \ \    ___ /\_\    ___    ___
+ \ \ ,__//\ \/\ \/'\ /'__`\\ \ \    \ \ \ \ \ /' _ `\/\ \  / __`\/' _ `\
+  \ \ \/ \ \ \/>  <//\  __/ \_\ \_   \ \ \_\ \/\ \/\ \ \ \/\ \L\ \\ \/\ \
+   \ \_\  \ \_\\_/\_\ \____\/\____\   \ \_____\ \_\ \_\ \_\ \____/ \_\ \_\
+    \/_/   \/_///\/_/\/____/\/____/    \/_____/\/_/\/_/\/_/\/___/ \/_/\/_/
+==========================================================================
+   Effector v4.4.0
+   Updated: August 14, 2014
+   Website: https://www.pixelunion.net
+   Themes: http://tumblr.com/themes/by/pixelunion-themes
+==========================================================================
+-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>YoongieYoonA</title>
+
+  
+    <meta name="description" content="YoonSicretives"/>
+  
+
+  <meta name="color:Background" content="#e6ebea"/>
+  <meta name="color:Colored Area Text" content="#fffadc"/>
+  <meta name="color:Colored Area Text Shadow" content="#bf4402"/>
+  <meta name="color:Inside Link" content="#f55b2c"/>
+  <meta name="color:Inside Link Hover" content="#fff7a5"/>
+  <meta name="color:Main Theme" content="#f55b2c"/>
+  <meta name="color:Outside Link" content="#f55b2c"/>
+  <meta name="color:Outside Link Hover" content="#131313"/>
+  <meta name="color:Outside Text" content="#616566"/>
+  <meta name="font:Inside Heading" content="Helvetica Neue, Arial, sans-serif"/>
+  <meta name="font:Inside Text" content="Georgia, serif"/>
+  <meta name="font:Outside Heading" content="Helvetica Neue, Arial, sans-serif"/>
+  <meta name="font:Outside Text" content="Helvetica Neue, Arial, sans-serif"/>
+  <meta name="image:Background" content=""/>
+  <meta name="image:Banner" content=""/>
+  <meta name="image:Large Sidebar Portrait" content=""/>
+  <meta name="image:Logo" content=""/>
+  <meta name="if:Align Top Menu Left" content="0"/>
+  <meta name="if:Automatic Headings" content="0"/>
+  <meta name="if:Blog Title in Page Header" content="0"/>
+  <meta name="if:Blog Title in Sidebar" content="0"/>
+  <meta name="if:Blog Title in Top bar" content="1"/>
+  <meta name="if:Centered Layout" content="1"/>
+  <meta name="if:Collapse Notes" content="1"/>
+  <meta name="if:Content Width 500" content="0"/>
+  <meta name="if:Content Width 600" content="0"/>
+  <meta name="if:Content Width 700" content="1"/>
+  <meta name="if:Custom Photosets" content="1"/>
+  <meta name="if:Fixed Background" content="0"/>
+  <meta name="if:Fixed Top Bar" content="1"/>
+  <meta name="if:Hide Sidebar" content="0"/>
+  <meta name="if:Infinite Scrolling" content="0"/>
+  <meta name="if:Invert" content="0"/>
+  <meta name="if:Invert Top Bar" content="0"/>
+  <meta name="if:Large Social Icons" content="1"/>
+  <meta name="if:Left Sidebar" content="0"/>
+  <meta name="if:Logo in Top bar" content="0"/>
+  <meta name="if:Fullscreen Background" content="0"/>
+  <meta name="if:Pages In Top Bar" content="0"/>
+  <meta name="if:Rounded Post Corners" content="0"/>
+  <meta name="if:Scale Images" content="1"/>
+  <meta name="if:Search Box In Sidebar" content="0"/>
+  <meta name="if:Show About Heading" content="1"/>
+  <meta name="if:Show Blogs I Follow" content="0"/>
+  <meta name="if:Show Description" content="1"/>
+  <meta name="if:Show Group Blog Info" content="0"/>
+  <meta name="if:Show Instagram" content="0"/>
+  <meta name="if:Show Likes" content="0"/>
+  <meta name="if:Show Likes in Sidebar" content="0"/>
+  <meta name="if:Show Pages Heading" content="1"/>
+  <meta name="if:Show Portrait" content="0"/>
+  <meta name="if:Show Random Post Icon" content="0"/>
+  <meta name="if:Show Social Icons Widget" content="0"/>
+  <meta name="if:Show Tweets" content="1"/>
+  <meta name="if:Show Twitter Profile" content="1"/>
+  <meta name="if:Top Menu With Labels" content="0"/>
+  <meta name="text:Behance Username" content=""/>
+  <meta name="text:Cargo URL" content=""/>
+  <meta name="text:Copyright Text" content=""/>
+  <meta name="text:Default Search Text" content="Search"/>
+  <meta name="text:Delicious Username" content=""/>
+  <meta name="text:Disqus Shortname" content=""/>
+  <meta name="text:Dribbble Username" content=""/>
+  <meta name="text:FFFFound Username" content=""/>
+  <meta name="text:Facebook Username" content=""/>
+  <meta name="text:Flickr Username" content=""/>
+  <meta name="text:Forrst Username" content=""/>
+  <meta name="text:Foursquare Username" content=""/>
+  <meta name="text:GetClicky Site ID" content=""/>
+  <meta name="text:Google Analytics Web Property ID" content=""/>
+  <meta name="text:Google URL" content=""/>
+  <meta name="text:Grooveshark Username" content=""/>
+  <meta name="text:Instagram Username" content=""/>
+  <meta name="text:Instagram Heading" content="Instagram"/>
+  <meta name="text:Instagram Access Token" content=""/>
+  <meta name="text:Instagram Count Max 4" content="4"/>
+  <meta name="text:Lastfm Username" content=""/>
+  <meta name="text:Liked Posts Heading" content="I Dig These Posts"/>
+  <meta name="text:Linkedin Profile URL" content=""/>
+  <meta name="text:Myspace Friend ID" content=""/>
+  <meta name="text:Num Tweets Max 4" content="4"/>
+  <meta name="text:Pinboard Username" content=""/>
+  <meta name="text:Pinterest Username" content=""/>
+  <meta name="text:Rdio Username" content=""/>
+  <meta name="text:Rows of Followed Avatars" content="3"/>
+  <meta name="text:Skype Username" content=""/>
+  <meta name="text:Social Icons Heading" content="Me, Elsewhere"/>
+  <meta name="text:Soundcloud Username" content=""/>
+  <meta name="text:Tagline" content=""/>
+  <meta name="text:Twitter Heading" content="Twitter"/>
+  <meta name="text:Twitter Username" content=""/>
+  <meta name="text:Vimeo Username" content=""/>
+  <meta name="text:Xbox Live Profile URL" content=""/>
+  <meta name="text:Youtube Username" content=""/>
+  <meta name="text:github Username" content=""/>
+
+  <!-- FACEBOOK OPEN GRAPH -->
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+
+  <meta property="og:site_name" content="YoongieYoonA"/>
+
+  
+
+  
+    <meta property="og:title" content="YoongieYoonA"/>
+    <meta property="og:type" content="blog"/>
+    <meta property="og:description" content="YoonSicretives"/>
+    <meta property="og:image" content="http://38.media.tumblr.com/avatar_4a2bdfa6101c_64.png"/>
+  
+
+  <link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_4a2bdfa6101c_128.png" />
+  <link rel="apple-touch-icon" href="http://38.media.tumblr.com/avatar_4a2bdfa6101c_128.png" />
+  <link rel="alternate" type="application/rss+xml" href="http://yoongieyoona.tumblr.com/rss"/>
+  <link rel="stylesheet" href="http://static.tumblr.com/xgwqnql/MF5lbpkr4/jquery.fancybox-1.3.1.css" media="screen"/>
+
+  
+    <link href="http://static.tumblr.com/ymcvd4r/iRpnabczv/style.css" media="screen" rel="stylesheet" type="text/css" />
+  
+
+  <script type="text/javascript">
+    tumblrUsername = 'yoongieyoona';
+    searchValue = "Search";
+    themeColor = "#f55b2c";
+    contentWidth = 500;
+    
+    
+    
+    infiniteScroll = true;
+    collapseNotes = true;
+    
+    twitterUsername = "YoongieYoonA";
+    fixedBar = true;
+    
+    showTweets = true;
+    numTweets = parseInt(4);
+    showTwitterProfile = true;
+    
+    var showInstagram = false;
+    
+    var accessToken = '';
+    var instaCount = '4';
+    
+    
+    showFollowing = true;
+    followedRows = parseInt(3);
+    
+    
+    
+    
+    photosets = {};
+  </script>
+  <style type="text/css">
+    body {
+      font-family:Helvetica Neue, Arial, sans-serif;
+      color:#616566;
+      background-color:#e6ebea;
+      
+    }
+
+    .blog-title,
+    #sidebar h1,
+    #sidebar h2,
+    #sidebar h3,
+    #footer h1,
+    #footer h2,
+    #footer h3 {
+      font-family:Helvetica Neue, Arial, sans-serif;
+    }
+
+    .copy {
+      font-family:Georgia, serif;
+    }
+    .copy h1,
+    .copy h2,
+    .copy h3,
+    .copy h4,
+    .copy h5,
+    .copy h6,
+    .auto-headings .copy p:first-child strong:first-child,
+    #notes h2,
+    #disqus h2,
+    .speaker {
+      font-family:Helvetica Neue, Arial, sans-serif;
+    }
+
+    #tabs #tabs-nav h2 span.active {
+      background:#e6ebea;
+    }
+
+    
+
+    
+
+    /* Main Theme Color */
+    .colored-panel,
+    .type-answer .user-question,
+    .pages a:hover,
+    .invert .fixed .pages a:hover,
+    .invert .pinned .pages a:hover,
+    .invert #sidebar .pages a:hover,
+    .more-likes:hover,
+    .invert-topbar .fixed .pages a:hover,
+    .like_link a:hover,
+    .type-photoset .navi a:hover,
+    #pagination .nextprev a:hover,
+    #group-members li span,
+    #followed li span {
+      background-color:#f55b2c;
+    }
+    .corners .tl {
+      border-left-color: #f55b2c;
+    }
+    .corners .tr {
+      border-right-color: #f55b2c;
+    }
+    .corners .bl,
+    .corners .br {
+      border-bottom-color:#f55b2c;
+    }
+    #group-members li span:after,
+    #followed li span:after {
+      border-top-color:#f55b2c;
+    }
+
+    /* Outside Link Color */
+    a, #footer-end a:hover {
+      color:#f55b2c;
+    }
+
+    /* Outside Link Hover */
+    a:hover {
+      color:#131313;
+    }
+
+    /* Inside Link Color */
+    .copy a,
+    .copy li:before,
+    .type-chat .speaker,
+    .no-touch #notes-toggle:hover,
+    .touch #notes-toggle.up,
+    ol.notes a,
+    #disqus a {
+      color:#f55b2c;
+    }
+
+    .copy a:hover,
+    ol.notes a:hover {
+      border-color:#f55b2c;
+    }
+    .copy .post-title a:hover,
+    .copy a:hover,
+    ol.notes a:hover,
+    #dsq-comments a:hover,
+    #dsq-options a:hover {
+      background-color:#fff7a5;
+    }
+
+    .no-touch #notes-toggle:hover .icon,
+    .touch #notes-toggle.up .icon,
+    .photo-btns a:hover,
+    #back-to-top .icon {
+      background-color:#f55b2c;
+    }
+
+    /* Colored Area */
+    .colored-panel,
+    .colored-panel a,
+    .colored-panel a:hover,
+    .colored-panel .user-question,
+    .pages a:hover,
+    .invert-topbar .fixed .pages a:hover,
+    .invert #sidebar .pages a:hover,
+    .more-likes:hover,
+    .like_link a:hover,
+    #pagination .nextprev a:hover,
+    #group-members li span,
+    #followed li span {
+      color:#fffadc;
+    }
+
+    /* Colored Area Text Shadow */
+    .type-quote .quote-text,
+    .type-audio .audio-meta,
+    .type-answer .user-question,
+    .pages a:hover,
+    .more-likes:hover,
+    .like_link a:hover,
+    #pagination .nextprev a:hover,
+    #group-members li span,
+    #followed li span {
+      text-shadow:1px 1px #bf4402;
+    }
+
+    ol.notes li.tumblelog_yoongieyoona {
+      background-color:#fbfbfb;
+    }
+    ol.notes li.tumblelog_yoongieyoona .action {
+      font-weight:bold;
+    }
+    #page, .inner {
+      margin:0 auto;
+    }
+
+    
+  </style>
+
+  <script src="http://static.tumblr.com/hugxd2w/6Cpm8gh20/modernizr.2.6.1.min.js"></script>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=yoongieyoona" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="yoona,snsd,yoonsic,jessica,poster fiction" />
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="yoongieyoona" /><meta name="twitter:description" content="&lt;p&gt;YoonSicretives&lt;/p&gt;" /><meta name="twitter:creator" content="YoongieYoonA" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=yoongieyoona&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=yoongieyoona&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=yoongieyoona&amp;referrer=twitter-cards" />
+
+</head>
+<body class="content-500 infscroll menu-labels round-corners lg-icons ">
+  <div id="header" class="pinned">
+    <div class="inner">
+      
+
+      
+        <h1 class="blog-title"><a href="/">YoongieYoonA</a></h1>
+      
+
+      
+
+      
+        <div id="search">
+          <form id="search-form" method="get" action="/search">
+            <input type="text" name="q" value="Search" />
+          </form>
+        </div>
+      
+      <ul class="menu">
+        
+        <li><a class="archives" href="/archive"><span class="icon"></span><span class="label">Archive</span></a></li>
+        <li><a class="rss" href="http://yoongieyoona.tumblr.com/rss"><span class="icon"></span><span class="label">RSS</span></a></li>
+        <li><a class="ask" href="/ask"><span class="icon"></span><span class="label">Ask me anything</span></a></li>
+        
+      </ul>
+    </div><!-- .inner -->
+    <div class="shadow"><span></span></div>
+  </div><!-- /#header -->
+
+  <!-- PAGE -->
+  <div id="page" class="right-sidebar clearfix">
+
+    
+
+    
+      
+    
+
+    <div id="content">
+
+      <!-- BEGIN POSTS -->
+      
+        <article id="post-98188040947" class="post
+          
+          
+          type-photoset 
+          
+          
+          
+          
+          
+          
+          tag_yoona tag_jessica tag_snsd tag_yoonsic ">
+
+          
+
+          
+
+          
+
+            
+
+            
+              <div class="photo-slideshow" id="photoset_98188040947" data-layout="11">
+
+                
+                  <div class="photo-data">
+                    <div class="pxu-photo">
+                      <img alt="Ceci casio Oct2014" src="http://33.media.tumblr.com/076e64bd225d5212918da695597aa4f1/tumblr_ncbx60AogS1s3v40no1_r1_500.png" data-highres="http://31.media.tumblr.com/076e64bd225d5212918da695597aa4f1/tumblr_ncbx60AogS1s3v40no1_r1_1280.png" data-width="1200" data-height="800" class=""  >
+                    </div>
+                    <div class="icons">
+                      <a class="tumblr-box" rel="post-98188040947" href="http://31.media.tumblr.com/076e64bd225d5212918da695597aa4f1/tumblr_ncbx60AogS1s3v40no1_r1_1280.png">
+                        <span class="zoom">Zoom</span>
+                      </a>
+                      <span class="info">Info</span>
+                    </div>
+                  </div>
+                
+                  <div class="photo-data">
+                    <div class="pxu-photo">
+                      <img alt="Ceci casio Oct2014" src="http://38.media.tumblr.com/2d65fc5e4ae2e6b27845fa943cddb420/tumblr_ncbx60AogS1s3v40no2_r1_500.png" data-highres="http://38.media.tumblr.com/2d65fc5e4ae2e6b27845fa943cddb420/tumblr_ncbx60AogS1s3v40no2_r1_1280.png" data-width="1280" data-height="1458" class=""  >
+                    </div>
+                    <div class="icons">
+                      <a class="tumblr-box" rel="post-98188040947" href="http://38.media.tumblr.com/2d65fc5e4ae2e6b27845fa943cddb420/tumblr_ncbx60AogS1s3v40no2_r1_1280.png">
+                        <span class="zoom">Zoom</span>
+                      </a>
+                      <span class="info">Info</span>
+                    </div>
+                  </div>
+                
+
+              </div><!-- close SLIDESHOW -->
+
+              <div class="post-panel">
+
+                <div class="copy"><p><span>Ceci casio Oct2014</span></p></div>
+            
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+            <div class="meta">
+              <ul class="meta-list">
+
+                
+                  <li class="tags">
+                    <ul class="tag-list">
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoona">#yoona</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/jessica">#jessica</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/snsd">#snsd</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoonsic">#yoonsic</a></li>
+                      
+                    </ul>
+                  </li>
+                
+
+                
+
+                <li class="date">
+                  <a href="http://yoongieyoona.tumblr.com/post/98188040947/ceci-casio-oct2014" title="Mon. September 22, 2014 @ 8:54 pm">
+                    <span class="icon"></span>4 days ago
+                  </a>
+                  
+                </li>
+
+                <li class="notes"><a href="http://yoongieyoona.tumblr.com/post/98188040947/ceci-casio-oct2014#notes"><span class="icon"></span>19</a></li>
+
+                
+
+                <li class="permalink"><a href="http://yoongieyoona.tumblr.com/post/98188040947/ceci-casio-oct2014"><span class="icon"></span>Permalink</a></li>
+
+              </ul><!--/.meta-list -->
+
+              <div class="share">
+                <span class="toggle">Share</span>
+                <div class="widget">
+                  <div class="short-link">
+                    <p>Short URL<br>
+                    <input type="text" readonly="" value="http://tmblr.co/ZojwFt1RSTfhp"></p>
+                  </div>
+                  <div class="share-links"><a target="_new" href="https://twitter.com/intent/tweet?url=http://tmblr.co/ZojwFt1RSTfhp" class="share-twitter">Twitter</a><a target="_new" href="https://www.facebook.com/sharer.php?u=http://yoongieyoona.tumblr.com/post/98188040947/ceci-casio-oct2014" class="share-facebook">Facebook</a><a target="_new" href="http://pinterest.com/pin/create/button/?url=http://yoongieyoona.tumblr.com/post/98188040947/ceci-casio-oct2014&media=" class="share-pinterest">Pinterest</a><a target="_new" href="https://plus.google.com/share?url=http://yoongieyoona.tumblr.com/post/98188040947/ceci-casio-oct2014" class="share-google">Google+</a></div>
+                </div>
+              </div>
+            </div><!-- /.meta -->
+          
+
+          
+
+          </div><!-- /.post-panel -->
+          <div class="post-shadow"></div>
+        </article><!-- /.post -->
+      
+        <article id="post-96768533057" class="post
+          
+          
+          type-photoset 
+          
+          
+          
+          
+          
+          
+          tag_yoona tag_snsd tag_yoona+handsome ">
+
+          
+
+          
+
+          
+
+            
+
+            
+              <div class="photo-slideshow" id="photoset_96768533057" data-layout="11">
+
+                
+                  <div class="photo-data">
+                    <div class="pxu-photo">
+                      <img alt="" src="http://33.media.tumblr.com/44cdf27e3459113926d95d70868bd992/tumblr_nbgwreHJ9a1s3v40no1_r2_500.png" data-highres="http://33.media.tumblr.com/44cdf27e3459113926d95d70868bd992/tumblr_nbgwreHJ9a1s3v40no1_r2_1280.png" data-width="1280" data-height="999" class=""  >
+                    </div>
+                    <div class="icons">
+                      <a class="tumblr-box" rel="post-96768533057" href="http://33.media.tumblr.com/44cdf27e3459113926d95d70868bd992/tumblr_nbgwreHJ9a1s3v40no1_r2_1280.png">
+                        <span class="zoom">Zoom</span>
+                      </a>
+                      <span class="info">Info</span>
+                    </div>
+                  </div>
+                
+                  <div class="photo-data">
+                    <div class="pxu-photo">
+                      <img alt="" src="http://33.media.tumblr.com/f9d5b78759d7fe27d806f5791fddfa7c/tumblr_nbgwreHJ9a1s3v40no2_r2_500.png" data-highres="http://38.media.tumblr.com/f9d5b78759d7fe27d806f5791fddfa7c/tumblr_nbgwreHJ9a1s3v40no2_r2_1280.png" data-width="1280" data-height="999" class=""  >
+                    </div>
+                    <div class="icons">
+                      <a class="tumblr-box" rel="post-96768533057" href="http://38.media.tumblr.com/f9d5b78759d7fe27d806f5791fddfa7c/tumblr_nbgwreHJ9a1s3v40no2_r2_1280.png">
+                        <span class="zoom">Zoom</span>
+                      </a>
+                      <span class="info">Info</span>
+                    </div>
+                  </div>
+                
+
+              </div><!-- close SLIDESHOW -->
+
+              <div class="post-panel">
+
+                
+            
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+            <div class="meta">
+              <ul class="meta-list">
+
+                
+                  <li class="tags">
+                    <ul class="tag-list">
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoona">#yoona</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/snsd">#snsd</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoona-handsome">#yoona handsome</a></li>
+                      
+                    </ul>
+                  </li>
+                
+
+                
+
+                <li class="date">
+                  <a href="http://yoongieyoona.tumblr.com/post/96768533057" title="Sat. September 6, 2014 @ 2:59 am">
+                    <span class="icon"></span>3 weeks ago
+                  </a>
+                  
+                </li>
+
+                <li class="notes"><a href="http://yoongieyoona.tumblr.com/post/96768533057#notes"><span class="icon"></span>1</a></li>
+
+                
+
+                <li class="permalink"><a href="http://yoongieyoona.tumblr.com/post/96768533057"><span class="icon"></span>Permalink</a></li>
+
+              </ul><!--/.meta-list -->
+
+              <div class="share">
+                <span class="toggle">Share</span>
+                <div class="widget">
+                  <div class="short-link">
+                    <p>Short URL<br>
+                    <input type="text" readonly="" value="http://tmblr.co/ZojwFt1Q7sg91"></p>
+                  </div>
+                  <div class="share-links"><a target="_new" href="https://twitter.com/intent/tweet?url=http://tmblr.co/ZojwFt1Q7sg91" class="share-twitter">Twitter</a><a target="_new" href="https://www.facebook.com/sharer.php?u=http://yoongieyoona.tumblr.com/post/96768533057" class="share-facebook">Facebook</a><a target="_new" href="http://pinterest.com/pin/create/button/?url=http://yoongieyoona.tumblr.com/post/96768533057&media=" class="share-pinterest">Pinterest</a><a target="_new" href="https://plus.google.com/share?url=http://yoongieyoona.tumblr.com/post/96768533057" class="share-google">Google+</a></div>
+                </div>
+              </div>
+            </div><!-- /.meta -->
+          
+
+          
+
+          </div><!-- /.post-panel -->
+          <div class="post-shadow"></div>
+        </article><!-- /.post -->
+      
+        <article id="post-96720390472" class="post
+          
+          type-photo 
+          
+          
+          
+          
+          
+          
+          
+          tag_jessica tag_yoona tag_yoonsic tag_snsd ">
+
+          
+
+          
+            <div class="post-panel">
+              <div class="media">
+                <div class="photo-panel">
+
+                  
+                    <a href="http://yoongieyoona.tumblr.com/image/96720390472"><img src="http://33.media.tumblr.com/4747569e3a5d6fe7010bf1813ac440e2/tumblr_nbg0lutqTC1s3v40no1_r2_500.png" alt=""/></a>
+                  
+
+                  
+
+                  <div class="photo-btns">
+                                        
+                      <a class="lightbox" href="http://31.media.tumblr.com/4747569e3a5d6fe7010bf1813ac440e2/tumblr_nbg0lutqTC1s3v40no1_r2_1280.png">Pop-up</a>
+                    
+                    <a class="photo-url" href="http://31.media.tumblr.com/4747569e3a5d6fe7010bf1813ac440e2/tumblr_nbg0lutqTC1s3v40no1_r2_1280.png">View Separately</a>
+                  </div>
+
+                </div>
+              </div>
+              
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+            <div class="meta">
+              <ul class="meta-list">
+
+                
+                  <li class="tags">
+                    <ul class="tag-list">
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/jessica">#jessica</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoona">#yoona</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoonsic">#yoonsic</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/snsd">#snsd</a></li>
+                      
+                    </ul>
+                  </li>
+                
+
+                
+
+                <li class="date">
+                  <a href="http://yoongieyoona.tumblr.com/post/96720390472" title="Fri. September 5, 2014 @ 3:25 pm">
+                    <span class="icon"></span>3 weeks ago
+                  </a>
+                  
+                </li>
+
+                <li class="notes"><a href="http://yoongieyoona.tumblr.com/post/96720390472#notes"><span class="icon"></span>12</a></li>
+
+                
+
+                <li class="permalink"><a href="http://yoongieyoona.tumblr.com/post/96720390472"><span class="icon"></span>Permalink</a></li>
+
+              </ul><!--/.meta-list -->
+
+              <div class="share">
+                <span class="toggle">Share</span>
+                <div class="widget">
+                  <div class="short-link">
+                    <p>Short URL<br>
+                    <input type="text" readonly="" value="http://tmblr.co/ZojwFt1Q4-0b8"></p>
+                  </div>
+                  <div class="share-links"><a target="_new" href="https://twitter.com/intent/tweet?url=http://tmblr.co/ZojwFt1Q4-0b8" class="share-twitter">Twitter</a><a target="_new" href="https://www.facebook.com/sharer.php?u=http://yoongieyoona.tumblr.com/post/96720390472" class="share-facebook">Facebook</a><a target="_new" href="http://pinterest.com/pin/create/button/?url=http://yoongieyoona.tumblr.com/post/96720390472&media=" class="share-pinterest">Pinterest</a><a target="_new" href="https://plus.google.com/share?url=http://yoongieyoona.tumblr.com/post/96720390472" class="share-google">Google+</a></div>
+                </div>
+              </div>
+            </div><!-- /.meta -->
+          
+
+          
+
+          </div><!-- /.post-panel -->
+          <div class="post-shadow"></div>
+        </article><!-- /.post -->
+      
+        <article id="post-95327294067" class="post
+          
+          
+          type-photoset 
+          
+          
+          
+          
+          
+          
+          tag_yoona tag_jessica tag_yoonsic tag_snsd ">
+
+          
+
+          
+
+          
+
+            
+
+            
+              <div class="photo-slideshow" id="photoset_95327294067" data-layout="111">
+
+                
+                  <div class="photo-data">
+                    <div class="pxu-photo">
+                      <img alt="" src="http://33.media.tumblr.com/c3e8fd346c15788c3cddc1c2d93e6b2a/tumblr_namt7bIBba1s3v40no2_r1_500.png" data-highres="http://33.media.tumblr.com/c3e8fd346c15788c3cddc1c2d93e6b2a/tumblr_namt7bIBba1s3v40no2_r1_1280.png" data-width="700" data-height="512" class=""  >
+                    </div>
+                    <div class="icons">
+                      <a class="tumblr-box" rel="post-95327294067" href="http://33.media.tumblr.com/c3e8fd346c15788c3cddc1c2d93e6b2a/tumblr_namt7bIBba1s3v40no2_r1_1280.png">
+                        <span class="zoom">Zoom</span>
+                      </a>
+                      <span class="info">Info</span>
+                    </div>
+                  </div>
+                
+                  <div class="photo-data">
+                    <div class="pxu-photo">
+                      <img alt="" src="http://33.media.tumblr.com/06a7ee1503840bdaf22a61481592f37c/tumblr_namt7bIBba1s3v40no1_500.png" data-highres="http://33.media.tumblr.com/06a7ee1503840bdaf22a61481592f37c/tumblr_namt7bIBba1s3v40no1_1280.png" data-width="700" data-height="512" class=""  >
+                    </div>
+                    <div class="icons">
+                      <a class="tumblr-box" rel="post-95327294067" href="http://33.media.tumblr.com/06a7ee1503840bdaf22a61481592f37c/tumblr_namt7bIBba1s3v40no1_1280.png">
+                        <span class="zoom">Zoom</span>
+                      </a>
+                      <span class="info">Info</span>
+                    </div>
+                  </div>
+                
+                  <div class="photo-data">
+                    <div class="pxu-photo">
+                      <img alt="" src="http://33.media.tumblr.com/2a7432ac0773ba782545608361ebba89/tumblr_namt7bIBba1s3v40no3_r1_500.png" data-highres="http://33.media.tumblr.com/2a7432ac0773ba782545608361ebba89/tumblr_namt7bIBba1s3v40no3_r1_1280.png" data-width="700" data-height="456" class=""  >
+                    </div>
+                    <div class="icons">
+                      <a class="tumblr-box" rel="post-95327294067" href="http://33.media.tumblr.com/2a7432ac0773ba782545608361ebba89/tumblr_namt7bIBba1s3v40no3_r1_1280.png">
+                        <span class="zoom">Zoom</span>
+                      </a>
+                      <span class="info">Info</span>
+                    </div>
+                  </div>
+                
+
+              </div><!-- close SLIDESHOW -->
+
+              <div class="post-panel">
+
+                
+            
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+            <div class="meta">
+              <ul class="meta-list">
+
+                
+                  <li class="tags">
+                    <ul class="tag-list">
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoona">#yoona</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/jessica">#jessica</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoonsic">#yoonsic</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/snsd">#snsd</a></li>
+                      
+                    </ul>
+                  </li>
+                
+
+                
+
+                <li class="date">
+                  <a href="http://yoongieyoona.tumblr.com/post/95327294067" title="Wed. August 20, 2014 @ 8:54 pm">
+                    <span class="icon"></span>1 month ago
+                  </a>
+                  
+                </li>
+
+                <li class="notes"><a href="http://yoongieyoona.tumblr.com/post/95327294067#notes"><span class="icon"></span>15</a></li>
+
+                
+
+                <li class="permalink"><a href="http://yoongieyoona.tumblr.com/post/95327294067"><span class="icon"></span>Permalink</a></li>
+
+              </ul><!--/.meta-list -->
+
+              <div class="share">
+                <span class="toggle">Share</span>
+                <div class="widget">
+                  <div class="short-link">
+                    <p>Short URL<br>
+                    <input type="text" readonly="" value="http://tmblr.co/ZojwFt1Onyn9p"></p>
+                  </div>
+                  <div class="share-links"><a target="_new" href="https://twitter.com/intent/tweet?url=http://tmblr.co/ZojwFt1Onyn9p" class="share-twitter">Twitter</a><a target="_new" href="https://www.facebook.com/sharer.php?u=http://yoongieyoona.tumblr.com/post/95327294067" class="share-facebook">Facebook</a><a target="_new" href="http://pinterest.com/pin/create/button/?url=http://yoongieyoona.tumblr.com/post/95327294067&media=" class="share-pinterest">Pinterest</a><a target="_new" href="https://plus.google.com/share?url=http://yoongieyoona.tumblr.com/post/95327294067" class="share-google">Google+</a></div>
+                </div>
+              </div>
+            </div><!-- /.meta -->
+          
+
+          
+
+          </div><!-- /.post-panel -->
+          <div class="post-shadow"></div>
+        </article><!-- /.post -->
+      
+        <article id="post-94322813707" class="post
+          
+          
+          type-photoset 
+          
+          
+          
+          
+          
+          
+          tag_yoona tag_jessica tag_yoonsic tag_snsd ">
+
+          
+
+          
+
+          
+
+            
+
+            
+              <div class="photo-slideshow" id="photoset_94322813707" data-layout="12">
+
+                
+                  <div class="photo-data">
+                    <div class="pxu-photo">
+                      <img alt="" src="http://38.media.tumblr.com/c2a29ccbbfbf5c95c58816456c189a45/tumblr_na2zx5oJS81s3v40no2_500.png" data-highres="http://31.media.tumblr.com/c2a29ccbbfbf5c95c58816456c189a45/tumblr_na2zx5oJS81s3v40no2_1280.png" data-width="1280" data-height="853" class=""  >
+                    </div>
+                    <div class="icons">
+                      <a class="tumblr-box" rel="post-94322813707" href="http://31.media.tumblr.com/c2a29ccbbfbf5c95c58816456c189a45/tumblr_na2zx5oJS81s3v40no2_1280.png">
+                        <span class="zoom">Zoom</span>
+                      </a>
+                      <span class="info">Info</span>
+                    </div>
+                  </div>
+                
+                  <div class="photo-data">
+                    <div class="pxu-photo">
+                      <img alt="" src="http://33.media.tumblr.com/5040f38fc012074577f159421ee0eae0/tumblr_na2zx5oJS81s3v40no1_500.png" data-highres="http://33.media.tumblr.com/5040f38fc012074577f159421ee0eae0/tumblr_na2zx5oJS81s3v40no1_1280.png" data-width="1280" data-height="853" class=""  >
+                    </div>
+                    <div class="icons">
+                      <a class="tumblr-box" rel="post-94322813707" href="http://33.media.tumblr.com/5040f38fc012074577f159421ee0eae0/tumblr_na2zx5oJS81s3v40no1_1280.png">
+                        <span class="zoom">Zoom</span>
+                      </a>
+                      <span class="info">Info</span>
+                    </div>
+                  </div>
+                
+                  <div class="photo-data">
+                    <div class="pxu-photo">
+                      <img alt="" src="http://38.media.tumblr.com/a74db4cc7281350802c7d1318774355c/tumblr_na2zx5oJS81s3v40no3_r1_500.png" data-highres="http://33.media.tumblr.com/a74db4cc7281350802c7d1318774355c/tumblr_na2zx5oJS81s3v40no3_r1_1280.png" data-width="1280" data-height="1106" class=""  >
+                    </div>
+                    <div class="icons">
+                      <a class="tumblr-box" rel="post-94322813707" href="http://33.media.tumblr.com/a74db4cc7281350802c7d1318774355c/tumblr_na2zx5oJS81s3v40no3_r1_1280.png">
+                        <span class="zoom">Zoom</span>
+                      </a>
+                      <span class="info">Info</span>
+                    </div>
+                  </div>
+                
+
+              </div><!-- close SLIDESHOW -->
+
+              <div class="post-panel">
+
+                
+            
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+            <div class="meta">
+              <ul class="meta-list">
+
+                
+                  <li class="tags">
+                    <ul class="tag-list">
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoona">#yoona</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/jessica">#jessica</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoonsic">#yoonsic</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/snsd">#snsd</a></li>
+                      
+                    </ul>
+                  </li>
+                
+
+                
+
+                <li class="date">
+                  <a href="http://yoongieyoona.tumblr.com/post/94322813707" title="Sun. August 10, 2014 @ 4:07 am">
+                    <span class="icon"></span>1 month ago
+                  </a>
+                  
+                </li>
+
+                <li class="notes"><a href="http://yoongieyoona.tumblr.com/post/94322813707#notes"><span class="icon"></span>10</a></li>
+
+                
+
+                <li class="permalink"><a href="http://yoongieyoona.tumblr.com/post/94322813707"><span class="icon"></span>Permalink</a></li>
+
+              </ul><!--/.meta-list -->
+
+              <div class="share">
+                <span class="toggle">Share</span>
+                <div class="widget">
+                  <div class="short-link">
+                    <p>Short URL<br>
+                    <input type="text" readonly="" value="http://tmblr.co/ZojwFt1Ns4_iB"></p>
+                  </div>
+                  <div class="share-links"><a target="_new" href="https://twitter.com/intent/tweet?url=http://tmblr.co/ZojwFt1Ns4_iB" class="share-twitter">Twitter</a><a target="_new" href="https://www.facebook.com/sharer.php?u=http://yoongieyoona.tumblr.com/post/94322813707" class="share-facebook">Facebook</a><a target="_new" href="http://pinterest.com/pin/create/button/?url=http://yoongieyoona.tumblr.com/post/94322813707&media=" class="share-pinterest">Pinterest</a><a target="_new" href="https://plus.google.com/share?url=http://yoongieyoona.tumblr.com/post/94322813707" class="share-google">Google+</a></div>
+                </div>
+              </div>
+            </div><!-- /.meta -->
+          
+
+          
+
+          </div><!-- /.post-panel -->
+          <div class="post-shadow"></div>
+        </article><!-- /.post -->
+      
+        <article id="post-92314668592" class="post
+          
+          
+          type-photoset 
+          
+          
+          
+          
+          
+          
+          tag_yoonsic tag_snsd tag_yoona tag_jessica tag_Fanart tag_f%28x%29 tag_yoonkrys tag_krystal tag_Krystal ">
+
+          
+
+          
+
+          
+
+            
+
+            
+              <div class="photo-slideshow" id="photoset_92314668592" data-layout="11">
+
+                
+                  <div class="photo-data">
+                    <div class="pxu-photo">
+                      <img alt="Yoona SURE Aug 2014
+Jessica Harper&amp;#8217;s Bazaar May 2014
+Krystal High Cut July 2014" src="http://31.media.tumblr.com/e62a262864c1aeb64d09a95686178c0b/tumblr_n903byE4sV1s3v40no1_500.png" data-highres="http://31.media.tumblr.com/e62a262864c1aeb64d09a95686178c0b/tumblr_n903byE4sV1s3v40no1_1280.png" data-width="864" data-height="775" class=""  >
+                    </div>
+                    <div class="icons">
+                      <a class="tumblr-box" rel="post-92314668592" href="http://31.media.tumblr.com/e62a262864c1aeb64d09a95686178c0b/tumblr_n903byE4sV1s3v40no1_1280.png">
+                        <span class="zoom">Zoom</span>
+                      </a>
+                      <span class="info">Info</span>
+                    </div>
+                  </div>
+                
+                  <div class="photo-data">
+                    <div class="pxu-photo">
+                      <img alt="Yoona SURE Aug 2014
+Jessica Harper&amp;#8217;s Bazaar May 2014
+Krystal High Cut July 2014" src="http://33.media.tumblr.com/acd0319754ed20308fa505cd0913e613/tumblr_n903byE4sV1s3v40no2_r3_500.png" data-highres="http://31.media.tumblr.com/acd0319754ed20308fa505cd0913e613/tumblr_n903byE4sV1s3v40no2_r3_1280.png" data-width="822" data-height="718" class=""  >
+                    </div>
+                    <div class="icons">
+                      <a class="tumblr-box" rel="post-92314668592" href="http://31.media.tumblr.com/acd0319754ed20308fa505cd0913e613/tumblr_n903byE4sV1s3v40no2_r3_1280.png">
+                        <span class="zoom">Zoom</span>
+                      </a>
+                      <span class="info">Info</span>
+                    </div>
+                  </div>
+                
+
+              </div><!-- close SLIDESHOW -->
+
+              <div class="post-panel">
+
+                <div class="copy"><p>Yoona SURE Aug 2014</p>
+<p>Jessica Harper&#8217;s Bazaar May 2014</p>
+<p>Krystal High Cut July 2014</p></div>
+            
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+            <div class="meta">
+              <ul class="meta-list">
+
+                
+                  <li class="tags">
+                    <ul class="tag-list">
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoonsic">#yoonsic</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/snsd">#snsd</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoona">#yoona</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/jessica">#jessica</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/Fanart">#Fanart</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/f%28x%29">#f(x)</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoonkrys">#yoonkrys</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/krystal">#krystal</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/Krystal">#Krystal</a></li>
+                      
+                    </ul>
+                  </li>
+                
+
+                
+
+                <li class="date">
+                  <a href="http://yoongieyoona.tumblr.com/post/92314668592/yoona-sure-aug-2014-jessica-harpers-bazaar-may" title="Sun. July 20, 2014 @ 3:55 am">
+                    <span class="icon"></span>2 months ago
+                  </a>
+                  
+                </li>
+
+                <li class="notes"><a href="http://yoongieyoona.tumblr.com/post/92314668592/yoona-sure-aug-2014-jessica-harpers-bazaar-may#notes"><span class="icon"></span>14</a></li>
+
+                
+
+                <li class="permalink"><a href="http://yoongieyoona.tumblr.com/post/92314668592/yoona-sure-aug-2014-jessica-harpers-bazaar-may"><span class="icon"></span>Permalink</a></li>
+
+              </ul><!--/.meta-list -->
+
+              <div class="share">
+                <span class="toggle">Share</span>
+                <div class="widget">
+                  <div class="short-link">
+                    <p>Short URL<br>
+                    <input type="text" readonly="" value="http://tmblr.co/ZojwFt1L_OWum"></p>
+                  </div>
+                  <div class="share-links"><a target="_new" href="https://twitter.com/intent/tweet?url=http://tmblr.co/ZojwFt1L_OWum" class="share-twitter">Twitter</a><a target="_new" href="https://www.facebook.com/sharer.php?u=http://yoongieyoona.tumblr.com/post/92314668592/yoona-sure-aug-2014-jessica-harpers-bazaar-may" class="share-facebook">Facebook</a><a target="_new" href="http://pinterest.com/pin/create/button/?url=http://yoongieyoona.tumblr.com/post/92314668592/yoona-sure-aug-2014-jessica-harpers-bazaar-may&media=" class="share-pinterest">Pinterest</a><a target="_new" href="https://plus.google.com/share?url=http://yoongieyoona.tumblr.com/post/92314668592/yoona-sure-aug-2014-jessica-harpers-bazaar-may" class="share-google">Google+</a></div>
+                </div>
+              </div>
+            </div><!-- /.meta -->
+          
+
+          
+
+          </div><!-- /.post-panel -->
+          <div class="post-shadow"></div>
+        </article><!-- /.post -->
+      
+        <article id="post-88870841557" class="post
+          
+          
+          type-photoset 
+          
+          
+          
+          
+          
+          
+          tag_yoonsic tag_yoonfany tag_snsd tag_poster+fiction ">
+
+          
+
+          
+
+          
+
+            
+
+            
+              <div class="photo-slideshow" id="photoset_88870841557" data-layout="11">
+
+                
+                  <div class="photo-data">
+                    <div class="pxu-photo">
+                      <img alt="Poster for Fiction
+&ldquo;DON&rsquo;T Forget Where You Belong&rdquo;&nbsp;&nbsp;
+&quot;Is love really blind?&quot;" src="http://38.media.tumblr.com/6467d87cf3c19ccd4bf205dcf739d520/tumblr_n7800aO0pu1s3v40no1_r1_500.png" data-highres="http://33.media.tumblr.com/6467d87cf3c19ccd4bf205dcf739d520/tumblr_n7800aO0pu1s3v40no1_r1_1280.png" data-width="600" data-height="780" class=""  >
+                    </div>
+                    <div class="icons">
+                      <a class="tumblr-box" rel="post-88870841557" href="http://33.media.tumblr.com/6467d87cf3c19ccd4bf205dcf739d520/tumblr_n7800aO0pu1s3v40no1_r1_1280.png">
+                        <span class="zoom">Zoom</span>
+                      </a>
+                      <span class="info">Info</span>
+                    </div>
+                  </div>
+                
+                  <div class="photo-data">
+                    <div class="pxu-photo">
+                      <img alt="Poster for Fiction
+&ldquo;DON&rsquo;T Forget Where You Belong&rdquo;&nbsp;&nbsp;
+&quot;Is love really blind?&quot;" src="http://38.media.tumblr.com/0296818a7aaf9552d9fbcb59ea993d37/tumblr_n7800aO0pu1s3v40no2_r2_500.png" data-highres="http://33.media.tumblr.com/0296818a7aaf9552d9fbcb59ea993d37/tumblr_n7800aO0pu1s3v40no2_r2_1280.png" data-width="600" data-height="780" class=""  >
+                    </div>
+                    <div class="icons">
+                      <a class="tumblr-box" rel="post-88870841557" href="http://33.media.tumblr.com/0296818a7aaf9552d9fbcb59ea993d37/tumblr_n7800aO0pu1s3v40no2_r2_1280.png">
+                        <span class="zoom">Zoom</span>
+                      </a>
+                      <span class="info">Info</span>
+                    </div>
+                  </div>
+                
+
+              </div><!-- close SLIDESHOW -->
+
+              <div class="post-panel">
+
+                <div class="copy"><h1>Poster for Fiction</h1>
+<h1><a href="http://www.asianfanfics.com/story/view/758496/don-t-forget-where-you-belong-jessica-yoona-yulsic-yuri-yoonfany-yoonsic" title="DON'T Forget Where You Belong">“DON’T Forget Where You Belong”</a>  </h1>
+<h1><a href="http://www.asianfanfics.com/story/view/767842/is-love-really-blind-jessica-tiffany-yoona-yulsic-yuri-yoonfany-yoonsic" title="Is love really blind?">"Is love really blind?"</a></h1></div>
+            
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+            <div class="meta">
+              <ul class="meta-list">
+
+                
+                  <li class="tags">
+                    <ul class="tag-list">
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoonsic">#yoonsic</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoonfany">#yoonfany</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/snsd">#snsd</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/poster-fiction">#poster fiction</a></li>
+                      
+                    </ul>
+                  </li>
+                
+
+                
+
+                <li class="date">
+                  <a href="http://yoongieyoona.tumblr.com/post/88870841557/poster-for-fiction-dont-forget-where-you" title="Sun. June 15, 2014 @ 1:24 pm">
+                    <span class="icon"></span>3 months ago
+                  </a>
+                  
+                </li>
+
+                <li class="notes"><a href="http://yoongieyoona.tumblr.com/post/88870841557/poster-for-fiction-dont-forget-where-you#notes"><span class="icon"></span>4</a></li>
+
+                
+
+                <li class="permalink"><a href="http://yoongieyoona.tumblr.com/post/88870841557/poster-for-fiction-dont-forget-where-you"><span class="icon"></span>Permalink</a></li>
+
+              </ul><!--/.meta-list -->
+
+              <div class="share">
+                <span class="toggle">Share</span>
+                <div class="widget">
+                  <div class="short-link">
+                    <p>Short URL<br>
+                    <input type="text" readonly="" value="http://tmblr.co/ZojwFt1In7MpL"></p>
+                  </div>
+                  <div class="share-links"><a target="_new" href="https://twitter.com/intent/tweet?url=http://tmblr.co/ZojwFt1In7MpL" class="share-twitter">Twitter</a><a target="_new" href="https://www.facebook.com/sharer.php?u=http://yoongieyoona.tumblr.com/post/88870841557/poster-for-fiction-dont-forget-where-you" class="share-facebook">Facebook</a><a target="_new" href="http://pinterest.com/pin/create/button/?url=http://yoongieyoona.tumblr.com/post/88870841557/poster-for-fiction-dont-forget-where-you&media=" class="share-pinterest">Pinterest</a><a target="_new" href="https://plus.google.com/share?url=http://yoongieyoona.tumblr.com/post/88870841557/poster-for-fiction-dont-forget-where-you" class="share-google">Google+</a></div>
+                </div>
+              </div>
+            </div><!-- /.meta -->
+          
+
+          
+
+          </div><!-- /.post-panel -->
+          <div class="post-shadow"></div>
+        </article><!-- /.post -->
+      
+        <article id="post-87469903267" class="post
+          
+          
+          type-photoset 
+          
+          
+          
+          
+          
+          
+          tag_yoonsic tag_yoona tag_jessica tag_yoonsic+fiction ">
+
+          
+
+          
+
+          
+
+            
+
+            
+              <div class="photo-slideshow" id="photoset_87469903267" data-layout="11">
+
+                
+                  <div class="photo-data">
+                    <div class="pxu-photo">
+                      <img alt="Poster for Fiction &ldquo;The Secret Life of Jessica Jung&rdquo; http://www.asianfanfics.com/story/view/747913
+cr; hf, yoonyulcom" src="http://31.media.tumblr.com/c3867a105263908f444631c03a937a80/tumblr_n6h9dohQKL1s3v40no1_r1_500.png" data-highres="http://33.media.tumblr.com/c3867a105263908f444631c03a937a80/tumblr_n6h9dohQKL1s3v40no1_r1_1280.png" data-width="600" data-height="780" class=""  >
+                    </div>
+                    <div class="icons">
+                      <a class="tumblr-box" rel="post-87469903267" href="http://33.media.tumblr.com/c3867a105263908f444631c03a937a80/tumblr_n6h9dohQKL1s3v40no1_r1_1280.png">
+                        <span class="zoom">Zoom</span>
+                      </a>
+                      <span class="info">Info</span>
+                    </div>
+                  </div>
+                
+                  <div class="photo-data">
+                    <div class="pxu-photo">
+                      <img alt="Poster for Fiction &ldquo;The Secret Life of Jessica Jung&rdquo; http://www.asianfanfics.com/story/view/747913
+cr; hf, yoonyulcom" src="http://33.media.tumblr.com/de176a9359aa81497591acf09117aaad/tumblr_n6h9dohQKL1s3v40no2_r1_500.png" data-highres="http://33.media.tumblr.com/de176a9359aa81497591acf09117aaad/tumblr_n6h9dohQKL1s3v40no2_r1_500.png" data-width="500" data-height="750" class=""  >
+                    </div>
+                    <div class="icons">
+                      <a class="tumblr-box" rel="post-87469903267" href="http://33.media.tumblr.com/de176a9359aa81497591acf09117aaad/tumblr_n6h9dohQKL1s3v40no2_r1_500.png">
+                        <span class="zoom">Zoom</span>
+                      </a>
+                      <span class="info">Info</span>
+                    </div>
+                  </div>
+                
+
+              </div><!-- close SLIDESHOW -->
+
+              <div class="post-panel">
+
+                <div class="copy"><h1>Poster for Fiction “The Secret Life of Jessica Jung” <a href="http://www.asianfanfics.com/story/view/747913">http://www.asianfanfics.com/story/view/747913</a></h1>
+<p>cr; hf, yoonyulcom</p></div>
+            
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+            <div class="meta">
+              <ul class="meta-list">
+
+                
+                  <li class="tags">
+                    <ul class="tag-list">
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoonsic">#yoonsic</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoona">#yoona</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/jessica">#jessica</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoonsic-fiction">#yoonsic fiction</a></li>
+                      
+                    </ul>
+                  </li>
+                
+
+                
+
+                <li class="date">
+                  <a href="http://yoongieyoona.tumblr.com/post/87469903267/poster-for-fiction-the-secret-life-of-jessica" title="Sun. June 1, 2014 @ 2:44 am">
+                    <span class="icon"></span>3 months ago
+                  </a>
+                  
+                </li>
+
+                <li class="notes"><a href="http://yoongieyoona.tumblr.com/post/87469903267/poster-for-fiction-the-secret-life-of-jessica#notes"><span class="icon"></span>13</a></li>
+
+                
+
+                <li class="permalink"><a href="http://yoongieyoona.tumblr.com/post/87469903267/poster-for-fiction-the-secret-life-of-jessica"><span class="icon"></span>Permalink</a></li>
+
+              </ul><!--/.meta-list -->
+
+              <div class="share">
+                <span class="toggle">Share</span>
+                <div class="widget">
+                  <div class="short-link">
+                    <p>Short URL<br>
+                    <input type="text" readonly="" value="http://tmblr.co/ZojwFt1HTdCsZ"></p>
+                  </div>
+                  <div class="share-links"><a target="_new" href="https://twitter.com/intent/tweet?url=http://tmblr.co/ZojwFt1HTdCsZ" class="share-twitter">Twitter</a><a target="_new" href="https://www.facebook.com/sharer.php?u=http://yoongieyoona.tumblr.com/post/87469903267/poster-for-fiction-the-secret-life-of-jessica" class="share-facebook">Facebook</a><a target="_new" href="http://pinterest.com/pin/create/button/?url=http://yoongieyoona.tumblr.com/post/87469903267/poster-for-fiction-the-secret-life-of-jessica&media=" class="share-pinterest">Pinterest</a><a target="_new" href="https://plus.google.com/share?url=http://yoongieyoona.tumblr.com/post/87469903267/poster-for-fiction-the-secret-life-of-jessica" class="share-google">Google+</a></div>
+                </div>
+              </div>
+            </div><!-- /.meta -->
+          
+
+          
+
+          </div><!-- /.post-panel -->
+          <div class="post-shadow"></div>
+        </article><!-- /.post -->
+      
+        <article id="post-86509635672" class="post
+          
+          type-photo 
+          
+          
+          
+          
+          
+          
+          
+          tag_yoona tag_snsd tag_fanart ">
+
+          
+
+          
+            <div class="post-panel">
+              <div class="media">
+                <div class="photo-panel">
+
+                  
+                    <a href="http://yoongieyoona.tumblr.com/image/86509635672"><img src="http://38.media.tumblr.com/c6882f980821601de82e575fb542afc4/tumblr_n5zgkuNnPK1s3v40no1_500.jpg" alt="Digital drawing on ipad"/></a>
+                  
+
+                  
+
+                  <div class="photo-btns">
+                                        
+                      <a class="lightbox" href="http://38.media.tumblr.com/c6882f980821601de82e575fb542afc4/tumblr_n5zgkuNnPK1s3v40no1_1280.jpg">Pop-up</a>
+                    
+                    <a class="photo-url" href="http://38.media.tumblr.com/c6882f980821601de82e575fb542afc4/tumblr_n5zgkuNnPK1s3v40no1_1280.jpg">View Separately</a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="copy"><p>Digital drawing on ipad</p></div>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+            <div class="meta">
+              <ul class="meta-list">
+
+                
+                  <li class="tags">
+                    <ul class="tag-list">
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoona">#yoona</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/snsd">#snsd</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/fanart">#fanart</a></li>
+                      
+                    </ul>
+                  </li>
+                
+
+                
+
+                <li class="date">
+                  <a href="http://yoongieyoona.tumblr.com/post/86509635672/digital-drawing-on-ipad" title="Thu. May 22, 2014 @ 12:02 pm">
+                    <span class="icon"></span>4 months ago
+                  </a>
+                  
+                </li>
+
+                <li class="notes"><a href="http://yoongieyoona.tumblr.com/post/86509635672/digital-drawing-on-ipad#notes"><span class="icon"></span>6</a></li>
+
+                
+
+                <li class="permalink"><a href="http://yoongieyoona.tumblr.com/post/86509635672/digital-drawing-on-ipad"><span class="icon"></span>Permalink</a></li>
+
+              </ul><!--/.meta-list -->
+
+              <div class="share">
+                <span class="toggle">Share</span>
+                <div class="widget">
+                  <div class="short-link">
+                    <p>Short URL<br>
+                    <input type="text" readonly="" value="http://tmblr.co/ZojwFt1GaO4XO"></p>
+                  </div>
+                  <div class="share-links"><a target="_new" href="https://twitter.com/intent/tweet?url=http://tmblr.co/ZojwFt1GaO4XO" class="share-twitter">Twitter</a><a target="_new" href="https://www.facebook.com/sharer.php?u=http://yoongieyoona.tumblr.com/post/86509635672/digital-drawing-on-ipad" class="share-facebook">Facebook</a><a target="_new" href="http://pinterest.com/pin/create/button/?url=http://yoongieyoona.tumblr.com/post/86509635672/digital-drawing-on-ipad&media=" class="share-pinterest">Pinterest</a><a target="_new" href="https://plus.google.com/share?url=http://yoongieyoona.tumblr.com/post/86509635672/digital-drawing-on-ipad" class="share-google">Google+</a></div>
+                </div>
+              </div>
+            </div><!-- /.meta -->
+          
+
+          
+
+          </div><!-- /.post-panel -->
+          <div class="post-shadow"></div>
+        </article><!-- /.post -->
+      
+        <article id="post-83421312778" class="post
+          
+          type-photo 
+          
+          
+          
+          
+          
+          
+          
+          tag_yoonsic tag_yoona tag_jessica tag_snsd ">
+
+          
+
+          
+            <div class="post-panel">
+              <div class="media">
+                <div class="photo-panel">
+
+                  
+                    <a href="http://yoongieyoona.tumblr.com/image/83421312778"><img src="http://33.media.tumblr.com/e1ae616cae43d052f7271da16cc2e8e8/tumblr_n4e2wus7we1s3v40no1_r2_500.png" alt=""/></a>
+                  
+
+                  
+
+                  <div class="photo-btns">
+                                        
+                      <a class="lightbox" href="http://38.media.tumblr.com/e1ae616cae43d052f7271da16cc2e8e8/tumblr_n4e2wus7we1s3v40no1_r2_1280.png">Pop-up</a>
+                    
+                    <a class="photo-url" href="http://38.media.tumblr.com/e1ae616cae43d052f7271da16cc2e8e8/tumblr_n4e2wus7we1s3v40no1_r2_1280.png">View Separately</a>
+                  </div>
+
+                </div>
+              </div>
+              
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+            <div class="meta">
+              <ul class="meta-list">
+
+                
+                  <li class="tags">
+                    <ul class="tag-list">
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoonsic">#yoonsic</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/yoona">#yoona</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/jessica">#jessica</a></li>
+                      
+                        <li><a href="http://yoongieyoona.tumblr.com/tagged/snsd">#snsd</a></li>
+                      
+                    </ul>
+                  </li>
+                
+
+                
+
+                <li class="date">
+                  <a href="http://yoongieyoona.tumblr.com/post/83421312778" title="Mon. April 21, 2014 @ 12:24 pm">
+                    <span class="icon"></span>5 months ago
+                  </a>
+                  
+                </li>
+
+                <li class="notes"><a href="http://yoongieyoona.tumblr.com/post/83421312778#notes"><span class="icon"></span>8</a></li>
+
+                
+
+                <li class="permalink"><a href="http://yoongieyoona.tumblr.com/post/83421312778"><span class="icon"></span>Permalink</a></li>
+
+              </ul><!--/.meta-list -->
+
+              <div class="share">
+                <span class="toggle">Share</span>
+                <div class="widget">
+                  <div class="short-link">
+                    <p>Short URL<br>
+                    <input type="text" readonly="" value="http://tmblr.co/ZojwFt1DiJ3SA"></p>
+                  </div>
+                  <div class="share-links"><a target="_new" href="https://twitter.com/intent/tweet?url=http://tmblr.co/ZojwFt1DiJ3SA" class="share-twitter">Twitter</a><a target="_new" href="https://www.facebook.com/sharer.php?u=http://yoongieyoona.tumblr.com/post/83421312778" class="share-facebook">Facebook</a><a target="_new" href="http://pinterest.com/pin/create/button/?url=http://yoongieyoona.tumblr.com/post/83421312778&media=" class="share-pinterest">Pinterest</a><a target="_new" href="https://plus.google.com/share?url=http://yoongieyoona.tumblr.com/post/83421312778" class="share-google">Google+</a></div>
+                </div>
+              </div>
+            </div><!-- /.meta -->
+          
+
+          
+
+          </div><!-- /.post-panel -->
+          <div class="post-shadow"></div>
+        </article><!-- /.post -->
+      
+      <!-- END POSTS -->
+
+      
+
+      
+        <div id="pagination">
+          <div class="current-page">Page 1 <em>of</em> 9</div>
+          <div class="nextprev">
+            <span>&larr; Newer</span> <span class="sep">&bull;</span>
+            <a class="next" href="/page/2"><span>Older &rarr;</span></a>
+          </div>
+        </div><!--/#pagination -->
+      
+
+      
+
+    </div><!-- /#content -->
+
+    <!-- SIDEBAR -->
+      <div id="sidebar">
+        <div id="blog-info" class="side-box">
+          
+            
+          
+
+          
+
+          
+
+          
+            <div class="description">
+              <h2>About</h2>
+              <img class="portrait" src="http://38.media.tumblr.com/avatar_4a2bdfa6101c_64.png" alt="Avatar"/>
+              <p>YoonSicretives</p>
+            </div><!--/.description-->
+          
+        </div><!--/#blog-info -->
+
+        
+
+        
+          
+        
+
+        
+
+        <div id="tabs">
+          <div id="tabs-nav">
+            <h2><span id="tab-twitter" class="active">Twitter</span></h2>
+            
+          </div>
+
+          
+            
+              <div id="twitter" class="side-box tab">
+                <p class="loading-text">loading tweets&hellip;</p>
+              </div>
+            
+          
+
+          
+        </div><!-- close TABS -->
+
+        
+
+        
+          
+            <div id="followed" class="side-box ruled-top">
+              <h2>Following</h2>
+              <div id="followed-wrap">
+                <ul id="followed-list">
+                  <li><a href="http://holgacity.tumblr.com/" title="holgacity"><img src="http://31.media.tumblr.com/avatar_1b085fecbbd5_24.png"></a><span>holgacity</span></li><li><a href="http://mystarmyangel.tumblr.com/" title="mystarmyangel"><img src="http://38.media.tumblr.com/avatar_09b385a1e9de_24.png"></a><span>mystarmyangel</span></li><li><a href="http://ggoh.tumblr.com/" title="ggoh"><img src="http://38.media.tumblr.com/avatar_1a3552fbe6fe_24.png"></a><span>ggoh</span></li><li><a href="http://kwangjess.tumblr.com/" title="kwangjess"><img src="http://33.media.tumblr.com/avatar_d5835d32de57_24.png"></a><span>kwangjess</span></li><li><a href="http://yoonaddict.com/" title="yoonaddictcom"><img src="http://38.media.tumblr.com/avatar_23a858a16811_24.png"></a><span>yoonaddictcom</span></li><li><a href="http://ipatte.tumblr.com/" title="ipatte"><img src="http://38.media.tumblr.com/avatar_8c12ece01fb5_24.png"></a><span>ipatte</span></li><li><a href="http://3justlove3.tumblr.com/" title="3justlove3"><img src="http://33.media.tumblr.com/avatar_8b0fe9466f53_24.png"></a><span>3justlove3</span></li><li><a href="http://imnatonly.tumblr.com/" title="imnatonly"><img src="http://31.media.tumblr.com/avatar_3f6ffb4db981_24.png"></a><span>imnatonly</span></li><li><a href="http://fogerbear.tumblr.com/" title="fogerbear"><img src="http://31.media.tumblr.com/avatar_612c2710f497_24.png"></a><span>fogerbear</span></li><li><a href="http://soshi-lolz.tumblr.com/" title="soshi-lolz"><img src="http://33.media.tumblr.com/avatar_695a27055e58_24.png"></a><span>soshi-lolz</span></li><li><a href="http://hyosicaofficial.tumblr.com/" title="hyosicaofficial"><img src="http://33.media.tumblr.com/avatar_9d255b2c4db2_24.png"></a><span>hyosicaofficial</span></li><li><a href="http://yoonsicfied.tumblr.com/" title="yoonsicfied"><img src="http://38.media.tumblr.com/avatar_a173e74f3c72_24.png"></a><span>yoonsicfied</span></li><li><a href="http://shimwave.tumblr.com/" title="shimwave"><img src="http://33.media.tumblr.com/avatar_27cecfc362c8_24.png"></a><span>shimwave</span></li><li><a href="http://yoonny.tumblr.com/" title="yoonny"><img src="http://33.media.tumblr.com/avatar_e4f2e4e6a55a_24.png"></a><span>yoonny</span></li><li><a href="http://yoonsic.tumblr.com/" title="yoonsic"><img src="http://33.media.tumblr.com/avatar_56b6b0968bc9_24.png"></a><span>yoonsic</span></li>
+                </ul>
+              </div>
+            </div><!-- close FOLLOWING -->
+          
+        
+
+        
+
+      </div><!-- /#sidebar -->
+    
+
+    
+      <div id="back-to-top"><span class="icon"></span> <p>Top</p></div>
+    
+
+    <div id="footer">
+      
+
+      <div id="footer-end" class="ruled-top">
+        <div class="footer-copy">
+          <ul id="footer-links">
+            <li><a href="/rss">RSS</a></li>
+            <li><a href="/random">Random</a></li>
+            <li><a href="/archive">Archive</a></li>
+            <li><a href="/ask">Ask me anything</a></li>
+            
+            <li><a href="/mobile">Mobile</a></li>
+          </ul>
+          
+        </div>
+        <div class="pixel-union"><a href="http://www.tumblr.com/theme/17403"><strong>Effector Theme</strong></a> &mdash; <a href="https://www.pixelunion.net/?utm_source=tumblr&utm_medium=link&utm_term=tumblr%20themes&utm_campaign=sdoppler">Tumblr themes</a> by <span class="logo">Pixel Union</span></div>
+      </div><!-- /#footer-end -->
+    </div><!-- /#footer -->
+  </div><!-- /#page -->
+
+  <!-- Footer Scripts -->
+
+  <script>
+    function recent_tweets(data){window.tweet_data=data;}
+  </script>
+
+  <script src="/tweets.js"></script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+  <script>window.jQuery || document.write('<script src="http://static.tumblr.com/hugxd2w/s4om61ic8/jquery-1.7.2.min.js"><\/script>')</script>
+
+  
+    <script src="http://static.tumblr.com/hugxd2w/ATsmz3ynm/script.js" type="text/javascript"></script>
+  
+
+  <script src="http://platform.twitter.com/widgets.js"></script>
+
+  <script src="https://apis.google.com/js/plusone.js" type="text/javascript"></script>
+
+  
+
+  
+
+    <script>
+    var themeTitle = "Effector Theme";
+    var url = "http://effectortheme.tumblr.com/";
+    (function() {
+        var pxu = document.createElement('script'); pxu.type = 'text/javascript'; pxu.async = true; pxu.src = 'http://cdn.pixelunion.net/customize/pxucm.js';
+        var isCustomize = (window.location.href.indexOf('/customize_preview_receiver.html') >= 0);
+        var isDemo = (window.location.href.indexOf(url) >= 0);
+        (isCustomize || isDemo) && ((document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(pxu));
+    })();
+    </script>
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://yoongieyoona.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847648&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wveW9vbmdpZXlvb25hLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=DOPNCKPBBE&K=d290b421c7815f7754f97bad5938ee19d1dfee3b331bf373dbb0d7a58278dc85&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847648&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wveW9vbmdpZXlvb25hLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=DOPNCKPBBE&K=c227f006acb67c2b0b30566f61de4070e6c277bba74cd3827bebb27778b750d1&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411847648&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3lvb25naWV5b29uYS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6Ijk4MTg4MDQwOTQ3IiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2NzY4NTMzMDU3IiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2NzIwMzkwNDcyIiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk1MzI3Mjk0MDY3IiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk0MzIyODEzNzA3IiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjkyMzE0NjY4NTkyIiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijg4ODcwODQxNTU3IiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijg3NDY5OTAzMjY3IiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijg2NTA5NjM1NjcyIiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjgzNDIxMzEyNzc4IiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfV19&U=GCCCBFHAOD&K=32402ddca1d2ecf1fb1823481018bdd529026e33019ccf1ddafd3e98af895f06&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411847648&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3lvb25naWV5b29uYS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6Ijk4MTg4MDQwOTQ3IiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2NzY4NTMzMDU3IiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2NzIwMzkwNDcyIiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk1MzI3Mjk0MDY3IiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk0MzIyODEzNzA3IiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjkyMzE0NjY4NTkyIiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijg4ODcwODQxNTU3IiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijg3NDY5OTAzMjY3IiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijg2NTA5NjM1NjcyIiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjgzNDIxMzEyNzc4IiwiYmxvZ2lkIjoiODk2NTg4MjYiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=GCCCBFHAOD&K=f6592a5ea00a3a32ff1d28ffa54df145c8a405c17d4c50bf70c0179acd5922ab&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:89658826,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2Fyoongieyoona.tumblr.com%2F&amp;lang=en_US&amp;name=yoongieyoona&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_4a2bdfa6101c_64.png&amp;title=YoongieYoonA&amp;url=http%3A%2F%2Fyoongieyoona.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2Fyoongieyoona.tumblr.com%2F&amp;lang=en_US&amp;name=yoongieyoona&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_4a2bdfa6101c_64.png&amp;title=YoongieYoonA&amp;url=http%3A%2F%2Fyoongieyoona.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

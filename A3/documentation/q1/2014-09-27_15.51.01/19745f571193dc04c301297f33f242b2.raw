@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>Zelda Universe | The Legend of Zelda fan community, news, and walkthroughs</title>
+	<link rel="stylesheet" type="text/css" href="http://www.zeldauniverse.net/wp-content/themes/temple3/styles/styles.css" />
+			<link rel="stylesheet" type="text/css" href="http://www.zeldauniverse.net/wp-content/themes/temple3/styles/frontpage.css" />
+		<link rel="stylesheet" type="text/css" href="http://www.zeldauniverse.net/wp-content/themes/temple3/fonts/font-awesome/css/font-awesome.min.css" />
+	<script type="text/javascript" src="http://www.zeldauniverse.net/wp-content/themes/temple3/scripts/html5shiv.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript">var ajaxurl = "http://www.zeldauniverse.net/wp-admin/admin-ajax.php";</script>
+	<script type="text/javascript" src="http://www.zeldauniverse.net/wp-content/themes/temple3/scripts/scalefont.js"></script>
+	<script type="text/javascript" src="http://www.zeldauniverse.net/wp-content/themes/temple3/scripts/modernizr.js"></script>
+	<script type="text/javascript" src="http://www.zeldauniverse.net/wp-content/themes/temple3/scripts/headerscripts.js"></script>
+	<link rel='stylesheet' id='mediaelement-css'  href='http://www.zeldauniverse.net/wp-includes/js/mediaelement/mediaelementplayer.min.css?ver=2.15.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://www.zeldauniverse.net/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-subscriptions-css'  href='http://www.zeldauniverse.net/wp-content/plugins/jetpack/modules/subscriptions/subscriptions.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-widgets-css'  href='http://www.zeldauniverse.net/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.zeldauniverse.net/wp-content/plugins/powerpress/player.min.js?ver=4.0'></script>
+<script type='text/javascript' src='http://www.zeldauniverse.net/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://www.zeldauniverse.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.zeldauniverse.net/wp-content/plugins/powerpress/powerpress-mejs.js?ver=4.0'></script>
+<script type='text/javascript' src='http://www.zeldauniverse.net/wp-content/plugins/t3-frontpage/parts/frontpageplugins.js?ver=4.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.zeldauniverse.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.zeldauniverse.net/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.0" />
+<link rel='shortlink' href='http://wp.me/o8S0' />
+<script type="text/javascript"><!--
+function powerpress_pinw(pinw){window.open('http://www.zeldauniverse.net/?powerpress_pinw='+pinw, 'PowerPressPlayer','toolbar=0,status=0,resizable=1,width=460,height=320');	return false;}
+powerpress_url = 'http://www.zeldauniverse.net/wp-content/plugins/powerpress/';
+//-->
+</script>
+
+<!-- All in One SEO Pack 2.2.3 by Michael Torbert of Semper Fi Web Design[57,64] -->
+<meta name="description"  content="Zelda Universe is the world&#039;s largest The Legend of Zelda fan community. We&#039;ve also got news, walkthroughs, and guides, for all the Zelda info you" />
+
+<meta name="keywords"  content="zelda, the legend of zelda, nintendo, gaming, wii u,  3ds, hyrule warriors, a link between worlds, skyward sword, ocarina of time, twilight princess, majora&#039;s mask, walkthrough, zelda walkthrough, zreo, zelda reorchestrated, zelda guide, game guide, guides, wind waker, wind waker walkthrough, wind waker guide, a link between worlds walkthrough, a link between worlds guide, zelda universe" />
+<link rel='next' href='http://www.zeldauniverse.net/page/2/' />
+
+<link rel="canonical" href="http://www.zeldauniverse.net/" />
+			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-317947-10');
+			
+			ga('send', 'pageview');
+			</script>
+		<script type="text/javascript">
+		function recordOutboundLink(link, category, action) {
+					ga('send', 'event', category, action);
+					if ( link.target == '_blank' ) return true;
+			setTimeout('document.location = "' + link.href + '"', 100);
+			return false;
+		}
+			/* use regular Javascript for this */
+			function getAttr(ele, attr) {
+				var result = (ele.getAttribute && ele.getAttribute(attr)) || null;
+				if( !result ) {
+					var attrs = ele.attributes;
+					var length = attrs.length;
+					for(var i = 0; i < length; i++)
+					if(attr[i].nodeName === attr) result = attr[i].nodeValue;
+				}
+				return result;
+			}
+			function aiosp_addLoadEvent(func) {
+			  var oldonload = window.onload;
+			  if (typeof window.onload != 'function') {
+			    window.onload = func;
+			  } else {
+			    window.onload = function() {
+			      if (oldonload) {
+			        oldonload();
+			      }
+			      func();
+			    }
+			  }
+			}
+			
+			function aiosp_addEvent(element, evnt, funct){
+			  if (element.attachEvent)
+			   return element.attachEvent('on'+evnt, funct);
+			  else
+			   return element.addEventListener(evnt, funct, false);
+			}
+
+			aiosp_addLoadEvent(function () {
+				var links = document.getElementsByTagName('a');
+				for (var x=0; x < links.length; x++) {
+					if (typeof links[x] == 'undefined') continue;
+					aiosp_addEvent( links[x], 'onclick', function () {
+						var mydomain = new RegExp(document.domain, 'i');
+						href = getAttr(this, 'href');
+						if (href && href.toLowerCase().indexOf('http') === 0 && !mydomain.test(href)) {
+							recordOutboundLink(this, 'Outbound Links', href);
+						}
+					});
+				}
+			});
+		</script>
+<!-- /all in one seo pack -->
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Zelda Universe" />
+<meta property="og:description" content="The Legend of Zelda fan community, news, and walkthroughs." />
+<meta property="og:url" content="http://www.zeldauniverse.net/" />
+<meta property="og:site_name" content="Zelda Universe" />
+<meta property="og:image" content="http://wordpress.com/i/blank.jpg" />
+<meta name="twitter:site" content="@ZeldaUniverse" />
+</head>
+<body>
+	<div id="layout-wrap">
+		<header>
+			<a id="logo" href="http://www.zeldauniverse.net"></a>
+			<div id="media">Media <i class="fa fa-caret-down"></i></div>
+			<a id="forums" href="/forums">Forums</a>
+			<div id="gamesbutton">Walkthroughs and Guides &nbsp;<i class="fa fa-caret-down"></i></div>
+		</header>
+		<div id="content-wrap">
+			<div id="games">
+				<div id="games-content">
+			    	<div id="games-list">
+			
+		<input type="hidden" id="firstGuideToLoad" value="61398">
+		<div class="games-list-item games-list-item-selected" data-gameid="61398" onClick="zug_gamesmenuGameShow(61398,this)">
+		<img src="http://www.zeldauniverse.net/wp-content/uploads/2014/06/wiiu.png" class="games-list-icon" alt="icon">
+		<div class="title">
+			Zelda Wii U		</div>
+	</div>
+		<div class="games-list-item " data-gameid="57137" onClick="zug_gamesmenuGameShow(57137,this)">
+		<img src="http://www.zeldauniverse.net/wp-content/uploads/2013/09/albw.png" class="games-list-icon" alt="icon">
+		<div class="title">
+			A Link Between Worlds		</div>
+	</div>
+		<div class="games-list-item " data-gameid="52337" onClick="zug_gamesmenuGameShow(52337,this)">
+		<img src="http://www.zeldauniverse.net/wp-content/uploads/2013/09/tww.png" class="games-list-icon" alt="icon">
+		<div class="title">
+			The Wind Waker		</div>
+	</div>
+		<div class="games-list-item " data-gameid="57140" onClick="zug_gamesmenuGameShow(57140,this)">
+		<img src="http://www.zeldauniverse.net/wp-content/uploads/2013/09/ooa.png" class="games-list-icon" alt="icon">
+		<div class="title">
+			Oracle of Ages		</div>
+	</div>
+		<div class="games-list-item " data-gameid="57139" onClick="zug_gamesmenuGameShow(57139,this)">
+		<img src="http://www.zeldauniverse.net/wp-content/uploads/2013/09/oos.png" class="games-list-icon" alt="icon">
+		<div class="title">
+			Oracle of Seasons		</div>
+	</div>
+		<div class="games-list-item " data-gameid="57145" onClick="zug_gamesmenuGameShow(57145,this)">
+		<img src="http://www.zeldauniverse.net/wp-content/uploads/2013/09/ss.png" class="games-list-icon" alt="icon">
+		<div class="title">
+			Skyward Sword		</div>
+	</div>
+		<div class="games-list-item " data-gameid="57136" onClick="zug_gamesmenuGameShow(57136,this)">
+		<img src="http://www.zeldauniverse.net/wp-content/uploads/2013/09/oot.png" class="games-list-icon" alt="icon">
+		<div class="title">
+			Ocarina of Time		</div>
+	</div>
+		<div class="games-list-item " data-gameid="57144" onClick="zug_gamesmenuGameShow(57144,this)">
+		<img src="http://www.zeldauniverse.net/wp-content/uploads/2013/09/st.png" class="games-list-icon" alt="icon">
+		<div class="title">
+			Spirit Tracks		</div>
+	</div>
+		<div class="games-list-item " data-gameid="57142" onClick="zug_gamesmenuGameShow(57142,this)">
+		<img src="http://www.zeldauniverse.net/wp-content/uploads/2013/09/ph.png" class="games-list-icon" alt="icon">
+		<div class="title">
+			Phantom Hourglass		</div>
+	</div>
+		<div class="games-list-item " data-gameid="52339" onClick="zug_gamesmenuGameShow(52339,this)">
+		<img src="http://www.zeldauniverse.net/wp-content/uploads/2013/09/tp.png" class="games-list-icon" alt="icon">
+		<div class="title">
+			Twilight Princess		</div>
+	</div>
+		<div class="games-list-item " data-gameid="57143" onClick="zug_gamesmenuGameShow(57143,this)">
+		<img src="http://www.zeldauniverse.net/wp-content/uploads/2013/09/tmc.png" class="games-list-icon" alt="icon">
+		<div class="title">
+			The Minish Cap		</div>
+	</div>
+		<div class="games-list-item " data-gameid="52338" onClick="zug_gamesmenuGameShow(52338,this)">
+		<img src="http://www.zeldauniverse.net/wp-content/uploads/2013/09/fsa.png" class="games-list-icon" alt="icon">
+		<div class="title">
+			Four Swords Adventures		</div>
+	</div>
+		<div class="games-list-item " data-gameid="57141" onClick="zug_gamesmenuGameShow(57141,this)">
+		<img src="http://www.zeldauniverse.net/wp-content/uploads/2013/09/fs.png" class="games-list-icon" alt="icon">
+		<div class="title">
+			Four Swords		</div>
+	</div>
+		<div class="games-list-item " data-gameid="57138" onClick="zug_gamesmenuGameShow(57138,this)">
+		<img src="http://www.zeldauniverse.net/wp-content/uploads/2013/09/mm.png" class="games-list-icon" alt="icon">
+		<div class="title">
+			Majora's Mask		</div>
+	</div>
+		<div class="games-list-item " data-gameid="57135" onClick="zug_gamesmenuGameShow(57135,this)">
+		<img src="http://www.zeldauniverse.net/wp-content/uploads/2013/09/la.png" class="games-list-icon" alt="icon">
+		<div class="title">
+			Link's Awakening		</div>
+	</div>
+		<div class="games-list-item " data-gameid="57134" onClick="zug_gamesmenuGameShow(57134,this)">
+		<img src="http://www.zeldauniverse.net/wp-content/uploads/2013/09/alttp.png" class="games-list-icon" alt="icon">
+		<div class="title">
+			A Link to the Past		</div>
+	</div>
+		<div class="games-list-item " data-gameid="56040" onClick="zug_gamesmenuGameShow(56040,this)">
+		<img src="http://www.zeldauniverse.net/wp-content/uploads/2013/09/taol1.png" class="games-list-icon" alt="icon">
+		<div class="title">
+			The Adventure of Link		</div>
+	</div>
+		<div class="games-list-item " data-gameid="57133" onClick="zug_gamesmenuGameShow(57133,this)">
+		<img src="http://www.zeldauniverse.net/wp-content/uploads/2013/09/tloz1.png" class="games-list-icon" alt="icon">
+		<div class="title">
+			The Legend of Zelda		</div>
+	</div>
+	</div>
+<div id="games-overviews">
+    <div class="game-overview game-61398">
+        	<div class="games-menu-masthead" style="background:url('http://www.zeldauniverse.net/wp-content/uploads/2014/06/Zelda-WiiU-Overworld.png') no-repeat;">
+        <div class="title">
+            The Legend of Zelda:<br />Zelda Wii U        </div>
+    </div>
+	
+	<div class="guide-type">Walkthrough</div>	        	<a class="chapter-box" href="http://www.zeldauniverse.net/guides/zelda-wii-u/walkthrough/overview/">
+	                <div class="black"></div>
+	                <div class="guide-title">
+	                    Overview	                </div>
+	            </a>			
+	    </div>
+</div>
+<div class="game-overview gamesloading">
+    <i class="fa fa-spinner fa-spin"></i>
+</div>
+<div class="clear"></div>			    </div>
+            </div>
+            <div id="mediaMenu">
+                <ul id="media-list">
+                    <li>
+                        <a href="http://www.zeldauniverse.net/media/music">
+                            <i class="fa fa-headphones"></i>
+                            Music
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.zeldauniverse.net/media/wallpapers">
+                            <i class="fa fa-picture-o"></i>
+                            Wallpapers
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.zeldauniverse.net/media/fonts">
+                            <i class="fa fa-font"></i>
+                            Fonts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.youtube.com/user/ZeldaUniverseTV">
+                            <i class="fa fa-youtube-play"></i>
+                            Videos
+                        </a>
+                    </li>
+                </ul>
+            </div>   
+			<div id="content">
+				<div id="content-tile"></div>
+				<div id="content-top"></div>
+				<div id="content-text">
+<!-- Now that we have all of our boxes and widgets set up, let's render the front page. -->
+<input type="hidden" id="fetchedpostsoffset" value="20" />
+<div style="position:relative;height:5535px">
+		<div class="youtubewidget" style="
+		width: calc(885px - 20px);
+		height: 385px;
+		top: 605px;
+		left: 0px;
+	">
+		<script>
+			jQuery(document).ready(function() {
+				t3f_loadYouTubeWidget();
+			});
+		</script>
+		<div class="loadingbox"></div>
+	</div>
+	<div class="postbox twitterwidget" style="
+		width: 440px;
+		height: 385px;
+		top: 2230px;
+		left: 445px;
+		position: absolute;
+	">
+		<a class="twitter-timeline" height="377" href="https://twitter.com/ZeldaUniverse" data-chrome="transparent" data-widget-id="386479127944904705">Tweets by @ZeldaUniverse</a>
+    	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+   <iframe class="facebookwidget" src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FZeldaUniverse&amp;width&amp;height=385&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false"  
+		style="
+			width: 445px;
+			height: 385px;
+			top: 2230px;
+			left: 0px;
+			"></iframe>
+		<div style="
+	    position: absolute;
+		width: 885px;
+		height: 140px;
+		top: 0px;
+		left: 0px;
+	">
+		<div class="ad-top">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ZU Main Site - Top of Front Page -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-7269573247649351"
+     data-ad-slot="6177398733"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>	</div> 
+		<div style="
+	    position: absolute;
+		width: 295px;
+		height: 640px;
+		top: 990px;
+		left: 590px;
+	">
+		<div class="postbox" style="width:100%;height:100%;padding:0;">
+<div style="background:rgba(0,0,0,.2);width:160px;height:600px;margin: 20px auto;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ZU Main Site - Side of Front Page -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-7269573247649351"
+     data-ad-slot="7514531131"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>	</div> 
+			<div class="topstory topstory-t3img" style="
+			width: 885px;
+			height: 255px;
+			top: 135px;
+			left: 0px;
+			background: url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/hw-review-000.jpg');
+        ">
+			<a class="info" href="http://www.zeldauniverse.net/features/the-verdict-on-zeldas-first-crossover-zelda-universe-reviews-hyrule-warriors-spoiler-free/">
+				<div class="title">
+				    Hyrule Warriors review: The verdict on Zelda's first crossover				</div>
+				<div class="commentsbit">
+					8 <i class="fa fa-comments"></i>
+				</div>
+			</a>
+		</div>
+		
+		<div class="topstory topstory-t3img" style="
+			width: 295px;
+			height: 215px;
+			top: 390px;
+			left: 0px;
+			background: url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/BxWXi4QIIAAt1Wr.png');
+        ">
+			<a class="info" href="http://www.zeldauniverse.net/2014/09/13/super-smash-bros-demo-comes-to-europe-and-america/">
+				<div class="title">
+				    Super Smash Bros. 3DS demo comes to Europe and America				</div>
+				<div class="commentsbit">
+					23 <i class="fa fa-comments"></i>
+				</div>
+			</a>
+		</div>
+		
+		<div class="topstory topstory-t3img" style="
+			width: 445px;
+			height: 150px;
+			top: 4115px;
+			left: 440px;
+			background: url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/woodland-warrior.jpg');
+        ">
+			<a class="info" href="http://www.zeldauniverse.net/2014/09/22/dress-up-this-halloween-as-hyrules-knock-off-hero-woodland-warrior/">
+				<div class="title">
+				    Dress up this Halloween as Hyrule's knock-off hero, "Woodland Warrior" 				</div>
+				<div class="commentsbit">
+					10 <i class="fa fa-comments"></i>
+				</div>
+			</a>
+		</div>
+		
+		<div class="topstory topstory-t3img" style="
+			width: 445px;
+			height: 150px;
+			top: 4265px;
+			left: 440px;
+			background: url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/majora-mask-kickstarter.jpg');
+        ">
+			<a class="info" href="http://www.zeldauniverse.net/2014/09/21/kickstarter-strives-to-raise-money-to-create-all-the-masks-from-majoras-mask/">
+				<div class="title">
+				    Kickstarter strives to raise money to create all the masks from Majora's Mask				</div>
+				<div class="commentsbit">
+					8 <i class="fa fa-comments"></i>
+				</div>
+			</a>
+		</div>
+		
+		<div class="topstory topstory-t3img" style="
+			width: 440px;
+			height: 150px;
+			top: 4115px;
+			left: 0px;
+			background: url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/yosuke-hayashi.jpg');
+        ">
+			<a class="info" href="http://www.zeldauniverse.net/2014/09/24/hyrule-warriors-dev-on-miyamotos-disapproval-hopes-to-work-on-other-nintendo-ip/">
+				<div class="title">
+				    Hyrule Warriors dev on Miyamoto's disapproval, hopes to work on other Nintendo IPs				</div>
+				<div class="commentsbit">
+					7 <i class="fa fa-comments"></i>
+				</div>
+			</a>
+		</div>
+		
+		<div class="topstory topstory-t3img" style="
+			width: 440px;
+			height: 150px;
+			top: 4265px;
+			left: 0px;
+			background: url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/u08.jpg');
+        ">
+			<a class="info" href="http://www.zeldauniverse.net/2014/09/24/link-rides-epona-onto-the-universidad-autonoma-de-nuevo-leon-campus/">
+				<div class="title">
+				    Link rides Epona onto the Universidad Autonoma de Nuevo Leon campus				</div>
+				<div class="commentsbit">
+					3 <i class="fa fa-comments"></i>
+				</div>
+			</a>
+		</div>
+		
+		<div class="topstory topstory-t3img" style="
+			width: 295px;
+			height: 215px;
+			top: 390px;
+			left: 295px;
+			background: url('http://www.zeldauniverse.net/wp-content/uploads/2012/04/Zelda-Harp.jpg');
+        ">
+			<a class="info" href="http://www.zeldauniverse.net/2014/09/25/norwegian-folk-harpist-channels-her-inner-zelda-with-her-ballad-of-the-goddess-cover/">
+				<div class="title">
+				    Norwegian folk harpist channels her inner Zelda with her Ballad of the Goddess cover				</div>
+				<div class="commentsbit">
+					7 <i class="fa fa-comments"></i>
+				</div>
+			</a>
+		</div>
+		
+		<div class="topstory topstory-t3img" style="
+			width: 295px;
+			height: 215px;
+			top: 390px;
+			left: 590px;
+			background: url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/wind-waker-link.jpg');
+        ">
+			<a class="info" href="http://www.zeldauniverse.net/2014/09/23/zelda-decals-a-great-decorative-addition-for-your-3ds/">
+				<div class="title">
+				    Zelda decals: A great decorative addition for your 3DS				</div>
+				<div class="commentsbit">
+					3 <i class="fa fa-comments"></i>
+				</div>
+			</a>
+		</div>
+		
+	<div class="postbox" style="
+		width: 295px;
+		height: 640px;
+		top: 990px;
+		left: 0px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/26/north-american-launch-trailer-for-hyrule-warriors-shows-off-playable-characters/">
+			    North American launch trailer for Hyrule Warriors shows off playable characters	        </a>
+			<div class="author">
+			    By <b>Morgan Lewis</b> on September 26th	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/26/north-american-launch-trailer-for-hyrule-warriors-shows-off-playable-characters/">
+			    5 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/26/north-american-launch-trailer-for-hyrule-warriors-shows-off-playable-characters/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/hyrule-warriors-launch-trailer-na.jpg');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    Nintendo of America has posted the launch trailer for Hyrule Warriors on their YouTube channel, showcasing most of the playable characters in the latest chapter in The Legend of Zelda franchise. Already released in Europe and Japan, North America finally gets to enjoy Hyrule Warriors, the first Zelda crossover in the franchise's history.
+
+The...		</div>
+	</div>
+	<div class="postbox" style="
+		width: 295px;
+		height: 640px;
+		top: 990px;
+		left: 295px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/26/smash-screen-round-up-inside-master-hands-glove-mii-hats-and-new-gamer-stage/">
+			    Smash screen round-up: Inside Master Hand's glove, Mii hats and new "Gamer" stage	        </a>
+			<div class="author">
+			    By <b>Reece Heather</b> on September 26th	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/26/smash-screen-round-up-inside-master-hands-glove-mii-hats-and-new-gamer-stage/">
+			    3 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/26/smash-screen-round-up-inside-master-hands-glove-mii-hats-and-new-gamer-stage/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/super-smash-bros.-wii-u-gamer-stage-1.jpg');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    Super Smash Bros. series director Masahiro Sakurai is still busy teasing the upcoming Wii U and 3DS titles on Miiverse, giving us a new screenshot and a little insight every day. This week we feast our eyes on a brand new stage on Wii U, amusing accessories for the Mii characters, and Master Hand becomes exposed -- and it's not pretty.
+
+First up,...		</div>
+	</div>
+	<div class="postbox" style="
+		width: 295px;
+		height: 600px;
+		top: 1630px;
+		left: 0px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/26/epona-rides-into-battle-new-info-for-hyrule-warriors-dlc-arises/">
+			    Epona rides into battle: New info for Hyrule Warriors DLC arises	        </a>
+			<div class="author">
+			    By <b>Michael Bowerman</b> on September 26th	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/26/epona-rides-into-battle-new-info-for-hyrule-warriors-dlc-arises/">
+			    3 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/26/epona-rides-into-battle-new-info-for-hyrule-warriors-dlc-arises/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/HW-Epona-Screen.jpeg');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    Zelda director Eiji Aonuma, via Miiverse, has announced that Epona will be a usable "weapon" in the first DLC pack for Hyrule Warriors. The pack, titled the "Master Quest Pack", will be the first of four coming to the Wii U exclusive on October 16.
+
+Aonuma spoke about playing as Epona in his Miiverse post. "I already had a chance to try out...		</div>
+	</div>
+	<div class="postbox" style="
+		width: 295px;
+		height: 600px;
+		top: 1630px;
+		left: 295px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/26/smash-bros-for-3ds-us-commercials-tell-players-to-settle-it-in-smash/">
+			    Smash Bros. for 3DS US commercials tell players to "Settle it in Smash"	        </a>
+			<div class="author">
+			    By <b>Michael Bowerman</b> on September 26th	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/26/smash-bros-for-3ds-us-commercials-tell-players-to-settle-it-in-smash/">
+			    1 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/26/smash-bros-for-3ds-us-commercials-tell-players-to-settle-it-in-smash/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/BxWXi4QIIAAt1Wr.png');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    In case you haven't seen them aired in various program slots, you can view the new set of US commercials showcasing the upcoming Super Smash Bros. for 3DS. So far, the commercials have used great humor to entice gamers to purchase the next iteration in the Smash Bros. franchise. In the first commercial, gamers "Settle it in Smash" for the final...		</div>
+	</div>
+	<div class="postbox" style="
+		width: 295px;
+		height: 600px;
+		top: 1630px;
+		left: 590px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/26/hyrule-warriors-launches-in-the-us-today/">
+			    Hyrule Warriors launches in the US today	        </a>
+			<div class="author">
+			    By <b>Reece Heather</b> on September 26th	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/26/hyrule-warriors-launches-in-the-us-today/">
+			    2 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/26/hyrule-warriors-launches-in-the-us-today/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2014/08/zelda1.gif');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    Finally, we arrive at the last remaining launch of the excellent new Wii U spin-off, Hyrule Warriors, with the game releasing in the US today. After releasing in Europe and Australia last week, the game is now available worldwide, and Americans can now join us on the frontlines. Hooray!
+
+Hyrule Warriors is available on the eShop, as well as at retail. Having spent some time with the game, I...		</div>
+	</div>
+	<div class="postbox" style="
+		width: 295px;
+		height: 500px;
+		top: 2615px;
+		left: 0px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/26/fanart-friday-a-damsel-who-is-not-in-distress/">
+			    Fanart Friday: A damsel who is not in distress	        </a>
+			<div class="author">
+			    By <b>Morgan Lewis</b> on September 26th	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/26/fanart-friday-a-damsel-who-is-not-in-distress/">
+			    0 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/26/fanart-friday-a-damsel-who-is-not-in-distress/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/zelda-hw-by-chel-chu-fanart-friday.jpg');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    With the return of Fanart Friday coinciding with the American release date of Hyrule Warriors, we've chosen to commemorate both events with this beautiful piece of artwork by Chel-chu. Zelda fans...		</div>
+	</div>
+	<div class="postbox" style="
+		width: 295px;
+		height: 500px;
+		top: 2615px;
+		left: 295px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/25/hyrule-warriors-trailer-explores-both-the-helpful-and-deadly-sides-of-cuccos-on-the-battlefield/">
+			    Hyrule Warriors trailer explores the helpful and deadly sides of Cuccos on the battlefield	        </a>
+			<div class="author">
+			    By <b>Reece Heather</b> on September 25th	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/25/hyrule-warriors-trailer-explores-both-the-helpful-and-deadly-sides-of-cuccos-on-the-battlefield/">
+			    0 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/25/hyrule-warriors-trailer-explores-both-the-helpful-and-deadly-sides-of-cuccos-on-the-battlefield/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/hyrule-warriors-cucco-trailer.jpg');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    Nintendo appear to be squeezing in one more promotional video in preparation for Hyrule Warriors' launch in the US tomorrow. This time, the focus shifts from the typical blade-swinging,...		</div>
+	</div>
+	<div class="postbox" style="
+		width: 295px;
+		height: 500px;
+		top: 2615px;
+		left: 590px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/25/the-legend-of-zelda-uk-facebook-page-is-giving-away-five-hyrule-warriors-strategy-guides/">
+			    The Legend of Zelda UK Facebook page is giving away five Hyrule Warriors strategy guides	        </a>
+			<div class="author">
+			    By <b>Reece Heather</b> on September 25th	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/25/the-legend-of-zelda-uk-facebook-page-is-giving-away-five-hyrule-warriors-strategy-guides/">
+			    0 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/25/the-legend-of-zelda-uk-facebook-page-is-giving-away-five-hyrule-warriors-strategy-guides/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/hyrule-warriors-official-strategy-guide.jpg');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    Everyone knows that Prima Games are awesome at publishing detailed strategy guide books, and with a complex game like Hyrule Warriors, the official guide for the new Zelda spin-off could be very...		</div>
+	</div>
+	<div class="postbox" style="
+		width: 295px;
+		height: 500px;
+		top: 3115px;
+		left: 0px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/25/norwegian-folk-harpist-channels-her-inner-zelda-with-her-ballad-of-the-goddess-cover/">
+			    Norwegian folk harpist channels her inner Zelda with her Ballad of the Goddess cover	        </a>
+			<div class="author">
+			    By <b>Amanda Vanhiel</b> on September 25th	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/25/norwegian-folk-harpist-channels-her-inner-zelda-with-her-ballad-of-the-goddess-cover/">
+			    7 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/25/norwegian-folk-harpist-channels-her-inner-zelda-with-her-ballad-of-the-goddess-cover/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2012/04/Zelda-Harp.jpg');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    Just this week, Norwegian folk harpist Branna Laurelin posted a video covering Ballad of the Goddess from Skyward Sword. Wearing a white dress that's reminiscent of Zelda's, she beautifully plays...		</div>
+	</div>
+	<div class="postbox" style="
+		width: 295px;
+		height: 500px;
+		top: 3115px;
+		left: 295px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/24/remysetgo-plans-hyrule-warriors-marathon-with-eshop-giveaways/">
+			    RemySetGo plans Hyrule Warriors marathon with eShop giveaways	        </a>
+			<div class="author">
+			    By <b>Amanda Vanhiel</b> on September 24th	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/24/remysetgo-plans-hyrule-warriors-marathon-with-eshop-giveaways/">
+			    1 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/24/remysetgo-plans-hyrule-warriors-marathon-with-eshop-giveaways/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/RemySetGo-HyruleWarriors-St.png');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    Husband and wife Twitch team RemySetGo are getting ready for a 72-hour nonstop live stream of Hyrule Warriors beginning 1am (PDT) on September 26. During those 72 hours, the duo will show you all...		</div>
+	</div>
+	<div class="postbox" style="
+		width: 295px;
+		height: 500px;
+		top: 3115px;
+		left: 590px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/24/hyrule-warriors-dev-on-miyamotos-disapproval-hopes-to-work-on-other-nintendo-ip/">
+			    Hyrule Warriors dev on Miyamoto's disapproval, hopes to work on other Nintendo IPs	        </a>
+			<div class="author">
+			    By <b>Reece Heather</b> on September 24th	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/24/hyrule-warriors-dev-on-miyamotos-disapproval-hopes-to-work-on-other-nintendo-ip/">
+			    7 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/24/hyrule-warriors-dev-on-miyamotos-disapproval-hopes-to-work-on-other-nintendo-ip/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/yosuke-hayashi.jpg');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    Nintendo designer Shigeru Miyamoto is notorious for "up-ending the tea table"; or in other words, demanding a drastic change in a game's development cycle if it doesn't meet his standards. An Iwata...		</div>
+	</div>
+	<div class="postbox" style="
+		width: 295px;
+		height: 500px;
+		top: 3615px;
+		left: 0px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/24/link-rides-epona-onto-the-universidad-autonoma-de-nuevo-leon-campus/">
+			    Link rides Epona onto the Universidad Autonoma de Nuevo Leon campus	        </a>
+			<div class="author">
+			    By <b>Amanda Vanhiel</b> on September 24th	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/24/link-rides-epona-onto-the-universidad-autonoma-de-nuevo-leon-campus/">
+			    3 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/24/link-rides-epona-onto-the-universidad-autonoma-de-nuevo-leon-campus/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/u08.jpg');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    In Monterrey, Mexico, the medicine department at Universidad de Nuevo Leon got a Hylian makeover as part of their annual fair. Notris FX, a studio whose specialty is sci-fi and fantasy...		</div>
+	</div>
+	<div class="postbox" style="
+		width: 295px;
+		height: 500px;
+		top: 3615px;
+		left: 295px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/24/dress-up-like-the-legendary-hero-all-the-time-with-this-stylish-zelda-hoodie/">
+			    Dress up like the Legendary Hero all the time with this stylish Zelda hoodie	        </a>
+			<div class="author">
+			    By <b>Morgan Lewis</b> on September 24th	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/24/dress-up-like-the-legendary-hero-all-the-time-with-this-stylish-zelda-hoodie/">
+			    2 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/24/dress-up-like-the-legendary-hero-all-the-time-with-this-stylish-zelda-hoodie/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/link-hoodie-back.jpg');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    Looking for a way to dress up like Link, but don't have the time and energy to put together a proper costume? Fear not! Officially licensed by Nintendo, this Legend of Zelda hoodie is the only...		</div>
+	</div>
+	<div class="postbox" style="
+		width: 295px;
+		height: 500px;
+		top: 3615px;
+		left: 590px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/24/isaiah-triforce-johnson-to-tackle-zelda-timeline-in-his-new-youtube-series/">
+			    Isaiah TriForce Johnson to tackle Zelda timeline in his new YouTube series	        </a>
+			<div class="author">
+			    By <b>Megan O'Shea</b> on September 24th	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/24/isaiah-triforce-johnson-to-tackle-zelda-timeline-in-his-new-youtube-series/">
+			    3 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/24/isaiah-triforce-johnson-to-tackle-zelda-timeline-in-his-new-youtube-series/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/isaiah-triforce-johnson-reggie-fils-aime-shigeru-miyamoto.jpg');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    There's no question that Isaiah TriForce Johnson is a legend in his own right. Since the early 1980s, he's been an avid fan of arcade, Sega, and of course, Nintendo games. Nintendo Life gives us a...		</div>
+	</div>
+	<div class="postbox" style="
+		width: 295px;
+		height: 500px;
+		top: 4415px;
+		left: 0px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/23/hyrule-warriors-dlc-playable-footage-of-wizzro-and-volga-shown-at-the-tokyo-game-show/">
+			    Hyrule Warriors DLC: Playable footage of Wizzro and Volga shown at TGS	        </a>
+			<div class="author">
+			    By <b>Morgan Lewis</b> on September 23rd	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/23/hyrule-warriors-dlc-playable-footage-of-wizzro-and-volga-shown-at-the-tokyo-game-show/">
+			    1 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/23/hyrule-warriors-dlc-playable-footage-of-wizzro-and-volga-shown-at-the-tokyo-game-show/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/hyrule-warriors-dlc.png');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    Koei Tecmo has given us our first glimpse of two new playable characters for the new (and upcoming!) Hyrule Warriors at the Tokyo Game Show. They showed the villains Wizzro and Volga in playable...		</div>
+	</div>
+	<div class="postbox" style="
+		width: 295px;
+		height: 500px;
+		top: 4415px;
+		left: 295px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/23/chart-topping-hyrule-warriors-debuts-in-the-top-three-on-uk-charts/">
+			    Chart topping: Hyrule Warriors debuts in the top three on UK charts	        </a>
+			<div class="author">
+			    By <b>Michael Bowerman</b> on September 23rd	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/23/chart-topping-hyrule-warriors-debuts-in-the-top-three-on-uk-charts/">
+			    4 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/23/chart-topping-hyrule-warriors-debuts-in-the-top-three-on-uk-charts/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/Hyrule-Warriors-Cover-Large.jpg');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    It's no secret that Hyrule Warriors has had an interesting journey, beginning with a sudden reveal last year that left many surprised at the collaboration between Nintendo and Koei Tecmo....		</div>
+	</div>
+	<div class="postbox" style="
+		width: 295px;
+		height: 500px;
+		top: 4415px;
+		left: 590px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/23/redditor-draws-link-at-local-college-store/">
+			    Redditor draws Link at local college store	        </a>
+			<div class="author">
+			    By <b>Daniel Benavides</b> on September 23rd	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/23/redditor-draws-link-at-local-college-store/">
+			    1 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/23/redditor-draws-link-at-local-college-store/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/MgCUnNs.jpg');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    Redditor, Brandilio works at a local college store where his job entails drawing on their chalkboards to attract customers. This week, he drew Link with Navi shouting her famous "Hey! Listen!"...		</div>
+	</div>
+	<div class="postbox" style="
+		width: 295px;
+		height: 500px;
+		top: 4915px;
+		left: 0px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/23/zelda-decals-a-great-decorative-addition-for-your-3ds/">
+			    Zelda decals: A great decorative addition for your 3DS	        </a>
+			<div class="author">
+			    By <b>Michael Bowerman</b> on September 23rd	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/23/zelda-decals-a-great-decorative-addition-for-your-3ds/">
+			    3 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/23/zelda-decals-a-great-decorative-addition-for-your-3ds/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/wind-waker-link.jpg');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    After the recent reveal of the New 3DS and its interchangeable cover plates, I had an urge to make my black 3DS XL a little more "decorative." I looked high and low, trying to find that perfect...		</div>
+	</div>
+	<div class="postbox" style="
+		width: 295px;
+		height: 500px;
+		top: 4915px;
+		left: 295px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/22/dress-up-this-halloween-as-hyrules-knock-off-hero-woodland-warrior/">
+			    Dress up this Halloween as Hyrule's knock-off hero, "Woodland Warrior" 	        </a>
+			<div class="author">
+			    By <b>Kristie Hale</b> on September 22nd	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/22/dress-up-this-halloween-as-hyrules-knock-off-hero-woodland-warrior/">
+			    10 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/22/dress-up-this-halloween-as-hyrules-knock-off-hero-woodland-warrior/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2014/09/woodland-warrior.jpg');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    If you want to dress up as the beloved hero of The Legend of Zelda franchise for Halloween this year, you're in luck -- kind of. Go shopping at the Spirit Halloween store, and you can dress up as...		</div>
+	</div>
+	<div class="postbox" style="
+		width: 295px;
+		height: 500px;
+		top: 4915px;
+		left: 590px;
+	">
+		<div class="post-info">
+			<a class="title" href="http://www.zeldauniverse.net/2014/09/22/music-monday-a-celebration-of-the-zelda-franchise/">
+			    Music Monday: A celebration of the Zelda Franchise	        </a>
+			<div class="author">
+			    By <b>Morgan Lewis</b> on September 22nd	        </div>
+	                    <a class="commentsbit" href="http://www.zeldauniverse.net/2014/09/22/music-monday-a-celebration-of-the-zelda-franchise/">
+			    4 <i class="fa fa-comments"></i>
+	        </a>
+						    <a class="t3img" href="http://www.zeldauniverse.net/2014/09/22/music-monday-a-celebration-of-the-zelda-franchise/" style="background-image:url('http://www.zeldauniverse.net/wp-content/uploads/2014/06/music_monday_banner__final_.png');">
+    			    <div class="shadow"></div>
+			    </a>
+	               </div>
+		<div class="post-content">
+		    After a bit of a hiatus, Music Monday is back, returning to provide you with some of the best Zelda music out there! With our return and the impending release of Hyrule Warriors in all...		</div>
+	</div>
+</div>	
+<div id="olderposts">
+	<div id="loadedposts"></div>
+	<input type="button" id="loadmorepostsbutton" value="See More Posts" onclick="t3f_loadMorePosts();" />
+</div>
+
+                                            <div style="background:rgba(0,0,0,.2);clear:both;width:728px;height:90px;margin:30px auto;">
+    	    			    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    	                    <!-- ZU Main Site - Footer -->
+    	                    <ins class="adsbygoogle"
+    	                         style="display:inline-block;width:728px;height:90px"
+    	                         data-ad-client="ca-pub-7269573247649351"
+    	                         data-ad-slot="7654131930"></ins>
+    	                    <script>
+    	                    (adsbygoogle = window.adsbygoogle || []).push({});
+    	                    </script>
+    	    			</div>
+	    			  
+	    			<div id="content-text-footer">
+	    			    <img class="logo" alt="zulogo" src="http://www.zeldauniverse.net/wp-content/themes/temple3/images/logo-white.png">
+	    			    <div style="float:right;">
+	    			        <b>SOCIAL</b><br />
+	    			        <a href="http://facebook.com/zeldauniverse">Facebook</a><br />
+	                        <a href="http://twitter.com/zeldauniverse">Twitter</a><br />
+	                        <a href="http://youtube.com/zeldauniversetv">YouTube</a>
+	    			    </div>
+	    			    <div style="float:right;padding-right:50px;">
+	    			        <b>SITELY</b><br />
+	    			        <!-- for 3.1 <a href="http://www.zeldauniverse.net/about">About</a><br /> -->
+	    			        <a href="http://www.zeldauniverse.net/jobs">Jobs</a><br />
+	    			        <a href="http://www.zeldauniverse.net/privacy">Privacy</a><br />
+	    			    </div>
+	    			    <div id="copyright">
+	    			        &copy; 2014 Zelda Universe. All rights reserved.
+	    			    </div>
+	    			</div>
+				</div> <!-- content-text -->
+				<div id="content-bottom"></div>
+			</div> <!-- content -->
+
+            <div id="content-spacer"></div>
+            
+		</div> <!-- content-wrap -->
+        <footer></footer>
+	</div> <!-- wrapper -->
+	
+	<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+var mejsL10n = {"language":"en","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.zeldauniverse.net/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.15.0'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201439'></script>
+
+	<script src="http://stats.wp.com/e-201439.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:3.1.1',blog:'5753972',post:'0',tz:'-4'});
+	var load_cmc = function(){linktracker_init(5753972,0,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script>	
+	<!-- Quantcast Tag -->
+    <script type="text/javascript">
+    var _qevents = _qevents || [];
+    
+    (function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+    })();
+    
+    _qevents.push({
+    qacct:"p-dd9gf64bvRkEM"
+    });
+    </script>
+    
+    <noscript>
+    <div style="display:none;">
+    <img src="//pixel.quantserve.com/pixel/p-dd9gf64bvRkEM.gif" border="0" height="1" width="1" alt="Quantcast"/>
+    </div>
+    </noscript>
+    <!-- End Quantcast tag -->
+    
+    <!-- Start Alexa Certify Javascript -->
+    <script type="text/javascript">
+    _atrk_opts = { atrk_acct:"75I3j1a8Dy00Wo", domain:"zeldauniverse.net",dynamic: true};
+    (function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+    </script>
+    <noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=75I3j1a8Dy00Wo" style="display:none" height="1" width="1" alt="" /></noscript>
+    <!-- End Alexa Certify Javascript -->
+    
+    <!-- Compete CrossPoint Tag for zeldauniverse.net -->
+    <script type="text/javascript">
+    __compete_code = '5d176de5f19556417018f79427db8219';
+    /* Set control variables below this line. */ 
+    </script>
+    <script type="text/javascript" src="//c.compete.com/bootstrap/s/5d176de5f19556417018f79427db8219/zeldauniverse-net/bootstrap.js"></script>
+    <noscript>
+        <img width="1" height="1" src="https://ssl-zeldauniverse-net-5d176d.c-col.com"/>
+    </noscript>
+    
+    <!-- Begin comScore Tag -->
+    <script>var _comscore = _comscore || [];_comscore.push({ c1: "2", c2: "6036161" });(function() {var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";el.parentNode.insertBefore(s, el);})();
+    </script>
+    <noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=6036161&cv=2.0&cj=1" /></noscript>
+    <!-- End comScore Tag -->
+</body>
+</html>
+<!-- WP Super Cache is installed but broken. The path to wp-cache-phase1.php in wp-content/advanced-cache.php must be fixed! -->

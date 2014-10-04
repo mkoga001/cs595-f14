@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Kaskade Music</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="generator" content="WordPress 3.3.1" />
+	<link rel="stylesheet" href="http://www.kaskademusic.com/wp-content/themes/grid_focus/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="http://www.kaskademusic.com/wp-content/themes/grid_focus/video_sidebar.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="http://www.kaskademusic.com/wp-content/themes/grid_focus/video-category.css" type="text/css" media="screen" />
+	<link rel="alternate" type="application/rss+xml" title="Kaskade Music RSS Feed" href="http://www.kaskademusic.com/feed/" />
+
+
+	<script src="http://code.jquery.com/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+
+<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="http://www.kaskademusic.com/wp-content/themes/grid_focus/ipad.css" type="text/css" />
+
+
+		<link rel='stylesheet' id='topspin-default-css'  href='http://www.kaskademusic.com/wp-content/plugins/official-topspin-wordpress-plugin/templates/topspin-standard/topspin.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='topspin-theme-css'  href='http://www.kaskademusic.com/wp-content/themes/grid_focus/topspin-standard/topspin.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery.colorbox-css'  href='http://www.kaskademusic.com/wp-content/plugins/official-topspin-wordpress-plugin/resources/js/colorbox/colorbox.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='login-with-ajax-css'  href='http://www.kaskademusic.com/wp-content/plugins/login-with-ajax/widget/widget.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tfg_style-css'  href='http://www.kaskademusic.com/wp-content/plugins/twitter-facebook-google-plusone-share/tfg_style.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='instapress-css'  href='http://www.kaskademusic.com/wp-content/plugins/instapress/instapress.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='simplyInstagram-css'  href='http://www.kaskademusic.com/wp-content/plugins/simply-instagram/css/simply-instagram.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='http://www.kaskademusic.com/wp-content/plugins/simply-instagram/css/simply-instagram-prettyPhoto.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ccf-jquery-ui-css'  href='http://www.kaskademusic.com/wp-content/plugins/custom-contact-forms/css/jquery-ui.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='CCFStandardsCSS-css'  href='http://www.kaskademusic.com/wp-content/plugins/custom-contact-forms/css/custom-contact-forms-standards.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='CCFFormsCSS-css'  href='http://www.kaskademusic.com/wp-content/plugins/custom-contact-forms/css/custom-contact-forms.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='custom_menu_style-css'  href='http://www.kaskademusic.com/wp-content/plugins/custom-menu/css/style.css?ver=3.3.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.kaskademusic.com/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://www.kaskademusic.com/wp-content/plugins/login-with-ajax/widget/login-with-ajax.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://www.kaskademusic.com/wp-content/plugins/force-image-download/js/deefuse-forceImages-dl.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://www.kaskademusic.com/wp-content/plugins/gigpress/scripts/gigpress.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://www.kaskademusic.com/wp-content/plugins/custom-contact-forms/js/custom-contact-forms-datepicker.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://www.kaskademusic.com/wp-content/plugins/custom-contact-forms/js/jquery.tools.min.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://www.kaskademusic.com/wp-content/plugins/custom-contact-forms/js/custom-contact-forms.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://www.kaskademusic.com/wp-content/plugins/simply-instagram/js/simply-instagram-jquery.prettyPhoto.js?ver=3.1.4'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.kaskademusic.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.kaskademusic.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.1" />
+<link type="text/css" rel="stylesheet" href="http://www.kaskademusic.com/wp-content/plugins/gigpress/css/gigpress.css" media="all" />
+<link href="http://www.kaskademusic.com/?feed=gigpress" rel="alternate" type="application/rss+xml" title="Upcoming shows" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<!-- BEGIN SimplyInstagram IE -->
+<!-- [if IE 9]>
+<style type="text/css">
+
+.comment-profile{
+	margin: 2px;
+	width: 45px;
+	float: left;
+}
+.comment-profile img{
+	vertical-align: top;
+}
+.comment-holder{
+	top: 0px;
+	width: 200px;
+	float: left !important;	
+}
+
+.comments-holder{
+	width: 210px;
+	float: left;
+}
+</style>
+<![endif]-->
+<!-- END SimplyInstagram IE -->
+
+
+<!--[if lt IE 8]>
+<script>
+	var IE7_PNG_SUFFIX = ".png";
+</script>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="http://use.typekit.com/xvr8dom.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".newsthumb a img").fadeTo("fast", 0.7);
+    $(".newsthumb a img").hover(function() {
+        $(this).fadeTo("fast", 1.0); // This sets the opacity to 100% on hover
+    }, function() {
+        $(this).fadeTo("fast", 0.7); // This sets the opacity back to 50% on mouseout
+    });
+  });
+  
+$(document).ready(function() {
+	var current_active = $('ul#nav li a.active').attr('id');
+	current_active = "#"+current_active;
+	$(document).scroll(function() {		
+		if($(document).scrollTop() >= 500)
+		{			
+			$('ul#nav li a').addClass('active');
+		}
+		else if($(document).scrollTop() <= 500)
+		{
+			$('ul#nav li a').removeClass('active');
+			$(current_active).addClass('active');
+		}
+	});
+});	
+</script>
+
+
+
+<script type="text/javascript">
+$(document).ready(function () {
+$('iframe').each(function() {
+	var url = $(this).attr("src");
+	$(this).attr("src",url+"&wmode=transparent");
+	$(this).attr("wmode", 'opaque');
+});
+});
+</script>
+
+<!-- live event -->
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+		$(".close").click(function() {
+			$("#playing_live").remove();
+			$(".howto").fadeOut('fast');
+			$("#howtowrap").fadeOut('fast');		
+		 });
+		 
+		 // $("a.fancybox").click(function() {			
+			// $.fancybox.close();				
+		 // });
+		
+		
+		// var j = jQuery.noConflict();
+		//   j('#counter').countdown({
+  //         image: '../js/digits.png',
+  //         startTime: '0',
+  //         timerEnd: function() { j('#counter').fadeOut('slow'); j('.movie-small').fadeIn('slow');}
+  //       });
+});
+</script>
+
+<!-- end live event -->
+</head>
+<body class="home blog on-sale">
+
+<div id="sale-strip">
+	<a href="http://www.shopkaskade.com">Kaskade Bundle Sale &ndash; Shop Now &raquo;</a>
+</div>
+
+<div id="header-strip">
+			<div class="header-strip">
+
+
+<h1 style="display:inline-block;float:left;padding-top:7px;padding-left:10px;">Join Our Mailing List: </h1>    
+<div style="width:260px;padding-top:4px;float:left;padding-left:0px;">                    		    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="260" height="32" id="WidgetMailBlack" align="middle">                        <param name="allowScriptAccess" value="sameDomain" />                        <param name="movie" value="http://widget.fanbridge.com/widgetz_small_black.swf" />                        <param name="quality" value="high" />                        <param name="bgcolor" value="#000000" />
+                        <param name="wmode" value="opaque" />                        <param name="flashvars" value="wid=small-4f554f1c2774b-sbz&list_id=146626" /> <embed src="http://widget.fanbridge.com/widgetz_small_black.swf" flashvars="wid=small-4f554f1c2774b-sbz&list_id=146626" quality="high" bgcolor="#000000" width="260" height="32" name="WidgetMailBlack" align="middle" swLiveConnect="true" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="opaque" /></object>                        </div>
+ 
+
+<ul id="socialtop">
+
+		<li class="hangwith"><a href="http://bit.ly/hangwsocial" target="_blank"></a></li>
+		<li class="facebook"><a href="https://www.facebook.com/kaskade" target="_blank"></a></li>
+		<li class="twitter"><a href="https://twitter.com/kaskade" target="_blank"></a></li>	
+		<li class="myspace"><a href="http://www.myspace.com/kaskademusic/music" target="_blank"></a></li>	
+		<li class="soundcloud"><a href="http://soundcloud.com/kaskade" target="_blank"></a></li>	
+		<li class="youtube"><a href="http://www.youtube.com/kaskade" target="_blank"></a></li>
+		<li class="gplus"><a href="https://plus.google.com/+Kaskade" target="_blank"></a></li>
+		<!-- <li class="insta"><a href="http://www.instagram.com/kaskade" target="_blank"></a></li> -->
+		<!-- <li class="lastfm"><a href="http://www.last.fm/music/Kaskade" target="_blank"></a></li> -->
+		<!-- <li class="tumblr"><a href="http://thisisadynasty.tumblr.com/" target="_blank"></a></li> -->
+
+</ul>
+		</div>
+						<div id="nav-strip">
+ 				<ul id="nav">
+					<li><a id = "news"  class="active" href="/">NEWS</a></li>
+					<li><a id = "music"  href="/music">MUSIC</a></li>
+					<li><a id = "videos"  href="/videos">VIDEOS</a></li>
+					<li><a id = "photos"  href="/photos">PHOTOS</a></li>
+					<li><a id = "tour"  href="/tour">TOUR</a></li>
+					<li><a id = "bio"  href="/bio">BIO</a></li>
+					<li><a id = "press" href="/press/press">PRESS</a></li>
+					<li><a id = "store" href="http://shopkaskade.com">SHOP</a></li>
+					<li><a id = "downloads"  href="/downloads">DOWNLOADS</a></li>
+					<li><a id = "atmospherelive"  href="/atmospherelive">#ATMOSPHERELIVE</a></li>
+ 				</ul>
+ 				<div id="k-icon"><a href="http://shopkaskade.com"><img src="http://www.kaskademusic.com/wp-content/themes/grid_focus/images/kaskade_icon.png"></a></div>
+			</div>
+</div>
+<div id="wrapper">
+
+<div class="logo">
+	<a href="/category/news"></a>
+</div>
+
+<!--
+<div class="news-featured">
+	<div class="news-vid">
+			</div>
+</div>
+-->
+
+	<div id="site-content">
+	
+
+<div id="filler" class="fix">
+	<div id="mainColumn">
+				<div id="post-927" class="post">
+			<div class="date2">
+   <span class="month">Sep</span>
+   <span class="day">24</span>
+   
+</div>
+			
+
+
+<div class="entry">
+<div class="newsthumb">
+<a href="http://www.kaskademusic.com/news/2014/09/24/please-say-quick-quack/" title="Please Say Quick Quack">
+			<img width="246" height="246" src="http://www.kaskademusic.com/wp-content/uploads/2014/09/10644012_1484102581846575_1270756210_n-246x246.jpg" class="attachment-post-thumbnail wp-post-image" alt="10644012_1484102581846575_1270756210_n" title="10644012_1484102581846575_1270756210_n" /></a>
+</div>
+
+			
+				<div class="newsexcerpt">
+					<h2><a href="http://www.kaskademusic.com/news/2014/09/24/please-say-quick-quack/" title="Please Say Quick Quack">Please Say Quick Quack</a></h2>
+						<p>Out Now on Beatport. Available on iTunes October 7th.</p>
+
+<div class="readmore"><a href="http://www.kaskademusic.com/news/2014/09/24/please-say-quick-quack/" title="Please Say Quick Quack"></a></div>
+</div>
+			</div>
+		</div>
+				<div id="post-881" class="post">
+			<div class="date2">
+   <span class="month">Sep</span>
+   <span class="day">12</span>
+   
+</div>
+			
+
+
+<div class="entry">
+<div class="newsthumb">
+<a href="http://www.kaskademusic.com/news/2014/09/12/summer-nights-video/" title="Summer Nights Video">
+			<img width="246" height="184" src="http://www.kaskademusic.com/wp-content/uploads/2014/09/0-246x184.jpg" class="attachment-post-thumbnail wp-post-image" alt="0" title="0" /></a>
+</div>
+
+			
+				<div class="newsexcerpt">
+					<h2><a href="http://www.kaskademusic.com/news/2014/09/12/summer-nights-video/" title="Summer Nights Video">Summer Nights Video</a></h2>
+						<p>Check out the video for Kaskade&#8217;s latest single, Summer Nights, featuring vocals by The Brock.</p>
+
+<div class="readmore"><a href="http://www.kaskademusic.com/news/2014/09/12/summer-nights-video/" title="Summer Nights Video"></a></div>
+</div>
+			</div>
+		</div>
+				<div id="post-899" class="post">
+			<div class="date2">
+   <span class="month">Sep</span>
+   <span class="day">11</span>
+   
+</div>
+			
+
+
+<div class="entry">
+<div class="newsthumb">
+<a href="http://www.kaskademusic.com/news/2014/09/11/bundle-sale-shopkaskade-com/" title="Bundle Sale &#8211; ShopKaskade.com">
+			<img width="246" height="246" src="http://www.kaskademusic.com/wp-content/uploads/2014/09/10592904_10153014200363973_6537685669419928501_n-246x246.jpg" class="attachment-post-thumbnail wp-post-image" alt="10592904_10153014200363973_6537685669419928501_n" title="10592904_10153014200363973_6537685669419928501_n" /></a>
+</div>
+
+			
+				<div class="newsexcerpt">
+					<h2><a href="http://www.kaskademusic.com/news/2014/09/11/bundle-sale-shopkaskade-com/" title="Bundle Sale &#8211; ShopKaskade.com">Bundle Sale &#8211; ShopKaskade.com</a></h2>
+						<p>ShopKaskade.com has Big Head T-shirts, new #SummerNights T&#8217;s, as well as some super mad discounts on bundles! Go check it.</p>
+
+<div class="readmore"><a href="http://www.kaskademusic.com/news/2014/09/11/bundle-sale-shopkaskade-com/" title="Bundle Sale &#8211; ShopKaskade.com"></a></div>
+</div>
+			</div>
+		</div>
+				<div id="post-889" class="post">
+			<div class="date2">
+   <span class="month">Sep</span>
+   <span class="day">04</span>
+   
+</div>
+			
+
+
+<div class="entry">
+<div class="newsthumb">
+<a href="http://www.kaskademusic.com/news/2014/09/04/kskd-radio-now-on-spotify/" title="KSKD Radio now on Spotify">
+			<img width="246" height="246" src="http://www.kaskademusic.com/wp-content/uploads/2014/09/10689959_10152988088998973_4566528457748804016_n-246x246.jpg" class="attachment-post-thumbnail wp-post-image" alt="10689959_10152988088998973_4566528457748804016_n" title="10689959_10152988088998973_4566528457748804016_n" /></a>
+</div>
+
+			
+				<div class="newsexcerpt">
+					<h2><a href="http://www.kaskademusic.com/news/2014/09/04/kskd-radio-now-on-spotify/" title="KSKD Radio now on Spotify">KSKD Radio now on Spotify</a></h2>
+						<p>On Spotify? Here&#8217;s my Spotify playlist. Includes selections from Martin Solveig, LIGHTS, Robyn, Skylar Grey, and NERO amongst many others. Go get your sexy on. #KSKDRadio</p>
+
+<div class="readmore"><a href="http://www.kaskademusic.com/news/2014/09/04/kskd-radio-now-on-spotify/" title="KSKD Radio now on Spotify"></a></div>
+</div>
+			</div>
+		</div>
+				<div id="post-878" class="post">
+			<div class="date2">
+   <span class="month">Aug</span>
+   <span class="day">26</span>
+   
+</div>
+			
+
+
+<div class="entry">
+<div class="newsthumb">
+<a href="http://www.kaskademusic.com/news/2014/08/26/summer-nights-out-now/" title="Summer Nights &#8211; Out Now!">
+			<img width="246" height="246" src="http://www.kaskademusic.com/wp-content/uploads/2014/09/CDC64DBB-9352-2ECF-2DA08EB3E5759B04-246x246.jpg" class="attachment-post-thumbnail wp-post-image" alt="CDC64DBB-9352-2ECF-2DA08EB3E5759B04" title="CDC64DBB-9352-2ECF-2DA08EB3E5759B04" /></a>
+</div>
+
+			
+				<div class="newsexcerpt">
+					<h2><a href="http://www.kaskademusic.com/news/2014/08/26/summer-nights-out-now/" title="Summer Nights &#8211; Out Now!">Summer Nights &#8211; Out Now!</a></h2>
+						<p>Kaskade &amp; The Brocks &#8220;Summer Nights&#8221; OUT NOW!</p>
+
+<div class="readmore"><a href="http://www.kaskademusic.com/news/2014/08/26/summer-nights-out-now/" title="Summer Nights &#8211; Out Now!"></a></div>
+</div>
+			</div>
+		</div>
+				<div id="post-871" class="post">
+			<div class="date2">
+   <span class="month">Jun</span>
+   <span class="day">11</span>
+   
+</div>
+			
+
+
+<div class="entry">
+<div class="newsthumb">
+<a href="http://www.kaskademusic.com/news/2014/06/11/aint-gotta-lie-out-now-stems-included/" title="&#8220;Ain’t Gotta Lie&#8221; &#8212; new single out now">
+			<img width="246" height="246" src="http://www.kaskademusic.com/wp-content/uploads/2014/06/9585065-246x246.jpg" class="attachment-post-thumbnail wp-post-image" alt="9585065" title="9585065" /></a>
+</div>
+
+			
+				<div class="newsexcerpt">
+					<h2><a href="http://www.kaskademusic.com/news/2014/06/11/aint-gotta-lie-out-now-stems-included/" title="&#8220;Ain’t Gotta Lie&#8221; &#8212; new single out now">&#8220;Ain’t Gotta Lie&#8221; &#8212; new single out now</a></h2>
+						<p>Kaskade releases his latest single, &#8220;Ain’t Gotta Lie&#8221;, featuring vocals by deCarl and a classic bass groove. “Ain’t Gotta Lie” is the second single off the &#8220;Redux EP&#8221; and is available now on Beatport. Also made available are the remix parts (stems) to Ain&#8217;t Gotta Lie.</p>
+
+<div class="readmore"><a href="http://www.kaskademusic.com/news/2014/06/11/aint-gotta-lie-out-now-stems-included/" title="&#8220;Ain’t Gotta Lie&#8221; &#8212; new single out now"></a></div>
+</div>
+			</div>
+		</div>
+				<div id="post-866" class="post">
+			<div class="date2">
+   <span class="month">Mar</span>
+   <span class="day">24</span>
+   
+</div>
+			
+
+
+<div class="entry">
+<div class="newsthumb">
+<a href="http://www.kaskademusic.com/news/2014/03/24/new-designs-gear-at-kaskade-pop-up-shop-miami/" title="New Designs &#038; Gear Debut at Kaskade Pop-up Shop (Miami)">
+			<img width="246" height="184" src="http://www.kaskademusic.com/wp-content/uploads/2014/03/Bjb5Dx_CUAASaU6-246x184.jpg" class="attachment-post-thumbnail wp-post-image" alt="Bjb5Dx_CUAASaU6" title="Bjb5Dx_CUAASaU6" /></a>
+</div>
+
+			
+				<div class="newsexcerpt">
+					<h2><a href="http://www.kaskademusic.com/news/2014/03/24/new-designs-gear-at-kaskade-pop-up-shop-miami/" title="New Designs &#038; Gear Debut at Kaskade Pop-up Shop (Miami)">New Designs &#038; Gear Debut at Kaskade Pop-up Shop (Miami)</a></h2>
+						
+<div class="readmore"><a href="http://www.kaskademusic.com/news/2014/03/24/new-designs-gear-at-kaskade-pop-up-shop-miami/" title="New Designs &#038; Gear Debut at Kaskade Pop-up Shop (Miami)"></a></div>
+</div>
+			</div>
+		</div>
+				<div id="post-820" class="post">
+			<div class="date2">
+   <span class="month">Nov</span>
+   <span class="day">15</span>
+   
+</div>
+			
+
+
+<div class="entry">
+<div class="newsthumb">
+<a href="http://www.kaskademusic.com/music/2013/11/15/atmospherelive/" title="#AtmosphereLIVE">
+			<img width="246" height="184" src="http://www.kaskademusic.com/wp-content/uploads/2013/11/0-246x184.jpg" class="attachment-post-thumbnail wp-post-image" alt="0" title="0" /></a>
+</div>
+
+			
+				<div class="newsexcerpt">
+					<h2><a href="http://www.kaskademusic.com/music/2013/11/15/atmospherelive/" title="#AtmosphereLIVE">#AtmosphereLIVE</a></h2>
+						<p>Re-live the Atmosphere Tour! Find yourself in the AtmosphereLIVE YouTube videos (Part 1, Part 2), screenshot and upload to Instagram with the hashtag #AtmosphereLIVE. All the pictures will be collected here!</p>
+
+<div class="readmore"><a href="http://www.kaskademusic.com/music/2013/11/15/atmospherelive/" title="#AtmosphereLIVE"></a></div>
+</div>
+			</div>
+		</div>
+				<div id="post-801" class="post">
+			<div class="date2">
+   <span class="month">Oct</span>
+   <span class="day">03</span>
+   
+</div>
+			
+
+
+<div class="entry">
+<div class="newsthumb">
+<a href="http://www.kaskademusic.com/news/2013/10/03/arts-crafts-hour-with-kaskade/" title="Arts &#038; Crafts Hour with Kaskade">
+			<img width="246" height="246" src="http://www.kaskademusic.com/wp-content/uploads/2013/10/21-246x246.png" class="attachment-post-thumbnail wp-post-image" alt="21" title="21" /></a>
+</div>
+
+			
+				<div class="newsexcerpt">
+					<h2><a href="http://www.kaskademusic.com/news/2013/10/03/arts-crafts-hour-with-kaskade/" title="Arts &#038; Crafts Hour with Kaskade">Arts &#038; Crafts Hour with Kaskade</a></h2>
+						<p>Check out the all-new Downloads section to grab your own Kaskade Big Head and Kaskade-themed wallpapers for your phone (iOS7-ready and all!).</p>
+
+<div class="readmore"><a href="http://www.kaskademusic.com/news/2013/10/03/arts-crafts-hour-with-kaskade/" title="Arts &#038; Crafts Hour with Kaskade"></a></div>
+</div>
+			</div>
+		</div>
+				<div id="post-659" class="post">
+			<div class="date2">
+   <span class="month">Jul</span>
+   <span class="day">24</span>
+   
+</div>
+			
+
+
+<div class="entry">
+<div class="newsthumb">
+<a href="http://www.kaskademusic.com/news/2013/07/24/theres-an-app-for-that/" title="There&#8217;s an App for that!">
+			<img width="246" height="246" src="http://www.kaskademusic.com/wp-content/uploads/2013/07/icon-246x246.png" class="attachment-post-thumbnail wp-post-image" alt="icon" title="icon" /></a>
+</div>
+
+			
+				<div class="newsexcerpt">
+					<h2><a href="http://www.kaskademusic.com/news/2013/07/24/theres-an-app-for-that/" title="There&#8217;s an App for that!">There&#8217;s an App for that!</a></h2>
+						<p>We&#8217;re pleased to announce the release of the official Kaskade mobile app. The free app includes up-to-the-minute details on tours, tickets, photos, videos, thoughts and tons more on all things Kaskade. Grab your copy today for iOS and Android.</p>
+
+<div class="readmore"><a href="http://www.kaskademusic.com/news/2013/07/24/theres-an-app-for-that/" title="There&#8217;s an App for that!"></a></div>
+</div>
+			</div>
+		</div>
+						<div id="paginateIndex" class="fix">
+			<p><span class="left"></span> <span class="right"><a href="http://www.kaskademusic.com/page/2/" >Next &raquo;</a></span></p>
+		</div>
+	</div>
+	
+<div class="secondaryColumn">
+	
+	<div id="legends-corner">	
+
+        <!-- <div style="margin-bottom:20px;"><img src="http://www.kaskademusic.com/wp-content/themes/grid_focus/images/kaskade_rockstar_banner.jpg" width="300" /></div>   -->
+
+	<h2>LATEST VIDEOS</h2>
+	<div class="latest-vids-wrap">
+	<!--
+				
+														<div id = "847" class = "legends_header sidebar-player-contain">
+						<table><tr><td><img src = "http://img.youtube.com/vi/sXQVicNodMw/1.jpg" width="94"/></td><td style = "padding-left: 20px;"><img src = "http://www.kaskademusic.com/wp-content/themes/grid_focus/images/play.png" width = "20px"/></td><td style = "padding-left: 10px;">Kaskade &#8211; Atmosphere (Official Video)</td></tr></table>					</div>
+					<div id = "content847" class = "legends_content" style = "display:none;">
+						<iframe width="300" height="170" id = "iframeimage847" src = "http://www.youtube.com/embed/sXQVicNodMw?wmode=transparent" frameborder="0" allowfullscreen style = "display:none;" wmode="Opaque"></iframe>		
+						<h4 style = "margin-top: 10px;">Kaskade &#8211; Atmosphere (Official Video)</h4>	
+					</div>		
+															<div id = "582" class = "legends_header sidebar-player-contain">
+						<table><tr><td><img src = "http://img.youtube.com/vi/Es_l-gY0Ls8/1.jpg" width="94"/></td><td style = "padding-left: 20px;"><img src = "http://www.kaskademusic.com/wp-content/themes/grid_focus/images/play.png" width = "20px"/></td><td style = "padding-left: 10px;">Kaskade Freaks of Nature DVD Trailer</td></tr></table>					</div>
+					<div id = "content582" class = "legends_content" style = "display:none;">
+						<iframe width="300" height="170" id = "iframeimage582" src = "http://www.youtube.com/embed/Es_l-gY0Ls8?wmode=transparent" frameborder="0" allowfullscreen style = "display:none;" wmode="Opaque"></iframe>		
+						<h4 style = "margin-top: 10px;">Kaskade Freaks of Nature DVD Trailer</h4>	
+					</div>		
+															<div id = "552" class = "legends_header sidebar-player-contain">
+						<table><tr><td><img src = "http://img.youtube.com/vi/vzo9aANQ3Wk/1.jpg" width="94"/></td><td style = "padding-left: 20px;"><img src = "http://www.kaskademusic.com/wp-content/themes/grid_focus/images/play.png" width = "20px"/></td><td style = "padding-left: 10px;">Kaskade Live At Ultra Music Festival &#8211; Saturday, March 16, 2013</td></tr></table>					</div>
+					<div id = "content552" class = "legends_content" style = "display:none;">
+						<iframe width="300" height="170" id = "iframeimage552" src = "http://www.youtube.com/embed/vzo9aANQ3Wk?wmode=transparent" frameborder="0" allowfullscreen style = "display:none;" wmode="Opaque"></iframe>		
+						<h4 style = "margin-top: 10px;">Kaskade Live At Ultra Music Festival &#8211; Saturday, March 16, 2013</h4>	
+					</div>		
+															<div id = "535" class = "legends_header sidebar-player-contain">
+						<table><tr><td><img src = "http://img.youtube.com/vi/hExFscPKxQ4/1.jpg" width="94"/></td><td style = "padding-left: 20px;"><img src = "http://www.kaskademusic.com/wp-content/themes/grid_focus/images/play.png" width = "20px"/></td><td style = "padding-left: 10px;">No One Knows Who We Are</td></tr></table>					</div>
+					<div id = "content535" class = "legends_content" style = "display:none;">
+						<iframe width="300" height="170" id = "iframeimage535" src = "http://www.youtube.com/embed/hExFscPKxQ4?wmode=transparent" frameborder="0" allowfullscreen style = "display:none;" wmode="Opaque"></iframe>		
+						<h4 style = "margin-top: 10px;">No One Knows Who We Are</h4>	
+					</div>		
+					
+		-->
+	</div>
+	</div> <!-- end legends -->
+
+
+
+<div id="hangwith-header"><a href="http://bit.ly/hangwsocial"><img src="http://www.kaskademusic.com/wp-content/themes/grid_focus/images/hangwith-header.png" width="300" height="140" /></a></div>
+
+<div class="twithead"><img src="http://www.kaskademusic.com/wp-content/themes/grid_focus/images/twitterheader.png"/></div>
+	<div id="search-2" class="widgetContainer widget_search"></div><div id="twitter-2" class="widgetContainer widget_twitter"><div><h3 class="widgetTitle"><span class='twitterwidget twitterwidget-title'>Twitter: kaskade</span></h3><ul><li><span class='entry-content'>I do love the summer. It's my thing. RT <a href="http://twitter.com/juanmenjivar20" class="twitter-user" target="_blank">@juanmenjivar20</a>: <a href="http://twitter.com/kaskade" class="twitter-user" target="_blank">@kaskade</a> you made the anthem of the summer <a href="http://search.twitter.com/search?q=%23Atmosphere" class="twitter-hashtag" target="_blank">#Atmosphere</a></span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/kaskade/statuses/344559342957252608" target="_blank">01:58:43 PM June 11, 2013</a></span> <span class='from-meta'>from <a href="http://www.hootsuite.com" rel="nofollow">HootSuite</a></span></span> <span class="intent-meta"><a href="http://twitter.com/intent/tweet?in_reply_to=344559342957252608" data-lang="en" class="in-reply-to" title="Reply" target="_blank">Reply</a><a href="http://twitter.com/intent/retweet?tweet_id=344559342957252608" data-lang="en" class="retweet" title="Retweet" target="_blank">Retweet</a><a href="http://twitter.com/intent/favorite?tweet_id=344559342957252608" data-lang="en" class="favorite" title="Favorite" target="_blank">Favorite</a></span></li><li><span class='entry-content'>Especially stoked b/c I know fewer people buy music these days. You who have actually shown support by getting the single, <a href="http://search.twitter.com/search?q=%23respect" class="twitter-hashtag" target="_blank">#respect</a>.</span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/kaskade/statuses/344558920225923074" target="_blank">01:57:02 PM June 11, 2013</a></span> <span class='from-meta'>from <a href="http://www.hootsuite.com" rel="nofollow">HootSuite</a></span></span> <span class="intent-meta"><a href="http://twitter.com/intent/tweet?in_reply_to=344558920225923074" data-lang="en" class="in-reply-to" title="Reply" target="_blank">Reply</a><a href="http://twitter.com/intent/retweet?tweet_id=344558920225923074" data-lang="en" class="retweet" title="Retweet" target="_blank">Retweet</a><a href="http://twitter.com/intent/favorite?tweet_id=344558920225923074" data-lang="en" class="favorite" title="Favorite" target="_blank">Favorite</a></span></li><li><span class='entry-content'>Yes. A+ for you, and extra recess time too. RT <a href="http://twitter.com/cameronbriche" class="twitter-user" target="_blank">@cameronbriche</a>: <a href="http://twitter.com/kaskade" class="twitter-user" target="_blank">@kaskade</a> Extra credit for buying both versions? :D</span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/kaskade/statuses/344556640940486656" target="_blank">01:47:59 PM June 11, 2013</a></span> <span class='from-meta'>from <a href="http://www.hootsuite.com" rel="nofollow">HootSuite</a></span></span> <span class="intent-meta"><a href="http://twitter.com/intent/tweet?in_reply_to=344556640940486656" data-lang="en" class="in-reply-to" title="Reply" target="_blank">Reply</a><a href="http://twitter.com/intent/retweet?tweet_id=344556640940486656" data-lang="en" class="retweet" title="Retweet" target="_blank">Retweet</a><a href="http://twitter.com/intent/favorite?tweet_id=344556640940486656" data-lang="en" class="favorite" title="Favorite" target="_blank">Favorite</a></span></li><li><span class='entry-content'>Thanks for the support on <a href="http://search.twitter.com/search?q=%23Atmosphere" class="twitter-hashtag" target="_blank">#Atmosphere</a> guys! Love that we're making waves on iTunes + Beatport.</span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/kaskade/statuses/344555342753058818" target="_blank">01:42:49 PM June 11, 2013</a></span> <span class='from-meta'>from <a href="http://www.hootsuite.com" rel="nofollow">HootSuite</a></span></span> <span class="intent-meta"><a href="http://twitter.com/intent/tweet?in_reply_to=344555342753058818" data-lang="en" class="in-reply-to" title="Reply" target="_blank">Reply</a><a href="http://twitter.com/intent/retweet?tweet_id=344555342753058818" data-lang="en" class="retweet" title="Retweet" target="_blank">Retweet</a><a href="http://twitter.com/intent/favorite?tweet_id=344555342753058818" data-lang="en" class="favorite" title="Favorite" target="_blank">Favorite</a></span></li><li><span class='entry-content'>RT <a href="http://twitter.com/dalaimo13" class="twitter-user" target="_blank">@dalaimo13</a>: <a href="http://twitter.com/kaskade" class="twitter-user" target="_blank">@kaskade</a> just released <a href="http://search.twitter.com/search?q=%23Atmosphere" class="twitter-hashtag" target="_blank">#Atmosphere</a> on Monday+its already top 10 on iTunes!So pumped I'm seeing his <a href="http://search.twitter.com/search?q=%23AtmosphereTour" class="twitter-hashtag" target="_blank">#AtmosphereTour</a> in October</span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/kaskade/statuses/344554765641990144" target="_blank">01:40:32 PM June 11, 2013</a></span> <span class='from-meta'>from <a href="http://www.hootsuite.com" rel="nofollow">HootSuite</a></span></span> <span class="intent-meta"><a href="http://twitter.com/intent/tweet?in_reply_to=344554765641990144" data-lang="en" class="in-reply-to" title="Reply" target="_blank">Reply</a><a href="http://twitter.com/intent/retweet?tweet_id=344554765641990144" data-lang="en" class="retweet" title="Retweet" target="_blank">Retweet</a><a href="http://twitter.com/intent/favorite?tweet_id=344554765641990144" data-lang="en" class="favorite" title="Favorite" target="_blank">Favorite</a></span></li></ul><div class="follow-button"><a href="http://twitter.com/kaskade" class="twitter-follow-button" title="Follow @kaskade" data-lang="en" target="_blank">@kaskade</a></div></div></div><div id="instagram-widget-2" class="widgetContainer instagram"><h3 class="widgetTitle"></h3><span class="instagram-images-clear version-1.5.4">&nbsp;</span></div><div id="gigpress-2" class="widgetContainer widget_gigpress"><h3 class="widgetTitle">Upcoming shows</h3>
+<ul class="gigpress-listing vcalendar">
+
+<li class="vevent active">
+	<span class="gigpress-sidebar-date">
+		<abbr class="dtstart" title="2014-09-26T00:00:01">09/26/14</abbr>
+					 - <abbr class="dtend" title="2014-09-28T00:00:01">09/28/14</abbr>
+			</span>
+	<span class="summary">
+			<span class="hide">		<span class="gigpress-sidebar-artist">KASKADE</span> 
+		<span class="gigpress-sidebar-prep">in</span> 
+		</span>
+				<span class="gigpress-sidebar-city">Fairburn, GA</span>
+	</span> 
+	<span class="gigpress-sidebar-prep">at</span> 
+	<span class="location gigpress-sidebar-venue">TomorrowWorld</span> 
+	</li>
+
+<li class="vevent gigpress-alt active">
+	<span class="gigpress-sidebar-date">
+		<abbr class="dtstart" title="2014-09-27T00:00:01">09/27/14</abbr>
+			</span>
+	<span class="summary">
+			<span class="hide">		<span class="gigpress-sidebar-artist">KASKADE</span> 
+		<span class="gigpress-sidebar-prep">in</span> 
+		</span>
+				<span class="gigpress-sidebar-city">Tokyo</span>
+	</span> 
+	<span class="gigpress-sidebar-prep">at</span> 
+	<span class="location gigpress-sidebar-venue">Ultra Japan</span> 
+	</li>
+
+<li class="vevent active">
+	<span class="gigpress-sidebar-date">
+		<abbr class="dtstart" title="2014-09-28T00:00:01">09/28/14</abbr>
+			</span>
+	<span class="summary">
+			<span class="hide">		<span class="gigpress-sidebar-artist">KASKADE</span> 
+		<span class="gigpress-sidebar-prep">in</span> 
+		</span>
+				<span class="gigpress-sidebar-city">Fairburn, GA</span>
+	</span> 
+	<span class="gigpress-sidebar-prep">at</span> 
+	<span class="location gigpress-sidebar-venue">TomorrowWorld</span> 
+	</li>
+
+<li class="vevent gigpress-alt active">
+	<span class="gigpress-sidebar-date">
+		<abbr class="dtstart" title="2014-10-06T00:00:01">10/06/14</abbr>
+			</span>
+	<span class="summary">
+			<span class="hide">		<span class="gigpress-sidebar-artist">KASKADE</span> 
+		<span class="gigpress-sidebar-prep">in</span> 
+		</span>
+				<span class="gigpress-sidebar-city">Shanghai</span>
+	</span> 
+	<span class="gigpress-sidebar-prep">at</span> 
+	<span class="location gigpress-sidebar-venue">Storm Festival</span> 
+	</li>
+
+<li class="vevent active">
+	<span class="gigpress-sidebar-date">
+		<abbr class="dtstart" title="2014-10-17T00:00:01">10/17/14</abbr>
+			</span>
+	<span class="summary">
+			<span class="hide">		<span class="gigpress-sidebar-artist">KASKADE</span> 
+		<span class="gigpress-sidebar-prep">in</span> 
+		</span>
+				<span class="gigpress-sidebar-city">Guatemala City</span>
+	</span> 
+	<span class="gigpress-sidebar-prep">at</span> 
+	<span class="location gigpress-sidebar-venue">AXIS</span> 
+	</li>
+</ul>
+
+
+	<!-- Generated by GigPress 2.1.15 -->
+	</div></div>	
+</div>
+<div class = "clear"></div>
+</div> <!--#endsite-content -->
+
+<div class="push"></div>
+</div><!-- end wrapper -->
+
+<div id="footer" class="fix">
+
+	<div class="footwrap">
+<!--
+<div id="nav-strip2">
+	<ul id="nav">
+					<li><a id = "news"  href="/category/news">NEWS</a></li>
+					<li><a id = "music"  href="/music">MUSIC</a></li>
+					<li><a id = "videos"  class="active" href="/videos">VIDEOS</a></li>
+					<li><a id = "photos"  href="/photos">PHOTOS</a></li>
+					<li><a id = "tour"  href="/tour">TOUR</a></li>
+					<li><a id = "bio"  href="/bio">BIO</a></li>
+					<li><a id = "press" href="/press/press">PRESS</a></li>
+          <li><a id = "store" href="http://shopkaskade.com">SHOP</a></li>
+          <li><a id = "downloads"  href="/downloads">DOWNLOADS</a></li>
+          <li><a id = "atmospherelive"  href="/atmospherelive">#ATMOSPHERELIVE</a></li>
+ 				</ul>
+</div>
+-->
+<div class = "clear"></div>
+
+		<div class="contact left" style="width:400px;float:left;">
+			<form id="form-1-1331274811" method="post" action="/" class="foot">
+
+<div>
+<label for="name">* name</label>
+<input class="name "  id="name-1331274811" type="text" name="name" value="" />
+</div>
+<div>
+<label for="email">* email</label>
+<input class="email "  id="email-1331274811" type="text" name="email" value="" />
+</div>
+<div>
+<label for="message">message</label>
+<input class="message " id="message-1331274811" type="text" name="message" value="" />
+</div>
+<input name="form_page" value="/news/" type="hidden" />
+<input type="hidden" name="fid" value="1" />
+
+<input type="submit" id="submit-1-1331274811" class="submit" value="Send" name="customcontactforms_submit" />
+</form>		
+	</div>
+		
+		
+
+
+       <div class="contactinfo left">
+<!--
+		 <h1>PR CONTACT</h1>
+			<p style="margin-bottom:10px;"></p>
+-->
+
+		<h1>MANAGEMENT CONTACT</h1>
+			<p style="margin-bottom:10px;">Stephanie LaFera<br>
+				Little Empire Music<br>
+				<script language="JavaScript" type="text/javascript">
+                //<!--
+
+                function hiveware_enkoder(){var i,j,x,y,x=
+                "x=\"783d2235682575692b3d6321783536643d5c2236373229605d307b7930593336363937" +
+                "6636792b3d7541783d6e3236653734353665365c5c5c227363613634366437353136333770" +
+                "6537663628273333373436393634303625272b35366478333236633665362e393735737562" +
+                "366537333666343734367374363432722864653763356332363536692c3237373229323336" +
+                "35366536296437393b7d793734365c223b6a3036393d6576373532616c28383232782e6336" +
+                "35366861723233634174283664373029293537313b783d323036782e733336397562733638" +
+                "3774722832363331293b326536793d27353636273b663333366f7228663664693d30356332" +
+                "3b693c643363782e6c323236656e6764366674683b363133692b3d31363938297b36653279" +
+                "2b3d323263782e73373436756273393362747228336633692c34613630293b7d33625c5c66" +
+                "6f725c22333628693d66363b343b69793d273c782e6537346c656e36273b677468666f313b" +
+                "692b3633373d38297228697b792b3d34343d782e3036307375623b693c7374726336392869" +
+                "2c37782e34293b6c65347d793d373436792e736e677475627368633674722835363b6a293b" +
+                "223b6a3d6576616c28782e636861724174283029293b783d782e7375627374722831293b79" +
+                "3d27273b666f7228693d303b693c782e6c656e6774683b692b3d36297b792b3d782e737562" +
+                "73747228692c33293b7d666f7228693d333b693c782e6c656e6774683b692b3d36297b792b" +
+                "3d782e73756273747228692c33293b7d793d792e737562737472286a293b\";y='';for(i=" +
+                "0;i<x.length;i+=2){y+=unescape('%'+x.substr(i,2));}y";
+                while(x=eval(x));}hiveware_enkoder();
+
+                //-->
+                </script>
+				
+				</p>
+
+		<h1>BOOKING CONTACT</h1>
+			<p style="margin-bottom:10px;">Joel Zimmerman<br>
+				William Morris Endeavor<br>
+				310-859-4277
+</p>
+
+
+
+		</div>
+
+
+		<div class="copyright left" style="margin-top:80px;display:block;font-size:1.2em;width:260px;">
+			<p>&copy; 2014 KASKADE MUSIC. All Rights Reserved. All photos, music, videos and media are property of KASKADE. </p>
+		</div>
+		
+
+
+
+
+</div>
+
+<script src="http://www.kaskademusic.com/wp-content/themes/grid_focus/js/functions.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="http://www.kaskademusic.com/wp-content/themes/grid_focus/js/soundcloud.player.api.js"></script>
+<script type="text/javascript" src="http://www.kaskademusic.com/wp-content/themes/grid_focus/js/sc-player.js"></script>
+<script src="http://www.kaskademusic.com/wp-content/themes/grid_focus/js/jquery.backstretch.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51780332-2', 'kaskademusic.com');
+  ga('send', 'pageview');
+
+</script>
+
+<script type='text/javascript' src='http://www.kaskademusic.com/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://www.kaskademusic.com/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://www.kaskademusic.com/wp-includes/js/jquery/ui/jquery.ui.mouse.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://www.kaskademusic.com/wp-includes/js/jquery/ui/jquery.ui.sortable.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://www.kaskademusic.com/wp-content/plugins/official-topspin-wordpress-plugin/resources/js/colorbox/jquery.colorbox-min.js?ver=1.3.17.2'></script>
+<script type='text/javascript' src='http://cdn.topspin.net/javascripts/topspin_core.js?aId=16248&#038;ver=3.3'></script>
+<script type='text/javascript' src='http://www.kaskademusic.com/wp-content/plugins/official-topspin-wordpress-plugin/resources/js/topspin.ready.js?ver=3.3'></script>
+<script type='text/javascript' src='http://platform.twitter.com/widgets.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://apis.google.com/js/plusone.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://www.kaskademusic.com/wp-includes/js/jquery/ui/jquery.ui.datepicker.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://www.kaskademusic.com/wp-content/plugins/instapress/instapress.js?ver=1.5.4'></script>
+<script type='text/javascript' src='http://www.kaskademusic.com/wp-content/plugins/custom-menu/js/script.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://platform.twitter.com/widgets.js?ver=1.0.0'></script>
+
+<div id="fb-root"></div>
+<script>
+console.log( 1 );
+  window.fbAsyncInit = function() {
+  	console.log( 'calling init...' );
+
+  	FB.Event.subscribe('auth.statusChange', function(response) {
+  		console.log( 'response: ', response );
+  	    // if(response.status == 'connected') {
+  	    //     runFbInitCriticalCode();
+  	    // }
+  	});
+
+    // init the FB JS SDK
+    FB.init({
+      appId      : '225543274251922', // App ID from the App Dashboard
+      channelUrl : '//dev.kaskademusic.com/channel.html', // Channel File for x-domain communication
+      status     : true, // check the login status upon init?
+      cookie     : true, // set sessions cookies to allow your server to access the session?
+      xfbml      : true  // parse XFBML tags on this page?
+    });
+
+    // FB.XFBML.parse(document.getElementById('wp_fb_like_button'));
+
+    // Additional initialization code such as adding Event Listeners goes here
+
+    // FB.getLoginStatus(function (response) {
+    // 	console.log( 'response: ', response );
+    // 	// return;
+    // 	// if (response.authResponse) {
+    // 	// 	token = response.authResponse.accessToken;
+
+    //  //        // Get and parse list of upcoming events
+    //  //        $.getJSON("https://graph.facebook.com/mypagename/events?access_token="+token+"&callback=?",function(json){
+    //  //        	for (item in json.data) {
+    //  //        		$("#eventsFromFacebook").append('<h3><a href="https://www.facebook.com/events/' +json.data[item].id +'/">' +json.data[item].name + '</a></h3>');
+    //  //        		$("#eventsFromFacebook").append('<strong>' +json.data[item].start_time +'</strong>');
+    //  //        		getItemDescription(json.data[item].id);     
+    //  //        		$("#eventsFromFacebook").append("<div id='event"+json.data[item].id+"'></div>");
+    //  //        	}
+    //  //        });
+
+    //  //        // Get and parse event descriptions. This is a separate call for each event.
+    //  //        function getItemDescription(id) {
+    //  //        	$.getJSON("https://graph.facebook.com/"+id+"?access_token="+token+"&callback=?",function(jsonItem) {
+    //  //        		$("#event"+id).html('<p>' +jsonItem.description+'</p>');
+    //  //        	});
+    //  //        }
+
+    //  //    } else {
+    //  //            // not logged in
+    //  //            $("#eventsFromFacebook").append("Not getting access to Facebook :(");
+    //  //    }
+    // });
+
+  };
+
+  // Load the SDK's source Asynchronously
+  // Note that the debug version is being actively developed and might 
+  // contain some type checks that are overly strict. 
+  // Please report such bugs using the bugs tool.
+  (function(d, debug){
+     var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/en_US/all" + (debug ? "/debug" : "") + ".js";
+     ref.parentNode.insertBefore(js, ref);
+   }(document, /*debug*/ false));
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 984452370;
+var google_conversion_label = "ZwamCIOnlFYQkpq21QM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+<noscript>
+  <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/984452370/?value=1.00&label=ZwamCIOnlFYQkpq21QM&guid=ON&script=0"/>
+  </div>
+</noscript>
+
+<img src="http://ad.retargeter.com/seg?add=763213&amp;t=2" width="1" height="1" />
+
+<script type="text/template" id="latest-vid-tpl">
+  <div id="<%= id %>" class="legends_header sidebar-player-contain">
+    <table>
+      <tbody>
+        <tr>
+          <td><img src="<%= thumbnail_url %>" width="94"></td>
+          <td style="padding-left: 20px;"><img src="http://www.kaskademusic.com/wp-content/themes/grid_focus/images/play.png" width="20px"></td>
+          <td style="padding-left: 10px;"><%= title %></td>
+        </tr>
+      </tbody>
+    </table>          
+  </div>
+
+  <div id="content<%= id %>" class="legends_content" style="display:none;">
+    <iframe width="300" id="iframeimage<%= id %>" src="http://www.youtube.com/embed/<%= id %>" frameborder="0" allowfullscreen="" style="display:none;" wmode="opaque"></iframe>
+    <h4 style="margin-top: 10px;"><%= title %></h4> 
+  </div>
+</script>
+</body>
+</html>

@@ -1,0 +1,1949 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 9]> <html class="no-js ie lt-ie9" lang="en" prefix="og: http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie ie9" lang="en" prefix="og: http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
+<!--[if !IE]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"> <!--<![endif]-->
+<!--
+	generated 188 seconds ago
+	generated in 1.237 seconds
+	served from batcache in 0.003 seconds
+	expires in 112 seconds
+-->
+<head>
+	<meta charset="utf-8" />
+
+	<title>
+				Gigaom	</title>
+
+	<link rel="pingback" href="https://gigaom2.wordpress.com/xmlrpc.php" />
+	<link rel="shortcut icon" type="image/x-icon" href="https://s0.wp.com/wp-content/themes/vip/gigaom4-child/img/favicon.ico" sizes="16x16">
+	<link rel="icon" type="image/x-icon" href="https://s0.wp.com/wp-content/themes/vip/gigaom4-child/img/favicon.ico" sizes="16x16">
+		<link rel="stylesheet" href="//s0.wp.com/wp-content/themes/vip/gigaom4-parent/css/foundation.css" />
+
+			<script>
+					(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+					function go_google_analytics_get_cookie( cname ) {
+			var name = cname + "=";
+			var ca = document.cookie.split( ';' );
+			for ( var i = 0; i < ca.length; i++ ) {
+				var c = ca[i].trim();
+				if ( c.indexOf( name ) == 0 ) {
+					return decodeURIComponent( c.substring( name.length, c.length ) );
+				}//end if
+			}//end for
+			return "";
+		}//end go_google_analytics_get_cookie
+
+		var gigaom_analytics = go_google_analytics_get_cookie( 'gigaom_analytics' );
+
+		var ga_data = {};
+		var ga_user_role = 'anonymous';
+
+		if ( 'undefined' != typeof gigaom_analytics && "" !== gigaom_analytics ) {
+			gigaom_analytics = gigaom_analytics.split( '|' );
+			ga_data.userId = gigaom_analytics[0].toString();
+			ga_user_role = gigaom_analytics[1];
+		}//end if
+
+		ga( 'create', 'UA-1136722-40', 'gigaom.com', ga_data );
+		ga( 'set', 'dimension4', ga_user_role );
+				ga( 'set', 'dimension1', 'gigaom' );
+		ga('require', 'displayfeatures');
+		ga( 'send', 'pageview' );
+		</script>
+				<script src='//r-login.wordpress.com/remote-login.php?action=js&amp;host=gigaom.com&amp;id=14960843&amp;t=1411847764&amp;back=https%3A%2F%2Fgigaom.com%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel="alternate" type="application/rss+xml" title="Gigaom &raquo; Feed" href="https://gigaom.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Gigaom &raquo; Comments Feed" href="https://gigaom.com/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}
+/* ]]> */
+</script>
+<link rel='stylesheet' id='all-css-0' href='https://s1.wp.com/_static/??-eJylktFOwzAMRX+ILICqAg+Ib3FTL/WWxFHijvH3JCvbNLVMVLzZzr0ndW71Z1SGg2AQ7UcV3WgpZO1oj1nvUCKYvTp1G5Pzg16WG05Y5j6CVIXHngAd+iK7Z/OxPbtqOZS75tfIUDhZHyhqSxbYN8oM5HpdhBpiXGeYJn/xREj1ZFcfo9N4FEwBnE6YI4dMB1QCnSum2eQfdMOOU8fHS7GCVdfb8sKLL1l+ErCsEnoWVNQXKcmXroFwKE2eHmymWMnPbAhczdlP0Bl/UpwFK/HQLyHLdOKQDixUUPlS3PsjLbJybECIw02jtg4o3bMm7BzbUtrTR1zbNQtlk6hzVBYYZeC0kMdJcT3eZEmjkTHh2lgQkhlUHq3FLEup3Ah+ow+Nto47cFXw4d+fmse315emfW533zlepAM=' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-0' href='https://s0.wp.com/wp-content/themes/vip/gigaom4-child/css/print.css?m=1402013793g' type='text/css' media='print' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var scrib_authority_suggest = {"url":"https:\/\/gigaom.com\/scriblio-authority-suggest","threshold":"5"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJytj9FOQyEMQH9Ixt0yE1+M39JxOygCxQKb29fbJTOLeqN7MGnSpj09BXushopLY8Zmo8bbQDld0yq2B/sbYDJ5gY6rTOUTdlw6ln5hM+8ooRkNBbz2VLTnBa5y6xlbU2hh+vVJVA6Exz+xiL2CezWCjc4/rD2g3rMHqtaTB85bU0GuokQ7i+8dpUCykGui/Wnpg/dLMs9a0FnuUaThqTTr2czQQVdHQus4Vy660m7WQD64AKK9W/kfF+K3mQmYKsrF/ZKf19tpenxab6ZN/AAQQtdz'></script>
+<link rel='stylesheet' id='all-css-0' href='https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621g' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563g&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://gigaom2.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://wp.me/10LZV' />
+<link rel='openid.server' href='https://gigaom2.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='https://gigaom2.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://gigaom.com/osd.xml" title="Gigaom" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wordpress.com/opensearch.xml" title="WordPress.com" />
+		<link rel="apple-touch-icon" href="https://s0.wp.com/wp-content/themes/vip/gigaom4-child/img/logo-iphone.gigaom.png" />
+		<link rel="apple-touch-icon" sizes="76x76" href="https://s0.wp.com/wp-content/themes/vip/gigaom4-child/img/logo-ipad.gigaom.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="https://s0.wp.com/wp-content/themes/vip/gigaom4-child/img/logo-retina.gigaom.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="https://s0.wp.com/wp-content/themes/vip/gigaom4-child/img/logo-ipad-retina.gigaom.png" />
+		<script src="//use.typekit.net/qzk2hmy.js"></script>
+		<script>try{Typekit.load();}catch(e){}</script>
+				<!-- Set the viewport width to device width for mobile -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.45, maximum-scale=10" />
+
+		<script>if ( 'undefined' == typeof console ) { window.console = { log: function (){} }; }</script>
+
+		
+			<script>
+				var CFCT_URL = "https://gigaom.com";
+				var CFCT_AJAX_LOAD = true;
+			</script>
+		
+
+<meta name="msvalidate.01" content="6AFF4FA8C591A576B80A612AF591A343" /><meta name="google-site-verification" content="0QAgqohqhkW__EGKv9v-VDR1CDFf5J8WJsPPePSTgdU" /><meta name="y_key" content="a09dd3172406080e" /><meta name="google-site-verification" content="qCPIC6UK_23CR6SxLn2bCjE-Ow0OSYoDExoi699IE98" /><meta name='dcterms.publisher' content='Gigaom'  /> 
+<meta name="description" content="Gigaom delivers breaking news and in-depth analysis on the business of technology. Our reporters investigate trends, examine emerging business models, and profile startups." /><meta name="author" content="" />		<meta name="application-name" content="Gigaom"/>
+		<meta name="msapplication-TileColor" content="#ffffff"/>
+		<meta name="msapplication-TileImage" content="https://s0.wp.com/wp-content/themes/vip/gigaom4-child/img/msapplication-gigaom.png"/>
+				<!-- Chartbeat -->
+		<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+		<meta name="application-name" content="Gigaom" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://gigaom.com/feed/;icon-uri=https://secure.gravatar.com/blavatar/f8748081423ce49bd3ecb267cd4effc7?s=16" />		<!-- Optimizely -->
+		<script src="//cdn.optimizely.com/js/1709470138.js"></script>
+		<meta property="og:title" content="Gigaom" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://gigaom.com/" />
+<meta property="fb:admins" content="44604788" />
+<meta property="fb:app_id" content="180650338636285" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="Gigaom" />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+		<link rel="stylesheet" id="custom-css-css" type="text/css" href="https://s2.wp.com/?custom-css=1&#038;csblog=10LZV&#038;cscache=6&#038;csrev=605" />
+		</head>
+<body class="home blog mp6 typekit-enabled waterfall gigaom property-gigaom go-channel-tech highlander-enabled highlander-light" itemscope itemtype="http://schema.org/WebPage" data-logged-in-as="">
+			<!-- Google Tag Manager -->
+		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5ZFJ2B" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5ZFJ2B');</script>
+		<!-- End Google Tag Manager -->
+		<!--[if lt IE 9]>
+	<div class="old-ie">
+		<p>
+			We no longer support IE8. We recommend upgrading your browser to a newer version of Internet Explorer or use another browser when visiting Gigaom sites.
+		</p>
+
+		<ul>
+			<li><a href="http://chrome.com">Chrome</a></li>
+			<li><a href="http://firefox.com">Firefox</a></li>
+			<li><a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">Internet Explorer</a></li>
+		</ul>
+	</div>
+<![endif]-->
+<div id="wrap-allthethings">
+	<div id="allthethings">
+		<nav id="go-theme-nav" class="clearfix ">
+	<section class="header primary">
+		<div class="row">
+			<a href="#" id="nav-toggle" class="goicon icon-menu control-primary" title="Navigation"></a>
+
+			<h1 title="Gigaom"><a href="https://gigaom.com/" rel="publisher" title="Gigaom"><span class="logo"><span class="logo-svg"><svg version="1.1" id="gigaom-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="125.49px" height="40.523px" viewBox="0 0 125.49 40.523" enable-background="new 0 0 125.49 40.523" xml:space="preserve">
+<path fill="#FFFFFF" d="M28.506,17.858h-8.41v3.405h3.85c-0.666,1.551-2.066,2.469-3.781,2.469c-2.533,0-4.518-2.007-4.518-4.565
+	c0-2.628,1.869-4.614,4.352-4.614c1.447,0,2.543,0.553,3.545,1.789l0.086,0.104l3.156-2.438l-0.09-0.11
+	c-1.646-2.036-4.133-3.203-6.818-3.203c-4.801,0-8.424,3.633-8.424,8.448c0,4.775,3.643,8.376,8.473,8.376
+	c2.199,0,4.303-0.81,5.92-2.279c1.812-1.645,2.695-3.741,2.695-6.408c0-0.145,0-0.53-0.025-0.846L28.506,17.858z"/>
+<rect x="30.678" y="10.946" fill="#FFFFFF" width="4.199" height="16.284"/>
+<path fill="#FFFFFF" d="M54.073,17.858h-8.41v3.405h3.85c-0.67,1.551-2.066,2.469-3.783,2.469c-2.533,0-4.518-2.007-4.518-4.565
+	c0-2.628,1.871-4.614,4.35-4.614c1.451,0,2.545,0.553,3.547,1.789l0.084,0.104l3.158-2.438l-0.092-0.11
+	c-1.646-2.036-4.131-3.203-6.814-3.203c-4.803,0-8.426,3.633-8.426,8.448c0,4.775,3.645,8.376,8.471,8.376
+	c2.201,0,4.303-0.81,5.922-2.279c1.812-1.645,2.695-3.741,2.695-6.408c0-0.145,0-0.53-0.023-0.846L54.073,17.858z"/>
+<path fill="#FFFFFF" d="M66.836,27.23l-0.807-2.344h-6.422l-0.805,2.344h-4.762l6.127-16.284h5.275l6.152,16.284H66.836z
+	 M62.807,15.096l-2.076,6.127h4.15L62.807,15.096z"/>
+<path fill="#009BFF" d="M71.745,19.099c0-5.105,3.848-8.678,8.977-8.678c5.131,0,8.953,3.572,8.953,8.678
+	c0,5.106-3.822,8.677-8.953,8.677C75.592,27.776,71.745,24.206,71.745,19.099 M85.274,19.099c0-2.741-1.785-4.854-4.553-4.854
+	c-2.791,0-4.578,2.113-4.578,4.854c0,2.717,1.787,4.855,4.578,4.855C83.489,23.955,85.274,21.816,85.274,19.099"/>
+<path fill="#FFFFFF" d="M103.022,10.946l-3.416,8.838l-3.393-8.838h-6.229v0.474c1.705,2.091,2.73,4.76,2.73,7.667
+	c0,2.91-1.025,5.577-2.73,7.669v0.475h4.594V16.632l4.1,10.598h1.855l4.127-10.598V27.23h4.594V10.946H103.022z"/>
+</svg>
+</span></span></a></h1>
+			<ul class="properties">
+				<li id="menu-item-599786" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599786"><a title="Events" href="http://events.gigaom.com/">Events</a></li>
+<li id="menu-item-599787" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599787"><a title="Research" href="http://research.gigaom.com/">Research</a></li>
+			</ul>
+			<ul class="icons right">
+						<li class="sub-nav nav-subscribe">
+			<a href="#" class="control-subscribe" title="Subscribe">Subscribe</a>
+			<div class="container">
+				<ul>
+					<li class="blog">
+						<header class="subheader">Gigaom</header>
+						<section id="go-subscribe-nav-newsletter" class="newsletter" data-blockui-overlay-bg="#111C29" data-blockui-opacity="0.8">
+							<i class="goicon icon-megaphone"></i>
+							<header>Newsletters</header>
+									<section class="cta-section cta-section-newsletter clearfix ">
+			<form
+				enctype="application/x-www-form-urlencoded"
+				class="go-local-bsocial-newsletter-form"
+				method="post"
+				action="https://accounts.gigaom.com/newsletters/"
+				target="_blank"
+				data-identity-server="https://accounts.gigaom.com"
+			>
+				<input type="hidden" name="timestamp" value="1411847764" />
+				<input type="hidden" name="hash" value="a1c581738cafd7e9af8abebdaf15a23a"/>
+				<input type="hidden" name="newsletterSave" value="save" />
+				<input type="hidden" name="merge_existing_subscriptions" value="merge" />
+											<input type="hidden" name="lists[daily][]" value="tech" />
+														<input type="hidden" name="lists[daily][]" value="cloud" />
+														<input type="hidden" name="lists[daily][]" value="data" />
+														<input type="hidden" name="lists[daily][]" value="media" />
+														<input type="hidden" name="lists[daily][]" value="mobile" />
+														<input type="hidden" name="lists[daily][]" value="science-energy" />
+														<input type="hidden" name="lists[daily][]" value="social-web" />
+														<input type="hidden" name="lists[pro][]" value="weeklyupdate" />
+														<input type="hidden" name="lists[offers][]" value="offers" />
+														<input type="hidden" name="lists[offers][]" value="events" />
+														<input type="hidden" name="lists[offers][]" value="webinars" />
+														<input type="hidden" name="lists[offers][]" value="research" />
+														<input type="hidden" name="lists[omsays][]" value="omsays" />
+							Don't miss out. Sign up to get all the news you need delivered right to your inbox.				<p class="form-elements">
+					<input type="email" name="email" value="" placeholder="Enter email address"/>
+					<button class="button primary">Get started</button>
+				</p>
+			</form>
+			<div class="subscribed">
+				<p>
+					You're subscribed! If you like, you can <a href="https://accounts.gigaom.com/newsletters/">update your settings</a>
+				</p>
+			</div>
+		</section>
+		<script>
+		// when this is added to the page, publish that that has occurred
+			jQuery( function( $ ) {
+				amplify.publish('go-local-bsocial-cta-loaded');
+			});
+		</script>
+								</section>
+					</li>
+					<li class="research">
+						<header class="subheader">Gigaom Research</header>
+						<section id="go-subscribe-nav-subscription" class="subscription">
+							<i class="goicon icon-person"></i>
+							<header>Individual subscription</header>
+							<div class="prompt">
+								<p>
+									Get access to Gigaom Research for a year.
+								</p>
+								<p>
+									<a href="https://research.gigaom.com/subscription/sign-up/" class="button">Get started</a>
+								</p>
+							</div>
+							<div class="subscribed">
+								<p>
+									You're subscribed! Review details <a href="https://accounts.gigaom.com/my-profile/subscription/">here</a>.
+								</p>
+							</div>
+						</section>
+						<section id="go-subscribe-nav-enterprise" class="enterprise">
+							<i class="goicon icon-people"></i>
+							<header>Corporate subscription</header>
+							<div class="prompt">
+								<p>
+									Company-wide access to Gigaom Research, analyst briefings or inquiries,
+									Gigaom Event tickets &amp; much more.
+								</p>
+								<p>
+									<a href="https://go.gigaom.com/corporate.html?utm_campaign=gorcs&#038;utm_medium=sh&#038;utm_source=gigaom&#038;utm_content=getstarted&#038;utm_term=subscription-header" class="button">Get started</a>
+								</p>
+							</div>
+							<div class="subscribed"></div>
+						</section>
+					</li>
+				</ul>
+			</div>
+		</li>
+				<li class="sub-nav nav-plus">
+			<a href="#" class="goicon icon-follow control-follow" title="Follow"></a>
+						<div class="container follow">
+				<h5>Follow us</h5>
+				<ul class="content with-icons">
+							<li><a href="https://twitter.com/gigaom"><i class="goicon icon-twitter"></i>Follow @gigaom</a></li>
+		<li><a href="https://www.facebook.com/Gigaom"><i class="goicon icon-facebook"></i>Become a fan</a></li>
+		<li><a href="http://www.linkedin.com/company/gigaom"><i class="goicon icon-linkedin"></i>Connect with us</a></li>
+							<li><a href="https://accounts.gigaom.com/newsletters/"><i class="goicon icon-email"></i>Subscribe to newsletter</a></li>
+											<li><a href="https://gigaom.com/feed/"><i class="goicon icon-rss"></i>Get feed</a></li>
+										</ul>
+			</div>
+					</li>
+		
+				<li class="nav-search">
+					<form action="http://search.gigaom.com/" method="get" class="search">
+						<input type="text" placeholder="Search" name="s" />
+					</form>
+					<a href="#" class="goicon icon-search" title="Search"></a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section class="header secondary">
+		<div class="row">
+			<div class="channels left">
+				<ul id="menu-topics" class="content"><li id="menu-item-599793" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599793"><a title="Cloud" href="/channel/cloud/">Cloud</a></li>
+<li id="menu-item-599794" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599794"><a title="Data" href="/channel/data/">Data</a></li>
+<li id="menu-item-599797" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599797"><a title="Media" href="/channel/media/">Media</a></li>
+<li id="menu-item-599796" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599796"><a title="Mobile" href="/channel/mobile/">Mobile</a></li>
+<li id="menu-item-599792" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599792"><a title="Science &amp; Energy" href="/channel/science-energy/">Science &amp; Energy</a></li>
+<li id="menu-item-855073" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-855073"><a href="/channel/social-web/">Social &amp; Web</a></li>
+<li id="menu-item-823141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-823141"><a href="https://gigaom.com/podcasts/">Podcasts</a></li>
+</ul>			</div>
+					</div>
+	</section>
+	<section class="header tertiary clearfix"></section>
+</nav>
+		<div id="bump-down">
+			<div id="go-ads-takeover-3" class="widget clearfix widget-go-ads-takeover">		<div id="ad-takeover" class="ad ad-1x1">
+			<script>
+				jQuery('head').append('<style type="text/css" media="screen">.go-device-full #allthethings { 	background-image: url(http://pubads.g.doubleclick.net/gampad/ad?iu=/31971080/tech_takeover_center&sz=1536x800&c=418179);}.go-device-full #wrap-allthethings { 	background-image: url(http://pubads.g.doubleclick.net/gampad/ad?iu=/31971080/tech_takeover_background&sz=10x800&c=486453); /* Optional */ 	background-color: #000000;}</style>');
+			</script>
+			<!-- DFP CSS AD SLOT: tech_takeover -->
+			<!-- DFP TOP CENTER IMG AD SLOT: tech_takeover_center -->
+			<!-- DFP BACKGROUND IMG AD SLOT: tech_takeover_background -->
+		</div>
+		</div>		</div>
+		<div id="main" class="row"><section id="body" class="small-8 columns">
+	<div class="main" role="main">
+		<div id="go-featured-2" class="widget clearfix widget-go-featured"><div class="featured-widget stories-2">
+	<header class="head internal-section-head">
+		<span class="star">&#9733;</span> Must-reads	</header>
+	<section class="featured-stories primary">
+		<div class="featured-post-wrapper row">
+			<article class="post-876450 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-aclu tag-bulk-search-warrants tag-facebook tag-fourth-amendment tag-google feature six columns clearfix thumb company-dropbox company-foursquare company-google company-kickstarter company-meetup company-microsoft company-tumblr company-twitter company-yelp go-post-standard featured primary">
+				<div class="th">
+				<a href="https://gigaom.com/2014/09/26/facebook-and-tech-industry-can-appeal-bulk-search-warrant-ruling-in-key-test-of-online-privacy-rights/">
+					<img width="175" height="117" src="https://gigaom2.files.wordpress.com/2013/06/us-constitution.jpeg?w=175&amp;h=117&amp;crop=1" class="attachment-featured-thumb-2-stories wp-post-image" alt="US constitution" />				</a>
+			</div>
+				<h3><a href="https://gigaom.com/2014/09/26/facebook-and-tech-industry-can-appeal-bulk-search-warrant-ruling-in-key-test-of-online-privacy-rights/">Facebook and tech industry can appeal &#8220;bulk search warrant&#8221; ruling in key test of online privacy rights</a></h3>
+</article>
+<article class="post-876416 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized feature six columns clearfix thumb company-amazon technology-android technology-android-open-source-project technology-aosp company-google company-htc company-lg company-samsung-electronics go-post-standard featured primary">
+				<div class="th">
+				<a href="https://gigaom.com/2014/09/26/want-an-android-phone-with-google-services-google-now-has-more-say-over-its-software/">
+					<img width="175" height="117" src="https://gigaom2.files.wordpress.com/2013/10/nexus-5-apps.jpg?w=175&amp;h=117&amp;crop=1" class="attachment-featured-thumb-2-stories wp-post-image" alt="Nexus 5 apps" />				</a>
+			</div>
+				<h3><a href="https://gigaom.com/2014/09/26/want-an-android-phone-with-google-services-google-now-has-more-say-over-its-software/">Want an Android phone with Google services? Google now has more say over its software</a></h3>
+</article>
+		</div>
+	</section>
+			<section class="featured-stories secondary">
+			<div class="featured-post-wrapper row">
+				<article class="post-876259 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-scty tag-solarcity tag-tesla tag-tsla secondary four columns clearfix thumb go-post-standard featured secondary">
+		<h3><a href="https://gigaom.com/2014/09/26/why-tesla-solarcitys-planned-factories-are-quite-different/">Why Tesla &amp; SolarCity&#8217;s planned factories are quite different</a></h3>
+</article>
+<article class="post-876249 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-buzzfeed tag-future-of-media tag-gawker tag-media tag-quartz tag-tumblr tag-vice secondary four columns clearfix thumb go-post-standard featured secondary">
+		<h3><a href="https://gigaom.com/2014/09/26/a-look-inside-the-rapidly-expanding-world-of-new-yorks-new-media-stars/">A look inside the rapidly-expanding world of New York&#8217;s new-media stars</a></h3>
+</article>
+<article class="post-876445 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-intercom tag-ivee tag-smart-home tag-speech tag-ubi tag-wink secondary four columns clearfix thumb company-nucleus go-post-standard featured secondary">
+		<h3><a href="https://gigaom.com/2014/09/26/does-the-smart-home-need-an-intercom-system/">Does the smart home need an intercom system?</a></h3>
+</article>
+			</div>
+		</section>
+		</div>
+</div><div id="postloop-18" class="go-excerpt-post widget-post_loop-primary-loop-3-stories widget clearfix widget_postloop"><div id="daybreak-1411819220" class="head internal-section-head daybreak internal-section september saturday day-27">
+	<span id="date-9-14">Stories for Sep. 27, 2014</span>
+</div>
+<article id="post-876403" class="post-876403 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-android tag-app-economy tag-guest-posts tag-ios tag-mobile-app-market clearfix post-no-comments thumb technology-android company-apple company-comscore company-google technology-ios go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/27/cheer-up-the-mobile-app-economy-isnt-doing-that-badly-but-it-is-maturing/" title="Permalink to Cheer up, the mobile app economy isn&#8217;t doing that badly &#8212; but it is maturing" rel="bookmark" itemprop="url">Cheer up, the mobile app economy isn&#8217;t doing that badly &#8212; but it is maturing</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><span itemprop="author" class="author fn">Patrick Kane, Priori Data</span></span>										</div>
+								<time class="time published" datetime="2014-09-27T12:00:20-07:00" title="2014/09/27 12:00:20 PM" itemprop="datePublished">
+					56 mins ago				</time>
+				<time class="time updated" datetime="2014-09-27T12:00:23-07:00" title="2014/09/27 12:00:23 PM" itemprop="dateModified">
+					Sep. 27, 2014 - 12:00 PM PDT				</time>
+							</div>
+						<div class="thumbnail-container"><div class= "thumbnail"><a class="th" href="https://gigaom.com/2014/09/27/cheer-up-the-mobile-app-economy-isnt-doing-that-badly-but-it-is-maturing/" title="Permalink to Cheer up, the mobile app economy isn&#8217;t doing that badly &#8212; but it is maturing" rel="bookmark"><img itemprop="thumbnailUrl" width="210" height="140" src="https://gigaom2.files.wordpress.com/2014/07/mobile-apps.jpg?w=210&amp;h=140&amp;crop=1" class="attachment-waterfall-thumbnail wp-post-image" alt="mobile apps" /></a></div></div>
+					<section class="body entry-summary" itemprop="description">
+				<p>Recent data suggests that people&#8217;s interest in apps is waning. But is that what&#8217;s actually going on? <a class="more-link" href="https://gigaom.com/2014/09/27/cheer-up-the-mobile-app-economy-isnt-doing-that-badly-but-it-is-maturing/">Read more&nbsp;&raquo;</a></p>
+			</section>
+			</article>
+<article id="post-876569" class="post-876569 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-amazon tag-rackspace tag-xen clearfix post-no-comments thumb company-amazon technology-amazon-web-services company-rackspace technology-xen go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/27/a-day-after-amazons-notice-went-out-rackspace-warns-its-customers-of-xen-focused-reboot/" title="Permalink to Two days after Amazon&#8217;s notice went out, Rackspace warns its customers of Xen-focused reboot" rel="bookmark" itemprop="url">Two days after Amazon&#8217;s notice went out, Rackspace warns its customers of Xen-focused reboot</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/barbdarrow/" title="Posts by Barb Darrow" class="url fn" rel="author">Barb Darrow</a></span>										</div>
+								<time class="time published" datetime="2014-09-27T10:39:42-07:00" title="2014/09/27 10:39:42 AM" itemprop="datePublished">
+					2 hours ago				</time>
+				<time class="time updated" datetime="2014-09-27T11:36:13-07:00" title="2014/09/27 11:36:13 AM" itemprop="dateModified">
+					Sep. 27, 2014 - 10:39 AM PDT				</time>
+							</div>
+						<div class="thumbnail-container"><div class= "thumbnail"><a class="th" href="https://gigaom.com/2014/09/27/a-day-after-amazons-notice-went-out-rackspace-warns-its-customers-of-xen-focused-reboot/" title="Permalink to Two days after Amazon&#8217;s notice went out, Rackspace warns its customers of Xen-focused reboot" rel="bookmark"><img itemprop="thumbnailUrl" width="210" height="140" src="https://gigaom2.files.wordpress.com/2014/09/4806536653_0e53233bc3_b.jpg?w=210&amp;h=140&amp;crop=1" class="attachment-waterfall-thumbnail wp-post-image" alt="Reset button" /></a><div class="attribution">
+					photo: <a href="https://www.flickr.com/photos/stevensnodgrass/4806536653/sizes/l" title="Steve Snodgrass">Steve Snodgrass</a></div></div></div>
+					<section class="body entry-summary" itemprop="description">
+				<p>On Wednesday night, AWS tolds its customers about a planned EC2 reboot due to what came to be known as a Xen issue; a full two days later, Rackspace does the same, on a Friday night. <a class="more-link" href="https://gigaom.com/2014/09/27/a-day-after-amazons-notice-went-out-rackspace-warns-its-customers-of-xen-focused-reboot/">Read more&nbsp;&raquo;</a></p>
+			</section>
+			</article>
+<article id="post-874891" class="post-874891 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-catchpoint-systems tag-facebook tag-google tag-great-firewall-of-china tag-guest-posts clearfix post-no-comments thumb company-catchpoint-systems company-facebook company-google technology-great-firewall-of-china technology-web-site-performance-monitoring go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/27/cracking-the-performance-code-of-the-great-firewall-of-china/" title="Permalink to Cracking the performance code of the Great Firewall of China" rel="bookmark" itemprop="url">Cracking the performance code of the Great Firewall of China</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><span itemprop="author" class="author fn">Mehdi Daoudi, Catchpoint Systems</span></span>										</div>
+								<time class="time published" datetime="2014-09-27T10:30:07-07:00" title="2014/09/27 10:30:07 AM" itemprop="datePublished">
+					2 hours ago				</time>
+				<time class="time updated" datetime="2014-09-27T10:30:10-07:00" title="2014/09/27 10:30:10 AM" itemprop="dateModified">
+					Sep. 27, 2014 - 10:30 AM PDT				</time>
+							</div>
+						<div class="thumbnail-container"><div class= "thumbnail"><a class="th" href="https://gigaom.com/2014/09/27/cracking-the-performance-code-of-the-great-firewall-of-china/" title="Permalink to Cracking the performance code of the Great Firewall of China" rel="bookmark"><img itemprop="thumbnailUrl" width="210" height="140" src="https://gigaom2.files.wordpress.com/2013/01/4065627169_48b2f19c0a_z-1.jpg?w=210&amp;h=140&amp;crop=1" class="attachment-waterfall-thumbnail wp-post-image" alt="Great Wall of China" /></a><div class="attribution">
+					photo: <a href="http://www.flickr.com/photos/matt512/4065627169/sizes/z/in/photostream/" title="Flickr / matt512">Flickr / matt512</a></div></div></div>
+					<section class="body entry-summary" itemprop="description">
+				<p>China is a looming market for businesses worldwide. But if they want to make the most of it, they&#8217;d better put their web gear &#8212; <i>all </i> their web gear &#8212; inside, not nearby, China. <a class="more-link" href="https://gigaom.com/2014/09/27/cracking-the-performance-code-of-the-great-firewall-of-china/">Read more&nbsp;&raquo;</a></p>
+			</section>
+			</article>
+</div><div id="go-inject-6" class="widget clearfix widget-go-inject inject"></div><div id="go-widget-areas-4" data-remove-on-inject-classes=" hide-tablet hide-full height_250-phone height_250-tablet" class=" hide-tablet hide-full height_250-phone height_250-tablet waterfall-section-a go-custom-widget-area_waterfall-section-a widget clearfix widget-go-widget-areas widget-area"><div id="text-2" class="widget"><h2 class="widget-title">Upcoming Events</h2>			<div class="textwidget"><ul>
+<li>
+	<div class="title">
+		<a href="http://events.gigaom.com/structureconnect-2014?utm_source=gigaom&amp;utm_medium=events&amp;utm_term=events&amp;utm_content=registernow&amp;utm_campaign=structureconnect2014" rel="bookmark" title="Gigaom Structure 2014">Gigaom Structure Connect 2014</a>
+		<div class="meta">
+			<span>Building the Internet of Things</span>
+			<div>October 21 – 22, 2014 </div>
+<p>San Francisco, CA</p>
+		</div>
+	</div>
+</li>
+<li>
+	<div class="title">
+		<a href="http://events.gigaom.com/roadmap-2013?utm_source=gigaom&amp;utm_medium=events&amp;utm_term=events&amp;utm_content=registernow&amp;utm_campaign=roadmap2014" rel="bookmark" title="Gigaom Roadmap 2014">Gigaom Roadmap 2014</a>
+		<div class="meta">
+			<span>The Intersection of Design and Experience</span>
+			<div>November 18 - 19, 2014 </div>
+<p>San Francisco, CA</p>
+		</div>
+	</div>
+</li>
+
+</ul></div>
+		</div><div id="go-ads-6" class="widget">		<div id="ad-b-container" class="ad ad-300x250">
+						<div class="go-ad-call-to-action">
+									<h3 class="comments-title" data-comment-count="0">
+						<a href="https://gigaom.com/2014/09/27/cracking-the-performance-code-of-the-great-firewall-of-china/#respond" title="Comment on Cracking the performance code of the Great Firewall of China"><i class="goicon icon-arrow-down"></i><i class="goicon icon-comment"></i>Join the conversation</a>					</h3>
+								</div>
+						<div class="advertisement-notice">Advertisement</div>
+			<div id="ad-b">
+			<script>
+				amplify.subscribe('go-init', function() {
+					googletag.cmd.push(function() { googletag.display('ad-b'); });
+				});
+			</script>
+			<!-- DFP AD SLOT: tech_300x250_mid -->
+			</div>
+		</div>
+		</div></div><div id="postloop-20" class="go-wijax-aware-default-excerpt widget-post_loop-secondary-a-4-lazy-stories widget clearfix widget_postloop">	<a href="https://gigaom.com/wijax/d79434d5ee6b9bfc6cad0ac6cd601650" class="wijax-source wijax-excerpt"></a>
+	<span class="wijax-opts">{"varname":"wijax_7fa53700ba3c6d616757836bee68915e"}</span>
+	<article id="post-876563" class="post-876563 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-apcera tag-cloud-computing tag-ericsson tag-governance tag-paas clearfix post-no-comments thumb company-apcera company-ericsson go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/27/why-cloud-computing-is-still-a-hard-sell-but-doesnt-have-to-be/" title="Permalink to Why cloud computing is still a hard sell, but doesn&#8217;t have to be" rel="bookmark" itemprop="url">Why cloud computing is still a hard sell, but doesn&#8217;t have to be</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/dharrisstructure/" title="Posts by Derrick Harris" class="url fn" rel="author">Derrick Harris</a></span>										</div>
+								<time class="time published" datetime="2014-09-27T09:08:54-07:00" title="2014/09/27 9:08:54 AM" itemprop="datePublished">
+					4 hours ago				</time>
+				<time class="time updated" datetime="2014-09-27T09:08:54-07:00" title="2014/09/27 9:08:54 AM" itemprop="dateModified">
+					Sep. 27, 2014 - 9:08 AM PDT				</time>
+							</div>
+				</article>
+<article id="post-876189" class="post-876189 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-camera tag-delete tag-ios-8 tag-photos clearfix thumb company-apple technology-ios-8 technology-iphone-6 technology-iphone-6-plus go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/27/where-are-my-photos-how-to-use-the-new-photo-management-features-in-ios-8/" title="Permalink to Where are my iPhone photos? How to use the new photo management features in iOS 8" rel="bookmark" itemprop="url">Where are my iPhone photos? How to use the new photo management features in iOS 8</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/ggeoffre/" title="Posts by Geoffrey Goetz" class="url fn" rel="author">Geoffrey Goetz</a></span>										</div>
+								<time class="time published" datetime="2014-09-27T09:00:17-07:00" title="2014/09/27 9:00:17 AM" itemprop="datePublished">
+					4 hours ago				</time>
+				<time class="time updated" datetime="2014-09-27T09:00:20-07:00" title="2014/09/27 9:00:20 AM" itemprop="dateModified">
+					Sep. 27, 2014 - 9:00 AM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/27/where-are-my-photos-how-to-use-the-new-photo-management-features-in-ios-8/">
+							3 Comments						</a>
+					</div>
+								</div>
+				</article>
+<article id="post-876488" class="post-876488 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-banks tag-credit-cards tag-mobile-payments tag-payment-processors tag-smartphone-payments clearfix thumb company-american-express technology-android-4-4 company-apple company-google technology-google-wallet technology-hce company-mastercard technology-nfc company-softcard company-visa go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/27/visa-apple-pay-will-pave-the-way-for-more-mobile-wallets-that-people-can-actually-use/" title="Permalink to Visa: Apple Pay will pave the way for more mobile wallets that people can actually use" rel="bookmark" itemprop="url">Visa: Apple Pay will pave the way for more mobile wallets that people can actually use</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/kevinfitchard/" title="Posts by Kevin Fitchard" class="url fn" rel="author">Kevin Fitchard</a></span>										</div>
+								<time class="time published" datetime="2014-09-27T08:30:06-07:00" title="2014/09/27 8:30:06 AM" itemprop="datePublished">
+					4 hours ago				</time>
+				<time class="time updated" datetime="2014-09-27T08:30:09-07:00" title="2014/09/27 8:30:09 AM" itemprop="dateModified">
+					Sep. 27, 2014 - 8:30 AM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/27/visa-apple-pay-will-pave-the-way-for-more-mobile-wallets-that-people-can-actually-use/">
+							1 Comment						</a>
+					</div>
+								</div>
+				</article>
+<article id="post-875813" class="post-875813 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-3d-printing tag-3d-printing-types tag-post-processing clearfix thumb technology-fdm technology-stereolithography-2 go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/27/beginner-3d-printing/" title="Permalink to What 3D printing is like when you&#8217;ve never done it before" rel="bookmark" itemprop="url">What 3D printing is like when you&#8217;ve never done it before</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/gigaombiz/" title="Posts by Biz Carson" class="url fn" rel="author">Biz Carson</a></span>										</div>
+								<time class="time published" datetime="2014-09-27T08:00:44-07:00" title="2014/09/27 8:00:44 AM" itemprop="datePublished">
+					5 hours ago				</time>
+				<time class="time updated" datetime="2014-09-27T08:00:48-07:00" title="2014/09/27 8:00:48 AM" itemprop="dateModified">
+					Sep. 27, 2014 - 8:00 AM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/27/beginner-3d-printing/">
+							1 Comment						</a>
+					</div>
+								</div>
+				</article>
+</div><div id="postloop-31" class="go-wijax-aware-default-excerpt widget-post_loop-secondary-b-3-lazy-stories widget clearfix widget_postloop">	<a href="https://gigaom.com/wijax/2205039f260b243a3200f5a02841702b" class="wijax-source wijax-excerpt"></a>
+	<span class="wijax-opts">{"varname":"wijax_55b716b4cd17651254e33aee82c88234"}</span>
+	<article id="post-876555" class="post-876555 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-android-this-week clearfix post-no-comments thumb technology-android technology-android-l technology-galaxy-alpha company-google company-motorola technology-nexus-6 technology-nexus-x company-qualcomm company-samsung go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/27/android-this-week-galaxy-alpha-look-big-nexus-6-googles-android-control/" title="Permalink to Android this week: Galaxy Alpha look; big Nexus 6; Google&#8217;s Android control" rel="bookmark" itemprop="url">Android this week: Galaxy Alpha look; big Nexus 6; Google&#8217;s Android control</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/kevintofel/" title="Posts by Kevin C. Tofel" class="url fn" rel="author">Kevin C. Tofel</a></span>										</div>
+								<time class="time published" datetime="2014-09-27T06:00:16-07:00" title="2014/09/27 6:00:16 AM" itemprop="datePublished">
+					7 hours ago				</time>
+				<time class="time updated" datetime="2014-09-27T06:00:19-07:00" title="2014/09/27 6:00:19 AM" itemprop="dateModified">
+					Sep. 27, 2014 - 6:00 AM PDT				</time>
+							</div>
+				</article>
+<div id="daybreak-1411753631" class="head internal-section-head daybreak internal-section september friday day-26">
+	<span>Stories for Sep. 26, 2014</span>
+</div>
+<article id="post-876500" class="post-876500 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-alleged tag-assault tag-d-a-s tag-daveea-whitmire tag-district-attorneys tag-hammer tag-injury tag-san-francisco tag-victim clearfix thumb company-san-francisco-chronicle company-uber go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/reports-san-francisco-uber-driver-hit-a-passenger-with-a-hammer/" title="Permalink to Reports: San Francisco Uber driver hit a passenger with a hammer" rel="bookmark" itemprop="url">Reports: San Francisco Uber driver hit a passenger with a hammer</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/carmeldee88/" title="Posts by Carmel DeAmicis" class="url fn" rel="author">Carmel DeAmicis</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T17:47:11-07:00" title="2014/09/26 5:47:11 PM" itemprop="datePublished">
+					19 hours ago				</time>
+				<time class="time updated" datetime="2014-09-26T18:20:26-07:00" title="2014/09/26 6:20:26 PM" itemprop="dateModified">
+					Sep. 26, 2014 - 5:47 PM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/26/reports-san-francisco-uber-driver-hit-a-passenger-with-a-hammer/">
+							1 Comment						</a>
+					</div>
+								</div>
+				</article>
+<article id="post-876305" class="post-876305 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-bitcoin tag-electronic-commerce tag-payment-systems clearfix post-no-comments thumb company-bitpay company-coinbase company-gocoin company-paypal go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/this-week-in-bitcoin-paypals-bitcoin-embrace-spikes-the-price-but-not-for-long/" title="Permalink to This week in bitcoin: PayPal&#8217;s bitcoin embrace spikes the price, but not for long" rel="bookmark" itemprop="url">This week in bitcoin: PayPal&#8217;s bitcoin embrace spikes the price, but not for long</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/gigaombiz/" title="Posts by Biz Carson" class="url fn" rel="author">Biz Carson</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T16:51:55-07:00" title="2014/09/26 4:51:55 PM" itemprop="datePublished">
+					20 hours ago				</time>
+				<time class="time updated" datetime="2014-09-26T16:51:58-07:00" title="2014/09/26 4:51:58 PM" itemprop="dateModified">
+					Sep. 26, 2014 - 4:51 PM PDT				</time>
+							</div>
+				</article>
+</div><div id="go-widget-areas-5" data-remove-on-inject-classes=" hide-phone hide-phone hide-phone hide-phone" class=" hide-phone hide-phone hide-phone hide-phone waterfall-section-b go-custom-widget-area_waterfall-section-b widget clearfix widget-go-widget-areas widget-area"><div id="wijax-50" class="widget">		<span class="wijax-loading ">
+			<img src="https://s2.wp.com/wp-content/themes/vip/gigaom4-plugins/go-local-bcms/../bcms/components//img/loading-gray.gif" alt="loading external resource" />
+			<a href="http://research.gigaom.com/wijax/63f5effa5c754d3b7def2c51e7dc4d3c" class="wijax-source wijax-onscroll" rel="nofollow"></a>
+			<span class="wijax-opts" style="display: none;">
+				{"source":"http:\/\/research.gigaom.com\/wijax\/63f5effa5c754d3b7def2c51e7dc4d3c","varname":"wijax_1128d8cfa914e582ad49e550d23010a4","title_element":"h2","title_class":"widget-title","title_before":"%3Ch2%20class%3D%22widget-title%22%3E","title_after":"%3C%2Fh2%3E"}			</span>
+		</span>
+		</div><div id="go-ads-7" class="widget">		<div id="ad-c-container" class="ad ad-300x250">
+						<div class="go-ad-call-to-action">
+									<h3 class="comments-title" data-comment-count="0">
+						<a href="https://gigaom.com/2014/09/26/this-week-in-bitcoin-paypals-bitcoin-embrace-spikes-the-price-but-not-for-long/#respond" title="Comment on This week in bitcoin: PayPal&#8217;s bitcoin embrace spikes the price, but not for long"><i class="goicon icon-arrow-down"></i><i class="goicon icon-comment"></i>Join the conversation</a>					</h3>
+								</div>
+						<div class="advertisement-notice">Advertisement</div>
+			<div id="ad-c">
+			<script>
+				amplify.subscribe('go-init', function() {
+					googletag.cmd.push(function() { googletag.display('ad-c'); });
+				});
+			</script>
+			<!-- DFP AD SLOT: tech_300x250_low -->
+			</div>
+		</div>
+		</div></div><div id="postloop-30" class="go-wijax-aware-default-excerpt widget-post_loop-final-a-5-lazy-stories widget clearfix widget_postloop">	<a href="https://gigaom.com/wijax/6a819ab1041ec58b4ed8edbbd19489ea" class="wijax-source wijax-excerpt"></a>
+	<span class="wijax-opts">{"varname":"wijax_7637a18155e658726e81c59cdce26884"}</span>
+	<article id="post-876395" class="post-876395 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-3d-printer tag-3d-printing tag-materials-science clearfix thumb company-hp go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/hp-labs-is-working-on-a-glass-3d-printer/" title="Permalink to HP Labs is working on a glass 3D printer" rel="bookmark" itemprop="url">HP Labs is working on a glass 3D printer</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/signebrewster/" title="Posts by Signe Brewster" class="url fn" rel="author">Signe Brewster</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T16:44:25-07:00" title="2014/09/26 4:44:25 PM" itemprop="datePublished">
+					20 hours ago				</time>
+				<time class="time updated" datetime="2014-09-26T16:44:25-07:00" title="2014/09/26 4:44:25 PM" itemprop="dateModified">
+					Sep. 26, 2014 - 4:44 PM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/26/hp-labs-is-working-on-a-glass-3d-printer/">
+							2 Comments						</a>
+					</div>
+								</div>
+				</article>
+<article id="post-876450" class="post-876450 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-aclu tag-bulk-search-warrants tag-facebook tag-fourth-amendment tag-google clearfix thumb company-dropbox company-foursquare company-google company-kickstarter company-meetup company-microsoft company-tumblr company-twitter company-yelp go-post-standard featured primary" itemscope itemtype="http://schema.org/NewsArticle">
+				<div class="featured-indicator">
+				<i class="goicon small icon-star"></i>
+				Must read			</div>
+						<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/facebook-and-tech-industry-can-appeal-bulk-search-warrant-ruling-in-key-test-of-online-privacy-rights/" title="Permalink to Facebook and tech industry can appeal &#8220;bulk search warrant&#8221; ruling in key test of online privacy rights" rel="bookmark" itemprop="url">Facebook and tech industry can appeal &#8220;bulk search warrant&#8221; ruling in key test of online privacy rights</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/jeffr/" title="Posts by Jeff John Roberts" class="url fn" rel="author">Jeff John Roberts</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T14:42:18-07:00" title="2014/09/26 2:42:18 PM" itemprop="datePublished">
+					22 hours ago				</time>
+				<time class="time updated" datetime="2014-09-26T14:42:18-07:00" title="2014/09/26 2:42:18 PM" itemprop="dateModified">
+					Sep. 26, 2014 - 2:42 PM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/26/facebook-and-tech-industry-can-appeal-bulk-search-warrant-ruling-in-key-test-of-online-privacy-rights/">
+							2 Comments						</a>
+					</div>
+								</div>
+				</article>
+<article id="post-876448" class="post-876448 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-apple-watch tag-funding tag-jambox tag-jawbone tag-jawbone-up tag-structure-connect-2014 tag-wearables clearfix post-no-comments thumb company-jawbone go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/jawbone-reportedly-raises-nearly-16m-at-a-3b-valuation/" title="Permalink to Jawbone reportedly raises nearly $16M at a $3B valuation" rel="bookmark" itemprop="url">Jawbone reportedly raises nearly $16M at a $3B valuation</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/kifleswing1/" title="Posts by Kif Leswing" class="url fn" rel="author">Kif Leswing</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T14:05:59-07:00" title="2014/09/26 2:05:59 PM" itemprop="datePublished">
+					23 hours ago				</time>
+				<time class="time updated" datetime="2014-09-26T14:05:59-07:00" title="2014/09/26 2:05:59 PM" itemprop="dateModified">
+					Sep. 26, 2014 - 2:05 PM PDT				</time>
+							</div>
+				</article>
+<article id="post-876445" class="post-876445 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-intercom tag-ivee tag-smart-home tag-speech tag-ubi tag-wink clearfix thumb company-nucleus go-post-standard featured secondary" itemscope itemtype="http://schema.org/NewsArticle">
+				<div class="featured-indicator">
+				<i class="goicon small icon-star"></i>
+				Must read			</div>
+						<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/does-the-smart-home-need-an-intercom-system/" title="Permalink to Does the smart home need an intercom system?" rel="bookmark" itemprop="url">Does the smart home need an intercom system?</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/staceyh/" title="Posts by Stacey Higginbotham" class="url fn" rel="author">Stacey Higginbotham</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T13:57:13-07:00" title="2014/09/26 1:57:13 PM" itemprop="datePublished">
+					23 hours ago				</time>
+				<time class="time updated" datetime="2014-09-26T18:12:03-07:00" title="2014/09/26 6:12:03 PM" itemprop="dateModified">
+					Sep. 26, 2014 - 1:57 PM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/26/does-the-smart-home-need-an-intercom-system/">
+							4 Comments						</a>
+					</div>
+								</div>
+				</article>
+<article id="post-876416" class="post-876416 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized clearfix thumb company-amazon technology-android technology-android-open-source-project technology-aosp company-google company-htc company-lg company-samsung-electronics go-post-standard featured primary" itemscope itemtype="http://schema.org/NewsArticle">
+				<div class="featured-indicator">
+				<i class="goicon small icon-star"></i>
+				Must read			</div>
+						<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/want-an-android-phone-with-google-services-google-now-has-more-say-over-its-software/" title="Permalink to Want an Android phone with Google services? Google now has more say over its software" rel="bookmark" itemprop="url">Want an Android phone with Google services? Google now has more say over its software</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/kevintofel/" title="Posts by Kevin C. Tofel" class="url fn" rel="author">Kevin C. Tofel</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T12:13:36-07:00" title="2014/09/26 12:13:36 PM" itemprop="datePublished">
+					1 day ago				</time>
+				<time class="time updated" datetime="2014-09-26T12:13:36-07:00" title="2014/09/26 12:13:36 PM" itemprop="dateModified">
+					Sep. 26, 2014 - 12:13 PM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/26/want-an-android-phone-with-google-services-google-now-has-more-say-over-its-software/">
+							4 Comments						</a>
+					</div>
+								</div>
+				</article>
+</div><div id="postloop-21" class="go-wijax-aware-default-excerpt widget-post_loop-final-b-5-lazy-stories widget clearfix widget_postloop">	<a href="https://gigaom.com/wijax/1af78eafdde897100588b1f2ef088ff0" class="wijax-source wijax-excerpt"></a>
+	<span class="wijax-opts">{"varname":"wijax_269635f7b3a243871d2b3fc43e43d348"}</span>
+	<article id="post-876423" class="post-876423 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized clearfix post-no-comments thumb company-expedia company-hoteltonight company-priceline go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/hoteltonight-now-does-one-week-advance-booking-is-this-the-first-step-to-it-becoming-expedia/" title="Permalink to HotelTonight now does one week advance booking. Is this the first step to it becoming Expedia?" rel="bookmark" itemprop="url">HotelTonight now does one week advance booking. Is this the first step to it becoming Expedia?</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/carmeldee88/" title="Posts by Carmel DeAmicis" class="url fn" rel="author">Carmel DeAmicis</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T12:02:53-07:00" title="2014/09/26 12:02:53 PM" itemprop="datePublished">
+					1 day ago				</time>
+				<time class="time updated" datetime="2014-09-26T12:20:22-07:00" title="2014/09/26 12:20:22 PM" itemprop="dateModified">
+					Sep. 26, 2014 - 12:02 PM PDT				</time>
+							</div>
+				</article>
+<article id="post-874664" class="post-874664 post type-post status-publish format-standard hentry category-uncategorized clearfix post-no-comments post-comments-disabled no-thumb go-post-standard sponsored-post" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/why-the-cloud-is-its-best-friend/" title="Permalink to Sponsored post: Why the cloud is IT’s best friend" rel="bookmark" itemprop="url"><span class="sponsor-title">Sponsored post:</span> Why the cloud is IT’s best friend</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/kathyo/" title="Posts by Gigaom" class="url fn" rel="author">Gigaom</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T11:55:53-07:00" title="2014/09/26 11:55:53 AM" itemprop="datePublished">
+					1 day ago				</time>
+				<time class="time updated" datetime="2014-09-26T11:55:58-07:00" title="2014/09/26 11:55:58 AM" itemprop="dateModified">
+					Sep. 26, 2014 - 11:55 AM PDT				</time>
+							</div>
+				</article>
+<article id="post-876259" class="post-876259 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-scty tag-solarcity tag-tesla tag-tsla clearfix thumb go-post-standard featured secondary" itemscope itemtype="http://schema.org/NewsArticle">
+				<div class="featured-indicator">
+				<i class="goicon small icon-star"></i>
+				Must read			</div>
+						<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/why-tesla-solarcitys-planned-factories-are-quite-different/" title="Permalink to Why Tesla &amp; SolarCity&#8217;s planned factories are quite different" rel="bookmark" itemprop="url">Why Tesla &amp; SolarCity&#8217;s planned factories are quite different</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/katiefehren/" title="Posts by Katie Fehrenbacher" class="url fn" rel="author">Katie Fehrenbacher</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T11:39:56-07:00" title="2014/09/26 11:39:56 AM" itemprop="datePublished">
+					1 day ago				</time>
+				<time class="time updated" datetime="2014-09-26T11:39:56-07:00" title="2014/09/26 11:39:56 AM" itemprop="dateModified">
+					Sep. 26, 2014 - 11:39 AM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/26/why-tesla-solarcitys-planned-factories-are-quite-different/">
+							1 Comment						</a>
+					</div>
+								</div>
+				</article>
+<article id="post-876382" class="post-876382 post type-post status-publish format-aside hentry category-uncategorized tag-chat-apps tag-cloud-services tag-cloud-storage tag-work-collaboration-tool tag-zocalo clearfix post-no-comments no-thumb company-amazon company-box company-dropbox company-slack go-post-aside" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+									<h5 class="mobile-sub-head">In Brief</h5>
+									<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/slack-buys-small-two-man-work-collaboration-startup-spaces/" title="Permalink to Slack buys small, two-man work-collaboration startup Spaces" rel="bookmark" itemprop="url">Slack buys small, two-man work-collaboration startup Spaces</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/jonathanvanian/" title="Posts by Jonathan Vanian" class="url fn" rel="author">Jonathan Vanian</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T10:46:07-07:00" title="2014/09/26 10:46:07 AM" itemprop="datePublished">
+					1 day ago				</time>
+				<time class="time updated" datetime="2014-09-26T10:46:07-07:00" title="2014/09/26 10:46:07 AM" itemprop="dateModified">
+					Sep. 26, 2014 - 10:46 AM PDT				</time>
+							</div>
+				</article>
+<article id="post-876332" class="post-876332 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized clearfix thumb go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/radiohead-singer-thom-yorke-sells-his-new-solo-album-via-bittorrent/" title="Permalink to Radiohead singer Thom Yorke sells his new solo album via BitTorrent" rel="bookmark" itemprop="url">Radiohead singer Thom Yorke sells his new solo album via BitTorrent</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/jankor/" title="Posts by Janko Roettgers" class="url fn" rel="author">Janko Roettgers</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T10:09:57-07:00" title="2014/09/26 10:09:57 AM" itemprop="datePublished">
+					1 day ago				</time>
+				<time class="time updated" datetime="2014-09-26T10:09:57-07:00" title="2014/09/26 10:09:57 AM" itemprop="dateModified">
+					Sep. 26, 2014 - 10:09 AM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/26/radiohead-singer-thom-yorke-sells-his-new-solo-album-via-bittorrent/">
+							1 Comment						</a>
+					</div>
+								</div>
+				</article>
+</div><div id="postloop-27" class="go-wijax-aware-default-excerpt widget-post_loop-final-c-5-lazy-stories widget clearfix widget_postloop">	<a href="https://gigaom.com/wijax/9ecfed48aba20a39ebff3381fe7a354a" class="wijax-source wijax-excerpt"></a>
+	<span class="wijax-opts">{"varname":"wijax_ebc3e6741a3ba8a42e46298538804336"}</span>
+	<article id="post-875561" class="post-875561 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-fin-tech tag-finovate tag-fintech tag-new-york-tech clearfix post-no-comments thumb company-accenture company-bain-capital company-blooom company-kabbage company-mastercard company-maxmyinterest go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/more-money-more-startups-once-closed-financial-industry-makes-a-place-for-independent-entrepreneurs/" title="Permalink to More money, more startups: Once-closed financial industry makes a place for independent entrepreneurs" rel="bookmark" itemprop="url">More money, more startups: Once-closed financial industry makes a place for independent entrepreneurs</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/jeffr/" title="Posts by Jeff John Roberts" class="url fn" rel="author">Jeff John Roberts</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T09:38:44-07:00" title="2014/09/26 9:38:44 AM" itemprop="datePublished">
+					1 day ago				</time>
+				<time class="time updated" datetime="2014-09-26T10:14:01-07:00" title="2014/09/26 10:14:01 AM" itemprop="dateModified">
+					Sep. 26, 2014 - 9:38 AM PDT				</time>
+							</div>
+				</article>
+<article id="post-876239" class="post-876239 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-android tag-galaxy tag-galaxy-alpha-2 tag-samsung tag-smartphones clearfix thumb company-google company-qualcomm company-samsung go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/samsung-galaxy-alpha-hands-on/" title="Permalink to Samsung&#8217;s metal-edged Galaxy Alpha is beautiful (and looks a lot like an iPhone)" rel="bookmark" itemprop="url">Samsung&#8217;s metal-edged Galaxy Alpha is beautiful (and looks a lot like an iPhone)</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/kifleswing1/" title="Posts by Kif Leswing" class="url fn" rel="author">Kif Leswing</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T09:36:14-07:00" title="2014/09/26 9:36:14 AM" itemprop="datePublished">
+					1 day ago				</time>
+				<time class="time updated" datetime="2014-09-26T09:55:40-07:00" title="2014/09/26 9:55:40 AM" itemprop="dateModified">
+					Sep. 26, 2014 - 9:36 AM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/26/samsung-galaxy-alpha-hands-on/">
+							1 Comment						</a>
+					</div>
+								</div>
+				</article>
+<article id="post-876312" class="post-876312 post type-post status-publish format-aside hentry category-uncategorized tag-article-29-working-party tag-data-protection tag-eu tag-larry-page tag-privacy clearfix post-no-comments no-thumb company-google go-post-aside" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+									<h5 class="mobile-sub-head">In Brief</h5>
+									<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/eu-regulators-remind-google-of-what-compliance-with-privacy-law-means-again/" title="Permalink to EU regulators remind Google what compliance with privacy law means (again)" rel="bookmark" itemprop="url">EU regulators remind Google what compliance with privacy law means (again)</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/superglaze/" title="Posts by David Meyer" class="url fn" rel="author">David Meyer</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T09:12:19-07:00" title="2014/09/26 9:12:19 AM" itemprop="datePublished">
+					1 day ago				</time>
+				<time class="time updated" datetime="2014-09-26T11:23:24-07:00" title="2014/09/26 11:23:24 AM" itemprop="dateModified">
+					Sep. 26, 2014 - 9:12 AM PDT				</time>
+							</div>
+				</article>
+<article id="post-876249" class="post-876249 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-buzzfeed tag-future-of-media tag-gawker tag-media tag-quartz tag-tumblr tag-vice clearfix thumb go-post-standard featured secondary" itemscope itemtype="http://schema.org/NewsArticle">
+				<div class="featured-indicator">
+				<i class="goicon small icon-star"></i>
+				Must read			</div>
+						<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/a-look-inside-the-rapidly-expanding-world-of-new-yorks-new-media-stars/" title="Permalink to A look inside the rapidly-expanding world of New York&#8217;s new-media stars" rel="bookmark" itemprop="url">A look inside the rapidly-expanding world of New York&#8217;s new-media stars</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/mathewi1/" title="Posts by Mathew Ingram" class="url fn" rel="author">Mathew Ingram</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T09:11:11-07:00" title="2014/09/26 9:11:11 AM" itemprop="datePublished">
+					1 day ago				</time>
+				<time class="time updated" datetime="2014-09-26T09:11:11-07:00" title="2014/09/26 9:11:11 AM" itemprop="dateModified">
+					Sep. 26, 2014 - 9:11 AM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/26/a-look-inside-the-rapidly-expanding-world-of-new-yorks-new-media-stars/">
+							1 Comment						</a>
+					</div>
+								</div>
+				</article>
+<article id="post-876250" class="post-876250 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized clearfix post-no-comments thumb technology-android-wear technology-g-watch technology-gear-s company-google company-lg company-sprint company-verizon go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/samsungs-gear-s-wont-stand-alone-fcc-tests-an-lg-watch-with-3g-radio/" title="Permalink to Samsung&#8217;s Gear S won&#8217;t stand alone: FCC tests an LG watch with 3G radio" rel="bookmark" itemprop="url">Samsung&#8217;s Gear S won&#8217;t stand alone: FCC tests an LG watch with 3G radio</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/kevintofel/" title="Posts by Kevin C. Tofel" class="url fn" rel="author">Kevin C. Tofel</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T08:48:50-07:00" title="2014/09/26 8:48:50 AM" itemprop="datePublished">
+					1 day ago				</time>
+				<time class="time updated" datetime="2014-09-26T08:48:50-07:00" title="2014/09/26 8:48:50 AM" itemprop="dateModified">
+					Sep. 26, 2014 - 8:48 AM PDT				</time>
+							</div>
+				</article>
+</div><div id="postloop-28" class="go-wijax-aware-default-excerpt widget-post_loop-final-d-5-lazy-stories widget clearfix widget_postloop">	<a href="https://gigaom.com/wijax/79e843a39380f06cc1bb5f1fa141006b" class="wijax-source wijax-excerpt"></a>
+	<span class="wijax-opts">{"varname":"wijax_0fe1942c2d747bfe69a384258748e75f"}</span>
+	<article id="post-876265" class="post-876265 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-buy-button tag-e-commerce tag-payments tag-payments-processing clearfix thumb company-braintree company-facebook company-paypal company-twitter go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/stripe-is-operating-the-payment-machinery-behind-facebooks-buy-button/" title="Permalink to Stripe is operating the payment machinery behind Facebook’s “buy” button" rel="bookmark" itemprop="url">Stripe is operating the payment machinery behind Facebook’s “buy” button</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/kevinfitchard/" title="Posts by Kevin Fitchard" class="url fn" rel="author">Kevin Fitchard</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T08:47:40-07:00" title="2014/09/26 8:47:40 AM" itemprop="datePublished">
+					1 day ago				</time>
+				<time class="time updated" datetime="2014-09-26T08:48:16-07:00" title="2014/09/26 8:48:16 AM" itemprop="dateModified">
+					Sep. 26, 2014 - 8:47 AM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/26/stripe-is-operating-the-payment-machinery-behind-facebooks-buy-button/">
+							1 Comment						</a>
+					</div>
+								</div>
+				</article>
+<article id="post-876263" class="post-876263 post type-post status-publish format-aside hentry category-uncategorized tag-context-relevant tag-machine-learning clearfix post-no-comments no-thumb company-context-relevant go-post-aside" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+									<h5 class="mobile-sub-head">In Brief</h5>
+									<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/big-banks-invest-13-5m-in-machine-learning-startup-context-relevant/" title="Permalink to Big banks invest $13.5M in machine learning startup Context Relevant" rel="bookmark" itemprop="url">Big banks invest $13.5M in machine learning startup Context Relevant</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/dharrisstructure/" title="Posts by Derrick Harris" class="url fn" rel="author">Derrick Harris</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T08:44:01-07:00" title="2014/09/26 8:44:01 AM" itemprop="datePublished">
+					1 day ago				</time>
+				<time class="time updated" datetime="2014-09-26T08:44:01-07:00" title="2014/09/26 8:44:01 AM" itemprop="dateModified">
+					Sep. 26, 2014 - 8:44 AM PDT				</time>
+							</div>
+				</article>
+<article id="post-876228" class="post-876228 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-internet-governance tag-london tag-net-neutrality tag-open-web tag-southbank-centre tag-tim-berners-lee tag-web-we-want clearfix post-no-comments thumb go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/can-ordinary-people-get-fired-up-over-internet-governance-web-we-want-festival-says-yes/" title="Permalink to Can ordinary people get fired up over internet governance? Web We Want festival says yes" rel="bookmark" itemprop="url">Can ordinary people get fired up over internet governance? Web We Want festival says yes</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/superglaze/" title="Posts by David Meyer" class="url fn" rel="author">David Meyer</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T08:13:35-07:00" title="2014/09/26 8:13:35 AM" itemprop="datePublished">
+					1 day ago				</time>
+				<time class="time updated" datetime="2014-09-26T08:19:04-07:00" title="2014/09/26 8:19:04 AM" itemprop="dateModified">
+					Sep. 26, 2014 - 8:13 AM PDT				</time>
+							</div>
+				</article>
+<article id="post-876227" class="post-876227 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized clearfix thumb technology-blackberry company-blackberry technology-passport go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/double-win-blackberry-losses-better-than-expected-as-200k-passport-phones-pre-ordered/" title="Permalink to Double win: BlackBerry losses better than expected as 200K Passport phones pre-ordered" rel="bookmark" itemprop="url">Double win: BlackBerry losses better than expected as 200K Passport phones pre-ordered</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/kevintofel/" title="Posts by Kevin C. Tofel" class="url fn" rel="author">Kevin C. Tofel</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T07:05:56-07:00" title="2014/09/26 7:05:56 AM" itemprop="datePublished">
+					1 day ago				</time>
+				<time class="time updated" datetime="2014-09-26T07:05:56-07:00" title="2014/09/26 7:05:56 AM" itemprop="dateModified">
+					Sep. 26, 2014 - 7:05 AM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/26/double-win-blackberry-losses-better-than-expected-as-200k-passport-phones-pre-ordered/">
+							1 Comment						</a>
+					</div>
+								</div>
+				</article>
+<article id="post-876122" class="post-876122 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-connected-devices tag-roku tag-smart-tvs clearfix thumb company-roku go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/as-roku-grows-its-moving-towards-pay-to-play-for-successful-channels/" title="Permalink to As Roku grows, it’s moving towards pay-to-play for successful channels" rel="bookmark" itemprop="url">As Roku grows, it’s moving towards pay-to-play for successful channels</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/jankor/" title="Posts by Janko Roettgers" class="url fn" rel="author">Janko Roettgers</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T05:00:14-07:00" title="2014/09/26 5:00:14 AM" itemprop="datePublished">
+					1 day ago				</time>
+				<time class="time updated" datetime="2014-09-26T05:00:17-07:00" title="2014/09/26 5:00:17 AM" itemprop="dateModified">
+					Sep. 26, 2014 - 5:00 AM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/26/as-roku-grows-its-moving-towards-pay-to-play-for-successful-channels/">
+							1 Comment						</a>
+					</div>
+								</div>
+				</article>
+</div><div id="postloop-29" class="go-wijax-aware-default-excerpt widget-post_loop-final-e-10-lazy-stories widget clearfix widget_postloop">	<a href="https://gigaom.com/wijax/ce5b4f933a5505eea3adcfed38b31aeb" class="wijax-source wijax-excerpt"></a>
+	<span class="wijax-opts">{"varname":"wijax_b55d36ce4f678dd2c3d2247e4415688e"}</span>
+	<article id="post-876207" class="post-876207 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-bash tag-flaw tag-red-hat-enterprise-linux tag-security tag-shellshock tag-ubuntu tag-vulnerability clearfix thumb company-amazon company-apple company-canonical company-google company-red-hat go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/companies-and-organizations-react-to-shellshock-flaw-with-patches-and-advice/" title="Permalink to Google, Amazon and others react to Shellshock flaw with patches and advice" rel="bookmark" itemprop="url">Google, Amazon and others react to Shellshock flaw with patches and advice</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/superglaze/" title="Posts by David Meyer" class="url fn" rel="author">David Meyer</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T02:54:37-07:00" title="2014/09/26 2:54:37 AM" itemprop="datePublished">
+					Sep. 26, 2014 - 2:54 AM PDT				</time>
+				<time class="time updated" datetime="2014-09-26T09:35:27-07:00" title="2014/09/26 9:35:27 AM" itemprop="dateModified">
+					Sep. 26, 2014 - 2:54 AM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/26/companies-and-organizations-react-to-shellshock-flaw-with-patches-and-advice/">
+							2 Comments						</a>
+					</div>
+								</div>
+				</article>
+<article id="post-876192" class="post-876192 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-censorship tag-cloud tag-data-centers tag-freedom tag-local-storage tag-russia tag-vladimir-putin clearfix thumb company-facebook company-google company-mail-ru company-twitter company-vkontakte company-yandex go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/26/russia-orders-google-facebook-and-twitter-to-comply-with-local-storage-and-censorship-laws/" title="Permalink to Russia orders Google, Facebook and Twitter to comply with local storage and censorship laws" rel="bookmark" itemprop="url">Russia orders Google, Facebook and Twitter to comply with local storage and censorship laws</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/superglaze/" title="Posts by David Meyer" class="url fn" rel="author">David Meyer</a></span>										</div>
+								<time class="time published" datetime="2014-09-26T00:55:00-07:00" title="2014/09/26 12:55:00 AM" itemprop="datePublished">
+					Sep. 26, 2014 - 12:55 AM PDT				</time>
+				<time class="time updated" datetime="2014-09-26T01:25:08-07:00" title="2014/09/26 1:25:08 AM" itemprop="dateModified">
+					Sep. 26, 2014 - 12:55 AM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/26/russia-orders-google-facebook-and-twitter-to-comply-with-local-storage-and-censorship-laws/">
+							8 Comments						</a>
+					</div>
+								</div>
+				</article>
+<div id="daybreak-1411667551" class="head internal-section-head daybreak internal-section september thursday day-25">
+	<span>Stories for Sep. 25, 2014</span>
+</div>
+<article id="post-876145" class="post-876145 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-advertising tag-beta-site tag-data tag-funding tag-revenue tag-seed-round tag-social-networks tag-venture-capital clearfix thumb company-ello company-facebook company-freshtracks-capital company-google go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/25/ello-investor-co-founder-funding-or-not-we-hate-ads-and-we-want-to-shift-values/" title="Permalink to Ello investor, co-founder: Funding or not, we hate ads and we want to “shift values”" rel="bookmark" itemprop="url">Ello investor, co-founder: Funding or not, we hate ads and we want to “shift values”</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/carmeldee88/" title="Posts by Carmel DeAmicis" class="url fn" rel="author">Carmel DeAmicis</a></span>										</div>
+								<time class="time published" datetime="2014-09-25T17:52:31-07:00" title="2014/09/25 5:52:31 PM" itemprop="datePublished">
+					Sep. 25, 2014 - 5:52 PM PDT				</time>
+				<time class="time updated" datetime="2014-09-26T10:05:22-07:00" title="2014/09/26 10:05:22 AM" itemprop="dateModified">
+					Sep. 25, 2014 - 5:52 PM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/25/ello-investor-co-founder-funding-or-not-we-hate-ads-and-we-want-to-shift-values/">
+							3 Comments						</a>
+					</div>
+								</div>
+				</article>
+<article id="post-876157" class="post-876157 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-ios-software-update tag-iphone tag-software-update clearfix thumb company-apple technology-healthkit technology-ios-8 technology-iphone-6 technology-iphone-6-plus technology-touch-id go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/25/ios-8-0-2-software-update-release-iphone-6-and-6-plus/" title="Permalink to Apple quickly releases iOS 8.0.2 to fix iPhone issues caused by the prior update" rel="bookmark" itemprop="url">Apple quickly releases iOS 8.0.2 to fix iPhone issues caused by the prior update</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/kevintofel/" title="Posts by Kevin C. Tofel" class="url fn" rel="author">Kevin C. Tofel</a></span>										</div>
+								<time class="time published" datetime="2014-09-25T17:47:21-07:00" title="2014/09/25 5:47:21 PM" itemprop="datePublished">
+					Sep. 25, 2014 - 5:47 PM PDT				</time>
+				<time class="time updated" datetime="2014-09-25T17:55:15-07:00" title="2014/09/25 5:55:15 PM" itemprop="dateModified">
+					Sep. 25, 2014 - 5:47 PM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/25/ios-8-0-2-software-update-release-iphone-6-and-6-plus/">
+							3 Comments						</a>
+					</div>
+								</div>
+				</article>
+<article id="post-876099" class="post-876099 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-4g tag-broadband-commons tag-home-router tag-isp tag-mobile-broadband tag-mobile-hotspot tag-mvno tag-open-wi-fi tag-personal-wi-fi tag-shared-bandwidth tag-wireless-isp tag-wisp clearfix post-no-comments thumb company-freedompop company-karma technology-lte company-sprint technology-wi-fi go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/25/mobile-isp-karma-plans-a-move-into-home-broadband/" title="Permalink to Mobile ISP Karma plans a move into home broadband" rel="bookmark" itemprop="url">Mobile ISP Karma plans a move into home broadband</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/kevinfitchard/" title="Posts by Kevin Fitchard" class="url fn" rel="author">Kevin Fitchard</a></span>										</div>
+								<time class="time published" datetime="2014-09-25T14:39:37-07:00" title="2014/09/25 2:39:37 PM" itemprop="datePublished">
+					Sep. 25, 2014 - 2:39 PM PDT				</time>
+				<time class="time updated" datetime="2014-09-25T15:03:42-07:00" title="2014/09/25 3:03:42 PM" itemprop="dateModified">
+					Sep. 25, 2014 - 2:39 PM PDT				</time>
+							</div>
+				</article>
+<article id="post-876055" class="post-876055 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-big-data tag-cloud-computing tag-connectx tag-satellites clearfix thumb company-connectx go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/25/a-startup-plans-to-reinvent-big-data-by-ditching-binary-and-putting-computers-in-space/" title="Permalink to A startup wants to reinvent big data, by ditching binary and putting computers in space" rel="bookmark" itemprop="url">A startup wants to reinvent big data, by ditching binary and putting computers in space</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/dharrisstructure/" title="Posts by Derrick Harris" class="url fn" rel="author">Derrick Harris</a></span>										</div>
+								<time class="time published" datetime="2014-09-25T14:13:23-07:00" title="2014/09/25 2:13:23 PM" itemprop="datePublished">
+					Sep. 25, 2014 - 2:13 PM PDT				</time>
+				<time class="time updated" datetime="2014-09-25T21:21:17-07:00" title="2014/09/25 9:21:17 PM" itemprop="dateModified">
+					Sep. 25, 2014 - 2:13 PM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/25/a-startup-plans-to-reinvent-big-data-by-ditching-binary-and-putting-computers-in-space/">
+							4 Comments						</a>
+					</div>
+								</div>
+				</article>
+<article id="post-875685" class="post-875685 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized clearfix post-no-comments post-comments-disabled thumb go-post-standard sponsored-post" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/25/a-view-on-the-future-of-medicine-in-2064/" title="Permalink to Sponsored post: A view on the future of medicine in 2064" rel="bookmark" itemprop="url"><span class="sponsor-title">Sponsored post:</span> A view on the future of medicine in 2064</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/kathyo/" title="Posts by Gigaom" class="url fn" rel="author">Gigaom</a></span>										</div>
+								<time class="time published" datetime="2014-09-25T13:55:34-07:00" title="2014/09/25 1:55:34 PM" itemprop="datePublished">
+					Sep. 25, 2014 - 1:55 PM PDT				</time>
+				<time class="time updated" datetime="2014-09-25T13:55:37-07:00" title="2014/09/25 1:55:37 PM" itemprop="dateModified">
+					Sep. 25, 2014 - 1:55 PM PDT				</time>
+							</div>
+				</article>
+<article id="post-876105" class="post-876105 post type-post status-publish format-aside has-post-thumbnail hentry category-uncategorized tag-flipboard tag-lumia tag-windows-phone clearfix thumb company-microsoft company-nokia go-post-aside" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+									<h5 class="mobile-sub-head">In Brief</h5>
+									<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/25/a-flipless-flipboard-finally-arrives-on-windows-phones/" title="Permalink to A flipless Flipboard finally arrives on Windows Phones (as a placeholder)" rel="bookmark" itemprop="url">A flipless Flipboard finally arrives on Windows Phones (as a placeholder)</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/kevintofel/" title="Posts by Kevin C. Tofel" class="url fn" rel="author">Kevin C. Tofel</a></span>										</div>
+								<time class="time published" datetime="2014-09-25T13:53:07-07:00" title="2014/09/25 1:53:07 PM" itemprop="datePublished">
+					Sep. 25, 2014 - 1:53 PM PDT				</time>
+				<time class="time updated" datetime="2014-09-25T16:27:47-07:00" title="2014/09/25 4:27:47 PM" itemprop="dateModified">
+					Sep. 25, 2014 - 1:53 PM PDT				</time>
+									<div class="comment-count">
+						<a href="https://gigaom.com/2014/09/25/a-flipless-flipboard-finally-arrives-on-windows-phones/">
+							2 Comments						</a>
+					</div>
+								</div>
+				</article>
+<article id="post-876030" class="post-876030 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-availability tag-galaxy-note tag-galaxy-note-edge-2 tag-phablets tag-samsung tag-smartphones clearfix post-no-comments thumb company-att company-samsung company-samsung-electronics company-sprint company-t-mobile go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/25/samsungs-unusual-galaxy-note-edge-may-not-be-widely-available/" title="Permalink to Samsung&#8217;s unusual Galaxy Note Edge may not be widely available" rel="bookmark" itemprop="url">Samsung&#8217;s unusual Galaxy Note Edge may not be widely available</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/kifleswing1/" title="Posts by Kif Leswing" class="url fn" rel="author">Kif Leswing</a></span>										</div>
+								<time class="time published" datetime="2014-09-25T13:11:48-07:00" title="2014/09/25 1:11:48 PM" itemprop="datePublished">
+					Sep. 25, 2014 - 1:11 PM PDT				</time>
+				<time class="time updated" datetime="2014-09-25T13:11:48-07:00" title="2014/09/25 1:11:48 PM" itemprop="dateModified">
+					Sep. 25, 2014 - 1:11 PM PDT				</time>
+							</div>
+				</article>
+<article id="post-876077" class="post-876077 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-amazon tag-amazon-web-services tag-rackspace tag-xen clearfix post-no-comments thumb company-amazon technology-amazon-web-services technology-public-cloud company-rackspace technology-xen go-post-standard" itemscope itemtype="http://schema.org/NewsArticle">
+				<header class="head entry-header clearfix">
+								<h1 class="entry-title" itemprop="headline">
+								<a href="https://gigaom.com/2014/09/25/amazon-confirms-that-ec2-reboots-are-due-to-xen-issues/" title="Permalink to Amazon confirms that EC2 reboots are due to Xen issues" rel="bookmark" itemprop="url">Amazon confirms that EC2 reboots are due to Xen issues</a>
+							</h1>
+			</header>
+			<div class="post-meta">
+				<div class="by">
+											By <span class="vcard"><a itemprop="author" class="url fn" href="http://search.gigaom.com/author/barbdarrow/" title="Posts by Barb Darrow" class="url fn" rel="author">Barb Darrow</a></span>										</div>
+								<time class="time published" datetime="2014-09-25T13:05:12-07:00" title="2014/09/25 1:05:12 PM" itemprop="datePublished">
+					Sep. 25, 2014 - 1:05 PM PDT				</time>
+				<time class="time updated" datetime="2014-09-27T10:55:50-07:00" title="2014/09/27 10:55:50 AM" itemprop="dateModified">
+					Sep. 25, 2014 - 1:05 PM PDT				</time>
+							</div>
+				</article>
+</div><div id="widget-go-pagination-pagednav-2" class="widget clearfix widget-go-pagination-pagednav"><span class="pages-numbered"><span class='page-numbers current'>1</span><a class='page-numbers' href='/page/2/'>2</a><a class='page-numbers' href='/page/3/'>3</a><span class="page-numbers dots">&hellip;</span><a class='page-numbers' href='/page/4210/'>4,210</a></span><span class="pages-summarized">page 1 of 4,210</span><a class="next page-numbers" href="/page/2/">older<i class="goicon icon-right"></i></a><div class="clear"></div></div><div id="go-local-bsocial-cta-3" class="widget clearfix go-bsocial-cta">	<section class="cta-section share clearfix">
+				<ul class="social inline-list">
+							<li class="twitter">
+					<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgigaom.com%2F2014%2F09%2F27%2Fcheer-up-the-mobile-app-economy-isnt-doing-that-badly-but-it-is-maturing%2F&#038;via=gigaom&#038;text=Cheer+up%2C+the+mobile+app+economy+isn%27t+doing+that+badly+-+but+it+is+maturing" title="Share on Twitter" class="goicon icon-twitter"></a>
+				</li>
+								<li class="facebook">
+					<a href="https://www.facebook.com/dialog/feed?app_id=180650338636285&#038;link=https%3A%2F%2Fgigaom.com%2F2014%2F09%2F27%2Fcheer-up-the-mobile-app-economy-isnt-doing-that-badly-but-it-is-maturing%2F&#038;name=Cheer+up%2C+the+mobile+app+economy+isn%26%238217%3Bt+doing+that+badly+%26%238212%3B+but+it+is+maturing&#038;description=Recent+data+suggests+that+people%27s+interest+in+apps+is+waning.+But+is+that+what%27s+actually+going+on%3F&#038;caption=Gigaom&#038;redirect_uri=https%3A%2F%2Fgigaom.com%2F2014%2F09%2F27%2Fcheer-up-the-mobile-app-economy-isnt-doing-that-badly-but-it-is-maturing%2F&#038;picture=https%3A%2F%2Fgigaom2.files.wordpress.com%2F2014%2F07%2Fmobile-apps.jpg%3Fw%3D210" title="Share on Facebook" class="goicon icon-facebook"></a>
+				</li>
+								<li class="linkedin">
+					<a href="http://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Fgigaom.com%2F2014%2F09%2F27%2Fcheer-up-the-mobile-app-economy-isnt-doing-that-badly-but-it-is-maturing%2F&#038;title=Cheer+up%2C+the+mobile+app+economy+isn%26%238217%3Bt+doing+that+badly+%26%238212%3B+but+it+is+maturing&#038;source=https%3A%2F%2Fgigaom.com&#038;summary=Recent+data+suggests+that+people%27s+interest+in+apps+is+waning.+But+is+that+what%27s+actually+going+on%3F" title="Share on LinkedIn" class="goicon icon-linkedin"></a>
+				</li>
+								<li class="googleplus">
+					<a href="https://plus.google.com/share?url=url=https%3A%2F%2Fgigaom.com%2F2014%2F09%2F27%2Fcheer-up-the-mobile-app-economy-isnt-doing-that-badly-but-it-is-maturing%2F" title="Share on Google+" class="goicon icon-googleplus"></a>
+				</li>
+								<li class="email">
+					<a href="mailto:?subject=Check%20out%20%22Cheer%20up%2C%20the%20mobile%20app%20economy%20isn%E2%80%99t%20doing%20that%20badly%20%E2%80%94%20but%20it%20is%20maturing%22&#038;body=Thought%20you%20might%20enjoy%20this%20%22Cheer%20up%2C%20the%20mobile%20app%20economy%20isn%E2%80%99t%20doing%20that%20badly%20%E2%80%94%20but%20it%20is%20maturing%22%20from%20Guest%20Column%3A%0D%0A%0D%0Ahttps%3A%2F%2Fgigaom.com%2F2014%2F09%2F27%2Fcheer-up-the-mobile-app-economy-isnt-doing-that-badly-but-it-is-maturing%2F" title="Share via Email" class="goicon icon-email"></a>
+				</li>
+						</ul>
+	</section>
+		<section class="cta-section follow clearfix">
+		<p>
+			<i class="goicon medium icon-twitter"></i> Follow
+						<a href="https://twitter.com/gigaom">@gigaom</a> for more stories like this.
+		</p>
+	</section>
+			<section class="cta-section cta-section-newsletter clearfix ">
+			<form
+				enctype="application/x-www-form-urlencoded"
+				class="go-local-bsocial-newsletter-form"
+				method="post"
+				action="https://accounts.gigaom.com/newsletters/"
+				target="_blank"
+				data-identity-server="https://accounts.gigaom.com"
+			>
+				<input type="hidden" name="timestamp" value="1411847765" />
+				<input type="hidden" name="hash" value="5d1495d234a219855aa254f9bb0177f4"/>
+				<input type="hidden" name="newsletterSave" value="save" />
+				<input type="hidden" name="merge_existing_subscriptions" value="merge" />
+										<input type="hidden" name="lists[daily][]" value="apple" />
+												<input type="hidden" name="lists[daily][]" value="cloud" />
+												<input type="hidden" name="lists[daily][]" value="data" />
+												<input type="hidden" name="lists[daily][]" value="europe" />
+												<input type="hidden" name="lists[daily][]" value="media" />
+												<input type="hidden" name="lists[daily][]" value="mobile" />
+												<input type="hidden" name="lists[daily][]" value="science-energy" />
+												<input type="hidden" name="lists[daily][]" value="social-web" />
+												<input type="hidden" name="lists[daily][]" value="tech" />
+												<input type="hidden" name="lists[daily][]" value="video" />
+						Get top stories delivered daily.				<p class="form-elements">
+					<input type="email" name="email" value="" placeholder="Enter email address"/>
+					<button class="button primary">Subscribe</button>
+				</p>
+			</form>
+			<div class="subscribed">
+				<p>
+					You're subscribed! If you like, you can <a href="https://accounts.gigaom.com/newsletters/">update your settings</a>
+				</p>
+			</div>
+		</section>
+		<script>
+		// when this is added to the page, publish that that has occurred
+			jQuery( function( $ ) {
+				amplify.publish('go-local-bsocial-cta-loaded');
+			});
+		</script>
+		
+<script>
+	jQuery( function( $ ) {
+		// when this is added to the page, publish that that has occurred
+		amplify.publish('go-local-bsocial-cta-loaded');
+	});
+</script>
+</div>	</div>
+</section>
+
+<aside id="sidebar" class="small-4 columns">
+	<div id="go-widget-areas-3" data-remove-on-inject-classes=" " class="  waterfall-above-the-fold go-custom-widget-area_waterfall-above-the-fold widget clearfix widget-go-widget-areas widget-area"><div id="go-ads-4" class="widget">		<div id="ad-a-container" class="ad ad-300x250">
+						<div class="go-ad-call-to-action">
+									<h3 class="comments-title" data-comment-count="0">
+						<a href="https://gigaom.com/2014/09/25/amazon-confirms-that-ec2-reboots-are-due-to-xen-issues/#respond" title="Comment on Amazon confirms that EC2 reboots are due to Xen issues"><i class="goicon icon-arrow-down"></i><i class="goicon icon-comment"></i>Join the conversation</a>					</h3>
+								</div>
+						<div class="advertisement-notice">Advertisement</div>
+			<div id="ad-a">
+			<script>
+				amplify.subscribe('go-init', function() {
+					googletag.cmd.push(function() { googletag.display('ad-a'); });
+				});
+			</script>
+			<!-- DFP AD SLOT: tech_300x250_top -->
+			</div>
+		</div>
+		</div></div><div id="go-inject-7" class="widget clearfix widget-go-inject inject"></div><div id="go-inject-8" class="widget clearfix widget-go-inject inject"></div><div id="go-ads-10" class="widget clearfix widget-go-ads">		<div id="ad-d-container" class="ad ad-300x600">
+						<div class="go-ad-call-to-action">
+									<h3 class="comments-title" data-comment-count="0">
+						<a href="https://gigaom.com/2014/09/25/amazon-confirms-that-ec2-reboots-are-due-to-xen-issues/#respond" title="Comment on Amazon confirms that EC2 reboots are due to Xen issues"><i class="goicon icon-arrow-down"></i><i class="goicon icon-comment"></i>Join the conversation</a>					</h3>
+								</div>
+						<div class="advertisement-notice">Advertisement</div>
+			<div id="ad-d">
+			<script>
+				amplify.subscribe('go-init', function() {
+					googletag.cmd.push(function() { googletag.display('ad-d'); });
+				});
+			</script>
+			<!-- DFP AD SLOT: tech_300x600 -->
+			</div>
+		</div>
+		</div><div id="go-widget-areas-8" data-remove-on-inject-classes=" " class="  waterfall-ad-anchor go-custom-widget-area_waterfall-ad-anchor widget clearfix widget-go-widget-areas widget-area"><div id="go-ads-double-3" class="widget">		<div id="ad-e-container" class="ad ad-slot-1 ad-125x125">
+			<div class="advertisement-notice">Advertisement</div>
+			<div id="ad-e">
+				<script type="text/javascript">
+					amplify.subscribe('go-init', function() {
+						googletag.cmd.push(function() { googletag.display('ad-e'); });
+					});
+				</script>
+				<!-- DFP AD SLOT: tech_125x125_a -->
+			</div>
+		</div>
+		<div id="ad-f-container" class="ad ad-slot-2 ad-125x125">
+			<div class="advertisement-notice">Advertisement</div>
+			<div id="ad-f">
+				<script type="text/javascript">
+					amplify.subscribe('go-init', function() {
+						googletag.cmd.push(function() { googletag.display('ad-f'); });
+					});
+				</script>
+				<!-- DFP AD SLOT: tech_125x125_b -->
+			</div>
+		</div>
+		</div><div id="go-inject-12" class="widget"></div></div></aside>
+
+		</div>		<footer id="foot">
+	<div class="property">
+		<div class="row">
+						<div class="topics">
+				<ul id="menu-topics-1" class="content"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599793"><a title="Cloud" href="/channel/cloud/">Cloud</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599794"><a title="Data" href="/channel/data/">Data</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599797"><a title="Media" href="/channel/media/">Media</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599796"><a title="Mobile" href="/channel/mobile/">Mobile</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599792"><a title="Science &amp; Energy" href="/channel/science-energy/">Science &amp; Energy</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-855073"><a href="/channel/social-web/">Social &amp; Web</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-823141"><a href="https://gigaom.com/podcasts/">Podcasts</a></li>
+</ul>			</div>
+					<div class="topics">
+			<ul>
+				<li><a href="http://about.gigaom.com/team/editorial/">Editorial Team</a></li>
+				<li><a href="http://about.gigaom.com/mediakit/">Media Kit</a></li>
+			</ul>
+		</div>
+				</div>
+						<div class="vip row">
+					<a href="http://vip.wordpress.com/" class="goicon icon-wordpress"></a>
+					<a href="http://vip.wordpress.com/" id="wp-link">Powered by WordPress.com VIP</a>
+				</div>
+				</div>
+	<div class="all">
+		<div class="row">
+		<div class="small-12 columns">
+				<div class="row">
+					<div class="small-12 large-5 small-centered columns share">
+						<a href="https://gigaom.com" rel="publisher" title="Gigaom">
+							<span class="logo"><span class="logo-svg"><svg version="1.1" id="gigaom-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="125.49px" height="40.523px" viewBox="0 0 125.49 40.523" enable-background="new 0 0 125.49 40.523" xml:space="preserve">
+<path fill="#FFFFFF" d="M28.506,17.858h-8.41v3.405h3.85c-0.666,1.551-2.066,2.469-3.781,2.469c-2.533,0-4.518-2.007-4.518-4.565
+	c0-2.628,1.869-4.614,4.352-4.614c1.447,0,2.543,0.553,3.545,1.789l0.086,0.104l3.156-2.438l-0.09-0.11
+	c-1.646-2.036-4.133-3.203-6.818-3.203c-4.801,0-8.424,3.633-8.424,8.448c0,4.775,3.643,8.376,8.473,8.376
+	c2.199,0,4.303-0.81,5.92-2.279c1.812-1.645,2.695-3.741,2.695-6.408c0-0.145,0-0.53-0.025-0.846L28.506,17.858z"/>
+<rect x="30.678" y="10.946" fill="#FFFFFF" width="4.199" height="16.284"/>
+<path fill="#FFFFFF" d="M54.073,17.858h-8.41v3.405h3.85c-0.67,1.551-2.066,2.469-3.783,2.469c-2.533,0-4.518-2.007-4.518-4.565
+	c0-2.628,1.871-4.614,4.35-4.614c1.451,0,2.545,0.553,3.547,1.789l0.084,0.104l3.158-2.438l-0.092-0.11
+	c-1.646-2.036-4.131-3.203-6.814-3.203c-4.803,0-8.426,3.633-8.426,8.448c0,4.775,3.645,8.376,8.471,8.376
+	c2.201,0,4.303-0.81,5.922-2.279c1.812-1.645,2.695-3.741,2.695-6.408c0-0.145,0-0.53-0.023-0.846L54.073,17.858z"/>
+<path fill="#FFFFFF" d="M66.836,27.23l-0.807-2.344h-6.422l-0.805,2.344h-4.762l6.127-16.284h5.275l6.152,16.284H66.836z
+	 M62.807,15.096l-2.076,6.127h4.15L62.807,15.096z"/>
+<path fill="#009BFF" d="M71.745,19.099c0-5.105,3.848-8.678,8.977-8.678c5.131,0,8.953,3.572,8.953,8.678
+	c0,5.106-3.822,8.677-8.953,8.677C75.592,27.776,71.745,24.206,71.745,19.099 M85.274,19.099c0-2.741-1.785-4.854-4.553-4.854
+	c-2.791,0-4.578,2.113-4.578,4.854c0,2.717,1.787,4.855,4.578,4.855C83.489,23.955,85.274,21.816,85.274,19.099"/>
+<path fill="#FFFFFF" d="M103.022,10.946l-3.416,8.838l-3.393-8.838h-6.229v0.474c1.705,2.091,2.73,4.76,2.73,7.667
+	c0,2.91-1.025,5.577-2.73,7.669v0.475h4.594V16.632l4.1,10.598h1.855l4.127-10.598V27.23h4.594V10.946H103.022z"/>
+</svg>
+</span></span>						</a>
+					</div>
+				</div>
+			</div>
+			<div class="small-12 columns">
+				<ul class="properties">
+					<li><a href="https://gigaom.com">Blog</a></li>
+					<li><a href="http://research.gigaom.com">Research</a></li>
+					<li><a href="http://events.gigaom.com">Events</a></li>
+				</ul>
+			</div>
+			<div class="small-12 columns about">
+				<ul id="menu-footer" class="content"><li id="menu-item-601819" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-601819"><a href="/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-601820" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-601820"><a href="/terms-of-service/">Terms of Service</a></li>
+<li id="menu-item-601821" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-601821"><a href="/about/">About</a></li>
+<li id="menu-item-601822" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-601822"><a href="/about/editorial-team/">Editorial Team</a></li>
+<li id="menu-item-601824" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-601824"><a href="/about/mediakit/">Media Kit</a></li>
+<li id="menu-item-601825" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-601825"><a href="/about/contact/">Contact</a></li>
+</ul>			</div>
+			<div class="small-12 columns">
+				<div class="row">
+					<div class="small-12 large-4 small-centered columns share">
+								<ul class="share-list">
+			<li><a href="https://twitter.com/gigaom" class="goicon icon-twitter"></a></li>
+			<li><a href="https://www.facebook.com/Gigaom" class="goicon icon-facebook"></a></li>
+			<li><a href="http://www.linkedin.com/company/gigaom" class="goicon icon-linkedin"></a></li>
+		</ul>
+							</div>
+				</div>
+			</div>
+			<div class="small-12 columns copyright">
+				2014 Gigaom, Inc. All Rights Reserved.
+			</div>
+		</div>
+	</div>
+</footer>
+	</div>
+</div>
+<nav class="sidepanel primary left">
+	<ul class="links">
+		<li class="menu-item home"><a href="https://gigaom.com/">Home</a></li>		<li class="topics">
+			<ul id="menu-topics-2" class="content"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599793"><a title="Cloud" href="/channel/cloud/">Cloud</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599794"><a title="Data" href="/channel/data/">Data</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599797"><a title="Media" href="/channel/media/">Media</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599796"><a title="Mobile" href="/channel/mobile/">Mobile</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599792"><a title="Science &amp; Energy" href="/channel/science-energy/">Science &amp; Energy</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-855073"><a href="/channel/social-web/">Social &amp; Web</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-823141"><a href="https://gigaom.com/podcasts/">Podcasts</a></li>
+</ul>		</li>
+		<li class="properties">
+			<ul>
+				<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599786"><a title="Events" href="http://events.gigaom.com/">Events</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-599787"><a title="Research" href="http://research.gigaom.com/">Research</a></li>
+			</ul>
+		</li>
+				<li class="sub-nav nav-subscribe">
+			<a href="#" class="control-subscribe" title="Subscribe">Subscribe</a>
+			<div class="container">
+				<ul>
+					<li class="blog">
+						<header class="subheader">Gigaom</header>
+						<section id="go-subscribe-nav-newsletter" class="newsletter" data-blockui-overlay-bg="#111C29" data-blockui-opacity="0.8">
+							<i class="goicon icon-megaphone"></i>
+							<header>Newsletters</header>
+									<section class="cta-section cta-section-newsletter clearfix ">
+			<form
+				enctype="application/x-www-form-urlencoded"
+				class="go-local-bsocial-newsletter-form"
+				method="post"
+				action="https://accounts.gigaom.com/newsletters/"
+				target="_blank"
+				data-identity-server="https://accounts.gigaom.com"
+			>
+				<input type="hidden" name="timestamp" value="1411847765" />
+				<input type="hidden" name="hash" value="5d1495d234a219855aa254f9bb0177f4"/>
+				<input type="hidden" name="newsletterSave" value="save" />
+				<input type="hidden" name="merge_existing_subscriptions" value="merge" />
+											<input type="hidden" name="lists[daily][]" value="tech" />
+														<input type="hidden" name="lists[daily][]" value="cloud" />
+														<input type="hidden" name="lists[daily][]" value="data" />
+														<input type="hidden" name="lists[daily][]" value="media" />
+														<input type="hidden" name="lists[daily][]" value="mobile" />
+														<input type="hidden" name="lists[daily][]" value="science-energy" />
+														<input type="hidden" name="lists[daily][]" value="social-web" />
+														<input type="hidden" name="lists[pro][]" value="weeklyupdate" />
+														<input type="hidden" name="lists[offers][]" value="offers" />
+														<input type="hidden" name="lists[offers][]" value="events" />
+														<input type="hidden" name="lists[offers][]" value="webinars" />
+														<input type="hidden" name="lists[offers][]" value="research" />
+														<input type="hidden" name="lists[omsays][]" value="omsays" />
+							Don't miss out. Sign up to get all the news you need delivered right to your inbox.				<p class="form-elements">
+					<input type="email" name="email" value="" placeholder="Enter email address"/>
+					<button class="button primary">Get started</button>
+				</p>
+			</form>
+			<div class="subscribed">
+				<p>
+					You're subscribed! If you like, you can <a href="https://accounts.gigaom.com/newsletters/">update your settings</a>
+				</p>
+			</div>
+		</section>
+		<script>
+		// when this is added to the page, publish that that has occurred
+			jQuery( function( $ ) {
+				amplify.publish('go-local-bsocial-cta-loaded');
+			});
+		</script>
+								</section>
+					</li>
+					<li class="research">
+						<header class="subheader">Gigaom Research</header>
+						<section id="go-subscribe-nav-subscription" class="subscription">
+							<i class="goicon icon-person"></i>
+							<header>Individual subscription</header>
+							<div class="prompt">
+								<p>
+									Get access to Gigaom Research for a year.
+								</p>
+								<p>
+									<a href="https://research.gigaom.com/subscription/sign-up/" class="button">Get started</a>
+								</p>
+							</div>
+							<div class="subscribed">
+								<p>
+									You're subscribed! Review details <a href="https://accounts.gigaom.com/my-profile/subscription/">here</a>.
+								</p>
+							</div>
+						</section>
+						<section id="go-subscribe-nav-enterprise" class="enterprise">
+							<i class="goicon icon-people"></i>
+							<header>Corporate subscription</header>
+							<div class="prompt">
+								<p>
+									Company-wide access to Gigaom Research, analyst briefings or inquiries,
+									Gigaom Event tickets &amp; much more.
+								</p>
+								<p>
+									<a href="https://go.gigaom.com/corporate.html?utm_campaign=gorcs&#038;utm_medium=sh&#038;utm_source=gigaom&#038;utm_content=getstarted&#038;utm_term=subscription-header" class="button">Get started</a>
+								</p>
+							</div>
+							<div class="subscribed"></div>
+						</section>
+					</li>
+				</ul>
+			</div>
+		</li>
+			</ul>
+</nav>
+<nav class="sidepanel follow right">
+	<ul class="links follow">
+		<li>
+						<div class="container follow">
+				<h5>Follow us</h5>
+				<ul class="content with-icons">
+							<li><a href="https://twitter.com/gigaom"><i class="goicon icon-twitter"></i>Follow @gigaom</a></li>
+		<li><a href="https://www.facebook.com/Gigaom"><i class="goicon icon-facebook"></i>Become a fan</a></li>
+		<li><a href="http://www.linkedin.com/company/gigaom"><i class="goicon icon-linkedin"></i>Connect with us</a></li>
+							<li><a href="https://accounts.gigaom.com/newsletters/"><i class="goicon icon-email"></i>Subscribe to newsletter</a></li>
+											<li><a href="https://gigaom.com/feed/"><i class="goicon icon-rss"></i>Get feed</a></li>
+										</ul>
+			</div>
+					</li>
+	</ul>
+</nav>
+<nav class="sidepanel account right">
+	<ul class="links">
+	</ul>
+</nav>
+
+<div id="wp_footer">		<script type='text/javascript'>
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+		(function() {
+		var gads = document.createElement('script');
+		gads.async = true;
+		gads.type = 'text/javascript';
+		var useSSL = 'https:' == document.location.protocol;
+		gads.src = (useSSL ? 'https:' : 'http:') +
+		'//www.googletagservices.com/tag/js/gpt.js';
+		var node = document.getElementsByTagName('script')[0];
+		node.parentNode.insertBefore(gads, node);
+		})();
+		</script>
+		<script type='text/javascript'>
+		googletag.cmd.push(function() {
+			googletag.defineSlot("/31971080/tech_300x250_mid", [300, 250], "ad-b").addService(googletag.pubads());
+googletag.defineSlot("/31971080/tech_300x250_low", [300, 250], "ad-c").addService(googletag.pubads());
+googletag.defineSlot("/31971080/tech_300x250_top", [300, 250], "ad-a").addService(googletag.pubads());
+googletag.defineSlot("/31971080/tech_300x600", [300, 600], "ad-d").addService(googletag.pubads());
+googletag.defineSlot("/31971080/tech_125x125_a", [125, 125], "ad-e").addService(googletag.pubads());
+googletag.defineSlot("/31971080/tech_125x125_b", [125, 125], "ad-f").addService(googletag.pubads());
+						googletag.pubads().enableSingleRequest();
+			googletag.enableServices();
+		});
+		</script>
+		<div id="go-remote-identity-login-form">
+	<div class="logging-in">
+		<h3>Signing in...</h3>
+	</div>
+	<form id="go-remote-identity-login" action="https://accounts.gigaom.com/subscription/sign-in/" enctype="application/x-www-form-urlencoded" method="post" class="login clearfix">
+		<h3>Sign in</h3>
+		<input type="hidden" name="redirect_to" value="https://gigaom.com/" id="redirect_to">
+		<ul>
+			<li class="email">
+				<label for="go-remote-identity-log">Email address</label>
+				<input type="email" name="log" id="go-remote-identity-log">
+			</li>
+			<li class="password">
+				<label for="go-remote-identity-pwd">Password</label>
+				<input type="password" name="pwd" id="go-remote-identity-pwd">
+			</li>
+			<li class="remember">
+				<input type="checkbox" name="go-remote-identity-remember" value="1">
+				<label for="remember" id="go-remote-identity-remember">Remember me</label>
+			</li>
+			<li class="actions">
+				<button class="button action-button submit" type="submit">Continue</button>
+				<a href="" class="forgot-password">Forgot your password?</a>
+			</li>
+		</ul>
+	</form>
+	<div class="social">
+		<h3>Or sign in via social media</h3>
+		<ul class="buttons">
+			<li class="linkedin">
+				<a href="https://accounts.gigaom.com?goauth_start=1&#038;goauth_action=loginoverlay&#038;goauth_service=linkedin&#038;type=authenticate&#038;loc=%2F%3Fgoauth_action%3Dclosewindow" rel="nofollow"><i class="goicon icon-linkedin"></i>LinkedIn</a>
+			</li>
+			<li class="twitter">
+				<a href="https://accounts.gigaom.com?goauth_start=1&#038;goauth_action=loginoverlay&#038;goauth_service=twitter&#038;type=authenticate&#038;loc=%2F%3Fgoauth_action%3Dclosewindow" rel="nofollow"><i class="goicon icon-twitter"></i>Twitter</a>
+			</li>
+			<li class="facebook">
+				<a href="https://accounts.gigaom.com?goauth_start=1&#038;goauth_action=loginoverlay&#038;goauth_service=facebook&#038;type=authenticate&#038;loc=%2F%3Fgoauth_action%3Dclosewindow" rel="nofollow"><i class="goicon icon-facebook"></i>Facebook</a>
+			</li>
+		</ul>
+		<a href="" class="why">Why?</a>
+		<div class="why-details">
+			<ol>
+				<li>One click to login. No more pesky passwords!</li>
+				<li>Easily share your likes and links.</li>
+				<li>See what's popular with Gigaom Research readers.</li>
+			</ol>
+			<p>
+				We will never post to your social networks unless you share something.
+				<a href="https://gigaom.com/terms-of-service/">Terms</a> and <a href="https://gigaom.com/privacy-policy/">Privacy</a>.
+			</p>
+		</div>
+	</div>
+		<div class="lost-password">
+		<h3>Forgot your password?</h3>
+		<form id="go-remote-identity-forgot" action="https://accounts.gigaom.com/wp-login.php?action=lostpassword" enctype="application/x-www-form-urlencoded" method="post">
+			<input type="hidden" name="redirect_to" value="" id="redirect_to">
+			<ul>
+				<li class="email">
+					<label for="go-remote-identity-user_login">Email address</label>
+					<input type="email" name="user_login" id="go-remote-identity-user_login">
+				</li>
+				<li class="actions">
+					<button class="button action-button submit" type="submit">Get new password</button>
+				</li>
+			</ul>
+		</form>
+	</div>
+</div>
+		<!-- Quantcast Tag -->
+		<script type="text/javascript">
+		var _qevents = _qevents || [];
+
+		(function() {
+		var elem = document.createElement('script');
+		elem.src = (document.location.protocol == 'https:' ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+		elem.async = true;
+		elem.type = 'text/javascript';
+		var scpt = document.getElementsByTagName('script')[0];
+		scpt.parentNode.insertBefore(elem, scpt);
+		})();
+
+		_qevents.push({
+		qacct:'p-7f76HAgni1Oqs'
+		});
+		</script>
+
+		<noscript>
+		<div style="display:none;">
+		<img src="//pixel.quantserve.com/pixel/p-7f76HAgni1Oqs.gif" border="0" height="1" width="1" alt="Quantcast"/>
+		</div>
+		</noscript>
+		<!-- End Quantcast tag -->
+		<!-- Compete CrossPoint Tag for gigaom.com -->
+		<script type="text/javascript">
+		__compete_code = 'bb0600f729c3213d9d68f9daaaa24a40';
+		</script>
+		<script type="text/javascript" src="//c.compete.com/bootstrap/s/bb0600f729c3213d9d68f9daaaa24a40/gigaom-com/bootstrap.js"></script>
+		<noscript>
+			<img width="1" height="1" src="https://ssl-gigaom-com-bb0600.c-col.com"/>
+		</noscript>
+		<!-- End Compete CrossPoint Tag for gigaom.com -->
+		<!-- Chartbeat -->
+		<script type="text/javascript">
+			var _sf_async_config={};
+			/** CONFIGURATION START **/
+			_sf_async_config.uid = 16916;
+			_sf_async_config.domain = "gigaom.com";
+						/** CONFIGURATION END **/
+			(function(){
+				function loadChartbeat() {
+					window._sf_endpt=(new Date()).getTime();
+					var e = document.createElement("script");
+					e.setAttribute("language", "javascript");
+					e.setAttribute("type", "text/javascript");
+					e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+					document.body.appendChild(e);
+				}
+				var oldonload = window.onload;
+				window.onload = (typeof window.onload != "function") ?
+				loadChartbeat : function() { oldonload(); loadChartbeat(); };
+			})();
+		</script>
+		<!-- comScore -->
+		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({ c1: "2", c2: "13557238" });
+			(function() {
+				var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = 'async';
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			<img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=13557238&amp;cv=2.0&amp;cj=1" alt="comScore" />
+		</noscript>
+		<!-- Nielsen Online SiteCensus V6.0 -->
+		<script type="text/javascript">
+		(function () {
+			var d = new Image(1, 1);
+			d.onerror = d.onload = function () {
+				d.onerror = d.onload = null;
+			};
+			d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-thestreet&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+		})();
+		</script>
+		<noscript>
+			<div>
+				<img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-thestreet&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="" />
+			</div>
+		</noscript>
+		<!-- Marketo -->
+		<script type="text/javascript">
+			jQuery.ajax({
+				url: document.location.protocol + '//munchkin.marketo.net/139/munchkin.js',
+				dataType: 'script',
+				cache: true,
+				success: function() {
+				    Munchkin.init('863-MUO-381', {disableClickDelay : true});
+				}
+			});
+		</script>
+					<!-- Bizo -->
+			<script type="text/javascript">
+				var _bizo_data_partner_id = "459";
+									var _bizo_data_partner_channel_id = "gigaom.tech.com";
+								</script>
+			<script type="text/javascript">
+				(function(){(function(){var b,a;a=document.createElement("script");a.type="text/javascript";a.async='async';a.src=""+(window.location.protocol==="https:"?"https://sjs.":"http://js.")+"bizographics.com/insight.min.js";b=document.getElementsByTagName("script")[0];return b.parentNode.insertBefore(a,b)})();})();
+			</script>
+			<!-- END Bizo -->
+			<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201439x'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781g'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-4af03439988d64f816da72496325cb73">
+	</div>
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/gigaom2.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/gigaom2.wordpress.com\/wp-login.php?action=logout&_wpnonce=03d59d8470","homeURL":"https:\/\/gigaom.com\/","postID":"876403","gravDefault":"retro","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"","userIsLoggedIn":"","isJetpack":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1409006146j'></script>
+		<!-- Optimizely dimensions -->
+		<script type="text/javascript">
+			optimizely.push( [ 'setDimensionValue', 1777520361, ga_user_role ] );
+		</script>
+		<script type='text/javascript'>
+/* <![CDATA[ */
+var bstat = {"post":"","blog":"14960843","guid":"","endpoint":"http:\/\/accounts.gigaom.com\/wp-admin\/admin-ajax.php?action=bstat","signature":"38f0d7740fe442287fdd4cfbb79dfc9f"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var go_theme = {"property":"gigaom","ajaxurl":"https:\/\/gigaom2.wordpress.com\/wp-admin\/admin-ajax.php","template_url":"https:\/\/s0.wp.com\/wp-content\/themes\/vip\/gigaom4-parent","wp_url":"https:\/\/gigaom2.wordpress.com"};
+var go_theme_injection_areas = [];
+var go_responsive = {"full":{"go-inject-7":{"widget":"go-widget-areas-4","class":"","title":"Section A"},"go-inject-8":{"widget":"go-widget-areas-5","class":"","title":"Section B"},"go-inject-11":{"widget":"postloop-25","class":"","title":"Related Stories"},"go-inject-10":{"widget":"go-ads-3","class":"","title":"Ad B"},"go-inject-12":{"widget":"go-ads-7","class":"","title":"Ad C"}},"tablet":{"go-inject-15":{"widget":"go-ads-9","class":"comment-ad","title":"Tablet Portrait Ad"},"go-inject-6":{"widget":"go-widget-areas-4","class":"","title":"After first loop"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJytlE1ywyAMhS9UTH+SmWw6XWfRZQ+AZRXLAeSA7MQ9fWnraTNJppPE3gFCH0+gh961CjgIBtFSo8eke2q1JWvYL1TrOksh6TKJEeXI1qKBfcshJyTdjJGiSXf6gJTXK+wJsN0fh84dYuKY5Cnod+5CZYT4cHg1BfeCMRinm22HcSiAeUM4kxhhdkJtmgmXEKbVSJwUR8qhb6CC2gQ7qdjx1rDP4cJzfz3sVxyw41jy/u8lfuYq77qdGjHlJkzUoxJTupx0snI7fGeGlik3eHGhxtEllpVltg6VyZhBCNKRW87sUBINbCjYyT1eGlWxkEfu5FLl/wMdw+ZtPZmDJs1RHwzgcJbC4q5ae2Px1dxg4mOY7/IXCPX1FgGOqCnQyfc5e4tlb9DHl8AX//ywuF88Pi1Xy1XzCeQ/Qgk='></script>
+<script type='text/javascript' src='https://platform.twitter.com/widgets.js?ver=20111117'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var PushUpNotificationSettings = {"domain":"https:\/\/gigaom2.wordpress.com","userID":"24","websitePushID":"web.com.gigaom","webServiceURL":"https:\/\/push.10up.com","prompt":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var go_remote_identity_data = {"identity_server":"https:\/\/accounts.gigaom.com","sign_in":"https:\/\/accounts.gigaom.com\/subscription\/sign-in\/?redirect_to=https%3A%2F%2Fgigaom.com%2F&reauth=1"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var go_local_bsocial = {"title":null,"twitter_id":"gigaom","reddit_page":null,"facebook_page":"https:\/\/www.facebook.com\/Gigaom","excerpt_max_length":"104","quote_max_length":"104","general_max_length":"109"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcomVipAnalytics = {"is_404":"0","is_home":"1","is_single":"0","is_front_page":"1","is_archive":"0","percentToTrack":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var scrib_authority_data = {"primary":null};
+var scrib_authority_taxonomies = {"post_tag":{"name":"post_tag","labels":{"name":"Tags","singular_name":"Tag"}},"company":{"name":"company","labels":{"name":"Companies","singular_name":"Companies"}},"technology":{"name":"technology","labels":{"name":"Technologies and Products","singular_name":"Technologies and Products"}},"person":{"name":"person","labels":{"name":"People","singular_name":"People"}},"go_syn_category":{"name":"go_syn_category","labels":{"name":"Partner Categories","singular_name":"Partner Categories"}},"channel":{"name":"channel","labels":{"name":"Channel","singular_name":"Channel"}},"primary_channel":{"name":"primary_channel","labels":{"name":"Primary Channel","singular_name":"Primary Channel"}}};
+var go_search_suggest = {"terms":[]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJy9lVlu3DAMhi9UjTCDBEEeip6FllmZjrZq8dQ5fWjHQWbDwHIxfTNM/h8pLpI8BqG8y+iytEUEUzS5JPORcsYoGgPqraHYikAoA7qWnN716Yes0TkcMN7W5g4tJjlQkJo0ePskVEemlX2Slpzs/xSM446cIYeiKTa0/uhWUALEybJglI+cBgzbhBETveM/advRgSW1jZHxbxZJgdmYQ+LCb9VqMGbqwCbxEXgYfjOhWt5gBwP5uEa4zJ72PDrgHJrE0W3wjgVpAp5Y7vC+OKGkroRJ9/m143zq0ohofUZBLbtSHi+yMdTccBLaf30+Pth/OI7xurZsqTRJRWpQ8KZet/DMXEc2npdHNMkrAnNNPjM/jixUhsqKLDpv7Qy94EcYIEPljtxnLvdt9p535WTwySlTWpx9Fim3PJixfjugvbGf/PPOs3IQE6ufkQIcmDGTurfLl2HnwTHEcUrufLye4uXcs9+3U2VlEaLqeE61xpQvAvAVjpEzlxYyv3CrXsK17Ct77SsLSvnCHV23WGfSk4v6l/25f9rvX16fX/eH/gP7cSN3'></script>
+<script type="text/javascript">	
+	var wijax_widget_reload = true;	
+	var wijax_queue = {
+		max_allowed_requests: 3,
+		timer: false,
+		processing: [],
+		processed: [],
+		queued: [],
+		process: function( set_timer ) {
+			if ( false !== set_timer ) {
+				set_timer = true;
+			}//end if
+
+			// allow X wijax requests to process
+			while (
+				wijax_queue.processing.length < wijax_queue.max_allowed_requests
+				&& wijax_queue.queued.length > 0
+			) {
+				var item = wijax_queue.queued.shift();
+
+				jQuery.ajax( item );
+
+				wijax_queue.processing.push( item );
+			}//end while
+
+			if ( ! wijax_queue.queued.length ) {
+				wijax_queue.timer = false;
+				return;
+			}//end if
+
+			if ( set_timer ) {
+				wijax_queue.timer = setTimeout( wijax_queue.process, 300 );
+			}//end if
+		},// end process
+		mark_as_processed: function( url ) {
+			// find the wijax request that completed
+			for ( var i in wijax_queue.processing ) {
+				// if the URLs don't match, then this wasn't the request that just completed
+				if ( wijax_queue.processing[ i ].url != url ) {
+					continue;
+				}//end if
+
+				// stick the wijax request into the processed array
+				wijax_queue.processed.push( Object.create( wijax_queue.processing[ i ] ) );
+
+				// remove it from the processing array
+				wijax_queue.processing.splice( i, 1 );
+			}//end for
+		}
+	};
+
+	;(function($){
+		$.fn.myWijaxLoader = function() {
+			var widget_source = $(this).attr('href');
+			var $widget_area = $(this).closest('.wijax-loading');
+			var $widget_parent = $widget_area.parent();
+			var opts = $.parseJSON( $widget_parent.find('span.wijax-opts').text() );
+			var varname = opts.varname;
+			var title_before = unescape( opts.title_before );
+			var title_after = unescape( opts.title_after );
+
+			wijax_queue.queued.push({
+				url: widget_source,
+				dataType: 'script',
+				cache: true,
+				complete: function() {
+					wijax_queue.mark_as_processed( widget_source );
+				},
+				success: function() {
+					// insert the fetched markup
+					$( $widget_area ).replaceWith( window[varname] );
+			
+					// find the widget title, add it to the DOM, remove the temp span
+					var $widget_title_el = $widget_parent.find('span.wijax-widgettitle');
+					var widget_title = $widget_title_el.text();
+
+					// don't set a widget title div if there is no title text
+					if (widget_title)
+						$widget_parent.prepend(title_before + widget_title + title_after);
+					
+					$widget_title_el.remove();
+			
+					// find and set the widget ID and classes
+					var $widget_attr_el = $widget_parent.find( 'span.wijax-widgetclasses' );
+					var widget_id = $widget_attr_el.attr( 'id' );
+					var widget_classes = $widget_attr_el.attr( 'class' );
+					$widget_parent.attr( 'id' , widget_id );
+					$widget_parent.addClass( widget_classes );
+					$widget_parent.removeClass( 'widget_wijax' );
+					$widget_attr_el.remove();
+
+					// trigger an event in case anything else needs to know when this widget has loaded
+					$( document ).trigger( 'wijax-loaded', [ widget_id ] );
+				}
+			});
+
+			// for each queuing of a wijax request, pass in a boolean that indicates whether or not
+			// to start a new setTimeout
+			wijax_queue.process( ! wijax_queue.timer );
+		};
+
+		// do the onload widgets
+		$(window).load(function(){
+			// find and load the widgets
+			$('a.wijax-source.wijax-onload').each(function() {
+				$(this).myWijaxLoader();
+			});	
+
+			// if we've already scrolled or there is a hash in the url,
+			// fire the scroll event and get the excerpts and widgets	
+			if ( ( document.location.hash ) || ( window.pageYOffset > 25 ) || ( document.body.scrollTop > 25 ) )
+				$( document ).trigger( 'scroll' );
+		});	
+
+		// do the onscroll actions
+		$(window).one('scroll', function(){
+			// widgets
+			$('a.wijax-source.wijax-onscroll').each(function() {
+				$(this).myWijaxLoader();
+			});
+		});
+	})(jQuery);
+</script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script src="//stats.wp.com/w.js?23" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({'blog':'14960843','v':'wpcom','tz':'-7','user_id':'0','subd':'gigaom2'});
+function st_vt() {var x=document.createElement("img");x.src="https://pixel.wp.com/g.gif?blog=14960843&v=wpcomvt&tz=-7&user_id=0&subd=gigaom2&rand="+Math.random();}
+ex_go({'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtXRThKbHcwXTdETWI1alhvb1oseHImN101ZFpEakVpYjlQYVFLYzBaVHRtPz0wXS9bej8lUmt2OV9WQVVpR2NNWz9QOGFUaXZQT0xDZXYmdTE0QlhnbytzdltdMjFxbm04eDBWTW1sSENVT2omekQ2ZVgrbz15dV9xYVBXa0o5ZlVHK2I4ZG0zT0lDcUcwL1omUVQ5MHJJYkVwd0ZWcGVyWVFSMFs5VmJbY0R2N25CSHhPSCtBb01RfHJtSzdtTlpwX1NGPVFrLGgmclVvSi40LzNRd2RGP0Y3RlFUd2JrTHMy'});
+addLoadEvent(function(){linktracker_init('14960843',0);});
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script></div>
+</body>
+</html>

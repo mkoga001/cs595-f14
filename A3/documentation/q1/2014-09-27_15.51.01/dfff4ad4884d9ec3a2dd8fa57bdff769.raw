@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>theScore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+
+    <script>
+      // Prevent internal links in standalone web apps opening Mobile Safari
+      (function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(chref=d.href).replace(e.href,"").indexOf("#")&&(!/^[a-z\+\.\-]+:/i.test(chref)||chref.indexOf(e.protocol+"//"+e.host)===0)&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone");
+    </script>
+
+    <link href="/application-dc77a8a920c24453103e3703b664bdab70ab3e52.css" rel="stylesheet" type="text/css" media="all"></link>
+
+    <!--[if IE 9]>
+      <link href="/ie9-dc77a8a920c24453103e3703b664bdab70ab3e52.css" rel="stylesheet" type="text/css" media="all"></link>
+    <![endif]-->
+
+    <link rel="icon" href="/images/favicon.png">
+    <link rel="apple-touch-icon" href="/images/web_icon_iphone.png">
+    <link rel="apple-touch-icon" sizes="76X76" href="/images/web_icon_ipad.png">
+    <link rel="apple-touch-icon" sizes="120X120" href="/images/web_icon_iphone_retina.png">
+    <link rel="apple-touch-icon" sizes="152X152" href="/images/web_icon_ipad_retina.png">
+
+  </head>
+  <body ontouchstart="" onmouseover="">
+
+    <div id="loading">
+      <div class="logo"></div>
+      <div class="spinner"></div>
+    </div>
+
+    <script>
+      window.ABG = "A";
+      window.META_LEAGUES = {"leagues":{"show":["mlb","nba","nhl","nfl","mls","ncaaf","ncaab","wcbk","nascar","pga","epga","lpga","mma","atp","wta","eurcq","epl","chlg","uefa","bund","liga","seri","formula1","cfl"],"more":[]}}['leagues'];
+      window.SPOTLIGHTS = [{"android_url":"http://www.thescore.com/nfl/drafttracker?utm_source=theScoreApp&utm_medium=Spotlight&utm_campaign=2014_NFL_DraftTracker","description":"NFL Mock Draft","display_leagues":["nfl"],"display_sections":["league_list"],"end_date":"Mon, 05 May 2014 09:40:35 -0000","id":20,"ios_url":"http://www.thescore.com/nfl/drafttracker?utm_source=theScoreApp&utm_medium=Spotlight&utm_campaign=2014_NFL_DraftTracker","menu_title":"NFL Mock Draft","name":"NFL Mock Draft","short_name":"NFL Mock Draft","start_date":"Thu, 01 May 2014 10:40:32 -0000","web_url":"http://www.thescore.com/nfl/drafttracker?utm_source=theScoreApp&utm_medium=Spotlight&utm_campaign=2014_NFL_DraftTracker","api_uri":"/spotlights/20","ipad_feature_image":{"url":"http://thescore-api-artifacts.s3.amazonaws.com/spotlight/20/ipad_feature_image.png"},"url":"http://www.thescore.com/nfl/drafttracker?utm_source=theScoreApp&utm_medium=Spotlight&utm_campaign=2014_NFL_DraftTracker"},{"android_url":"thescore:///fifa_fed/1","description":"Stay up to date on all of the action from the 2014 FIFA World Cup.","display_leagues":["worldcup"],"display_sections":["league_list"],"end_date":"Mon, 14 Jul 2014 15:23:05 -0000","id":27,"ios_url":"thescore:///fifa_fed/fixtures","menu_title":"2014 FIFA World Cup","name":"2014 FIFA World Cup","short_name":"World Cup","start_date":"Fri, 06 Jun 2014 15:23:04 -0000","web_url":"http://www.thescore.com/worldcup/news","api_uri":"/spotlights/27","ipad_feature_image":{"url":"http://thescore-api-artifacts.s3.amazonaws.com/spotlight/27/ipad_feature_image.png"},"url":"thescore:///fifa_fed/fixtures"},{"android_url":"http://www.thescore.com/news/516059?utm_source=theScoreApp&utm_medium=Spotlight&utm_campaign=belmont_stakes","description":"Stay up to date on all of the news and results from the 2014 Belmont Stakes.","display_leagues":[],"display_sections":["league_list"],"end_date":"Sun, 08 Jun 2014 16:00:00 -0000","id":28,"ios_url":"thescore:///news/516059?scheme=news","menu_title":"2014 Belmont Stakes","name":"2014 Belmont Stakes","short_name":"Belmont Stakes","start_date":"Sat, 07 Jun 2014 13:00:00 -0000","web_url":"http://www.thescore.com/news/516059?utm_source=theScoreWeb&utm_medium=Spotlight&utm_campaign=belmont_stakes","api_uri":"/spotlights/28","ipad_feature_image":{"url":"http://thescore-api-artifacts.s3.amazonaws.com/spotlight/28/ipad_feature_image.png"},"url":"thescore:///news/516059?scheme=news"},{"android_url":"thescore:///pga/1","description":"Follow all of the action from Pinehurst with theScore's 2014 U.S. Open coverage.","display_leagues":["pga"],"display_sections":["league_list"],"end_date":"Mon, 16 Jun 2014 16:00:00 -0000","id":29,"ios_url":"thescore:///pga/news","menu_title":"2014 U.S. Open","name":"2014 U.S. Open","short_name":"2014 U.S. Open","start_date":"Thu, 12 Jun 2014 14:00:00 -0000","web_url":"http://www.thescore.com/pga/news","api_uri":"/spotlights/29","ipad_feature_image":{"url":"http://thescore-api-artifacts.s3.amazonaws.com/spotlight/29/ipad_feature_image.png"},"url":"thescore:///pga/news"},{"android_url":"http://www.thescore.com/nba/drafttracker/draft?utm_source=Android&utm_medium=Spotlight_Android&utm_campaign=2014_NBA_Mock_Draft","description":"theScore previews the 2014 NBA Draft with our predictions for the first round.","display_leagues":["nba"],"display_sections":["news"],"end_date":"Thu, 26 Jun 2014 14:00:00 -0000","id":31,"ios_url":"http://www.thescore.com/nba/drafttracker/draft?utm_source=iOS&utm_medium=Spotlight_iOS&utm_campaign=2014_NBA_Mock_Draft","menu_title":"2014 NBA Mock Draft","name":"2014 NBA Mock Draft","short_name":"NBA Mock Draft","start_date":"Wed, 25 Jun 2014 14:30:00 -0000","web_url":"http://www.thescore.com/nba/drafttracker?utm_source=Web&utm_medium=Spotlight_Web&utm_campaign=2014_NBA_Mock_Draft","api_uri":"/spotlights/31","ipad_feature_image":{"url":"http://thescore-api-artifacts.s3.amazonaws.com/spotlight/31/ipad_feature_image.png"},"url":"http://www.thescore.com/nba/drafttracker/draft?utm_source=iOS&utm_medium=Spotlight_iOS&utm_campaign=2014_NBA_Mock_Draft"},{"android_url":"http://www.thescore.com/nba/drafttracker/draft?utm_source=Android&utm_medium=Spotlight_Android&utm_campaign=2014_NBA_Draft","description":"Live coverage and reaction of every pick from the 2014 NBA Draft.","display_leagues":["nba"],"display_sections":["news"],"end_date":"Fri, 27 Jun 2014 20:00:00 -0000","id":32,"ios_url":"http://www.thescore.com/nba/drafttracker/draft?utm_source=iOS&utm_medium=Spotlight_iOS&utm_campaign=2014_NBA_Draft","menu_title":"2014 NBA Draft","name":"2014 NBA Draft","short_name":"2014 NBA Draft","start_date":"Thu, 26 Jun 2014 14:00:00 -0000","web_url":"http://www.thescore.com/nba/drafttracker/draft?utm_source=Web&utm_medium=Spotlight_Web&utm_campaign=2014_NBA_Draft","api_uri":"/spotlights/32","ipad_feature_image":{"url":"http://thescore-api-artifacts.s3.amazonaws.com/spotlight/32/ipad_feature_image.png"},"url":"http://www.thescore.com/nba/drafttracker/draft?utm_source=iOS&utm_medium=Spotlight_iOS&utm_campaign=2014_NBA_Draft"},{"android_url":"http://www.thescore.com/nhl/drafttracker/draft?utm_source=Android&utm_medium=Spotlight_Android&utm_campaign=2014_NHL_Draft","description":"Live coverage and reaction of every pick from the 2014 NHL Draft.","display_leagues":["nhl"],"display_sections":["news","league_list"],"end_date":"Sun, 29 Jun 2014 14:00:00 -0000","id":33,"ios_url":"http://www.thescore.com/nhl/drafttracker/draft?utm_source=iOS&utm_medium=Spotlight_iOS&utm_campaign=2014_NHL_Draft","menu_title":"2014 NHL Draft","name":"2014 NHL Draft","short_name":"2014 NHL Draft","start_date":"Fri, 27 Jun 2014 14:00:00 -0000","web_url":"http://www.thescore.com/nhl/drafttracker/draft?utm_source=Web&utm_medium=Spotlight_Web&utm_campaign=2014_NHL_Draft","api_uri":"/spotlights/33","ipad_feature_image":{"url":"http://thescore-api-artifacts.s3.amazonaws.com/spotlight/33/ipad_feature_image.png"},"url":"http://www.thescore.com/nhl/drafttracker/draft?utm_source=iOS&utm_medium=Spotlight_iOS&utm_campaign=2014_NHL_Draft"},{"android_url":"http://tradedeadline.thescore.com/android/nba/offseason/transactions?utm_source=Android&utm_medium=Spotlight_Android&utm_campaign=2014_Off_Season","description":"Keep up to date on all of the latest news and transactions from the NBA off-season.","display_leagues":["nba"],"display_sections":["news"],"end_date":"Fri, 01 Aug 2014 16:00:00 -0000","id":34,"ios_url":"http://tradedeadline.thescore.com/iphone/nba/offseason/transactions?utm_source=iOS&utm_medium=Spotlight_iOS&utm_campaign=2014_Off_Season","menu_title":"NBA Off-Season Tracker","name":"NBA Off-Season Tracker","short_name":"NBA Off-Season","start_date":"Tue, 01 Jul 2014 13:00:00 -0000","web_url":"http://www.thescore.com/nba/offseason/transactions?utm_source=Web&utm_medium=Spotlight_Web&utm_campaign=2014_Off_Season","api_uri":"/spotlights/34","ipad_feature_image":{"url":"http://thescore-api-artifacts.s3.amazonaws.com/spotlight/34/ipad_feature_image.png"},"url":"http://tradedeadline.thescore.com/iphone/nba/offseason/transactions?utm_source=iOS&utm_medium=Spotlight_iOS&utm_campaign=2014_Off_Season"},{"android_url":"http://tradedeadline.thescore.com/android/nhl/offseason/transactions?utm_source=Android&utm_medium=Spotlight_Android&utm_campaign=2014_NHL_Free_Agency","description":"Keep up to date on all of the latest news and transactions from the NHL off-season.","display_leagues":["nhl"],"display_sections":["news"],"end_date":"Fri, 01 Aug 2014 16:00:00 -0000","id":35,"ios_url":"http://tradedeadline.thescore.com/iphone/nhl/offseason/transactions?utm_source=iOS&utm_medium=Spotlight_iOS&utm_campaign=2014_NHL_Free_Agency","menu_title":"NHL Off-Season Tracker","name":"NHL Off-Season Tracker","short_name":"NHL Off-Season","start_date":"Tue, 01 Jul 2014 13:00:00 -0000","web_url":"http://www.thescore.com/nhl/offseason/transactions?utm_source=Web&utm_medium=Spotlight_Web&utm_campaign=2014_NHL_Free_Agency","api_uri":"/spotlights/35","ipad_feature_image":{"url":"http://thescore-api-artifacts.s3.amazonaws.com/spotlight/35/ipad_feature_image.png"},"url":"http://tradedeadline.thescore.com/iphone/nhl/offseason/transactions?utm_source=iOS&utm_medium=Spotlight_iOS&utm_campaign=2014_NHL_Free_Agency"},{"android_url":"http://tradedeadline.thescore.com/android/mlb/tradedeadline?utm_source=spotlight&utm_medium=spotlight&utm_campaign=MLB_Trade_Tracker","description":"Keep up to date on all trades this season around Major League Baseball","display_leagues":["mlb"],"display_sections":["news"],"end_date":"Tue, 02 Sep 2014 18:00:00 -0000","id":36,"ios_url":"http://tradedeadline.thescore.com/iphone/mlb/tradedeadline?utm_source=spotlight&utm_medium=spotlight&utm_campaign=MLB_Trade_Tracker","menu_title":"MLB Trade Tracker","name":"MLB Trade Tracker","short_name":"Trade Tracker","start_date":"Mon, 14 Jul 2014 09:27:24 -0000","web_url":"http://www.thescore.com/mlb/tradedeadline?utm_source=spotlight&utm_medium=spotlight&utm_campaign=MLB_Trade_Tracker","api_uri":"/spotlights/36","ipad_feature_image":{"url":null},"url":"http://tradedeadline.thescore.com/iphone/mlb/tradedeadline?utm_source=spotlight&utm_medium=spotlight&utm_campaign=MLB_Trade_Tracker"},{"android_url":"thescore://news/582622","description":"Stay on top of all the fantasy news and information with theScore's NFL Fantasy Pulse.","display_leagues":["nfl"],"display_sections":["news"],"end_date":"Mon, 22 Sep 2014 00:00:00 -0000","id":37,"ios_url":"thescore:///news/582622?scheme=news","menu_title":"NFL Fantasy Pulse","name":"NFL Fantasy Pulse","short_name":"Fantasy Pulse","start_date":"Sun, 21 Sep 2014 16:30:00 -0000","web_url":"http://www.thescore.com/nfl/news/582622","api_uri":"/spotlights/37","ipad_feature_image":{"url":null},"url":"thescore:///news/582622?scheme=news"}];
+      window.BUILD_VERSION = "dc77a8a920c24453103e3703b664bdab70ab3e52";
+    </script>
+    <script src="/application-dc77a8a920c24453103e3703b664bdab70ab3e52.js"></script>
+    <script>
+      // This has to exist because mopub doesn't know how to write JS.
+      window.trackImpressionHelper = null;
+
+      require('the-score/utils/deferred-location')['default'].run();
+      window.App = require('the-score/app')['default'].create(
+        Ember.merge(window.ENV, { environment: "production" }));
+    </script>
+
+
+    <div id="fb-root"></div>
+<script>
+  // Comscore
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "3005676" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+
+  // Load in all the deferred scripts
+  (function(doc, script) {
+    var js,
+    fjs = doc.getElementsByTagName(script)[0],
+    frag = doc.createDocumentFragment(),
+    add = function(url, id) {
+      if (doc.getElementById(id)) { return; }
+      js = doc.createElement(script);
+      js.src = url;
+      id && (js.id = id);
+      frag.appendChild(js);
+    };
+
+    add('http://platform.twitter.com/widgets.js', 'twitter');
+    add("//js.maxmind.com/js/apis/geoip2/v2.0/geoip2.js");
+
+    fjs.parentNode.insertBefore(frag, fjs);
+  }(document, 'script'));
+
+  // Google ga.js
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-94948-1', 'auto');
+
+  // Facebook tracking
+  (function(){
+    window._fbds = window._fbds || {};
+    _fbds.pixelId = 1394729700793296;
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+  })();
+  window._fbq = window._fbq || [];
+  window._fbq.push(["track", "PixelInitialized", {}]);
+
+  // Facebook JS SDK
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId: '124052647629735',
+      xfbml: true,
+      version: 'v2.1'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+
+</script>
+
+<!-- Upsight -->
+<script src="/kontagent-api-dc77a8a920c24453103e3703b664bdab70ab3e52.js"></script><script>
+  //init kontagent/upsight api
+  (function(win){
+    win.ktApi = new KontagentApi('c923fc0c27874826b9ff0908fbacbb66');
+  })(window);
+</script>
+
+<!-- Facebook -->
+<noscript>
+  <img height="1" width="1" border="0" alt="" style="display:none"
+    src="https://www.facebook.com/tr?id=1394729700793296&amp;ev=NoScript" />
+</noscript>
+
+<!-- Comscore -->
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005676&cv=2.0&cj=1" />
+</noscript>
+
+
+    <script>
+      require('the-score/utils/upsight-heartbeat')['default']();
+    </script>
+
+    <script>
+      var link = document.createElement('link'),
+          head = document.getElementsByTagName('head')[0];
+      link.setAttribute("rel", "stylesheet");
+      link.setAttribute("href","//cloud.typography.com/7960632/732002/css/fonts.css");
+      link.setAttribute("type","text/css");
+      head.appendChild(link);
+    </script>
+
+  </body>
+</html>
+

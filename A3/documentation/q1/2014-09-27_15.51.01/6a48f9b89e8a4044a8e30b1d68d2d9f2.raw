@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        
+        <meta charset="utf-8">
+        <title>organized mess.</title>
+        
+        <meta name="description" content="Derek. 21. I reblog stuff and sometimes write my own. By all means, disagree with me.">
+        
+        
+        
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="shortcut icon" href="http://31.media.tumblr.com/avatar_589fab4c2d19_128.png">
+        <link rel="apple-touch-icon-precomposed" href="http://31.media.tumblr.com/avatar_589fab4c2d19_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://thedirtyderek.tumblr.com/rss">
+        
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/PuGmmhqcs/normalize.css">
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/qE8n2yg06/optica-icons.css">
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/lu6nbykui/main.css">
+
+        <!-- HTML5 Shiv -->
+        <!--[if lt IE 9]>
+            <script src="http://static.tumblr.com/hriofhd/Qj0m8pn7q/html5shiv.js"></script>
+        <![endif]-->
+
+        <style>
+            /* Colors */
+            body {
+                background: #f6f6f6;
+            }
+
+            h1 {
+                font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+                font-weight: bold;
+            }
+
+            h1 a,
+            .description,
+            .search-header {
+                color: #444444;
+            }
+
+            .h-line {
+                background: #444444;
+            }
+
+            a {
+                color: #529ecc;
+            }
+            
+            #pagination a,
+            .exposed-nav-wrapper li a {
+                color: #529ecc;
+            }
+
+            #pagination a.next:after {
+                border-left-color: #529ecc;
+            }
+
+            #pagination a.previous:after {
+                border-right-color: #529ecc;
+            }
+
+            .loader .loader-bar {
+                background-color: #444444;
+            }
+
+            .link-wrapper h2 a {
+                background-color: #529ecc;
+            }
+            
+            .header-image.cover {
+                background-image: url(http://static.tumblr.com/e874391bf9da0a00c6479b3e29bd8af8/igx2idt/zH4my1fwd/tumblr_static_2013-07-27_23.44.14.jpg);
+            }
+
+            .user-avatar {
+                background-color: #f6f6f6;
+                border-color: #f6f6f6;
+            }
+
+            .avatar-style-square .user-avatar {
+                -wekbit-box-shadow: 0 0 0 4px #f6f6f6;
+                -moz-box-shadow: 0 0 0 4px #f6f6f6;
+                box-shadow: 0 0 0 4px #f6f6f6;
+            }
+            
+            .no-header-image .selector .bar-icon,
+            .contain-header-image .selector .bar-icon {
+                background: #529ecc;
+            }
+
+            .no-header-image .search-only .selector .icon,
+            .contain-header-image .search-only .selector .icon {
+                color: #529ecc;
+            }
+
+            /* Adjust menus for light accents on light backgrounds */
+            .light-on-light.no-header-image .selector .bar-icon,
+            .light-on-light.contain-header-image .selector .bar-icon {
+                background: #444;
+            }
+
+            .light-on-light.no-header-image .search-only .selector .icon,
+            .light-on-light.contain-header-image .search-only .selector .icon {
+                color: #444;
+            }
+
+            /* Adjust menus for dark accents on dark backgrounds */
+            .dark-on-dark.no-header-image .selector .bar-icon,
+            .dark-on-dark.contain-header-image .selector .bar-icon {
+                background: #fff;
+            }
+
+            .dark-on-dark.no-header-image .search-only .selector .icon,
+            .dark-on-dark.contain-header-image .search-only .selector .icon {
+                color: #fff;
+            }
+
+            @media screen and (max-device-width: 568px) {
+                .header-image.cover {
+                    background-image: url(http://static.tumblr.com/e874391bf9da0a00c6479b3e29bd8af8/igx2idt/zH4my1fwd/tumblr_static_2013-07-27_23.44.14.jpg);
+                    -webkit-background-size: cover;
+                    background-size: cover;
+                }
+
+                .nav-menu-bg,
+                .nav-menu-wrapper .nav-menu.active:before,
+                .nav-menu .pop-menu ul {
+                    background: #f6f6f6;
+                }
+
+                .nav-menu.active .selector .bar-icon,
+                .below-header .selector .bar-icon {
+                    background: #529ecc;
+                }
+
+                .nav-menu .pop-menu ul li a,
+                .below-header .search-only .selector .icon {
+                    color: #529ecc;
+                }
+                
+                /* Adjust menus for light accents on light backgrounds */
+                .light-on-light.below-header .nav-menu .selector .bar-icon,
+                .light-on-light.below-header .selector .bar-icon {
+                    background: #444;
+                }
+
+                .light-on-light .nav-menu .pop-menu ul li a,
+                .light-on-light.below-header .search-only .selector .icon {
+                    color: #444;
+                }
+                
+                /* Adjust menus for dark accents on dark backgrounds */
+                .dark-on-dark .nav-menu .selector .bar-icon,
+                .dark-on-dark .below-header .selector .bar-icon {
+                    background: #fff;
+                }
+
+                .dark-on-dark .nav-menu .pop-menu ul li a,
+                .dark-on-dark.below-header .search-only .selector .icon {
+                    color: #fff;
+                }
+
+                .avatar-style-square .user-avatar {
+                    -wekbit-box-shadow: 0 0 0 3px #f6f6f6;
+                    -moz-box-shadow: 0 0 0 3px #f6f6f6;
+                    box-shadow: 0 0 0 3px #f6f6f6;
+                }
+
+            }
+
+            /* Custom CSS */
+            
+        </style>
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=thedirtyderek" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="organized mess." /><meta property="og:url" content="http://thedirtyderek.tumblr.com/?og=1" /><meta property="og:description" content="Derek. 21. I reblog stuff and sometimes write my own. By all means, disagree with me." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://31.media.tumblr.com/avatar_589fab4c2d19_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=thedirtyderek" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=thedirtyderek" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="thedirtyderek" /><meta name="twitter:description" content="                                                                                                    Derek. 21.
+I reblog stuff and sometimes write my own. 
+By all means, disagree with me. 
+" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=thedirtyderek&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=thedirtyderek&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=thedirtyderek&amp;referrer=twitter-cards" />
+
+</head>
+    <body data-urlencoded-name="thedirtyderek" class="regular index-page">
+        <section id="page">
+            <div class="nav-menu-wrapper ">
+                <nav class="nav-menu pop">
+                    <a class="selector">
+                        
+                            <div class="bar-icon-wrapper">
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                            </div>
+                        
+                        
+                    </a>
+                    <div class="pop-menu west">
+                        <ul>
+                            <li class="no-hover search">
+                                <form action="/search" method="get" id="search">
+                                    <input type="text" name="q" id="q" placeholder="Search" value="">
+                                    <button type="submit" class="icon-search_16"></button>
+                                </form>
+                            </li>
+                            
+                                <li>
+                                    <a href="/archive" class="archive">Archive <i class="icon-arrow_carrot_right"></i></a>
+                                </li>
+                                
+                                    <li>
+                                        <a href="/ask" class="ask">Ask me. <i class="icon-arrow_carrot_right"></i></a>
+                                    </li>
+                                
+                                
+                                
+                            
+                        </ul>
+                    </div> 
+                </nav>
+                <div class="glass"></div>
+            </div>
+            
+            <div class="nav-menu-bg"></div>
+            
+            <div class="header-wrapper
+                
+                
+                
+                avatar-style-square">
+
+                <header id="header">
+                    
+                    <div class="header-image-wrapper ">
+                        <a href="/" class="header-image parallax cover " data-bg-image="http://static.tumblr.com/e874391bf9da0a00c6479b3e29bd8af8/igx2idt/zH4my1fwd/tumblr_static_2013-07-27_23.44.14.jpg">
+                            
+                        </a>
+                        <div class="loader-bg"></div>
+                    </div>
+                    
+
+                    <div class="blog-title content">
+                        <figure class="avatar-wrapper animate">
+                            <a href="/" style="background-image: url(http://31.media.tumblr.com/avatar_589fab4c2d19_128.png)" class="user-avatar"><img src="http://31.media.tumblr.com/avatar_589fab4c2d19_128.png" alt="" class="print-only invisible"></a>
+                        </figure>
+
+                        <div class="title-group animate">
+                            
+                            <h1><a href="/">organized mess.</a></h1>
+                            
+                            
+                            <span class="description">
+                                Derek. 21.<br />
+I reblog stuff and sometimes write my own. <br />
+By all means, disagree with me.
+                            </span>
+                            
+                        </div>
+                    </div>
+
+                    
+                </header>
+            </div>
+            
+            <section id="posts" class="content clearfix  avatar-style-square  ">
+    
+                <div data-page-id="1">
+                    
+                            <article class="photoset reblogged not-page post-97266480468 " data-post-id="post_97266480468">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://dehab.tumblr.com/post/97262623827/micdotcom-for-many-muslim-americans-9-11-was-a"><i class="icon-reblog"></i>dehab</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+                                        <figure class="photoset with-caption">
+                                            <div id="photoset_97266480468" class="html_photoset">    <iframe id="photoset_iframe_97266480468" class="photoset" scrolling="no" frameborder="0" height="-10" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://thedirtyderek.tumblr.com/post/97266480468/photoset_iframe/thedirtyderek/tumblr_nbr5vxMdqM1r83d7l/0/false"></iframe></div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a class="tumblr_blog" href="http://micdotcom.tumblr.com/post/97243533764/for-many-muslim-americans-9-11-was-a-double-punch">micdotcom</a>:</p>
+<blockquote>
+<p><strong><a href="http://mic.com/articles/98674/heartbreaking-posts-by-muslim-americans-show-another-side-of-9-11-we-must-never-forget?utm_source=policymicTBLR&amp;utm_medium=main&amp;utm_campaign=social">For many Muslim Americans, 9/11 was a double punch of tragedy and bigotry</a></strong></p>
+<blockquote>
+<p>The actions of 19 Islamic extremists on 9/11 left an indelible mark on America. Today, millions pause to commemorate the attacks’ 13th anniversary, to honor the victims and to remember that all life is special and sacred. But there’s an untold story amid the many speeches and moments of silence — one filled with a different kind of pain, grief and strong sense of loss. </p>
+<p><strong><a href="http://mic.com/articles/98674/heartbreaking-posts-by-muslim-americans-show-another-side-of-9-11-we-must-never-forget?utm_source=policymicTBLR&amp;utm_medium=main&amp;utm_campaign=social">Those stories are now being told on social media</a></strong></p>
+</blockquote>
+</blockquote>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://dehab.tumblr.com/post/97262623827/micdotcom-for-many-muslim-americans-9-11-was-a"><i class="icon-reblog"></i>dehab</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://micdotcom.tumblr.com/post/97243533764/for-many-muslim-americans-9-11-was-a-double-punch">Source: micdotcom</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://thedirtyderek.tumblr.com/post/97266480468/micdotcom-for-many-muslim-americans-9-11-was-a#notes">124,765 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://thedirtyderek.tumblr.com/post/97266480468/micdotcom-for-many-muslim-americans-9-11-was-a" title="2 weeks ago">Sep 11th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_97266480468">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="97266480468">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F97266480468%2Fmicdotcom-for-many-muslim-americans-9-11-was-a&amp;t=organized%20mess." class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photoset%3A%20micdotcom%3A%20For%20many%20Muslim%20Americans%2C%209%2F11%20was%20a%20double%20punch%20of%20tragedy%20and%20bigotry%20The%20actions...%20http%3A%2F%2Ftmblr.co%2FZz7Kav1QbYBLK" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20organized%20mess.&amp;body=Photoset%3A%20micdotcom%3A%20For%20many%20Muslim%20Americans%2C%209%2F11%20was%20a%20double%20punch%20of%20tragedy%20and%20bigotry%20The%20actions%20of%2019%20Islamic%20extremists%20on%209%2F11%20left%20an%20indelible...%20http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F97266480468%2Fmicdotcom-for-many-muslim-americans-9-11-was-a" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://thedirtyderek.tumblr.com/post/97266480468/micdotcom-for-many-muslim-americans-9-11-was-a" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/97266480468/1c9eSLfd" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="97266480468" id="like_button_97266480468"><iframe id="like_iframe_97266480468" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=thedirtyderek&amp;post_id=97266480468&amp;color=black&amp;rk=1c9eSLfd" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-97266373708 " data-post-id="post_97266373708">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://kissedteethstainedred.tumblr.com/post/97262847009/mtvstyle-oh-my-gosh-look-at-her-butt"><i class="icon-reblog"></i>kissedteethstainedred</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class=" with-caption" data-photo-width="500">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <img src="http://31.media.tumblr.com/8f1f1723f60538dd95d16fc21a74cbb2/tumblr_namkvxKWS21qc3ni5o1_500.gif" alt="mtvstyle:
+
+oh my gosh, look at her butt
+" width="500" height="474">
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a class="tumblr_blog" href="http://mtvstyle.tumblr.com/post/95313647102/oh-my-gosh-look-at-her-butt">mtvstyle</a>:</p>
+<blockquote>
+<p><a href="http://www.mtv.com/news/1904954/nicki-minaj-anaconda-look-by-look/">oh my gosh, look at her butt</a></p>
+</blockquote>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://kissedteethstainedred.tumblr.com/post/97262847009/mtvstyle-oh-my-gosh-look-at-her-butt"><i class="icon-reblog"></i>kissedteethstainedred</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://mtvstyle.tumblr.com/post/95313647102/oh-my-gosh-look-at-her-butt">Source: mtvstyle</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://thedirtyderek.tumblr.com/post/97266373708/mtvstyle-oh-my-gosh-look-at-her-butt#notes">18,148 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://thedirtyderek.tumblr.com/post/97266373708/mtvstyle-oh-my-gosh-look-at-her-butt" title="2 weeks ago">Sep 11th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_97266373708">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="97266373708">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F97266373708%2Fmtvstyle-oh-my-gosh-look-at-her-butt&amp;t=organized%20mess." class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20mtvstyle%3A%20oh%20my%20gosh%2C%20look%20at%20her%20butt%20http%3A%2F%2Ftmblr.co%2FZz7Kav1QbXnHC" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20organized%20mess.&amp;body=Photo%3A%20mtvstyle%3A%20oh%20my%20gosh%2C%20look%20at%20her%20butt%20http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F97266373708%2Fmtvstyle-oh-my-gosh-look-at-her-butt" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://thedirtyderek.tumblr.com/post/97266373708/mtvstyle-oh-my-gosh-look-at-her-butt" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/97266373708/OZsYTnuF" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="97266373708" id="like_button_97266373708"><iframe id="like_iframe_97266373708" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=thedirtyderek&amp;post_id=97266373708&amp;color=black&amp;rk=OZsYTnuF" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-97266296923 " data-post-id="post_97266296923">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://magicul.tumblr.com/post/97265297180"><i class="icon-reblog"></i>magicul</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="high-res" data-photo-width="648">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://thedirtyderek.tumblr.com/image/97266296923"><img src="http://38.media.tumblr.com/bfc19421d0b640b1dae4c751edbf9d51/tumblr_n0cyypxsKS1toaiw5o1_1280.jpg" alt="" width="648" height="513"></a>
+                                                </div>
+                                            </div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://magicul.tumblr.com/post/97265297180"><i class="icon-reblog"></i>magicul</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://oxazole.tumblr.com/post/75345731438">Source: oxazole</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://thedirtyderek.tumblr.com/post/97266296923#notes">50,078 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://thedirtyderek.tumblr.com/post/97266296923" title="2 weeks ago">Sep 11th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_97266296923">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="97266296923">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F97266296923&amp;t=organized%20mess." class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20%20http%3A%2F%2Ftmblr.co%2FZz7Kav1QbXUXR" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20organized%20mess.&amp;body=Photo%3A%20%20http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F97266296923" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://thedirtyderek.tumblr.com/post/97266296923" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/97266296923/0UqCT97l" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="97266296923" id="like_button_97266296923"><iframe id="like_iframe_97266296923" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=thedirtyderek&amp;post_id=97266296923&amp;color=black&amp;rk=0UqCT97l" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-97266241713 " data-post-id="post_97266241713">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://toolers.tumblr.com/post/97265372921"><i class="icon-reblog"></i>toolers</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="high-res" data-photo-width="523">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://thedirtyderek.tumblr.com/image/97266241713"><img src="http://33.media.tumblr.com/5f7a2bdf064f87ba434e0b0a2a6bbe2a/tumblr_nb8yj2mhHl1sn75h6o1_1280.png" alt="" width="523" height="706"></a>
+                                                </div>
+                                            </div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://toolers.tumblr.com/post/97265372921"><i class="icon-reblog"></i>toolers</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://awwww-cute.tumblr.com/post/96423929216/she-loves-the-crumpling-noise-these-bags-make">Source: awwww-cute</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://thedirtyderek.tumblr.com/post/97266241713#notes">10,735 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://thedirtyderek.tumblr.com/post/97266241713" title="2 weeks ago">Sep 11th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_97266241713">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="97266241713">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F97266241713&amp;t=organized%20mess." class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20%20http%3A%2F%2Ftmblr.co%2FZz7Kav1QbXH2n" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20organized%20mess.&amp;body=Photo%3A%20%20http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F97266241713" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://thedirtyderek.tumblr.com/post/97266241713" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/97266241713/66jSKzMq" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="97266241713" id="like_button_97266241713"><iframe id="like_iframe_97266241713" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=thedirtyderek&amp;post_id=97266241713&amp;color=black&amp;rk=66jSKzMq" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photoset reblogged not-page post-97263535888 " data-post-id="post_97263535888">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://murder-a-la-mod.tumblr.com/post/97263213446"><i class="icon-reblog"></i>murder-a-la-mod</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+                                        <figure class="photoset ">
+                                            <div id="photoset_97263535888" class="html_photoset">    <iframe id="photoset_iframe_97263535888" class="photoset" scrolling="no" frameborder="0" height="-10" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://thedirtyderek.tumblr.com/post/97263535888/photoset_iframe/thedirtyderek/tumblr_mustjxULR11r36wym/0/false"></iframe></div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://murder-a-la-mod.tumblr.com/post/97263213446"><i class="icon-reblog"></i>murder-a-la-mod</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://b-a-c-0-n-a-t-0-r.tumblr.com/post/64278315639">Source: b-a-c-0-n-a-t-0-r</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://thedirtyderek.tumblr.com/post/97263535888#notes">5,804 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://thedirtyderek.tumblr.com/post/97263535888" title="2 weeks ago">Sep 11th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_97263535888">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="97263535888">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F97263535888&amp;t=organized%20mess." class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photoset%3A%20%20http%3A%2F%2Ftmblr.co%2FZz7Kav1QbMySG" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20organized%20mess.&amp;body=Photoset%3A%20%20http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F97263535888" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://thedirtyderek.tumblr.com/post/97263535888" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/97263535888/1G7v8alU" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="97263535888" id="like_button_97263535888"><iframe id="like_iframe_97263535888" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=thedirtyderek&amp;post_id=97263535888&amp;color=black&amp;rk=1G7v8alU" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-95685244643 " data-post-id="post_95685244643">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://robbieruths.tumblr.com/post/95684878541"><i class="icon-reblog"></i>robbieruths</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="high-res" data-photo-width="640">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://thedirtyderek.tumblr.com/image/95685244643"><img src="http://33.media.tumblr.com/6d0385cb6704782c25c6f38a848eabf5/tumblr_ms7emg3Fd01qf2uqro1_1280.png" alt="" width="640" height="960"></a>
+                                                </div>
+                                            </div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://robbieruths.tumblr.com/post/95684878541"><i class="icon-reblog"></i>robbieruths</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://fuckyounofuck.me/post/59509379788">Source: fuckyounofuckme</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://thedirtyderek.tumblr.com/post/95685244643#notes">55,241 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://thedirtyderek.tumblr.com/post/95685244643" title="1 month ago">Aug 24th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_95685244643">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="95685244643">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F95685244643&amp;t=organized%20mess." class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20%20http%3A%2F%2Ftmblr.co%2FZz7Kav1P7IFRZ" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20organized%20mess.&amp;body=Photo%3A%20%20http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F95685244643" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://thedirtyderek.tumblr.com/post/95685244643" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/95685244643/q3xh1kGj" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="95685244643" id="like_button_95685244643"><iframe id="like_iframe_95685244643" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=thedirtyderek&amp;post_id=95685244643&amp;color=black&amp;rk=q3xh1kGj" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photoset reblogged not-page post-95685126123 " data-post-id="post_95685126123">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://kingsleyyy.tumblr.com/post/95685036260"><i class="icon-reblog"></i>kingsleyyy</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+                                        <figure class="photoset ">
+                                            <div id="photoset_95685126123" class="html_photoset">    <iframe id="photoset_iframe_95685126123" class="photoset" scrolling="no" frameborder="0" height="-10" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://thedirtyderek.tumblr.com/post/95685126123/photoset_iframe/thedirtyderek/tumblr_msxd0yDdW81qmfnw5/0/false"></iframe></div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://kingsleyyy.tumblr.com/post/95685036260"><i class="icon-reblog"></i>kingsleyyy</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://taco-bell-rey.tumblr.com">Source: taco-bell-rey</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://thedirtyderek.tumblr.com/post/95685126123#notes">267,589 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://thedirtyderek.tumblr.com/post/95685126123" title="1 month ago">Aug 24th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_95685126123">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="95685126123">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F95685126123&amp;t=organized%20mess." class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photoset%3A%20%20http%3A%2F%2Ftmblr.co%2FZz7Kav1P7HoVh" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20organized%20mess.&amp;body=Photoset%3A%20%20http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F95685126123" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://thedirtyderek.tumblr.com/post/95685126123" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/95685126123/2c6olHx1" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="95685126123" id="like_button_95685126123"><iframe id="like_iframe_95685126123" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=thedirtyderek&amp;post_id=95685126123&amp;color=black&amp;rk=2c6olHx1" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-95668980978 " data-post-id="post_95668980978">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://acetrainerwill.tumblr.com/post/95660531510/xv7-this-is-like-the-old-early-2000-photos"><i class="icon-reblog"></i>acetrainerwill</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class=" with-caption" data-photo-width="390">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <img src="http://33.media.tumblr.com/22bce2e737caaec0356afe015dde7a72/tumblr_mx4w0aUZIM1se5dsto1_400.jpg" alt="this could be us but u playin&nbsp;" width="390" height="463">
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p>this could be us but u playin </p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://acetrainerwill.tumblr.com/post/95660531510/xv7-this-is-like-the-old-early-2000-photos"><i class="icon-reblog"></i>acetrainerwill</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://zamutikusokmnekiria.tumblr.com/post/68673476623">Source: zamutikusokmnekiria</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://thedirtyderek.tumblr.com/post/95668980978/this-could-be-us-but-u-playin#notes">151,861 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://thedirtyderek.tumblr.com/post/95668980978/this-could-be-us-but-u-playin" title="1 month ago">Aug 24th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_95668980978">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="95668980978">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F95668980978%2Fthis-could-be-us-but-u-playin&amp;t=organized%20mess." class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20this%20could%20be%20us%20but%20u%20playin%C2%A0%20http%3A%2F%2Ftmblr.co%2FZz7Kav1P6KCpo" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20organized%20mess.&amp;body=Photo%3A%20this%20could%20be%20us%20but%20u%20playin%C2%A0%20http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F95668980978%2Fthis-could-be-us-but-u-playin" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://thedirtyderek.tumblr.com/post/95668980978/this-could-be-us-but-u-playin" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/95668980978/eDUUgz4E" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="95668980978" id="like_button_95668980978"><iframe id="like_iframe_95668980978" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=thedirtyderek&amp;post_id=95668980978&amp;color=black&amp;rk=eDUUgz4E" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text reblogged not-page post-95668785983 " data-post-id="post_95668785983">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://kingsleyyy.tumblr.com/post/95660640534/dulect-will-you-still-love-me-when-im-no"><i class="icon-reblog"></i>kingsleyyy</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+                                            
+                                            
+                                            <div class="body-text">
+                                                <p><a class="tumblr_blog" href="http://dulect.tumblr.com/post/49261944541">dulect</a>:</p>
+<blockquote>
+<p>will you still love me when i’m no longer young and <img alt="image" src="http://media.tumblr.com/01658d85257f9accafcf6cf7f5683d5f/tumblr_mm2i6pkXLu1qm5zw9o1_400.jpg"/></p>
+</blockquote>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://kingsleyyy.tumblr.com/post/95660640534/dulect-will-you-still-love-me-when-im-no"><i class="icon-reblog"></i>kingsleyyy</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://dulect.tumblr.com">Source: dulect</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://thedirtyderek.tumblr.com/post/95668785983/dulect-will-you-still-love-me-when-im-no#notes">96,201 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://thedirtyderek.tumblr.com/post/95668785983/dulect-will-you-still-love-me-when-im-no" title="1 month ago">Aug 24th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_95668785983">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="95668785983">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F95668785983%2Fdulect-will-you-still-love-me-when-im-no&amp;t=" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=dulect%3A%20will%20you%20still%20love%20me%20when%20i%E2%80%99m%20no%20longer%20young%20and%C2%A0%20http%3A%2F%2Ftmblr.co%2FZz7Kav1P6JTC-" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20organized%20mess.&amp;body=dulect%3A%20will%20you%20still%20love%20me%20when%20i%E2%80%99m%20no%20longer%20young%20and%C2%A0%20http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F95668785983%2Fdulect-will-you-still-love-me-when-im-no" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://thedirtyderek.tumblr.com/post/95668785983/dulect-will-you-still-love-me-when-im-no" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/95668785983/HticHzO4" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="95668785983" id="like_button_95668785983"><iframe id="like_iframe_95668785983" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=thedirtyderek&amp;post_id=95668785983&amp;color=black&amp;rk=HticHzO4" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photoset reblogged not-page post-95668761808 " data-post-id="post_95668761808">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://ruinedchildhood.com/post/95660694659"><i class="icon-reblog"></i>ruinedchildhood</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+                                        <figure class="photoset ">
+                                            <div id="photoset_95668761808" class="html_photoset">    <iframe id="photoset_iframe_95668761808" class="photoset" scrolling="no" frameborder="0" height="-10" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://thedirtyderek.tumblr.com/post/95668761808/photoset_iframe/thedirtyderek/tumblr_n7lezpmNMx1r5jp9s/0/false"></iframe></div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://ruinedchildhood.com/post/95660694659"><i class="icon-reblog"></i>ruinedchildhood</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://rexuality.tumblr.com/post/89597413231/x">Source: rexuality</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://thedirtyderek.tumblr.com/post/95668761808#notes">197,642 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://thedirtyderek.tumblr.com/post/95668761808" title="1 month ago">Aug 24th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_95668761808">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="95668761808">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F95668761808&amp;t=organized%20mess." class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photoset%3A%20%20http%3A%2F%2Ftmblr.co%2FZz7Kav1P6JNJG" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20organized%20mess.&amp;body=Photoset%3A%20%20http%3A%2F%2Fthedirtyderek.tumblr.com%2Fpost%2F95668761808" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://thedirtyderek.tumblr.com/post/95668761808" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/95668761808/yW7KN8Lm" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="95668761808" id="like_button_95668761808"><iframe id="like_iframe_95668761808" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=thedirtyderek&amp;post_id=95668761808&amp;color=black&amp;rk=yW7KN8Lm" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                </div>
+            </section>
+            <footer id="footer" class="content clearfix">
+                
+                    
+                    <div id="pagination">
+                        
+                        
+                        <a href="/page/2" class="next" data-current-page="1" data-total-pages="241">Next<span class="bg"></span></a>
+                        
+                        <div class="loader"><div class="loader-bar"></div><div class="loader-bar"></div><div class="loader-bar"></div></div>
+                    </div>
+                    
+                
+            </footer>
+        </section>
+        <script>
+            var Optica = {};
+            Optica.ENDLESS_SCROLLING = true;
+            Optica.LAYOUT = "regular";
+            Optica.GRID_LAYOUT = (Optica.LAYOUT === 'grid');
+            Optica.TITLE_COLOR = "#444444";
+            Optica.ACCENT_COLOR = "#529ecc";
+            Optica.BACKGROUND_COLOR = "#f6f6f6";
+            Optica.ENDLESS_NOTES_SCROLLING = true;
+        </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>!window.jQuery && document.write(unescape('%3Cscript src="http://static.tumblr.com/vr9xgox/sBgmmjhyw/jquery-1.9.1.min.js"%3E%3C/script%3E'));</script>
+        <script src="http://static.tumblr.com/vr9xgox/Azhmnml1q/jquery.masonry.min.js"></script>
+        <script src="http://static.tumblr.com/wogenvz/kcyn7f6re/main-min.js"></script>
+
+        
+    <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://thedirtyderek.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411848174&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdGhlZGlydHlkZXJlay50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=DKELKNGMMA&K=b291a5463ee881739bbba92c12f86617ab0de053f96812cebae47f5ee57f8443&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411848174&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdGhlZGlydHlkZXJlay50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=DKELKNGMMA&K=250b26ece51afbf46bf0564b4063201c997cd3a08b24b37e3e132035989c066b&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411848174&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3RoZWRpcnR5ZGVyZWsudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjM2OTE5Njc4Iiwicm9vdF9wb3N0aWQiOiI5NzI0MzUzMzc2NCIsInBvc3RpZCI6Ijk3MjY2NDgwNDY4IiwiYmxvZ2lkIjoiNTA3NTc0MzkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDk4NzA3MyIsInJvb3RfcG9zdGlkIjoiOTUzMTM2NDcxMDIiLCJwb3N0aWQiOiI5NzI2NjM3MzcwOCIsImJsb2dpZCI6IjUwNzU3NDM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE2MzgzMDg4MSIsInJvb3RfcG9zdGlkIjoiNzUzNDU3MzE0MzgiLCJwb3N0aWQiOiI5NzI2NjI5NjkyMyIsImJsb2dpZCI6IjUwNzU3NDM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEwMDkwNTI5NCIsInJvb3RfcG9zdGlkIjo5NjQyMzkyOTIxNiwicG9zdGlkIjoiOTcyNjYyNDE3MTMiLCJibG9naWQiOiI1MDc1NzQzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyODY1Mjk5OSIsInJvb3RfcG9zdGlkIjo2NDI3ODMxNTYzOSwicG9zdGlkIjoiOTcyNjM1MzU4ODgiLCJibG9naWQiOiI1MDc1NzQzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI5OTg3Njk4Iiwicm9vdF9wb3N0aWQiOjU5NTA5Mzc5Nzg4LCJwb3N0aWQiOiI5NTY4NTI0NDY0MyIsImJsb2dpZCI6IjUwNzU3NDM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjIyOTQ5MjAxIiwicm9vdF9wb3N0aWQiOjYwODYzNDE4NTYxLCJwb3N0aWQiOiI5NTY4NTEyNjEyMyIsImJsb2dpZCI6IjUwNzU3NDM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEyOTM5MjE0MCIsInJvb3RfcG9zdGlkIjoiNjg2NzM0NzY2MjMiLCJwb3N0aWQiOiI5NTY2ODk4MDk3OCIsImJsb2dpZCI6IjUwNzU3NDM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjIxODkxNjY5Iiwicm9vdF9wb3N0aWQiOiI0OTI2MTk0NDU0MSIsInBvc3RpZCI6Ijk1NjY4Nzg1OTgzIiwiYmxvZ2lkIjoiNTA3NTc0MzkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzMyMTU3NjMiLCJyb290X3Bvc3RpZCI6Ijg5NTk3NDEzMjMxIiwicG9zdGlkIjoiOTU2Njg3NjE4MDgiLCJibG9naWQiOiI1MDc1NzQzOSIsInNvdXJjZSI6MzN9XX0=&U=IEENFMOBHM&K=be0fb0fdcdcee15e633422d810001ce9f67cfde00d9a11643e9cd35d59a3aed5&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411848174&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3RoZWRpcnR5ZGVyZWsudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjM2OTE5Njc4Iiwicm9vdF9wb3N0aWQiOiI5NzI0MzUzMzc2NCIsInBvc3RpZCI6Ijk3MjY2NDgwNDY4IiwiYmxvZ2lkIjoiNTA3NTc0MzkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDk4NzA3MyIsInJvb3RfcG9zdGlkIjoiOTUzMTM2NDcxMDIiLCJwb3N0aWQiOiI5NzI2NjM3MzcwOCIsImJsb2dpZCI6IjUwNzU3NDM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE2MzgzMDg4MSIsInJvb3RfcG9zdGlkIjoiNzUzNDU3MzE0MzgiLCJwb3N0aWQiOiI5NzI2NjI5NjkyMyIsImJsb2dpZCI6IjUwNzU3NDM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEwMDkwNTI5NCIsInJvb3RfcG9zdGlkIjo5NjQyMzkyOTIxNiwicG9zdGlkIjoiOTcyNjYyNDE3MTMiLCJibG9naWQiOiI1MDc1NzQzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyODY1Mjk5OSIsInJvb3RfcG9zdGlkIjo2NDI3ODMxNTYzOSwicG9zdGlkIjoiOTcyNjM1MzU4ODgiLCJibG9naWQiOiI1MDc1NzQzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI5OTg3Njk4Iiwicm9vdF9wb3N0aWQiOjU5NTA5Mzc5Nzg4LCJwb3N0aWQiOiI5NTY4NTI0NDY0MyIsImJsb2dpZCI6IjUwNzU3NDM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjIyOTQ5MjAxIiwicm9vdF9wb3N0aWQiOjYwODYzNDE4NTYxLCJwb3N0aWQiOiI5NTY4NTEyNjEyMyIsImJsb2dpZCI6IjUwNzU3NDM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEyOTM5MjE0MCIsInJvb3RfcG9zdGlkIjoiNjg2NzM0NzY2MjMiLCJwb3N0aWQiOiI5NTY2ODk4MDk3OCIsImJsb2dpZCI6IjUwNzU3NDM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjIxODkxNjY5Iiwicm9vdF9wb3N0aWQiOiI0OTI2MTk0NDU0MSIsInBvc3RpZCI6Ijk1NjY4Nzg1OTgzIiwiYmxvZ2lkIjoiNTA3NTc0MzkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzMyMTU3NjMiLCJyb290X3Bvc3RpZCI6Ijg5NTk3NDEzMjMxIiwicG9zdGlkIjoiOTU2Njg3NjE4MDgiLCJibG9naWQiOiI1MDc1NzQzOSIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=IEENFMOBHM&K=ed7af9012a91b8171eaa116feaf5f880a3b8d3c94c837945c80795a1f8929766&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:50757439,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2Fthedirtyderek.tumblr.com%2F&amp;lang=en_US&amp;name=thedirtyderek&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_589fab4c2d19_64.png&amp;title=organized+mess.&amp;url=http%3A%2F%2Fthedirtyderek.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2Fthedirtyderek.tumblr.com%2F&amp;lang=en_US&amp;name=thedirtyderek&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_589fab4c2d19_64.png&amp;title=organized+mess.&amp;url=http%3A%2F%2Fthedirtyderek.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

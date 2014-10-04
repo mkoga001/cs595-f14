@@ -1,0 +1,319 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://validator.w3.org/">
+<html lang="en">
+<head>
+<title>Sania Mirza Tennis Academy - SMTA : Home Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" media="screen" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="shadowbox/shadowbox.css">
+<script type="text/javascript">
+        $(document).ready(function(){
+
+            //Check if the current URL contains '#' 
+            if(document.URL.indexOf("#")==-1)
+            {
+                // Set the URL to whatever it was plus "#".
+                url = document.URL+"#";
+                location = "#";
+
+                //Reload the page
+                location.reload(true);
+
+            }
+        });
+    </script>
+<script language="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script type="text/javascript" src="shadowbox/shadowbox.js"></script>
+            <script type="text/javascript">
+Shadowbox.init({
+    handleOversize:     "drag",
+    displayNav:         true,
+    handleUnsupported:  "remove",
+    autoplayMovies:     false
+});
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46717440-1', 'saniamirzatennisacademy.com');
+  ga('send', 'pageview');
+
+</script>
+<style type="text/css">
+<!--
+table {  font-family: Geneva, Arial, Helvetica, san-serif; font-size: 12px; font-weight: 400}
+body {  }
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" background="bg.jpg" onLoad="MM_preloadImages('link-2a.jpg','link-3a.jpg','link-4a.jpg','link-5a.jpg','link-6a.jpg')" link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="155">
+  <tr>
+    <td valign="top" background="top-bg.jpg" height="141"> 
+      <table width="941" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tr> 
+          <td height="149" width="412"><img src="logo.png" width="420" height="147"></td>
+          <td height="149" width="529" align="center" valign="middle"> 
+            <div align="right"><br>
+              <br>
+              <br>
+              <br>
+              <a href="http://www.adidas.co.in/tennis/Tennis,en_IN,sc.html" target="_blank"><img src="sponsor/adidas.jpg" width="80" height="80" border="0"></a><font color="#CCCCCC">.... 
+              </font><a href="http://www.wilson.com/en-us/tennis/" target="_blank"><img src="sponsor/wilson.jpg" width="80" height="80" border="0"></a></div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table width="940" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td width="58"><img src="link-1a.jpg" width="58" height="88"></td>
+    <td width="103"><a href="about.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','link-2a.jpg',1)"><img name="Image3" border="0" src="link-2.jpg" width="103" height="88"></a></td>
+    <td width="127"><a href="facilities.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','link-3a.jpg',1)"><img name="Image4" border="0" src="link-3.jpg" width="127" height="88"></a></td>
+    <td width="132"><a href="coaching.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','link-4a.jpg',1)"><img name="Image5" border="0" src="link-4.jpg" width="132" height="88"></a></td>
+    <td width="157"><a href="admissions.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','link-5a.jpg',1)"><img name="Image6" border="0" src="link-5.jpg" width="157" height="88"></a></td>
+    <td width="107"><a href="location.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','link-6a.jpg',1)"><img name="Image7" border="0" src="link-6.jpg" width="138" height="88"></a></td>
+    <td width="257"><img src="link-7.jpg" width="225" height="88" usemap="#Map" border="0"></td>
+  </tr>
+</table>
+<table width="940" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td><iframe src="home-show/home-show.htm" width="940" height="497" scrolling="no" frameborder="0"> 
+                  <p>Your browser does not support iframes.</p>
+                  </iframe></td>
+  </tr>
+</table>
+<br>
+<table width="961" border="0" cellspacing="10" cellpadding="0" align="center">
+  <tr> 
+    <td colspan="4" height="12"><font size="3"><b><font color="#003300">LATEST 
+      NEWS OF SANIA FROM WORLD TENNIS CIRCUIT</font></b></font></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="249" height="155" bgcolor="#FFFFFF"><img src="us-open-2014-md-2.jpg" width="250" height="169"></td>
+    <td height="155" width="222" bgcolor="#FFFFFF" valign="middle"> 
+      <table width="220" border="0" cellspacing="10" cellpadding="0">
+        <tr>
+          <td>
+            <p align="justify"><b>Sania Mirza</b> &amp; <b>Bruno Soares </b>(Ind/Bra) 
+              Won the <b><font color="#003300">US Open Mixed Double Title 2014</font></b> 
+              after an absolutely thrilling final against <b>A Spears and S Gonz&aacute;lez</b> 
+              (UA/MEX) <b>6-1, 2-6, 11-9</b></p>
+            <p align="center"><b><a href="http://www.usopen.org/en_US/news/galleries/2014-09-05/201409051409933397715.html?chip=3" target="_blank"><font color="#003300">VIEW 
+              PICTURES</font></a></b></p>
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+    <td height="155" width="227" bgcolor="#FFFFFF"><img src="tokyo-2014-pic.jpg" width="220" height="169"></td>
+    <td height="155" width="213" bgcolor="#FFFFFF" valign="middle"> 
+      <table width="220" border="0" cellspacing="10" cellpadding="0">
+        <tr>
+          <td>
+            <div align="justify"><b>Sania MIRZA </b>(IND) &amp; <b>Cara BLACK</b> 
+              (ZIM) defeated Garbine MUGURUZA (ESP) &amp; Carla SUAREZ NAVARRO 
+              (ESP) in straight sets 6-2, 7-5 to win the <b><font color="#003300">Toray 
+              Pan Pacific Tournament</font></b> <font color="#003300"><b>Tokyo, 
+              Japan 2014</b></font> for the second consecutive year.</div>
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<div align="center"></div>
+<table width="933" border="0" cellspacing="10" cellpadding="0" align="center" height="502">
+  <tr> 
+    <td height="491" valign="top" bgcolor="#113715"> 
+      <table width="250" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td> 
+            <div id="main-menu"> 
+              <ul>
+                <li><a href="smta-news.htm">SMTA in News</a><br>
+                  <font color="#ffffff"><img src="dotted.jpg" width="174" height="5"></font><br>
+                </li>
+                <li><a href="training-sch.htm">SMTA Training Schedules</a><br>
+                  <font color="#333333"><img src="dotted.jpg" width="174" height="5"></font><br>
+                </li>
+                <li><a href="#">SMTA Event Calendar</a><br>
+                  <font color="#333333"><img src="dotted.jpg" width="174" height="5"></font><br>
+                </li>
+                <li><a href="http://www.aitatennis.com/Tournament_Calendar_2014.htm" target="_blank">AITA 
+                  Event Calendar</a><br>
+                  <font color="#333333"><img src="dotted.jpg" width="174" height="5"></font><br>
+                </li>
+				<li><a href="http://www.aplta.org/tournaments/tournamentcalendar" target="_blank">APLTA 
+                  Event Calendar</a><br>
+                  <font color="#333333"><img src="dotted.jpg" width="174" height="5"></font><br>
+                </li>
+                <li><a href="itf-calander-2013/calander-1.htm" target="_blank">ITF 
+                  Event Calendar</a><br>
+                  <font color="#333333"><img src="dotted.jpg" width="174" height="5"></font><br>
+                </li>
+                <li><a href="tournaments.htm">Tournament at SMTA</a><br>
+                  <font color="#333333"><img src="dotted.jpg" width="174" height="5"></font><br>
+                </li>
+                <li><a href="#">Residential Programmes </a><br>
+                  <font color="#333333"><img src="dotted.jpg" width="174" height="5"></font><br>
+                </li>
+                <li><a href="smta-images.htm">SMTA Image Gallery</a><br>
+                  <font color="#333333"><img src="dotted.jpg" width="174" height="5"></font><br>
+                </li>
+                <li><a href="transport.htm">Transportation to SMTA</a><br>
+                  <font color="#333333"><img src="dotted.jpg" width="174" height="5"></font><br>
+                </li>
+              </ul>
+            </div>
+            </td>
+        </tr>
+      </table>
+      <table width="250" border="0" cellspacing="10" cellpadding="0">
+        <tr> 
+          <td> 
+            <div align="center"><!-- BEGIN: Powered by Supercounters.com -->
+<center><script type="text/javascript" src="http://widget.supercounters.com/hit.js"></script><script type="text/javascript">sc_hit(784935,1,9);</script><br><noscript><a href="http://www.supercounters.com">Tumblr Hit Counter</a></noscript>
+</center>
+<!-- END: Powered by Supercounters.com --></div>
+          </td>
+        </tr>
+      </table>
+      <p>&nbsp; </p>
+      </td>
+    <td bgcolor="#113715" valign="top" height="491"> 
+      <table width="220" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><img src="home-1.jpg" width="220" height="318"></td>
+        </tr>
+      </table>
+      <br>
+      <table width="200" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tr>
+          <td valign="top"> 
+            <div align="justify"><font color="#FFFFFF">To pave a way for Indian 
+              Tennis by training and promoting urban and rural talent and to enable 
+              our players to make a significant mark on the world tennis circuit 
+              in the near future.<br>
+              <br>
+              <br>
+              .. </font></div>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <table width="200" border="0" cellspacing="0" cellpadding="0" align="center" height="27">
+        <tr>
+          <td>
+            <div align="right"><img src="stars.jpg" width="72" height="20"></div>
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+    <td bgcolor="#113715" valign="top" height="491"> <img src="home-2.jpg" width="220" height="318"><br>
+      <br>
+      <table width="200" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tr> 
+          <td valign="top"> 
+            <div align="justify"><font color="#FFFFFF">To provide world class 
+              Tennis Training Facility with International quality infrastructure 
+              and coaching staff to bring the technical skills, mental attitude, 
+              physical fitness and other critical aspects of Indian Tennis players 
+              at par with their international contemporaries.</font></div>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <table width="200" border="0" cellspacing="0" cellpadding="0" align="center" height="27">
+        <tr> 
+          <td>
+            <div align="right"><img src="stars.jpg" width="72" height="20"></div>
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+    <td bgcolor="#113715" valign="top" height="491"> 
+      <table width="220" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><img src="home-3.jpg" width="220" height="318"></td>
+        </tr>
+      </table>
+      <br>
+      <table width="200" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tr> 
+          <td valign="top"> 
+            <div align="justify"><font color="#FFFFFF">Sania Mirza is the highest 
+              ranked female tennis player ever from India, with a career high 
+              ranking of 27 in singles and 7 in doubles. She is the first Indian 
+              female player to win WTA Tour titles and two Grand Slam titles in 
+              mixed doubles with Mahesh Bhupathi (an All Indian Team).</font></div>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <table width="200" border="0" cellspacing="0" cellpadding="0" align="center" height="27">
+        <tr> 
+          <td>
+            <div align="right"><b><a href="record.htm" rel="shadowbox;height=650;width=1000"><img src="more-link.jpg" width="72" height="20" border="0"></a></b></div>
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<table width="940" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td bgcolor="#113715">
+      <table width="916" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tr> 
+          <td width="378" height="21"><font color="#333333"><b><font color="#FFFFFF">Copyrights 
+            &copy; 2013 : Sania Mirza Tennis Academy, Hyderabad</font></b></font></td>
+          <td width="538" height="21"> 
+            <div align="right"><font color="#FFFFFF">Designed &amp; Programmed 
+              by Mushtaq A Mohajir, <a href="http://www.global-scientific.net/">Global-Scientific</a></font></div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<map name="Map"> 
+  <area shape="rect" coords="121,18,161,71" href="https://twitter.com/MirzaSania" target="_blank">
+  <area shape="rect" coords="167,16,208,72" href="https://www.facebook.com/saniamirzaofficial" target="_blank">
+</map>
+.. 
+</body>
+</html>

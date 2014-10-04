@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title></title>
+										<meta http-equiv="refresh" content="2;url=https://itunes.apple.com/us/album/avril-lavigne/id709875516?ls=1&amp;at=11l79x&amp;ct=cc5d9m"/>	
+			</head>
+	<body>
+		<script type="text/javascript">
+			var numRedirects = 0;
+			var numPixels = 1;
+			function redirect() {
+				if (numRedirects == 0) {
+					numRedirects++;
+															window.location = "https://itunes.apple.com/us/album/avril-lavigne/id709875516?ls=1&at=11l79x&ct=cc5d9m";
+									}
+			}
+			function makePixel(url) {
+				var img = document.createElement("img");
+				img.onload = function() {
+					numPixels--;
+					if (numPixels == 0) {
+						redirect();
+					}
+				};
+				img.src = url;
+			}
+									makePixel("//www.googleadservices.com/pagead/conversion/1007017769/?value=0&label=IlU3CJ_pjBoQqb6X4AM&guid=ON&script=0");
+						window.setTimeout(redirect, 2000);
+		</script>
+		<noscript>
+					<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1007017769/?value=0&amp;label=IlU3CJ_pjBoQqb6X4AM&amp;guid=ON&amp;script=0"/>
+				</noscript>
+	</body>
+</html>

@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<script type="text/javascript"
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+ 
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+ 
+<!--  
+THEME BY 17YEAROLDELEANOR
+DO NOT REMOVE CREDIT
+-->
+ 
+<meta name="color:text" content="#2e2e2e"/>
+<meta name="color:link" content="#2e2e2e"/>
+<meta name="color:scrollbar" content="#2e2e2e" />
+ 
+<meta name="image:sidebar" content=""/>
+<meta name="if:400px posts" content=""/>
+ 
+<meta name="text:Link 1" content="">
+<meta name="text:Link 1 Title" content="">
+<meta name="text:Link 2" content="">
+<meta name="text:Link 2 Title" content="">
+<meta name="text:Link 3" content="">
+<meta name="text:Link 3 Title" content="">
+ 
+<head><title>Freddy Amazin</title>
+<link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_d3c5f1efd49d_128.png">
+<link rel="alternate" type="application/rss+xml" href="http://www.freddyamazin.com/rss">
+<meta name="description" content="Follow @FreddyAmazin" />
+    <style type="text/css">
+ 
+::-webkit-scrollbar {width: 3px; height:auto; background:}
+::-webkit-scrollbar-corner {padding:2px;background:}
+::-webkit-scrollbar-button:vertical {height:5px; display: block; background:#2e2e2e}
+::-webkit-scrollbar-button:horizontal {width: 3px; height: 5px; display: block; background:#2e2e2e}
+::-webkit-scrollbar-thumb:vertical {background:#2e2e2e;}
+::-webkit-scrollbar-thumb:horizontal {background: ;}
+::-webkit-scrollbar-thumb {background: #2e2e2e;}
+ 
+body {
+background:#ffffff;
+font-family:arial;
+font-size:10px;
+letter-spacing:0px;
+line-height:90%;
+color:#2e2e2e;
+}
+ 
+a:link, a:active, a:visited{color: #2e2e2e;}
+a:hover{color:#2e2e2e; text-decoration:underline;}
+ 
+    a {
+    color:#2e2e2e;
+    text-decoration:none;
+    -moz-transition-duration:0.4s;
+    -webkit-transition-duration:0.4s;
+    -o-transition-duration:0.4s;
+    }
+   
+    a:hover {
+    color:#2e2e2e;
+    text-decoration:underline;
+    -moz-transition-duration:0.4s;
+    -webkit-transition-duration:0.4s;
+    -o-transition-duration:0.4s;
+    }
+ 
+    #container {
+    background-color:;
+    width:700px;
+    margin: 0 auto -12px auto;
+    text-align: center;
+    }
+   
+    .links{
+    border-top:1px solid #f4f4f4;
+    padding:5px;
+    margin-top:7px;
+    word-spacing:0px;
+    text-align:right;
+    }
+   
+    .links a{
+    padding:3px;
+    letter-spacing:0px;
+    color:#2e2e2e;
+    text-decoration:none;
+    -moz-transition-duration:0.4s;
+    -webkit-transition-duration:0.4s;
+    -o-transition-duration:0.4s;
+    }
+   
+    .links a:hover{
+    color:#2e2e2e;
+    text-decoration:underline;
+    -moz-transition-duration:0.4s;
+    -webkit-transition-duration:0.4s;
+    -o-transition-duration:0.4s;
+    }
+ 
+    #sidebar {
+    margin-left:-160px;
+    top: 100px;
+    position:fixed;
+    width:250px;
+    }
+ 
+    #descri {
+    background-color:#ffffff;
+    width:250px;
+    padding:15px;
+    }
+ 
+    #descri img {
+    width:250px;
+    margin-bottom:5px;
+    }
+ 
+    #stext {
+    margin-top:2px;
+    margin-bottom:5px;
+    padding:3px;
+    text-align:center;
+    }
+ 
+    .pagi {
+    font-size:15px;
+    margin-top:20px;
+    text-align:right;
+    font-style:italic;
+    margin-bottom:10px;
+    padding:10px;
+    
+    margin-left:170px;
+    
+    
+    }
+ 
+    h1 {
+    font-size:15px;
+    text-align:center;
+    padding:10px;
+    color:#2e2e2e;
+    }
+ 
+    h2 {
+    font-size:15px;
+    text-align:justify;
+    font-weight:normal;
+    padding:10px;
+    }
+   
+    #asker {
+    float:left;
+    padding:1px;
+    margin-top:-2px;
+    margin-right:5px;
+    }
+   
+    #question {
+    line-height:90%;
+    }
+   
+    #answer {
+    line-height:90%;
+    }
+   
+    blockquote {
+    border-left:1px solid #e9e7e7;
+    padding-left:10px;
+    margin:5px;
+    }
+   
+    #stuffcontainer {
+    float:left;
+    text-align:left;
+    background-color:;
+    color:#2e2e2e;
+    margin-bottom: -10px;
+    
+    width:500px;
+    
+    
+    }
+ 
+    #stuff {
+    
+    width:500px;
+    margin-left:170px;
+    
+    
+    margin-top:10px;
+    text-align:justify;
+    margin-bottom:-35px;
+    padding:10px;
+    line-height:90%;
+    letter-spacing:0px;
+    background-color:#ffffff;
+    color:#2e2e2e;
+    }
+ 
+    #postinfo {
+    margin-top:0px;
+    
+    width:500px;
+    
+    
+    padding-top:0px;
+    line-height:90%;
+    text-align:left;
+    }
+   
+    .tags {
+    
+    width:500px;
+    
+    
+    text-align:left;
+    margin-top:0px;
+    line-height:90%;
+    }
+   
+    ol.notes {
+    
+    width:500px;
+    margin-left:170px;
+    
+    
+    padding:0px;
+    margin:0px 0px 0px 170px;
+    list-style-type:none;
+    text-align:left;
+    }
+    ol.notes li.note {
+    padding: 10px;
+    }
+    ol.notes li.note img.avatar {
+    vertical-align:-4px;
+    margin-right:10px;
+    width:16px;
+    height:16px;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    }
+    ol.notes li.note span.action {
+    font-weight:normal;
+    }
+    ol.notes li.note .answer_content {
+    font-weight:normal;
+    }
+    ol.notes li.note blockquote {
+    padding:9px 6px 9px 6px;
+    }
+ 
+    #cred {
+    bottom:30px;
+    font-style:none;
+    right:35px;
+    position:fixed;
+    }
+ 
+</style>
+<style type="text/css"> </style>
+ 
+
+<meta name="robots" content="noindex"/>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=freddyamazin" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Freddy Amazin" /><meta property="og:url" content="http://www.freddyamazin.com/?og=1" /><meta property="og:description" content="Follow @FreddyAmazin" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_d3c5f1efd49d_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=freddyamazin" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=freddyamazin" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="freddyamazin" /><meta name="twitter:description" content="&lt;p&gt;&lt;a href=&quot;https://twitter.com/FreddyAmazin&quot;&gt;Follow @FreddyAmazin&lt;/a&gt;&lt;/p&gt;" /><meta name="twitter:creator" content="freddydied" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=freddyamazin&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=freddyamazin&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=freddyamazin&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+
+ <!-- SCM Music Player http://scmplayer.net -->
+<script type="text/javascript" src="http://scmplayer.net/script.js" 
+data-config="{'skin':'http://static.tumblr.com/d41lcii/7Ysmre077/simplegray.css','volume':100,'autoplay':true,'shuffle':false,'repeat':1,'placement':'bottom','showplaylist':false,'playlist':'https://soundcloud.com/freddyamazin/sets/tumblr'}"></script>
+<!-- SCM Music Player script end -->
+
+<div id="cred"><a href="http://regansthemes.tumblr.com/">♡</a></div>
+ 
+<div id="container">
+ 
+<div id="sidebar">
+<div id="descri">
+ 
+<div id="sidebarimage"><img src="http://static.tumblr.com/53bc7d967631cb68f403cdcc463cebf8/k8yi20d/DBLnb8fal/tumblr_static_34vfl3by992c0wo08wkkowcwk.png"></div>
+ 
+<div id="stext">
+<p><a href="https://twitter.com/FreddyAmazin">Follow @FreddyAmazin</a></p>
+</div>
+ 
+<center><div class="links">
+<a href="/">home</a>
+<a href="/ask">ask</a>
+<a href="http://www.twitter.com/freddyamazin">twitter</a>
+
+
+</div></center>
+ 
+</div></div>
+ 
+<div id="stuffcontainer">
+ 
+<div id="stuff">
+ 
+<br><br>
+ 
+
+ 
+<center><img src="http://31.media.tumblr.com/8a3d42faa3b85fd51e0d46f5fccf8ca1/tumblr_nchcc5BERP1tvt1zmo1_500.jpg"/></center><p><a href="http://kyliesceline.tumblr.com/post/98423375155/kylie-jenner-with-blue-eyes" class="tumblr_blog">kyliesceline</a>:</p>
+
+<blockquote><p>Kylie Jenner with blue eyes.</p></blockquote>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div style="border-top:1px solid #f4f4f4; margin-top:5px; margin-bottom:5px;"></div>
+ 
+<div id="postinfo"><div id="date"><a href="http://www.freddyamazin.com/post/98556685527">3 hours ago</a> ― <a href="http://www.freddyamazin.com/post/98556685527">556 notes</a></div>
+ 
+<a href="http://kyliesceline.tumblr.com/post/98423375155/kylie-jenner-with-blue-eyes"
+title="Kylie Jenner">kyliesceline</a> /
+<a href="http://kyliesceline.tumblr.com/post/98423375155/kylie-jenner-with-blue-eyes"title="Kylie Jenner">kyliesceline</a>
+ 
+</div>
+ 
+
+ 
+</div>
+ 
+
+ 
+<div id="stuff">
+ 
+<br><br>
+ 
+
+ 
+<center><img src="http://33.media.tumblr.com/996eaf07997859944ca69644784c2924/tumblr_mmy6ulxvKd1rivnbco1_500.gif"/></center>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div style="border-top:1px solid #f4f4f4; margin-top:5px; margin-bottom:5px;"></div>
+ 
+<div id="postinfo"><div id="date"><a href="http://www.freddyamazin.com/post/98552988662">4 hours ago</a> ― <a href="http://www.freddyamazin.com/post/98552988662">341 notes</a></div>
+ 
+<a href="http://theonyxhotel.tumblr.com/post/50654336814"
+title="╰☆╮ Trust No One ╰☆╮">theonyxhotel</a> /
+<a href="http://theonyxhotel.tumblr.com/post/50654336814"title="╰☆╮ Trust No One ╰☆╮">theonyxhotel</a>
+ 
+</div>
+ 
+
+ 
+</div>
+ 
+
+ 
+<div id="stuff">
+ 
+<br><br>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<center><div id="photoset_98552896967" class="html_photoset">    <iframe id="photoset_iframe_98552896967" class="photoset" scrolling="no" frameborder="0" height="1909" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://www.freddyamazin.com/post/98552896967/photoset_iframe/freddyamazin/tumblr_n1gz56mV2C1sarqg1/500/false"></iframe></div></center><p><a href="http://cindehella.tumblr.com/post/77633832606/cinematic-masterpiece" class="tumblr_blog">cindehella</a>:</p>
+
+<blockquote><p>cinematic masterpiece</p></blockquote>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div style="border-top:1px solid #f4f4f4; margin-top:5px; margin-bottom:5px;"></div>
+ 
+<div id="postinfo"><div id="date"><a href="http://www.freddyamazin.com/post/98552896967">4 hours ago</a> ― <a href="http://www.freddyamazin.com/post/98552896967">474,083 notes</a></div>
+ 
+<a href="http://cindehella.tumblr.com/post/77633832606/cinematic-masterpiece"
+title="Hot millionaires in your area">cindehella</a> /
+<a href="http://cindehella.tumblr.com/post/77633832606/cinematic-masterpiece"title="Hot millionaires in your area">cindehella</a>
+ 
+</div>
+ 
+
+ 
+</div>
+ 
+
+ 
+<div id="stuff">
+ 
+<br><br>
+ 
+
+ 
+<center><img src="http://33.media.tumblr.com/tumblr_m4djgdy6Vt1qiy5bso1_500.png"/></center><p><a href="http://weclassyasfuck.tumblr.com/post/98551215568" class="tumblr_blog">weclassyasfuck</a>:</p>
+
+<blockquote><p><u>\</u></p></blockquote>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div style="border-top:1px solid #f4f4f4; margin-top:5px; margin-bottom:5px;"></div>
+ 
+<div id="postinfo"><div id="date"><a href="http://www.freddyamazin.com/post/98551668017">4 hours ago</a> ― <a href="http://www.freddyamazin.com/post/98551668017">4,480 notes</a></div>
+ 
+<a href="http://jxdanicxle.tumblr.com/post/98551568600/weclassyasfuck"
+title="Ch&ugrave;n">jxdanicxle</a> /
+<a href="http://dolphinjuice.tumblr.com/post/23477944186"title="Dolphin juice">dolphinjuice</a>
+ 
+</div>
+ 
+
+ 
+</div>
+ 
+
+ 
+<div id="stuff">
+ 
+<br><br>
+ 
+
+ 
+<center><img src="http://33.media.tumblr.com/tumblr_m8kqkoKhKw1qj7lb4o1_500.gif"/></center><p><a href="http://so-personal.net/post/98551598106/everything-personal" class="tumblr_blog">so-personal</a>:</p>
+
+<blockquote><p>everything personal</p></blockquote>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div style="border-top:1px solid #f4f4f4; margin-top:5px; margin-bottom:5px;"></div>
+ 
+<div id="postinfo"><div id="date"><a href="http://www.freddyamazin.com/post/98551633897">4 hours ago</a> ― <a href="http://www.freddyamazin.com/post/98551633897">350,841 notes</a></div>
+ 
+<a href="http://so-personal.net/post/98551598106/everything-personal"
+title="♡hey there beautiful♡">so-personal</a> /
+<a href="http://discolor3d.tumblr.com/post/29175829581"title="Conceal don&#039;t feel, don&#039;t let them know.">discolor3d</a>
+ 
+</div>
+ 
+
+ 
+</div>
+ 
+
+ 
+<div id="stuff">
+ 
+<br><br>
+ 
+
+ 
+<center><img src="http://38.media.tumblr.com/f60fcb47017fe9a0d8a27a16bb88aa05/tumblr_n31ty9h9a71qzrjtlo1_500.gif"/></center>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div style="border-top:1px solid #f4f4f4; margin-top:5px; margin-bottom:5px;"></div>
+ 
+<div id="postinfo"><div id="date"><a href="http://www.freddyamazin.com/post/98544792507">6 hours ago</a> ― <a href="http://www.freddyamazin.com/post/98544792507">314,548 notes</a></div>
+ 
+<a href="http://deeply.tumblr.com/post/98543196841"
+title="inhale">deeply</a> /
+<a href="http://hausofbhd.tumblr.com/post/80781077285/ashish-fall-2013-mood"title="HAUS&trade;">hausofbhd</a>
+ 
+</div>
+ 
+
+ 
+</div>
+ 
+
+ 
+<div id="stuff">
+ 
+<br><br>
+ 
+
+ 
+<center><img src="http://33.media.tumblr.com/1e9d435568afc14e8f4de54efd8f6ed7/tumblr_mh9zggZP6t1s32n64o1_500.png"/></center>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div style="border-top:1px solid #f4f4f4; margin-top:5px; margin-bottom:5px;"></div>
+ 
+<div id="postinfo"><div id="date"><a href="http://www.freddyamazin.com/post/98544775827">6 hours ago</a> ― <a href="http://www.freddyamazin.com/post/98544775827">126,046 notes</a></div>
+ 
+<a href="http://conflicting.tumblr.com/post/98543263353"
+title="looking for answers we can append">conflicting</a> /
+<a href="http://this-episode.tumblr.com/post/42491203757"title="this-episode">this-episode</a>
+ 
+</div>
+ 
+
+ 
+</div>
+ 
+
+ 
+<div id="stuff">
+ 
+<br><br>
+ 
+<p><a class="tumblr_blog" href="http://attackonromney.tumblr.com/post/91665622734/nash-grier-in-a-few-months">attackonromney</a>:</p>
+
+<blockquote>
+<p>nash grier in a few months</p>
+<p><img alt="image" src="http://media.tumblr.com/79d1eae09e55a24e99295012085e647b/tumblr_inline_n8nzvjBfHV1rt8a7s.png"/></p>
+</blockquote>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div style="border-top:1px solid #f4f4f4; margin-top:5px; margin-bottom:5px;"></div>
+ 
+<div id="postinfo"><div id="date"><a href="http://www.freddyamazin.com/post/98544768427">6 hours ago</a> ― <a href="http://www.freddyamazin.com/post/98544768427">127,687 notes</a></div>
+ 
+<a href="http://confirmance.tumblr.com/post/98543265434/attackonromney-nash-grier-in-a-few-months"
+title="hbu not">confirmance</a> /
+<a href="http://kidstar.co.vu/post/91665622734/nash-grier-in-a-few-months"title="im a loser">loserly</a>
+ 
+</div>
+ 
+
+ 
+</div>
+ 
+
+ 
+<div id="stuff">
+ 
+<br><br>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<center><div id="photoset_98544758937" class="html_photoset">    <iframe id="photoset_iframe_98544758937" class="photoset" scrolling="no" frameborder="0" height="590" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://www.freddyamazin.com/post/98544758937/photoset_iframe/freddyamazin/tumblr_naki1uJNde1qk8r8g/500/false"></iframe></div></center>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div style="border-top:1px solid #f4f4f4; margin-top:5px; margin-bottom:5px;"></div>
+ 
+<div id="postinfo"><div id="date"><a href="http://www.freddyamazin.com/post/98544758937">6 hours ago</a> ― <a href="http://www.freddyamazin.com/post/98544758937">68,871 notes</a></div>
+ 
+<a href="http://rebeccachapman.co.vu/post/98543267444"
+title="Fire Cannot Kill A Dragon">sorry</a> /
+<a href="http://andrewgarfy.co.vu/post/95209646621/i-accept-the-nomination-for-the-als-ice-bucket"title="I don&#039;t sleep, I just dream">blondiepoison</a>
+ 
+</div>
+ 
+
+ 
+</div>
+ 
+
+ 
+<div id="stuff">
+ 
+<br><br>
+ 
+
+ 
+<center><img src="http://38.media.tumblr.com/a995556270ce830cc61cad320de2fb41/tumblr_n7644rFHub1rmyfkyo1_500.png"/></center>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div style="border-top:1px solid #f4f4f4; margin-top:5px; margin-bottom:5px;"></div>
+ 
+<div id="postinfo"><div id="date"><a href="http://www.freddyamazin.com/post/98544755257">6 hours ago</a> ― <a href="http://www.freddyamazin.com/post/98544755257">281,353 notes</a></div>
+ 
+<a href="http://conflicting.tumblr.com/post/98543268813"
+title="looking for answers we can append">conflicting</a> /
+<a href="http://movea.tumblr.com/post/88772770758"title="oh">movea</a>
+ 
+</div>
+ 
+
+ 
+</div>
+ 
+
+ 
+<div id="stuff">
+ 
+<br><br>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<center><div id="photoset_98544748862" class="html_photoset">    <iframe id="photoset_iframe_98544748862" class="photoset" scrolling="no" frameborder="0" height="245" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://www.freddyamazin.com/post/98544748862/photoset_iframe/freddyamazin/tumblr_m5aefqCxHp1rv111u/500/false"></iframe></div></center>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div style="border-top:1px solid #f4f4f4; margin-top:5px; margin-bottom:5px;"></div>
+ 
+<div id="postinfo"><div id="date"><a href="http://www.freddyamazin.com/post/98544748862">6 hours ago</a> ― <a href="http://www.freddyamazin.com/post/98544748862">315,362 notes</a></div>
+ 
+<a href="http://stabs.tumblr.com/post/98543289496"
+title="Alternate Gothic">stabs</a> /
+<a href="http://modern-family-gifs.tumblr.com/post/24667231507"title="Modern Family gifs">modern-family-gifs</a>
+ 
+</div>
+ 
+
+ 
+</div>
+ 
+
+ 
+<div id="stuff">
+ 
+<br><br>
+ 
+<p><a class="tumblr_blog" href="http://fabkebab.tumblr.com/post/67572164386/if-ur-gonna-be-nice-to-me-there-is-a-59382-chance">fabkebab</a>:</p>
+<blockquote>
+<p>if ur gonna be nice to me there is a 59382% chance im gonna like u</p>
+</blockquote>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div style="border-top:1px solid #f4f4f4; margin-top:5px; margin-bottom:5px;"></div>
+ 
+<div id="postinfo"><div id="date"><a href="http://www.freddyamazin.com/post/98544743172">6 hours ago</a> ― <a href="http://www.freddyamazin.com/post/98544743172">261,943 notes</a></div>
+ 
+<a href="http://preachier.tk/post/98543290264/fabkebab-if-ur-gonna-be-nice-to-me-there-is-a"
+title="Idk">preachier</a> /
+<a href="http://tightvaginas.tumblr.com/post/67572164386/if-ur-gonna-be-nice-to-me-there-is-a-59382-chance"title="u think ur pretty funny">tightvaginas</a>
+ 
+</div>
+ 
+
+ 
+</div>
+ 
+
+ 
+<div id="stuff">
+ 
+<br><br>
+ 
+
+ 
+<center><img src="http://33.media.tumblr.com/0214ac848b5cf985cc6afecbce493c07/tumblr_n671qqpB8r1rf7c6ko1_500.jpg"/></center><p><a class="tumblr_blog" href="http://ladyskorpia.tumblr.com/post/86916920078/step-up-your-game-olive-garden">ladyskorpia</a>:</p>
+<blockquote>
+<p>Step up your game, Olive Garden.</p>
+</blockquote>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div style="border-top:1px solid #f4f4f4; margin-top:5px; margin-bottom:5px;"></div>
+ 
+<div id="postinfo"><div id="date"><a href="http://www.freddyamazin.com/post/98544730807">6 hours ago</a> ― <a href="http://www.freddyamazin.com/post/98544730807">182,187 notes</a></div>
+ 
+<a href="http://conflicting.tumblr.com/post/98543307158/ladyskorpia-step-up-your-game-olive-garden"
+title="looking for answers we can append">conflicting</a> /
+<a href="http://ladyskorpia.tumblr.com/post/86916920078/step-up-your-game-olive-garden"title="They see me sylphin&#039;, and heartin&#039;, they hatin&#039;.">ladyskorpia</a>
+ 
+</div>
+ 
+
+ 
+</div>
+ 
+
+ 
+
+ 
+
+ 
+
+<div class="pagi">
+
+―
+
+<a href="/page/2">next</a><br><img src="http://static.tumblr.com/k8yi20d/WQMn1z3zc/space2.png">
+
+
+</div>
+
+ 
+</div>
+ 
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://www.freddyamazin.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411848085&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvd3d3LmZyZWRkeWFtYXppbi5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=CPHKJFGMGF&K=476b3d69793f4423fd11f3abfa3d99f1c1b47e9d85c52beb90f88ab1b939ba44&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411848085&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvd3d3LmZyZWRkeWFtYXppbi5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=CPHKJFGMGF&K=f25611d24a29cad54a34b7cdd4e88683342d6dc07fadacd0dec9b4875bc0904a&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411848085&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3d3dy5mcmVkZHlhbWF6aW4uY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMTc1MjIyODU5Iiwicm9vdF9wb3N0aWQiOiI5ODQyMzM3NTE1NSIsInBvc3RpZCI6Ijk4NTU2Njg1NTI3IiwiYmxvZ2lkIjoiMjE1MTUyMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3NjIzMDU1MyIsInJvb3RfcG9zdGlkIjoiNTA2NTQzMzY4MTQiLCJwb3N0aWQiOiI5ODU1Mjk4ODY2MiIsImJsb2dpZCI6IjIxNTE1MjMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTIzMDc3MjIxIiwicm9vdF9wb3N0aWQiOiI3NzYzMzgzMjYwNiIsInBvc3RpZCI6Ijk4NTUyODk2OTY3IiwiYmxvZ2lkIjoiMjE1MTUyMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNTg5Nzg1NSIsInJvb3RfcG9zdGlkIjoiMjM0Nzc5NDQxODYiLCJwb3N0aWQiOiI5ODU1MTY2ODAxNyIsImJsb2dpZCI6IjIxNTE1MjMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTY5NjE4NjAiLCJyb290X3Bvc3RpZCI6IjI5MTc1ODI5NTgxIiwicG9zdGlkIjoiOTg1NTE2MzM4OTciLCJibG9naWQiOiIyMTUxNTIzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQ4OTQ0MiIsInJvb3RfcG9zdGlkIjo4MDc4MTA3NzI4NSwicG9zdGlkIjoiOTg1NDQ3OTI1MDciLCJibG9naWQiOiIyMTUxNTIzIiwic291cmNlIjozM31dfQ==&U=GIHFMGFIBH&K=6e459bc2e4389553a6a12906e62c98b6cbfbf9d5402e03d60530c557512a618a&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411848085&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3d3dy5mcmVkZHlhbWF6aW4uY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMTc1MjIyODU5Iiwicm9vdF9wb3N0aWQiOiI5ODQyMzM3NTE1NSIsInBvc3RpZCI6Ijk4NTU2Njg1NTI3IiwiYmxvZ2lkIjoiMjE1MTUyMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3NjIzMDU1MyIsInJvb3RfcG9zdGlkIjoiNTA2NTQzMzY4MTQiLCJwb3N0aWQiOiI5ODU1Mjk4ODY2MiIsImJsb2dpZCI6IjIxNTE1MjMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTIzMDc3MjIxIiwicm9vdF9wb3N0aWQiOiI3NzYzMzgzMjYwNiIsInBvc3RpZCI6Ijk4NTUyODk2OTY3IiwiYmxvZ2lkIjoiMjE1MTUyMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNTg5Nzg1NSIsInJvb3RfcG9zdGlkIjoiMjM0Nzc5NDQxODYiLCJwb3N0aWQiOiI5ODU1MTY2ODAxNyIsImJsb2dpZCI6IjIxNTE1MjMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTY5NjE4NjAiLCJyb290X3Bvc3RpZCI6IjI5MTc1ODI5NTgxIiwicG9zdGlkIjoiOTg1NTE2MzM4OTciLCJibG9naWQiOiIyMTUxNTIzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQ4OTQ0MiIsInJvb3RfcG9zdGlkIjo4MDc4MTA3NzI4NSwicG9zdGlkIjoiOTg1NDQ3OTI1MDciLCJibG9naWQiOiIyMTUxNTIzIiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=GIHFMGFIBH&K=c610496b39a274510b496107f59078cc1ab777d601549f6922cad428b9adb74b&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411848085&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3d3dy5mcmVkZHlhbWF6aW4uY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiODg5MjAzMTYiLCJyb290X3Bvc3RpZCI6IjQyNDkxMjAzNzU3IiwicG9zdGlkIjoiOTg1NDQ3NzU4MjciLCJibG9naWQiOiIyMTUxNTIzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjYzODU3OTkzIiwicm9vdF9wb3N0aWQiOiI5MTY2NTYyMjczNCIsInBvc3RpZCI6Ijk4NTQ0NzY4NDI3IiwiYmxvZ2lkIjoiMjE1MTUyMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxODY2MTY2MSIsInJvb3RfcG9zdGlkIjoiOTUyMDk2NDY2MjEiLCJwb3N0aWQiOiI5ODU0NDc1ODkzNyIsImJsb2dpZCI6IjIxNTE1MjMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODMxMTI2MzMiLCJyb290X3Bvc3RpZCI6Ijg4NzcyNzcwNzU4IiwicG9zdGlkIjoiOTg1NDQ3NTUyNTciLCJibG9naWQiOiIyMTUxNTIzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjUzNTg5ODkzIiwicm9vdF9wb3N0aWQiOiIyNDY2NzIzMTUwNyIsInBvc3RpZCI6Ijk4NTQ0NzQ4ODYyIiwiYmxvZ2lkIjoiMjE1MTUyMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNDAyMzI1NjAiLCJyb290X3Bvc3RpZCI6IjY3NTcyMTY0Mzg2IiwicG9zdGlkIjoiOTg1NDQ3NDMxNzIiLCJibG9naWQiOiIyMTUxNTIzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjcwNjk3Mjg5Iiwicm9vdF9wb3N0aWQiOiI4NjkxNjkyMDA3OCIsInBvc3RpZCI6Ijk4NTQ0NzMwODA3IiwiYmxvZ2lkIjoiMjE1MTUyMyIsInNvdXJjZSI6MzN9XX0=&U=FFALHNBELM&K=cab6ea9df6a6c16ba736b8c0cc72578dee3855b825c23b4b70cf08bebe1e14c9&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411848085&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3d3dy5mcmVkZHlhbWF6aW4uY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiODg5MjAzMTYiLCJyb290X3Bvc3RpZCI6IjQyNDkxMjAzNzU3IiwicG9zdGlkIjoiOTg1NDQ3NzU4MjciLCJibG9naWQiOiIyMTUxNTIzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjYzODU3OTkzIiwicm9vdF9wb3N0aWQiOiI5MTY2NTYyMjczNCIsInBvc3RpZCI6Ijk4NTQ0NzY4NDI3IiwiYmxvZ2lkIjoiMjE1MTUyMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxODY2MTY2MSIsInJvb3RfcG9zdGlkIjoiOTUyMDk2NDY2MjEiLCJwb3N0aWQiOiI5ODU0NDc1ODkzNyIsImJsb2dpZCI6IjIxNTE1MjMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODMxMTI2MzMiLCJyb290X3Bvc3RpZCI6Ijg4NzcyNzcwNzU4IiwicG9zdGlkIjoiOTg1NDQ3NTUyNTciLCJibG9naWQiOiIyMTUxNTIzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjUzNTg5ODkzIiwicm9vdF9wb3N0aWQiOiIyNDY2NzIzMTUwNyIsInBvc3RpZCI6Ijk4NTQ0NzQ4ODYyIiwiYmxvZ2lkIjoiMjE1MTUyMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNDAyMzI1NjAiLCJyb290X3Bvc3RpZCI6IjY3NTcyMTY0Mzg2IiwicG9zdGlkIjoiOTg1NDQ3NDMxNzIiLCJibG9naWQiOiIyMTUxNTIzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjcwNjk3Mjg5Iiwicm9vdF9wb3N0aWQiOiI4NjkxNjkyMDA3OCIsInBvc3RpZCI6Ijk4NTQ0NzMwODA3IiwiYmxvZ2lkIjoiMjE1MTUyMyIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=FFALHNBELM&K=e4c6f5335dc6da5fc8e3bef8cfee9156258135ddb061d0ee323d770ddf35535c&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:2151523,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2Fwww.freddyamazin.com%2F&amp;lang=en_US&amp;name=freddyamazin&amp;brag=false&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_d3c5f1efd49d_64.png&amp;title=Freddy+Amazin&amp;url=http%3A%2F%2Fwww.freddyamazin.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2Fwww.freddyamazin.com%2F&amp;lang=en_US&amp;name=freddyamazin&amp;brag=false&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_d3c5f1efd49d_64.png&amp;title=Freddy+Amazin&amp;url=http%3A%2F%2Fwww.freddyamazin.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

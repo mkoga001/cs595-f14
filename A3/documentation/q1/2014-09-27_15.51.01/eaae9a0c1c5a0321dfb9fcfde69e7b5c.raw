@@ -1,0 +1,2200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o?o:n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({QJf3ax:[function(t,n){function e(t){function n(n,e,o){t&&t(n,e,o),o||(o={});for(var a=i(n),u=a.length,c=o[r]||(o[r]={}),f=0;u>f;f++)a[f].apply(c,e);return c}function o(t,n){u[t]=i(t).concat(n)}function i(t){return u[t]||[]}function a(){return e(n)}var u={};return{on:o,emit:n,create:a,listeners:i,_events:u}}var r="nr@context";n.exports=e()},{}],ee:[function(t,n){n.exports=t("QJf3ax")},{}],D5DuLP:[function(t,n){function e(t,n,e){return r.listeners(t).length?r.emit(t,n,e):(o[t]||(o[t]=[]),void o[t].push(n))}var r=t("ee").create(),o={};n.exports=e,e.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,n){function e(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var n=c.createElement("script");n.src=l.proto+t.agent,c.body.appendChild(n)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=n.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",e,!1)):(c[s]("onreadystatechange",r),u[s]("onload",e)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);</script>
+      <meta name="google-site-verification" content="3Ei4jjL5EP_HKkJoOpicdPBzdxaT447_mgt3HpWx_qI" />
+    <script type="text/javascript" src="http://m.bicycling.com/mobify/redirect.js"></script>
+  <script type="text/javascript">try{_mobify("http://m.bicycling.com/");} catch(err) {};</script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Bicycling Magazine RSS" href="http://www.bicycling.com/rss.xml" />
+<link rel="shortcut icon" href="http://www.bicycling.com/sites/default/files/bicycling_favicon_0.ico" type="image/x-icon" />
+<meta name="abstract" content="Bicycling Magazine features bikes, bike gear, equipment reviews, training plans, bike maintenance how tos, and more, for cyclists of all levels." />
+<meta name="keywords" content="bicycle" />
+<meta name="copyright" content="Bicycling.com® and Mountain Bike.com® are registered trademarks of Rodale Inc" />
+<link rel="canonical" href="http://www.bicycling.com/" />
+<meta name="revisit-after" content="1 day" />
+  <title>Road Bike Reviews, Cycling Gear, Maintenance, Fitness, Training, and Racing  | Bicycling Magazine</title>
+  <link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?6" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/files/css/css_e3464aee31c62de1bd77599b91fe1a3d.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/default/files/css/css_20f7b7ec4cb9aae415d78ee6e06aad66.css" />
+
+
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/zen/zen/ie.css?6" />
+<![endif]-->
+  <script type="text/javascript" src="http://www.bicycling.com/sites/default/files/js/js_f59d6ca43a2af965a547a79e05b7bee8.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","cas":{"cas_server":"https:\/\/member.rodale.com"},"nice_menus_options":{"delay":800,"speed":1},"bicycling_ads":{"use_iframe":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"bicycling_key":{"use_keyword":["","","","","","","","","","","","","","","",""]},"quicktabs":{"qt_3":{"tabs":[{"vid":"most_viewed","display":"default","args":[],"get_displays":"vdisp_0","title":"Popular","weight":"-100","type":"view"},{"vid":"most_commented","display":"default","args":[],"get_displays":"vdisp_1","title":"Commented","weight":"-99","type":"view"},{"vid":"most_emailed","display":"default","args":[],"get_displays":"vdisp_2","title":"Emailed","weight":"-98","type":"view"}]},"qt_2":{"tabs":[{"vid":"most_recent_subcat","display":"default","args":[],"get_displays":"vdisp_0","title":"Most Recent","weight":"-100","type":"view"},{"vid":"most_viewed_subcat","display":"default","args":[],"get_displays":"vdisp_1","title":"Most Viewed","weight":"-99","type":"view"}]}},"views":{"ajax_path":["\/views\/ajax","\/views\/ajax","\/views\/ajax","\/views\/ajax","\/views\/ajax"],"ajaxViews":[{"view_name":"most_viewed","view_display_id":"default","view_args":"","view_path":"node"},{"view_name":"most_commented","view_display_id":"default","view_args":"","view_path":"node"},{"view_name":"most_emailed","view_display_id":"default","view_args":"","view_path":"node"},{"view_name":"most_recent_subcat","view_display_id":"default","view_args":"","view_path":"node"},{"view_name":"most_viewed_subcat","view_display_id":"default","view_args":"","view_path":"node"}]}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+  // Audience Science Integration
+//name: Rodale (Direct_US) PQ May 
+//created: 05/06/2014 17:37
+var cb = new Date().getTime();
+var asiPqTag = false;
+try { 
+  document.write("<sc" + "ript type='text/javascript' language='JavaScript' src=http://pq-direct.revsci.net/pql?placementIdList=G7mX8J,cO0b9Q,8z1A4F,p71sX9,7SruxJ&cb=" + cb + "'></sc" + "ript>"); 
+} catch(err) { };
+
+if (typeof asiPlacements != "undefined") {
+  for (var p in asiPlacements) {
+    for (var key in asiPlacements[p].data) {
+      window["ASPQ_"+p] = "PQ_"+p+"_"+key;
+    }
+  }
+};
+
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+googletag.slots = googletag.slots || {};
+
+(function() {
+  var gads = document.createElement("script");
+  gads.async = true;
+  gads.type = "text/javascript";
+  var useSSL = "https:" == document.location.protocol;
+  gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+  var node = document.getElementsByTagName("script")[0];
+  node.parentNode.insertBefore(gads, node);
+})();
+
+googletag.adUnitName = "/3899/bicycling/home";
+
+googletag.cmd.push( function() { 
+  jQuery(function() {
+    var slotId = "gpt-tag-spend-less-ad";
+	if (jQuery('#' + slotId).size()) {
+ 		googletag.slots[slotId] = googletag.defineSlot(googletag.adUnitName, [[300,250],[300,600],[300,1050]], slotId)
+		.addService(googletag.pubads())
+		.setTargeting("atf", ["true"])
+		.setTargeting('gwd', (typeof ASPQ_8z1A4F == 'undefined' ? '' : ASPQ_8z1A4F)); 
+	} 
+	});
+ });
+
+googletag.cmd.push( function() { 
+  jQuery(function() {
+    var slotId = "gpt-tag-sponsored-features-a";
+	if (jQuery('#' + slotId).size()) {
+ 		googletag.slots[slotId] = googletag.defineSlot(googletag.adUnitName, [[120,30],[120,31]], slotId)
+		.addService(googletag.pubads()); 
+	} 
+	});
+ });
+
+googletag.cmd.push( function() { 
+  jQuery(function() {
+    var slotId = "gpt-tag-sponsored-features-b";
+	if (jQuery('#' + slotId).size()) {
+ 		googletag.slots[slotId] = googletag.defineSlot(googletag.adUnitName, [[120,30],[120,32]], slotId)
+		.addService(googletag.pubads()); 
+	} 
+	});
+ });
+
+googletag.cmd.push( function() { 
+  jQuery(function() {
+    var slotId = "gpt-tag-sponsored-features-c";
+	if (jQuery('#' + slotId).size()) {
+ 		googletag.slots[slotId] = googletag.defineSlot(googletag.adUnitName, [[120,30],[120,33]], slotId)
+		.addService(googletag.pubads()); 
+	} 
+	});
+ });
+
+googletag.cmd.push( function() { 
+  jQuery(function() {
+    var slotId = "gpt-tag-msn-ad";
+	if (jQuery('#' + slotId).size()) {
+ 		googletag.slots[slotId] = googletag.defineSlot(googletag.adUnitName, [[300,251]], slotId)
+		.addService(googletag.pubads())
+		.setTargeting("btf", ["true"])
+		.setTargeting("kw", ["adsense"]); 
+	} 
+	});
+ });
+
+googletag.cmd.push( function() { 
+  jQuery(function() {
+    var slotId = "gpt-tag-secret-training-ad";
+	if (jQuery('#' + slotId).size()) {
+ 		googletag.slots[slotId] = googletag.defineSlot(googletag.adUnitName, [[300,250],[300,253]], slotId)
+		.addService(googletag.pubads())
+		.setTargeting("btf", ["true"])
+		.setTargeting('gwd', (typeof ASPQ_7SruxJ == 'undefined' ? '' : ASPQ_7SruxJ)); 
+	} 
+	});
+ });
+
+googletag.cmd.push( function() { 
+  jQuery(function() {
+    var slotId = "gpt-tag-bke-interstitial";
+	if (jQuery('#' + slotId).size()) {
+ 		googletag.slots[slotId] = googletag.defineOutOfPageSlot(googletag.adUnitName, slotId)
+		.addService(googletag.pubads())
+		.setTargeting("pos", ["interstitial"]); 
+	} 
+	});
+ });
+
+googletag.cmd.push( function() { 
+  jQuery(function() {
+    var slotId = "gpt-tag-bke-bg-skin";
+	if (jQuery('#' + slotId).size()) {
+ 		googletag.slots[slotId] = googletag.defineSlot(googletag.adUnitName, [[550,480]], slotId)
+		.addService(googletag.pubads()); 
+	} 
+	});
+ });
+
+googletag.cmd.push( function() { 
+  jQuery(function() {
+    var slotId = "gpt-tag-footer-house-ad";
+	if (jQuery('#' + slotId).size()) {
+ 		googletag.slots[slotId] = googletag.defineSlot(googletag.adUnitName, [[930,50]], slotId)
+		.addService(googletag.pubads()); 
+	} 
+	});
+ });
+
+googletag.cmd.push( function() { 
+  jQuery(function() {
+    var slotId = "gpt-tag-728x90-ad";
+	if (jQuery('#' + slotId).size()) {
+ 		googletag.slots[slotId] = googletag.defineSlot(googletag.adUnitName, [[728,90],[970,66]], slotId)
+		.addService(googletag.pubads())
+		.setTargeting("atf", ["true"])
+		.setTargeting('gwd', (typeof ASPQ_p71sX9 == 'undefined' ? '' : ASPQ_p71sX9)); 
+	} 
+	});
+ });
+
+googletag.cmd.push( function() { 
+  jQuery(function() {
+    var slotId = "gpt-tag-subscription-ad";
+	if (jQuery('#' + slotId).size()) {
+ 		googletag.slots[slotId] = googletag.defineSlot(googletag.adUnitName, [[123,204]], slotId)
+		.addService(googletag.pubads()); 
+	} 
+	});
+ });
+
+googletag.cmd.push( function() { 
+  jQuery(function() {
+    var slotId = "gpt-tag-sport-rx-ad";
+	if (jQuery('#' + slotId).size()) {
+ 		googletag.slots[slotId] = googletag.defineSlot(googletag.adUnitName, [[320,60]], slotId)
+		.addService(googletag.pubads()); 
+	} 
+	});
+ });
+
+googletag.cmd.push( function() { 
+  jQuery(function() {
+    var slotId = "gpt-tag-you-focus-riding";
+	if (jQuery('#' + slotId).size()) {
+ 		googletag.slots[slotId] = googletag.defineSlot(googletag.adUnitName, [[160,600]], slotId)
+		.addService(googletag.pubads()); 
+	} 
+	});
+ });
+
+googletag.cmd.push(function() {
+	googletag.pubads().enableAsyncRendering();
+	googletag.pubads().collapseEmptyDivs();
+	googletag.pubads().setTargeting("brand", "bicycling");
+	googletag.pubads().setTargeting("s1", "bicycling");
+	googletag.pubads().setTargeting("s2", "home");
+	googletag.pubads().setTargeting("s3", "");
+	googletag.pubads().setTargeting("s4", "");
+	googletag.pubads().setTargeting("s5", "");
+	googletag.pubads().setTargeting("dept", "Bicycling Magazine");
+	googletag.pubads().setTargeting("pid", "node");
+	googletag.pubads().setTargeting("ctype", "none");
+	googletag.pubads().setTargeting("referer", "");
+	googletag.pubads().setTargeting("pv", "333");
+	googletag.pubads().setTargeting("tags", []);
+	googletag.pubads().setTargeting("test", "off");
+	googletag.enableServices();
+});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var dataLayer={'brand_name':'BIC','page_title':'HomePage','channel':'HomePage','sub-channel':'HomePage','keywords':'HomePage','author':'None','date_published':'None','content_type':'none','slide':'none',};
+//--><!]]>
+</script>
+
+  	<!-- Begin comScore Tag -->
+	<script type="text/javascript">
+	  // <![CDATA[
+	  document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+	  // ]]>
+	</script>
+
+	<script type="text/javascript">
+	  // <![CDATA
+	  COMSCORE.beacon({
+	    c1:2,
+	    c2:6034733,
+	    c3:"",
+	    c4:"",
+	    c5:"",
+	    c6:"",
+	    c15:""
+	  });
+	  // ]]>
+  </script>
+	<noscript>
+	  <img src="http://b.scorecardresearch.com/b?c1=2&amp;c2=6034733&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cv=1.3&amp;cj=1" style="display:none" width="0" height="0" alt="" />
+	</noscript>
+	<!-- End comScore Tag -->
+
+
+<!-- Google Search Tags for Articles -->
+<meta name="bic_srch" content="1" />
+
+  
+  
+
+   <!--Interstitial / Pop-under Page View Targeting Code -->
+  <script type="text/javascript">
+	function Set_Cookie( name, value, expires, path, domain, secure )
+	{
+	  // set time, it's in milliseconds
+	  var today = new Date();
+	  today.setTime( today.getTime() );
+
+	  /*
+	  if the expires variable is set, make the correct
+	  expires time, the current script below will set
+	  it for x number of days, to make it for hours,
+	  delete * 24, for minutes, delete * 60 * 24
+	  */
+	  if ( expires )
+	  {
+		expires = expires * 1000 * 60 * 60 * 24;
+	  }
+	  var expires_date = new Date( today.getTime() + (expires) );
+
+	document.cookie = name + "=" +escape( value ) +
+	( ( expires ) ? ";expires=" + expires_date.toGMTString() : "" ) +
+	( ( path ) ? ";path=" + path : "" ) +
+	( ( domain ) ? ";domain=" + domain : "" ) +
+	( ( secure ) ? ";secure" : "" );
+	}
+
+
+	function Get_Cookie( check_name ) {
+	// first we'll split this cookie up into name/value pairs
+	// note: document.cookie only returns name=value, not the other components
+	var a_all_cookies = document.cookie.split( ';' );
+	var a_temp_cookie = '';
+	var cookie_name = '';
+	var cookie_value = '';
+	var b_cookie_found = false; // set boolean t/f default f
+
+	for ( i = 0; i < a_all_cookies.length; i++ )
+	{
+		// now we'll split apart each name=value pair
+		a_temp_cookie = a_all_cookies[i].split( '=' );
+
+
+		// and trim left/right whitespace while we're at it
+		cookie_name = a_temp_cookie[0].replace(/^\s+|\s+$/g, '');
+
+		// if the extracted name matches passed check_name
+		if ( cookie_name == check_name )
+		{
+			b_cookie_found = true;
+			// we need to handle case where cookie has no value but exists (no = sign, that is):
+			if ( a_temp_cookie.length > 1 )
+			{
+				cookie_value = unescape( a_temp_cookie[1].replace(/^\s+|\s+$/g, '') );
+			}
+			// note that in cases where cookie is initialized but no value, null is returned
+			return cookie_value;
+			break;
+		}
+		a_temp_cookie = null;
+		cookie_name = '';
+	}
+	if ( !b_cookie_found )
+	{
+		return null;
+	}
+	}
+
+	// remember, these are the possible parameters for Set_Cookie:
+	// name, value, expires, path, domain, secure
+    var page_no;
+	if ( Get_Cookie( 'dfp_load' )) {
+	  page_no = parseInt(Get_Cookie( 'dfp_load' )) + 1;
+	  Set_Cookie( 'dfp_load', page_no, '', '/', '', '' );
+	}
+	else {
+	   page_no = 0;
+	   Set_Cookie( 'dfp_load', page_no, '', '/', '', '' );
+	}
+	</script>
+   <!--Interstitial / Pop-under Page View Targeting Code -->
+
+  
+  <!-- CoreMetrics -->
+  <script type="text/javascript" src="http://libs.coremetrics.com/eluminate.js"></script>
+  <script type="text/javascript">
+	cmSetClientID("90106568",false,"www62.bicycling.com","bicycling.com");
+  </script>
+  <script type="text/javascript">
+    // <![CDATA[
+    $ = jQuery;
+    // ]]>
+  </script>
+
+   <meta name="google-site-verification" content="h0SRMm5Uzr-f_TAu9WQMShFObCxZL7ngB193PeTKPzk" />
+   <style>
+	.inbetween-shadow{
+	  display: block;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  background-color: #FFFFFF;
+	  z-index:9999999998;
+	}
+   </style>
+<!-- Adobe Tag Manager -->
+<script src="//assets.adobedtm.com/6f743006a41bd9090cd6c6b7dfa16b2cbed9c289/satelliteLib-077d760558b58fca43648306318f6c708d7709e4.js"></script>
+</head>
+
+<body class="front not-logged-in one-sidebar sidebar-left page-">
+<!-- Facebook loader -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript" lang="javascript">
+$(document).ready(function() {
+  $("a:contains('Free Downloads')").each(function(index) {
+    if ($(this).text() == "Free Downloads") {
+      $(this).click(function() {
+        alert("You need to log-in or create an account to access Bicycling's free downloads.");
+        return true;
+      });
+    }
+  });
+});
+</script>
+
+<div id="advertising_region_header">
+  <div id="block-block-36" class="block block-block region-odd odd region-count-1 count-99"><div class="block-inner">
+
+  
+  <div class="content">
+    <div style="max-width:1px;max-height:1px;overflow:hidden;"><div id="gpt-tag-bke-interstitial" class="gpt-wrapper"><script type="text/javascript">
+googletag.cmd.push(function() {
+jQuery(function() {
+var slotId = "gpt-tag-bke-interstitial";
+if ('undefined' !== typeof(googletag.slots[slotId])) { googletag.display(slotId); }
+});
+});
+</script></div><div id="gpt-tag-bke-bg-skin" class="gpt-wrapper"><script type="text/javascript">
+googletag.cmd.push(function() {
+jQuery(function() {
+var slotId = "gpt-tag-bke-bg-skin";
+if ('undefined' !== typeof(googletag.slots[slotId])) { googletag.display(slotId); }
+});
+});
+</script>
+<noscript>
+<a target="_blank" href="http://pubads.g.doubleclick.net/gampad/jump?iu=/3899/bicycling/home&sz=550x480&c=1411843759605&tile=&t=">
+<img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/3899/bicycling/home&sz=550x480&c=1411843759605&tile=&t=">
+</a>
+</noscript></div></div>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>
+
+<!--googleoff:index -->
+
+<div id="outerdiv">
+<script type="text/javascript">
+if($('#float-inbetween-ad').css('display')=='block') {
+     $('#outerdiv').css('display','none');
+}
+</script>
+<div id="headerwrapper">
+  <div id="headerdiv">
+  	<div id="headcol_left">
+      <div id="header_banner">
+        <div id="block-block-51" class="block block-block region-odd odd region-count-1 count-101"><div class="block-inner">
+
+  
+  <div class="content">
+    <div id="gpt-tag-728x90-ad" class="gpt-wrapper"><script type="text/javascript">
+googletag.cmd.push(function() {
+jQuery(function() {
+var slotId = "gpt-tag-728x90-ad";
+if ('undefined' !== typeof(googletag.slots[slotId])) { googletag.display(slotId); }
+});
+});
+</script>
+<noscript>
+<a target="_blank" href="http://pubads.g.doubleclick.net/gampad/jump?iu=/3899/bicycling/home&sz=728x90%7C970x66&c=1411843759428&tile=&t=atf%3Dtrue">
+<img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/3899/bicycling/home&sz=728x90%7C970x66&c=1411843759428&tile=&t=atf%3Dtrue">
+</a>
+</noscript></div>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+      </div> <!-- /header_slot_a -->
+
+         <div id="links_bar">
+		        <div class="miniNav-text-links miniNav">
+		          <div id="header_slot_b">
+		            <div id="block-block-61" class="block block-block region-odd even region-count-1 count-102"><div class="block-inner">
+
+  
+  <div class="content">
+    <!--a href="https://secure.rodale.com/webapp/wcs/stores/servlet/OaeEntryPage?storeId=10057&amp;mktOfferId=BKE61061&amp;keycode=I3GW0D13&amp;cm_mmc=Bicycling.com-_-Eyebrow-_-BKE%20Eyebrow%20Blue%201.09-_-OfferId_BKE61061_keycode_I3GW0D13">Subscribe</a--> <!--a href="https://customerservice.bicycling.com/servlet/OrdersGateway?cds_mag_code=BKE&amp;cds_page_id=163260&amp;cds_response_key=I49D0A03&amp;smartcode=DFP%ecid!X%eaid!">Subscribe</a--> <a href="https://secure.rodale.com/webapp/wcs/stores/servlet/OaeEntryPage?storeId=10057&mktOfferId=BKE65973&keycode=I4GW0D48&cm_mmc=Bicycling.com-_-Textlink-_-BKE%20Site%20$1.36%20Eyebrow%20-_-OfferId_BKE65973_keycode_I4GW0D48">Subscribe</a>
+  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+		          </div> <!-- /header_slot_b -->
+		          <div id="header_slot_c">
+		            <div id="block-views-aeb4e935d0e7dcb8c85b932bf0b38d5d" class="block block-views region-odd odd region-count-1 count-103"><div class="block-inner">
+
+  
+  <div class="content">
+    <div class="view view-give-a-gift-dart-ad-view view-id-give_a_gift_dart_ad_view view-display-id-block_1 view-dom-id-4">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-body">
+                <div class="field-content"><!--paging_filter--><a href="https://secure.rodale.com/webapp/wcs/stores/servlet/OaeEntryPage?storeId=10057&amp;mktOfferId=BKE58356&amp;keycode=G2MW0A2A&amp;cm_mmc=Bicycling.com-_-Eyebrow-_-BKE%20Eyebrow%20Std%20Gift-_-OfferId_BKE58356_keycode_G2MW0A2A">Give a Gift</a></div>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+		          </div> <!-- /header_slot_c -->
+		          <div id="customer_service_link">
+		            <a class="theText" href="/customer_service">Customer Service</a>
+		          </div>
+		        </div> <!-- miniNav-text-links -->
+
+	        	<div class="miniNav-follow-us miniNav">
+            	<div class="head_follow_label">
+                follow us:
+              </div>
+			                <div class="head_follow_facebook">
+              	<a target="_blank" href="http://www.facebook.com/bicyclingmag"><img src="/sites/all/themes/zen/bicycling/images/social_icon_facebook.png" alt="" height="16" width="16" border="0" /></a>
+              </div>
+              <div class="head_follow_twitter">
+              	<a target="_blank" href="http://twitter.com/bicyclingmag"><img src="/sites/all/themes/zen/bicycling/images/social_icon_twitter.png" alt="" height="16" width="16" border="0" /></a>
+              </div>
+              <div class="head_follow_rss">
+              	<a target="_blank" href="/feature/rss.xml"><img src="/sites/all/themes/zen/bicycling/images/social_icon_rss.png" alt="" height="16" width="16" border="0" /></a>
+              </div>
+			  
+			  <!--
+              <div class="head_follow_mobile">
+                <a target="_blank" href="http://mobile.bicycling.com"><img src="/sites/all/themes/zen/bicycling/images/social_icon_mobile.png" alt="" height="16" width="16" border="0" /> Mobile</a>
+              </div>
+			  -->
+              <div class="head_follow_newsletter">
+                <a target="_blank" href="/newsletter/main"><img src="/sites/all/themes/zen/bicycling/images/social_icon_newsletter.png" alt="" height="16" width="16" border="0" /> Newsletter</a>
+              </div>
+	          </div> <!-- miniNav-follow-us -->
+		      </div> <!-- links_bar -->
+
+		      <div id="logoandother">
+		      	<div id="logodiv">
+				<a href="/"><img src="http://www.bicycling.com/sites/default/files/bicycling_logo.gif" alt="" align="left" /></a>		        </div>
+
+		        <div id="login_search">
+		          <div id="sign_in_box">
+
+<div id="block-cas-0" class="block block-cas region-odd even region-count-1 count-98"><div class="block-inner">
+
+  
+  <div class="content">
+    <div id="cas-block-0">
+  <span class="wrapper-link-cas wrapper-login-cas" id="cas-login-span">
+  </span>
+  <span class="wrapper-link-cas wrapper-register-cas" id="cas-register-span">
+    |
+  </span>
+  <span class="wrapper-link-cas wrapper-welcome-cas"></span>
+  <span class="wrapper-link-cas wrapper-logout-cas"></span>
+</div>
+<script>
+  var cas_callback = encodeURIComponent(window.location.href);
+  var cas_p = document.getElementById("cas-login-span");
+  var cas_a = document.createElement("a");
+  cas_a.setAttribute("href", "/cas?login=1&callback=" + cas_callback + "&returnUrl=" + cas_callback);
+  cas_a.setAttribute("class", "link-cas-login");
+  cas_a.appendChild(document.createTextNode(" Login"));
+  cas_p.appendChild(cas_a);
+  cas_p = document.getElementById("cas-register-span");
+  cas_a = document.createElement("a");
+  cas_a.setAttribute("href", "https://member.rodale.com/membercenter/mvc/createUser?site=bicycling&returnUrl=" + cas_callback);
+  cas_a.setAttribute("class", "link-cas-register");
+  cas_a.appendChild(document.createTextNode(" Become a Member for Free"));
+  cas_p.appendChild(cas_a);
+</script>
+  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+
+		          </div>
+		          <div id="search_box">
+		            <div id="block-views-bke_site_search_view-block_1" class="block block-views region-odd even region-count-1 count-104"><div class="block-inner">
+
+  
+  <div class="content">
+    <div class="view view-bke-site-search-view view-id-bke_site_search_view view-display-id-block_1 view-dom-id-5">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-body">
+          <label class="views-label-body">
+        Body:
+      </label>
+                <div class="field-content"><!--paging_filter--><div class="content">
+<form id="search-block-form" method="post" accept-charset="UTF-8" action="http://search.bicycling.com/vignette/bic/search.jsp">
+    <div>
+    <div class="container-inline">
+    <div id="edit-search-block-form-1-wrapper" class="form-item"><input type="text" onblur="if (this.value == &#039;&#039;) {this.value = &#039;Enter a keyword or phrase&#039;;}" onfocus="if (this.value == &#039;Enter a keyword or phrase&#039;) {this.value = &#039;&#039;;}" class="form-text NormalTextBox txtSearch" value="Enter a keyword or phrase" size="25" id="edit-search-block-form-1" name="q" maxlength="128" /></div>
+    <input type="image" src="/sites/all/themes/zen/bicycling/images/search.gif" class="form-submit" id="edit-submit" value="Search" name="op" />  <input type="hidden" value="form-d0418ff7c10490c7e357513c2a83c13a" id="form-d0418ff7c10490c7e357513c2a83c13a" name="form_build_id" />  <input type="hidden" value="search_block_form" id="edit-search-block-form" name="form_id" /></div>
+    </div>
+</form>
+</div></div>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+		          </div>
+		        </div> <!-- /login_search -->
+
+		        <div id="secondary_nav">
+		          <div id="block-menu-menu-global-secondary-menu" class="block block-menu region-odd odd region-count-1 count-105"><div class="block-inner">
+
+      <h2 class="title"> </h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="expanded first"><a href="/beginners" title="Beginners">Beginners</a><ul class="menu"><li class="leaf first"><a href="/beginners" title="">Home</a></li>
+<li class="leaf"><a href="/beginners/bike-skills" title="Bike Skills">Bike Skills</a></li>
+<li class="leaf"><a href="/beginners/bike-fit" title="Bike Fit">Bike Fit</a></li>
+<li class="leaf"><a href="/beginners/motivation" title="Motivation">Motivation</a></li>
+<li class="leaf"><a href="/beginners/safety-etiquette" title="Safety &amp; Etiquette">Safety &amp; Etiquette</a></li>
+<li class="leaf"><a href="/beginners/maintenance" title="Maintenance">Maintenance</a></li>
+<li class="leaf"><a href="/beginners/commuting" title="Commuting">Commuting</a></li>
+<li class="leaf last"><a href="/beginners/bikes-gear" title="Bikes &amp; Gear">Bikes &amp; Gear</a></li>
+</ul></li>
+<li class="leaf"><a href="http://forums.bicycling.com/" title="">Forums</a></li>
+<li class="leaf"><a href="http://www.bicycling.com/bicycling-downloads" title="">Free Downloads</a></li>
+<li class="leaf"><a href="/eventfinder" title="">Event Search</a></li>
+<li class="leaf"><a href="/tools" title="">Tools</a></li>
+<li class="expanded"><a href="/garmin-insider" title="Garmin Insider">Garmin Insider</a><ul class="menu"><li class="leaf first"><a href="/garmin-insider/featured-stories" title="Featured Stories">Featured Stories</a></li>
+<li class="leaf"><a href="/garmin-insider/slideshows" title="Slideshows">Slideshows</a></li>
+<li class="leaf last"><a href="/garmin-insider/video" title="Video">Video</a></li>
+</ul></li>
+<li class="leaf"><a href="/biketown" title="BikeTown">BikeTown</a></li>
+<li class="expanded"><a href="/mountainbikecom" title="MountainBike.com">MountainBike.com</a><ul class="menu"><li class="leaf first"><a href="/mountainbikecom" title="">Home</a></li>
+<li class="leaf"><a href="/mountainbikecom/featured-stories" title="Featured Stories">Featured Stories</a></li>
+<li class="leaf"><a href="http://forums.bicycling.com/eve/forums/a/cfrm/f/1291094335" title="Community">Community</a></li>
+<li class="leaf"><a href="/mountainbikecom/skills" title="Skills">Skills</a></li>
+<li class="leaf last"><a href="/mountainbikecom/bikes-gear" title="Bikes &amp; Gear">Bikes &amp; Gear</a></li>
+</ul></li>
+<li class="leaf last"><a href="/tour-de-france" title="">Tour de France</a></li>
+</ul>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+		        </div>
+
+		      </div>
+		    </div>
+
+		    <div id="headcol_right">
+          <div id="block-block-66" class="block block-block region-odd even region-count-1 count-106"><div class="block-inner">
+
+  
+  <div class="content">
+    <div id="gpt-tag-subscription-ad" class="gpt-wrapper"><script type="text/javascript">
+googletag.cmd.push(function() {
+jQuery(function() {
+var slotId = "gpt-tag-subscription-ad";
+if ('undefined' !== typeof(googletag.slots[slotId])) { googletag.display(slotId); }
+});
+});
+</script>
+<noscript>
+<a target="_blank" href="http://pubads.g.doubleclick.net/gampad/jump?iu=/3899/bicycling/home&sz=123x204&c=1411843759952&tile=&t=">
+<img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/3899/bicycling/home&sz=123x204&c=1411843759952&tile=&t=">
+</a>
+</noscript></div>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+    
+		    </div> <!-- /headcol_right -->
+
+		    <div id="mainnavigation">
+				  <div id="block-nice_menus-1" class="block block-nice_menus region-odd odd region-count-1 count-107"><div class="block-inner">
+
+      <h2 class="title"> </h2>
+  
+  <div class="content">
+    <ul class="nice-menu nice-menu-down" id="nice-menu-1"><li class="menu-217 menuparent menu-path-taxonomy-term-1 first  odd "><a href="/news" title="News">News</a><ul><li class="menu-570 menu-path-taxonomy-term-12 first  odd "><a href="/news/featured-stories" title="Featured Stories">Featured Stories</a></li>
+<li class="menu-569 menu-path-taxonomy-term-11 even "><a href="/news/advocacy" title="Advocacy">Advocacy</a></li>
+<li class="menu-572 menu-path-taxonomy-term-14 odd "><a href="/news/tour-california" title="Tour of California">Tour of California</a></li>
+<li class="menu-4987 menu-path-node-118796 even "><a href="/tour-de-france" title="Tour de France">Tour de France</a></li>
+<li class="menu-10066 menu-path-tour-de-france-archives odd "><a href="/tour-de-france/archives" title="Archives of past Tour de France news">Tour de France Archives</a></li>
+<li class="menu-9956 menu-path-taxonomy-term-1018 even "><a href="/cyclocross" title="">Cyclocross</a></li>
+<li class="menu-10003 menu-path-taxonomy-term-1148 odd "><a href="/garmin-insider" title="Garmin Insider">Garmin Insider</a></li>
+<li class="menu-225 menu-path-taxonomy-term-5 even "><a href="/news/pro-cycling" title="Pro Cycling">Pro Cycling</a></li>
+<li class="menu-9586 menu-path-taxonomy-term-980 odd  last "><a href="/news/usa-pro-cycling-challenge" title="USA Pro Cycling Challenge">USA Pro Cycling Challenge</a></li>
+</ul>
+</li>
+<li class="menu-219 menuparent menu-path-taxonomy-term-3 even "><a href="/bikes-gear" title="Bikes &amp; Gear">Bikes &amp; Gear</a><ul><li class="menu-7508 menu-path-taxonomy-term-599 first  odd "><a href="/bikes-gear/new-bike-gear-previews" title="New Bike and Gear Previews">New Bike and Gear Previews</a></li>
+<li class="menu-587 menu-path-taxonomy-term-27 even "><a href="/bikes-gear/bikes-and-gear-features" title="Bikes and Gear Features">Bikes and Gear Features</a></li>
+<li class="menu-592 menu-path-node-45947 odd "><a href="/gearfinder" title="">Review Finder </a></li>
+<li class="menu-593 menu-path-store_finder even "><a href="/store_finder" title="">Bike Store Finder</a></li>
+<li class="menu-594 menu-path-bicyclingcom-gearfinderproductlistgfpagetypecategorygfid823 odd "><a href="http://www.bicycling.com/gearfinderproductlist?gfpagetype=category&amp;gfid=823" title="">Bike Reviews</a></li>
+<li class="menu-596 menu-path-bicyclingcom-gearfinderproductlistgfpagetypecategorygfid822 even "><a href="http://www.bicycling.com/gearfinderproductlist?gfpagetype=category&amp;gfid=822" title="">Apparel Reviews</a></li>
+<li class="menu-597 menu-path-bicyclingcom-gearfinderproductlistgfpagetypecategorygfid824 odd  last "><a href="http://www.bicycling.com/gearfinderproductlist?gfpagetype=category&amp;gfid=824" title="">Component Reviews</a></li>
+</ul>
+</li>
+<li class="menu-218 menuparent menu-path-taxonomy-term-2 odd "><a href="/training-nutrition" title="Training &amp; Nutrition">Training &amp; Nutrition</a><ul><li class="menu-583 menu-path-taxonomy-term-23 first  odd "><a href="/training-nutrition/training-fitness" title="Training &amp; Fitness">Training &amp; Fitness</a></li>
+<li class="menu-10045 menu-path-taxonomy-term-1154 even "><a href="/training-nutrition/training-fitness/training-plans" title="Premium training plan for cyclists of all levels, from Bicycling magazine.">Training Plans</a></li>
+<li class="menu-585 menu-path-taxonomy-term-25 odd "><a href="/training-nutrition/nutrition-weight-loss" title="Nutrition &amp; Weight Loss">Nutrition &amp; Weight Loss</a></li>
+<li class="menu-17342 menu-path-rodale-conqueryourmountaincom-category-fitness- even "><a href="http://rodale-conqueryourmountain.com/category/fitness/" title="">Conquer Your Mountain</a></li>
+<li class="menu-586 menu-path-taxonomy-term-26 odd  last "><a href="/training-nutrition/injury-prevention" title="Injury Prevention">Injury Prevention</a></li>
+</ul>
+</li>
+<li class="menu-220 menuparent menu-path-taxonomy-term-4 even "><a href="/maintenance" title="Maintenance">Repair</a><ul><li class="menu-589 menu-path-taxonomy-term-29 first  odd "><a href="/maintenance/repair-maintenance" title="Repair &amp; Maintenance">Repair &amp; Maintenance</a></li>
+<li class="menu-588 menu-path-taxonomy-term-28 even "><a href="/maintenance/bike-fit" title="Bike Fit">Bike Fit</a></li>
+<li class="menu-591 menu-path-bicyclingcom-gear-channel-1,7992,s1-21-0-0-0,00html odd "><a href="http://www.bicycling.com/gear/channel/1,7992,s1-21-0-0-0,00.html" title="">Tool Reviews </a></li>
+<li class="menu-1366 menu-path-taxonomy-term-55 even  last "><a href="/maintenance/featured-stories" title="Featured Stories">Featured Stories</a></li>
+</ul>
+</li>
+<li class="menu-5108 menuparent menu-path-taxonomy-term-568 odd "><a href="/ride-maps" title="Ride Maps">Ride Maps</a><ul><li class="menu-5110 menu-path-taxonomy-term-569 first  odd "><a href="/ride-maps/featured-rides" title="Featured Rides">Featured Rides</a></li>
+<li class="menu-34896 menu-path-node-100116 even  last "><a href="/ride-maps/city-guide/city-guide" title="">City Guide</a></li>
+</ul>
+</li>
+<li class="menu-221 menu-path-bicyclingcom-video even "><a href="http://www.bicycling.com/video" title="">Video</a></li>
+<li class="menu-222 menu-path-blogsbicyclingcom odd  last "><a href="http://blogs.bicycling.com" title="">Blogs</a></li>
+</ul>
+  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+<div id="block-block-5" class="block block-block region-even even region-count-2 count-108"><div class="block-inner">
+
+  
+  <div class="content">
+    <!--paging_filter--><ul id="navlogo_bar">
+    <li>
+    <div id="mh_header_subnav_subscribe"><a href="https://secure.rodale.com/webapp/wcs/stores/servlet/OaeEntryPage?storeId=10057&mktOfferId=BKE65973&keycode=I4GW0D44&cm_mmc=Bicycling.com-_-Top%20Nav-_-BKE%20Site%20$1.36%20Top%20Nav%20-_-OfferId_BKE65973_keycode_I4GW0D44" id="navlogo">Subscribe </a></div>
+    <div class="clear-block" id="site-subnav-flyouts-front">
+    <div class="browse_subscribe mh_flyout_menu mh_flyout_menu_ok" id="mh_header_flyout_subscribe"><a href="https://secure.rodale.com/webapp/wcs/stores/servlet/OaeEntryPage?storeId=10057&mktOfferId=BKE65973&keycode=I4GW0D44&cm_mmc=Bicycling.com-_-Top%20Nav-_-BKE%20Site%20$1.36%20Top%20Nav%20-_-OfferId_BKE65973_keycode_I4GW0D44" style="width: 300px; height: 294px">
+    <div style="position: relative; width: 300px; background: url('http://images.rodale.com/acc/bic_subscription/2024413_BKE_Dropdown.jpg'); height: 294px">&nbsp;</div>
+    </a></div>
+    </div>
+    </li>
+</ul>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+<div id="block-block-6" class="block block-block region-odd odd region-count-3 count-109"><div class="block-inner">
+
+  
+  <div class="content">
+    <style type="text/css">
+#nice-menu-menuRide li.menuride a.blueHover {
+background: #0DB5FE url("http://images.rodale.com/acc/bic/2027167_bk_95x45.gif") no-repeat center center; width: 75px; display: block; height: 39px;
+}
+#nice-menu-menuRide ul.rideyourway #rideyourway-0 {
+background: #fff200 url("http://images.rodale.com/acc/bic/2027167_bk_265x230.gif") no-repeat center center;
+}
+</style>
+<ul class="nice-menu nice-menu-down" id="nice-menu-menuRide">
+    <li class="menuparent menuride"><a class="blueHover" target="_blank" href="http://www.bicyclingcalendar.com?cid=web-_-bke.com-_-flynav-_-bcal2015&amp;keycode=250389">&nbsp;<br />
+    &nbsp;</a>
+    <ul class="rideyourway">
+        <li id="rideyourway-0"><a target="_blank" href="http://www.bicyclingcalendar.com?cid=web-_-bke.com-_-flydynamic-_-bcal2015&amp;keycode=250390">&nbsp;<br />
+        &nbsp;</a></li>
+    </ul>
+    </li>
+</ul>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+
+		    </div> <!-- /mainnavigation -->
+
+		    <div class="clear-min"></div>
+
+		  </div> <!-- /headerdiv -->
+		</div> <!-- /headerwrapper -->
+<div id="contentwrapper">
+  <div id="contentarea">
+
+          <h1 class="page_title"></h1>
+    
+    
+          <script type="text/javascript">
+// <![CDATA[
+cmCreatePageviewTag("HOMEPAGE", "HOME");
+// ]]>
+</script>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/zen/bicycling/stylesheets/homepage_slider.css" />
+<script type="text/javascript" src="/sites/all/themes/zen/bicycling/js/jcarousellite_1.0.1.js"></script>
+<script type="text/javascript" src="/sites/all/themes/zen/bicycling/js/slider.js"></script>
+  <!-- TOP THREE COLUMNS -->
+  <div id="topthreecol" class="homepageSlider">
+    <div id="homepage_top_col1" class="top_three">
+  	  <div id="home_slot_a"><div id="block-views-homepage_article_slider-block_1" class="block block-views region-odd even region-count-11 count-110"><div class="block-inner">
+
+  
+  <div class="content">
+    <div class="view view-homepage-article-slider view-id-homepage_article_slider view-display-id-block_1 view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+      
+<!-- START FEATURE SLIDER -->
+<div class="top_three" id="homepage_top_col1">
+  <div class="carousel externalControl">
+    <div class="sliderTopImgHolder">
+      <div class="jCarouselLite" style="visibility: visible; overflow: hidden; position: relative; z-index: 2; left: 0px; width: 498px;">
+        <ul>
+
+
+<li style="background:url(sites/default/files/images/rain-jerseys.slidermain.jpg) no-repeat">
+  <a href="/bikes-gear/bikes-and-gear-features/make-splash" class="imgLink"></a> <!-- Link for image -->
+  <p>
+  <span>
+    <a href="/bikes-gear/bikes-and-gear-features/make-splash" class="articleTitle">
+      Our Favorite Rain Jerseys    </a>
+  </span>
+  <!--paging_filter-->These tops will keep your next stormy ride from being all wet  		<br />
+		<a href="http://www.bicycling.com/beginners/bike-skills/how-ride-rain">
+			How to Ride in the Rain		</a>
+    		<span class="dividingBar">|</span>
+		<a href="http://www.bicycling.com/training-nutrition/nutrition-weight-loss/hero-worship-great-sandwiches-hungry-cyclists">
+			Great Sandwiches for Hungry Cyclists		</a>
+    </p>
+</li>
+                        
+
+<li style="background:url(sites/default/files/images/stay-safe-at-night_0.slidermain.jpg) no-repeat">
+  <a href="http://www.bicycling.com/beginners/safety-etiquette/light-night" class="imgLink"></a> <!-- Link for image -->
+  <p>
+  <span>
+    <a href="http://www.bicycling.com/beginners/safety-etiquette/light-night" class="articleTitle">
+      Light up the Night    </a>
+  </span>
+  <!--paging_filter-->Your guide to riding safely when the sun goes down  		<br />
+		<a href="http://www.bicycling.com/bikes-gear/bikes-and-gear-features/everything-illuminated-hi-vis-cycling-gear">
+			Hi-Vis Cycling Gear		</a>
+    		<span class="dividingBar">|</span>
+		<a href="http://www.bicycling.com/bikes-gear/bikes-and-gear-features/best-bike-headlights-any-ride">
+			Best Bike Headlights		</a>
+    </p>
+</li>
+                        
+
+<li style="background:url(sites/default/files/images/ride-hard-recover-harder.slidermain.jpg) no-repeat">
+  <a href="/training-nutrition/training-fitness/ride-hard-recover-harder" class="imgLink"></a> <!-- Link for image -->
+  <p>
+  <span>
+    <a href="/training-nutrition/training-fitness/ride-hard-recover-harder" class="articleTitle">
+      Ride Hard, Recover Harder    </a>
+  </span>
+  <!--paging_filter-->Here’s how to not go all-out just right  		<br />
+		<a href="http://www.bicycling.com/training-nutrition/injury-prevention/roll-out-kinks">
+			Roll Out the Kinks		</a>
+    		<span class="dividingBar">|</span>
+		<a href="http://www.bicycling.com/mountainbikecom/skills/ride-and-recover">
+			Ride and Recover 		</a>
+    </p>
+</li>
+                        
+
+<li style="background:url(sites/default/files/images/the-devil-mtb-nationals-2014_0.slidermain.jpg) no-repeat">
+  <a href="/cyclocross/featured-stories/heckle-or-not-heckle" class="imgLink"></a> <!-- Link for image -->
+  <p>
+  <span>
+    <a href="/cyclocross/featured-stories/heckle-or-not-heckle" class="articleTitle">
+      To Heckle or Not to Heckle?    </a>
+  </span>
+  <!--paging_filter-->Two pros share their (very different) takes on acceptable fan behavior  		<br />
+		<a href="http://www.bicycling.com/cyclocross/featured-stories/spectate-style-your-next-cross-race">
+			Spectate in Style		</a>
+    		<span class="dividingBar">|</span>
+		<a href="http://www.bicycling.com/cyclocross/bikesnobnycs-guide-cyclocross">
+			BikeSnobNYC’s Guide to ’Cross		</a>
+    </p>
+</li>
+                        
+
+<li style="background:url(sites/default/files/images/fall-foliage-routes_0.slidermain.jpg) no-repeat">
+  <a href="http://www.bicycling.com/ride-maps/featured-rides/fall-foliage-bike-routes" class="imgLink"></a> <!-- Link for image -->
+  <p>
+  <span>
+    <a href="http://www.bicycling.com/ride-maps/featured-rides/fall-foliage-bike-routes" class="articleTitle">
+      Fall Foliage Ride Guide    </a>
+  </span>
+  <!--paging_filter-->Get out and enjoy the autumn colors with 16 of our favorite routes  		<br />
+		<a href="http://www.bicycling.com/ride-maps/featured-rides/spooktacular-11-great-autumn-and-halloween-bike-rides">
+			Best Autumn Bike Rides		</a>
+    		<span class="dividingBar">|</span>
+		<a href="http://www.bicycling.com/news/featured-stories/why-i-race-cyclocross">
+			Why I Race Cyclocross		</a>
+    </p>
+</li>
+                        
+
+        </ul>
+      </div> <!-- /jCarouselLite -->
+    </div> <!-- /sliderTopImgHolder -->
+
+    <ul class="sliderNav">
+<li class="2 on">
+  <a href="/bikes-gear/bikes-and-gear-features/make-splash">
+    <span>Rain Jerseys</span>
+    <span class="shadow"></span>
+    <img height="72" width="98" src="/sites/default/files/images/rain-jerseys.sliderthumb.jpg" alt="Rain Jerseys" />
+  </a>
+</li>
+
+<li class="3">
+  <a href="http://www.bicycling.com/beginners/safety-etiquette/light-night">
+    <span>Night Riding</span>
+    <span class="shadow"></span>
+    <img height="72" width="98" src="/sites/default/files/images/stay-safe-at-night_0.sliderthumb.jpg" alt="Night Riding" />
+  </a>
+</li>
+
+<li class="4">
+  <a href="/training-nutrition/training-fitness/ride-hard-recover-harder">
+    <span>Training</span>
+    <span class="shadow"></span>
+    <img height="72" width="98" src="/sites/default/files/images/ride-hard-recover-harder.sliderthumb.jpg" alt="Training" />
+  </a>
+</li>
+
+<li class="5">
+  <a href="/cyclocross/featured-stories/heckle-or-not-heckle">
+    <span>Heckling</span>
+    <span class="shadow"></span>
+    <img height="72" width="98" src="/sites/default/files/images/the-devil-mtb-nationals-2014_0.sliderthumb.jpg" alt="Heckling" />
+  </a>
+</li>
+
+<li class="6 last">
+  <a href="http://www.bicycling.com/ride-maps/featured-rides/fall-foliage-bike-routes">
+    <span>Foliage Rides</span>
+    <span class="shadow"></span>
+    <img height="72" width="98" src="/sites/default/files/images/fall-foliage-routes_0.sliderthumb.jpg" alt="Foliage Rides" />
+  </a>
+</li>
+
+
+    </ul> <!-- /sliderNav -->
+    <div class="clear"></div>   
+  </div> <!-- /carousel -->
+</div> <!-- /#homepage_top_col1 -->
+<!-- END FEATURE SLIDER-->
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>    </div>
+
+    <div id="homepage_top_col2" class="top_three">
+      <div id="home_slot_b"><div id="block-views-homepage_latest_stories-block_1" class="block block-views region-odd odd region-count-11 count-111"><div class="block-inner">
+
+  
+  <div class="content">
+    <div class="view view-homepage-latest-stories view-id-homepage_latest_stories view-display-id-block_1 view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+      <div class="homepage-listing-latest">
+  <h4>Latest stories</h4>
+  <ul>
+
+    <li><a href="/news/pro-cycling/pauline-ferrand-prevot-wins-womens-road-race">Pauline Ferrand-Prevot Wins World Championship Road Race</a></li>
+
+    <li><a href="http://blogs.bicycling.com/blogs/thehub/is-cycling-hurting-your-teeth">Is Cycling Hurting Your Teeth?</a></li>
+
+    <li><a href="/maintenance/repair-maintenance/5-things-i-fix-every-day-my-life">5 Things I Fix Every Day Of My Life</a></li>
+
+    <li><a href="/news/pro-cycling/five-questions-world-team-time-trial-champion-evelyn-stevens">Interview: World Team Time Trial Champion Evelyn Stevens</a></li>
+
+    <li><a href="/bikes-gear/bikes-and-gear-features/british-invasion-english-inspired-cycling-gear">British Invasion: English-Inspired Cycling Gear</a></li>
+
+    <li><a href="/training-nutrition/nutrition-weight-loss/10-diet-tips-faster-tomorrow">10 Diet Tips for a Faster Tomorrow</a></li>
+
+    <li><a href="/bikes-gear/bikes-and-gear-features/shoot-thrill-5-great-video-cameras-cyclists">Best Video Cameras for Cyclists</a></li>
+
+    <li class="last"><a href="/ride-maps/featured-rides/hightail-it-trail">Best Guided Mountain Bike Trips</a></li>
+  </ul>
+</div> <!-- /homepage-listing-latest -->
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>	</div>
+
+    <div id="homepage_top_col3" class="top_three">
+
+      <div id="home_slot_d"><div id="block-views-hp_gear_of_day_promo-block_1" class="block block-views region-odd even region-count-11 count-112"><div class="block-inner">
+
+  
+  <div class="content">
+    <div class="view view-hp-gear-of-day-promo view-id-hp_gear_of_day_promo view-display-id-block_1 view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+      <div id="gearDiv">
+        	<a href="http://www.bicycling.com/accessories/bags/roundtrip-pro"><img src="sites/default/files/thule-round-trip-case_0.jpg" width="200" border="0" height="200" /></a>
+            <div class="gearDesc">
+            	<a href="http://www.bicycling.com/accessories/bags/roundtrip-pro"><h4>Gear of the Day</h4>
+                <span class="gearTag">Thule RoundTrip Pro</span>
+                <span>A soft-shell case that&#039;s more convenient than covert</span></a>
+            </div>
+        </div>    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>
+      <div id="home_slot_e"><div id="block-block-56" class="block block-block region-odd odd region-count-1 count-113"><div class="block-inner">
+
+  
+  <div class="content">
+    <SCRIPT LANGUAGE="JavaScript">
+function checkEmail(myForm) {
+if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.email.value)){
+return (true)
+}
+alert("Invalid E-mail Address! Please re-enter.")
+return (false)
+}
+</script>
+<div style="width: 210px;">
+<table width="210" cellspacing="0" cellpadding="8" border="0" bgcolor="#ffc20f" class="newsletter-dart-ad-table" style="text-align: left;">
+    <tbody>
+        <tr>
+            <td>
+            <form id="FormName" action="/nlsignup" method="post" name="FormName" onSubmit="return checkEmail(this)">
+                <span class="capsBlack16">Bicycling Newsletter<br />
+                </span><span class="boldGrey12">Get the <em>Bicycling</em> email newsletter FREE. Receive tips &amp; timely articles about the latest in bikes &amp; gear, training, nutrition &amp; more.<br />
+                </span><input type="text" class="input" name="email" /><span class="input_button"><input type="submit" value="Sign Up" class="form-submit" />
+                <p><span class="boldBlue10" style="float: left;">You may unsubscribe at any time.<br />
+                Your&nbsp;<a href="http://www.rodaleinc.com/your-privacy-rights" target="_new">Privacy Rights</a>&nbsp;<a href="http://www.rodaleinc.com/content/about-us" target="_new">About Us</a></span></p>
+                <!--p><span class="input_button"><input type="submit" value="Sign Up" class="form-submit" /></span></p-->                          </span>
+            </form>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>
+  	</div> <!-- homepage_top_col3 -->
+  </div> <!-- topthreecol -->
+
+  <!-- BOTTOM THREE COLUMNS -->
+  <div id="bottomthreecol">
+  	<div id="homepage_bottom_col1" class="bottom_three">
+
+      <div id="home_slot_f"><div id="block-views-blogs_promo_view-block_1" class="block block-views region-odd even region-count-1 count-114"><div class="block-inner">
+
+  
+  <div class="content">
+    <div class="view view-blogs-promo-view view-id-blogs_promo_view view-display-id-block_1 view-dom-id-5">
+        <div class="view-header">
+      <!--paging_filter--><span class="capsGrey16">Latest News & Blogs</span> <span class="linkSmallOrange"><a href="bloglisting">See All Blogs</a></span>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field-field-cs-content-title-url">
+                <span class="field-content"><a href="http://blogs.bicycling.com/blogs/everydayrider/">Everyday Rider</a></span>
+  </div>
+  
+  <div class="views-field-field-blog-category-separator-value">
+                <span class="field-content">|</span>
+  </div>
+  
+  <div class="views-field-field-blog-main-title-url">
+                <span class="field-content"><a href="http://blogs.bicycling.com/blogs/everydayrider/in-praise-of-slow-bikes">In Praise of Slow Bikes</a></span>
+  </div>
+  
+  <div class="views-field-field-blog-date-value">
+                <span class="field-content">09.26.14</span>
+  </div>
+  
+  <div class="views-field-field-blog-teaser-value">
+                <span class="field-content">Four reasons to get out of the fast lane</span>
+  </div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field-field-cs-content-title-url">
+                <span class="field-content"><a href="http://blogs.bicycling.com/blogs/thehub">The Hub</a></span>
+  </div>
+  
+  <div class="views-field-field-blog-category-separator-value">
+                <span class="field-content">|</span>
+  </div>
+  
+  <div class="views-field-field-blog-main-title-url">
+                <span class="field-content"><a href="http://blogs.bicycling.com/blogs/thehub/the-world-s-loudest-bike-horn">The World&#039;s Loudest Bike Horn</a></span>
+  </div>
+  
+  <div class="views-field-field-blog-date-value">
+                <span class="field-content">09.26.14</span>
+  </div>
+  
+  <div class="views-field-field-blog-teaser-value">
+                <span class="field-content">Bulky but effective model sets Guinness World Record</span>
+  </div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field-field-cs-content-title-url">
+                <span class="field-content"><a href="http://blogs.bicycling.com/blogs/boulderreport/">Boulder Report</a></span>
+  </div>
+  
+  <div class="views-field-field-blog-category-separator-value">
+                <span class="field-content">|</span>
+  </div>
+  
+  <div class="views-field-field-blog-main-title-url">
+                <span class="field-content"><a href="http://blogs.bicycling.com/blogs/boulderreport/wiggins-chasing-legacy">Wiggins Chasing Legacy</a></span>
+  </div>
+  
+  <div class="views-field-field-blog-date-value">
+                <span class="field-content">09.26.14</span>
+  </div>
+  
+  <div class="views-field-field-blog-teaser-value">
+                <span class="field-content">With World TT title in hand, Wiggins looks to become the most well-rounded male cyclist since Eddy Merckx</span>
+  </div>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field-field-cs-content-title-url">
+                <span class="field-content"><a href="http://blogs.bicycling.com/blogs/thehub/">The Hub</a></span>
+  </div>
+  
+  <div class="views-field-field-blog-category-separator-value">
+                <span class="field-content">|</span>
+  </div>
+  
+  <div class="views-field-field-blog-main-title-url">
+                <span class="field-content"><a href="http://blogs.bicycling.com/blogs/thehub/toronto-cyclists-ticket-shame-cars-parked-in-bike-lanes">Toronto Cyclists &quot;Ticket-Shame&quot; Cars Parked in Bike Lanes</a></span>
+  </div>
+  
+  <div class="views-field-field-blog-date-value">
+                <span class="field-content">09.25.14</span>
+  </div>
+  
+  <div class="views-field-field-blog-teaser-value">
+                <span class="field-content">Anonymous cyclists risk charges to deter illegal parking</span>
+  </div>
+  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field-field-cs-content-title-url">
+                <span class="field-content"><a href="http://blogs.bicycling.com/blogs/thehub/">The Hub</a></span>
+  </div>
+  
+  <div class="views-field-field-blog-category-separator-value">
+                <span class="field-content">|</span>
+  </div>
+  
+  <div class="views-field-field-blog-main-title-url">
+                <span class="field-content"><a href="http://blogs.bicycling.com/blogs/thehub/will-ride-for-ice-cream">Will Ride for Ice Cream</a></span>
+  </div>
+  
+  <div class="views-field-field-blog-date-value">
+                <span class="field-content">09.25.14</span>
+  </div>
+  
+  <div class="views-field-field-blog-teaser-value">
+                <span class="field-content">A national program gives you discounts for shopping by bike</span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <!--paging_filter--><BR /><BR /><BR />    </div>
+  
+  
+</div>   </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>
+      
+      <div id="home_slot_l"><div id="block-views-contests_promo-block_1" class="block block-views region-odd even region-count-1 count-118"><div class="block-inner">
+
+      <h2 class="title">Contests &amp; Sweepstakes</h2>
+  
+  <div class="content">
+    <div class="view view-contests-promo view-id-contests_promo view-display-id-block_1 view-dom-id-8">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-field-cs-thumb-image-fid">
+                <span class="field-content"></span>
+  </div>
+  
+  <div class="views-field-field-cs-content-title-url">
+                <span class="field-content"><a href="http://www.bicycling.com/roll-fall-louis-garneau-sweepstakes" 0="a:0:{}">Win With Garneau</a></span>
+  </div>
+  
+  <div class="views-field-field-cs-description-value">
+                <div class="field-content"><!--paging_filter--><a target="_blank" href="http://www.bicycling.com/roll-fall-louis-garneu-sweepstakes"><img hspace="7" border="0" align="left" alt="Bicycling Magazine in With Louis Garneau Sweepstakes" src="http://images.rodale.com/acc/bic/garneau-contest.jpg" /></a><b><a href="http://www.bicycling.com/roll-fall-louis-garneu-sweepstakes">Win With Louis Garneau!</a></b><br />
+Enter now for a chance to win a free head-to-toe kit, including your choices of a jersey, bibs, a base layer, gloves, socks, shoes, and a helmet. We will select one male and one female winner randomly and announce the winner via email. Don&rsquo;t miss your chance to win, register today!<br />
+<br /></div>
+  </div>
+  
+  <div class="views-field-field-html-content-value">
+                <div class="field-content"></div>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>
+      
+      <div id="home_slot_s"><div id="block-block-4" class="block block-block region-odd odd region-count-1 count-121"><div class="block-inner">
+
+  
+  <div class="content">
+    <a href="http://twitter.com/bicyclingmag"><img width="273" height="36" src="http://www.bicycling.com/sites/default/files/fck_content/twitterhead.gif" alt="Follow us on Twitter" /></a>
+<br />
+<a width="273" height="500" data-widget-id="259033425388896256" href="https://twitter.com/BicyclingMag" class="twitter-timeline" style="padding:0px 0px 0px 25px;">Tweets by @BicyclingMag</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+<div id="block-views-sport_rx-block_1" class="block block-views region-even even region-count-2 count-122"><div class="block-inner">
+
+  
+  <div class="content">
+    <div class="view view-sport-rx view-id-sport_rx view-display-id-block_1 view-dom-id-6">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-body">
+                <div class="field-content"><!-- Bicycling/home --> 
+<div style="margin-top: 15px;border-top: 1px solid rgb(168,177,194);padding-top: 15px;">
+<div id="gpt-tag-sport-rx-ad" class="gpt-wrapper"><script type="text/javascript">
+googletag.cmd.push(function() {
+jQuery(function() {
+var slotId = "gpt-tag-sport-rx-ad";
+if ('undefined' !== typeof(googletag.slots[slotId])) { googletag.display(slotId); }
+});
+});
+</script>
+<noscript>
+<a target="_blank" href="http://pubads.g.doubleclick.net/gampad/jump?iu=/3899/bicycling/home&sz=320x60&c=1411843759183&tile=&t=">
+<img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/3899/bicycling/home&sz=320x60&c=1411843759183&tile=&t=">
+</a>
+</noscript></div></div></div>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>
+    </div>
+
+    <div id="homepage_bottom_col2" class="bottom_three">
+
+      <div id="home_slot_g"><div id="block-views-features-block_1" class="block block-views region-odd odd region-count-1 count-115"><div class="block-inner">
+
+      <h2 class="title">Features</h2>
+  
+  <div class="content">
+    <div class="view view-features view-id-features view-display-id-block_1 view-dom-id-6">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    
+  <div class="views-field-image-attach-images">
+    <span class="field-content">
+      <a href="/training-nutrition/training-fitness/fresh-legs-fast"><div class="image-attach-node-51493" style="width: 85px;"><img src="http://www.bicycling.com/sites/default/files/images/fresh-legs.thumbnail.jpg" alt="fresh-legs.jpg" title="fresh-legs.jpg"  class="image image-thumbnail " width="85" height="85" /></div></a>    </span>
+  </div>
+  
+  <div class="views-field-title">
+    <span class="field-content">
+      <a href="/training-nutrition/training-fitness/fresh-legs-fast">Get Fresh Legs—Fast</a>    </span>
+  </div>
+  
+  <div class="views-field-field-promo-deck-value">
+    <div class="field-content">
+      Three recovery methods explained    </div>
+  </div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    
+  <div class="views-field-image-attach-images">
+    <span class="field-content">
+      <a href="/news/featured-stories/slow-and-sweet"><div class="image-attach-node-81798" style="width: 85px;"><img src="http://www.bicycling.com/sites/default/files/images/turtle-1.thumbnail.jpg" alt="turtle-1.jpg" title="turtle-1.jpg"  class="image image-thumbnail " width="85" height="85" /></div></a>    </span>
+  </div>
+  
+  <div class="views-field-title">
+    <span class="field-content">
+      <a href="/news/featured-stories/slow-and-sweet">Slow Down, Ride Better</a>    </span>
+  </div>
+  
+  <div class="views-field-field-promo-deck-value">
+    <div class="field-content">
+      Sometimes its best to ease up, back off, and chill out    </div>
+  </div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+    
+  <div class="views-field-image-attach-images">
+    <span class="field-content">
+      <a href="/bikes-gear/new-bike-gear-previews/first-look-pinarello-mercurio-t2-hybrid"><div class="image-attach-node-146611" style="width: 85px;"><img src="http://www.bicycling.com/sites/default/files/images/pinarello_mercuriohydro_5[1].thumbnail.jpg" alt="pinarello_mercuriohydro_5[1].jpg" title="pinarello_mercuriohydro_5[1].jpg"  class="image image-thumbnail " width="85" height="85" /></div></a>    </span>
+  </div>
+  
+  <div class="views-field-title">
+    <span class="field-content">
+      <a href="/bikes-gear/new-bike-gear-previews/first-look-pinarello-mercurio-t2-hybrid">First Look: Pinarello Mercurio T2 Hybrid </a>    </span>
+  </div>
+  
+  <div class="views-field-field-promo-deck-value">
+    <div class="field-content">
+      New carbon model combines the sleekness of a road frame with the price and utility of a city bike    </div>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>
+      <div id="home_slot_j"><div id="block-views-video_player_view-block_1" class="block block-views region-odd odd region-count-1 count-117"><div class="block-inner">
+
+  
+  <div class="content">
+    <div class="view view-video-player-view view-id-video_player_view view-display-id-block_1 view-dom-id-7">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-nothing">
+                <span class="field-content">Video</span>
+  </div>
+  
+  <div class="views-field-field-video-seeall-url">
+                <span class="field-content"><a href="http://www.bicycling.com/video">See All</a></span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><!-- Start of Brightcove Player --><!-- Start of Brightcove Player --><div style="display:none">&nbsp;</div>
+<!--
+By use of this code snippet, I agree to the Brightcove Publisher T and C 
+found at <a href="https://accounts.brightcove.com/en/terms-and-conditions/" title="https://accounts.brightcove.com/en/terms-and-conditions/">https://accounts.brightcove.com/en/terms-and-conditions/</a>. 
+--><!--
+By use of this code snippet, I agree to the Brightcove Publisher T and C 
+found at <a href="https://accounts.brightcove.com/en/terms-and-conditions/" title="https://accounts.brightcove.com/en/terms-and-conditions/">https://accounts.brightcove.com/en/terms-and-conditions/</a>. 
+--><script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script><object id="myExperience" class="BrightcoveExperience">
+<param name="bgcolor" value="#FFFFFF" />
+<param name="width" value="298" />
+<param name="height" value="486" />
+<param name="playerID" value="1768229690001" />
+<param name="playerKey" value="AQ~~,AAAAAB9cZG8~,VsmvaF3_bYAUHP2rXPJCTxAAxVk7KgP3" />
+<param name="isVid" value="true" />
+<param name="isUI" value="true" />
+<param name="dynamicStreaming" value="true" />    </object><!-- 
+This script tag will cause the Brightcove Players defined above it to be created as soon
+as the line is read by the browser. If you wish to have the player instantiated only after
+the rest of the HTML is processed and the page load is complete, remove the line.
+--><!-- 
+This script tag will cause the Brightcove Players defined above it to be created as soon
+as the line is read by the browser. If you wish to have the player instantiated only after
+the rest of the HTML is processed and the page load is complete, remove the line.
+--><script type="text/javascript">brightcove.createExperiences();</script><!-- End of Brightcove Player --><!-- End of Brightcove Player --></div>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://video.bicycling.com">More Videos</a></span>
+  </div>
+  
+  <div class="views-field-field-video-teaser-value">
+                <div class="field-content"></div>
+  </div>
+  
+  <div class="views-field-field-video-magnify-fid">
+                <span class="field-content"></span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>
+      
+      <div id="home_slot_p"><div id="block-block-8" class="block block-block region-odd even region-count-1 count-120"><div class="block-inner">
+
+  
+  <div class="content">
+    <br /><br/>
+<div id="fb-root"></div>
+<script src="http://connect.facebook.net/en_US/all.js"></script>
+
+<style>
+ .facebookImage  {
+   float: left;
+   width: 40px;
+   height: 40px;
+   padding: 0 10px 0 0;
+   margin: 10 10 4px 0;
+}
+
+.faceMainTitle {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   padding-top: 20px;
+   padding-bottom:10px;
+}
+
+.faceSubTitle {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 11px;
+   padding-top: 20px;
+   padding-bottom: 10px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.faceAnchor {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: white;
+}
+</style>
+
+
+<div id="casnologin" style="display:none;visibility:hidden;">
+	<div style="background: #0B649E;color: white;font-weight: bold;">
+	  <img class="facebookImage" src="/sites/all/themes/zen/bicycling/images/FB-Actv-feed-icon.png" alt="Bicycling.com">
+	  <div class="connect_action">
+	    <span class="faceMainTitle">Facebook.com/Bicycling</span><br />
+		<span><a href="http://www.bicycling.com/cas?login=1&callback=%2Fnode&returnUrl=http://www.bicycling.com/" class="faceAnchor">Log In using Facebook </a>  to see what your <br/> friends are doing. <a class="faceAnchor" href="javascript:doBICSignUp('https://member.rodale.com/membercenter/mvc/createUser%3FreturnUrl=http://www.bicycling.com/node','%2Fnode')"> Not a member?</a></span><br />
+	  </div>
+	</div>
+</div>
+
+<div id="casyeslogin" style="display:none;visibility:hidden;">
+	<div style="background: #0B649E;color: white;font-weight: bold;">
+	  <img class="facebookImage" src="/sites/all/themes/zen/bicycling/images/FB-Actv-feed-icon.png" alt="Bicycling.com">
+	  <div class="connect_action">
+	    <span class="faceMainTitle">Facebook.com/Bicycling</span><br />
+		<span><a href="https://member.rodale.com/membercenter/mvc/member/editUser?site=bicycling&amp;returnUrl=http://www.bicycling.com/" class="faceAnchor"> Link your Facebook account to Bicycling </a>  or <br /> <a href="http://www.facebook.com" class="faceAnchor">Log In</a>  to Facebook to see what your <br /><img height="5" width="50" alt="" src="/sites/default/files/images/spacer5x5.gif" />friends are doing.</span><br />
+	  </div>
+	</div>
+</div>
+
+<div id="fbrdllogin" style="display:none;visibility:hidden;">
+<iframe src="http://www.facebook.com/plugins/activity.php?site=www.bicycling.com&width=300&height=300&header=true&colorscheme=light&font&border_color&recommendations=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:300px;" allowTransparency="true"></iframe>
+</div>
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+  var showWhat = 0;
+  if (jQuery.cookie("extcache") != null) {
+	var username = '';
+	var uid = 0;
+	var active = 0;
+	var roles = '';
+	var ec_values = jQuery.cookie("extcache").split(":");
+	if (ec_values.length > 0) {
+	  uid = ec_values[0];
+	  active = ("undefined" != typeof ec_values[1]) ? ec_values[1] : null;
+	  username = ("undefined" != typeof ec_values[2]) ? ec_values[2] : null;
+	  roles = ("undefined" != typeof ec_values[3]) ? ec_values[3] : null;
+	  if ( (1 == active) && (roles.indexOf("authenticated+user") != -1) ) {
+		showWhat = 1;
+	  }
+	}
+  }
+
+	    FB.init({appId: '75768e28b5457b2d4307a7e1aad575dc',
+			   status: true,
+			   cookie: true,
+			   xfbml: true,
+			   channelUrl: "http://www.bicycling.com/channel.html"
+		});
+
+		FB.getLoginStatus(function(response) {
+			if (response.session) {
+	  			if(showWhat == 1) {
+					showWhat = 2;
+	  			} else {
+					showWhat = 0;
+	  			}
+			}
+			if(showWhat == 0) {
+				$('#casnologin').css('display','block');
+				$('#casnologin').css('visibility','visible');
+			} else if(showWhat == 1) {
+				$('#casyeslogin').css('display','block');
+				$('#casyeslogin').css('visibility','visible');
+			} else {
+		  		$('#fbrdllogin').css('display','block');
+		  		$('#fbrdllogin').css('visibility','visible');
+			}
+		});
+
+});
+</script>
+<br />  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>
+      <div id="home_slot_t"><div id="block-block-41" class="block block-block region-odd odd region-count-1 count-123"><div class="block-inner">
+
+  
+  <div class="content">
+    <div id="gpt-tag-secret-training-ad" class="gpt-wrapper"><script type="text/javascript">
+googletag.cmd.push(function() {
+jQuery(function() {
+var slotId = "gpt-tag-secret-training-ad";
+if ('undefined' !== typeof(googletag.slots[slotId])) { googletag.display(slotId); }
+});
+});
+</script>
+<noscript>
+<a target="_blank" href="http://pubads.g.doubleclick.net/gampad/jump?iu=/3899/bicycling/home&sz=300x250%7C300x253&c=1411843758441&tile=&t=btf%3Dtrue">
+<img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/3899/bicycling/home&sz=300x250%7C300x253&c=1411843758441&tile=&t=btf%3Dtrue">
+</a>
+</noscript></div>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>
+    </div>
+
+    <div id="homepage_bottom_col3" class="bottom_three">
+
+      <div id="home_slot_h"><div id="block-block-46" class="block block-block region-odd even region-count-1 count-116"><div class="block-inner">
+
+  
+  <div class="content">
+    <div id="gpt-tag-spend-less-ad" class="gpt-wrapper"><script type="text/javascript">
+googletag.cmd.push(function() {
+jQuery(function() {
+var slotId = "gpt-tag-spend-less-ad";
+if ('undefined' !== typeof(googletag.slots[slotId])) { googletag.display(slotId); }
+});
+});
+</script>
+<noscript>
+<a target="_blank" href="http://pubads.g.doubleclick.net/gampad/jump?iu=/3899/bicycling/home&sz=300x250%7C300x600%7C300x1050&c=1411843758485&tile=&t=atf%3Dtrue">
+<img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/3899/bicycling/home&sz=300x250%7C300x600%7C300x1050&c=1411843758485&tile=&t=atf%3Dtrue">
+</a>
+</noscript></div>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>
+      
+      <div id="home_slot_n"><div id="block-views-subscription_form_view-block_1" class="block block-views region-odd odd region-count-1 count-119"><div class="block-inner">
+
+  
+  <div class="content">
+    <div class="view view-subscription-form-view view-id-subscription_form_view view-display-id-block_1 view-dom-id-9">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    <div id="node-3595" class="node node-type-subscription-form-promo"><div class="node-inner">
+
+  
+      <h2 class="title">
+          <a href="/subscription-form" title="Subscription Form">Subscription Form</a>
+        </h2>
+  
+  
+  <div class="content">
+    <script language="JavaScript">
+  var wPop;
+  var frmChecked = false;
+  var missingField = "";
+  
+  dgetfrdlnl = function(id)
+  {
+  	return document.getElementById(id);
+  }
+  
+  function isEmpty(s)
+  {
+  	if(s==null || s==undefined)
+  	{
+  		return true;
+  	}
+  	var i = 0;
+  	for(i=0;i<s.length;i++)
+  	{
+  		if((s.charAt(i)!=undefined) && (s.charAt(i)!=null) && (s.charAt(i)!=' ') && (s.charAt(i)!=''))
+  		{
+  			return false;
+  		}
+  	}
+  	return true;
+  }
+  
+  
+  function validateForm(form)
+  {
+  	//if(!frmChecked)
+  	//{
+  		if(!checkRequiredFields(form))
+  		{
+  			alert('Please provide a valid '+ missingField);
+  			return false;
+  		}
+  		else if(!checkEmail(form))
+  		{
+  			alert('Please provide valid email');
+  			return false;
+  		}
+  		else
+  		{
+  			frmChecked = true;
+  			//return modalWin();
+  			return true;
+  		}
+  	//}
+  	//else
+  	//{
+  	//	return true;
+  	//}
+  
+  }
+  
+  function modalWin()
+  {
+  	if(window.showModalDialog)
+  	{
+  		wPop = window.showModalDialog("mini_sub_popup.html","mh_sub_popup","dialogWidth:300px;dialogHeight:300px;resizable:no;scroll:no;");
+  	}
+  	else
+  	{
+  		wPop = window.open("mini_sub_popup.html","mh_sub_popup","width=300,height=300,toolbar=0,directories=0,status=0,menubar=0,scrollbars=0,resizable=0,location=0,scrollbars=0");
+  	}
+  	return false;
+  }
+  
+  function checkRequiredFields(form)
+  {
+  	if(isEmpty(form.firstName_bill.value) || (form.firstName_bill.value == "First Name"))
+  	{
+  		missingField = 'First Name';
+  		return false;
+  	}
+  	else if(isEmpty(form.lastName_bill.value) || (form.lastName_bill.value == "Last Name"))
+  	{
+  		missingField = 'Last Name';
+  		return false;
+  	}
+  	else if(isEmpty(form.address1_bill.value) || (form.address1_bill.value == "Address"))
+  	{
+  		missingField = 'Address';
+  		return false;
+  	}
+  	else if(isEmpty(form.city_bill.value) || (form.city_bill.value == "City"))
+  	{
+  		missingField = 'City';
+  		return false;
+  	}
+  	else if(isEmpty(form.state_bill.value))
+  	{
+  		missingField = 'State';
+  		return false;
+  	}
+  	else if(isEmpty(form.zipCode_bill.value)|| (form.zipCode_bill.value == "Zip"))
+  	{
+  		missingField = 'Zip Code';
+  		return false;
+  	}
+  	else if(isEmpty(form.email1_bill.value))
+  	{
+  		missingField = 'Email';
+  		return false;
+  	}
+  
+  	return true;
+  
+  }
+  
+  function checkEmail(form)
+  {
+  	var emailStr = form.email1_bill.value;
+  	// TLD checking turned off by default
+  	var checkTLD=0;
+  	var knownDomsPat=/^(com|net|org|edu|int|mil|gov|arpa|biz|aero|name|coop|info|pro|museum)$/;
+  	var emailPat=/^(.+)@(.+)$/;
+  	var specialChars="\\(\\)><@,;:\\\\\\\"\\.\\[\\]";
+  	var validChars="\[^\\s" + specialChars + "\]";
+  	var quotedUser="(\"[^\"]*\")";
+  	var ipDomainPat=/^\[(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})\]$/;
+  	var atom=validChars + '+';
+  	var word="(" + atom + "|" + quotedUser + ")";
+  	var userPat=new RegExp("^" + word + "(\\." + word + ")*$");
+  	var domainPat=new RegExp("^" + atom + "(\\." + atom +")*$");
+  	var matchArray=emailStr.match(emailPat);
+  	if (matchArray==null) {
+  		return false;
+  	}
+  	var user=matchArray[1];
+  	var domain=matchArray[2];
+  	for (i=0; i<user.length; i++) {
+  		if (user.charCodeAt(i)>127) {
+  			return false;
+  		}
+  	}
+  	for (i=0; i<domain.length; i++) {
+  		if (domain.charCodeAt(i)>127) {
+  			return false;
+  		}
+  	}
+  	if (user.match(userPat)==null) {
+  		return false;
+  	}
+  	var IPArray=domain.match(ipDomainPat);
+  	if (IPArray!=null) {
+  		for (var i=1;i<=4;i++) {
+  			if (IPArray[i]>255) {
+  				return false;
+  			}
+  		}
+  		return true;
+  	}
+  	var atomPat=new RegExp("^" + atom + "$");
+  	var domArr=domain.split(".");
+  	var len=domArr.length;
+  	for (i=0;i<len;i++) {
+  		if (domArr[i].search(atomPat)==-1) {
+  			return false;
+  		}
+  	}
+  	if (checkTLD && domArr[domArr.length-1].length!=2 &&
+  		domArr[domArr.length-1].search(knownDomsPat)==-1) {
+  		return false;
+  	}
+  	if (len<2) {
+  		return false;
+  	}
+  	return true;
+  
+  }
+  
+  function setFormChecked()
+  {
+  	wPop.close();
+  	frmChecked = true;
+  	document.uofGenericForm.submit();
+  }
+  
+</script>
+<div style="width: 300px; height: 250px; background-image:url(http://images.rodale.com/acc/bke/2023121_BKE_mini_bkgrnd.gif); position: relative">
+<div style="width: 135px; position: absolute; right: 156px; bottom: 13px; top: 94px;">
+<form name="uofGenericForm" id="subscForm" action="https://secure.rodale.com/webapp/wcs/stores/servlet/OaeEntryPage?storeId=10057&mktOfferId=BKE65973&keycode=I4GW0D46&cm_mmc=Bicycling.com-_-Miniform-_-BKE%20Site%20$1.36%20Miniform%20-_-OfferId_BKE65973_keycode_I4GW0D46" target="_BLANK" method="POST" onSubmit="return validateForm(this)">
+    <input type="text" name="firstName_bill" id="firstName_bill" tabindex="1" class="tesxfield" style="width: 135px; height: 14px; font-size:9px; margin:0; padding:0" value="First Name" autocomplete="off" onfocus="if(this.value=='First Name')this.value=''" />         <input type="text" name="lastName_bill" id="lastName_bill" tabindex="2" class="tesxfield" style="width: 135px; height: 14px; font-size:9px;  font-size:9px; margin:0; padding:0" value="Last Name" autocomplete="off" onfocus="if(this.value=='Last Name')this.value=''" />         <input type="text" name="address1_bill" id="address1_bill" tabindex="3" class="tesxfield" style="width: 135px; height: 14px;font-size:9px; margin:0; padding:0" value="Address" autocomplete="off" onfocus="if(this.value=='Address')this.value=''" /><input type="text" name="city_bill" id="city_bill" class="tesxfield" style="width: 135px; height: 14px;font-size:9px; margin:0; padding:0" value="City" autocomplete="off" onfocus="if(this.value=='City')this.value=''" />         <select name="state_bill" id="state_bill" class="tesxfield" style="width: 135px; height: 18px;font-size:9px; margin:0; padding:0">
+    <option value="">State/Province</option>
+    <option value="AB">AB</option>
+    <option value="AL">AL</option>
+    <option value="AK">AK</option>
+    <option value="AS">AS</option>
+    <option value="AZ">AZ</option>
+    <option value="AR">AR</option>
+    <option value="AA">AA</option>
+    <option value="AE">AE</option>
+    <option value="AP">AP</option>
+    <option value="BC">BC</option>
+    <option value="CA">CA</option>
+    <option value="CO">CO</option>
+    <option value="CT">CT</option>
+    <option value="DE">DE</option>
+    <option value="DC">DC</option>
+    <option value="FL">FL</option>
+    <option value="GA">GA</option>
+    <option value="GU">GU</option>
+    <option value="HI">HI</option>
+    <option value="ID">ID</option>
+    <option value="IL">IL</option>
+    <option value="IN">IN</option>
+    <option value="IA">IA</option>
+    <option value="KS">KS</option>
+    <option value="KY">KY</option>
+    <option value="LA">LA</option>
+    <option value="MB">MB</option>
+    <option value="ME">ME</option>
+    <option value="MD">MD</option>
+    <option value="MA">MA</option>
+    <option value="MI">MI</option>
+    <option value="MN">MN</option>
+    <option value="MS">MS</option>
+    <option value="MO">MO</option>
+    <option value="MT">MT</option>
+    <option value="NB">NB</option>
+    <option value="NE">NE</option>
+    <option value="NV">NV</option>
+    <option value="NH">NH</option>
+    <option value="NJ">NJ</option>
+    <option value="NM">NM</option>
+    <option value="NY">NY</option>
+    <option value="NC">NC</option>
+    <option value="ND">ND</option>
+    <option value="NL">NL</option>
+    <option value="NT">NT</option>
+    <option value="NS">NS</option>
+    <option value="NU">NU</option>
+    <option value="MP">MP</option>
+    <option value="OH">OH</option>
+    <option value="OK">OK</option>
+    <option value="ON">ON</option>
+    <option value="OR">OR</option>
+    <option value="PW">PW</option>
+    <option value="PA">PA</option>
+    <option value="PE">PE</option>
+    <option value="QC">QC</option>
+    <option value="RI">RI</option>
+    <option value="SC">SC</option>
+    <option value="SD">SD</option>
+    <option value="SK">SK</option>
+    <option value="TN">TN</option>
+    <option value="TX">TX</option>
+    <option value="VI">VI</option>
+    <option value="UT">UT</option>
+    <option value="VT">VT</option>
+    <option value="VA">VA</option>
+    <option value="WA">WA</option>
+    <option value="WV">WV</option>
+    <option value="WI">WI</option>
+    <option value="WY">WY</option>
+    <option value="YT">YT</option>
+    </select>         <input type="text" name="zipCode_bill" id="zipCode_bill" class="tesxfield" style="width: 135px; height: 14px;font-size:9px; margin:0; padding:0" value="Zip" autocomplete="off" onfocus="if(this.value=='Zip')this.value=''" />         <input type="text" name="email1_bill" id="email1_bill" class="tesxfield" style="width: 135px; height: 14px;font-size:9px; margin:0; padding:0" value="Email" autocomplete="off" onfocus="if(this.value=='Email')this.value=''" /><br />
+    <br />
+    <div style="position: absolute; left: 144px; top: 72px;"><input width="147" type="image" height="64" border="0" src="http://images.rodale.com/acc/bke/2023121_BKE_mini_btn.png" /></div>
+    <input type="hidden" name="country_bill" value="US" />         <input type="hidden" name="paymentMethod" value="OA" />         <input type="hidden" name="fromEntry" value="true" />         <input type="hidden" name="mktOfferId" value="BKE61061" />         <input type="hidden" name="storeId" value="10057" />				         <input type="hidden" name="miniF" value="F" />         <input type="hidden" name="keycode" value="I3GW0D12" />         <input type="hidden" name="source" value="RODALE" />         <input type="hidden" name="subscriptionOption" value="39799" />         <input type="hidden" name="rodaleOptIn" value="on" />
+</form>
+</div>
+</div>  </div>
+
+</div></div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>
+      
+      
+      <div id="home_slot_u"><div id="block-views-022387659a60b66ccd283aed487741b9" class="block block-views region-odd even region-count-1 count-124"><div class="block-inner">
+
+      <h2 class="title">Sponsored Features</h2>
+  
+  <div class="content">
+    <div class="view view-sponsored-features-promo-view view-id-sponsored_features_promo_view view-display-id-block_1 view-dom-id-7">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-body">
+                <div class="field-content"><div style="width:260px; float: left;margin-top: 20px;margin-left:25px;"><a target="_blank" href="http://www.pricepoint.com/?utm_source=BICYCLING&amp;utm_medium=Banner&amp;utm_content=145382&amp;utm_campaign=BicyclingNews"><img width="250" height="124" border="0" style="margin:0px 4px 4px 0px !important;" src="http://images.rodale.com/acc/bic/Price-Point-logo-1.jpg" alt="" /></a><br />
+We provide cycling enthusiasts with the finest components and gear, from the best brands, at the lowest possible prices and deliver it faster than anyone else.</div>
+
+<div style="float: left;margin-top: 30px;margin-left:25px;"><a target="_blank" href="http://www.bikeyourbuttoff.com/bke?cm_mmc=bke.com-_-website-_-sfeature-_-bybo&amp;keycode=242653"><img width="250" height="200" border="0" style="margin:0px 4px 4px 0px !important;" src="http://images.rodale.com/acc/bic/2025741_bybo_250x200.gif" alt="" /></a></div>
+  <!-- Start GPT ads -->
+<div style="margin:10px 0px !important;width:200px !important;"><div id="gpt-tag-sponsored-features-a" class="gpt-wrapper"><script type="text/javascript">
+googletag.cmd.push(function() {
+jQuery(function() {
+var slotId = "gpt-tag-sponsored-features-a";
+if ('undefined' !== typeof(googletag.slots[slotId])) { googletag.display(slotId); }
+});
+});
+</script>
+<noscript>
+<a target="_blank" href="http://pubads.g.doubleclick.net/gampad/jump?iu=/3899/bicycling/home&sz=120x30%7C120x31&c=1411843758450&tile=&t=">
+<img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/3899/bicycling/home&sz=120x30%7C120x31&c=1411843758450&tile=&t=">
+</a>
+</noscript></div><div id="gpt-tag-sponsored-features-b" class="gpt-wrapper"><script type="text/javascript">
+googletag.cmd.push(function() {
+jQuery(function() {
+var slotId = "gpt-tag-sponsored-features-b";
+if ('undefined' !== typeof(googletag.slots[slotId])) { googletag.display(slotId); }
+});
+});
+</script>
+<noscript>
+<a target="_blank" href="http://pubads.g.doubleclick.net/gampad/jump?iu=/3899/bicycling/home&sz=120x30%7C120x32&c=1411843758161&tile=&t=">
+<img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/3899/bicycling/home&sz=120x30%7C120x32&c=1411843758161&tile=&t=">
+</a>
+</noscript></div><div id="gpt-tag-sponsored-features-c" class="gpt-wrapper"><script type="text/javascript">
+googletag.cmd.push(function() {
+jQuery(function() {
+var slotId = "gpt-tag-sponsored-features-c";
+if ('undefined' !== typeof(googletag.slots[slotId])) { googletag.display(slotId); }
+});
+});
+</script>
+<noscript>
+<a target="_blank" href="http://pubads.g.doubleclick.net/gampad/jump?iu=/3899/bicycling/home&sz=120x30%7C120x33&c=1411843758825&tile=&t=">
+<img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/3899/bicycling/home&sz=120x30%7C120x33&c=1411843758825&tile=&t=">
+</a>
+</noscript></div></div></div>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>
+      <div id="home_slot_v"><div id="block-views-msn_sponsored_links-block_1" class="block block-views region-odd odd region-count-1 count-125"><div class="block-inner">
+
+  
+  <div class="content">
+    <div class="view view-msn-sponsored-links view-id-msn_sponsored_links view-display-id-block_1 view-dom-id-8">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-body">
+                <div class="field-content"><div id="gpt-tag-msn-ad" class="gpt-wrapper"><script type="text/javascript">
+googletag.cmd.push(function() {
+jQuery(function() {
+var slotId = "gpt-tag-msn-ad";
+if ('undefined' !== typeof(googletag.slots[slotId])) { googletag.display(slotId); }
+});
+});
+</script>
+<noscript>
+<a target="_blank" href="http://pubads.g.doubleclick.net/gampad/jump?iu=/3899/bicycling/home&sz=300x251&c=1411843758775&tile=&t=btf%3Dtrue%26amp%3Bkw%3Dadsense">
+<img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/3899/bicycling/home&sz=300x251&c=1411843758775&tile=&t=btf%3Dtrue%26amp%3Bkw%3Dadsense">
+</a>
+</noscript></div></div>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>
+    </div> <!-- homepage_bottom_col3 -->
+</div> <!-- bottomthreecol -->
+    
+    
+    <div id="advertising_region_footer">
+      <div id="block-block-31" class="block block-block region-odd even region-count-1 count-100"><div class="block-inner">
+
+  
+  <div class="content">
+    <style>#advertising_region_footer { clear:both; font-size:0; }</style>
+<div id="gpt-tag-footer-house-ad" class="gpt-wrapper"><script type="text/javascript">
+googletag.cmd.push(function() {
+jQuery(function() {
+var slotId = "gpt-tag-footer-house-ad";
+if ('undefined' !== typeof(googletag.slots[slotId])) { googletag.display(slotId); }
+});
+});
+</script>
+<noscript>
+<a target="_blank" href="http://pubads.g.doubleclick.net/gampad/jump?iu=/3899/bicycling/home&sz=930x50&c=1411843759649&tile=&t=">
+<img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/3899/bicycling/home&sz=930x50&c=1411843759649&tile=&t=">
+</a>
+</noscript></div>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+    </div>
+    <div class="clear-min"></div>
+  </div> <!-- /contentarea -->
+</div> <!-- /contentwrapper -->
+
+<div id="footerwrapper">
+  <div id="footer">
+    <div id="footermenu">
+      <div id="homepage_footer_menu_wrapper">
+                <div id="home_slot_w"><div id="block-block-7" class="block block-block region-odd even region-count-1 count-126"><div class="block-inner">
+
+  
+  <div class="content">
+    <!--paging_filter--><div class="rtecenter">To make a payment, cancel or renew your subscription for Bicycling, contact customer service at: 400 South Tenth Street   &bull;  Emmaus, PA 18098-0099<br />
+(800) 666-2806  &bull;  <a target="_blank" href="http://www.bicycling.com/customer-service">www.bicycling.com/customer-service</a>  &bull;  E-mail: <a href="mailto:bkecustserv@rodale.com">bkecustserv@rodale.com</a>  &bull;  <a target="_blank" title="Privacy Rights" href="http://www.rodaleinc.com/your-privacy-rights">Your Privacy Rights</a> &bull; <a href="http://www.rodaleinc.com/content/copyright">Copyright Notice</a><br />
+&nbsp;</div>
+<br />  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+<div id="block-menu-menu-global-footer-menu" class="block block-menu region-even odd region-count-2 count-127"><div class="block-inner">
+
+      <h2 class="title"> </h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="expanded first active-trail"><span>Categories:</span><ul class="menu"><li class="leaf first"><a href="/" title="" class="active">Home</a></li>
+<li class="leaf"><a href="/news" title="">News</a></li>
+<li class="leaf"><a href="/training-nutrition" title="">Training &amp; Nutrition</a></li>
+<li class="leaf"><a href="/bikes-gear" title="">Bikes &amp; Gear</a></li>
+<li class="leaf"><a href="/maintenance" title="">Maintenance</a></li>
+<li class="leaf"><a href="/ride-maps" title="">Ride Maps</a></li>
+<li class="leaf"><a href="/2013-tour-de-france" title="">Tour de France</a></li>
+<li class="leaf"><a href="/biketown" title="">Biketown</a></li>
+<li class="leaf"><a href="/mountainbikecom" title="">Mountain Bike</a></li>
+<li class="leaf last"><a href="http://www.bicycling.com/gear" title="">Bike &amp; Gear Review Finder</a></li>
+</ul></li>
+<li class="expanded"><span>Services:</span><ul class="menu"><li class="leaf first"><a href="/eventfinder" title="">Events</a></li>
+<li class="leaf"><a href="http://forums.bicycling.com/" title="">Discussions</a></li>
+<li class="leaf"><a href="http://www.bicycling.com/subfooter" title="">Magazine Subscriptions</a></li>
+<li class="leaf"><a href="http://www.bicycling.com/giftfooter" title="">Gift Subscriptions</a></li>
+<li class="leaf"><a href="/newsletter/main" title="">Newsletter</a></li>
+<li class="leaf"><a href="http://shop.bicycling.com/webapp/wcs/stores/servlet/StoreCatalogDisplay?langId=-1&amp;catalogId=10007&amp;storeId=10056" title="">Shop</a></li>
+<li class="leaf"><a href="/podcasts" title="">Podcast</a></li>
+<li class="leaf"><a href="/feature/rss.xml" title="">RSS XML</a></li>
+<li class="leaf last"><a href="/store_finder" title="">Store Finder</a></li>
+</ul></li>
+<li class="expanded"><span>Help:</span><ul class="menu"><li class="leaf first"><a href="/about-bicycling" title="">About bicycling</a></li>
+<li class="leaf"><a href="/customer_service" title="">Customer Service</a></li>
+<li class="leaf"><a href="http://preferences.rodale.com" title="">Manage Email Preferences</a></li>
+<li class="leaf"><a href="/contact-us" title="">Contact Us</a></li>
+<li class="leaf last"><a href="/sitemap.xml" title="">Site Map</a></li>
+</ul></li>
+<li class="expanded"><span>Corporate:</span><ul class="menu"><li class="leaf first"><a href="/advertising" title="">Advertising</a></li>
+<li class="leaf"><a href="/bicycling-media-kits" title="">Bicycling Magazine &amp; Online Media Kits</a></li>
+<li class="leaf"><a href="http://www.rodale.com/corp/sub/0,,1-28,00.html" title="">Your Privacy Rights</a></li>
+<li class="leaf"><a href="http://www.rodaleinc.com/content/rodale-inc-website-application-and-social-media-terms-use" title="">Community Terms of Use</a></li>
+<li class="leaf"><a href="/retailsub" title="">Retailer Program</a></li>
+<li class="leaf"><a href="https://w1.buysub.com/pubs/RP/HLH/rodale_menu_page.jsp?cds_page_id=90055&amp;cds_mag_code=HLH" title="">More Rodale Products</a></li>
+<li class="leaf"><a href="http://www.rodaleinc.com/content/amazon-affiliate-terms" title="">Amazon Affiliate</a></li>
+<li class="leaf last"><a href="http://www.rodaleinc.com" title="">Rodale Inc.</a></li>
+</ul></li>
+<li class="expanded last"><span>Rodale Inc. Brands</span><ul class="menu"><li class="leaf first"><a href="http://www.runnersworld.com" title="">Runner&#039;s World</a></li>
+<li class="leaf"><a href="http://www.runningtimes.com" title="">Running Times</a></li>
+<li class="leaf"><a href="http://www.womenshealthmag.com" title="">Women&#039;s Health</a></li>
+<li class="leaf"><a href="/mountainbikecom" title="">Mountain Bike</a></li>
+<li class="leaf"><a href="http://www.prevention.com" title="">Prevention</a></li>
+<li class="leaf"><a href="http://menshealth.com" title="">Men&#039;s Health</a></li>
+<li class="leaf"><a href="http://www.organicgardening.com" title="">Organic Gardening</a></li>
+<li class="leaf"><a href="http://www.rodales.com" title="">Rodale&#039;s</a></li>
+<li class="leaf"><a href="http://www.rodalenews.com" title="">Rodale News</a></li>
+<li class="leaf"><a href="http://www.fitbie.com" title="">Fitbie.com</a></li>
+<li class="leaf last"><a href="http://www.iyogalife.com/" title="">iYogaLife</a></li>
+</ul></li>
+</ul>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div> <!-- /home_slot_w -->
+              </div>
+    </div>
+  </div>
+</div>
+
+<!-- janrain social popup elements begin-->
+<div id="rpxnow-main-lightbox" style="display:none;">
+<div id="rpxnow_lightbox_trans">
+</div>
+<div id="rpxnow_lightbox_container"></div>
+<div id="rpxnow_hidden_bicloginattempt" style="display:none;"></div>
+</div>
+<!-- janrain social popup elements end-->
+
+<!-- Mother Tag -->
+<script src="http://content.dl-rms.com/rms/mother/22066/nodetag.js"></script>
+<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2010 Nielsen Online -->
+<script type="text/javascript">
+  (function () {
+    var d = new Image(1, 1);
+    d.onerror = d.onload = function () {
+      d.onerror = d.onload = null;
+    };
+    d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-603648h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+  })();
+</script>
+<noscript>
+  <div>
+    <img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-603648h&amp;cg=0&amp;cc=1&amp;ts=noscript"
+    width="1" height="1" alt="" />
+  </div>
+</noscript>
+<!-- END Nielsen Online SiteCensus V6.0 -->
+
+<!-- Legolas Marketplace tag -->
+<script type="text/javascript" src="http://rt.legolas-media.com/lgrt?ci=2&ti=14320&pbi=10901"></script>
+<!-- Adobe Tag Manager -->
+<script type="text/javascript">_satellite.pageBottom();</script>
+</div>
+
+<script type="text/javascript">
+var _sf_async_config={uid:15891,domain:"bicycling.com"};
+(function(){
+  function loadChartbeat() {
+    window._sf_endpt=(new Date()).getTime();
+    var e = document.createElement('script');
+    e.setAttribute('language', 'javascript');
+    e.setAttribute('type', 'text/javascript');
+    e.setAttribute('src',
+       (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+       "js/chartbeat.js");
+    document.body.appendChild(e);
+  }
+  var oldonload = window.onload;
+  window.onload = (typeof window.onload != 'function') ?
+     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+})();
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-1.newrelic.com","licenseKey":"89b2f10391","applicationID":"1779798","transactionName":"NVdXYkFTWEBUUE0IVgwddFVHW1ldGl1WBVw9QlRRVm1SVlNSTA1N","queueTime":0,"applicationTime":2005,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-460.min.js"}</script></body>
+</html>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head> 
+
+<title>Computational Genetics Laboratory</title>
+
+<meta name="description" content="This is the homepage of the Computational Genetics Laboratory in the Institute for Quantitative Biomedical Sciences (iQBS) at The Geisel School of Medicine at Dartmouth College in New Hampshire. Our goal is to develop, evaluate and apply novel computational methods and software for identifying genetic and genomic biomarkers associated with human health and disease. Our focus is on methods that embrace, rather than ignore, the complexity of the genotype-to-phenotype mapping relationship due to phenomena such as epistasis." />
+
+<meta name="keywords" content="epistasis, genetics, gene, bioinformatics, gene-gene interaction, disease, data mining, machine learning, systems biology, computational genetics, visual analytics, information visualization, genetic epidemiology, statistical genetics, quantitative genetics, systems genetics, complexity, complex system, complex adaptive system, nonlinear, Dartmouth, human genetics, epidemiology, biostatistics, evolutionary computation, genetic algorithm, genetic programming, multifactor dimensionality reduction, mdr, artificial intelligence, computational intelligence, evolution, evolutionary genetics, population genetics, genomics, proteomics, software, open source, java, computational evolution, relieff, symbolic, exploratory visual analysis, eva, symod, biomarker, classification, prediction, susceptibility, risk, feature selection, stochastic, search, algorithm, genome-wide assocation study, gwas, whole-genome, modeling, ecology, geography, structure, genetic analysis, qbs, nccc, dms, iqbs, entropy, DNA, epigenetics, epigenomics, methylation, cancer, hypertension, cardiovascular, heart, autoimmune, psychiatric" />
+
+<link href="layout.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+-->
+</style>
+</head>
+<body id="page_1">
+<div class="main">
+<!--==========header=========== -->
+<div id="header">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+       codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,24"
+       width="850" height="204">
+<param name="movie" value="flash/header3_fv8.swf?button=1" /> 
+<param name="quality" value="high" />
+<param name="menu" value="false" />
+<!--[if !IE]> <-->
+<object data="flash/header3_fv8.swf?button=1"
+        width="850" height="204" type="application/x-shockwave-flash">
+ <param name="quality" value="high" />
+ <param name="menu" value="false" />
+ <param name="pluginurl" value="http://www.macromedia.com/go/getflashplayer" />
+ FAIL (the browser should render some flash content, not this).
+</object>
+<!--> <![endif]-->
+</object>
+</div>
+<!--========//header=========== -->
+
+<!--==========content=========== -->
+<div id="content">
+	<div class="width_stretch">
+    <div class="col_1">
+        <div class="block_7">
+        	<div class="corners">
+                <div class="corn_top"><div class="layer_2">&nbsp;</div></div>
+                <div class="corn_left_top"></div>
+                <div class="corn_right_top"></div>
+                <div class="clear"></div>
+            </div>            
+            <div class="content">
+            	<div class="top">
+                	<div class="left">
+                    	<div class="right">
+                        	<div class="indent">
+                                <em><b>WELCOME</b></em><br />
+                                <p class="top_indent_15px">Welcome to the Computational Genetics Laboratory in the <a href="http://iqbs.org/">Institute for Quantitative Biomedical Sciences</a> at <a href="http://geiselmed.dartmouth.edu/">The Geisel School of Medicine</a> and <a href="http://www.dartmouth.edu">Dartmouth College</a> in Hanover, NH, USA. </p><br/>
+                                
+                                <p>We are located at the <a href="http://www.dhmc.org/">Dartmouth-Hitchcock Medical Center</a> in Lebanon, NH and are affiliated with the <a href="http://www.dartmouth.edu/~genetics/">Department of Genetics</a>, the <a href="http://bio-epi.hitchcock.org/">Section of Biostatistics and Epidemiology</a> in the <a href="http://dms.dartmouth.edu/cfm/">Department of Community and Family Medicine</a> and the <a href="http://www.bisr.org/">Bioinformatics Shared Resource</a> at the <a href="http://www.cancer.dartmouth.edu/">Norris-Cotton Cancer Center</a>.</p><br/>
+                                
+                                 <p>We are also affiliated with the <a href="http://www.cs.unh.edu">Department of Computer Science</a> at the University of New Hampshire, the <a href="http://www.uvm.edu/~cems/cs">Department of Computer Science</a> at the University of Vermont, the <a href="http://bms.brown.edu/DPHB/">Department of Psychiatry and Human Behavior</a> at Brown University and the <a href="http://www.tgen.org/">Translational Genomics Research Institute</a> in Phoenix. </p><br/>
+                                
+                                <p>We are also part of the graduate training program in <a href="http://dms.dartmouth.edu/mcb/">Molecular and Cellular Biology</a> and the newly approved graduate training program in <a href="http://iqbs.org/education/graduate-studies/">Quantitative Biomedical Sciences</a> (QBS) that trains students at the interface between bioinformatics, biostatistics, epidemiology and other discplines such as biomathematics, genomics, proteomics and systems biology.</p><br/>
+                                
+                                <p>For our latest news see <a href="http://compgen.blogspot.com">Epistasis Blog</a> or follow along on <a href="http://www.twitter.com/moorejh">Twitter</a>.</p>
+                                
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>           
+            <div class="corners">
+                <div class="corn_bot"><div class="layer_2">&nbsp;</div></div>
+                <div class="corn_left_bot"></div>
+                <div class="corn_right_bot"></div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <br class="clear" />
+        <div class="block_7">
+        	<div class="corners">
+                <div class="corn_top"><div class="layer_2">&nbsp;</div></div>
+                <div class="corn_left_top"></div>
+                <div class="corn_right_top"></div>
+                <div class="clear"></div>
+            </div>            
+            <div class="content">
+            	<div class="top">
+                	<div class="left">
+                    	<div class="right">
+                        	<div class="indent">
+                                <em><b>MISSION</b></em><br />
+                                <p class="top_indent_15px">Our goal is to develop, evaluate and apply novel computational methods and software for identifying genetic and genomic biomarkers associated with human health and disease. Our focus is on methods that embrace, rather than ignore, the complexity of the genotype-to-phenotype mapping relationship due to phenomena such as epistasis. A new focus is on the development of visual analytics to facilitate this process.</p>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>           
+            <div class="corners">
+                <div class="corn_bot"><div class="layer_2">&nbsp;</div></div>
+                <div class="corn_left_bot"></div>
+                <div class="corn_right_bot"></div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="mid"><img src="images/spacer.gif" width="1" height="1" alt="" /></div>
+    <div class="col_2">
+    	
+        <div class="block_7">
+        	<div class="corners">
+                <div class="corn_top"><div class="layer_2">&nbsp;</div></div>
+                <div class="corn_left_top"></div>
+                <div class="corn_right_top"></div>
+                <div class="clear"></div>
+            </div>            
+            <div class="content">
+            	<div class="top">
+                	<div class="left">
+                    	<div class="right">
+                        	<div class="indent">  
+                                <em><b>EPISTASIS</b></em><br />
+                                <p class="top_indent_15px">A central focus of our research is the detection, characterization and interpretation of epistasis or gene-gene interaction.  The word epistasis was coined by William Bateson in the early 1900s in his book Mendel's Principles of Heredity and was used to describe deviations from mendelian inheritance patterns due to one gene standing upon or modifying the effects of another gene.</p><br />
+                                
+                                <p>Our working hypothesis is that epistasis is a ubiquitous component of the genetic architecture of human health and disease due to the importance of biomolecular interactions that drive biological systems in a genotype-dependent manner.  Canalization may provide an evolutionary explanation for why epistasis is so common.</p><br />
+                                
+                                <p>We make the distinction between biological and statistical epistasis.  Biological epistasis is what Bateson had in mind and is the result of biomolecular interactions at the cellular level.  In contrast, statistical epistasis is a population-level summary and is more similar to Sir Ronald Fisher's definition of epistacy or deviation from additivity in a linear statistical model. Our goal is to develop and use data mining and machine learning algorithms to model statistical epistasis.  The ultimate goal is to infer biological epistasis using systems biology approaches such as network modeling.</p><br/>
+                                
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>           
+            <div class="corners">
+                <div class="corn_bot"><div class="layer_2">&nbsp;</div></div>
+                <div class="corn_left_bot"></div>
+                <div class="corn_right_bot"></div>
+                <div class="clear"></div>
+            </div>
+        </div>      
+    </div>
+    <br class="clear" />
+    </div>
+    <br class="clear" />
+    <div class="block_6">
+    <div class="corners">
+        <div class="corn_top"><div class="layer_2">&nbsp;</div></div>
+        <div class="corn_left_top"></div>
+        <div class="corn_right_top"></div>
+        <div class="clear"></div>
+    </div>            
+    <div class="content">
+        <div class="top">
+            <div class="left">
+                <div class="right">
+                    <div class="indent">
+                   	  <div class="box_1">
+                        	<a href="http://www.multifactordimensionalityreduction.org"><img src="images/page_2_pic_3.png" width="130" height="97" alt="" /></a><br />
+                      </div>
+                        <div class="box_2">
+                        	<a href="http://cancer.dartmouth.edu/res/bioinformatics.html"><img src="images/page_2_pic_7.png" width="130" height="97" alt="" /></a><br />
+                      </div>
+                        <div class="box_3">
+                        	<a href="http://www.twitter.com/moorejh"><img src="images/page_2_pic_8.png" width="130" height="97" alt="" /></a><br />
+                      </div>
+                        <div class="column">
+                        	<a href="http://compgen.blogspot.com"><img src="images/page_2_pic_6.png" width="130" height="97" alt="" /></a><br />
+                      </div>
+                        <div class="clear"></div>
+                    </div>                            
+                </div>
+            </div>
+        </div>
+    </div>           
+    <div class="corners">
+        <div class="corn_bot"><div class="layer_2">&nbsp;</div></div>
+        <div class="corn_left_bot"></div>
+        <div class="corn_right_bot"></div>
+        <div class="clear"></div>
+    </div>
+</div>
+</div>
+<!--========//content=========== -->
+
+<!--==========footer=========== -->
+<div id="footer">
+	Jason H. Moore, Ph.D. &copy; 2004-2014
+</div>
+<!--========//footer=========== -->
+</div>
+</body>
+</html>

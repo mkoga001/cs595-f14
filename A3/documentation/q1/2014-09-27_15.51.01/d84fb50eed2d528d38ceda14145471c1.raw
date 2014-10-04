@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Lifting Digest :: Home</title>
+<meta name="description" content="" />
+<meta name="generator" content="concrete5 - 5.6.3.1" />
+<script type="text/javascript">
+var CCM_DISPATCHER_FILENAME = '/index.php';var CCM_CID = 1;var CCM_EDIT_MODE = false;var CCM_ARRANGE_MODE = false;var CCM_IMAGE_PATH = "/concrete/images";
+var CCM_TOOLS_PATH = "/index.php/tools/required";
+var CCM_BASE_URL = "http://LiftingDigest.com";
+var CCM_REL = "";
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="/concrete/css/ccm.base.css" />
+<script type="text/javascript" src="/concrete/js/jquery.js"></script>
+<script type="text/javascript" src="/concrete/js/ccm.base.js"></script>
+<style type="text/css"> 
+#blockStyle530Main2 {background-repeat:no-repeat; } 
+#blockStyle796HeaderImage68 {background-repeat:no-repeat; margin:0 0 0 95px; padding:2px 0 0 0; } 
+#blockStyle414Main38 {background-repeat:no-repeat; margin:-10px 0 0 0; padding:-100px 0 0 0; } 
+</style>
+<link rel="stylesheet" type="text/css" href="/concrete/blocks/slideshow/view.css" />
+<link rel="stylesheet" type="text/css" href="/concrete/blocks/guestbook/view.css" />
+
+<!-- Site Header Content //-->
+
+<link rel="stylesheet" href="/concrete/themes/greek_yogurt/css/reset.css" />
+<link rel="stylesheet" href="/concrete/themes/greek_yogurt/css/text.css" />
+<link rel="stylesheet" href="/concrete/themes/greek_yogurt/css/960_24_col.css" />
+<link rel="stylesheet" media="screen" type="text/css" href="/files/cache/css/greek_yogurt/main.css" />
+<link rel="stylesheet" media="screen" type="text/css" href="/files/cache/css/greek_yogurt/typography.css" />
+<link href='//fonts.googleapis.com/css?family=Merriweather:400,700,900,300' rel='stylesheet' type='text/css' />
+
+
+</head>
+
+<body>
+
+<!--start main container -->
+
+<div id="main-container" class="container_24">
+
+	<div id="header">
+	
+	
+			<div id="blockStyle414Main38" class=" ccm-block-styles" >
+<p style="text-align: left;"><a title="Home" href="/">                                                          <span style="font-size: medium;"><img style="display: block; margin-left: auto; margin-right: auto;" src="/files/3513/9828/9361/logo4.png" alt="logo4.png" width="553" height="110" /></span></a></p></div>
+<div id="HTMLBlock1095" class="HTMLBlock">
+<script type="text/javascript">
+var ipad = true;               // Set to false to not redirect on iPad.
+var other_tablets = true;  // Set to false to not redirect on other tablets.
+var mobile_domain = 'liftingdigest2.bmobilized.com';
+document.write(unescape("%3Cscript src='" + location.protocol + "//s3.amazonaws.com/me.static/js/me.redirect.min.js' type='text/javascript'%3E%3C/script%3E"));
+</script></div>
+				
+		<div id="header-image">
+		
+			
+<script type="text/javascript">
+//<![CDATA[
+var ccmSlideShowHelper58 = {
+
+	bID:58,
+	imgNum:0,
+	
+	init:function(){
+		this.displayWrap=$('#ccm-SlideshowBlock-display'+this.bID); 
+		if(this.imgInfos.length==0){
+			//alert('There are no images in this slideshow');
+			return false;
+		}
+		var maxHeight=0;
+		for(var i=0;i<this.imgInfos.length;i++){
+			this.addImg(i);
+			if(maxHeight==0 || this.imgInfos[i].imgHeight > maxHeight)
+				maxHeight=this.imgInfos[i].imgHeight;
+		}
+		this.displayWrap.css('height',maxHeight);
+
+		
+		//center images
+		for(var i=0;i<this.imgInfos.length;i++){ 
+			if( this.imgInfos[i].imgHeight < maxHeight){
+				var t=((maxHeight - this.imgInfos[i].imgHeight)/2);
+				this.imgEls[i].css('top',t);
+			}
+		}
+		this.nextImg();
+	}, 
+	nextImg:function(){ 
+		if(this.imgNum>=this.imgInfos.length) this.imgNum=0;  
+		this.imgEls[this.imgNum].css('opacity',0);
+		this.imgEls[this.imgNum].css('display','block');
+		this.imgEls[this.imgNum].animate({opacity:1},
+			this.imgInfos[this.imgNum].fadeDuration*1000,'',function(){ccmSlideShowHelper58.preparefadeOut()});
+		var prevNum=this.imgNum-1;
+		if(prevNum<0) prevNum=this.imgInfos.length-1;
+		if(this.imgInfos.length==1) return;
+		this.imgEls[prevNum].animate({opacity:0},this.imgInfos[this.imgNum].fadeDuration*800,function(){this.style.zIndex=1;});			
+	},
+	preparefadeOut:function(){
+		if(this.imgInfos.length==1) return;
+		var milisecDuration=parseInt(this.imgInfos[this.imgNum].duration)*1000;
+		this.imgEls[this.imgNum].css('z-index',2);
+		setTimeout('ccmSlideShowHelper'+58+'.nextImg();',milisecDuration);
+		this.imgNum++;
+	},
+	maxHeight:0,
+	imgEls:[],
+	addImg:function(num){
+		var el=document.createElement('div');
+		el.id="slideImgWrap"+num;
+		el.className="slideImgWrap"; 
+		if(this.imgInfos[num].fullFilePath.length>0)
+			 imgURL=this.imgInfos[num].fullFilePath;
+		else imgURL='/files/'+this.imgInfos[num].fileName; 
+		//el.innerHTML='<img src="'+imgURL+'" >';
+		el.innerHTML='<div style="height:'+this.imgInfos[num].imgHeight+'px; background:url(\''+escape(imgURL)+'\') center no-repeat">&nbsp;</div>';
+		//alert(imgURL);
+		if(this.imgInfos[num].url.length>0) {
+			//el.linkURL=this.imgInfos[num].url;
+			var clickEvent='onclick="return ccmSlideShowHelper58.imgClick( this.href  );"';
+			el.innerHTML='<a href="'+this.imgInfos[num].url+'" '+clickEvent+' >'+el.innerHTML+'</a>';			
+		}
+		el.style.display='none';
+		this.displayWrap.append(el);
+		var jqEl=$(el);
+		this.imgEls.push(jqEl);
+	},
+	imgClick:function(linkURL){
+		//override for custom behavior
+	},
+	imgInfos:[
+				{
+				fileName:"13.jpg",
+				fullFilePath:"/files/3613/9820/1048/13.jpg",
+				duration:5,
+				fadeDuration:2,		
+				url:"",
+				groupSet:0,
+				imgHeight:212			}
+		,			{
+				fileName:"14.jpg",
+				fullFilePath:"/files/8613/9820/1037/14.jpg",
+				duration:5,
+				fadeDuration:2,		
+				url:"",
+				groupSet:0,
+				imgHeight:212			}
+		,			{
+				fileName:"3.jpg",
+				fullFilePath:"/files/3413/9820/0288/3.jpg",
+				duration:5,
+				fadeDuration:2,		
+				url:"",
+				groupSet:0,
+				imgHeight:212			}
+			]
+}
+$(function(){ccmSlideShowHelper58.init();}); 
+//]]>
+</script>
+
+<div id="ccm-SlideshowBlock-display58" style="height:212px" class="ccm-SlideshowBlock-display">
+<div id="ccm-SlideshowBlock-heightSetter58" class="ccm-SlideshowBlock-heightSetter"></div>
+<div class="ccm-SlideshowBlock-clear" ></div>
+</div>
+<p style="text-align: center;"><span style="font-size: xx-large; font-family: 'arial black', 'avant garde';">YOUR #1 SOURCE FOR FITNESS</span></p>	<div id="blockStyle796HeaderImage68" class=" ccm-block-styles" >
+
+<div id="HTMLBlock796" class="HTMLBlock">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- add -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-1290431401722754"
+     data-ad-slot="4757886227"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div>		
+		</div>
+		
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div class="clear"></div>
+
+	<div id="main-content-container" class="grid_16">
+		<div id="main-content-inner">
+		
+			<p style="text-align: center;"><a title="top ten 1" href="/index.php/top-10-foods/top-ten-1/"><img src="/files/5813/9908/9698/muscle-building-foods.jpg" alt="muscle-building-foods.jpg" width="500" height="327" /></a></p>
+<p style="text-align: center;"><span style="font-size: xx-large; font-family: arial, helvetica, sans-serif;">TOP 10 MUSCLE BUILDING FOODS                         </span></p><p><a title="ab 1" href="/index.php/best-ab-exercises/ab-1/"><img style="display: block; margin-left: auto; margin-right: auto;" src="/files/9613/9929/6857/images-8.jpeg" alt="images-8.jpeg" width="275" height="183" /></a></p>
+<p><span style="font-size: xx-large; font-family: arial, helvetica, sans-serif;">             BEST AB EXERCISES</span></p><p style="text-align: center;"><a title="Pet Peeve 1" href="/index.php/gym-pet-peeves/pet-peeve-1/"><img style="display: block; margin-left: auto; margin-right: auto;" src="/files/2814/0468/5809/images-2.jpeg" alt="images-2.jpeg" width="310" height="163" /></a><span style="font-size: xx-large; font-family: 'arial black', 'avant garde';">GYM PET PEEVES</span></p><p style="text-align: center;"><a title="Creatine" href="/index.php/creatine/"><span style="font-size: x-large; font-family: arial, helvetica, sans-serif;"><img src="/files/9113/9918/0207/PCrMolecularStructure.jpg" alt="PCrMolecularStructure.jpg" width="368" height="212" /></span></a></p>
+<p style="text-align: center;"><span style="font-size: xx-large; font-family: arial, helvetica, sans-serif;">THE TRUTH ABOUT CREATINE</span></p>	<div id="blockStyle530Main2" class=" ccm-block-styles" >
+<p><a title="TOP 5 PROTEIN POWDERS" href="/index.php/blog/top-5-protein-powders/"> <img src="/files/8413/9873/9432/protein-powder.jpg" alt="protein-powder.jpg" width="566" height="355" /></a></p>
+<p style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: xx-large;">TOP 5 PROTEIN POWDERS</span></p></div><p><a title="body type 1" href="/index.php/body-type/body-type-1/"><img style="display: block; margin-left: auto; margin-right: auto;" src="/files/8113/9904/3894/lUK14gpU.jpg-small.jpeg" alt="lUK14gpU.jpg-small.jpeg" width="340" height="331" /> </a></p>
+<p style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: xx-large;">WHAT BODY TYPE ARE YOU?</span></p><p style="text-align: center;"><a title="Page 3" href="/index.php/top-31/page-3/"><img src="/files/2913/9818/4389/image14-480x320.jpg" alt="image14-480x320.jpg" width="577" height="378" /></a>      <span style="font-size: xx-large;">          </span></p>
+<p style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: xx-large;">TIPS TO LOSE STUBBORN FAT</span></p><p><a title="Workout" href="/index.php/workout/"><img style="display: block; margin-left: auto; margin-right: auto;" src="/files/5713/9908/9854/post-workout-supplementation.jpg" alt="post-workout-supplementation.jpg" width="530" height="265" /></a></p>
+<p style="text-align: center;"><span style="font-size: xx-large; font-family: arial, helvetica, sans-serif;">Post Workout Nutrition</span></p><p><a href="http://liftingdigest.com/index.php/techniques/"><img src="/files/9713/9818/4423/image19-480x320.jpg" alt="image19-480x320.jpg" width="582" height="388" /></a></p>
+<p style="text-align: center;"><span style="font-size: xx-large; font-family: arial, helvetica, sans-serif;">GAIN MASS WITH DROP SETS</span></p><p style="text-align: center;"><span style="font-size: large; text-align: center;"><a title="chest 1" href="/index.php/chest-workout/chest-1/"><img src="/files/2513/9929/6533/images-6.jpeg" alt="images-6.jpeg" width="256" height="197" /><br /></a><br /></span><span style="font-size: large; text-align: center;">7 EXERCISES FOR A STRONG, CHISELED CHEST</span></p><p style="text-align: center;"><a title="Gym 1" href="/index.php/gym1/gym-1/"><img style="display: block; margin-left: auto; margin-right: auto;" src="/files/3014/0519/2325/images-5.jpeg" alt="images-5.jpeg" width="318" height="159" /></a><span style="font-size: xx-large;">BEST TRICEP EXERCISES</span></p><p><a title="NFL1" href="/index.php/nfl/nfl1/"><img src="/files/1113/9965/9689/lose-weight-gained-from-alcohol1.jpg" alt="lose-weight-gained-from-alcohol1.jpg" width="585" height="270" /></a></p>
+<p style="text-align: center;"><span style="font-size: x-large; font-family: 'arial black', 'avant garde';">EFFECTS OF ALCOHOL ON THE BODY</span></p><p style="text-align: center;"><a title="page 1]" href="/index.php/planet-fitness/page-1/"><img src="/files/1713/9992/0438/the-best-pre-workout-supplements-who-makes-the-list-1675.jpg" alt="the-best-pre-workout-supplements-who-makes-the-list-1675.jpg" width="458" height="275" /></a></p>
+<p style="text-align: center;"><span style="font-size: large; font-family: 'arial black', 'avant garde';">TOP 5 PRE WORKOUT SUPPLEMENTS</span></p><p style="text-align: center;"><a title="deadlift 1" href="/index.php/deadlift/deadlift-1/"><img style="display: block; margin-left: auto; margin-right: auto;" src="/files/5213/9873/7194/gym-equipment-dumbbell.jpg" alt="gym-equipment-dumbbell.jpg" width="650" height="400" /></a><span style="font-family: 'arial black', 'avant garde'; font-size: x-large;">5 TIPS FOR A STRONGER DEADLIFT</span></p><p><a title="Leg day 1" href="/index.php/leg-day/leg-day-1/"><img style="display: block; margin-left: auto; margin-right: auto;" src="/files/5914/0495/9475/images-3.jpeg" alt="images-3.jpeg" width="229" height="220" /></a><span style="font-size: xx-large;">WHY YOU SHOULD NEVER SKIP LEG DAY</span></p><p><br /><a title="1" href="/index.php/post-workout/1/"><img style="display: block; margin-left: auto; margin-right: auto;" src="/files/7014/1176/9443/images-8.jpeg" alt="images-8.jpeg" width="336" height="125" /></a></p>
+<p style="text-align: center;">BEST POST WORKOUT MEALS</p><p><a title="page 10" href="/index.php/protein-bars/page-1/"><img style="display: block; margin-left: auto; margin-right: auto;" src="/files/3414/0345/8154/testosterone.jpeg" alt="testosterone.jpeg" width="400" height="305" /></a></p>
+<p style="text-align: center;"><span style="font-size: x-large; font-family: 'arial black', 'avant garde';">TIPS TO INCREASE TESTOSTERONE</span></p>
+<div id="HTMLBlock713" class="HTMLBlock">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- lifting 728x90 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-1290431401722754"
+     data-ad-slot="7903266226"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><img border="0" class="ccm-image-block" alt="" src="/files/9713/9873/7765/cropped-banner3.jpg" width="950" height="200" /><p><a title="page 10" href="/index.php/privacy-policy/page-10/">Privacy Policy</a></p>			
+		</div>
+	
+	</div>
+
+	<div id="right-sidebar-container" class="grid_8">
+
+		<div id="right-sidebar-inner">
+	
+			<div id="ccm-layout-wrapper-127" class="ccm-layout-wrapper"><div id="ccm-layout-sidebar-1-2" class="ccm-layout ccm-layout-table  ccm-layout-name-Sidebar-Layout-2 "><div class="ccm-layout-row ccm-layout-row-1"><div class="ccm-layout-1-col-1 ccm-layout-cell ccm-layout-col ccm-layout-col-1 first" style="width:33%">&nbsp;</div><div class="ccm-layout-1-col-2 ccm-layout-cell ccm-layout-col ccm-layout-col-2 " style="width:33%">&nbsp;</div><div class="ccm-layout-1-col-3 ccm-layout-cell ccm-layout-col ccm-layout-col-3 last" style="width:33.99%">&nbsp;</div><div class="ccm-spacer"></div></div></div></div><div id="ccm-layout-wrapper-128" class="ccm-layout-wrapper"><div id="ccm-layout-sidebar-2-1" class="ccm-layout ccm-layout-table  ccm-layout-name-Sidebar-Layout-1 "><div class="ccm-layout-row ccm-layout-row-1"><div class="ccm-layout-2-col-1 ccm-layout-cell ccm-layout-col ccm-layout-col-1 first" style="width:100%">
+<div id="HTMLBlock247" class="HTMLBlock">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- sidebar22 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-1290431401722754"
+     data-ad-slot="2352600222"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div><div class="ccm-spacer"></div></div></div></div><p><a class="twitter-timeline" href="https://twitter.com/WElGHTROOM" data-widget-id="459850033379024896">Tweets by @WElGHTROOM</a><br />
+<script type="text/javascript">// <![CDATA[
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+// ]]></script>
+</p>
+<p> </p><h4 class="guestBook-title">Comments</h4>
+	    <div class="guestBook-entry">
+    				<div class="contentByLine">
+				Posted by				<span class="userName">
+					Dave				</span> 
+				on				<span class="contentDate">
+					May 24th, 2014				</span>
+			</div>
+			Found you on Twitter really like the Good info...tka    </div>
+			
+		<a name="guestBookForm-168"></a>
+
+		<div id="guestBook-formBlock-168" class="guestBook-formBlock">
+
+			<h5 class="guestBook-formBlock-title">Leave a Reply</h5>
+			<form method="post" action="/index.php?cID=1&amp;bID=168&amp;arHandle=Sidebar&amp;ccm_token=1411847667:e93f265bf771d04fa1ab05f1d3285188&amp;btask=passthru&amp;method=form_save_entry#guestBookForm-168">
+						
+							<label for="name">Name:</label><br />
+				<input type="text" name="name" value="" /> <br />
+				<label for="email">Email:</label><br />
+				<input type="email" name="email" value="" /> <span class="note">(Your email will not be publicly displayed.)</span> <br />
+						
+						<textarea name="commentText"></textarea><br />
+			<label for="captcha" class="control-label">Please type the letters and numbers shown in the image.</label><div><input type="text" name="ccmCaptchaCode" class="ccm-input-captcha"  /></div><br/><div><img src="/index.php/tools/required/captcha?nocache=1411847667" alt="Captcha Code" onclick="this.src = '/index.php/tools/required/captcha?nocache='+(new Date().getTime())" class="ccm-captcha-image" /></div><br/><div>Click the image to see another captcha.</div>			<br/><br/>
+			<input type="submit" name="Post Comment" value="Post Comment" class="button"/>
+			</form>
+		</div>
+				
+		</div>
+	
+	</div>
+	
+	<!-- end sidebar -->
+	
+<div class="clear"></div>
+	
+	<div id="footer">
+	
+		<div id="footer-inner">
+		
+			<p class="footer-sign-in">
+							<span class="sign-in"><a href="/index.php/login/">Sign In to Edit this Site</a></span>
+						</p>
+			
+			<div class="clear"></div>
+			<p class="footer-copyright">&copy;2014 Lifting Digest.</p>
+			<p class="footer-tag-line">Built with <a href="http://www.concrete5.org/" alt="Free Content Management System" target="_blank">concrete5 - an open source CMS</a></p>
+	
+		</div>
+	
+	</div>
+
+<!-- end main container -->
+
+</div>
+
+
+</body>
+</html>

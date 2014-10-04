@@ -1,0 +1,1895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=10"/><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwMDWFBWGwIGU1hWBwM="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e){function n(t,e,n){n||(n={});for(var r=o[t],a=r&&r.length||0,s=n[i]||(n[i]={}),u=0;a>u;u++)r[u].apply(s,e);return s}function r(t,e){var n=o[t]||(o[t]=[]);n.push(e)}var o={},i="nr@context";e.exports={on:r,emit:n}},{}],2:[function(t){function e(t,e,n,i,s){return u?u-=1:r("err",[s||new UncaughtException(t,e,n)]),"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t(5),a=window.onerror,s=!1,u=0;t("loader").features.push("err"),window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(d){"stack"in d&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(4),s=!0)}i.on("fn-start",function(){s&&(u+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&u>0&&(u-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:5,2:4,3:3,4:6,5:1,6:14,handle:"D5DuLP",loader:"G9z0Bl"}],3:[function(t){function e(t){r.inPlace(t,["addEventListener","removeEventListener"],"-",n)}function n(t){return t[1]}var r=t(1),o=(t(3),t(2));if(e(window),"getPrototypeOf"in Object){for(var i=document;i&&!i.hasOwnProperty("addEventListener");)i=Object.getPrototypeOf(i);i&&e(i);for(var a=XMLHttpRequest.prototype;a&&!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&&e(a)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&e(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=r(e,"fn-"):"function"==typeof e.handleEvent&&r.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:15,2:1,3:14}],4:[function(t){var e=(t(3),t(1)),n=t(2);e.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=e(t[0],"fn-")})},{1:15,2:1,3:14}],5:[function(t){function e(t){var e=t[0];"string"==typeof e&&(e=new Function(e)),t[0]=n(e,"fn-")}var n=(t(3),t(1)),r=t(2);n.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",e)},{1:15,2:1,3:14}],6:[function(t){function e(){o.inPlace(this,s,"fn-")}function n(t,e){o.inPlace(e,["onreadystatechange"],"fn-")}function r(t,e){return e}var o=t(1),i=t(2),a=window.XMLHttpRequest,s=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];window.XMLHttpRequest=function(t){var n=new a(t);try{i.emit("new-xhr",[],n),o.inPlace(n,["addEventListener","removeEventListener"],"-",function(t,e){return e}),n.addEventListener("readystatechange",e,!1)}catch(r){try{i.emit("internal-error",r)}catch(s){}}return n},window.XMLHttpRequest.prototype=a.prototype,o.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",r),i.on("send-xhr-start",n),i.on("open-xhr-start",n)},{1:15,2:1}],7:[function(t){function e(){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;u>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,d="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,f=e(d);if(f&&(r.rxSize=f),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}t("loader").features.push("xhr");var o=t("handle"),i=t(1),a=t(5),s=["load","error","abort","timeout"],u=s.length,d=t(2);t(3),t(4),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var d=e(o);d&&(r.txSize=d)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",e)}catch(r){}}};for(var f=0;u>f;f++)n.addEventListener(s[f],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&e()},{1:8,2:11,3:3,4:6,5:1,handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e){var n=r[t];return n?n.apply(this,e):(o[t]||(o[t]=[]),void o[t].push(e))}var r={},o={};e.exports=n,n.queues=o,n.handlers=r},{}],11:[function(t,e){function n(t){if(!t||"object"!=typeof t&&"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&u&&u.body){p.proto="https"===c.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=u.createElement("script");e.src=p.proto+t.agent,u.body.appendChild(e)}}function r(){"complete"===u.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,u=s.document,d="addEventListener",f="attachEvent",c=(""+location).split("?")[0],p=e.exports={offset:i(),origin:c,features:[]};u[d]?(u[d]("DOMContentLoaded",o,!1),s[d]("load",n,!1)):(u[f]("onreadystatechange",r),s[f]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],14:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],15:[function(t,e){function n(t,e,r,s){function nrWrapper(){try{var n,a=u(arguments),d=this,f=r&&r(a,d)||{}}catch(c){i([c,"",[a,d,s],f])}o(e+"start",[a,d,s],f);try{return n=t.apply(d,a)}catch(p){throw o(e+"err",[a,d,p],f),p}finally{o(e+"end",[a,d,n],f)}}return a(t)?t:(e||(e=""),nrWrapper[n.flag]=!0,nrWrapper)}function r(t,e,r,o){r||(r="");var i,s,u,d="-"===r.charAt(0);for(u=0;u<e.length;u++)s=e[u],i=t[s],a(i)||(t[s]=n(i,d?s+r:r,o,s,t))}function o(t,e,n){try{s.emit(t,e,n)}catch(r){i([r,t,e,n])}}function i(t){try{s.emit("internal-error",t)}catch(e){}}function a(t){return!(t&&"function"==typeof t&&t.apply&&!t[n.flag])}var s=t(1),u=t(2);e.exports=n,n.inPlace=r,n.flag="nr@wrapper"},{1:1,2:14}]},{},["G9z0Bl",2,7]);</script>
+    <title>allkpop | Breaking K-pop news, videos, photos and celebrity gossip</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/css; charset=utf-8"/>
+    <meta name="keywords" content="allkpop"/>
+    <meta id="meta_description" name="description" content="Breaking K-pop news, videos, photos and celebrity gossip | allkpop"/>
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no" />
+    <meta name="google-site-verification" content="j9-UrR1vZDnFuqEki8rQrHppAHzBCh00NF290OFt4sM" />
+        <meta property="og:type" content="article" />
+    <meta property="og:url" id="fb_url" content="http://www.allkpop.com/"/>
+    <meta property="og:title" id="fb_title" content="allkpop | Breaking K-pop news, videos, photos and celebrity gossip"/>
+    <meta property="og:image" id="fb_image" content="http://allkpop.com/img/logo-akp-icon.png"/>
+    <meta property="og:description" id="fb_description" content="Breaking K-pop news, videos, photos and celebrity gossip | allkpop"/> 
+    <!--Twitter--> 
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@allkpop">
+    <meta name="twitter:creator" content="@allkpop">
+    <meta name="twitter:domain" content="allkpop.com">
+    <meta id="tw_url" name="twitter:url" content="http://www.allkpop.com/">
+    <meta id="tw_title" name="twitter:title" content="allkpop | Breaking K-pop news, videos, photos and celebrity gossip">
+    <meta id="tw_description" name="twitter:description" content="Breaking K-pop news, videos, photos and celebrity gossip | allkpop">
+    <meta id="tw_image" name="twitter:image:src" content="http://allkpop.com/img/logo-akp-icon.png">
+    <meta name="twitter:widgets:csp" content="on">
+    
+    <link rel="shortcut icon" href="http://static1.allkpop.com/img/favicon.ico"/>
+    <link href="http://static1.allkpop.com/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://static1.allkpop.com/css/jquery.fancybox.css" rel="stylesheet" type="text/css">
+    <link href="/css/font-awesome.css" rel="stylesheet">
+    <link href="http://static1.allkpop.com/css/new_style.css" rel="stylesheet">
+    <link href="http://static1.allkpop.com/css/mobile.css" rel="stylesheet">
+    <link href="http://static2.allkpop.com/redactor/redactor/redactor.css" rel="stylesheet"/>
+    <link href="http://www.google.com/cse/style/look/default.css" rel="stylesheet" type="text/css" />
+    <link href="http://static1.allkpop.com/css/gse.css" rel="stylesheet"/>
+    
+    <!--[if lt IE 9]>
+	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<!-- comScore Tag --><script>var _comscore = _comscore || [];_comscore.push({ c1: "2", c2: "17094247" });(function(){var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";el.parentNode.insertBefore(s, el);})();</script><noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=17094247&cv=2.0&cj=1" /></noscript>
+<script type="text/javascript">
+
+var sbElementInterval = setInterval(function(){sbElementCheck()}, 50);
+
+function sbElementCheck() {
+
+    var targetedElement = document.getElementById('ingageunit');
+    if(targetedElement) {
+        clearInterval(sbElementInterval);
+        (function(d) {
+            var js, s = d.getElementsByTagName('script')[0];
+            js = d.createElement('script');
+            js.async = true;
+            js.onload = function(e) {
+                SbInGageWidget.init({
+                    partnerId : 269,
+                    widgetId : 'akpp008',
+                    cmsPath : 'http://cms.springboardplatform.com'
+                });
+            }
+            js.src = "http://cdn.springboardplatform.com/storage/js/ingage/apingage.min.js";
+            s.parentNode.insertBefore(js, s);
+        })(window.document);
+    }
+}
+</script>
+</head>
+<body class="homepage" id="bd_id" >
+<div id="fb-root"></div>
+<script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/en_US/all.js#xfbml=1";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));</script>
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({article:'auto'});
+  !function (e, f, u) {
+      e.async = 1;
+      e.src = u;
+      f.parentNode.insertBefore(e, f);
+  }(document.createElement('script'), document.getElementsByTagName('script')[0], 'http://cdn.taboola.com/libtrc/theory6-network/loader.js');
+</script> 
+<script src="https://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">google.load('search', '1', {language : 'en'});</script>
+<script src="http://static3.allkpop.com/js/jquery-1.8.3.min.js"></script>
+<div class="top_panel drawer" style="z-index:9999999 !important;">
+    <div class="negative_panel"></div>
+	<section class="akp-player">	
+    	<div class="akp-player-bar">	
+    		<div class="wrap-player container">
+    			<div class="branding-compact pull-left">
+    				<div id="login-wrapper-btn" class="pull-left">
+                                                    <a href="/"><img src="http://static1.allkpop.com/img/logo-akp-clear@2x.png"></a>
+                                				<i class="home_arrow dropdown icon-caret-down" style="margin-left:5px;"></i>
+        				<nav id="logo-menu" class="pull-left" style="width:200px!important;">
+        					<div class="submenu pull-left">
+        						<div id="submenu-item1"><a href="/"><i class="icon-copy"></i><span> Home</span></a></div>
+        						<div id="submenu-item1"><a href="/features"><i class="icon-star"></i><span> Features</span></a></div>
+                                <div id="submenu-item1"><a href="javascript:void(0);" class="menu_buzz"><img src="http://static2.allkpop.com/img/buzz_icon.png" style="margin:0;width: 25px;height: 25px;"><span> Buzz</span></a></div>
+                                <div id="submenu-item1"><a href="/meme"><i class="icon-facetime-video"></i><span> Memes</span></a></div>
+                                <div id="submenu-item1"><a href="/photos"><i class="icon-camera"></i><span> Photos</span></a></div>
+        						<div id="submenu-item1"><a href="/shop"><i class="icon-shopping-cart"></i><span> Shop</span></a></div>
+        						<div id="submenu-item1"><a href="/forums"><i class="icon-group"></i><span> Forums</span></a></div>
+        					</div>
+        				</nav>
+    				</div>
+    			</div>
+                <section class="newtoday pull-left" style="float: left;">
+					<div class="dropdown">
+						<a href="javascript:void(0);" class="dropdown-toggle count" role="button" data-toggle="dropdown" data-target="#" data-close-others="true">21 New Stories Today <i class="icon-caret-down pull-right"></i></a>
+						<div class="clearfix"></div>
+                   		<div class="dropdown-menu articles-new" role="menu" data-value="hidden" style="display: none;">
+                            <div id="new_article_container"></div>
+                            <div class="new_story_footer">
+                                <div class="new_story_loading" style="display: none;text-align: center;"><img src="http://static1.allkpop.com/img/loader.gif"></div>
+                        		<a href="javascript:void(0);" class="new_story_result" data-value="" data-date=""></a>
+							</div>
+                        </div>
+					</div>
+				</section>
+                <section class="trendingnow pull-left" style="float: left;">
+					<div class="dropdown1">
+						<a href="javascript:void(0);" class="dropdown-toggle1 count" role="button" data-toggle="dropdown1" data-target="#" data-close-others="true">Top 10 Trending Stories <i class="icon-caret-down pull-right"></i></a>
+						<div class="clearfix"></div>
+                   		<div class="dropdown-menu trending-now" role="menu" data-value="hidden" style="display: none;">
+                            <div id="trending_now_container"></div>
+                            <div class="trending_now_footer">
+                                <a href="javascript:void(0);" class="trending_now_result" data-value=""></a>
+							</div>
+                        </div>
+					</div>
+				</section>
+                <div class="menu-meta pull-right">
+					<div class="pointbank pull-left"></div>
+					<div class="wrap-search pull-left">
+					   <form class="search-from">
+							<input type="text" name="q" id="s" placeholder="Search allkpop">
+				            <div class="pop-shop"><span class="search_tag">Articles</span>
+				                <div class="popupsearch" style="display: none;">
+				                    <div class="popupsearch-inner">
+				                        <span class="arrup"></span>
+				                        <ul class="search_ul" style="margin: 0;list-style-type: none;"> 
+				                            <li class="search_articles">Articles</li>
+				                            <!--<li class="search_photos">Photos</li>
+				                            <li class="search_videos">Videos</li>
+				                            <li class="search_shops">Shop</li>-->
+				                            <li class="search_forums">Forums</li>
+				                        </ul>
+				                    </div>
+				                </div>
+				            </div>
+							<a href="javascript:void(0);" class="btn-seach">Go</a>
+						</form>
+				    </div>
+                                        <div id="login-wrapper" class="pull-left"><i class="login_arrow dropdown icon-caret-down" style="margin-top:25px; margin-left:60px;"></i></div>
+                    <div id="login-drop" class="pull-right before_login" style="margin-left: 76px;">
+                                                    login with
+			        		<ul class="share-panel pull-left" style="margin:10px 0;">
+			        			<!--<li style="margin-right:2px"><button class="panel-scrap" data-service-name="6theory" title="6Theory" style="background:no-repeat url(/img/share-icons.png) 0 -596px;"></button></li>-->
+			        			<li style="margin-right:2px"><button class="panel-fb akp_fb_signin" data-service-name="facebook" title="Facebook" data-tooltip-text="" style=""></button></li>
+			        			<li style="margin-right:2px"><button class="panel-tw akp_tw_signin" data-service-name="twitter" title="Twitter" data-tooltip-text=""></button></li>
+                                <li style="width:50px;margin-right:2px"></li>
+			        		</ul> 
+					        <div class="clearfix"></div>
+					        or
+					        <div class="clearfix"></div>
+					        login / register</br> with us, 6theory
+                            <div class="alert login_alert_error alert-error" style="width:200px;display: none; font-size:9px;padding: 5px;margin: 5px 0px;"></div>
+                            <div class="search-from login-top pull-left" style="margin:10px 0 0 0; width: 210px;"><input id="email_input" class="email_input" name="email" type="text" placeholder="E-mail Address" style="width:200px;"></div>
+					        <div class="search-from login-top pull-left" style="margin:5px 0 10px 0; width: 210px;"><input id="password_input" class="password_input" name="u_pass" type="password" placeholder="Password" style="width:200px;"></div>
+                            <div style="font-size: 12px;">Remember Me <input id="remember_me_check" type="checkbox" name="remember_me" style="margin-top: -1px;" value="1" /><br /><a href="/forgot_pwd" class="forgotpass">forgot password?</a></div>
+							<button type="button" class="btn-cmt btn-cmt-akp pull-left login_btn">Login</button>
+							<button type="button" class="btn-cmt pull-left register_btn" style="color:black;margin-left:4px;">Register</button>
+                            
+                                            </div>
+        		</div>
+    		</div>
+    	</div>
+    </section>
+</div>
+<div class="wrap-header clearfix"></div>
+<script src="http://static3.allkpop.com/js/top_scroll.js"></script>
+<script type="text/javascript">
+var popup_flag=1;
+function doDashes(str) {var re = /[^a-z0-9]+/gi,re2 = /^-*|-*$/g;str = str.replace(re, '-');return str.replace(re2, '').toLowerCase();}
+function search_tag_update(search_tag){
+    if(search_tag.toLowerCase()=="forums"){search_tag="Forums";$('.search_tag').text(search_tag);$('.search_ul li').removeClass('curr');$('.search_forums').addClass('curr');}
+    else {search_tag="Articles";$('.search_tag').text(search_tag);$('.search_ul li').removeClass('curr');$('.search_articles').addClass('curr');}
+    
+    /*else if(search_tag.toLowerCase()=="photos"){search_tag="Photos";$('.search_tag').text(search_tag);$('.search_ul li').removeClass('curr');}
+    else if(search_tag.toLowerCase()=="videos"){search_tag="Videos";$('.search_tag').text(search_tag);$('.search_ul li').removeClass('curr');}
+    else if(search_tag.toLowerCase()=="shop"){search_tag="Shops";$('.search_tag').text(search_tag);$('.search_ul li').removeClass('curr');}
+    else{search_tag=search_tag.charAt(0).toUpperCase()+search_tag.slice(1);}*/
+}
+function close_all(){$('#login-drop').removeClass('active');$('#login-drop').hide();$('.login_arrow').removeClass('icon-caret-up').addClass('icon-caret-down');$('#menu-scrap').hide();$('#menu-scrap').removeClass('active');$('#menu-comments').hide();$('#menu-comments').removeClass('active');$('#menu-warning-sign').hide();$('#menu-warning-sign').removeClass('active');$('.popupsearch').hide();popup_flag=1;}
+function notification_link(oEvent,article_link,idx,view_chk){
+    var ctrlKey=oEvent.ctrlKey;
+    if(view_chk==0){$.post("/common/response.php",{mode:'view_notification',notification_idx:idx},function(data){if(data==1){if(ctrlKey){window.open(article_link,'_blank');return;}else{location.href=article_link;return;}}else if(data==-1){console.log("notification idx null");}});}else{if(ctrlKey){window.open(article_link,'_blank');return;}else{location.href=article_link;return;}}        
+}
+
+$(document).ready(function(){
+    $('.menu_buzz').click(function(){$.post("/set_article_flag.php",{article_flag:'buzz'},function(data){if(data==1){location.href="/";return;}});});
+    $('.RoleTitle').each(function(){if($(this).hasClass('Moderator')==1){$(this).css({'font-weight':'bold','font-size':'13px','color':'#5882FA'});$(this).closest('.Item-Header').css({'background':'#F5DA81'});}});
+    $(".pointbank-box").click(function() { 
+    	var mode = $('.top_panel').hasClass('active');
+    	if(mode==true){$('.top_panel').removeClass('active');$('.pointbank_arrow').removeClass('icon-caret-up').addClass('icon-caret-down');
+    	}else{$('.top_panel').addClass('active');$('.pointbank_arrow').removeClass('icon-caret-down').addClass('icon-caret-up');
+		}
+    });
+    $('#menu-scrap').scroll(function() {
+        clearTimeout( $.data( this, "scrapscrollCheck" ) );
+        $.data( this, "scrapscrollCheck", setTimeout(function() {
+            //console.log($('#menu-scrap').scrollTop() +", "+ $('#menu-scrap').height()+", "+ $('.top_forum_bookmark_screen').height());
+            if($('#menu-scrap').scrollTop() + $('#menu-scrap').height()-84 == $('.top_forum_bookmark_screen').height()){
+                if($('.top_forum_bookmark_result').attr('data-value')!=""&&$('.top_forum_bookmark_result').attr('data-value')!="end"){
+                    $('.bookmark_loading').show();
+                    $.post("/common/top_forum_bookmark.php",{page:$('.top_forum_bookmark_result').attr('data-value')},function(update_data){
+                        setTimeout(function(){
+                            $('.bookmark_loading').hide();
+                            if(update_data[0]==1){
+                                $('.top_forum_bookmark_screen').append(update_data[1]);
+                                if(update_data[2]!='end'){
+                                    $('.top_forum_bookmark_result').attr('data-value',update_data[2]);
+                                }else{
+                                    /*$('.top_forum_bookmark_result').attr('href','/forums/discussions/bookmarked');$('.top_forum_bookmark_result').attr('data-value',update_data[2]);$('.top_forum_bookmark_result').text('All Bookmarks');*/
+                                    $('.top_forum_bookmark_result').attr('data-value',update_data[2]);$('.top_forum_bookmark_result').text('No more scraps');
+                                }
+                            }else if(update_data[0]=="-1"){console.log("Please login forum side.");return;}
+                        }, 500);
+                    },"json");
+                }
+            }
+        }, 250));
+    })
+    $('.scrap_btn').click(function(){
+        var mode=$('#menu-scrap').hasClass('active');
+        if(mode==true){$('#menu-scrap').hide();$('#menu-scrap').removeClass('active');$('body').removeClass('noscroll');
+        }else{close_all();$('body').addClass('noscroll');$('#menu-scrap').show();$('#menu-scrap').addClass('active');$('#menu-comments').hide();$('#menu-comments').removeClass('active');$('#menu-warning-sign').hide();$('#menu-warning-sign').removeClass('active');
+            if($('.top_forum_bookmark_screen').html()==""){
+                $('.bookmark_loading').show();
+                $.post("/common/top_forum_bookmark.php",{page:''},function(update_data){
+                    console.log(update_data);
+                    $('.bookmark_loading').hide();
+                    if(update_data[0]==1){
+                        $('.top_forum_bookmark_screen').html(update_data[1]);
+                        if(update_data[2]!='end'){
+                            $('.top_forum_bookmark_result').attr('data-value',update_data[2]);
+                        }else{
+                            /*$('.top_forum_bookmark_result').attr('href','/forums/discussions/bookmarked');$('.top_forum_bookmark_result').attr('data-value',update_data[2]);$('.top_forum_bookmark_result').text('All Bookmarks');*/
+                            $('.top_forum_bookmark_result').attr('data-value',update_data[2]);$('.top_forum_bookmark_result').text('No more scraps');
+                        }
+                    }else if(update_data[0]=="-1"){console.log("Please login forum side.");return;}
+                },"json");
+            }
+        }
+    });
+    $('#menu-comments').scroll(function() {
+        clearTimeout( $.data( this, "commentscrollCheck" ) );
+        $.data( this, "commentscrollCheck", setTimeout(function() {
+            if($('#menu-comments').scrollTop() + $('#menu-comments').height()-84 == $('.top_forum_message_screen').height()){
+                if($('.top_forum_message_result').attr('data-value')!=""&&$('.top_forum_message_result').attr('data-value')!="end"){
+                    $('.message_loading').show();
+                    $.post("/common/top_forum_message.php",{page:$('.top_forum_message_result').attr('data-value'),top_forum_message_alert:$('.top_forum_message_alert').text()},function(update_data){
+                        setTimeout(function(){
+                            $('.message_loading').hide();
+                            if(update_data[0]==1){
+                                $('.top_forum_message_screen').append(update_data[1]);
+                                if(update_data[2]!='end'){
+                                    $('.top_forum_message_result').attr('data-value',update_data[2]);
+                                }else{
+                                    $('.top_forum_message_result').attr('href','/forums/messages/all');$('.top_forum_message_result').attr('data-value',update_data[2]);$('.top_forum_message_result').text('All Messages');
+                                }
+                            }else if(update_data[0]=="-1"){console.log("Please login forum side.");return;}
+                        }, 500);
+                    },"json");
+                } 
+            }
+        }, 250));
+    })
+    $('.comment_btn').click(function(){
+        var mode=$('#menu-comments').hasClass('active');
+        if(mode==true){$('#menu-comments').hide();$('#menu-comments').removeClass('active');$('body').removeClass('noscroll');
+        }else{close_all();$('body').addClass('noscroll');$('#menu-scrap').hide();$('#menu-scrap').removeClass('active');$('#menu-comments').show();$('#menu-comments').addClass('active');$('#menu-warning-sign').hide();$('#menu-warning-sign').removeClass('active');
+            if($('.top_forum_message_screen').html()==""){
+                $('.message_loading').show();
+                $.post("/common/top_forum_message.php",{page:'',top_forum_message_alert:$('.top_forum_message_alert').text()},function(update_data){
+                    $('.message_loading').hide();
+                    if(update_data[0]==1){
+                        $('.top_forum_message_screen').html(update_data[1]);
+                        if(update_data[2]!='end'){
+                            $('.top_forum_message_result').attr('data-value',update_data[2]);
+                        }else{
+                            $('.top_forum_message_result').attr('href','/forums/messages/all');$('.top_forum_message_result').attr('data-value',update_data[2]);$('.top_forum_message_result').text('All Messages');
+                        }
+                    }else if(update_data[0]=="-1"){console.log("Please login forum side.");return;}
+                },"json");
+            }
+        }
+    });
+    $('#menu-warning-sign').scroll(function() {
+        clearTimeout( $.data( this, "notificationscrollCheck" ) );
+        $.data( this, "notificationscrollCheck", setTimeout(function() {
+            if($('#menu-warning-sign').scrollTop() + $('#menu-warning-sign').height()-84 == $('.top_forum_notification_screen').height()){
+                if($('.top_forum_notification_result').attr('data-value')!=""&&$('.top_forum_notification_result').attr('data-value')!="end"){
+                    $('.notification_loading').show();
+                    $.post("/common/top_forum_notification.php",{page:$('.top_forum_notification_result').attr('data-value'),top_forum_notification_alert:$('.top_forum_notification_alert').text()},function(update_data){
+                        setTimeout(function(){
+                            $('.notification_loading').hide();
+                            if(update_data[0]==1){
+                                $('.top_forum_notification_screen').append(update_data[1]);
+                                if(update_data[2]!='end'){
+                                    $('.top_forum_notification_result').attr('data-value',update_data[2]);
+                                }else{
+                                    /*$('.top_forum_notification_result').attr('href','/forums/profile/notifications');$('.top_forum_notification_result').attr('data-value',update_data[2]);$('.top_forum_notification_result').text('All Notifications');*/
+                                    $('.top_forum_notification_result').attr('data-value',update_data[2]);$('.top_forum_notification_result').text('No more notifications');
+                                }
+                            }else if(update_data[0]=="-1"){console.log("Please login forum side.");return;}
+                        }, 500);
+                    },"json");
+                }
+            }
+        }, 250));
+    })
+    $('.warning_btn').click(function(){
+        var mode=$('#menu-warning-sign').hasClass('active');
+        if(mode==true){$('#menu-warning-sign').hide();$('#menu-warning-sign').removeClass('active');$('body').removeClass('noscroll');
+        }else{close_all();$('body').addClass('noscroll');$('#menu-scrap').hide();$('#menu-scrap').removeClass('active');$('#menu-comments').hide();$('#menu-comments').removeClass('active');$('#menu-warning-sign').show();$('#menu-warning-sign').addClass('active');
+            if($('.top_forum_notification_screen').html()==""){
+                $('.notification_loading').show();
+                $.post("/common/top_forum_notification.php",{page:'',top_forum_notification_alert:$('.top_forum_notification_alert').text(),total_notification_flag:$('.top_forum_notification_alert').attr('data-value')},function(update_data){
+                    $('.notification_loading').hide();
+                    if(update_data[0]==1){
+                        $('.top_forum_notification_screen').html(update_data[1]);
+                        $('.top_forum_notification_alert').css({'display':'none'});
+                        if(update_data[2]!='end'){
+                            $('.top_forum_notification_result').attr('data-value',update_data[2]);
+                        }else{
+                            /*$('.top_forum_notification_result').attr('href','/forums/profile/notifications');$('.top_forum_notification_result').attr('data-value',update_data[2]);$('.top_forum_notification_result').text('All Notifications');*/
+                            $('.top_forum_notification_result').attr('data-value',update_data[2]);$('.top_forum_notification_result').text('No more notifications');
+                        }
+                    }else if(update_data[0]=="-1"){console.log("Please login forum side.");return;}
+                },"json");
+            }
+        }
+    });
+    $('#login-wrapper').click(function(){
+        var mode=$('#login-drop').hasClass('active');
+        if(mode==true){$('#login-drop').removeClass('active');$('#login-drop').hide();$('.login_arrow').removeClass('icon-caret-up').addClass('icon-caret-down');
+        }else{close_all();$('#login-drop').addClass('active');$('#login-drop').show();$('.login_arrow').removeClass('icon-caret-down').addClass('icon-caret-up');
+        }
+    });
+    $('.password_input').keypress(function(e){if(e.which==13){$('.login_btn').click();}});
+    $('.login_btn').click(function(){
+        if(!$(this).data('isClicked')){var link=$(this);link.data('isClicked',true);setTimeout(function(){link.removeData('isClicked')},1000);
+            var email=$('.email_input').val();
+            var u_pass=$('.password_input').val();
+            if(email==""){$('.login_alert_error').html('<strong>Error!</strong> Please enter your email address.').show();return;}
+            else{var mailformat=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;if(!email.match(mailformat)){$('.login_alert_error').html('<strong>Error!</strong> Invalid email address.').show();return;}}
+            if(u_pass==""){$('.login_alert_error').html('<strong>Error!</strong> Please enter your password.').show();return;}
+            $.post("/login_ok.php",{email:email,u_pass:u_pass,remember_me:'1'},function(data){
+                if(data==-1){$('.login_alert_error').html('<strong>Error!</strong> Incorrect information. Please try again.').show();
+                }else if(data==2){$('.login_alert_error').html('<strong>Error!</strong> You need to verify your account<br>Please check your email.').show();
+                }else if(data==1){window.location.reload();
+                }
+            });
+        }
+    });
+    $('.register_btn').click(function(){location.href="/sso_register.php";});
+    $('.akp_fb_signin').click(function(){location.href="/login-facebook.php";});
+    $('.akp_tw_signin').click(function(){location.href="/login-twitter.php";});
+    $('.panel_settings').click(function(){close_all();$('#rewards_setting').modal('show');$('.top_panel').removeClass('active');});
+    $('.close').click(function(){$('.rewards_setting').hide();});
+    var search_tag=window.location.href.split("/").slice(3,4).toString();
+    if(search_tag=="search")search_tag=window.location.href.split("/").slice(4,5).toString();
+    search_tag_update(search_tag.replace('#',''));
+    $('.search_articles').click(function(){$('.search_tag').text("Articles");search_tag_update("Articles");});
+    $('.search_forums').click(function(){$('.search_tag').text("Forums");search_tag_update("Forums");});
+    $('.pop-shop').click(function(e){e.preventDefault();if(popup_flag==1){close_all();$('.popupsearch').show();popup_flag=0;}else{$('.popupsearch').hide();popup_flag=1;}});
+    var field='';
+    $('#s').keypress(function(e){if(e.which==13){$('.btn-seach').click();e.preventDefault();return;}});
+    $('.btn-seach').click(function(){
+        if($('#s').val()!=""){
+            if($('.search_articles').hasClass('curr')){field='articles';}
+            else if($('.search_forums').hasClass('curr')){field='forums';}
+            var url="/search/"+field+"/"+doDashes($('#s').val());location.href=url;return;$('#s').val('');
+        }
+    });
+});
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2103550-3', 'allkpop.com');
+  ga('create', 'UA-2103550-9', 'auto',{'name':'6theory_net'});
+  ga('send', 'pageview');
+  ga('6theory_net.send', 'pageview');
+</script>
+<script type='text/javascript'>
+    var googletag=googletag||{};googletag.cmd=googletag.cmd||[];(function(){var gads=document.createElement('script');gads.async=true;gads.type='text/javascript';var useSSL='https:'==document.location.protocol;gads.src=(useSSL?'https:':'http:')+'//www.googletagservices.com/tag/js/gpt.js';var node=document.getElementsByTagName('script')[0];node.parentNode.insertBefore(gads, node);})();
+                                googletag.cmd.push(function() {
+                    googletag.pubads().enableAsyncRendering();
+                    googletag.defineSlot('/1046641/akp_skin', [[970, 250], [728, 90]], 'div-gpt-ad-1373063220115-0').addService(googletag.pubads());
+                                        googletag.defineSlot('/1046641/akp_home_728x90_top', [728, 90], 'div-gpt-ad-1368577201454-12').addService(googletag.pubads());
+                    googletag.defineSlot('/1046641/akp_home_160x600', [160, 600], 'div-gpt-ad-1368577201454-8').addService(googletag.pubads());
+                    googletag.defineSlot('/1046641/akp_home_300x250_a', [[300, 250], [300, 600]], 'div-gpt-ad-1396295756147-0').addService(googletag.pubads());
+                    googletag.defineSlot('/1046641/akp_home_300x250_b', [300, 250], 'div-gpt-ad-1368577201454-10').addService(googletag.pubads());
+                    googletag.defineSlot('/1046641/akp_home_728x90_bot', [728, 90], 'div-gpt-ad-1368577201454-11').addService(googletag.pubads());
+                    googletag.defineSlot('/1046641/akp_newslist_300x250', [300, 250], 'div-gpt-ad-1368577201454-13').addService(googletag.pubads());
+                                        googletag.defineSlot('/1046641/akp_cs_1', [125, 125], 'div-gpt-ad-1368863954187-0').addService(googletag.pubads());
+                    googletag.defineSlot('/1046641/akp_cs_2', [125, 125], 'div-gpt-ad-1368863954187-1').addService(googletag.pubads());
+                    googletag.defineSlot('/1046641/akp_cs_3', [125, 125], 'div-gpt-ad-1368863954187-2').addService(googletag.pubads());
+                    googletag.defineSlot('/1046641/akp_cs_4', [125, 125], 'div-gpt-ad-1368863954187-3').addService(googletag.pubads());
+                    googletag.defineSlot('/1046641/akp_cs_5', [125, 125], 'div-gpt-ad-1368863954187-4').addService(googletag.pubads());
+                    googletag.defineSlot('/1046641/akp_cs_6', [125, 125], 'div-gpt-ad-1368863954187-5').addService(googletag.pubads());
+                    googletag.defineSlot('/1046641/akp_promo_300x150', [300, 150], 'div-gpt-ad-1368577201454-14').addService(googletag.pubads());
+                    /*if(/Mac OS X 10_7_5/.test(navigator.userAgent)||useridforme=="spjw99"){console.log("i'm here");}else{*/
+                        googletag.pubads().enableSingleRequest();
+                        googletag.pubads().collapseEmptyDivs();
+                    /*}*/
+                    googletag.enableServices();
+                });
+                                </script>
+
+<div class="wrapper row">
+	<div class="page-content container">
+		<section class="featured maintop">
+			<div class="section-wrap">
+                <article id="akp_skin" class="akp_skin" style="width:100%;margin: 20px 0 0 20px;text-align: center;"></article>
+                <h2 class="section section-main pull-left">Featured</h2>
+				<ul class="follow">
+					<li class="section">Follow<span class="red">Allkpop</span></li>
+					<li><a href="http://www.facebook.com/allkpop" class="btn btn-facebook" target="_blank"><i class="icon-facebook"></i></a></li>
+					<li><a href="http://twitter.com/allkpop" class="btn btn-twitter" target="_blank"><i class="icon-twitter"></i></a></li>
+                    <li><a href="https://plus.google.com/+allkpop/" class="btn btn-gplus" target="_blank"><i class="icon-google-plus"></i></a></li>
+					<li><a href="https://youtube.com/allkpop" class="btn btn-youtube" target="_blank"><i class="icon-youtube"></i></a></li>
+                    <li><a href="http://instagram.com/allkpop" class="btn btn-instagram" target="_blank"><i class="icon-instagram"></i></a></li>
+                    
+                    <!--<li><a href="" class="btn btn-rss"><i class="icon-rss"></i></a></li>-->
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+            			<ul class="articles">
+				<li class="post-featured photo-large pull-left">	
+					<div class="exbreaking">
+                                                	
+						<a href="/article/2014/09/7-hilarious-k-pop-idol-rollercoaster-reactions" data-link="/article/2014/09/7-hilarious-k-pop-idol-rollercoaster-reactions" data-value="aWR4PTg5ODk4||">
+							<h3>7 hilarious K-Pop idol rollercoaster reactions</h3>
+					</div>
+					<div class="meta">
+						<span class="pull-left">September 26, 2014 @ 6:41 pm</span>
+						<ul class="stats pull-right">
+							<li><i class="icon-comment"></i> 267</li>
+							<li><i class="icon-eye-open"></i> 175358</li>
+							<li><i class="icon-share"></i> 6717</li>
+						</ul>
+						<div class="clearfix"></div>
+					</div>
+                    <div class="overlay overlay-category1"></div>
+					<span><img src="http://static1.allkpop.com/upload/2014/09/mf1/Wooyoung-Big-Bang-SHINee-Shinhwa-Super-Junior-Jiyeon-Ailee-Gary-winner_1411769664_mf1.jpg" alt="" style="width: 501px;"/></span>	
+						</a>
+					<div class="clearfix"></div>
+				</li>
+				<li class="post-featured photo-small pull-left">
+					<div class="exbreaking">
+                                                	
+					<a href="/article/2014/09/tournament-best-idol-rapper-in-k-pop" data-link="/article/2014/09/tournament-best-idol-rapper-in-k-pop" data-value="aWR4PTkwNDM3||">
+                        <h3>[Tournament] Best Idol Rapper in K-pop</h3>
+					</div>
+						<div class="meta">
+							<ul class="stats pull-right">
+								<li><i class="icon-comment"></i> 2381</li>
+								<li><i class="icon-eye-open"></i> 433623</li>
+								<li><i class="icon-share"></i> 19127</li>
+							</ul>
+							<div class="clearfix"></div>
+						</div>
+						<div class="overlay overlay-category2">
+                        </div>
+						<span><img src="http://static2.allkpop.com/upload/2014/09/mf2/Taecyeon-CL-HyunA-Jooyeon-Baro-Bang-Yong-Guk-Junhyung-TOP-FeelDog-Zico-Miryo--Ilhoon-Ga-Eun-LE-Amber-Dongwoo-Mir-Jia-Woori-hana-Bora-Hyomin-CAP-Mint-Ravi-Yubin-Jay-Park-jimin-rap-monster-song-min-ho-jackson-kemy_1411598558_mf2.jpg" alt="" style="width: 249px;"/></span>	
+					</a>
+				</li>
+				<li class="post-featured photo-small pull-left">
+					<div class="exbreaking">
+                                                	
+					<a href="/article/2014/09/performances-from-september-26th-music-bank" data-link="/article/2014/09/performances-from-september-26th-music-bank" data-value="aWR4PTkwNzQ0||">
+                        <h3>TEEN TOP win #1 + Performances from September 26th 'Music Bank'!</h3>
+					</div>
+						<div class="meta">
+							<ul class="stats pull-right">
+								<li><i class="icon-comment"></i> 428</li>
+								<li><i class="icon-eye-open"></i> 90332</li>
+								<li><i class="icon-share"></i> 17350</li>
+							</ul>
+							<div class="clearfix"></div>
+						</div>
+						<div class="overlay overlay-category3">
+                        </div>
+						<span><img src="http://static3.allkpop.com/upload/2014/09/mf3/2PM-Soyu-T-ara-TEEN-TOP-Ailee-bts-wax-taetiseo-urban-zakapa-gilme-lip-service-jjcc-akor-laboum-spicas-minx_1411732041_mf3.jpg" alt="" style="width: 249px;"/></span>	
+					</a>
+				</li>
+				<li class="post-featured photo-small pull-left">
+					<div class="exbreaking">
+                                                	
+					<a href="/article/2014/09/who-wore-it-better-jiyeon-vs-na-eun-vs-seungyeon" data-link="/article/2014/09/who-wore-it-better-jiyeon-vs-na-eun-vs-seungyeon" data-value="aWR4PTkwNDkz||">
+                        <h3>Who Wore It Better: Jiyeon vs. Na-Eun vs. Seungyeon</h3>
+					</div>
+						<div class="meta">
+							<ul class="stats pull-right">
+								<li><i class="icon-comment"></i> 52</li>
+								<li><i class="icon-eye-open"></i> 4035</li>
+								<li><i class="icon-share"></i> 123</li>
+							</ul>
+							<div class="clearfix"></div>
+						</div>
+						<div class="overlay overlay-category4">
+                        </div>
+						<span><img src="http://static4.allkpop.com/upload/2014/09/mf4/Na-Eun-Seungyeon-Jiyeon_1411841789_mf4.jpg" alt="" style="width: 249px;"/></span>
+					</a>
+				</li>
+				<li class="post-featured photo-small pull-left">
+					<div class="exbreaking">
+                                                	
+					<a href="/buzz/2014/09/qa-with-qpark-the-hilarious-korean-american-viner" data-link="/buzz/2014/09/qa-with-qpark-the-hilarious-korean-american-viner" data-value="aWR4PTkwODg2||">
+                        <h3>Q&A with QPark, the hilarious Korean-American Viner</h3>
+					</div>
+						<div class="meta">
+							<ul class="stats pull-right">
+								<li><i class="icon-comment"></i> 9</li>
+								<li><i class="icon-eye-open"></i> 3835</li>
+								<li><i class="icon-share"></i> 51</li>
+							</ul>
+							<div class="clearfix"></div>
+						</div>
+						<div class="overlay overlay-category5">
+                                                                        </div>
+						<span><img src="http://static1.allkpop.com/upload/2014/09/mf5/buzz_1411842095_mf5.jpg" alt="" style="width: 249px;"/></span>	
+					</a>
+				</li>	
+			</ul>
+		</section>
+        <article id="ad_screen111" class="ad ad-leaderboard ad-header" style="cursor: pointer; height:90px;margin-left:15%">
+    <div class="ad_home"></div>
+    <!--<div class="ad_forums" style="display: none;"></div>
+    <div class="ad_etc" style="display: none;"></div>-->
+</article>		<div class="row-fluid">
+			<section class="posts span8" style="margin-top: 90px;">
+				<div class="section-wrap latestpad">
+                    <div class="article_tabs" style="margin-top: 25px;">
+	<ul>
+		<li><a href="#all" class="article_all">ALL</a></li>
+		<li><a href="#entertainment" class="article_entertainment">ENTERTAINMENT</a></li>
+		<li><a href="#buzz" class="article_buzz">BUZZ</a></li>
+	</ul>
+</div>
+<script>
+var current_article_flag='all';
+$('.article_all').click(function(){
+    if(current_article_flag!="all"){
+        $.post("/set_article_flag.php",{article_flag:'all'},function(data){
+            if(data==1){
+                location.href="/";return;
+            }
+        });    
+    }
+});
+$('.article_entertainment').click(function(){
+    if(current_article_flag!="entertainment"){
+        $.post("/set_article_flag.php",{article_flag:'entertainment'},function(data){
+            if(data==1){
+                location.href="/";return;
+            }
+        });
+    }
+});
+$('.article_buzz').click(function(){
+    if(current_article_flag!="buzz"){
+        $.post("/set_article_flag.php",{article_flag:'buzz'},function(data){
+            if(data==1){
+                location.href="/"; return;
+            }
+        });
+    }
+});
+</script>
+
+                    <h2 class="section section-main pull-left" id="goto_lastes">Latest</h2>
+                    <select class="categories" onchange="javascript:goto_category(this.value);">
+                        <option value="">Category</option>
+                        <option value="Entertainment">Entertainment</option>
+                        <option value="General">&nbsp;&nbsp;L General</option>
+                        <option value="Concerts-Events">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Concerts / Events</option>
+                        <option value="Gossip">&nbsp;&nbsp;L Gossip</option>
+                        
+                        <option value="Features">&nbsp;&nbsp;L Features</option>
+                        <option value="Editorials">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Editorials</option>
+                        <option value="OP-ED">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L OP-ED</option>
+                        <option value="editorials">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Original Features</option>
+                        <option value="Reviews">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Reviews</option>
+                        <option value="Single-Reviews">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Single Reviews</option>
+                        <option value="Album-Reviews">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Album Reviews</option>
+                        <option value="MV-Reviews">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L MV Reviews</option>
+                        <option value="Drama-Reviews">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Drama Reviews</option>
+                        <option value="Movies-Reviews">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Movies Reviews</option>
+                        <option value="MV-Song-Reviews">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L MV & Song Reviews</option>
+                        <option value="MV-Album-Reviews">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L MV & Album Reviews</option>
+                        <option value="Interviews">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Interviews</option>
+                        <option value="Polls">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Polls</option>
+                        <option value="Tournaments">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Tournaments</option>
+                        <option value="Special-Features">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Special Features</option>
+                        <option value="Relive-IT">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Relive IT</option>
+                        <option value="Music">&nbsp;&nbsp;L Music</option>
+                        <option value="Music-Releases">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Music Releases</option>
+                        <option value="MV-Releases">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L MV Releases</option>
+                        <option value="Music-Shows">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Music Shows</option>
+                        <option value="TV-Movies">&nbsp;&nbsp;L TV / Movies</option>
+                        <option value="Dramas">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Dramas</option>
+                        <option value="Movies">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Movies</option>
+                        <option value="Variety">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Variety</option>
+                        <option value="Sitcoms">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Sitcoms</option>
+                        <option value="Culture">&nbsp;&nbsp;L Culture</option>
+                        <option value="Social-Media">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Social Media</option>
+                        <option value="Fashion">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Fashion</option>
+                        <option value="Pictorials">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Pictorials</option>
+                        <option value="Pop-Quiz">&nbsp;&nbsp;L Pop Quiz</option>
+                        <option value="Site-Announcements">Site Announcements</option>
+                        <option value="Site-Events">Site Events</option>
+                        <option value="Buzz">Buzz</option>
+                        <option value="LOL">&nbsp;&nbsp;L LOL</option>
+                        <option value="WIN">&nbsp;&nbsp;L WIN</option>
+                        <option value="FAIL">&nbsp;&nbsp;L FAIL</option>
+                        <option value="OMG">&nbsp;&nbsp;L OMG</option>
+                        <option value="AWW">&nbsp;&nbsp;L AWW</option>
+                        <option value="Current-Events">&nbsp;&nbsp;L Current Events</option>
+					</select>
+					<div class="clearfix"></div>
+				</div>
+                <div id="main_article_container" data-value="">
+                    <ul class='articles'>
+                                        					<li class="post category1" data-value="/article/2014/09/who-wore-it-better-jiyeon-vs-na-eun-vs-seungyeon" data-chk="0">
+    						<h3 class="category1"><a href="/article/2014/09/who-wore-it-better-jiyeon-vs-na-eun-vs-seungyeon" data-link="/article/2014/09/who-wore-it-better-jiyeon-vs-na-eun-vs-seungyeon">Who Wore It Better: Jiyeon vs. Na-Eun vs. Seungyeon</a></h3>
+    						<div class="thumb pull-left">
+    							
+                                
+                                                                <div class="overlay overlay-social">
+                                    <ul class="social-links">
+    									<li style="margin-bottom: 5px;">
+							                                                            <button class="panel-offscrap btn-love-login" onclick="" data-service-name="scrap" title="Save to Scrapbook" alt="Save to Scrapbook" class="" data-tooltip-text="Save to Scrapbook"></button>
+                                            										</li>
+										<li style="margin-bottom: 5px;">
+							                <a class="fb_article" data-social="http://www.allkpop.com/article/2014/09/who-wore-it-better-jiyeon-vs-na-eun-vs-seungyeon" data-url="http://www.facebook.com/share.php?s=100&p[url]=http://www.allkpop.com/article/2014/09/who-wore-it-better-jiyeon-vs-na-eun-vs-seungyeon&p[images][0]=http://www.allkpop.com/upload/2014/09/af_org/Na-Eun-Seungyeon-Jiyeon_1411841764_af_org.jpg&p[title]=Who Wore It Better: Jiyeon vs. Na-Eun vs. Seungyeon&p[summary]=
+This 'Who Wore It Better' is a three-way battle between members of some of K-pop's hottest groups:">
+							                    <button class="panel-fb btn-fbook-scrap" data-service-name="facebook" title="Share on Facebook" alt="Share on Facebook" class="" data-tooltip-text="Share on Facebook" style="width:50px; height:50px; background: no-repeat url(http://static1.allkpop.com/img/share-icons.png) 0 -60px;"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tw_article" data-url="http://www.allkpop.com/article/2014/09/who-wore-it-better-jiyeon-vs-na-eun-vs-seungyeon" data-title="Who Wore It Better: Jiyeon vs. Na-Eun vs. Seungyeon" data-description="
+This 'Who Wore It Better' is a three-way battle between members of some of K-pop's hottest groups:" data-image="http://www.allkpop.com/upload/2014/09/af_org/Na-Eun-Seungyeon-Jiyeon_1411841764_af_org.jpg"  data-tag="allkpop">
+							                    <button class="panel-tw btn-tweet-scrap" onclick="" data-service-name="twitter" title="Share on Twitter" alt="Share on Twitter" class="" data-tooltip-text="Share on Twitter"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tb_article" data-url="http://www.allkpop.com/article/2014/09/who-wore-it-better-jiyeon-vs-na-eun-vs-seungyeon" data-title="Who Wore It Better: Jiyeon vs. Na-Eun vs. Seungyeon" data-description="
+This 'Who Wore It Better' is a three-way battle between members of some of K-pop's hottest groups:" data-image="http://www.allkpop.com/upload/2014/09/af_org/Na-Eun-Seungyeon-Jiyeon_1411841764_af_org.jpg">
+							                    <button class="panel-tb btn-tumblr-scrap" onclick="" data-service-name="tumblr" title="Share on Tumblr" alt="Share on Tumblr" class="" data-tooltip-text="Share on Tumblr"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="g_article" data-url="http://www.allkpop.com/article/2014/09/who-wore-it-better-jiyeon-vs-na-eun-vs-seungyeon" data-title="Who Wore It Better: Jiyeon vs. Na-Eun vs. Seungyeon" data-description="
+This 'Who Wore It Better' is a three-way battle between members of some of K-pop's hottest groups:" data-image="http://www.allkpop.com/upload/2014/09/af_org/Na-Eun-Seungyeon-Jiyeon_1411841764_af_org.jpg">
+							                    <button class="panel-gp btn-google-scrap" onclick="" data-service-name="g-plus" title="Share on Google+" alt="Share on Google+" class="" data-tooltip-text="Share on Google+"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="r_article" data-url="http://www.allkpop.com/article/2014/09/who-wore-it-better-jiyeon-vs-na-eun-vs-seungyeon" data-title="Who Wore It Better: Jiyeon vs. Na-Eun vs. Seungyeon" data-description="
+This 'Who Wore It Better' is a three-way battle between members of some of K-pop's hottest groups:" data-image="http://www.allkpop.com/upload/2014/09/af_org/Na-Eun-Seungyeon-Jiyeon_1411841764_af_org.jpg">
+							                    <button class="panel-rd btn-reddit-scrap" onclick="" data-service-name="reddit" title="Share on reddit" alt="Share on reddit" class="" data-tooltip-text="Share on reddit"></button>
+							                </a>
+										</li>
+    								</ul>
+                                </div>
+                                    								
+    							
+    							<a href="/article/2014/09/who-wore-it-better-jiyeon-vs-na-eun-vs-seungyeon" data-link="/article/2014/09/who-wore-it-better-jiyeon-vs-na-eun-vs-seungyeon" >
+    							<div class="exbreaking">
+    		                            		                        	
+    							</div>
+                                <img src="http://static1.allkpop.com/upload/2014/09/af/Na-Eun-Seungyeon-Jiyeon_1411841764_af.jpg" alt=""/></a>                                
+                                                                                                
+                                
+    						</div>
+    						<div class="entry pull-right">
+    							<div class="timestamp">
+                                    <span class="humantime">September 27, 2014 @ 3:01 pm</span>
+    							</div>
+    							<p>
+    								
+This 'Who Wore It Better' is a three-way battle between members of some of K-pop's hottest groups: T-ara's Jiyeon, A Pink's Na-Eun, and KARA's Seungyeon.The piece is a knee-length dress with a pinstripe pattern.  A collared white button-down is layered under the dress giving the illusion of a two-piece outfit.  The extra cut-out region on the waist gives the dress an extra unique white accent. Jiyeon wore the dress while hosting SBS's 'MTV The     							</p>
+                                <p><a href="/article/2014/09/who-wore-it-better-jiyeon-vs-na-eun-vs-seungyeon" data-link="/article/2014/09/who-wore-it-better-jiyeon-vs-na-eun-vs-seungyeon" class="readmore">Read More</a></p>
+    							<div class="meta" style="z-index: 100;">
+                                    <ul class="stats pull-left">
+                                        
+                                                                        </ul>
+    								<ul class="stats pull-right">
+    									<li><i class="icon-comment"></i> 52</li>
+    									<li><i class="icon-eye-open"></i> 4035</li>
+                                        <li><i class="icon-share" style="float: left;margin-top: 4px;"></i> <div class="love_it_cnt" data-chk="0" style="float: left; margin-left: 5px;">123</div></li>
+    								</ul>
+    								<div class="clearfix"></div>
+    							</div>
+    						</div>
+    					</li>
+                                            					<li class="post category2"  data-value="/buzz/2014/09/qa-with-qpark-the-hilarious-korean-american-viner" data-chk="0">
+    						<h3 class="category2"><a href="/buzz/2014/09/qa-with-qpark-the-hilarious-korean-american-viner" data-link="/buzz/2014/09/qa-with-qpark-the-hilarious-korean-american-viner">Q&A with QPark, the hilarious Korean-American Viner</a></h3>
+    						<div class="thumb pull-left">
+                                    							<div class="overlay overlay-social">
+    								<ul class="social-links">
+    									<li style="margin-bottom: 5px;">
+							                                                            <button class="panel-offscrap btn-love-login" onclick="" data-service-name="scrap" title="Save to Scrapbook" alt="Save to Scrapbook" class="" data-tooltip-text="Save to Scrapbook"></button>
+                                            										</li>
+										<li style="margin-bottom: 5px;">
+							                <a class="fb_article" data-social="http://www.allkpop.com/buzz/2014/09/qa-with-qpark-the-hilarious-korean-american-viner" data-url="http://www.facebook.com/share.php?s=100&p[url]=http://www.allkpop.com/buzz/2014/09/qa-with-qpark-the-hilarious-korean-american-viner&p[images][0]=http://www.allkpop.com/upload/2014/09/af_org/buzz_1411840334_af_org.jpg&p[title]=Q&amp;A with QPark, the hilarious Korean-American Viner&p[summary]=Re-introducing QPark, who many of you know as a viral Vine and Instagram celebrity. As one of the mo">
+							                    <button class="panel-fb btn-fbook-scrap" data-service-name="facebook" title="Share on Facebook" alt="Share on Facebook" class="" data-tooltip-text="Share on Facebook" style="width:50px; height:50px; background: no-repeat url(/img/share-icons.png) 0 -60px;"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tw_article" data-url="http://www.allkpop.com/buzz/2014/09/qa-with-qpark-the-hilarious-korean-american-viner" data-title="Q&amp;A with QPark, the hilarious Korean-American Viner" data-description="Re-introducing QPark, who many of you know as a viral Vine and Instagram celebrity. As one of the mo" data-image="http://www.allkpop.com/upload/2014/09/af_org/buzz_1411840334_af_org.jpg" data-tag="allkpopBuzz">
+							                    <button class="panel-tw btn-tweet-scrap" onclick="" data-service-name="twitter" title="Share on Twitter" alt="Share on Twitter" class="" data-tooltip-text="Share on Twitter"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tb_article" data-url="http://www.allkpop.com/buzz/2014/09/qa-with-qpark-the-hilarious-korean-american-viner" data-title="Q&amp;A with QPark, the hilarious Korean-American Viner" data-description="Re-introducing QPark, who many of you know as a viral Vine and Instagram celebrity. As one of the mo" data-image="http://www.allkpop.com/upload/2014/09/af_org/buzz_1411840334_af_org.jpg">
+							                    <button class="panel-tb btn-tumblr-scrap" onclick="" data-service-name="tumblr" title="Share on Tumblr" alt="Share on Tumblr" class="" data-tooltip-text="Share on Tumblr"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="g_article" data-url="http://www.allkpop.com/buzz/2014/09/qa-with-qpark-the-hilarious-korean-american-viner" data-title="Q&amp;A with QPark, the hilarious Korean-American Viner" data-description="Re-introducing QPark, who many of you know as a viral Vine and Instagram celebrity. As one of the mo" data-image="http://www.allkpop.com/upload/2014/09/af_org/buzz_1411840334_af_org.jpg">
+							                    <button class="panel-gp btn-google-scrap" onclick="" data-service-name="g-plus" title="Share on Google+" alt="Share on Google+" class="" data-tooltip-text="Share on Google+"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="r_article" data-url="http://www.allkpop.com/buzz/2014/09/qa-with-qpark-the-hilarious-korean-american-viner" data-title="Q&amp;A with QPark, the hilarious Korean-American Viner" data-description="Re-introducing QPark, who many of you know as a viral Vine and Instagram celebrity. As one of the mo" data-image="http://www.allkpop.com/upload/2014/09/af_org/buzz_1411840334_af_org.jpg">
+							                    <button class="panel-rd btn-reddit-scrap" onclick="" data-service-name="reddit" title="Share on reddit" alt="Share on reddit" class="" data-tooltip-text="Share on reddit"></button>
+							                </a>
+										</li>
+                                        
+    								</ul>
+    							</div>
+                                    							<a href="/buzz/2014/09/qa-with-qpark-the-hilarious-korean-american-viner" data-link="/buzz/2014/09/qa-with-qpark-the-hilarious-korean-american-viner" >
+							<div class="exbreaking">
+		                        		                        	
+							</div>
+                                <img src="http://static2.allkpop.com/upload/2014/09/af/buzz_1411840334_af.jpg" alt=""/></a>
+    						</div>
+    						<div class="related pull-left">
+    							<h2 class="section section-main">Related</h2>
+    							<ul class="list-side-related">
+                                        								<li class="category4">
+                                        <a href="/buzz/2014/09/meet-qpark-a-viral-viner-who-gets-me" data-link="/buzz/2014/09/meet-qpark-a-viral-viner-who-gets-me">
+    										<div class="thumb pull-left">
+                                                <span>
+                                                                                                            <img src="http://static1.allkpop.com/upload/2014/09/af/buzz_1411069808_af.jpg" alt="" style="width:70px;height: 69px;"/>
+                                                                                                    </span>			
+    										</div>
+    										<h5 class="pull-left">Meet QPark, a viral Viner who gets me</h5>
+    									</a>
+    									<div class="clearfix"></div>
+    								</li>
+                                                                                                                                                                                        							</ul>
+    						</div>
+    						<div class="clearfix"></div>
+    						<div class="entry-related pull-right">
+    							<div class="timestamp">
+    							    <span class="humantime">September 27, 2014 @ 2:24 pm</span>
+                                </div>
+    							<p>
+    								Re-introducing QPark, who many of you know as a viral Vine and Instagram celebrity. As one of the most popular Viners on the planet, Park's 6-second vines and 15-second Instagram videos receive millions of plays. The reason? They're hilariously exaggerated and goofy representations of real life, evoking responses that range from, "LOL WTF," to "That's so me." allkpop Buzz recently had the opportunity for a Q&A with QPark on his success as an inte    							</p>
+                                <p><a href="/buzz/2014/09/qa-with-qpark-the-hilarious-korean-american-viner" data-link="/buzz/2014/09/qa-with-qpark-the-hilarious-korean-american-viner" class="readmore">Read More</a></p>
+    							<div class="meta">
+                                    <ul class="stats pull-left">
+                                        
+                                                                        </ul>
+    								<ul class="stats pull-right">
+    									<li><i class="icon-comment"></i> 9</li>
+    									<li><i class="icon-eye-open"></i> 3835</li>
+    									<li><i class="icon-share" style="float: left;margin-top: 4px;"></i> <div class="love_it_cnt" data-chk="0" style="float: left;margin-left: 5px;">51</div></li>
+    								</ul>
+    								<div class="clearfix"></div>
+    							</div>
+    						</div>
+    					</li>
+                                            					<li class="post category3" data-value="/article/2014/09/girls-days-yura-and-hong-jong-hyun-celebrate-100-days-together-on-we-got-married" data-chk="0">
+    						<h3 class="category3"><a href="/article/2014/09/girls-days-yura-and-hong-jong-hyun-celebrate-100-days-together-on-we-got-married" data-link="/article/2014/09/girls-days-yura-and-hong-jong-hyun-celebrate-100-days-together-on-we-got-married">Girl's Day's Yura and Hong Jong Hyun celebrate 100 days together on 'We Got Married'</a></h3>
+    						<div class="thumb pull-left">
+    							
+                                
+                                                                <div class="overlay overlay-social">
+                                    <ul class="social-links">
+    									<li style="margin-bottom: 5px;">
+							                                                            <button class="panel-offscrap btn-love-login" onclick="" data-service-name="scrap" title="Save to Scrapbook" alt="Save to Scrapbook" class="" data-tooltip-text="Save to Scrapbook"></button>
+                                            										</li>
+										<li style="margin-bottom: 5px;">
+							                <a class="fb_article" data-social="http://www.allkpop.com/article/2014/09/girls-days-yura-and-hong-jong-hyun-celebrate-100-days-together-on-we-got-married" data-url="http://www.facebook.com/share.php?s=100&p[url]=http://www.allkpop.com/article/2014/09/girls-days-yura-and-hong-jong-hyun-celebrate-100-days-together-on-we-got-married&p[images][0]=http://www.allkpop.com/upload/2014/09/af_org/Girls-Day-Yura-hong-jong-hyun_1411806777_af_org.jpg&p[title]=Girl's Day's Yura and Hong Jong Hyun celebrate 100 days together on 'We Got Married'&p[summary]=Hong Jong Hyun and Girl's Day's Yura celebrated 100 days together on the September 27 installment of">
+							                    <button class="panel-fb btn-fbook-scrap" data-service-name="facebook" title="Share on Facebook" alt="Share on Facebook" class="" data-tooltip-text="Share on Facebook" style="width:50px; height:50px; background: no-repeat url(http://static1.allkpop.com/img/share-icons.png) 0 -60px;"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tw_article" data-url="http://www.allkpop.com/article/2014/09/girls-days-yura-and-hong-jong-hyun-celebrate-100-days-together-on-we-got-married" data-title="Girl's Day's Yura and Hong Jong Hyun celebrate 100 days together on 'We Got Married'" data-description="Hong Jong Hyun and Girl's Day's Yura celebrated 100 days together on the September 27 installment of" data-image="http://www.allkpop.com/upload/2014/09/af_org/Girls-Day-Yura-hong-jong-hyun_1411806777_af_org.jpg"  data-tag="allkpop">
+							                    <button class="panel-tw btn-tweet-scrap" onclick="" data-service-name="twitter" title="Share on Twitter" alt="Share on Twitter" class="" data-tooltip-text="Share on Twitter"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tb_article" data-url="http://www.allkpop.com/article/2014/09/girls-days-yura-and-hong-jong-hyun-celebrate-100-days-together-on-we-got-married" data-title="Girl's Day's Yura and Hong Jong Hyun celebrate 100 days together on 'We Got Married'" data-description="Hong Jong Hyun and Girl's Day's Yura celebrated 100 days together on the September 27 installment of" data-image="http://www.allkpop.com/upload/2014/09/af_org/Girls-Day-Yura-hong-jong-hyun_1411806777_af_org.jpg">
+							                    <button class="panel-tb btn-tumblr-scrap" onclick="" data-service-name="tumblr" title="Share on Tumblr" alt="Share on Tumblr" class="" data-tooltip-text="Share on Tumblr"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="g_article" data-url="http://www.allkpop.com/article/2014/09/girls-days-yura-and-hong-jong-hyun-celebrate-100-days-together-on-we-got-married" data-title="Girl's Day's Yura and Hong Jong Hyun celebrate 100 days together on 'We Got Married'" data-description="Hong Jong Hyun and Girl's Day's Yura celebrated 100 days together on the September 27 installment of" data-image="http://www.allkpop.com/upload/2014/09/af_org/Girls-Day-Yura-hong-jong-hyun_1411806777_af_org.jpg">
+							                    <button class="panel-gp btn-google-scrap" onclick="" data-service-name="g-plus" title="Share on Google+" alt="Share on Google+" class="" data-tooltip-text="Share on Google+"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="r_article" data-url="http://www.allkpop.com/article/2014/09/girls-days-yura-and-hong-jong-hyun-celebrate-100-days-together-on-we-got-married" data-title="Girl's Day's Yura and Hong Jong Hyun celebrate 100 days together on 'We Got Married'" data-description="Hong Jong Hyun and Girl's Day's Yura celebrated 100 days together on the September 27 installment of" data-image="http://www.allkpop.com/upload/2014/09/af_org/Girls-Day-Yura-hong-jong-hyun_1411806777_af_org.jpg">
+							                    <button class="panel-rd btn-reddit-scrap" onclick="" data-service-name="reddit" title="Share on reddit" alt="Share on reddit" class="" data-tooltip-text="Share on reddit"></button>
+							                </a>
+										</li>
+    								</ul>
+                                </div>
+                                    								
+    							
+    							<a href="/article/2014/09/girls-days-yura-and-hong-jong-hyun-celebrate-100-days-together-on-we-got-married" data-link="/article/2014/09/girls-days-yura-and-hong-jong-hyun-celebrate-100-days-together-on-we-got-married" >
+    							<div class="exbreaking">
+    		                            		                        	
+    							</div>
+                                <img src="http://static3.allkpop.com/upload/2014/09/af/Girls-Day-Yura-hong-jong-hyun_1411806777_af.jpg" alt=""/></a>                                
+                                                                                                
+                                
+    						</div>
+    						<div class="entry pull-right">
+    							<div class="timestamp">
+                                    <span class="humantime">September 27, 2014 @ 2:00 pm</span>
+    							</div>
+    							<p>
+    								Hong Jong Hyun and Girl's Day's Yura celebrated 100 days together on the September 27 installment of 'We Got Married'.Hong Jong Hyun made sure to prepare a special gift for his onscreen wife during their trip together. He said, "It'll be our 100th day anniversary in a few days," as he got candles ready. The model-turned-actor also created his own gift during his free time. Seeing something draped under a black cloth, Yura guessed, "It's an easel,    							</p>
+                                <p><a href="/article/2014/09/girls-days-yura-and-hong-jong-hyun-celebrate-100-days-together-on-we-got-married" data-link="/article/2014/09/girls-days-yura-and-hong-jong-hyun-celebrate-100-days-together-on-we-got-married" class="readmore">Read More</a></p>
+    							<div class="meta" style="z-index: 100;">
+                                    <ul class="stats pull-left">
+                                        
+                                                                        </ul>
+    								<ul class="stats pull-right">
+    									<li><i class="icon-comment"></i> 7</li>
+    									<li><i class="icon-eye-open"></i> 6072</li>
+                                        <li><i class="icon-share" style="float: left;margin-top: 4px;"></i> <div class="love_it_cnt" data-chk="0" style="float: left; margin-left: 5px;">290</div></li>
+    								</ul>
+    								<div class="clearfix"></div>
+    							</div>
+    						</div>
+    					</li>
+                                            <li class="post akp_newslist_300x250" style="background:#f7f3f3;"></li>
+                                        					<li class="post category4" data-value="/article/2014/09/junk-tweets-ambiguous-message-about-sajaegi" data-chk="0">
+    						<h3 class="category4"><a href="/article/2014/09/junk-tweets-ambiguous-message-about-sajaegi" data-link="/article/2014/09/junk-tweets-ambiguous-message-about-sajaegi">Jun.K tweets ambiguous message about 'Sajaegi'</a></h3>
+    						<div class="thumb pull-left">
+    							
+                                
+                                                                <div class="overlay overlay-social">
+                                    <ul class="social-links">
+    									<li style="margin-bottom: 5px;">
+							                                                            <button class="panel-offscrap btn-love-login" onclick="" data-service-name="scrap" title="Save to Scrapbook" alt="Save to Scrapbook" class="" data-tooltip-text="Save to Scrapbook"></button>
+                                            										</li>
+										<li style="margin-bottom: 5px;">
+							                <a class="fb_article" data-social="http://www.allkpop.com/article/2014/09/junk-tweets-ambiguous-message-about-sajaegi" data-url="http://www.facebook.com/share.php?s=100&p[url]=http://www.allkpop.com/article/2014/09/junk-tweets-ambiguous-message-about-sajaegi&p[images][0]=http://www.allkpop.com/upload/2014/09/af_org/JunK_1411836790_af_org.jpg&p[title]=Jun.K tweets ambiguous message about 'Sajaegi'&p[summary]=Jun.K, who has recently made a comeback with&amp;nbsp;2PM, tweeted an ambiguous message about sajaegi.He">
+							                    <button class="panel-fb btn-fbook-scrap" data-service-name="facebook" title="Share on Facebook" alt="Share on Facebook" class="" data-tooltip-text="Share on Facebook" style="width:50px; height:50px; background: no-repeat url(http://static1.allkpop.com/img/share-icons.png) 0 -60px;"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tw_article" data-url="http://www.allkpop.com/article/2014/09/junk-tweets-ambiguous-message-about-sajaegi" data-title="Jun.K tweets ambiguous message about 'Sajaegi'" data-description="Jun.K, who has recently made a comeback with&amp;nbsp;2PM, tweeted an ambiguous message about sajaegi.He" data-image="http://www.allkpop.com/upload/2014/09/af_org/JunK_1411836790_af_org.jpg"  data-tag="allkpop">
+							                    <button class="panel-tw btn-tweet-scrap" onclick="" data-service-name="twitter" title="Share on Twitter" alt="Share on Twitter" class="" data-tooltip-text="Share on Twitter"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tb_article" data-url="http://www.allkpop.com/article/2014/09/junk-tweets-ambiguous-message-about-sajaegi" data-title="Jun.K tweets ambiguous message about 'Sajaegi'" data-description="Jun.K, who has recently made a comeback with&amp;nbsp;2PM, tweeted an ambiguous message about sajaegi.He" data-image="http://www.allkpop.com/upload/2014/09/af_org/JunK_1411836790_af_org.jpg">
+							                    <button class="panel-tb btn-tumblr-scrap" onclick="" data-service-name="tumblr" title="Share on Tumblr" alt="Share on Tumblr" class="" data-tooltip-text="Share on Tumblr"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="g_article" data-url="http://www.allkpop.com/article/2014/09/junk-tweets-ambiguous-message-about-sajaegi" data-title="Jun.K tweets ambiguous message about 'Sajaegi'" data-description="Jun.K, who has recently made a comeback with&amp;nbsp;2PM, tweeted an ambiguous message about sajaegi.He" data-image="http://www.allkpop.com/upload/2014/09/af_org/JunK_1411836790_af_org.jpg">
+							                    <button class="panel-gp btn-google-scrap" onclick="" data-service-name="g-plus" title="Share on Google+" alt="Share on Google+" class="" data-tooltip-text="Share on Google+"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="r_article" data-url="http://www.allkpop.com/article/2014/09/junk-tweets-ambiguous-message-about-sajaegi" data-title="Jun.K tweets ambiguous message about 'Sajaegi'" data-description="Jun.K, who has recently made a comeback with&amp;nbsp;2PM, tweeted an ambiguous message about sajaegi.He" data-image="http://www.allkpop.com/upload/2014/09/af_org/JunK_1411836790_af_org.jpg">
+							                    <button class="panel-rd btn-reddit-scrap" onclick="" data-service-name="reddit" title="Share on reddit" alt="Share on reddit" class="" data-tooltip-text="Share on reddit"></button>
+							                </a>
+										</li>
+    								</ul>
+                                </div>
+                                    								
+    							
+    							<a href="/article/2014/09/junk-tweets-ambiguous-message-about-sajaegi" data-link="/article/2014/09/junk-tweets-ambiguous-message-about-sajaegi" >
+    							<div class="exbreaking">
+    		                            		                        	
+    							</div>
+                                <img src="http://static4.allkpop.com/upload/2014/09/af/JunK_1411836790_af.jpg" alt=""/></a>                                
+                                                                                                
+                                
+    						</div>
+    						<div class="entry pull-right">
+    							<div class="timestamp">
+                                    <span class="humantime">September 27, 2014 @ 1:11 pm</span>
+    							</div>
+    							<p>
+    								Jun.K, who has recently made a comeback with&nbsp;2PM, tweeted an ambiguous message about sajaegi.He tweeted, "Sajaegi? #EVERYBODYKNOWS."Screenshot of Tweet before it was deleted.Jun.K promptly deleted the tweet after posting, but the bold statement is raising some curiosity.For those who don't know, sajaegi is a method of digital chart manipulation. Some K-Pop artists and agencies have been accused of using sajaegi in order to manipulate the cha    							</p>
+                                <p><a href="/article/2014/09/junk-tweets-ambiguous-message-about-sajaegi" data-link="/article/2014/09/junk-tweets-ambiguous-message-about-sajaegi" class="readmore">Read More</a></p>
+    							<div class="meta" style="z-index: 100;">
+                                    <ul class="stats pull-left">
+                                        
+                                                                        </ul>
+    								<ul class="stats pull-right">
+    									<li><i class="icon-comment"></i> 712</li>
+    									<li><i class="icon-eye-open"></i> 39425</li>
+                                        <li><i class="icon-share" style="float: left;margin-top: 4px;"></i> <div class="love_it_cnt" data-chk="0" style="float: left; margin-left: 5px;">3071</div></li>
+    								</ul>
+    								<div class="clearfix"></div>
+    							</div>
+    						</div>
+    					</li>
+                                            					<li class="post category5" data-value="/article/2014/09/tvxq-croon-time-works-wonders-in-a-short-pv" data-chk="0">
+    						<h3 class="category5"><a href="/article/2014/09/tvxq-croon-time-works-wonders-in-a-short-pv" data-link="/article/2014/09/tvxq-croon-time-works-wonders-in-a-short-pv">TVXQ croon 'Time Works Wonders' in a short PV</a></h3>
+    						<div class="thumb pull-left">
+    							
+                                
+                                                                <div class="overlay overlay-social">
+                                    <ul class="social-links">
+    									<li style="margin-bottom: 5px;">
+							                                                            <button class="panel-offscrap btn-love-login" onclick="" data-service-name="scrap" title="Save to Scrapbook" alt="Save to Scrapbook" class="" data-tooltip-text="Save to Scrapbook"></button>
+                                            										</li>
+										<li style="margin-bottom: 5px;">
+							                <a class="fb_article" data-social="http://www.allkpop.com/article/2014/09/tvxq-croon-time-works-wonders-in-a-short-pv" data-url="http://www.facebook.com/share.php?s=100&p[url]=http://www.allkpop.com/article/2014/09/tvxq-croon-time-works-wonders-in-a-short-pv&p[images][0]=http://www.allkpop.com/upload/2014/09/af_org/TVXQ_1411834147_af_org.jpg&p[title]=TVXQ croon 'Time Works Wonders' in a short PV&p[summary]=TVXQ&nbsp;revealed&nbsp;their swoon-worthy short PV for&nbsp;&quot;Time Works Wonders&quot;.
+TVXQ give off a soothing vibe i">
+							                    <button class="panel-fb btn-fbook-scrap" data-service-name="facebook" title="Share on Facebook" alt="Share on Facebook" class="" data-tooltip-text="Share on Facebook" style="width:50px; height:50px; background: no-repeat url(http://static1.allkpop.com/img/share-icons.png) 0 -60px;"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tw_article" data-url="http://www.allkpop.com/article/2014/09/tvxq-croon-time-works-wonders-in-a-short-pv" data-title="TVXQ croon 'Time Works Wonders' in a short PV" data-description="TVXQ&nbsp;revealed&nbsp;their swoon-worthy short PV for&nbsp;&quot;Time Works Wonders&quot;.
+TVXQ give off a soothing vibe i" data-image="http://www.allkpop.com/upload/2014/09/af_org/TVXQ_1411834147_af_org.jpg"  data-tag="allkpop">
+							                    <button class="panel-tw btn-tweet-scrap" onclick="" data-service-name="twitter" title="Share on Twitter" alt="Share on Twitter" class="" data-tooltip-text="Share on Twitter"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tb_article" data-url="http://www.allkpop.com/article/2014/09/tvxq-croon-time-works-wonders-in-a-short-pv" data-title="TVXQ croon 'Time Works Wonders' in a short PV" data-description="TVXQ&nbsp;revealed&nbsp;their swoon-worthy short PV for&nbsp;&quot;Time Works Wonders&quot;.
+TVXQ give off a soothing vibe i" data-image="http://www.allkpop.com/upload/2014/09/af_org/TVXQ_1411834147_af_org.jpg">
+							                    <button class="panel-tb btn-tumblr-scrap" onclick="" data-service-name="tumblr" title="Share on Tumblr" alt="Share on Tumblr" class="" data-tooltip-text="Share on Tumblr"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="g_article" data-url="http://www.allkpop.com/article/2014/09/tvxq-croon-time-works-wonders-in-a-short-pv" data-title="TVXQ croon 'Time Works Wonders' in a short PV" data-description="TVXQ&nbsp;revealed&nbsp;their swoon-worthy short PV for&nbsp;&quot;Time Works Wonders&quot;.
+TVXQ give off a soothing vibe i" data-image="http://www.allkpop.com/upload/2014/09/af_org/TVXQ_1411834147_af_org.jpg">
+							                    <button class="panel-gp btn-google-scrap" onclick="" data-service-name="g-plus" title="Share on Google+" alt="Share on Google+" class="" data-tooltip-text="Share on Google+"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="r_article" data-url="http://www.allkpop.com/article/2014/09/tvxq-croon-time-works-wonders-in-a-short-pv" data-title="TVXQ croon 'Time Works Wonders' in a short PV" data-description="TVXQ&nbsp;revealed&nbsp;their swoon-worthy short PV for&nbsp;&quot;Time Works Wonders&quot;.
+TVXQ give off a soothing vibe i" data-image="http://www.allkpop.com/upload/2014/09/af_org/TVXQ_1411834147_af_org.jpg">
+							                    <button class="panel-rd btn-reddit-scrap" onclick="" data-service-name="reddit" title="Share on reddit" alt="Share on reddit" class="" data-tooltip-text="Share on reddit"></button>
+							                </a>
+										</li>
+    								</ul>
+                                </div>
+                                    								
+    							
+    							<a href="/article/2014/09/tvxq-croon-time-works-wonders-in-a-short-pv" data-link="/article/2014/09/tvxq-croon-time-works-wonders-in-a-short-pv" >
+    							<div class="exbreaking">
+    		                            		                        	
+    							</div>
+                                <img src="http://static1.allkpop.com/upload/2014/09/af/TVXQ_1411834147_af.jpg" alt=""/></a>                                
+                                                                                                
+                                
+    						</div>
+    						<div class="entry pull-right">
+    							<div class="timestamp">
+                                    <span class="humantime">September 27, 2014 @ 12:51 pm</span>
+    							</div>
+    							<p>
+    								TVXQ revealed their swoon-worthy short PV for "Time Works Wonders".
+TVXQ give off a soothing vibe in the preview of their upcoming 42nd Japanese single, "Time Works Wonders", which is definitely a healing song for those going through some trouble in life that will heal over time. The single album which includes the track, "Baby Don't Cry", will be released on November 5!To ease the month-long wait for the release, check out the short PV in the m    							</p>
+                                <p><a href="/article/2014/09/tvxq-croon-time-works-wonders-in-a-short-pv" data-link="/article/2014/09/tvxq-croon-time-works-wonders-in-a-short-pv" class="readmore">Read More</a></p>
+    							<div class="meta" style="z-index: 100;">
+                                    <ul class="stats pull-left">
+                                        
+                                                                        </ul>
+    								<ul class="stats pull-right">
+    									<li><i class="icon-comment"></i> 35</li>
+    									<li><i class="icon-eye-open"></i> 2649</li>
+                                        <li><i class="icon-share" style="float: left;margin-top: 4px;"></i> <div class="love_it_cnt" data-chk="0" style="float: left; margin-left: 5px;">2479</div></li>
+    								</ul>
+    								<div class="clearfix"></div>
+    							</div>
+    						</div>
+    					</li>
+                                            					<li class="post category1" data-value="/article/2014/09/instiz-certifies-soyu-and-urban-zakapas-the-space-between-as-an-all-kill" data-chk="0">
+    						<h3 class="category1"><a href="/article/2014/09/instiz-certifies-soyu-and-urban-zakapas-the-space-between-as-an-all-kill" data-link="/article/2014/09/instiz-certifies-soyu-and-urban-zakapas-the-space-between-as-an-all-kill">Instiz certifies Soyu and Urban Zakapa's 'The Space Between' as an all-kill</a></h3>
+    						<div class="thumb pull-left">
+    							
+                                
+                                                                <div class="overlay overlay-social">
+                                    <ul class="social-links">
+    									<li style="margin-bottom: 5px;">
+							                                                            <button class="panel-offscrap btn-love-login" onclick="" data-service-name="scrap" title="Save to Scrapbook" alt="Save to Scrapbook" class="" data-tooltip-text="Save to Scrapbook"></button>
+                                            										</li>
+										<li style="margin-bottom: 5px;">
+							                <a class="fb_article" data-social="http://www.allkpop.com/article/2014/09/instiz-certifies-soyu-and-urban-zakapas-the-space-between-as-an-all-kill" data-url="http://www.facebook.com/share.php?s=100&p[url]=http://www.allkpop.com/article/2014/09/instiz-certifies-soyu-and-urban-zakapas-the-space-between-as-an-all-kill&p[images][0]=http://www.allkpop.com/upload/2014/09/af_org/Soyu-urban-zakapa_1411836228_af_org.jpg&p[title]=Instiz certifies Soyu and Urban Zakapa's 'The Space Between' as an all-kill&p[summary]=Soyu&amp;nbsp;and&amp;nbsp;Urban Zakapa's&amp;nbsp;collaboration project track &quot;The Space Between&quot; has been cert">
+							                    <button class="panel-fb btn-fbook-scrap" data-service-name="facebook" title="Share on Facebook" alt="Share on Facebook" class="" data-tooltip-text="Share on Facebook" style="width:50px; height:50px; background: no-repeat url(http://static1.allkpop.com/img/share-icons.png) 0 -60px;"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tw_article" data-url="http://www.allkpop.com/article/2014/09/instiz-certifies-soyu-and-urban-zakapas-the-space-between-as-an-all-kill" data-title="Instiz certifies Soyu and Urban Zakapa's 'The Space Between' as an all-kill" data-description="Soyu&amp;nbsp;and&amp;nbsp;Urban Zakapa's&amp;nbsp;collaboration project track &quot;The Space Between&quot; has been cert" data-image="http://www.allkpop.com/upload/2014/09/af_org/Soyu-urban-zakapa_1411836228_af_org.jpg"  data-tag="allkpop">
+							                    <button class="panel-tw btn-tweet-scrap" onclick="" data-service-name="twitter" title="Share on Twitter" alt="Share on Twitter" class="" data-tooltip-text="Share on Twitter"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tb_article" data-url="http://www.allkpop.com/article/2014/09/instiz-certifies-soyu-and-urban-zakapas-the-space-between-as-an-all-kill" data-title="Instiz certifies Soyu and Urban Zakapa's 'The Space Between' as an all-kill" data-description="Soyu&amp;nbsp;and&amp;nbsp;Urban Zakapa's&amp;nbsp;collaboration project track &quot;The Space Between&quot; has been cert" data-image="http://www.allkpop.com/upload/2014/09/af_org/Soyu-urban-zakapa_1411836228_af_org.jpg">
+							                    <button class="panel-tb btn-tumblr-scrap" onclick="" data-service-name="tumblr" title="Share on Tumblr" alt="Share on Tumblr" class="" data-tooltip-text="Share on Tumblr"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="g_article" data-url="http://www.allkpop.com/article/2014/09/instiz-certifies-soyu-and-urban-zakapas-the-space-between-as-an-all-kill" data-title="Instiz certifies Soyu and Urban Zakapa's 'The Space Between' as an all-kill" data-description="Soyu&amp;nbsp;and&amp;nbsp;Urban Zakapa's&amp;nbsp;collaboration project track &quot;The Space Between&quot; has been cert" data-image="http://www.allkpop.com/upload/2014/09/af_org/Soyu-urban-zakapa_1411836228_af_org.jpg">
+							                    <button class="panel-gp btn-google-scrap" onclick="" data-service-name="g-plus" title="Share on Google+" alt="Share on Google+" class="" data-tooltip-text="Share on Google+"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="r_article" data-url="http://www.allkpop.com/article/2014/09/instiz-certifies-soyu-and-urban-zakapas-the-space-between-as-an-all-kill" data-title="Instiz certifies Soyu and Urban Zakapa's 'The Space Between' as an all-kill" data-description="Soyu&amp;nbsp;and&amp;nbsp;Urban Zakapa's&amp;nbsp;collaboration project track &quot;The Space Between&quot; has been cert" data-image="http://www.allkpop.com/upload/2014/09/af_org/Soyu-urban-zakapa_1411836228_af_org.jpg">
+							                    <button class="panel-rd btn-reddit-scrap" onclick="" data-service-name="reddit" title="Share on reddit" alt="Share on reddit" class="" data-tooltip-text="Share on reddit"></button>
+							                </a>
+										</li>
+    								</ul>
+                                </div>
+                                    								
+    							
+    							<a href="/article/2014/09/instiz-certifies-soyu-and-urban-zakapas-the-space-between-as-an-all-kill" data-link="/article/2014/09/instiz-certifies-soyu-and-urban-zakapas-the-space-between-as-an-all-kill" >
+    							<div class="exbreaking">
+    		                            		                        	
+    							</div>
+                                <img src="http://static2.allkpop.com/upload/2014/09/af/Soyu-urban-zakapa_1411836228_af.jpg" alt=""/></a>                                
+                                                                                                
+                                
+    						</div>
+    						<div class="entry pull-right">
+    							<div class="timestamp">
+                                    <span class="humantime">September 27, 2014 @ 12:43 pm</span>
+    							</div>
+    							<p>
+    								Soyu&nbsp;and&nbsp;Urban Zakapa's&nbsp;collaboration project track "The Space Between" has been certified an all-kill by Instiz.
+The track was released on September 26 and it has placed 1st on both the daily and real time charts of&nbsp;Melon,&nbsp;Genie,&nbsp;Olleh Music,&nbsp;Soribada,&nbsp;Monkey 3,&nbsp;Bugs,&nbsp;Mnet,&nbsp;Cyworld,&nbsp;Naver Music, and&nbsp;Daum Music.Congratulations to Soyu and Urban Zakapa.
+    							</p>
+                                <p><a href="/article/2014/09/instiz-certifies-soyu-and-urban-zakapas-the-space-between-as-an-all-kill" data-link="/article/2014/09/instiz-certifies-soyu-and-urban-zakapas-the-space-between-as-an-all-kill" class="readmore">Read More</a></p>
+    							<div class="meta" style="z-index: 100;">
+                                    <ul class="stats pull-left">
+                                        
+                                                                        </ul>
+    								<ul class="stats pull-right">
+    									<li><i class="icon-comment"></i> 25</li>
+    									<li><i class="icon-eye-open"></i> 5014</li>
+                                        <li><i class="icon-share" style="float: left;margin-top: 4px;"></i> <div class="love_it_cnt" data-chk="0" style="float: left; margin-left: 5px;">347</div></li>
+    								</ul>
+    								<div class="clearfix"></div>
+    							</div>
+    						</div>
+    					</li>
+                                            <li class="post akp_home_300x250_b" style="background:#f7f3f3;"></li>
+                                        					<li class="post category2" data-value="/article/2014/09/taetiseo-reveal-they-hated-their-group-name-at-first" data-chk="0">
+    						<h3 class="category2"><a href="/article/2014/09/taetiseo-reveal-they-hated-their-group-name-at-first" data-link="/article/2014/09/taetiseo-reveal-they-hated-their-group-name-at-first">TaeTiSeo reveal they hated their group name at first</a></h3>
+    						<div class="thumb pull-left">
+    							
+                                
+                                                                <div class="overlay overlay-social">
+                                    <ul class="social-links">
+    									<li style="margin-bottom: 5px;">
+							                                                            <button class="panel-offscrap btn-love-login" onclick="" data-service-name="scrap" title="Save to Scrapbook" alt="Save to Scrapbook" class="" data-tooltip-text="Save to Scrapbook"></button>
+                                            										</li>
+										<li style="margin-bottom: 5px;">
+							                <a class="fb_article" data-social="http://www.allkpop.com/article/2014/09/taetiseo-reveal-they-hated-their-group-name-at-first" data-url="http://www.facebook.com/share.php?s=100&p[url]=http://www.allkpop.com/article/2014/09/taetiseo-reveal-they-hated-their-group-name-at-first&p[images][0]=http://www.allkpop.com/upload/2014/09/af_org/Girls-Generation-Taeyeon-Tiffany-Seohyun-taetiseo_1411829868_af_org.jpg&p[title]=TaeTiSeo reveal they hated their group name at first&p[summary]=TaeTiSeo&amp;nbsp;shared the story behind their group name and meeting with Kang Dong Won during their g">
+							                    <button class="panel-fb btn-fbook-scrap" data-service-name="facebook" title="Share on Facebook" alt="Share on Facebook" class="" data-tooltip-text="Share on Facebook" style="width:50px; height:50px; background: no-repeat url(http://static1.allkpop.com/img/share-icons.png) 0 -60px;"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tw_article" data-url="http://www.allkpop.com/article/2014/09/taetiseo-reveal-they-hated-their-group-name-at-first" data-title="TaeTiSeo reveal they hated their group name at first" data-description="TaeTiSeo&amp;nbsp;shared the story behind their group name and meeting with Kang Dong Won during their g" data-image="http://www.allkpop.com/upload/2014/09/af_org/Girls-Generation-Taeyeon-Tiffany-Seohyun-taetiseo_1411829868_af_org.jpg"  data-tag="allkpop">
+							                    <button class="panel-tw btn-tweet-scrap" onclick="" data-service-name="twitter" title="Share on Twitter" alt="Share on Twitter" class="" data-tooltip-text="Share on Twitter"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tb_article" data-url="http://www.allkpop.com/article/2014/09/taetiseo-reveal-they-hated-their-group-name-at-first" data-title="TaeTiSeo reveal they hated their group name at first" data-description="TaeTiSeo&amp;nbsp;shared the story behind their group name and meeting with Kang Dong Won during their g" data-image="http://www.allkpop.com/upload/2014/09/af_org/Girls-Generation-Taeyeon-Tiffany-Seohyun-taetiseo_1411829868_af_org.jpg">
+							                    <button class="panel-tb btn-tumblr-scrap" onclick="" data-service-name="tumblr" title="Share on Tumblr" alt="Share on Tumblr" class="" data-tooltip-text="Share on Tumblr"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="g_article" data-url="http://www.allkpop.com/article/2014/09/taetiseo-reveal-they-hated-their-group-name-at-first" data-title="TaeTiSeo reveal they hated their group name at first" data-description="TaeTiSeo&amp;nbsp;shared the story behind their group name and meeting with Kang Dong Won during their g" data-image="http://www.allkpop.com/upload/2014/09/af_org/Girls-Generation-Taeyeon-Tiffany-Seohyun-taetiseo_1411829868_af_org.jpg">
+							                    <button class="panel-gp btn-google-scrap" onclick="" data-service-name="g-plus" title="Share on Google+" alt="Share on Google+" class="" data-tooltip-text="Share on Google+"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="r_article" data-url="http://www.allkpop.com/article/2014/09/taetiseo-reveal-they-hated-their-group-name-at-first" data-title="TaeTiSeo reveal they hated their group name at first" data-description="TaeTiSeo&amp;nbsp;shared the story behind their group name and meeting with Kang Dong Won during their g" data-image="http://www.allkpop.com/upload/2014/09/af_org/Girls-Generation-Taeyeon-Tiffany-Seohyun-taetiseo_1411829868_af_org.jpg">
+							                    <button class="panel-rd btn-reddit-scrap" onclick="" data-service-name="reddit" title="Share on reddit" alt="Share on reddit" class="" data-tooltip-text="Share on reddit"></button>
+							                </a>
+										</li>
+    								</ul>
+                                </div>
+                                    								
+    							
+    							<a href="/article/2014/09/taetiseo-reveal-they-hated-their-group-name-at-first" data-link="/article/2014/09/taetiseo-reveal-they-hated-their-group-name-at-first" >
+    							<div class="exbreaking">
+    		                            		                        	
+    							</div>
+                                <img src="http://static3.allkpop.com/upload/2014/09/af/Girls-Generation-Taeyeon-Tiffany-Seohyun-taetiseo_1411829868_af.jpg" alt=""/></a>                                
+                                                                                                
+                                
+    						</div>
+    						<div class="entry pull-right">
+    							<div class="timestamp">
+                                    <span class="humantime">September 27, 2014 @ 12:09 pm</span>
+    							</div>
+    							<p>
+    								TaeTiSeo&nbsp;shared the story behind their group name and meeting with Kang Dong Won during their guerilla date KBS 2TV's&nbsp;'Entertainment Relay'!
+When asked, "Did the three of you also come up with your group name yourselves?",&nbsp;Tiffany revealed, "No. I really didn't like it. We were wondering whether we should name our group, 'Twinkle', or something else. [But our agency said] Just do 'TaeTiSeo'. I didn't think that the name on our sch    							</p>
+                                <p><a href="/article/2014/09/taetiseo-reveal-they-hated-their-group-name-at-first" data-link="/article/2014/09/taetiseo-reveal-they-hated-their-group-name-at-first" class="readmore">Read More</a></p>
+    							<div class="meta" style="z-index: 100;">
+                                    <ul class="stats pull-left">
+                                        
+                                                                        </ul>
+    								<ul class="stats pull-right">
+    									<li><i class="icon-comment"></i> 47</li>
+    									<li><i class="icon-eye-open"></i> 27542</li>
+                                        <li><i class="icon-share" style="float: left;margin-top: 4px;"></i> <div class="love_it_cnt" data-chk="0" style="float: left; margin-left: 5px;">5990</div></li>
+    								</ul>
+    								<div class="clearfix"></div>
+    							</div>
+    						</div>
+    					</li>
+                                            					<li class="post category3" data-value="/article/2014/09/got7-take-you-behind-the-scenes-of-their-farewell-stage-for-a-on-8th-episode-of-real-got7" data-chk="0">
+    						<h3 class="category3"><a href="/article/2014/09/got7-take-you-behind-the-scenes-of-their-farewell-stage-for-a-on-8th-episode-of-real-got7" data-link="/article/2014/09/got7-take-you-behind-the-scenes-of-their-farewell-stage-for-a-on-8th-episode-of-real-got7">GOT7 take you behind the scenes of their farewell stage for 'A' on 8th episode of 'Real GOT7'</a></h3>
+    						<div class="thumb pull-left">
+    							
+                                
+                                                                <div class="overlay overlay-social">
+                                    <ul class="social-links">
+    									<li style="margin-bottom: 5px;">
+							                                                            <button class="panel-offscrap btn-love-login" onclick="" data-service-name="scrap" title="Save to Scrapbook" alt="Save to Scrapbook" class="" data-tooltip-text="Save to Scrapbook"></button>
+                                            										</li>
+										<li style="margin-bottom: 5px;">
+							                <a class="fb_article" data-social="http://www.allkpop.com/article/2014/09/got7-take-you-behind-the-scenes-of-their-farewell-stage-for-a-on-8th-episode-of-real-got7" data-url="http://www.facebook.com/share.php?s=100&p[url]=http://www.allkpop.com/article/2014/09/got7-take-you-behind-the-scenes-of-their-farewell-stage-for-a-on-8th-episode-of-real-got7&p[images][0]=http://www.allkpop.com/upload/2014/09/af_org/got7_1411821025_af_org.jpeg&p[title]=GOT7 take you behind the scenes of their farewell stage for 'A' on 8th episode of 'Real GOT7'&p[summary]=GOT7&nbsp;had fun imitating each other backstage on the 8th&nbsp;episode of 'Real GOT7' season 2!
+They were s">
+							                    <button class="panel-fb btn-fbook-scrap" data-service-name="facebook" title="Share on Facebook" alt="Share on Facebook" class="" data-tooltip-text="Share on Facebook" style="width:50px; height:50px; background: no-repeat url(http://static1.allkpop.com/img/share-icons.png) 0 -60px;"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tw_article" data-url="http://www.allkpop.com/article/2014/09/got7-take-you-behind-the-scenes-of-their-farewell-stage-for-a-on-8th-episode-of-real-got7" data-title="GOT7 take you behind the scenes of their farewell stage for 'A' on 8th episode of 'Real GOT7'" data-description="GOT7&nbsp;had fun imitating each other backstage on the 8th&nbsp;episode of 'Real GOT7' season 2!
+They were s" data-image="http://www.allkpop.com/upload/2014/09/af_org/got7_1411821025_af_org.jpeg"  data-tag="allkpop">
+							                    <button class="panel-tw btn-tweet-scrap" onclick="" data-service-name="twitter" title="Share on Twitter" alt="Share on Twitter" class="" data-tooltip-text="Share on Twitter"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tb_article" data-url="http://www.allkpop.com/article/2014/09/got7-take-you-behind-the-scenes-of-their-farewell-stage-for-a-on-8th-episode-of-real-got7" data-title="GOT7 take you behind the scenes of their farewell stage for 'A' on 8th episode of 'Real GOT7'" data-description="GOT7&nbsp;had fun imitating each other backstage on the 8th&nbsp;episode of 'Real GOT7' season 2!
+They were s" data-image="http://www.allkpop.com/upload/2014/09/af_org/got7_1411821025_af_org.jpeg">
+							                    <button class="panel-tb btn-tumblr-scrap" onclick="" data-service-name="tumblr" title="Share on Tumblr" alt="Share on Tumblr" class="" data-tooltip-text="Share on Tumblr"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="g_article" data-url="http://www.allkpop.com/article/2014/09/got7-take-you-behind-the-scenes-of-their-farewell-stage-for-a-on-8th-episode-of-real-got7" data-title="GOT7 take you behind the scenes of their farewell stage for 'A' on 8th episode of 'Real GOT7'" data-description="GOT7&nbsp;had fun imitating each other backstage on the 8th&nbsp;episode of 'Real GOT7' season 2!
+They were s" data-image="http://www.allkpop.com/upload/2014/09/af_org/got7_1411821025_af_org.jpeg">
+							                    <button class="panel-gp btn-google-scrap" onclick="" data-service-name="g-plus" title="Share on Google+" alt="Share on Google+" class="" data-tooltip-text="Share on Google+"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="r_article" data-url="http://www.allkpop.com/article/2014/09/got7-take-you-behind-the-scenes-of-their-farewell-stage-for-a-on-8th-episode-of-real-got7" data-title="GOT7 take you behind the scenes of their farewell stage for 'A' on 8th episode of 'Real GOT7'" data-description="GOT7&nbsp;had fun imitating each other backstage on the 8th&nbsp;episode of 'Real GOT7' season 2!
+They were s" data-image="http://www.allkpop.com/upload/2014/09/af_org/got7_1411821025_af_org.jpeg">
+							                    <button class="panel-rd btn-reddit-scrap" onclick="" data-service-name="reddit" title="Share on reddit" alt="Share on reddit" class="" data-tooltip-text="Share on reddit"></button>
+							                </a>
+										</li>
+    								</ul>
+                                </div>
+                                    								
+    							
+    							<a href="/article/2014/09/got7-take-you-behind-the-scenes-of-their-farewell-stage-for-a-on-8th-episode-of-real-got7" data-link="/article/2014/09/got7-take-you-behind-the-scenes-of-their-farewell-stage-for-a-on-8th-episode-of-real-got7" >
+    							<div class="exbreaking">
+    		                            		                        	
+    							</div>
+                                <img src="http://static4.allkpop.com/upload/2014/09/af/got7_1411821026_af.jpeg" alt=""/></a>                                
+                                                                                                
+                                
+    						</div>
+    						<div class="entry pull-right">
+    							<div class="timestamp">
+                                    <span class="humantime">September 27, 2014 @ 11:20 am</span>
+    							</div>
+    							<p>
+    								GOT7 had fun imitating each other backstage on the 8th episode of 'Real GOT7' season 2!
+They were spotted backstage for their farewell stage for "A" on KBS 2TV's 'Music Bank'. The boys continued on their manitto mission with Mark complimenting BamBam on his 'baby face'. Jackson also made fans laugh as usual with his on-point expressions of his members and the rest of the group joined in on the fun with their own imitations. Leader JB also proved    							</p>
+                                <p><a href="/article/2014/09/got7-take-you-behind-the-scenes-of-their-farewell-stage-for-a-on-8th-episode-of-real-got7" data-link="/article/2014/09/got7-take-you-behind-the-scenes-of-their-farewell-stage-for-a-on-8th-episode-of-real-got7" class="readmore">Read More</a></p>
+    							<div class="meta" style="z-index: 100;">
+                                    <ul class="stats pull-left">
+                                        
+                                                                        </ul>
+    								<ul class="stats pull-right">
+    									<li><i class="icon-comment"></i> 12</li>
+    									<li><i class="icon-eye-open"></i> 3620</li>
+                                        <li><i class="icon-share" style="float: left;margin-top: 4px;"></i> <div class="love_it_cnt" data-chk="0" style="float: left; margin-left: 5px;">3693</div></li>
+    								</ul>
+    								<div class="clearfix"></div>
+    							</div>
+    						</div>
+    					</li>
+                                            					<li class="post category4" data-value="/buzz/2014/09/how-average-south-koreans-will-look-in-the-year-2100" data-chk="0">
+    						<h3 class="category4"><a href="/buzz/2014/09/how-average-south-koreans-will-look-in-the-year-2100" data-link="/buzz/2014/09/how-average-south-koreans-will-look-in-the-year-2100">How Average South Koreans will look in the year 2100</a></h3>
+    						<div class="thumb pull-left">
+    							
+                                
+                                                                <div class="overlay overlay-social">
+                                    <ul class="social-links">
+    									<li style="margin-bottom: 5px;">
+							                                                            <button class="panel-offscrap btn-love-login" onclick="" data-service-name="scrap" title="Save to Scrapbook" alt="Save to Scrapbook" class="" data-tooltip-text="Save to Scrapbook"></button>
+                                            										</li>
+										<li style="margin-bottom: 5px;">
+							                <a class="fb_article" data-social="http://www.allkpop.com/buzz/2014/09/how-average-south-koreans-will-look-in-the-year-2100" data-url="http://www.facebook.com/share.php?s=100&p[url]=http://www.allkpop.com/buzz/2014/09/how-average-south-koreans-will-look-in-the-year-2100&p[images][0]=http://www.allkpop.com/upload/2014/09/af_org/buzz_1411767005_af_org.jpg&p[title]=How Average South Koreans will look in the year 2100&p[summary]=According to researchers from the Korean Face Institute, the average face of South Koreans will look">
+							                    <button class="panel-fb btn-fbook-scrap" data-service-name="facebook" title="Share on Facebook" alt="Share on Facebook" class="" data-tooltip-text="Share on Facebook" style="width:50px; height:50px; background: no-repeat url(http://static1.allkpop.com/img/share-icons.png) 0 -60px;"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tw_article" data-url="http://www.allkpop.com/buzz/2014/09/how-average-south-koreans-will-look-in-the-year-2100" data-title="How Average South Koreans will look in the year 2100" data-description="According to researchers from the Korean Face Institute, the average face of South Koreans will look" data-image="http://www.allkpop.com/upload/2014/09/af_org/buzz_1411767005_af_org.jpg"  data-tag="allkpopBuzz">
+							                    <button class="panel-tw btn-tweet-scrap" onclick="" data-service-name="twitter" title="Share on Twitter" alt="Share on Twitter" class="" data-tooltip-text="Share on Twitter"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tb_article" data-url="http://www.allkpop.com/buzz/2014/09/how-average-south-koreans-will-look-in-the-year-2100" data-title="How Average South Koreans will look in the year 2100" data-description="According to researchers from the Korean Face Institute, the average face of South Koreans will look" data-image="http://www.allkpop.com/upload/2014/09/af_org/buzz_1411767005_af_org.jpg">
+							                    <button class="panel-tb btn-tumblr-scrap" onclick="" data-service-name="tumblr" title="Share on Tumblr" alt="Share on Tumblr" class="" data-tooltip-text="Share on Tumblr"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="g_article" data-url="http://www.allkpop.com/buzz/2014/09/how-average-south-koreans-will-look-in-the-year-2100" data-title="How Average South Koreans will look in the year 2100" data-description="According to researchers from the Korean Face Institute, the average face of South Koreans will look" data-image="http://www.allkpop.com/upload/2014/09/af_org/buzz_1411767005_af_org.jpg">
+							                    <button class="panel-gp btn-google-scrap" onclick="" data-service-name="g-plus" title="Share on Google+" alt="Share on Google+" class="" data-tooltip-text="Share on Google+"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="r_article" data-url="http://www.allkpop.com/buzz/2014/09/how-average-south-koreans-will-look-in-the-year-2100" data-title="How Average South Koreans will look in the year 2100" data-description="According to researchers from the Korean Face Institute, the average face of South Koreans will look" data-image="http://www.allkpop.com/upload/2014/09/af_org/buzz_1411767005_af_org.jpg">
+							                    <button class="panel-rd btn-reddit-scrap" onclick="" data-service-name="reddit" title="Share on reddit" alt="Share on reddit" class="" data-tooltip-text="Share on reddit"></button>
+							                </a>
+										</li>
+    								</ul>
+                                </div>
+                                    								
+    							
+    							<a href="/buzz/2014/09/how-average-south-koreans-will-look-in-the-year-2100" data-link="/buzz/2014/09/how-average-south-koreans-will-look-in-the-year-2100" >
+    							<div class="exbreaking">
+    		                            		                        	
+    							</div>
+                                <img src="http://static1.allkpop.com/upload/2014/09/af/buzz_1411767005_af.jpg" alt=""/></a>                                
+                                                                                                
+                                
+    						</div>
+    						<div class="entry pull-right">
+    							<div class="timestamp">
+                                    <span class="humantime">September 27, 2014 @ 11:07 am</span>
+    							</div>
+    							<p>
+    								According to researchers from the Korean Face Institute, the average face of South Koreans will look different by 2100.&nbsp;How Koreans will look in 2100Researchers came to this prediction after running a computer simulation with 20,000 photos of South Korean faces. As seen in the picture above, researchers believe that within 100 years women will have natural double eyelids, and both men and women will have thicker eyebrows and wider foreheads.    							</p>
+                                <p><a href="/buzz/2014/09/how-average-south-koreans-will-look-in-the-year-2100" data-link="/buzz/2014/09/how-average-south-koreans-will-look-in-the-year-2100" class="readmore">Read More</a></p>
+    							<div class="meta" style="z-index: 100;">
+                                    <ul class="stats pull-left">
+                                        
+                                                                        </ul>
+    								<ul class="stats pull-right">
+    									<li><i class="icon-comment"></i> 79</li>
+    									<li><i class="icon-eye-open"></i> 38860</li>
+                                        <li><i class="icon-share" style="float: left;margin-top: 4px;"></i> <div class="love_it_cnt" data-chk="0" style="float: left; margin-left: 5px;">182</div></li>
+    								</ul>
+    								<div class="clearfix"></div>
+    							</div>
+    						</div>
+    					</li>
+                                            					<li class="post category5" data-value="/article/2014/09/superman-is-back-pd-reveals-what-the-superman-fathers-are-really-like" data-chk="0">
+    						<h3 class="category5"><a href="/article/2014/09/superman-is-back-pd-reveals-what-the-superman-fathers-are-really-like" data-link="/article/2014/09/superman-is-back-pd-reveals-what-the-superman-fathers-are-really-like">'Superman is Back' PD reveals what the 'superman' fathers are really like</a></h3>
+    						<div class="thumb pull-left">
+    							
+                                
+                                                                <div class="overlay overlay-social">
+                                    <ul class="social-links">
+    									<li style="margin-bottom: 5px;">
+							                                                            <button class="panel-offscrap btn-love-login" onclick="" data-service-name="scrap" title="Save to Scrapbook" alt="Save to Scrapbook" class="" data-tooltip-text="Save to Scrapbook"></button>
+                                            										</li>
+										<li style="margin-bottom: 5px;">
+							                <a class="fb_article" data-social="http://www.allkpop.com/article/2014/09/superman-is-back-pd-reveals-what-the-superman-fathers-are-really-like" data-url="http://www.facebook.com/share.php?s=100&p[url]=http://www.allkpop.com/article/2014/09/superman-is-back-pd-reveals-what-the-superman-fathers-are-really-like&p[images][0]=http://www.allkpop.com/upload/2014/09/af_org/lee-hwi-jae-choo-sung-hoon-song-il-kook_1411775184_af_org.jpg&p[title]='Superman is Back' PD reveals what the 'superman' fathers are really like&p[summary]=Most viewers have come to love the families on 'Superman is Back' as if they were their own, and alt">
+							                    <button class="panel-fb btn-fbook-scrap" data-service-name="facebook" title="Share on Facebook" alt="Share on Facebook" class="" data-tooltip-text="Share on Facebook" style="width:50px; height:50px; background: no-repeat url(http://static1.allkpop.com/img/share-icons.png) 0 -60px;"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tw_article" data-url="http://www.allkpop.com/article/2014/09/superman-is-back-pd-reveals-what-the-superman-fathers-are-really-like" data-title="'Superman is Back' PD reveals what the 'superman' fathers are really like" data-description="Most viewers have come to love the families on 'Superman is Back' as if they were their own, and alt" data-image="http://www.allkpop.com/upload/2014/09/af_org/lee-hwi-jae-choo-sung-hoon-song-il-kook_1411775184_af_org.jpg"  data-tag="allkpop">
+							                    <button class="panel-tw btn-tweet-scrap" onclick="" data-service-name="twitter" title="Share on Twitter" alt="Share on Twitter" class="" data-tooltip-text="Share on Twitter"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="tb_article" data-url="http://www.allkpop.com/article/2014/09/superman-is-back-pd-reveals-what-the-superman-fathers-are-really-like" data-title="'Superman is Back' PD reveals what the 'superman' fathers are really like" data-description="Most viewers have come to love the families on 'Superman is Back' as if they were their own, and alt" data-image="http://www.allkpop.com/upload/2014/09/af_org/lee-hwi-jae-choo-sung-hoon-song-il-kook_1411775184_af_org.jpg">
+							                    <button class="panel-tb btn-tumblr-scrap" onclick="" data-service-name="tumblr" title="Share on Tumblr" alt="Share on Tumblr" class="" data-tooltip-text="Share on Tumblr"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="g_article" data-url="http://www.allkpop.com/article/2014/09/superman-is-back-pd-reveals-what-the-superman-fathers-are-really-like" data-title="'Superman is Back' PD reveals what the 'superman' fathers are really like" data-description="Most viewers have come to love the families on 'Superman is Back' as if they were their own, and alt" data-image="http://www.allkpop.com/upload/2014/09/af_org/lee-hwi-jae-choo-sung-hoon-song-il-kook_1411775184_af_org.jpg">
+							                    <button class="panel-gp btn-google-scrap" onclick="" data-service-name="g-plus" title="Share on Google+" alt="Share on Google+" class="" data-tooltip-text="Share on Google+"></button>
+							                </a>
+										</li>
+										
+										<li style="margin-bottom: 5px;">
+							                <a class="r_article" data-url="http://www.allkpop.com/article/2014/09/superman-is-back-pd-reveals-what-the-superman-fathers-are-really-like" data-title="'Superman is Back' PD reveals what the 'superman' fathers are really like" data-description="Most viewers have come to love the families on 'Superman is Back' as if they were their own, and alt" data-image="http://www.allkpop.com/upload/2014/09/af_org/lee-hwi-jae-choo-sung-hoon-song-il-kook_1411775184_af_org.jpg">
+							                    <button class="panel-rd btn-reddit-scrap" onclick="" data-service-name="reddit" title="Share on reddit" alt="Share on reddit" class="" data-tooltip-text="Share on reddit"></button>
+							                </a>
+										</li>
+    								</ul>
+                                </div>
+                                    								
+    							
+    							<a href="/article/2014/09/superman-is-back-pd-reveals-what-the-superman-fathers-are-really-like" data-link="/article/2014/09/superman-is-back-pd-reveals-what-the-superman-fathers-are-really-like" >
+    							<div class="exbreaking">
+    		                            		                        	
+    							</div>
+                                <img src="http://static2.allkpop.com/upload/2014/09/af/lee-hwi-jae-choo-sung-hoon-song-il-kook_1411775184_af.jpg" alt=""/></a>                                
+                                                                                                
+                                
+    						</div>
+    						<div class="entry pull-right">
+    							<div class="timestamp">
+                                    <span class="humantime">September 27, 2014 @ 10:30 am</span>
+    							</div>
+    							<p>
+    								Most viewers have come to love the families on 'Superman is Back' as if they were their own, and although a sense of kinship was formed through the broadcast, not many know what the children and 'supermen' are like offscreen. The show's PD Kang Bong Kyu revealed what many are curious about in an interview.
+The PD talked about the father of the 'choovely' family, Choo Sung Hoon, "As a Judo and martial arts athlete, I think Choo Sung Hoon wants to    							</p>
+                                <p><a href="/article/2014/09/superman-is-back-pd-reveals-what-the-superman-fathers-are-really-like" data-link="/article/2014/09/superman-is-back-pd-reveals-what-the-superman-fathers-are-really-like" class="readmore">Read More</a></p>
+    							<div class="meta" style="z-index: 100;">
+                                    <ul class="stats pull-left">
+                                        
+                                                                        </ul>
+    								<ul class="stats pull-right">
+    									<li><i class="icon-comment"></i> 22</li>
+    									<li><i class="icon-eye-open"></i> 32361</li>
+                                        <li><i class="icon-share" style="float: left;margin-top: 4px;"></i> <div class="love_it_cnt" data-chk="0" style="float: left; margin-left: 5px;">4214</div></li>
+    								</ul>
+    								<div class="clearfix"></div>
+    							</div>
+    						</div>
+    					</li>
+                               
+                    </ul> 
+                    <section class='page-nav'>
+                    	                        <span p='2' class='btn-nav pull-right active'>Next <i class='icon-chevron-right'></i></span>
+            			<div class='clearfix'></div>
+                    </section>
+                </div>
+			</section>
+			<section class="sidebar span4" style="margin-top: 114px;">
+                <article class="akp-tips">
+					<a href="/tips"><img src="http://static2.allkpop.com/img/tips.jpg"></a>
+				</article>
+                <article class="ad ad-mrec ad-siderail akp_home_300x250_a"></article>        <article class="ad ad-mrec ad-siderail akp_promo_300x150" style='width:300px; height:150px;'></article>
+        <article class="popular">
+        	<h2 class="section section-sidebar">Popular</h2>
+        	<div class="tabs">
+        		<ul>
+        			<li><a href="#today">Today</a></li>
+        			<li><a href="#week">Week</a></li>
+        			<li><a href="#month">Month</a></li>
+        		</ul>
+        		<div name="#today">
+        			<ul class="list-popular">
+                                                <li class="popular category4">
+            					<a href="/article/2014/09/junk-tweets-ambiguous-message-about-sajaegi" data-link="/article/2014/09/junk-tweets-ambiguous-message-about-sajaegi">
+            						<div class="thumb pull-left">
+            							<img src="http://static3.allkpop.com/upload/2014/09/af/JunK_1411836790_af.jpg"/>			
+            						</div>
+            						<h5 style="height:28px;overflow-y: hidden;padding: 0px;">Jun.K tweets ambiguous message about 'Sajaegi'</h5>
+            					</a>
+            					<div class="clearfix"></div>
+            					<a href="/article/2014/09/junk-tweets-ambiguous-message-about-sajaegi" data-link="/article/2014/09/junk-tweets-ambiguous-message-about-sajaegi">
+                                    <i class="icon-comment"></i> 704                                    <i class="icon-eye-open"></i> 39128                                    <i class="icon-share"></i> 3071                                </a>
+            				</li>
+                                                <li class="popular category3">
+            					<a href="/article/2014/09/t-aras-jiyeon-hospitalized-before-show-music-core-filming" data-link="/article/2014/09/t-aras-jiyeon-hospitalized-before-show-music-core-filming">
+            						<div class="thumb pull-left">
+            							<img src="http://static3.allkpop.com/upload/2014/09/af/T-ara-Jiyeon_1411821196_af.jpg"/>			
+            						</div>
+            						<h5 style="height:28px;overflow-y: hidden;padding: 0px;">T-ara's Jiyeon hospitalized before 'Show! Music Core' filmin...</h5>
+            					</a>
+            					<div class="clearfix"></div>
+            					<a href="/article/2014/09/t-aras-jiyeon-hospitalized-before-show-music-core-filming" data-link="/article/2014/09/t-aras-jiyeon-hospitalized-before-show-music-core-filming">
+                                    <i class="icon-comment"></i> 268                                    <i class="icon-eye-open"></i> 44250                                    <i class="icon-share"></i> 10071                                </a>
+            				</li>
+                                                <li class="popular category2">
+            					<a href="/article/2014/09/7-hilarious-k-pop-idol-rollercoaster-reactions" data-link="/article/2014/09/7-hilarious-k-pop-idol-rollercoaster-reactions">
+            						<div class="thumb pull-left">
+            							<img src="http://static3.allkpop.com/upload/2014/09/af/Wooyoung-Big-Bang-SHINee-Shinhwa-Super-Junior-Jiyeon-Ailee-Gary-winner_1411678712_af.jpg"/>			
+            						</div>
+            						<h5 style="height:28px;overflow-y: hidden;padding: 0px;">7 hilarious K-Pop idol rollercoaster reactions</h5>
+            					</a>
+            					<div class="clearfix"></div>
+            					<a href="/article/2014/09/7-hilarious-k-pop-idol-rollercoaster-reactions" data-link="/article/2014/09/7-hilarious-k-pop-idol-rollercoaster-reactions">
+                                    <i class="icon-comment"></i> 267                                    <i class="icon-eye-open"></i> 175260                                    <i class="icon-share"></i> 6717                                </a>
+            				</li>
+                                                <li class="popular category1">
+            					<a href="/article/2014/09/t-ara-sign-with-chinese-entertainment-company-longzhen-culture-development" data-link="/article/2014/09/t-ara-sign-with-chinese-entertainment-company-longzhen-culture-development">
+            						<div class="thumb pull-left">
+            							<img src="http://static3.allkpop.com/upload/2014/09/af/T-ara_1411780678_af.jpg"/>			
+            						</div>
+            						<h5 style="height:28px;overflow-y: hidden;padding: 0px;">T-ara sign with Chinese entertainment company Longzhen Cultu...</h5>
+            					</a>
+            					<div class="clearfix"></div>
+            					<a href="/article/2014/09/t-ara-sign-with-chinese-entertainment-company-longzhen-culture-development" data-link="/article/2014/09/t-ara-sign-with-chinese-entertainment-company-longzhen-culture-development">
+                                    <i class="icon-comment"></i> 226                                    <i class="icon-eye-open"></i> 19798                                    <i class="icon-share"></i> 20318                                </a>
+            				</li>
+                                                <li class="popular category5">
+            					<a href="/buzz/2014/09/over-50-people-charged-for-putting-siren-lights-on-idol-vans-in-order-to-illegally-speed-through-traffic" data-link="/buzz/2014/09/over-50-people-charged-for-putting-siren-lights-on-idol-vans-in-order-to-illegally-speed-through-traffic">
+            						<div class="thumb pull-left">
+            							<img src="http://static3.allkpop.com/upload/2014/09/af/buzz_1411760204_af.jpg"/>			
+            						</div>
+            						<h5 style="height:28px;overflow-y: hidden;padding: 0px;">Over 50 people charged for putting siren lights on idol vans...</h5>
+            					</a>
+            					<div class="clearfix"></div>
+            					<a href="/buzz/2014/09/over-50-people-charged-for-putting-siren-lights-on-idol-vans-in-order-to-illegally-speed-through-traffic" data-link="/buzz/2014/09/over-50-people-charged-for-putting-siren-lights-on-idol-vans-in-order-to-illegally-speed-through-traffic">
+                                    <i class="icon-comment"></i> 212                                    <i class="icon-eye-open"></i> 54701                                    <i class="icon-share"></i> 181                                </a>
+            				</li>
+                            			</ul>
+        		</div>
+        		<div name="#week">
+        			<ul class="list-popular">
+                            				<li class="popular category4">
+        					<a href="/article/2014/09/tournament-best-idol-rapper-in-k-pop" data-link="/article/2014/09/tournament-best-idol-rapper-in-k-pop">
+                            	<div class="thumb pull-left">
+        							<img src="http://static3.allkpop.com/upload/2014/09/af/Taecyeon-CL-HyunA-Jooyeon-Baro-Bang-Yong-Guk-Junhyung-TOP-FeelDog-Zico-Miryo--Ilhoon-Ga-Eun-LE-Amber-Dongwoo-Mir-Jia-Woori-hana-Bora-Hyomin-CAP-Mint-Ravi-Yubin-Jay-Park-jimin-rap-monster-song-min-ho-jackson-kemy_1411498611_af.jpg">			
+        						</div>
+        						<h5 style="height:28px;overflow-y: hidden;padding: 0px;">[Tournament] Best Idol Rapper in K-pop</h5>
+        					</a>
+        					<div class="clearfix"></div>
+        					<a href="/article/2014/09/tournament-best-idol-rapper-in-k-pop" data-link="/article/2014/09/tournament-best-idol-rapper-in-k-pop">
+                                <i class="icon-comment"></i> 2381                                <i class="icon-eye-open"></i> 433426                                <i class="icon-share"></i> 19127                            </a>
+        				</li>
+        			        				<li class="popular category3">
+        					<a href="/article/2014/09/zeas-leader-lee-hoo-junyoung-reveals-hell-be-revealing-explosive-secrets-about-star-empires-ceo" data-link="/article/2014/09/zeas-leader-lee-hoo-junyoung-reveals-hell-be-revealing-explosive-secrets-about-star-empires-ceo">
+                            	<div class="thumb pull-left">
+        							<img src="http://static3.allkpop.com/upload/2014/09/af/ZEA-Junyoung_1411261706_af.jpg">			
+        						</div>
+        						<h5 style="height:28px;overflow-y: hidden;padding: 0px;">[UPDATE #3] ZE:As leader Lee Hoo (Junyoung) reveals he'll be...</h5>
+        					</a>
+        					<div class="clearfix"></div>
+        					<a href="/article/2014/09/zeas-leader-lee-hoo-junyoung-reveals-hell-be-revealing-explosive-secrets-about-star-empires-ceo" data-link="/article/2014/09/zeas-leader-lee-hoo-junyoung-reveals-hell-be-revealing-explosive-secrets-about-star-empires-ceo">
+                                <i class="icon-comment"></i> 2024                                <i class="icon-eye-open"></i> 578041                                <i class="icon-share"></i> 25758                            </a>
+        				</li>
+        			        				<li class="popular category2">
+        					<a href="/article/2014/09/zeas-leader-lee-hoo-announces-big-changes-to-star-empire-and-their-contract" data-link="/article/2014/09/zeas-leader-lee-hoo-announces-big-changes-to-star-empire-and-their-contract">
+                            	<div class="thumb pull-left">
+        							<img src="http://static3.allkpop.com/upload/2014/09/af/ZEA-Junyoung_1411320052_af.jpg">			
+        						</div>
+        						<h5 style="height:28px;overflow-y: hidden;padding: 0px;">[UPDATED] ZE:A's leader Lee Hoo announces big changes to Sta...</h5>
+        					</a>
+        					<div class="clearfix"></div>
+        					<a href="/article/2014/09/zeas-leader-lee-hoo-announces-big-changes-to-star-empire-and-their-contract" data-link="/article/2014/09/zeas-leader-lee-hoo-announces-big-changes-to-star-empire-and-their-contract">
+                                <i class="icon-comment"></i> 1482                                <i class="icon-eye-open"></i> 461218                                <i class="icon-share"></i> 22112                            </a>
+        				</li>
+        			        				<li class="popular category1">
+        					<a href="/article/2014/09/super-juniors-sungmin-confirmed-to-be-dating-musical-actress-kim-sa-eun" data-link="/article/2014/09/super-juniors-sungmin-confirmed-to-be-dating-musical-actress-kim-sa-eun">
+                            	<div class="thumb pull-left">
+        							<img src="http://static3.allkpop.com/upload/2014/09/af/Sungmin-Super-Junior-Sungmin_1411553904_af.jpg">			
+        						</div>
+        						<h5 style="height:28px;overflow-y: hidden;padding: 0px;">Super Junior's Sungmin confirmed to be dating musical actres...</h5>
+        					</a>
+        					<div class="clearfix"></div>
+        					<a href="/article/2014/09/super-juniors-sungmin-confirmed-to-be-dating-musical-actress-kim-sa-eun" data-link="/article/2014/09/super-juniors-sungmin-confirmed-to-be-dating-musical-actress-kim-sa-eun">
+                                <i class="icon-comment"></i> 1155                                <i class="icon-eye-open"></i> 277294                                <i class="icon-share"></i> 58793                            </a>
+        				</li>
+        			        				<li class="popular category5">
+        					<a href="/article/2014/09/producer-addresses-controversy-following-taeyeons-elimination-on-hidden-singer-2-says-no-more-idols-will-be-on-the-show" data-link="/article/2014/09/producer-addresses-controversy-following-taeyeons-elimination-on-hidden-singer-2-says-no-more-idols-will-be-on-the-show">
+                            	<div class="thumb pull-left">
+        							<img src="http://static3.allkpop.com/upload/2014/09/af/Taeyeon_1411418920_af.jpg">			
+        						</div>
+        						<h5 style="height:28px;overflow-y: hidden;padding: 0px;">Producer addresses controversy following Taeyeon's eliminati...</h5>
+        					</a>
+        					<div class="clearfix"></div>
+        					<a href="/article/2014/09/producer-addresses-controversy-following-taeyeons-elimination-on-hidden-singer-2-says-no-more-idols-will-be-on-the-show" data-link="/article/2014/09/producer-addresses-controversy-following-taeyeons-elimination-on-hidden-singer-2-says-no-more-idols-will-be-on-the-show">
+                                <i class="icon-comment"></i> 730                                <i class="icon-eye-open"></i> 212904                                <i class="icon-share"></i> 21823                            </a>
+        				</li>
+        				
+        			</ul>
+        		</div>
+        		<div name="#month">
+        			<ul class="list-popular">
+                            				<li class="popular category4">
+                            <a href="/article/2014/09/tournament-best-idol-rapper-in-k-pop" data-link="/article/2014/09/tournament-best-idol-rapper-in-k-pop">
+        						<div class="thumb pull-left">
+        							<img src="http://static3.allkpop.com/upload/2014/09/af/Taecyeon-CL-HyunA-Jooyeon-Baro-Bang-Yong-Guk-Junhyung-TOP-FeelDog-Zico-Miryo--Ilhoon-Ga-Eun-LE-Amber-Dongwoo-Mir-Jia-Woori-hana-Bora-Hyomin-CAP-Mint-Ravi-Yubin-Jay-Park-jimin-rap-monster-song-min-ho-jackson-kemy_1411498611_af.jpg">			
+        						</div>
+        						<h5 style="height:28px;overflow-y: hidden;padding: 0px;">[Tournament] Best Idol Rapper in K-pop</h5>
+        					</a>
+        					<div class="clearfix"></div>
+        					<a href="/article/2014/09/tournament-best-idol-rapper-in-k-pop" data-link="/article/2014/09/tournament-best-idol-rapper-in-k-pop">
+                                <i class="icon-comment"></i> 2381                                <i class="icon-eye-open"></i> 433426                                <i class="icon-share"></i> 19127                            </a>
+        				</li>
+        			        				<li class="popular category3">
+                            <a href="/article/2014/09/breaking-ladies-code-member-eunb-revealed-to-have-passed-away-in-a-car-accident" data-link="/article/2014/09/breaking-ladies-code-member-eunb-revealed-to-have-passed-away-in-a-car-accident">
+        						<div class="thumb pull-left">
+        							<img src="http://static3.allkpop.com/upload/2014/09/af/ladies-code_1409692814_af.jpg">			
+        						</div>
+        						<h5 style="height:28px;overflow-y: hidden;padding: 0px;">[UPDATE] Ladies' Code member EunB revealed to have passed aw...</h5>
+        					</a>
+        					<div class="clearfix"></div>
+        					<a href="/article/2014/09/breaking-ladies-code-member-eunb-revealed-to-have-passed-away-in-a-car-accident" data-link="/article/2014/09/breaking-ladies-code-member-eunb-revealed-to-have-passed-away-in-a-car-accident">
+                                <i class="icon-comment"></i> 2370                                <i class="icon-eye-open"></i> 1089630                                <i class="icon-share"></i> 28713                            </a>
+        				</li>
+        			        				<li class="popular category2">
+                            <a href="/article/2014/09/breaking-ladies-codes-rise-passes-away" data-link="/article/2014/09/breaking-ladies-codes-rise-passes-away">
+        						<div class="thumb pull-left">
+        							<img src="http://static3.allkpop.com/upload/2014/09/af/ladies-code-rise_1410057733_af.jpg">			
+        						</div>
+        						<h5 style="height:28px;overflow-y: hidden;padding: 0px;">[BREAKING] Ladies' Code's RiSe passes away</h5>
+        					</a>
+        					<div class="clearfix"></div>
+        					<a href="/article/2014/09/breaking-ladies-codes-rise-passes-away" data-link="/article/2014/09/breaking-ladies-codes-rise-passes-away">
+                                <i class="icon-comment"></i> 2107                                <i class="icon-eye-open"></i> 998954                                <i class="icon-share"></i> 75327                            </a>
+        				</li>
+        			        				<li class="popular category1">
+                            <a href="/article/2014/09/zeas-leader-lee-hoo-junyoung-reveals-hell-be-revealing-explosive-secrets-about-star-empires-ceo" data-link="/article/2014/09/zeas-leader-lee-hoo-junyoung-reveals-hell-be-revealing-explosive-secrets-about-star-empires-ceo">
+        						<div class="thumb pull-left">
+        							<img src="http://static3.allkpop.com/upload/2014/09/af/ZEA-Junyoung_1411261706_af.jpg">			
+        						</div>
+        						<h5 style="height:28px;overflow-y: hidden;padding: 0px;">[UPDATE #3] ZE:As leader Lee Hoo (Junyoung) reveals he'll be...</h5>
+        					</a>
+        					<div class="clearfix"></div>
+        					<a href="/article/2014/09/zeas-leader-lee-hoo-junyoung-reveals-hell-be-revealing-explosive-secrets-about-star-empires-ceo" data-link="/article/2014/09/zeas-leader-lee-hoo-junyoung-reveals-hell-be-revealing-explosive-secrets-about-star-empires-ceo">
+                                <i class="icon-comment"></i> 2024                                <i class="icon-eye-open"></i> 578041                                <i class="icon-share"></i> 25758                            </a>
+        				</li>
+        			        				<li class="popular category5">
+                            <a href="/article/2014/09/2pm-make-their-comeback-with-go-crazy-mv" data-link="/article/2014/09/2pm-make-their-comeback-with-go-crazy-mv">
+        						<div class="thumb pull-left">
+        							<img src="http://static3.allkpop.com/upload/2014/09/af/2PM_1410274955_af.jpg">			
+        						</div>
+        						<h5 style="height:28px;overflow-y: hidden;padding: 0px;">2PM make their comeback with Korean and Japanese versions of...</h5>
+        					</a>
+        					<div class="clearfix"></div>
+        					<a href="/article/2014/09/2pm-make-their-comeback-with-go-crazy-mv" data-link="/article/2014/09/2pm-make-their-comeback-with-go-crazy-mv">
+                                <i class="icon-comment"></i> 1937                                <i class="icon-eye-open"></i> 214889                                <i class="icon-share"></i> 5950                            </a>
+        				</li>
+        				
+        			</ul>
+        		</div>
+        	</div>
+        </article>
+<article class="popular">
+    <h2 class="section section-sidebar">SOCIAL BOARD</h2>
+    <div style="border:2px solid #d8d4d4;width:100%;margin-top:-16px;white-space: nowrap;padding:7px;">
+        <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fallkpop&amp;width=330&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:65px;" allowTransparency="true"></iframe>
+        <!--<div class="fb-like" data-href="http://www.facebook.com/allkpop" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>-->
+        <br />
+        <a href="https://twitter.com/allkpop" class="twitter-follow-button" data-show-count="true" data-size="medium">Follow @allkpop</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <br /><br />
+        <div class="g-follow" data-annotation="bubble" data-height="24" data-href="https://plus.google.com/114674537904568447641" data-rel="publisher"></div>
+        <br /><br />
+        <script src="https://apis.google.com/js/platform.js"></script>
+        <div class="g-ytsubscribe" data-channel="allkpop" data-layout="default" data-count="default"></div>
+        <br /><br />
+        <style>.ig-b- { display: inline-block; }
+        .ig-b- img { visibility: hidden; }
+        .ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+        .ig-b-v-24 { width: 137px; height: 24px; background: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24.png) no-repeat 0 0; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+        .ig-b-v-24 { background-image: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24@2x.png); background-size: 160px 178px; } }</style>
+        <a href="http://instagram.com/allkpop?ref=badge" class="ig-b- ig-b-v-24" target="_blank"><img src="//badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram" /></a>
+    </div>
+</article><article class="ad ad-skyscraper ad-siderail akp_home_160x600"></article><style>.meme_li:hover{border:solid 3px #cf0000;}</style>
+        <article class="popular">
+        	<h2 class="section section-sidebar" style="font-size: 2.3em;">Popular Memes</h2>
+        	<div class="tabs">
+        		<ul>
+        			<li><a href="#today">Today</a></li>
+        			<li><a href="#week">Week</a></li>
+        			<li><a href="#month">Month</a></li>
+        		</ul>
+        		<div name="#today">
+        			<ul class="list-sponsor" style="width: 100%;">
+                                                <a href="/meme_view/ncj8ur" style="display:inline-block;" data-width="423" data-height="720" data-max-width="143" data-ratio="143">
+                				<li class="meme_li" style="margin:0;width:143px;height:143px;padding:0px;border:solid 3px #b0b9ba;background:url(http://static1.allkpop.com/meme/generate/2014/09/ncj8ur.jpg) no-repeat center center;background-size:143px"></li>
+                            </a>
+                                                <a href="/meme_view/ncji7r" style="display:inline-block;" data-width="432" data-height="600" data-max-width="143" data-ratio="143">
+                				<li class="meme_li" style="margin:0;width:143px;height:143px;padding:0px;border:solid 3px #b0b9ba;background:url(http://static1.allkpop.com/meme/generate/2014/09/ncji7r.jpg) no-repeat center center;background-size:143px"></li>
+                            </a>
+                                                <a href="/meme_view/ncj0i5" style="display:inline-block;" data-width="540" data-height="525" data-max-width="143" data-ratio="147">
+                				<li class="meme_li" style="margin:0;width:143px;height:143px;padding:0px;border:solid 3px #b0b9ba;background:url(http://static1.allkpop.com/meme/generate/2014/09/ncj0i5.jpg) no-repeat center center;background-size:147px"></li>
+                            </a>
+                                                <a href="/meme_view/ncj7w2" style="display:inline-block;" data-width="800" data-height="533" data-max-width="143" data-ratio="214">
+                				<li class="meme_li" style="margin:0;width:143px;height:143px;padding:0px;border:solid 3px #b0b9ba;background:url(http://static1.allkpop.com/meme/generate/2014/09/ncj7w2.jpg) no-repeat center center;background-size:214px"></li>
+                            </a>
+                                                <a href="/meme_view/ncjel3" style="display:inline-block;" data-width="480" data-height="475" data-max-width="143" data-ratio="144">
+                				<li class="meme_li" style="margin:0;width:143px;height:143px;padding:0px;border:solid 3px #b0b9ba;background:url(http://static1.allkpop.com/meme/generate/2014/09/ncjel3.jpg) no-repeat center center;background-size:144px"></li>
+                            </a>
+                                                <a href="/meme_view/ncjn67" style="display:inline-block;" data-width="773" data-height="430" data-max-width="143" data-ratio="257">
+                				<li class="meme_li" style="margin:0;width:143px;height:143px;padding:0px;border:solid 3px #b0b9ba;background:url(http://static1.allkpop.com/meme/generate/2014/09/ncjn67.jpg) no-repeat center center;background-size:257px"></li>
+                            </a>
+                            			</ul>
+        		</div>
+        		<div name="#week">
+        			<ul class="list-sponsor" style="width: 100%;">
+                                            <a href="/meme_view/nc8v7p" style="display:inline-block;" data-width="656" data-height="385" data-max-width="143" data-ratio="243">
+            				<li class="meme_li" style="margin:0;width:143px;height:143px;padding:0px;border:solid 3px #b0b9ba;background:url(http://static1.allkpop.com/meme/generate/2014/09/nc8v7p.jpg) no-repeat center center;background-size:243px"></li>
+                        </a>
+        			                        <a href="/meme_view/nc8s45" style="display:inline-block;" data-width="600" data-height="450" data-max-width="143" data-ratio="190">
+            				<li class="meme_li" style="margin:0;width:143px;height:143px;padding:0px;border:solid 3px #b0b9ba;background:url(http://static1.allkpop.com/meme/generate/2014/09/nc8s45.jpg) no-repeat center center;background-size:190px"></li>
+                        </a>
+        			                        <a href="/meme_view/ncbfru" style="display:inline-block;" data-width="462" data-height="750" data-max-width="143" data-ratio="143">
+            				<li class="meme_li" style="margin:0;width:143px;height:143px;padding:0px;border:solid 3px #b0b9ba;background:url(http://static1.allkpop.com/meme/generate/2014/09/ncbfru.jpg) no-repeat center center;background-size:143px"></li>
+                        </a>
+        			                        <a href="/meme_view/ncbgdl" style="display:inline-block;" data-width="700" data-height="3500" data-max-width="143" data-ratio="143">
+            				<li class="meme_li" style="margin:0;width:143px;height:143px;padding:0px;border:solid 3px #b0b9ba;background:url(http://static1.allkpop.com/meme/generate/2014/09/ncbgdl.jpg) no-repeat center center;background-size:143px"></li>
+                        </a>
+        			                        <a href="/meme_view/nc86zw" style="display:inline-block;" data-width="480" data-height="480" data-max-width="143" data-ratio="143">
+            				<li class="meme_li" style="margin:0;width:143px;height:143px;padding:0px;border:solid 3px #b0b9ba;background:url(http://static1.allkpop.com/meme/generate/2014/09/nc86zw.jpg) no-repeat center center;background-size:143px"></li>
+                        </a>
+        			                        <a href="/meme_view/nce8oq" style="display:inline-block;" data-width="800" data-height="534" data-max-width="143" data-ratio="214">
+            				<li class="meme_li" style="margin:0;width:143px;height:143px;padding:0px;border:solid 3px #b0b9ba;background:url(http://static1.allkpop.com/meme/generate/2014/09/nce8oq.jpg) no-repeat center center;background-size:214px"></li>
+                        </a>
+        				
+        			</ul>
+        		</div>
+        		<div name="#month">
+        			<ul class="list-sponsor" style="width: 100%;">
+                            				<a href="/meme_view/nc7miz" style="display:inline-block;" data-width="800" data-height="1191" data-max-width="143" data-ratio="143">
+                            <li class="meme_li" style="margin:0;width:143px;height:143px;padding:0px;border:solid 3px #b0b9ba;background:url(http://static1.allkpop.com/meme/generate/2014/09/nc7miz.jpg) no-repeat center center;background-size:143px"></li>
+                        </a>
+        			        				<a href="/meme_view/nc8v7p" style="display:inline-block;" data-width="656" data-height="385" data-max-width="143" data-ratio="243">
+                            <li class="meme_li" style="margin:0;width:143px;height:143px;padding:0px;border:solid 3px #b0b9ba;background:url(http://static1.allkpop.com/meme/generate/2014/09/nc8v7p.jpg) no-repeat center center;background-size:243px"></li>
+                        </a>
+        			        				<a href="/meme_view/nb9eh4" style="display:inline-block;" data-width="540" data-height="513" data-max-width="143" data-ratio="150">
+                            <li class="meme_li" style="margin:0;width:143px;height:143px;padding:0px;border:solid 3px #b0b9ba;background:url(http://static1.allkpop.com/meme/generate/2014/09/nb9eh4.jpg) no-repeat center center;background-size:150px"></li>
+                        </a>
+        			        				<a href="/meme_view/nc1nz3" style="display:inline-block;" data-width="800" data-height="297" data-max-width="143" data-ratio="385">
+                            <li class="meme_li" style="margin:0;width:143px;height:143px;padding:0px;border:solid 3px #b0b9ba;background:url(http://static1.allkpop.com/meme/generate/2014/09/nc1nz3.jpg) no-repeat center center;background-size:385px"></li>
+                        </a>
+        			        				<a href="/meme_view/nc8s45" style="display:inline-block;" data-width="600" data-height="450" data-max-width="143" data-ratio="190">
+                            <li class="meme_li" style="margin:0;width:143px;height:143px;padding:0px;border:solid 3px #b0b9ba;background:url(http://static1.allkpop.com/meme/generate/2014/09/nc8s45.jpg) no-repeat center center;background-size:190px"></li>
+                        </a>
+        			        				<a href="/meme_view/ncbfru" style="display:inline-block;" data-width="462" data-height="750" data-max-width="143" data-ratio="143">
+                            <li class="meme_li" style="margin:0;width:143px;height:143px;padding:0px;border:solid 3px #b0b9ba;background:url(http://static1.allkpop.com/meme/generate/2014/09/ncbfru.jpg) no-repeat center center;background-size:143px"></li>
+                        </a>
+        				
+        			</ul>
+        		</div>
+        	</div>
+        </article>
+<article class="sponsors">
+	<h2 class="section section-sidebar">Sponsored Links</h2>
+	<ul class="list-sponsor">
+        		<li class="akp_cs_1"></li>
+                        <li class="akp_cs_2"></li>
+                        <li class="akp_cs_3"></li>
+                        <li class="akp_cs_4"></li>
+                        <li class="akp_cs_5"></li>
+                        <li class="akp_cs_6"></li>
+                <!--<li class="akp_cs_7"></li>
+        <li class="akp_cs_8"></li>-->
+	</ul>
+	<div class="clearfix"></div>
+</article>			</section>
+		</div>
+	</div>
+	<div class="push"></div>
+</div>
+<footer class="footer">
+                    <article class="ad ad-leaderboard ad-footer akp_home_728x90_bot"></article>
+            	<section class="sixtheory-network row">
+		<div class="centered"><img src="http://static1.allkpop.com/img/logo-6theory.png"></div>
+		<div class="posts container">
+			<div class="row-fluid">
+				<ul class="span4 akp-forums" style="width:48%">
+					<li class="branding"><a href="/forums" data-link="/forums"><img src="http://static3.allkpop.com/img/logo-akp-forums.png"></a></li>
+                                                <li style="text-align: left; font-size:16px"><span class="bullet">&bull;</span> <a href="/forums/discussion/202725/which-female-idol-is-closest-to-your-ideal-appearance" data-link="/forums/discussion/202725/which-female-idol-is-closest-to-your-ideal-appearance">Which Female Idol is Closest to Your Ideal Appearance?</a></li>
+                                                <li style="text-align: left; font-size:16px"><span class="bullet">&bull;</span> <a href="/forums/discussion/202723/looks-like-and-also" data-link="/forums/discussion/202723/looks-like-and-also">Looks like...AND ALSO!</a></li>
+                                                <li style="text-align: left; font-size:16px"><span class="bullet">&bull;</span> <a href="/forums/discussion/202722/must-see-best-shipping-ever" data-link="/forums/discussion/202722/must-see-best-shipping-ever">[MUST SEE] Best Shipping EVER!</a></li>
+                                                <li style="text-align: left; font-size:16px"><span class="bullet">&bull;</span> <a href="/forums/discussion/202721/have-you-ever-changed-your-ultimate-bias" data-link="/forums/discussion/202721/have-you-ever-changed-your-ultimate-bias">Have you ever changed your ultimate bias?</a></li>
+                    				</ul>
+				<ul class="span4 tokyohive" style="width:48%">
+					<li style="text-align: center;"><a href="http://www.tokyohive.com" data-link="http://www.tokyohive.com" target="_blank"><img src="http://static4.allkpop.com/img/logo-tokyohive.png"></a></li>
+					                        <li><span class="bullet">&bull;</span> <a target="_blank" href="http://www.tokyohive.com/article/2014/09/recochokus-weekly-download-charts-for-9-179-23" data-link="http://www.tokyohive.com/article/2014/09/recochokus-weekly-download-charts-for-9-179-23">Recochoku's weekly download charts for 9/17~9/23</a></li>
+                                            <li><span class="bullet">&bull;</span> <a target="_blank" href="http://www.tokyohive.com/article/2014/09/details-on-dir-en-greys-new-album-arche-revealed" data-link="http://www.tokyohive.com/article/2014/09/details-on-dir-en-greys-new-album-arche-revealed">Details on DIR EN GREY's new album 'ARCHE' revealed</a></li>
+                                            <li><span class="bullet">&bull;</span> <a target="_blank" href="http://www.tokyohive.com/article/2014/09/makihara-noriyuki-to-be-in-charge-of-theme-song-for-kyou-wa-kaisha-yasumimasu" data-link="http://www.tokyohive.com/article/2014/09/makihara-noriyuki-to-be-in-charge-of-theme-song-for-kyou-wa-kaisha-yasumimasu">Makihara Noriyuki to be in charge of theme song for 'Kyou wa Kaisha Yasumimasu.'</a></li>
+                                            <li><span class="bullet">&bull;</span> <a target="_blank" href="http://www.tokyohive.com/article/2014/09/bump-of-chicken-collaborate-with-manga-3-gatsu-no-lion" data-link="http://www.tokyohive.com/article/2014/09/bump-of-chicken-collaborate-with-manga-3-gatsu-no-lion">BUMP OF CHICKEN collaborate with manga '3-gatsu no Lion'</a></li>
+                    				</ul>
+								<div class="clearfix"></div>
+			</div>
+		</div>
+	</section>
+	<section class="signoff">
+		<ul class="menu-footer">
+			<li><a href="/about" data-link="/about">About / Contact</a></li>
+			<li><a href="/tos" data-link="/tos">Terms of Service</a></li>
+			<li><a href="/privacy" data-link="/privacy">Privacy Policy</a></li>
+			<li><a href="/disclaimer" data-link="/disclaimer">Disclaimer</a></li>
+			<li><a href="/advertise" data-link="/advertise">Advertise</a></li>
+		</ul>
+		<p>Copyright © 2007-2014 6Theory Media, LLC. All Rights Reserved.<br/>allkpop® is part of the 6Theory Media, LLC, Network. | <a href="http://www.kamicrafted.com/">Handcrafted by <img src="http://static1.allkpop.com/img/logo-kami.png"> Kami</a></p>
+		<div class="branding"><a href="/"><img src="http://static1.allkpop.com/img/avatar1.png"/></a></div>
+	</section>
+</footer>
+<script>
+    var article_flag_selected='1';
+    if(article_flag_selected==""){article_flag_selected=1;}
+</script>
+<script src="http://static1.allkpop.com/js/bootstrap.js"></script>
+<script src="http://static1.allkpop.com/js/twitter-bootstrap-hover-dropdown.js"></script>
+<script src="http://static1.allkpop.com/js/waypoints.min.js"></script>
+<script src="http://static1.allkpop.com/js/jquery.fancybox.js"></script>
+<script src="http://static1.allkpop.com/js/jquery.imgCenter.minified.js"></script>
+<script src="http://static1.allkpop.com/js/css_browser_selector.js"></script>
+<script src="http://static1.allkpop.com/js/jquery_cookie.js"></script>
+<script src="http://static1.allkpop.com/js/common.js"></script>
+<script src="http://static1.allkpop.com/redactor/redactor/redactor.min.js"></script>
+<script src="/js/index.js"></script>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!--<script src="http://static1.allkpop.com/js/notification.js"></script>-->
+<script type='text/javascript'>
+$(document).ready(function() {
+                        $('.akp_skin').append("<!-- akp_skin --><div id='div-gpt-ad-1373063220115-0' style='width:970px; '><scr"+"ipt type='text/javascr"+"ipt'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1373063220115-0'); });</scr"+"ipt></div>");
+                        $('.ad_home').append("<!-- akp_home_728x90_top --><div id='div-gpt-ad-1368577201454-12' style='width:728px;'><scr"+"ipt type='text/javasc"+"ript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1368577201454-12'); });</scr"+"ipt></div>");
+            $('.akp_home_160x600').append("<!-- akp_home_160x600 --><div id='div-gpt-ad-1368577201454-8' style='width:160px; '><scr"+"ipt type='text/javas"+"cript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1368577201454-8'); });</scr"+"ipt></div>");
+            $('.akp_home_300x250_a').append("<!-- akp_home_300x250_a --><div id='div-gpt-ad-1396295756147-0'><scr"+"ipt type='text/javascr"+"ipt'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1396295756147-0'); });</scr"+"ipt></div>");
+            $('.akp_home_300x250_b').append("<!-- akp_home_300x250_b --><div id='div-gpt-ad-1368577201454-10' style='width:300px; margin:0 auto;background-color:#f7f3f3;'><scr"+"ipt type='text/javas"+"cript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1368577201454-10'); });</scr"+"ipt></div>");
+            $('.akp_home_728x90_bot').append("<!-- akp_home_728x90_bot --><div id='div-gpt-ad-1368577201454-11' style='width:728px;'><scr"+"ipt type='text/javas"+"cript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1368577201454-11'); });</scr"+"ipt></div>");
+            $('.akp_newslist_300x250').append("<!-- akp_newslist_300x250 --><div id='div-gpt-ad-1368577201454-13' style='width:300px; margin:0 auto;background-color:#f7f3f3;'><scr"+"ipt type='text/javas"+"cript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1368577201454-13'); });</scr"+"ipt></div>");
+                                    $('.akp_cs_1').append("<!-- akp_cs_1 --><div id='div-gpt-ad-1368863954187-0' style='width:125px; '><scr"+"ipt type='text/javas"+"cript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1368863954187-0'); });</scr"+"ipt></div>");
+        $('.akp_cs_2').append("<!-- akp_cs_2 --><div id='div-gpt-ad-1368863954187-1' style='width:125px; '><scr"+"ipt type='text/javas"+"cript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1368863954187-1'); });</scr"+"ipt></div>");
+        $('.akp_cs_3').append("<!-- akp_cs_3 --><div id='div-gpt-ad-1368863954187-2' style='width:125px; '><scr"+"ipt type='text/javas"+"cript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1368863954187-2'); });</scr"+"ipt></div>");
+        $('.akp_cs_4').append("<!-- akp_cs_4 --><div id='div-gpt-ad-1368863954187-3' style='width:125px; '><scr"+"ipt type='text/javasc"+"ript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1368863954187-3'); });</scr"+"ipt></div>");
+        $('.akp_cs_5').append("<!-- akp_cs_5 --><div id='div-gpt-ad-1368863954187-4' style='width:125px; '><scr"+"ipt type='text/javasc"+"ript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1368863954187-4'); });</scr"+"ipt></div>");
+        $('.akp_cs_6').append("<!-- akp_cs_6 --><div id='div-gpt-ad-1368863954187-5' style='width:125px; '><scr"+"ipt type='text/javasc"+"ript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1368863954187-5'); });</scr"+"ipt></div>");
+        $('.akp_promo_300x150').append("<!-- akp_promo_300x150 --><div id='div-gpt-ad-1368577201454-14' style='width:300px; '><scr"+"ipt type='text/javas"+"cript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1368577201454-14'); });</scr"+"ipt></div>");
+    });
+</script>
+
+<!--Adblock Check--> <script type="text/javascript" src="/ads.js"></script> <script type="text/javascript"> jQuery(document).ready(checkAds()); function checkAds(){console.log("OK...");if (document.getElementById('adsense')!=undefined){ga('send', 'event', 'Adblock', 'Unblocked','Adblock_Unblocked','0',{'nonInteraction':1});}else{ga('send', 'event', 'Adblock', 'Blocked','Adblock_Blocked','1',{'nonInteraction':1});}} </script> <!--End Adblock Check-->
+<div id="end_line"></div>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-2.newrelic.com","licenseKey":"e6cb271da4","applicationID":"1679402","transactionName":"NlZSYhNSDEMAUBALWQ8cZUQIHAteBVYcTEYJQw==","queueTime":0,"applicationTime":31,"ttGuid":"","agentToken":"","atts":"GhFRFFtIH00=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-411.min.js"}</script></body><script>
+    if (typeof goto_category=='function'){
+    }else{
+        function goto_category(slug){
+            if(slug!=""){
+                var url="/category/"+slug+"/page/1";
+                location.href=url;return;
+            }
+        }
+    }
+    if (typeof scroll_to_target_id=='function'){
+    }else{
+        function scroll_to_target_id(id_name){
+            if($('#'+id_name).attr('id')!=undefined){
+                if (navigator.userAgent.search("Chrome") >= 0){
+                    document.body.scrollTop=$('#'+id_name).offset().top;
+                }else{
+                    document.getElementById(id_name).scrollIntoView();
+                }
+            }
+        }
+    }    
+    if (typeof main_article_loadData=='function'){
+    }else{
+        function main_article_loadData(page){
+            $.post("/common/main_article.php",{page:page},function(data){
+                $("#main_article_container").html(data);
+                scroll_to_target_id("goto_lastes");
+            });
+        }
+    }
+    var get_page='0';
+    if(get_page>=1){
+        setTimeout(function(){scroll_to_target_id("goto_lastes");},1000);
+    }
+    $('#main_article_container').on('click','.page-nav span.active',function(){
+        var page = $(this).attr('p');
+        var url="/page/"+page;
+        location.href=url;return;
+    });
+    if (typeof edit_article=='function'){
+    }else{
+        function edit_article(data,flag){
+            if(flag=="1"){
+                window.open("/juniornl/articles/articles_newreview.php?data="+data,'_blank');
+            }else{
+                window.open("/juniornl/articles/articles_newarticles.php?data="+data,'_blank');    
+            }
+        }
+    }
+    $('.btn-love-scrap').on('click',function(e){
+        e.preventDefault();
+        var love_scrap=$(this);
+        $.post("/common/response.php",{article_data:love_scrap.attr('data-value'),category:'article',mode:'love_it'},function(data){
+            if(data==1){
+                love_scrap.css('display',"none");
+                love_scrap.parent().find('.btn-love-cancel').css('display',"block");
+                /*var current_love_it=love_scrap.parent().parent().parent().parent().parent().find('.meta .stats .love_it_cnt');
+                current_love_it.text(Number(current_love_it.text())+1);*/
+            }else{
+               // alert(data);return;
+            }    
+        });
+    });
+    $('.btn-love-cancel').on('click',function(e){
+        e.preventDefault();
+        var love_cancel=$(this);
+        $.post("/common/response.php",{article_data:love_cancel.attr('data-value'),category:'article',mode:'cancel_love_it'},function(data){
+            if(data==1){
+                love_cancel.css('display',"none");
+                love_cancel.parent().find('.btn-love-scrap').css('display',"block");
+                /*var current_love_cancel=love_cancel.parent().parent().parent().parent().parent().find('.meta .stats .love_it_cnt');
+                if(current_love_cancel.text()<=0){
+                    current_love_cancel.text("0");
+                }else{
+                    current_love_cancel.text(Number(current_love_cancel.text())-1);    
+                }*/
+            }else{
+                //alert(data);return;
+            }
+        });
+        
+    });
+    $('.social-links').on('click','.btn-love-login',function(e){
+        e.preventDefault();
+        alert("Please login.");
+        return; 
+    });
+    /*$(document).on('mouseover','.post',function(e){
+        e.preventDefault();
+        if(!$(this).data('isClicked')){var link=$(this);link.data('isClicked',true);setTimeout(function(){link.removeData('isClicked')},1500);
+            var total_share=$(this).find('.love_it_cnt');
+            var scrap_cnt=total_share.text();
+            var url="http://www.allkpop.com"+$(this).attr('data-value');
+            var total_share_cnt=Number(scrap_cnt);
+            if(total_share.attr('data-chk')=="0"){
+                $.getJSON("http://graph.facebook.com/?id="+url, function(data){
+                    if(data.shares>=0){total_share_cnt+=Number(data.shares);}
+                    data='';
+                });
+                $.getJSON("http://urls.api.twitter.com/1/urls/count.json?url="+url+"&callback=?",function(data){
+                    if(data.count>=0){total_share_cnt+=Number(data.count);}
+                    data='';
+                });
+                //$.post("/common/google_share.php",{url:url},function(data){
+                //    if(data!=""&&data>=0){total_share_cnt+=Number(data);}
+                //    data='';
+                //});
+                total_share.attr('data-chk','1');
+                setTimeout(function(){total_share.text(total_share_cnt);},500);
+            }
+        }
+    });*/
+</script>
+</html>

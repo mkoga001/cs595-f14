@@ -1,0 +1,4002 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="no-js" xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<head>
+      <script type="text/javascript">
+  (function (userAgent, hasMobileNavigation) {
+
+    
+
+    var mobileRepresentative = false;
+    
+      mobileRepresentative = true;
+    
+    var mobileLinkExist =  hasMobileNavigation || "";
+    if (mobileLinkExist && mobileRepresentative) {
+      function getCookie (cookieName) {
+        var results = document.cookie.match('(^|;) ?' + cookieName + '=([^;]*)(;|$)');
+        if (results)
+          return ( results[2] );
+        else
+          return null;
+      }
+
+      function setCookie(name, value, expiryDate) {
+        if (expiryDate && expiryDate instanceof Date) {
+          document.cookie = name + "=" + value + "; expires=" + expiryDate.toUTCString() + "; path=/";
+        } else {
+          document.cookie = name + "=" + value + "; path=/";
+        }
+      }
+
+      var platform = getCookie('platform'),
+          mobile;
+
+      
+
+      if (platform === 'mobile') {
+        mobile = true;
+      } else if (platform === 'desktop') {
+        mobile = false;
+      } else {
+        if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(userAgent) ||
+          /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(userAgent.substr(0, 4))){
+          mobile = true;
+          setCookie('platform', 'mobile');
+        } else {
+          mobile = false;
+          setCookie('platform', 'desktop');
+        }
+      }
+
+      if (mobile) {
+        var pathName="";
+        if (hasMobileNavigation){
+          
+          pathName = "/news" + window.location.search;
+          if (/^\/news(\/+.*)?$/g.test(pathName)) {
+            pathName = '/mobile' + pathName.substring(5);
+          }else if((/^\/starterkit\/servlet\/page\/news(\/+.*)?$/g.test(pathName))){
+            pathName = '/starterkit/servlet/page/mobile' + pathName.substring(29);
+          } else {
+            pathName = '/mobile' + pathName;
+          }
+          window.location = window.location.protocol + '//' + window.location.host + pathName;
+        } else {
+          pathName = "";
+          if (pathName){
+            window.location = pathName;
+          }
+        }
+      }
+    }
+  }(navigator.userAgent || navigator.vendor || window.opera, true));
+
+</script>
+<title>Channel NewsAsia</title>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,requiresActiveX=true"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="robots" content="index,follow"/>
+<meta name="google-site-verification" content="S0yL8sQsy_hpjPPSI01shSSGsQKcZfwYH8ByhAITpBE" />
+<link rel="alternate" type="application/rss+xml" title="Channel NewsAsia" href="http://flip.channelnewsasia.com/main.xml" />
+<meta name="keywords" content="asia news, singapore news, singapore headlines, us news, world news, business news, economic news, sports news, finance news, technology news, online news, breaking news, news headlines, news articles, cna news oline, channel newsasia, channelnewsasia.com"/>
+<link rel="shortcut icon" type="image/x-icon" href="/blob/3012/1410761989000/channel-newsasia-home-favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="/code/1980/1409794504000/all-css.css"/>
+<link rel="stylesheet" type="text/css" href="/code/671134/1380245561000/weather-sponsor-qatar-css.css"/>
+<link rel="stylesheet" type="text/css" href="/code/356602/1407226263000/cna-addon.css"/>
+<link rel="stylesheet" type="text/css" href="/code/920002/1394765673000/home-page-more-stories.css"/>
+<link rel="stylesheet" type="text/css" href="/code/1118202/1402026002000/world-cup-homepage.css"/>
+<link rel="stylesheet" type="text/css" href="/code/1003544/1400768487000/homepage-phase-4-css.css"/>
+<link rel="stylesheet" type="text/css" href="/code/1034524/1394767336000/categorylanding-dec2013.css"/>
+<link rel="stylesheet" type="text/css" href="/code/1088164/1401351092000/addon-footer-css.css"/>
+<link rel="stylesheet" type="text/css" href="/code/1117084/1401070409000/homepage-featured-top.css"/>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/code/2398/1371674147000/jquery-ui-stars.js"></script>
+<script type="text/javascript" src="//sadmin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script type="text/javascript" src="/code/2346/1383165163000/brightcovecustomize.js"></script>
+<script type="text/javascript" src="/code/670220/1398737643000/application-top.js"></script>
+<script type="text/javascript" src="/code/564190/1397732633000/s-code-js.js"></script>
+<script type="text/javascript" src="/code/900238/1386212086000/jquery-tablesorter-min.js"></script>
+<script type="text/javascript" src="http://tags.crwdcntrl.net/c/5226/cc_af.js"></script>
+<script type="text/javascript">
+  s.prop4= s.prop3 +":news";
+</script>
+
+<link type="application/rss+xml" title="News" rel="alternate" href="/starterkit/servlet/cna/rss/home.xml"/>
+<meta property="og:title" content="Channel NewsAsia"/>
+
+<meta property="og:url" content="http://www.channelnewsasia.com/news"/>
+  <meta property="og:site_name" content="Channel NewsAsia"/>
+<meta property="fb:app_id" content="101910072318" />
+<meta property="og:description" content="Comprehensive news coverage of Asia-Pacific with special reports from Channel NewsAsia&#039;s foreign correspondents and regional news sources."/>
+      <meta name="description" content="Comprehensive news coverage of Asia-Pacific with special reports from Channel NewsAsia&#039;s foreign correspondents and regional news sources."/>
+    <meta property="og:type" content="website"/>
+<script type='text/javascript'>
+ 	var gptadslots=[];
+ 	(function(){
+ 		var useSSL = 'https:' == document.location.protocol;
+ 		var src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+ 		document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+ 	})();
+ </script>
+<script>
+  var global_using_ooyala_player = true;
+</script>
+
+<script type="text/javascript">
+  var ScarabQueue = ScarabQueue || [];
+  (function(subdomain, id) {
+    if (document.getElementById(id)) return;
+    var js = document.createElement('script'); js.id = id;
+    js.src = subdomain + '.scarabresearch.com/js/1C421E8FFA75A397/scarab-v2.js';
+    var fs = document.getElementsByTagName('script')[0];
+    fs.parentNode.insertBefore(js, fs);
+  })('https:' == document.location.protocol ? 'https://recommender' : 'http://cdn', 'scarab-js-api');
+</script>
+
+</head>
+
+    <body>
+    <h1 style="display:none">Channel NewsAsia</h1>
+    <div id="fb-root"></div>
+    <script type="text/javascript">
+
+      //    videoContentIdMap is used for My PlayList
+      var videoContentIdMap = [];
+
+      var global_width = window.innerWidth || $(document).width();
+      var global_width_1280 = 1275;
+      if (window.console && window.console.log) {
+        window.console.log("Width: " + global_width);
+      }
+
+      var dimension_top_leaderboard = [[728,90],[970,90]];
+      var dimension_mid_leaderboard = [[728,90],[970,90]];
+      var dimension_imu = [[300,250]];
+      var dimension_recommend_for_you = [[300,250]];
+      var dimension_sidebar_rectangle = [[234,60]];
+      var dimension_btm_leaderboard = [[728,90],[970,90]];
+      var dimension_iab = [[300,600]];
+      var dimension_google_adsense = [[640,130]];
+
+      if (typeof global_width === "undefined" || global_width >= global_width_1280){
+      } else {
+        dimension_top_leaderboard = [[728,90]];
+        dimension_mid_leaderboard = [[728,90]];
+        dimension_imu = [[180,150]];
+        dimension_recommend_for_you = [[180,150]];
+        dimension_sidebar_rectangle = [[180,150]];
+        dimension_btm_leaderboard = [[728,90]];
+        dimension_iab = [[160,600]];
+        dimension_google_adsense = [[500,130]];
+      }
+
+      $(window).load(function(){
+        if (global_width >= 1275 && global_width <= 1290){
+          $(".wrapper-holder").addClass("ad-970");
+        }
+      });
+    </script>
+
+    <script>
+        var adsUri = '/4654/mc.channelnewsasia.com.new/homepage';
+      </script>
+    <script>
+        var adsUriRecommend = '/4654/mc.channelnewsasia.com.new/homepage_mostpopular';
+      </script>
+    <script type="text/javascript">
+  googletag.cmd.push(function() {
+    var slot_top_leaderboard = googletag.defineSlot(adsUri, dimension_top_leaderboard,'div-gpt-ad-top-leaderboard').setTargeting('pos',['1']).addService(googletag.pubads());
+    var slot_mid_leaderboard = googletag.defineSlot(adsUri, dimension_mid_leaderboard,'div-gpt-ad-mid-leaderboard').setTargeting('pos',['2']).addService(googletag.pubads());
+   //  var slot_btm_leaderboard = googletag.defineSlot(adsUri, dimension_btm_leaderboard,'div-gpt-ad-btm-leaderboard').setTargeting('pos',['3']).addService(googletag.pubads());
+ //var slot_sidebar_rectangle = googletag.defineSlot(adsUri, dimension_sidebar_rectangle,'div-gpt-ad-sidebar-rectangle').addService(googletag.pubads());
+    var slot_imu = googletag.defineSlot(adsUri, dimension_imu,'div-gpt-ad-imu').addService(googletag.pubads());
+    var slot_oop= googletag.defineOutOfPageSlot(adsUri, 'div-gpt-ad-oop').addService(googletag.pubads());
+    var slot_recommend_for_you = googletag.defineSlot(adsUriRecommend, dimension_recommend_for_you,'div-gpt-ad-recommend-for-you').addService(googletag.pubads());
+
+
+    //googletag.pubads().enableAsyncRendering();
+
+     googletag.pubads().enableSyncRendering();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
+<div id='div-gpt-ad-skin'>
+     <script type='text/javascript'>
+       googletag.cmd.push(function() { googletag.display('div-gpt-ad-skin'); });
+     </script>
+    </div>
+
+    <div class="wrapper-holder">
+      <div id="wrapper">
+
+          <div class="notice-top-area" id="mobile-site-link" style="display: none;">
+              <a href="/mobile">
+                <span>Return to Mobile Site</span>
+              </a>
+            </div>
+        <!--[if lt IE 9]>
+            <div class="notice-top-area" id="old-ie-prompt" style="display:none;">
+              <div class="frame">
+                <a href="#" class="btn-close">Close</a>
+                <div class="holder">
+                  <div class="rec-box">
+                    <div class="text-box">
+                      <strong class="ttl">Recommendation</strong>
+                      <p>You are using an old version of your browser. We recommend that you upgrade your browser for a better experience of this website.</p>
+                    </div>
+                  </div>
+                  <div class="browser-holder">
+                    <ul class="browser-list">
+                      <li>
+                        <a href="http://www.mozilla.org/en-US/firefox/new/" title="Firefox" target="_blank">
+                          <img src="/starterkit/img/ico-browser01.png" alt="" width="52" height="53" />
+                          <span class="txt">Firefox</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.google.com/intl/en/chrome/browser/" title="Google Chrome" target="_blank">
+                          <img src="/starterkit/img/ico-browser02.png" alt="" width="52" height="53" />
+                          <span class="txt">Google Chrome</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" title="Internet Explorer" target="_blank">
+                          <img src="/starterkit/img/ico-browser03.png" alt="" width="52" height="53" />
+                          <span class="txt">Internet Explorer</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://www.apple.com/support/safari/" title="Safari" target="_blank">
+                          <img src="/starterkit/img/ico-browser04.png" alt="" width="52" height="53" />
+                          <span class="txt">Safari</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <script>
+              $('.notice-top-area .btn-close').click(function(){
+                $(this).closest('.notice-top-area').hide();
+                $.cookie('ie7_popup','close');
+                return false;
+              });
+              $(document).ready(function () {
+                if($.cookie("ie7_popup") == null){
+                  $('#old-ie-prompt').show();
+                }
+              });
+            </script>
+        <![endif]-->
+        <div class="wrapper-area">
+  <section id="main-section" class="home-section section">
+    <header>
+      <div class="header-area">
+  <div class="holder">
+    <div class="frame">
+      <strong class="logo"><a href="/news">News</a></strong>
+      <nav>
+          <ul>
+            <li class="active">
+    <a href="/news" >News</a>
+</li>
+<li class="">
+    <a href="/tv" >TV</a>
+</li>
+</ul>
+
+          <a class="link-watch" href="/tv/live">Watch Live</a>
+          </nav>
+      <div class="header-box">
+        <div class="header-box-hold" style="float:right">
+          <span class="info-txt"><script type="text/javascript">
+  $(document).ready(function () {
+    setTime();
+  });
+</script>
+<span id="jclock"></span> <span id="country"></span>
+</span>
+        </div>
+
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="nav-area">
+  <ul class="top-nav">
+    <li class="" >
+        <a href="/news/asiapacific" title="Asia Pacific">
+              Asia Pacific</a>
+          </li>
+    <li class="" >
+        <a href="/news/singapore" title="Singapore">
+              Singapore</a>
+          </li>
+    <li class="" >
+        <a href="/news/world" title="World">
+              World</a>
+          </li>
+    <li class="" >
+        <a href="/news/business" title="Business">
+              Business</a>
+          </li>
+    <li class="" >
+        <a href="/news/sport" title="Sport">
+              Sport</a>
+          </li>
+    <li class="" >
+        <a href="/news/entertainment" title="Entertainment">
+              Entertainment</a>
+          </li>
+    <li class="" >
+        <a href="/news/technology" title="Technology">
+              Technology</a>
+          </li>
+    <li class="" >
+        <a href="/news/health" title="Health">
+              Health</a>
+          </li>
+    <li class="" >
+        <a href="/news/lifestyle" title="Lifestyle">
+              Lifestyle</a>
+          </li>
+    <li class="" >
+        <a href="/news/video" title="Videos">
+              Videos</a>
+          </li>
+    <li class="" >
+        <a href="/news/weather" title="Weather">
+              Weather</a>
+          </li>
+    <li>
+        <a href="javascript:void(0);" class="drop-arrow" title="more...">
+          <span>MORE</span>
+        </a>
+        <ul>
+          <li class="" >
+              <a href="/news/photo" title="Photos">
+                    Photos</a>
+                </li>
+          <li class="" >
+              <a href="/news/specialreports" title="Special Reports">
+                    Special Reports</a>
+                </li>
+          <li class="" >
+              <a href="/news/archives" title="Archives">
+                    Archives</a>
+                </li>
+          <li class="" >
+              <a href="/news/services" title="Services">
+                    Services</a>
+                </li>
+          </ul>
+      </li>
+    </ul>
+</div>
+<div class="sec-nav-area">
+    <ul class="sec-nav">
+  <li><a href="http://www1.channelnewsasia.com/regionalevents/" title="Business Insight" target="_blank"><img src="/blob/1254188/1405417043000/business-insight-thumbnail.png" width="75" height="27"></a></li>
+        <li><a href="http://www.channelnewsasia.com/changinglives" title="Changing Lives" target="_blank"><img src="/blob/1254178/1405417034000/changing-lives-thumbnail.png" width="75" height="27"></a></li>
+        <li><a href="http://www.channelnewsasia.com/luminaryawards/" title="Luminary Award 2015" target="_blank"><img src="/blob/1254074/1405477516000/luminary-award-2015-thumbnail.png" width="75" height="27"></a></li>
+        <li><a href="http://www.channelnewsasia.com/startup" title="Start Up" target="_blank"><img src="/blob/1254180/1405417281000/start-up-thumbnail.png" width="75" height="27"></a></li>
+        <li><a href="http://sustainability-ranking.channelnewsasia.com/" title="Sustainability Ranking" target="_blank"><img src="/blob/1357270/1410843308000/sustainability-ranking-thumbnail.png" width="75" height="27"></a></li>
+        </ul>
+  </div>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('.sec-nav-area li a').on("click",function(){
+      var title = $(this).attr('title');
+      omnitureEventTracking('eVar14', 'cna - featured microsite - '+title.toLowerCase(), 'event40', 'Ext Navigation');
+    });
+  });
+</script></header>
+
+    <section id="content">
+      <div id='div-gpt-ad-top-leaderboard' class="banner-area">
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-top-leaderboard'); });
+</script>
+</div>
+
+<div class="breaking-news-area" id="breakingNewsHolder" style="display: none;">
+  <div class="ttl">
+    <span class="l">BREAKING NEWS</span>
+  </div>
+  <div class="breaking-news-block">
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    refreshBreakingNewsInterval(356784, true);
+  });
+</script>
+<div class="breaking-news-area ticker-news" id="tickerNewsHolder" style="display: none;">
+  <div class="ttl">
+    <span class="l">Update</span>
+  </div>
+  <div class="breaking-news-block">
+  </div>
+  <script type="text/javascript">
+
+    $(document).ready(function () {
+      refreshWebTickerNewsInterval(357202, true);
+    });
+  </script>
+</div>
+
+<div >
+      <div class="breaking-news-area ticker-news" style="display:none;">
+       <div class="ttl">
+        <span class="l">ANNOUNCEMENT</span>
+       </div>
+       <div class="breaking-news-block">
+<div class="ticker-wrapper has-js left">
+ <div class="ticker">
+  <div class="ticker-title" style="">
+   <span>Breaking News</span>
+  </div>
+<p class="ticker-content" style="display: block; opacity: 1; left: 20px;">
+Live stream <a href="http://www.channelnewsasia.com/tv/live" >Watch Live<span>&nbsp; »</span></a>
+</p>  
+
+</div>
+      </div>
+      </div>
+</div>
+</div>
+  <div class="top-stories-section" >
+  <div class="top-stories-side">
+    <ul class="top-stories-tab" >
+      <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <li>
+              <a href="javascript:void(0);" data-lbcolor="" data-trcolor="#ffffff" data-bgcolor="" data-type="" data-target="#story0">Featured</a>
+            </li>
+          <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <li>
+              <a href="javascript:void(0);" data-lbcolor="" data-trcolor="#ffffff" data-bgcolor="" data-type="" data-target="#story1">Asia Pacific</a>
+            </li>
+          <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <li>
+              <a href="javascript:void(0);" data-lbcolor="" data-trcolor="#ffffff" data-bgcolor="" data-type="" data-target="#story2">Singapore</a>
+            </li>
+          <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <li>
+              <a href="javascript:void(0);" data-lbcolor="" data-trcolor="#ffffff" data-bgcolor="" data-type="" data-target="#story3">World</a>
+            </li>
+          <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <li>
+              <a href="javascript:void(0);" data-lbcolor="" data-trcolor="#ffffff" data-bgcolor="" data-type="" data-target="#story4">Business</a>
+            </li>
+          <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <li>
+              <a href="javascript:void(0);" data-lbcolor="" data-trcolor="#ffffff" data-bgcolor="" data-type="" data-target="#story5">Sport</a>
+            </li>
+          <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <li>
+              <a href="javascript:void(0);" data-lbcolor="" data-trcolor="#ffffff" data-bgcolor="" data-type="" data-target="#story6">Entertainment</a>
+            </li>
+          <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <li>
+              <a href="javascript:void(0);" data-lbcolor="" data-trcolor="#ffffff" data-bgcolor="" data-type="" data-target="#story7">Technology</a>
+            </li>
+          <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <li>
+              <a href="javascript:void(0);" data-lbcolor="" data-trcolor="#ffffff" data-bgcolor="" data-type="" data-target="#story8">Health</a>
+            </li>
+          <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <li>
+              <a href="javascript:void(0);" data-lbcolor="" data-trcolor="#ffffff" data-bgcolor="" data-type="" data-target="#story9">Lifestyle</a>
+            </li>
+          <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <li>
+              <a href="javascript:void(0);" data-lbcolor="" data-trcolor="#ffffff" data-bgcolor="" data-type="" data-target="#story10">Videos</a>
+            </li>
+          </ul>
+  </div>
+  <div class="top-stories-block">
+    <div class="top-stories-hold">
+      <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <div class="top-stories-tab-box" id="story0" trendColor="#ffffff" style="background-color: ">
+          <div class="stories-slide-holder">
+
+	<div class="featured-top-stories-container">
+	<strong class="top-ttl">Top Stories</strong>
+		<ul class="featured-top-stories">
+			<li class="first-story">
+				<div class="top-main-story">
+					 <h2><a href="/news/asiapacific/one-reported-dead-dozens/1385216.html">One reported dead, dozens stranded on erupting Japanese volcano</a></h2>
+            <div class="img">
+						  <a href="/news/asiapacific/one-reported-dead-dozens/1385216.html">
+                <img class="pdd-items large1385142" src="/image/1385142/1411828162000/large16x9/480/270/ontake.jpg" imagelink="/image/1385142/1411828162000/large16x9/480/270/ontake.jpg"
+                         width="420"
+                         height="236"/>
+                  </a>
+						</div>
+
+					<div class="txt-box">
+					 <p style='color:'>
+						A suffocating blanket of ash up to 20cm deep covered a large area of the 3,067-metre Mount Ontake, trapping climbers and forcing up to 150 into mountaintop shelters at one point. Around 230 people have now reached the bottom but a further 40 are trapped at the summit, local media reported.</p>
+					<span class="time" style='color:'>5 hours ago</span>
+					</div>
+				</div>
+			</li>
+			<li>
+			  <div class="more-top-list-stories">
+				<h3 class="ttl-more">
+				   <a href="/news/asiapacific/police-clear-hk-democracy/1384842.html"><span class="ico-video">Video </span> Police clear HK democracy protesters from govt HQ</a>
+				</h3>
+			  </div>
+			</li>
+			<li>
+			  <div class="more-top-list-stories">
+				<h3 class="ttl-more">
+				   <a href="/news/world/us-in-near-continuous/1384954.html">US in &#039;near continuous&#039; strikes against IS in Syria</a>
+				</h3>
+			  </div>
+			</li>
+			<li>
+			  <div class="more-top-list-stories">
+				<h3 class="ttl-more">
+				   <a href="/news/world/defiant-catalan-leader/1384932.html">Defiant Catalan leader calls independence vote for Nov 9</a>
+				</h3>
+			  </div>
+			</li>
+			</ul>
+	</div>
+	
+	<div class="top-sg-stories-container">
+	<strong class="top-ttl">Top Singapore Stories</strong>
+		<ul class="top-sg-stories">
+			<li class="first-story">
+				<div class="top-main-story">
+					 <h2><a href="/news/singapore/singapore-government-on/1384584.html"><span class="ico-video">Video</span> Singapore Government on alert for Bash aka Shellshock bug threat</a></h2>
+					  <div class="img">
+						  <a href="/news/singapore/singapore-government-on/1384584.html">
+							<img class="pdd-items large772370" src="/image/772370/1408095959000/large16x9/480/270/a-man-uses-a-laptop.jpg" imagelink="/image/772370/1408095959000/large16x9/480/270/a-man-uses-a-laptop.jpg"
+								 width="420"
+								 height="236"/>
+						  </a>
+						</div>
+
+					<div class="txt-box">
+					 <p style='color:'>
+						The Infocomm Development Authority of Singapore says it is closely monitoring the Bash bug situation. At least one financial institution, OCBC Bank says it has stepped up surveillance for possible exploits, although its websites are &#034;not susceptible&#034; to the vulnerability.</p>
+					<span class="time" style='color:'>15 hours ago</span>
+					</div>
+				</div>
+			</li>
+			<li>
+			  <div class="more-top-list-stories">
+				<h3 class="ttl-more">
+				  <a href="/news/singapore/applications-open-for/1385212.html"><span class="ico-video">Video </span> Applications open for first EC project in almost a year</a>
+				</h3>
+			  </div>
+			</li>
+			<li>
+			  <div class="more-top-list-stories">
+				<h3 class="ttl-more">
+				  <a href="/news/singapore/protesters-heckling-of/1385454.html">Protesters&#039; heckling of special needs children &#039;vile&#039;, &#039;unbecoming&#039;: MPs</a>
+				</h3>
+			  </div>
+			</li>
+			<li>
+			  <div class="more-top-list-stories">
+				<h3 class="ttl-more">
+				  <a href="/news/singapore/moh-s-draft-guidelines-on/1385168.html"><span class="ico-video">Video </span> MOH&#039;s draft guidelines on care for seniors: Industry players weigh in</a>
+				</h3>
+			  </div>
+			</li>
+			</ul>
+	</div>
+	
+</div>
+</div>
+      <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <div class="top-stories-tab-box" id="story1" trendColor="#ffffff" style="background-color: ">
+          <!-- skinner setting -->
+<!-- End skinner setting -->
+
+<div class="stories-slide-frame ">
+
+  <div class="stories-slide-holder">
+
+    <strong class="top-ttl" style="color:">
+        Top Asia Pacific Stories</strong>
+    <ul class="stories-slide">
+
+      <li class="slide-item">
+              <div class="top-main-story">
+                <h2><a href="/news/asiapacific/one-reported-dead-dozens/1385216.html" style='color:'>One reported dead, dozens stranded on erupting Japanese volcano</a></h2>
+                  <div class="img">
+                  <a href="/news/asiapacific/one-reported-dead-dozens/1385216.html">
+                    <img class="pdd-items large1385142" src="/image/568112/1363287052000/large16x9/320/180/transparent.png" imagelink="/image/1385142/1411828162000/large16x9/320/180/ontake.jpg"
+                         width="400"
+                         height="225"/>
+                  </a>
+                </div>
+
+                <p style='color:'>
+                    A suffocating blanket of ash up to 20cm deep covered a large area of the 3,067-metre Mount Ontake, trapping climbers and forcing up to 150 into mountaintop shelters at one point. Around 230 people have now reached the bottom but a further 40 are trapped at the summit, local media reported.</p>
+                <span class="time" style='color:'>5 hours ago</span>
+                </div>
+              <ul class="top-stories-lst">
+              <li>
+              <div class="img">
+                <a href="/news/asiapacific/police-clear-hk-democracy/1384842.html">
+                  <img class="pdd-items small1384728" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1384728/1411796413000/large16x9/115/65/hk-pepper-spray.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">11 hours ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/asiapacific/police-clear-hk-democracy/1384842.html" style='color:'><span class="ico-video">Video</span> Police clear HK democracy protesters from govt HQ</a></h3>
+                  </li>
+            <li>
+              <div class="img">
+                <a href="/news/asiapacific/indian-pm-in-us-after/1384242.html">
+                  <img class="pdd-items small1384244" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1384244/1411759325000/large16x9/115/65/in-this-photograph.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">1 day ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/asiapacific/indian-pm-in-us-after/1384242.html" style='color:'><span class="ico-video">Video</span> Indian PM in US after decade-long boycott</a></h3>
+                  </li>
+            <li>
+              <div class="img">
+                <a href="/news/asiapacific/world-must-take-different/1384544.html">
+                  <img class="pdd-items small1384546" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1384546/1411785950000/large16x9/115/65/najib-razak.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">17 hours ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/asiapacific/world-must-take-different/1384544.html" style='color:'>World must take different approach against extremism: Malaysia PM</a></h3>
+                  </li>
+            </ul>
+              </li>
+
+              </ul>
+  </div>
+</div>
+
+<div class="btn-more">
+    <a href="/news/asiapacific" title="Asia Pacific" style="background: ;color: ">
+      More Asia Pacific News</a>
+  </div>
+</div>
+      <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <div class="top-stories-tab-box" id="story2" trendColor="#ffffff" style="background-color: ">
+          <!-- skinner setting -->
+<!-- End skinner setting -->
+
+<div class="stories-slide-frame ">
+
+  <div class="stories-slide-holder">
+
+    <strong class="top-ttl" style="color:">
+        Top Singapore Stories</strong>
+    <ul class="stories-slide">
+
+      <li class="slide-item">
+              <div class="top-main-story">
+                <h2><a href="/news/singapore/singapore-government-on/1384584.html" style='color:'><span class="ico-video">Video</span> Singapore Government on alert for Bash aka Shellshock bug threat</a></h2>
+                  <div class="img">
+                  <a href="/news/singapore/singapore-government-on/1384584.html">
+                    <img class="pdd-items large772370" src="/image/568112/1363287052000/large16x9/320/180/transparent.png" imagelink="/image/772370/1408095959000/large16x9/320/180/a-man-uses-a-laptop.jpg"
+                         width="400"
+                         height="225"/>
+                  </a>
+                </div>
+
+                <p style='color:'>
+                    The Infocomm Development Authority of Singapore says it is closely monitoring the Bash bug situation. At least one financial institution, OCBC Bank says it has stepped up surveillance for possible exploits, although its websites are &#034;not susceptible&#034; to the vulnerability.</p>
+                <span class="time" style='color:'>15 hours ago</span>
+                </div>
+              <ul class="top-stories-lst">
+              <li>
+              <div class="img">
+                <a href="/news/singapore/applications-open-for/1385212.html">
+                  <img class="pdd-items small1364950" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1364950/1411827523000/large16x9/115/65/bellewoods-ec.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">5 hours ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/singapore/applications-open-for/1385212.html" style='color:'><span class="ico-video">Video</span> Applications open for first EC project in almost a year</a></h3>
+                  </li>
+            <li>
+              <div class="img">
+                <a href="/news/singapore/protesters-heckling-of/1385454.html">
+                  <img class="pdd-items small1385484" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1385484/1411841408000/large16x9/115/65/protesters-led-by-han-hui.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">1 hour ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/singapore/protesters-heckling-of/1385454.html" style='color:'>Protesters&#039; heckling of special needs children &#039;vile&#039;, &#039;unbecoming&#039;: MPs</a></h3>
+                  </li>
+            <li>
+              <div class="img">
+                <a href="/news/singapore/moh-s-draft-guidelines-on/1385168.html">
+                  <img class="pdd-items small635062" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/635062/1410008986000/large16x9/115/65/stock-disabled-01.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">7 hours ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/singapore/moh-s-draft-guidelines-on/1385168.html" style='color:'><span class="ico-video">Video</span> MOH&#039;s draft guidelines on care for seniors: Industry players weigh in</a></h3>
+                  </li>
+            </ul>
+              </li>
+
+              </ul>
+  </div>
+</div>
+
+<div class="btn-more">
+    <a href="/news/singapore" title="Singapore" style="background: ;color: ">
+      More Singapore News</a>
+  </div>
+</div>
+      <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <div class="top-stories-tab-box" id="story3" trendColor="#ffffff" style="background-color: ">
+          <!-- skinner setting -->
+<!-- End skinner setting -->
+
+<div class="stories-slide-frame ">
+
+  <div class="stories-slide-holder">
+
+    <strong class="top-ttl" style="color:">
+        Top World Stories</strong>
+    <ul class="stories-slide">
+
+      <li class="slide-item">
+              <div class="top-main-story">
+                <h2><a href="/news/world/us-in-near-continuous/1384954.html" style='color:'>US in &#039;near continuous&#039; strikes against IS in Syria</a></h2>
+                  <div class="img">
+                  <a href="/news/world/us-in-near-continuous/1384954.html">
+                    <img class="pdd-items large1384974" src="/image/568112/1363287052000/large16x9/320/180/transparent.png" imagelink="/image/1384974/1411811840000/large16x9/320/180/syria-strikes.jpg"
+                         width="400"
+                         height="225"/>
+                  </a>
+                </div>
+
+                <p style='color:'>
+                    The US-led coalition expanded its air strikes against Islamic State group targets in Syria on Saturday (Sep 27) as part of &#034;near continuous&#034; raids against the militants, after three more European governments deployed fighter jets for strikes against IS in Iraq, freeing up US air power.</p>
+                <span class="time" style='color:'>9 hours ago</span>
+                </div>
+              <ul class="top-stories-lst">
+              <li>
+              <div class="img">
+                <a href="/news/world/defiant-catalan-leader/1384932.html">
+                  <img class="pdd-items small1288818" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1288818/1411809279000/large16x9/115/65/president-of-the-catalan.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">10 hours ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/world/defiant-catalan-leader/1384932.html" style='color:'>Defiant Catalan leader calls independence vote for Nov 9</a></h3>
+                  </li>
+            <li>
+              <div class="img">
+                <a href="/news/world/palestinian-leader/1384516.html">
+                  <img class="pdd-items small1384220" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1384220/1411780822000/large16x9/115/65/palestinian-president.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">18 hours ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/world/palestinian-leader/1384516.html" style='color:'>Palestinian leader accuses Israel of &#039;genocide&#039;</a></h3>
+                  </li>
+            <li>
+              <div class="img">
+                <a href="/news/world/world-powers-warn-of/1384532.html">
+                  <img class="pdd-items small1338194" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1338194/1409798881000/large16x9/115/65/the-reactor-building-at.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">17 hours ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/world/world-powers-warn-of/1384532.html" style='color:'>World powers warn of &#039;serious gaps&#039; in Iran talks</a></h3>
+                  </li>
+            </ul>
+              </li>
+
+              </ul>
+  </div>
+</div>
+
+<div class="btn-more">
+    <a href="/news/world" title="World" style="background: ;color: ">
+      More World News</a>
+  </div>
+</div>
+      <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <div class="top-stories-tab-box" id="story4" trendColor="#ffffff" style="background-color: ">
+          <!-- skinner setting -->
+<!-- End skinner setting -->
+
+<div class="stories-slide-frame ">
+
+  <div class="stories-slide-holder">
+
+    <strong class="top-ttl" style="color:">
+        Top Business Stories</strong>
+    <ul class="stories-slide">
+
+      <li class="slide-item">
+              <div class="top-main-story">
+                <h2><a href="/news/business/union-makes-offer-to-end/1384592.html" style='color:'>Union makes offer to end marathon Air France strike</a></h2>
+                  <div class="img">
+                  <a href="/news/business/union-makes-offer-to-end/1384592.html">
+                    <img class="pdd-items large1384610" src="/image/568112/1363287052000/large16x9/320/180/transparent.png" imagelink="/image/1384610/1411791806000/large16x9/320/180/air-france-strike.jpg"
+                         width="400"
+                         height="225"/>
+                  </a>
+                </div>
+
+                <p style='color:'>
+                    Air France&#039;s main pilots&#039; union said it was &#034;ready to end the conflict&#034; as soon as an independent mediator was named by the government. Over half of the airline&#039;s planes were grounded for the 12th day.</p>
+                <span class="time" style='color:'>15 hours ago</span>
+                </div>
+              <ul class="top-stories-lst">
+              <li>
+              <div class="img">
+                <a href="/news/business/eu-unveils-interim-deal/1384198.html">
+                  <img class="pdd-items small1384202" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1384202/1411754654000/large16x9/115/65/russian-energy-minister.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">1 day ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/business/eu-unveils-interim-deal/1384198.html" style='color:'>EU unveils interim deal for ending Russia-Ukraine gas war</a></h3>
+                  </li>
+            <li>
+              <div class="img">
+                <a href="/news/business/russia-eu-lock-horns-at/1384228.html">
+                  <img class="pdd-items small1384256" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1384256/1411758519000/large16x9/115/65/delegates-of-the-world.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">1 day ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/business/russia-eu-lock-horns-at/1384228.html" style='color:'>Russia, EU lock horns at WTO over vehicle duties</a></h3>
+                  </li>
+            <li>
+              <div class="img">
+                <a href="/news/business/ford-recalls-850-000-cars/1384234.html">
+                  <img class="pdd-items small1092148" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1092148/1404846139000/large16x9/115/65/the-ford-logo-is-seen-on.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">1 day ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/business/ford-recalls-850-000-cars/1384234.html" style='color:'>Ford recalls 850,000 cars for air bag problem</a></h3>
+                  </li>
+            </ul>
+              </li>
+
+              </ul>
+  </div>
+</div>
+
+<div class="btn-more">
+    <a href="/news/business" title="Business" style="background: ;color: ">
+      More Business News</a>
+  </div>
+</div>
+      <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <div class="top-stories-tab-box" id="story5" trendColor="#ffffff" style="background-color: ">
+          <!-- skinner setting -->
+<!-- End skinner setting -->
+
+<div class="stories-slide-frame ">
+
+  <div class="stories-slide-holder">
+
+    <strong class="top-ttl" style="color:">
+        Top Sport Stories</strong>
+    <ul class="stories-slide">
+
+      <li class="slide-item">
+              <div class="top-main-story">
+                <h2><a href="/news/sport/tennis-kvitova-defeats/1384922.html" style='color:'>Tennis: Kvitova defeats Bouchard to win Wuhan Open</a></h2>
+                  <div class="img">
+                  <a href="/news/sport/tennis-kvitova-defeats/1384922.html">
+                    <img class="pdd-items large1384926" src="/image/568112/1363287052000/large16x9/320/180/transparent.png" imagelink="/image/1384926/1411808530000/large16x9/320/180/petra-kvitova-wuhan-open.jpg"
+                         width="400"
+                         height="225"/>
+                  </a>
+                </div>
+
+                <p style='color:'>
+                    World number three Petra Kvitova was at her ruthless best to defeat Eugenie Bouchard 6-3, 6-4, a result which confirmed her place in next month&#039;s WTA Finals</p>
+                <span class="time" style='color:'>10 hours ago</span>
+                </div>
+              <ul class="top-stories-lst">
+              <li>
+              <div class="img">
+                <a href="/news/sport/lee-battles-back-to-set/1384906.html">
+                  <img class="pdd-items small1384908" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1384908/1411814675000/large16x9/115/65/lee-chong-wei-of-malaysia.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">9 hours ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/sport/lee-battles-back-to-set/1384906.html" style='color:'>Lee battles back to set up Lin showdown in Asian Games</a></h3>
+                  </li>
+            <li>
+              <div class="img">
+                <a href="/news/sport/asian-games-japan-s/1384648.html">
+                  <img class="pdd-items small1384654" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1384654/1411794826000/large16x9/115/65/naoya-tomita.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">14 hours ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/sport/asian-games-japan-s/1384648.html" style='color:'>Asian Games: Japan&#039;s Tomita kicked out for stealing camera</a></h3>
+                  </li>
+            <li>
+              <div class="img">
+                <a href="/news/sport/golf-late-show-saves/1384270.html">
+                  <img class="pdd-items small1384272" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1384272/1411759642000/large16x9/115/65/rory-mcilroy-of-northern.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">1 day ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/sport/golf-late-show-saves/1384270.html" style='color:'>Golf: Late show saves blushes for McIlroy and Garcia</a></h3>
+                  </li>
+            </ul>
+              </li>
+
+              </ul>
+  </div>
+</div>
+
+<div class="btn-more">
+    <a href="/news/sport" title="Sport" style="background: ;color: ">
+      More Sport News</a>
+  </div>
+</div>
+      <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <div class="top-stories-tab-box" id="story6" trendColor="#ffffff" style="background-color: ">
+          <!-- skinner setting -->
+<!-- End skinner setting -->
+
+<div class="stories-slide-frame ">
+
+  <div class="stories-slide-holder">
+
+    <strong class="top-ttl" style="color:">
+        Top Entertainment Stories</strong>
+    <ul class="stories-slide">
+
+      <li class="slide-item">
+              <div class="top-main-story">
+                <h2><a href="/news/entertainment/tequila-and-cigars/1384988.html" style='color:'>Tequila and cigars: Clooney&#039;s stag party in Venice</a></h2>
+                  <div class="img">
+                  <a href="/news/entertainment/tequila-and-cigars/1384988.html">
+                    <img class="pdd-items large1385004" src="/image/568112/1363287052000/large16x9/320/180/transparent.png" imagelink="/image/1385004/1411813145000/large16x9/320/180/george-clooney-and-his.jpg"
+                         width="400"
+                         height="225"/>
+                  </a>
+                </div>
+
+                <p style='color:'>
+                    George Clooney said goodbye to bachelorhood in Venice with a stag party at his favourite restaurant, before rounding off the evening with some shots and cigars.</p>
+                <span class="time" style='color:'>9 hours ago</span>
+                </div>
+              <ul class="top-stories-lst">
+              <li>
+              <div class="img">
+                <a href="/news/entertainment/radiohead-s-thom-yorke/1384460.html">
+                  <img class="pdd-items small1384462" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1384462/1411774273000/large16x9/115/65/om-yorke.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">20 hours ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/entertainment/radiohead-s-thom-yorke/1384460.html" style='color:'>Radiohead&#039;s Thom Yorke releases surprise solo album</a></h3>
+                  </li>
+            <li>
+              <div class="img">
+                <a href="/news/entertainment/british-dj-escapes-jail/1384012.html">
+                  <img class="pdd-items small1384022" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1384022/1411745965000/large16x9/115/65/dave-lee-travis-free.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">2 days ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/entertainment/british-dj-escapes-jail/1384012.html" style='color:'>British DJ escapes jail for indecent assault</a></h3>
+                  </li>
+            <li>
+              <div class="img">
+                <a href="/news/entertainment/demure-drama-queen-ha-ji/1383410.html">
+                  <img class="pdd-items small1383430" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1383430/1411727936000/large16x9/115/65/ha-ji-won-1.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">2 days ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/entertainment/demure-drama-queen-ha-ji/1383410.html" style='color:'>Demure drama queen Ha Ji-won explains why she loves acting tough </a></h3>
+                  </li>
+            </ul>
+              </li>
+
+              </ul>
+  </div>
+</div>
+
+<div class="btn-more">
+    <a href="/news/entertainment" title="Entertainment" style="background: ;color: ">
+      More Entertainment News</a>
+  </div>
+</div>
+      <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <div class="top-stories-tab-box" id="story7" trendColor="#ffffff" style="background-color: ">
+          <!-- skinner setting -->
+<!-- End skinner setting -->
+
+<div class="stories-slide-frame ">
+
+  <div class="stories-slide-holder">
+
+    <strong class="top-ttl" style="color:">
+        Top Technology Stories</strong>
+    <ul class="stories-slide">
+
+      <li class="slide-item">
+              <div class="top-main-story">
+                <h2><a href="/news/technology/singapore-government-on/1384584.html" style='color:'><span class="ico-video">Video</span> Singapore Government on alert for Bash aka Shellshock bug threat</a></h2>
+                  <div class="img">
+                  <a href="/news/technology/singapore-government-on/1384584.html">
+                    <img class="pdd-items large772370" src="/image/568112/1363287052000/large16x9/320/180/transparent.png" imagelink="/image/772370/1408095959000/large16x9/320/180/a-man-uses-a-laptop.jpg"
+                         width="400"
+                         height="225"/>
+                  </a>
+                </div>
+
+                <p style='color:'>
+                    The Infocomm Development Authority of Singapore says it is closely monitoring the Bash bug situation. At least one financial institution, OCBC Bank says it has stepped up surveillance for possible exploits, although its websites are &#034;not susceptible&#034; to the vulnerability.</p>
+                <span class="time" style='color:'>15 hours ago</span>
+                </div>
+              <ul class="top-stories-lst">
+              <li>
+              <div class="img">
+                <a href="/news/technology/apple-says-mac-users/1384386.html">
+                  <img class="pdd-items small1382138" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1382138/1411768345000/large16x9/115/65/the-us-government-and.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">22 hours ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/technology/apple-says-mac-users/1384386.html" style='color:'>Apple says Mac users mostly safe from &#039;Bash&#039; bug</a></h3>
+                  </li>
+            <li>
+              <div class="img">
+                <a href="/news/technology/europe-widens-in-flight/1384250.html">
+                  <img class="pdd-items small254808" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/254808/1409951136000/large16x9/115/65/generic-plane-489214.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">1 day ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/technology/europe-widens-in-flight/1384250.html" style='color:'>Europe widens in-flight use of portable electronics  </a></h3>
+                  </li>
+            <li>
+              <div class="img">
+                <a href="/news/technology/apple-sorry-for-software/1382414.html">
+                  <img class="pdd-items small1381654" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1381654/1411698937000/large16x9/115/65/apple-sold-more-than-10.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">2 days ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/technology/apple-sorry-for-software/1382414.html" style='color:'>Apple sorry for software glitch, defends new iPhones</a></h3>
+                  </li>
+            </ul>
+              </li>
+
+              </ul>
+  </div>
+</div>
+
+<div class="btn-more">
+    <a href="/news/technology" title="Technology" style="background: ;color: ">
+      More Technology News</a>
+  </div>
+</div>
+      <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <div class="top-stories-tab-box" id="story8" trendColor="#ffffff" style="background-color: ">
+          <!-- skinner setting -->
+<!-- End skinner setting -->
+
+<div class="stories-slide-frame ">
+
+  <div class="stories-slide-holder">
+
+    <strong class="top-ttl" style="color:">
+        Top Health Stories</strong>
+    <ul class="stories-slide">
+
+      <li class="slide-item">
+              <div class="top-main-story">
+                <h2><a href="/news/health/ebola-death-toll-passes-3/1385520.html" style='color:'>Ebola death toll passes 3,000: WHO</a></h2>
+                  <div class="img">
+                  <a href="/news/health/ebola-death-toll-passes-3/1385520.html">
+                    <img class="pdd-items large1383408" src="/image/568112/1363287052000/large16x9/320/180/transparent.png" imagelink="/image/1383408/1411844471000/large16x9/320/180/guinea-s-health-workers.jpg"
+                         width="400"
+                         height="225"/>
+                  </a>
+                </div>
+
+                <p style='color:'>
+                    The death toll in the world&#039;s worst-ever Ebola epidemic has now soared past 3,000, with the virus killing almost half of the more than 6,500 people it has infected, according to WHO figures released Saturday (Sep 27).</p>
+                <span class="time" style='color:'>59 minutes ago</span>
+                </div>
+              <ul class="top-stories-lst">
+              <li>
+              <div class="img">
+                <a href="/news/health/australia-smoking-rates/1381218.html">
+                  <img class="pdd-items small812628" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/812628/1411639724000/large16x9/115/65/an-employee-adjusts.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">3 days ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/health/australia-smoking-rates/1381218.html" style='color:'>Australia smoking rates down as France mulls plain packs</a></h3>
+                  </li>
+            <li>
+              <div class="img">
+                <a href="/news/health/boost-in-quest-for-tb/1377918.html">
+                  <img class="pdd-items small858750" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/858750/1411516107000/large16x9/115/65/tb-testing.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">4 days ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/health/boost-in-quest-for-tb/1377918.html" style='color:'>Boost in quest for TB breath test</a></h3>
+                  </li>
+            <li>
+              <div class="img">
+                <a href="/news/health/us-beverage-giants-vow-to/1377828.html">
+                  <img class="pdd-items small1377830" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1377830/1411511794000/large16x9/115/65/a-woman-shops-at-a.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">4 days ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/health/us-beverage-giants-vow-to/1377828.html" style='color:'>US beverage giants vow to cut calories to fight obesity</a></h3>
+                  </li>
+            </ul>
+              </li>
+
+              </ul>
+  </div>
+</div>
+
+<div class="btn-more">
+    <a href="/news/health" title="Health" style="background: ;color: ">
+      More Health News</a>
+  </div>
+</div>
+      <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <div class="top-stories-tab-box" id="story9" trendColor="#ffffff" style="background-color: ">
+          <!-- skinner setting -->
+<!-- End skinner setting -->
+
+<div class="stories-slide-frame ">
+
+  <div class="stories-slide-holder">
+
+    <strong class="top-ttl" style="color:">
+        Top Lifestyle Stories</strong>
+    <ul class="stories-slide">
+
+      <li class="slide-item">
+              <div class="top-main-story">
+                <h2><a href="/news/lifestyle/gaby-aghion-chloe-fashion/1385456.html" style='color:'>Gaby Aghion, Chloe fashion label founder, dies aged 93</a></h2>
+                  <div class="img">
+                  <a href="/news/lifestyle/gaby-aghion-chloe-fashion/1385456.html">
+                    <img class="pdd-items large1385460" src="/image/568112/1363287052000/large16x9/320/180/transparent.png" imagelink="/image/1385460/1411839269000/large16x9/320/180/gaby-aghion.jpg"
+                         width="400"
+                         height="225"/>
+                  </a>
+                </div>
+
+                <p style='color:'>
+                    Gaby Aghion, who started the Chloe fashion house and oversaw its rise as a post-war style icon, died at her Paris home on Saturday (Sep 27), aged 93.</p>
+                <span class="time" style='color:'>2 hours ago</span>
+                </div>
+              <ul class="top-stories-lst">
+              <li>
+              <div class="img">
+                <a href="/news/lifestyle/cricket-altitude-record/1383586.html">
+                  <img class="pdd-items small1383590" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1383590/1411741659000/large16x9/115/65/the-game-was-played-at.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">2 days ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/lifestyle/cricket-altitude-record/1383586.html" style='color:'>Cricket: Altitude record set on &#039;roof of Africa&#039;</a></h3>
+                  </li>
+            <li>
+              <div class="img">
+                <a href="/news/lifestyle/four-michelin-starred/1381200.html">
+                  <img class="pdd-items small1381210" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1381210/1411638409000/large16x9/115/65/michelin-starred-chefs.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">3 days ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/lifestyle/four-michelin-starred/1381200.html" style='color:'>Four Michelin-starred chefs to cook in Singapore </a></h3>
+                  </li>
+            <li>
+              <div class="img">
+                <a href="/news/lifestyle/japan-firm-has-thumbs-up/1381028.html">
+                  <img class="pdd-items small1381032" src="/image/568112/1363287052000/large16x9/115/65/transparent.png" imagelink="/image/1381032/1411637970000/large16x9/115/65/an-employee-of-japan-s.jpg" width="115"
+                       height="65"/>
+                </a>
+                <span class="time-txt" style="color: ">3 days ago</span>
+              </div>
+              <div class="txt-box">
+                <h3><a href="/news/lifestyle/japan-firm-has-thumbs-up/1381028.html" style='color:'>Japan firm has &#039;thumbs up&#039; solution for bigger smartphones</a></h3>
+                  </li>
+            </ul>
+              </li>
+
+              </ul>
+  </div>
+</div>
+
+<div class="btn-more">
+    <a href="/news/lifestyle" title="Lifestyle" style="background: ;color: ">
+      More Lifestyle News</a>
+  </div>
+</div>
+      <!-- Sponsor setting -->
+        <!-- End Sponsor setting -->
+
+        <div class="top-stories-tab-box" id="story10" trendColor="#ffffff" style="background-color: ">
+          <!-- Skinner setting -->
+<!-- End skinner setting -->
+
+<div class="stories-slide-frame ">
+    <div class="stories-slide-holder">
+
+    <strong class="top-ttl" style="color: ">
+        FEATURED Videos</strong>
+    <ul class="stories-slide">
+
+      <li class="slide-item">
+          <ul class="video-news-lst">
+        <li>
+          <div class="img">
+            <a href="/news/video/two-events-held-at-hong/1385286.html">
+              <img src="http://videos5.mediacorp.sg/5pOGdxcDpFyHmv8eRxEhaupV6-dV3ddr/yeOkC802fbC1__xn4xMDoxOmdtO40mAx" alt="" width="195" height="110"  class="pdd-items" />
+                <span class="play-ico">play</span>
+              <span class="video-txt">01:39</span>
+            </a>
+          </div>
+          <div class="txt-box">
+            <h3><a href="/news/video/two-events-held-at-hong/1385286.html" style='color:'>Two events held at Hong Lim Park at same time on Saturday</a></h3>
+
+            <p style='color:'>
+                Hong Lim Park saw two events held at the same time today, resulting in some unsavoury scenes.</p>
+            </li>
+
+        <li>
+          <div class="img">
+            <a href="/news/video/religious-community/1385266.html">
+              <img src="http://videos5.mediacorp.sg/d5MmdxcDqyxkt6KVj7GnGBBMxRftCKz6/yeOkC802fbC1__xn4xMDoxOmdtO40mAx" alt="" width="195" height="110"  class="pdd-items" />
+                <span class="play-ico">play</span>
+              <span class="video-txt">02:56</span>
+            </a>
+          </div>
+          <div class="txt-box">
+            <h3><a href="/news/video/religious-community/1385266.html" style='color:'>Religious &amp; community leaders from Pioneer Generation honoured: Profiles</a></h3>
+
+            <p style='color:'>
+                The Culture, Community and Youth Ministry today (27 Sept) paid tribute to religious and community leaders from the Pioneer Generation. In particular, these individuals have played their part in contributing to racial and religious harmony in Singapore.</p>
+            </li>
+
+        <li>
+          <div class="img">
+            <a href="/news/video/hk-democracy-protesters/1384782.html">
+              <img src="http://videos5.mediacorp.sg/Ywa2FxcDoG4OgeU8vtxaDKCCvldKNGtL/yeOkC802fbC1__xn4xMDoxOmdtO40mAx" alt="" width="195" height="110"  class="pdd-items" />
+                <span class="play-ico">play</span>
+              <span class="video-txt">01:15</span>
+            </a>
+          </div>
+          <div class="txt-box">
+            <h3><a href="/news/video/hk-democracy-protesters/1384782.html" style='color:'>HK democracy protesters hold out after storming govt HQ</a></h3>
+
+            <p style='color:'>
+                More than 50 protesters held out at Hong Kong government headquarters, as police arrested 13 more in the tensest scenes yet in a recent series of protests.</p>
+            </li>
+
+        <li>
+          <div class="img">
+            <a href="/news/video/growing-number-of-singles/1383870.html">
+              <img src="http://videos5.mediacorp.sg/U3NnBwcDraRxdVKd_wvmPa5h4Ap3_qx7/yeOkC802fbC1__xn4xMDoxOmdtO40mAx" alt="" width="195" height="110"  class="pdd-items" />
+                <span class="play-ico">play</span>
+              <span class="video-txt">03:52</span>
+            </a>
+          </div>
+          <div class="txt-box">
+            <h3><a href="/news/video/growing-number-of-singles/1383870.html" style='color:'>Growing number of singles in Singapore </a></h3>
+
+            <p style='color:'>
+                The latest Population Trends report also show that those who do marry are doing so at a much later age. </p>
+            </li>
+
+        </ul>
+          </li>
+        </ul>
+  </div>
+</div>
+
+<div class="btn-more">
+    <a  style="background: ;color: " href="/news/video" title="Videos">More Videos</a>
+  </div>
+</div>
+      <!-- /top-stories-tab -->
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+
+  var hideAdvCookie = 0;
+  
+  var advCookieHours = 24;
+  
+
+  (function() {
+
+    var tabCookieVal = com.coremedia.html.Functions.getCookie("cna-top-stories-tab");
+    if (!tabCookieVal || parseInt(tabCookieVal) < 1) {
+      tabCookieVal = 1;
+    }
+    var link = '.top-stories-tab li:nth-child(' + tabCookieVal + ') a';
+    var id_ = $(link).data('target');
+    var bgColor = $(link).data('bgcolor');
+    var trColor = $(link).data('trcolor');
+    var lbColor = $(link).data('lbcolor');
+    $(link).parent().css("background-color",bgColor);
+    $(link).css("color",lbColor);
+    $(link).parent().addClass('active');
+    $(id_).addClass('active');
+
+    var hideAdvCookie = com.coremedia.html.Functions.getCookie("advertorial-stories-tab");
+
+    return false;
+  })();
+
+
+  $(document).ready(function () {
+    showPhotoInTopStories();
+    var imageHolder = $('div.top-stories-section div.top-stories-hold div.active');
+    var trendColor = '#ffffff';
+    if ($(imageHolder).attr('trendColor') != 'undefined') trendColor = $(imageHolder).attr('trendColor');
+
+    var showAdv = false;
+    var advIds = "";
+    var advTabIds = advIds.split(" ");
+    var tabList = $('ul.top-stories-tab li');
+    var index = $('ul.top-stories-tab li.active').index();
+    var tabLength = tabList.length;
+    var rotateTimeout = 10000;
+
+    var rotateTopStoriesTab = function() {
+      index = index + 1;
+      if (index === tabLength) {
+        index = 0;
+        advShown = true;
+      }
+      tabList.eq(index).children('a').trigger('click', 'triggered');
+    };
+
+    $('.top-stories-tab a').on('click', function (evt, from) {
+      index = $(this).parent().index();
+
+      if (from == 'undefined' || from !== 'triggered') {
+
+        if (advTabIds != null && advTabIds.length > 0){
+          for(i=0; i<advTabIds.length; i++){
+            var advTabId = parseInt(advTabIds[i]);
+            if(index == advTabId + 1){
+
+              hideAdvCookie = com.coremedia.html.Functions.getCookie("advertorial-stories-tab-"+advTabId);
+
+              if(isSetRotateInterval == false && hideAdvCookie != 1){
+                tabList.eq(advTabId).children('a').trigger('click', 'clicked');
+                return false;
+              }
+            }
+          }
+        }
+      } else {
+        hideAdvCookie = com.coremedia.html.Functions.getCookie("advertorial-stories-tab-"+index);
+        if (hideAdvCookie == 1){
+          tabList.eq(index+1).children('a').trigger('click', 'triggered');
+          return false;
+        }
+      }
+
+      var bgColor = $(this).data('bgcolor');
+      var trendColor = $(this).data('trcolor');
+      var lbColor = $(this).data('lbcolor');
+      loadTopStoriesLinkWithBgColor(this, true,bgColor,lbColor, trendColor);
+
+      var linkId = $(this).data('target').replace(/^\D+/g, '');
+      var intId = parseInt(linkId);
+
+
+      //if touch device && the click event is fired by human click
+      if (Modernizr.touch && from !== 'triggered') {
+       
+        showAdv = true;
+      }
+      return false;
+    });
+
+
+    var isSetRotateInterval = true;
+
+    $('div.top-stories-section').mouseenter(function(){
+      if (isSetRotateInterval) {
+        
+        isSetRotateInterval = false;
+        showAdv = true;
+      }
+    }).mouseleave(function(){
+              if (!isSetRotateInterval) {
+               
+                isSetRotateInterval = true;
+              }
+            });
+
+
+    $("span.closeAdvertorial").on("click",function(){
+      var linkId = $(this).parent().data('target');
+      $(linkId).removeClass('active');
+      showAdv = false;
+      var id = $(this).parent().attr("id");
+
+      tabList.eq(parseInt(id) + 1).children('a').trigger('click', 'triggered');
+      showPhotoInTopStories();
+      adjustSideHeight();
+
+      var expireDate = new Date();
+      expireDate.setTime(expireDate.getTime() + (advCookieHours * 3600 * 1000));
+      $.cookie("advertorial-stories-tab-"+id, 1, {expires:expireDate, path:'/'});
+
+    });
+
+
+  });
+
+</script>
+
+<style>
+  .top-stories-tab-box .btn-more { margin-bottom: 9px; }
+</style><div class="section-news-more" id="multipleTabContent">
+    <div class="row-news-more">
+      <ul class="tabs-news-more">
+            <li class="active"><a href="#info-box01">More Stories</a></li>
+              <li class=""><a href="#info-box02">Asian Games</a></li>
+              <li class=""><a href="#info-box03">Islamic State</a></li>
+              <li class=""><a href="#info-box04">Ebola</a></li>
+              <li class=""><a href="#info-box05">MH17</a></li>
+              </ul>
+        </div>
+
+    <div class="holder-news-more" >
+      <div class="tab-news-more active" id="info-box01">
+          <div class="morestories">
+    <div id="three-column" class="container">
+      <div id="tbox1">
+          <div class="box-style">
+            <div class="title"><a href="/news/asiapacific">Asia Pacific</a></div>
+            <div class="storytitles">
+
+              <ul class="recommended-side-list">
+                <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/asiapacific/china-calls-for-n-korea/1385556.html">China calls for N Korea nuclear talks to resume</a></h3>
+                        </div>
+                  </li>
+                  <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/asiapacific/hong-kong-democracy/1385468.html">Hong Kong democracy protesters dig in at government HQ</a></h3>
+                        </div>
+                  </li>
+                  <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/asiapacific/pakistan-must-show-more/1385458.html">Pakistan must show more 'seriousness' for talks: India PM</a></h3>
+                        </div>
+                  </li>
+                  <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/asiapacific/indian-court-convicts/1384992.html">Indian court convicts chief minister for graft</a></h3>
+                        </div>
+                  </li>
+                  <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/asiapacific/one-reported-dead-dozens/1385216.html">One reported dead, dozens stranded on erupting Japanese volcano</a></h3>
+                        </div>
+                  </li>
+                  <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/asiapacific/taiwan-student-hurls-book/1384856.html">Taiwan student hurls book at president in China protest</a></h3>
+                        </div>
+                  </li>
+                  <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/asiapacific/police-clear-hk-democracy/1384842.html"><span class="ico-video">Video</span> Police clear HK democracy protesters from govt HQ</a></h3>
+                        </div>
+                  </li>
+                  </ul>
+              <div class="btn-more">
+                  <a href="/archives/asiapacific" title="View All Asia Pacific Stories">More</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      <div id="tbox2">
+          <div class="box-style">
+            <div class="title"><a href="/news/singapore">Singapore</a></div>
+            <div class="storytitles">
+
+              <ul class="recommended-side-list">
+                <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/singapore/protesters-heckling-of/1385454.html">Protesters' heckling of special needs children 'vile', 'unbecoming': MPs</a></h3>
+                        </div>
+                  </li>
+                  <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/singapore/govt-to-conduct-more/1385448.html">Govt to conduct more small group sessions to explain PGP</a></h3>
+                        </div>
+                  </li>
+                  <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/singapore/part-time-caterer-and/1385436.html">Part-time caterer and seamstress wins Exemplary Mother Award</a></h3>
+                        </div>
+                  </li>
+                  <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/singapore/pioneers-who-have-played/1385334.html"><span class="ico-video">Video</span> Pioneers who have played role in promoting racial, religious harmony</a></h3>
+                        </div>
+                  </li>
+                  <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/singapore/opera-performances/1385228.html"><span class="ico-video">Video</span> Opera performances, exhibits and more at Teochew festival</a></h3>
+                        </div>
+                  </li>
+                  <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/singapore/religious-community/1385294.html"><span class="ico-video">Video</span> Religious & community leaders from Pioneer Generation honoured</a></h3>
+                        </div>
+                  </li>
+                  <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/singapore/sg50-kita-to-drive-malay/1385264.html"><span class="ico-video">Video</span> SG50 Kita to drive Malay-Muslim SG50 initiatives</a></h3>
+                        </div>
+                  </li>
+                  </ul>
+              <div class="btn-more">
+                  <a href="/archives/singapore" title="View All Singapore Stories">More</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      <div id="tbox3">
+          <div class="box-style">
+            <div class="title"><a href="/news/world">World</a></div>
+            <div class="storytitles">
+
+              <ul class="recommended-side-list">
+                <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/world/border-still-closed/1385554.html">Border still closed, Senegal opens airport for Ebola aid</a></h3>
+                        </div>
+                  </li>
+                  <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/world/death-toll-from-capsized/1385550.html">Death toll from capsized tourist boat in Brazil hits 11</a></h3>
+                        </div>
+                  </li>
+                  <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/world/ebola-death-toll-passes-3/1385520.html">Ebola death toll passes 3,000: WHO</a></h3>
+                        </div>
+                  </li>
+                  <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/world/us-hits-militants-in/1385508.html">US hits militants in Syria as UK bombers fly over Iraq</a></h3>
+                        </div>
+                  </li>
+                  <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/world/turkey-prepared-for/1385470.html">Turkey prepared for military role in anti-IS coalition: Erdogan</a></h3>
+                        </div>
+                  </li>
+                  <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/world/france-charges-three/1385282.html">France charges three suspected militants back from Syria</a></h3>
+                        </div>
+                  </li>
+                  <li>
+                    <div class="holder">
+                      <h3 class="ttl"><a href="/news/world/silent-march-for-french/1385268.html">Silent march for French slain hostage</a></h3>
+                        </div>
+                  </li>
+                  </ul>
+              <div class="btn-more">
+                  <a href="/archives/world" title="View All World Stories">More</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    <div id="three-column2" class="container">
+        <div id="tbox4">
+            <div class="box-style">
+              <div class="title"><a href="/news/business">Business</a></div>
+              <div class="storytitles">
+                <ul class="recommended-side-list">
+                  <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/business/ukraine-backs-off-from-eu/1385156.html">Ukraine backs off from EU-backed Russia gas deal</a></h3>
+                          </div>
+                    </li>
+                    <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/business/applications-open-for/1385212.html"><span class="ico-video">Video</span> Applications open for first EC project in almost a year</a></h3>
+                          </div>
+                    </li>
+                    <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/business/china-s-citic-wins/1384596.html">China's CITIC wins interim injunction in Mineralogy dispute</a></h3>
+                          </div>
+                    </li>
+                    <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/business/union-makes-offer-to-end/1384592.html">Union makes offer to end marathon Air France strike</a></h3>
+                          </div>
+                    </li>
+                    <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/business/dollar-rises-on-euro-for/1384434.html">Dollar rises on euro for 3rd session</a></h3>
+                          </div>
+                    </li>
+                    <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/business/us-oil-surges-amid-middle/1384388.html">US oil surges amid Middle East tensions</a></h3>
+                          </div>
+                    </li>
+                    <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/business/us-stocks-gain-on-nike/1384348.html">US stocks gain on Nike earnings, Apple rally</a></h3>
+                          </div>
+                    </li>
+                    </ul>
+
+                <div class="btn-more">
+                    <a href="/archives/business" title="View All Business Stories">More</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        <div id="tbox5">
+            <div class="box-style">
+              <div class="title"><a href="/news/sport">Sport</a></div>
+              <div class="storytitles">
+                <ul class="recommended-side-list">
+                  <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/sport/football-stumbling-psg/1385510.html">Football: Stumbling PSG drop points again</a></h3>
+                          </div>
+                    </li>
+                    <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/sport/football-bayern-increase/1385496.html">Football: Bayern increase Bundesliga lead, Schalke win derby</a></h3>
+                          </div>
+                    </li>
+                    <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/sport/golf-europe-seizes/1385472.html">Golf: Europe seizes command over Americans at Ryder Cup</a></h3>
+                          </div>
+                    </li>
+                    <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/sport/asian-games-china-again/1385464.html">Asian Games: China again on target in shooting</a></h3>
+                          </div>
+                    </li>
+                    <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/sport/asian-games-bahrain-s/1385466.html">Asian Games: Bahrain's Jebet stripped of steeplechase win</a></h3>
+                          </div>
+                    </li>
+                    <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/sport/tennis-nishikori-reaches/1385462.html">Tennis: Nishikori reaches Malaysian Open final</a></h3>
+                          </div>
+                    </li>
+                    <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/sport/cycling-france-s-ferrand/1385438.html">Cycling: France's Ferrand-Prevot takes surprise world title</a></h3>
+                          </div>
+                    </li>
+                    </ul>
+
+                <div class="btn-more">
+                    <a href="/archives/sport" title="View All Sport Stories">More</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        <div id="tbox6">
+            <div class="box-style">
+              <div class="title"><a href="/news/entertainment">Entertainment</a></div>
+              <div class="storytitles">
+                <ul class="recommended-side-list">
+                  <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/entertainment/tequila-and-cigars/1384988.html">Tequila and cigars: Clooney's stag party in Venice</a></h3>
+                          </div>
+                    </li>
+                    <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/entertainment/radiohead-s-thom-yorke/1384460.html">Radiohead's Thom Yorke releases surprise solo album</a></h3>
+                          </div>
+                    </li>
+                    <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/entertainment/british-dj-escapes-jail/1384012.html">British DJ escapes jail for indecent assault</a></h3>
+                          </div>
+                    </li>
+                    <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/entertainment/demure-drama-queen-ha-ji/1383410.html">Demure drama queen Ha Ji-won explains why she loves acting tough </a></h3>
+                          </div>
+                    </li>
+                    <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/entertainment/symphony-92-4fm-brings/1381308.html">Symphony 92.4FM brings classical music concerts to CBD </a></h3>
+                          </div>
+                    </li>
+                    <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/entertainment/nlb-relaunches-online/1382536.html">NLB relaunches online music portal </a></h3>
+                          </div>
+                    </li>
+                    <li>
+                      <div class="holder">
+                        <h3 class="ttl"><a href="/news/entertainment/ac-dc-founder-malcolm/1382744.html">AC/DC founder Malcolm Young has dementia: Report</a></h3>
+                          </div>
+                    </li>
+                    </ul>
+
+                <div class="btn-more">
+                    <a href="/archives/entertainment" title="View All Entertainment Stories">More</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+</div>
+        <div class="tab-news-more " id="info-box02">
+          <div class="article-area">
+  <div class="row-news-more">
+    <h2>Asian Games</h2>
+  </div>
+
+  <div class="holder-news-more">
+
+    <div class="morestories">
+
+      <div id="three-column-cat" class="container">
+        <div id="tbox1-cat">
+          <div class="box-style-more">
+            <div class="storytitles">
+
+                <ul class="recommended-side-list-more">
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-china-again/1385464.html">
+                            Asian Games: China again on target in shooting</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-bahrain-s/1385466.html">
+                            Asian Games: Bahrain&#039;s Jebet stripped of steeplechase win</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-japan-s/1384648.html">
+                            Asian Games: Japan&#039;s Tomita kicked out for stealing camera</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-not-cool/1383404.html">
+                            Asian Games: Not cool - China accuse S Korea over AC</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-china-s-zhou/1383370.html">
+                            Asian Games: China&#039;s Zhou lifts heaviest single weight by a woman</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-jasmine-ser/1383264.html">
+                            <span class="ico-video">Video</span>
+                            Asian Games: Jasmine Ser misfires in rifle finals after breaking records in qualifying</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-basketball/1383258.html">
+                            Asian Games: Basketball body says headwear ban not religious</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-badminton-s/1383234.html">
+                            Asian Games: Badminton&#039;s Lee Chong Wei zeroes in on Lin Dan showdown</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-thailand-beat/1381790.html">
+                            Asian Games: Thailand beat China 2-0 in men&#039;s football</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-lin-dan/1381762.html">
+                            Asian Games: Lin Dan survives Korean scare</a>
+                        </h3>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div id="tbox2-cat">
+          <div class="box-style-more">
+
+            <div class="storytitles">
+
+                <ul class="recommended-side-list-more">
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-china-swim/1381454.html">
+                            Asian Games: China swim king Sun bashes Japan&#039;s national anthem</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-joseph/1381148.html">
+                            <span class="ico-video">Video</span>
+                            Asian Games: Joseph Schooling wins silver in 50m fly </a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-tears-of-joy/1381182.html">
+                            Asian Games: Tears of joy for Kim Un-Ju after record lift</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-china-win/1381072.html">
+                            Asian Games: China win eight shooting golds in a day</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-qatar-forfeit/1380762.html">
+                            Asian Games: Qatar forfeit second game over hijab ban</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-match-fixing/1380688.html">
+                            Asian Games: Match-fixing claim hits men&#039;s football</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-lonely/1380660.html">
+                            Asian Games: Lonely journey for Palestinian Olympian</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-south-korean/1380268.html">
+                            Asian Games: South Korean women set archery world record</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-shooters-fire/1380036.html">
+                            Asian Games: Shooters fire Singapore to another bronze</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/asian-games-china-sets/1380052.html">
+                            Asian Games: China sets world record in men&#039;s 50m rifle prone team</a>
+                        </h3>
+                      </div>
+                    </li>
+                  </ul>
+
+                <div class="btn-more-txt">
+                  <a href="/news/sport/asiad2014" title="View All Asian Games Stories">View All</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div></div>
+        <div class="tab-news-more " id="info-box03">
+          <div class="article-area">
+  <div class="row-news-more">
+    <h2>Islamic State</h2>
+  </div>
+
+  <div class="holder-news-more">
+
+    <div class="morestories">
+
+      <div id="three-column-cat" class="container">
+        <div id="tbox1-cat">
+          <div class="box-style-more">
+            <div class="storytitles">
+
+                <ul class="recommended-side-list-more">
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/turkey-prepared-for/1385470.html">
+                            Turkey prepared for military role in anti-IS coalition: Erdogan</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/france-charges-three/1385282.html">
+                            France charges three suspected militants back from Syria</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/silent-march-for-french/1385268.html">
+                            Silent march for French slain hostage</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/first-us-led-strikes-on/1384828.html">
+                            First US-led strikes on IS in Syria&#039;s Homs province: monitor</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/world-must-take-different/1384544.html">
+                            World must take different approach against extremism: Malaysia PM</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/us-led-strikes-hit-is-oil/1384498.html">
+                            <span class="ico-video">Video</span>
+                            US-led strikes hit IS oil targets as coalition grows</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/air-strike-kills-senior/1384438.html">
+                            Air strike kills senior IS militant in Syria: monitor</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/belgium-votes-to-join-air/1384416.html">
+                            Belgium votes to join air strikes against Islamic State</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/british-lawmakers-vote-to/1384090.html">
+                            <span class="ico-video">Video</span>
+                            British lawmakers vote to join US-led Iraq air strikes</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/muslims-gather-in-paris/1384016.html">
+                            Muslims gather in Paris to denounce IS &#039;barbarism&#039;</a>
+                        </h3>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div id="tbox2-cat">
+          <div class="box-style-more">
+
+            <div class="storytitles">
+
+                <ul class="recommended-side-list-more">
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/turkey-stance-changed-on/1383924.html">
+                            Turkey stance &#039;changed&#039; on anti-IS fight: Erdogan</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/singapore-welcomes-un/1383584.html">
+                            Singapore welcomes UN resolution to tackle &#039;foreign terrorist fighters&#039;</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/spain-morocco-arrest-nine/1383432.html">
+                            Spain, Morocco arrest nine suspected militants</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/air-raids-disrupt-syria/1383412.html">
+                            <span class="ico-video">Video</span>
+                            Air raids disrupt Syria oil operations as Britain weighs action</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/qatar-emir-denies-funding/1383414.html">
+                            Qatar emir denies funding Syria extremists</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/malaysia-arrests-more/1383356.html">
+                            <span class="ico-video">Video</span>
+                            Malaysia arrests more &#039;militants&#039;, declares IS a terror group</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/new-coalition-raids-in/1383282.html">
+                            New coalition raids in Syria as UK votes on Iraq action</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/britain-arrests-more/1383272.html">
+                            Britain arrests more Islamist suspects after top preacher held</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/australian-pm-warns-of/1382848.html">
+                            Australian PM warns of &#039;lone wolf&#039; terrorism</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/british-mps-vote-on/1382368.html">
+                            British MPs vote on joining Iraq airstrikes</a>
+                        </h3>
+                      </div>
+                    </li>
+                  </ul>
+
+                <div class="btn-more-txt">
+                  <a href="/news/world/islamic-state" title="View All Islamic State Stories">View All</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div></div>
+        <div class="tab-news-more " id="info-box04">
+          <div class="article-area">
+  <div class="row-news-more">
+    <h2>Ebola</h2>
+  </div>
+
+  <div class="holder-news-more">
+
+    <div class="morestories">
+
+      <div id="three-column-cat" class="container">
+        <div id="tbox1-cat">
+          <div class="box-style-more">
+            <div class="storytitles">
+
+                <ul class="recommended-side-list-more">
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/border-still-closed/1385554.html">
+                            Border still closed, Senegal opens airport for Ebola aid</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/ebola-death-toll-passes-3/1385520.html">
+                            Ebola death toll passes 3,000: WHO</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/imf-unblocks-cash-as/1384298.html">
+                            <span class="ico-video">Video</span>
+                            IMF unblocks cash as desperate west Africa awaits Ebola aid</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/experimental-ebola/1383406.html">
+                            Experimental Ebola vaccine doses ready by 2015: WHO</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/europe-must-tackle-ebola/1382244.html">
+                            Europe must tackle Ebola &#039;world&#039; threat, say experts</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/spanish-missionary-dies/1382014.html">
+                            Spanish missionary dies from Ebola virus</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/moh-contributes-ebola-aid/1378858.html">
+                            MOH contributes Ebola aid package to WHO</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/ebola-cases-to-explode/1377878.html">
+                            Ebola cases to explode without drastic action: WHO</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/us-estimates-ebola-could/1377342.html">
+                            US estimates Ebola could infect 1.4 million by Jan</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/ebola-cases-to-triple-to/1376358.html">
+                            Ebola cases to triple to 20,000 by November unless efforts raised: WHO</a>
+                        </h3>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div id="tbox2-cat">
+          <div class="box-style-more">
+
+            <div class="storytitles">
+
+                <ul class="recommended-side-list-more">
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/sierra-leone-s-three-day/1374280.html">
+                            <span class="ico-video">Video</span>
+                            Sierra Leone&#039;s three-day Ebola shutdown ends</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/india-postpones-africa/1372930.html">
+                            India postpones Africa summit over Ebola outbreak</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/guinea-vows-to-hunt/1371900.html">
+                            Guinea vows to hunt killers of Ebola education team</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/western-militaries/1371768.html">
+                            Western militaries scramble to aid Ebola-hit west Africa</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/ebola-threatens-world/1369768.html">
+                            Ebola threatens world peace, says UN Security Council</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/first-french-ebola/1369074.html">
+                            First French Ebola patient still in Liberia awaiting airlift home</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/ebola-fear-factor-risks/1367284.html">
+                            Ebola &#039;fear factor&#039; risks economic disaster: World Bank</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/obama-to-huddle-with/1366372.html">
+                            Obama to huddle with generals planning IS assault</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/obama-calls-on-world-to/1365716.html">
+                            <span class="ico-video">Video</span>
+                            Obama calls on world to &#039;act fast&#039; to stop Ebola epidemic</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/world-bank-approves-us/1365622.html">
+                            World Bank approves US$105m for Ebola fight in Africa</a>
+                        </h3>
+                      </div>
+                    </li>
+                  </ul>
+
+                <div class="btn-more-txt">
+                  <a href="/news/world/ebola" title="View All Ebola Stories">View All</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div></div>
+        <div class="tab-news-more " id="info-box05">
+          <div class="article-area">
+  <div class="row-news-more">
+    <h2>MH17</h2>
+  </div>
+
+  <div class="holder-news-more">
+
+    <div class="morestories">
+
+      <div id="three-column-cat" class="container">
+        <div id="tbox1-cat">
+          <div class="box-style-more">
+            <div class="storytitles">
+
+                <ul class="recommended-side-list-more">
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/225-victims-of-mh17/1371730.html">
+                            225 victims of MH17 identified</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/mh17-remains-of-several/1361112.html">
+                            MH17: Remains of several more Malaysians identified</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/netherlands-sends-more/1360466.html">
+                            Netherlands sends more experts to Ukraine over MH17 crash</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/mh17-tragedy-shows-lack/1360010.html">
+                            MH17 tragedy shows lack of flight path safety standards: Najib</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/dutch-say-need-to-know/1359944.html">
+                            Dutch say need to know MH17 missile launch site to prosecute</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/mh17-crash-site-still/1358158.html">
+                            MH17 crash site still unsafe for investigators: Dutch</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/malaysia-calls-for-new/1356236.html">
+                            Malaysia calls for new MH17 search for victims&#039; remains</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/ukraine-bears-full/1355552.html">
+                            Ukraine &#039;bears full responsibility&#039; for MH17 crash: Russian minister</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/mh17-crash-not-caused-by/1353692.html">
+                            MH17 crash not caused by technical problems: preliminary report</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/australia-pm-in-malaysia/1348966.html">
+                            Australia PM in Malaysia ahead of intensified MH370 search</a>
+                        </h3>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div id="tbox2-cat">
+          <div class="box-style-more">
+
+            <div class="storytitles">
+
+                <ul class="recommended-side-list-more">
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/first-mh17-crash-report/1346226.html">
+                            First MH17 crash report out on Tuesday: investigators</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/malaysia-seeks-to-get/1341670.html">
+                            Malaysia seeks to get probe team back to MH17 crash site</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/malaysia-airlines-to/1335902.html">
+                            <span class="ico-video">Video</span>
+                            Malaysia Airlines to slash 6,000 jobs under rescue plan</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/malaysia-airlines/1330990.html">
+                            Malaysia Airlines reportedly set to cut about 5,000 jobs </a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/russia-claims-mh17-crash/1329408.html">
+                            Russia claims MH17 crash investigation stalled</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/mh17-investigation-will/1328294.html">
+                            MH17 investigation will take time: Hishammuddin</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/malaysia-airlines-jet/1327468.html">
+                            Malaysia Airlines jet turns back due to &#039;pressure&#039; woes</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/remains-of-three-more/1327398.html">
+                            Remains of three more MH17 victims arrive in Malaysia</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/3-more-mh17-malaysian/1327108.html">
+                            3 more MH17 Malaysian victims to arrive in KL on Sunday</a>
+                        </h3>
+                      </div>
+                    </li>
+                  <li>
+                      <div class="holder-more">
+                        <h3 class="ttl-more">
+                          <a href="/news/mh17-overseas-malaysians/1325822.html">
+                            MH17: Overseas Malaysians pay tribute to fallen compatriots</a>
+                        </h3>
+                      </div>
+                    </li>
+                  </ul>
+
+                <div class="btn-more-txt">
+                  <a href="/news/asiapacific/mh17" title="View All MH17 Stories">View All</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div></div>
+        </div>
+  </div>
+<div class="banner-holder-section">
+      <div id='div-gpt-ad-mid-leaderboard' class="banner-holder">
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-mid-leaderboard'); });
+</script>
+</div>
+
+
+</div>
+  <script type="text/javascript">
+  function switchHomePageMoreStories() {
+    $('.tabs-news-more a').click(function () {
+      var id_ = $(this).attr('href');
+      if (!$(this).parent().hasClass('active')) {
+        $(this).parent().siblings().removeClass('active');
+        $(this).parent().addClass('active');
+        $(id_).siblings().hide().removeClass('active');
+        $(id_).addClass('active').hide().show(200);
+        adjustSideHeight();
+      }
+      return false;
+    });
+  }
+
+  $(document).ready(function () {
+    switchHomePageMoreStories();
+  })
+</script>
+<div class="section-news-frame">
+  <div class="block ">
+      <div class="section-news-ttl">
+    <h2>News In Pictures</h2>
+    <a href="/news/photo/nip?galleryActive=5" class="btn-go">next</a>
+  </div>
+  <ul class="lst-media">
+    <li id="nip-photo-0" style="display: none">
+        <div class="img">
+          <a href="/news/photo/nip?galleryActive=5&photoActive=0">
+            <img src="/image/1384866/1411806908000/large16x9/320/180/police-clear-hk-democracy.jpg" alt="" width="320" height="180" />
+            <span class="num-box-active">12</span>
+          </a>
+
+        </div>
+        <div class="txt-box">
+          <div class="hold">
+            <div class="niptxt-box">
+              <p class="nip-caption-truncate">
+
+Protesters wearing protective gear against pepper spray look on outside Hong Kong's government headquarters on Sep 27, 2014. More than 50 protesters were cleared from the grounds of the government complex after storming it overnight. (AFP/Aaron Tam)</p>
+              </div>
+          </div>
+        </div>
+      </li>
+    <li id="nip-photo-1" style="display: none">
+        <div class="img">
+          <a href="/news/photo/nip?galleryActive=5&photoActive=1">
+            <img src="/image/1384862/1411806881000/large16x9/320/180/police-clear-hk-democracy.jpg" alt="" width="320" height="180" />
+            <span class="num-box-active">12</span>
+          </a>
+
+        </div>
+        <div class="txt-box">
+          <div class="hold">
+            <div class="niptxt-box">
+              <p class="nip-caption-truncate">
+
+A protester holds up signs that say "public disobedience, occupy central, student class boycott awakens society", in front of police in riot gear outside the forecourt of Hong Kong's government headquarters on Sep 27, 2014. (AFP/Aaron Tam)</p>
+              </div>
+          </div>
+        </div>
+      </li>
+    <li id="nip-photo-2" style="display: none">
+        <div class="img">
+          <a href="/news/photo/nip?galleryActive=5&photoActive=2">
+            <img src="/image/1384878/1411807315000/large16x9/320/180/egyptians-hold-portraits.jpg" alt="" width="320" height="180" />
+            <span class="num-box-active">12</span>
+          </a>
+
+        </div>
+        <div class="txt-box">
+          <div class="hold">
+            <div class="niptxt-box">
+              <p class="nip-caption-truncate">
+
+Egyptians hold portraits of toppled president Hosni Mubarak as they gather in his support outside the Maadi military hospital in Cairo on Sep 27, 2014, ahead of his court appearance. (AFP/Khaled Desouki)</p>
+              </div>
+          </div>
+        </div>
+      </li>
+    <li id="nip-photo-3" style="display: none">
+        <div class="img">
+          <a href="/news/photo/nip?galleryActive=5&photoActive=3">
+            <img src="/image/1384886/1411807751000/large16x9/320/180/mh370-search-area.jpg" alt="" width="320" height="180" />
+            <span class="num-box-active">12</span>
+          </a>
+
+        </div>
+        <div class="txt-box">
+          <div class="hold">
+            <div class="niptxt-box">
+              <p class="nip-caption-truncate">
+
+A handout image obtained from Geoscience Australia on Sep 27, 2014, shows the MH370 search area encompassing the seabed on and around Broken Ridge. (AFP/Geoscience Australia)</p>
+              </div>
+          </div>
+        </div>
+      </li>
+    <li id="nip-photo-4" style="display: none">
+        <div class="img">
+          <a href="/news/photo/nip?galleryActive=5&photoActive=4">
+            <img src="/image/1384946/1411810272000/large16x9/320/180/eruption-of-the-mount.jpg" alt="" width="320" height="180" />
+            <span class="num-box-active">12</span>
+          </a>
+
+        </div>
+        <div class="txt-box">
+          <div class="hold">
+            <div class="niptxt-box">
+              <p class="nip-caption-truncate">
+
+This TV picture released by Japan's Ministry of Land, Infrastructure and Transport Chubu Regional Development Bureau shows the eruption of the Mount Ontake in Nagano prefecture on Sep 27, 2014. (AFP)</p>
+              </div>
+          </div>
+        </div>
+      </li>
+    <li id="nip-photo-5" style="display: none">
+        <div class="img">
+          <a href="/news/photo/nip?galleryActive=5&photoActive=5">
+            <img src="/image/1384960/1411811130000/large16x9/320/180/iraqi-volunteers-attend-a.jpg" alt="" width="320" height="180" />
+            <span class="num-box-active">12</span>
+          </a>
+
+        </div>
+        <div class="txt-box">
+          <div class="hold">
+            <div class="niptxt-box">
+              <p class="nip-caption-truncate">
+
+Iraqi volunteers, loyal to Shiite Muslim spiritual leader Grand Ayatollah Ali al-Sistani, attend a combat training session at a military camp in the mainly Shiite southern city of Basra on Sep 27, 2014. (AFP/Haidar Mohammed Ali)</p>
+              </div>
+          </div>
+        </div>
+      </li>
+    <li id="nip-photo-6" style="display: none">
+        <div class="img">
+          <a href="/news/photo/nip?galleryActive=5&photoActive=6">
+            <img src="/image/1384898/1411808084000/large16x9/320/180/mediterranean-refinery-of.jpg" alt="" width="320" height="180" />
+            <span class="num-box-active">12</span>
+          </a>
+
+        </div>
+        <div class="txt-box">
+          <div class="hold">
+            <div class="niptxt-box">
+              <p class="nip-caption-truncate">
+
+Flames arise after a fire broke out at the Mediterranean Refinery of Milazzo, one of the most important in southern Italy, on Sep 27, 2014. The refinery contains a million gallons of fuel. (AFP/Giovanni Isolino)
+
+</p>
+              </div>
+          </div>
+        </div>
+      </li>
+    <li id="nip-photo-7" style="display: none">
+        <div class="img">
+          <a href="/news/photo/nip?galleryActive=5&photoActive=7">
+            <img src="/image/1384934/1411809318000/large16x9/320/180/faithful-confess-ahead-of.jpg" alt="" width="320" height="180" />
+            <span class="num-box-active">12</span>
+          </a>
+
+        </div>
+        <div class="txt-box">
+          <div class="hold">
+            <div class="niptxt-box">
+              <p class="nip-caption-truncate">
+
+Faithful confess ahead of the mass celebrated for the beatification of Alvaro del Portillo in Madrid on Sep 26, 2014. (AFP/Gerard Julien)</p>
+              </div>
+          </div>
+        </div>
+      </li>
+    <li id="nip-photo-8" style="display: none">
+        <div class="img">
+          <a href="/news/photo/nip?galleryActive=5&photoActive=8">
+            <img src="/image/1384938/1411809474000/large16x9/320/180/kei-nishikori-atp.png" alt="" width="320" height="180" />
+            <span class="num-box-active">12</span>
+          </a>
+
+        </div>
+        <div class="txt-box">
+          <div class="hold">
+            <div class="niptxt-box">
+              <p class="nip-caption-truncate">
+
+Kei Nishikori of Japan returns a shot against Jarkko Nieminen of Finland in the men's singles semi-final at the ATP Malaysia Open tennis tournament in Kuala Lumpur on Sep 27, 2014. (AFP/Mohd Rasfan)
+
+</p>
+              </div>
+          </div>
+        </div>
+      </li>
+    <li id="nip-photo-9" style="display: none">
+        <div class="img">
+          <a href="/news/photo/nip?galleryActive=5&photoActive=9">
+            <img src="/image/1384942/1411809895000/large16x9/320/180/china-s-gold-medalists.jpg" alt="" width="320" height="180" />
+            <span class="num-box-active">12</span>
+          </a>
+
+        </div>
+        <div class="txt-box">
+          <div class="hold">
+            <div class="niptxt-box">
+              <p class="nip-caption-truncate">
+
+China's gold medalists Zhang Jie (L), Xie Durun (C) and Zhai Yujia (R) pose at the award ceremony for the men's team 10m running target mixed finals during the 2014 Asian Games in Incheon on Sep 27, 2014. (AFP/Roslan Rahman)
+
+</p>
+              </div>
+          </div>
+        </div>
+      </li>
+    <li id="nip-photo-10" style="display: none">
+        <div class="img">
+          <a href="/news/photo/nip?galleryActive=5&photoActive=10">
+            <img src="/image/1384958/1411810866000/large16x9/320/180/hotel-where-george.jpg" alt="" width="320" height="180" />
+            <span class="num-box-active">12</span>
+          </a>
+
+        </div>
+        <div class="txt-box">
+          <div class="hold">
+            <div class="niptxt-box">
+              <p class="nip-caption-truncate">
+
+A general view shows the Venice's Aman hotel where George Clooney's fiancee, Amal Alamuddin stays before her wedding on September 27, 2014. (AFP/Andreas Solaro)</p>
+              </div>
+          </div>
+        </div>
+      </li>
+    <li id="nip-photo-11" style="display: none">
+        <div class="img">
+          <a href="/news/photo/nip?galleryActive=5&photoActive=11">
+            <img src="/image/1384952/1411810593000/large16x9/320/180/junya-watanabe-2015.jpg" alt="" width="320" height="180" />
+            <span class="num-box-active">12</span>
+          </a>
+
+        </div>
+        <div class="txt-box">
+          <div class="hold">
+            <div class="niptxt-box">
+              <p class="nip-caption-truncate">
+
+A model presents a creation by Junya Watanabe during the 2015 Spring/Summer ready-to-wear collection fashion show, on Sep 27, 2014 in Paris. (AFP/Bertrand Guay)</p>
+              </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+<script type="text/javascript">
+  var counter = 12;
+  var random = Math.floor(Math.random()*counter);
+  $(document).ready(function(){
+    $("#nip-photo-"+random).show();
+
+    $('.nip-caption-truncate').each(function(){
+       truncateTitle(this,25,150);
+    });
+  })
+</script>
+</div>
+  <div class="block ">
+      <div class="section-news-ttl">
+    <a href="/news/photo/slideshow" class="btn-go">next</a>
+    <h2>Photo Slideshows</h2>
+  </div>
+  <ul class="lst-media">
+    <li>
+        <div class="img">
+  <a href="/news/photo/slideshow/2014-formula-one/1371414.html">
+      <img id="big1373852" class="pdd-items" src="/image/1373852/1411310257000/large16x9/480/270/f1-u.jpg"  width="320" height="180" class=" big1373852 pdd-items"  />
+    <span class="num-box-active">30</span>
+    </a>
+  </div>
+<div class="txt-box">
+  <div class="hold">
+    <h3>
+        <a href="/news/photo/slideshow/2014-formula-one/1371414.html">2014 Formula One Singapore Grand Prix</a>
+      </h3>
+    </div>
+</div></li>
+    </ul>
+</div>
+  <div class="block ">
+      <div class="section-news-ttl">
+    <a href="/tv/videos" class="btn-go">next</a>
+    <h2>Featured TV Clips</h2>
+    <span class="tv-ttl"></span>
+  </div>
+  <ul class="lst-media">
+
+    <li>
+        <div class="img">
+  <a href="/tv/tvshows/chasing-longevity/the-secret-to-longevity/1357282.html">
+    <img id="big1359358" class="pdd-items" src="/image/1359358/1410508742000/large16x9/480/270/chasing-longevity-web-ep.jpg"  width="320" height="180" class=" big1359358 pdd-items"  />
+    <span class="play-ico">play</span>
+    <span class="video-time">03:22</span>
+  </a>
+</div>
+<div class="txt-box">
+  <div class="hold">
+    <span class="article-txt">Chasing Longevity</span>
+    <h3><a href="/tv/tvshows/chasing-longevity/the-secret-to-longevity/1357282.html">The Secret to Longevity</a></h3>
+  </div>
+</div></li>
+    </ul>
+</div>
+  <div class="block last-item">
+      <div class="section-news-ttl">
+    <a href="/tv" class="btn-go">next</a>
+    <h2>TV Programmes</h2>
+    <span class="tv-ttl"></span>
+  </div>
+  <ul class="lst-tv-programme">
+    <li>
+        <div class="img">
+  <a href="http://www.channelnewsasia.com/tv">
+          <img src="/blob/553466/1411697865000/1-monday-thumbnail.jpg" width="320" height="180"  class="pdd-items" />
+        </a>
+      <ul>
+    <li>Mon</li>
+    <li>8:00 PM</li>
+    <li>29 Sep</li>
+  </ul>
+</div>
+<div class="txt-box">
+  <h3>
+    <a href="http://www.channelnewsasia.com/tv">
+          It Figures: Predicting The Future</a>
+      </h3>
+  <p class="tv-highlight-teaserText">
+      Will your child be successful in the future? Some studies are saying we can find out from their birth size, birth order and height. But just how accurate will these predictors be?</p>
+  </div>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.tv-highlight-teaserText').each(function(){
+      truncateTitle(this,25,150);
+    });
+  })
+</script></li>
+    </ul>
+</div>
+  </div>
+<div class="bottom-content-section">
+  <div class="social-news-area">
+    <div class="social-news-area-holder">
+      <!-- /social-news-frame -->
+
+      <!-- start with social news section -->
+<div class="social-news-frame">
+  <h2 class="ttl">SOCIAL NEWS</h2>
+
+  <div class="block">
+    <h3>POPULAR ON OUR WEBSITE</h3>
+      <div class="news-box">
+          <div class="img">
+            <a href="/news/singapore/changi-airport-s-t1-open/1383368.html" title="Changi Airport&#039;s T1 open-air car park to close by year-end">
+              <img id="large1288860" class="pdd-items" src="/image/1288860/1406709937000/large16x9/115/65/changi-international.jpg"  width="115" height="65" class=" large1288860 pdd-items"  />
+    </a>
+          </div>
+
+          <div class="txt-box">
+            <h4><a href="/news/singapore/changi-airport-s-t1-open/1383368.html" title="Changi Airport&#039;s T1 open-air car park to close by year-end">Changi Airport&#039;s T1 open-air car park to close by year-end</a></h4>
+          </div>
+        </div>
+      <div class="news-box">
+          <div class="img">
+            <a href="/news/singapore/protesters-heckling-of/1385454.html" title="Protesters&#039; heckling of special needs children &#039;vile&#039;, &#039;unbecoming&#039;: MPs">
+              <img id="large1385484" class="pdd-items" src="/image/1385484/1411841408000/large16x9/115/65/protesters-led-by-han-hui.jpg"  width="115" height="65" class=" large1385484 pdd-items"  />
+    </a>
+          </div>
+
+          <div class="txt-box">
+            <h4><a href="/news/singapore/protesters-heckling-of/1385454.html" title="Protesters&#039; heckling of special needs children &#039;vile&#039;, &#039;unbecoming&#039;: MPs">Protesters&#039; heckling of special needs children &#039;vile&#039;, &#039;unbecoming&#039;: MPs</a></h4>
+          </div>
+        </div>
+      <div class="news-box">
+          <div class="img">
+            <a href="/news/world/new-underwater/1384832.html" title="New underwater discoveries in hunt for MH370">
+              <img id="large1384892" class="pdd-items" src="/image/1384892/1411807742000/large16x9/115/65/mh370-search-area-2.jpg"  width="115" height="65" class=" large1384892 pdd-items"  />
+    </a>
+          </div>
+
+          <div class="txt-box">
+            <h4><a href="/news/world/new-underwater/1384832.html" title="New underwater discoveries in hunt for MH370">New underwater discoveries in hunt for MH370</a></h4>
+          </div>
+        </div>
+      <div class="news-box">
+          <div class="img">
+            <a href="/news/singapore/number-of-skin-cancer/1381612.html" title="Number of skin cancer cases in Singapore on the rise">
+              <img id="large274188" class="pdd-items" src="/image/274188/1411658865000/large16x9/115/65/skin-cancer-497256.jpg"  width="115" height="65" class=" large274188 pdd-items"  />
+    </a>
+          </div>
+
+          <div class="txt-box">
+            <h4><a href="/news/singapore/number-of-skin-cancer/1381612.html" title="Number of skin cancer cases in Singapore on the rise">Number of skin cancer cases in Singapore on the rise</a></h4>
+          </div>
+        </div>
+      <div class="news-box">
+          <div class="img">
+            <a href="/news/singapore/the-rich-heritage-of-ann/1384046.html" title="The rich heritage of Ann Siang Hill ">
+              <img id="large1384088" class="pdd-items" src="/image/1384088/1411748588000/large16x9/115/65/ann-siang.jpg"  width="115" height="65" class=" large1384088 pdd-items"  />
+    </a>
+          </div>
+
+          <div class="txt-box">
+            <h4><a href="/news/singapore/the-rich-heritage-of-ann/1384046.html" title="The rich heritage of Ann Siang Hill ">The rich heritage of Ann Siang Hill </a></h4>
+          </div>
+        </div>
+      <div class="news-box">
+          <div class="img">
+            <a href="/news/singapore/enough-safeguards-in/1383876.html" title="Enough safeguards in place for Lasting Power of Attorney, say authorities">
+              <img id="large1376830" class="pdd-items" src="/image/1376830/1411744317000/large16x9/115/65/hedy-mok-press-conference.jpg"  width="115" height="65" class=" large1376830 pdd-items"  />
+    </a>
+          </div>
+
+          <div class="txt-box">
+            <h4><a href="/news/singapore/enough-safeguards-in/1383876.html" title="Enough safeguards in place for Lasting Power of Attorney, say authorities">Enough safeguards in place for Lasting Power of Attorney, say authorities</a></h4>
+          </div>
+        </div>
+      </div>
+
+  <div class="block">
+    <h3>POPULAR ON TWITTER</h3>
+      <div class="news-box">
+          <div class="img">
+            <a href="/news/business/singapore/singapore-ranked-8th-in/1358368.html" title="Singapore ranked 8th in creative productivity in Asia">
+              <img id="large1145228" class="pdd-items" src="/image/1145228/1410430923000/large16x9/115/65/yet-another-pix-of-the.jpg"  width="115" height="65" class=" large1145228 pdd-items"  />
+    </a>
+          </div>
+
+          <div class="txt-box">
+            <h4><a href="/news/business/singapore/singapore-ranked-8th-in/1358368.html">Singapore ranked 8th in creative productivity in Asia</a></h4>
+          </div>
+        </div>
+      <div class="news-box">
+          <div class="img">
+            <a href="/news/singapore/growing-number-of-singles/1383722.html" title="Growing number of singles in Singapore ">
+              <img id="large729682" class="pdd-items" src="/image/729682/1411738482000/large16x9/115/65/singapore-crowd.jpg"  width="115" height="65" class=" large729682 pdd-items"  />
+    </a>
+          </div>
+
+          <div class="txt-box">
+            <h4><a href="/news/singapore/growing-number-of-singles/1383722.html">Growing number of singles in Singapore </a></h4>
+          </div>
+        </div>
+      <div class="news-box">
+          <div class="img">
+            <a href="/news/world/eu-rejects-putin-demand/1383778.html" title="EU rejects Putin demand for Ukraine deal changes">
+              <img id="large1383802" class="pdd-items" src="/image/1383802/1411737220000/large16x9/115/65/russia-ukraine-border.jpg"  width="115" height="65" class=" large1383802 pdd-items"  />
+    </a>
+          </div>
+
+          <div class="txt-box">
+            <h4><a href="/news/world/eu-rejects-putin-demand/1383778.html">EU rejects Putin demand for Ukraine deal changes</a></h4>
+          </div>
+        </div>
+      <div class="news-box">
+          <div class="img">
+            <a href="/news/asiapacific/china-s-tough-stance-on/1383886.html" title="China&#039;s tough stance on HK sparks concerns in Taiwan">
+              <img id="large1382686" class="pdd-items" src="/image/1382686/1411742584000/large16x9/115/65/a-protester-looks-on.jpg"  width="115" height="65" class=" large1382686 pdd-items"  />
+    </a>
+          </div>
+
+          <div class="txt-box">
+            <h4><a href="/news/asiapacific/china-s-tough-stance-on/1383886.html">China&#039;s tough stance on HK sparks concerns in Taiwan</a></h4>
+          </div>
+        </div>
+      <div class="news-box">
+          <div class="img">
+            <a href="/news/lifestyle/emperor-s-frescoed-rooms/1368964.html" title="Emperor&#039;s frescoed rooms unveiled for first time in Rome">
+              <img id="large1368976" class="pdd-items" src="/image/1368976/1411037500000/large16x9/115/65/house-of-augustus-emperor.jpg"  width="115" height="65" class=" large1368976 pdd-items"  />
+    </a>
+          </div>
+
+          <div class="txt-box">
+            <h4><a href="/news/lifestyle/emperor-s-frescoed-rooms/1368964.html">Emperor&#039;s frescoed rooms unveiled for first time in Rome</a></h4>
+          </div>
+        </div>
+      <div class="news-box">
+          <div class="img">
+            <a href="/news/singapore/singapore-passport-ranked/1381602.html" title="Singapore passport ranked fifth in the world: Report">
+              <img id="large270592" class="pdd-items" src="/image/270592/1411654439000/large16x9/115/65/singapore-passport-464437.jpg"  width="115" height="65" class=" large270592 pdd-items"  />
+    </a>
+          </div>
+
+          <div class="txt-box">
+            <h4><a href="/news/singapore/singapore-passport-ranked/1381602.html">Singapore passport ranked fifth in the world: Report</a></h4>
+          </div>
+        </div>
+      </div>
+
+  <div class="block last-block">
+    <h3>POPULAR ON FACEBOOK</h3>
+      <div class="news-box">
+          <div class="img">
+            <a href="/news/singapore/growing-number-of-singles/1383722.html" title="Growing number of singles in Singapore ">
+              <img id="large729682" class="pdd-items" src="/image/729682/1411738482000/large16x9/115/65/singapore-crowd.jpg"  width="115" height="65" class=" large729682 pdd-items"  />
+    </a>
+          </div>
+
+          <div class="txt-box">
+            <h4><a href="/news/singapore/growing-number-of-singles/1383722.html" title="Growing number of singles in Singapore ">Growing number of singles in Singapore </a></h4>
+          </div>
+        </div>
+      <div class="news-box">
+          <div class="img">
+            <a href="/news/singapore/changi-airport-s-t1-open/1383368.html" title="Changi Airport&#039;s T1 open-air car park to close by year-end">
+              <img id="large1288860" class="pdd-items" src="/image/1288860/1406709937000/large16x9/115/65/changi-international.jpg"  width="115" height="65" class=" large1288860 pdd-items"  />
+    </a>
+          </div>
+
+          <div class="txt-box">
+            <h4><a href="/news/singapore/changi-airport-s-t1-open/1383368.html" title="Changi Airport&#039;s T1 open-air car park to close by year-end">Changi Airport&#039;s T1 open-air car park to close by year-end</a></h4>
+          </div>
+        </div>
+      <div class="news-box">
+          <div class="img">
+            <a href="/news/world/eu-rejects-putin-demand/1383778.html" title="EU rejects Putin demand for Ukraine deal changes">
+              <img id="large1383802" class="pdd-items" src="/image/1383802/1411737220000/large16x9/115/65/russia-ukraine-border.jpg"  width="115" height="65" class=" large1383802 pdd-items"  />
+    </a>
+          </div>
+
+          <div class="txt-box">
+            <h4><a href="/news/world/eu-rejects-putin-demand/1383778.html" title="EU rejects Putin demand for Ukraine deal changes">EU rejects Putin demand for Ukraine deal changes</a></h4>
+          </div>
+        </div>
+      <div class="news-box">
+          <div class="img">
+            <a href="/news/asiapacific/white-tiger-kills-youth/1377094.html" title="White tiger kills youth at New Delhi zoo">
+              <img id="large1377112" class="pdd-items" src="/image/1377112/1411473028000/large16x9/115/65/india-tiger-attack.jpg"  width="115" height="65" class=" large1377112 pdd-items"  />
+    </a>
+          </div>
+
+          <div class="txt-box">
+            <h4><a href="/news/asiapacific/white-tiger-kills-youth/1377094.html" title="White tiger kills youth at New Delhi zoo">White tiger kills youth at New Delhi zoo</a></h4>
+          </div>
+        </div>
+      <div class="news-box">
+          <div class="img">
+            <a href="/news/singapore/president-tony-tan-keng/1382554.html" title="President Tony Tan Keng Yam visits SPD Ability Centre">
+              <img id="large1382898" class="pdd-items" src="/image/1382898/1411710201000/large16x9/115/65/tony-tan-spd.jpg"  width="115" height="65" class=" large1382898 pdd-items"  />
+    </a>
+          </div>
+
+          <div class="txt-box">
+            <h4><a href="/news/singapore/president-tony-tan-keng/1382554.html" title="President Tony Tan Keng Yam visits SPD Ability Centre">President Tony Tan Keng Yam visits SPD Ability Centre</a></h4>
+          </div>
+        </div>
+      <div class="news-box">
+          <div class="img">
+            <a href="/news/entertainment/demure-drama-queen-ha-ji/1383410.html" title="Demure drama queen Ha Ji-won explains why she loves acting tough ">
+              <img id="large1383430" class="pdd-items" src="/image/1383430/1411727936000/large16x9/115/65/ha-ji-won-1.jpg"  width="115" height="65" class=" large1383430 pdd-items"  />
+    </a>
+          </div>
+
+          <div class="txt-box">
+            <h4><a href="/news/entertainment/demure-drama-queen-ha-ji/1383410.html" title="Demure drama queen Ha Ji-won explains why she loves acting tough ">Demure drama queen Ha Ji-won explains why she loves acting tough </a></h4>
+          </div>
+        </div>
+      </div>
+
+</div>
+</div>
+  </div>
+
+      <div class="header-area f-bottom-area">
+          <div class="holder">
+              <div class="frame">
+                  <div class="select-section select-area">
+                      <form action="#">
+                          <fieldset>
+                              <label>JUMP TO</label>
+                              <select>
+                                  <option>Select Section</option>
+                                  <option value="/news/asiapacific">Asia Pacific</option>
+                                  <option value="/news/singapore">Singapore</option>
+                                  <option value="/news/world">World</option>
+                                  <option value="/news/business">Business</option>
+                                  <option value="/news/sport">Sport</option>
+                                  <option value="/news/entertainment">Entertainment</option>
+                                  <option value="/news/technology">Technology</option>
+                                  <option value="/news/health">Health</option>
+                                  <option value="/news/lifestyle">Lifestyle</option>
+                                  <option value="/news/video">Videos</option>
+                                  <option value="/news/weather">Weather</option>
+                                  <option value="/news/photo">Photos</option>
+                                  <option value="/news/specialreports">Special Reports</option>
+                                  <option value="/news/archives">Archives</option>
+                                  <option value="/news/services">Services</option>
+                                  </select>
+                          </fieldset>
+                      </form>
+
+              </div>
+
+        <nav>
+                <span class="add-txt">Go to:</span>
+                <ul>
+                    <li class="active">
+    <a href="/news" >News</a>
+</li>
+<li class="">
+    <a href="/tv" >TV</a>
+</li>
+</ul>
+
+                <a class="link-watch" href="/tv/live">Watch Live</a>
+                </nav>
+        </div>
+
+    </div>
+  </div>
+  </div>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('.news-nav .select-area select').change(function() {
+      var url = $(this).val();
+      if (url && url != '#') {
+        window.location.href = url;
+      }
+    });
+
+    $('.select-section select').change(function() {
+      var url = $(this).val();
+      if (url && url != '#') {
+        window.location.href = url;
+      }
+    });
+  });
+
+</script>
+
+
+
+</section>
+  </section>
+
+  <aside id="sidebar">
+    <div class="sidebar-holder">
+      <div class="user-info-box">
+  <div class="user-info-box-holder" style="display: none;">
+    <div class="login-form">
+      <form action="#">
+        <fieldset>
+          <a href="javascript:void(0);" class="btn-sign-in">Sign In</a>
+          <span class="txt-info">For a more personalised reading experience</span>
+        </fieldset>
+      </form>
+    </div>
+    <ul class="add-side-lst">
+      <li class="my-playlist-link">
+        <a href="/news/user/playlist">
+          <span class="playlogo-small"></span>
+          <span class="txt">My Playlist</span>
+          <span class="num-m">0</span>
+        </a>
+      </li>
+      <li style="display: none;" class="my-fav-link">
+            <a href="/news/user/favourite">
+              <span class="ico ico-my-fav">Go to</span>
+              <span class="txt">My Favourites</span>
+              <span class="num-m"></span>
+            </a>
+          </li>
+        </ul>
+  </div>
+</div>
+
+<script type="text/javascript">
+  var USER_PROFILE_PAGE_URL = '/news/user/profile';
+
+  $(document).on('signInFinished', function(){
+    var likeControl = new com.coremedia.rating.HtmlLikeControl('/elastic/social/favourite/news');
+    if (ES_USER_COOKIE_INFO.id != undefined) {
+      likeControl.count("contentbean:3012");
+    }
+  });
+</script>
+<div class="search-side-form">
+  <div class="holder">
+
+    <form id="previewSearchFormA" class="search-form" action="/action/news/search/search/3014/search.do" method="get"><fieldset>
+        <div class="decor-field">
+          <input id="searchtermA" name="query" class="text-field" type="text" value=""/><input id="channelId" name="channelId" value="3012" type="hidden" value=""/><input id="dateRange" name="dateRange" value="months" type="hidden" value=""/><input id="sortBy" name="sortBy" value="latest" type="hidden" value=""/></div>
+        <input value="search" id="searchbuttoBn" type="submit" class="btn-search"/>
+      </fieldset>
+    </form></div>
+</div>
+
+<script type="text/javascript">
+  
+  $(document).ready(function () {
+    $("#searchtermA").attr('autocomplete', 'off');
+  });
+
+  </script>
+
+<div class="social-side-area">
+  <div class="holder">
+    <h2>GET OUR NEWS</h2>
+    <ul>
+      <li class=""><a href="http://www.facebook.com/ChannelNewsAsiaSingapore" title="Get our news on Facebook" target="_blank">Get our news on facebook</a></li>
+      <li class=""><a class="tw" href="http://twitter.com/channelnewsasia" title="Get our news on Twitter" target="_blank">Get our news on twitter</a></li>
+      <li><a class="youtube" href="http://www.youtube.com/channelnewsasia" title="View videos on YouTube" target="_blank">View videos on YouTube</a></li>
+      <li>
+          <a class="mobile" href="/news/mobilenews" title="Get our news on mobile">Get our news on mobile</a>
+        </li>
+      <li>
+          <a class="sms" href="/news/mobilenews/sms" title="Get our news on SMS">Get our news on SMS</a>
+        </li>
+      <li>
+          <a class="email" href="/news/enews" title="Get our news on email">Get our news on email</a>
+        </li>
+      <li>
+          <a class="rss" href="/news/rss" title="Get our news on RSS">Get our news on RSS</a>
+        </li>
+      </ul>
+  </div>
+</div>
+
+<div id="latest-news-block">
+    <div class="side-ttl latest">
+      <h2>Latest News</h2>
+      <a href="javascript:void(0);" class="btn-new-window">new window</a>
+    </div>
+
+    <div class="side-area-load-more">
+      <div class="side-news-area">
+        <div class="refresh-row">
+          <a href="javascript:void(0);"><span class="btn-refresh"></span> </a>
+        </div>
+        <ul class="latest-news-list">
+          <li class="news-home-imu-sidebar">
+                <div id='div-gpt-ad-imu' class="side-banner-holder">
+<script type='text/javascript'>
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-imu'); });
+</script>
+</div>
+
+
+</li>
+            <li id="latest-news-more-head-line">
+              <div class="btn-more">
+                <a href="/archives/"
+                   title="View All News Stories">
+                  View All News Stories
+                </a>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+
+    $(document).ready(function () {
+      setUpLatestNewsPopupWindowAndContent("/starterkit/servlet/fragment?id=3658&view=asPopup", "contentbean:3658", "Latest News refreshed", true);
+
+      $('div.refresh-row a').on('click', function(){
+        refreshLatestNews("contentbean:3658", true);
+        updateRefreshTime("Latest News refreshed");
+      });
+    });
+  </script>
+<div class="side-ttl" id="newsRecommendForYouTitle">
+      <h2>Most Popular</h2>
+    </div>
+    <div class="side-area-load-more">
+      <div class="side-news-area" id="newsRecommendForYou">
+        <ul class="recommended-side-list">
+          <li>
+              <div class="holder">
+                <h3 class="ttl"><a href="/news/singapore/growing-number-of-singles/1383722.html">Growing number of singles in Singapore </a></h3>
+              </div>
+            </li>
+          <li>
+              <div class="holder">
+                <h3 class="ttl"><a href="/news/world/eu-rejects-putin-demand/1383778.html">EU rejects Putin demand for Ukraine deal changes</a></h3>
+              </div>
+            </li>
+          <li>
+              <div class="holder">
+                <h3 class="ttl"><a href="/news/singapore/protesters-disrupt/1385170.html">Protesters disrupt performances at YMCA carnival</a></h3>
+              </div>
+            </li>
+          <li>
+              <div class="holder">
+                <h3 class="ttl"><a href="/news/singapore/singapore-government-on/1384584.html">Singapore Government on alert for Bash aka Shellshock bug threat</a></h3>
+              </div>
+            </li>
+          <li>
+              <div class="holder">
+                <h3 class="ttl"><a href="/news/singapore/singapore-s-death-penalty/1383710.html">Singapore&#039;s death penalty targets drug traffickers: Shanmugam </a></h3>
+              </div>
+            </li>
+          <li>
+              <div class="holder">
+                <h3 class="ttl"><a href="/news/singapore/singapore-passport-ranked/1381602.html">Singapore passport ranked fifth in the world: Report</a></h3>
+              </div>
+            </li>
+          <li>
+              <div class="holder">
+                <h3 class="ttl"><a href="/news/singapore/chc-finance-manager-asked/1383232.html">CHC finance manager asked about altered minutes for board meeting</a></h3>
+              </div>
+            </li>
+          </ul>
+      </div>
+    </div>
+
+    <div id='div-gpt-ad-recommend-for-you' class="side-banner-holder">
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-recommend-for-you'); });
+</script>
+</div>
+
+
+<div class="fb-side-box">
+  <div class="side-ttl">
+    <h2>My Facebook Friends</h2>
+  </div>
+  <div class="side-area-load-more fb-side-holder">
+    <div>
+      <ul class="fb-img-list" id="profile_pics"></ul>
+    </div>
+    <div class="fb-activity-box">
+      <fb:activity site="channelnewsasia.com" width="100%" height="200" header="false" font="" border_color="#ccc"
+                recommendations="false" max_age="30"></fb:activity>
+    </div>
+  </div>
+</div>
+</div>
+  </aside>
+</div>
+
+<!-- footer section -->
+<footer>
+        <div class="f-area-holder">
+  <div class="f-area-box" style="height:100%;">
+    <script type="text/javascript">
+  
+  $(document).ready(function () {
+    $("#searchtermB").attr('autocomplete', 'off');
+  });
+
+  </script>
+<div class="search-side-form">
+  <div class="holder">
+    <form id="previewSearchFormB" class="search-form" action="/action/news/search/search/3014/search.do" method="get"><fieldset>
+        <div class="decor-field">
+          <input id="searchtermB" name="query" class="text-field" type="text" value=""/><input id="channelId" name="channelId" value="3012" type="hidden" value=""/><input id="dateRange" name="dateRange" value="months" type="hidden" value=""/><input id="sortBy" name="sortBy" value="latest" type="hidden" value=""/></div>
+        <input value="search" id="searchbuttoBn" type="submit" class="btn-search"/>
+      </fieldset>
+    </form></div>
+</div>
+<div class="back-to-top">
+    <a href="#wrapper">Back to Top</a>
+      </div>
+  </div>
+
+  <div class="f-area">
+    <div class="section group">
+<div class="col span_1_of_5 cnafirst rightgrey_border">
+        <div class="f-block">
+          <a href=""><strong class="f-logo">Channel NewsAsia</strong></a>
+          <p class="copyright">MediaCorp News Group.<br>© 2014 MediaCorp Pte Ltd.<br>All Rights Reserved.</p>
+            <h3></h3>
+<ul class="f-nav">
+  <li><a href="/news/about/terms">Terms and Conditions</a></li>
+
+      <li><a href="/news/about/privacypolicy">Privacy Policy</a></li>
+
+      <li><a href="/news/about/aboutmediacorp">About MediaCorp Pte Ltd </a></li>
+
+      </ul>
+</div>
+      </div>
+
+          <div class="col span_1_of_6 rightgrey_border">
+              <div class="f-block">
+  <h3><a href="/news" title="News">News</a></h3>
+  <ul class="f-nav">
+    <li><a href="/news/asiapacific">Asia Pacific</a></li>
+            <li><a href="/news/singapore">Singapore</a></li>
+            <li><a href="/news/world">World</a></li>
+            <li><a href="/news/business">Business</a></li>
+            <li><a href="/news/sport">Sport</a></li>
+            <li><a href="/news/entertainment">Entertainment</a></li>
+            <li><a href="/news/technology">Technology</a></li>
+            <li><a href="/news/health">Health</a></li>
+            <li><a href="/news/lifestyle">Lifestyle</a></li>
+            <li><a href="/news/video">Videos</a></li>
+            <li><a href="/news/photo">Photos</a></li>
+            <li><a href="/news/specialreports">Special Reports</a></li>
+            <li><a href="/news/archives">Archives</a></li>
+            </ul>
+</div>
+</div>
+            <div class="col span_1_of_5 tvarea rightgrey_border">
+              <div class="f-block">
+  <h3><a href="/tv" title="TV">TV</a></h3>
+  <ul class="f-nav">
+    <li><a href="/tv/live">Live TV</a></li>
+            <li><a href="/tv/videos">TV Videos</a></li>
+            <li><a href="/tv/schedule">TV Schedule</a></li>
+            </ul>
+</div>
+<div class="f-block">
+  <h3><a href="/news/services" title="Services">Services</a></h3>
+  <ul class="f-nav">
+    <li><a href="/news/weather">Weather</a></li>
+
+        </ul>
+</div>
+<div class="f-block">
+  <h3><a href="/news/advertise" title="ADVERTISE WITH US">ADVERTISE WITH US</a></h3>
+  <ul class="f-nav">
+    <li><a href="/news/advertise/onlineadvertising">Online Advertising</a></li>
+
+        <li><a href="/news/advertise/mobadvertising">Mobile Advertising</a></li>
+
+        <li><a href="/news/advertise/tvadvertising">TV Advertising</a></li>
+
+        <li><a href="/news/advertise/contactsales">Contact Sales</a></li>
+
+        </ul>
+</div>
+</div>
+            <div class="col span_1_of_3">
+              <div class="f-block">
+  <h3><a href="/news/about" title="About US">About US</a></h3>
+  <ul class="f-nav">
+    <li><a href="/news/about/aboutchannelnewsasia">About Channel NewsAsia</a></li>
+
+        <li><a href="/news/about/logo">Our Logo</a></li>
+
+        <li><a href="/news/about/coverage">Our Coverage</a></li>
+
+        <li><a href="/news/about/ourtagline">Our Tagline</a></li>
+
+        <li><a href="/news/about/presentercorrespondent">Presenters and Correspondents</a></li>
+
+        <li><a href="/news/about/contactus">Contact Us</a></li>
+
+        </ul>
+</div>
+<div class="f-block social-side-area2" id="newsiconcontainer">
+  <h3>Get Our News</h3>
+  <ul>
+
+      <div >
+      <li class=""><a class="fb" href="http://www.facebook.com/ChannelNewsAsiaSingapore" title="Get our news on Facebook" target="_blank">Get our news on facebook</a></li>
+</div>
+  <div >
+      <li class=""><a class="tw" href="http://twitter.com/channelnewsasia" title="Get our news on Twitter" target="_blank">Get our news on twitter</a></li>
+</div>
+  <div >
+      <li><a class="youtube" href="http://www.youtube.com/channelnewsasia" title="View videos on YouTube" target="_blank">View videos on YouTube</a></li>
+</div>
+  <li>
+          <a class="mobile" href="/news/mobilenews" title="Get our news on mobile">Get our news on mobile</a>
+        </li>
+        <li>
+          <a class="sms" href="/news/mobilenews/sms" title="Get our news on SMS">Get our news on SMS</a>
+        </li>
+        <li>
+          <a class="email" href="/news/enews" title="Get our news on email">Get our news on email</a>
+        </li>
+        <li>
+          <a class="rss" href="/news/rss" title="Get our news on RSS">Get our news on RSS</a>
+        </li>
+        </ul>
+</div>
+
+</div>
+            </div>
+    </div>
+</div>
+  </div>
+
+<script type="text/javascript">
+    $( document ).ready(function() {
+
+//      $(".rightgrey_border").height(($('.col.span_1_of_6').height()));
+      $(".back-to-top").height(($('.f-area').height()-45))
+    });
+
+    $( window ).resize(function() {
+
+//      $(".rightgrey_border").height(($('.col.span_1_of_6').height()));
+      $(".back-to-top").height(($('.f-area').height()-45))
+    });
+    </script></footer>
+  <div id='div-gpt-ad-oop' style="width:100%;">
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-oop'); });
+</script>
+</div>
+
+</div>
+    </div>
+
+    <div class="overlay-area" style="display:none;"></div>
+    <!-- SiteCatalyst code version: H.16.
+Copyright 1997-2008 Omniture, Inc. More info available at
+http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript"><!--
+/* You may give each page an identifying name, server, and channel on
+ the next lines. */
+
+    s.pageName=s.prop3 + ":" + "news"+ ":home";
+  
+    s.prop5=s.prop3 + ":" + "news" + ":home";
+  
+s.prop6="";
+s.prop7="";
+
+var sso_info_cna = getCookie(SSO_USER_COOKIE_NAME_CNA);
+     if(typeof sso_info_cna != 'undefined'){
+       var items = sso_info_cna.split("_");
+       if (typeof items != 'undefined'){
+         var currentTime = new Date();
+         var currentYear = currentTime.getFullYear();
+         s.prop73 = items[0]; // sso id
+         s.prop74 = items[1]; // gender
+         s.prop75 = currentYear - items[2]; // age
+       }
+     } else {
+     s.prop73 = ""; // sso id
+     s.prop74 = ""; // gender
+     s.prop75 = ""; // age
+     }
+
+
+    s.prop8="home page";
+  
+
+/* Conversion Variables */
+s.events="";
+
+/* Hierarchy Variables */
+
+
+    s.hier1=s.prop3.replace(/:/gi, '|') + "|" + "news" + "|home";
+  
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t(); if(s_code)document.write(s_code)//--></script>
+
+<!-- End SiteCatalyst code version: H.16. -->
+<script language="JavaScript" type="text/javascript">
+<!-- if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//-->
+</script><noscript><a href="http://www.omniture.com" title="Web Analytics"><img
+        src="http://mediacorp.112.2o7.net/b/ss/mediacorp-mcs-prd/1/H.23.4--NS/0"
+        height="1" width="1" border="0" alt="" /></a></noscript><!--/DO NOT REMOVE/-->
+<!-- Omniture Event tagging -->
+<script type="text/javascript">
+  
+    $(document).ready(function () {
+      $('.user-info-box .btn-sign-in').on('click', function () {
+        omnitureEventTracking('eVar20', 'cna - not login', 'event63', 'Member Status');
+      });
+
+      $('.top-stories-tab a').on('click', function(evt, from){
+        if (from !== 'triggered'){
+          var categoryName = $.trim($(this).text()).toLowerCase();
+          omnitureEventTracking('eVar14', 'cna - featured content - ' + categoryName, 'event40', 'Featured content');
+        }
+      });
+
+      $('.tabs-news-more a').on('click', function(evt, from){
+        if (from !== 'triggered'){
+          var tabName = $.trim($(this).text()).toLowerCase();
+          omnitureEventTracking('eVar14', 'cna-featured special - '+tabName, 'event40', 'cna-featured special');
+        }
+      });
+
+      $('.top-stories-block .top-stories-hold .stories-nav a').on('click', function(){                                                              ///
+        var clickTarget = $(this);
+        var id = $(this).attr("id");
+        if (!(clickTarget.hasClass('prev-disable') || clickTarget.hasClass('next-disable')) && (id != 'btn-advertorial-next' && id != 'btn-advertorial-prev')) {
+          var categoryName = $.trim($('.top-stories-tab a').eq(clickTarget.closest('.top-stories-tab-box').index()).text().toLowerCase());
+          omnitureEventTracking('eVar14', 'cna - featured content - ' + categoryName + ' - next / previous', 'event40', 'Featured content');
+        } else if(id == 'btn-advertorial-next' || id == 'btn-advertorial-prev') {
+            var type = 'prev';
+            var adsTitle = $(this).data('adsTitle');
+            if (id == 'btn-advertorial-next'){
+                type = 'next';
+            }
+            omnitureEventTracking('eVar14', 'cna - featured content - advertorial - ' + adsTitle  + ' - '+type, 'event40', 'Featured content');
+
+        }
+      });
+
+      $('.sidebar-holder .social-side-area ul li:first a').on('click', function(){
+        omnitureEventTracking('eVar8', 'cna - homepage get our news - facebook', 'event80', 'Content Type');
+      });
+
+      $('.sidebar-holder .social-side-area ul li a.tw').on('click', function(){
+        omnitureEventTracking('eVar8', 'cna - homepage get our news - twitter', 'event80', 'Content Type');
+      });
+
+      $('#latest-news-block .btn-new-window').on('click', function(){
+        omnitureEventTracking('eVar8', 'cna - homepage latest news - popup', 'event29', 'Content Type');
+      });
+
+      $('#latest-news-block .refresh-row a').on('click', function(){
+        omnitureEventTracking('eVar8', 'cna - homepage latest news - refresh', 'event29', 'Content Type');
+      });
+
+      $('#latest-news-block .side-btn-load-more a').on('click', function(){
+        omnitureEventTracking('eVar8', 'cna - homepage latest news - load more', 'event29', 'Content Type');
+      });
+
+      $('.fb-side-box .side-btn-load-more  a').on('click', function(){
+        omnitureEventTracking('eVar8', 'cna - my facebook friends - load more', 'event29', 'Content Type');
+      });
+
+    });
+
+    $(window).load(function(){
+      $('#breakingNewsHolder .ticker-controls .jnt-prev, #breakingNewsHolder .ticker-controls .jnt-next').on('click', function () {         ///
+        omnitureEventTracking('eVar8', 'cna - breaking news - next / previous', 'event29', 'Content Type');
+      });
+
+      $('#tickerNewsHolder .ticker-controls .jnt-prev, #tickerNewsHolder .ticker-controls .jnt-next').on('click', function () {              ///
+        omnitureEventTracking('eVar8', 'cna - developing story - next / previous', 'event29', 'Content Type');
+      });
+
+
+      $('.section-news-pictures .tabs-news-pictures li a').on('click', function(){                                             ////
+        var day = $(this).text().toLowerCase();
+        omnitureEventTracking('eVar8', 'cna - homepage news in picture - ' + day, 'event29', 'Page Names');
+      });
+
+      $('.holder-news-pictures .news-pictures-nav li a').on('click', function(){                                       ////
+        var day = $('.tabs-news-pictures li.active a').text().toLowerCase();
+        omnitureEventTracking('eVar8', 'cna - homepage news in picture - '+ day +' - next / previous', 'event29', 'Content Type');
+      });
+
+      $('#sg_SubmitButton').on('click', function(){
+        var pollItem = $('#pollOmnitureEvent');
+        var pollOmnitureEventContent = $(pollItem).attr('pollOmnitureEventContent');
+        omnitureEventTracking('eVar8', 'cna - homepage poll - '+ pollOmnitureEventContent , 'event36', 'Content Type');
+      });
+
+      //TODO 12 News in pictures: enlarge picture - Currently Not implemented
+      //TODO: Finance Indices
+      //TODO Calendar - Not implemented yet
+    });
+  </script><!-- Begin comScore Tag -->
+<script>
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "6154803" });
+(function() {
+var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+el.parentNode.insertBefore(s, el);
+})();
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=6154803&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+<!-- BEGIN EFFECTIVE MEASURE CODE -->
+<!-- COPYRIGHT EFFECTIVE MEASURE -->
+
+<!--END EFFECTIVE MEASURE CODE -->
+
+
+<!-- Cxense script begin -->
+<div id="cX-root" style="display:none"></div>
+<script type="text/javascript">
+  var cX = cX || {}; cX.callQueue = cX.callQueue || [];
+  cX.callQueue.push(['setSiteId', '9222322790409326880']);
+  cX.callQueue.push(['sendPageViewEvent']);
+</script>
+<script type="text/javascript">
+  (function() { try { var scriptEl = document.createElement('script'); scriptEl.type = 'text/javascript'; scriptEl.async = 'async';
+    scriptEl.src = ('https:' == document.location.protocol) ? 'https://scdn.cxense.com/cx.js' : 'http://cdn.cxense.com/cx.js';
+    var targetEl = document.getElementsByTagName('script')[0]; targetEl.parentNode.insertBefore(scriptEl, targetEl); } catch (e) {};} ());
+</script>
+<!-- Cxense script end -->
+
+
+<!-- ASM script begin -->
+<div id="cX-root" style="display:none"></div>
+<script type="text/javascript">
+var cX = cX || {}; cX.callQueue = cX.callQueue || [];
+cX.callQueue.push(['setSiteId', '9222341557892635885']);
+cX.callQueue.push(['sendPageViewEvent']);
+</script>
+<script type="text/javascript">
+(function() { try { var scriptEl = document.createElement('script'); scriptEl.type = 'text/javascript'; scriptEl.async = 'async';
+scriptEl.src = ('https:' == location.protocol) ? 'https://scdn.cxense.com/cx.js' : 'http://cdn.cxense.com/cx.js';
+var targetEl = document.getElementsByTagName('script')[0]; targetEl.parentNode.insertBefore(scriptEl, targetEl); } catch (e) {};} ());
+</script>
+<!-- ASM script end -->
+<script type="text/javascript" src="https://profile.mediacorp.sg/api/1.3/mca-1.3.0.min.js"></script>
+<script type="text/javascript" src="/code/604610/1395870787000/all-bottom.js"></script>
+<script type="text/javascript" src="/code/2306/1378702590000/jquery-countdown-min.js"></script>
+<script type="text/javascript" src="/code/2354/1390336287000/jquery-main.js"></script>
+<script type="text/javascript" src="/code/611166/1409727021000/application.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js?pub=cnaacc"></script>
+<script type="text/javascript">
+  window.fbAsyncInit = function () {
+    // init the FB JS SDK
+    FB.init({
+      appId:'101910072318', // App ID
+      channelUrl:'http://www.channelnewsasia.com/channel_facebook.html', // Channel File
+      status:true, // check login status
+      cookie:true, // enable cookies to allow the server to access the session
+      xfbml:true  // parse XFBML
+    });
+
+    fbSideboxCheckLoginStatus();
+    socialMediaCheckLoginStatus();
+  };
+
+  // Load the SDK's source Asynchronously
+  // Note that the debug version is being actively developed and might
+  // contain some type checks that are overly strict.
+  // Please report such bugs using the bugs tool.
+  (function (d, debug) {
+    var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+    if (d.getElementById(id)) {
+      return;
+    }
+    js = d.createElement('script');
+    js.id = id;
+    js.async = true;
+    js.src = "//connect.facebook.net/en_US/all" + (debug ? "/debug" : "") + ".js";
+    ref.parentNode.insertBefore(js, ref);
+  }(document, /*debug*/ false));
+
+  // Mediacorp Access Version 1.3
+  // Async Load
+  updateESUserInfoFromCookie();
+  window.mcaAsyncInit = function () {
+    if(typeof(MCA) != 'undefined'){
+      MCA.init({
+        clientId:'12efdc3b-c4a0-40c4-911a-57152550bf85',
+        channelUrl:'http://www.channelnewsasia.com/channel_mca.html',
+        web: 'cna',
+        sub: 'online',
+        onSignedIn:cnaOnSignedInEventHandler,
+        onStatusChanged:cnaOnStatusChangedEventHandler
+      });
+    } else {
+      if (window.console && window.console.log) {
+        window.console.error("Error: MCA cannot be initialized, probably due to Mediacorp Access Profile Server problem.");
+      }
+    }
+  };
+
+  (function (d) {
+    var js, id = 'mawajssdk', ref = d.getElementsByTagName("script")[0];
+    if (d.getElementById(id)) { return; }
+    js = d.createElement("script"); js.id = id; js.async = true;
+    js.src = "https://profile.mediacorp.sg/api/1.3/mca-1.3.0.min.js";
+    ref.parentNode.insertBefore(js, ref);
+  }(document));
+
+  signInSignOutClickEvents("https://profile.mediacorp.sg", "/blob/3074/1359697175000/default-profile-image-data.png", "/elastic/social/access/news",
+          "3012", "http://www.channelnewsasia.com", "/news");
+
+  function cnaOnSignedInEventHandler() {
+    mcaCheckLogin("/blob/3074/1359697175000/default-profile-image-data.png", "/elastic/social/access/news", "3012");
+  }
+
+  function cnaOnStatusChangedEventHandler() {
+    mcaCheckLogin("/blob/3074/1359697175000/default-profile-image-data.png", "/elastic/social/access/news", "3012");
+  }
+
+  $(document).ready(function () {
+
+    
+    var helperFunctions = com.coremedia.html.Functions;
+    if (helperFunctions.getCookie('platformFrom') === 'mobile') {
+      $('#mobile-site-link a').on('click', function(){
+        helperFunctions.setCookie('platform', 'mobile');
+        helperFunctions.setCookie('platformFrom', '', new Date(0));
+      });
+      $('#mobile-site-link').show();
+    }
+
+
+    $('.back-to-top a').click(function () {
+      $('body,html').animate({
+        scrollTop:0
+      }, 400);
+
+      return false;
+    });
+
+    $('.pdd-items').bind('contextmenu', function (e) {
+      return false;
+    });
+  });
+
+  $(window).resize(function(){
+    balanceLiveAreaLeftRight();
+    setTimeout(resizeLiveTwitterHeight, 2000);
+  });
+
+  $(window).load(function(){
+    setTimeout(adjustSideHeight, 1200);
+  });
+
+  if(typeof s.prop5 != "undefined"){
+    var props = s.prop5.split(":");
+    if(props.length > 2){
+      ScarabQueue.push(['view', props[props.length-2]+"_"+props[props.length-1]]);
+      ScarabQueue.push(["go"]);
+    }
+  }
+</script>
+</body>
+  </html>

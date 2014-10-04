@@ -1,0 +1,1840 @@
+<!DOCTYPE html>
+<html class='v2' dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible'/>
+<meta content='width=1100' name='viewport'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { var b=window,f="chrome",g="tick",k="jstiming";(function(){function d(a){this.t={};this.tick=function(a,d,c){var e=void 0!=c?c:(new Date).getTime();this.t[a]=[e,d];if(void 0==c)try{b.console.timeStamp("CSI/"+a)}catch(h){}};this[g]("start",null,a)}var a;b.performance&&(a=b.performance.timing);var n=a?new d(a.responseStart):new d;b.jstiming={Timer:d,load:n};if(a){var c=a.navigationStart,h=a.responseStart;0<c&&h>=c&&(b[k].srt=h-c)}if(a){var e=b[k].load;0<c&&h>=c&&(e[g]("_wtsrt",void 0,c),e[g]("wtsrt_","_wtsrt",h),e[g]("tbsd_","wtsrt_"))}try{a=null,
+b[f]&&b[f].csi&&(a=Math.floor(b[f].csi().pageT),e&&0<c&&(e[g]("_tbnd",void 0,b[f].csi().startE),e[g]("tbnd_","_tbnd",c))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&(a=b.external.pageT,e&&0<c&&(e[g]("_tbnd",void 0,b.external.startE),e[g]("tbnd_","_tbnd",c))),a&&(b[k].pt=a)}catch(p){}})();b.tickAboveFold=function(d){var a=0;if(d.offsetParent){do a+=d.offsetTop;while(d=d.offsetParent)}d=a;750>=d&&b[k].load[g]("aft")};var l=!1;function m(){l||(l=!0,b[k].load[g]("firstScrollTime"))}b.addEventListener?b.addEventListener("scroll",m,!1):b.attachEvent("onscroll",m);
+ })();</script>
+<meta content='blogger' name='generator'/>
+<link href='http://www.indonesia-zsolt72.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://indonesia-zsolt72.blogspot.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Indonesia - Atom" href="http://indonesia-zsolt72.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Indonesia - RSS" href="http://indonesia-zsolt72.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Indonesia - Atom" href="http://www.blogger.com/feeds/7951901804003796638/posts/default" />
+<link rel="openid.server" href="http://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="http://indonesia-zsolt72.blogspot.com/" />
+<!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/3204238090-ieretrofit.js"></script>
+<![endif]-->
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>
+Indonesia
+</title>
+<meta content='' name='description'/>
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/1535467126-widget_css_2_bundle.css' />
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=7951901804003796638&zx=6e3e3304-249f-43b2-81bc-3a6bf26bfda9' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+Theme Name: Swedish Greys
+Theme URI: http://nordicthemepark.com/themes/swedish-greys
+Description: A blog style WordPress theme inspired by the Swedish design era Swedish grace (1910-1930), the subtle nuances of the grey scale and clean typography.
+Author: Nordic Themepark
+Author URI: http://nordicthemepark.com/
+Version: 0.9.8
+Tags: gray, white, two-columns, fixed-width, theme-options, custom-menu, custom-background, featured-images, translation-ready, editor-style
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+.
+This work is released under GNU General Public License, version 2 (GPL).
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+.
+Copyright (c) 2011 Nordic Themepark (Gef Design AB & Krokedil Produktionsbyrå AB).  All rights reserved.
+http://nordicthemepark.com
+*/
+.navbar {
+visibility: hidden;
+display: none;
+}
+.section, .widget {
+margin: 0;
+padding: 0;
+}
+/* Table of Contents
+* Reset
+* Defaults
+* Hyperlinks
+* Headlines
+* Layout
+* Navigation
+* Sidebar
+* Calendar widget
+* Footer
+* Post
+* Images
+* Forms
+* Column Classes
+* Custom Editor Styles
+*/
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+background: transparent;
+border: 0;
+margin: 0;
+padding: 0;
+vertical-align: baseline;
+}
+body {
+line-height: 1;
+}
+h1, h2, h3, h4, h5, h6 {
+clear: both;
+font-weight: normal;
+}
+ol, ul {
+list-style: none;
+}
+blockquote {
+quotes: none;
+}
+blockquote:before, blockquote:after {
+content: '';
+content: none;
+}
+del {
+text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+a img {
+border: none;
+}
+/* Defaults
+------------------------------------------------------------ */
+body,
+h1,
+h2,
+h2 a,
+h2 a:visited,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+select,
+textarea {
+color: #333;
+font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+margin: 0;
+padding: 0;
+text-decoration: none;
+}
+body {
+background: url(http://1.bp.blogspot.com/-K-__ZrC33cQ/T1kwIb-NL0I/AAAAAAAAD1U/OCAIVBceeoI/s000/bg_body.jpg) repeat #efefef;
+}
+input,
+select,
+textarea,
+.author-box,
+.breadcrumb,
+.sticky {
+background-color: #f7f7f7;
+border: 1px solid #e6e6e6;
+padding: 5px;
+}
+.taxonomy-description,
+.wp-caption {
+border-bottom: 1px solid #e6e6e6;
+}
+ul, ol {
+margin: 0 0 1.625em 2.5em;
+}
+ul {
+list-style: circle;
+}
+ol {
+list-style-type: decimal;
+}
+ol ol {
+list-style: upper-alpha;
+}
+ol ol ol {
+list-style: lower-roman;
+}
+ol ol ol ol {
+list-style: lower-alpha;
+}
+ul ul, ol ol, ul ol, ol ul {
+margin-bottom: 0;
+}
+dl {
+margin: 0 1.625em;
+}
+dt {
+font-weight: bold;
+}
+dd {
+margin-bottom: 1.625em;
+}
+blockquote {
+background: url(http://3.bp.blogspot.com/-RcTemEW4g5I/T1kwIim4wHI/AAAAAAAAD1c/zc8GWeR4p9I/s000/quote.png) no-repeat;
+font-style: italic;
+padding: 10px 10px 10px 20px;
+margin: 20px 0 8px 10px;
+}
+p {
+margin-bottom: 1.625em;
+}
+strong {
+font-weight: 700;
+}
+cite, em, i {
+font-style: italic;
+}
+hr {
+background-color: #CCC;
+border: 0;
+height: 1px;
+margin-bottom: 1.625em;
+}
+pre {
+background: #F4F4F4;
+font: 13px "Courier 10 Pitch", Courier, monospace;
+line-height: 1.5;
+margin-bottom: 1.625em;
+overflow: auto;
+padding: 0.75em 1.625em;
+}
+/* Hyperlinks
+------------------------------------------------------------ */
+a,
+a:visited {
+color: #494a88;
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+#site-title a,
+#site-title a:visited {
+color: #333333;
+text-decoration: none;
+}
+#site-title  a:hover {
+text-decoration: none;
+}
+a img {
+border: none;
+}
+#header .aside a {
+color: #cbcbcb;
+border-bottom: none;
+text-decoration: none;
+}
+#header .aside a:hover {
+color: #fefefe;
+border-bottom: none;
+text-decoration: underline;
+}
+#footer .aside a {
+color: #cbcbcb;
+border-bottom: none;
+text-decoration: none;
+}
+#footer .aside a:hover {
+color: #fefefe;
+border-bottom: none;
+text-decoration: underline;
+}
+#site-info a {
+color: #666666;
+}
+#site-info a:hover {
+color: #fefefe;
+}
+/* Headlines
+------------------------------------------------------------ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+clear: both;
+}
+h1,
+h2,
+h2 a,
+h2 a:visited {
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+margin: 0 0 10px 0;
+}
+h1 a:hover,
+h2 a:hover {
+color: #000000;
+text-decoration: none;
+}
+.entry-title {
+font-size: 26px;
+line-height: 30px;
+margin: 0 0 10px 0;
+}
+.page-title {
+font-size: 10px;
+letter-spacing: 0.1em;
+line-height: 2.6em;
+margin: 0 0 2.6em;
+text-transform: uppercase;
+}
+.page-title span {
+font-style: italic;
+}
+.page-title a {
+font-size: 12px;
+font-weight: bold;
+letter-spacing: 0;
+text-decoration: none;
+text-transform: none;
+}
+h3 {
+font-size: 16px;
+font-weight: 500;
+margin: 10px 0 5px 0;
+}
+#primary h2,
+#secondary h3.widget-title {
+font-size: 16px;
+border-bottom: 1px solid #EEEEEE;
+border-top: 1px solid #EEEEEE;
+padding: 5px 0 5px 0;
+margin: 0 0 10px 0;
+font-weight: 500;
+}
+#footer h2 {
+font-size: 16px;
+color: #cccccc;
+border-bottom: 1px solid #dfdfdf;
+border-top: 1px solid #dfdfdf;
+padding: 5px 0 5px 1px;
+margin: 0 0 10px 0;
+font-weight: 500;
+}
+#header-widget h3.widget-title {
+margin: 0 0 10px 0;
+}
+h4 {
+font-size: 14px;
+font-weight: 500;
+text-transform: uppercase;
+margin: 10px 0 5px 0;
+}
+h5 {
+font-size: 14px;
+font-weight: 500;
+margin: 10px 0 5px 0;
+}
+h6 {
+font-size: 14px;
+font-weight: 500;
+font-style: italic;
+margin: 10px 0 5px 0;
+}
+#site-title {
+font-family: 'Kreon', serif;
+font-size: 48px;
+line-height: 58px;
+font-weight: 700;
+margin-bottom: 5px;
+}
+#blog-title {
+font-size: 40px;
+line-height: 50px;
+font-weight: 700;
+position: absolute;
+text-indent: -999em;
+}
+#blog-description {
+font-size: 16px;
+line-height: 22px;
+font-weight: 300;
+font-style: italic;
+letter-spacing: 0.05em;
+margin-bottom: 15px;
+float:left;
+width: 600px;
+}
+/* Layout
+-------------------------------------------------------------- */
+#wrapper {
+width: 960px;
+margin: 30px auto;
+padding: 0 0 0 0;
+text-align: left;
+background: #fff;
+-moz-box-shadow: 0 0 8px #8493a6;
+-webkit-box-shadow: 0 0 8px #8493a6;
+box-shadow: 0 0 8px #8493a6;
+}
+#header {
+padding:30px 30px 0 30px;
+}
+#branding {
+overflow:hidden;
+position:relative;
+}
+#site-title {
+width: 600px;
+float: left;
+}
+#header-widget {
+width: 290px;
+float: right;
+position:absolute;
+right:0;
+top:0;
+}
+.wrapper {
+margin: 0 auto;
+}
+#main {
+overflow: hidden;
+margin: 30px 30px 0 30px;
+}
+.layout-2c-r-fixed #container {
+margin: 0 -320px 0 0;
+width: 100%;
+float: left;
+}
+.layout-2c-l-fixed #container {
+margin: 0 0 0 -350px;
+width: 100%;
+float: right;
+}
+.layout-3c-m-fixed #container {
+width: 100%;
+float: left;
+}
+.layout-2c-r-fixed #content {
+margin: 0 350px 0 0;
+position: relative;
+}
+.layout-2c-l-fixed #content {
+margin: 0 0 0 350px;
+position: relative;
+}
+.layout-3c-m-fixed #content {
+margin: 0 190px 0 190px;
+position: relative;
+}
+.page-template-template_onecolumn-php #container {
+float: left;
+margin: 0;
+width: auto;
+}
+.page-template-template_onecolumn-php #content {
+padding: 0;
+margin: 0;
+}
+.layout-2c-r-fixed #primary,
+.layout-2c-r-fixed #secondary {
+float: right;
+width: 290px;
+}
+.layout-2c-l-fixed #primary,
+.layout-2c-l-fixed #secondary  {
+float: left;
+width: 290px;
+}
+.layout-3c-m-fixed #primary {
+position: relative;
+float: left;
+width: 145px;
+margin: 0 0 0 -145px;
+}
+.layout-3c-m-fixed #secondary  {
+position: relative;
+float: left;
+width: 145px;
+margin: 0 0 0 -100%;
+}
+/* Navigation
+------------------------------------------------------------ */
+/***** Primary Nav Menu ********************/
+#primary-nav {
+width: 900px;
+margin: 10px 0 10px 0;
+overflow: hidden;
+clear: both;
+font-family: 'Kreon', serif;
+border-top: 1px dashed #cccccc;
+border-bottom: 1px dashed #cccccc;
+}
+#primary-nav ul {
+float: left;
+list-style: none;
+margin: 0;
+padding: 0 0 0 10px;
+}
+#primary-nav ul ul {
+background: none repeat scroll 0 0 #FFFFFF;
+border: 1px solid #E0E0E0;
+border-radius: 3px 3px 3px 3px;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+margin: 10px 0 0;
+padding: 10px 15px;
+}
+#primary-nav li {
+float: left;
+list-style: none;
+}
+#primary-nav li a {
+color: #333333;
+font-size: 17px;
+font-weight: normal;
+margin: 0;
+padding: 8px 25px 10px 0;
+text-decoration: none;
+display: block;
+position: relative;
+}
+#primary-nav li a:hover, #primary-nav li a:active {
+color: #333333;
+}
+#primary-nav li a .sf-sub-indicator {
+display: block;
+text-indent: -9999px;
+overflow: hidden;
+position: absolute;
+}
+#primary-nav li li a, #primary-nav li li a:link, #primary-nav li li a:visited {
+color: #888888;
+width: 168px;
+font-size: 14px;
+margin: 0;
+padding: 5px 10px 5px 10px;
+border-bottom: 1px solid #efefef;
+text-transform: none;
+position: relative;
+}
+#primary-nav li li a:hover, #primary-nav li li a:active {
+background: transparent;
+color: #333333;
+}
+#primary-nav li ul {
+z-index: 9999;
+position: absolute;
+left: -999em;
+height: auto;
+width: 188px;
+margin: 0 0 0 -1px;
+padding: 0 0 0 0;
+}
+#primary-nav li ul a {
+width: 170px;
+}
+#primary-nav li ul ul {
+margin: -33px 0 0 189px;
+}
+#primary-nav li:hover ul ul, #primary-nav li:hover ul ul ul, #primary-nav li.sfHover ul ul, #primary-nav li.sfHover ul ul ul {
+left: -999em;
+}
+#primary-nav li:hover ul, #primary-nav li li:hover ul, #primary-nav li li li:hover ul, #primary-nav li.sfHover ul, #primary-nav li li.sfHover ul, #primary-nav li li li.sfHover ul {
+left: auto;
+}
+#primary-nav li:hover, #primary-nav li.sfHover {
+position: static;
+}
+/***** Secondary Nav Menu ********************/
+#secondary-nav {
+margin: 10px 30px 0 30px;
+overflow: hidden;
+clear: both;
+font-family: 'Kreon', serif;
+border-top: 1px dashed #cccccc;
+border-bottom: 1px dashed #cccccc;
+}
+#secondary-nav ul {
+float: left;
+list-style: none;
+margin: 0;
+padding: 0 0 0 10px;
+}
+#secondary-nav ul ul {
+background: none repeat scroll 0 0 #FFFFFF;
+border: 1px solid #E0E0E0;
+border-radius: 3px 3px 3px 3px;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+margin: 10px 0 0;
+padding: 10px 15px;
+}
+#secondary-nav li {
+float: left;
+list-style: none;
+}
+#secondary-nav li a {
+color: #333333;
+font-size: 17px;
+font-weight: normal;
+margin: 0;
+padding: 8px 25px 10px 0;
+text-decoration: none;
+display: block;
+position: relative;
+}
+#secondary-nav li a:hover, #secondary-nav li a:active {
+color: #333333;
+}
+#secondary-nav li a .sf-sub-indicator {
+display: block;
+text-indent: -9999px;
+overflow: hidden;
+position: absolute;
+}
+#secondary-nav li li a, #secondary-nav li li a:link, #secondary-nav li li a:visited {
+color: #888888;
+width: 168px;
+font-size: 14px;
+margin: 0;
+padding: 5px 10px 5px 10px;
+border-bottom: 1px solid #efefef;
+text-transform: none;
+position: relative;
+}
+#secondary-nav li li a:hover, #secondary-nav li li a:active {
+background: transparent;
+color: #333333;
+}
+#secondary-nav li ul {
+z-index: 9999;
+position: absolute;
+left: -999em;
+height: auto;
+width: 188px;
+margin: 0 0 0 -1px;
+padding: 0 0 0 0;
+}
+#secondary-nav li ul a {
+width: 170px;
+}
+#secondary-nav li ul ul {
+margin: -33px 0 0 189px;
+}
+#secondary-nav li:hover ul ul, #secondary-nav li:hover ul ul ul, #secondary-nav li.sfHover ul ul, #secondary-nav li.sfHover ul ul ul {
+left: -999em;
+}
+#secondary-nav li:hover ul, #secondary-nav li li:hover ul, #secondary-nav li li li:hover ul, #secondary-nav li.sfHover ul, #secondary-nav li li.sfHover ul, #secondary-nav li li li.sfHover ul {
+left: auto;
+}
+#secondary-nav li:hover, #secondary-nav li.sfHover {
+position: static;
+}
+/* Sidebar
+------------------------------------------------------------ */
+.aside,
+.aside p {
+font-size: 12px;
+font-weight: 300;
+line-height: 18px;
+}
+/*.aside .widget {
+background: none repeat scroll 0 0 #F5F5F5;
+border: 1px solid #DDDDDD;
+box-shadow: 0 0 5px #CCCCCC inset;
+margin: 0 0 10px;
+padding: 10px;
+}*/
+.aside a, .aside a:visited {
+color: #333333;
+text-decoration: none;
+border-bottom:1px dotted #cccccc;
+}
+.aside a:hover {
+color: #E47600;
+text-decoration: none;
+}
+.aside ul {
+list-style-type: none;
+margin: 0 0 5px;
+padding: 0;
+}
+.aside .widget {
+list-style-type: none;
+padding: 0 0 30px 0;
+word-wrap: break-word;
+}
+.aside .widget ul {
+list-style-position:outside;
+/*list-style-image: url(http://3.bp.blogspot.com/-gk7rhiPvmbE/T1kwIiLWRdI/AAAAAAAAD1k/dLKLRy0y07Q/s000/arrow_ul.png);*/
+}
+.aside ul li ul li {
+margin: 0 0 4px 20px;
+padding: 0 0 0 2px;
+}
+#header-widget .social_widget {
+text-align: right;
+}
+/* Calendar widget
+------------------------------------------------------------ */
+#wp-calendar {
+width: 100%;
+}
+#wp-calendar caption {
+text-align: right;
+color: #333;
+font-size: 12px;
+margin-top: 10px;
+margin-bottom: 15px;
+}
+#wp-calendar thead {
+font-size: 12px;
+}
+#wp-calendar thead th {
+padding-bottom: 10px;
+text-align: center;
+}
+#wp-calendar tbody {
+color: #828282;
+}
+#wp-calendar tbody td {
+background: #f5f5f5;
+border: 1px solid #fff;
+text-align: center;
+padding:8px;
+}
+#wp-calendar tbody td:hover {
+background: #ffffff;
+}
+#wp-calendar tbody .pad {
+background: none;
+}
+#wp-calendar tfoot #next {
+font-size: 11px;
+text-transform: uppercase;
+text-align: right;
+}
+#wp-calendar tfoot #prev {
+font-size: 11px;
+text-transform: uppercase;
+padding-top: 10px;
+}
+/* Footer
+------------------------------------------------------------ */
+#footer {
+color: #999999;
+border-top: 10px solid #2c2c2c;
+overflow: hidden;
+background: url(http://4.bp.blogspot.com/-dzEqEQYT1uI/T1kwI3CmPII/AAAAAAAAD1s/TLkDQMCpRIc/s000/bg_footer.png) repeat;
+padding:30px 30px 30px 30px;
+margin-top:20px;
+}
+#footer p {
+color: #999999;
+}
+#footer-widgets {
+overflow: hidden;
+}
+#footer .aside ul {
+list-style-type: none;
+margin: 0 0 5px;
+padding: 0;
+}
+#footer .aside li {
+list-style-type: none;
+padding: 0 0 4px 0;
+word-wrap: break-word;
+}
+#footer .aside ul li ul {
+list-style-position:outside;
+list-style-image: none;
+}
+#footer .aside ul li ul li {
+margin: 0 0 0 20px;
+padding: 0 0 0 2px;
+}
+#footer-1 {
+float: left;
+padding: 0 25px 0 0;
+width: 280px;
+}
+#footer-2 {
+float: left;
+padding: 0 25px 0 0;
+width: 280px;
+}
+#footer-3 {
+float: right;
+padding: 0 0 0 0;
+width: 285px;
+}
+#site-info {
+text-align: center;
+color: #666666;
+width: 900px;
+margin:-20px auto;
+padding: 0 30px 10px 30px;
+font-size: 11px;
+}
+#site-info p {
+color: #666666;
+}
+/* Post
+------------------------------------------------------------ */
+.post {
+margin-bottom: 40px;
+}
+.entry-meta {
+font-size: 11px;
+color: #999999;
+text-transform:uppercase;
+margin-bottom: 10px;
+}
+.entry-content {
+clear: both;
+}
+.entry-content table,
+.comment-content table {
+border-bottom: 1px solid #ddd;
+margin: 0 0 1.625em;
+width: 100%;
+}
+.entry-content th,
+.comment-content th {
+color: #666;
+font-size: 10px;
+font-weight: 500;
+letter-spacing: 0.1em;
+line-height: 2.6em;
+text-transform: uppercase;
+}
+.entry-content td,
+.comment-content td {
+border-top: 1px solid #ddd;
+padding: 6px 10px 6px 0;
+}
+.entry-utility {
+font-size: 11px;
+color: #999999;
+text-transform:uppercase;
+margin-bottom: 10px;
+clear: both;
+}
+.navigation {
+overflow: hidden;
+}
+.nav-previous {
+float: left;
+width: 50%;
+}
+.nav-next {
+float: right;
+text-align: right;
+width: 50%;
+}
+#nav-above, #nav-below {
+width: 100%;
+overflow: hidden;
+margin: 0 0 10px 0;
+}
+.page-link {
+clear: both;
+color: #000;
+font-weight: bold;
+margin: 0 0 22px 0;
+word-spacing: 0.5em;
+}
+.page-link a:link,
+.page-link a:visited {
+background: #f1f1f1;
+color: #333;
+font-weight: normal;
+padding: 0.5em 0.75em;
+text-decoration: none;
+}
+.page-link a:active,
+.page-link a:hover {
+color: #ff4b33;
+}
+body.page .edit-link {
+clear: both;
+display: block;
+}
+/* Comments
+------------------------------------------------------------ */
+#comments {
+clear: both;
+}
+#comments ol {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+#comments ol li {
+border-bottom: 1px dashed #cccccc;
+padding-bottom: 10px;
+}
+li.comment {
+padding: 20px 0 0;
+}
+.datetime {
+display: block;
+color: #A4A5AA;
+font-size: 11px;
+margin: 0 0 12px 50px;
+position: relative;
+}
+.comment-content {
+margin: 0 0 0 50px;
+}
+.comment-actions {
+margin: 0 0 0 50px;
+}
+.comment-actions a {
+margin-right: 10px;
+}
+#comments .avatar-image-container {
+float: left;
+margin: 0 10px 0 0;
+width: 40px;
+height: 40px;
+}
+#comments .avatar-image-container img {
+width: 40px;
+height: 40px;
+}
+#comments ol li ol {
+clear: both;
+list-style: none;
+background: url(http://2.bp.blogspot.com/-WNDw0xUvHo0/T1kwJLvdIvI/AAAAAAAAD10/XAB-nnXblek/s000/reply_arrow.png) no-repeat scroll left -10px transparent;
+margin: 0 0 0 10px;
+padding: 0 0 0 40px;
+}
+#respond {
+overflow: hidden;
+/*border-left: 5px solid #efefef;*/
+padding-left:10px;
+margin-top:30px;
+}
+.logged-in-as {
+margin-bottom:10px;
+}
+.comment-notes {
+margin-bottom:10px;
+}
+.bypostauthor {
+}
+.nopassword, .nocomments {
+display: none;
+}
+/* Images
+------------------------------------------------------------ */
+img {
+max-width: 100%;
+}
+.avatar,
+.featuredpage img,
+.featuredpost img,
+.post-image {
+background-color: #f7f7f7;
+border: 1px solid #e6e6e6;
+padding: 4px;
+}
+.author-box .avatar {
+float: left;
+margin: 0 10px 0 0;
+}
+.post-image {
+margin: 0 10px 10px 0;
+}
+.comment-list li .avatar {
+background-color: #fff;
+float: right;
+margin: 0 5px 0 10px;
+padding: 4px;
+}
+img.centered,
+.aligncenter {
+clear: both;
+display: block;
+margin: 0 auto 10px;
+}
+img.alignnone {
+display: inline;
+margin: 0 0 10px;
+}
+img.alignleft {
+display: inline;
+margin: 7px 20px 15px 0;
+}
+img.alignright {
+display: inline;
+margin: 7px 0 15px 20px;
+}
+.alignleft {
+float: left;
+margin: 7px 20px 15px 0;
+}
+.alignright {
+float: right;
+margin: 7px 0 15px 20px;
+}
+.wp-caption {
+padding: 5px 0 0 1px;
+text-align: center;
+max-width: 100%;
+}
+p.wp-caption-text {
+font-size: 11px;
+line-height: 12px;
+padding: 5px 0;
+}
+.entry-content img.wp-smiley {
+border: none;
+margin-bottom: 0;
+margin-top: 0;
+padding: 0;
+}
+/* Gallery */
+.gallery { margin: 0 auto 18px; }
+.gallery .gallery-item {
+float: left;
+margin-top: 0;
+text-align: center;
+width: 33%;
+}
+.page-template-template_onecolumn-php .gallery .gallery-item {
+width: 20%;
+}
+.gallery-columns-2 .gallery-item { width: 50%; }
+.gallery-columns-4 .gallery-item { width: 25%; }
+.gallery img {
+box-shadow: 0px 0px 4px #999;
+border: 1px solid white;
+padding: 2px;
+background: #f2f2f2;
+}
+.gallery img:hover {
+background: white;
+}
+.gallery-columns-2 .attachment-medium {
+max-width: 92%;
+height: auto;
+}
+.gallery-columns-4 .attachment-thumbnail {
+max-width: 84%;
+height: auto;
+}
+.gallery .gallery-caption {
+color: #888;
+font-size: 12px;
+margin: 0 0 12px;
+}
+.gallery dl, .gallery dt { margin: 0; }
+.gallery br+br { display: none; }
+/* Forms
+------------------------------------------------------------ */
+input, textarea, button {
+background: none repeat scroll 0 0 #F5F5F5;
+border: 1px solid #e0e0e0;
+padding:5px;
+margin-bottom: 5px;
+}
+input:focus,
+textarea:focus {
+color:#444444;
+}
+input:focus,
+textarea:focus,
+button:hover {
+background:#ffffff;
+outline: none;
+border: 1px solid #b7d6df;
+box-shadow: 0 0 4px #a7d6e3;
+}
+#commentform label {
+line-height: 40px;
+margin-right: 2px;
+width: 40px;
+padding:0 0 5px 0;
+}
+#commentform p {
+overflow: hidden;
+}
+#commentform .required {
+font-weight: 700;
+color: red;
+}
+#commentform input,
+#commentform textarea {
+float: right;
+width: 80%;
+padding:5px;
+overflow: hidden;
+}
+#commentform textarea {
+height:80px;
+}
+#commentform #submit {
+background: -moz-linear-gradient(center top , #F0F0F0, #C0C0C0) repeat scroll 0 0 transparent;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F0F0', endColorstr='#C0C0C0');
+background: -webkit-gradient(linear, left top, left bottom, from(#F0F0F0), to(#C0C0C0));
+border: 1px solid #cccccc;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+color: #437182;
+cursor: pointer;
+float: right;
+font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+font-size: 13px;
+font-weight: bold;
+height: auto;
+padding: 6px 10px;
+text-shadow: 0 1px 0 #FFFFFF;
+width: auto;
+}
+#commentform #submit:hover {
+background: -moz-linear-gradient(center top , #dcd9d9, #cecdcd) repeat scroll 0 0 transparent;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dcd9d9', endColorstr='#cecdcd');
+background: -webkit-gradient(linear, left top, left bottom, from(#dcd9d9), to(#cecdcd));
+border: 1px solid #c1bfbf;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+color: #437182;
+cursor: pointer;
+float: right;
+font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+font-size: 13px;
+font-weight: bold;
+height: auto;
+padding: 6px 10px;
+text-shadow: 0 1px 0 #FFFFFF;
+width: auto;
+}
+#commentform .form-allowed-tags {
+display: none;
+clear:both;
+font-size: 10px;
+width:80%;
+float:right;
+}
+#searchform input {
+width: 95%;
+}
+#searchform label {
+position:absolute;
+top:-1500px;
+left:-1500px;
+}
+/* Column Classes
+------------------------------------------------------------ */
+.five-sixths,
+.four-fifths,
+.four-sixths,
+.one-fifth,
+.one-fourth,
+.one-half,
+.one-sixth,
+.one-third,
+.three-fifths,
+.three-fourths,
+.three-sixths,
+.two-fifths,
+.two-fourths,
+.two-sixths,
+.two-thirds {
+float: left;
+margin: 0 0 20px;
+padding-left: 3%;
+}
+.one-half,
+.three-sixths,
+.two-fourths {
+width: 48%;
+}
+.one-third,
+.two-sixths {
+width: 31%;
+}
+.four-sixths,
+.two-thirds {
+width: 65%;
+}
+.one-fourth {
+width: 22.5%;
+}
+.three-fourths {
+width: 73.5%;
+}
+.one-fifth {
+width: 17.4%;
+}
+.two-fifths {
+width: 37.8%;
+}
+.three-fifths {
+width: 58.2%;
+}
+.four-fifths {
+width: 78.6%;
+}
+.one-sixth {
+width: 14%;
+}
+.five-sixths {
+width: 82%;
+}
+.first {
+clear: both;
+padding-left: 0;
+}
+/* Custom Editor Styles
+------------------------------------------------------------ */
+.gray-button {
+background: -moz-linear-gradient(center top , #F0F0F0, #C0C0C0) repeat scroll 0 0 transparent;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F0F0', endColorstr='#C0C0C0');
+background: -webkit-gradient(linear, left top, left bottom, from(#F0F0F0), to(#C0C0C0));
+border: 1px solid #cccccc;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+color: #437182;
+cursor: pointer;
+font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+font-size: 13px;
+font-weight: bold;
+height: auto;
+padding: 6px 10px;
+text-shadow: 0 1px 0 #FFFFFF;
+width: auto;
+}
+.gray-button:hover {
+background: -moz-linear-gradient(center top , #dcd9d9, #cecdcd) repeat scroll 0 0 transparent;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dcd9d9', endColorstr='#cecdcd');
+background: -webkit-gradient(linear, left top, left bottom, from(#dcd9d9), to(#cecdcd));
+border: 1px solid #c1bfbf;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+color: #437182;
+cursor: pointer;
+font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+font-size: 13px;
+font-weight: bold;
+height: auto;
+padding: 6px 10px;
+text-shadow: 0 1px 0 #FFFFFF;
+width: auto;
+}
+a.gray-button:hover {text-decoration: none;}  /* mouse over link */
+.pink-button {
+background: -moz-linear-gradient(center top , #de78b9, #aa3a80) repeat scroll 0 0 transparent;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#de78b9', endColorstr='#aa3a80');
+background: -webkit-gradient(linear, left top, left bottom, from(#de78b9), to(#aa3a80));
+border: 1px solid #aa3a80;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+color: #ffffff;
+cursor: pointer;
+font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+font-size: 13px;
+font-weight: bold;
+height: auto;
+padding: 6px 10px;
+text-shadow: 0 -1px 1px #e2bad5;
+width: auto;
+}
+.pink-button:hover {
+background: -moz-linear-gradient(center top , #aa3a80, #d95dac) repeat scroll 0 0 transparent;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa3a80', endColorstr='#d95dac');
+background: -webkit-gradient(linear, left top, left bottom, from(#aa3a80), to(#d95dac));
+border: 1px solid #d95dac;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+color: #ffffff;
+cursor: pointer;
+font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+font-size: 13px;
+font-weight: bold;
+height: auto;
+padding: 6px 10px;
+text-shadow: 0 -1px 1px #e2bad5;
+width: auto;
+}
+a.pink-button:link {color:#ffffff;}      /* unvisited link */
+a.pink-button:visited {color:#ffffff;}  /* visited link */
+a.pink-button:hover {color:#ffffff; text-decoration: none;}  /* mouse over link */
+a.pink-button:active {color:#ffffff;}  /* selected link */
+.green-button {
+background: -moz-linear-gradient(center top , #cee490, #96c64f) repeat scroll 0 0 transparent;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cee490', endColorstr='#96c64f');
+background: -webkit-gradient(linear, left top, left bottom, from(#cee490), to(#96c64f));
+border: 1px solid #a2cd57;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+color: #ffffff;
+cursor: pointer;
+font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+font-size: 13px;
+font-weight: bold;
+height: auto;
+padding: 6px 10px;
+text-shadow: 0 -1px 1px #e2bad5;
+width: auto;
+}
+.green-button:hover {
+background: -moz-linear-gradient(center top , #b1d66a, #b3d66c) repeat scroll 0 0 transparent;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b1d66a', endColorstr='#b3d66c');
+background: -webkit-gradient(linear, left top, left bottom, from(#b1d66a), to(#b3d66c));
+border: 1px solid #a2cd57;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+color: #ffffff;
+cursor: pointer;
+font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+font-size: 13px;
+font-weight: bold;
+height: auto;
+padding: 6px 10px;
+text-shadow: 0 -1px 1px #e2bad5;
+width: auto;
+}
+a.green-button:link {color:#ffffff;}      /* unvisited link */
+a.green-button:visited {color:#ffffff;}  /* visited link */
+a.green-button:hover {color:#ffffff; text-decoration: none;}  /* mouse over link */
+a.green-button:active {color:#ffffff;}  /* selected link */
+.blue-button {
+background: -moz-linear-gradient(center top , #a6e4f6, #6ccff0) repeat scroll 0 0 transparent;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6e4f6', endColorstr='#6ccff0');
+background: -webkit-gradient(linear, left top, left bottom, from(#a6e4f6), to(#6ccff0));
+border: 1px solid #8dc5da;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+color: #ffffff;
+cursor: pointer;
+font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+font-size: 13px;
+font-weight: bold;
+height: auto;
+padding: 6px 10px;
+text-shadow: 0 -1px 1px #e2bad5;
+width: auto;
+}
+.blue-button:hover {
+background: -moz-linear-gradient(center top , #90dcf4, #90dcf4) repeat scroll 0 0 transparent;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#90dcf4', endColorstr='#90dcf4');
+background: -webkit-gradient(linear, left top, left bottom, from(#90dcf4), to(#90dcf4));
+border: 1px solid #8dc5da;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+color: #ffffff;
+cursor: pointer;
+font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+font-size: 13px;
+font-weight: bold;
+height: auto;
+padding: 6px 10px;
+text-shadow: 0 -1px 1px #e2bad5;
+width: auto;
+}
+a.blue-button:link {color:#ffffff;}      /* unvisited link */
+a.blue-button:visited {color:#ffffff;}  /* visited link */
+a.blue-button:hover {color:#ffffff; text-decoration: none;}  /* mouse over link */
+a.blue-button:active {color:#ffffff;}  /* selected link */
+.aqua-button {
+background: -moz-linear-gradient(center top , #b8d9e3, #8bc0d1) repeat scroll 0 0 transparent;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8d9e3', endColorstr='#8bc0d1');
+background: -webkit-gradient(linear, left top, left bottom, from(#b8d9e3), to(#8bc0d1));
+border: 1px solid #9fbdc8;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+color: #ffffff;
+cursor: pointer;
+font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+font-size: 13px;
+font-weight: bold;
+height: auto;
+padding: 6px 10px;
+text-shadow: 0 -1px 1px #e2bad5;
+width: auto;
+}
+.aqua-button:hover {
+background: #8bc0d1;
+border: 1px solid #9fbdc8;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+color: #ffffff;
+cursor: pointer;
+font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+font-size: 13px;
+font-weight: bold;
+height: auto;
+padding: 6px 10px;
+text-shadow: 0 -1px 1px #e2bad5;
+width: auto;
+}
+a.aqua-button:link {color:#ffffff;}      /* unvisited link */
+a.aqua-button:visited {color:#ffffff;}  /* visited link */
+a.aqua-button:hover {color:#ffffff; text-decoration: none;}  /* mouse over link */
+a.aqua-button:active {color:#ffffff;}  /* selected link */
+.callout {
+background: #FDFCFA;
+border: 1px solid #CBC4C4;
+border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.11);
+margin: 20px 0 20px;
+padding: 10px;
+overflow: hidden;
+}
+.alert {
+font-family: Georgia,"Times New Roman",Times,serif;
+font-style: italic;
+margin: 0 0 25px;
+padding: 12px 10px 7px 10px;
+text-align: center;
+}
+.alert.white {
+background: #f9f8f5;
+border-bottom: 1px solid #E4E4E4;
+border-top: 1px solid #E4E4E4;
+}
+.alert.red {
+background: #FFD7D8;
+border-bottom: 1px solid #F9BAC7;
+border-top: 1px solid #F9BAC7;
+}
+.alert.yellow {
+background: #feefb3;
+border-bottom: 1px solid #d8b66b;
+border-top: 1px solid #d8b66b;
+}
+
+--></style>
+<link href='http://fonts.googleapis.com/css?family=Kreon&ver=3.3.1' id='googleFonts-css' media='all' rel='stylesheet' type='text/css'/>
+<script type="text/javascript">var a="indexOf",b="&m=1",e="(^|&)m=",f="?",g="?m=1";function h(){var c=window.location.href,d=c.split(f);switch(d.length){case 1:return c+g;case 2:return 0<=d[1].search(e)?null:c+b;default:return null}}var k=navigator.userAgent;if(-1!=k[a]("Mobile")&&-1!=k[a]("WebKit")&&-1==k[a]("iPad")||-1!=k[a]("Opera Mini")||-1!=k[a]("IEMobile")){var l=h();l&&window.location.replace(l)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body class='layout-2c-r-fixed'>
+<div class='hfeed' id='wrapper'>
+<div id='header'>
+<div class='wrapper'>
+<div id='branding'>
+<div class='section' id='header1'><div class='widget Header' id='Header1'>
+<div id='header-inner' style='background-image: url("http://farm1.static.flickr.com/210/492605040_f32ba0678d_b.jpg"); background-position: left; width: 1024px; min-height: 225px; _height: 225px; background-repeat: no-repeat; '>
+<div class='titlewrapper' style='background: transparent'>
+<h1 class='title' style='background: transparent; border-width: 0px'>
+<a href='http://www.indonesia-zsolt72.blogspot.com/'>Indonesia</a>
+</h1>
+</div>
+Impressions
+</div>
+</div></div>
+<div class='aside' id='header-widget'>
+<div class='widget-container social_widget' id='ntp_framework_widget_social-3'><span class='listing listing-twitter'><a href='http://twitter.com/YOUR_USERNAME' target='_blank' title='Connect on twitter'><img alt='Connect on twitter' src='http://4.bp.blogspot.com/-dcoDbBLolmM/T1kwJL7s3oI/AAAAAAAAD18/kxSEl49_lcA/s000/twitter.png'/></a></span><span class='listing listing-facebook'><a href='https://www.facebook.com/YOUR_USERNAME' target='_blank' title='Connect on facebook'><img alt='Connect on facebook' src='http://2.bp.blogspot.com/-hHHsi_E7xpU/T1kwJf92xFI/AAAAAAAAD2E/gULKrRFbFJU/s000/facebook.png'/></a></span><span class='listing listing-rss'><a href='http://www.indonesia-zsolt72.blogspot.com/feeds/posts/default' target='_blank' title='Connect on rss'><img alt='Connect on rss' src='http://4.bp.blogspot.com/-CC9GYJ3bs7w/T1kwJnRiwoI/AAAAAAAAD2M/BKMWQe6hGBI/s000/rss.png'/></a></span>
+</div>
+</div><!-- #header-widget .aside -->
+</div><!-- #branding -->
+</div><!-- .wrapper -->
+</div><!-- #header -->
+<!-- begin menu -->
+<!-- Pages-based menu added by BTemplates.com -->
+<div id='secondary-nav'><div class='menu-header'>
+<!-- Pages -->
+<div class='section' id='pages'><div class='widget PageList' id='PageList9'>
+<div class='menu' id='menu-footermeny'>
+<ul>
+<li class='page_item'><a href='http://www.indonesia-zsolt72.blogspot.com/'>Home</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=7951901804003796638&widgetType=PageList&widgetId=PageList9&action=editWidget&sectionId=pages' onclick='return _WidgetManager._PopupConfig(document.getElementById("PageList9"));' target='configPageList9' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+<!-- /Pages -->
+</div></div>
+<!-- end menu -->
+<div id='main'>
+<div class='wrapper'>
+<div id='container'>
+<div id='content'>
+<div class='section' id='main1'><div class='widget HTML' id='HTML5'>
+<div class='widget-content'>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- BudapestTravelMagazineBanner -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8962728053297248"
+     data-ad-slot="4657194111"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=7951901804003796638&widgetType=HTML&widgetId=HTML5&action=editWidget&sectionId=main1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML5"));' target='configHTML5' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+<!-- google_ad_section_start(name=default) -->
+
+          <div class="date-outer">
+        
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='990625701267506014'></a>
+<h2 class='entry-title'>
+<a href='http://www.indonesia-zsolt72.blogspot.com/2014/09/daylight.html' rel='bookmark' title='Permalink to Daylight'>Daylight</a>
+</h2>
+<div class='entry-meta'>
+<span class='meta-sep'> | </span>
+<span class='meta-prep meta-prep-entry-date'>Published </span><span class='entry-date'><a href='http://www.indonesia-zsolt72.blogspot.com/2014/09/daylight.html' title='2014-09-26T22:39:00+02:00'>Friday, September 26, 2014</a></span>
+</div>
+<div class='entry-content' id='post-body-990625701267506014'>
+<p><div xmlns='http://www.w3.org/1999/xhtml'><img style='max-width:586px;' src='https://gp1.wac.edgecastcdn.net/806614/photos/photos.500px.net/56638776/6978bc6a51e5e006289b3269df238542473e0b3a/4.jpg'/><br/><br /><div>Indonesia via http://500px.com/photo/56638776</div><br /></div>
+<div style='clear: both;'></div>
+</p>
+</div>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1310265387'>
+<a href='http://www.blogger.com/post-edit.g?blogID=7951901804003796638&postID=990625701267506014&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=7951901804003796638&postID=990625701267506014&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=7951901804003796638&postID=990625701267506014&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=7951901804003796638&postID=990625701267506014&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=7951901804003796638&postID=990625701267506014&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://indonesia-zsolt72.blogspot.com/2014/09/daylight.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+<span class='post-location'>
+</span>
+<div class='entry-utility'>
+<span class='cat-links'><span class='entry-utility-prep entry-utility-prep-cat-links'>Posted in </span>
+<a href='http://www.indonesia-zsolt72.blogspot.com/search/label/Indonesia' rel='tag' title='View all posts in Indonesia'>Indonesia</a>
+</span><span class='meta-sep'> | </span>
+</div>
+</div>
+</div>
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='2146930317608657574'></a>
+<h2 class='entry-title'>
+<a href='http://www.indonesia-zsolt72.blogspot.com/2014/09/silent-beach.html' rel='bookmark' title='Permalink to Silent Beach'>Silent Beach</a>
+</h2>
+<div class='entry-meta'>
+</div>
+<div class='entry-content' id='post-body-2146930317608657574'>
+<p><div xmlns='http://www.w3.org/1999/xhtml'><img style='max-width:586px;' src='https://gp1.wac.edgecastcdn.net/806614/photos/photos.500px.net/14515889/0fc65a77827d99f4ecf4c36ae46e7dad65f39a55/4.jpg'/><br/><br /><div>Indonesia via http://500px.com/photo/14515889</div><br /></div>
+<div style='clear: both;'></div>
+</p>
+</div>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1310265387'>
+<a href='http://www.blogger.com/post-edit.g?blogID=7951901804003796638&postID=2146930317608657574&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=7951901804003796638&postID=2146930317608657574&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=7951901804003796638&postID=2146930317608657574&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=7951901804003796638&postID=2146930317608657574&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=7951901804003796638&postID=2146930317608657574&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://indonesia-zsolt72.blogspot.com/2014/09/silent-beach.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+<span class='post-location'>
+</span>
+<div class='entry-utility'>
+<span class='cat-links'><span class='entry-utility-prep entry-utility-prep-cat-links'>Posted in </span>
+<a href='http://www.indonesia-zsolt72.blogspot.com/search/label/Indonesia' rel='tag' title='View all posts in Indonesia'>Indonesia</a>
+</span><span class='meta-sep'> | </span>
+</div>
+</div>
+</div>
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='5987585690683171852'></a>
+<h2 class='entry-title'>
+<a href='http://www.indonesia-zsolt72.blogspot.com/2014/09/sunlight.html' rel='bookmark' title='Permalink to Sunlight..'>Sunlight..</a>
+</h2>
+<div class='entry-meta'>
+</div>
+<div class='entry-content' id='post-body-5987585690683171852'>
+<p><div xmlns='http://www.w3.org/1999/xhtml'><img style='max-width:586px;' src='https://gp1.wac.edgecastcdn.net/806614/photos/photos.500px.net/53976776/092e1ef92861fb23b2c8c9dfe77fd9687baf0b18/4.jpg'/><br/><br /><div>Indonesia via http://500px.com/photo/53976776</div><br /></div>
+<div style='clear: both;'></div>
+</p>
+</div>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1310265387'>
+<a href='http://www.blogger.com/post-edit.g?blogID=7951901804003796638&postID=5987585690683171852&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=7951901804003796638&postID=5987585690683171852&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=7951901804003796638&postID=5987585690683171852&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=7951901804003796638&postID=5987585690683171852&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=7951901804003796638&postID=5987585690683171852&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://indonesia-zsolt72.blogspot.com/2014/09/sunlight.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+<span class='post-location'>
+</span>
+<div class='entry-utility'>
+<span class='cat-links'><span class='entry-utility-prep entry-utility-prep-cat-links'>Posted in </span>
+<a href='http://www.indonesia-zsolt72.blogspot.com/search/label/Indonesia' rel='tag' title='View all posts in Indonesia'>Indonesia</a>
+</span><span class='meta-sep'> | </span>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+<!-- google_ad_section_end -->
+</div>
+<div class='clear'></div>
+<div class='navigation' id='nav-below'>
+<div class='nav-previous'>
+<a class='blog-pager-older-link' href='http://www.indonesia-zsolt72.blogspot.com/search?updated-max=2014-09-26T21:33:00%2B02:00&amp;max-results=3' id='Blog1_blog-pager-older-link' title='Older Posts'>&#8592; Older Posts</a>
+</div>
+</div>
+<div class='clear'></div>
+<script type="text/javascript">window.___gcfg = {'lang': 'en'};</script>
+</div></div>
+</div><!-- #content -->
+</div><!-- #container -->
+<div class='aside primary-aside widget-area' id='primary'>
+<div class='widget'>
+<h2>Search</h2>
+<script>var value2 = "To search, type and hit enter";</script>
+<form action='http://www.indonesia-zsolt72.blogspot.com/search/' method='get'>
+<div id='searchform'>
+<label for='s'>Search</label>
+<input class='keyword' name='q' onblur='if(this.value==&#39;&#39;)this.value=value2;' onfocus='if(this.value==value2)this.value=&#39;&#39;;' type='text' value='To search, type and hit enter'/>
+</div>
+</form>
+</div>
+<div class='section' id='sidebar'><div class='widget HTML' id='HTML4'>
+<div class='widget-content'>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- breathtakingsmall -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8962728053297248"
+     data-ad-slot="1623633717"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=7951901804003796638&widgetType=HTML&widgetId=HTML4&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML4"));' target='configHTML4' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget PopularPosts' id='PopularPosts1'>
+<h2>Popular Posts</h2>
+<div class='widget-content popular-posts'>
+<ul>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://www.indonesia-zsolt72.blogspot.com/2009/12/bmw-in-jakarta.html' target='_blank'>
+<img alt='' border='0' height='72' src='http://farm3.static.flickr.com/2791/4197520036_a08185f471_t.jpg' width='72'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.indonesia-zsolt72.blogspot.com/2009/12/bmw-in-jakarta.html'>BMW in Jakarta</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-title'><a href='http://www.indonesia-zsolt72.blogspot.com/2006/10/jakarta-airport.html'>Jakarta airport</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-title'><a href='http://www.indonesia-zsolt72.blogspot.com/2012/01/cewek-indonesia-yang-paling-banyak.html'>Cewek Indonesia yang paling banyak dicari di Google...</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://www.indonesia-zsolt72.blogspot.com/2008/12/indonesian-guy-from-sulawsi.html' target='_blank'>
+<img alt='' border='0' height='72' src='http://farm4.static.flickr.com/3182/3079731427_c7038f055b_t.jpg' width='72'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.indonesia-zsolt72.blogspot.com/2008/12/indonesian-guy-from-sulawsi.html'>Indonesian guy from Sulawsi</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://www.indonesia-zsolt72.blogspot.com/2008/03/stick-insects.html' target='_blank'>
+<img alt='' border='0' height='72' src='http://farm3.static.flickr.com/2087/2238256419_66bf0f0846_t.jpg' width='72'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.indonesia-zsolt72.blogspot.com/2008/03/stick-insects.html'>Stick insects</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://www.indonesia-zsolt72.blogspot.com/2007/05/models.html' target='_blank'>
+<img alt='' border='0' height='72' src='http://farm1.static.flickr.com/22/28225836_25e88735e9_t.jpg' width='72'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.indonesia-zsolt72.blogspot.com/2007/05/models.html'>Models</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://www.indonesia-zsolt72.blogspot.com/2008/09/hug-me-mom.html' target='_blank'>
+<img alt='' border='0' height='72' src='http://farm4.static.flickr.com/3283/2866929229_f85fc67b65_t.jpg' width='72'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.indonesia-zsolt72.blogspot.com/2008/09/hug-me-mom.html'>Hug me mom..!</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://www.indonesia-zsolt72.blogspot.com/2009/04/mal-taman-anggrek-jakarta.html' target='_blank'>
+<img alt='' border='0' height='72' src='http://farm4.static.flickr.com/3663/3465286849_60615dbf98_t.jpg' width='72'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.indonesia-zsolt72.blogspot.com/2009/04/mal-taman-anggrek-jakarta.html'>Mal Taman Anggrek, Jakarta</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://www.indonesia-zsolt72.blogspot.com/2008/02/palu-bridge.html' target='_blank'>
+<img alt='' border='0' height='72' src='http://farm3.static.flickr.com/2006/2202592857_40d4a2e717_t.jpg' width='72'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.indonesia-zsolt72.blogspot.com/2008/02/palu-bridge.html'>Palu Bridge</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://www.indonesia-zsolt72.blogspot.com/2007/04/sculptures.html' target='_blank'>
+<img alt='' border='0' height='72' src='http://farm1.static.flickr.com/244/455714618_8bbbf2354e_t.jpg' width='72'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.indonesia-zsolt72.blogspot.com/2007/04/sculptures.html'>Sculptures</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=7951901804003796638&widgetType=PopularPosts&widgetId=PopularPosts1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("PopularPosts1"));' target='configPopularPosts1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</div><!-- #primary .widget-area -->
+</div><!-- .wrapper -->
+</div><!-- #main -->
+<div id='footer'>
+<div class='wrapper'>
+<div class='aside' id='footer-widgets'>
+<div class='widget-area' id='footer-1'>
+<div class='section' id='footer1'></div>
+</div><!-- #footer-widgets-1 .widget-area -->
+<div class='widget-area' id='footer-2'>
+<div class='section' id='footer2'></div>
+</div><!-- #footer-widgets-2 .widget-area -->
+<div class='widget-area' id='footer-3'>
+<div class='section' id='footer3'></div>
+</div><!-- #footer-widgets-3 .widget-area -->
+</div><!-- #footer-widgets -->
+</div><!-- .wrapper -->
+</div><!-- #footer -->
+</div><!-- #wrapper -->
+<!-- Do Not Remove Our Link On Footer Template. Please Respect Our Work. Thank You. -->
+<div id='site-info'>
+<p>Swedish Greys - a <a href='http://wordpress.org'>WordPress</a> theme from <a href='http://nordicthemepark.com'>Nordic Themepark</a>. Converted by <a href='http://www.litethemes.com' target='_blank' title='LiteThemes.com'>LiteThemes.com</a>.</p>
+</div><!-- #site-info -->
+<!-- Do Not Remove Our Link On Footer Template. Please Respect Our Work. Thank You. -->
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2271878333-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV2";window['blogger_blog_id'] = '7951901804003796638';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d7951901804003796638','//www.indonesia-zsolt72.blogspot.com/','7951901804003796638');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '7951901804003796638', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Indonesia', 'pageType': 'index', 'url': 'http://www.indonesia-zsolt72.blogspot.com/', 'canonicalUrl': 'http://indonesia-zsolt72.blogspot.com/', 'canonicalHomepageUrl': 'http://indonesia-zsolt72.blogspot.com/', 'homepageUrl': 'http://www.indonesia-zsolt72.blogspot.com/', 'blogspotFaviconUrl': 'http://www.indonesia-zsolt72.blogspot.com/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget': false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName': '', 'pageTitle': 'Indonesia', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Indonesia - Atom\42 href\75\42http://indonesia-zsolt72.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Indonesia - RSS\42 href\75\42http://indonesia-zsolt72.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42Indonesia - Atom\42 href\75\42http://www.blogger.com/feeds/7951901804003796638/posts/default\42 /\76\n', 'meTag': '', 'openIdOpTag': '\74link rel\75\42openid.server\42 href\75\42http://www.blogger.com/openid-server.g\42 /\76\n\74link rel\75\42openid.delegate\42 href\75\42http://indonesia-zsolt72.blogspot.com/\42 /\76\n', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var b\75window,f\75\42chrome\42,g\75\42tick\42,k\75\42jstiming\42;(function(){function d(a){this.t\75{};this.tick\75function(a,d,c){var e\75void 0!\75c?c:(new Date).getTime();this.t[a]\75[e,d];if(void 0\75\75c)try{b.console.timeStamp(\42CSI/\42+a)}catch(h){}};this[g](\42start\42,null,a)}var a;b.performance\46\46(a\75b.performance.timing);var n\75a?new d(a.responseStart):new d;b.jstiming\75{Timer:d,load:n};if(a){var c\75a.navigationStart,h\75a.responseStart;0\74c\46\46h\76\75c\46\46(b[k].srt\75h-c)}if(a){var e\75b[k].load;0\74c\46\46h\76\75c\46\46(e[g](\42_wtsrt\42,void 0,c),e[g](\42wtsrt_\42,\42_wtsrt\42,h),e[g](\42tbsd_\42,\42wtsrt_\42))}try{a\75null,\nb[f]\46\46b[f].csi\46\46(a\75Math.floor(b[f].csi().pageT),e\46\0460\74c\46\46(e[g](\42_tbnd\42,void 0,b[f].csi().startE),e[g](\42tbnd_\42,\42_tbnd\42,c))),null\75\75a\46\46b.gtbExternal\46\46(a\75b.gtbExternal.pageT()),null\75\75a\46\46b.external\46\46(a\75b.external.pageT,e\46\0460\74c\46\46(e[g](\42_tbnd\42,void 0,b.external.startE),e[g](\42tbnd_\42,\42_tbnd\42,c))),a\46\46(b[k].pt\75a)}catch(p){}})();b.tickAboveFold\75function(d){var a\0750;if(d.offsetParent){do a+\75d.offsetTop;while(d\75d.offsetParent)}d\75a;750\76\75d\46\46b[k].load[g](\42aft\42)};var l\75!1;function m(){l||(l\75!0,b[k].load[g](\42firstScrollTime\42))}b.addEventListener?b.addEventListener(\42scroll\42,m,!1):b.attachEvent(\42onscroll\42,m);\n })();\74/script\076', 'mobileHeadScript': '', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script type\75\42text/javascript\42 src\75\42https://www.blogger.com/static/v1/jsbin/3204238090-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/76f25a6f2e06af76', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n'}}, {'name': 'skin', 'data': {'vars': {}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'main1', null, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main1', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/2838879091-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/2392111094-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList9', 'pages', null, document.getElementById('PageList9'), {'title': 'Pages - Menu', 'links': [{'href': 'http://www.indonesia-zsolt72.blogspot.com/', 'title': 'Home', 'isCurrentPage': true}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebar', null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts1', 'sidebar', null, document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header1', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+</script>
+</body>
+</html>

@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en-US"
+ xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>PzFeed </title>
+
+<meta name='robots' content='noindex,follow' />
+<link rel="alternate" type="application/rss+xml" title="PzFeed &raquo; Feed" href="http://pzfeed.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="PzFeed &raquo; Comments Feed" href="http://pzfeed.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="PzFeed &raquo; Home Comments Feed" href="http://pzfeed.com/sample-page/feed/" />
+<!-- This site is powered by Shareaholic - https://shareaholic.com -->
+<script type='text/javascript' data-cfasync='false'>
+  //<![CDATA[
+    (function() {
+      var shr = document.createElement('script');
+      shr.setAttribute('data-cfasync', 'false');
+      shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+      shr.type = 'text/javascript'; shr.async = 'true';
+      shr.onload = shr.onreadystatechange = function() {
+        var rs = this.readyState;
+        if (rs && rs != 'complete' && rs != 'loaded') return;
+        var site_id = 'bd4caff2a7af9dfa7e5a805a521536ee';
+        var page_config = {"apps":{"share_buttons":{"get_share_counts":  function(url, services, cb) {
+    Shareaholic.Utils.ajax({
+      cache: true,
+      cache_ttl: '1 minute',
+      url: 'http://pzfeed.com/wp-admin/admin-ajax.php',
+      data: { action: 'shareaholic_share_counts_api', url: url, services: services },
+      success: function(res) {
+        if(res && res.data) {
+          cb(res.data, true);
+        }
+      }
+    })
+  }}}};
+        try { Shareaholic.init(site_id, page_config); } catch (e) {}
+      };
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(shr, s);
+    })();
+  //]]>
+</script>
+
+<!-- Shareaholic Content Tags -->
+<meta name='shareaholic:site_name' content='PzFeed' />
+<meta name='shareaholic:language' content='en-US' />
+<meta name='shareaholic:site_id' content='bd4caff2a7af9dfa7e5a805a521536ee' />
+<meta name='shareaholic:wp_version' content='7.6.0.1' />
+
+<!-- Shareaholic Content Tags End -->
+<!-- AL2FB CSS -->
+<style type="text/css" media="screen">
+.al2fb_widget_comments { }
+.al2fb_widget_comments li { }
+.al2fb_widget_picture { width: 32px; height: 32px; }
+.al2fb_widget_name { }
+.al2fb_widget_comment { }
+.al2fb_widget_date { font-size: smaller; }</style>
+<link rel='stylesheet' id='al2fb_style-css'  href='http://pzfeed.com/wp-content/plugins/add-link-to-facebook/add-link-to-facebook.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://pzfeed.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='mashsb-styles-css'  href='http://pzfeed.com/wp-content/plugins/mashsharer/templates/mashsb.min.css?ver=2.0.8' type='text/css' media='all' />
+<style type='text/css'>
+
+        .mashsb-count {
+        color: #cccccc;
+       
+        }.mashsb-box .mashsb-count {
+display: block !important;
+</style>
+<link rel='stylesheet' id='siteorigin-panels-front-css'  href='http://pzfeed.com/wp-content/plugins/siteorigin-panels/css/front.css?ver=1.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='symple_shortcode_styles-css'  href='http://pzfeed.com/wp-content/plugins/symple-shortcodes/includes/css/symple_shortcodes_styles.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mashresp-styles-css'  href='http://pzfeed.com/wp-content/plugins/mashshare-responsive/assets/css/mashresp.min.css?ver=2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='reset-css'  href='http://pzfeed.com/wp-content/themes/artikulo/css/reset.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='grids-css'  href='http://pzfeed.com/wp-content/themes/artikulo/css/grid.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawsome-css'  href='http://pzfeed.com/wp-content/themes/artikulo/css/font-awsome/css/font-awesome.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='slicknav-css'  href='http://pzfeed.com/wp-content/themes/artikulo/css/slicknav.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='main-menu-css'  href='http://pzfeed.com/wp-content/themes/artikulo/css/nav-menu.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='hover-effect-css'  href='http://pzfeed.com/wp-content/themes/artikulo/css/hover-effects.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='cute-slider-css'  href='http://pzfeed.com/wp-content/themes/artikulo/css/cute-slider.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css'  href='http://pzfeed.com/wp-content/themes/artikulo/css/flexslider.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='entry-css'  href='http://pzfeed.com/wp-content/themes/artikulo/css/entry.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://pzfeed.com/wp-content/themes/artikulo/css/style.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce_overwrite-css'  href='http://pzfeed.com/wp-content/themes/artikulo/css/woocommerce.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='http://pzfeed.com/wp-content/themes/artikulo/css/responsive.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='http://pzfeed.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='really_simple_share_style-css'  href='http://pzfeed.com/wp-content/plugins/really-simple-facebook-twitter-share-buttons/style.css?ver=4.0' type='text/css' media='all' />
+<script type='text/javascript' src='//cdn.adjs.net/publisher.ad.min.js?ver=4.0'></script>
+<script type='text/javascript' src='http://pzfeed.com/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://pzfeed.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mashsb = {"shares":"170","round_shares":"1","animate_shares":"0","share_url":"http:\/\/pzfeed.com\/","title":"Home","image":null,"desc":"National News\t\n\nView All\n\n\n\n\n\n800 Rounds of Ammunition, Two Hatchets And A Machete Found In Car of White House Fence Jumper\n\n21 mins ago\nNo Comments\n\nThe man accused of jumping the White House fence and rushing through the front \u2026","hashtag":"&via=PzFeed","subscribe":"content","subscribe_url":"","activestatus":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://pzfeed.com/wp-content/plugins/mashsharer/assets/js/mashsb.min.js?ver=2.0.8'></script>
+<script type='text/javascript' src='http://pzfeed.com/wp-content/plugins/mashshare-networks/assets/js/mashnet.min.js?ver=2.0.3'></script>
+<script type='text/javascript' src='http://pzfeed.com/wp-content/themes/artikulo/js/easytabs.min.js?ver=4.0'></script>
+<script type='text/javascript' src='http://pzfeed.com/wp-content/themes/artikulo/js/fitvids.js?ver=4.0'></script>
+<script type='text/javascript' src='http://pzfeed.com/wp-content/themes/artikulo/js/modernizr.js?ver=4.0'></script>
+<script type='text/javascript' src='http://pzfeed.com/wp-content/themes/artikulo/js/cute/cute.slider.js?ver=4.0'></script>
+<script type='text/javascript' src='http://pzfeed.com/wp-content/themes/artikulo/js/cute/cute.transitions.all.js?ver=4.0'></script>
+<script type='text/javascript' src='http://pzfeed.com/wp-content/themes/artikulo/js/respond.min.js?ver=4.0'></script>
+<script type='text/javascript' src='http://pzfeed.com/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.4.8'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://pzfeed.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://pzfeed.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.0" />
+<link rel='canonical' href='http://pzfeed.com/' />
+<link rel='shortlink' href='http://pzfeed.com/' />
+<!-- Start AL2FB OGP -->
+<meta property="og:title" content="Home" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="http://pzfeed.com/?al2fb_image=1" />
+<meta property="og:url" content="http://pzfeed.com/" />
+<meta property="og:site_name" content="PzFeed" />
+<meta property="og:description" content="National News	
+
+View All
+
+
+
+
+
+800 Rounds of Ammunition, Two Hatchets And A Machete Found In Car of White House Fence Jumper
+
+21 mins ago
+No Comments
+
+The man accused of jumping the White House fence and rushing through the front entrance
+
+
+
+‘Flood Wall Str" />
+<meta property="fb:app_id" content="705867636170568" />
+<meta property="og:locale" content="en_US" />
+<!-- End AL2FB OGP -->
+
+<script type="text/javascript"><!--
+var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:false,script_load:function(){var a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='http://static.addtoany.com/menu/page.js';s.parentNode.insertBefore(a,s);wpa2a.script_load=function(){};},script_onready:function(){if(a2a.type=='page'){wpa2a.script_ready=true;if(wpa2a.html_done)wpa2a.init();}},init:function(){for(var i=0,el,target,targets=wpa2a.targets,length=targets.length;i<length;i++){el=document.getElementById('wpa2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el){a2a.init('page',{target:el});el.id='';}wpa2a.done=true;}wpa2a.targets=[];}};a2a_config.tracking_callback=['ready',wpa2a.script_onready];
+a2a_config.onclick=1;
+a2a_config.show_title=1;
+//--></script>
+<meta property="fb:app_id" content="705867636170568"/>
+<meta property="fb:admins" content=""/>
+<script>
+Cute.ModuleLoader.css3d_files    =  ['http://pzfeed.com/wp-content/themes/artikulo/js/cute/cute.css3d.module.js'];
+Cute.ModuleLoader.canvas_files  =  ['http://pzfeed.com/wp-content/themes/artikulo/js/cute/cute.canvas.module.js'];
+Cute.ModuleLoader.dom2d_files  =  ['http://pzfeed.com/wp-content/themes/artikulo/js/cute/cute.2d.module.js'];
+</script><style type="text/css" media="all">
+
+a:hover{ color:#d9d9ce; }
+
+.header-container{ background:#d9d9ce; }
+.header-social a{ color:#d9d9ce; }
+.single-title h6 a:hover{ color:#d9d9ce; }
+.sidebar-item li a:hover{ color:#d9d9ce; }
+.tagcloud a{ background:#d9d9ce; }
+.copyright a{ text-decoration:none; color:#d9d9ce }
+.rating-bar span{ background:#d9d9ce; }
+.footer-container #wp-calendar a{ color:#d9d9ce; }
+
+
+.woopage a.button:hover, button.button:hover, input.button:hover, #review_form #submit:hover,
+.woopage .entry-summary button.single_add_to_cart_button:hover,
+.woocommerce a.alt.button, .woocommerce button.alt.button:hover,
+.woocommerce input.alt.button:hover,
+.woocommerce #respond input.alt#submit:hover,
+.woocommerce #content input.alt.button:hover,
+.woocommerce-page a.alt.button:hover,
+.woocommerce-page button.alt.button:hover,
+.woocommerce-page input.alt.button:hover,
+.woocommerce-page #respond input.alt#submit:hover,
+.woocommerce-page #content input.alt.button:hover,
+.woocommerce-page .actions .button:hover,
+.woocommerce-page .shipping_calculator .button:hover,
+.woocommerce-page a.pay:hover,
+.woocommerce-page a.cancel:hover,
+.woocommerce-page a.view:hover,
+.woocommerce-page .login .button:hover,
+.woocommerce-page .woocommerce input.button:hover{
+	background:#d9d9ce;
+}
+
+.woocommerce .address a:hover{ background:#d9d9ce; color:#FFFFFF; }
+
+</style><style type="text/css" media="all">
+
+.header-social a:hover{ background:#eb564b }
+.tagcloud a{ background:#eb564b; color:#FFFFFF }
+.tab.active { background:#eb564b; }
+.post-tags a:hover{ background:#eb564b; }
+.post-categories a:hover{ background:#eb564b; }
+#comment-submit{ background:#eb564b; }
+.comment-pagination a{ background:#eb564b; }
+.pagination li a:hover{ background:#eb564b; }
+.star-ratings i.fa-star{ color:#eb564b; }
+.star-ratings-list i.fa-star{ color:#eb564b; }
+.entry .wpcf7-submit{ background:#eb564b; }
+
+/* Hover */
+.sf-menu li:hover,
+.sf-menu li.sfHover{ background:#eb564b }
+.sf-menu li a:hover{ background:#eb564b }
+
+/* Active or Current Nav menu */
+.sf-menu li.current a{ background:#eb564b; }
+.sf-menu li.current-menu-item a{ background:#eb564b; }
+
+
+.br-next:hover , .br-previous:hover{ background-color: #eb564b; }
+.br-slideinfo .info1 .cute-readmore{ background:#eb564b; }
+
+.flex-direction-nav .flex-prev:hover{ background-color:#eb564b; }
+.flex-direction-nav .flex-next:hover{ background-color:#eb564b; }
+
+</style><style type="text/css" media="all">
+
+body{
+	background:url() no-repeat center center fixed #d9d9ce;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+</style><style type="text/css" media="all">#pg-2-0 , .panel-grid-cell .panel { margin-bottom: 30px } #pgc-2-1-0 , #pgc-2-1-1 { width:50% } #pg-2-1 .panel-grid-cell { float:left } .panel-grid-cell .panel:last-child { margin-bottom: 0 !important } .panel-grid { margin: 0 -15px 0 -15px } .panel-grid-cell { padding: 0 15px 0 15px } @media (max-width:780px) { #pg-2-0 .panel-grid-cell , #pg-2-1 .panel-grid-cell { float:none } #pg-2-0 .panel-grid-cell , #pg-2-1 .panel-grid-cell { width:auto } #pgc-2-1-0 { margin-bottom:30px } .panel-grid { margin-left: 0 !important; margin-right: 0 !important; } .panel-grid-cell { padding: 0 !important; }  } </style><!-- Google Analytics Tracking by Google Analyticator 6.4.8: http://www.videousermanuals.com/google-analyticator/ -->
+<script type="text/javascript">
+    var analyticsFileTypes = [''];
+    var analyticsSnippet = 'enabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+  
+	_gaq.push(['_setAccount', 'UA-50456709-2']);
+    _gaq.push(['_addDevId', 'i9k95']); // Google Analyticator App ID with Google
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+</head>
+
+<body class="home page page-id-2 page-template-default siteorigin-panels siteorigin-panels-home">
+
+<div class="sf-responsive"></div>
+
+
+<!-- Header -->
+<div class="header-container">
+
+<!-- Menu Container -->
+<div class="container">
+
+<!-- Start Logo -->
+<div class="grid-3 logo">
+<a href="http://pzfeed.com/">
+	<img src="http://pzfeed.com/wp-content/uploads/2014/09/pzf1-e1410475719748.png" alt="logo">
+</a>
+</div>
+<!-- End Logo -->
+
+<!-- Nav Menu -->
+<div class="grid-2-3">
+
+		
+</div>
+<!-- End Nav Menu -->
+
+<div class="clear"></div>
+</div>
+<div class="spacing-80"></div>
+<!-- Menu Container -->
+
+<!-- Search and social icons -->
+<div class="container">
+
+<div class="grid-2-3 blog-spacer"></div>
+
+<!-- Header Social Icon -->
+<div class="grid-3">
+    <ul class="header-social">
+	        <li><a href="http://www.facebook.com/PzFeed"><i class="fa fa-facebook-square"></i></a>
+        </li>
+                
+                <li><a href="http://www.twitter.com/PzFeed"><i class="fa fa-twitter"></i></a>
+        </li>
+                
+                <li><a href="http://www.google.com"><i class="fa fa-google-plus"></i></a>
+        </li>
+                
+                <li><a href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a>
+        </li>
+                
+                <li><a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a>
+        </li>
+                
+                <li><a href="http://pzfeed.com/feed/rss/"><i class="fa fa-rss"></i></a>
+        </li>
+            </ul>
+
+<div class="clear"></div>
+</div>
+<!-- End Header Social Icon -->
+
+<div class="clear"></div>
+</div>
+<!-- End Search and Social Icons -->
+</div>
+<!-- End Header -->
+
+<!-- Wrapper -->
+<div class="container">
+
+<!-- Blog Container -->
+<div class="grid-2-3 blog-wrapper">
+<div class="blog-container">
+   
+    <!-- Single Title -->
+    <div class="page-title">
+    <h6>Home</h6>
+    </div>
+    <!-- End Single Title -->
+   	
+    <div class="entry">
+		<div class="panel-grid" id="pg-2-0" ><div class="panel-grid-cell" id="pgc-2-0-0" ><div class="panel widget widget_siteorigin-panels-image panel-first-child" id="panel-2-0-0-0"><a href="http://pzfeed.com/flood-wall-street-protesters-to-risk-arrest-at-new-york-climate-change-sit-in/"><img src="http://pzfeed.com/wp-content/uploads/2014/09/ByJ51lZIgAEqc62.jpg" /></a></div><div class="panel widget widget_artikulo_layout_two_column" id="panel-2-0-0-1">
+<div class="title-bar">
+National News	<a href="http://pzfeed.com/category/national/">
+    <div>
+    <p>View All</p>
+    <span></span>
+    </div>
+    <i class="fa fa-arrow-circle-o-right"></i>
+    </a>
+</div>
+
+
+	<!-- Two Column -->
+    <div class="two-column">
+	    
+    <!-- Start One Half -->
+    <div class="one-half first hideme">
+    
+    <div class="thumb-container"><a href="http://pzfeed.com/inmate-escapes-southern-illinois-correctional-facility/"><img width="300" height="150" src="http://pzfeed.com/wp-content/uploads/2014/09/mug-300x150.jpg" class="post-thumbnail wp-post-image" alt="" /></a></div>    
+    <!-- Single Title -->
+    <div class="single-title">
+    <h6><a href="http://pzfeed.com/inmate-escapes-southern-illinois-correctional-facility/">Inmate Escapes Southern Illinois Correctional Facility</a></h6>
+    </div>
+    <!-- End Single Title -->
+    
+  <div class="stats">
+  <span><i class="fa fa-clock-o"></i>4 days ago</span>
+  <span><i class="fa fa-comments"></i>No Comments</span>
+  <div class="clear"></div>
+  </div>
+    
+    <p>An inmate escaped Tuesday afternoon from a southern Illinois prison, officials said.
+Marcus Battice (buh-TEES'), 21,</p>
+    
+    </div>
+	<!-- End One Half -->
+    
+    
+        
+    
+		    
+    <!-- Start One Half -->
+    <div class="one-half last hideme">
+    
+    <div class="thumb-container"><a href="http://pzfeed.com/anger-renewed-as-fire-destroys-michael-brown-memorial-in-ferguson/"><img width="300" height="150" src="http://pzfeed.com/wp-content/uploads/2014/09/ap-300x150.jpg" class="post-thumbnail wp-post-image" alt="A fire burns Tuesday, Sept. 23, 2014 at a memorial in Ferguson, Mo., on the site where a Missouri police officer fatally shot 18-year-old Michael Brown. Ferguson Police Chief Tom Jackson says the cause is under investigation. He says the first officer to arrive tried to extinguish the blaze but couldn&#039;t. The Fire Department eventually put it out. (AP Photo/Jacob Crawford)" /></a></div>    
+    <!-- Single Title -->
+    <div class="single-title">
+    <h6><a href="http://pzfeed.com/anger-renewed-as-fire-destroys-michael-brown-memorial-in-ferguson/">Anger Renewed As Fire Destroys Michael Brown Memorial In Ferguson</a></h6>
+    </div>
+    <!-- End Single Title -->
+    
+  <div class="stats">
+  <span><i class="fa fa-clock-o"></i>4 days ago</span>
+  <span><i class="fa fa-comments"></i>No Comments</span>
+  <div class="clear"></div>
+  </div>
+    
+    <p>Anger spilled over Tuesday after fire destroyed one of two memorials on the street where</p>
+    
+    </div>
+	<!-- End One Half -->
+    
+    
+        <div class="clear"></div>
+	<div class="spacing-20"></div>
+	    
+    
+		    
+    <!-- Start One Half -->
+    <div class="one-half first hideme">
+    
+    <div class="thumb-container"><a href="http://pzfeed.com/father-injects-son-with-heroin-at-hospital/"><img width="300" height="150" src="http://pzfeed.com/wp-content/uploads/2014/09/9-23-aaron-york-H_22435-300x150.jpg" class="post-thumbnail wp-post-image" alt="" /></a></div>    
+    <!-- Single Title -->
+    <div class="single-title">
+    <h6><a href="http://pzfeed.com/father-injects-son-with-heroin-at-hospital/">Father Injects Son With Heroin At Hospital</a></h6>
+    </div>
+    <!-- End Single Title -->
+    
+  <div class="stats">
+  <span><i class="fa fa-clock-o"></i>4 days ago</span>
+  <span><i class="fa fa-comments"></i>No Comments</span>
+  <div class="clear"></div>
+  </div>
+    
+    <p>A father is accused of injecting his son with heroin while at the hospital, 
+
+Greenville</p>
+    
+    </div>
+	<!-- End One Half -->
+    
+    
+        
+    
+		    
+    <!-- Start One Half -->
+    <div class="one-half last hideme">
+    
+    <div class="thumb-container"><a href="http://pzfeed.com/bin-laden-son-in-law-sentenced-to-life-in-prison/"><img width="300" height="150" src="http://pzfeed.com/wp-content/uploads/2014/09/Bin-Laden-Spokesman-1-300x150.jpg" class="post-thumbnail wp-post-image" alt="In this March 19, 2014 courtroom sketch Osama bin Laden&#039;s son-in-law, Sulaiman Abu Ghaith, right, testifies at his trial in New York, on charges he conspired to kill Americans and aid Al Qaeda as a spokesman for the terrorist group. (AP photo)" /></a></div>    
+    <!-- Single Title -->
+    <div class="single-title">
+    <h6><a href="http://pzfeed.com/bin-laden-son-in-law-sentenced-to-life-in-prison/">Bin Laden Son-In-Law Sentenced To Life In Prison</a></h6>
+    </div>
+    <!-- End Single Title -->
+    
+  <div class="stats">
+  <span><i class="fa fa-clock-o"></i>4 days ago</span>
+  <span><i class="fa fa-comments"></i>No Comments</span>
+  <div class="clear"></div>
+  </div>
+    
+    <p>Defiant to the end, Osama bin Laden's son-in-law was sentenced Tuesday to life in prison</p>
+    
+    </div>
+	<!-- End One Half -->
+    
+    
+        <div class="clear"></div>
+	<div class="spacing-20"></div>
+	    
+    
+			<div class="clear"></div>
+    </div>
+    <!-- End Two Column -->
+
+</div><div class="panel widget widget_artikulo_layout_two_column" id="panel-2-0-0-2">
+<div class="title-bar">
+World News	<a href="http://pzfeed.com/category/world/">
+    <div>
+    <p>View All</p>
+    <span></span>
+    </div>
+    <i class="fa fa-arrow-circle-o-right"></i>
+    </a>
+</div>
+
+
+	<!-- Two Column -->
+    <div class="two-column">
+	    
+    <!-- Start One Half -->
+    <div class="one-half first hideme">
+    
+    <div class="thumb-container"><a href="http://pzfeed.com/syrian-man-live-tweets-isis-bombing-before-pentagon-confirms-bombing/"><img width="235" height="150" src="http://pzfeed.com/wp-content/uploads/2014/09/3cgvnooz-235x150.jpeg" class="post-thumbnail wp-post-image" alt="" /></a></div>    
+    <!-- Single Title -->
+    <div class="single-title">
+    <h6><a href="http://pzfeed.com/syrian-man-live-tweets-isis-bombing-before-pentagon-confirms-bombing/">Syrian Man Live-Tweets ISIS Bombing Before Pentagon Confirms Bombing</a></h6>
+    </div>
+    <!-- End Single Title -->
+    
+  <div class="stats">
+  <span><i class="fa fa-clock-o"></i>4 days ago</span>
+  <span><i class="fa fa-comments"></i>No Comments</span>
+  <div class="clear"></div>
+  </div>
+    
+    <p>A Syrian man has become an internet sensation after he live-tweeted news of the US</p>
+    
+    </div>
+	<!-- End One Half -->
+    
+    
+        
+    
+		    
+    <!-- Start One Half -->
+    <div class="one-half last hideme">
+    
+    <div class="thumb-container"><a href="http://pzfeed.com/pentagon-releases-video-stockpile-showing-syria-strikes/"><img width="300" height="150" src="http://pzfeed.com/wp-content/uploads/2014/09/ByL2HklIAAA8gJ_-300x150.jpg" class="post-thumbnail wp-post-image" alt="" /></a></div>    
+    <!-- Single Title -->
+    <div class="single-title">
+    <h6><a href="http://pzfeed.com/pentagon-releases-video-stockpile-showing-syria-strikes/">Pentagon Releases Video Stockpile Showing Syria Strikes</a></h6>
+    </div>
+    <!-- End Single Title -->
+    
+  <div class="stats">
+  <span><i class="fa fa-clock-o"></i>4 days ago</span>
+  <span><i class="fa fa-comments"></i>No Comments</span>
+  <div class="clear"></div>
+  </div>
+    
+    <p>U.S. Central Command posted three videos on its YouTube page showing combat footage of U.S.</p>
+    
+    </div>
+	<!-- End One Half -->
+    
+    
+        <div class="clear"></div>
+	<div class="spacing-20"></div>
+	    
+    
+		    
+    <!-- Start One Half -->
+    <div class="one-half first hideme">
+    
+    <div class="thumb-container"><a href="http://pzfeed.com/u-s-and-arab-states-launches-airstrikes-against-isis-in-syria-operations-underway/"><img width="300" height="150" src="http://pzfeed.com/wp-content/uploads/2014/08/image2-300x150.jpg" class="post-thumbnail wp-post-image" alt="Reuters photo" /></a></div>    
+    <!-- Single Title -->
+    <div class="single-title">
+    <h6><a href="http://pzfeed.com/u-s-and-arab-states-launches-airstrikes-against-isis-in-syria-operations-underway/">U.S. And Arab States Launches Airstrikes Against ISIS In Syria; Operations Underway</a></h6>
+    </div>
+    <!-- End Single Title -->
+    
+  <div class="stats">
+  <span><i class="fa fa-clock-o"></i>5 days ago</span>
+  <span><i class="fa fa-comments"></i>No Comments</span>
+  <div class="clear"></div>
+  </div>
+    
+    <p><strong>UPDATE: At least 70 ISIS militants killed and more than 300 were wounded in last</p>
+    
+    </div>
+	<!-- End One Half -->
+    
+    
+        
+    
+		    
+    <!-- Start One Half -->
+    <div class="one-half last hideme">
+    
+    <div class="thumb-container"><a href="http://pzfeed.com/more-than-100-isis-fighters-estimated-to-be-in-u-s-officials-say/"><img width="300" height="150" src="http://pzfeed.com/wp-content/uploads/2014/09/reuters1-300x150.jpg" class="post-thumbnail wp-post-image" alt="Reuters" /></a></div>    
+    <!-- Single Title -->
+    <div class="single-title">
+    <h6><a href="http://pzfeed.com/more-than-100-isis-fighters-estimated-to-be-in-u-s-officials-say/">More Than 100 ISIS Fighters Estimated To Be In U.S., officials say</a></h6>
+    </div>
+    <!-- End Single Title -->
+    
+  <div class="stats">
+  <span><i class="fa fa-clock-o"></i>5 days ago</span>
+  <span><i class="fa fa-comments"></i>No Comments</span>
+  <div class="clear"></div>
+  </div>
+    
+    <p>The National Counterterrorism Center estimates some-more than 100 Americans who enlisted in ISIS or other</p>
+    
+    </div>
+	<!-- End One Half -->
+    
+    
+        <div class="clear"></div>
+	<div class="spacing-20"></div>
+	    
+    
+			<div class="clear"></div>
+    </div>
+    <!-- End Two Column -->
+
+</div><div class="panel widget widget_artikulo_layout_two_column panel-last-child" id="panel-2-0-0-3">
+<div class="title-bar">
+Technology News	<a href="http://pzfeed.com/category/technology/">
+    <div>
+    <p>View All</p>
+    <span></span>
+    </div>
+    <i class="fa fa-arrow-circle-o-right"></i>
+    </a>
+</div>
+
+
+	<!-- Two Column -->
+    <div class="two-column">
+	    
+    <!-- Start One Half -->
+    <div class="one-half first hideme">
+    
+    <div class="thumb-container"><a href="http://pzfeed.com/iranian-judge-gives-government-30-days-to-block-all-social-media/"><img width="300" height="150" src="http://pzfeed.com/wp-content/uploads/2014/09/de3d09564c03a9724f3362607080-1-300x150.jpg" class="post-thumbnail wp-post-image" alt="" /></a></div>    
+    <!-- Single Title -->
+    <div class="single-title">
+    <h6><a href="http://pzfeed.com/iranian-judge-gives-government-30-days-to-block-all-social-media/">Iranian Judge Gives Government 30 Days To Block All Social Media</a></h6>
+    </div>
+    <!-- End Single Title -->
+    
+  <div class="stats">
+  <span><i class="fa fa-clock-o"></i>4 days ago</span>
+  <span><i class="fa fa-comments"></i>No Comments</span>
+  <div class="clear"></div>
+  </div>
+    
+    <p>(Reuters) Iran's hardline judiciary has given the government one month to block WhatsApp and other</p>
+    
+    </div>
+	<!-- End One Half -->
+    
+    
+        
+    
+		    
+    <!-- Start One Half -->
+    <div class="one-half last hideme">
+    
+    <div class="thumb-container"><a href="http://pzfeed.com/iphone-6-and-iphone-6-plus-drop-test/"><img width="300" height="150" src="http://pzfeed.com/wp-content/uploads/2014/09/Screenshot_2014-09-19-11-33-32-1-300x150.png" class="post-thumbnail wp-post-image" alt="Screenshot_2014-09-19-11-33-32-1" /></a></div>    
+    <!-- Single Title -->
+    <div class="single-title">
+    <h6><a href="http://pzfeed.com/iphone-6-and-iphone-6-plus-drop-test/">iPhone 6 And iPhone 6 Plus Drop Test</a></h6>
+    </div>
+    <!-- End Single Title -->
+    
+  <div class="stats">
+  <span><i class="fa fa-clock-o"></i>1 week ago</span>
+  <span><i class="fa fa-comments"></i>3 Comments</span>
+  <div class="clear"></div>
+  </div>
+    
+    <p>A man does a drop test on the all new iPhone 6 and iPhone 6</p>
+    
+    </div>
+	<!-- End One Half -->
+    
+    
+        <div class="clear"></div>
+	<div class="spacing-20"></div>
+	    
+    
+			<div class="clear"></div>
+    </div>
+    <!-- End Two Column -->
+
+</div></div></div><div class="panel-grid" id="pg-2-1" ><div class="panel-grid-cell" id="pgc-2-1-0" ><div class="panel widget widget_artikulo_layout_list panel-first-child panel-last-child" id="panel-2-1-0-0">
+	<!-- List -->
+    <div class="list">
+    
+        
+		<div class="clear"></div>
+    </div>
+    <div class="spacing-20"></div>
+    <!-- List -->
+
+</div></div><div class="panel-grid-cell" id="pgc-2-1-1" ><div class="panel widget widget_artikulo_layout_list panel-first-child panel-last-child" id="panel-2-1-1-0">
+	<!-- List -->
+    <div class="list">
+    
+        
+		<div class="clear"></div>
+    </div>
+    <div class="spacing-20"></div>
+    <!-- List -->
+
+</div></div></div>	    <div class="clear"></div>
+    </div>
+   
+	</div>
+</div>
+<!-- End Blog Container -->
+
+
+	<!-- Start Widget -->
+    <!-- Widget Container -->
+<div class="grid-3">
+    <div class="sidebar-container">
+    <div class="sidebar-item"><h6 class="widget-title">Like PzFeed on Facebook</h6><div class="sidebar-item-container">			<div class="textwidget"><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FPzFeed&amp;width&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:290px;" allowTransparency="true"></iframe></div>
+		<div class="clear"></div></div></div><div class="sidebar-item"><a class="twitter-timeline" data-widget-id="498540456918003714" href="https://twitter.com/" PzFeed data-border-color="#e8e8e8" width="340" height="400" data-theme="light" data-link-color="#f96e5b" >Tweets von @"PzFeed"</a><div class="clear"></div></div></div><div class="sidebar-item">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-7762778097661206"
+     data-ad-slot="4416976577"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		<div class="clear"></div></div></div><div class="sidebar-item">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 4 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:320px;height:50px"
+     data-ad-client="ca-pub-7762778097661206"
+     data-ad-slot="1228007770"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		<div class="clear"></div></div></div>	</div>
+</div>
+<!-- End Widget Container -->    <!-- End Widget -->
+
+<div class="clear"></div>
+</div>
+<!-- End Wrapper -->
+
+
+<div class="clear"></div>
+<div class="spacing-40"></div>
+
+    <!-- Footer Widgets -->
+    <!-- Footer Container -->
+<div class="footer-container">
+<div class="container">
+
+<div class="grid-3"><div class="sidebar-item"><h6 class="widget-title">Tag cloud</h6><div class="tagcloud"><a href='http://pzfeed.com/tag/afghanistan/' class='tag-link-37' title='1 topic' >Afghanistan</a>
+<a href='http://pzfeed.com/tag/airport/' class='tag-link-48' title='2 topics' >Airport</a>
+<a href='http://pzfeed.com/tag/apple/' class='tag-link-50' title='1 topic' >Apple</a>
+<a href='http://pzfeed.com/tag/aviation/' class='tag-link-30' title='1 topic' >Aviation</a>
+<a href='http://pzfeed.com/tag/casino/' class='tag-link-39' title='1 topic' >Casino</a>
+<a href='http://pzfeed.com/tag/drone/' class='tag-link-41' title='1 topic' >Drone</a>
+<a href='http://pzfeed.com/tag/ebola/' class='tag-link-24' title='1 topic' >Ebola</a>
+<a href='http://pzfeed.com/tag/emergency-landing/' class='tag-link-46' title='1 topic' >Emergency Landing</a>
+<a href='http://pzfeed.com/tag/google/' class='tag-link-42' title='1 topic' >Google</a>
+<a href='http://pzfeed.com/tag/iphone/' class='tag-link-51' title='1 topic' >iPhone</a>
+<a href='http://pzfeed.com/tag/isis/' class='tag-link-20' title='10 topics' >ISIS</a>
+<a href='http://pzfeed.com/tag/journalist/' class='tag-link-21' title='1 topic' >Journalist</a>
+<a href='http://pzfeed.com/tag/kabul/' class='tag-link-36' title='1 topic' >Kabul</a>
+<a href='http://pzfeed.com/tag/live-tweets/' class='tag-link-54' title='1 topic' >Live-Tweets</a>
+<a href='http://pzfeed.com/tag/lockdown/' class='tag-link-49' title='1 topic' >Lockdown</a>
+<a href='http://pzfeed.com/tag/march/' class='tag-link-52' title='1 topic' >March</a>
+<a href='http://pzfeed.com/tag/mass-shooting/' class='tag-link-47' title='2 topics' >Mass Shooting</a>
+<a href='http://pzfeed.com/tag/mayoral-race/' class='tag-link-28' title='1 topic' >Mayoral Race</a>
+<a href='http://pzfeed.com/tag/media/' class='tag-link-38' title='1 topic' >Media</a>
+<a href='http://pzfeed.com/tag/navy/' class='tag-link-29' title='1 topic' >Navy</a>
+<a href='http://pzfeed.com/tag/nypd/' class='tag-link-44' title='2 topics' >NYPD</a>
+<a href='http://pzfeed.com/tag/plane-crash/' class='tag-link-31' title='1 topic' >Plane Crash</a>
+<a href='http://pzfeed.com/tag/prison-escape/' class='tag-link-26' title='4 topics' >Prison Escape</a>
+<a href='http://pzfeed.com/tag/protest/' class='tag-link-53' title='2 topics' >Protest</a>
+<a href='http://pzfeed.com/tag/school-shooting/' class='tag-link-25' title='1 topic' >School Shooting</a>
+<a href='http://pzfeed.com/tag/suicide-bomb/' class='tag-link-35' title='1 topic' >Suicide Bomb</a>
+<a href='http://pzfeed.com/tag/syria/' class='tag-link-19' title='2 topics' >Syria</a>
+<a href='http://pzfeed.com/tag/tech/' class='tag-link-16' title='1 topic' >Tech</a>
+<a href='http://pzfeed.com/tag/terrorism/' class='tag-link-45' title='1 topic' >Terrorism</a>
+<a href='http://pzfeed.com/tag/toronto/' class='tag-link-27' title='1 topic' >Toronto</a>
+<a href='http://pzfeed.com/tag/ups/' class='tag-link-40' title='2 topics' >UPS</a>
+<a href='http://pzfeed.com/tag/wildfire/' class='tag-link-43' title='2 topics' >Wildfire</a>
+<a href='http://pzfeed.com/tag/yahoo/' class='tag-link-23' title='1 topic' >Yahoo</a></div>
+<div class="clear"></div></div></div>
+<div class="grid-3"><div class="sidebar-item"><h6 class="widget-title">Contact Us</h6>			<div class="textwidget">To leave us a comment, tip, suggestion or if you want to advertise on PzFeed: tips@PzFeed.com</div>
+		<div class="clear"></div></div></div>
+<div class="grid-3"><div class="sidebar-item">			<div class="textwidget"><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50456709-1', 'auto');
+  ga('send', 'pageview');
+
+</script></div>
+		<div class="clear"></div></div></div>
+
+<div class="clear"></div>
+</div>
+</div>
+<!-- End Footer Container -->
+    <!-- End Footer Widgets -->
+
+<!-- Copyright Container -->
+<div class="copyright">
+    <div class="container">
+        <div class="full-width">
+        <p>Copyright © PzFeed 2014. All Rights Reserved</p>
+        </div>
+    </div>
+</div>
+<!-- End Copyright Container -->
+
+
+<script type="text/javascript"><!--
+wpa2a.targets=[];
+wpa2a.html_done=true;if(wpa2a.script_ready&&!wpa2a.done)wpa2a.init();wpa2a.script_load();
+//--></script>
+<script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">var pageTracker = _gat._getTracker("UA-50456709-1");pageTracker._trackPageview();</script>		<!-- Advertising Manager v3.4.28 (0.166 seconds.) -->
+<script type='text/javascript' src='http://platform.twitter.com/widgets.js?ver=4.0'></script>
+<script type='text/javascript' src='http://pzfeed.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/pzfeed.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://pzfeed.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.9.3'></script>
+<script type='text/javascript' src='http://pzfeed.com/wp-content/themes/artikulo/js/jquery.flexslider.js?ver=1'></script>
+<script type='text/javascript' src='http://pzfeed.com/wp-content/themes/artikulo/js/fadescroll.js?ver=1'></script>
+<script type='text/javascript' src='http://pzfeed.com/wp-content/themes/artikulo/js/jquery.slicknav.js?ver=1'></script>
+<script type='text/javascript' src='http://pzfeed.com/wp-content/themes/artikulo/js/jflickrfeed.min.js?ver=1'></script>
+<script type='text/javascript' src='http://pzfeed.com/wp-content/themes/artikulo/js/script.js?ver=1'></script>
+<!-- Facebook Comments Plugin for WordPress: http://peadig.com/wordpress-plugins/facebook-comments/ -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=705867636170568&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<style>
+.entry iframe {
+width: 100%;
+}
+</style>
+</body>
+</html>

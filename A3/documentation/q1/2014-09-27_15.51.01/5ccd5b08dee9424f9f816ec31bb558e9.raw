@@ -1,0 +1,1398 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--
+  ==========================================================================
+   ____                     ___       __  __
+  /\  _`\  __              /\_ \     /\ \/\ \          __
+  \ \ \L\ \\_\  __  _    __\//\ \    \ \ \ \ \    ___ /\_\    ___    ___
+   \ \ ,__//\ \/\ \/'\ /'__`\\ \ \    \ \ \ \ \ /' _ `\/\ \  / __`\/' _ `\
+    \ \ \/ \ \ \/>  <//\  __/ \_\ \_   \ \ \_\ \/\ \/\ \ \ \/\ \L\ \\ \/\ \
+     \ \_\  \ \_\\_/\_\ \____\/\____\   \ \_____\ \_\ \_\ \_\ \____/ \_\ \_\
+      \/_/   \/_///\/_/\/____/\/____/    \/_____/\/_/\/_/\/_/\/___/ \/_/\/_/
+  ==========================================================================
+    The Minimalist v1.2.0
+    Website: http://pixelunion.net
+    Themes: http://www.pixelunion.net/themes
+  ==========================================================================
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+     <title>YourAnonCentral</title>
+     <meta name="description" content="News, Analysis, Action" />
+     <meta name="if:Show description" content="1" />
+     <meta name="if:Show search" content="1" />
+     <meta name="text:Twitter name" content="" />
+     <meta name="text:Disqus Shortname" content="" />
+     <meta name="text:Google Analytics ID" content="" />
+     <link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_0114312586ab_128.png" />
+     <link rel="alternate" type="application/rss+xml" title="YourAnonCentral" href="http://youranoncentral.tumblr.com/rss" />
+
+<!-- Styles -->
+
+<link rel="stylesheet" href="http://static.tumblr.com/f1whv92/Mp9l6ewcg/reset.css" />
+<style type="text/css">
+
+/*----- GENERAL -----*/
+
+     header, footer, section, article, nav, aside {
+        display: block;
+     }
+
+     body {
+        background: #ffffff;
+        color: #222;
+        font: 12px/20px Georgia, "Times New Roman", Times, serif;
+        padding-top: 25px;
+        text-align: center;
+        width:500px;
+        margin: 0 auto;
+     }
+
+     h1, h2, h3, hQ {
+        font-family: Cufon;
+     }
+
+     h1 {
+        font-size: 50px;
+        line-height: 50px;
+     }
+
+     h2 {
+        font-size: 31px;
+        line-height: 37px;
+     }
+
+     h3 {
+        font-size: 21px;
+        line-height: 27px;
+     }
+
+     a:link, a:visited {
+        color: #222222;
+        font-weight: bold;
+        text-decoration: none;
+     }
+
+     a:hover, a:active {
+        text-decoration: underline;
+     }
+
+     hr{
+        border:0 #ccc solid;
+        border-top-width:1px;
+        clear:both;
+        height:0;
+     }
+
+     ol{list-style:decimal}
+
+     ul{list-style:disc}
+
+     li{margin-left:30px}
+
+     p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset{margin-bottom:15px}
+
+     #main {
+        padding: 0px;
+     }
+
+/*----- MASTHEAD -----*/
+
+     .noMeta > div {
+        padding: 0px;
+     }
+
+     #masthead {
+        margin-bottom: 0px;
+     }
+
+     #masthead h1 {
+        margin-bottom: 0;
+     }
+
+     #masthead h1 a:link, #masthead h1 a:visited {
+        text-transform: Uppercase;
+        color: #222;
+        text-decoration: none;
+     }
+
+     #masthead h1 a:active {
+        outline: 0;
+     }
+
+     #masthead p {
+        font-family: Georgia, serif;
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 0;
+     }
+
+     #masthead a:link, #masthead a:visited {
+        color: #fff;
+     }
+
+     #siteDescription{
+        font-size: 13px;
+        color: #222;
+        text-transform: Uppercase;
+        border-top: 1px solid #222;
+        margin-top: 20px;
+        margin-bottom: -5px;
+        padding: 10px 0 0 0;
+        font-family: Cufon;
+     }
+
+/*----- SEARCH FORM -----*/
+
+     #frmSearch {
+        padding-top: 20px;
+        display: none;
+     }
+
+     #txtSearch {
+        background: url(http://static.tumblr.com/bpryy0m/6lRl6gmys/search.jpg) left no-repeat;
+        width: 225px;
+        padding: 2px 0 0 20px;
+        font: 12px/12px Georgia, "Times New Roman", Times, serif;
+        color: #222;
+        border: 0px;
+     }
+
+/*----- MAIN HEADER NAV STRIP -----*/
+
+     #mainNav {
+        border-top: 1px solid #222;
+        border-bottom: 2px solid #222;
+        margin-top: 20px;
+        padding: 13px 0 14px 0;
+        font-family: Cufon;
+     }
+
+     #mainNav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+     }
+
+     #mainNav li {
+        margin: 5px;
+        display: inline;
+        padding: 0;
+     }
+
+     #mainNav a:link, #mainNav a:visited {
+        padding: 0;
+        font-size: 14px;
+        line-height: 14px;
+        margin: 0 2px;
+        text-decoration: none;
+        color: #222;
+        text-transform: Uppercase;
+     }
+
+     #mainNav a:hover, #mainNav a:active {
+        outline: none;
+        text-decoration: none;
+        border-bottom: 1px solid #222;
+     }
+
+     #mainNav a.active {
+        text-decoration: none;
+        border-bottom: 1px solid #222;
+     }
+
+/*----- ARTICLE META INFO -----*/
+
+     #designline {
+        margin-top: 50px;
+     }
+
+     h5{
+        position: relative;
+        top: -35px;
+        margin-bottom: 0px;
+        font-family: Georgia, serif;
+        font-size: 10px;
+        color: #bca474;
+        text-decoration: none;
+        text-transform: Uppercase;
+        font-weight: bold;
+        border-bottom: 1px solid #bca474;
+        background: #fff;
+     }
+
+     h5 a:link, .line a:visited{
+        font-family: Georgia, serif;
+        font-size: 10px;
+        color: #bca474;
+        text-decoration: none;
+        text-transform: Uppercase;
+        font-weight: bold;
+     }
+
+     h5 a:hover{
+        text-decoration: underline;
+     }
+
+     h5 abbr{
+        display: inline-block;
+        position: relative;
+        margin: 0 auto;
+        padding: 0 8px;
+        background: #fff;
+        top: 10px;
+     }
+
+     h5.postDate a{
+        color: #bca474;
+     }
+
+/*----- ARTICLE -----*/
+
+     article {
+        background: #fff;
+        margin-bottom: 20px;
+        text-align: left;
+       position: relative;
+      }
+
+     article img {
+        border: none;
+        margin-bottom: 15px;
+        max-width: 500px;
+     }
+
+     article p img {
+        margin: 0;
+     }
+     article > div {
+        padding: 0px;
+        overflow: hidden;
+     }
+     article .searchPage {
+        margin: 35px 0 0 0;
+     }
+
+     .searchPageText {
+        margin: 0 0 30px 0;
+     }
+
+     article .meta a:link, article .meta a:visited {
+        text-decoration: none;
+     }
+
+     article .meta a:hover, article .meta a:active {
+        text-decoration: underline;
+     }
+
+     article h2 {
+        text-align: center;
+        color: #222222;
+     }
+
+     article h2 a:link, article h2 a:visited {
+        text-transform: Uppercase;
+        color: #222;
+        text-decoration: none;
+     }
+
+     article h2 a:hover, article h2 a:active {
+        text-decoration: none;
+        border-bottom: 1px solid #222;
+     }
+
+     blockquote {
+        border-left: 2px solid #bca474;
+        margin-left: 0;
+        padding-left: 1em;
+     }
+
+     #quoteSource{
+        margin: 0 auto;
+        text-align: left;
+     }
+
+     #quoteText h2 {
+        text-align: left;
+        color: #222222;
+     }
+
+     article .chat {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+     }
+
+     article .chat li {
+        margin: 0 0 2px;
+        padding: 2px 0 2px 0;
+     }
+
+     .photoCaption {
+        text-align: center;
+     }
+
+/*----- AUDIO PLAYER -----*/
+
+     .audio {
+        height: 28px;
+        width: 26px;
+        overflow: hidden;
+        margin: auto;
+        padding-top: 7px;
+     }
+
+     .audioc {
+        background-image:url('http://static.tumblr.com/f1whv92/9iCl6bfgp/audiocircle.png');
+        background-repeat: no-repeat;
+        height: 41px;
+        width: 41px;
+     }
+
+     .audioCaption {
+        margin-top: 1px;
+     }
+
+     .audioleft {
+        width: 41px;
+        float: left;
+      }
+
+     .audioright {
+        width: 444px;
+        float: right;
+      }
+
+     .audioContainer {
+        margin-top: 5px;
+     }
+
+     .audioClear {
+        clear:both;
+     }
+
+/*----- ARTICLE NOTES -----*/
+
+     .notes {
+        border-top: 1px solid #bca474;
+        list-style: none;
+        padding: 20px 0 5px 0;
+        margin: 30px 0 0 0;
+     }
+     .notes li {
+        margin: 0;
+     }
+
+     .notes .avatar {
+        margin: 0 5px 0 0;
+        position: relative;
+        top: 5px;
+     }
+
+     .notes blockquote {
+        margin: 10px 0 0 35px;
+        padding-left: 10px;
+        border-left: 2px solid #222222;
+     }
+
+     .media {
+        width: 500px;
+        margin-bottom: 20px;
+     }
+
+/*----- PAGE NAVIGATION -----*/
+
+     #pageNav {
+        margin-top: 20px;
+        border-top: 1px solid #222;
+     }
+
+     #pageNav ul {
+        list-style: none;
+        padding: 10px 15px;
+        margin: 10px 0;
+     }
+
+     #pageNav li {
+        margin: 0;
+        display: inline;
+     }
+
+     #pageNav a:link, #pageNav a:visited {
+        font: 11px Georgia, "Times New Roman", Times, serif;
+        padding: 0;
+        margin: 0 2px;
+        background: #34hdf5;
+        color: #222;
+        text-decoration: none;
+     }
+
+     #pageNav a:hover, #pageNav a:active, #pageNav a.active:link, #pageNav a.active:visited {
+        text-decoration: underline;
+     }
+
+     #pageNavOlder:after {
+        content: "\0020\00BB";
+        font-size: 10px;
+     }
+
+     #pageNavNewer:before {
+        content: "\00AB\0020";
+     }
+
+/*----- FOOTER META -----*/
+
+     #sitemeta {
+        border-top: 2px solid #222;
+        color: #222;
+        padding: 20px 0 32px 0;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 11px;
+     }
+
+     #sitemeta p {
+        margin: 0;
+     }
+
+     #sitemeta a:link, #sitemeta a:visited {
+        color: #222;
+        font-weight: bold;
+     }
+
+
+</style>
+
+<!-- Scripts -->
+
+<!--[if IE]>
+     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+     <script src="http://static.tumblr.com/oawavkn/JPAlyq9zp/cufon-yui.js" type="text/javascript"></script>
+     <script src="http://static.tumblr.com/f1whv92/fgIl65bo1/cufon_300.font.js" type="text/javascript"></script>
+
+     <script type="text/javascript">
+        Cufon.replace('h1',{ fontFamily: "Cufon" });
+        Cufon.replace('h2',{ fontFamily: "Cufon" });
+        Cufon.replace('h3',{ fontFamily: "Cufon" });
+        Cufon.replace('#mainNav',{ fontFamily: "Cufon" });
+        Cufon.replace('#siteDescription',{ fontFamily: "Cufon" });
+     </script>
+
+<script>
+     $(function() {
+        var search = $("#txtSearch").val();
+        var placeholder = "Search...";
+        var fadeToOpacity = 0.4;
+        $("#txtSearch").fadeTo("normal", fadeToOpacity);
+        if (search == "") {
+     $("#txtSearch").val(placeholder);
+     }
+     $("#txtSearch").blur(function() {
+        search = $("#txtSearch").val();
+        if (!(search != "" && search != placeholder)) {
+        $("#txtSearch").val(placeholder);
+     }
+     $("#txtSearch").fadeTo("normal", fadeToOpacity);
+     });
+     $("#txtSearch").focus(function() {
+        search = $("#txtSearch").val();
+        if (search == placeholder) {
+        $("#txtSearch").val("");
+     }
+     $("#txtSearch").fadeTo("normal", 1);
+     });
+     $("#btnSearch").click(function() {
+     $("#frmSearch").slideToggle("normal");
+     $(this).toggleClass("active");
+ //  $("#txtSearch").focus();
+     });
+     });
+</script>
+
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=youranoncentral" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="refugees,Calais,WarCrimes,france,Israel" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="YourAnonCentral" /><meta property="og:url" content="http://youranoncentral.tumblr.com/?og=1" /><meta property="og:description" content="News, Analysis, Action" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_0114312586ab_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=youranoncentral" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=youranoncentral" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="youranoncentral" /><meta name="twitter:description" content=" News, Analysis, Action  " /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=youranoncentral&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=youranoncentral&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=youranoncentral&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+
+     <header id="masthead" class="clearfix">
+        <div id="thehead">
+              <h1 class="cufon"><a href="/">YourAnonCentral</a></h1>
+              <form action="/search" method="get" id="frmSearch">
+              <input type="text" id="txtSearch" name="q" value="" />
+              </form>
+
+     
+        <div id="siteDescription">News, Analysis, Action</div>
+     
+
+           <nav id="mainNav">
+              
+              <li><a href="/CrossPlatform%20"> Facebook / Youtube</a></li>
+              
+              <li><a href="/ask">Ask</a></li>
+              
+              <li><a href="/archive">Archive</a></li>
+              <li><a href="/random">Random</a></li>
+              <li><a href="http://youranoncentral.tumblr.com/rss">RSS</a></li>
+              <li><a href="javascript:;" id="btnSearch">Search</a></li>
+              
+              <li><a href="http://twitter.com/YourAnonCentral">Twitter</a></li>
+              
+           </nav>
+        </div>
+     </header>
+
+     <section id="main" class="clearfix">
+     <div class="layout">
+     
+
+     
+
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://youranoncentral.tumblr.com/post/97578973169/kashmirfloods-information-package">15th Sep 2014</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+              <h2><a href="http://youranoncentral.tumblr.com/post/97578973169/kashmirfloods-information-package">#KashmirFloods Information Package</a></h2>
+              
+<div id="magicdomid16"><strong><span class="author-a-b3z122zz89zxz81z8lz69z9z75zoz70zz76zv8">In the last few days Kashmir has been devastated by floods &amp; death.</span></strong></div>
+<div>
+<span class="author-a-b3z122zz89zxz81z8lz69z9z75zoz70zz76zv8"><em><span class="author-a-b3z122zz89zxz81z8lz69z9z75zoz70zz76zv8">(</span></em></span><span class="author-a-b3z122zz89zxz81z8lz69z9z75zoz70zz76zv8"><em><span class="author-a-b3z122zz89zxz81z8lz69z9z75zoz70zz76zv8">paste</span></em></span><strong><span class="author-a-b3z122zz89zxz81z8lz69z9z75zoz70zz76zv8"><em><span class="author-a-b3z122zz89zxz81z8lz69z9z75zoz70zz76zv8">:</span></em></span></strong><span class="author-a-b3z122zz89zxz81z8lz69z9z75zoz70zz76zv8"><span class="author-a-b3z122zz89zxz81z8lz69z9z75zoz70zz76zv8"> http://</span></span><span class="author-a-b3z122zz89zxz81z8lz69z9z75zoz70zz76zv8"><span class="author-a-b3z122zz89zxz81z8lz69z9z75zoz70zz76zv8">pastebin.com/BqhSNx2g )</span></span>
+</div>
+<div></div>
+<div>
+<img alt="image" src="https://31.media.tumblr.com/f470f49a82b886146040d3578e151577/tumblr_inline_nbyf7kgiEL1swblj5.jpg"><p></p>
+</div>
+<p class="read_more_container"><a href="http://youranoncentral.tumblr.com/post/97578973169/kashmirfloods-information-package" class="read_more">Read More</a></p>
+           
+
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://youranoncentral.tumblr.com/post/96846635614/solidarite-avec-les-migrants-de-calais-sep-5-7">6th Sep 2014</a> | <a href="http://youranoncentral.tumblr.com/post/96846635614/solidarite-avec-les-migrants-de-calais-sep-5-7#notes">1 note</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+              <h2><a href="http://youranoncentral.tumblr.com/post/96846635614/solidarite-avec-les-migrants-de-calais-sep-5-7">Solidarite avec les migrants de Calais!: SEP 5-7 Weekend of Antifascist resistance.</a></h2>
+              <p>There is no place for fascists in Calais. We will resist this neo-nazi rally. We will resist the recent wave of fascist street attacks. But with possibly hundreds of neonazis arriving, we cannot do this alone. We call on antifascists from across France, and across Europe, to join us for a gathering of solidarity through the weekend of 5-7 September.</p>
+<p>We need your support to shut down ‘Sauvons Calais’ demo. We need your support to help defend homes and meeting places under attack. We also want to invite musicians, film-makers, and others to come and join us to make an international festival of resistance! From 1940 to 2014, French people and immigrants from all over the world have repeatedly united to defeat nazism. We want to celebrate this tradition with action, and also with events such as concerts, film-showings, discussions and more. We welcome all proposals and expressions of solidarity in the coming days.</p>
+<p><img alt="image" src="http://media.tumblr.com/d617db65724db6a2863ef3293a0f8fbe/tumblr_inline_nbii60DXKY1swblj5.jpg"/></p>
+
+<p>READ: http://calaismigrantsolidarity.wordpress.com/2014/08/21/sep-5-7-weekend-of-antifascist-resistanceweekend-de-resistance-anti-fasciste-a-calais/ </p>
+<p>READ: https://tahriricn.wordpress.com/2014/09/05/france-weekend-of-anti-fascist-resistance-in-calais-5-7-september-and-defence-of-migrant-squats/</p>
+           
+
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://youranoncentral.tumblr.com/post/96844305499/france-calais-refugees-hold-demo-against-police">6th Sep 2014</a> | <a href="http://youranoncentral.tumblr.com/post/96844305499/france-calais-refugees-hold-demo-against-police#notes">2 notes</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+              <h2><a href="http://youranoncentral.tumblr.com/post/96844305499/france-calais-refugees-hold-demo-against-police">France: Calais refugees hold demo against police violence as the far-right closes in.</a></h2>
+              <p>Refugees claim to have experienced an increase in the number of physical attacks by French police in the past week and say that they have no confidence that they will protect them when a far right anti-immigration group marches in Calais on Sunday. &#8221;In the last weeks many of us had to face a lot of police violence,&#8221; said one of the migrants, whose identity was not disclosed. &#8220;Some of us got broken hands and others broken legs and even some got hurt their heads,&#8221; they said.</p>
+<p><img alt="image" src="http://media.tumblr.com/1bd30b51a8a35b4b6e993e99daa1d1a4/tumblr_inline_nbih07Ka6W1swblj5.jpg"/></p>
+
+<p>Read: <a href="http://www.channel4.com/news/calais-migrants-hold-demonstration-as-far-right-closes-in">http://www.channel4.com/news/calais-migrants-hold-demonstration-as-far-right-closes-in</a></p>
+           
+
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://youranoncentral.tumblr.com/post/96843724569/the-refugee-crisis-in-calais-shows-the-eus-failure-to">6th Sep 2014</a> | <a href="http://youranoncentral.tumblr.com/post/96843724569/the-refugee-crisis-in-calais-shows-the-eus-failure-to#notes">3 notes</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+              <h2><a href="http://youranoncentral.tumblr.com/post/96843724569/the-refugee-crisis-in-calais-shows-the-eus-failure-to">The Refugee crisis in Calais shows the EU&rsquo;s failure to see the big picture.</a></h2>
+              <p><span><span>A scene both horrifying and heartening is unfolding across the Channel in Calais. There are hundreds of tired, hungry young men in makeshift camps, skulking in corners, massing with intent, playing a dangerous, occasionally violent game of cat and mouse with the authorities. Given the slightest chance, they will squeeze themselves into cars and airless lorries. Just this week more than 200, from the 1,200 in the vicinity, attempted to storm a passenger ferry. No plan is too outlandish, no wheeze too risky. Anything to get to Britain.</span></span></p>
+<p><span>The world is getting richer, but also more unequal.</span></p>
+<p><img src="http://media.tumblr.com/20c03df23150feafe2c40137c9db975f/tumblr_inline_nbigi0RxTR1swblj5.jpg"/></p>
+
+<p> <img src="http://media.tumblr.com/b02d5735f3ba05c71841f2086dce88f7/tumblr_inline_nbigkjhZlF1swblj5.jpg"/></p>
+
+<p>Read: <a href="http://gu.com/p/4xaqd/tw">http://gu.com/p/4xaqd/tw</a>   </p>
+           
+
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://youranoncentral.tumblr.com/post/96842775744/israel-reverse-illegal-plans-for-westbank-will-amount">6th Sep 2014</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+              <h2><a href="http://youranoncentral.tumblr.com/post/96842775744/israel-reverse-illegal-plans-for-westbank-will-amount">Israel: Reverse Illegal Plans for WestBank, will amount to war crime.</a></h2>
+              <p>Israel<span> should immediately reverse its illegal appropriation of a large swath of land in the occupied West Bank south of Jerusalem, Human Rights Watch said today. The appropriation, announced on September 1, 2014, paves the way for substantial settlement construction near the West Bank town of Bethlehem. Transferring civilian settlers into occupied territory would amount to a war crime.</span></p>
+<p><span><img src="http://media.tumblr.com/b01265ce889afecee1701ffdd4445733/tumblr_inline_nbig51Oa5G1swblj5.jpg"/></span></p>
+
+<p><span>FRead: http://www.hrw.org/news/2014/09/03/israel-reverse-illegal-plans-west-bank</span></p>
+           
+
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://youranoncentral.tumblr.com/post/96842233434/icymi-us-fast-food-workers-strike-nationwide-demand">6th Sep 2014</a> | <a href="http://youranoncentral.tumblr.com/post/96842233434/icymi-us-fast-food-workers-strike-nationwide-demand#notes">2 notes</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+              <h2><a href="http://youranoncentral.tumblr.com/post/96842233434/icymi-us-fast-food-workers-strike-nationwide-demand">ICYMI: US fast food workers strike nationwide, demand living wages.</a></h2>
+              <p>Fast-food workers and activists protested in more than 100 cities across the country demanding higher wages and better working conditions. The protests are the latest in a series of actions over the past few years aimed at calling attention to the plight of fast-food workers, who typically earn near the minimum wage and are subject to erratic schedules.</p>
+<p><img src="http://media.tumblr.com/929db05362e32e182751ad304b91286f/tumblr_inline_nbifneGhDu1swblj5.jpg"/></p>
+
+<p><img src="http://media.tumblr.com/56d225943e8677f8a0310b357f0cc46e/tumblr_inline_nbifhy4Tdz1swblj5.jpg"/></p>
+<p><img src="http://media.tumblr.com/883b911ddc2d72e6c83b851f1803ad23/tumblr_inline_nbifi2VflG1swblj5.jpg"/></p>
+<p><img src="http://media.tumblr.com/0bfbeaf9c4d4116fbeec0fd76031fe0d/tumblr_inline_nbifi5j7qk1swblj5.jpg"/></p>
+<p><img src="http://media.tumblr.com/2f10de957b5ca85dc5d4a48cedda940f/tumblr_inline_nbifi8Tv6R1swblj5.jpg"/></p>
+
+<p>Read: <span><a href="http://t.co/vZ38ZoX3Fn">http://t.co/vZ38ZoX3Fn</a> |</span> http://t.co/GfgAXRYX2u | http://t.co/vPZAo8tcdK | http://t.co/7zn1VvYtSW</p>
+           
+
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://youranoncentral.tumblr.com/post/96840401174/fred-ritchin-why-violent-news-images-matter">6th Sep 2014</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+              <h2><a href="http://youranoncentral.tumblr.com/post/96840401174/fred-ritchin-why-violent-news-images-matter">Fred Ritchin: Why Violent News Images Matter</a></h2>
+              <p><span>A recent slew of situations resulting in catastrophic violence and death, including the Israel-Gaza war, the armed expansion of the Islamic State, the downing of a Malaysian Airlines plane in the Ukraine, the ongoing conflict in Syria, and also the spread of the Ebola virus, has led to a renewed debate as to what kinds of imagery media outlets should be expected to show.</span></p>
+<p><img src="http://media.tumblr.com/0bae3f561eecd296f9a540c32b72c6fb/tumblr_inline_nbieklcOes1swblj5.jpg"/></p>
+
+<p>Read more: <a href="http://lightbox.time.com/2014/09/02/violent-news-images-matter-fred-ritchin/#ixzz3CanV78kQ">Why Violent News Images Matter - LightBox</a> <a href="http://lightbox.time.com/2014/09/02/violent-news-images-matter-fred-ritchin/#ixzz3CanV78kQ">http://lightbox.time.com/2014/09/02/violent-news-images-matter-fred-ritchin/#ixzz3CanV78kQ</a></p>
+<p><span> </span></p>
+           
+
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://youranoncentral.tumblr.com/post/96632225239/from-taiwan-broad-support-for-democracy-in-hongkong">4th Sep 2014</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+              <h2><a href="http://youranoncentral.tumblr.com/post/96632225239/from-taiwan-broad-support-for-democracy-in-hongkong">From Taiwan, Broad Support for Democracy in HongKong</a></h2>
+              <p><span>Taiwan’s main political parties say they support Hong Kong residents’ calls for a greater say in choosing their leader following Beijing’s </span><a href="http://sinosphere.blogs.nytimes.com/2014/09/03/from-taiwan-broad-support-for-democracy-in-hong-kong/www.nytimes.com/2014/09/01/world/asia/hong-kong-elections.html">decision to limit electoral reforms</a><span> in the semiautonomous Chinese city</span></p>
+<p><img src="http://media.tumblr.com/9646a15b6ac225a893bc3f26a4fad869/tumblr_inline_nbe1shPkVY1swblj5.jpg"/></p>
+<p>Read: http://sinosphere.blogs.nytimes.com/2014/09/03/from-taiwan-broad-support-for-democracy-in-hong-kong/?_php=true&amp;_type=blogs&amp;_r=0</p>
+           
+
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://youranoncentral.tumblr.com/post/96632093549/a-massive-oil-spill-is-threatening-mexicos-third">4th Sep 2014</a> | <a href="http://youranoncentral.tumblr.com/post/96632093549/a-massive-oil-spill-is-threatening-mexicos-third#notes">1 note</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+              <h2><a href="http://youranoncentral.tumblr.com/post/96632093549/a-massive-oil-spill-is-threatening-mexicos-third">A Massive Oil Spill Is Threatening Mexico&#8217;s Third Largest City&#8217;s Water Supply</a></h2>
+              <p><span><span>For Mexico&#8217;s state oil giant, the expansion of organised crime into fuel theft is a growing menace. Now, a bungled attempt to illegally tap an oil pipeline has threatened an environmental disaster in the northern state of Nuevo Leon, after an estimated </span><a href="http://elhorizonte.mx/a/noticia/510178" target="_blank">4,000 barrels</a><span> of crude oil poured into the San Juan River. </span></span></p>
+<p><span class="tco-ellipsis"><img src="http://media.tumblr.com/0d1a8efc41a51555f95c1f05d89d7c73/tumblr_inline_nbe1paY4JV1swblj5.jpg"/></span></p>
+
+<p><span class="tco-ellipsis"></span>Read: <a class="twitter-timeline-link" href="http://t.co/IxvqEJCLgx" rel="nofollow" title="http://bit.ly/1ughgQ2" target="_blank" data-expanded-url="http://bit.ly/1ughgQ2"><span class="invisible">http://</span><span class="js-display-url">bit.ly/1ughgQ2</span><span class="invisible"></span><span class="tco-ellipsis"><span class="invisible"> </span></span></a><span> </span><span> </span><a class="twitter-timeline-link" href="http://t.co/Rk7N4DBEGs" data-pre-embedded="true"><br/></a></p>
+           
+
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://youranoncentral.tumblr.com/post/96606506519/afghanistan-trapped-then-poisoned-kabuls-ruthless">4th Sep 2014</a> | <a href="http://youranoncentral.tumblr.com/post/96606506519/afghanistan-trapped-then-poisoned-kabuls-ruthless#notes">3 notes</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+              <h2><a href="http://youranoncentral.tumblr.com/post/96606506519/afghanistan-trapped-then-poisoned-kabuls-ruthless">Afghanistan: Trapped, then poisoned: Kabul&#8217;s ruthless dog cull</a></h2>
+              <p class="first">Cornered against a wall and with a steel hook pushed around his neck, the dog emits a savage howl in a desperate attempt to fight free, but poison will soon be forced into his mouth as Kabul&#8217;s cull of strays claims another kill. </p>
+<p class="first">About 17,600 dogs were poisoned last year by municipal workers in the Afghan capital in an effort to protect residents from disease and to control the rocketing population of canines that roam the city&#8217;s streets and open ground</p>
+<p><img src="http://media.tumblr.com/ae7828709ae776174965d9bafa651b20/tumblr_inline_nbdawniVno1swblj5.jpg"/></p>
+<p>Read: https://sg.news.yahoo.com/trapped-then-poisoned-kabuls-ruthless-dog-cull-033348331.html</p>
+           
+
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://youranoncentral.tumblr.com/post/96606182894/the-hannibal-directive-how-israel-killed-its-own">4th Sep 2014</a> | <a href="http://youranoncentral.tumblr.com/post/96606182894/the-hannibal-directive-how-israel-killed-its-own#notes">3 notes</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+              <h2><a href="http://youranoncentral.tumblr.com/post/96606182894/the-hannibal-directive-how-israel-killed-its-own">The Hannibal Directive: How Israel Killed Its Own Troops and Massacred Palestinians to Prevent Soldier&#8217;s Capture</a></h2>
+              <p><span>When the Israeli army executed the Hannibal Directive in Rafah, it not only targeted the area where Goldin was supposedly captured, it leveled massive firepower against a civilian population over large swaths of a densely populated city of 350,000. After the assault, the White House </span><a href="http://www.alternet.org/world/who-broke-ceasefire-obama-blames-hamas-against-all-evidence">wrongly blamed</a><span> Hamas for violating the ceasefire, legitimizing another piece of Israeli disinformation and whitewashing the violence, while only a few Israeli public figures </span><a href="http://www.ynetnews.com/articles/0,7340,L-4557951,00.html">criticized the military’s behavior</a><span>.</span></p>
+<p><span><img src="http://media.tumblr.com/097f9fb75dace2cf1ef029fde0855367/tumblr_inline_nbdajltjoT1swblj5.jpg"/></span></p>
+
+<p><span> </span></p>
+<p>Read: http://www.alternet.org/hannibal-directive-how-israels-secret-military-doctrine-deliberately-killed-soldiers-and-massacred</p>
+           
+
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://youranoncentral.tumblr.com/post/96605926679/yemen-concessions-fail-to-end-houthi-protests">4th Sep 2014</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+              <h2><a href="http://youranoncentral.tumblr.com/post/96605926679/yemen-concessions-fail-to-end-houthi-protests">Yemen concessions fail to end Houthi protests</a></h2>
+              <p>Yemen&#8217;s Houthi Shia activists are continuing to protest in the capital Sanaa, a day after the country&#8217;s president reached out to them by dismissing the government and rolling back a disputed fuel price hike. </p>
+<p>Houthi supporters on Wednesday brandished arms and batons while using tyres and cement blocks to divert traffic from main roads, including a boulevard that leads to government buildings and state institutions. </p>
+<p>Government tanks were positioned in front of the parliament and TV buildings.</p>
+<p><img alt="image" src="http://media.tumblr.com/e3c8093a0fd056e52cd836d900d078ee/tumblr_inline_nbda046Skh1swblj5.jpg"/></p>
+
+<p>Read: <a href="http://www.aljazeera.com/news/middleeast/2014/09/yemeni-concessions-fail-end-houthi-protest-201493233729764354.html">http://www.aljazeera.com/news/middleeast/2014/09/yemeni-concessions-fail-end-houthi-protest-201493233729764354.html</a></p>
+           
+
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://youranoncentral.tumblr.com/post/96605722574/france-calais-refugees-attempt-to-storm-uk-bound-ferry">4th Sep 2014</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+              <h2><a href="http://youranoncentral.tumblr.com/post/96605722574/france-calais-refugees-attempt-to-storm-uk-bound-ferry">France: Calais refugees attempt to storm UK-bound ferry</a></h2>
+              <p><span>Scores of &#8220;illegal migrants&#8221; aka Refugees, in the French port of Calais have tried to force their way onto a ferry bound for England, officials and witnesses say. </span></p>
+<p><span><img alt="image" src="http://media.tumblr.com/9cc64df14c4245f60e24d929c018e427/tumblr_inline_nbd9q6f3gO1swblj5.jpg"/></span></p>
+<p><img alt="image" src="http://media.tumblr.com/1ff9d1adca2d7567a9862bd53d5bb8a9/tumblr_inline_nbd9qfg1bK1swblj5.jpg"/></p>
+<p><img alt="image" src="http://media.tumblr.com/52b1a4c59e8c5991e80cafbe023476a1/tumblr_inline_nbd9qkTFhE1swblj5.jpg"/></p>
+<p><img alt="image" src="http://media.tumblr.com/67804c4017a4f4dc6e0be94d35faaf38/tumblr_inline_nbd9qq2AgD1swblj5.jpg"/></p>
+<p>Read: http://www.bbc.com/news/world-europe-29057709?ocid=socialflow_twitter</p>
+           
+
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://youranoncentral.tumblr.com/post/96605519639/citizens-from-across-bahrain-take-to-the-streets">4th Sep 2014</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+
+           
+
+           
+              <div class="media"><div id="photoset_96605519639" class="html_photoset">    <iframe id="photoset_iframe_96605519639" class="photoset" scrolling="no" frameborder="0" height="1011" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://youranoncentral.tumblr.com/post/96605519639/photoset_iframe/youranoncentral/tumblr_nbd9hfg2BS1toijvn/500/false"></iframe></div></div>
+              <div class="caption"><p><span>Citizens from across </span><a class="twitter-hashtag pretty-link js-nav" href="https://twitter.com/hashtag/Bahrain?src=hash" data-query-source="hashtag_click"><span></span><span>Bahrain</span></a><span> take to the streets on nightly bases calling for justice &amp; democracy. </span></p></div>
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://youranoncentral.tumblr.com/post/96597966314/why-arent-women-advancing-at-work-ask-a-transgender">4th Sep 2014</a> | <a href="http://youranoncentral.tumblr.com/post/96597966314/why-arent-women-advancing-at-work-ask-a-transgender#notes">3 notes</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+              <h2><a href="http://youranoncentral.tumblr.com/post/96597966314/why-arent-women-advancing-at-work-ask-a-transgender">Why Aren&#8217;t Women Advancing At Work? Ask a Transgender Person.</a></h2>
+              <p><span>Trans people are bringing entirely new ways of approaching the discussion. Because trans people are now staying in the same careers (and sometimes the very same jobs) after they change genders, they are uniquely qualified to discuss the difference between how men and women experience the workplace. Their experience is as close to the scientific method as we can get: By isolating and manipulating gender as a variable and holding all other variables</span><span class="em">—</span><span>skill, career, personality, talent</span><span class="em">—</span><span>constant, these individuals reveal exactly the way one’s outward appearance of gender affects day-to-day interactions. If we truly want to understand women at work, we should listen carefully to trans men and trans women: They can tell us more about gender in the workplace than just about anyone.</span></p>
+<p><img alt="image" src="http://media.tumblr.com/034414946b8c98d17149fad8fba4038f/tumblr_inline_nbd1ovno0O1swblj5.jpg"/></p>
+
+<p>READ: <a href="http://www.newrepublic.com/article/119239/transgender-people-can-explain-why-women-dont-advance-work">http://www.newrepublic.com/article/119239/transgender-people-can-explain-why-women-dont-advance-work</a></p>
+           
+
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+
+
+
+     
+
+     
+        <nav id="pageNav">
+           <ul class="clearfix">
+             
+             
+             <li><a href="" class="active">1</a></li>
+             
+             
+             
+             <li><a href="/page/2">2</a></li>
+             
+             
+             <li><a href="/page/3">3</a></li>
+             
+             
+             <li><a href="/page/4">4</a></li>
+             
+             
+             <li><a href="/page/5">5</a></li>
+             
+             <li><a href="/page/2" id="pageNavOlder">Older</a></li>
+           </ul>
+        </nav>
+     
+
+     
+
+     </div><!-- END layout -->
+     </section>
+
+     <footer id="sitemeta">
+        <div class="clearfix">
+           <div class="thefooter">
+              <p>The Minimalist Theme designed by <a href="https://www.pixelunion.net/themes/tumblr/?utm_source=tumblr&utm_medium=link&utm_term=tumblr%20themes&utm_campaign=sdoppler">Pixel Union</a> | Powered by <a href="http://tumblr.com">Tumblr</a></p>
+           </div>
+        </div>
+     </footer>
+
+     
+
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://youranoncentral.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411848071&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wveW91cmFub25jZW50cmFsLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=CCAODLCLGL&K=31e629e4b8c76bb757f30f69c68d42fd7ffdbe728b17d3b90cafe4b9ab1485b5&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411848071&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wveW91cmFub25jZW50cmFsLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=CCAODLCLGL&K=dea921f6cd05cb2d58e1e088ba05ca57839a28006e21e35ce70c5e185e62c26d&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1411848071&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3lvdXJhbm9uY2VudHJhbC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6Ijk3NTc4OTczMTY5IiwiYmxvZ2lkIjoiMTY0MjA1Mzk0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5Njg0NjYzNTYxNCIsImJsb2dpZCI6IjE2NDIwNTM5NCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTY4NDQzMDU0OTkiLCJibG9naWQiOiIxNjQyMDUzOTQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2ODQzNzI0NTY5IiwiYmxvZ2lkIjoiMTY0MjA1Mzk0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5Njg0Mjc3NTc0NCIsImJsb2dpZCI6IjE2NDIwNTM5NCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTY4NDIyMzM0MzQiLCJibG9naWQiOiIxNjQyMDUzOTQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2ODQwNDAxMTc0IiwiYmxvZ2lkIjoiMTY0MjA1Mzk0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NjYzMjIyNTIzOSIsImJsb2dpZCI6IjE2NDIwNTM5NCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTY2MzIwOTM1NDkiLCJibG9naWQiOiIxNjQyMDUzOTQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2NjA2NTA2NTE5IiwiYmxvZ2lkIjoiMTY0MjA1Mzk0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NjYwNjE4Mjg5NCIsImJsb2dpZCI6IjE2NDIwNTM5NCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTY2MDU5MjY2NzkiLCJibG9naWQiOiIxNjQyMDUzOTQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2NjA1NzIyNTc0IiwiYmxvZ2lkIjoiMTY0MjA1Mzk0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NjYwNTUxOTYzOSIsImJsb2dpZCI6IjE2NDIwNTM5NCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTY1OTc5NjYzMTQiLCJibG9naWQiOiIxNjQyMDUzOTQiLCJzb3VyY2UiOjMzfV19&U=OAJACNEEML&K=95fb5c47bd70248ad5a9a73d9499f652da6f061faa10acf626cca56974278a68&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1411848071&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3lvdXJhbm9uY2VudHJhbC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6Ijk3NTc4OTczMTY5IiwiYmxvZ2lkIjoiMTY0MjA1Mzk0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5Njg0NjYzNTYxNCIsImJsb2dpZCI6IjE2NDIwNTM5NCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTY4NDQzMDU0OTkiLCJibG9naWQiOiIxNjQyMDUzOTQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2ODQzNzI0NTY5IiwiYmxvZ2lkIjoiMTY0MjA1Mzk0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5Njg0Mjc3NTc0NCIsImJsb2dpZCI6IjE2NDIwNTM5NCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTY4NDIyMzM0MzQiLCJibG9naWQiOiIxNjQyMDUzOTQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2ODQwNDAxMTc0IiwiYmxvZ2lkIjoiMTY0MjA1Mzk0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NjYzMjIyNTIzOSIsImJsb2dpZCI6IjE2NDIwNTM5NCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTY2MzIwOTM1NDkiLCJibG9naWQiOiIxNjQyMDUzOTQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2NjA2NTA2NTE5IiwiYmxvZ2lkIjoiMTY0MjA1Mzk0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NjYwNjE4Mjg5NCIsImJsb2dpZCI6IjE2NDIwNTM5NCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTY2MDU5MjY2NzkiLCJibG9naWQiOiIxNjQyMDUzOTQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2NjA1NzIyNTc0IiwiYmxvZ2lkIjoiMTY0MjA1Mzk0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NjYwNTUxOTYzOSIsImJsb2dpZCI6IjE2NDIwNTM5NCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTY1OTc5NjYzMTQiLCJibG9naWQiOiIxNjQyMDUzOTQiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=OAJACNEEML&K=f2108c44dab3ded002499f26841edd5140959da0409f9b28f39f1ab9d8af963b&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:164205394,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=a3c986cedf26e801e27d7606000d9429#src=http%3A%2F%2Fyouranoncentral.tumblr.com%2F&amp;lang=en_US&amp;name=youranoncentral&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_0114312586ab_64.png&amp;title=YourAnonCentral&amp;url=http%3A%2F%2Fyouranoncentral.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=b1e57114e88121763914304b11010d1d#src=http%3A%2F%2Fyouranoncentral.tumblr.com%2F&amp;lang=en_US&amp;name=youranoncentral&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_0114312586ab_64.png&amp;title=YourAnonCentral&amp;url=http%3A%2F%2Fyouranoncentral.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=33f2919695e3b3934237a169237968b3");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

@@ -1,0 +1,778 @@
+
+<!DOCTYPE html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" class="no-js system-level-master desktop hover-ok">
+    <head>
+      
+<style>
+@font-face {
+  font-family: "ticketleap-icons";
+  src: url("/assets/css/shared/./ticketleap-icons_58544b2005e51e9b224a615518157b5a.eot");
+  src: url("/assets/css/shared/./ticketleap-icons_58544b2005e51e9b224a615518157b5a.eot?#iefix") format("embedded-opentype"),
+       url("/assets/css/shared/./ticketleap-icons_58544b2005e51e9b224a615518157b5a.woff") format("woff"),
+       url("/assets/css/shared/./ticketleap-icons_58544b2005e51e9b224a615518157b5a.ttf") format("truetype"),
+       url("/assets/css/shared/./ticketleap-icons_58544b2005e51e9b224a615518157b5a.svg#ticketleap-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+</style>
+
+      
+    
+        <link rel="stylesheet" href="https://dvguhnjbfi9ks.cloudfront.net/assets/fa28516e31afb673b9790f7bd591bff146ad32d4/compressed/buy_v2_base.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="https://dvguhnjbfi9ks.cloudfront.net/assets/fa28516e31afb673b9790f7bd591bff146ad32d4/compressed/buy_v2_over_641px.css" type="text/css" media="screen and (min-width:641px)">
+        <link rel="stylesheet" href="https://dvguhnjbfi9ks.cloudfront.net/assets/fa28516e31afb673b9790f7bd591bff146ad32d4/compressed/buy_v2_over_768px.css" type="text/css" media="screen and (min-width:768px)">
+        <link rel="stylesheet" href="https://dvguhnjbfi9ks.cloudfront.net/assets/fa28516e31afb673b9790f7bd591bff146ad32d4/compressed/buy_v2_over_930px.css" type="text/css" media="screen and (min-width:930px)">
+        <link rel="stylesheet" href="https://dvguhnjbfi9ks.cloudfront.net/assets/fa28516e31afb673b9790f7bd591bff146ad32d4/compressed/buy_v2_over_1230px.css" type="text/css" media="screen and (min-width:1230px)">
+        <link rel="stylesheet" href="https://dvguhnjbfi9ks.cloudfront.net/assets/fa28516e31afb673b9790f7bd591bff146ad32d4/compressed/buy_v2_over_1430px.css" type="text/css" media="screen and (min-width:1430px)">
+        <link rel="stylesheet" href="https://dvguhnjbfi9ks.cloudfront.net/assets/fa28516e31afb673b9790f7bd591bff146ad32d4/compressed/buy_v2_over_1700px.css" type="text/css" media="screen and (min-width:1700px)">
+        <link rel="stylesheet" href="https://dvguhnjbfi9ks.cloudfront.net/assets/fa28516e31afb673b9790f7bd591bff146ad32d4/compressed/reserved_seating.css" type="text/css" media="screen and (min-width:641px)">
+        <!--[if IE 8]>
+            <link rel="stylesheet" href="https://dvguhnjbfi9ks.cloudfront.net/assets/fa28516e31afb673b9790f7bd591bff146ad32d4/compressed/buy_v2_over_641px.css" type="text/css" media="screen">
+            <link rel="stylesheet" href="https://dvguhnjbfi9ks.cloudfront.net/assets/fa28516e31afb673b9790f7bd591bff146ad32d4/compressed/buy_v2_over_768px.css" type="text/css" media="screen">
+            <link rel="stylesheet" href="https://dvguhnjbfi9ks.cloudfront.net/assets/fa28516e31afb673b9790f7bd591bff146ad32d4/compressed/buy_v2_over_930px.css" type="text/css" media="screen">
+        <![endif]-->
+            
+        <link rel="stylesheet" href="https://dvguhnjbfi9ks.cloudfront.net/assets/fa28516e31afb673b9790f7bd591bff146ad32d4/compressed/user_nav_hamburger_under_641px.css" type="text/css" media="screen and (max-width:640px)">
+        
+        
+      
+
+
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>Evan Peters VIP Experience @ Portland Comic Con 2015 Tickets in Portland, OR, United States</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0,target-densitydpi=device-dpi" />
+
+      
+    <meta name="tl:id" content="ticketleap|event|wizardworld|evanpetersvip2" />
+    
+        <script>
+    var add_to_cart_pending = false,
+    custom_ww_add_to_cart_handler = function(s) {
+        try {
+            var totalValue = 0;
+            for (var i = 0; i < 20; ++i) {
+                var qty = $('#id_form-' + i + '-quantity'),
+                    price = 0,
+                    fee_total = 0,
+                    faceV1 = $('#id_form-' + i + '-price'),
+                    feesV1 = $('#id_form-' + i + '-fees'),
+                    nyopt = $('input[name="form-' + i +'-variable_price"]:visible'),
+                    faceV2 = qty.closest('tr').find('.ticket-type-price').data('price'),
+                    feesV2 = qty.closest('tr').find('.ticket-type-fees').data('fees'),
+                    face = faceV1.length ? parseFloat(faceV1.val()) : faceV2,
+                    fees = feesV1.length ? parseFloat(feesV1.val()) : feesV2;
+
+                if (qty.length && qty.val() > 0) {
+                    if (nyopt.length) {
+                        price = parseFloat(nyopt.val());
+                    } else if (face) {
+                        price = face;
+                    } else {
+                        price = 0.0;
+                    }
+
+                    if (fees) {
+                        fee_total = fees;
+                    } else {
+                        fee_total = 0.0;
+                    }
+
+                    totalValue += parseInt(qty.val()) * (price + fee_total);
+                }
+            }
+            totalValue = Math.round(totalValue*100)/100;
+            custom_ww_send_to_star('add_to_cart', totalValue);
+        } catch (e) {
+            console && console.log(e);
+        }
+    },
+    custom_ww_configure_star = function(oncomplete) {
+        window.smpAsyncInit = function() {
+            StarSMP.smpLogin = function (cb) {cb({});};
+            StarSMP.init(
+                {
+                    //loyaltyId: '184365', /* TEST */
+                    loyaltyId: '135075', /* PROD */
+                    apiServer: '//api.starsmp.com/',
+                    clientId: 'world',
+                    channelUrl: '//' + document.location.host + '/channel.html',
+                    smpLoginService: false
+                },
+                oncomplete || function() {}
+            );
+        };
+
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = '//api.starsmp.com/connect/clients/world.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'starsmp-jssdk'));
+    },
+    set_tl_star_cookie = function (name, value) {
+        document.cookie = name+"="+escape(value)+"; path=/";
+    },
+    custom_ww_send_to_star = function(label, amount) {
+        try {
+            StarSMP.track(label, document.location.href, undefined, amount);
+            console && console.log('Sent ' + amount + ' to ' + label);
+        } catch(e) {
+            console && console.log(e);
+        }
+    }
+    wrapped_add_to_cart = function(e) {
+        if (add_to_cart_pending) { return false; }
+        add_to_cart_pending = true;
+        custom_ww_add_to_cart_handler(); 
+        setTimeout(function() { add_to_cart_pending = false; $('.tickets-form').submit(); }, 1000);  // Leave some time for star call to complete
+        return false;
+    };
+
+    window.onload = function(){
+        $(function(){
+            try {
+                custom_ww_configure_star(
+                    function() {
+                        set_tl_star_cookie('ticketleap_star_smp_access_token', StarSMP.accessToken);
+                        console && console.log('Cookie', StarSMP.accessToken);
+                    }
+                );
+                var pageId = $('meta[name="tl:id"]').attr('content');
+                var uiIsV2 = $('.hero-container').length > 0;
+                if (/^ticketleap|event|/i.test(pageId) && $('.add-tt-to-cart, #order-summary .checkout').length) {
+                    $('body').on(uiIsV2 ? 'click' : 'mousedown', '.add-tt-to-cart:not(.tl-buttons-disabled)', function(e) {
+                        if (uiIsV2) { return wrapped_add_to_cart(e); }
+                        else { custom_ww_add_to_cart_handler(); return true; }
+                    });
+                    $('body').on(uiIsV2 ? 'click' : 'mousedown', '#order-summary .checkout:not(.tl-buttons-disabled)', function(e) {
+                        if (uiIsV2) { return wrapped_add_to_cart(e); }
+                        else { custom_ww_add_to_cart_handler(); return true; }
+                    });
+                }
+            } catch (e) {
+                console && console.log(e);
+            }
+        });
+    };
+</script>
+
+<script type="text/javascript">
+(function(a,b,c,d,e){e=b.createElement(c);e.src=d;e.type='text/java'+c;
+e.async=true;d=b.getElementsByTagName(c)[0];d.parentNode.insertBefore(e,d);
+})(window, document, 'script', '//tag.starsmp.com/main/metatag­100001.js');
+</script>
+    
+
+
+
+      <link rel="SHORTCUT ICON" href="https://dvguhnjbfi9ks.cloudfront.net/assets/fa28516e31afb673b9790f7bd591bff146ad32d4/images/favicons/favicon.ico"/>
+<link rel="apple-touch-icon" sizes="114x114" href="https://dvguhnjbfi9ks.cloudfront.net/assets/fa28516e31afb673b9790f7bd591bff146ad32d4/images/favicons/114.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="https://dvguhnjbfi9ks.cloudfront.net/assets/fa28516e31afb673b9790f7bd591bff146ad32d4/images/favicons/72.png" />
+<link rel="apple-touch-icon" href="https://dvguhnjbfi9ks.cloudfront.net/assets/fa28516e31afb673b9790f7bd591bff146ad32d4/images/favicons/57.png" />
+
+
+      
+
+    <meta property="og:title" content="Evan Peters VIP Experience @ Portland Comic Con 2015"/>
+    <meta property="og:type" content="activity"/>
+    <meta property="og:description" content="Evan Peters VIP’s get:ADMISSION/VIP ACCESS• Portland Comic Con 3-Day Weekend Ticket• Exclusive Evan Peters VIP Badge• VIP’s get onto the show floor 30 Minutes before regular attendees on Saturday &amp; Sunday!• VIP Speedpass for Autographs &amp; Photo Ops for Evan PetersNote: VIP Badge, Photo Op and Autograph Tickets will be provided at VIP registration**Children 10 and under get in FREE when accompanied by a paid adult (Limit 2 Per Paid Adult Tickets). All show tickets will be e-mailed AND available as a pdf file after purchase.**LITHOGRAPHS• Evan Peters 11&quot; x 17&quot; LithographAUTOGRAPHS• (1) Evan Peters 8&quot; x 10&quot; Photo (Your Choice) with Signature Ticket - You can have him sign this photo OR another item on-siteNote: Autograph Tickets will be provided at VIP registration. Autograph ticket will be collected at the Celebrity booth for redemption.PHOTO OPS• (1) Photo Op with Evan PetersNote: Photo Op Tickets will be provided at VIP registration. Photo Op ticket will be collected at the Photo Ops booth for redemptionPANEL• Guaranteed seating at the Evan Peters panelShow Hours:Friday, January 23, 2015 - 3pm - 8pmSaturday, January 24, 2015 - 10am - 7pmSunday, January 25, 2015 - 11am - 5pmPlease note: All VIP badges will be picked up at the show. They will not be sent in the mail.A special thanks to our VIP Sponsor: CGCTickets Details• All Tickets Gain Entry to Portland Comic Con• Tickets are non-refundable.• Important: Bring your printed out e-tickets to the event to gain admittance.• Children 10 and under get in FREE when accompanied by a paid adult (Limit 2 Child Tickets per paid Ticket)• Credit card will be charged at time of purchase.• Autograph fees may be required for some guests.• Talent subject to change."/>
+    
+    <meta property="og:image" content="https://ticketleap-media-master.s3.amazonaws.com/abd43e2e-df9f-4f5d-a8fe-9b6f744fff4d/hero.jpg" />
+    
+    <meta property="og:latitude" content="45.528379"/>
+    <meta property="og:longitude" content="-122.663138"/>
+    <meta property="og:street-address" content="777 NE Martin Luther King Jr. Blvd."/>
+    <meta property="og:locality" content="Portland"/>
+    <meta property="og:region" content="OR"/>
+    <meta property="og:postal-code" content="97232"/>
+    <meta property="og:country-name" content="USA"/>
+    <meta property="og:site_name" content="Ticketleap"/>
+    <meta property="og:url" content="http://wizardworld.ticketleap.com/evanpetersvip2/t/6e014d92f86220066cb9b54d48717f87/"/>
+    <meta property="fb:app_id" content="129696687042653" />
+
+
+      
+    <meta name="title" content="Evan Peters VIP Experience @ Portland Comic Con 2015" />
+    <meta name="description" content="Evan Peters VIP’s get:ADMISSION/VIP ACCESS• Portland Comic Con 3-Day Weekend Ticket• Exclusive Evan Peters VIP Badge• VIP’s get onto the show floor 30 Minutes before regular attendees on Saturday &amp; Sunday!• VIP Speedpass for Autographs &amp; Photo Ops for Evan PetersNote: VIP Badge, Photo Op and Autograph Tickets will be provided at VIP registration**Children 10 and under get in FREE when accompanied by a paid adult (Limit 2 Per Paid Adult Tickets). All show tickets will be e-mailed AND available as a pdf file after purchase.**LITHOGRAPHS• Evan Peters 11&quot; x 17&quot; LithographAUTOGRAPHS• (1) Evan Peters 8&quot; x 10&quot; Photo (Your Choice) with Signature Ticket - You can have him sign this photo OR another item on-siteNote: Autograph Tickets will be provided at VIP registration. Autograph ticket will be collected at the Celebrity booth for redemption.PHOTO OPS• (1) Photo Op with Evan PetersNote: Photo Op Tickets will be provided at VIP registration. Photo Op ticket will be collected at the Photo Ops booth for redemptionPANEL• Guaranteed seating at the Evan Peters panelShow Hours:Friday, January 23, 2015 - 3pm - 8pmSaturday, January 24, 2015 - 10am - 7pmSunday, January 25, 2015 - 11am - 5pmPlease note: All VIP badges will be picked up at the show. They will not be sent in the mail.A special thanks to our VIP Sponsor: CGCTickets Details• All Tickets Gain Entry to Portland Comic Con• Tickets are non-refundable.• Important: Bring your printed out e-tickets to the event to gain admittance.• Children 10 and under get in FREE when accompanied by a paid adult (Limit 2 Child Tickets per paid Ticket)• Credit card will be charged at time of purchase.• Autograph fees may be required for some guests.• Talent subject to change." />
+    <meta name="keywords" content="Evan Peters VIP Experience @ Portland Comic Con 2015," />
+    <link rel="canonical" href="http://wizardworld.ticketleap.com/evanpetersvip2/" />
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site:id" content="14661635" />
+    <meta name="twitter:url" content="http://wizardworld.ticketleap.com/evanpetersvip2/" />
+    <meta name="twitter:title" content="Evan Peters VIP Experience @ Portland Comic Con 2015" />
+    <meta name="twitter:description" content="Evan Peters VIP’s get:ADMISSION/VIP ACCESS• Portland Comic Con 3-Day Weekend Ticket• Exclusive Evan Peters VIP Badge• VIP’s get onto the show floor 30 Minutes before regular attendees on Saturday &amp;..." />
+    
+    <meta name="twitter:image" content="https://ticketleap-media-master.s3.amazonaws.com/abd43e2e-df9f-4f5d-a8fe-9b6f744fff4d/hero.jpg" />
+    
+
+    <link rel="alternate" type="application/rss+xml" title="WIZARD WORLD COMIC CON RSS Feed"
+          href="http://wizardworld.ticketleap.com/feed/rss/" />
+    <link rel="alternate" type="application/atom+xml" title="WIZARD WORLD COMIC CON Atom Feed"
+          href="http://wizardworld.ticketleap.com/feed/atom/" />
+
+    
+
+    
+        <link rel="image_src" href="https://ticketleap-media-master.s3.amazonaws.com/abd43e2e-df9f-4f5d-a8fe-9b6f744fff4d/hero.jpg" />
+    
+
+
+
+      
+    
+      <script type="text/javascript">
+
+
+        var cdn_url = "https://dvguhnjbfi9ks.cloudfront.net/assets/fa28516e31afb673b9790f7bd591bff146ad32d4/",
+            update_social_avatars = false;
+
+        var tlConfig = tlConfig || [];
+        tlConfig.push(['facebookAppId', '129696687042653'],
+          ['pageview', {
+            'id': "8d7e142d-ff9f-431d-b407-51faa3bef404",
+            'visitId': "87996428-e16a-4c70-a399-1f8b1572c255",
+            'requestOfOriginId': "8d7e142d-ff9f-431d-b407-51faa3bef404",
+            'cleanedReferer': null,
+            'trackingCodeCode': null,
+            'trackingCodeCampaign': null
+          }],
+          ['analyticsConfig', {"virtualUrlPath": null, "genericEvents": [], "customVariables": [{"index": 4, "accountNames": ["tl"], "name": "buy_version", "value": "2", "scope": 2}], "accounts": [{"domainName": "ticketleap.com", "tracker": null, "name": "tl", "accountId": "UA-22455270-1"}, {"domainName": "wizardworld.ticketleap.com", "tracker": null, "name": "org", "accountId": "UA-35553704-1"}], "googleCampaignKeys": [{"key": "referid", "setter": "CampSourceKey"}, {"key": "pgtrck", "setter": "CampNameKey"}], "debugAnalytics": false, "pixelTracking": {"transactionsOnly": true, "trackingPixelUrl": "http://www.wizardworld-toronto.com/trck.cfm", "campaignKeys": [{"required": false, "cookie": "__tl_cs", "key": "referid"}, {"required": false, "cookie": "__tl_cn", "key": "pgtrck"}]}, "trackNonFunnelInteractions": false}],
+          ['bugsnagConfig', {
+              'apiKey': 'd447d4f5c84f7d44cd9db4f032381728',
+              'releaseStage': 'MASTER'
+              
+          }]
+        );
+
+        
+
+        </script>
+        
+          
+            <script type="text/javascript" src="https://dvguhnjbfi9ks.cloudfront.net/assets/fa28516e31afb673b9790f7bd591bff146ad32d4/compressed/app.buy.v2.js" crossorigin="anonymous"></script>
+          
+
+        
+          
+          <script type="text/javascript" src="https://use.typekit.com/ztp5oyj.js"></script>
+          <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+      
+    
+
+
+      
+
+      
+      <script type="text/javascript" class="sift_science">
+        
+          var _sift = _sift || [];
+          _sift.push(['_setAccount', '5373a13ce1']);
+          
+          _sift.push(['_trackPageview']);
+        
+          (function() {
+            function loadSift() {
+              var sift = document.createElement('script');
+              sift.type = 'text/javascript';
+              sift.async = true;
+              sift.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.siftscience.com/s.js';
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(sift, s);
+            }
+            if (window.attachEvent) {
+              window.attachEvent('onload', loadSift);
+            } else {
+              window.addEventListener('load', loadSift, false);
+            }
+          })();
+        </script>
+        
+    </head>
+
+    <body id="" class="event event-overview overview unauthenticated">
+    <span class="system-level-flag">MASTER</span>
+
+    
+<div class="hide">
+    
+        
+        <span class="vevent hide">
+            <span class="url"><span class="value-title" title="http://.ticketleap.com/evanpetersvip2/dates/Jan-23-2015_at_0300PM"></span></span>
+            <span class="summary"><span class="value-title" title="Evan Peters VIP Experience @ Portland Comic Con 2015"></span></span>
+            <span class="dtstart"><span class="value-title" title="2015-01-23UTC15:00"></span></span>
+            <span class="dtend"><span class="value-title" title="2015-01-25UTC17:00"></span></span>
+            
+            <span class="location vcard"><span class="fn">Oregon Convention Center</span><span class="adr">Portland, OR, United States</span></span>
+            
+        </span>
+        
+    
+</div>
+
+
+    <div class="user-nav buttons-container js-mobile-buttons-container">
+	<div class="content">
+        
+        <a href="#" id="hamburger" class="icon-hamburger"></a>
+	</div>
+</div>
+<div id="hamburger-curtain" class="hamburger mobile-nav">&nbsp;</div>
+
+<div id="user-nav-mobile" class="user-nav mobile-nav hamburger">
+    <div class="content">
+        
+        <ul class="menu unauthenticated">
+            <li class="find-orders"><a href="http://www.ticketleap.com/find-your-orders/" class="ga-non-funnel" id="user-nav-find-orders">Find My Orders</a></li>
+            <li class="login last-child"><a id="email_login_nav_link" class="ga-non-funnel" href="http://www.ticketleap.com/login/for/buyer/?next=http%3A//wizardworld.ticketleap.com/evanpetersvip2/">Sign In</a></li>
+            
+                
+            
+        </ul>
+        
+
+        <div class="sticky-footer"><span class="icon-tl-full-logo"></span></div>
+    </div>
+</div>
+
+<div id="user-nav" class="user-nav bar-nav">
+	<div class="content">
+        <ul class="left-menu menu">
+            <li class="main-menu">
+                
+    
+
+            </li>
+        </ul>
+        
+        <ul class="right-menu menu">
+            <li class="main-menu menu-item first-item">
+				
+					<a href="http://www.ticketleap.com/find-your-orders/" class="ga-non-funnel menu-link" id="user-nav-find-orders">Find My Orders</a>
+                
+            </li>
+            <li class="main-menu menu-item has-children">
+				
+					<a id="email_login_nav_link" class="ga-non-funnel menu-link" href="http://www.ticketleap.com/login/for/buyer/?next=http%3A//wizardworld.ticketleap.com/evanpetersvip2/">Sign In</a>
+                
+            </li>
+            
+    
+
+            
+    
+        <li title="Ticketleap Homepage" class="main-menu menu-item right-logo">
+            <a href="http://www.ticketleap.com/" class="ga-non-funnel icon-tl-icon small-logo menu-link" id="user-nav-ticketleap-logo"></a>
+        </li>
+    
+
+        </ul>
+	</div>
+</div>
+    
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+    
+<div class="event-page-container clearfix">
+    <style class="custom-styles">
+    .hero-container .inner {
+        background-image: url('https://ticketleap-media-master.s3.amazonaws.com/abd43e2e-df9f-4f5d-a8fe-9b6f744fff4d/hero.jpg');
+        background-position: left center;
+    }
+    .accent-alpha-color {
+        color: rgb(160,37,4);
+        color: rgba(160,37,4, 0.5) !important;
+        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#66a02504', endColorstr='#66a02504'); /* IE */
+    }
+    .accent-color {
+        color: rgb(160,37,4) !important;
+    }
+    .accent-hover:hover {
+        color: rgb(160,37,4) !important;
+    }
+    .accent-background {
+        background-color: rgb(160,37,4) !important;
+    }
+    .accent-alpha-border {
+        border-color: rgb(160,37,4) !important;
+        border-color: rgba(160,37,4, 0.5) !important;
+    }
+    .accent-border {
+        border-color: rgb(160,37,4) !important;
+    }
+    .accent-button {
+        filter: none;
+        background: rgb(160,37,4) !important;
+        border: 0;
+    }
+    .accent-button:hover {
+        background: rgb(160,37,4) url('/assets/images/button/cta-transparent-white-crosshatch.png') repeat-x !important;
+    }
+
+    .nav-container.no-get-there-tab div {
+        height: 33.3333% !important;
+    }
+    .nav-container.no-get-there-tab div:first-child {
+        height: 34% !important;
+    }
+    
+    .nav-container div.selected {
+        background-color: rgb(160,37,4) !important;
+    }
+    .nav-container div.selected:hover {
+        background-color: rgb(160,37,4) !important;
+    }
+    .nav-container div.selected:after,
+    .nav-container div.selected:hover:after {
+        border-left-color: rgb(160,37,4) !important;
+    }
+    .nav-container div .hover-bar {
+        background-color: rgb(160,37,4) !important;
+    }
+    .event-info .event-dates-list-item:hover {
+        background-color: rgba(160,37,4, 0.2) !important;
+        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#32a02504', endColorstr='#32a02504'); /* IE */
+    }
+
+    @media screen and (min-width:641px) {
+        .accent-color-mobile {
+            color: inherit !important;
+        }
+    }
+    .performance-calendar .active {
+      background-color: rgba(160,37,4, 0.5) !important;
+      filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#66a02504', endColorstr='#66a02504'); /* IE */
+    }
+    .performance-calendar .selected {
+      background-color: rgb(160,37,4) !important;
+    }
+</style>
+<!--[if IE 8]>
+<style>
+    .accent-alpha-background-over-641 {
+        background-color: rgba(160,37,4, 0.1) !important;
+        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#1Aa02504', endColorstr='#1Aa02504'); /* IE */
+    }
+</style>
+<![endif]-->
+
+
+    
+
+    <div class="hero-container">
+        <div class="inner">
+            
+            &nbsp;
+            
+            
+        </div>
+        
+        <div class="hero-org-info-container">
+            <a href="/">
+                <img src="https://ticketleap-usr-master.s3.amazonaws.com/Organization-Logo/736e5ae4-016a-11e0-805b-12313b009463/2014-05-23-13-32-39.jpg" />
+            </a>
+        </div>
+        
+    </div>
+    <div class="nav-container">
+        <div class="nav-container-item nav-container-home  selected">
+            <a href="/evanpetersvip2/" data-ga-interaction-id="event-overview"><span class="nav-item-content"><span class="nav-icon icon-hashtag-encircled"></span><span class="nav-item-text"> Home</span></span></a>
+            <span class="hover-bar"></span>
+        </div>
+        <div class="nav-container-item nav-container-about ">
+            <a href="/evanpetersvip2/details" data-ga-interaction-id="event-about"><span class="nav-item-content"><span class="nav-icon icon-i-encircled"></span><span class="nav-item-text"> About</span></span></a>
+            <span class="hover-bar"></span>
+        </div>
+        
+        <div class="nav-container-item nav-container-get-there ">
+            <a href="/evanpetersvip2/get-there/" data-ga-interaction-id="event-get-there"><span class="nav-item-content"><span class="nav-icon icon-location-encircled"></span><span class="nav-item-text"> Get There</span></span></a>
+            <span class="hover-bar"></span>
+        </div>
+        
+        <div class="nav-container-item nav-container-tickets ">
+            
+            <a href="/evanpetersvip2/dates" data-ga-interaction-id="event-tickets"><span class="nav-item-content"><span class="nav-icon icon-ticket-price-encircled"></span><span class="nav-item-text"> Tickets</span></span></a>
+            
+            <span class="hover-bar"></span>
+        </div>
+    </div>
+    <div  class="content-container clearfix">
+        
+<div class="event-info">
+    <div class="top">
+        <h1 placeholder="">
+            <span class="editor-bg">
+    
+
+    
+                
+                    Evan Peters VIP Experience @ Portland Comic Con 2015
+                
+            
+
+    
+</span>
+
+        </h1>
+        
+        <h3 class="desktop-only org-tag">By WIZARD WORLD COMIC CON (<a class="accent-color" href="/"><span>other events</span></a>)</h3>
+    </div>
+    <div class="bottom">
+      <!-- DESKTOP ONLY -->
+
+
+
+
+
+      
+      <div class="desktop-only venue  ">
+          <span class="accent-color icon-location"></span>
+          <h3>Oregon Convention Center</h3>
+          <span>777 NE Martin Luther King Jr. Blvd., Portland, OR 97232</span>
+          
+      </div>
+      
+
+
+
+
+
+
+
+      
+      <div class="desktop-only performances">
+          <span class="accent-color icon-calendar"></span>
+
+          
+            <div class="event-dates-list-body  event-dates-list-body-single">
+            
+                
+                  
+                    
+                    <a class="event-dates-list-item odd" href="/evanpetersvip2/dates/Jan-23-2015_at_0300PM" data-ga-interaction-id="event-get-tickets">
+                        <span class="event-dates-list-date">
+                            
+<div class="clearfix date-range-container">
+<span class="date-range date-range-multi-day clearfix">
+
+
+    <span class="date-range-start">
+        <span class="date-range-date"><span class="date-range-day-name">Fri, </span>Jan 23 <span class="date-range-year">2015</span></span>
+        <span class="date-range-time"> 3:00 PM</span>
+        <span class="date-range-hyphen"> &mdash; </span>
+    </span>
+    <span class="date-range-end">
+        <span class="date-range-date"><span class="date-range-day-name">Sun, </span>Jan 25 <span class="date-range-year">2015</span></span>
+        <span class="date-range-time"> 5:00 PM</span>
+    </span>
+</span>
+</div>
+
+                        </span>
+                      
+                        <span class="event-dates-list-button big-button accent-button" data-ga-interaction-id="event-get-tickets">Get Tickets</span>
+                      
+                      </a>
+                    
+                  
+                
+              
+            </div>
+          
+      </div>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+      <!-- MOBILE ONLY -->
+      <div class="mobile-only">
+          <div class="event-dates-venue">
+              <h3 class="single-date">
+<div class="inline date-range-container">
+<span class="date-range date-range-multi-day clearfix">
+
+
+    <span class="date-range-start">
+        <span class="date-range-date"><span class="date-range-day-name">Fri, </span>Jan 23 <span class="date-range-year">2015</span></span>
+        <span class="date-range-time"> 3:00 PM</span>
+        <span class="date-range-hyphen"> &mdash; </span>
+    </span>
+    <span class="date-range-end">
+        <span class="date-range-date"><span class="date-range-day-name">Sun, </span>Jan 25 <span class="date-range-year">2015</span></span>
+        <span class="date-range-time"> 5:00 PM</span>
+    </span>
+</span>
+</div>
+</h3>
+              <h3>Portland, OR</h3>
+          </div>
+          <a class="big-button get-tickets accent-button" href="/evanpetersvip2/dates">Get Tickets</a>
+          <span class="org-tag">By WIZARD WORLD COMIC CON (<a class="accent-color" href="/"><span>other events</span></a>)</span>
+      </div>
+    </div>
+</div>
+
+
+    <div class="content" id="hashtag-content" data-hide-if-no-posts="false" data-feed-id="e26ef1e4-33cd-11e4-b145-22000b02901c" data-feed-url-template="http://social-feeds.ticketleap.com/${id}/page-${page}.json" style="display: none;">
+        <div id="hashtag-header" class="icon-header tab-header">
+            <div class="header-bar clearfix">
+                <div class="accent-alpha-border line">&nbsp;</div>
+                <span class="accent-alpha-color nowrap">SOCIAL FEED</span>
+            </div>
+        </div>
+        <div class="hashtag-container">
+
+            <div id="hashtag-header-narrow">
+                SOCIAL FEED
+            </div>
+
+            <div id="hashtag-feed" class="hashtag-feed">
+                <div class="social-comments-header event-comment-form">
+
+  <div style="display:none;">
+      
+      <form id="twitter_post_comment" class="socialize twitter post_comment" action="https://www.ticketleap.com/socialize/dispatch" method="POST"><input type="hidden" name="service" value="twitter" /><input type="hidden" name="on_complete" value="http://wizardworld.ticketleap.com/evanpetersvip2/" /><input type="hidden" name="action_to_perform" value="post_comment" /><input type="hidden" name="event_id" value="e26ef1e4-33cd-11e4-b145-22000b02901c" /><input type="hidden" name="user_id" value="" /><input type="hidden" name="comment_source" value="event" /><label for="id_comment_content"><span class="label-text">Comment content</span> <textarea cols="5" id="id_comment_content" name="comment_content" rows="4">
+</textarea></label><label for="id_send_external"><span class="label-text">Update Status</span> <input checked="checked" id="id_send_external" name="send_external" type="checkbox" /></label><label for="id_subscribe_to_social_digest"><span class="label-text">Subscribe to digest emails</span> <input id="id_subscribe_to_social_digest" name="subscribe_to_social_digest" type="checkbox" /></label><span class="socialize-submit-button"><button type="submit" id="twitter_post_comment_button" name="submit_button" class="socialize-submit-button-node tl-buttons-twitter icon-twitter-encircled" >Comment</button></span></form>
+      
+
+
+      
+      <form id="facebook_post_comment" class="socialize facebook post_comment" action="https://www.ticketleap.com/socialize/dispatch" method="POST"><input type="hidden" name="service" value="facebook" /><input type="hidden" name="on_complete" value="http://wizardworld.ticketleap.com/evanpetersvip2/" /><input type="hidden" name="action_to_perform" value="post_comment" /><input type="hidden" name="event_id" value="e26ef1e4-33cd-11e4-b145-22000b02901c" /><input type="hidden" name="user_id" value="" /><input type="hidden" name="comment_source" value="event" /><label for="id_comment_content"><span class="label-text">Comment content</span> <textarea cols="5" id="id_comment_content" name="comment_content" rows="4">
+</textarea></label><label for="id_send_external"><span class="label-text">Update Status</span> <input checked="checked" id="id_send_external" name="send_external" type="checkbox" /></label><label for="id_subscribe_to_social_digest"><span class="label-text">Subscribe to digest emails</span> <input id="id_subscribe_to_social_digest" name="subscribe_to_social_digest" type="checkbox" /></label><span class="socialize-submit-button"><button type="submit" id="facebook_post_comment_button" name="submit_button" class="socialize-submit-button-node tl-buttons-facebook icon-facebook-encircled" >Comment</button></span></form>
+      
+  </div>
+
+
+  <form id="event_post_comment" method="get">
+      <input name="event_id" type="hidden" value="e26ef1e4-33cd-11e4-b145-22000b02901c" />
+      <textarea name="comment_content" id="event-comment" class="form-hint" title="Leave a comment"></textarea>
+      
+      <ul id="comment-error-ul" class="errorlist" style="display: none;">
+          
+      </ul>
+      
+      <div class="textarea-row clearfix">
+          <div class="options hide">
+              <label><input id="send-external" name="send_external" type="checkbox" checked="checked" /> Update Status </label>
+          </div>
+          <div class="left">
+              <div class="event-like show-if-js hide desktop-only">
+                
+                  <fb:like href="http://wizardworld.ticketleap.com/evanpetersvip2/t/6e014d92f86220066cb9b54d48717f87/" send="false" layout="button_count" width="98" show_faces="false" font="arial"></fb:like>
+                
+              </div>
+          </div>
+          <div class="right">
+              <span class="social-button social-fb-button" data-ga-interaction-id="event-comment-facebook"><span class="icon-facebook-encircled"></span></span>
+              <span class="social-button social-twitter-button" data-ga-interaction-id="event-comment-twitter"><span class="icon-twitter-encircled"></span></span>
+              <span class="post-to-label">post to</span>
+          </div>
+      </div>
+
+      <div class="post-actions">
+        <div class="textarea-row clearfix">
+          <div class="options">
+            <span class="im-going-char-remaining"><strong>Preview</strong> <span></span> characters left</span>
+          </div>
+        </div>
+
+
+
+        <div id="facebook-preview-e26ef1e4-33cd-11e4-b145-22000b02901c" class="post-actions-preview facebook-preview">
+
+  <div class="comment-preview-contents"  style="overflow: hidden;">
+    <span class="comment-preview-text"></span>
+    <span class="accent-color"></span>
+  </div>
+
+  <div class="facebook-content clearfix">
+    <div class="facebook-content-image" style="background-image: url('https://ticketleap-media-master.s3.amazonaws.com/abd43e2e-df9f-4f5d-a8fe-9b6f744fff4d/hero.jpg')">
+      <img src="https://ticketleap-media-master.s3.amazonaws.com/abd43e2e-df9f-4f5d-a8fe-9b6f744fff4d/hero.jpg" />
+    </div>
+    <div class="facebook-content-name">Evan Peters VIP Experience @ Portland Comic Con 2015</div>
+    <div class="facebook-content-link">www.ticketleap.com</div>
+    <div class="facebook-content-description">Evan Peters VIP’s get:ADMISSION/VIP ACCESS• Portland Comic Con 3-Day Weekend Ticket• Exclusive Evan Peters VIP Badge• VIP’s get onto the show floor 30 Minutes before regular attendees on Saturday &amp;...</div>
+  </div>
+</div>
+
+
+<div id="twitter-preview-e26ef1e4-33cd-11e4-b145-22000b02901c" class="post-actions-preview twitter-preview">
+  <div class="comment-preview-contents" style="overflow: hidden;">
+    <span class="comment-preview-text"></span>
+    <span class="accent-color"></span> 
+    <span class="accent-color twitter-content-link" style="word-wrap:break-word;">http://wizardworld.ticketleap.com/evanpetersvip2/</span> 
+    via 
+    <span class="accent-color">@ticketleap</span>
+  </div>
+</div>
+
+        <div class="subscribe-option js-subscribe-option">See who else is going. Get comments in your inbox! <input type="checkbox" name="subscribe_to_social_digest" /></div>
+
+        <div class="textarea-row clearfix">
+          <div class="options left">
+
+            
+
+            
+
+            <label class="hide"><input id="send-external" name="send_external" type="checkbox" checked="checked" /> Update Status </label>
+          </div>
+
+          <div class="right">
+            
+              <button class="tl-buttons-flat tl-buttons-flat-black accent-button">Post</button>
+            
+          </div>
+        </div>
+      </div>
+  </form>
+
+</div>
+
+                
+                <div class="hashtags"></div>
+                <div class="loading" style="display: none;">
+                    <img src="https://dvguhnjbfi9ks.cloudfront.net/assets/fa28516e31afb673b9790f7bd591bff146ad32d4/images/tl_waiting_transparent.gif" />
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+
+    </div>
+
+</div>
+
+
+    
+        
+
+    
+    
+    
+    
+    
+    </body>
+</html>
+

@@ -1,0 +1,1673 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--[if lt IE 7]> <html class="no-js ie6 oldie ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> <!--<![endif]-->
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwcDVlBaGwAGUFRbAQU="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e){function n(t,e,n){n||(n={});for(var r=o[t],a=r&&r.length||0,s=n[i]||(n[i]={}),u=0;a>u;u++)r[u].apply(s,e);return s}function r(t,e){var n=o[t]||(o[t]=[]);n.push(e)}var o={},i="nr@context";e.exports={on:r,emit:n}},{}],2:[function(t){function e(t,e,n,i,s){try{u?u-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(c){try{r("ierr",[c,(new Date).getTime(),!0])}catch(d){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t(5),a=window.onerror,s=!1,u=0;t("loader").features.push("err"),window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(c){"stack"in c&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(4),s=!0)}i.on("fn-start",function(){s&&(u+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&u>0&&(u-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:5,2:4,3:3,4:6,5:1,6:14,handle:"D5DuLP",loader:"G9z0Bl"}],3:[function(t){function e(t){r.inPlace(t,["addEventListener","removeEventListener"],"-",n)}function n(t){return t[1]}var r=t(1),o=(t(3),t(2));if(e(window),"getPrototypeOf"in Object){for(var i=document;i&&!i.hasOwnProperty("addEventListener");)i=Object.getPrototypeOf(i);i&&e(i);for(var a=XMLHttpRequest.prototype;a&&!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&&e(a)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&e(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=r(e,"fn-"):"function"==typeof e.handleEvent&&r.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:15,2:1,3:14}],4:[function(t){var e=(t(3),t(1)),n=t(2);e.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=e(t[0],"fn-")})},{1:15,2:1,3:14}],5:[function(t){function e(t){var e=t[0];"string"==typeof e&&(e=new Function(e)),t[0]=n(e,"fn-")}var n=(t(3),t(1)),r=t(2);n.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",e)},{1:15,2:1,3:14}],6:[function(t){function e(){o.inPlace(this,s,"fn-")}function n(t,e){o.inPlace(e,["onreadystatechange"],"fn-")}function r(t,e){return e}var o=t(1),i=t(2),a=window.XMLHttpRequest,s=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];window.XMLHttpRequest=function(t){var n=new a(t);try{i.emit("new-xhr",[],n),o.inPlace(n,["addEventListener","removeEventListener"],"-",function(t,e){return e}),n.addEventListener("readystatechange",e,!1)}catch(r){try{i.emit("internal-error",r)}catch(s){}}return n},window.XMLHttpRequest.prototype=a.prototype,o.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",r),i.on("send-xhr-start",n),i.on("open-xhr-start",n)},{1:15,2:1}],7:[function(t){function e(){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;u>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,c="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,d=e(c);if(d&&(r.rxSize=d),this.sameOrigin){var f=t.getResponseHeader("X-NewRelic-App-Data");f&&(n.cat=f.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}t("loader").features.push("xhr");var o=t("handle"),i=t(1),a=t(5),s=["load","error","abort","timeout"],u=s.length,c=t(2);t(3),t(4),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var c=e(o);c&&(r.txSize=c)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",e)}catch(r){}}};for(var d=0;u>d;d++)n.addEventListener(s[d],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+c(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+c(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&e()},{1:8,2:11,3:3,4:6,5:1,handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e){var n=r[t];return n?n.apply(this,e):(o[t]||(o[t]=[]),void o[t].push(e))}var r={},o={};e.exports=n,n.queues=o,n.handlers=r},{}],11:[function(t,e){function n(t){if(!t||"object"!=typeof t&&"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&u&&u.body){p.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=u.createElement("script");e.src=p.proto+t.agent,u.body.appendChild(e)}}function r(){"complete"===u.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,u=s.document,c="addEventListener",d="attachEvent",f=(""+location).split("?")[0],p=e.exports={offset:i(),origin:f,features:[]};u[c]?(u[c]("DOMContentLoaded",o,!1),s[c]("load",n,!1)):(u[d]("onreadystatechange",r),s[d]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],14:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],15:[function(t,e){function n(t,e,r,s){function nrWrapper(){try{var n,a=u(arguments),c=this,d=r&&r(a,c)||{}}catch(f){i([f,"",[a,c,s],d])}o(e+"start",[a,c,s],d);try{return n=t.apply(c,a)}catch(p){throw o(e+"err",[a,c,p],d),p}finally{o(e+"end",[a,c,n],d)}}return a(t)?t:(e||(e=""),nrWrapper[n.flag]=!0,nrWrapper)}function r(t,e,r,o){r||(r="");var i,s,u,c="-"===r.charAt(0);for(u=0;u<e.length;u++)s=e[u],i=t[s],a(i)||(t[s]=n(i,c?s+r:r,o,s,t))}function o(t,e,n){try{s.emit(t,e,n)}catch(r){i([r,t,e,n])}}function i(t){try{s.emit("internal-error",t)}catch(e){}}function a(t){return!(t&&"function"==typeof t&&t.apply&&!t[n.flag])}var s=t(1),u=t(2);e.exports=n,n.inPlace=r,n.flag="nr@wrapper"},{1:1,2:14}]},{},["G9z0Bl",2,7]);</script>
+
+								<meta property="og:url" content="http://www.leannrimesworld.com/" />
+				<meta property="og:site_name" content="Leann Rimes" />
+				<meta property="fb:admins" content="620488868,682091272,799055396,573242407,589532541,584578491" />
+				<meta property="og:title" content="Leann Rimes" />
+				<meta property="og:image" content="" />
+				<meta property="og:description" content="" />
+				<meta property="og:type" content="website" />
+				
+						<link rel="shortcut icon" href="/themes/master/img/favicon.ico" />
+		
+				
+				<title>Home : Leann Rimes</title>
+
+				
+				<!--[if !IE 6]><!-->
+		<link href="/themes/master/css/master.css" media="screen" rel="stylesheet" type="text/css" />
+				<link href="/clients/leann_rimes/css/client.css" media="screen" rel="stylesheet" type="text/css" />
+						<!--<![endif]-->
+					<!--[if IE 6]><link href="/themes/master/css/client_IE6.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+		
+
+				
+				<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+		<script>window.jQuery || document.write('<script src="/engine/js/jquery/jquery-1.7.1.min.js" type="text/javascript"><\/script>')</script>
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript"></script>
+		<script>window.jQuery.ui || document.write('<script src="/engine/js/jquery/jquery-ui-1.8.16.min.js" type="text/javascript"><\/script>')</script>
+
+		<script src="/engine/js/underscore.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/engine/js/jquery/plugins/fancybox/jquery.fancybox-1.3.1.js" type="text/javascript"></script>
+		<script src="/engine/js/jquery/plugins/jquery.json.js" type="text/javascript"></script>
+		<script src="/engine/js/jquery/plugins/jquery.cookie.js" type="text/javascript"></script>
+		<script src="/engine/js/swfobject/swfobject-2.2.js" type="text/javascript"></script>
+		<script src="/themes/master/js/master.js" type="text/javascript"></script>
+		
+					<script type="text/javascript">
+	
+
+		// Set Splash Cookie
+		$.cookie("splash_set", 1, {
+			expires: 0,
+			path: "/"
+		});
+
+		// Redirect to splash for the first time.
+        if(window.location.hash !== "#!"){
+            window.location = "/splash";
+        }
+	
+	</script>
+
+
+<script src="/clients/leann_rimes/js/client.js" type="text/javascript" charset="utf-8"></script>
+<meta name="google-site-verification" content="FEzqokRP9bbwdOn7J-MgF2qHB_DO8NEl3x60dO-0XkU" />
+<script src="/clients/leann_rimes/js/jquery.doubletap.js" type="text/javascript" charset="utf-8"></script>
+<script src="/engine/js/jquery/plugins/gc/gc.fullscreen.js" type="text/javascript" charset="utf-8"></script>
+<script src="/clients/leann_rimes/js/jquery.imagesloaded.js" type="text/javascript" charset="utf-8"></script>
+<script src="/clients/leann_rimes/js/jquery.scrollable.js" type="text/javascript" charset="utf-8"></script>
+<script src="/clients/leann_rimes/js/home.js" type="text/javascript" charset="utf-8"></script>
+
+
+				<link rel="alternate" type="application/rss+xml" title="News" href="/api/rss/news" />
+		<link rel="alternate" type="application/rss+xml" title="Events" href="/api/rss/events" />
+
+									<script type="text/javascript" charset="utf-8">showSplash(1);</script>
+			
+
+	</head>
+	<body class="home">
+		<!--[if lt IE 7]>
+		<div id="ie6alert">
+			<p><strong>Warning:</strong> We do not support the <a href="http://en.wikipedia.org/wiki/Web_browser" title="What is a web browser, you ask?" target="_blank" class="help">web browser</a> you are using, and cannot guarantee a problem free experience. Please upgrade to one of these modern web browsers (they&rsquo;re free):</p>
+			<ul>
+				<li><a href="http://www.mozilla.com/en-US/firefox/firefox.html" title="Download Firefox for Windows, Mac OS X, and Linux">Mozilla Firefox 3.5+</a></li>
+				<li><a href="http://www.apple.com/safari/" title="Download Safari for Mac OS X and Windows">Apple Safari 3.0+</a></li>
+				<li><a href="http://www.google.com/chrome?brand=CHFV" title="Download Google Chrome for Windows, Mac OS X, and Linux">Google Chrome 4.0+</a></li>
+				<li><a href="http://www.opera.com/download/" title="Download Opera for Windows, Mac OS X and Linux">Opera 9.5+</a></li>
+				<li><a href="http://www.microsoft.com/windows/Internet-explorer/default.aspx" title="Download a newer Internet Explorer Windows">Internet Explorer 7.0+</a></li>
+			</ul>
+		</div>
+		<![endif]-->
+
+		<div id="dashboard">
+	<div class="section">
+		
+		<ul class="nav controls">
+			<li class="register">
+				<a href="/auth/register">Register</a>
+			</li>
+			<li class="login">
+				<a href="/auth/login">Login</a>
+			</li>
+		</ul>
+
+			</div><!-- .section -->
+</div>
+
+		
+		<div id="header">
+	<div class="section">
+		<div class="nav site">
+	<ul>
+		<li class="selected home"><a href="/#!">Home</a></li>
+		<li class="news"><a href="/news">News</a></li>
+		<li class="about">
+			<a href="/about">About</a>
+			<div class="nav">
+				<ul>
+					<li class="leann-supports"><a href="/leannsupports">LeAnn Supports</a></li>
+				</ul>
+			</div>
+		</li>
+		<li class="media"><a href="/media">Media</a></li>
+		<li class="fromleann"><a href="/fromleann">From LeAnn</a></li>
+		<li class="releases"><a href="/releases">Releases</a></li>
+		<li class="events"><a href="/events">Tour</a></li>
+		<li class="community">
+			<a href="/users">Community</a>
+			<div class="nav">
+				<ul>
+					<li class="users"><a href="/users">Users</a></li>
+					<li class="blogs"><a href="/blogs">Blogs</a></li>
+					<li class="forum"><a href="/forum">Forum</a></li>
+										<li class="contests"><a href="/contests">Contests</a></li>
+					<li class="campaigns"><a href="/campaigns">Campaigns</a></li>
+					<li class="chat"><a href="/chat">Chat</a></li>
+				</ul>
+			</div>
+		</li>
+		<li class="store close">
+			<a href="/store">Store</a>
+				<div class="nav">
+				   <ul>
+					   	<li><a href="http://leannrimes.ras.bustores.com/" target='blank'>Merch Store</a></li>
+					   	<li><a href="/store">Spitfire Store</a></li>
+				   </ul>
+		</li>
+	</ul>
+</div>
+	</div><!-- .section -->
+	<a class="client" href="/">Leann Rimes</a>
+	<div class="social">
+		<a class="icon-youtube" target="_blank" href="http://www.youtube.com/leannrimesofficial"></a>
+		<a class="icon-twitter" target="_blank" href="https://twitter.com/leannrimes"></a>
+		<a class="icon-facebook" target="_blank" href="http://www.facebook.com/leannrimesmusic"></a>
+		<a class="icon-apple-logo" target="_blank" href="http://click.linksynergy.com/fs-bin/stat?id=9QHOHDjRjGs&amp;offerid=146261&amp;type=3&amp;subid=0&amp;tmpid=1826&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fartist%252Fleann-rimes%252Fid521500%253Fuo%253D4%2526partnerId%253D30"></a>
+		<a class="icon-amazon" target="_blank" href="http://www.amazon.com/LeAnn-Rimes/e/B000APSYEE/ref=sr_ntt_srch_lnk_1?qid=1344041338&amp;sr=8-1"></a>
+	</div>
+</div>
+
+		
+		<div id="breadcrumbs">
+	<div class="nav">
+		<span class="here">You are here:</span> <a href="/" class="home">Home</a>
+	</div><!-- .nav -->
+</div>
+
+		<div id="page">
+			<div id="container">
+				<div id="home-slider">
+	<div class="container">
+		<ol class="slides">
+			<li class="slide spitfire">
+				<div class="content">
+					<a href="#">Spitfire - The Brand New Album - In Store June 4th</a>
+				</div>
+			</li>
+
+			<li class="slide give-you-back">
+				<div class="content">
+					<a href="#">I don't wanna give you back!</a>
+				</div>
+			</li>
+
+			<li class="slide done">
+				<div class="content">
+					<a href="#">What have I done?</a>
+				</div>
+			</li>
+
+			<li class="slide generic">
+				<div class="content">
+					<h2 class="title"><a href="#">&ldquo;Playing's just about feeling&rdquo;</a></h2>
+					<h3 class="subtitle"><a href="#">~ Janis Joplin</a></h3>
+				</div>
+			</li>
+
+			<li class="slide lyrics">
+				<div class="content">
+					<a href="/fromleann">I didn't know what those love songs meant, but I do now...</a>
+				</div>
+			</li>
+
+<!-- 			<li class="slide love">
+				<div class="content">
+					<a href="#">"Love would be easy if you always said the right thing."</a>
+				</div>
+			</li> -->
+
+			<li class="slide want">
+				<div class="content">
+					<p>"I don't want to be "LeAnn Rimes", a name in lights.  I want people who listen to my music to see me, know me, recognize me, as a normal human being who can sing and write and, I hope, connect with me through my music in a deeper way than ever before. ~ LeAnn Rimes</p></div>
+			</li>
+		</ol>
+
+ 		<!--
+ 		<div class="slides-nav">
+			<ul>
+				<li>
+					<a href="#">Spitfire</a>
+				</li>
+
+				<li>
+					<a href="#">Lyrics</a>
+				</li>
+			</ul>
+		</div>
+		-->
+	</div>
+</div>
+
+<div id="home-news">
+	<div class="container">
+		<div class="section news recent">
+			<div class="header">
+				<h2 class="title"><span>Recent News</span></h2>
+				<ul class="nav actions">
+					<li><a class="viewall" href="/news">View All</a></li>
+				</ul>
+			</div><!-- .header -->
+
+			<div class="scrollable-news vertical">
+				<div class="listing full">
+
+			<div class="group">
+			<div class="item has-figure ">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/224353">Songs & Hymns Inspired by Tabloids...</a></h3>
+					<div class="meta">
+						<span class="time">Mon, Sep  8, 2014 at  2:49 PM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/224353/#comments"><span>5</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/14/00/images/assets/large.bRLLk2CMOIFiXgQRCVsmPQEF9Bg8mqSdL0LgIcAVaOQ.jpeg"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> This week LeAnn performs&nbsp; &quot;Alive (Thanks To You),&quot; &nbsp;an original written by her and Darrell Brown, in response to last week&#39;s VH1&#39;s &quot;LeAnn &amp; Eddie SEASON FINALE.&quot; Read more to watch the video. 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Mon, Sep  8, 2014 at  2:49 PM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/224353/#comments"><span>5</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/224353" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+	
+				<div class="item has-figure  alt">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/223623">LeAnn Rimes Talks How To Be...</a></h3>
+					<div class="meta">
+						<span class="time">Tue, Sep  2, 2014 at 10:49 AM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/223623/#comments"><span>1</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/07/09/images/assets/large.BVtTD6MSxcATN9u9NAwNs-UFaBO0UVkUqoUpqj6bQmQ.jpg"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> LeAnn Rimes is no stranger to life under the microscope. The country crooner has been in the public eye since her teens &ndash; and in the news ever since. Beyond making music and making headlines, she&rsquo;s most recently kept busy making a VH1 reality show, &ldquo;LeAnn &amp; Eddie&rdquo; with her husband, the ever-swoon worthy Eddie Cibrian... 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Tue, Sep  2, 2014 at 10:49 AM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/223623/#comments"><span>1</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/223623" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+	
+				<div class="item has-figure ">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/223353">Songs & Hymns Inspired by Tabloids...</a></h3>
+					<div class="meta">
+						<span class="time">Thu, Aug 28, 2014 at  7:00 AM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/223353/#comments"><span>3</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/01/02/images/assets/large._s5fvLDdG816Q6DHmvpjXjLNBmXkowS6NXlsO6iyyVk.jpeg"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> This week, LeAnn covers &quot;Love Runs Out&quot; written by One Republic in response to this week&#39;s VH1&#39;s &quot;LeAnn &amp; Eddie&quot; - See what happens TONIGHT 8.28 + 10:30/9:30C. Read more to check out the video.&nbsp; 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Thu, Aug 28, 2014 at  7:00 AM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/223353/#comments"><span>3</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/223353" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+	
+				<div class="item has-figure  alt">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/222553">Songs & Hymns Inspired by Tabloids...</a></h3>
+					<div class="meta">
+						<span class="time">Thu, Aug 21, 2014 at  9:18 AM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/222553/#comments"><span>1</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/08/11/images/assets/large.zBX0OnqrHHD4Upv1nS4r1d8yZSIB4YWDztL7NGyVZKQ.jpeg"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> LeAnn does a Vignette of James Brown, The Supremes, Sheryl Crow, and Sonny &amp; Cher songs in response to this week&#39;s VH1&#39;s &quot;LeAnn &amp; Eddie.&quot; 
+ Continue reading to check out the video. 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Thu, Aug 21, 2014 at  9:18 AM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/222553/#comments"><span>1</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/222553" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+		</div>
+	
+			<div class="group">
+			<div class="item has-figure ">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/221763">Songs & Hymns Inspired by Tabloids...</a></h3>
+					<div class="meta">
+						<span class="time">Thu, Aug 14, 2014 at 11:50 AM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/221763/#comments"><span>8</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/12/10/images/assets/large.MpIcbjorc9Bjm5fRA5pVyhWCDeuV7IBRSSfghcCb2ak.jpeg"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> &quot;Stay With Me&quot; Sam Smith Cover. Continue reading to see the video. 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Thu, Aug 14, 2014 at 11:50 AM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/221763/#comments"><span>8</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/221763" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+	
+				<div class="item has-figure  alt">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/221683">LeAnn Gets 'Sound Advice'</a></h3>
+					<div class="meta">
+						<span class="time">Wed, Aug 13, 2014 at  2:01 PM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/221683/#comments"><span>0</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/05/00/images/assets/large.M3UiYjp0UrcnyrKz2kbIsla0FY_jn5bzLopknBhbmxo.jpeg"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> Check out LeAnn on &#39;Sound Advice with Jenessa Slater&#39;. In the interview, media coach Janessa Slater (SNL&#39;s Vanessa Bayer) gives LeAnn tips on pregnancy and tabloids. Read more to watch the video. 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Wed, Aug 13, 2014 at  2:01 PM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/221683/#comments"><span>0</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/221683" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+	
+				<div class="item has-figure ">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/220893">Songs & Hymns Inspired by Tabloids...</a></h3>
+					<div class="meta">
+						<span class="time">Thu, Aug  7, 2014 at  7:00 AM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/220893/#comments"><span>5</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/02/06/images/assets/large.egrq3G6a5ocybFheKFdCHkUn7Fce3sF4_CYvCoBVHYc.jpeg"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> &quot;All About That Bass&quot; &amp; &quot;Baby Got Back&quot; Cover MASH UP. Continue reading to see the video. 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Thu, Aug  7, 2014 at  7:00 AM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/220893/#comments"><span>5</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/220893" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+	
+				<div class="item has-figure  alt">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/219983">Songs & Hymns Inspired by Tabloids...</a></h3>
+					<div class="meta">
+						<span class="time">Thu, Jul 31, 2014 at  7:00 AM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/219983/#comments"><span>7</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/10/10/images/assets/large.XTjwUHRtGLjYusROERhkqWLxQouaGm9xvOlk45Nht2U.jpeg"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> &quot;The Story&quot; Brandi Carlile Cover 
+ Continue reading to watch the video. 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Thu, Jul 31, 2014 at  7:00 AM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/219983/#comments"><span>7</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/219983" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+		</div>
+	
+			<div class="group">
+			<div class="item has-figure ">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/219223">Songs & Hymns Inspired by Tabloids...</a></h3>
+					<div class="meta">
+						<span class="time">Thu, Jul 24, 2014 at  6:59 AM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/219223/#comments"><span>4</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/03/03/images/assets/large.r3N1i0szjJWhn1VMsI3W94RWtf8G9xf_HgHl_FEQCbw.png"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> Continue reading to watch the video. 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Thu, Jul 24, 2014 at  6:59 AM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/219223/#comments"><span>4</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/219223" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+	
+				<div class="item has-figure  alt">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/217673">LeAnn Rimes Caught with Santa’s...</a></h3>
+					<div class="meta">
+						<span class="time">Thu, Jul 10, 2014 at 10:12 AM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/217673/#comments"><span>5</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/10/02/images/assets/large.Z8fJKt-2VHCkXqZqobQ1gtD1tYoNmGVkAGOqman1sT0.jpg"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p>  Celebrates Christmas in July with &ldquo;ONE Christmas&rdquo; Holiday Album and Tour  
+ LOS ANGELES (July 10, 2014) &ndash; Grammy and World Music Award winning singer, LeAnn Rimes wants to deck your halls as it was announced today that the singer will be packing up her sleigh and hitting the road... 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Thu, Jul 10, 2014 at 10:12 AM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/217673/#comments"><span>5</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/217673" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+	
+				<div class="item has-figure ">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/216503">LeAnn Rimes Dishes on Her Stepsons,...</a></h3>
+					<div class="meta">
+						<span class="time">Fri, Jun 27, 2014 at  7:00 AM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/216503/#comments"><span>1</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/00/06/images/assets/large.kntpPFxEOLm3JrhPO9fqBG0t5DuuLrCSBj47nD_sujE.jpg"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> Though LeAnn Rimes has dealt with her share of tabloid controversy, speaking with her on the phone revealed a calm and cool character. Though the papers sprinkle words like &quot;affair&quot; and &quot;rehab&quot; generously next to her name, Rimes just seems like a family friend you&#39;ve known your whole life -- Rimes is normal but not ordinary. 
+ Read more to check out hte full New Times interview... 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Fri, Jun 27, 2014 at  7:00 AM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/216503/#comments"><span>1</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/216503" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+	
+				<div class="item has-figure  alt">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/216383">LeAnn Rimes on Her New Show with...</a></h3>
+					<div class="meta">
+						<span class="time">Thu, Jun 26, 2014 at 10:48 AM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/216383/#comments"><span>2</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/11/08/images/assets/large.SxGCn1W6FutuMav1CZ3R79tqP_lmqcb2TtYWY3Lqoz4.jpg"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> &quot;Extra&quot; special correspondent Alecia Davis recently sat down with singer LeAnn Rimes in Nashville to chat about her upcoming VH1 reality show with hubby Eddie Cibrian, &quot;LeAnn &amp; Eddie.&quot; 
+	 
+	LeAnn chatted about the show, which she promises will be fun unlike Lifetime&#39;s recent emotional series, &quot;True Tori,&quot; which chronicled the real-life marital troubles of Tori Spelling and Dean McDermott. 
+	 
+	The singer also chatted about what she does to stay fit and revealed her number one beauty secret. 
+	 
+	 Watch!  
+  Source: Extra TV  
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Thu, Jun 26, 2014 at 10:48 AM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/216383/#comments"><span>2</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/216383" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+		</div>
+	
+			<div class="group">
+			<div class="item has-figure ">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/215913">Garnier From the Red Carpet of the...</a></h3>
+					<div class="meta">
+						<span class="time">Fri, Jun 20, 2014 at  4:46 PM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/215913/#comments"><span>1</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/10/07/images/assets/large.WWd9JEGilKxtHnVTeMQQMVUEBH1aE800uQ7_W1F-PEc.jpg"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> LeAnn Rimes, Country Music Singer, rocked the red carpet of the 2014 CMT Music Awards with a relaxed and sultry hairstyle created by Celebrity Hairstylist Tommy Buckett for Garnier... 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Fri, Jun 20, 2014 at  4:46 PM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/215913/#comments"><span>1</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/215913" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+	
+				<div class="item has-figure  alt">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/215853">LeAnn and Eddie Coming to VH1</a></h3>
+					<div class="meta">
+						<span class="time">Fri, Jun 20, 2014 at  3:09 PM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/215853/#comments"><span>2</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/06/14/images/assets/large.-Dd_tysz2XFit4kHFbzoq6NMDeBHhIk0Nw7HoKkqbLs.jpg"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> Get Ready! The premiere of our new show LeAnne And Eddie is coming on July 17th at 10:30pm. For all the latest, be sure to follow the official Twitter @LeAnneEddieVH1 and &ldquo;Like&rdquo; us on Facebook! 
+	 
+	Read more to see a preview of what&#39;s to come.&nbsp; 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Fri, Jun 20, 2014 at  3:09 PM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/215853/#comments"><span>2</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/215853" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+	
+				<div class="item has-figure ">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/213453">LeAnn Rimes adds Weekend...</a></h3>
+					<div class="meta">
+						<span class="time">Thu, Jun  5, 2014 at 10:40 AM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/213453/#comments"><span>1</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/05/04/images/assets/large.IiQt4qpffD9snkDcr52HhcA-G1bDGnLIDQ6dDymaw5k.jpg"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> We&rsquo;re quietly hoping LeAnn Rimes&rsquo; Gay Days Weekend performance doesn&rsquo;t go completely well, if only because her back-up plans sound so entertaining. While Saturday&rsquo;s show at Orlando&rsquo;s Parliament House won&rsquo;t be Rimes&rsquo; first appearance at a gay nightclub, it will be the first time the 31-year-old singer performs an entire concert of her numerous dance hits. 
+ Read more for details... 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Thu, Jun  5, 2014 at 10:40 AM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/213453/#comments"><span>1</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/213453" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+	
+				<div class="item has-figure  alt">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/212203">LeAnn Rimes Gets Patriotic at Indy 500</a></h3>
+					<div class="meta">
+						<span class="time">Mon, May 26, 2014 at  9:58 AM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/212203/#comments"><span>4</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/05/06/images/assets/large.2_4Fs24adaKPNYpbi8VLv8kgp__41PKOGqZUCzbIKZk.png"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> LeAnn Rimes appeared at the Indianapolis 500 on Saturday to kick off the storied race with her rendition of &ldquo;The Star-Spangled Banner.&rdquo; She nailed it (the jet flyover didn&rsquo;t hurt). Check out the clip after the jump. 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Mon, May 26, 2014 at  9:58 AM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/212203/#comments"><span>4</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/212203" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+		</div>
+	
+			<div class="group">
+			<div class="item has-figure ">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/211513">Leann To Play at Sixth & I Benefit...</a></h3>
+					<div class="meta">
+						<span class="time">Tue, May 20, 2014 at  9:00 AM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/211513/#comments"><span>2</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/03/04/images/assets/large.0gRsx4sMczLyE3iBD085LCo6LpGXjyd0abnYhqgKfIc.png"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> Don&#39;t miss your chance to catch Leann Rimes tomorrow, May 21st at the Sixth &amp; I Historic Synagogue in Washington DC.&nbsp; 
+ Leann and The Washington Creative Community have teamed up to put on this concert to benefit Bread for the City, a community program focused on providing vulnerable residents of the DC area with food, clothing, medical care and other important services.&nbsp; 
+ Tickets are available&nbsp; HERE , so get yours today and join Leann in helping benefit this wonderful cause.&nbsp; 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Tue, May 20, 2014 at  9:00 AM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/211513/#comments"><span>2</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/211513" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+	
+				<div class="item has-figure  alt">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/210893">Leann Sits Down With The Las Vegas Sun</a></h3>
+					<div class="meta">
+						<span class="time">Thu, May 15, 2014 at 10:00 AM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/210893/#comments"><span>0</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/00/01/images/assets/large.1Zu4pYjeYmNXWX-xiS8OdUv8N-FBVarVsKvTfpCloSo.jpg"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> You&rsquo;ve got to hand it to award-winning country singer LeAnn Rimes because she doesn&rsquo;t flinch, steer away from controversy and sweep the dirt under the carpet.&nbsp;You have to admire her for that honesty; I certainly do. Truth be told, LeAnn faces it head on and even turns it into bona-fide music hits and big record sales. Read more to see what Leann had to say! 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Thu, May 15, 2014 at 10:00 AM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/210893/#comments"><span>0</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/210893" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+	
+				<div class="item has-figure ">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/210873">Leann Interviewed by iHeartRadio's...</a></h3>
+					<div class="meta">
+						<span class="time">Wed, May 14, 2014 at  2:54 PM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/210873/#comments"><span>0</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/04/08/images/assets/large.zcZaYa9xs1XucJ5SMuvm05uCuN0Vm-vgigrmFm9bAjo.jpg"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> In a recent interview with 24/7 Comedy, Leann speaks with Phil Iazetta about her experiences with childhood stardom, being a stepmom, and her latest project. Listen to the full interview at&nbsp; 247Comedy.com . 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Wed, May 14, 2014 at  2:54 PM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/210873/#comments"><span>0</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/210873" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+	
+				<div class="item has-figure  alt">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/210253">LEANN TO SING NATIONAL ANTHEM AT...</a></h3>
+					<div class="meta">
+						<span class="time">Thu, May  8, 2014 at  9:55 AM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/210253/#comments"><span>0</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/02/12/images/assets/large.A3TQo63Tfoig7sqLLcPp9ZNnfs80xAK8vcU4h8JgCl4.jpg"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> INDIANAPOLIS, Thursday, May 8, 2014 &ndash; Multiple Grammy Award-winning country music superstar LeAnn Rimes will sing the national anthem during pre-race ceremonies at the 98th running of the Indianapolis 500 on Sunday, May 25 at the Indianapolis Motor Speedway. More details after the jump. 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Thu, May  8, 2014 at  9:55 AM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/210253/#comments"><span>0</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/210253" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+		</div>
+	
+			<div class="group">
+			<div class="item has-figure ">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/199793">Help LeAnn Make Sirius XM's 20 On 20</a></h3>
+					<div class="meta">
+						<span class="time">Wed, Jan 29, 2014 at 10:19 AM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/199793/#comments"><span>3</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/11/08/images/assets/large.owMKOI6uCnKld08Cf71owjd3tHV8Z4ZyxoWP7y4f2nI.png"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> LeAnn&#39;s latest single &#39;Gasoline and Matches&#39; featuring Rob Thomas and Jeff Beck has been enjoying substantial attention from radio stations around the country. Now it&rsquo;s in the running for Sirius XM&rsquo;s Top 20 on 20, and you can help her make the list. 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Wed, Jan 29, 2014 at 10:19 AM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/199793/#comments"><span>3</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/199793" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+	
+				<div class="item has-figure  alt">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/195873">Listen to The Pulse!</a></h3>
+					<div class="meta">
+						<span class="time">Mon, Dec 23, 2013 at  9:35 AM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/195873/#comments"><span>3</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/05/06/images/assets/large.pwxhPhgWjvxZiNZrYqHHvRAyVuBF3mdBpQzVhudzMlY.png"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p>  The Pulse  on Sirius Satellite Radio started playing Gasoline and Matches! Tune in on your Sirius Radio today and catch it. 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Mon, Dec 23, 2013 at  9:35 AM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/195873/#comments"><span>3</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/195873" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+	
+				<div class="item has-figure ">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/194293">'Gasoline and Matches' Video Explodes</a></h3>
+					<div class="meta">
+						<span class="time">Tue, Dec 10, 2013 at  2:29 PM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/194293/#comments"><span>1</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/00/13/images/assets/large.RbLWEhiMZuabQXpcpBWZep67cN4lPTqPSYzUBm2gUms.png"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> Shot on iPhone, LeAnn Rimes&#39; video for &#39;Gasoline and Matches&#39; makes canny use of stop-motion animation work... 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Tue, Dec 10, 2013 at  2:29 PM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/194293/#comments"><span>1</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/194293" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+	
+				<div class="item has-figure  alt">
+			<div class="article" >
+				<div class="header">
+					<h3 class="title"><a href="/news/193783">Rimes Looks for Reason</a></h3>
+					<div class="meta">
+						<span class="time">Mon, Dec  9, 2013 at 12:03 PM</span>
+						<span class="author">by User</span>
+												<span class="comments">
+														<a href="/news/193783/#comments"><span>1</span> Comments</a>
+																			</span>
+					</div><!-- .meta -->
+				</div><!-- .header -->
+								<div class="figure">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/04/02/images/assets/large.VJ_MEmB-hYgEOlOQFanB5N4zEffPi1SYPmVoQ5rBvEg.jpg"  alt="" />
+					<!-- <p class="caption"></p> -->
+				</div>
+								<div class="details content excerpt">
+					<p> The country-pop star, who will make her Segerstrom Center debut this month, delved into personal issues for her latest album... 
+</p>
+				</div><!-- .details.content.excerpt -->
+				<div class="footer">
+					<div class='meta'>
+						<span class='time'>Mon, Dec  9, 2013 at 12:03 PM</span>
+						<span class='author'>by User</span>
+						<span class="comments"><a href="/news/193783/#comments"><span>1</span> Comments</a></span>
+					</div><!-- .meta -->
+					<ul class="nav actions">
+												<li class="readmore">
+							<a href="/news/193783" class="button continue"><span>Read the rest of this entry</span></a>
+						</li>
+					</ul><!-- .actions -->
+				</div><!-- .footer -->
+			</div><!-- .article -->
+		</div>
+		</div>
+	
+	
+</div><!-- .news.listing.full -->
+
+<div class="nav pagination">
+
+	<h6 class="title">Page 1 of 8</h6>
+
+	<div class="pages">
+
+		<ul class="actions back">
+								</ul>
+
+					<ul class="actions forth">
+				<li class="next"><a href="?h=2013-12-09+12%3A03%3A00&p=2&d=next">Next</a></li>
+				<li class="last"><a href="?h=l">Last</a></li>
+			</ul>
+		
+	</div>
+
+	<p class="results">173 Results Found</p>
+
+</div>
+
+			</div>
+
+			<div class="navi">
+				<a class="prev">Previous</a>
+				<span class="nav">
+
+				</span>
+				<a class="next">Next</a>
+			</div>
+
+			<div class="footer">
+				<ul class="nav actions">
+					<li><a class="viewall" href="/news">View All</a></li>
+				</ul>
+			</div><!-- .footer -->
+		</div><!-- .section.news.recent -->
+	</div>
+</div>
+
+<div id="home-media">
+	<div class="container">
+		<div class="section recent media">
+			<div class="header">
+				<h2 class="title"><span>Recent Media</span></h2>
+				<ul class="nav actions">
+					<li><a class="viewall" href="/media">View All</a></li>
+				</ul>
+			</div><!-- .header -->
+
+						<div class="figure">
+				<div id="video_player" data-video-poster="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/14/04/images/assets/medium.vNrrxhVXHfq-IBdj0Y_1rWUR8xKfbXBAJSTMDiUGaOk.jpg">
+
+<!-- embed code for VEVO/VIMEO -->
+<iframe title=""One Christmas" Tour Announcement" width="960" height="540" src="http://www.youtube.com/embed/sZzmU4OJsjM?wmode=transparent" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
+
+</div>
+			</div>
+			
+						<a class="prev">Previous</a>
+			<div class="scrollable-media">
+				<div class="thumbs">
+															<div class="group">
+										<a class="photo" href="/media/photos/41121/1083401">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/14/14/images/assets/small.sB_UhRNaWqltkiPVnYzwlqPOajrL4-Wwc2su30kAxZA.jpg" alt=""/>
+					</a>
+																				<a class="photo" href="/media/photos/28871/867701">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/01/06/images/assets/small.bLzVX9gALlkyxS2nKzdOYrAVd_rmPc-jUgB3TbAoQNg.png" alt=""/>
+					</a>
+																				<a class="photo" href="/media/photos/50163/1444343">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/06/05/images/assets/small.427f_tBn2s6zGXnI6RPY1og9AnFxIyCizexeceB5fPE.jpg" alt=""/>
+					</a>
+																				<a class="video" href="/media/videos/29321/74073">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/04/06/images/assets/small.AqeVWo2PQ22kJWzkjUxC2uT8hldGsJqgqEUpHfHEsO8.jpg" alt="Sound Advice ft. LeAnn Rimes"/>
+					</a>
+																				<a class="photo" href="/media/photos/28811/1496783">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/12/07/images/assets/small.QUU_T5kDllSApo-3mFAqR1MRA2ZsL9Ses8GrKxC_sWE.png" alt=""/>
+					</a>
+										</div>
+																				<div class="group">
+										<a class="video" href="/media/videos/52083/65423">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/09/01/images/assets/small.-D6K99nKWmPWEyCt02Yvbc5-4ouLhvGvlz-sjBUCZ98.jpg" alt="ACAs Behind The Scenes"/>
+					</a>
+																				<a class="photo" href="/media/photos/29831/1020841">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/08/00/images/assets/small.FAzwaf_SQ4ULXFuTthArX8Pu5czv9xZDdON0YTdyROA.jpg" alt=""/>
+					</a>
+																				<a class="video" href="/media/videos/27941/72793">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/14/04/images/assets/small.vNrrxhVXHfq-IBdj0Y_1rWUR8xKfbXBAJSTMDiUGaOk.jpg" alt=""One Christmas" Tour Announcement"/>
+					</a>
+																				<a class="photo" href="/media/photos/29111/868041">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/11/02/images/assets/small.EVPl562eV4LshrEqHd08tWSi0OBIj6OmD0B3fR8VoIk.jpeg" alt=""/>
+					</a>
+																				<a class="video" href="/media/videos/27931/65173">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/07/07/images/assets/small.92baD4k4LAYTJYDr2EoGNedBc7rIjQzEGDnBop_NSbs.jpg" alt="LeAnn Rimes, Rob Thomas and Jeff Beck - Gasoline and Matches"/>
+					</a>
+										</div>
+																				<div class="group">
+										<a class="photo" href="/media/photos/27951/816571">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/06/01/images/assets/small.dxBpW89oAaTKqHB6hq5WeMzV1h_QAXgQhagtHLUaW4s.jpg" alt=""/>
+					</a>
+																				<a class="photo" href="/media/photos/47863/1366133">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/07/04/images/assets/small.ecc5CtJvmUf4MhF7Em7m9UCJmY9dXWXIBSBOkI50U1Q.jpeg" alt=""/>
+					</a>
+																				<a class="photo" href="/media/photos/34251/939161">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/09/07/images/assets/small.Cl7NRuhXDoUMsLgeaOWJ2TYF4_-H1gsOA8yRTl3eZzU.png" alt=""/>
+					</a>
+																				<a class="video" href="/media/videos/29321/44281">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/05/08/images/assets/small.9ZV6V9z_zAPICSgNXKo5yI7e5FedPSDRAjRA50N1gXU.jpg" alt="Hippopotamus Christmas Song"/>
+					</a>
+																				<a class="photo" href="/media/photos/28811/1496773">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/06/00/images/assets/small.NttWlQw20qDIsekbDM2xXLfFo46vSAu2Lq2AF52NUG8.png" alt=""/>
+					</a>
+										</div>
+																				<div class="group">
+										<a class="photo" href="/media/photos/29831/1020831">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/05/06/images/assets/small.vJy_XZWsRpyea02rozSa7GrafBghYPx31qZDCYIR3KY.jpg" alt=""/>
+					</a>
+																				<a class="video" href="/media/videos/27941/57113">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/01/07/images/assets/small.TCX0O8oVCTXf1o30daXSon7eJzNr30JRZ68LYjeElbs.jpg" alt="LeAnn Rimes: Hallelujah - Sweden"/>
+					</a>
+																				<a class="photo" href="/media/photos/50163/1444373">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/10/10/images/assets/small.GJr07nkk0SqwtzigQnbwZXT0fOBdDqH4bcNx3Ihm2p4.jpg" alt=""/>
+					</a>
+																				<a class="photo" href="/media/photos/29111/868031">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/12/08/images/assets/small._4oAglK60f1jIh4OCmLgG5u_3TFmYUjkxkcXoQgjQX0.jpeg" alt=""/>
+					</a>
+																				<a class="video" href="/media/videos/27931/63443">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/10/06/images/assets/small.RgZZ8C-Hhi7KbOOA3iy_yQbYqugY8wldvdJ2iLqvE5A.jpg" alt="How Do I Live"/>
+					</a>
+										</div>
+																				<div class="group">
+										<a class="photo" href="/media/photos/47863/1366123">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/14/09/images/assets/small.fE7EFk2WcAfRNuAE8tfBxaEm33L8VgD_r4KqL7VwN3c.jpeg" alt=""/>
+					</a>
+																				<a class="photo" href="/media/photos/34251/939151">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/02/14/images/assets/small.Np4hGp0mJf5_M_tWPCLiwg3D3M9arN19OpA7S1J1NlI.jpg" alt=""/>
+					</a>
+																				<a class="photo" href="/media/photos/27951/816461">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/10/01/images/assets/small.1C-jkxwb0e31uTtdm-6NSBTqpCpwkrPlO0ZAedqNFtE.jpg" alt=""/>
+					</a>
+																				<a class="photo" href="/media/photos/41121/1083391">
+						<img src="http://groundctrl.s3.amazonaws.com/clients/leann_rimes/media/12/06/images/assets/small.NPK5TMMHcf_IMhvVxiA_Fx-aMvNzceZUnUQylfNzFZo.jpg" alt=""/>
+					</a>
+										</div>
+														</div><!-- .thumbs -->
+			</div>
+			<a class="next">Next</a>
+
+			<div class="navi"></div>
+			
+			<div class="footer">
+				<ul class="nav actions">
+					<li><a class="viewall" href="/media/">View All</a></li>
+				</ul>
+			</div><!-- .footer -->
+		</div><!-- .section.recent.media -->
+	</div>
+</div>
+
+<div id="home-events">
+	<div class="container">
+		<div class="section events">
+			<div class="header">
+				<h2 class="title"><span>Tour Dates</span></h2>
+				<ul class="nav actions">
+					<li><a class="viewall" href="/events/">View All</a></li>
+				</ul>
+			</div><!-- .header -->
+
+			<div class="listing full">
+	<table>
+		<thead>
+			<tr>
+				<th>Date</th>
+				<th>Location</th>
+				<th>Venue</th>
+																		<th>Tickets</th>
+							</tr>
+		</thead>
+		<tbody>
+
+						
+			<tr>
+				<td class="date">
+					<span class="time">
+						<span class="month">Sep</span> <span class="day">27</span>
+											</span>
+				</td>
+
+				<td class="venue">
+					<span class="venue"><a href="/events/258863">Fox Performing Arts Center</a></span>
+									</td>
+
+				<td class="location">
+					<span class="locality">
+						<a href="/events/258863">Riverside, CA</a>
+					</span>
+					<span class="region">United States</span>
+				</td>
+
+				
+								<td class="tickets">
+										<ul>
+																			<li class="tickets vip na"><span>VIP</span></li>
+						
+																			<li class="tickets"><a href="http://concerts.livenation.com/event/0B004C56C60F667B?camefrom=ramya_8e1" target="_blank">Tickets</a></li>
+											</ul>
+				</td>
+							</tr>
+
+			
+			<tr class="alt">
+				<td class="date">
+					<span class="time">
+						<span class="month">Sep</span> <span class="day">28</span>
+											</span>
+				</td>
+
+				<td class="venue">
+					<span class="venue"><a href="/events/273433">College of Canyons</a></span>
+									</td>
+
+				<td class="location">
+					<span class="locality">
+						<a href="/events/273433">Santa Clarita, CA</a>
+					</span>
+					<span class="region">United States</span>
+				</td>
+
+				
+								<td class="tickets">
+										<ul>
+																			<li class="tickets vip na"><span>VIP</span></li>
+						
+																			<li class="tickets"><a href="http://www3.canyons.edu/Offices/PIO/CanyonsPAC/tix-rimes.html" target="_blank">Tickets</a></li>
+											</ul>
+				</td>
+							</tr>
+
+			
+			<tr>
+				<td class="date">
+					<span class="time">
+						<span class="month">Oct</span> <span class="day">02</span>
+											</span>
+				</td>
+
+				<td class="venue">
+					<span class="venue"><a href="/events/274593">Hard Rock Rocksino</a></span>
+									</td>
+
+				<td class="location">
+					<span class="locality">
+						<a href="/events/274593">Northfield, OH</a>
+					</span>
+					<span class="region">United States</span>
+				</td>
+
+				
+								<td class="tickets">
+										<ul>
+																			<li class="tickets vip na"><span>VIP</span></li>
+						
+																			<li class="tickets"><a href="http://www.ticketmaster.com/leann-rimes-northfield-ohio-07-27-2014/event/05004CB4E547B6F0?artistid=779682&majorcatid=10001&minorcatid=2" target="_blank">Tickets</a></li>
+											</ul>
+				</td>
+							</tr>
+
+			
+			<tr class="alt">
+				<td class="date">
+					<span class="time">
+						<span class="month">Oct</span> <span class="day">04</span>
+											</span>
+				</td>
+
+				<td class="venue">
+					<span class="venue"><a href="/events/288943">Casino Rama Entertainment Centre</a></span>
+										<span class="with">
+						With: 
+																								</span>
+									</td>
+
+				<td class="location">
+					<span class="locality">
+						<a href="/events/288943">Orillia, ON</a>
+					</span>
+					<span class="region">Canada</span>
+				</td>
+
+				
+								<td class="tickets">
+										<ul>
+																			<li class="tickets vip na"><span>VIP</span></li>
+						
+																			<li class="tickets"><a href="http://www.ticketmaster.ca/event/10004D0209362F57?brand=casram&camefrom=CFC_CASINO_RAMA_web" target="_blank">Tickets</a></li>
+											</ul>
+				</td>
+							</tr>
+
+			
+			<tr>
+				<td class="date">
+					<span class="time">
+						<span class="month">Oct</span> <span class="day">28</span>
+											</span>
+				</td>
+
+				<td class="venue">
+					<span class="venue"><a href="/events/249193">Carnival Cruise Live</a></span>
+									</td>
+
+				<td class="location">
+					<span class="locality">
+						<a href="/events/249193">Nassau, </a>
+					</span>
+					<span class="region">Bahamas</span>
+				</td>
+
+				
+								<td class="tickets">
+										<ul>
+																			<li class="tickets vip na"><span>VIP</span></li>
+						
+																			<li class="tickets"><a href="http://www.carnival.com/live-entertainment-bands/leann-rimes.aspx" target="_blank">Tickets</a></li>
+											</ul>
+				</td>
+							</tr>
+
+			
+			<tr class="alt">
+				<td class="date">
+					<span class="time">
+						<span class="month">Oct</span> <span class="day">29</span>
+											</span>
+				</td>
+
+				<td class="venue">
+					<span class="venue"><a href="/events/249353">Carnival Cruise Live</a></span>
+									</td>
+
+				<td class="location">
+					<span class="locality">
+						<a href="/events/249353">Nassau, </a>
+					</span>
+					<span class="region">Bahamas</span>
+				</td>
+
+				
+								<td class="tickets">
+										<ul>
+																			<li class="tickets vip na"><span>VIP</span></li>
+						
+																			<li class="tickets"><a href="http://www.carnival.com/live-entertainment-bands/leann-rimes.aspx" target="_blank">Tickets</a></li>
+											</ul>
+				</td>
+							</tr>
+
+			
+			<tr>
+				<td class="date">
+					<span class="time">
+						<span class="month">Dec</span> <span class="day">05</span>
+											</span>
+				</td>
+
+				<td class="venue">
+					<span class="venue"><a href="/events/282163">Paramount Theatre</a></span>
+										<span class="with">
+						With: 
+																																											<span class="artist">Levi Hummon</span>
+									<span class="comma">, </span>
+																										</span>
+									</td>
+
+				<td class="location">
+					<span class="locality">
+						<a href="/events/282163">Rutland, VT</a>
+					</span>
+					<span class="region">United States</span>
+				</td>
+
+				
+								<td class="tickets">
+										<ul>
+																			<li class="tickets vip na"><span>VIP</span></li>
+						
+																			<li class="tickets"><a href="https://www.vendini.com/ticket-software.html?t=tix&w=9f7f0b33f291bb8af673cfda1d1cf3dc" target="_blank">Tickets</a></li>
+											</ul>
+				</td>
+							</tr>
+
+			
+			<tr class="alt">
+				<td class="date">
+					<span class="time">
+						<span class="month">Dec</span> <span class="day">07</span>
+											</span>
+				</td>
+
+				<td class="venue">
+					<span class="venue"><a href="/events/282173">Sands Bethlehem Events Center</a></span>
+										<span class="with">
+						With: 
+																																											<span class="artist">Levi Hummon</span>
+									<span class="comma">, </span>
+																										</span>
+									</td>
+
+				<td class="location">
+					<span class="locality">
+						<a href="/events/282173">Bethlehem, PA</a>
+					</span>
+					<span class="region">United States</span>
+				</td>
+
+				
+								<td class="tickets">
+										<ul>
+																			<li class="tickets vip na"><span>VIP</span></li>
+						
+																			<li class="tickets"><a href="http://www.ticketmaster.com/event/02004CEAC9F8D467" target="_blank">Tickets</a></li>
+											</ul>
+				</td>
+							</tr>
+
+			
+		</tbody>
+
+	</table>
+
+	<div class="nav pagination">
+
+	<h6 class="title">Page 1 of 2</h6>
+
+	<div class="pages">
+
+		<ul class="actions back">
+								</ul>
+
+					<ul class="actions forth">
+				<li class="next"><a href="?h=2014-12-07+00%3A00%3A00&p=2&d=next">Next</a></li>
+				<li class="last"><a href="?h=l">Last</a></li>
+			</ul>
+		
+	</div>
+
+	<p class="results">16 Results Found</p>
+
+</div>
+
+</div>
+
+			<div class="footer">
+				<ul class="nav actions">
+					<li><a class="viewall" href="/events">View All</a></li>
+				</ul>
+			</div><!-- .footer -->
+		</div><!-- .section.events -->
+	</div>
+</div>
+
+			</div><!-- #container -->
+		</div><!-- #page -->
+
+		<div id="footer">
+	<div class="section">
+		<div class="nav site">
+	<ul>
+		<li class="selected home"><a href="/#!">Home</a></li>
+		<li class="news"><a href="/news">News</a></li>
+		<li class="about">
+			<a href="/about">About</a>
+			<div class="nav">
+				<ul>
+					<li class="leann-supports"><a href="/leannsupports">LeAnn Supports</a></li>
+				</ul>
+			</div>
+		</li>
+		<li class="media"><a href="/media">Media</a></li>
+		<li class="fromleann"><a href="/fromleann">From LeAnn</a></li>
+		<li class="releases"><a href="/releases">Releases</a></li>
+		<li class="events"><a href="/events">Tour</a></li>
+		<li class="community">
+			<a href="/users">Community</a>
+			<div class="nav">
+				<ul>
+					<li class="users"><a href="/users">Users</a></li>
+					<li class="blogs"><a href="/blogs">Blogs</a></li>
+					<li class="forum"><a href="/forum">Forum</a></li>
+										<li class="contests"><a href="/contests">Contests</a></li>
+					<li class="campaigns"><a href="/campaigns">Campaigns</a></li>
+					<li class="chat"><a href="/chat">Chat</a></li>
+				</ul>
+			</div>
+		</li>
+		<li class="store close">
+			<a href="/store">Store</a>
+				<div class="nav">
+				   <ul>
+					   	<li><a href="http://leannrimes.ras.bustores.com/" target='blank'>Merch Store</a></li>
+					   	<li><a href="/store">Spitfire Store</a></li>
+				   </ul>
+		</li>
+	</ul>
+</div>
+		<ul class="nav terms">
+			<li class="privacy coppa"><a href="/privacy/">Privacy Policy</a></li>
+			<li class="conditions"><a href="http://groundctrl.com/terms/">Terms &amp; Conditions</a></li>
+			<li class="support"><a href="http://support.groundctrl.com/">Support</a></li>
+			<li class="contact"><a href="/contact">Contact</a></li>
+			<li class="presskit"><a href="http://leannrimes-assets.groundctrl.com/ ">Media Press Kit</a></li>
+		</ul>
+		<div id="copyright">
+			<p><span class="copyright">&copy; 2014 Leann Rimes.  All rights reserved.</span> <span class="poweredby">powered by <a href="http://groundctrl.com"><strong>ground</strong>(ctrl)</a></span></p>
+			<p id="onguard">Visit <a href="http://www.onguardonline.gov">www.OnGuardOnline.gov</a> for social networking safety tips for parents and youth.</p>
+		</div><!-- #copyright -->
+	</div><!-- .section -->
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+
+	//client specific
+			var pageTracker = _gat._getTracker("UA-25302117-49");
+		pageTracker._trackPageview();
+			
+	//ground(ctrl) wide
+	var pageTrackerAll = _gat._getTracker("UA-2233934-41");
+	pageTrackerAll._setDomainName("none");
+	pageTrackerAll._setAllowLinker(true);
+	pageTrackerAll._trackPageview();
+</script>
+
+<script type="text/javascript">
+
+   var GoSquared={};
+   GoSquared.acct = "GSN-353074-Z";
+   (function(w){
+       function gs(){
+           w._gstc_lt=+(new Date); var d=document;
+           var g = d.createElement("script"); g.type = "text/javascript"; g.async = true; g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
+           var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(g, s);
+       }
+       w.addEventListener?w.addEventListener("load",gs,false):w.attachEvent("onload",gs);
+   })(window);
+
+</script>
+
+<div id="fb-root"></div>
+<script src="//connect.facebook.net/en_US/all.js#xfbml=1&amp;appId=148881529100"></script>
+<script src="//platform.twitter.com/widgets.js"></script>
+<script src="//apis.google.com/js/plusone.js"></script>
+
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-6.newrelic.com","licenseKey":"765edf4a24","applicationID":"3645964","transactionName":"ZV1QN0BXD0pZW0RaX1wXcRZBQg5UF3BfXlU=","queueTime":0,"applicationTime":89,"ttGuid":"","agentToken":"","atts":"SRpTQQhNHEQ=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-412.min.js"}</script></body>
+</html>

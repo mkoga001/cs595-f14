@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<META HTTP-EQUIV="EXPIRES" CONTENT="0">
+<META NAME="RESOURCE-TYPE" CONTENT="DOCUMENT">
+<META NAME="DISTRIBUTION" CONTENT="GLOBAL">
+<META NAME="AUTHOR" CONTENT="Wizdom Web design">
+<META NAME="COPYRIGHT" CONTENT="Copyright (c) 2010 wisdom.gr">
+<META NAME="KEYWORDS" CONTENT="greek, Greek, hosting, web, servers, dedicated, domain, registration, hyper, φιλοξενία, φιλοξενια, server, webhosting, hyperhosting, PHP, ASP, MySQL, ODBC, linux, unix, sql, database, domain names, greek hosting, greek webhosting, webhosting in greece, website hosting, virtual hosting, web site hosting, web-hosting services, web hosting services, web page hosting, domain hosting, hosting services, web hosting companies, virtual web hosting, web hosting service, site hosting, low cost domain hosting, frontpage hosting, domain name hosting, cgi hosting, business web hosting, internet virtual domain web hosting, internet hosting, cheap virtual domain hosting, web-hosting, cheap website hosting, cheap web hosting, online hosting, real audio hosting, hosting domain, web design &amp; hosting, "web site hosting", hosting web page, commercial hosting services, web+site+hosting, front page 98 hosting, "web page hosting", front page hosting. domane hosting, frontpage98 hosting, web hositing in Greece, Greek web hosting">
+<META NAME="DESCRIPTION" CONTENT="H Wizdom με συνέπεια δημιουργεί ιστοσελίδες και λύσεις που αντικατοπτρίζουν τις ανάγκες,
+την προσωπικότητα και το όραμα των πελατών μας.  Η επιτυχία του online και offline branding, των επικοινωνιών και της στρατηγικής μάρκετινγκ της εταιρείας σας θα είναι πάντα ο στόχος μας.">
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+<META NAME="REVISIT-AFTER" CONTENT="1 DAYS">
+<META NAME="RATING" CONTENT="GENERAL">
+<title>WIZDOM | WEB DESIGN | WEB DEVELOPMENT</title>
+
+<script>
+		var oScroll = null, oHolder = null, intIntervalId;
+		var blnRunning = false;
+		
+		//This setting can be modified to alter the default speed.
+		var intMoveIncrement = -2
+
+		//The time increment is the frequency (in milliseconds) with
+		//  which the crawler is updated. It's set at 30 milliseconds 
+		//  because that is roughly 30 frames per second (TV quality).
+		//  The human eye can detect visual stuttering at anything greater
+		//  than 100 milliseconds.
+		var intTimeIncrement = 30;
+		
+		//This function handles the animation of the object stored in the 
+		//  variable oScroll. It assumes that it is within the object oHolder.
+		function scroll()
+		{
+			//If scrolling has been stopped for some reason, then don't animate
+			if (!(blnRunning))
+				return;
+				
+			var intHolderWidth = oHolder.style.pixelWidth;
+			var intLeft = oScroll.style.pixelLeft;
+			var intRight = intLeft + oScroll.offsetWidth;
+			var intDirection, blnReset = false;
+			
+			//Determine if the text has gone off of the end of the display area.
+			//  If it has, then reset the text. This is all dependant on the direction
+			//  in which the text is moving.
+			if ((intMoveIncrement < 0) && ((-1 * intLeft) > oScroll.offsetWidth))
+			{
+				oScroll.style.left = intHolderWidth;
+				blnReset = true;
+			}
+			else if ((intMoveIncrement > 0) && (intLeft > intHolderWidth))
+			{
+				oScroll.style.left = -1 * oScroll.offsetWidth;
+				blnReset = true;
+			}
+			
+			//If the text was not reset this cycle, then move it the specified
+			//  number of units.
+			if (!(blnReset))
+				oScroll.style.left = intLeft + intMoveIncrement;
+		}
+		
+		//This function changes the magnitude only, not the direction of the scrolling.		
+		function changeSpeed(intSpeed)
+		{
+			if (intMoveIncrement < 0)
+				intMoveIncrement =  (-1 * intSpeed);
+			else
+				intMoveIncrement = (1 * intSpeed);
+			
+		}
+
+		//This function changes the direction of the scrolling.
+		function toggleDirection()
+		{
+			intMoveIncrement = -1 * intMoveIncrement;
+		}
+		
+		//This function "pauses" the scrolling.
+		function toggleScroll()
+		{
+			if(blnRunning)
+				clearInterval(intIntervalId);
+			else
+				intIntervalId = setInterval('scroll();', intTimeIncrement);
+
+			//Toggling the boolean value is redundant because the interval 
+			//  is terminated/activated accordingly. However, I use it just to be sure.
+			blnRunning = !(blnRunning);
+		}
+		
+		//This function must be called before any information can be scrolled.
+		//  Do not call toggleScroll() before this function or you will 
+		//  receive an error.
+		function initScroll(oText, oContainer)
+		{
+			//Set the object to scroll, and it's container (for width checking)
+			oScroll = oText;
+			oHolder = oContainer;
+			
+			//Reset the position of the text span and start scrolling
+			oScroll.style.left = oHolder.style.pixelWidth;
+			blnRunning = false;	//Set to false so that toggleScroll() will switch *to* scrolling
+			toggleScroll();
+		}
+	</script>
+    
+    
+    
+    
+<style>
+		a.news
+		{
+			color: #CCCC00;
+			font-size: 8pt;
+			font-weight: bold;
+		}
+		
+		span.newsText
+		{
+			color: #FFFFFF;
+			font-size: 8pt;
+			font-family: Tahoma;
+		}	
+		
+		span.newsHolder
+		{
+			padding: 5px;
+			background-color: #006699;
+		}
+	
+	</style>
+    
+<link href="wizdom.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<style type="text/css">
+<!--
+.style5 {color: #666666}
+body {
+	background-image: url(back.jpg);
+}
+-->
+</style>
+</head>
+
+<body class="oneColFixCtr">
+
+<div id="container">
+  <div id="mainContent">
+  <!--  <div id="logos" class="logo"></div>-->
+    <div align="center" class="buttons" id="buttonss"><span class="logo"></span><a href="index.php"><img src="logo.jpg" width="132" height="104" border="0" class="imager"/></a> <br />
+      <div><span class="style1"><a href="company.php" class="linkpano">Eταιρεία</a> <a href="solutions.php" class="linkpano">Λύσεις</a> <a href="services.php" class="linkpano">Υπηρεσίες</a> <a href="sinergasies.php" class="linkpano"> Συνεργασίες</a> <a href="news.php" class="linkpano">Νέα</a> <a href="contact.php" class="linkpano">Επικοινωνία</a></span></div>
+    </div>
+    <div id="clear" class="clarer"></div>
+    <div id="titler" class="titler">
+      <h1><a href="english.php"><img src="eglishflag.png" width="36" height="35" border="0" style="float:right; padding-right:10px;"/></a>Wizdom.Welcome</h1>
+  </div>
+     <div id="leftmenu" class="leftmenu">
+      <table width="272" border="0" align="center" cellpadding="0" cellspacing="0" background="linksbg4.jpg">
+         <tr>
+           <th scope="col"><a href="portofolio.php" class="aristera">Portofolio</a> </th>
+         </tr>
+         
+         <!--<tr>
+           <th scope="col"><div align="left"><a href="testimonials.php" class="aristera">Testimonials</a>		</div></th>
+         </tr>-->
+       
+      
+         <tr>
+           <th scope="col"><a href="seo.php" class="aristera">Seo</a></th>
+         </tr>
+        
+         <tr>
+           <th scope="col"><a href="offer.php" class="aristera">Zητήστε προσφορά</a></th>
+         </tr>
+         
+          <tr>
+           <th scope="col" align="left"><a href="http://domains.dragonlance.gr/" target="_blank"  class="aristera">Ο λογαριασμός μου</a></th>
+         </tr>
+         
+       
+         <tr>
+           <th scope="col" align="left"><a href="sitemap.php" class="aristera">Sitemap</a></th>
+         </tr>
+      
+         <tr>
+           <td valign="top"><div align="left"><img src="kato.png" width="272" height="78" /></div></td>
+         </tr>
+       </table>    </div>
+   <div id="rightmenu" class="rightmenu">
+     <script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','640','height','332','src','test','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','test' ); //end AC code
+</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="640" height="332">
+       <param name="movie" value="test.swf" />
+       <param name="quality" value="high" />
+       <embed src="test.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="640" height="332"></embed>
+     </object>
+   </noscript>
+   </div>
+  </div>
+<div id="clear" class="clarer"></div>
+<div id="news" class="news">
+<div id="newstitle" class="newstitle">
+News.19/11/2013</div>
+<div id="newsmain" class="newsmain">
+Παίξτε με τον Wiz και κερδίστε πλούσια δώρα στο <a href="game/index.php">web surfer</a> !!</div>
+</div>
+<div id="clear" class="clarer"></div>
+<div id="kato1" class="kato1"><a href="webdesign.php"><img src="clip1.jpg" border="0" /></a></div>
+<div id="kato2" class="kato1"><a href="webdevelopment.php"><img src="clip2.jpg" width="301" height="232" border="0" /></a></div>
+<div id="kato3" class="kato1"><a href="webhosting.php"><img src="clip3.jpg" width="297" height="232" border="0" /></a></div>
+<div id="clear" class="clarer"></div>
+<div class="katotext" id="kato4"> 
+  
+      <a href="webdesign.php" class="katolinker"><span class="style3">WEB DESIGN</span><br />
+      <span class="style5">μοναδικά σχέδια με φαντασία</span></a></div>
+<div class="katotext2" id="kato5"> 
+  
+      <a href="webdevelopment.php" class="katolinker"><span class="style3">WEB DEVELOPMENT</span><br />
+      <span class="style5">δημιουργήστε το μέλλον</span></a></div>
+      
+      
+      <div class="katotext3" id="kato6"> 
+  
+      <a href="webhosting.php" class="katolinker"><span class="style3">WEB HOSTING</span><br />
+      <span class="style5">σαν το σπίτι σας</span></a></div>
+</div>  
+<div id="clear" class="clarer"></div>
+
+
+<div id="footerbuttons" class="footerbuttons" style="padding-top:90px;">
+<a href="portofolio.php" class="grey">Portofolio </a><span class="style4">|</span><a href="testimonials.php" class="grey">Testimonials</a><span class="style4">|</span><a href="seo.php" class="grey">Seo</a><span class="style4">|</span><a href="offer.php" class="grey">Zητήστε Προσφορά</a><span class="style4">|</span><a href="sitemap.php" class="grey">Sitemap</a><span class="style4">|</span><a href="http://domains.dragonlance.gr/" target="_blank" class="grey">Ο λογαριασμός μου</a><a href="http://wiz-technews.blogspot.gr/"><img src="social2.png" width="38" height="40" border="0"  style="margin:-10px; padding-left:20px;"/></a><a href="https://www.facebook.com/pages/Wizdom/208847419178867"><img src="social3.png" width="38" height="40" border="0"  style="margin:-10px; margin-left:20px;" /></a></div>
+<p id="footertext" class="footertext">
+<span class="footertext">Aγραίων 20, Παγκράτι, Αθήνα 11632, Τηλ: 210 7517586 Copyright © 2010   by wizdom.gr <br />
+Απαγορεύεται η αναδημοσίευση οποιουδήποτε μέρους του   περιεχομένου χωρίς την έγγραφη άδεια του εκδότη.</span><br />
+<br />
+</p>
+</body>
+</html>

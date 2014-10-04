@@ -1,0 +1,225 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" class="lang-en">
+<head>
+
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="http://followback.me/sites/all/themes/jlbase/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta about="/shepherdgregory" property="foaf:name" content="id_1135512116" />
+<script type="text/template" id="user-follow-button">
+<% if (connections.anonymous) { %>
+  <a class="btn btn-small btn-success" href="/r">Follow </a>
+<% } else if (!connections.can_follow) { %>
+<% } else if (connections.blocks) { %>
+  <a class="btn btn-small disabled">Blocked </a>
+<% } else if (connections.friendship_out) { %>
+  <a class="btn btn-small disabled">Pending </a>
+<% } else if (connections.following) { %>
+  <a class="btn btn-small disabled">Following </a>
+<% } else { %>
+  <a href="#" class="btn btn-small btn-success follow-user"><i class="icon-plus-sign icon-white"></i> Follow <%= points %> Points </a>
+<% } %>
+</script>
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta about="/shepherdgregory#me" typeof="foaf:Person" rel="foaf:account" resource="/shepherdgregory" />
+  <title>@shepherdgregory | Followback.me</title>
+  <link type="text/css" rel="stylesheet" href="http://followback.me/sites/default/files/css/css_ogjvJnfni1_P_WxvXAHlUOgCs860b3ip9DNMapcIGeM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://followback.me/sites/default/files/css/css_9JYxT7bsU5XOgdrg1leP7bWvDSYLudm1DjjIoD--X1g.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://followback.me/sites/default/files/css/css_3fPLy-el3zXwb4B59dC6U7WpiqhFBQg2gIXHOacFkOA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://followback.me/sites/default/files/css/css_Wm_yRpgU6HIfsXqh0y4EU4NfnFo3R0X8KGwkB9LIXk8.css" media="all" />
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.google_analytics_uacct = "UA-9018417-14";
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://followback.me/sites/default/files/js/js_zgmgZ0BSWGyOKokreQnAp-mZC7V9zX6yxiOtbbeREDI.js"></script>
+<script type="text/javascript" src="http://followback.me/sites/default/files/js/js_1MSpXWJIqN1DINVFMHy4B4a-C65XOU2a4FSchvmk-7Q.js"></script>
+<script type="text/javascript" src="http://followback.me/sites/default/files/js/js_WhIfATkaDOGmPweLVfYNFfgEVbB-jFeDKYrzBHdsSuU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-9018417-14"]);_gaq.push(["_setDomainName", ".followback.me"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"jlbase","theme_token":"SRvYp8MrUi3X6cgchQuRAZiMv6bSiqVbCSI9FEkeg1U","js":{"cdn\/js\/library\/bootstrap\/minified\/bootstrap-dropdown.min.js":1,"cdn\/js\/library\/bootstrap\/minified\/bootstrap-alert.min.js":1,"cdn\/js\/twitter_explore\/profile\/init\/profile-page.js":1,"cdn\/js\/twitter_explore\/commons\/models\/user-graph.js":1,"cdn\/js\/twitter_explore\/commons\/models\/user-model.js":1,"cdn\/js\/twitter_explore\/commons\/models\/points.js":1,"cdn\/js\/twitter_explore\/commons\/views\/points.js":1,"cdn\/js\/twitter_explore\/commons\/views\/register-modal-view.js":1,"cdn\/js\/twitter_explore\/commons\/views\/user-row-model-base-view.js":1,"cdn\/js\/twitter_explore\/profile\/views\/profile-button-view.js":1,"0":1,"cdn\/js\/jquery_update\/jquery\/jquery-1.8.1.min.js":1,"cdn\/js\/core\/minified\/jquery.once.min.js":1,"misc\/drupal.js":1,"cdn\/js\/jquery_update\/external\/jquery.cookie.js":1,"cdn\/js\/jl_core\/html5.js":1,"cdn\/js\/library\/underscore\/underscore.min.js":1,"cdn\/js\/library\/backbone\/backbone.min.js":1,"cdn\/js\/library\/localstorage\/fb_localstorage.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/jlbase\/css\/custom\/user.css":1,"sites\/all\/themes\/jlbase\/css\/bootstrap.css":1,"sites\/all\/themes\/jlbase\/css\/styles.css":1}},"profile_account":{"points":"0","filters":{"country":false,"language":false,"droprate":"100"},"uid":"183381","country_code":"GB","id":1135512116,"screen_name":"shepherdgregory","name":"Gregory Shepherd","location":"The Athens Of The North","description":"Poet from Aberdeen single living in Edinburgh which is filthy or beautiful depending which second it is,writing and \r\nresearching~feel free\r\nto follow\r\n.","followers_count":1468,"friends_count":1988,"statuses_count":8126,"favourites_count":1844,"url":"http:\/\/t.co\/OMM77IgoYC","protected":0,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000030634942\/27f030eaa2e596050e83d13310b23b87_reasonably_small.jpeg","verified":0,"created_time":1359589433,"utc_offset":3600,"last_tweet":null,"timezone":"Edinburgh","lang":"en"},"twitter_account":null,"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip","trackDomainMode":"1"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-user page-user- page-user-183381" >
+
+    
+
+    	
+<header id="activity-header" role="banner">
+  <div class="container" id="nav-container">
+    <div class="navbar">
+      <ul class="nav" role="navigation">
+        <li><a href="/" title="Home"
+          rel="home" id="logo"> Followback.me </a>
+        </li>
+      </ul>
+      <ul class="nav clearfix">
+        <li><a href="/explore">Explore</a></li>
+        <li><a href="/shoutout">Shout outs</a></li>
+        <li><a href="http://unfollowers.me" target="_blank">Unfollowers.me</a></li>
+        <li><a href="/contact">Contact us</a></li>
+        <li><a href="/r">Sign in</a></li>
+      </ul>
+
+
+    </div>
+  </div>
+
+  </header>
+<!-- /.row, /.span12, /#header -->
+
+
+
+    
+
+
+<div id="page-wrapper"><div id="page">
+
+  
+
+
+  <div id="main-wrapper" class="container-fluid">
+  <div id="main" class="clearfix row-fluid">
+
+    <div id="content" class="column span24" role="main">
+
+      
+      <div class="section">
+
+        <div id="messages-wrapper">
+                  </div>
+
+              <div class="row-fluid">
+            <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+      
+  <div class="content">
+    
+
+
+
+<div class="profile-wrapper">
+  <div class="profile-inner container">
+
+    <img src="http://pbs.twimg.com/profile_images/378800000030634942/27f030eaa2e596050e83d13310b23b87_reasonably_small.jpeg"
+      class="circle" width="125">
+    <div class="profile-info">
+      <h2>
+        Gregory Shepherd      </h2>
+      <p class="bio">
+        Poet from Aberdeen single living in Edinburgh which is filthy or beautiful depending which second it is,writing and 
+researching~feel free
+to follow
+.      </p>
+      <p>
+        Joined twitter on
+        January 30, 2013      </p>
+
+      <div class="networks">
+        <div class="follow-button">
+        </div>
+                  <span class="location"><a><i class="icon-map-marker" style="opacity: 0.3;"></i> The Athens Of The North</a></span>
+              </div>
+      <div class="sep"></div>
+      <ul class="numbers clearfix">
+        <li>Followers<strong>1468 </strong>
+        </li>
+        <li>Following<strong>1988 </strong>
+        </li>
+        <li class="nobrdr">Tweets<strong>8126        </strong>
+        </li>
+      </ul>
+    </div>
+
+            <div class="ad">
+          </div>
+
+  </div>
+</div>
+
+<div class="profile-interests container">
+    <div class="interest container">
+    <h3>
+      <a href="/explore/interest/27">twitter</a>
+    </h3>
+    <div class="peers">
+      <p>
+        Explore more followers in <a href="/explore/interest/27">twitter</a>
+      </p>
+          </div>
+  </div>
+  <div class="interest container">
+    <h3>
+      <a href="/explore/interest/11608">twix</a>
+    </h3>
+    <div class="peers">
+      <p>
+        Explore more followers in <a href="/explore/interest/11608">twix</a>
+      </p>
+          </div>
+  </div>
+</div>
+
+  </div> <!-- /.content -->
+
+</div> <!-- /.block -->
+  </div>
+       </div>
+
+
+    </div></div> <!-- /.section, /#content -->
+
+  </div></div> <!-- /#main, /#main-wrapper -->
+  <footer id="footer" role="contentinfo" class="bg-white"><div class="container">
+                  <div class="row" id="seo-links">
+          <div class="span6">
+  <div class="footer-logo">
+    <a href="/" title="Find people like you on Twitter.">Followback.me</a>  </div>
+</div>
+<div class="span6">Followback.me is a web app where you can find and follow intersting people that are similar to you.  <div>Built by <a href="http://twitter.com/_jasonleon" title="Jasonleon twitter" target="_blank">@_jasonleon</a>.</div>
+  <div>©2012 <a href="http://jasonleon.in" title="Jasonleon" target="_blank">Jasonleon</a></div>
+</div>
+<nav class="span6">
+  <ul>
+    <li><a href="/" title="Followback.me">Home</a></li>
+    <li><a href="/explore/search" title="Search new people">Explore people</a></li>
+    <li><a href="/shoutout" title="Do shoutout and ask people for shoutouts">Shoutout people</a></li>
+    <li><a href="/explore/interest" title="List of interests">Interests</a></li>
+  </ul>
+
+</nav>
+<nav class="span4">
+  <ul>
+    <li><a href="/contact" title="Contact us">Contact us</a></li>
+    <li><a href="/about-us" title="About us">About us</a></li>
+    <li><a href="/faq" title="Frequent asked questions">FAQ</a></li>
+    <li><a href="/r">Sign In</a></li>
+    <li><a href="http://twitter.com/followbackdotme" target="_blank" title="Followbackme twitter account">Twitter</a></li>
+  </ul>
+</nav>
+        </div>
+        </div></footer> <!-- /.container, /#footer -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
+
+    <div class="region region-page-bottom">
+    <div class="modal fade" id="registerModal">
+  <div class="modal-body">
+    <h2>Followback.me</h2>
+    <p>Add yourself to our directory of <strong>5 million people</strong><br> find and follow people with similar interest <br> We will do the rest of promoting you.</p>
+    <div class="buttons">
+      <a href="#" class="btn btn-success btn-large btn-login">+ Join now. It's free!</a>
+      <a href="#" class="btn-close">Not now</a>
+    </div>
+  </div>
+</div>  </div>
+<script type="text/javascript" src="http://followback.me/sites/default/files/js/js_CIFg_57Pu7JOcJ-Ssu286fS1eGdrbZsSQ5C_3JgF-x4.js"></script>
+
+</body>
+</html>
