@@ -1,0 +1,40 @@
+\section{Problem 2}
+\label{part2}
+\subsection*{Question}
+\begingroup
+\begin{verbatim}
+
+2.  Using these 100 files, create a single GraphViz "dot" file of
+the resulting graph.  Learn about dot at:
+
+Examples:
+http://www.graphviz.org/content/unix
+http://www.graphviz.org/Gallery/directed/unix.gv.txt
+
+Manual:
+http://www.graphviz.org/Documentation/dotguide.pdf
+
+Reference:
+http://www.graphviz.org/content/dot-language
+http://www.graphviz.org/Documentation.php
+
+Note: you'll have to put explicit labels on the graph, see:
+https://gephi.org/users/supported-graph-formats/graphviz-dot-format/
+
+(note: actually, I'll allow any of the formats listed here:
+
+https://gephi.org/users/supported-graph-formats/
+
+but "dot" is probably the simplest.)
+
+\end{verbatim}
+\newpage
+\subsection{Answer}
+\begin{enumerate}
+\item To generate a DOT file I wrote a small Python program which reads all the files that are created in the first question.
+\item I have generated a log file in the question 1 which contains a md5 hash value for the respective URI and I am gonna make use of that file now to get the URI for respective file name
+\item I read all the files which are generated in the question 1 and map those links with the respective parent URI.
+\item Write all the links in a DOT file(linksgraph.dot) along with labels for each link as required.
+\end{enumerate}
+\subsection{Code Listing}
+\lstinputlisting[language=python, frame=single, breaklines=true,caption={Python Program for generating a DOT file}, label=lst:q1script, captionpos=b, numbers=left, showspaces=false, showstringspaces=false, basicstyle=\footnotesize]{q2/get_dot.py}
