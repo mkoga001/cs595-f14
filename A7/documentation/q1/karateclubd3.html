@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Karate Club</title>
+    <style>
+        .link {
+          stroke: #ccc;
+        }
+        .node circle {
+          fill: #ccc;
+          stroke: #fff;
+          stroke-width: 1.5px;
+        }
+        .node text {
+          pointer-events: none;
+          font: 10px sans-serif;
+        }
+    </style>
+    </head>
+    <body>
+    <script type="text/javascript" src="d3/d3.v3.js"></script>
+    <script type="text/javascript">
+
+        function switchgraph(d) {
+
+            // erases the existing graph
+            d3.selectAll(".node").remove();
+            d3.selectAll(".link").remove();
+            d3.selectAll("text").remove();
+
+            // toggle state between together and split
+            //if the state is 0 then the graph before the split is shown and if 
+            //its 1 then the graph after the split is shown
+            state = 1 - state;
+
+            // load the graph basing on the state 
+            loadgraph(datafiles[state], labels[state]);
+
+        }
+        // this function does the whole job.its reads the JSON file with respective to the state 
+        function loadgraph(filename, label) {
+            svg.append("text")
+                .attr("font-size", 55)
+                .attr("x", 100)
+                .attr("y", 100)
+                .text(label);
+            //reads the data from the JSON file that is passed from the previous funtion
+            d3.json(filename, function(error, json) {
+              force
+                  .nodes(json.nodes)
+                  .links(json.links)
+                  //The edges are weighted, changing the edge distances using these methods
+                  .linkDistance( function(d) { return (d.weight * 20) } )
+                  .linkStrength( function(d) { return (d.weight / 7) } )
+                  .start();
+            
+              var link = svg.selectAll(".link")
+                  .data(json.links)
+                  .enter()
+                  .append("line")
+                  .attr("class", "link");
+            
+              var node = svg.selectAll(".node")
+                  .data(json.nodes)
+                  .enter().append("g")
+                  .attr("class", "node")
+                  .on("mouseover", mouseover)//this highlights the circle when mouse is over the circle
+                  .on("mouseout", mouseout)
+                  .call(force.drag);
+            
+              node.append("circle")//the node is defined to be a circle
+                .attr("r", 8);
+            
+              node.append("text")//the text for the node is defined here
+                  .attr("dx", 12)
+                  .attr("dy", ".35em")
+                  .text(function(d) { return d.id });
+                
+              // this function draws the graph  
+              force.on("tick", function() {
+                link.attr("x1", function(d) { return d.source.x; })
+                    .attr("y1", function(d) { return d.source.y; })
+                    .attr("x2", function(d) { return d.target.x; })
+                    .attr("y2", function(d) { return d.target.y; });
+            
+                node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+              });
+
+        });
+
+        links.forEach(function(link) {
+          link.source = nodes[link.source] || (nodes[link.source] = {name: link.source});
+          link.target = nodes[link.target] || (nodes[link.target] = {name: link.target});
+        });
+
+        function mouseover() {
+          d3.select(this).select("circle").transition()
+              .duration(750)
+              .attr("r", 16);
+        }
+
+        function mouseout() {
+          d3.select(this).select("circle").transition()
+              .duration(750)
+              .attr("r", 8);
+        }
+        }
+        var width = 960,
+            height = 800; 
+        //assigning the files to an array so that they can be called when ever required and depending 
+        //on the state of the graph    
+        var datafiles = new Array();
+        datafiles[0] = "karate.json";
+        datafiles[1] = "karatesplit.json";
+        // Gives the appropriate headings depending on the state of the graph.
+        var labels = new Array();
+        labels[0] = "Karate Club Prior To Split";
+        labels[1] = "Karate Club After Split";
+        var svg = d3.select("body").append("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .on("click", switchgraph );//this is where the function switchgraph is called on click 
+        
+        // this line forces the layout to appear.
+        var force = d3.layout.force()
+            .gravity(.05)
+            .charge(-100)
+            .size([width, height]);
+
+        // initialize state to "together"
+        var state = 0;
+        loadgraph(datafiles[state], labels[state]);
+    </script>
+  </body>    
+</html>
+
