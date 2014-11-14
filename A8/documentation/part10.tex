@@ -1,0 +1,79 @@
+\section{Problem 10}
+\label{part10}
+\subsection*{Question}
+\begingroup
+\begin{verbatim}
+What movie was rated highest on average by women over 40? By
+women under 40?
+\end{verbatim}
+\subsection{Solution}
+\begin{enumerate}
+\item Listing \ref{lst:q9} shows the source for getting the movie that was rated highest on average by given gender , given criteria for age (under and over) and age barrier and number of movies to be listed.
+\item I used the same code I used for question \ref{part3} and \ref{part4} and added couple of lines where ever required 
+\item To get the movies that were rated highest by women over 40 years , I use the following script:
+\begin{lstlisting}[frame=single]
+./highestratingbyage.py 27 "over" 40 "F"
+
+\end{lstlisting}
+\item The output for the the movies rated by women over 40 is as below
+\begin{lstlisting}[frame=single]
+In the Bleak Midwinter (1995) 5.00
+Swept from the Sea (1997) 5.00
+Great Dictator, The (1940) 5.00
+Balto (1995) 5.00
+Ma vie en rose (My Life in Pink) (1997) 5.00
+Angel Baby (1995) 5.00
+Nightmare Before Christmas, The (1993) 5.00
+Letter From Death Row, A (1998) 5.00
+Shall We Dance? (1937) 5.00
+Visitors, The (Visiteurs, Les) (1993) 5.00
+Safe (1995) 5.00
+Grand Day Out, A (1992) 5.00
+Gold Diggers: The Secret of Bear Mountain (1995) 5.00
+Pocahontas (1995) 5.00
+Wrong Trousers, The (1993) 5.00
+Funny Face (1957) 5.00
+Foreign Correspondent (1940) 5.00
+Bride of Frankenstein (1935) 5.00
+Best Men (1997) 5.00
+Shallow Grave (1994) 5.00
+Quest, The (1996) 5.00
+Mary Shelley's Frankenstein (1994) 5.00
+Top Hat (1935) 5.00
+Band Wagon, The (1953) 5.00
+Tombstone (1993) 5.00
+Mina Tannenbaum (1994) 5.00
+Once Were Warriors (1994) 4.80
+
+\end{lstlisting}
+\item The above result set shows that women over 40 year agree that 26 movies in this set deserve 5.0 rating.
+\item To get the movies that were rated highest by women under 40 years , I use the following script:
+\begin{lstlisting}[frame=single]
+ ./highestratingbyage.py 18 "under" 40 "F"
+\end{lstlisting}
+\begin{lstlisting}[frame=single,breaklines=true]
+Nico Icon (1995) 5.00
+Backbeat (1993) 5.00
+Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les) (1964) 5.00
+Someone Else's America (1995) 5.00
+Don't Be a Menace to South Central While Drinking Your Juice in the Hood (1996) 5.00
+Stripes (1981) 5.00
+Heaven's Prisoners (1996) 5.00
+Telling Lies in America (1997) 5.00
+Year of the Horse (1997) 5.00
+Faster Pussycat! Kill! Kill! (1965) 5.00
+Everest (1998) 5.00
+Grace of My Heart (1996) 5.00
+Wedding Gift, The (1994) 5.00
+Horseman on the Roof, The (Hussard sur le toit, Le) (1995) 5.00
+Maya Lin: A Strong Clear Vision (1994) 5.00
+Prefontaine (1997) 5.00
+Mina Tannenbaum (1994) 5.00
+Wallace & Gromit: The Best of Aardman Animation (1996) 4.82
+
+\end{lstlisting}
+\item The above result set shows that women under 40 year agree that 18 movies in this set deserve 5.0 rating.
+\end{enumerate} 
+
+\newpage
+

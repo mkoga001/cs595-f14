@@ -1,0 +1,25 @@
+\section{Problem 7}
+\label{part7}
+\subsection*{Question}
+\begingroup
+\begin{verbatim}
+Which 5 raters most agreed with each other? Show the raters'
+IDs and Pearson's r, sorted by r.
+\end{verbatim}
+\subsection{Solution}
+\begin{enumerate}
+\item Here we need Pearson's r value so I used ``recommendations.py'' program to calculate Pearson's r value.
+\item I used ``topMatches()'' function and wrote few lines of code so that I get the raters who agreed with each other and the Pearson's r value and duplicates were removed as well.
+\item Listing \ref{lst:7} will give the list of rater's ID's and the corresponding Pearson's r value
+\item The script is executed as shown below:
+\begin{lstlisting}[frame=single]
+./mostagreed.py 800
+\end{lstlisting}
+\item The output for the above script is listed in \ref{lst:q7output}. It is difficult to pick top 5 raters who agreed with each other as The Pearson's r value is 1.0 for almost 750 matches. So I displayed all the matches.
+\lstinputlisting[frame=single,caption={Output for Question 7, showing the Pearson's $r$ scores of the comparisons for which the raters agreed},breaklines=true,label=lst:q7output,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{questions/q7/agreed.txt}
+\end{enumerate}
+
+
+\newpage
+\lstinputlisting[language=python, frame=single,breaklines=true,breaklines=true,caption={Python code for listing the raters who agreed with the other raters along with their Pearson's r value}, label=lst:q6, captionpos=b, numbers=left, showspaces=false, showstringspaces=false, basicstyle=\footnotesize]{questions/q7/mostagreed.py}
+\newpage

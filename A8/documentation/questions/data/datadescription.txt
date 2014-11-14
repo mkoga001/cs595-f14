@@ -1,0 +1,48 @@
+1.  u.data: 100,000 ratings by 943 users on 1,682 movies. Each
+user has rated at least 20 movies. Users and items are numbered
+consecutively from 1. The data is randomly ordered. This is a tab
+separated list of 
+
+user id | item id | rating | timestamp
+
+The time stamps are unix seconds since 1/1/1970 UTC.
+
+Example:
+
+196	242	3	881250949
+186	302	3 	891717742
+22	377	1 	878887116
+244	51	2 	880606923
+166	346	1 	886397596
+298	474	4 	884182806
+115	265	2	881171488
+
+2.  u.item: Information about the 1,682 movies. This is a tab
+separated list of
+
+movie id | movie title | release date | video release date | IMDb URL | unknown | Action | Adventure | Animation |Children's | Comedy | Crime | Documentary | Drama | Fantasy | Film-Noir | Horror | Musical | Mystery | Romance | Sci-Fi | Thriller | War | Western |
+
+The last 19 fields are the genres, a 1 indicates the movie is of
+that genre, a 0 indicates it is not; movies can be in several genres
+at once. The movie ids are the ones used in the u.data data set.
+
+Example:
+
+161|Top Gun (1986)|01-Jan-1986||http://us.imdb.com/M/title-exact?Top%20Gun%20(1986)|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0 
+162|On Golden Pond (1981)|01-Jan-1981||http://us.imdb.com/M/title-exact?On%20Golden%20Pond%20(1981)|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0 
+163|Return of the Pink Panther, The (1974)|01-Jan-1974||http://us.imdb.com/M/title-exact?Return%20of%20the%20Pink%20Panther,%20The%20(1974)|0|0|0|0|0|1|0|0|0|0|0|0|0|0| 0|0|0|0|0
+
+3.  u.user: Demographic information about the users. This is a tab
+separated list of:
+
+user id | age | gender | occupation | zip code
+
+The user ids are the ones used in the u.data data set.
+
+Example:
+
+1|24|M|technician|85711 
+2|53|F|other|94043 
+3|23|M|writer|32067 
+4|24|M|technician|43537 
+5|33|F|other|15213

@@ -1,0 +1,31 @@
+\section{Problem 6}
+\label{part6}
+\subsection*{Question}
+\begingroup
+\begin{verbatim}
+Which 5 raters rated the most films? Show the raters' IDs and
+the number of films each rated.
+\end{verbatim}
+\subsection{Solution}
+\begin{enumerate}
+\item Listing \ref{lst:q6} computes the list of raters and the number of films they rated.
+\item The script is executed with an argument which defines the number of users that should be listed
+\begin{lstlisting}[frame=single]
+./ratedMost.py 5
+\end{lstlisting}
+\item The output for the above script is as below , consisting of rater ID followed by number of films they rated.
+\begin{lstlisting}[frame=single]
+405  737
+655  685
+13  636
+450  540
+276  518
+\end{lstlisting}
+
+\end{enumerate}
+
+\newpage
+\lstinputlisting[language=python, frame=single,breaklines=true, caption={Python code for listing the raters who rated the most films}, label=lst:q6,breaklines=true, captionpos=b, numbers=left, showspaces=false, showstringspaces=false, basicstyle=\footnotesize]{questions/q6/ratedMost.py}
+\newpage
+
+

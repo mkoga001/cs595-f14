@@ -1,0 +1,155 @@
+\section{Problem 5}
+\label{part5}
+\subsection*{Question}
+\begingroup
+\begin{verbatim}
+What movie received ratings most like Top Gun? Which movie
+received ratings that were least like Top Gun (negative correlation)?
+\end{verbatim}
+\subsection{Solution}
+
+\begin{enumerate}
+\item To get the output for this question we need to consider the Pearson's Correlation Coefficients for each movie. 
+\item So I used the necessary functions which are there in the ``recommendations.py'' to get the the movie's name which received ratings most like any other movie. 
+\item I used the `loadMovieLens()'  and the 'calculateSimilarItems()' function from ``recommendations.py'' program. But the 'calculateSimilarItems()' function gives a dictionary with movie as a key and values as the list of movies along with their Pearson's score that match with the a particular movie. 
+\item We don't need that whole dictionary but we need only one `key:value' pair which had key as the necessary movie name from that dictionary. so I made use of the code which is there in the `calculatSimilarItems()' 
+\item The following 3 lines from the listing \ref{lst:q5} will fetch the list of movies along with their Pearson's score for the given movie title. 
+\begin{lstlisting}[frame=single]
+prefs = recommendations1.loadMovieLens('../data')
+itemPrefs = recommendations1.transformPrefs(prefs)
+results   = recommendations1.topMatches(itemPrefs,moviename,2000)
+\end{lstlisting} 
+
+\item This program is executed as follows with 3 arguments form the command line. First arguments should be either `most' or 'least' which defines what kind of list we need. Second argument is the movie name with which we are comparing. Third assignment is the number of movies which we are comparing.
+\begin{lstlisting}[frame=single]
+ ./editedMostAlike.py "most" "Top Gun (1986)" 62
+\end{lstlisting}
+\item When the above like is executed it produces the following output consisting of Pearson score followed by movie title. 
+\begin{lstlisting}[frame=single,breaklines=true]
+1.0 Shiloh (1997)
+1.0 King of the Hill (1993)
+1.0 Bhaji on the Beach (1993)
+1.0 Wild America (1997)
+1.0 Wedding Gift, The (1994)
+1.0 Underground (1995)
+1.0 Two or Three Things I Know About Her (1966)
+1.0 Two Bits (1995)
+1.0 Total Eclipse (1995)
+1.0 The Innocent (1994)
+1.0 That Old Feeling (1997)
+1.0 Stars Fell on Henrietta, The (1995)
+1.0 Stalker (1979)
+1.0 Spirits of the Dead (Tre passi nel delirio) (1968)
+1.0 Show, The (1995)
+1.0 Shooter, The (1995)
+1.0 Selena (1997)
+1.0 Schizopolis (1996)
+1.0 Scarlet Letter, The (1926)
+1.0 Run of the Country, The (1995)
+1.0 Ponette (1996)
+1.0 Perfect Candidate, A (1996)
+1.0 Outlaw, The (1943)
+1.0 Old Lady Who Walked in the Sea, The (Vieille qui marchait dans la mer, La) (1991)
+1.0 Nothing to Lose (1994)
+1.0 New Jersey Drive (1995)
+1.0 Mr. Jones (1993)
+1.0 Metisse (Caf▒ au Lait) (1993)
+1.0 Maybe, Maybe Not (Bewegte Mann, Der) (1994)
+1.0 Manny & Lo (1996)
+1.0 Man of the Year (1995)
+1.0 Love Serenade (1996)
+1.0 Last Time I Saw Paris, The (1954)
+1.0 Killer (Bulletproof Heart) (1994)
+1.0 Jerky Boys, The (1994)
+1.0 I Like It Like That (1994)
+1.0 Horse Whisperer, The (1998)
+1.0 Hear My Song (1991)
+1.0 Grosse Fatigue (1994)
+1.0 Gone Fishin' (1997)
+1.0 Glass Shield, The (1994)
+1.0 Germinal (1993)
+1.0 Gabbeh (1996)
+1.0 Four Days in September (1997)
+1.0 Flower of My Secret, The (Flor de mi secreto, La) (1995)
+1.0 Fausto (1993)
+1.0 Even Cowgirls Get the Blues (1993)
+1.0 Enfer, L' (1994)
+1.0 Dream With the Fishes (1997)
+1.0 Dream Man (1995)
+1.0 Dangerous Ground (1997)
+1.0 Collectionneuse, La (1967)
+1.0 Clean Slate (Coup de Torchon) (1981)
+1.0 Calendar Girl (1993)
+1.0 Blood For Dracula (Andy Warhol's Dracula) (1974)
+1.0 Bliss (1997)
+1.0 Best Men (1997)
+1.0 American Dream (1990)
+1.0 Albino Alligator (1996)
+1.0 8 Seconds (1994)
+1.0 Aparajito (1956)
+0.995870594886 Scarlet Letter, The (1995)
+\end{lstlisting}
+
+\item It sorts them by reverse alphabetical order, except for first 3. This is because the first 3 movies actually have different Pearson's score. 
+\item If I print the whole list with out splitting the tuples in the list then the output looks like below
+\begin{lstlisting}[frame=single]
+(1.0000000000000027, 'Shiloh (1997)')
+(1.0000000000000027, 'King of the Hill (1993)')
+(1.0000000000000007, 'Bhaji on the Beach (1993)')
+(1.0, 'Wild America (1997)')
+(1.0, 'Wedding Gift, The (1994)')
+\end{lstlisting}
+\item It's pretty clear that when I try to print each tuple of the list separately, the python automatically converting it to the nearest integer value. 
+\item To get the ratings least like given movie, the script is executed as below 
+\begin{lstlisting}[frame=single,breaklines=true]
+./editedMostAlike.py "least" "Top Gun (1986)" 35
+\end{lstlisting}
+\item The output is as follows 
+\begin{lstlisting}[frame=single]
+-1.0 Babysitter, The (1995)
+-1.0 Telling Lies in America (1997)
+-1.0 Bad Moon (1996)
+-1.0 Beat the Devil (1954)
+-1.0 Bewegte Mann, Der (1994)
+-1.0 Bitter Sugar (Azucar Amargo) (1996)
+-1.0 Broken English (1996)
+-1.0 Caro Diario (Dear Diary) (1994)
+-1.0 Carpool (1996)
+-1.0 Carried Away (1996)
+-1.0 Everest (1998)
+-1.0 Frisk (1995)
+-1.0 Heidi Fleiss: Hollywood Madam (1995)
+-1.0 Joy Luck Club, The (1993)
+-1.0 Lamerica (1994)
+-1.0 Loch Ness (1995)
+-1.0 Love and Death on Long Island (1997)
+-1.0 Lover's Knot (1996)
+-1.0 Meet Wally Sparks (1997)
+-1.0 Midnight Dancers (Sibak) (1994)
+-1.0 Naked in New York (1994)
+-1.0 Nico Icon (1995)
+-1.0 Nil By Mouth (1997)
+-1.0 Romper Stomper (1992)
+-1.0 Roseanna's Grave (For Roseanna) (1997)
+-1.0 Safe Passage (1994)
+-1.0 Switchback (1997)
+-1.0 Tetsuo II: Body Hammer (1992)
+-1.0 Two Much (1996)
+-1.0 World of Apu, The (Apur Sansar) (1959)
+-1.0 Year of the Horse (1997)
+-0.946729262406 Alphaville (1965)
+\end{lstlisting}
+
+\item Just like the \emph{most like}, we see the output is in alphabetical order except for the first 2 movies, that's because they have different Pearson's score. 
+\item If I print the whole list then the output is as follows 
+
+\begin{lstlisting}[frame=single,breaklines=true]
+(-1.0000000000000007, 'Babysitter, The (1995)')
+(-1.0000000000000004, 'Telling Lies in America (1997)')
+(-1.0, 'Bad Moon (1996)')
+\end{lstlisting}
+
+\end{enumerate}
+\newpage
+\lstinputlisting[language=python, frame=single,breaklines=true, caption={Python code for listing the movies with ratings like the given movie}, label=lst:q5, captionpos=b, numbers=left, showspaces=false, showstringspaces=false,breaklines=true, basicstyle=\footnotesize]{questions/q5/editedMostAlike.py}
+\newpage

@@ -1,0 +1,37 @@
+\section{Problem 3}
+\label{part3}
+\subsection*{Question}
+\begingroup
+\begin{verbatim}
+What 5 movies were rated the highest on average by women?
+Show the movies and their ratings sorted by ratings.
+\end{verbatim}
+
+\subsection{Solution}
+\begin{enumerate}
+\item For getting the list of 5 movies which have highest average rating give by women I used the same program which I wrote for question 1 and question 2 but added a new function which will calculate the average for them movies which are rated by either ``Women'' or ``Men'' 
+\item Listing \ref{lst:q3} contains the source code used to calculate the $n$ movies that were rated highest on average by a given gender.
+\item For women the codes runs as follows, the first arguments is the number of movies that are to be displayed and the second argument is the gender of the rater.
+\begin{lstlisting}[frame=single]
+ ./ratingGender.py 12 "F"
+\end{lstlisting}
+\item Output for the Listing \ref{lst:q3} is as follows 
+\begin{lstlisting}[frame=single]
+Foreign Correspondent (1940) 5.00
+Someone Else's America (1995) 5.00
+Visitors, The (Visiteurs, Les) (1993) 5.00
+Stripes (1981) 5.00
+Telling Lies in America (1997) 5.00
+Year of the Horse (1997) 5.00
+Faster Pussycat! Kill! Kill! (1965) 5.00
+Everest (1998) 5.00
+Maya Lin: A Strong Clear Vision (1994) 5.00
+Prefontaine (1997) 5.00
+Mina Tannenbaum (1994) 5.00
+Schindler's List (1993) 4.63
+\end{lstlisting}
+\item The output shows more than 5 movies rated with a score of 5.0 on average by woman and the 12th item is where the average stats to go down, so there are more than 5 with the highest average rating among women.
+\end{enumerate}
+\newpage
+\lstinputlisting[language=python, frame=single,breaklines=true, caption={Python code for listing the movies with highest rating based on the gender of rater }, label=lst:q3, captionpos=b, numbers=left, showspaces=false, showstringspaces=false, basicstyle=\footnotesize]{questions/q3/ratingGender.py}
+\newpage

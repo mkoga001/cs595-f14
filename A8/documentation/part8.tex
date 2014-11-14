@@ -1,0 +1,35 @@
+\section{Problem 8}
+\label{part8}
+\subsection*{Question}
+\begingroup
+\begin{verbatim}
+Which 5 raters most disagreed with each other? Show the raters'
+IDs and Pearson's r, sorted by r.
+\end{verbatim}
+\subsection{Solution}
+\begin{enumerate}
+\item Here we need Pearson's $r$ value so I used ``recommendations.py'' program to calculate Pearson's $r$ value.
+\item I used the same code which I wrote for question 7, except for changing the sorting order. I changed the value of reverse to `False' on line 38 in Listing \ref{lst:8}
+\item In function topMatches() I commented a line to get the output for this question. And also changed the return value from ``return score[0:n]'' just `scores' as mentioned in the following code as it restricts to only certain number. 
+\begin{lstlisting}[frame=single]
+def topMatches(prefs,person,n,similarity=sim_pearson):
+  scores=[(similarity(prefs,person,other),other) 
+         	for other in prefs if other!=person]
+  scores.sort()
+  #scores.reverse()
+  return scores
+\end{lstlisting}
+\item Listing \ref{lst:8} will give the list of rater's ID's and the corresponding Pearson's $r$ value
+\item The script is executed as shown below:
+\begin{lstlisting}[frame=single]
+./mostdisagreed.py 800
+\end{lstlisting}
+\item The output for the above script is listed in \ref{lst:q8output}. It is difficult to pick top 5 raters who disagreed with each other as The Pearson's r value is 1.0 for almost 750 matches. So I displayed all the matches.
+
+\lstinputlisting[frame=single,caption={Output for Question 8, showing the Pearson's $r$ scores of the comparisons for which the raters disagreed},breaklines=true,label=lst:q8output,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{questions/q8/disagreed1.txt}
+\end{enumerate}
+
+
+\newpage
+\lstinputlisting[language=python, frame=single,breaklines=true,breaklines=true,caption={Python code for listing the raters who disagreed with the other raters along with their Pearson's r value}, label=lst:q8, captionpos=b, numbers=left, showspaces=false, showstringspaces=false, basicstyle=\footnotesize]{questions/q8/mostdisagreed.py}
+\newpage

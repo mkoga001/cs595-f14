@@ -1,0 +1,78 @@
+\section{Problem 9}
+\label{part9}
+\subsection*{Question}
+\begingroup
+\begin{verbatim}
+What movie was rated highest on average by men over 40? By men
+under 40?
+\end{verbatim}
+\subsection{Solution}
+\begin{enumerate}
+\item Listing \ref{lst:q9} shows the source for getting the movie that was rated highest on average by given gender , given criteria for age (under and over) and age barrier and number of movies to be listed.
+\item I used the same code I used for question \ref{part2} and \ref{part3} and added couple of lines where ever required 
+\item To get the movies that were rated highest by men over 40 years , I use the following script:
+\begin{lstlisting}[frame=single]
+ ./highestratingbyage.py 19 "over" 40 "M"
+\end{lstlisting}
+\item The output for the the movies rated by men over 40 is as below
+\begin{lstlisting}[frame=single]
+Great Day in Harlem, A (1994) 5.00
+Two or Three Things I Know About Her (1966) 5.00
+Double Happiness (1994) 5.00
+Strawberry and Chocolate (Fresa y chocolate) (1993) 5.00
+Solo (1996) 5.00
+Late Bloomers (1996) 5.00
+Unstrung Heroes (1995) 5.00
+World of Apu, The (Apur Sansar) (1959) 5.00
+Poison Ivy II (1995) 5.00
+Little City (1998) 5.00
+Grateful Dead (1995) 5.00
+They Made Me a Criminal (1939) 5.00
+Hearts and Minds (1996) 5.00
+Little Princess, The (1939) 5.00
+Leading Man, The (1996) 5.00
+Prefontaine (1997) 5.00
+Ace Ventura: When Nature Calls (1995) 5.00
+Boxing Helena (1993) 5.00
+Rendezvous in Paris (Rendez-vous de Paris, Les) (1995) 5.00
+Spice World (1997) 5.00
+Aparajito (1956) 5.00
+Star Kid (1997) 5.00
+Faithful (1996) 5.00
+Indian Summer (1996) 5.00
+Marlene Dietrich: Shadow and Light (1996)  5.00
+Pather Panchali (1955) 4.80
+
+\end{lstlisting}
+\item The above result set shows that men over 40 year agree that 25 movies in this set deserve 5.0 rating.
+\item To get the movies that were rated highest by men under 40 years , I use the following script:
+\begin{lstlisting}[frame=single]
+ ./highestratingbyage.py 19 "under" 40 "M"
+\end{lstlisting}
+\begin{lstlisting}[frame=single]
+Entertaining Angels: The Dorothy Day Story (1996) 5.00
+Letter From Death Row, A (1998) 5.00
+Hugo Pool (1997) 5.00
+Santa with Muscles (1996) 5.00
+Leading Man, The (1996) 5.00
+Quiet Room, The (1996) 5.00
+Love Serenade (1996) 5.00
+Star Kid (1997) 5.00
+Magic Hour, The (1998) 5.00
+Perfect Candidate, A (1996) 5.00
+Delta of Venus (1994) 5.00
+Love in the Afternoon (1957) 5.00
+Saint of Fort Washington, The (1993) 5.00
+Aiqing wansui (1994) 5.00
+Crossfire (1947) 5.00
+Angel Baby (1995) 5.00
+Maya Lin: A Strong Clear Vision (1994) 5.00
+Prefontaine (1997) 5.00
+Fille seule, La (A Single Girl) (1995) 4.50
+\end{lstlisting}
+\item The above result set shows that men under 40 year agree that 18 movies in this set deserve 5.0 rating.
+\end{enumerate} 
+
+\newpage
+\lstinputlisting[language=python, frame=single,breaklines=true, caption={Python code for listing the raters who rated the most films}, label=lst:q6, captionpos=b, numbers=left, showspaces=false, showstringspaces=false, basicstyle=\footnotesize]{questions/q9/highestratingbyage.py}
+\newpage
