@@ -1,0 +1,51 @@
+\section{Problem 3}
+\label{part3}
+\subsection*{Question}
+\begingroup
+\begin{verbatim}
+ Cluster the blogs using K-Means, using k=5,10,20. (see slide 18).
+How many interations were required for each value of k?
+\end{verbatim}
+\subsection{Answer}
+
+The blog clustering is performed by the script shown in Listing \ref{lst:kclust-code}, which makes use of Toby Segaran's \emph{clusters.py}  using the function \emph{kcluster} on lines $8$, $12$, and $16$.
+
+\lstinputlisting[language=python, frame=single,breaklines=true, caption={Python script for clustering the blogs using K-means, using k=5, 10, and 20},captionpos=b, numbers=left, showspaces=false,label=lst:kclust-code, showstringspaces=false, basicstyle=\footnotesize]{questions/q3/k-meansClusters.py}
+
+From its output, we see how many iterations each value of $k$ produces.
+\begin{lstlisting}[frame=single]
+For k=5
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+
+For k=10
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+
+For k=20
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+
+
+\end{lstlisting}
+
+Thus, for $k=5$ we get $12$ iterations, for $k=10$ we get $7$ iterations, and for $k=20$ we get $6$ iterations.
