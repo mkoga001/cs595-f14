@@ -9,6 +9,16 @@ def getwords(html):
     words = re.compile(r'[^A-z^a-z]+').split(text)
     return [word.lower() for word in words if word]
 
+def checkNextPage(url):
+    f = urllib.urlopen(url) 
+    soup = BeautifulSoup(f.read(), from_encoding=f.info().getparam('charset'))
+    
+    try:
+        link = soup.find('link', rel='next',href = True)['href']
+    except TypeError:
+        link = None
+    return link
+
 def getwordcounts(url):
     
     fd = feedparser.parse(url)
@@ -22,6 +32,8 @@ def getwordcounts(url):
         stopWord = stopWord.strip()
         stopwords.append(stopWord)
     
+    
+        
     for e in fd.entries:
         if 'summary' in e:
             summary = e.summary
@@ -34,26 +46,12 @@ def getwordcounts(url):
             if word not in stopwords:
                 wc[word] += 1
     
-    if pages == 500:
-        next_link = url + "?start-index=501"
-        d         = feedparser.parse(next_link)
-        pages     = len(d['entries'])
-        for e in d.entries:
-            if 'summary' in e:
-                summary = e.summary
-            else:
-                summary = e.description
-
-            words = getwords('%s %s' % (e.title, summary))
-            
-            for word in words:
-                if word not in stopwords:
-                    #print word
-        
-                    wc[word] += 1
-                
-        if pages == 500:
-            next_link = url + "?start-index=1001"
+    
+    nextLink = checkNextPage( url )
+        while nextLink:
+            nextLink = checkNextPage( nextLink )
+            d         = feedparser.parse(nextlink)
+            pages     = len(d['entries'])
             for e in d.entries:
                 if 'summary' in e:
                     summary = e.summary
@@ -65,21 +63,7 @@ def getwordcounts(url):
                 for word in words:
                     if word not in stopwords:
                         #print word
-            
                         wc[word] += 1
-            if pages == 500:
-                next_link = url + "?start-index=1501"
-                for e in d.entries:
-                    if 'summary' in e:
-                        summary = e.summary
-                    else:
-                        summary = e.description
-
-                    words = getwords('%s %s' % (e.title, summary))
-                    
-                    for word in words:
-                        if word not in stopwords:
-                            wc[word] += 1
     
     if 'title' not in fd.feed:
         print 'Invalid url', url
