@@ -1,0 +1,312 @@
+\section{Problem 2}
+\label{part2}
+\subsection*{Question}
+\begingroup
+\begin{verbatim}
+Manually classify the first 50 entries, and then classify (using
+the fisher classifier) the remaining 50 entries. Report the cprob()
+values for the 50 titles as well.  From the title or entry itself,
+specify the 1-, 2-, or 3-gram that you used for the string to
+classify.  Do not repeat strings; you will have 50 unique strings.
+For example, in these titles the string used is marked with *s:
+
+*Rachel Goswell* - "Waves Are Universal" (LP Review) 
+The *Naked and Famous* - "Passive Me, Aggressive You" (LP Review)
+*Negativland* - "Live at Lewis's, Norfolk VA, November 21, 1992" (concert)
+Negativland - "*U2*" (LP Review)
+
+Note how "Negativland" is not repeated as a classification string.
+
+Create a table with the title, the string used for classification,
+cprob(), predicted category, and actual category.
+\end{verbatim}
+\subsection{Solution}
+\begin{enumerate}
+\item I used the \emph{docclass.py} and \emph{feedfilter.py} files found in Intelligence collective programming text book as the basis for my document filtering.
+\item The modified source code, shown in Listing \ref{lst:feedfilter} and \ref{lst:docclass} will let me manually train the classifier using the Fisher method. Save the features and related categories
+to a set of database tables so that the training will persist between sessions
+\item Listing \ref{lst:feedfilter} and \ref{lst:docclass} uses the Fisher method to predict a category based on the entry.
+\item Table \ref{table:q2-1} will show the predicted and actual category for an entry along with it's summary for the first 50 entries. 
+\item Which means I am training the first 50 entries and storing them into various categories.
+\item Basing on the first 50 trained entries, the next 50 categories were predicted by the classifier. 
+\item Tables \ref{table:q2-3}, \ref{table:q2-4}, \ref{table:q2-5}, \ref{table:q2-6}, \ref{table:q2-7} will show the predicted, actual, string classifier, cprob and type of string classifier for next 50 categories.
+\end{enumerate}
+
+\begin{table}
+\small
+\begin{tabular}{ | p{5.0cm} | p{8.4cm} | p{1.5cm} | p{1.5cm} | }
+\hline
+\textbf{Title} & \textbf{summary} & \textbf{Predicted} & \textbf{Actual} \\
+\hline
+Multi Layered Pacchi Floral Necklace & 22 carat gold bridal multi layered floral and peacock design uncut diamond pacchi necklace with south sea pearl strings and handcrafted peacock motifs on the sides. & none  & Fancy  \\
+\hline
+Polki Diamond Lakshmi Chandbalis & 22 carat gold antique finish Lakshmi chandbalis studded with polki diamonds, diamonds and rubies & Fancy & Stones \\
+\hline
+Floral Diamond Necklace Set & 18 carat gold floral design diamond necklace and earrings from Malabar Gold and Diamonds. & Fancy  & Fancy \\
+\hline
+Black Diamonds Mangalsutra Chains & 22 carat gold simple black diamonds mangalsutra chains strung with south sea pearls, ruby beads, emerald beads and Nakshi balls. &  Stones & stones \\
+\hline
+Uncut Diamond Necklace Set & 22 carat gold bridal uncut diamond choker set studded with uncut diamonds, kundans and embellished with enamel & Fancy & Fancy\\
+\hline
+Peacock Diamond Necklace & 18 carat gold peacock design diamond necklace studded with diamonds, rubies and emeralds teamed with suitable diamond earrings & Fancy & Stones\\
+\hline
+Pinky Reddy in Crystal Balls Necklace & Socialite Pinky Reddy in multi color crystal balls necklace teamed with huge emerald diamond tops. & Stones & Celebrity\\
+\hline
+Shreedevi in Diamond Necklace & Socialite Shreedevi Chowdary in MBS Jewellers diamond necklace and earrings. & Stones & Celebrity\\
+\hline
+Elegant Beads Necklace with Lakshmi Pendant & 22 carat gold temple design necklace strung with two rows of emerald beads, ruby beads and south sea pearls. The necklace has a divine Goddess Lakshmi pendant studded with polki diamonds and rubies & Stones & Traditional\\
+\hline
+Nakshi Work Chandbalis & 22 carat gold beautiful Nakshi work chandbalis studded with polki diamonds, rubies, emeralds and hanging south sea pearl drops & Stones & Stones\\
+\hline
+Diamond Pendant Set & 18 carat gold diamond pendant and earrings studded with shimmering diamonds, kundans, rubies and south sea pearl drops. & Stones & Stones\\
+\hline
+Mugdha Art Studio Designer Sashi Engagement & Fashion designer Sashi Vangapalli of Mugdha Art Studio got engaged to Sandeep. For her engagement event, Sashi adorned a beautiful rich diamond necklace set studded with rubies; diamond haram; small tikka and gold armlets. & Stones & Celebrity\\
+\hline
+Short Black Beads Chain & 22 carat gold light weight two line hort black beads mangalutra chain. & Stones & Fancy\\
+\hline
+Antique Nakshi Peacock Necklace & 22 carat gold antique toned peacock design nakshi work necklace with beauitufl peacock pendant studded with polki diamonds, emeralds, rubies and hanging south sea pearl & Stones & Traditional\\
+\hline
+Traditional Lakshmi Kasu Haram & 22 carat gold traditional Lakshmi kasulaperu haram studded with rubies and emeralds teamed with suitable earrings & Stones & Traditional\\
+\hline
+Light Weight Gold Balls Necklace & 22 carat gold two chain light weight gold balls necklace and earrings set & Fancy & Fancy\\
+\hline
+Antique Finish Lord Vishnu Pendant & 22 carat gold antique finish Lord Vishnu pendant with peacocks on the top studded with rubies and kundans & Stones & Traditional\\
+\hline 
+Peacock Design Kids Vanki & 22 carat gold peacock design kids vanki studded with kundans, emeralds and rubies. & Traditional & Fancy\\
+\hline
+Ruby Kundan Mango Haram & 22 carat gold traditional mango mala with peacock design pendant decorated with rubies, kundans and emeralds. & Traditional & Traditional\\
+\hline
+South Sea Pearls Necklace with Divine Pendant & 22 carat gold south sea pearls necklace with divine pendant studded with diamonds. & Traditional & Traditional\\
+\hline
+South Sea Pearls Flat Diamonds Necklace & 22 carat gold necklace with two south sea pearl strings and a central flat diamond chain attached to floral motifs on either side studded with flat diamonds and emeralds. & Fancy & Fancy\\
+\hline
+Kundan Choker Set & 22 carat gold choker set studded with kundans, flat diamonds, pearls, emerald beads and embellished with enamel. & Fancy & Fancy\\
+\hline
+Gold Haram and Jhumkas Set & 22 carat gold haram studded with kundans and suitable kundan jhumkas.  & Fancy & Fancy\\
+\hline
+Diamond Ruby Bangles & 18 carat gold bangles studded with diamonds and rubies. & Stones & Stones\\
+\hline
+Uncut Diamond Peacock Jhumkas & 22 carat gold lovely peacock design jhumkas studded with uncut diamonds, diamonds, rubies and small pearls hanging at the bottom of jhumka. & Fancy & Fancy\\
+\hline
+
+\end{tabular}
+\caption{Manually classified first 25 entries }
+\label{table:q2-1}
+\end{table}
+
+\begin{table}
+\small
+\begin{tabular}{ | p{5.0cm} | p{8.4cm} | p{1.5cm} | p{1.5cm} | }
+\hline
+\textbf{Title} & \textbf{summary} & \textbf{Predicted} & \textbf{Actual} \\
+\hline
+Peacock Design Gold Kada & 22 carat gold peacock design kada pair embellished with enamel and studded with rubies and emeralds & Fancy & Fancy\\
+\hline
+Gundla Haram with Lakshmi Pendant & 22 carat gold antique finish three line gundla haram with Goddess Lakshmi motifs on either side and Goddess Lakshmi pendant at its center studded with rubies and emeralds. & Traditional & Traditional\\
+\hline
+Vasundhara Jewellers Jhumkas Collection & Pretty designer jhumkas studded with diamonds and precious stones from Vasundhara Jewellers & Stones & Stones\\
+\hline
+Stunning Diamond Vaddanam & Stunning bridal diamond vaddanam studded with diamonds, rubies and emeralds from Vasundhara Jewellers. & Stones & Stones\\
+\hline
+Uncut Diamond Necklace & 22 carat gold necklace studded with uncut diamonds, rubies, emeralds and polki diamonds. & Stones & Stones\\
+\hline
+Black Beads Bangles & 22 carat gold black beads bangles & Traditional & Stones\\
+\hline
+Sridevi in Diamond Emerald Necklace & Actress Sridevi in a trendy south sea pearls choker with pendant studded with huge emeralds and a diamond flower motif at its center. & Traditional & Celebrity\\
+\hline
+Uncut Diamond Chandbalis & 22 carat gold chandbalis studded with uncut dimaonds, rubies, emeralds and hanging cultured south sea pearls & Fancy & Fancy\\
+\hline
+Diamond Emerald Ruby Necklace & Colorful necklace and earrings set studded with diamonds, emeralds, rubies and south sea pearls. The necklace has multistring pearls chain on its back. & Traditional & Fancy\\
+\hline
+Beautiful Diamond Necklace & Beautiful diamond necklace from Malabar Gold and Diamonds studded with emerald at its center. & Fancy & Fancy\\
+\hline 
+Shraddha Das in Kundan Necklace & Actress Shraddha Das in heavy kundan necklace and earrings. & Celebrity & Celebrity \\
+\hline
+Archana in Diamond Necklace Set & Actress Archana in diamond necklace floral ruby motif at its center teamed with matching diamond ruby earrings. & Fancy & Celebrity\\
+\hline
+Gold Haram with CZ Stones Pendant & 22 carat gold gundla haram with beautiful peacock design stones pendant studded with cz stones, rubies and emeralds & Fancy  & Fancy\\
+\hline
+Pearls and Beads Haram Models & ---------& Traditional & Traditional\\
+\hline
+Traditional Ruby Choker and Jhumkas & Socialite in antique finish traditional ruby choker and jhumkas. & Traditional & Celebrity\\
+\hline
+Gold Haram with Lakshmi Pendant & 22 carat gold beautiful gold haram studded with rubies, polki diamonds and emeralds. The necklace has an inner row of south sea pearls string and Goddess Lakshmi pendant. & Traditional & Traditional\\
+\hline
+Gorgeous Diamond Necklace and Jhumkas & Stunning diamond necklace sprinkled with shimmering diamonds, emeralds and south sea pearls teamed with attractive diamond emerald jhumkas from Malabar Gold and Diamonds. & Fancy & Fancy\\
+\hline
+Simple Emerald Necklace & 22 carat gold simple emerald necklace studded with rubies and cz stones. & Fancy & Fancy\\
+\hline
+Nikitha Reddy in Chandbalis & Producer Nikitha Reddy in gold necklace studded with rubies and pearls teamed with gold chandbalis. & Traditional & Celebrity\\
+\hline
+ Beautiful CZ Stones Vaddanam and Bajubandh Set & 22 carat gold peacock design beautiful vaddanam and bajubandh set studded with cz stones, emeralds and rubies. & Fancy & Fancy \\
+\hline
+Polki Diamond Bali Hoop Earrings & Antique finish 22 carat gold bali hoop earrings with elephant design studded with polki diamonds and emeralds and small pearls hanging at the bottom. & Traditional & Traditional\\
+\hline
+Bride in Diamond Jewellery	& South Indian bride in her wedding jewellery. She adorned a pearls choker with diamond pendant; medium length diamond haram; long diamond mango mala and diamond vaddanam. & Celebrity & Celebrity.\\
+\hline
+\end{tabular}
+\caption{Manually classified next 25 entries from 25 to 50 entries }
+\label{table:q2-2}
+\end{table}
+\newpage
+
+\begin{table}
+\small
+\begin{tabular}{ | p{2.3cm} | p{4.4cm} | p{1.5cm} | p{1.5cm} | p{2.0cm}|p{1.3cm}|p{1.3cm}|}
+\hline
+\textbf{Title} & \textbf{summary} & \textbf{Predicted} & \textbf{Actual} & \textbf{String} & \textbf{Cprob} & \textbf{Type } \\
+\hline
+Nakshi Balls Haram & 22 carat gold antique finish broad choker and nakshi balls haram studded with kundans from Malabar Gold and Diamonds. & Traditional & Traditional & Haram & 0.0 & 1-gram\\
+\hline
+Traditional Mango Haram & 22 carat gold mango haram with Goddess Lakshmi pendant studded with rubies and emeralds. & Fancy & Traditional & Mango haram & 0.0 & 2-gram\\
+\hline
+Celebs in Heavy Chandbalis and Jhumkas & Bollywood celebs wore heavy jhumkas and chandbalis without adding any neck jewellery for the wedding reception of Arpita Khan and Aaysuh Sharma. & Fancy & Celebrity & Arpita & 0.0 & 1-gram\\
+\hline
+22 Carat Gold Long Jhumkas & 22 carat gold antique finish gold long jhumkas studded with kundans from Shree Raj Mahal Jewellers. & Stones & Traditional & Long jhumkas & 0.0 & 2-gram\\
+\hline
+Latest Temple Jewellery Designs & 22 carat gold antique finish latest temple jewellery designs from Malabar Gold and Diamonds. Featuring a short peacock necklace; medium length temple haram & Traditional & Traditional & Temple Jewellery & 0.0 & 2-gram\\
+\hline
+Ruby Diamond Necklace & Bridal diamond necklace studded with large rubies and small diamonds from Malabar Gold and Diamonds. & Fancy & Stones & Large rubies & 0.0 & 2-gram\\
+\hline
+Malabar Gold Bridal Jewellery & Broad uncut diamond necklace, uncut diamond layered long haram and nakshi work temple design vaddanam studded with precious stones from Malabar Gold and Diamonds. & Fancy & Traditional & Nakshi work & 0.0 & 2-gram\\
+\hline
+Layered Polki and Uncut Diamond Necklace & Attractive bridal necklace from Malabar Gold and Diamonds featuring a central ruby and uncut diamond motifs row with south sea pearl and polki diamond chains on either side and tear drop shaped polki diamond pendant. The necklace is complemented by matching polki diamond earrings. & Fancy & Fancy & Polki diamond & 0.0 & 2-gram\\
+\hline
+Broad Uncut Diamond Necklace Set & 22 carat gold bridal uncut diamond necklace from Malabar Gold and Diamonds studded with uncut chakri diamonds and rubies in intricate design teamed with suitable uncut diamond jhumkas. & Fancy & Stones & Uncut diamond & 0.0 & 2-gram\\
+\hline
+3 in 1 Diamond Haram cum Vaddanam cum Pendant & 18 carat gold 3 in 1 paisley design diamond haram with peacock design pendant.This diamond haram can be worn as vaddanam or pendant set. It is teamed with matching diamond jhumkas. & Fancy & Fancy & 3 in 1 & 0.0 & 3-gram\\
+\hline
+\end{tabular}
+\caption{Automatically classified 10 entries of next 50 entries}
+\label{table:q2-3}
+\end{table}
+
+\begin{table}
+\small
+\begin{tabular}{ | p{2.3cm} | p{4.4cm} | p{1.5cm} | p{1.5cm} | p{2.0cm}|p{1.3cm}|p{1.3cm}|}
+\hline
+\textbf{Title} & \textbf{summary} & \textbf{Predicted} & \textbf{Actual} & \textbf{String} & \textbf{Cprob} & \textbf{Type } \\
+\hline
+Pretty Diamond Necklace & 18 carat gold beautiful diamond necklace studded with diamonds, rubies and south sea pearl drops from Malabar Gold and Diamonds. & Stones & Stones & Diamond necklace & 0.0 & 2-gram\\
+\hline
+Beads Mala with Diamond Mugappu & 22 carat gold trendy beads mala string with south sea pearls and ruby beads and a diamond mugappu/side pendant studded with diamonds and emerald stone at its center from Malabar Gold and Diamonds. & Traditional & Fancy & Trendy & 0.0 & 1-gram\\
+\hline
+Chakri Uncut Diamond Necklace and Jhumkas & 22 carat gold chakri uncut diamond necklace with round pendant paired with matching long uncut diamond jhumkas from Malabar Gold and Diamonds. & Fancy & Fancy & Chakri uncut diamond & 0.0 & 3-gram\\
+\hline
+Polki Diamond Necklace and Jhumkas & Gorgeous bridal polki diamond necklace from Malabar Gold and Diamonds studded with several rows of rich polkis, emeralds and ruby. The necklace is complemented by beautiful polki jhumkas. & Fancy & Stones & Polkis, emeralds and ruby & 0.0 & 3-gram\\
+\hline
+Heavy Chandbali Style Jhumkas & Socialite looking gorgeous in huge chandbali style jhumkas and gold bib style antique finish necklace. & Celebrity & Celebrity & Socialite looking gorgeous & 0.0 & 3-gram\\
+\hline
+Colorful Navaratna Haram & Antique finish gold navaratna haram studded with nine types of gemstones and a central two step pendant studded with emeralds and diamonds. & Traditional & Traditional & Navaratna & 0.0 & 1-gram\\
+\hline
+Gundla Mala and Kundan Choker & Socialite in two line gundla mala with diamond pendant; kundan choker and antique finish gold jhumkas. & Celebrity & Celebrity & Socialite & 0.0 & 1-gram \\
+\hline
+Heavy Antique Pendant and Jhumkas & Socialite looking elegant in heavy antique temple pendant, antique long jhumkas and precious stones studded vaddanam.Checkout Nara Brahmini in the same necklace at a recent wedding event!! & Traditional & Celebrity & Nara brahmini & 0.0 & 2-gram\\
+\hline
+2 in 1 Haram cum Baby Waist Belt & 22 carat gold antique finish gold balls haram with Goddess Lakshmi pendant studded with rubies and emeralds. This gundla mala can also be used as baby waist belt. & Traditional & Traditional & Goddess & 0.5 & 1-gram\\
+\hline
+Ruby Emerald Bangles & 22 carat gold bangles studded with rubies, emeralds and white stones. & Stones & Stones & Studded with rubies & 0.0 & 3-gram\\
+\hline
+\end{tabular}
+\caption{Automatically classified next 10 entries from 60 to 70 entries }
+\label{table:q2-4}
+\end{table}
+
+\begin{table}
+\small
+\begin{tabular}{ | p{2.3cm} | p{4.4cm} | p{1.5cm} | p{1.5cm} | p{2.0cm}|p{1.3cm}|p{1.3cm}|}
+\hline
+\textbf{Title} & \textbf{summary} & \textbf{Predicted} & \textbf{Actual} & \textbf{String} & \textbf{Cprob} & \textbf{Type } \\
+\hline
+ Meena in Gold Necklace & Actress Meena attended Pandiarajan son's wedding reception. For the occasion she adorned a broad gold necklace and simple gold jhumkas. & Fancy & Celebrity & Meena & 0.0 & 1-gram\\
+\hline
+Bridal Diamond Necklace & Gorgeous bridal diamond necklace with intricate design studded with shimmering diamonds, emeralds and south sea pearl drops from Shree Raj Mahal Jewellers & Stones Stones & Shimmering diamonds & 0.0 & 2-gram\\
+ 
+\hline
+Actor Pandiarajan Son Wedding Reception & Actor Pandiarajan’s eldest son Pallavarajan’s wedding reception was held on Nov 20 in Chennai.The bride wore a diamond necklace, matching earrings, tikka and armlet studded with diamonds and rubies. & Fancy & Celebrity & Actor Pandiarajan & 0.0  & 2-gram\\
+\hline
+Sangeetha in Diamond Necklace and Jhumkas & Sangeetha attended actor Pandiarajan son's wedding reception. For the occassion, Sangeetha adorned a diamond necklace and three step diamond jhumkas & Traditional & Celebrity & Sangeetha & 0.0 & 1-gram\\
+\hline
+Beautiful Polki Chandbalis & Beautiful latest model chandbali earrings studded with polki diamonds, rubies, emeralds and south sea pearl drops. & Stones & Stones & South sea pearl & 0.0 & 3-gram\\
+\hline
+Peacock Mango Pacchi Necklace & 22 carat gold antique finish gorgeous peacock mango pacchi necklace with intricate Nakshi work studded with uncut polki diamonds, emeralds, rubies and south sea pearl drops & Stones & Fancy & Peacock mango pacchi & 0.0 & 3-gram \\
+\hline
+22 Carat Gold Tussi Necklace & 22 carat gold traditional tussi necklace studded with polkis, teamed up with suitable jhumkas & Traditional & Traditional & Tussi & 0.0 & 1-gram \\
+\hline
+Arpita Khans Wedding Jewellery & For both mehendi ceremony and wedding event, Arpita Khan adorned heavy kundan jewellery. & Celebrity & Celebrity & Arpita & 0.0 & 1-gram \\
+\hline
+Simple Black Beads Mangalsutra & 22 carat gold light weight black beads mangalsutra chain & Fancy & Fancy & Light & 0.0 & 1-gram \\
+\hline
+ Trisha in NAC Antique Jewellery & Actress Trisha Krishnan is looking gorgeous in NAC antique necklace featuring Goddess Lakshmi pendant studded with polki diamonds; matching chandbali earrings and broad gold kada studded with emeralds and diamonds. & Traditional & Celebrity & Trisha & 0.0 & 1-gram \\
+\hline
+\end{tabular}
+\caption{Automatically classified next 10 entries from 70 to 80 entries }
+\label{table:q2-5}
+\end{table}
+
+\begin{table}
+\small
+\begin{tabular}{ | p{2.3cm} | p{4.4cm} | p{1.5cm} | p{1.5cm} | p{2.0cm}|p{1.3cm}|p{1.3cm}|}
+\hline
+\textbf{Title} & \textbf{summary} & \textbf{Predicted} & \textbf{Actual} & \textbf{String} & \textbf{Cprob} & \textbf{Type } \\
+\hline
+Diamond Peacock Earrings & Lovely peacock earrings studded with diamonds, kundans and pearls and embellished with enamel work. & Fancy & Fancy & embellished with enamel & 0.0 & 3-gram\\
+\hline
+Pacchi Mango Necklace & 22 carat gold pacchi mango necklace studded with polki diamonds, diamonds, rubies and emerald from Mor Jewellers. & Stones & Stones & Rubies and emerald & 0.0 & 3-gram\\
+\hline
+Pretty Diamond Chandbalis & Cute diamond chandbali earrings in medium size studded with diamonds, rubies, emeralds and south sea pearl drops & Stones & Stones & Diamond chandbali & 0.0 & 2-gram\\
+\hline
+5 Grams Simple Black Beads Mangalsutra & 22 carat gold light weight simple black beads mangalsutra chain strung with gold balls and south sea pearls & Stones & Fancy & 5 grams & 0.0 & 1-gram\\
+\hline
+Ruby Mango Mala & 22 carat gold beautiful traditional mango mala studded with rubies, emeralds and uncut diamonds & Fancy & Traditional & Mala & 0.0 & 1-gram\\
+\hline
+Khushbu Sundar in Gundla Mala & Actress Khushbu Sundar in two line gold gundla mala strung with a few turquoise beads. & Traditional & Celebrity & khushbu & 0.0 & 1-gram \\
+\hline
+Light Weight Uncut Diamond Chandbalis & 22 carat gold light weight uncut diamond chandbalis with south sea pearl drops from Kothari Jewellers. & Stones & Stones   & uncut Diamond & 0.0 & 2-gram\\
+\hline
+Pacchi Mango Necklace & Beautiful pacchi mango necklace studded with polki diamonds, rubies, emeralds and south sea pearl drops and finished with intricate Nakshi work. & Traditional & Traditional & Pacchi & 0.0 & 1-gram\\
+\hline
+Bridal Diamond Necklace & Dazzling diamond necklace sprinkled with shimmering diamonds and a large emerald from Shree Rajmahal Jewellers. & Stones & Stones & bridal diamond & 0.0 & 2-gram\\
+\hline
+Simple Diamond Bangles & 18 carat gold simple and elegant diamond bangles from Vummidi Jewellers. & Stones & Stones & Elegant diamond & 0.0 & 2-gram\\
+
+\hline
+\end{tabular}
+\caption{Automatically classified next 10 entries form 80 to 90 entries}
+\label{table:q2-6}
+\end{table}
+
+\begin{table}
+\small
+\begin{tabular}{ | p{2.3cm} | p{4.4cm} | p{1.5cm} | p{1.5cm} | p{2.0cm}|p{1.3cm}|p{1.3cm}|}
+\hline
+\textbf{Title} & \textbf{summary} & \textbf{Predicted} & \textbf{Actual} & \textbf{String} & \textbf{Cprob} & \textbf{Type } \\
+\hline
+ Elegant Pearls Mala with Carved Ruby Pendant & Eye-catching south sea pearls strand with carved ruby pendant topped with uncut diamond flower motif from Umrao Jewels. & Traditional & Fancy & Carved ruby & 0.0 & 2-gram \\
+\hline
+Anushka in Two Tier Jhumkas & Ansuhka in two tier gold jhumkas studded with rubies and turquoise stones. & Fancy & Celebrity & Anushka & 0.0 & 1-gram\\
+\hline
+Broad Gold & Kada Broad gold kada crafted in 22 carat gold with intricate design from Vummidi Jewellers. & Traditional & Fancy & Crafted & 0.0 & 1-gram\\
+\hline
+Multistring Pearls Necklace with Pendant & Gorgeous multistring pearls necklace with beautiful gold pendant studded with rubies, kundans and emerald from Shree Raj Mahal Jewellers. & Stones & Fancy & Multistring & 0.0 & 1-gram\\
+\hline
+Dazzling Ruby Diamond Earrings & Latest ruby diamond earrings in 18 carat gold that can be teamed up with any outfit. & Stones & Fancy & Dazzling & 0.0 & 1-gram\\
+\hline
+Exquisite Polki Diamond Waist Belt & 22 carat gold stunning temple Nakshi work vaddanam studded with polki diamonds in pacchi setting, rubies and emeralds & Stones & Traditional & Temple nakshi & 0.0 & 2-gram\\
+\hline
+Sukumar Wife Tabitha in Mango Necklace & Tollywood director Sukumar wife Tabitha looked elegant in traditional saree teamed up with ruby and cz stones mango necklace set at "Chakkiligintha" audio release function. & Celebrity & Celebrity & sukumar & 0.0 & 1-gram\\
+\hline
+Nakshi Work Mango Peacock Necklace & 22 carat gold antique finish gorgeous mango peacock design necklace with intricate Nakshi work studded with polki diamonds in pacchi setting, emerald and rubies & Traditional & Traditional & Intricate nakshi work & 0.0 & 3-gram\\
+\hline
+Lord Krishna Antique Jhumkas & 22 carat gold elegant antique finish Nakshi work jhumkas with Lord Krishna tops studded with uncut diamonds, emerald beads and pearls. & Traditional & Traditional & lord krishna antique & 0.0 & 3-gram\\
+\hline
+Antique Kundan Earrings & 22 carat gold antique finish lovely pair of earrings studded with kundans and south sea pearl drops. & Traditional & Traditional & Antique kundan & 0.0 & 2-gram\\
+
+\hline
+\end{tabular}
+\caption{Automatically classified next 10 entries from 90 to 100}
+\label{table:q2-7}
+\end{table}
+
+
+
